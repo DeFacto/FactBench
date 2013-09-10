@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Golden_State_Warriors>
+        rdfs:label     "Golden State Warriors"@en , "Golden State Warriors"@de , "Golden State Warriors"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Warriors_de_Golden_State> , <http://de.dbpedia.org/resource/Golden_State_Warriors> ;
+        skos:altLabel  "GS Warrriors"@de , "GS Warrriors"@fr , "GS Warrriors"@en , "Warriorsworld.net"@en , "Golden States Warriors"@fr , "Warriorsworld.net"@de , "Warriorsworld.net"@fr , "Oakland Warriors"@de , "Oakland Warriors"@fr , "Oakland Warriors"@en , "Warriors du golden state"@fr , "San Francisco Warriors"@en , "San Francisco Warriors"@de , "San Francisco Warriors"@fr , "Golden State"@en , "Golden State"@de , "Golden State"@fr , "Warriors de Philadelphie"@fr , "Golden St. Warriors"@de , "Golden St. Warriors"@fr , "Golden St. Warriors"@en , "Warrior"@en , "Warrior"@de , "Warrior"@fr , "Warriors de Golden State"@fr , "Philadelphia Warriors"@de , "Philadelphia Warriors"@fr , "Philadelphia Warriors"@en , "Warriors de San Francisco"@fr , "GS Warriors"@de , "GS Warriors"@fr , "GS Warriors"@en , "Warriors du Golden State"@fr , "Golden State Warriors"@en , "Golden State Warriors"@de , "Golden State Warriors"@fr , "Golden st. warriors"@de , "Golden st. warriors"@fr , "Golden st. warriors"@en , "Goldens State Warriors"@de , "Goldens State Warriors"@fr , "Goldens State Warriors"@en .
+
+<http://rdf.freebase.com/ns/m.01zwy__1>
+        dbo:from      "1989"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Golden_State_Warriors> ;
+        dbo:to        "1989"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01zwy>
+        rdfs:label     "Carl Sagan"@en , "Carl Sagan"@fr , "Carl Sagan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zwy__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Carl_Sagan> , <http://de.dbpedia.org/resource/Carl_Sagan> , <http://dbpedia.org/resource/Carl_Sagan> ;
+        skos:altLabel  "Carl sagan"@de , "William H. Mount"@en , "William H. Mount"@fr , "William H. Mount"@de , "Sagan"@en , "Sagan"@fr , "Sagan"@de , "Sagan, Carl Edward"@en , "Sagan, Carl Edward"@fr , "Sagan, Carl Edward"@de , "Karl Sagan"@en , "Karl Sagan"@fr , "Karl Sagan"@de , "Carl Sagan"@en , "Dr. Carl Sagan"@en , "Carl Sagan"@fr , "Dr. Carl Sagan"@fr , "Carl Sagan"@de , "Dr. Carl Sagan"@de , "Carl Edward Sagan"@en , "Carl Edward Sagan"@fr , "Carl Edward Sagan"@de , "Carl E. Sagan"@en , "Carl E. Sagan"@fr , "Carl E. Sagan"@de , "carl_sagan"@en , "Sagan, Carl"@en , "Sagan, Carl"@fr , "Sagan, Carl"@de , "Carl sagan"@en , "Carl sagan"@fr .

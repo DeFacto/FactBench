@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09s5td>
+        rdfs:label     "Christopher Knight"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09s5td__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Christopher_Knight_(actor)> ;
+        skos:altLabel  "Christopher A. Knight"@en , "Christopher Knight"@en , "Christopher Anton Knight"@en , "Chris Knight"@en .
+
+<http://rdf.freebase.com/ns/m.09s5td__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.07ts0_> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07ts0_>
+        rdfs:label     "L. Scott Caldwell"@en , "L. Scott Caldwell"@fr , "L. Scott Caldwell"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/L._Scott_Caldwell> , <http://dbpedia.org/resource/L._Scott_Caldwell> ;
+        skos:altLabel  "Scotty Caldwell"@en , "L. Scott Caldwell"@fr , "Laverne Scott"@en , "L. Scott Caldwell"@en , "Laverne Scott Caldwell"@en .

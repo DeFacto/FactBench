@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tunis>
+        rdfs:label     "Tunis"@de , "Tunis"@fr , "Tunis"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tunis> , <http://de.dbpedia.org/resource/Tunis> ;
+        skos:altLabel  "Tunisois"@fr , "Tunis"@en , "Tunis"@de , "Tunis"@fr , "Portes de Tunis"@fr , "Emirate of Tunis"@en , "Emirate of Tunis"@de , "Emirate of Tunis"@fr , "Tunes, Tunisia"@en , "Tunes, Tunisia"@de , "Tunes, Tunisia"@fr , "Borjsedria, Tunisia"@en , "Borjsedria, Tunisia"@de , "Borjsedria, Tunisia"@fr , "Capital of Tunisia"@de , "Capital of Tunisia"@fr , "Capital of Tunisia"@en , "Tunis, Tunisia"@en , "Tunis, Tunisia"@de , "Tunis, Tunisia"@fr , "Tūnis, Tunisia"@de , "Tūnis, Tunisia"@fr , "Tūnis, Tunisia"@en , "Tunis, TS"@de , "Tunis, TS"@fr , "Tunis, TS"@en , "Borj Cédria, Tunisia"@en , "Borj Cédria, Tunisia"@de , "Borj Cédria, Tunisia"@fr , "Tunes"@en , "Tunes"@de , "Tunes"@fr , "Tūnis"@en , "Medina of Tunis"@de , "Tūnis"@de , "Tūnis"@fr , "Medina of Tunis"@fr , "Medina of Tunis"@en , "Etymology of Tunis"@de , "Etymology of Tunis"@fr , "Etymology of Tunis"@en , "Capitale de la Tunisie"@fr , "Borj Cedria, Tunisia"@de , "Borj Cedria, Tunisia"@fr , "Borj Cedria, Tunisia"@en .
+
+<http://dbpedia.org/resource/Cary_Grant__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Tunis> ;
+        dbo:from        "1270"^^xsd:gYear ;
+        dbo:to          "1270"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Cary_Grant>
+        rdfs:label     "Cary Grant"@de , "Cary Grant"@fr , "Cary Grant"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Cary_Grant__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cary_Grant> , <http://de.dbpedia.org/resource/Cary_Grant> ;
+        skos:altLabel  "Cary"@de , "Cary"@fr , "Cary"@en , "Archibald Alexander Leach"@de , "Archibald Alexander Leach"@fr , "Archibald Alexander Leach"@en , "Cary Grant."@de , "Cary Grant."@fr , "Cary Grant."@en , "Archibald alec leach"@de , "Archibald alec leach"@fr , "Archibald alec leach"@en , "Cary grant filmography"@de , "Cary grant filmography"@fr , "Cary grant filmography"@en , "Leach"@de , "Leach"@fr , "Leach"@en , "Grant"@fr , "Carry Grant"@de , "Carry Grant"@fr , "Carry Grant"@en , "Archibald Leach"@fr , "Cary Grant filmography"@de , "Cary Grant filmography"@fr , "Cary Grant filmography"@en , "Archie Leach"@de , "Archie Leach"@fr , "Archie Leach"@en , "Cary Grant"@de , "Cary Grant"@fr , "Cary Grant"@en , "Cary grant"@de , "Cary grant"@fr , "Cary grant"@en , "Alexander Archibald Leach"@de .

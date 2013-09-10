@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kingston,_Ontario>
+        rdfs:label     "Kingston, Ontario"@de , "Kingston, Ontario"@fr , "Kingston, Ontario"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kingston_(Ontario)> , <http://de.dbpedia.org/resource/Kingston_(Ontario)> ;
+        skos:altLabel  "Kingston on"@en , "Kingston on"@de , "Kingston on"@fr , "Mile Square"@de , "Mile Square"@fr , "Mile Square"@en , "Kingston"@en , "Kingston"@de , "Kingston"@fr , "Kingston, Canada"@de , "Kingston, Canada"@fr , "Kingston, Canada"@en , "Henderson, Kingston, Ontario"@en , "Henderson, Kingston, Ontario"@de , "Henderson, Kingston, Ontario"@fr , "Kingston, ON"@en , "Kingston, ON"@de , "Kingston, ON"@fr , "Henderson, Ontario"@en , "Henderson, Ontario"@de , "Henderson, Ontario"@fr , "Kingston Ontario"@en , "Kingston Ontario"@de , "Kingston Ontario"@fr , "King's Town"@en , "King's Town"@de , "King's Town"@fr , "East Baybridge, Kingston"@en , "East Baybridge, Kingston"@de , "East Baybridge, Kingston"@fr , "Woodbine, Ontario"@de , "Woodbine, Ontario"@fr , "Woodbine, Ontario"@en , "Kingston, Ontario"@en , "Kingston, Ontario"@de , "Kingston, Ontario"@fr , "East Baybridge, Ontario"@de , "East Baybridge, Ontario"@fr , "East Baybridge, Ontario"@en , "Ontario Kingston"@en , "Ontario Kingston"@de , "Ontario Kingston"@fr , "Auden Park, Ontario"@en , "Auden Park, Ontario"@de , "Auden Park, Ontario"@fr , "Barriefield, Ontario"@de , "Barriefield, Ontario"@fr , "Barriefield, Ontario"@en .
+
+<http://dbpedia.org/resource/Bryan_Adams>
+        rdfs:label     "Bryan Adams"@en , "Bryan Adams"@fr , "Bryan Adams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bryan_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bryan_Adams> , <http://fr.dbpedia.org/resource/Bryan_Adams> ;
+        skos:altLabel  "Bryan Adams"@en , "Bryan Adams"@fr , "Bryan Adams"@de , "Brian Adams"@en , "Brian Adams"@fr , "Brian Adams"@de , "Adams"@fr , "Bryan Guy Adams"@en , "Bryan Guy Adams"@fr , "Bryan Guy Adams"@de , "Bryan"@fr , "Bryan adams"@en , "Groover from vancouver"@en , "Bryan Guy Adams, OC, OBC"@en , "Bryan adams"@fr , "Groover from vancouver"@fr , "Bryan Guy Adams, OC, OBC"@fr , "Bryan adams"@de , "Bryan Guy Adams, OC, OBC"@de , "Groover from vancouver"@de , "Zane Puff"@en , "The groover from vancouver"@en , "The groover from vancouver"@fr , "The groover from vancouver"@de , "Zane Puff"@fr , "Zane Puff"@de , "Byran Adams"@en , "Byran Adams"@fr , "Byran Adams"@de .
+
+<http://dbpedia.org/resource/Bryan_Adams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Kingston,_Ontario> ;
+        dbo:from        "1955"^^xsd:gYear ;
+        dbo:to          "1955"^^xsd:gYear .

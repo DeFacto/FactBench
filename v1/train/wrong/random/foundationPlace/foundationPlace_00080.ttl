@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03zv2t>
+        rdfs:label     "Lund"@en , "Lund"@fr , "Lund"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lund_(Suède)> , <http://de.dbpedia.org/resource/Lund> , <http://dbpedia.org/resource/Lund> ;
+        skos:altLabel  "Lund, Sweden"@en , "Lund, Sweden"@fr , "Lund, Sweden"@de , "LOCODE:SELUD"@fr , "LOCODE:SELUD"@de , "LOCODE:SELUD"@en , "Lund"@en , "Lund"@fr , "Lund"@de .
+
+<http://dbpedia.org/resource/Robbie_Williams__1>
+        dbo:from      "1997"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.03zv2t> ;
+        dbo:to        "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Robbie_Williams>
+        rdfs:label     "Robbie Williams"@fr , "Robbie Williams"@de , "Robbie Williams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robbie_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robbie_Williams> , <http://de.dbpedia.org/resource/Robbie_Williams> ;
+        skos:altLabel  "Robbie williams"@en , "Robbie williams"@fr , "Robbie williams"@de , "Pure Frances"@en , "Farrell"@en , "Rabi viliams"@en , "Pure Frances"@fr , "Rabi viliams"@fr , "Pure Frances"@de , "Rabi viliams"@de , "Robbie"@fr , "Farrell"@fr , "Farrell"@de , "Råbi viliams"@en , "Robbie Williams"@en , "Robert Peter Williams"@en , "Williams, Robbie"@en , "Robbie William"@fr , "Råbi viliams"@fr , "Robbie Williams"@fr , "Williams"@fr , "Robert Peter Williams"@fr , "Robbie Williams"@de , "Robert Peter Maximilian Williams"@de , "Robby Williams"@de , "Williams, Robbie"@fr , "Råbi viliams"@de , "Robert Peter Williams"@de , "Williams, Robbie"@de .

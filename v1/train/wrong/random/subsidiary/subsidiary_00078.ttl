@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.030r44l>
+        rdfs:label  "ProQuent Systems"@en .
+
+<http://dbpedia.org/resource/Kurt_Vonnegut>
+        rdfs:label     "Kurt Vonnegut"@de , "Kurt Vonnegut"@fr , "Kurt Vonnegut"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kurt_Vonnegut__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kurt_Vonnegut> , <http://fr.dbpedia.org/resource/Kurt_Vonnegut> ;
+        skos:altLabel  "Vonnegut hero"@en , "Kurt Vonegut"@en , "Diana Moon Glampers"@en , "Kurt Vonegut"@de , "Kurt Vonegut"@fr , "Diana Moon Glampers"@de , "Diana Moon Glampers"@fr , "Vonnegut hero"@de , "Vonnegut hero"@fr , "Kurt vonnegutt"@en , "Kurt vonnegutt"@de , "Kurt vonnegutt"@fr , "Kurt Vonegut, Jr."@en , "Kurt Vonegut, Jr."@de , "Kurt Vonegut, Jr."@fr , "Kurt Vonnegut Junior"@fr , "Kurt Vonagut"@en , "Kurt Vonagut"@de , "Kurt Vonagut"@fr , "Kurt Vonnegut, Jr"@en , "Kurt Vonnegut, Jr"@de , "Kurt Vonnegut, Jr"@fr , "Kirk Vonagut"@en , "Kirk Vonagut"@de , "Kirk Vonagut"@fr , "Vonnegut"@en , "Vonnegut"@de , "Vonnegut"@fr , "Kurt Vonnegut"@en , "Kurt Vonnegut"@de , "Kurt Vonnegut"@fr , "Vonnegutian"@en , "Vonnegutian"@de , "Vonnegutian"@fr , "Kurt Vonnegut Jr."@en , "Kurt Vonnegut Jr."@fr , "Kurt Vonnegut Jr."@de , "Kurt Vonnegut, Jr."@en , "Kurt Vonnegut, Jr."@de , "Kurt Vonnegut, Jr."@fr , "Kurt"@en , "Kurt"@fr , "Kurt"@de , "Diana moon-glampers"@en , "Diana moon-glampers"@de , "Diana moon-glampers"@fr , "Kurt Vonneguet"@en , "Kurt Vonneguet"@fr , "Kurt Vonneguet"@de , "Kurt Vonnegutt"@en , "Kurt Vonnegutt"@de , "Kurt Vonnegutt"@fr , "Kurt Vonnegut Jr"@en , "Kurt Vonnegut Jr"@de , "Kurt Vonnegut Jr"@fr , "Diana Moon-Glampers"@en , "Diana Moon-Glampers"@de , "Diana Moon-Glampers"@fr .
+
+<http://dbpedia.org/resource/Kurt_Vonnegut__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.030r44l> ;
+        dbo:from             "2006"^^xsd:gYear ;
+        dbo:to               "2006"^^xsd:gYear .

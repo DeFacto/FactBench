@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/West_Hollywood,_California>
+        rdfs:label     "West Hollywood, California"@de , "West Hollywood, California"@fr , "West Hollywood, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/West_Hollywood> , <http://de.dbpedia.org/resource/West_Hollywood> ;
+        skos:altLabel  "West hollywood california"@de , "West hollywood california"@fr , "West hollywood california"@en , "Sherman, California"@de , "Sherman, California"@fr , "Sherman, California"@en , "West Hollywood, California"@de , "West Hollywood, California"@fr , "West Hollywood, California"@en , "LOCODE:USWWU"@de , "LOCODE:USWWU"@fr , "LOCODE:USWWU"@en , "West Hollywood, Los Angeles, CA"@de , "West Hollywood, Los Angeles, CA"@fr , "West Hollywood, Los Angeles, CA"@en , "WeHo"@de , "WeHo"@fr , "WeHo"@en , "West Hollywood, Los Angeles, California"@de , "West Hollywood, Los Angeles, California"@fr , "West Hollywood, Los Angeles, California"@en , "WEHO"@de , "WEHO"@fr , "WEHO"@en , "Historic Boystown - West Hollywood"@de , "Historic Boystown - West Hollywood"@fr , "Historic Boystown - West Hollywood"@en , "Historic Boystown"@de , "Historic Boystown"@fr , "Historic Boystown"@en , "West Hollywood, CA"@en , "West Hollywood, CA"@de , "West Hollywood, CA"@fr , "West Hollywood"@de , "West Hollywood"@fr , "West Hollywood"@en , "Hollywood"@de , "Hollywood"@fr .
+
+<http://dbpedia.org/resource/Oscar_Peterson>
+        rdfs:label     "Oscar Peterson"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Peterson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Peterson> , <http://de.dbpedia.org/resource/Oscar_Peterson> ;
+        skos:altLabel  "Advanced School of Contemporary Music"@en , "Advanced School of Contemporary Music"@fr , "Advanced School of Contemporary Music"@de , "Oscar Petersen"@en , "Oscar Petersen"@fr , "Oscar Petersen"@de , "Oscar Emmanuel Peterson"@en , "Oscar Emmanuel Peterson"@fr , "Oscar Emmanuel Peterson"@de , "Oscar Peterson"@en , "Oscar Peterson Trio"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de , "Oscar Peterson Trio"@fr , "Oscar Peterson Trio"@de , "Peterson"@fr , "Oscar peterson"@en , "Oscar peterson"@fr , "Oscar peterson"@de , "In the Key of Oscar"@en , "In the Key of Oscar"@fr , "In the Key of Oscar"@de .
+
+<http://dbpedia.org/resource/Oscar_Peterson__1>
+        dbo:from    "1997"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/West_Hollywood,_California> ;
+        dbo:to      "1997"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0928l6>
+        rdfs:label     "Chelsea Handler"@en , "Chelsea Handler"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0928l6__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Chelsea_Handler> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Chelsea_Handler> ;
+        skos:altLabel  "Chelsea Joy Handler"@en , "Chelsea Joy Handler"@de , "The Sexy Handler"@en , "Handler"@de , "Chelsea Handler"@de .
+
+<http://rdf.freebase.com/ns/m.05m63c>
+        rdfs:label     "Krista Allen"@en , "Krista Allen"@fr , "Krista Allen"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Krista_Allen> , <http://fr.dbpedia.org/resource/Krista_Allen> , <http://dbpedia.org/resource/Krista_Allen> ;
+        skos:altLabel  "Krista Moritt"@en , "Krista Allen-Moritt"@fr , "Krista Allen-Moritt"@de , "Krista Allen-Moritt"@en , "Krista J. Allen"@en , "Krista Allen"@fr , "Krista Allen"@de .
+
+<http://rdf.freebase.com/ns/m.0928l6__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05m63c> ;
+        dbo:to      "2010"^^xsd:gYear .

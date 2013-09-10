@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yugoslavia>
+        rdfs:label     "Yugoslavia"@de , "Yugoslavia"@fr , "Yugoslavia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jugoslawien> , <http://fr.dbpedia.org/resource/Yougoslavie> ;
+        skos:altLabel  "Demographics of the former Yugoslavia"@en , "Demographics of the former Yugoslavia"@fr , "Demographics of the former Yugoslavia"@de , "Yugoslavien"@de , "Jugoszlavia"@de , "Yougoslavie"@fr , "ExYu"@en , "ExYu"@fr , "ExYu"@de , "Südslawien"@de , "Jugosllavia"@de , "Ex-Jugoslawien"@de , "Histoire de la Yougoslavie"@fr , "Serboslavia"@en , "Serboslavia"@fr , "Serboslavia"@de , "Yougoslavia"@en , "Yugoslavia"@en , "Yougoslavia"@fr , "Yugoslavia"@fr , "Yugoslavia"@de , "Yougoslavia"@de , "Yougo"@fr , "Jugoslawien"@de , "Jugo"@de , "History of Yugoslavia"@en , "Republic of Yugoslavia"@en , "History of Yugoslavia"@fr , "History of Yugoslavia"@de , "Republic of Yugoslavia"@fr , "Republic of Yugoslavia"@de , "Yugosavia"@en , "Yugosavia"@fr , "Yugosavia"@de , "South slavia"@en , "South slavia"@fr , "South slavia"@de , "Yugoslav"@en , "Jugoslavia"@en , "Yugoslav"@fr , "Jugoslavia"@fr , "Yugoslav"@de , "Jugoslavia"@de , "Jugoslavija"@en , "Jugoslavija"@de , "Jugoslavija"@fr , "Yugosalvia"@en , "Yugosalvia"@fr , "Yugosalvia"@de , "SHS-Konigreich"@de , "Jugoszlávia"@de , "ISO 3166-1:YU"@en , "ISO 3166-1:YU"@fr , "ISO 3166-1:YU"@de , "Jugoslavije"@en , "SHS-Königreich"@de , "Jugoslavije"@fr , "Jugoslavije"@de , "South Slavia"@en , "South Slavia"@fr , "South Slavia"@de , "Yugosphere"@en , "Yugosphere"@fr , "Yugosphere"@de , "Yugo."@en , "Yugo."@de , "Yugo."@fr , "Ex-Yougoslavie"@fr , "Yugoslawien"@de , "Ex-Yu"@en , "Ex-Yu"@de , "Ex-Yu"@fr , "History"@en , "History"@fr , "History"@de , "Sudslawien"@de , "Jugoslawischer"@de .
+
+<http://dbpedia.org/resource/Josip_Broz_Tito>
+        rdfs:label     "Josip Broz Tito"@de , "Josip Broz Tito"@fr , "Josip Broz Tito"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Josip_Broz_Tito__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Josip_Broz_Tito> , <http://de.dbpedia.org/resource/Josip_Broz_Tito> ;
+        skos:altLabel  "Joseph Tito"@en , "Joseph Tito"@de , "Joseph Tito"@fr , "Marshal Josip Broz Tito"@en , "Marshal Josip Broz Tito"@de , "Marshal Josip Broz Tito"@fr , "J.B.Tito"@fr , "Marechal Tito"@fr , "Titiste"@fr , "Josip Brozović"@en , "Josip Brozović"@fr , "Josip Brozović"@de , "Josip Broz Tito"@en , "Josip Broz Tito"@de , "Josip Broz Tito"@fr , "Broz Tito"@en , "Broz Tito"@fr , "Broz Tito"@de , "Josip Broz"@en , "Josip Broz"@fr , "Josip Broz"@de , "Josip"@en , "Josip"@fr , "Josip"@de , "Josip Brozovich"@en , "Marshall Josip Broz Tito"@en , "Josip Broj Tito"@fr , "Josep Tito"@en , "Marshall Tito"@en , "Marshall Tito"@de , "Marshall Tito"@fr , "Marsal Tito"@en , "Marshall Josip Broz Tito"@fr , "Marshall Josip Broz Tito"@de , "Joseph Broz Tito"@en , "Drug Tito"@en , "Josip Brozovich"@fr , "Josip Broz dit Tito"@fr , "Josep Tito"@fr , "Josep Tito"@de , "Marsal Tito"@fr , "Marsal Tito"@de , "Drug Tito"@fr , "Drug Tito"@de , "Josip Brozovich"@de , "Joseph Broz Tito"@fr , "Joseph Broz Tito"@de , "Tito"@en , "Joseph brozovic"@en , "Tito"@fr , "Joseph brozovic"@fr , "Joseph brozovic"@de , "Tito"@de , "Maršal Tito"@en , "Maršal Tito"@de , "Maršal Tito"@fr , "Broz"@en , "Marshal Tito"@en , "Josip Tito"@en , "Broz"@fr , "Marshal Tito"@fr , "Josip Tito"@de , "Josip Tito"@fr , "Broz"@de , "Marshal Tito"@de , "Marschall Tito"@de , "Josep Broz Tito"@en , "Josep Broz Tito"@fr , "Josep Broz Tito"@de , "Maréchal Tito"@fr , "Josef Broz Tito"@en , "Josef Broz Tito"@fr , "Josef Broz Tito"@de , "Josip Broz, Marshal Tito"@en , "Josip Broz, Marshal Tito"@de , "Josip Broz, Marshal Tito"@fr , "Josip Brozovic"@en , "Josip Brozovic"@fr , "Josip Brozovic"@de , "Josip Broz-Tito"@en , "Maršal Josip Broz Tito"@en , "Josip Broz-Tito"@fr , "Maršal Josip Broz Tito"@fr , "Maršal Josip Broz Tito"@de , "Josip Broz-Tito"@de , "Marsal Josip Broz Tito"@en , "Marsal Josip Broz Tito"@fr , "Marsal Josip Broz Tito"@de .
+
+<http://dbpedia.org/resource/Josip_Broz_Tito__1>
+        dbo:from    "1940"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Yugoslavia> ;
+        dbo:to      "1948"^^xsd:gYear .

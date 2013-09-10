@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paramakudi>
+        rdfs:label     "Paramakudi"@en , "Paramakudi"@fr , "Paramakudi"@de ;
+        skos:altLabel  "Paramakudi"@en , "Paramakkudi"@en .
+
+<http://dbpedia.org/resource/Venus_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Paramakudi> ;
+        dbo:from        "1954"^^xsd:gYear ;
+        dbo:to          "1954"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Venus_Williams>
+        rdfs:label     "Venus Williams"@en , "Venus Williams"@fr , "Venus Williams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Venus_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Venus_Williams> , <http://de.dbpedia.org/resource/Venus_Williams> ;
+        skos:altLabel  "Vénus Williams"@fr , "Venus Williams"@en , "Williams"@fr , "Venus Williams"@fr , "Venus Williams"@de , "Venus"@en , "Venus"@fr , "Venus"@de , "Venus Ebone Starr Williams"@en , "Venus Ebone Starr Williams"@de , "Venus Ebone Starr Williams"@fr .

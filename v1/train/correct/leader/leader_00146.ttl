@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jigme_Thinley__1>
+        dbo:from    "2008-04-09"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Bhutan> ;
+        dbo:to      "2013-07-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Jigme_Thinley>
+        rdfs:label     "Jigme Thinley"@en , "Jigme Thinley"@fr , "Jigme Thinley"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Jigme_Thinley__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jigme_Thinley> , <http://fr.dbpedia.org/resource/Jigme_Thinley> ;
+        skos:altLabel  "Lyonpo Jigme Thinley"@en , "Jigmi Yoezer Thinley"@fr , "Jigmi Yoezer Thinley"@de , "Jigmi Yoezer Thinley"@en , "Jigme Yoser Thinley"@fr , "Jigme Thinley"@fr , "Jigme Yoser Thinley"@de , "Jigme Thinley"@de , "Jigme Yoser Thinley"@en , "Jigme Thinley"@en , "Jigmi Kinley"@fr , "Jigmi Kinley"@de , "Jigmi Kinley"@en , "Lyonpo Jigme Yoser Thinley"@fr , "Lyonpo Jigme Yoser Thinley"@de , "Lyonpo Jigme Yoser Thinley"@en , "Jigmi Thinley"@fr , "Jigme Y. Thinley"@fr , "Jigmi Thinley"@de , "Jigmi Y Thinley"@de , "Jigme Yoezer Thinley"@de , "Jigme Y. Thinley"@de , "Jigmi Thinley"@en , "Jigme Y. Thinley"@en , "Jigme Kinley"@fr , "Jigme Kinley"@de , "Jigme Kinley"@en , "Lyonchen Jigmi Yoser Thinley"@fr , "Lyonchen Jigmi Yoser Thinley"@de , "Lyonchen Jigmi Yoser Thinley"@en , "Lyonpo Jigme Thinley"@fr , "Lyonpo Jigme Thinley"@de .
+
+<http://dbpedia.org/resource/Bhutan>
+        rdfs:label     "Bhutan"@de , "Bhutan"@fr , "Bhutan"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bhutan> , <http://fr.dbpedia.org/resource/Bhoutan> ;
+        skos:altLabel  "Druk-Gyal-Khab"@fr , "Druk-Gyal-Khab"@de , "Druk-Gyal-Khab"@en , "ISO 3166-1:BT"@fr , "ISO 3166-1:BT"@en , "ISO 3166-1:BT"@de , "Druk Yul"@fr , "Druk"@fr , "Druk Yul"@de , "Druk Yul"@en , "Druk"@en , "Druk"@de , "Lho Men Jong"@fr , "Lho Men Jong"@de , "Lho Men Jong"@en , "Kingdom of Bhután"@fr , "Kingdom of Bhután"@en , "Kingdom of Bhután"@de , "Boutan"@fr , "Bhutan, demography"@fr , "Subdivisions of Bhutan"@fr , "Subdivisions of Bhutan"@en , "Subdivisions of Bhutan"@de , "Bhutan, demography"@de , "Bhutan, demography"@en , "Lho Mon"@fr , "Lho Mon"@en , "Lho Mon"@de , "Buhtan"@fr , "Buhtan"@de , "Buhtan"@en , "Bootan"@fr , "Bootan"@en , "Bootan"@de , "Administrative divisions of Bhutan"@fr , "Königreich Bhutan"@de , "Administrative divisions of Bhutan"@de , "Administrative divisions of Bhutan"@en , "Name of Bhutan"@fr , "Name of Bhutan"@de , "Name of Bhutan"@en , "BHUTAN"@fr , "BHUTAN"@en , "BHUTAN"@de , "Bhután"@fr , "Bhután"@en , "Bhután"@de , "Bouthan"@fr , "Lho Tsendenjong"@fr , "Lho Tsendenjong"@en , "Lho Tsendenjong"@de , "Kingdom of Bhutan"@fr , "Konigreich Bhutan"@de , "Kingdom of Bhutan"@en , "Kingdom of Bhutan"@de , "Royaume du Bhoutan"@fr , "Bhûtan"@fr , "Lhomen Khazhi"@fr , "Transnational issues"@fr , "Lhomen Khazhi"@de , "Transnational issues"@de , "Transnational issues"@en , "Lhomen Khazhi"@en , "Butan"@fr , "Butan"@en , "Butan"@de , "Bhoutan"@fr , "Bhoutan"@de , "Bhoutan"@en , "Etymology of Bhutan"@fr , "Etymology of Bhutan"@de , "Etymology of Bhutan"@en , "Bhutan"@fr , "Bhutan"@en , "Bhutan"@de .

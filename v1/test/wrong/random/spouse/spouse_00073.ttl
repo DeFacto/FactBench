@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02ngbf>
+        rdfs:label     "Solange Knowles"@en , "Solange Knowles"@fr , "Solange Knowles"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Solange_Knowles> , <http://fr.dbpedia.org/resource/Solange_Knowles> , <http://de.dbpedia.org/resource/Solange_Knowles> ;
+        skos:altLabel  "Knowles, Solange"@en , "Pretty Good"@en , "Pretty Good"@fr , "Pretty Good"@de , "Knowles"@de , "Beyonce's sister"@en , "Beyonce's sister"@fr , "Beyonce's sister"@de , "Piaget"@en , "Piaget"@fr , "Piaget"@de , "Solange"@en , "Solange Piaget Knowles"@en , "Solange"@fr , "Solange"@de , "Solange Piaget Knowles"@fr , "Solange Piaget Knowles"@de , "Solange Knowles"@en , "Solange Knowles"@fr , "Solange Knowles"@de , "Solange Knowles-Smith"@en , "Solange Ijiat Knowles"@en , "Solange Knowles Smith"@en .
+
+<http://dbpedia.org/resource/Donna_Summer>
+        rdfs:label     "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Donna_Summer__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Donna_Summer> , <http://de.dbpedia.org/resource/Donna_Summer> ;
+        skos:altLabel  "Queen of disco"@en , "Queen of disco"@fr , "Queen of disco"@de , "LaDonna Andrea Gaines"@fr , "Queen of Disco"@en , "Queen of Disco"@fr , "Queen of Disco"@de , "Summer"@en , "Donna summer"@en , "Donna Summers"@en , "Donna Summers"@fr , "Donna Summers"@de , "Donna summer"@fr , "Donna summer"@de , "Summer"@fr , "Summer"@de , "Dona summer"@en , "Love To Love You Baby"@fr , "Dona summer"@fr , "Dona summer"@de , "Bad Girls"@fr , "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de .
+
+<http://dbpedia.org/resource/Donna_Summer__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02ngbf> ;
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:to      "2011"^^xsd:gYear .

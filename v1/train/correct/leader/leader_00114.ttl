@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Abdullah_Ahmad_Badawi>
+        rdfs:label     "Abdullah Ahmad Badawi"@de , "Abdullah Ahmad Badawi"@fr , "Abdullah Ahmad Badawi"@en ;
+        dbo:inOffice   <http://dbpedia.org/resource/Abdullah_Ahmad_Badawi__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Abdullah_Ahmad_Badawi> , <http://fr.dbpedia.org/resource/Abdullah_Ahmad_Badawi> ;
+        skos:altLabel  "Datuk Abdullah Ahmad Badawi"@de , "Badawi"@fr , "Badawi"@en , "Badawi"@de , "Pak Lah"@fr , "Pak Lah"@en , "Pak Lah"@de , "Abdullah bin Haji Ahmad Badawi"@fr , "Abdullah bin Haji Ahmad Badawi"@en , "Abdullah bin Haji Ahmad Badawi"@de , "Abdullah Badawi"@fr , "Abdullah Badawi"@en , "Abdullah Badawi"@de , "Datuk Abdullah Ahmed Badwi"@fr , "Datuk Abdullah Ahmed Badwi"@en , "Datuk Abdullah Ahmed Badwi"@de , "Badawi, Abdullah Ahmed"@fr , "Badawi, Abdullah Ahmed"@en , "Badawi, Abdullah Ahmed"@de , "Dato' Seri Abdullah bin Haji Ahmad Badawi"@fr , "Dato' Seri Abdullah bin Haji Ahmad Badawi"@en , "Dato' Seri Abdullah bin Haji Ahmad Badawi"@de , "Ahmad"@fr , "Ahmad"@en , "Ahmad"@de , "Datuk Seri Abdullah bin Haji Ahmad Badawi"@fr , "Tun Abdullah Badawi"@fr , "Abdullah Ahmad Badawi"@fr , "Tun Abdullah Badawi"@en , "Tun Abdullah Badawi"@de , "Abdullah Ahmad Badawi"@en , "Abdullah Ahmad Badawi"@de , "Datuk Seri Abdullah bin Haji Ahmad Badawi"@en , "Datuk Seri Abdullah bin Haji Ahmad Badawi"@de , "Prime Minister Abdullah Ahmad Badawi"@fr , "Prime Minister Abdullah Ahmad Badawi"@en , "Prime Minister Abdullah Ahmad Badawi"@de , "Ahmad Badavi"@fr , "Ahmad Badavi"@en , "Ahmad Badavi"@de , "Tun Abdullah Ahmad Badawi"@fr , "Tun Abdullah Ahmad Badawi"@en , "Tun Abdullah Ahmad Badawi"@de , "Dato’ Seri Abdullah Ahmad Badawi"@fr , "Dato’ Seri Abdullah Ahmad Badawi"@en , "Dato’ Seri Abdullah Ahmad Badawi"@de , "Datuk Seri Abdullah Ahmad Badawi"@fr , "Datuk Seri Abdullah Ahmad Badawi"@en , "Datuk Seri Abdullah Ahmad Badawi"@de , "Datuk Abdullah Ahmad Badawi"@fr , "Datuk Abdullah Ahmad Badawi"@en .
+
+<http://dbpedia.org/resource/Malaysia>
+        rdfs:label     "Malaysia"@de , "Malaysia"@fr , "Malaysia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Malaysia> , <http://fr.dbpedia.org/resource/Malaisie> ;
+        skos:altLabel  "Name of Malaysia"@fr , "Name of Malaysia"@en , "Name of Malaysia"@de , "ISO 3166-1:MY"@fr , "ISO 3166-1:MY"@de , "ISO 3166-1:MY"@en , "Malaysia sports"@fr , "Malaysia sports"@de , "Malaysia sports"@en , "Republic of Malaysia"@fr , "Republic of Malaysia"@de , "Republic of Malaysia"@en , "MSIA"@fr , "MSIA"@en , "MSIA"@de , "Subdivisions of Malaysia"@fr , "Subdivisions of Malaysia"@en , "Subdivisions of Malaysia"@de , "Malaya"@fr , "Malaya"@de , "Malaya"@en , "Maylasia"@fr , "Maylasia"@en , "Maylasia"@de , "Fédération de Malaysia"@fr , "MALAYSIA"@fr , "Federation state of Malaysia"@fr , "Islam in Malaysia"@de , "MALAYSIA"@de , "Federation state of Malaysia"@en , "Federation state of Malaysia"@de , "MALAYSIA"@en , "Federation de Malaysia"@fr , "M'sia"@fr , "M'sia"@en , "M'sia"@de , "Malaysian Federation"@fr , "Malaysian Federation"@de , "Malaysian Federation"@en , "Malaysians"@fr , "Malaysians"@de , "Malaysians"@en , "Malayasia"@fr , "Malayasia"@de , "Malayasia"@en , "Maylaysia"@fr , "Maylaysia"@de , "Maylaysia"@en , "Malaixiya"@fr , "Malaixiya"@de , "Malaixiya"@en , "Malais"@fr , "Embassy of Malaysia"@fr , "Embassy of Malaysia"@de , "Embassy of Malaysia"@en , "Malyasia"@fr , "Malaysie"@fr , "Malasia"@fr , "Malasia"@en , "Malasia"@de , "Malyasia"@de , "Malyasia"@en , "Malaisia"@fr , "Malaisie"@fr , "Malaisia"@de , "Malaisia"@en , "Malaisie"@de , "Malaisie"@en , "Malaise"@fr , "Malaysien"@de , "Persekutuan Malaysia"@fr , "Malay"@fr , "Malay"@de , "Malay"@en , "Persekutuan Malaysia"@de , "Persekutuan Malaysia"@en , "Federation of Malaysia"@fr , "Federation of Malaysia"@de , "Federation of Malaysia"@en , "Etymology of Malaysia"@fr , "Etymology of Malaysia"@en , "Etymology of Malaysia"@de , "Malaysia"@fr , "Malaysia"@de , "Malaysia"@en .
+
+<http://dbpedia.org/resource/Abdullah_Ahmad_Badawi__1>
+        dbo:from    "2003-10-31"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Malaysia> ;
+        dbo:to      "2009-04-03"^^xsd:date .

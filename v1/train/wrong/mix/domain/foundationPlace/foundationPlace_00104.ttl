@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0sgtz>
+        rdfs:label     "Belleville"@en , "Belleville"@fr , "Belleville"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Belleville,_Illinois> , <http://de.dbpedia.org/resource/Belleville_(Illinois)> , <http://fr.dbpedia.org/resource/Belleville_(Illinois)> ;
+        skos:altLabel  "Belleville"@en , "Belleville"@fr , "Belleville"@de , "Belleville, Il"@en , "Belleville, IL"@en , "Belleville, Il"@fr , "Belleville, IL"@fr , "Belleville, Il"@de , "Belleville, IL"@de , "Belleville Township"@en , "Belleville, Illinois"@en , "Belleville Township"@fr , "Belleville, Illinois"@fr , "Belleville, Illinois"@de , "Belleville Township"@de , "Belleville Township, St. Clair County, Illinois"@en , "Belleville Township, St. Clair County, Illinois"@fr , "Belleville Township, St. Clair County, Illinois"@de , "LOCODE:USBLV"@en , "LOCODE:USBLV"@fr , "LOCODE:USBLV"@de , "St. Clair County / Belleville city"@en , "Belleville Illinois"@en , "Belleville Illinois"@fr , "Belleville Illinois"@de .
+
+<http://rdf.freebase.com/ns/m.04svnf>
+        rdfs:label     "Siebel Systems"@en , "Siebel Systems"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04svnf__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Siebel_Systems> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Siebel_Systems> ;
+        skos:altLabel  "Siebel CRM"@de , "Siebel Analytics"@de , "Siebel Systems"@de , "Customer experience blueprint"@de , "Siebel Sales"@de , "Siebel software"@de , "Siebel"@de , "Siebel Systems Inc"@en , "Siebel Systems Inc"@de , "Siebel Systems, Inc."@de .
+
+<http://rdf.freebase.com/ns/m.04svnf__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0sgtz> ;
+        dbo:from             "2000"^^xsd:gYear ;
+        dbo:to               "2000"^^xsd:gYear .

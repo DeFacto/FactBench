@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_l39__1>
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02pwb07> ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02pwb07>
+        rdfs:label     "Sling Media Inc."@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Sling_Media> ;
+        skos:altLabel  "Sling Media"@en .
+
+<http://rdf.freebase.com/ns/m.02_l39>
+        rdfs:label     "NBCUniversal"@de , "NBCUniversal"@fr , "NBCUniversal"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02_l39__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/NBCUniversal> , <http://fr.dbpedia.org/resource/NBCUniversal> , <http://dbpedia.org/resource/NBCUniversal> ;
+        skos:altLabel  "NBCUniversal"@de , "NBCUniversal"@fr , "NBCUniversal"@en , "NBC Uni"@en , "Comcast NBCUniversal"@en , "Comcast NBCUniversal"@de , "Comcast NBCUniversal"@fr , "NBCUniversal Media, LLC"@en , "NBC Universal Global Networks Deutschland"@de , "Universal"@de , "Universal"@fr , "Universal"@en , "Nbc universal"@en , "Nbc universal"@de , "Nbc universal"@fr , "NBC Universal Inc."@de , "NBC Universal Inc."@fr , "NBC Universal Inc."@en , "Universal NBC"@de , "Universal NBC"@fr , "Universal NBC"@en , "NBCUniversal, LLC"@de , "NBCUniversal, LLC"@fr , "NBCUniversal, LLC"@en , "NBC Universal, Inc."@en , "NBC Universal, Inc."@de , "NBC Universal, Inc."@fr , "NBCUni"@en , "NBCUni"@de , "NBCUni"@fr , "NBC Universal"@en , "NBC Universal"@de , "NBC Universal"@fr , "NBC Universal, Inc"@de , "NBC Universal, Inc"@fr , "NBC Universal, Inc"@en , "NBC-Universal"@de , "NBC-Universal"@fr , "NBC-Universal"@en , "NBCU"@en , "NBCU"@de , "NBCU"@fr .

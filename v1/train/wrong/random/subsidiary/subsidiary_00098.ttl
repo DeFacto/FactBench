@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Los_Angeles_Lakers>
+        rdfs:label     "Los Angeles Lakers"@de , "Los Angeles Lakers"@fr , "Los Angeles Lakers"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Los_Angeles_Lakers> , <http://fr.dbpedia.org/resource/Lakers_de_Los_Angeles> ;
+        skos:altLabel  "Los Angeles Laker"@en , "Los Angeles Laker"@de , "Los Angeles Laker"@fr , "Gems de Détroit"@fr , "Lakers de los angeles"@fr , "Lakers de Los Angeles"@fr , "The Los Angeles Lakers"@en , "Lakers De Los Angeles"@fr , "Losangeles lakers"@de , "Losangeles lakers"@fr , "The Los Angeles Lakers"@de , "The Los Angeles Lakers"@fr , "Losangeles lakers"@en , "Laker"@en , "Laker"@de , "Minneapolis Lakers"@de , "Minneapolis Lakers"@fr , "Minneapolis Lakers"@en , "Laker"@fr , "Minnesota Lakers"@de , "Minnesota Lakers"@fr , "Minnesota Lakers"@en , "Lakers"@en , "Lakers"@de , "Lakers"@fr , "Gems de Detroit"@fr , "Los Angeles Lakers retired numbers"@en , "Los Angeles Lakers retired numbers"@de , "Los Angeles Lakers retired numbers"@fr , "L.A. Lakers"@en , "L.A. Lakers"@de , "L.A. Lakers"@fr , "LA Lakers"@en , "LA Lakers"@de , "LA Lakers"@fr , "Lakers de Minneapolis"@fr , "L. A. Lakers"@de , "La lakers"@en , "La lakers"@de , "La lakers"@fr , "Detroit Gems"@fr , "Los Angeles Lakers"@en , "Los Angeles Lakers"@de , "Los Angeles Lakers"@fr , "L.a lakers"@en , "L.a lakers"@de , "L.a lakers"@fr .
+
+<http://rdf.freebase.com/ns/m.05njw__1>
+        dbo:award  <http://dbpedia.org/resource/Los_Angeles_Lakers> ;
+        dbo:from   "2007"^^xsd:gYear ;
+        dbo:to     "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05njw>
+        rdfs:label     "Oracle"@de , "Oracle Corporation"@fr , "Oracle Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05njw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Oracle> , <http://dbpedia.org/resource/Oracle_Corporation> , <http://fr.dbpedia.org/resource/Oracle_Corporation> ;
+        skos:altLabel  "Oracle"@en , "Oracle"@de , "Oracle"@fr , "ORACLE CORP"@en , "Oracle Corporation"@de , "Oracle Corporation"@fr , "Oracle Corporation"@en , "The Oracle Corporation"@de , "The Oracle Corporation"@fr , "The Oracle Corporation"@en , "Oracle.com"@en , "Oracle.com"@de , "Oracle.com"@fr , "Oracle Corp"@en , "Oracle corporation"@en , "Oracle corporation"@de , "Oracle corporation"@fr , "Oracle Corp"@de , "Oracle Corp"@fr , "Oracle Corp."@de , "Oracle Corp."@fr , "Oracle Corp."@en , "ORACLE Corporation"@en , "Oracle corp."@de , "Oracle corp."@fr , "Oracle corp."@en , "ORACLE Corporation"@de , "ORACLE Corporation"@fr , "ORCL"@de , "ORCL"@fr , "ORCL"@en , "Oracle corp"@de , "Oracle corp"@fr , "Oracle corp"@en , "Siebel Systems"@fr , "Oracle France"@fr , "SCOracle"@en , "SCOracle"@de , "SCOracle"@fr , "InQuira"@en , "InQuira"@de , "InQuira"@fr , "Ozark Holding Inc"@en .

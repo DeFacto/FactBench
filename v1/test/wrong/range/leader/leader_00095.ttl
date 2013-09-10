@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Joaquim_Rafael_Branco__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Laos> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Laos>
+        rdfs:label     "Laos"@de , "Laos"@fr , "Laos"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Laos> , <http://de.dbpedia.org/resource/Laos> ;
+        skos:altLabel  "Administrative divisions of Laos"@en , "Administrative divisions of Laos"@fr , "Administrative divisions of Laos"@de , "Etymology of Laos"@en , "Etymology of Laos"@de , "Etymology of Laos"@fr , "Laote"@de , "Republique populaire"@fr , "LPDR"@en , "LPDR"@de , "LPDR"@fr , "Sport in Laos"@en , "Sport in Laos"@fr , "Sport in Laos"@de , "Sathalanalat Pasathipatai Pasason Lao"@fr , "République populaire démocratique lao"@fr , "Sathalanalat Paxathipatai Paxaxon Lao"@en , "République démocratique populaire lao"@fr , "Sathalanalat Paxathipatai Paxaxon Lao"@fr , "Sathalanalat Paxathipatai Paxaxon Lao"@de , "République populaire"@fr , "Lao P. D. R."@en , "Lao P. D. R."@de , "Lao P. D. R."@fr , "ISO 3166-1:LA"@en , "Demokratische Volksrepublik Laos"@de , "ISO 3166-1:LA"@fr , "ISO 3166-1:LA"@de , "République démocratique"@fr , "Laos"@en , "Laos"@fr , "République démocratique populaire du Laos"@fr , "Laos"@de , "Name of Laos"@en , "Republique populaire democratique lao"@fr , "Name of Laos"@fr , "Name of Laos"@de , "Lao People’s Democratic Republic"@en , "Languages of Laos"@en , "Republique democratique populaire lao"@fr , "Lao People’s Democratic Republic"@fr , "Republique democratique populaire du Laos"@fr , "Languages of Laos"@de , "Languages of Laos"@fr , "Lao People’s Democratic Republic"@de , "Lao Peoples' Democratic Republic"@en , "Lao Peoples' Democratic Republic"@de , "Lao Peoples' Democratic Republic"@fr , "Lao P D R"@en , "Lao People's Democratic Republic"@en , "Lao P D R"@de , "Lao P D R"@fr , "Lao People's Democratic Republic"@de , "Lao People's Democratic Republic"@fr , "Subdivisions of Laos"@en , "Subdivisions of Laos"@fr , "Subdivisions of Laos"@de , "Laos PDR"@en , "Laos PDR"@fr , "Laos PDR"@de , "Republique democratique"@fr , "Saathiaranagroat Prachhathippatay Prachhachhon Lao"@en , "Saathiaranagroat Prachhathippatay Prachhachhon Lao"@de , "Saathiaranagroat Prachhathippatay Prachhachhon Lao"@fr , "Lao People's Dem. Republic"@en , "Lao People's Dem. Republic"@de , "Lao People's Dem. Republic"@fr , "Lao P.D.R."@en , "Lao P.D.R."@de , "Lao P.D.R."@fr , "Lao PDR"@en , "Lao PDR"@de , "Lao PDR"@fr .
+
+<http://dbpedia.org/resource/Joaquim_Rafael_Branco>
+        rdfs:label     "Joaquim Rafael Branco"@en , "Joaquim Rafael Branco"@fr , "Joaquim Rafael Branco"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Joaquim_Rafael_Branco__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Joaquim_Rafael_Branco> , <http://fr.dbpedia.org/resource/Joaquim_Rafael_Branco> ;
+        skos:altLabel  "Joaquim Rafael Branco"@fr , "Joaquim Rafael Branco"@de , "Joaquim"@fr , "Joaquim"@de , "Branco"@fr , "Branco"@de .

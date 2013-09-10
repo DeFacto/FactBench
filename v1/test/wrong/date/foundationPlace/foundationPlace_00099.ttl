@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03kb7b__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0fpzwf> ;
+        dbo:from             "1986"^^xsd:gYear ;
+        dbo:to               "1986"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fpzwf>
+        rdfs:label     "Minneapolis"@de , "Minneapolis"@fr , "Minneapolis"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minneapolis> , <http://dbpedia.org/resource/Minneapolis> , <http://fr.dbpedia.org/resource/Minneapolis> ;
+        skos:altLabel  "Minneapolis, USA"@en , "Minneapolis, USA"@de , "Minneapolis, USA"@fr , "LOCODE:USMES"@en , "Hennepin County / Minneapolis city"@en , "LOCODE:USMES"@de , "LOCODE:USMES"@fr , "Minneapolis, Minnesota, US"@en , "Minneapolis, Minnesota, US"@fr , "Minneapolis, Minnesota, US"@de , "Minneapolis,Minnesota"@en , "Minneapolis, Minn."@en , "Minneapolis,Minnesota"@fr , "Minneapolis, Minn."@fr , "Minneapolis,Minnesota"@de , "Minneapolis, Minn."@de , "Minneapolis, Minnesota, U.S."@en , "Minneapolis, Hennepin County, Minnesota"@en , "Minneapolis, Minnesota, U.S."@fr , "Minneapolis, Minnesota, U.S."@de , "Minneapolis, Hennepin County, Minnesota"@fr , "Minneapolis, Hennepin County, Minnesota"@de , "Minneapolis MN"@en , "Minneapolitan"@en , "Minneapolis MN"@fr , "Minneapolis MN"@de , "Minneapolitan"@de , "Minneapolitan"@fr , "Minneapolis, United States"@en , "Minneapolis, United States"@de , "Minneapolis, United States"@fr , "Murderapolis"@en , "Murderapolis"@de , "Murderapolis"@fr , "Minneapolis, Minnesota"@en , "Minneapolis, Minnesota"@fr , "Minneapolis, Minnesota"@de , "Minneapolis Minnesota"@en , "Minneapolis Minnesota"@fr , "Minneapolis Minnesota"@de , "The Minneapolis Convention Center"@en , "The Minneapolis Convention Center"@de , "The Minneapolis Convention Center"@fr , "Mineapolis"@en , "Mineapolis"@fr , "Mineapolis"@de , "Minneapolis"@en , "Minneapolis"@de , "Minneapolis"@fr , "City of Minneapolis"@en , "Minneapolis, Minnesota, USA"@en , "Minneapolis, Minnesota, USA"@de , "Minneapolis, Minnesota, USA"@fr , "City of Minneapolis"@de , "City of Minneapolis"@fr , "Minneapolis, Minnesota, U.S.A."@en , "Minneapolis, mn"@en , "Minneapolis, Minnesota, U.S.A."@fr , "Minneapolis, mn"@de , "Minneapolis, mn"@fr , "Minneapolis, Minnesota, U.S.A."@de , "First city of the west"@en , "Minneapolis, MN"@en , "Minneapolis, MN"@de , "Minneapolis, MN"@fr , "First city of the west"@de , "First city of the west"@fr , "Walker Methodist Health Center"@en , "Walker Methodist Health Center"@de , "Walker Methodist Health Center"@fr , "Minneapolis,MN"@en , "Minneapolis,MN"@fr , "Minneapolis,MN"@de .
+
+<http://rdf.freebase.com/ns/m.03kb7b>
+        rdfs:label     "Lawson Software"@en , "Lawson Software"@fr , "Lawson Software"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03kb7b__1> ;
+        skos:altLabel  "Lawson Software Americas, Inc"@en , "Lawson Software Americas Inc"@en , "Lawson Software, Inc."@en , "LAWSON HOLDINGS INC"@en , "LAWSON SOFTWARE INC"@en .

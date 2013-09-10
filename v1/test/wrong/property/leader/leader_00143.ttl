@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yemen>
+        rdfs:label     "Yemen"@de , "Yemen"@fr , "Yemen"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jemen> , <http://fr.dbpedia.org/resource/Yémen> ;
+        skos:altLabel  "Darmar, Yemen"@en , "Darmar, Yemen"@de , "Darmar, Yemen"@fr , "Yemenite"@fr , "Yemen AR"@en , "Republik Jemen"@de , "Yemen AR"@de , "Yemen AR"@fr , "Yémenite"@fr , "ISO 3166-1:YE"@en , "ISO 3166-1:YE"@de , "ISO 3166-1:YE"@fr , "Khochna, Yemen"@en , "Khochna, Yemen"@de , "Khochna, Yemen"@fr , "Yemen, Republic of"@en , "Yemen, Republic of"@de , "Yemen, Republic of"@fr , "Arabia Felix"@de , "République du Yémen"@fr , "Al-Yaman"@en , "Etymology of Yemen"@en , "Al-Yaman"@de , "Etymology of Yemen"@de , "Etymology of Yemen"@fr , "Al-Yaman"@fr , "Yemem"@en , "Yemem"@de , "Yemem"@fr , "Yémen"@fr , "Thilla"@en , "Thilla"@de , "Thilla"@fr , "Jemen"@en , "Jemen"@de , "Jemen"@fr , "Languages of Yemen"@en , "Republic of Yemen"@en , "Languages of Yemen"@de , "Languages of Yemen"@fr , "Republic of Yemen"@de , "Republic of Yemen"@fr , "Yemens"@en , "Yemens"@de , "Yemens"@fr , "Yemen"@en , "Yemen"@de , "Yemen"@fr , "Yéménite"@fr , "Arabia"@de , "Republique du Yemen"@fr .
+
+<http://dbpedia.org/resource/Abdul_Qadir_Bajamal>
+        rdfs:label     "Abdul Qadir Bajamal"@en , "Abdul Qadir Bajamal"@fr , "Abdul Qadir Bajamal"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Abdul_Qadir_Bajamal__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Abd_al-Qadir_Badschamal> ;
+        skos:altLabel  "Badschamal"@de , "Abd al-Qadir Badschamal"@de , "Abdel Qadir Bajamal"@en , "Abdel Qadir Bajamal"@de , "Abdul Qader Bajamal"@en , "Abdul Qader Bajamal"@de , "Abdul Qadir Bajamal"@en , "Abdul Qadir Bajamal"@de , "Abdul Qadir"@en , "Abdul Qadir"@de .
+
+<http://dbpedia.org/resource/Abdul_Qadir_Bajamal__1>
+        dbo:from  "2001"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Yemen> ;
+        dbo:to    "2007"^^xsd:gYear .

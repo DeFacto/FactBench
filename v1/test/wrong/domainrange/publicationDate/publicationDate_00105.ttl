@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02gfjl>
+        rdfs:label     "Marge Piercy"@en , "Marge Piercy"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02gfjl__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Marge_Piercy> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Marge_Piercy> ;
+        skos:altLabel  "Piercy, Marge"@en , "Marge"@de , "Piercy"@de , "M Piercy"@en , "Marge Piercy"@de .
+
+<http://rdf.freebase.com/ns/m.02gfjl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0dr0_b> ;
+        dbo:from    "1969"^^xsd:gYear ;
+        dbo:to      "1969"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0dr0_b>
+        rdfs:label  "Back in the USSA"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Back_in_the_USSA> .

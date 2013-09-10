@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Königsberg>
+        rdfs:label     "Königsberg"@en , "Königsberg"@fr , "Königsberg"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Königsberg_(Preußen)> ;
+        skos:altLabel  "Konigsberg"@de , "Konigsberg in Preußen"@de , "Königsberg"@de , "Stadtkreis Königsberg"@de , "Konigsberg i. Pr."@de , "Stadtkreis Konigsberg"@de , "Konigsbarg"@de , "Königsberg i. Pr."@de , "Königsbarg"@de , "Königsberg in Preußen"@de .
+
+<http://dbpedia.org/resource/Beck__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Königsberg> ;
+        dbo:from        "1724"^^xsd:gYear ;
+        dbo:to          "1724"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Beck>
+        rdfs:label     "Beck"@de , "Beck"@fr , "Beck"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Beck__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beck_Hansen> , <http://de.dbpedia.org/resource/Beck_(Musiker)> ;
+        skos:altLabel  "Fingerpaint Records"@en , "Fingerpaint Records"@de , "Fingerpaint Records"@fr , "A Brief Overview"@de , "A Brief Overview"@fr , "A Brief Overview"@en , "Beck Hansen"@de , "Beck Hansen"@fr , "Beck Hansen"@en , "Bek Hansen"@fr , "Beck Hanson"@de , "Beck Hanson"@fr , "Beck Hanson"@en , "Hansen"@de , "Bek Campbell"@de , "Bek Campbell"@fr , "Bek Campbell"@en , "Hansen"@fr , "Hansen"@en , "Beck singer"@de , "Beck singer"@fr , "Beck singer"@en , "Bek David Campbell"@de , "Bek David Campbell"@fr , "Bek David Campbell"@en , "Steve Threw Up"@de , "Steve Threw Up"@fr , "Steve Threw Up"@en , "Beck"@de , "Beck"@fr , "Beck"@en , "Overview"@de , "Overview"@fr , "Overview"@en .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cape_Colony>
+        rdfs:label     "Cape Colony"@de , "Cape Colony"@fr , "Cape Colony"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Colonie_du_Cap> , <http://de.dbpedia.org/resource/Kapkolonie> ;
+        skos:altLabel  "Cape Colony"@de , "Cape Colony"@fr , "Cape Colony"@en , "Cape colony"@de , "Cape colony"@fr , "Cape colony"@en , "Colonie Du Cap"@fr , "Colonie du Cap"@fr , "Kaapkolonie"@en , "Kaapkolonie"@de , "Kaapkolonie"@fr , "Kapland"@de , "Colonie du cap"@fr , "Governor of the Cape Colony"@en , "Governor of the Cape Colony"@de , "Governor of the Cape Colony"@fr , "Colony of the Cape of Good Hope"@de , "Colony of the Cape of Good Hope"@fr , "Colony of the Cape of Good Hope"@en , "Prime Minister of Cape Colony"@de , "Prime Minister of Cape Colony"@fr , "Prime Minister of Cape Colony"@en , "Governor of Cape Colony"@de , "Governor of Cape Colony"@fr , "Governor of Cape Colony"@en , "Commander of the Cape"@en , "Commander of the Cape"@de , "Commander of the Cape"@fr , "Dutch Cape colony"@de , "Dutch Cape colony"@fr , "Dutch Cape colony"@en , "Kapkolonie"@de , "Geschichte der Kapkolonie vor 1806"@de , "Geschichte der Kapkolonie"@de , "Governor-General of the Cape Colony"@de , "Governor-General of the Cape Colony"@fr , "Governor-General of the Cape Colony"@en , "Prime Minister of the Cape Colony"@de , "Prime Minister of the Cape Colony"@fr , "Prime Minister of the Cape Colony"@en .
+
+<http://dbpedia.org/resource/Taha_al-Hashimi>
+        rdfs:label     "Taha al-Hashimi"@en , "Taha al-Hashimi"@fr , "Taha al-Hashimi"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Taha_al-Hashimi__1> ;
+        skos:altLabel  "Taha al-Hashimi"@en .
+
+<http://dbpedia.org/resource/Taha_al-Hashimi__1>
+        dbo:from    "1989"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Cape_Colony> ;
+        dbo:to      "1989"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Madison,_Wisconsin>
+        rdfs:label     "Madison, Wisconsin"@de , "Madison, Wisconsin"@fr , "Madison, Wisconsin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Madison_(Wisconsin)> , <http://fr.dbpedia.org/resource/Madison_(Wisconsin)> ;
+        skos:altLabel  "LOCODE:USMSN"@de , "Madison, Wisconsin"@fr , "Madison, Wisconsin"@en , "Madison, Wisconsin"@de , "Madison wisconsin"@fr , "Madison wisconsin"@en , "Madison wisconsin"@de , "Madison (city), Dane County, Wisconsin"@fr , "Madison (city), Dane County, Wisconsin"@en , "Madison (city), Dane County, Wisconsin"@de , "Madison (city), Dane County, WI"@fr , "Madison (city), Dane County, WI"@en , "Madison (city), Dane County, WI"@de , "Madison, Wi"@fr , "Madison, Wi"@en , "Madison, Wi"@de , "Madison Wisconsin"@fr , "Madison Wisconsin"@en , "Madison Wisconsin"@de , "Madison (city), WI"@fr , "Madison (city), WI"@en , "Madison (city), WI"@de , "Madison, WI"@fr , "Madison, WI"@en , "Madison, WI"@de , "Madison, wi"@fr , "Madison, wi"@en , "Madison, wi"@de , "Madison"@en , "Madison"@de , "Madison"@fr , "Madison WI"@fr , "Madison WI"@en , "Madison WI"@de , "Madison,Wisconsin"@fr , "Madison,Wisconsin"@de , "Madison,Wisconsin"@en , "Madison (city), Wisconsin"@fr , "Madison (city), Wisconsin"@en , "Madison (city), Wisconsin"@de , "Capital of Wisconsin"@fr , "Capital of Wisconsin"@en , "Capital of Wisconsin"@de , "Madison Area Music Awards"@en , "Madison Area Music Awards"@de , "Madison Area Music Awards"@fr , "LOCODE:USMSN"@fr , "LOCODE:USMSN"@en .
+
+<http://dbpedia.org/resource/Otis_Redding>
+        rdfs:label     "Otis Redding"@en , "Otis Redding"@fr , "Otis Redding"@de ;
+        dbo:death      <http://dbpedia.org/resource/Otis_Redding__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Otis_Redding> , <http://de.dbpedia.org/resource/Otis_Redding> ;
+        skos:altLabel  "Redding"@fr , "Redding"@de , "Redding"@en , "Ottis Readding"@fr , "Otis Redding"@fr , "Otis Redding"@de , "Otis Redding"@en , "Otis Readding"@fr , "Otis reding"@fr , "version 1"@fr , "version 1"@de , "version 1"@en , "Remember Me"@fr , "Otis Reading"@fr , "Otis Reading"@de , "Otis Reading"@en , "Otis"@fr , "Ottis redding"@fr , "Otis redding"@fr , "Ottis redding"@de , "Ottis redding"@en , "Otis redding"@de , "Otis redding"@en .
+
+<http://dbpedia.org/resource/Otis_Redding__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Madison,_Wisconsin> ;
+        dbo:from        "1967-12-10"^^xsd:date ;
+        dbo:to          "1967-12-10"^^xsd:date .

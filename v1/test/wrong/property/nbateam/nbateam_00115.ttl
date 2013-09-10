@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kendrick_Perkins__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Boston_Celtics> ;
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:to          "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kendrick_Perkins>
+        rdfs:label     "Kendrick Perkins"@de , "Kendrick Perkins"@en , "Kendrick Perkins"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kendrick_Perkins__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kendrick_Perkins> , <http://fr.dbpedia.org/resource/Kendrick_Perkins> ;
+        skos:altLabel  "Kendrick Perkins"@en , "Kendrick Perkins"@fr , "Kendrick Perkins"@de , "Perkins"@en , "Perkins"@fr , "Perkins"@de .
+
+<http://dbpedia.org/resource/Boston_Celtics>
+        rdfs:label     "Boston Celtics"@de , "Boston Celtics"@en , "Boston Celtics"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Boston_Celtics> , <http://fr.dbpedia.org/resource/Celtics_de_Boston> ;
+        skos:altLabel  "Boston Celts"@en , "Boston Celts"@fr , "Boston Celts"@de , "Boston Celtic"@en , "Celtics de boston"@fr , "Boston Celtics"@en , "Boston Celtic"@fr , "Boston Celtics"@fr , "Boston Celtic"@de , "Boston Celtics"@de , "Celtics de Boston"@fr , "The C's"@en , "The C's"@fr , "Celtics De Boston"@fr , "The C's"@de , "Celtic"@en , "Celtic"@fr , "Celtic"@de .

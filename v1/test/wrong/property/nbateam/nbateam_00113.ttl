@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/New_Orleans_Hornets>
+        rdfs:label     "New Orleans Hornets"@en , "New Orleans Hornets"@fr , "New Orleans Hornets"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/New_Orleans_Hornets> , <http://fr.dbpedia.org/resource/Hornets_de_la_Nouvelle-Orléans> ;
+        skos:altLabel  "Hornets De La Nouvelle-Orléans"@fr , "Hornets de la nouvelle-orléans"@fr , "Hornets De La Nouvelle-Orleans"@fr , "Hornets de la nouvelle-orleans"@fr , "Hornets"@de , "Oklahoma City Hornets"@en , "Oklahoma City Hornets"@fr , "Oklahoma City Hornets"@de , "Hornets, New Orleans"@en , "Hornets, New Orleans"@fr , "Hornets de la Nouvelle Orleans"@fr , "Hornets de la Nouvelle Orléans"@fr , "Charlotte Hornets"@fr , "Hornets, New Orleans"@de , "Charlotte Hornets"@de , "Hornets de la Nouvelle-Orléans"@fr , "Hornets de la Nouvelle-Orleans"@fr , "New Orleans Hornets"@en , "New Orleans Hornets"@fr , "New Orleans Hornets"@de , "Oklahoma City"@fr , "Hornet"@en , "Hornet"@fr , "Hornet"@de .
+
+<http://dbpedia.org/resource/Chris_Kaman>
+        rdfs:label     "Chris Kaman"@en , "Chris Kaman"@fr , "Chris Kaman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Kaman__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chris_Kaman> , <http://fr.dbpedia.org/resource/Chris_Kaman> ;
+        skos:altLabel  "Christopher Zane Kaman"@fr , "Chris Kaman"@de , "Christopher Zane Kaman"@de , "Kaman"@en , "Kaman"@de , "Kaman"@fr , "Christopher Kaman"@en , "Christopher Kaman"@fr , "Christopher Kaman"@de , "Chris Kaman"@en , "Christopher Zane Kaman"@en , "Chris Kaman"@fr .
+
+<http://dbpedia.org/resource/Chris_Kaman__1>
+        dbo:author  <http://dbpedia.org/resource/New_Orleans_Hornets> ;
+        dbo:from    "2011"^^xsd:gYear ;
+        dbo:to      "2011"^^xsd:gYear .

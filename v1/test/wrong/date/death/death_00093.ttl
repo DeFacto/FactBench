@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Isaac_Hayes>
+        rdfs:label     "Isaac Hayes"@en , "Isaac Hayes"@fr , "Isaac Hayes"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Isaac_Hayes__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Isaac_Hayes> , <http://fr.dbpedia.org/resource/Isaac_Hayes> ;
+        skos:altLabel  "Isaac hayes"@en , "Isaac Lee Hayes"@en , "Isaac hayes"@fr , "Isaac Lee Hayes"@fr , "Isaac hayes"@de , "Isaac Lee Hayes"@de , "Isaac Hayes"@en , "Isaac Hayes"@fr , "Isaac Hayes"@de , "Isacc hayes"@en , "Isacc hayes"@fr , "Isacc hayes"@de , "Issac Hayes"@en , "Issac Hayes"@fr , "Issac Hayes"@de , "Isaac"@fr , "Hayes"@fr , "Black Moses"@de .
+
+<http://dbpedia.org/resource/Memphis,_Tennessee>
+        rdfs:label     "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennessee"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Memphis_(Tennessee)> , <http://de.dbpedia.org/resource/Memphis_(Tennessee)> ;
+        skos:altLabel  "Memphis TN"@de , "Memphis TN"@fr , "Memphis TN"@en , "Memphis, Tennesse"@de , "Memphis, Tennesse"@fr , "Memphis, Tennesse"@en , "LOCODE:USMEM"@en , "LOCODE:USMEM"@de , "LOCODE:USMEM"@fr , "TN Memphis"@en , "TN Memphis"@de , "TN Memphis"@fr , "Memphis"@en , "Memphis"@de , "Memphis"@fr , "Memphis Tennessee"@de , "Memphis Tennessee"@fr , "Memphis Tennessee"@en , "Memphis, tn"@en , "Memphis,TN"@en , "Memphis,TN"@de , "Memphis,TN"@fr , "Memphis, tn"@de , "Memphis, tn"@fr , "Memphrica"@de , "Memphrica"@fr , "Memphrica"@en , "Menphis"@en , "Menphis"@de , "Menphis"@fr , "Memphis, USA"@en , "Memphis, TN"@de , "Memphis, TN"@fr , "Memphis, TN"@en , "Memphis, USA"@fr , "Memphis, USA"@de , "Memfrica"@de , "Memfrica"@fr , "Memfrica"@en , "Memphis, Tennessee"@en , "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennesee"@de , "Memphis, Tennesee"@fr , "Memphis, Tennesee"@en .
+
+<http://dbpedia.org/resource/Isaac_Hayes__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Memphis,_Tennessee> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .

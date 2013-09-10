@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.024s_t>
+        rdfs:label     "Broken Angels"@en , "Anges déchus"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anges_déchus_(roman)> , <http://dbpedia.org/resource/Broken_Angels_(novel)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Anges dechus"@fr , "Broken Angels"@fr , "Anges déchus"@fr .
+
+<http://rdf.freebase.com/ns/m.01_t_w>
+        rdfs:label     "Richard Morgan"@fr , "Richard Morgan"@de , "Richard K. Morgan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01_t_w__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Richard_K._Morgan> , <http://de.dbpedia.org/resource/Richard_Morgan_(Schriftsteller)> , <http://fr.dbpedia.org/resource/Richard_Morgan> ;
+        skos:altLabel  "Richard Morgan"@en , "Richard Morgan"@fr , "Richard Morgan"@de , "Morgan"@fr , "Richard Kingsley Morgan"@en , "Richard K. Morgan"@en , "Richard K. Morgan"@fr , "Richard K. Morgan"@de , "Richard K Morgan"@en , "Richard K Morgan"@de , "Richard K Morgan"@fr .
+
+<http://rdf.freebase.com/ns/m.01_t_w__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.024s_t> ;
+        dbo:to      "2003"^^xsd:gYear .

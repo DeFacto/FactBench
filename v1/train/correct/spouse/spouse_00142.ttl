@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05r5w>
+        rdfs:label     "Pamela Anderson"@fr , "Pamela Anderson"@en , "Pamela Anderson"@de ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.05r5w__142> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pamela_Anderson> , <http://dbpedia.org/resource/Pamela_Anderson> , <http://de.dbpedia.org/resource/Pamela_Anderson> ;
+        skos:altLabel  "Pamela Lee"@fr , "Pamela Lee"@en , "Pamela Lee"@de , "Pam Andreson"@fr , "Pamela Lee Anderson"@fr , "Pam Andreson"@en , "Pam Andreson"@de , "Pamela Lee Anderson"@en , "Pamela Lee Anderson"@de , "Pamela Anderson"@fr , "Pamela Anderson"@en , "Pamela Anderson"@de , "Pamela Denise Anderson"@fr , "Miss february 1990"@fr , "Miss february 1990"@en , "Miss february 1990"@de , "Pamela Denise Anderson"@en , "Pamela Denise Anderson"@de , "Pamela anderson"@en , "Pamela anderson"@de , "Pamela anderson"@fr , "Anderson"@fr , "Pamela Anderson Lee"@fr , "Pamela Anderson Lee"@en , "Pamela Anderson Lee"@de , "Pammy"@en , "Pam Anderson"@fr , "Pam Anderson"@en , "Pam Anderson"@de , "Pam anderson"@en , "Pam anderson"@de , "Pam anderson"@fr , "Pamela andersson"@fr , "Pamela andersson"@en , "Pamela andersson"@de , "Pamala anderson"@fr , "Pamala anderson"@en , "Pamala anderson"@de , "Pamula Anderson"@fr , "Pamula Anderson"@en , "Pamula Anderson"@de , "Pamela Anderson House"@en , "Pamela Anderson House"@de , "Pamela Anderson House"@fr , "Pamela Anderson Lee Rock"@en .
+
+<http://rdf.freebase.com/ns/m.01vw20_>
+        rdfs:label     "Kid Rock"@de , "Kid Rock"@fr , "Kid Rock"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Kid_Rock> , <http://fr.dbpedia.org/resource/Kid_Rock> , <http://de.dbpedia.org/resource/Kid_Rock> ;
+        skos:altLabel  "Robert James \"Bob\" Ritchie"@en , "Robert Ritchie"@fr , "Kid Rock"@fr , "Kid Rock"@de , "Bob Ritchie"@en , "Kid Rock"@en , "Stefanie Eulinberg"@fr , "Robert Ritchie"@de , "Stefanie Eulinberg"@de , "Robert Ritchie"@en , "Stefanie Eulinberg"@en , "Twisted Brown Trucker"@fr , "Ritchie"@fr , "Twisted Brown Trucker"@de , "Ritchie"@de , "Twisted Brown Trucker"@en , "Ritchie"@en , "Rap Monkey"@fr , "Rap Monkey"@de , "Rap Monkey"@en , "Stephanie Eulinberg"@fr , "Stephanie Eulinberg"@de , "Stephanie Eulinberg"@en , "Bobby"@en , "Rock"@fr , "Bob"@en , "Kid rock"@fr , "Kid rock"@de , "Kid rock"@en , "Robert James Ritchie"@fr , "Robert James Ritchie"@de , "Robert James Ritchie"@en .
+
+<http://rdf.freebase.com/ns/m.05r5w__142>
+        dbo:from    "2006-08-03"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01vw20_> ;
+        dbo:to      "2007-02-01"^^xsd:date .

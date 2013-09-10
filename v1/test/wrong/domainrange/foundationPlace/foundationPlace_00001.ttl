@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02m958>
+        rdfs:label     "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sindelfingen> , <http://de.dbpedia.org/resource/Sindelfingen> , <http://dbpedia.org/resource/Sindelfingen> ;
+        skos:altLabel  "Sindelfingen, Germany"@en , "Sindelfingen, Germany"@de , "Sindelfingen, Germany"@fr , "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de , "Goldberg"@de , "Sindelfingen-Goldberg"@de , "Sindlefingen, germany"@en , "Sindlefingen, germany"@fr , "Sindlefingen, germany"@de .
+
+<http://rdf.freebase.com/ns/m.03c0zhb>
+        rdfs:label     "Picnik"@en , "Picnik"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03c0zhb__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Picnik> , <http://de.dbpedia.org/resource/Picnik> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Picnik"@de , "Google Picnik"@de , "Picnik.com"@de .
+
+<http://rdf.freebase.com/ns/m.03c0zhb__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02m958> ;
+        dbo:from             "1998"^^xsd:gYear ;
+        dbo:to               "1998"^^xsd:gYear .

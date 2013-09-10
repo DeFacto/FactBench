@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Ferrer__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Lynwood,_California> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Lynwood,_California>
+        rdfs:label     "Lynwood, California"@en , "Lynwood, California"@fr , "Lynwood, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lynwood_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lynwood> ;
+        skos:altLabel  "Lynwood, CA"@en , "Lynwood, CA"@fr , "Lynwood, CA"@de , "Lynwood, Ca"@en , "Lynwood, Ca"@fr , "Lynwood, Ca"@de , "Lynwood california"@en , "Lynwood california"@de , "Lynwood california"@fr , "LOCODE:USLYJ"@en , "Lynwood, California"@en , "LOCODE:USLYJ"@fr , "Lynwood, California"@fr , "Lynwood, California"@de , "LOCODE:USLYJ"@de , "Lynwood"@en , "Lynwood"@fr , "Lynwood"@de .
+
+<http://dbpedia.org/resource/David_Ferrer>
+        rdfs:label     "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Ferrer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Ferrer> , <http://fr.dbpedia.org/resource/David_Ferrer> ;
+        skos:altLabel  "Ferrer"@en , "Ferrer"@fr , "Ferrer"@de , "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de , "David Ferrer Ern"@en , "David Ferrer Ern Gaydamak"@en , "David Ferrer Ern Gaydamak"@fr , "David Ferrer Ern"@de , "David Ferrer Ern"@fr , "David Ferrer Ern Gaydamak"@de .

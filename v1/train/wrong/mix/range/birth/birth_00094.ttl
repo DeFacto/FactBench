@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Bernard_Shaw__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Brno> ;
+        dbo:from        "1856"^^xsd:gYear ;
+        dbo:to          "1856"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Bernard_Shaw>
+        rdfs:label     "George Bernard Shaw"@de , "George Bernard Shaw"@fr , "George Bernard Shaw"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Bernard_Shaw__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Bernard_Shaw> , <http://de.dbpedia.org/resource/George_Bernard_Shaw> ;
+        skos:altLabel  "George Bernard Shaw"@en , "George Bernard Shaw"@de , "George Bernard Shaw"@fr , "Bernard Shaw"@en , "Bernard Shaw"@de , "Bernard Shaw"@fr , "Plays Pleasant"@en , "Plays Pleasant"@de , "Plays Pleasant"@fr , "GB Shaw"@en , "GB Shaw"@de , "GB Shaw"@fr , "G.B. Shaw"@en , "G.B.Shaw"@en , "G.B. Shaw"@de , "G.B.Shaw"@de , "G.B.Shaw"@fr , "G.B. Shaw"@fr , "G. Bernard Shaw"@en , "G. Bernard Shaw"@de , "G. Bernard Shaw"@fr , "George Barnard Shaw"@en , "George Barnard Shaw"@de , "George Barnard Shaw"@fr , "Bernard"@en , "Bernard"@de , "Bernard"@fr , "Geneva, a Fancied Page of History in Three Acts"@de , "Geneva, a Fancied Page of History in Three Acts"@fr , "Geneva, a Fancied Page of History in Three Acts"@en , "Shaw"@de , "Shaw"@fr , "Plays Unpleasant"@de , "Plays Unpleasant"@fr , "Plays Unpleasant"@en , "G. B. Shaw"@de , "G. B. Shaw"@fr , "G. B. Shaw"@en , "Shaw, George Bernard"@de , "Shaw, George Bernard"@fr , "Shaw, George Bernard"@en , "Bernhard Shaw"@de , "George Bernhard Shaw"@de , "G B Shaw"@en , "G B Shaw"@de , "G B Shaw"@fr .
+
+<http://dbpedia.org/resource/Brno>
+        rdfs:label     "Brno"@de , "Brno"@fr , "Brno"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brno> , <http://de.dbpedia.org/resource/Brünn> ;
+        skos:altLabel  "LOCODE:CZBRQ"@en , "LOCODE:CZBRQ"@de , "LOCODE:CZBRQ"@fr , "Brno, Czech"@en , "Brno, Czech"@de , "Brno, Czech"@fr , "Brno City"@en , "Brno City"@de , "Brno City"@fr , "Brně"@de , "Brně"@fr , "Brně"@en , "Deutsche Technische Hochschule Brünn"@en , "Deutsche Technische Hochschule Brunn"@de , "Deutsche Technische Hochschule Brunn"@fr , "Deutsche Technische Hochschule Brünn"@de , "Deutsche Technische Hochschule Brünn"@fr , "Deutsche Technische Hochschule Brunn"@en , "Brno-Tuřany"@fr , "Brno, Czech Republic"@en , "Brno, Czech Republic"@de , "Brno, Czech Republic"@fr , "Exhibition Centre Brno"@en , "Exhibition Centre Brno"@de , "Exhibition Centre Brno"@fr , "Brünn"@en , "Brunn"@en , "Brünn"@de , "Brunn"@de , "Brunn"@fr , "Brünn"@fr , "Aeroport de Brno-Turany"@fr , "AUTOSALON Brno"@en , "AUTOSALON Brno"@de , "AUTOSALON Brno"@fr , "Brno"@de , "Brno"@fr , "Brno"@en , "Brne"@en , "Brne"@de , "Brne"@fr , "Bruenn"@en , "Bruenn"@de , "Bruenn"@fr , "Aéroport de Brno-Tuřany"@fr , "Brno-Turany"@fr , "Brno-Centre"@en , "Brno-Centre"@de , "Brno-Centre"@fr .

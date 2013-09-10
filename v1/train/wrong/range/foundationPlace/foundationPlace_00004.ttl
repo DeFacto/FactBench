@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03spz>
+        rdfs:label     "Israël"@fr , "Israel"@de , "Israel"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Israel> , <http://fr.dbpedia.org/resource/Israël> , <http://dbpedia.org/resource/Israel> ;
+        skos:altLabel  "Isra'il"@en , "Isra'il"@fr , "Isra'il"@de , "Medinat Yisra'el"@en , "Yisroel"@en , "Etat d'Israël"@fr , "Yisroel"@fr , "Yisroel"@de , "Medinat Yisra'el"@fr , "Medinat Yisra'el"@de , "État d'Israël"@fr , "State of Israel"@en , "State of Israel"@fr , "State of Israel"@de , "Etat d'Israel"@fr , "The state of Israel"@en , "The state of Israel"@fr , "The state of Israel"@de , "Statut de Jerusalem"@fr , "M'dinat Yisrael"@en , "Istrael"@en , "M'dinat Yisrael"@fr , "Istrael"@fr , "Istrael"@de , "M'dinat Yisrael"@de , "Israelim"@en , "Israelim"@fr , "Israelim"@de , "Hebrew state"@en , "ISO 3166-1:IL"@en , "Hebrew state"@fr , "ISO 3166-1:IL"@fr , "ISO 3166-1:IL"@de , "Hebrew state"@de , "Israeli state"@en , "Israeli state"@fr , "Israeli state"@de , "Israélienne"@fr , "Israelian"@en , "Israelian"@fr , "Israelian"@de , "Statut"@fr , "État hébreu"@fr , "Izrael"@en , "Izrael"@fr , "Izrael"@de , "Etat hebreu"@fr , "Israelis"@de , "État d’Israël"@fr , "Etat d’Israel"@fr , "Israel"@en , "Israel"@fr , "Israel"@de , "Medinat Israel"@en , "Medinat Israel"@fr , "Medinat Israel"@de , "Isreael"@en , "Isreael"@fr , "Isreael"@de , "Israéliennes"@fr , "Israeli"@en , "Israeli"@fr , "Israëlien"@fr , "Israeli"@de , "Yisra'el"@en , "Yisra'el"@fr , "Yisra'el"@de , "Republic of Israel"@en , "Modern Israel"@en , "İsrail"@en , "İsrail"@fr , "İsrail"@de , "Israelisch"@de , "Republic of Israel"@fr , "Republic of Israel"@de , "Israël"@en , "Medinat Yisrael"@en , "Medinat Yisrael"@fr , "Medinat Yisrael"@de , "Etat d'israel"@fr , "Israelien"@fr , "Israël"@fr , "Israël"@de , "Israelienne"@fr , "Israeliennes"@fr , "Modern Israel"@fr , "Modern Israel"@de , "Staat Israel"@de , "Isreal"@en , "Isreal"@fr , "Isreal"@de , "Yisraél"@en , "Yisraél"@fr , "Yisraél"@de , "Israyl"@en , "Israyl"@fr , "Israyl"@de , "Yisrael"@en , "State of israel"@en , "State of israel"@fr , "Yisrael"@fr , "State of israel"@de , "Yisrael"@de , "Israél"@fr , "Israil"@en , "Yisroeil"@en , "Israil"@fr , "Israil"@de , "Yisroeil"@fr , "Yisroeil"@de , "Etymology of Israel"@en , "Dawlat Isrā'īl"@en , "Yiselie"@en , "Isreali"@en , "Dawlat Isrā'īl"@fr , "Dawlat Isrā'īl"@de , "Etymology of Israel"@fr , "Yiselie"@fr , "Isreali"@fr , "Isreali"@de , "Etymology of Israel"@de , "Yiselie"@de , "ISRAEL"@en , "ISRAEL"@fr , "ISRAEL"@de , "Langues d'Israel"@fr , "Statut de Jérusalem"@fr , "Etat d’Israël"@fr , "Dawlat Isra'il"@en , "Dawlat Isra'il"@fr , "Dawlat Isra'il"@de , "Medīnat Yisrā'el"@en , "Medīnat Yisrā'el"@fr , "Medīnat Yisrā'el"@de .
+
+<http://rdf.freebase.com/ns/m.02nr1t2>
+        rdfs:label  "Clickability, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02nr1t2__1> .
+
+<http://rdf.freebase.com/ns/m.02nr1t2__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03spz> ;
+        dbo:from             "1999"^^xsd:gYear ;
+        dbo:to               "1999"^^xsd:gYear .

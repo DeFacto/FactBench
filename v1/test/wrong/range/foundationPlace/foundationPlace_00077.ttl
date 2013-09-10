@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06dplm>
+        rdfs:label     "ANSYS"@fr , "ANSYS"@de , "Ansys"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06dplm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/ANSYS> , <http://dbpedia.org/resource/Ansys> , <http://de.dbpedia.org/resource/Ansys_Inc.> ;
+        skos:altLabel  "ANSYS Inc."@en , "Ansoft"@en , "Ansys Inc."@de , "Ansoft"@fr , "Ansoft"@de , "ANSYS Inc."@fr , "ANSYS Inc."@de , "ANSYS"@en , "ANSYS"@fr , "ANSYS"@de , "ANSYS, Inc"@en , "ANSYS, Inc"@fr , "ANSYS, Inc"@de , "Fluent, Inc."@en , "Fluent, Inc."@fr , "Fluent, Inc."@de , "Fluent"@en , "Fluent"@fr , "Fluent"@de , "Ansys"@en , "Ansys"@fr , "Ansys"@de , "ANSYS, Inc."@en , "ANSYS, Inc."@fr , "ANSYS, Inc."@de , "Ansoft Corporation"@en , "Ansoft Corporation"@fr , "Ansoft Corporation"@de .
+
+<http://rdf.freebase.com/ns/m.06dplm__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.013d7t> ;
+        dbo:from             "1970"^^xsd:gYear ;
+        dbo:to               "1970"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.013d7t>
+        rdfs:label     "Shreveport"@en , "Shreveport"@fr , "Shreveport"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Shreveport> , <http://de.dbpedia.org/resource/Shreveport> , <http://dbpedia.org/resource/Shreveport,_Louisiana> ;
+        skos:altLabel  "Shreveport, Texas"@en , "Caddo Parish / Shreveport city"@en , "Shreveport, Texas"@fr , "Shreveport, Texas"@de , "Shreveport, Louisiana"@en , "Shreveport, Louisiana"@fr , "Shreveport, Louisiana"@de , "Shreveport, LA"@en , "Shreveport, LA"@fr , "Shreveport, LA"@de , "Shreveport LA"@en , "Shreveport LA"@fr , "Shreveport LA"@de , "Schreveport"@en , "Schreveport"@fr , "Schreveport"@de , "Shreveport"@en , "Shreveport"@fr , "Shreveport"@de , "Shreveport, TX"@en , "Shreveport, TX"@fr , "Shreveport, TX"@de , "LOCODE:USSHV"@en , "LOCODE:USSHV"@fr , "LOCODE:USSHV"@de , "Ellerbe Road, Shreveport, Louisiana"@en , "Ellerbe Road, Shreveport, Louisiana"@fr , "Ellerbe Road, Shreveport, Louisiana"@de .

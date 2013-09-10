@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h2rgc__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.07q51y> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07q51y>
+        rdfs:label     "Anna Tsuchiya"@en , "Anna Tsuchiya"@fr , "Anna Tsuchiya"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Anna_Tsuchiya> , <http://fr.dbpedia.org/resource/Anna_Tsuchiya> , <http://de.dbpedia.org/resource/Anna_Tsuchiya> ;
+        skos:altLabel  "Tsuchiya, Anna"@en , "ANNA TSUCHIYA inspi' NANA(BLACK STONES)"@en , "Tsuchiya"@de , "Tsuchiya, Anna inspi' NANA(BLACK STONES)"@en , "土屋アンナ"@en , "つちや あんな"@en , "Kuroi Namida"@fr , "Kuroi Namida"@de , "Anna Tsuchiya"@fr , "Anna Tsuchiya"@de , "Tsuchiya Anna"@en , "Tsuchiya Anna"@de , "Tsuchiya Anna"@fr .
+
+<http://rdf.freebase.com/ns/m.0h2rgc>
+        rdfs:label     "Sebastian Koch"@en , "Sebastian Koch"@fr , "Sebastian Koch"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h2rgc__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sebastian_Koch> , <http://de.dbpedia.org/resource/Sebastian_Koch> , <http://dbpedia.org/resource/Sebastian_Koch> ;
+        skos:altLabel  "Sebastian Koch"@fr , "Sebastian Koch"@de .

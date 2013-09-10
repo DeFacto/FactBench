@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Michael_Chang>
+        rdfs:label     "Michael Chang"@en , "Michael Chang"@fr , "Michael Chang"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Michael_Chang__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Michael_Chang> , <http://fr.dbpedia.org/resource/Michael_Chang> ;
+        skos:altLabel  "Michel Chang"@en , "Michael Chang"@fr , "Michael Chang"@de , "Michael Chang"@en , "Michael Te-Pei Chang"@fr , "Michael Te-Pei Chang"@de , "Michael Te-Pei Chang"@en , "Chang"@fr , "Chang"@de , "Michel Chang"@fr , "Zhang Depei"@fr , "Zhang Depei"@de , "Zhang Depei"@en , "Michel Chang"@de .
+
+<http://dbpedia.org/resource/Michael_Chang__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hoboken,_New_Jersey> ;
+        dbo:from        "1972-02-22"^^xsd:date ;
+        dbo:to          "1972-02-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Hoboken,_New_Jersey>
+        rdfs:label     "Hoboken, New Jersey"@en , "Hoboken, New Jersey"@fr , "Hoboken, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hoboken_(New_Jersey)> , <http://fr.dbpedia.org/resource/Hoboken_(New_Jersey)> ;
+        skos:altLabel  "Hoboken City, Hudson County, New Jersey"@fr , "Hoboken City, Hudson County, New Jersey"@de , "Hoboken City, Hudson County, New Jersey"@en , "Hoboken NJ"@fr , "Hoboken NJ"@de , "Hoboken NJ"@en , "LOCODE:USHBK"@fr , "Hoboken, NJ"@fr , "LOCODE:USHBK"@de , "LOCODE:USHBK"@en , "Hoboken, nj"@fr , "Hoboken, NJ"@de , "Hoboken, nj"@de , "Hoboken, NJ"@en , "Hoboken, nj"@en , "Hoboken, N.J."@fr , "Hoboken, N.J."@de , "Hoboken, N.J."@en , "Hoboken Township, Hudson County, New Jersey"@fr , "Hoboken Township, Hudson County, New Jersey"@de , "Hoboken Township, Hudson County, New Jersey"@en , "Hoboken"@fr , "Hoboken"@de , "Hoboken"@en , "Hoboken Township, New Jersey"@fr , "Hoboken Township, New Jersey"@de , "Hoboken Township, New Jersey"@en , "Hoboken, New Jersey"@fr , "Hoboken, New Jersey"@de , "Hoboken, New Jersey"@en , "Hoboken City, New Jersey"@fr , "Hoboken City, New Jersey"@de , "Hoboken City, New Jersey"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hidden_Hills,_California>
+        rdfs:label     "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hidden_Hills> , <http://de.dbpedia.org/resource/Hidden_Hills> ;
+        skos:altLabel  "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de , "Hidden hills california"@en , "Hidden hills california"@fr , "Hidden hills california"@de , "Hidden Hills, CA"@en , "Hidden Hills, CA"@de , "Hidden Hills, CA"@fr , "Hidden Hills"@fr , "Hidden Hills"@de .
+
+<http://dbpedia.org/resource/Sammy_Davis,_Jr.>
+        rdfs:label     "Sammy Davis, Jr."@de , "Sammy Davis, Jr."@fr , "Sammy Davis, Jr."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Sammy_Davis,_Jr.__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sammy_Davis_junior> , <http://fr.dbpedia.org/resource/Sammy_Davis,_Jr.> ;
+        skos:altLabel  "Davis"@fr , "Sammy Davis Junior"@en , "Sammy Davis Junior"@de , "Sammy Davis Junior"@fr , "Sammy Davis, Jr"@de , "Sammy Davis, Jr"@fr , "Sammy Davis, Jr"@en , "Sammy davis jnr"@de , "Sammy davis jnr"@fr , "Sammy davis jnr"@en , "Sammy davis junior"@fr , "Sammy davis junior"@en , "Sammy davis junior"@de , "Sammy Davis jr."@de , "Sammy Davis jr."@fr , "Sammy Davis jr."@en , "Sammy"@fr , "Sammy Davis"@en , "Sammy Davis"@de , "Sammy Davis"@fr , "Sammy Davis, Jr."@en , "Sammy Davis, Jr."@de , "Sammy Davis, Jr."@fr , "Sammy Davis Jr."@de , "Sammy Davis Jr."@fr , "Sammy Davis Jr."@en , "Sammy Davis junior"@de , "Sammy Davis junior"@fr , "Sammy Davis junior"@en , "Sammy Davis Jr"@en , "Mr. Entertainment"@en , "Mr. Entertainment"@de , "Mr. Entertainment"@fr , "Sammy Davis Jr"@de , "Sammy Davis Jr"@fr , "Arthur Silber Jr."@de , "Arthur Silber Jr."@fr , "Arthur Silber Jr."@en , "Sammy, Jr. Davis"@de , "Sammy, Jr. Davis"@fr , "Sammy, Jr. Davis"@en .
+
+<http://dbpedia.org/resource/Sammy_Davis,_Jr.__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hidden_Hills,_California> ;
+        dbo:from        "1990"^^xsd:gYear ;
+        dbo:to          "1990"^^xsd:gYear .

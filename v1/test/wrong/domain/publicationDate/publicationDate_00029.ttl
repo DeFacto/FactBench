@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fwxwl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.045b5g> ;
+        dbo:from    "1985"^^xsd:gYear ;
+        dbo:to      "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fwxwl>
+        rdfs:label     "Catherine Crook de Camp"@en , "Catherine Crook de Camp"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fwxwl__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Catherine_Crook_de_Camp> , <http://de.dbpedia.org/resource/Catherine_Crook_de_Camp> ;
+        skos:altLabel  "Catherine Crook De Camp"@de , "De Camp"@de , "Catherine crook de camp"@de , "Catherine de Camp"@de , "Catherine C. de Camp"@de , "Catherine Crook de Camp"@de , "Crook"@de , "Crook de Camp"@de , "Camp"@de .
+
+<http://rdf.freebase.com/ns/m.045b5g>
+        rdfs:label     "Schismatrice +"@fr , "Schismatrix"@en , "Schismatrix"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Schismatrix> , <http://dbpedia.org/resource/Schismatrix> , <http://fr.dbpedia.org/resource/Schismatrice_+> ;
+        skos:altLabel  "Schismatrix plus"@fr , "Schismatrix"@de , "Schismatrix"@en , "Schismatrix"@fr , "Schismatrice"@fr , "La Schismatrice"@fr , "La schismatrice"@fr .

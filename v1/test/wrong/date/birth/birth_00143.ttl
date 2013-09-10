@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quentin_Tarantino>
+        rdfs:label     "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quentin Tarantino"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Quentin_Tarantino__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quentin_Tarantino> , <http://de.dbpedia.org/resource/Quentin_Tarantino> ;
+        skos:altLabel  "Q. Tarantino"@fr , "Quinton Tarantino"@en , "Quinton Tarantino"@de , "Quinton Tarantino"@fr , "Quentin Tarrantino"@en , "Quentin Tarrantino"@fr , "Quentin Tarrantino"@de , "Tarrantino"@fr , "Tarantino"@en , "Tarantino"@de , "Tarantino"@fr , "Quentin Jerome Tarantino"@en , "Quentin Jerome Tarantino"@de , "Quentin Jerome Tarantino"@fr , "Quintin Terantino"@en , "Quintin Terantino"@de , "Quintin Terantino"@fr , "Quentin Tarantino"@en , "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quinton Terrantino"@en , "Quinton Terrantino"@de , "Quinton Terrantino"@fr , "Q. Tarentino"@en , "Q. Tarentino"@de , "Q. Tarentino"@fr , "Tarentino"@fr , "The Vega Brothers"@en , "The Vega Brothers"@de , "The Vega Brothers"@fr , "Quinten Tarantino"@en , "Quinten Tarantino"@fr , "Quinten Tarantino"@de , "Quentin tarantino"@en , "Quentin tarantino"@de , "Quentin tarantino"@fr , "Quentin"@en , "Quentin"@de , "Quentin"@fr , "Quinten Tarintino"@en , "Red Apple Cigarettes"@en , "QuentinTarrantino"@en , "Quinten Tarintino"@de , "Quinten Tarintino"@fr , "Quentin Tarintino"@en , "Quentin Tarintino"@de , "Quentin Tarintino"@fr , "Quentin Tarentino"@en , "QuentinTarrantino"@de , "QuentinTarrantino"@fr , "Quentin Tarentino"@de , "Quentin Tarentino"@fr , "Red Apple Cigarettes"@de , "Red Apple Cigarettes"@fr , "Q. Tarantino"@en , "Q. Tarantino"@de .
+
+<http://dbpedia.org/resource/Quentin_Tarantino__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Knoxville,_Tennessee> ;
+        dbo:from        "1964"^^xsd:gYear ;
+        dbo:to          "1964"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Knoxville,_Tennessee>
+        rdfs:label     "Knoxville, Tennessee"@en , "Knoxville, Tennessee"@fr , "Knoxville, Tennessee"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Knoxville_(Tennessee)> , <http://fr.dbpedia.org/resource/Knoxville> ;
+        skos:altLabel  "Knoxville, Tennessee"@en , "Knoxville, Tennessee"@fr , "Knoxville, Tennessee"@de , "Knoxville, Tennesee"@en , "Knoxville, Tennesee"@fr , "Knoxville, Tennesee"@de , "Knoxville, Tenessee"@en , "Knoxville, Tenessee"@fr , "Knoxville, Tenessee"@de , "The weather in Knoxville"@en , "The weather in Knoxville"@fr , "The weather in Knoxville"@de , "LOCODE:USTYS"@en , "LOCODE:USTYS"@fr , "LOCODE:USTYS"@de , "Knoxville, TN"@en , "Downtown Knoxville, Tennessee"@en , "Knoxville, TN"@fr , "Downtown Knoxville, Tennessee"@fr , "Downtown Knoxville, Tennessee"@de , "Knoxville, TN"@de , "Knoxville"@en , "Knoxville"@fr , "Knoxville"@de .

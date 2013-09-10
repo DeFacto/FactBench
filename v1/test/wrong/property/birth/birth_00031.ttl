@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Staten_Island>
+        rdfs:label     "Staten Island"@de , "Staten Island"@fr , "Staten Island"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Staten_Island> , <http://fr.dbpedia.org/resource/Staten_Island> ;
+        skos:altLabel  "Staton island"@en , "Staton island"@de , "Staton island"@fr , "Staten Island Community Charter School"@en , "Staten Island Community Charter School"@de , "Staten Island Community Charter School"@fr , "Staten Is."@en , "Staten Is."@de , "Staten Is."@fr , "Richmond County, New York"@en , "Richmond County, New York"@de , "Richmond County, New York"@fr , "Staten Island Bridges"@en , "S.I.N.Y."@en , "S.I.N.Y."@de , "S.I.N.Y."@fr , "Staten Island Bridges"@de , "Staten Island Bridges"@fr , "Comté de Richmond"@fr , "Richmond"@en , "Richmond"@de , "Richmond"@fr , "Richmond County"@de , "Comte de Richmond"@fr , "Staten Island, NY"@en , "Staten Island, NY"@de , "Staten Island, NY"@fr , "Staten island"@en , "Staten island"@de , "Staten island"@fr , "Staten island community charter school"@en , "Staten island community charter school"@de , "Staten island community charter school"@fr , "Staten Island, New York City"@en , "Staten Islander"@en , "Richmond, New York City"@en , "Richmond, New York City"@de , "Richmond, New York City"@fr , "Staten Island, New York City"@de , "Staten Island, New York City"@fr , "Staten Islander"@de , "Staten Islander"@fr , "Staten Island"@en , "Staten Island"@de , "Staten Island"@fr , "Staten Island, N.Y."@en , "Staten Island, N.Y."@de , "Staten Island, N.Y."@fr , "Staten"@en , "Staten"@de , "Staten"@fr , "Staten Island, New York"@en , "Staten Island, New York"@de , "Staten Island, New York"@fr .
+
+<http://dbpedia.org/resource/Christina_Aguilera__1>
+        dbo:award  <http://dbpedia.org/resource/Staten_Island> ;
+        dbo:from   "1980"^^xsd:gYear ;
+        dbo:to     "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Christina_Aguilera>
+        rdfs:label     "Christina Aguilera"@de , "Christina Aguilera"@fr , "Christina Aguilera"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Christina_Aguilera__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Christina_Aguilera> , <http://de.dbpedia.org/resource/Christina_Aguilera> ;
+        skos:altLabel  "Max Bratman"@en , "Max Bratman"@de , "Max Bratman"@fr , "Cristina Aguilera"@en , "Cristina Aguilera"@de , "Cristina Aguilera"@fr , "List of unreleased Christina Aguilera songs"@en , "List of unreleased Christina Aguilera songs"@de , "List of unreleased Christina Aguilera songs"@fr , "Christina Bratman"@en , "Christina Bratman"@fr , "Christina Bratman"@de , "Christina"@en , "Christina"@de , "Christina"@fr , "Christine Aguilera"@en , "Christine Aguilera"@fr , "Christine Aguilera"@de , "Christina Aguilara"@en , "Christina Aguilara"@de , "Christina Aguilara"@fr , "X'tina"@en , "Still Dirty"@en , "The Bionic Tour"@en , "Xtina"@en , "Xtina"@de , "Xtina"@fr , "X'tina"@fr , "Still Dirty"@fr , "The Bionic Tour"@fr , "X'tina"@de , "Still Dirty"@de , "The Bionic Tour"@de , "Christina María Aguilera"@en , "Christina Aguleria"@en , "Christina María Aguilera"@fr , "Christina Aguleria"@fr , "Christina Aguleria"@de , "Christina María Aguilera"@de , "Simply Christina Aguilera"@en , "Simply Christina Aguilera"@fr , "Simply Christina Aguilera"@de , "My Kind Of Christmas"@de , "X-tina"@en , "X-tina"@de , "X-tina"@fr , "Xtina aguilera"@en , "Xtina aguilera"@fr , "Xtina aguilera"@de , "Christina aguilera"@en , "Christina Aguillera"@en , "Christina aguilera"@fr , "Christina aguilera"@de , "Christina Aguillera"@de , "Christina Aguillera"@fr , "Christina Agulera"@en , "Christina Agulera"@fr , "Christina Agulera"@de , "Christina Maria Aguilera"@en , "Christina Maria Aguilera"@de , "Christina Maria Aguilera"@fr , "Max Liron Bratman"@en , "Max Liron Bratman"@de , "Max Liron Bratman"@fr , "Christina Aguilera"@en , "Christina Agulara"@en , "Christina Agulara"@de , "Christina Agulara"@fr , "Christina Aguilera"@fr , "Christina Aguilera"@de , "Aguilera"@fr , "Aguilera"@de .

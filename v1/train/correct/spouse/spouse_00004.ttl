@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0k7t6___4>
+        dbo:from    "2004-06-03"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01pk3z> ;
+        dbo:to      "2008-02-19"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.01pk3z>
+        rdfs:label     "Anna Faris"@de , "Anna Faris"@en , "Anna Faris"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anna_Faris> , <http://de.dbpedia.org/resource/Anna_Faris> , <http://dbpedia.org/resource/Anna_Faris> ;
+        skos:altLabel  "Anna Faris-Indra"@en , "Anna Farris"@fr , "Anna Farris"@de , "Anna Farris"@en , "Anna Faris"@fr , "Anna Faris"@de , "Anna Faris"@en , "Anna Kay Faris"@fr , "Anna Kay Faris"@de , "Anna Kay Faris"@en , "Ana faris"@fr , "Ana faris"@de , "Ana faris"@en , "Anna Faris-Pratt"@en , "Anna faris"@fr , "Anna faris"@de , "Anna faris"@en , "Faris"@fr , "Faris"@de , "Faris"@en .
+
+<http://rdf.freebase.com/ns/m.0k7t6_>
+        rdfs:label     "Ben Indra"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0k7t6___4> ;
+        skos:altLabel  "Benjamin Jeffery Indra"@en .

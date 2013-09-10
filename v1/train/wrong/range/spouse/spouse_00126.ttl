@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04m5s5>
+        rdfs:label     "Adrianne Curry"@en , "Adrianne Curry"@fr , "Adrianne Curry"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Adrianne_Curry> , <http://dbpedia.org/resource/Adrianne_Curry> , <http://fr.dbpedia.org/resource/Adrianne_Curry> ;
+        skos:altLabel  "Adrianne Curry"@fr , "Adrianne Curry"@de , "Adrienne Curry"@de , "Adrienne Curry"@fr , "Curry"@de , "Adri"@en , "Adrianne Marie Curry"@en , "Adrianne"@fr , "Adrianne"@de .
+
+<http://rdf.freebase.com/ns/m.02tt1k__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.04m5s5> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02tt1k>
+        rdfs:label     "Eva Green"@en , "Eva Green"@fr , "Eva Green"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02tt1k__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Eva_Green> , <http://dbpedia.org/resource/Eva_Green> , <http://de.dbpedia.org/resource/Eva_Green> ;
+        skos:altLabel  "Eva Gaëlle Green"@en , "Eva Gaëlle Green"@fr , "Èva Green"@en , "Èva Green"@fr , "Èva Green"@de , "Eva Greene"@en , "Eva Greene"@fr , "Eva Greene"@de , "Éva Green"@fr , "Èva Gaëlle Green"@de , "Eva Green"@en , "Eva Gaelle Green"@en , "Green"@fr , "Eva Gaelle Green"@de , "Eva Green"@fr , "Eva Green"@de .

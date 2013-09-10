@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Grand_Rapids,_Minnesota>
+        rdfs:label     "Grand Rapids, Minnesota"@en , "Grand Rapids, Minnesota"@fr , "Grand Rapids, Minnesota"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Grand_Rapids_(Minnesota)> ;
+        skos:altLabel  "Grand Rapids"@de , "Grand Rapids"@en , "Grand Rapids, MN"@de , "Grand Rapids, MN"@en , "Grand Rapids, Minnesota"@en , "Grand Rapids, Minnesota"@de .
+
+<http://dbpedia.org/resource/Max_Mirnyi>
+        rdfs:label     "Max Mirnyi"@en , "Max Mirnyi"@fr , "Max Mirnyi"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Max_Mirnyi__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Max_Mirnyi> , <http://de.dbpedia.org/resource/Max_Mirny> ;
+        skos:altLabel  "Max Mirnyi"@en , "Max Mirnyi"@de , "Max Mirnyi"@fr , "Max Mirny"@en , "Max Mirny"@fr , "Max Mirny"@de , "Mirny"@en , "Mirny"@fr , "Mirnyi"@de , "Mirny"@de .
+
+<http://dbpedia.org/resource/Max_Mirnyi__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Grand_Rapids,_Minnesota> ;
+        dbo:from        "1922"^^xsd:gYear ;
+        dbo:to          "1922"^^xsd:gYear .

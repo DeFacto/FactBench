@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.084qlr__1>
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.068p2> ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.084qlr>
+        rdfs:label  "Ansoft"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.084qlr__1> .
+
+<http://rdf.freebase.com/ns/m.068p2>
+        rdfs:label     "Pittsburgh"@de , "Pittsburgh"@fr , "Pittsburgh"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Pittsburgh> , <http://dbpedia.org/resource/Pittsburgh> , <http://fr.dbpedia.org/resource/Pittsburgh> ;
+        skos:altLabel  "Pittsburgh, Pa."@fr , "Pittsburgh, United States of America"@fr , "Pittsburgh, Pa."@de , "Pittsburgh, United States of America"@de , "Pittsburg, Pennsylvania"@en , "Pittsburg, Pennsylvania"@fr , "Pittsburg, Pennsylvania"@de , "Smoky City"@en , "Pittsburgh, Pa"@en , "Pittsburgh, Pa"@fr , "Pittsburgh, Pa"@de , "Shittsburgh"@en , "Smoky City"@fr , "Smoky City"@de , "Shittsburgh"@fr , "Shittsburgh"@de , "Da burgh"@en , "Da burgh"@fr , "Da burgh"@de , "Pittsburgh, Pennsylvania, U.S.A."@en , "Pittsburgh, Pennsylvania, U.S.A."@fr , "Pittsburgh, Pennsylvania, U.S.A."@de , "Allegheny County / Pittsburgh city"@en , "City of Pittsburgh"@en , "City of Pittsburgh"@fr , "City of Pittsburgh"@de , "Pittsburgh, PA"@en , "Pittsburgh Pennsyvania"@en , "Pittsburgh, PA"@fr , "Pittsburgh Pennsyvania"@fr , "Pittsburgh Pennsyvania"@de , "Pittsburgh, PA"@de , "Pittsburgh Style"@en , "Pittsburgh Style"@fr , "Pittsburgh Style"@de , "Education in Pittsburgh"@en , "Iron City"@en , "Education in Pittsburgh"@fr , "Education in Pittsburgh"@de , "Pittsburg, PA"@en , "Pittsburg, PA"@fr , "Pittsburg, PA"@de , "The Burgh"@en , "The Burgh"@fr , "The Burgh"@de , "Pittsbrugh"@en , "Education in pittsburgh"@en , "Education in pittsburgh"@fr , "Education in pittsburgh"@de , "Pittsbrugh"@fr , "Pittsbrugh"@de , "City of Bridges"@en , "City of Bridges"@fr , "City of Bridges"@de , "Pittsburgh Pennsylvania"@en , "Fort du Quesne"@en , "Fort du Quesne"@fr , "Fort du Quesne"@de , "Pittsburgh, Pennsylvania, U.S."@en , "Pittsburgh"@en , "Pittsburgh, Pennsylvania."@en , "Pittsburgh, Pennsylvania, U.S."@fr , "Pittsburgh, Pennsylvania, U.S."@de , "Pittsburgh, Pennsylvania, US"@en , "Pittsburgh, Pennsylvania, USA"@en , "Pittsburgh"@fr , "Pittsburgh, Pennsylvania."@fr , "Pittsburgh, Pennsylvania, US"@fr , "Pittsburgh, Pennsylvania, USA"@fr , "Pittsburgh, Pennsylvania."@de , "Pittsburgh"@de , "Pittsburgh, Pennsylvania, USA"@de , "Pittsburgh, Pennsylvania, US"@de , "Pittsburg"@en , "Pittsburg"@fr , "Pittsburg"@de , "The City of Bridges"@en , "The City of Bridges"@de , "The City of Bridges"@fr , "Pgh"@en , "Pitts"@en , "Pitts"@fr , "Pitts"@de , "Pittsburgh, USA"@en , "Climate of Pittsburgh, Pennsylvania"@en , "Pittsburg [Pa."@en , "Pittsburgh, USA"@fr , "Pittsburgh, USA"@de , "Climate of Pittsburgh, Pennsylvania"@fr , "Climate of Pittsburgh, Pennsylvania"@de , "Pittsburgh, PA."@en , "Pittsburgh, PA."@fr , "Pittsburgh, PA."@de , "LOCODE:USPIT"@en , "LOCODE:USPIT"@fr , "LOCODE:USPIT"@de , "The Pittsburgh Style of Literature"@en , "The Pittsburgh Style of Literature"@fr , "The Pittsburgh Style of Literature"@de , "Glenwood, Pennsylvania"@en , "Glenwood, Pennsylvania"@fr , "Glenwood, Pennsylvania"@de , "Pitt"@en , "Pitt"@fr , "Pitt"@de , "Pittsburgh, Pennsylvania"@en , "Pittsburgh, Pennsylvania"@fr , "Pittsburgh, Pennsylvania"@de , "The Steel City"@en , "The Steel City"@fr , "The Steel City"@de , "Pittsburgh, Pa."@en , "Pittsburgh, United States of America"@en .

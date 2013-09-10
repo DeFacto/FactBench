@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/On_the_Waterfront>
+        rdfs:label     "On the Waterfront"@en , "On the Waterfront"@fr , "On the Waterfront"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/On_the_Waterfront__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sur_les_quais> , <http://de.dbpedia.org/resource/Die_Faust_im_Nacken> ;
+        skos:altLabel  "Terry Malloy"@en , "Waterfront"@en , "Terry Malloy"@fr , "Waterfront"@fr , "Terry Malloy"@de , "Waterfront"@de , "On The Waterfront"@en , "On The Waterfront"@fr , "On The Waterfront"@de , "Die Faust im Nacken"@de , "On the waterfront"@en , "On the waterfront"@fr , "On the waterfront"@de , "On the Waterfront"@en , "Sur les quais"@fr , "On the Waterfront"@fr , "On the Waterfront"@de .
+
+<http://dbpedia.org/resource/On_the_Waterfront__1>
+        dbo:from      "1950"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Marlon_Brando> ;
+        dbo:to        "1950"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Marlon_Brando>
+        rdfs:label     "Marlon Brando"@en , "Marlon Brando"@fr , "Marlon Brando"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Marlon_Brando> , <http://fr.dbpedia.org/resource/Marlon_Brando> ;
+        skos:altLabel  "Marlon Brando Jr"@fr , "Brando"@fr , "Brando"@de , "Marlon Brando Jr"@de , "Marlon Brando"@en , "Marlon Brando"@fr , "Marlon Brando"@de , "Marlin Brando"@en , "Marlin Brando"@fr , "Marlin Brando"@de , "Marlon"@en , "Marlon"@fr , "Marlon"@de , "Marlon Brando, Jr."@en , "Marlon Brando, Jr."@fr , "Marlon Brando, Jr."@de , "Brando family"@en , "Marlon Brando Jr"@en , "Marlon brando"@en , "Marlon Brando Jr."@en , "Brando family"@fr , "Marlon brando"@fr , "Marlon Brando Jr."@fr , "Brando family"@de , "Marlon Brando Jr."@de , "Marlon brando"@de , "Brando"@en .

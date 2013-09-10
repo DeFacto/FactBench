@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.031rth>
+        rdfs:label     "Jessie Wallace"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.031rth__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Jessie_Wallace> ;
+        skos:altLabel  "Karen Jane Wallace"@en , "Jessie Alexandrou"@en .
+
+<http://rdf.freebase.com/ns/m.031rth__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0h2_f7x> ;
+        dbo:from   "2003"^^xsd:gYear ;
+        dbo:to     "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0h2_f7x>
+        rdfs:label  "Dave Morgan"@en .

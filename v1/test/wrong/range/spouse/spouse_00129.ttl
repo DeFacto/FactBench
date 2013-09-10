@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06y9c2__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.06crng> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.06y9c2>
+        rdfs:label     "Pete Wentz"@fr , "Pete Wentz"@de , "Peter Wentz"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06y9c2__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pete_Wentz> , <http://de.dbpedia.org/resource/Pete_Wentz> , <http://dbpedia.org/resource/Pete_Wentz> ;
+        skos:altLabel  "Peter Wentz"@en , "Peter Wentz"@fr , "Peter Wentz"@de , "Wentz, Pete"@en , "Bronx Wentz"@en , "Bronx Wentz"@fr , "Bronx Wentz"@de , "Pete Wentz"@en , "Pete Wentz"@fr , "Pete Wentz"@de , "Bartskull logo"@en , "Bartskull logo"@fr , "Bartskull logo"@de , "Bartskull Films"@en , "Bartskull Films"@fr , "Bartskull Films"@de , "Petey Wentz"@en , "Petey Wentz"@fr , "Petey Wentz"@de , "Wentz"@en , "Peter Lewis Kingston Wentz III"@en , "Wentz"@fr , "Peter Lewis Kingston Wentz III"@fr , "Peter Lewis Kingston Wentz III"@de , "Wentz"@de , "Peter Lewis Kingston Wentz"@en , "Peter Lewis Kingston Wentz"@fr , "Peter Lewis Kingston Wentz"@de .
+
+<http://rdf.freebase.com/ns/m.06crng>
+        rdfs:label     "Russell Brand"@en , "Russell Brand"@fr , "Russell Brand"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Russell_Brand> , <http://de.dbpedia.org/resource/Russell_Brand> , <http://fr.dbpedia.org/resource/Russell_Brand> ;
+        skos:altLabel  "Russell Brand"@de , "Russel Brand"@de , "Rusell brand"@en , "Rusell brand"@fr , "Rusell brand"@de , "Brand"@en , "Brand"@fr , "Brand"@de , "Mr. Brand"@en , "Russell of the Brandiest"@en , "Russell of the Brandiest"@fr , "Russell of the Brandiest"@de , "Russell Edward Brand"@en , "Russell Edward Brand"@fr , "Russell Edward Brand"@de , "Russ"@en , "Aldous Snow"@en , "Aldous Snow"@fr , "Aldous Snow"@de , "Aldous snow"@en , "Aldous snow"@fr , "Aldous snow"@de , "Russel Brand"@en , "Russell Brand"@en , "Russel Brand"@fr , "Russell Brand"@fr .

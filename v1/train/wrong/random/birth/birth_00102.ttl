@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paul_Haarhuis__1>
+        dbo:from        "1959"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Fort_Worth,_Texas> ;
+        dbo:to          "1959"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Fort_Worth,_Texas>
+        rdfs:label     "Fort Worth, Texas"@de , "Fort Worth, Texas"@fr , "Fort Worth, Texas"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Fort_Worth> , <http://fr.dbpedia.org/resource/Fort_Worth> ;
+        skos:altLabel  "Fort Worth Alliance Airport"@fr , "Ft Worth, TX"@en , "Ft Worth, TX"@fr , "Ft Worth, TX"@de , "Panther city"@en , "Panther city"@fr , "Panther city"@de , "Fort Worth, TX"@en , "Fort Worth, TX"@de , "Fort Worth, TX"@fr , "Fort Worth, United States"@en , "Fort Worth, United States"@de , "Fort Worth, United States"@fr , "Ft Worth, Texas"@en , "Ft Worth, Texas"@fr , "Ft.Worth"@fr , "Ft Worth, Texas"@de , "LOCODE:USFWT"@en , "LOCODE:USFWT"@fr , "LOCODE:USFWT"@de , "Fortworth"@en , "Fortworth"@de , "Fortworth"@fr , "Fort Worth, Texas, USA"@en , "Fort Worth, Texas, USA"@de , "Fort Worth, Texas, USA"@fr , "Ft. Worth, Texas"@en , "Ft. Worth, Texas"@fr , "Ft. Worth, Texas"@de , "Forth Worth, Texas"@en , "Forth Worth, Texas"@de , "Forth Worth, Texas"@fr , "Forthworth"@en , "Fort Worth, Tx."@en , "Fort Worth TX"@en , "Fort Worth TX"@de , "Fort Worth TX"@fr , "Fort Worth, Tx."@fr , "Fort Worth, Tx."@de , "Fort Worth, Texas"@en , "Forthworth"@fr , "Forthworth"@de , "Fort Worth, Texas"@fr , "Fort Worth, Texas"@de , "Fort worth, tx"@en , "Fort worth, tx"@de , "Fort worth, tx"@fr , "Fort Worth Press"@en , "Fort Worth Press"@fr , "Fort Worth Press"@de , "Ft worth, tx"@en , "Ft worth, tx"@fr , "Ft worth, tx"@de , "Forth Worth, TX"@en , "Forth Worth, TX"@fr , "Forth Worth, TX"@de , "Fort Worth"@en , "Fort Worth"@fr , "Fort Worth"@de , "Ft. worth, tx"@en , "Fort worth, Texas"@en , "Fort worth, Texas"@fr , "Fort worth, Texas"@de , "Ft. Worth"@en , "Ft. worth, tx"@fr , "Ft. worth, tx"@de , "Ft. Worth"@de , "Ft. Worth"@fr , "Fort worth, TX"@en , "Fort worth, TX"@de , "Fort worth, TX"@fr , "Ft Worth"@en , "Worth"@fr , "City of Fort Worth"@en , "Ft Worth"@fr , "City of Fort Worth"@fr , "Ft Worth"@de , "City of Fort Worth"@de , "Ft. Worth, TX"@en , "Ft. Worth, TX"@de , "Ft. Worth, TX"@fr .
+
+<http://dbpedia.org/resource/Paul_Haarhuis>
+        rdfs:label     "Paul Haarhuis"@en , "Paul Haarhuis"@fr , "Paul Haarhuis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Paul_Haarhuis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Paul_Haarhuis> , <http://de.dbpedia.org/resource/Paul_Haarhuis> ;
+        skos:altLabel  "Paul Haarhuis"@de , "Paul Haarhuis"@fr , "Haarhuis"@fr , "Haarhuis"@de .

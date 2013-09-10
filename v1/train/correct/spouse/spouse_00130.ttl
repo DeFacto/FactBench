@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03q43g>
+        rdfs:label     "Will Arnett"@de , "Will Arnett"@en , "Will Arnett"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.03q43g__130> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Will_Arnett> , <http://de.dbpedia.org/resource/Will_Arnett> , <http://dbpedia.org/resource/Will_Arnett> ;
+        skos:altLabel  "William Emerson \"Will\" Arnett"@en , "Will Arnett"@fr , "Will Arnett"@de , "Will Arnett"@en , "Will"@en , "Arnett"@fr , "Arnett"@de , "Arnett"@en , "Will Arnet"@fr , "Will Arnet"@de , "Will Arnet"@en , "William Emerson Arnett"@en .
+
+<http://rdf.freebase.com/ns/m.03q45x>
+        rdfs:label     "Amy Poehler"@de , "Amy Poehler"@en , "Amy Poehler"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Amy_Poehler> , <http://de.dbpedia.org/resource/Amy_Poehler> , <http://fr.dbpedia.org/resource/Amy_Poehler> ;
+        skos:altLabel  "Amber"@fr , "Amber"@de , "Amber"@en , "Amy poeler"@fr , "Archie Arnett"@fr , "Archie Arnett"@de , "Archie Arnett"@en , "Cool Cat Amy"@en , "Amy poeler"@de , "Amy poeler"@en , "Poehlercoaster"@en , "Crazy Amy"@en , "Amy Pohler"@fr , "Amy Pohler"@de , "Amy Pohler"@en , "Upright Citizens Brigade"@en , "The Upright Citizens Brigade Theatre"@en , "Amber the farting amputee"@fr , "Amber the farting amputee"@de , "Amber the farting amputee"@en , "Amy Poehler"@fr , "Amy Meredith Poehler"@en , "Amber, the One-Legged Hypoglycemic"@fr , "Amy Poehler"@de , "Amber, the One-Legged Hypoglycemic"@de , "Amy Poehler"@en , "Amber, the One-Legged Hypoglycemic"@en , "Poehler"@de .
+
+<http://rdf.freebase.com/ns/m.03q43g__130>
+        dbo:from    "2003-08-29"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03q45x> ;
+        dbo:to      "2012-09-06"^^xsd:date .

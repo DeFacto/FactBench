@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mississauga>
+        rdfs:label     "Mississauga"@de , "Mississauga"@fr , "Mississauga"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mississauga> , <http://de.dbpedia.org/resource/Mississauga> ;
+        skos:altLabel  "Missisauga"@en , "Missisauga"@de , "Missisauga"@fr , "Mississauga, Ontario"@de , "Mississauga, Ontario"@fr , "Mississauga, Ontario"@en , "Mississauga"@de , "Mississauga"@fr , "Mississauga"@en , "Mississaugua, Ontario"@de , "Mississaugua, Ontario"@fr , "Neighbourhoods of Churchill, Mississauga, Ontario"@de , "Neighbourhoods of Churchill, Mississauga, Ontario"@fr , "Neighbourhoods of Churchill, Mississauga, Ontario"@en , "Mississaugua, Ontario"@en , "Applewood Acres"@en , "Mississagua"@en , "Applewood Acres"@de , "Applewood Acres"@fr , "Mississagua"@de , "Mississagua"@fr , "Missisauga, Ontario"@de , "Missisauga, Ontario"@fr , "Missisauga, Ontario"@en , "City of Mississauga"@de , "City of Mississauga"@fr , "City of Mississauga"@en , "Toronto Township"@fr , "Mississauga, Canada"@de , "Mississauga, Canada"@fr , "Mississauga, Canada"@en , "Mississauga, ON"@de , "Mississauga, ON"@fr , "Mississauga, ON"@en , "Mississagua, Ontario"@de , "Mississagua, Ontario"@fr , "Mississagua, Ontario"@en , "Mississaugan"@de , "Mississaugan"@fr , "Mississaugan"@en .
+
+<http://dbpedia.org/resource/Charlton_Heston__1>
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Mississauga> ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlton_Heston>
+        rdfs:label     "Charlton Heston"@en , "Charlton Heston"@fr , "Charlton Heston"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Charlton_Heston__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Charlton_Heston> , <http://fr.dbpedia.org/resource/Charlton_Heston> ;
+        skos:altLabel  "Carlton Heston"@de , "Charlton"@de , "Charlton Heston"@en , "Charlton Heston"@fr , "Charlton Heston"@de , "Charleton Heston"@en , "Charleton Heston"@fr , "Charleton Heston"@de , "Chuck Heston"@en , "Charleston Heston"@en , "Chuck Heston"@fr , "Charleston Heston"@fr , "Charleston Heston"@de , "Chuck Heston"@de , "Heston"@en , "Heston"@fr , "Heston"@de , "Charlton heston"@en , "John Charles Carter"@en , "Heston, Charlton"@en , "Carlton Heston"@en , "Charlton heston"@fr , "John Charles Carter"@fr , "Heston, Charlton"@fr , "Carlton Heston"@fr , "Charlton heston"@de , "John Charles Carter"@de , "Heston, Charlton"@de .

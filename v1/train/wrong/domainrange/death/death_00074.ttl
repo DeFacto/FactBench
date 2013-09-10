@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ketchum,_Idaho>
+        rdfs:label     "Ketchum, Idaho"@en , "Ketchum, Idaho"@fr , "Ketchum, Idaho"@de ;
+        skos:altLabel  "Ketchum, ID"@en , "Ketchum, Idaho"@en , "Ketchum, Id"@en , "LOCODE:USQKM"@en , "Ketchum"@en .
+
+<http://dbpedia.org/resource/Éamon_de_Valera__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Ketchum,_Idaho> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Éamon_de_Valera>
+        rdfs:label     "Éamon de Valera"@en , "Éamon de Valera"@fr , "Éamon de Valera"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Éamon_de_Valera__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Éamon_de_Valera> , <http://fr.dbpedia.org/resource/Éamon_de_Valera> ;
+        skos:altLabel  "Valera"@fr , "Valera"@de , "Eamon de Valera"@de , "Eamon de Valera"@fr , "Éamon de Valera"@fr , "Éamon de Valera"@de , "Eamon De Valera"@fr , "Eamon de valera"@fr , "Éamon de valera"@fr .

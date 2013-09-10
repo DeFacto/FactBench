@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Billie_Holiday__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "1991"^^xsd:gYear ;
+        dbo:to          "1991"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Billie_Holiday>
+        rdfs:label     "Billie Holiday"@de , "Billie Holiday"@fr , "Billie Holiday"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Billie_Holiday__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Billie_Holiday> , <http://de.dbpedia.org/resource/Billie_Holiday> ;
+        skos:altLabel  "Holiday, Billie"@de , "Holiday, Billie"@fr , "Holiday, Billie"@en , "Billy Holiday"@de , "Billy Holiday"@fr , "Billy Holiday"@en , "Lady Day"@de , "Lady Day"@fr , "Billie Holliday"@en , "Billy Holliday"@fr , "Billie Holliday"@de , "Billie Holliday"@fr , "Billy Holliday"@en , "Billy Holliday"@de , "Holiday"@de , "Holiday"@fr , "Holiday"@en , "Eleanora Fagan Gough"@en , "Eleanora Fagan Gough"@de , "Eleanora Fagan Gough"@fr , "Billie halliday"@de , "Billie halliday"@fr , "Billie halliday"@en , "Frank DeViese"@de , "Frank DeViese"@fr , "Frank DeViese"@en , "Billie"@de , "Billy holliday"@de , "Billy holliday"@fr , "Billy holliday"@en , "Fagan"@de , "Fagan"@fr , "Fagan"@en , "Billie Holiday"@en , "Billie Holiday"@de , "Billie Holiday"@fr , "Eleanora Fagan"@de , "Eleanora Fagan"@fr , "Eleanora Fagan"@en .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .

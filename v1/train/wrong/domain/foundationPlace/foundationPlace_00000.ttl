@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ffb0___1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0djd3> ;
+        dbo:from             "1975"^^xsd:gYear ;
+        dbo:to               "1975"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0djd3>
+        rdfs:label     "Albuquerque"@fr , "Albuquerque"@en , "Albuquerque"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Albuquerque> , <http://de.dbpedia.org/resource/Albuquerque> , <http://dbpedia.org/resource/Albuquerque,_New_Mexico> ;
+        skos:altLabel  "Albukerky"@en , "Albukerky"@fr , "Albukerky"@de , "Albuquerque, New Mexico"@en , "Albuquerque, New Mexico"@fr , "Albuquerque, New Mexico"@de , "The Albuquerque City Council"@en , "The Albuquerque City Council"@de , "The Albuquerque City Council"@fr , "Alburquerque"@en , "City Electric Company"@en , "City Electric Company"@fr , "City Electric Company"@de , "Ranchos de Alburquerque"@en , "Ranchos de Alburquerque"@fr , "Ranchos de Alburquerque"@de , "Albuquerque City Council"@en , "Albuquerque City Council"@fr , "Albuquerque City Council"@de , "Albequerque"@en , "Albequerque"@fr , "Albequerque"@de , "Albaquerque"@en , "Albaquerque"@fr , "Albaquerque"@de , "Alberquerque"@en , "Alberquerque"@fr , "Alberquerque"@de , "Albuquerque, NM"@en , "Albuquerque, NM"@fr , "Albuquerque, NM"@de , "Albuquerque Trivia"@en , "Albuquerque Trivia"@de , "Albuquerque Trivia"@fr , "City of Albuquerque"@en , "City of Albuquerque"@fr , "City of Albuquerque"@de , "Burque"@en , "Burque"@de , "Burque"@fr , "Albuquerque Traction Company"@en , "Albuquerque Traction Company"@fr , "Albuquerque Traction Company"@de , "Albuqurque"@en , "Albuqurque"@fr , "Albuqurque"@de , "Albuquerque, N.M."@en , "Albuquerque, N.M."@fr , "Albuquerque, N.M."@de , "Journal pavilion"@en , "Journal pavilion"@fr , "Vokekyi Leuwi"@de , "Journal pavilion"@de , "Albuquerque, N. M."@en , "Albuquerque, N. M."@fr , "Albuquerque, N. M."@de , "List of trivia associated with Albuquerque"@en , "List of trivia associated with Albuquerque"@fr , "List of trivia associated with Albuquerque"@de , "List of newspapers in Albuqeurque"@en , "Alberquerque, New Mexico"@en , "List of newspapers in Albuqeurque"@fr , "Alberquerque, New Mexico"@fr , "List of newspapers in Albuqeurque"@de , "Alberquerque, New Mexico"@de , "The Q"@en , "The Q"@fr , "The Q"@de , "Albuquerque International Airport"@fr , "Albuquerque International Sunport"@fr , "New Albuquerque"@de , "Abq, nm"@en , "Abq, nm"@fr , "San Francisco Xavier"@de , "Abq, nm"@de , "Bernalillo County / Albuquerque city"@en , "LOCODE:USABQ"@en , "Duke city"@en , "Albuquerque"@en , "LOCODE:USABQ"@fr , "Albuquerque"@fr , "San Francisco de Albuquerque"@de , "LOCODE:USABQ"@de , "Albuquerque"@de , "Beeldil Daesenili"@de , "Duke city"@fr , "Duke city"@de , "San Felipe de Neri"@de , "Albuquerque, nm"@en , "Albuquerque, nm"@fr , "Albuquerque, nm"@de .
+
+<http://rdf.freebase.com/ns/m.0ffb0_>
+        rdfs:label  "LogiSense"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0ffb0___1> ;
+        owl:sameAs  <http://dbpedia.org/resource/LogiSense> .

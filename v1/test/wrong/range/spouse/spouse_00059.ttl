@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026m56t>
+        rdfs:label     "Gaile Lok"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Gaile_Lok> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Jier Le"@en , "Kei-yi Lok"@en , "Gaile Lai"@en , "Gaile Lok"@en .
+
+<http://rdf.freebase.com/ns/m.0q27yrv>
+        rdfs:label     "Shaun O'Brien"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0q27yrv__1> ;
+        skos:altLabel  "John Peter O'Brien"@en .
+
+<http://rdf.freebase.com/ns/m.0q27yrv__1>
+        dbo:from    "2011"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.026m56t> ;
+        dbo:to      "2012"^^xsd:gYear .

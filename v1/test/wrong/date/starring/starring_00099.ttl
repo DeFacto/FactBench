@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mean_Girls>
+        rdfs:label     "Mean Girls"@de , "Mean Girls"@fr , "Mean Girls"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mean_Girls__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Girls_Club_–_Vorsicht_bissig!> , <http://fr.dbpedia.org/resource/Lolita_malgré_moi> ;
+        skos:altLabel  "Burn book"@de , "Burn book"@fr , "Burn book"@en , "Girl"@de , "Mean Girls"@en , "Mean Girls"@de , "Mean Girls"@fr , "Girls Club – Vorsicht bissig"@de , "Plastic's"@de , "Plastic's"@fr , "Plastic's"@en , "Girls Club"@de , "Regina george"@de , "Regina george"@fr , "Regina george"@en , "Lolita malgré moi"@fr , "Lolita Malgré moi"@fr , "Méchantes ados"@fr , "Cady Heron"@en , "Cady Heron"@fr , "Cady Heron"@de , "Lolita Malgre moi"@fr , "Lolita Malgre Moi"@fr , "Janis Ian"@de , "Janis Ian"@fr , "Janis Ian"@en , "Girls Club – Vorsicht bissig!"@de , "Regina George"@de , "Regina George"@fr , "Lolita malgre moi"@fr , "Mean girls"@de , "Mean girls"@fr , "Mean girls"@en , "Regina George"@en , "Mechantes ados"@fr , "Lolita Malgré Moi"@fr , "Girls Club - Vorsicht bissig!"@de .
+
+<http://dbpedia.org/resource/Lindsay_Lohan>
+        rdfs:label     "Lindsay Lohan"@de , "Lindsay Lohan"@fr , "Lindsay Lohan"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lindsay_Lohan> , <http://fr.dbpedia.org/resource/Lindsay_Lohan> ;
+        skos:altLabel  "Lindsi Lohan"@en , "Lindsi Lohan"@de , "Lindsi Lohan"@fr , "Linsey Lohan"@en , "Linsey Lohan"@de , "Linsey Lohan"@fr , "Spirit In the dark"@en , "Spirit In the dark"@fr , "Spirit In the dark"@de , "Lezzlo"@en , "Lezlo"@en , "Lindsay Lohan's Forthcoming Studio Album"@en , "Linsday Lohan"@en , "Lezzlo"@fr , "Lindsay Lohan's Forthcoming Studio Album"@de , "Lindsay Lohan's Forthcoming Studio Album"@fr , "Linsday Lohan"@de , "Linsday Lohan"@fr , "Lezlo"@fr , "Lezzlo"@de , "Lezlo"@de , "Lndsay Lohan"@en , "Lndsay Lohan"@fr , "Lndsay Lohan"@de , "Lindsy Lohan"@en , "Lindsy Lohan"@de , "Lindsy Lohan"@fr , "Lohan"@en , "Lohan"@fr , "Lohan"@de , "Lindsay Dee Joanne Lohan"@en , "Lindsay Dee Joanne Lohan"@de , "Lindsay Dee Joanne Lohan"@fr , "Lyndsay Lohan"@en , "Lyndsay Lohan"@fr , "Lyndsay Lohan"@de , "Lindsay Dee Lohan"@en , "La Lohan"@en , "Lindsay Lohen"@en , "La Lohan"@de , "La Lohan"@fr , "Lindsay Dee Lohan"@fr , "Lindsay Dee Lohan"@de , "Lindsay Lohen"@de , "Lindsay Lohen"@fr , "Linsay Lohan"@en , "Linsay Lohan"@fr , "Linsay Lohan"@de , "Lindsay Lohan"@en , "Lindsey Lowhan"@en , "Lindsay Lohan Remixes"@en , "Lindsay Lohan"@fr , "Lindsey Lowhan"@fr , "Lindsay Lohan"@de , "Lindsey Lowhan"@de , "Lindsay Lohan Remixes"@de , "Lindsay Lohan Remixes"@fr , "LiLo"@en , "LiLo"@fr , "LiLo"@de , "Lindsay Loahn"@en , "Lindsay Loahn"@fr , "Lindsay Loahn"@de , "Lindsay lohan"@en , "Lindsay lohan"@fr , "Lindsay lohan"@de , "Lindsay Dee Morgan Jade Lohan"@de , "Lindsay"@de , "Lindsey Lohan"@en , "Lindsey Lohan"@fr , "Lindsey Lohan"@de , "Spirit in the Dark"@en , "Spirit in the Dark"@fr , "Spirit in the Dark"@de , "Playground"@en , "Lindsay Morgan Lohan"@en , "Playground"@fr , "Playground"@de , "Lindsay Morgan Lohan"@fr , "Lindsay Morgan Lohan"@de .
+
+<http://dbpedia.org/resource/Mean_Girls__1>
+        dbo:from      "2005"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Lindsay_Lohan> ;
+        dbo:to        "2005"^^xsd:gYear .

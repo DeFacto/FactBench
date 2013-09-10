@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Grand_Rapids,_Minnesota>
+        rdfs:label     "Grand Rapids, Minnesota"@en , "Grand Rapids, Minnesota"@fr , "Grand Rapids, Minnesota"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Grand_Rapids_(Minnesota)> ;
+        skos:altLabel  "Grand Rapids"@de , "Grand Rapids"@en , "Grand Rapids, MN"@de , "Grand Rapids, MN"@en , "Grand Rapids, Minnesota"@en , "Grand Rapids, Minnesota"@de .
+
+<http://dbpedia.org/resource/Judy_Garland>
+        rdfs:label     "Judy Garland"@en , "Judy Garland"@fr , "Judy Garland"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Judy_Garland__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Judy_Garland> , <http://de.dbpedia.org/resource/Judy_Garland> ;
+        skos:altLabel  "Judy Garland-James Mason"@en , "Judy Garland"@fr , "Judy Garland-James Mason"@fr , "Judy Garland-James Mason"@de , "Judy Garland"@de , "Garland"@de , "Judy"@en , "Judy"@fr , "Judy"@de , "Judy garland"@en , "Joey Luft"@en , "Joey Luft"@fr , "Joey Luft"@de , "Judy garland"@fr , "Judy garland"@de , "Frances Gumm"@en , "Frances Ethel Gumm"@en , "Frances Gumm"@fr , "Frances Ethel Gumm"@fr , "Frances Gumm"@de , "Frances Ethel Gumm"@de , "Judy Garland"@en .
+
+<http://dbpedia.org/resource/Judy_Garland__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Grand_Rapids,_Minnesota> ;
+        dbo:from        "1911"^^xsd:gYear ;
+        dbo:to          "1911"^^xsd:gYear .

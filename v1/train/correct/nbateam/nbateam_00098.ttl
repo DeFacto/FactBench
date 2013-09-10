@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Lucas_III>
+        rdfs:label      "John Lucas III"@en , "John Lucas III"@fr , "John Lucas III"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/John_Lucas_III__10> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/John_Lucas_III> ;
+        skos:altLabel   "John Lucas"@en , "John Lucas"@fr , "John Lucas III"@fr , "John Harding Lucas III"@en , "John Lucas III"@en , "John Harding Lucas III"@fr .
+
+<http://dbpedia.org/resource/Chicago_Bulls>
+        rdfs:label     "Chicago Bulls"@en , "Chicago Bulls"@fr , "Chicago Bulls"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chicago_Bulls> , <http://fr.dbpedia.org/resource/Bulls_de_Chicago> ;
+        skos:altLabel  "John Ligmanowski"@fr , "John Ligmanowski"@de , "John Ligmanowski"@en , "Bulls De Chicago"@fr , "Chicago Bulls"@fr , "Chicago Bulls"@de , "Chicago Bulls"@en , "Chicago"@fr , "Chicago"@de , "Chicago"@en , "Bulls"@fr , "Bulls"@de , "Bulls"@en , "Chicago bulls"@fr , "Chicago bulls"@de , "Chicago bulls"@en , "Bulls de Chicago"@fr , "Bulls de chicago"@fr .
+
+<http://dbpedia.org/resource/John_Lucas_III__10>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Chicago_Bulls> ;
+        dbo:to    "2010"^^xsd:gYear .

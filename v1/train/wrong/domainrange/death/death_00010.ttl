@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robert_Mitchum__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rawalpindi> ;
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rawalpindi>
+        rdfs:label     "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rawalpindi> , <http://fr.dbpedia.org/resource/Rawalpindi> ;
+        skos:altLabel  "Rāwalpindi"@en , "Rāwalpindi"@fr , "Rāwalpindi"@de , "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de , "Rawal Pindee"@en , "Rawal Pindee"@fr , "Rawal Pindee"@de , "Râwalpindî"@fr , "Rawalpindi, Pakistan"@en , "Rawalpindi, Pakistan"@fr , "Rawalpindi, Pakistan"@de , "Rāwalpindi, Pakistan"@en , "Rawal Pindi"@en , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@en , "RawalPindi"@en , "Rawal Pindi"@fr , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@fr , "Rawal Pindi"@de , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@de , "Rāwalpindi, Pakistan"@fr , "RawalPindi"@fr , "Rāwalpindi, Pakistan"@de , "RawalPindi"@de , "Pindi"@en , "Pindi"@fr , "Pindi"@de , "Rawlpindini"@en , "Rawlpindini"@fr , "Rawlpindini"@de , "'Pindi"@en , "'Pindi"@fr , "'Pindi"@de .
+
+<http://dbpedia.org/resource/Robert_Mitchum>
+        rdfs:label     "Robert Mitchum"@en , "Robert Mitchum"@fr , "Robert Mitchum"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robert_Mitchum__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Mitchum> , <http://fr.dbpedia.org/resource/Robert_Mitchum> ;
+        skos:altLabel  "Robet mitchum"@en , "Robet mitchum"@fr , "Robet mitchum"@de , "Robert Mitchum"@en , "Robert Mitchum"@fr , "Robert Mitchum"@de , "Mitchum"@de , "Bob Mitchum"@en , "Bob Mitchum"@fr , "Bob Mitchum"@de , "Robert Charles Durman Mitchum"@en , "Robert Charles Durman Mitchum"@de , "Robert Charles Durman Mitchum"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cleveland_Cavaliers>
+        rdfs:label     "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cavaliers_de_Cleveland> , <http://de.dbpedia.org/resource/Cleveland_Cavaliers> ;
+        skos:altLabel  "The cleveland cavs"@en , "The cleveland cavs"@fr , "The cleveland cavs"@de , "Moondog"@en , "Moondog"@fr , "Moondog"@de , "Cavalier"@en , "Cavalier"@fr , "Cavalier"@de , "Cleveland Cavs"@en , "Cleveland Cavs"@fr , "Cleveland Cavs"@de , "Cavaliers, Cleveland"@en , "Whammer"@en , "Cavaliers, Cleveland"@fr , "Cavaliers, Cleveland"@de , "Whammer"@fr , "Whammer"@de , "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de , "Cavs"@en , "Moondog - Cavaliers"@en , "Cavaliers De Cleveland"@fr , "Cavs"@fr , "Moondog - Cavaliers"@fr , "Cavaliers de Cleveland"@fr , "Cavs"@de , "Moondog - Cavaliers"@de , "Cavaliers de cleveland"@fr .
+
+<http://dbpedia.org/resource/Shaun_Livingston>
+        rdfs:label     "Shaun Livingston"@en , "Shaun Livingston"@fr , "Shaun Livingston"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Shaun_Livingston__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Shaun_Livingston> , <http://fr.dbpedia.org/resource/Shaun_Livingston> ;
+        skos:altLabel  "Shaun Livingston"@en , "Shaun Livingston"@fr , "Shaun Livingston"@de , "Livingston"@fr , "Livingston"@de .
+
+<http://dbpedia.org/resource/Shaun_Livingston__1>
+        dbo:award  <http://dbpedia.org/resource/Cleveland_Cavaliers> ;
+        dbo:from   "2012"^^xsd:gYear ;
+        dbo:to     "2012"^^xsd:gYear .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02r9ln1__1>
+        dbo:from      "1974"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.0163r3> ;
+        dbo:to        "1974"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0163r3>
+        rdfs:label     "Isaac Hayes"@en , "Isaac Hayes"@fr , "Isaac Hayes"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Isaac_Hayes> , <http://dbpedia.org/resource/Isaac_Hayes> , <http://de.dbpedia.org/resource/Isaac_Hayes> ;
+        skos:altLabel  "Chef"@fr , "The Black Moses"@en , "Isaac Lee Hayes"@en , "Isaac Hayes"@en , "Isaac Lee Hayes"@fr , "Isaac Hayes"@fr , "Isaac Hayes"@de , "Isaac Lee Hayes"@de , "Isaac Hays"@en , "Issac Hayes"@en , "Hayes, Isaac"@en , "Issac Hayes"@fr , "Issac Hayes"@de , "Isaac Hayes Jr."@en , "Isacc hayes"@en , "Isacc hayes"@fr , "Isacc hayes"@de , "Isaac hayes"@en , "Black Moses"@de , "Isaac hayes"@fr , "Isaac hayes"@de , "Isac Heyes"@en , "Isaak Hayes"@en , "Isaac Lee Hayes Jr."@en , "Isaac"@fr , "Hayes"@fr , "Isaac Hayes, Jr."@en , "Isaac, Jr."@en , "Isaac Lee Hayes, Jr."@en , "Ike"@en , "Chef"@en .
+
+<http://rdf.freebase.com/ns/m.02r9ln1>
+        rdfs:label  "Blogging Systems Group"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02r9ln1__1> .

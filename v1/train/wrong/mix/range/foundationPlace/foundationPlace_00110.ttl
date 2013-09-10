@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0jcrh__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0r6ff> ;
+        dbo:from             "1992"^^xsd:gYear ;
+        dbo:to               "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0r6ff>
+        rdfs:label     "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sunnyvale> , <http://de.dbpedia.org/resource/Sunnyvale_(Kalifornien)> , <http://dbpedia.org/resource/Sunnyvale,_California> ;
+        skos:altLabel  "Sunnyvale, CA"@de , "Sunnyvale, Ca"@fr , "Sunnyvale, California"@fr , "Sunnyvale, California"@de , "Sunnyvale, Ca"@de , "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de , "Vale"@en , "Vale"@fr , "Vale"@de , "Sunnvale"@fr , "LOCODE:USSNN"@en , "LOCODE:USSNN"@fr , "LOCODE:USSNN"@de , "Sunnyvale, CA"@en , "Sunnyvale, Ca"@en , "Sunnyvale, California"@en , "Santa Clara County / Sunnyvale city"@en , "Sunnyvale, CA"@fr .
+
+<http://rdf.freebase.com/ns/m.0jcrh>
+        rdfs:label     "Palm"@fr , "Palm"@de , "Palm, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0jcrh__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/HP_Palm> , <http://fr.dbpedia.org/resource/Palm_(entreprise)> , <http://dbpedia.org/resource/Palm,_Inc.> ;
+        skos:altLabel  "PalmOne, Inc."@fr , "Palm, Inc"@de , "PalmOne, Inc."@de , "Discontinued palmOne Handhelds"@en , "Discontinued palmOne Handhelds"@fr , "Discontinued palmOne Handhelds"@de , "Palm"@en , "Palm"@fr , "Palm"@de , "PalmOne"@en , "HP Palm"@fr , "PalmOne"@fr , "PalmOne"@de , "HP Palm"@de , "Palm Inc."@en , "Palm Inc."@fr , "Palm Inc."@de , "Palm, Inc."@en , "Palm, Inc."@fr , "Palm, Inc."@de , "Palm Inc"@en , "Palm Inc"@fr , "Palm Inc"@de , "Palm Computing"@en , "Palm Computing"@fr , "Palm Computing"@de , "Palm, Inc"@en , "PalmOne, Inc."@en , "Palm, Inc"@fr .

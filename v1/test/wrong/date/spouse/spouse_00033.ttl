@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03mp9s>
+        rdfs:label     "Michelle Williams"@fr , "Michelle Williams"@de , "Michelle Williams"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Michelle_Williams_(actress)> , <http://fr.dbpedia.org/resource/Michelle_Williams_(actrice)> , <http://de.dbpedia.org/resource/Michelle_Williams_(Schauspielerin)> ;
+        skos:altLabel  "Michelle Williams"@en , "Michelle Williams"@de , "Michelle Williams"@fr , "Michelle williams"@fr , "Michelle Ingrid Williams"@en , "Michelle Ingrid Williams"@fr , "Michelle Ingrid Williams"@de , "Williams"@fr , "Matilda Ledger"@en , "Matilda Ledger"@fr , "Matilda Ledger"@de .
+
+<http://rdf.freebase.com/ns/m.0237fw>
+        rdfs:label     "Heath Ledger"@de , "Heath Ledger"@fr , "Heath Ledger"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0237fw__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Heath_Ledger> , <http://fr.dbpedia.org/resource/Heath_Ledger> , <http://de.dbpedia.org/resource/Heath_Ledger> ;
+        skos:altLabel  "Heith Ledger"@en , "Heith Ledger"@fr , "Heith Ledger"@de , "Matilda Rose"@en , "Matilda Rose"@de , "Matilda Rose"@fr , "Heath Ledger"@en , "Ledger"@en , "Heathcliff Andrew Ledger"@en , "Heath Ledger"@fr , "Heath Ledger"@de , "Ledger"@de , "Ledger"@fr , "Heathcliff Andrew Ledger"@de , "Heathcliff Andrew Ledger"@fr , "Keith Legend"@en , "Keith Legend"@fr , "Keith Legend"@de , "Matilda Rose Ledger"@en , "Matilda Rose Ledger"@de , "Matilda Rose Ledger"@fr , "Heather Ledger"@en , "Heather Ledger"@de , "Heather Ledger"@fr , "Heath Legend"@en , "Heath Legend"@fr , "Heath Legend"@de , "Heathy"@en , "The death of Heath Ledger"@en , "The death of Heath Ledger"@fr , "The death of Heath Ledger"@de , "Keith Ledger"@en , "Keith Ledger"@fr , "Keith Ledger"@de , "Matilda Williams-Ledger"@en , "Matilda Williams-Ledger"@de , "Matilda Williams-Ledger"@fr , "Heath Fletcher"@en , "Heath Fletcher"@de , "Heath Fletcher"@fr , "Matilda Williams"@en , "Matilda Williams"@de , "Matilda Williams"@fr , "Leaf Hedger"@en , "Leaf Hedger"@fr , "Leaf Hedger"@de , "Heath Andrew Ledger"@en , "Heath Andrew Ledger"@fr , "Heath Andrew Ledger"@de , "Heath Leger"@en , "Heath Leger"@de , "Heath Leger"@fr , "Keath Ledger"@en , "Keath Ledger"@de , "Keath Ledger"@fr , "Matilda Rose Williams"@en , "Matilda Rose Williams"@de , "Matilda Rose Williams"@fr , "Heath"@de , "Heath Leader"@en , "Heath ledger"@en , "Heath ledger"@de , "Heath Leader"@de , "Heath Leader"@fr , "Heath ledger"@fr .
+
+<http://rdf.freebase.com/ns/m.0237fw__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03mp9s> ;
+        dbo:to      "2011"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0r6c4>
+        rdfs:label     "Mountain View"@en , "Mountain View"@fr , "Mountain View"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mountain_View_(Santa_Clara_County,_Kalifornien)> , <http://dbpedia.org/resource/Mountain_View,_California> , <http://fr.dbpedia.org/resource/Mountain_View_(Californie)> ;
+        skos:altLabel  "Mountain View, California"@en , "Mountain View"@en , "Mountain View, Calif."@en , "Mountain View, California"@fr , "Mountain View"@fr , "Mountain View"@de , "Mountain View, Calif."@fr , "Mountain View, California"@de , "Mountain View, Calif."@de , "Mountain View, CA"@en , "Mountain View, CA"@fr , "Mountain View, CA"@de , "Mountain View, Santa Clara County, California"@en , "Mountain View, Santa Clara County, California"@fr , "Mountain View, Santa Clara County, California"@de , "Santa Clara County / Mountain View city"@en , "Mtn View, CA"@en , "Mtn View, CA"@fr , "Mtn View, CA"@de , "Mountain View, Santa Clara County, CA"@en , "Mountain View, Santa Clara County, CA"@fr , "Mountain View, Santa Clara County, CA"@de , "Mountain View, Santa Clara, California"@en , "Mountain View, Santa Clara, California"@fr , "Mountain View, Santa Clara, California"@de , "Mountain View, Santa Clara, CA"@en , "Mountain View, Santa Clara, CA"@fr , "Mountain View, Santa Clara, CA"@de .
+
+<http://dbpedia.org/resource/Rudyard_Kipling__1>
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0r6c4> ;
+        dbo:to      "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rudyard_Kipling>
+        rdfs:label     "Rudyard Kipling"@en , "Rudyard Kipling"@fr , "Rudyard Kipling"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Rudyard_Kipling__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rudyard_Kipling> , <http://de.dbpedia.org/resource/Rudyard_Kipling> ;
+        skos:altLabel  "Kipling, Joseph Rudyard"@fr , "Kipling, Joseph Rudyard"@de , "R Kipling"@en , "R Kipling"@fr , "R Kipling"@de , "Rudyard Kipling"@en , "Rudyard Kipling"@fr , "Rudyard Kipling"@de , "R. Kipling"@en , "R. Kipling"@fr , "R. Kipling"@de , "Rudyard"@en , "Rudyard"@fr , "Rudyard"@de , "Rudy Kipling"@en , "Rudy Kipling"@fr , "Rudy Kipling"@de , "Ruyard Kipling"@en , "Ruyard Kipling"@fr , "Ruyard Kipling"@de , "Kipling"@en , "Kipling"@fr , "Kipling"@de , "Kipling Society"@en , "Kipling Society"@fr , "Kipling Society"@de , "Kipling rudyard"@en , "Joseph Rudyard Kipling"@en , "Kipling rudyard"@fr , "Joseph Rudyard Kipling"@fr , "Kipling rudyard"@de , "Joseph Rudyard Kipling"@de , "Kipling, Joseph Rudyard"@en .

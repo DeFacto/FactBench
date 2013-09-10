@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Northampton,_Massachusetts> ;
+        dbo:from        "1963"^^xsd:gYear ;
+        dbo:to          "1963"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Northampton,_Massachusetts>
+        rdfs:label     "Northampton, Massachusetts"@en , "Northampton, Massachusetts"@fr , "Northampton, Massachusetts"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Northampton_(Massachusetts)> , <http://fr.dbpedia.org/resource/Northampton_(Massachusetts)> ;
+        skos:altLabel  "Northampton"@fr , "Northampton"@de , "Northampton, MA"@en , "Northampton, MA"@fr , "Northampton, MA"@de , "Lesbianville"@en , "Lesbianville"@fr , "Lesbianville"@de , "Northhampton, Massachusetts"@en , "Northhampton, Massachusetts"@fr , "Northhampton, Massachusetts"@de , "LOCODE:USNHM"@en , "LOCODE:USNHM"@fr , "LOCODE:USNHM"@de , "Northhampton, MA"@en , "Northhampton, MA"@fr , "Northhampton, MA"@de , "Northampton massachusetts"@en , "Northampton, ma"@en , "Northampton, ma"@fr , "Northampton, ma"@de , "Northampton, Massachusetts"@en , "Northampton massachusetts"@fr , "Northampton, Massachusetts"@fr , "Northampton massachusetts"@de , "Northampton, Massachusetts"@de , "North Hampton, Massachusetts"@en , "North Hampton, Massachusetts"@fr , "North Hampton, Massachusetts"@de , "Northampton"@en .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles>
+        rdfs:label     "Beyoncé Knowles"@en , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Beyoncé_Knowles__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beyoncé_Knowles> , <http://de.dbpedia.org/resource/Beyoncé_Knowles> ;
+        skos:altLabel  "House of Dereon"@fr , "Beyoncé Giselle Knowles"@fr , "Why don't you love me"@fr , "Beyoncé Giselle Knowles"@de , "Knowles"@de , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de , "Beyoncé"@fr , "Beyoncé"@de , "Sasha Fierce"@fr , "Sasha Fierce"@de , "House of Deréon"@fr , "Beyonce Giselle Knowles"@fr , "Beyonce Giselle Knowles"@de , "Beyonce"@fr , "Beyonce"@de , "Beyonce Knowles"@fr , "Beyonce Knowles"@de .

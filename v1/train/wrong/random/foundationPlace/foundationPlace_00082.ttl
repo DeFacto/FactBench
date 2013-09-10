@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04g9ybx__1>
+        dbo:from        "1984"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0xckc> ;
+        dbo:to          "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0xckc>
+        rdfs:label     "Livonia"@en , "Livonia"@fr , "Livonia"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Livonia,_Michigan> , <http://de.dbpedia.org/resource/Livonia_(Michigan)> , <http://fr.dbpedia.org/resource/Livonia_(Michigan)> ;
+        skos:altLabel  "Wayne County / Livonia city"@en , "Livonia Township, Michigan"@fr , "Livonia Township, Michigan"@de , "Livonia Michigan"@fr , "Livonia Michigan"@de , "Livonia, Michigan"@en , "Livonia, Michigan"@fr , "Livonia"@fr , "Livonia, Michigan"@de , "Livonia"@de , "Livonia, mi"@fr , "Livonia, MI"@de , "Livonia, MI"@fr , "Livonia, mi"@de .
+
+<http://rdf.freebase.com/ns/m.04g9ybx>
+        rdfs:label  "Lime Wire LLC"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04g9ybx__1> .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01t_54y__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0456xp> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01t_54y>
+        rdfs:label     "Ronald Cheng"@en , "Ronald Cheng"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01t_54y__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Ronald_Cheng> ;
+        skos:altLabel  "Cheng Chung-Kei"@en , "郑中基"@en , "Cheng, Ronald"@en , "Zheng Zhong Ji"@en , "Ronald Cheng Chung-Kei"@en , "¾G¤¤°ò"@en , "Cheng Chung Kei"@en , "Ronald Cheng"@en , "Chung-Kei Cheng"@en , "Ronald"@en .
+
+<http://rdf.freebase.com/ns/m.0456xp>
+        rdfs:label     "Sienna Miller"@en , "Sienna Miller"@fr , "Sienna Miller"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sienna_Miller> , <http://dbpedia.org/resource/Sienna_Miller> , <http://de.dbpedia.org/resource/Sienna_Miller> ;
+        skos:altLabel  "Sienna Miller"@de , "Miller"@en , "Miller"@fr , "Miller"@de , "Sienna Rose Miller"@en , "Sienna"@de , "Sienna Rose Miller"@fr , "Sienna Rose Miller"@de , "Sienna Rose Diana Miller"@en , "Siena Miller"@en , "Siena Miller"@fr , "Siena Miller"@de , "Twenty8Twelve"@en , "Twenty8Twelve"@fr , "Twenty8Twelve"@de , "Sienna Miller"@en , "Sienna Rose"@en , "Sienna Rose"@fr , "Sienna Rose"@de , "Sienna rose miller"@en , "Sienna rose miller"@fr , "Sienna rose miller"@de , "Sienna Miller"@fr .

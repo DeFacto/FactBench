@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bd7l0>
+        rdfs:label     "Leo Burmester"@fr , "Leo Burmester"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Leo_Burmester> ;
+        skos:altLabel  "Burmester"@en , "Leo Burmester"@en , "Leo Burmeister"@en .
+
+<http://rdf.freebase.com/ns/m.0hg_0qm__88>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0bd7l0> ;
+        dbo:to      "2007-06-28"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0hg_0qm>
+        rdfs:label     "Lora Lee Ecobelli"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0hg_0qm__88> ;
+        skos:altLabel  "Lora Lee Amram"@en , "LL"@en .

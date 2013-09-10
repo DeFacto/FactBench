@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03hdwhj>
+        rdfs:label     "Uprizer Labs LLC"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03hdwhj__1> ;
+        skos:altLabel  "Uprizer Labs"@en .
+
+<http://rdf.freebase.com/ns/m.03hdwhj__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.010rhw> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.010rhw>
+        rdfs:label     "Kirkland"@de , "Kirkland"@en , "Kirkland"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Kirkland,_Washington> , <http://fr.dbpedia.org/resource/Kirkland_(Washington)> , <http://de.dbpedia.org/resource/Kirkland_(Washington)> ;
+        skos:altLabel  "King County / Kirkland city"@en , "Kirkland, Washington"@en , "Kirkland, Washington"@fr , "Kirkland, Washington"@de , "Kirkland, Wa"@en , "Kirkland, Wa"@fr , "Kirkland, Wa"@de , "Totem Lake"@en , "Totem Lake"@de , "Totem Lake"@fr , "Kirkland"@en , "Kirkland"@fr , "Kirkland"@de , "LOCODE:USXHF"@en , "Kirkland, WA"@en , "Kirkland, WA"@fr , "Kirkland, WA"@de , "LOCODE:USXHF"@fr , "LOCODE:USXHF"@de .

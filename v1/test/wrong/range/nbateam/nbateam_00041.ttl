@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kwame_Brown>
+        rdfs:label     "Kwame Brown"@en , "Kwame Brown"@fr , "Kwame Brown"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kwame_Brown__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kwame_Brown> , <http://fr.dbpedia.org/resource/Kwame_Brown> ;
+        skos:altLabel  "Kwame James Brown"@de , "Brown"@fr , "Kwame Brown"@fr , "Kwame Brown"@de , "Kwame"@fr , "Kwame"@de .
+
+<http://dbpedia.org/resource/Los_Angeles_Clippers>
+        rdfs:label     "Los Angeles Clippers"@fr , "Los Angeles Clippers"@en , "Los Angeles Clippers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Clippers_de_Los_Angeles> , <http://de.dbpedia.org/resource/Los_Angeles_Clippers> ;
+        skos:altLabel  "Clip"@en , "Clip"@de , "Clip"@fr , "Clipper"@de , "Clipper"@fr , "Clipper"@en , "Los Angeles Clippers"@de , "Los Angeles Clippers"@fr , "Los Angeles Clippers"@en , "Braves de Buffalo"@fr , "L.A. Clippers"@en , "L.A. Clippers"@de , "L.A. Clippers"@fr , "The Clippers"@de , "The Clippers"@fr , "The Clippers"@en , "Buffalo Braves"@de , "Buffalo Braves"@fr , "Lob city"@de , "Lob city"@fr , "Lob city"@en , "Lob City"@de , "Lob City"@fr , "Lob City"@en , "Clippers"@de , "Clippers"@fr , "Clippers"@en , "LA Clippers"@de , "LA Clippers"@fr , "LA Clippers"@en , "Clippers, Los Angeles"@de , "Clippers, Los Angeles"@fr , "Clippers, Los Angeles"@en , "Clippers De Los Angeles"@fr , "Clippers de los angeles"@fr , "Clippers de Los Angeles"@fr , "San Diego Clippers"@de , "San Diego Clippers"@fr , "San Diego Clippers"@en .
+
+<http://dbpedia.org/resource/Kwame_Brown__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Los_Angeles_Clippers> ;
+        dbo:to    "2010"^^xsd:gYear .

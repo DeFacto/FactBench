@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Woodrow_Wilson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Staunton,_Virginia> ;
+        dbo:from        "1856-12-28"^^xsd:date ;
+        dbo:to          "1856-12-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Staunton,_Virginia>
+        rdfs:label     "Staunton, Virginia"@en , "Staunton, Virginia"@fr , "Staunton, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Staunton_(Virginia)> , <http://fr.dbpedia.org/resource/Staunton_(Virginie)> ;
+        skos:altLabel  "Staunton, Virginia"@fr , "Staunton, Virginia"@de , "Staunton"@fr , "Staunton"@de , "Staunton VA"@fr , "Staunton VA"@de , "Stanton, VA"@fr , "LOCODE:USSHD"@fr , "Stanton, VA"@de , "Staunton, VA"@fr , "Staunton, VA"@de , "LOCODE:USSHD"@de , "Stanton, Virginia"@fr , "City of Staunton, Virginia"@fr , "Stanton, Virginia"@de , "City of Staunton, Virginia"@de , "Staunton va"@fr , "Staunton va"@de .
+
+<http://dbpedia.org/resource/Woodrow_Wilson>
+        rdfs:label     "Woodrow Wilson"@de , "Woodrow Wilson"@fr , "Woodrow Wilson"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Woodrow_Wilson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Woodrow_Wilson> , <http://de.dbpedia.org/resource/Woodrow_Wilson> ;
+        skos:altLabel  "T Woodrow Wilson"@fr , "T Woodrow Wilson"@en , "T Woodrow Wilson"@de , "President Wilson"@fr , "President Wilson"@en , "President Wilson"@de , "Wilson, Woodrow"@fr , "Wilson, Woodrow"@en , "Wilson, Woodrow"@de , "Woodrow"@fr , "Woodrow"@en , "Woodrow"@de , "President Wilson's"@fr , "W. Wilson"@fr , "President Wilson's"@en , "President Wilson's"@de , "W. Wilson"@en , "W. Wilson"@de , "Thomas Woodrow Wilson"@fr , "Thomas Woodrow Wilson"@en , "Thomas Woodrow Wilson"@de , "28th President of the United States"@fr , "28th President of the United States"@de , "28th President of the United States"@en , "President Woodrow Wilson"@fr , "President Woodrow Wilson"@en , "President Woodrow Wilson"@de , "Thomas W. Wilson"@fr , "Thomas W. Wilson"@de , "Thomas W. Wilson"@en , "President wilson"@fr , "President wilson"@de , "President wilson"@en , "Woodrow wilson"@fr , "Woodrow wilson"@en , "Woodrow wilson"@de , "Wildrow Woodson"@fr , "Wildrow Woodson"@en , "Wildrow Woodson"@de , "Wilson"@fr , "Wilson"@en , "Wilson"@de , "Woodrow Wilson"@fr , "Woodrow Wilson"@en , "Woodrow Wilson"@de , "Presidency of Woodrow Wilson"@fr , "Presidency of Woodrow Wilson"@en , "Presidency of Woodrow Wilson"@de , "Président Wilson"@fr , "T. Woodrow Wilson"@fr , "T. Woodrow Wilson"@en , "T. Woodrow Wilson"@de .

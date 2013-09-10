@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01vs81__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.06crt6> ;
+        dbo:from             "1925"^^xsd:gYear ;
+        dbo:to               "1925"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.06crt6>
+        rdfs:label     "Matthew Settle"@en , "Matthew Settle"@fr , "Matthew Settle"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Matthew_Settle> , <http://dbpedia.org/resource/Matthew_Settle> , <http://fr.dbpedia.org/resource/Matthew_Settle> ;
+        skos:altLabel  "Matthew Settle"@fr , "Matthew Settle"@de , "Jeffrey Matthew Settle"@en , "Mattie Boy"@en , "Settle"@fr , "Settle"@de .
+
+<http://rdf.freebase.com/ns/m.01vs81>
+        rdfs:label     "Frédéric Passy"@en , "Frédéric Passy"@fr , "Frédéric Passy"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01vs81__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Fr%C3%A9d%C3%A9ric_Passy> ;
+        skos:altLabel  "Frederic Passy"@en .

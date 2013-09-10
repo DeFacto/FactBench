@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04144h___1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.05ksh> ;
+        dbo:from             "1991"^^xsd:gYear ;
+        dbo:to               "1991"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05ksh>
+        rdfs:label     "Ottawa"@de , "Ottawa"@fr , "Ottawa"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ottawa> , <http://fr.dbpedia.org/resource/Ottawa> , <http://dbpedia.org/resource/Ottawa> ;
+        skos:altLabel  "Antrim, Ontario"@en , "Antrim, Ontario"@de , "Antrim, Ontario"@fr , "Ottawa, ON"@en , "Ottawa, ON"@fr , "Ottawa, ON"@de , "Ottawa"@en , "Ottawa"@fr , "Ottawa"@de , "Capitale canadienne"@fr , "Cedardale, Ottawa"@en , "Cedardale, Ottawa"@de , "Cedardale, Ottawa"@fr , "Woodridge, Ottawa River, Canada"@en , "Woodridge, Ottawa River, Canada"@de , "Woodridge, Ottawa River, Canada"@fr , "Cedardale, Ottawa, Ontario"@en , "Cedardale, Ottawa, Ontario"@fr , "Cedardale, Ottawa, Ontario"@de , "Capital of Canada"@en , "Capital of Canada"@de , "Capitale du Canada"@fr , "Capital of Canada"@fr , "Ottawa, ontario"@en , "Ottawa, Canada"@en , "Role of Ottawa"@en , "Role of Ottawa"@de , "Role of Ottawa"@fr , "Ottawa, ontario"@de , "Ottawa, ontario"@fr , "Ottawa, Canada"@de , "Ottawa, Canada"@fr , "City Ottawa"@en , "City Ottawa"@fr , "City Ottawa"@de , "Ottawa Municipality, Ontario"@en , "Ottawa Municipality, Ontario"@de , "Ottawa Municipality, Ontario"@fr , "National Capital Region"@en , "Capital city of canada"@en , "Capital city of canada"@fr , "Capital city of canada"@de , "Ottawa, Ontario, Canada"@en , "Ottawa, Ontario, Canada"@fr , "Ottawa, Ontario, Canada"@de , "Government of Ottawa"@en , "Government of Ottawa"@fr , "Government of Ottawa"@de , "Otawwa"@en , "LOCODE:CAOTT"@en , "Otawwa"@de , "Otawwa"@fr , "LOCODE:CAOTT"@de , "LOCODE:CAOTT"@fr , "Ville d'Ottawa"@en , "Ville d'Ottawa"@fr , "Ville d'Ottawa"@de , "Bytown"@fr , "Cedardale"@en , "Cedardale"@de , "Cedardale"@fr , "Ottawa List of MPs, MPPs, and Senators"@en , "Ottawa List of MPs, MPPs, and Senators"@de , "Ottawa List of MPs, MPPs, and Senators"@fr , "The weather in Ottawa"@en , "The weather in Ottawa"@de , "The weather in Ottawa"@fr , "Ottawa, Ontario"@en , "Ottawa, Ontario"@de , "Ottawa, Ontario"@fr .
+
+<http://rdf.freebase.com/ns/m.04144h_>
+        rdfs:label  "impetus Technologies"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04144h___1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Impetus_Technologies> .

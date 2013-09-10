@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03ky74__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0g949d> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03ky74>
+        rdfs:label     "Dave Wolverton"@en , "Dave Wolverton"@fr , "Dave Wolverton"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03ky74__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dave_Wolverton> , <http://fr.dbpedia.org/resource/Dave_Wolverton> , <http://dbpedia.org/resource/Dave_Wolverton> ;
+        skos:altLabel  "Dave Wolverton"@en , "Dave Wolverton"@fr , "Dave Wolverton"@de , "David Wolverton"@en , "Wolverton"@en , "David Farland"@en , "David Wolverton"@fr , "David Wolverton"@de , "David Farland"@fr , "David Farland"@de , "Wolverton"@de , "Wolverton"@fr , "David John Wolverton"@en .
+
+<http://rdf.freebase.com/ns/m.0g949d>
+        rdfs:label  "Across the Sea of Suns"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Across_the_Sea_of_Suns> .

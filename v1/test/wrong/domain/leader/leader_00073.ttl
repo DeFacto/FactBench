@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Sparrow_David_Thompson__1>
+        dbo:from    "1973"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Bahamas> ;
+        dbo:to      "1992"^^xsd:gYear .
+
+<http://dbpedia.org/resource/John_Sparrow_David_Thompson>
+        rdfs:label     "John Sparrow David Thompson"@en , "John Sparrow David Thompson"@fr , "John Sparrow David Thompson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Sparrow_David_Thompson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Sparrow_David_Thompson> , <http://de.dbpedia.org/resource/John_Thompson> ;
+        skos:altLabel  "Thompson"@fr , "John Sparrow David Thompson"@fr , "Sir John Sparrow David Thompson"@fr , "John Sparrow David Thompson"@de , "Sir John Sparrow David Thompson"@de , "John S.D. Thompson"@fr , "John S.D. Thompson"@de , "Sparrow"@fr , "John Sparrow Thompson"@fr , "John Sparrow Thompson"@de , "Sir John Sparrow Thompson"@fr , "Sir John Sparrow Thompson"@de , "John Thompson"@de .
+
+<http://dbpedia.org/resource/Bahamas>
+        rdfs:label  "Bahamas"@en , "Bahamas"@fr , "Bahamas"@de .

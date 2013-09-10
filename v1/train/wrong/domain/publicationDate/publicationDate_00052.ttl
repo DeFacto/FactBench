@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02yl42__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01jzql> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01jzql>
+        rdfs:label     "Shadow of the Hegemon"@en , "L'Ombre de l'Hégémon"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Shadow_of_the_Hegemon> , <http://fr.dbpedia.org/resource/L'Ombre_de_l'Hégémon> ;
+        skos:altLabel  "Hegemon"@en , "Hegemon"@fr , "Shadow of the Hegemon"@en , "Shadow of the Hegemon"@fr , "L'ombre de l'hégémon"@fr , "L'Ombre De L'Hégémon"@fr , "L'Ombre de l'Hegemon"@fr , "L'Ombre de l'Hégémon"@fr , "L'Ombre De L'Hegemon"@fr , "L'ombre de l'hegemon"@fr .
+
+<http://rdf.freebase.com/ns/m.02yl42>
+        rdfs:label     "Jonathan Lethem"@de , "Jonathan Lethem"@en , "Jonathan Lethem"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02yl42__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Jonathan_Lethem> , <http://fr.dbpedia.org/resource/Jonathan_Lethem> , <http://de.dbpedia.org/resource/Jonathan_Lethem> ;
+        skos:altLabel  "Jonathan Lethem"@en , "Johnathan Lethem"@en , "Jonathan Lethem"@fr , "Jonathan Lethem"@de , "Johnathan Lethem"@fr , "Johnathan Lethem"@de , "Harry Conklin"@en , "Jonathan Allen Lethem"@en , "Lethem"@en , "Lethem"@de , "Lethem"@fr .

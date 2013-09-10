@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02wk4d__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01rrd4> ;
+        dbo:to      "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02wk4d>
+        rdfs:label     "Nicholas Tse"@de , "Nicholas Tse"@en , "Nicholas Tse"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02wk4d__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Nicholas_Tse> , <http://fr.dbpedia.org/resource/Nicholas_Tse> , <http://de.dbpedia.org/resource/Nicholas_Tse> ;
+        skos:altLabel  "Xie T'ingfeng"@en , "Nic Tse"@en , "Xiè Tíngfēng"@fr , "Xiè Tíngfēng"@de , "Nicholas Tse Ting-Fung"@en , "Ting-Fung Tse Nicholas"@en , "謝霆鋒"@en , "Ting-Fung Tse"@en , "Tse Nicholas"@fr , "Tse Nicholas"@de , "Xie Tingfeng"@fr , "Xie Tingfeng"@de , "谢霆锋"@en , "Tingfeng Xie"@en , "Nicolas Tse"@de , "Nicolas Tse"@fr , "Nic"@en , "Nicholas Tse"@fr , "Nicholas Tse"@de , "Tse, Nicholas"@en , "Tse Ting-Fung"@en , "Lemon"@en .
+
+<http://rdf.freebase.com/ns/m.01rrd4>
+        rdfs:label     "Matt LeBlanc"@en , "Matt LeBlanc"@fr , "Matt LeBlanc"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Matt_LeBlanc> , <http://fr.dbpedia.org/resource/Matt_LeBlanc> , <http://de.dbpedia.org/resource/Matt_LeBlanc> ;
+        skos:altLabel  "Matthew Steven \"Matt\" LeBlanc"@en , "Matthew Steven \"Matt\" LeBlanc"@fr , "Matthew Steven \"Matt\" LeBlanc"@de , "Matt Le Blanc"@en , "Matthew David Leblanc"@en , "Matt Le Blanc"@fr , "Matt"@fr , "Matthew David Leblanc"@fr , "Matt Le Blanc"@de , "Matthew David Leblanc"@de , "Leblanc"@en , "Leblanc"@fr , "Leblanc"@de , "Matt Leblanc"@en , "Matt Leblanc"@fr , "Matt Leblanc"@de , "Matty"@en , "Matt LeBlanc"@en , "Matt LeBlanc"@fr , "Matt LeBlanc"@de , "Matthew LeBlanc"@en , "Matthew Le Blanc"@en , "Matt LeBlanc Arquette"@en , "Matthew LeBlanc"@fr , "Matthew LeBlanc"@de , "Matthew Steven LeBlanc"@en , "Matthew Steven LeBlanc"@fr , "Matthew Steven LeBlanc"@de .

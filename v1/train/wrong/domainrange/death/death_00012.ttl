@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Oscar_Peterson>
+        rdfs:label     "Oscar Peterson"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Peterson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Peterson> , <http://de.dbpedia.org/resource/Oscar_Peterson> ;
+        skos:altLabel  "Advanced School of Contemporary Music"@en , "Advanced School of Contemporary Music"@fr , "Advanced School of Contemporary Music"@de , "Oscar Petersen"@en , "Oscar Petersen"@fr , "Oscar Petersen"@de , "Oscar Emmanuel Peterson"@en , "Oscar Emmanuel Peterson"@fr , "Oscar Emmanuel Peterson"@de , "Oscar Peterson"@en , "Oscar Peterson Trio"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de , "Oscar Peterson Trio"@fr , "Oscar Peterson Trio"@de , "Peterson"@fr , "Oscar peterson"@en , "Oscar peterson"@fr , "Oscar peterson"@de , "In the Key of Oscar"@en , "In the Key of Oscar"@fr , "In the Key of Oscar"@de .
+
+<http://dbpedia.org/resource/Miami>
+        rdfs:label     "Miami"@de , "Miami"@fr , "Miami"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Miami> , <http://de.dbpedia.org/resource/Miami> ;
+        skos:altLabel  "Miami, Florida"@de , "Miami, Florida"@fr , "Miami, Florida"@en , "Miami, FL"@en , "Miami, FL"@de , "Miami, FL"@fr , "Miami, Fla."@de , "Miami, Fla."@fr , "Miami, Fla."@en , "Miami, USA"@de , "Miami, USA"@fr , "Miami, USA"@en , "Miami, fl"@de , "Miami, fl"@fr , "Miami, fl"@en , "City of Miami, Florida"@en , "Miami FL"@de , "City of Miami, Florida"@de , "City of Miami, Florida"@fr , "Miami FL"@fr , "Miami FL"@en , "Miami, Fl"@de , "Miami, Fl"@fr , "Miami, Fl"@en , "Miami Florida"@en , "Miami Florida"@de , "Miami Florida"@fr , "Miami"@de , "Miami"@fr , "Miami"@en , "Miami florida"@de , "Miami florida"@fr , "Miami florida"@en , "The weather in Miami"@de , "The weather in Miami"@fr , "The weather in Miami"@en , "LOCODE:USMIA"@de , "LOCODE:USMIA"@fr , "LOCODE:USMIA"@en .
+
+<http://dbpedia.org/resource/Oscar_Peterson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Miami> ;
+        dbo:from        "1979"^^xsd:gYear ;
+        dbo:to          "1979"^^xsd:gYear .

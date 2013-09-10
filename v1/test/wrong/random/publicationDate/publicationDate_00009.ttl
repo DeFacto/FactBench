@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0qyrs>
+        rdfs:label     "Lafayette"@de , "Lafayette"@fr , "Lafayette"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Lafayette,_California> , <http://de.dbpedia.org/resource/Lafayette_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lafayette_(Californie)> ;
+        skos:altLabel  "Burton Valley"@de , "Burton Valley"@fr , "Burton Valley"@en , "Lafayette"@de , "Lafayette"@fr , "Lafayette"@en , "Burton Valley Elementary"@de , "Burton Valley Elementary"@fr , "Burton Valley Elementary"@en , "LOCODE:USLZX"@de , "LOCODE:USLZX"@fr , "LOCODE:USLZX"@en , "Lafayette park theater"@de , "Lafayette park theater"@fr , "Lafayette park theater"@en , "Contra Costa County / Lafayette city"@en , "Lafayette ca"@de , "Lafayette ca"@fr , "Lafayette ca"@en , "Lafayette, California"@de , "Lafayette, California"@fr , "Lafayette, California"@en , "Lafayette, ca"@de , "Lafayette, ca"@fr , "Lafayette, ca"@en , "Lafayette, CA"@de , "Lafayette, CA"@fr , "Lafayette, CA"@en , "La Fayette, California"@de , "La Fayette, California"@fr , "La Fayette, California"@en , "Stanley Middle School"@de , "Stanley Middle School"@fr , "Stanley Middle School"@en , "Central Lafayette, California"@de , "Central Lafayette, California"@fr , "Central Lafayette, California"@en .
+
+<http://dbpedia.org/resource/Kamal_Haasan>
+        rdfs:label     "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kamal Haasan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kamal_Haasan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kamal_Haasan> , <http://fr.dbpedia.org/resource/Kamal_Haasan> ;
+        skos:altLabel  "Kamala hasan"@de , "Kamala hasan"@fr , "Kamala hasan"@en , "Kamalahasan"@en , "Kamalahasan"@de , "Kamalahasan"@fr , "Kamalahaasan"@en , "Kamalahaasan"@de , "Kamalahaasan"@fr , "Kmal haasan"@en , "Kmal haasan"@de , "Kmal haasan"@fr , "Kamalhasan"@de , "Kamalhassan"@en , "Kamalhassan"@de , "Kamalhassan"@fr , "Kamal Hassan"@en , "Kamal Hassan"@de , "Kamal Hassan"@fr , "Kamala haasan"@en , "Kamala haasan"@de , "Kamala haasan"@fr , "Kamalahassan"@en , "Kamalahassan"@de , "Kamalahassan"@fr , "Kamal Hasan"@en , "Kamal Hasan"@de , "Kamal Hasan"@fr , "Marmayogi"@de , "Marmayogi"@fr , "Marmayogi"@en , "Kamal Haasan"@en , "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kaml"@en , "Kaml"@de , "Kaml"@fr , "Thalaivan Irukkiraan"@de , "Thalaivan Irukkiraan"@fr , "Thalaivan Irukkiraan"@en , "Kamal haasna"@de , "Kamal haasna"@fr , "Kamal haasna"@en , "Kamal"@de , "Kamal"@fr , "Kamal"@en .
+
+<http://dbpedia.org/resource/Kamal_Haasan__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0qyrs> ;
+        dbo:from   "1975"^^xsd:gYear ;
+        dbo:to     "1975"^^xsd:gYear .

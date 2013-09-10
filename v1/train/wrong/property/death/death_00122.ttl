@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chris_Benoit__1>
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Fayetteville,_Georgia> ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Fayetteville,_Georgia>
+        rdfs:label     "Fayetteville, Georgia"@en , "Fayetteville, Georgia"@fr , "Fayetteville, Georgia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fayetteville_(Géorgie)> , <http://de.dbpedia.org/resource/Fayetteville_(Georgia)> ;
+        skos:altLabel  "Fayetteville, Georgia"@fr , "Fayetteville, Georgia"@de , "Fayetteville, GA"@de , "Fayetteville, GA"@fr , "Fayetteville"@fr , "Fayetteville"@de , "LOCODE:USFYE"@fr , "LOCODE:USFYE"@de .
+
+<http://dbpedia.org/resource/Chris_Benoit>
+        rdfs:label     "Chris Benoit"@de , "Chris Benoit"@fr , "Chris Benoit"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Benoit__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chris_Benoit> , <http://fr.dbpedia.org/resource/Chris_Benoit> ;
+        skos:altLabel  "Christopher Michael Benoît"@en , "Chirs Benoit"@en , "Christopher Michael Benoît"@fr , "Chirs Benoit"@fr , "Christopher Michael Benoît"@de , "Benoit"@de , "Chirs Benoit"@de , "The chris benoit story"@en , "The chris benoit story"@fr , "The chris benoit story"@de , "The Pegasus Kid"@en , "Hard Knocks"@en , "Hard Knocks"@fr , "Hard Knocks"@de , "Chris Benwa"@en , "Chris Beniot"@en , "The Pegasus Kid"@fr , "Chris Benwa"@de , "The Pegasus Kid"@de , "Chris Benwa"@fr , "Chris Beniot"@de , "Chris Beniot"@fr , "Pegasus Kid"@en , "Hard Knocks: The Chris Benoit Story"@en , "Chris benoit"@en , "Pegasus Kid"@fr , "Pegasus Kid"@de , "Chris benoit"@de , "Chris benoit"@fr , "Hard Knocks: The Chris Benoit Story"@de , "Hard Knocks: The Chris Benoit Story"@fr , "Christopher Michael \"Chris\" Benoit"@en , "Christopher Michael \"Chris\" Benoit"@fr , "Christopher Michael \"Chris\" Benoit"@de , "The Benoit family murder-suicide tragedy"@en , "Daniel Benoit"@en , "The Rabid Wolverine"@en , "The Benoit family murder-suicide tragedy"@fr , "Daniel Benoit"@fr , "Daniel Benoit"@de , "The Benoit family murder-suicide tragedy"@de , "The Rabid Wolverine"@de , "The Rabid Wolverine"@fr , "Christopher Benoit"@en , "Christopher Benoit"@fr , "Christopher Benoit"@de , "Wild Pegasus"@en , "Wild Pegasus"@fr , "Wild Pegasus"@de , "\"The Rabid Wolverine\" Chris Benoit"@en , "\"The Rabid Wolverine\" Chris Benoit"@fr , "\"The Rabid Wolverine\" Chris Benoit"@de , "Chris Bonit"@en , "Chris Bonit"@fr , "Chris Bonit"@de , "The Wild Pegasus"@en , "The Wild Pegasus"@de , "The Wild Pegasus"@fr , "Chris Benoit"@en , "Chris Benoit"@de , "Chris Benoit"@fr , "Pegasus"@en , "Pegasus"@de , "Pegasus"@fr , "Crippler"@de , "Death of Chris Benoit and his family"@en , "Death of Chris Benoit and his family"@de , "Death of Chris Benoit and his family"@fr , "Christopher Michael Benoit"@en , "Christopher Michael Benoit"@fr , "Christopher Michael Benoit"@de , "Chris Benoît"@en , "Chris Benoît"@fr , "Chris Benoît"@de , "Rabid Wolverine"@en , "Rabid Wolverine"@fr , "Rabid Wolverine"@de .

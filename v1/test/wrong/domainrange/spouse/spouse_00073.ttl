@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09pyvy__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01vsykc> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01vsykc>
+        rdfs:label     "Seal"@de , "Seal"@fr , "Seal"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seal> , <http://dbpedia.org/resource/Seal_(musician)> , <http://de.dbpedia.org/resource/Seal> ;
+        skos:altLabel  "Henry Olusegun Olumide Samuel"@de , "Henry Olusegun Olumide Samuel"@fr , "Henry Olusegun Olumide Samuel"@en , "Seal"@de , "Seal"@fr , "Seal"@en , "Henry Olusegun Samuel"@de , "Henry Olusegun Samuel"@fr , "Henry Olusegun Samuel"@en , "Adamski"@en , "Henry Samuel"@de , "Henry Samuel"@fr , "Henry Samuel"@en , "Seal Samuel"@de , "Seal Samuel"@fr , "Seal Samuel"@en , "Henry Olusegun Adeola Samuel"@de , "Henry Olusegun Adeola Samuel"@fr , "Henry Olusegun Adeola Samuel"@en , "Henry Olusegun Olumide Adelo Samuel"@de , "Henry Olusegun Olumide Adelo Samuel"@fr , "Henry Olusegun Olumide Adelo Samuel"@en , "Henry Olusegun Olumide Adeola Samuel"@de , "Henry Olusegun Olumide Adeola Samuel"@fr , "Henry Olusegun Olumide Adeola Samuel"@en , "Seal Henry Olusegun Olumide Adelo Samuel"@de , "Seal Henry Olusegun Olumide Adelo Samuel"@fr , "Seal Henry Olusegun Olumide Adelo Samuel"@en , "Seal Henry Olusegun Olumide Adeola Samuel"@de , "Seal Henry Olusegun Olumide Adeola Samuel"@fr , "Seal Henry Olusegun Olumide Adeola Samuel"@en , "Sean Henry Samuel"@de , "Sean Henry Samuel"@fr , "Sean Henry Samuel"@en , "Henry Olumide Adeola Samuel"@de , "Henry Olumide Adeola Samuel"@fr , "Henry Olumide Adeola Samuel"@en .
+
+<http://rdf.freebase.com/ns/m.09pyvy>
+        rdfs:label     "Patricio Borghetti"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09pyvy__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Patricio_Borghetti> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Patricio Borghetti"@en , "Juan Patricio Borghetti Imérito"@en , "Juan Patricio Borghetti Imerito"@en .

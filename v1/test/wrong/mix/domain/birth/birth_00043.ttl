@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Bernard_Shaw__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Camarillo,_California> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Bernard_Shaw>
+        rdfs:label     "George Bernard Shaw"@de , "George Bernard Shaw"@fr , "George Bernard Shaw"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Bernard_Shaw__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Bernard_Shaw> , <http://de.dbpedia.org/resource/George_Bernard_Shaw> ;
+        skos:altLabel  "George Bernard Shaw"@en , "George Bernard Shaw"@de , "George Bernard Shaw"@fr , "Bernard Shaw"@en , "Bernard Shaw"@de , "Bernard Shaw"@fr , "Plays Pleasant"@en , "Plays Pleasant"@de , "Plays Pleasant"@fr , "GB Shaw"@en , "GB Shaw"@de , "GB Shaw"@fr , "G.B. Shaw"@en , "G.B.Shaw"@en , "G.B. Shaw"@de , "G.B.Shaw"@de , "G.B.Shaw"@fr , "G.B. Shaw"@fr , "G. Bernard Shaw"@en , "G. Bernard Shaw"@de , "G. Bernard Shaw"@fr , "George Barnard Shaw"@en , "George Barnard Shaw"@de , "George Barnard Shaw"@fr , "Bernard"@en , "Bernard"@de , "Bernard"@fr , "Geneva, a Fancied Page of History in Three Acts"@de , "Geneva, a Fancied Page of History in Three Acts"@fr , "Geneva, a Fancied Page of History in Three Acts"@en , "Shaw"@de , "Shaw"@fr , "Plays Unpleasant"@de , "Plays Unpleasant"@fr , "Plays Unpleasant"@en , "G. B. Shaw"@de , "G. B. Shaw"@fr , "G. B. Shaw"@en , "Shaw, George Bernard"@de , "Shaw, George Bernard"@fr , "Shaw, George Bernard"@en , "Bernhard Shaw"@de , "George Bernhard Shaw"@de , "G B Shaw"@en , "G B Shaw"@de , "G B Shaw"@fr .
+
+<http://dbpedia.org/resource/Camarillo,_California>
+        rdfs:label     "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Camarillo> , <http://de.dbpedia.org/resource/Camarillo> ;
+        skos:altLabel  "Camarillo"@en , "Camarillo, ca"@en , "LOCODE:USCMR"@en , "Camarillo, ca"@fr , "LOCODE:USCMR"@fr , "Camarillo, ca"@de , "LOCODE:USCMR"@de , "Camarillo"@fr , "Camarillo"@de , "Camarillo, CA"@en , "Camarillo, CA"@fr , "Camarillo, CA"@de , "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de .

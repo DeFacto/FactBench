@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.016l20>
+        rdfs:label     "Siemens"@de , "Siemens"@fr , "Siemens"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.016l20__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Siemens> , <http://dbpedia.org/resource/Siemens> , <http://fr.dbpedia.org/resource/Siemens_(entreprise)> ;
+        skos:altLabel  "UGS Corporation"@en , "UGS Corporation"@de , "UGS Corporation"@fr , "Siemens Norge"@en , "Siemens Norge"@fr , "Siemens Norge"@de , "Siemens and Haske"@en , "Siemens and Haske"@de , "Siemens and Haske"@fr , "Unigraphics Solutions Inc."@en , "Unigraphics Solutions Inc."@fr , "Unigraphics Solutions Inc."@de , "Siemens"@en , "Siemens"@fr , "Siemens"@de , "Siemens & Halske AG"@de , "Siemens Brothers"@en , "Siemens Brothers"@fr , "Siemens & Halske"@fr , "Siemens & Halske"@de , "Siemens Brothers"@de , "Siemens Corporate Research"@en , "Siemens AG"@en , "Siemens AG"@fr , "Siemens AG"@de , "Telegraphen-Bauanstalt von Siemens & Halske"@en , "Telegraphen-Bauanstalt von Siemens & Halske"@de , "Telegraphen-Bauanstalt von Siemens & Halske"@fr , "Siemens information systems ltd"@en , "Siemens Corporate Research"@fr , "Siemens information systems ltd"@fr , "Siemens information systems ltd"@de , "Siemens Corporate Research"@de , "Siemens Energy"@en , "Siemens Energy"@de , "Siemens Energy"@fr , "Structural Dynamics Research Corporation"@en , "Siemens Solar"@en , "Structural Dynamics Research Corporation"@fr , "Siemens Solar"@fr , "Structural Dynamics Research Corporation"@de , "Siemens Solar"@de , "Siemens und Halske"@de , "Siemens VDO Automotive"@en , "Siemens VDO Automotive"@fr , "Siemens VDO Automotive"@de , "Siemens A.G."@en , "Siemens A.G."@de , "Siemens A.G."@fr , "Siemens Power Ventures"@en , "Siemens Power Ventures"@fr , "Siemens Power Ventures"@de , "Sims"@de , "Cerberus Pyrotronics"@en , "Cerberus Pyrotronics"@de , "Cerberus Pyrotronics"@fr , "Pyrotronics"@en , "Pyrotronics"@fr , "Pyrotronics"@de , "Siemens K.K."@en , "Siemens K.K."@fr , "Siemens K.K."@de , "UGS PLM Software"@en , "UGS PLM Software"@de , "UGS PLM Software"@fr , "Seimens"@en , "Siemens Osterreich"@de , "Seimens"@de , "Seimens"@fr , "Siemens Deutschland"@de , "Siemens Österreich"@de .
+
+<http://rdf.freebase.com/ns/m.016l20__1>
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02h5c7y> ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02h5c7y>
+        rdfs:label  "Vontu"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03hpr__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05_m0c> ;
+        dbo:from    "1972"^^xsd:gYear ;
+        dbo:to      "1972"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05_m0c>
+        rdfs:label     "Der große Eisenbahnraub"@de , "The Great Train Robbery"@en , "Un train d'or pour la Crimée"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Der_große_Eisenbahnraub_(Roman)> , <http://fr.dbpedia.org/resource/Un_train_d'or_pour_la_Crimée> , <http://dbpedia.org/resource/The_Great_Train_Robbery_(novel)> ;
+        skos:altLabel  "Un train d'or pour la Crimee"@fr , "Un Train d'Or pour la Crimee"@fr , "The Great Train Robbery"@fr , "The Great Train Robbery"@de , "Un train d'or pour la Crimée"@fr , "Der große Eisenbahnraub"@de , "Un Train d'Or pour la Crimée"@fr .
+
+<http://rdf.freebase.com/ns/m.03hpr>
+        rdfs:label     "Harlan Ellison"@en , "Harlan Ellison"@fr , "Harlan Ellison"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03hpr__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Harlan_Ellison> , <http://de.dbpedia.org/resource/Harlan_Ellison> , <http://fr.dbpedia.org/resource/Harlan_Ellison> ;
+        skos:altLabel  "Harlan"@en , "Cordwainer Bird"@en , "Harlan Ellison ®"@en , "Harlan"@fr , "Cordwainer Bird"@fr , "Cordwainer Bird"@de , "Harlan"@de , "Harlan Ellison ®"@fr , "Harlan Ellison ®"@de , "Ellison"@en , "Ellison"@fr , "Ellison"@de , "Harlan Jay Ellison"@en , "Harlan Jay Ellison"@fr , "Harlan Jay Ellison"@de , "Harlan Ellison"@en , "Harlan Ellison"@fr , "Harlan Ellison"@de , "Harlan J. Ellison"@en , "Harlan J. Ellison"@fr , "Harlan J. Ellison"@de , "Harold Ellison"@en , "Harold Ellison"@fr , "Harold Ellison"@de , "Cord Wainer Bird"@en , "Sley Harson"@en , "Nalrah Nosille"@en , "Harlan ellison"@en , "Harlan ellison"@fr , "Harlan ellison"@de , "Paul Merchant"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dallas_Mavericks>
+        rdfs:label     "Dallas Mavericks"@en , "Dallas Mavericks"@fr , "Dallas Mavericks"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dallas_Mavericks> , <http://fr.dbpedia.org/resource/Mavericks_de_Dallas> ;
+        skos:altLabel  "Mavs"@fr , "Mavs"@de , "Dallas Maverick"@en , "Dallas Maverick"@fr , "Dallas Maverick"@de , "Dallas Mavericks"@en , "Dallas Mavericks"@fr , "Dallas Mavericks"@de , "Mavericks De Dallas"@fr , "Maverick"@en , "Maverick"@fr , "Maverick"@de , "D-Mavs"@en , "D-Mavs"@fr , "D-Mavs"@de , "Dallas Mavs"@en , "Dallas Mavs"@fr , "Dallas Mavs"@de , "MAVS"@en , "MAVS"@fr , "MAVS"@de , "Champ and Mavs Man"@en , "Champ and Mavs Man"@fr , "Champ and Mavs Man"@de , "Mavericks de dallas"@fr , "Dallas Mavricks"@en , "Dallas Mavricks"@fr , "Mavericks de Dallas"@fr , "Dallas Mavricks"@de , "Mavs"@en .
+
+<http://dbpedia.org/resource/Elton_Brand__1>
+        dbo:from  "2009"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Dallas_Mavericks> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Elton_Brand>
+        rdfs:label     "Elton Brand"@en , "Elton Brand"@fr , "Elton Brand"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Elton_Brand__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Elton_Brand> , <http://fr.dbpedia.org/resource/Elton_Brand> ;
+        skos:altLabel  "Elton brand"@en , "Elton brand"@fr , "Elton brand"@de , "Elton"@en , "Elton Brand"@en , "Elton"@fr , "Elton"@de , "Elton Brand"@fr , "Elton Brand"@de , "Elton Tyron Brand"@en , "Brand"@en , "Elton Tyron Brand"@fr , "Brand"@de , "Brand"@fr , "Elton Tyron Brand"@de .

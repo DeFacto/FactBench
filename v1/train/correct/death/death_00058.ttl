@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hugo_Chávez>
+        rdfs:label     "Hugo Chávez"@en , "Hugo Chávez"@fr , "Hugo Chávez"@de ;
+        dbo:death      <http://dbpedia.org/resource/Hugo_Chávez__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hugo_Chávez> , <http://fr.dbpedia.org/resource/Hugo_Chávez> ;
+        skos:altLabel  "Chavistas"@fr , "Hugo Rafael Chavez"@fr , "Hugo Chávez Frías"@fr , "Hugo Rafael Chávez Frías"@fr , "Hugo Chávez Frías"@de , "Hugo Rafael Chávez Frías"@de , "Hugo Rafael Chavez Frias"@fr , "Hugo Chávez"@fr , "Hugo Chávez"@de , "Hugo Rafael Chavez Frias"@de , "Chávez"@fr , "Affaire de l'antisémitisme de Hugo Chavez"@fr , "Hugo Chavez Frias"@fr , "Hugo Chavez Frias"@de , "Hugo Chavez"@fr , "Hugo Chavez"@de , "Chavez"@fr , "Hugo Rafael Chávez"@fr , "Hugo Rafael Chavéz"@fr , "Hugo chavez"@fr , "Affaire de l'antisemitisme de Hugo Chavez"@fr .
+
+<http://dbpedia.org/resource/Caracas>
+        rdfs:label     "Caracas"@en , "Caracas"@de , "Caracas"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Caracas> , <http://de.dbpedia.org/resource/Caracas> ;
+        skos:altLabel  "Metropolitan District of Caracas"@fr , "Caracas, Venezuala"@en , "Caracas, Venezuala"@de , "Metropolitan District of Caracas"@en , "Metropolitan District of Caracas"@de , "Caracas, Venezuala"@fr , "Caracas"@en , "Caracas"@de , "Caracas"@fr , "Santiago de Leon de Caracas"@en , "Santiago de Leon de Caracas"@de , "Santiago de Leon de Caracas"@fr , "Santiago de Venezuela"@en , "Santiago de Venezuela"@de , "Santiago de Venezuela"@fr , "Caraqueno"@en , "Caraqueno"@de , "Caraqueno"@fr , "Capital of Venezuela"@en , "Capital of Venezuela"@de , "Capital of Venezuela"@fr , "Caraqueño"@en , "Caraqueño"@de , "Caraqueño"@fr , "Carracas"@en , "Carracas"@de , "Carracas"@fr , "Santiago de León de Caracas"@en , "Santiago de León de Caracas"@de , "Santiago de León de Caracas"@fr , "Caracas, Venezuela"@en , "Caracas, Venezuela"@de , "Caracas, Venezuela"@fr , "LOCODE:VECCS"@en , "LOCODE:VECCS"@de , "LOCODE:VECCS"@fr .
+
+<http://dbpedia.org/resource/Hugo_Chávez__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Caracas> ;
+        dbo:from        "2013-03-05"^^xsd:date ;
+        dbo:to          "2013-03-05"^^xsd:date .

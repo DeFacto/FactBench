@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Camarillo,_California>
+        rdfs:label     "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Camarillo> , <http://de.dbpedia.org/resource/Camarillo> ;
+        skos:altLabel  "Camarillo"@en , "Camarillo, ca"@en , "LOCODE:USCMR"@en , "Camarillo, ca"@fr , "LOCODE:USCMR"@fr , "Camarillo, ca"@de , "LOCODE:USCMR"@de , "Camarillo"@fr , "Camarillo"@de , "Camarillo, CA"@en , "Camarillo, CA"@fr , "Camarillo, CA"@de , "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de .
+
+<http://rdf.freebase.com/ns/m.0fccsp>
+        rdfs:label     "Elsa Pataky"@en , "Elsa Pataky"@fr , "Elsa Pataky"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fccsp__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Elsa_Pataky> , <http://de.dbpedia.org/resource/Elsa_Pataky> , <http://dbpedia.org/resource/Elsa_Pataky> ;
+        skos:altLabel  "Elsa Pataki"@fr , "Elsa Pataki"@de , "Pataky"@de , "Elsa Pataky"@en , "Elsa Pataky"@fr , "Elsa Pataky"@de , "Elsa Pataki"@en , "Elsa Lafuente Medianu"@en .
+
+<http://rdf.freebase.com/ns/m.0fccsp__1>
+        dbo:from    "1998"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Camarillo,_California> ;
+        dbo:to      "1998"^^xsd:gYear .

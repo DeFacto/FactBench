@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charlotte_Bobcats>
+        rdfs:label     "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bobcats_de_Charlotte> , <http://de.dbpedia.org/resource/Charlotte_Bobcats> ;
+        skos:altLabel  "Bobcat"@de , "Bobcats de Charlotte"@fr , "Charlotte Flight"@en , "Charlotte Flight"@de , "Charlotte Flight"@fr , "Bobcats de charlotte"@fr , "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de , "Bobcats De Charlotte"@fr , "Bobcat"@en , "Bobcat"@fr .
+
+<http://dbpedia.org/resource/Shaun_Livingston>
+        rdfs:label     "Shaun Livingston"@en , "Shaun Livingston"@fr , "Shaun Livingston"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Shaun_Livingston__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Shaun_Livingston> , <http://fr.dbpedia.org/resource/Shaun_Livingston> ;
+        skos:altLabel  "Shaun Livingston"@en , "Shaun Livingston"@fr , "Shaun Livingston"@de , "Livingston"@fr , "Livingston"@de .
+
+<http://dbpedia.org/resource/Shaun_Livingston__1>
+        dbo:from      "2010"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Charlotte_Bobcats> ;
+        dbo:to        "2010"^^xsd:gYear .

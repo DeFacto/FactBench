@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Woody_Allen__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Omaha,_Nebraska> ;
+        dbo:from        "1984"^^xsd:gYear ;
+        dbo:to          "1984"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Omaha,_Nebraska>
+        rdfs:label     "Omaha, Nebraska"@en , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Omaha> , <http://fr.dbpedia.org/resource/Omaha_(Nebraska)> ;
+        skos:altLabel  "Omaha, ne"@en , "Omaha Nebraska"@en , "City of Omaha"@en , "Omaha City"@en , "Omaha Nebraska"@fr , "Omaha Nebraska"@de , "Omaha, ne"@fr , "City of Omaha"@fr , "Omaha, ne"@de , "Omaha City"@fr , "Omaha City"@de , "City of Omaha"@de , "Omaha, NE"@en , "Omaha, NE"@fr , "Omaha, NE"@de , "Omaha"@en , "Omaha"@fr , "Omaha"@de , "LOCODE:USOMA"@en , "Omaha, Neb."@en , "LOCODE:USOMA"@fr , "Omaha, Neb."@fr , "LOCODE:USOMA"@de , "Omaha, Neb."@de , "Songs about Omaha"@en , "Songs about Omaha"@fr , "Songs about Omaha"@de , "Omaha,Nebraska"@en , "Omaha, Nebraska"@en , "Omaha,Nebraska"@fr , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de , "Omaha,Nebraska"@de .
+
+<http://dbpedia.org/resource/Woody_Allen>
+        rdfs:label     "Woody Allen"@en , "Woody Allen"@fr , "Woody Allen"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Woody_Allen__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Woody_Allen> , <http://de.dbpedia.org/resource/Woody_Allen> ;
+        skos:altLabel  "Woddy Allen"@en , "Woddy Allen"@fr , "Woddy Allen"@de , "Woody"@fr , "Woodie allen"@fr , "Allen Stewart Konigsberg"@en , "Allen Konigsberg"@en , "Allan Stewart Königsberg"@fr , "Allen Stewart Konigsberg"@fr , "Allen Konigsberg"@fr , "Allen Konigsberg"@de , "Allen Stewart Konigsberg"@de , "Allen, Woody"@en , "Allen"@fr , "Allen, Woody"@fr , "Allen, Woody"@de , "Heywood Allen"@en , "Heywood Allen"@fr , "Heywood Allen"@de , "Allan Konigsberg"@en , "Allan Stewart Konigsberg"@en , "Allan Stewart Konigsberg"@fr , "Allan Konigsberg"@fr , "Allan Konigsberg"@de , "Allan Stewart Konigsberg"@de , "Woody Allen"@en , "Woody allen"@en , "Woody Allen"@fr , "Allen Stewart Königsberg"@fr , "Woody allen"@fr , "Woody allen"@de , "Woody Allen"@de .

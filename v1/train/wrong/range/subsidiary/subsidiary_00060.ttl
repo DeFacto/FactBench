@@ -1,0 +1,19 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03g3g08>
+        rdfs:label  "Tangosol"@en .
+
+<http://rdf.freebase.com/ns/m.02fr94r__1>
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03g3g08> ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02fr94r>
+        rdfs:label  "Platial"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02fr94r__1> .

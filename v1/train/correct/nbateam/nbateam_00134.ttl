@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Deron_Williams__1>
+        dbo:from  "2005"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Utah_Jazz> ;
+        dbo:to    "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Utah_Jazz>
+        rdfs:label     "Utah Jazz"@de , "Utah Jazz"@en , "Utah Jazz"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jazz_de_l'Utah> , <http://de.dbpedia.org/resource/Utah_Jazz> ;
+        skos:altLabel  "Jazz De L'Utah"@fr , "Jazz"@fr , "Jazz"@de , "Jazz"@en , "Utah Jazz"@fr , "Utah Jazz"@de , "Utah Jazz"@en , "New Orleans Jazz"@fr , "New Orleans Jazz"@de , "New Orleans Jazz"@en , "Jazz de l'Utah"@fr , "Utah jazz"@fr , "Utah jazz"@en , "Utah jazz"@de , "Jazz de l'utah"@fr .
+
+<http://dbpedia.org/resource/Deron_Williams>
+        rdfs:label      "Deron Williams"@en , "Deron Williams"@fr , "Deron Williams"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/Deron_Williams__1> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Deron_Williams> , <http://de.dbpedia.org/resource/Deron_Williams> ;
+        skos:altLabel   "Williams"@fr , "Deron Williams"@fr , "Deron Williams"@en , "Deron Williams"@de , "D-Will"@fr , "D-Will"@de , "D-Will"@en , "Deron Michael Williams"@fr , "Deron Michael Williams"@de , "Deron Michael Williams"@en .

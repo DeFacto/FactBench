@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chempu>
+        rdfs:label  "Chempu"@en , "Chempu"@fr , "Chempu"@de .
+
+<http://dbpedia.org/resource/Mammootty__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Chempu> ;
+        dbo:from        "1951"^^xsd:gYear ;
+        dbo:to          "1951"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Mammootty>
+        rdfs:label     "Mammootty"@en , "Mammootty"@fr , "Mammootty"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mammootty__1> ;
+        skos:altLabel  "Mammukka"@en , "Mammotty"@en , "Mammookka"@en , "Megastar Mammootty"@en , "Muhammad Kutty"@en , "Sajin"@en , "Mammootty"@en , "Mammooty"@en .

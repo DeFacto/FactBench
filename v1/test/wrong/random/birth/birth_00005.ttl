@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Neil_Young__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Peru,_Indiana> ;
+        dbo:from             "1942"^^xsd:gYear ;
+        dbo:to               "1942"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Peru,_Indiana>
+        rdfs:label     "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Peru_(Indiana)> , <http://de.dbpedia.org/resource/Peru_(Indiana)> ;
+        skos:altLabel  "LOCODE:USGUS"@en , "LOCODE:USGUS"@fr , "LOCODE:USGUS"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr , "Peru, Indiana"@de , "Peru, IN"@en , "Peru, IN"@de , "Peru, IN"@fr , "Miamisport, Indiana"@en , "Miamisport, Indiana"@fr , "Miamisport, Indiana"@de , "Peru"@en , "Peru"@fr , "Peru"@de , "Peru, IN µSA"@en , "Peru, IN µSA"@fr , "Peru, IN µSA"@de .
+
+<http://dbpedia.org/resource/Neil_Young>
+        rdfs:label     "Neil Young"@de , "Neil Young"@fr , "Neil Young"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Neil_Young__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Neil_Young> , <http://de.dbpedia.org/resource/Neil_Young> ;
+        skos:altLabel  "Pegi Young"@de , "Pegi Young"@fr , "Pegi Young"@en , "Niel young"@de , "Niel young"@fr , "Neil young"@de , "Neil young"@fr , "Neil young"@en , "Niel young"@en , "Bernard Shakey"@de , "Bernard Shakey"@fr , "Bernard Shakey"@en , "Neil"@fr , "Neil Percival Young"@de , "Neil Young & Crazy Horse"@de , "Neil Young & Crazy Horse"@fr , "Neil Young & Crazy Horse"@en , "Niel Young"@de , "Niel Young"@fr , "Niel Young"@en , "Neil Young with Crazy Horse"@de , "Neil Young with Crazy Horse"@fr , "Neil Young with Crazy Horse"@en , "Godfather of Grunge"@de , "Godfather of Grunge"@fr , "Godfather of Grunge"@en , "Neil Young trivia"@de , "Neil Young trivia"@fr , "Neil Young trivia"@en , "Neil Young and Crazy Horse"@de , "Neil Young and Crazy Horse"@fr , "Neil Young and Crazy Horse"@en , "Young"@fr , "Neil Young"@de , "Neil Young"@fr , "Neil Young"@en .

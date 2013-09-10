@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kiichi_Miyazawa>
+        rdfs:label     "Kiichi Miyazawa"@de , "Kiichi Miyazawa"@fr , "Kiichi Miyazawa"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kiichi_Miyazawa__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kiichi_Miyazawa> , <http://de.dbpedia.org/resource/Miyazawa_Kiichi> ;
+        skos:altLabel  "Kîchi Miyazawa"@en , "Kîchi Miyazawa"@de , "Kîchi Miyazawa"@fr , "Miyazawa Kichi"@en , "Miyazawa Kichi"@de , "Miyazawa Kichi"@fr , "Kiichi"@de , "Miyazawa Kiichi"@de , "Miyazawa Kiichi"@fr , "Miyazawa Kiichi"@en , "Miyazawa Ki'ichi"@de , "Miyazawa Ki'ichi"@fr , "Miyazawa Ki'ichi"@en , "Miyazawa Kîchi"@en , "Miyazawa Kîchi"@de , "Miyazawa Kîchi"@fr , "Kîti Miyazawa"@de , "Kîti Miyazawa"@fr , "Kîti Miyazawa"@en , "Kichi Miyazawa"@en , "Kichi Miyazawa"@de , "Kichi Miyazawa"@fr , "Miyazawa Kiiti"@en , "Miyazawa Kiiti"@de , "Miyazawa Kiiti"@fr , "Ki'ichi Miyazawa"@de , "Ki'ichi Miyazawa"@fr , "Ki'ichi Miyazawa"@en , "Miyazawa"@en , "Miyazawa"@de , "Kiichi Miyazawa"@de , "Kiichi Miyazawa"@fr , "Kiichi Miyazawa"@en , "Miyazawa"@fr , "Kiti Miyazawa"@en , "Miyazawa Kiti"@en , "Kiti Miyazawa"@fr , "Miyazawa Kiti"@de , "Miyazawa Kiti"@fr , "Kiti Miyazawa"@de , "Kiiti Miyazawa"@en , "Kiiti Miyazawa"@de , "Kiiti Miyazawa"@fr , "Miyazawa Kîti"@en , "Miyazawa Kîti"@de , "Miyazawa Kîti"@fr .
+
+<http://dbpedia.org/resource/Malta>
+        rdfs:label     "Malta"@de , "Malta"@fr , "Malta"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Malte> , <http://de.dbpedia.org/resource/Malta> ;
+        skos:altLabel  "Malta"@en , "Malta"@de , "Malta"@fr , "Malte"@fr , "Name of Malta"@en , "Name of Malta"@fr , "Name of Malta"@de , "Sport in Malta"@en , "Etat de Malte"@fr , "Souvereign Military Order of Malta"@en , "Sport in Malta"@de , "Sport in Malta"@fr , "Souvereign Military Order of Malta"@de , "Souvereign Military Order of Malta"@fr , "Repubblika ta’ Malta"@de , "ISO 3166-1:MT"@en , "ISO 3166-1:MT"@fr , "ISO 3166-1:MT"@de , "Republique de Malte"@fr , "The Souvereign Military Order of Malta"@en , "The Souvereign Military Order of Malta"@fr , "The Souvereign Military Order of Malta"@de , "Maltese archipelago"@en , "Maltese archipelago"@de , "Maltese archipelago"@fr , "List of islands of Malta"@en , "List of islands of Malta"@de , "List of islands of Malta"@fr , "Maltese Islands"@en , "Maltese Islands"@de , "Maltese Islands"@fr , "État de Malte"@fr , "Architecture of Malta"@en , "Architecture of Malta"@de , "Architecture of Malta"@fr , "Repubblika ta'Malta"@en , "Repubblika ta'Malta"@fr , "Repubblika ta'Malta"@de , "Republic of Malta"@en , "Repubblika ta' Malta"@fr , "Repubblika ta' Malta"@de , "Republic of Malta"@de , "Republic of Malta"@fr , "Etymology of Malta"@en , "Etymology of Malta"@fr , "Etymology of Malta"@de , "Health in Malta"@en , "Health in Malta"@de , "Health in Malta"@fr , "Republik Malta"@de , "Malta GC"@en , "Malta GC"@fr , "Malta GC"@de , "République de Malte"@fr , "Islands of Malta, Malta"@en , "Islands of Malta, Malta"@de , "Islands of Malta, Malta"@fr , "County of Malta"@en , "County of Malta"@de , "County of Malta"@fr , "Maltese islands"@en , "Maltese islands"@de , "Maltese islands"@fr .
+
+<http://dbpedia.org/resource/Kiichi_Miyazawa__1>
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Malta> ;
+        dbo:to      "1984"^^xsd:gYear .

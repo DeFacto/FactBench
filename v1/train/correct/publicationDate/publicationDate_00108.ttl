@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02m8b8__108>
+        dbo:author  <http://rdf.freebase.com/ns/m.02m8b8> ;
+        dbo:from    "1972"^^xsd:gYear ;
+        dbo:to      "1972"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02m8b8>
+        rdfs:label  "334"@en ;
+        owl:sameAs  <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/334_(novel)> .
+
+<http://rdf.freebase.com/ns/m.01d190>
+        rdfs:label       "Thomas Michael Disch"@de , "Thomas M. Disch"@en , "Thomas M. Disch"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02m8b8__108> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Thomas_Michael_Disch> , <http://dbpedia.org/resource/Thomas_M._Disch> , <http://fr.dbpedia.org/resource/Thomas_M._Disch> ;
+        skos:altLabel    "Tom Disch"@en , "Thomas M. Disch"@en , "Thom Demijohn"@en , "Tomsdisch"@fr , "Tomsdisch"@de , "Tomsdisch"@en , "Dobbin Thorpe"@en , "Disch"@fr , "Thomas Michael Disch"@de , "Disch"@de , "Disch"@en , "Thomas Michael Disch"@en , "Thomas M. Dish"@fr , "Thomas Disch"@fr , "Leonie Hargrave"@en , "Thomas Disch"@de , "Thomas Disch"@en , "Thomas m. dish"@fr , "Thomas M. Disch"@fr , "Tom Disch"@fr , "Thomas M. Disch"@de , "Tom Disch"@de .

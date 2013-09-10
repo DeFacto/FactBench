@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01d190__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01vhfj> ;
+        dbo:from    "1985"^^xsd:gYear ;
+        dbo:to      "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01d190>
+        rdfs:label     "Thomas Michael Disch"@de , "Thomas M. Disch"@en , "Thomas M. Disch"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01d190__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Thomas_Michael_Disch> , <http://dbpedia.org/resource/Thomas_M._Disch> , <http://fr.dbpedia.org/resource/Thomas_M._Disch> ;
+        skos:altLabel  "Tom Disch"@de , "Thomas M. Disch"@de , "Thom Demijohn"@en , "Tomsdisch"@en , "Tomsdisch"@fr , "Tomsdisch"@de , "Dobbin Thorpe"@en , "Thomas Michael Disch"@en , "Disch"@en , "Disch"@fr , "Disch"@de , "Thomas Michael Disch"@de , "Thomas M. Dish"@fr , "Leonie Hargrave"@en , "Thomas Disch"@en , "Thomas Disch"@fr , "Thomas Disch"@de , "Tom Disch"@en , "Thomas M. Disch"@en , "Thomas m. dish"@fr , "Tom Disch"@fr , "Thomas M. Disch"@fr .
+
+<http://rdf.freebase.com/ns/m.01vhfj>
+        rdfs:label     "Nova Express"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Nova_Express> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Nova Express"@en .

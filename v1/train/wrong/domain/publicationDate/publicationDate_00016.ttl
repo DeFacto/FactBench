@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08ffjn>
+        rdfs:label  "Beyond Apollo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Beyond_Apollo> .
+
+<http://rdf.freebase.com/ns/m.045g3>
+        rdfs:label     "Jerry Pournelle"@en , "Jerry Pournelle"@fr , "Jerry Pournelle"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.045g3__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Jerry_Pournelle> , <http://fr.dbpedia.org/resource/Jerry_Pournelle> , <http://de.dbpedia.org/resource/Jerry_Pournelle> ;
+        skos:altLabel  "Jerry Pournelle"@en , "Jerry Pournelle"@fr , "Jerry Pournelle"@de , "Diagramme de Pournelle"@fr , "Jerry E. Pournelle"@en , "Jerry E. Pournelle"@fr , "Jerry E. Pournelle"@de , "Jerry Parnell"@en , "Jerry Parnell"@fr , "Jerry Parnell"@de , "J. E. Pournelle"@en , "Jerry Eugene Pournelle"@en , "Pournelle"@en , "Pournelle"@fr , "Pournelle"@de , "Wade curtis"@en , "Wade curtis"@fr , "Wade curtis"@de , "Wade Curtis"@en , "J. E. Pournelle, Ph.D."@en .
+
+<http://rdf.freebase.com/ns/m.045g3__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.08ffjn> ;
+        dbo:from    "1972"^^xsd:gYear ;
+        dbo:to      "1972"^^xsd:gYear .

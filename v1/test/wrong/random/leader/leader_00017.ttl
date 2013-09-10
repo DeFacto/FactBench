@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Papandreou>
+        rdfs:label     "George Papandreou"@de , "George Papandreou"@fr , "George Papandreou"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Papandreou__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Giorgos_Andrea_Papandreou> , <http://fr.dbpedia.org/resource/Geórgios_Papandréou_(1952-)> ;
+        skos:altLabel  "George Andreas Papandreou"@fr , "Geóryios Papandréou"@fr , "George Papandreou, Jr"@en , "George Papandreou, Jr"@de , "George Papandreou, Jr"@fr , "Georgios"@en , "George Panandreou, junior"@en , "George Panandreou, junior"@fr , "George Panandreou, junior"@de , "Georgios"@de , "Georgios"@fr , "Giorgos Papandreou"@de , "Georyios Papandreou"@fr , "Georgios Papandreou"@en , "Georgios Papandreou"@fr , "Georgios Papandreou"@de , "George Papandreou, Jr."@en , "George Papandreou, Jr."@de , "George Papandreou, Jr."@fr , "Gheorghios Papandreou"@en , "Gheorghios Papandreou"@fr , "Gheorghios Papandreou"@de , "George Papandreou"@en , "George Papandreou"@de , "George Papandreou"@fr , "Georgios Andreou Papandreou"@de , "G-Pap"@en , "G-Pap"@de , "G-Pap"@fr , "Yeóryios Papandréou"@fr , "George Panpandrous"@fr , "Yeoryios Papandreou"@en , "Papandreou"@en , "Yeoryios Papandreou"@de , "Yeoryios Papandreou"@fr , "Papandreou"@de , "Papandreou"@fr , "Geórgios Papandréou"@en , "Geórgios Papandréou"@de , "Geórgios Papandréou"@fr , "Georges papandreou"@fr , "Gheórghios Papandréou"@fr , "Georges papandréou"@fr , "Georges Papandréou"@fr , "Georgios Andrea Papandreou"@de , "Giorgos Andrea Papandreou"@de , "Geoffrey Papandreou"@en , "Geoffrey Papandreou"@de , "Geoffrey Papandreou"@fr , "Giorgakis"@en , "Giorgakis"@de , "Giorgakis"@fr , "Georges Papandreou"@fr , "George Papandreou, junior"@en , "George Papandreou, junior"@de , "George Papandreou, junior"@fr , "George Papandréou"@fr , "George Andreas Papandreou"@en , "George Andreas Papandreou"@de .
+
+<http://dbpedia.org/resource/George_Papandreou__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0dwc8x> ;
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:to          "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0dwc8x>
+        rdfs:label  "The Infinitive of Go"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Infinitive_of_Go> .

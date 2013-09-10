@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Branson,_Missouri>
+        rdfs:label     "Branson, Missouri"@en , "Branson, Missouri"@fr , "Branson, Missouri"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Branson_(Missouri)> , <http://de.dbpedia.org/resource/Branson_(Missouri)> ;
+        skos:altLabel  "Branson, MO"@fr , "Branson, MO"@de , "Branson, Missouri"@en , "Branson, Missouri"@fr , "Branson, Missouri"@de , "Branson"@en , "Branson"@fr , "Branson"@de , "Branson missouri"@en , "Branson missouri"@fr , "Branson missouri"@de , "LOCODE:USPLK"@en , "LOCODE:USPLK"@fr , "LOCODE:USPLK"@de , "Branson mo"@en , "Branson mo"@fr , "Branson mo"@de , "Branson, MO mSA"@en , "Branson, MO mSA"@fr , "Branson, MO mSA"@de , "Branson, MO"@en .
+
+<http://dbpedia.org/resource/John_A._Macdonald__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Branson,_Missouri> ;
+        dbo:from        "1891"^^xsd:gYear ;
+        dbo:to          "1891"^^xsd:gYear .
+
+<http://dbpedia.org/resource/John_A._Macdonald>
+        rdfs:label     "John A. Macdonald"@de , "John A. Macdonald"@fr , "John A. Macdonald"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_A._Macdonald__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Macdonald> , <http://fr.dbpedia.org/resource/John_A._Macdonald> ;
+        skos:altLabel  "MacDonald"@fr , "J.A. MacDonald"@fr , "Sir Macdonald"@en , "Sir Macdonald"@fr , "Sir Macdonald"@de , "John A. Macdonald"@en , "John A MacDonald"@en , "John A. Macdonald"@fr , "John A. Macdonald"@de , "John A MacDonald"@fr , "John A MacDonald"@de , "John Alexander Macdonald"@en , "John Alexander Macdonald"@fr , "John Alexander Macdonald"@de , "John A. McDonald"@en , "John A. McDonald"@de , "John A. McDonald"@fr , "John a mcdonald"@en , "John a mcdonald"@de , "John a mcdonald"@fr , "The Jamaica"@en , "The Jamaica"@fr , "The Jamaica"@de , "Sir John A. Macdonald"@en , "John A."@en , "Sir John A. Macdonald"@fr , "John A."@fr , "Sir John A. Macdonald"@de , "John A."@de , "Sir John A. MacDonald"@en , "Sir John A. MacDonald"@fr , "Sir John A. MacDonald"@de , "John A Macdonald"@en , "John A Macdonald"@fr , "John A Macdonald"@de , "Old Tomorrow"@en , "Old Tomorrow"@fr , "Old Tomorrow"@de , "Sir John Macdonald"@en , "Sir John Macdonald"@fr , "Sir John Macdonald"@de , "Macdonald, Sir John Alexander"@en , "Macdonald, Sir John Alexander"@fr , "Macdonald, Sir John Alexander"@de , "John Alexander, Sir Macdonald"@en , "John Alexander, Sir Macdonald"@fr , "John Alexander, Sir Macdonald"@de , "Jamaica"@en , "Macdonald, John Alexander, Sir"@en , "Jamaica"@fr , "Jamaica"@de , "Macdonald, John Alexander, Sir"@fr , "Macdonald, John Alexander, Sir"@de , "John Alexander MacDonald"@fr , "Sir john a macdonald"@en , "Sir john a macdonald"@de , "Sir john a macdonald"@fr , "John A"@en , "John A"@fr , "John A"@de , "Sir John MacDonald"@en , "Sir John MacDonald"@fr , "Sir John MacDonald"@de , "John A. MacDonald"@en , "John A. MacDonald"@fr , "John A. MacDonald"@de , "John MacDonald"@de , "Macdonald"@en , "Macdonald"@fr , "Macdonald"@de , "Sir John"@fr , "John a. mcdonald"@en , "John a. mcdonald"@fr , "John a. mcdonald"@de , "Alexander Macdonald"@fr , "Margaret Mary Theodora Macdonald"@en , "Margaret Mary Theodora Macdonald"@de , "Margaret Mary Theodora Macdonald"@fr , "Sir john a mcdonald"@en , "Sir john a mcdonald"@fr , "Sir john a mcdonald"@de , "Sir John A Macdonald"@en , "Sir John Alexander Macdonald"@en , "John A macdonald"@fr , "Sir John Alexander Macdonald"@fr , "Sir John Alexander Macdonald"@de , "Sir John A Macdonald"@fr , "Sir John A Macdonald"@de , "Sir john a. mcdonald"@en , "Sir john a. mcdonald"@fr , "Sir john a. mcdonald"@de , "John Macdonald"@de .

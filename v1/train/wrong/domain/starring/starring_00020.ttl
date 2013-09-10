@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Edward_Scissorhands>
+        rdfs:label     "Edward Scissorhands"@en , "Edward Scissorhands"@fr , "Edward Scissorhands"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Edward_Scissorhands__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edward_aux_mains_d'argent> , <http://de.dbpedia.org/resource/Edward_mit_den_Scherenhänden> ;
+        skos:altLabel  "Edward aux mains d'argent"@fr , "Edward mit den Scherenhänden"@de , "Edward Scissorhands"@en , "Edward Aux Mains D'argent"@fr , "Edward Scissorhands"@fr , "Edward Scissorhands"@de , "Edward aux mains d'Argent"@fr , "Edward mit den Scherenhanden"@de , "Edward Scissor Hands"@en , "Edward Scissor Hands"@fr , "Edward Scissor Hands"@de , "Edward aux mains d’argent"@fr , "Edward scissorhands"@en , "Edward scissorhands"@fr , "Edward scissorhands"@de , "Edward ScissorHands"@en , "Edward ScissorHands"@fr , "Edward ScissorHands"@de .
+
+<http://dbpedia.org/resource/Edward_Scissorhands__1>
+        dbo:from      "2007"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Ashley_Tisdale> ;
+        dbo:to        "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ashley_Tisdale>
+        rdfs:label     "Ashley Tisdale"@de , "Ashley Tisdale"@fr , "Ashley Tisdale"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ashley_Tisdale> , <http://de.dbpedia.org/resource/Ashley_Tisdale> ;
+        skos:altLabel  "Ashley Tisdale filmography"@en , "Ashley Tisdale filmography"@de , "Ashley Tisdale filmography"@fr , "Ashley Michelle Tisdale"@en , "Ashley Michelle Tisdale"@de , "Ashley Michelle Tisdale"@fr , "Ash Tisdale"@en , "Ash Tisdale"@de , "Ash Tisdale"@fr , "Ashly Tisdale"@en , "Ashly Tisdale"@de , "Ashly Tisdale"@fr , "Miss Tisdale"@en , "Miss Tisdale"@fr , "Miss Tisdale"@de , "Ashlee Tisdale"@en , "Ashlee Tisdale"@de , "Ashlee Tisdale"@fr , "Masquerade"@en , "Masquerade"@de , "Masquerade"@fr , "Ashlyetisdale"@en , "Tisdale"@en , "Tisdale"@de , "Tisdale"@fr , "Ashlyetisdale"@de , "Ashlyetisdale"@fr , "Ashely Tisdale"@en , "Ashely Tisdale"@de , "Ashely Tisdale"@fr , "Kind boy"@en , "Kind boy"@de , "Kind boy"@fr , "Michelle tisdale"@en , "Michelle tisdale"@fr , "Michelle tisdale"@de , "Miss Ashley Tisdale"@en , "Miss Ashley Tisdale"@de , "Miss Ashley Tisdale"@fr , "The Tiz"@en , "The Tiz"@de , "The Tiz"@fr , "Ashley tisdale"@en , "Ashley tisdale"@de , "Ashley tisdale"@fr , "Ashley Tisdale"@en , "Ashley Tisdale"@fr , "Ashley Tisdale"@de , "List of Ashley Tisdale songs"@en , "List of Ashley Tisdale songs"@de , "List of Ashley Tisdale songs"@fr , "Masquerade by ashley tisdale"@en , "Masquerade by ashley tisdale"@de , "Masquerade by ashley tisdale"@fr , "So Not Me"@en , "So Not Me"@de , "So Not Me"@fr , "Ashley tisdal"@fr .

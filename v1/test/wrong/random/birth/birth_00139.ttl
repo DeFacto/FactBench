@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kelly_Clarkson>
+        rdfs:label     "Kelly Clarkson"@en , "Kelly Clarkson"@de , "Kelly Clarkson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kelly_Clarkson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kelly_Clarkson> , <http://de.dbpedia.org/resource/Kelly_Clarkson> ;
+        skos:altLabel  "Awards and Nominations for Kelly Clarkson"@de , "Awards and Nominations for Kelly Clarkson"@fr , "Kelly"@fr , "Kelly clarckson"@de , "Kelly clarckson"@fr , "Kelly clarckson"@en , "Clarkson"@de , "Clarkson"@fr , "Kellly clarkson"@de , "Kellly clarkson"@fr , "Kellly clarkson"@en , "I Wish"@de , "I Wish"@fr , "I Wish"@en , "Jekky"@de , "Jekky"@fr , "Jekky"@en , "Kelly clarkson"@fr , "Kelly clarkson"@en , "Kelly clarkson"@de , "True You"@de , "True You"@fr , "True You"@en , "Kelly Brianne Clarkson"@de , "Kelly Brianne Clarkson"@fr , "Kelly Brianne Clarkson"@en , "Clarkson, Kelly"@en , "Clarkson, Kelly"@de , "Clarkson, Kelly"@fr , "The Way I Like It"@en , "The Way I Like It"@de , "The Way I Like It"@fr , "Kelly Clarkson"@de , "Kelly Clarkson"@fr , "Kelly Clarkson"@en , "Kelly Clarkston"@de , "Kelly Clarkston"@fr , "Kelly Clarkston"@en , "Awards and Nominations for Kelly Clarkson"@en .
+
+<http://dbpedia.org/resource/Kelly_Clarkson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Birmingham> ;
+        dbo:from        "1935"^^xsd:gYear ;
+        dbo:to          "1935"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Birmingham>
+        rdfs:label     "Birmingham"@de , "Birmingham"@fr , "Birmingham"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Birmingham> , <http://de.dbpedia.org/resource/Birmingham> ;
+        skos:altLabel  "Rotunda"@de , "LOCODE:GBBHM"@en , "LOCODE:GBBHM"@de , "LOCODE:GBBHM"@fr , "Birmingham Corporation"@en , "County Borough of Birmingham"@en , "B'ham"@en , "County Borough of Birmingham"@fr , "County Borough of Birmingham"@de , "Birmingham Corporation"@fr , "B'ham"@fr , "Birmingham Corporation"@de , "B'ham"@de , "Birmingham, England"@en , "Birmingham, England"@de , "Birmingham, England"@fr , "City of birmingham"@en , "City of birmingham"@fr , "City of birmingham"@de , "Birmingham Heritage Festival"@en , "Birmingham Heritage Festival"@fr , "Birmingham Heritage Festival"@de , "Crime and policing in Birmingham"@en , "Crime and policing in Birmingham"@fr , "Crime and policing in Birmingham"@de , "City of a thousand trades"@en , "City of a thousand trades"@fr , "City of a thousand trades"@de , "Bham"@en , "B'Ham"@en , "England Birmingham"@en , "B'Ham"@de , "B'Ham"@fr , "England Birmingham"@de , "England Birmingham"@fr , "Bham"@fr , "Bham"@de , "Birmingham, United Kingdom"@en , "Birmingham, United Kingdom"@de , "Birmingham, United Kingdom"@fr , "Bimringham"@en , "Bimringham"@de , "Bimringham"@fr , "Birmingham overspill"@en , "The weather in Birmingham"@en , "Aston"@de , "Birmingham overspill"@fr , "The weather in Birmingham"@fr , "Birmingham overspill"@de , "The weather in Birmingham"@de , "Birmingham artistic figures"@en , "Birmingham artistic figures"@fr , "Birmingham artistic figures"@de , "Birminghamian"@en , "Birmingham, UK"@en , "Birminghamian"@de , "Birmingham, UK"@de , "Birmingham, UK"@fr , "Birminghamian"@fr , "City of a thousand and one trades"@en , "City of a thousand and one trades"@fr , "City of a thousand and one trades"@de , "Birmingham"@en , "Birmingham"@fr , "Birmingham"@de , "GB-BIR"@de , "Birmingham, West Midlands"@en , "Birmingham, West Midlands"@fr , "Birmingham, West Midlands"@de , "City of Birmingham"@en , "Beormingham"@en , "City of Birmingham"@fr , "Beormingham"@fr , "Beormingham"@de , "City of Birmingham"@de , "Metropolitan Borough of Birmingham"@en , "Metropolitan Borough of Birmingham"@fr , "Metropolitan Borough of Birmingham"@de .

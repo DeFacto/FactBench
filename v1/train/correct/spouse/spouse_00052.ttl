@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fccsp>
+        rdfs:label     "Elsa Pataky"@de , "Elsa Pataky"@fr , "Elsa Pataky"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0fccsp__52> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Elsa_Pataky> , <http://de.dbpedia.org/resource/Elsa_Pataky> , <http://dbpedia.org/resource/Elsa_Pataky> ;
+        skos:altLabel  "Elsa Pataki"@de , "Elsa Pataki"@en , "Pataky"@de , "Elsa Pataky"@fr , "Elsa Pataky"@de , "Elsa Pataky"@en , "Elsa Pataki"@fr , "Elsa Lafuente Medianu"@en .
+
+<http://rdf.freebase.com/ns/m.0fccsp__52>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01cj6y> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01cj6y>
+        rdfs:label     "Adrien Brody"@de , "Adrien Brody"@en , "Adrien Brody"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Adrien_Brody> , <http://de.dbpedia.org/resource/Adrien_Brody> , <http://fr.dbpedia.org/resource/Adrien_Brody> ;
+        skos:altLabel  "Byron Deidra"@en , "Adrien Brody"@fr , "Adrien Brody"@de , "Adrien Brody"@en , "Brody"@fr , "Brody"@de , "Adrian Brody"@fr , "Adrian Brody"@de , "Adrian Brody"@en , "Adrien brody"@fr , "Adrien brody"@de , "Adrien brody"@en , "Adrien"@fr , "Adrien"@de , "Adrien"@en .

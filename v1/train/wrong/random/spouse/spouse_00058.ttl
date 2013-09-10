@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0269h2g__1>
+        dbo:award  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from   "2007"^^xsd:gYear ;
+        dbo:to     "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0269h2g>
+        rdfs:label     "Arun Nayar"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0269h2g__1> ;
+        skos:altLabel  "arun_nayar"@en .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .

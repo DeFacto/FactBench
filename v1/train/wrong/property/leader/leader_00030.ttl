@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Golda_Meir>
+        rdfs:label     "Golda Meir"@en , "Golda Meir"@fr , "Golda Meir"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Golda_Meir__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Golda_Meir> , <http://de.dbpedia.org/resource/Golda_Meir> ;
+        skos:altLabel  "Golda"@de , "Golda Mabovitch"@en , "Golda Mabovitch"@fr , "Golda Mabovitch"@de , "Golda Myerson"@en , "Golda Myerson"@fr , "Golda Myerson"@de , "Meir"@en , "Meir"@fr , "Meir"@de , "Meyerson"@en , "Meyerson"@fr , "Meyerson"@de , "Golda Meyerson"@en , "Golda Meir"@en , "Golda Meyerson"@fr , "Golda Meir"@fr , "Golda Meir"@de , "Golda Meyerson"@de , "Golda Mabovitz"@en , "Goldie Mabovitch"@en , "Golda Mabovitz"@fr , "Goldie Mabovitch"@fr , "Golda Meïr"@fr , "Goldie Mabovitch"@de , "Golda Mabovitz"@de , "Golda Meïr"@de , "Golda"@en , "Golda"@fr .
+
+<http://dbpedia.org/resource/Israel>
+        rdfs:label     "Israel"@de , "Israel"@fr , "Israel"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Israël> , <http://de.dbpedia.org/resource/Israel> ;
+        skos:altLabel  "Israéliennes"@fr , "Etat d'Israel"@fr , "Yisraél"@en , "ISO 3166-1:IL"@en , "ISO 3166-1:IL"@fr , "ISO 3166-1:IL"@de , "Yisraél"@fr , "Yisraél"@de , "Etymology of Israel"@en , "Medinat Israel"@en , "Israeli state"@en , "Medinat Yisrael"@en , "Isreal"@en , "Etymology of Israel"@fr , "Medinat Yisrael"@fr , "Medinat Yisrael"@de , "Medinat Israel"@fr , "Israeli state"@fr , "Isreal"@fr , "Medinat Israel"@de , "Etymology of Israel"@de , "Israeli state"@de , "Isreal"@de , "Yisroel"@en , "Yisroel"@fr , "Yisroel"@de , "State of Israel"@en , "State of Israel"@fr , "State of Israel"@de , "Israélienne"@fr , "Isra'il"@en , "Isra'il"@fr , "Isra'il"@de , "Staat Israel"@de , "Medinat Yisra'el"@en , "Medinat Yisra'el"@fr , "Medinat Yisra'el"@de , "M'dinat Yisrael"@en , "M'dinat Yisrael"@fr , "M'dinat Yisrael"@de , "Statut de Jérusalem"@fr , "Yisrael"@en , "Yisrael"@fr , "Yisrael"@de , "Isreali"@en , "Isreali"@fr , "Isreali"@de , "Statut de Jerusalem"@fr , "Yisroeil"@en , "Etat d'Israël"@fr , "Yisroeil"@fr , "Yisroeil"@de , "Yiselie"@en , "État d'Israël"@fr , "Yiselie"@fr , "Yiselie"@de , "Israelien"@fr , "Israelian"@en , "Israelian"@fr , "Israelian"@de , "Israil"@en , "Modern Israel"@en , "Dawlat Isra'il"@en , "Israel"@en , "ISRAEL"@en , "Israil"@fr , "Dawlat Isra'il"@fr , "Modern Israel"@fr , "Israil"@de , "Modern Israel"@de , "Israel"@fr , "ISRAEL"@fr , "Israel"@de , "ISRAEL"@de , "Dawlat Isra'il"@de , "The state of Israel"@en , "Isreael"@en , "The state of Israel"@fr , "The state of Israel"@de , "Isreael"@fr , "Isreael"@de , "Israyl"@en , "Izrael"@en , "Izrael"@fr , "Izrael"@de , "Istrael"@en , "Israeliennes"@fr , "Istrael"@fr , "Istrael"@de , "State of israel"@en , "State of israel"@fr , "Israelienne"@fr , "State of israel"@de , "Israyl"@fr , "Israyl"@de , "Republic of Israel"@en , "Dawlat Isrā'īl"@en , "Israëlien"@fr , "Israél"@fr , "Israelim"@en , "Hebrew state"@en , "Dawlat Isrā'īl"@fr , "Etat d’Israël"@fr , "Hebrew state"@fr , "Hebrew state"@de , "Langues d'Israel"@fr , "Republic of Israel"@fr , "Israelim"@fr , "Dawlat Isrā'īl"@de , "Republic of Israel"@de , "Israelim"@de , "Etat d'israel"@fr , "Yisra'el"@en , "Israeli"@en , "Statut"@fr , "Yisra'el"@fr , "Israeli"@fr , "Israeli"@de , "Yisra'el"@de , "İsrail"@en , "Israelisch"@de , "İsrail"@fr , "İsrail"@de , "Etat d’Israel"@fr , "Etat hebreu"@fr , "Israelis"@de , "État hébreu"@fr , "Medīnat Yisrā'el"@en , "Medīnat Yisrā'el"@fr , "Medīnat Yisrā'el"@de , "État d’Israël"@fr , "Israël"@en , "Israël"@fr , "Israël"@de .
+
+<http://dbpedia.org/resource/Golda_Meir__1>
+        dbo:from        "1969"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Israel> ;
+        dbo:to          "1974"^^xsd:gYear .

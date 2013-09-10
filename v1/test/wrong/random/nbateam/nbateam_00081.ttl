@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dick_Cheney__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.05fmy> ;
+        dbo:from             "2005"^^xsd:gYear ;
+        dbo:to               "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dick_Cheney>
+        rdfs:label     "Dick Cheney"@de , "Dick Cheney"@fr , "Dick Cheney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dick_Cheney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dick_Cheney> , <http://fr.dbpedia.org/resource/Dick_Cheney> ;
+        skos:altLabel  "Dick Cheyney"@en , "Dick Cheyney"@de , "Dick Cheyney"@fr , "Dicky Chaney"@en , "Dicky Chaney"@de , "Dicky Chaney"@fr , "Richard B. Cheney"@en , "Richard B. Cheney"@de , "Richard B. Cheney"@fr , "Richard Bruce Cheney"@en , "Dick Cheney"@en , "Dick Cheney"@de , "Dick Cheney"@fr , "Richard Bruce Cheney"@fr , "Richard Bruce Cheney"@de , "Vice President Cheney"@en , "Vice President Cheney"@fr , "Vice President Cheney"@de , "Richard (Dick) Cheney"@en , "Bush cheney"@en , "Richard (Dick) Cheney"@de , "Richard (Dick) Cheney"@fr , "Bush cheney"@de , "Bush cheney"@fr , "Dick"@fr , "Vice President Richard Bruce Cheney"@en , "Vice President Richard Bruce Cheney"@de , "Vice President Richard Bruce Cheney"@fr , "Dick Cheny"@en , "Dick Cheny"@de , "Dick Cheny"@fr , "Dick chenny"@en , "Vice President Dick Cheney"@en , "Dick chenny"@fr , "Dick chenny"@de , "Vice President Dick Cheney"@de , "Vice President Dick Cheney"@fr , "Dick cheney"@en , "Dick cheney"@fr , "Dick cheney"@de , "Dick Chaney"@en , "Dick Chaney"@de , "Dick Chaney"@fr , "Robert B. Cheney"@en , "Robert B. Cheney"@de , "Robert B. Cheney"@fr , "Dick Chenney"@en , "Dick Chenney"@de , "Dick Chenney"@fr , "Cheney"@en , "Cheney"@de , "Cheney"@fr , "Richard \"Dick\" Cheney"@en , "Richard \"Dick\" Cheney"@fr , "Richard \"Dick\" Cheney"@de , "Richard Cheney"@en , "Richard Cheney"@fr , "Richard Cheney"@de , "Vice-President Cheney"@en , "Vice-President Cheney"@fr , "Vice-President Cheney"@de , "Richard Bruce \"Dick\" Cheney"@en , "Richard Bruce \"Dick\" Cheney"@fr , "Richard Bruce \"Dick\" Cheney"@de , "Dick cheyney"@en , "Dick cheyney"@fr , "Dick cheyney"@de .
+
+<http://rdf.freebase.com/ns/m.05fmy>
+        rdfs:label     "Prix Nobel de chimie"@fr , "Nobel Prize in Chemistry"@en , "Nobelpreis für Chemie"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Prix_Nobel_de_chimie> , <http://dbpedia.org/resource/Nobel_Prize_in_Chemistry> , <http://de.dbpedia.org/resource/Nobelpreis_für_Chemie> ;
+        skos:altLabel  "Nobelpriset i kemi"@en , "Nobelpriset i kemi"@de , "Nobelpriset i kemi"@fr , "Nobel Prize for chemistry"@en , "Nobel Prize for chemistry"@de , "Nobel Prize for chemistry"@fr , "Nobel prize of Chemistry"@de , "Nobel prize of Chemistry"@fr , "Nobel prize of Chemistry"@en , "Chemienobelpreis"@de , "Prix Nobel de chimie"@fr , "Chemie-Nobelpreis"@de , "Nobelpreis für Chemie"@de , "Nobelpreis fur Chemie"@de , "Nobel prize chemistry"@en , "Nobel prize chemistry"@de , "Nobel prize chemistry"@fr , "Nobel Prize in chemistry"@de , "Nobel Prize in chemistry"@fr , "Nobel Prize in chemistry"@en , "Nobel prize in Chemistry"@en , "Nobel prize in Chemistry"@fr , "Nobel prize in Chemistry"@de , "ChemistrY"@en , "Nobel Prize for Chemistry"@en , "Nobel Prize for Chemistry"@de , "Nobel Prize for Chemistry"@fr , "Chemistry"@de , "Chemistry"@fr , "Chemistry"@en , "Nobel prize for chemistry"@de , "Nobel prize for chemistry"@fr , "ChemistrY"@de , "ChemistrY"@fr , "Prix nobel de chimie"@fr , "Nobel prize for chemistry"@en , "Prix Nobel de Chimie"@fr , "Nobel Prize in Chemistry"@de , "Nobel Prize in Chemistry"@fr , "Nobel Prize in Chemistry"@en , "Nobel prize in chemistry"@de , "Nobel prize in chemistry"@fr , "Nobel prize in chemistry"@en .

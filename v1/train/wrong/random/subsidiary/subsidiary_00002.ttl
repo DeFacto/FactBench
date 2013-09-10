@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0f45wj>
+        rdfs:label  "Worldwar: Upsetting the Balance"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Worldwar:_Upsetting_the_Balance> .
+
+<http://rdf.freebase.com/ns/m.0qs4h8r>
+        rdfs:label  "Emma McAllister"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0qs4h8r__1> .
+
+<http://rdf.freebase.com/ns/m.0qs4h8r__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0f45wj> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .

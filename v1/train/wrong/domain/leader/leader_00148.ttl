@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Wim_Kok>
+        rdfs:label     "Wim Kok"@en , "Wim Kok"@fr , "Wim Kok"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Wim_Kok__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Wim_Kok> , <http://de.dbpedia.org/resource/Wim_Kok> ;
+        skos:altLabel  "Willem \"Wim\" Kok"@en , "Willem \"Wim\" Kok"@de , "Willem \"Wim\" Kok"@fr , "Willem Kok"@en , "Willem Kok"@fr , "Willem Kok"@de , "Wim Kok"@en , "Wim Kok"@fr , "Wim Kok"@de .
+
+<http://dbpedia.org/resource/Djibouti>
+        rdfs:label     "Djibouti"@fr , "Djibouti"@en , "Djibouti"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dschibuti> , <http://fr.dbpedia.org/resource/Djibouti> ;
+        skos:altLabel  "Administrative divisions of Djibouti"@en , "Administrative divisions of Djibouti"@fr , "Administrative divisions of Djibouti"@de , "Djibuti"@en , "Djibuti"@de , "Djibuti"@fr , "Somalie Francaise"@fr , "Republic of Djibouti"@en , "Republic of Djibouti"@fr , "Republic of Djibouti"@de , "Côte des Somalis"@fr , "Dijibouti"@en , "Dijibouti"@fr , "Dijibouti"@de , "République de Djibouti"@fr , "Jumhuriyyat Jibuti"@en , "Jumhuriyyat Jibuti"@fr , "Jumhuriyyat Jibuti"@de , "Djibouti"@en , "Yibouti"@en , "Jumhūriyyat Jībūtī"@en , "Jumhūriyyat Jībūtī"@fr , "Djibouti"@fr , "Yibouti"@de , "Djibouti"@de , "Yibouti"@fr , "Dschibuti"@de , "Jumhūriyyat Jībūtī"@de , "Jabooty"@en , "Jabooty"@de , "Jabooty"@fr , "Dijbouti"@en , "Dijbouti"@de , "Dijbouti"@fr , "Djiboutians"@en , "Djiboutians"@de , "Djiboutians"@fr , "Jibouti"@en , "Territoire français des Afars et des Issas"@en , "Territoire français des Afars et des Issas"@fr , "Territoire français des Afars et des Issas"@de , "Jibouti"@fr , "Jibouti"@de , "Djibouti.2C Republic of"@en , "Territorium der Afar und Issa"@de , "Somalie Française"@fr , "Djibouti.2C Republic of"@de , "Djibouti.2C Republic of"@fr , "Yibuti"@en , "Yibuti"@de , "Yibuti"@fr , "Republik Dschibuti"@de , "Territoire francais des Afars et des Issas"@en , "Territoire francais des Afars et des Issas"@fr , "Territoire francais des Afars et des Issas"@de , "Djabuti"@en , "Djabuti"@fr , "Djabuti"@de , "Jībūtī"@en , "ISO 3166-1:DJ"@en , "Jībūtī"@fr , "Jībūtī"@de , "Cote des Somalis"@fr , "ISO 3166-1:DJ"@fr , "ISO 3166-1:DJ"@de , "Republique de Djibouti"@fr , "Jibuti"@en , "Jibuti"@fr , "Jibuti"@de , "Djbouti"@en , "Djbouti"@de , "Djbouti"@fr .
+
+<http://dbpedia.org/resource/Wim_Kok__1>
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Djibouti> ;
+        dbo:to      "2013"^^xsd:gYear .

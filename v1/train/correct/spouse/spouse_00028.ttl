@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04sd6h__28>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0h1drh> ;
+        dbo:to      "2009-05"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.04sd6h>
+        rdfs:label     "Zöe Salmon"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.04sd6h__28> ;
+        owl:sameAs     <http://dbpedia.org/resource/Z%C3%B6e_Salmon> ;
+        skos:altLabel  "Zoe Salmon"@en .
+
+<http://rdf.freebase.com/ns/m.0h1drh>
+        rdfs:label     "Gerard McCarthy"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Gerard_McCarthy> ;
+        skos:altLabel  "Gerard McCarthy"@en .
+
+<http://dbpedia.org/resource/Z%C3%B6e_Salmon>
+        skos:altLabel  "Zöe Salmon"@en , "Zoe Salmon"@en .

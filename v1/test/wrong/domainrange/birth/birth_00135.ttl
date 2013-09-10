@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Concord,_California>
+        rdfs:label     "Concord, California"@fr , "Concord, California"@de , "Concord, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Concord_(Californie)> , <http://de.dbpedia.org/resource/Concord_(Kalifornien)> ;
+        skos:altLabel  "LOCODE:USCCR"@de , "Buchanan Field"@fr , "Todos Santos, California"@en , "Todos Santos, California"@fr , "Todos Santos, California"@de , "Drunken Indian"@en , "Concord, California"@en , "Drunken Indian"@fr , "Concord, California"@fr , "Concord, California"@de , "Drunken Indian"@de , "Concord, ca"@en , "Concord, ca"@fr , "Concord, ca"@de , "Concord, Calif."@en , "Concord, Calif."@fr , "Concord, Calif."@de , "Concord"@en , "Concord"@fr , "Concord"@de , "Drunken Indian, California"@en , "LOCODE:USCCR"@en , "Concord, CA"@en , "Concord, CA"@fr , "Concord, CA"@de , "Drunken Indian, California"@fr , "LOCODE:USCCR"@fr , "Drunken Indian, California"@de .
+
+<http://dbpedia.org/resource/Helena_Suková>
+        rdfs:label     "Helena Suková"@de , "Helena Suková"@en , "Helena Suková"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Helena_Suková__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Helena_Suková> , <http://de.dbpedia.org/resource/Helena_Suková> ;
+        skos:altLabel  "Helena Suková"@de , "Sukova"@de , "Helena Suková"@fr , "Suková"@de , "Helena Sukova"@fr , "Helena Sukova"@de .
+
+<http://dbpedia.org/resource/Helena_Suková__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Concord,_California> ;
+        dbo:from        "1903"^^xsd:gYear ;
+        dbo:to          "1903"^^xsd:gYear .

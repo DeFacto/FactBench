@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03573y>
+        rdfs:label     "Grant Show"@en , "Grant Show"@fr , "Grant Show"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Grant_Show> , <http://dbpedia.org/resource/Grant_Show> , <http://de.dbpedia.org/resource/Grant_Show> ;
+        skos:altLabel  "Grant Alan Show"@en , "Grant Alan Show"@fr , "Grant Show"@fr , "Grant Show"@de .
+
+<http://rdf.freebase.com/ns/m.01vsnff__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03573y> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01vsnff>
+        rdfs:label     "Jack White"@en , "Jack White"@fr , "Jack White"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01vsnff__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jack_White_(Musiker)> , <http://dbpedia.org/resource/Jack_White_(musician)> , <http://fr.dbpedia.org/resource/Jack_White> ;
+        skos:altLabel  "Jack White III"@de , "jack_white"@en , "John S. O'Leary"@en , "John S. O'Leary"@fr , "John S. O'Leary"@de , "Jack white"@en , "Jack white"@fr , "Jack white"@de , "The White Stripes"@en , "Three Quid"@en , "Three Quid"@fr , "Three Quid"@de , "White"@en , "White"@fr , "Third Man Records"@de , "3 Quid"@en , "3 Quid"@fr , "3 Quid"@de , "Gillis, John Anthony"@en , "White, Jack"@en , "John Anthony Gillis"@en , "The Third Man"@en , "John Anthony Gillis"@fr , "John Anthony Gillis"@de , "Jack White (né Gillis)"@en , "Jack White"@en , "Jack White"@fr , "Gillis"@de , "Jack White"@de , "Jack White III"@en , "Jack White III"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quentin_Tarantino>
+        rdfs:label     "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quentin Tarantino"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Quentin_Tarantino__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quentin_Tarantino> , <http://de.dbpedia.org/resource/Quentin_Tarantino> ;
+        skos:altLabel  "Q. Tarantino"@fr , "Quinton Tarantino"@en , "Quinton Tarantino"@de , "Quinton Tarantino"@fr , "Quentin Tarrantino"@en , "Quentin Tarrantino"@fr , "Quentin Tarrantino"@de , "Tarrantino"@fr , "Tarantino"@en , "Tarantino"@de , "Tarantino"@fr , "Quentin Jerome Tarantino"@en , "Quentin Jerome Tarantino"@de , "Quentin Jerome Tarantino"@fr , "Quintin Terantino"@en , "Quintin Terantino"@de , "Quintin Terantino"@fr , "Quentin Tarantino"@en , "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quinton Terrantino"@en , "Quinton Terrantino"@de , "Quinton Terrantino"@fr , "Q. Tarentino"@en , "Q. Tarentino"@de , "Q. Tarentino"@fr , "Tarentino"@fr , "The Vega Brothers"@en , "The Vega Brothers"@de , "The Vega Brothers"@fr , "Quinten Tarantino"@en , "Quinten Tarantino"@fr , "Quinten Tarantino"@de , "Quentin tarantino"@en , "Quentin tarantino"@de , "Quentin tarantino"@fr , "Quentin"@en , "Quentin"@de , "Quentin"@fr , "Quinten Tarintino"@en , "Red Apple Cigarettes"@en , "QuentinTarrantino"@en , "Quinten Tarintino"@de , "Quinten Tarintino"@fr , "Quentin Tarintino"@en , "Quentin Tarintino"@de , "Quentin Tarintino"@fr , "Quentin Tarentino"@en , "QuentinTarrantino"@de , "QuentinTarrantino"@fr , "Quentin Tarentino"@de , "Quentin Tarentino"@fr , "Red Apple Cigarettes"@de , "Red Apple Cigarettes"@fr , "Q. Tarantino"@en , "Q. Tarantino"@de .
+
+<http://dbpedia.org/resource/Quentin_Tarantino__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Minsk> ;
+        dbo:from             "1999"^^xsd:gYear ;
+        dbo:to               "1999"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Minsk>
+        rdfs:label     "Minsk"@de , "Minsk"@fr , "Minsk"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minsk> , <http://fr.dbpedia.org/resource/Minsk> ;
+        skos:altLabel  "Miensk"@de , "Miensk"@fr , "Miensk"@en , "Gorod Minsk"@de , "Gorod Minsk"@fr , "Gorod Minsk"@en , "Provice of Minsk"@fr , "Provice of Minsk"@en , "Provice of Minsk"@de , "Minskaya"@en , "Minskaya"@de , "Minskaya"@fr , "Minsku"@de , "Minsku"@fr , "Minsku"@en , "LOCODE:BYMSQ"@de , "LOCODE:BYMSQ"@fr , "LOCODE:BYMSQ"@en , "Capital of Belarus"@de , "Capital of Belarus"@fr , "Capital of Belarus"@en , "Horad Minsk"@de , "Horad Minsk"@fr , "Horad Minsk"@en , "Minskas"@de , "Minskas"@fr , "Minskas"@en , "Minsk, Belarus"@de , "Minsk, Belarus"@fr , "Minsk, Belarus"@en , "Mensk"@de , "Mensk"@fr , "Mensk"@en , "Minsk"@en , "Minsk, USSR"@de , "Minsk, USSR"@fr , "Minsk, USSR"@en , "Minsk"@de , "Minsk"@fr .

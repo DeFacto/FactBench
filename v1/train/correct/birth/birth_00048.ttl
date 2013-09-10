@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Usher_(entertainer)__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Dallas> ;
+        dbo:from        "1978-10-14"^^xsd:date ;
+        dbo:to          "1978-10-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Dallas>
+        rdfs:label     "Dallas"@de , "Dallas"@fr , "Dallas"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dallas> , <http://de.dbpedia.org/resource/Dallas> ;
+        skos:altLabel  "Dallas, texas"@fr , "Dallas, texas"@de , "Dallas, texas"@en , "Dallas, USA"@fr , "Dallas, USA"@de , "Dallas, USA"@en , "Dallas, United States"@fr , "Dallas, United States"@de , "Dallas, United States"@en , "Dallas, tx"@fr , "Dallas, tx"@de , "Dallas, tx"@en , "Dallas,Texas"@fr , "Dallas,Texas"@de , "Dallas,Texas"@en , "Dallas, Tex."@fr , "Dallas, Tex."@en , "Dallas, Tex."@de , "Dallas, Texas, U.S."@fr , "Dallas, Texas, U.S."@en , "Dallas, Texas, U.S."@de , "DALLAS"@fr , "DALLAS"@de , "DALLAS"@en , "Dallas texas"@fr , "Dallas texas"@de , "Dallas texas"@en , "Dallas Texas"@fr , "Dallas, Texas, U.S.A."@fr , "Dallas, Texas, U.S.A."@de , "Big 'D"@de , "Dallas, Texas, U.S.A."@en , "Big D"@de , "Dallas Texas"@de , "Dallas Texas"@en , "History of Dallas, TX"@fr , "Dallas, Texas, United States of America"@fr , "Draft"@fr , "History of Dallas, TX"@de , "Dallas, Texas, United States of America"@de , "Dallas, Texas, United States of America"@en , "History of Dallas, TX"@en , "Draft"@en , "Draft"@de , "Dallas"@fr , "Dallas"@de , "Dallas"@en , "City of Dallas"@fr , "Dallas Fire Department"@fr , "City of Dallas"@de , "Dallas Fire Department"@en , "City of Dallas"@en , "Dallas Fire Department"@de , "LOCODE:USDAL"@fr , "LOCODE:USDAL"@en , "LOCODE:USDAL"@de , "The Big D"@fr , "The Big D"@en , "The Big D"@de , "Dallas, TX"@fr , "Dallas, TX"@de , "Dallas, TX"@en , "City of Dallas, Texas"@fr , "City of Dallas, Texas"@en , "City of Dallas, Texas"@de , "Dallas TX"@fr , "Dalls"@fr , "Dallas TX"@de , "Dalls"@en , "Dalls"@de , "Dallas TX"@en , "Facts on Dallas, TX"@fr , "Facts on Dallas, TX"@de , "Facts on Dallas, TX"@en , "Dallas, Texas"@fr , "Dallas, Texas"@de , "Dallas, Texas"@en , "Dallas, Texas, USA"@fr , "Dallas, Texas, USA"@de , "Dallas, Texas, USA"@en .
+
+<http://dbpedia.org/resource/Usher_(entertainer)>
+        rdfs:label     "Usher (entertainer)"@en , "Usher (entertainer)"@fr , "Usher (entertainer)"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Usher_(entertainer)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Usher> , <http://fr.dbpedia.org/resource/Usher> ;
+        skos:altLabel  "Usher"@fr , "Usher"@de , "Usher"@en , "USH Records"@fr , "USH Records"@de , "USH Records"@en , "Usher Raymond IV"@fr , "Ush Records"@fr , "Usher Raymond IV"@de , "Usher Raymond IV"@en , "Ush Records"@de , "Ush Records"@en , "Usher Jamie Raymond IV"@fr , "Usher Jamie Raymond IV"@de , "Usher Jamie Raymond IV"@en , "US Records"@fr , "Usher Raymond IV."@de , "US Records"@de , "US Records"@en , "Usher Jamie Raymond"@fr , "Usher Jamie Raymond"@de , "Usher Jamie Raymond"@en , "Usher Raymond"@fr , "Usher Raymond"@de , "Usher Raymond"@en .

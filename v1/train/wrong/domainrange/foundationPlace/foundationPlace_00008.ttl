@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05fxn__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0pf5y> ;
+        dbo:from             "1972"^^xsd:gYear ;
+        dbo:to               "1972"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0pf5y>
+        rdfs:label     "Mannheim"@en , "Mannheim"@fr , "Mannheim"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mannheim> , <http://dbpedia.org/resource/Mannheim> , <http://de.dbpedia.org/resource/Mannheim> ;
+        skos:altLabel  "Neckarau"@en , "Neckarau"@fr , "Neckarau"@de , "Manheim, Germany"@en , "Manheim, Germany"@fr , "Manheim, Germany"@de , "Heim"@fr , "Quadratestadt"@en , "Quadratestadt"@de , "Quadratestadt"@fr , "Mannheim, Germany"@en , "Mannheim, Germany"@fr , "Mannheim, Germany"@de , "LOCODE:DEMHG"@en , "Mannheim"@en , "LOCODE:DEMHG"@fr , "Mannheim"@fr , "Mannheim"@de , "LOCODE:DEMHG"@de .
+
+<http://rdf.freebase.com/ns/m.05fxn>
+        rdfs:label     "NeXT"@en , "NeXT"@fr , "NeXT"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05fxn__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/NeXT> , <http://de.dbpedia.org/resource/NeXT> , <http://fr.dbpedia.org/resource/NeXT> ;
+        skos:altLabel  "Next"@en , "NeXT Computer"@fr , "Next"@fr , "Next"@de , "NeXT Computer"@de , "NeXT"@en , "NeXT"@fr , "NeXT"@de , "NeXT Software"@fr , "NeXT Computer, Inc."@en , "Next, Inc."@en , "NeXT Computer, Inc."@de , "NeXT Computer, Inc."@fr .

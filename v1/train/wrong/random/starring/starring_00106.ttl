@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ray_Charles>
+        rdfs:label     "Ray Charles"@en , "Ray Charles"@fr , "Ray Charles"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ray_Charles__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ray_Charles> , <http://fr.dbpedia.org/resource/Ray_Charles> ;
+        skos:altLabel  "Ray charles"@fr , "The Pages of My Mind"@de , "Ray charles"@de , "The Pages Of My Mind"@en , "Charles"@fr , "The Pages Of My Mind"@fr , "The Pages Of My Mind"@de , "Raymond Charles Robinson"@de , "Ray Charles"@en , "Ray Charles"@fr , "Ray Charles"@de , "I Believe to My Soul"@en , "I Believe to My Soul"@fr , "I Believe to My Soul"@de , "Ray Charles Band"@en , "Ray Charles Band"@fr , "Ray Charles Band"@de , "The Pages of My Mind"@en , "Ray Charles Robinson"@en , "Ray charles"@en , "Ray Charles Robinson"@fr , "Ray Charles Robinson"@de , "The Pages of My Mind"@fr .
+
+<http://dbpedia.org/resource/Ray_Charles__1>
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01rrd4> ;
+        dbo:to          "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01rrd4>
+        rdfs:label     "Matt LeBlanc"@en , "Matt LeBlanc"@fr , "Matt LeBlanc"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Matt_LeBlanc> , <http://fr.dbpedia.org/resource/Matt_LeBlanc> , <http://de.dbpedia.org/resource/Matt_LeBlanc> ;
+        skos:altLabel  "Matthew Steven \"Matt\" LeBlanc"@en , "Matthew Steven \"Matt\" LeBlanc"@fr , "Matthew Steven \"Matt\" LeBlanc"@de , "Matt Le Blanc"@en , "Matthew David Leblanc"@en , "Matt Le Blanc"@fr , "Matt"@fr , "Matthew David Leblanc"@fr , "Matt Le Blanc"@de , "Matthew David Leblanc"@de , "Leblanc"@en , "Leblanc"@fr , "Leblanc"@de , "Matt Leblanc"@en , "Matt Leblanc"@fr , "Matt Leblanc"@de , "Matty"@en , "Matt LeBlanc"@en , "Matt LeBlanc"@fr , "Matt LeBlanc"@de , "Matthew LeBlanc"@en , "Matthew Le Blanc"@en , "Matt LeBlanc Arquette"@en , "Matthew LeBlanc"@fr , "Matthew LeBlanc"@de , "Matthew Steven LeBlanc"@en , "Matthew Steven LeBlanc"@fr , "Matthew Steven LeBlanc"@de .

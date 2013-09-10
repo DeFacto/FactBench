@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.030r44l>
+        rdfs:label  "ProQuent Systems"@en .
+
+<http://rdf.freebase.com/ns/m.03lpbx__1>
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.030r44l> ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03lpbx>
+        rdfs:label     "Fox Kids"@fr , "Fox Kids"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03lpbx__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Fox_Kids> , <http://fr.dbpedia.org/resource/Fox_Kids> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Foxkids"@en , "Fox Kids"@en , "Fox Kids"@fr , "Foxkids"@fr , "Fox Kids Magazine"@en , "Fox Kids Magazine"@fr , "Fox Kids Weekday Block"@en , "Fox Kids Weekday Block"@fr , "Fox Kids Video"@en , "Fox Kids Video"@fr , "Fox kids"@fr , "FOX Kids"@en , "The Fox Kids Network"@en , "Fox Children's Network"@en , "FOX Kids"@fr , "The Fox Kids Network"@fr , "Fox Children's Network"@fr , "FOX kids"@en , "FOX kids"@fr , "Fox Kids Network"@en , "Fox Kids Network"@fr .

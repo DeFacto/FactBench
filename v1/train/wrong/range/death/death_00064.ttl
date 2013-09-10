@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kansas_City,_Missouri>
+        rdfs:label     "Kansas City, Missouri"@de , "Kansas City, Missouri"@fr , "Kansas City, Missouri"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kansas_City_(Missouri)> , <http://fr.dbpedia.org/resource/Kansas_City_(Missouri)> ;
+        skos:altLabel  "Kansas City, Missouri"@de , "Kansas City, Missouri"@fr , "Kansas City, Missouri"@en , "Kansas City Missouri"@de , "Kansas City Missouri"@fr , "Main Street"@fr , "Kansas city, mo"@en , "Kansas City"@de , "Kansas city, mo"@de , "Kansas city, mo"@fr , "Kansas City"@fr , "Kansas City"@en , "Kansas City, MO"@en , "Kansas City, MO"@de , "Kansas City, MO"@fr , "Killa City"@en , "Killa City"@de , "Killa City"@fr , "Kansas City Sports Teams"@de , "Kansas City Sports Teams"@fr , "Kansas City Sports Teams"@en , "Kansas City, Mo"@en , "Kansas City, Mo"@de , "Kansas City, Mo"@fr , "Kansas City, Mo,"@en , "Kansas City, Mo,"@de , "Kansas City, Mo,"@fr , "Kansas City, Missouri."@en , "Kansas City, Missouri."@de , "Kansas City, Missouri."@fr , "Kansas City, Kan."@en , "Kansas City, Kan."@de , "Kansas City, Kan."@fr , "Kansas City MO"@de , "Kansas City MO"@fr , "Kansas City MO"@en , "LOCODE:USMKC"@en , "LOCODE:USMKC"@de , "LOCODE:USMKC"@fr , "Kansas city light rail"@de , "Kansas city light rail"@fr , "Kansas city light rail"@en , "Kansas City LRT"@en , "Kansas City LRT"@de , "Kansas City LRT"@fr , "Main Street"@en , "Kansas City Missouri"@en , "Main Street"@de .
+
+<http://dbpedia.org/resource/Hal_Roach__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Kansas_City,_Missouri> ;
+        dbo:from        "1992"^^xsd:gYear ;
+        dbo:to          "1992"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hal_Roach>
+        rdfs:label     "Hal Roach"@en , "Hal Roach"@fr , "Hal Roach"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hal_Roach__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hal_Roach> , <http://de.dbpedia.org/resource/Hal_Roach> ;
+        skos:altLabel  "Roach, Hal"@en , "Roach, Hal"@fr , "Roach, Hal"@de , "Hal Roach"@en , "Hal Roach Studios"@en , "Hal Roach"@de , "Hal Roach"@fr , "Hal Roach Studios"@fr , "Hal Roach Studios"@de , "Roach"@de .

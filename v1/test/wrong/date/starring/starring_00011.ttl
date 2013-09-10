@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bill_Nighy>
+        rdfs:label     "Bill Nighy"@de , "Bill Nighy"@en , "Bill Nighy"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bill_Nighy> , <http://de.dbpedia.org/resource/Bill_Nighy> ;
+        skos:altLabel  "Bill Nigh"@fr , "Bill Nighy"@fr , "Bill Nighy"@de , "Bill Nigh"@de , "Bill Nighy 2"@en , "William Nighy"@en , "Nighy"@en , "Bill Nighy 2"@fr , "William Nighy"@fr , "Bill Nighy 2"@de , "Nighy"@fr , "William Nighy"@de , "Nighy"@de , "William Francis Nighy"@en , "William Francis Nighy"@fr , "William Francis Nighy"@de , "William F. Nighy"@en , "William F. Nighy"@fr , "William F. Nighy"@de , "Bill Francis Nighy"@en , "Bill Francis Nighy"@fr , "Bill Francis Nighy"@de , "Bill F. Nighy"@en , "Bill F. Nighy"@fr , "Bill F. Nighy"@de , "Billy Mack"@en , "Billy Mack"@fr , "Billy Mack"@de , "Bill"@fr , "Bill Nigh"@en , "Bill nighy"@en , "Bill nighy"@fr , "Bill nighy"@de , "Bill Nighy"@en .
+
+<http://dbpedia.org/resource/Love_Actually>
+        rdfs:label     "Love Actually"@en , "Love Actually"@fr , "Love Actually"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Love_Actually__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tatsächlich…_Liebe> , <http://fr.dbpedia.org/resource/Love_Actually> ;
+        skos:altLabel  "Tatsächlich … Liebe"@de , "Tatsachlich Liebe"@de , "Tatsächlich Liebe"@de , "Tatsachlich… Liebe"@de , "Tatsachlich ... Liebe"@de , "Love, Actually"@en , "Love, Actually"@fr , "Love, Actually"@de , "Love actually"@en , "Love Actually"@en , "Love actually"@fr , "Love Actually"@fr , "Tatsachlich...Liebe"@de , "Love actually"@de , "Love Actually"@de , "Tatsachlich … Liebe"@de , "Tatsachlich... Liebe"@de , "Tatsächlich… Liebe"@de , "Tatsächlich...Liebe"@de , "Tatsächlich... Liebe"@de , "Tatsächlich ... Liebe"@de .
+
+<http://dbpedia.org/resource/Love_Actually__1>
+        dbo:from      "1998"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Bill_Nighy> ;
+        dbo:to        "1998"^^xsd:gYear .

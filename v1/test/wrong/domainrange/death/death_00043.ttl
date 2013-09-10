@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charlottesville,_Virginia>
+        rdfs:label     "Charlottesville, Virginia"@en , "Charlottesville, Virginia"@fr , "Charlottesville, Virginia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charlottesville> , <http://de.dbpedia.org/resource/Charlottesville> ;
+        skos:altLabel  "Charlottesville Tomorrow"@en , "Charlottesville Tomorrow"@fr , "Charlottesville Tomorrow"@de , "Charlotte"@en , "Charlotte"@fr , "Charlotte"@de , "Charlottesville"@en , "Charlottesville"@fr , "Charlottesville"@de , "Charlottesville, Virginia"@en , "Charlottesville, Virginia"@fr , "Charlottesville, Virginia"@de , "LOCODE:USCHO"@en , "LOCODE:USCHO"@fr , "LOCODE:USCHO"@de , "Charlotteville, Virginia"@en , "Charlotteville, Virginia"@fr , "Charlotteville, Virginia"@de , "C-Ville Weekly"@en , "C-Ville Weekly"@fr , "C-Ville Weekly"@de , "City of Charlottesville, Virginia"@en , "City of Charlottesville, Virginia"@fr , "City of Charlottesville, Virginia"@de , "Charlottesville, VA"@en , "Charlottesville, VA"@fr , "Charlottesville, VA"@de .
+
+<http://dbpedia.org/resource/Roscoe_Arbuckle>
+        rdfs:label     "Roscoe Arbuckle"@fr , "Roscoe Arbuckle"@en , "Roscoe Arbuckle"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Roscoe_Arbuckle__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Roscoe_Arbuckle> , <http://de.dbpedia.org/resource/Roscoe_Arbuckle> ;
+        skos:altLabel  "Roscoe Abuckle"@de , "Roscoe Abuckle"@fr , "Roscoe Abuckle"@en , "Roscoe Fatty Arbuckle"@en , "Roscoe Fatty Arbuckle"@de , "Roscoe Fatty Arbuckle"@fr , "Arbuckle"@de , "Arbuckle"@fr , "Arbuckle"@en , "William Goodrich"@en , "William Goodrich"@de , "William Goodrich"@fr , "Fatty Arbuckle"@de , "Fatty Arbuckle"@fr , "Fatty Arbuckle"@en , "Fatty Arbuckle scandal"@en , "Fatty Arbuckle scandal"@de , "Fatty Arbuckle scandal"@fr , "Roscoe Arbuckle"@de , "Roscoe Arbuckle"@fr , "Roscoe Arbuckle"@en , "Roscoe 'Fatty' Arbuckle"@de , "Roscoe 'Fatty' Arbuckle"@fr , "Roscoe 'Fatty' Arbuckle"@en , "Roscoe C. Arbuckle"@en , "Roscoe C. Arbuckle"@de , "Roscoe C. Arbuckle"@fr , "Roscoe Conkling Arbuckle"@en , "Roscoe Conkling Arbuckle"@de , "Roscoe Conkling Arbuckle"@fr , "Roscoe „Fatty“ Arbuckle"@de , "Roscoe"@en , "Roscoe"@de , "Roscoe"@fr , "Arbuckle, Roscoe \"Fatty\""@en , "Arbuckle, Roscoe \"Fatty\""@fr , "Arbuckle, Roscoe \"Fatty\""@de , "Fatty"@fr , "Roscoe \"Fatty\" Arbuckle"@en , "Roscoe \"Fatty\" Arbuckle"@de , "Roscoe \"Fatty\" Arbuckle"@fr , "\"Fatty\" Arbuckle"@en , "\"Fatty\" Arbuckle"@de , "\"Fatty\" Arbuckle"@fr .
+
+<http://dbpedia.org/resource/Roscoe_Arbuckle__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Charlottesville,_Virginia> ;
+        dbo:from        "1990"^^xsd:gYear ;
+        dbo:to          "1990"^^xsd:gYear .

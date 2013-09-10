@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04107>
+        rdfs:label     "John Steinbeck"@de , "John Steinbeck"@fr , "John Steinbeck"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04107__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Steinbeck> , <http://de.dbpedia.org/resource/John_Steinbeck> , <http://dbpedia.org/resource/John_Steinbeck> ;
+        skos:altLabel  "John Steinback"@de , "John Steinback"@fr , "John Steinback"@en , "John Steinbeck"@de , "John Steinbeck"@fr , "John Steinbeck"@en , "John Ernst Steinbeck III"@en , "John Ernst Steinbeck III"@de , "John Ernst Steinbeck III"@fr , "John steinbeck"@en , "John steinbeck"@de , "John steinbeck"@fr , "Stienbeck, John"@de , "Stienbeck, John"@fr , "Stienbeck, John"@en , "John Stienbeck"@de , "John Stienbeck"@fr , "John Stienbeck"@en , "Tom Joad"@de , "John Steinbeck fellowship"@de , "John Steinbeck fellowship"@fr , "John Steinbeck fellowship"@en , "John Ernst Steinbeck, Jr."@en , "John Ernst Steinbeck, Jr."@de , "John Ernst Steinbeck, Jr."@fr , "John Ernst Steinbeck"@en , "John Steinbeck III"@de , "John Ernst Steinbeck"@de , "John Ernst Steinbeck"@fr , "John Steinbeck III"@fr , "John Steinbeck III"@en , "J. Steinbeck"@de , "J. Steinbeck"@fr , "J. Steinbeck"@en , "Steinbeck, John"@en , "Steinbeck, John"@de , "Steinbeck, John"@fr , "Steinbeck"@de , "Steinbeck"@fr , "Steinbeck"@en .
+
+<http://rdf.freebase.com/ns/m.0ddd9>
+        rdfs:label     "Prix Nobel de littérature"@fr , "Nobelpreis für Literatur"@de , "Nobel Prize in Literature"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nobelpreis_für_Literatur> , <http://dbpedia.org/resource/Nobel_Prize_in_Literature> , <http://fr.dbpedia.org/resource/Prix_Nobel_de_littérature> ;
+        skos:altLabel  "Nobel Prize for Literature"@en , "Nobel Prize for Literature"@de , "Nobel Prize for Literature"@fr , "Literatur-Nobelpreis"@de , "Nobel Prize in Literature"@en , "Nobel Prize in Literature"@de , "Nobel Prize in Literature"@fr , "Nobel prize"@en , "Nobel Prize In Literature"@en , "Nobel prize"@fr , "Liste des prix nobel de litterature"@fr , "Nobel prize"@de , "Nobel Prize for litterature"@en , "Nobel Prize In Literature"@de , "Nobel Prize In Literature"@fr , "Nobel Prize for litterature"@de , "Nobel Prize for litterature"@fr , "Nobel Laureate in Literature"@en , "Nobel Laureate in Literature"@de , "Nobel Laureate in Literature"@fr , "Prix Nobel de littérature"@fr , "Nobel prize literature"@en , "Nobel prize literature"@de , "Nobel prize literature"@fr , "The Nobel Prize in Literature"@en , "The Nobel Prize in Literature"@fr , "The Nobel Prize in Literature"@de , "Nobel Literature Prize"@en , "Nobel Literature Prize"@de , "Nobel Literature Prize"@fr , "Nobel prize list for literature"@en , "Nobel prize list for literature"@fr , "Nobel prize list for literature"@de , "Literaturnobelpreis"@de , "Nobel Prize in literature"@en , "Nobel Prize in literature"@fr , "Nobel Prize in literature"@de , "Nobel Prize laureates in Literature"@en , "Nobel Prize laureates in Literature"@fr , "Nobel Prize laureates in Literature"@de , "Nobel prize for literature"@en , "Nobel prize for literature"@fr , "Nobel prize for literature"@de , "Prix nobel de littérature"@fr , "Prix Nobel de litterature"@fr , "Nobelpreis fur Literatur"@de , "Nobel Prize for literature"@en , "Nobel Prize for literature"@de , "Nobel Prize for literature"@fr , "Literaturnobelpreisträger"@de , "LiteraturE"@en , "LiteraturE"@fr , "LiteraturE"@de , "Prix Nobel de Litterature"@fr , "Liste des prix nobel de littérature"@fr , "Nobel prize in literature"@en , "Nobel prize in literature"@fr , "Nobel prize in literature"@de , "Prix Nobel de Littérature"@fr , "Nobel Prize in Literature laureates"@en , "Nobel Prize in Literature laureates"@fr , "Prix nobel de litterature"@fr , "Nobel Prize in Literature laureates"@de , "Literaturnobelpreistrager"@de , "Literature"@en , "Literature"@de , "Literature"@fr , "Nobel prize in Literature"@en , "Nobel prize in Literature"@fr , "Nobel prize in Literature"@de , "Nobelpreis für Literatur"@de .
+
+<http://rdf.freebase.com/ns/m.04107__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0ddd9> ;
+        dbo:from   "1956"^^xsd:gYear ;
+        dbo:to     "1956"^^xsd:gYear .

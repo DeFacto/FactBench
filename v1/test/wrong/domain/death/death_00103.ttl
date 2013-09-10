@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Andrew_Jackson>
+        rdfs:label     "Andrew Jackson"@de , "Andrew Jackson"@fr , "Andrew Jackson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Andrew_Jackson__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Andrew_Jackson> , <http://fr.dbpedia.org/resource/Andrew_Jackson> ;
+        skos:altLabel  "Andre Jackson"@fr , "Jacksoninan Party"@en , "Jacksoninan Party"@fr , "Jacksoninan Party"@de , "Second Inaugural Address"@en , "Second Inaugural Address"@fr , "Second Inaugural Address"@de , "Jackson Administration"@en , "Jackson Administration"@de , "Jackson Administration"@fr , "Andrew Jacksons presidency"@en , "Andrew Jacksons presidency"@fr , "Andrew Jacksons presidency"@de , "Jacksons bank veto"@en , "Jacksons bank veto"@fr , "Jacksons bank veto"@de , "Age of Jackson"@en , "Age of Jackson"@fr , "Age of Jackson"@de , "André Jackson"@fr , "Sharp Knife"@en , "Sharp Knife"@de , "Sharp Knife"@fr , "President Andrew Jackson’s"@en , "President Andrew Jackson’s"@de , "President Andrew Jackson’s"@fr , "Hero of New Orleans"@en , "Andrew Jackson"@en , "Hero of New Orleans"@fr , "Hero of New Orleans"@de , "Andrew Jackson"@de , "Andrew Jackson"@fr , "Presidency of Andrew Jackson"@en , "Presidency of Andrew Jackson"@fr , "Presidency of Andrew Jackson"@de , "Andrew Jackson, Sr."@en , "Andrew Jackson, Sr."@de , "Andrew Jackson, Sr."@fr , "Andrew Jackson assassination attempts"@en , "Andrew"@en , "Andrew Jackson presidency"@en , "Andrew Jackson assassination attempts"@fr , "Andrew"@fr , "Andrew Jackson assassination attempts"@de , "Andrew Jackson presidency"@de , "Andrew Jackson presidency"@fr , "Andrew"@de , "7th President of the United States"@en , "7th President of the United States"@fr , "7th President of the United States"@de , "President Andrew Jackson"@en , "First Inaugural Address"@en , "First Inaugural Address"@de , "First Inaugural Address"@fr , "Andrew jackson"@en , "President Andrew Jackson"@de , "President Andrew Jackson"@fr , "Andrew jackson"@de , "Andrew jackson"@fr , "Jackson"@fr , "A. Jackson"@en , "A. Jackson"@fr , "A. Jackson"@de , "President Jackson"@en , "President Jackson"@fr , "President Jackson"@de , "Robert B. Randolph"@en , "Robert B. Randolph"@fr , "Robert B. Randolph"@de , "Elizabeth Hutchinson Jackson"@en , "Jackson administration"@en , "Elizabeth Hutchinson Jackson"@fr , "Jackson administration"@fr , "Jackson administration"@de , "Elizabeth Hutchinson Jackson"@de .
+
+<http://dbpedia.org/resource/Cambridge>
+        rdfs:label     "Cambridge"@de , "Cambridge"@fr , "Cambridge"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cambridge> , <http://de.dbpedia.org/resource/Cambridge> ;
+        skos:altLabel  "Cambridge, UK"@de , "Cambridge, UK"@fr , "Cambridge, UK"@en , "LOCODE:GBCMG"@de , "LOCODE:GBCMG"@fr , "LOCODE:GBCMG"@en , "Aéroport de Cambridge"@fr , "Cambridge, England"@de , "Cambridge, England"@fr , "Cambridge, England"@en , "Cambridge, United Kingdom"@en , "Cambridge, United Kingdom"@de , "Cambridge, United Kingdom"@fr , "Park Street Church of England Primary School"@de , "Park Street Church of England Primary School"@fr , "Park Street Church of England Primary School"@en , "Aeroport de Cambridge"@fr , "England Cambridge"@de , "England Cambridge"@fr , "England Cambridge"@en , "Christ's Piece"@en , "Christ's Piece"@de , "Christ's Piece"@fr , "Cambridge, Cambridgeshire"@en , "Cambridge, Cambridgeshire"@de , "Cambridge, Cambridgeshire"@fr , "Christs Pieces"@de , "Christs Pieces"@fr , "Christs Pieces"@en , "Grantabridge"@en , "Grantabridge"@de , "Grantabridge"@fr , "Cambridge"@en , "Cambridge"@de , "Cambridge"@fr , "The weather in Cambridge"@en , "The weather in Cambridge"@de , "The weather in Cambridge"@fr , "Caergrawnt"@en , "Caergrawnt"@de , "Caergrawnt"@fr .
+
+<http://dbpedia.org/resource/Andrew_Jackson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Cambridge> ;
+        dbo:from        "1951"^^xsd:gYear ;
+        dbo:to          "1951"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mary_J._Blige__1>
+        dbo:from      "2003"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Kingsland,_Arkansas> ;
+        dbo:to        "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kingsland,_Arkansas>
+        rdfs:label     "Kingsland, Arkansas"@en , "Kingsland, Arkansas"@fr , "Kingsland, Arkansas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kingsland_(Arkansas)> , <http://fr.dbpedia.org/resource/Kingsland,_Arkansas> ;
+        skos:altLabel  "Kingsland, AR"@fr , "Kingsland, AR"@de , "Kingsland"@fr , "Kingsland"@de , "Kingsland, Arkansas"@fr , "Kingsland, Arkansas"@de .
+
+<http://dbpedia.org/resource/Mary_J._Blige>
+        rdfs:label     "Mary J. Blige"@de , "Mary J. Blige"@fr , "Mary J. Blige"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mary_J._Blige__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mary_J._Blige> , <http://de.dbpedia.org/resource/Mary_J._Blige> ;
+        skos:altLabel  "Mary Blige"@en , "Soul hip hop queen"@en , "Mary Blige"@fr , "Soul hip hop queen"@fr , "Mary Blige"@de , "Soul hip hop queen"@de , "Breakthrough Experience Tour"@en , "Breakthrough Experience Tour"@de , "Breakthrough Experience Tour"@fr , "Matriarch Records"@en , "Matriarch Records"@fr , "Matriarch Records"@de , "Mary J Blige"@en , "Mary J Blige"@de , "Mary J Blige"@fr , "Hip hop soul Queen"@en , "Hip hop soul Queen"@fr , "Hip hop soul Queen"@de , "Blige, Mary J."@en , "Blige, Mary J."@fr , "Blige, Mary J."@de , "Mary Jane Blige"@en , "Mary Jane Blige"@fr , "Mary Jane Blige"@de , "Mary J.Blige"@en , "Hip hop soul queen"@en , "Mary J.Blige"@fr , "Mary J.Blige"@de , "Hip hop soul queen"@fr , "Hip hop soul queen"@de , "Maryluvs"@en , "Hip-Hop Soul Queen"@en , "Maryluvs"@fr , "Hip-Hop Soul Queen"@fr , "Maryluvs"@de , "Hip-Hop Soul Queen"@de , "Mary J. Blige's Tours"@en , "Mary J. Blige's Tours"@fr , "Mary J. Blige's Tours"@de , "It's Coming"@en , "It's Coming"@fr , "It's Coming"@de , "The Queen of Hip-Hop Soul"@en , "The Queen of Hip-Hop Soul"@de , "The Queen of Hip-Hop Soul"@fr , "Growing Pains Tour"@en , "Queen of Hip-Hop Soul"@en , "Queen of Hip-Hop Soul"@de , "Growing Pains Tour"@de , "Queen of Hip-Hop Soul"@fr , "Growing Pains Tour"@fr , "The One Ft Drake"@en , "Martriarch Records"@en , "The One Ft Drake"@fr , "Martriarch Records"@de , "Martriarch Records"@fr , "The One Ft Drake"@de , "Queen of soul hip hop"@en , "Queen of soul hip hop"@de , "Queen of soul hip hop"@fr , "Mary J. Blige"@en , "Matriarch"@en , "Blige"@en , "Queen of Hip Hop Soul"@en , "Mary J. Blige"@fr , "Matriarch"@fr , "Queen of Hip Hop Soul"@de , "Queen of Hip Hop Soul"@fr , "Blige"@fr , "Mary J. Blidge"@fr , "Blige"@de , "Mary J. Blige"@de , "Matriarch"@de , "Love Her"@en , "Love Her"@de , "Love Her"@fr , "Queen of soul hip-hop"@en , "Queen of soul hip-hop"@fr , "Queen of soul hip-hop"@de , "No More Drama World Tour"@en , "No More Drama World Tour"@fr , "No More Drama World Tour"@de .

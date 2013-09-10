@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h3lt>
+        rdfs:label     "Huntington Beach"@fr , "Huntington Beach"@en , "Huntington Beach"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Huntington_Beach> , <http://de.dbpedia.org/resource/Huntington_Beach> , <http://dbpedia.org/resource/Huntington_Beach,_California> ;
+        skos:altLabel  "Huntington beach"@de , "Huntington beach"@fr , "Huntington beach"@en , "Fountain Valley Township, California"@en , "Fountain Valley Township, California"@de , "Fountain Valley Township, California"@fr , "Huntington beach, ca"@de , "Huntington beach, ca"@fr , "Huntington beach, ca"@en , "Surf City, USA"@de , "Surf City, USA"@fr , "Surf City, USA"@en , "Huntington Beach, CA"@de , "Huntington Beach, CA"@fr , "Huntington Beach, CA"@en , "Huntington Beach, Calif."@de , "Huntington Beach, Calif."@fr , "Huntington Beach, Calif."@en , "Huntington Beach, California"@de , "Huntington Beach, California"@fr , "Huntington Beach, California"@en , "Huntingdon beach"@de , "Huntingdon beach"@fr , "Huntingdon beach"@en , "Orange County / Huntington Beach city"@en , "Huntington Beach"@de , "Huntington Beach"@fr , "Huntington Beach"@en , "LOCODE:USHTD"@de , "LOCODE:USHTD"@fr , "LOCODE:USHTD"@en , "Huntington"@de , "Huntington"@fr , "Beach"@fr , "Grace Lutheran School"@de , "Grace Lutheran School"@fr , "Grace Lutheran School"@en .
+
+<http://rdf.freebase.com/ns/m.0fbh5s__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0h3lt> ;
+        dbo:from             "2005"^^xsd:gYear ;
+        dbo:to               "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fbh5s>
+        rdfs:label  "Foldera"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fbh5s__1> .

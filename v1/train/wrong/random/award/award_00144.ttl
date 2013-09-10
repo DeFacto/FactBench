@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02pnm50>
+        rdfs:label  "Audiokinetic"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02pnm50__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Audiokinetic> .
+
+<http://rdf.freebase.com/ns/m.02pnm50__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01x6bp> ;
+        dbo:from             "1934"^^xsd:gYear ;
+        dbo:to               "1934"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01x6bp>
+        rdfs:label     "Richard Li"@en , "Richard Li"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Richard_Li> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Li Tzar-kai"@en , "Richard Li"@en , "Richard Li Tzar Kai"@en , "NOW TELEVISION"@en , "Li zekai"@en , "Li Zekai"@en .

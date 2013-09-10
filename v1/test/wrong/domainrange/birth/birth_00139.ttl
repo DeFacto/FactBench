@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Frank_Lloyd_Wright>
+        rdfs:label     "Frank Lloyd Wright"@fr , "Frank Lloyd Wright"@en , "Frank Lloyd Wright"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Frank_Lloyd_Wright__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frank_Lloyd_Wright> , <http://fr.dbpedia.org/resource/Frank_Lloyd_Wright> ;
+        skos:altLabel  "Wright, Frank Lloyd"@de , "Wright, Frank Lloyd"@fr , "Wright, Frank Lloyd"@en , "Frank lyold wright"@de , "Frank lyold wright"@fr , "Frank lyold wright"@en , "Lloyd Wright"@fr , "Taliesin West"@fr , "Usonien"@de , "Wright"@de , "Wright"@fr , "Wright"@en , "Frank lloyd wright"@de , "Frank lloyd wright"@fr , "Frank lloyd wright"@en , "Franklin Lloyd wright"@en , "Franklin Lloyd wright"@de , "Franklin Lloyd wright"@fr , "Frank Lloyd"@de , "Frank Lloyd"@fr , "Frank Lloyd"@en , "F.L. Wright"@de , "F.L. Wright"@fr , "F.L. Wright"@en , "Frank L. Wright"@en , "Frank L. Wright"@de , "Frank L. Wright"@fr , "Lloyd"@fr , "Franck Lloyd Wright"@fr , "Frank Lloyd Wright"@en , "Frank Lloyd Wright"@de , "Frank Lloyd Wright"@fr , "Wright,Frank Lloyd"@en , "Wright,Frank Lloyd"@de , "Wright,Frank Lloyd"@fr , "FL Wright"@de , "FL Wright"@fr , "FL Wright"@en , "F. L. Wright"@en , "F. L. Wright"@de , "F. L. Wright"@fr .
+
+<http://dbpedia.org/resource/Frank_Lloyd_Wright__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/El_Centro,_California> ;
+        dbo:from        "1935"^^xsd:gYear ;
+        dbo:to          "1935"^^xsd:gYear .
+
+<http://dbpedia.org/resource/El_Centro,_California>
+        rdfs:label     "El Centro, California"@en , "El Centro, California"@fr , "El Centro, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/El_Centro> , <http://de.dbpedia.org/resource/El_Centro_(Kalifornien)> ;
+        skos:altLabel  "El Centro, California"@de , "Cabarker"@en , "Cabarker"@fr , "Cabarker"@de , "Cabarker, California"@en , "El Centro"@en , "Cabarker, California"@fr , "Cabarker, California"@de , "El Centro"@fr , "El Centro"@de , "Centro"@fr , "El Centro, Ca"@en , "El Centro, Ca"@fr , "El Centro, Ca"@de , "LOCODE:USECO"@en , "LOCODE:USECO"@fr , "LOCODE:USECO"@de , "El Centro, CA"@en , "McCabe school"@en , "El Centro, CA"@fr , "McCabe school"@fr , "El Centro, CA"@de , "McCabe school"@de , "McCabe"@en , "McCabe"@fr , "McCabe"@de , "El Centro, California"@en , "El Centro, California"@fr .

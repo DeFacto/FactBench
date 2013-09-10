@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Anthony_Quinn>
+        rdfs:label     "Anthony Quinn"@fr , "Anthony Quinn"@de , "Anthony Quinn"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Anthony_Quinn__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Anthony_Quinn> , <http://fr.dbpedia.org/resource/Anthony_Quinn> ;
+        skos:altLabel  "Alex Quinn"@en , "Alex Quinn"@fr , "Alex Quinn"@de , "Anthony Rudolph Oaxaca Quinn"@en , "Anthony Queen"@en , "Anthony Rudolph Oaxaca Quinn"@fr , "Anthony Rudolph Oaxaca Quinn"@de , "Anthony Queen"@fr , "Anthony Queen"@de , "Quinn"@en , "Quinn"@fr , "Quinn"@de , "Anthony Quinn"@en , "Anthony Quinn"@fr , "Anthony Quinn"@de .
+
+<http://dbpedia.org/resource/Anthony_Quinn__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Palm_Desert,_California> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Palm_Desert,_California>
+        rdfs:label     "Palm Desert, California"@en , "Palm Desert, California"@fr , "Palm Desert, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Palm_Desert> , <http://de.dbpedia.org/resource/Palm_Desert> ;
+        skos:altLabel  "Paseo"@en , "Paseo"@fr , "Paseo"@de , "Palm"@fr , "El Paseo Gardens"@en , "El Paseo Gardens"@fr , "El Paseo Gardens"@de , "El Paseo Gradens"@en , "Palm Desert, Ca"@en , "El Paseo"@en , "Palm Desert, California"@en , "Palm Desert"@en , "El Paseo"@fr , "Palm Desert, California"@fr , "Palm Desert, California"@de , "El Paseo"@de , "El Paseo Gradens"@fr , "Palm Desert, Ca"@fr , "Palm Desert"@fr , "Palm Desert"@de , "Palm Desert, Ca"@de , "El Paseo Gradens"@de , "Palm Desert, CA"@en , "Palm Desert, CA"@fr , "Palm Desert, CA"@de , "LOCODE:USPMD"@en , "LOCODE:USPMD"@fr , "LOCODE:USPMD"@de .

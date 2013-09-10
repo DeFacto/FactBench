@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Santa_Barbara,_California>
+        rdfs:label     "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Barbara_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Barbara_(Californie)> ;
+        skos:altLabel  "Westside Projects Barrio"@en , "Downtown Santa Barbara, California"@fr , "Downtown Santa Barbara, California"@de , "Westside Projects Barrio"@fr , "Westside Projects Barrio"@de , "American Riviera"@en , "Santa Barbara, Ca"@en , "American Riviera"@fr , "Santa Barbara, Ca"@fr , "American Riviera"@de , "Santa Barbara, Ca"@de , "LOCODE:USSBA"@en , "Santa barbara, ca"@en , "Barbara"@en , "LOCODE:USSBA"@fr , "Santa barbara, ca"@fr , "Barbara"@fr , "LOCODE:USSBA"@de , "Barbara"@de , "Santa barbara, ca"@de , "Santa Barbara"@en , "Santa Barbara"@fr , "Santa Barbara"@de , "Santa Barbara, CA"@en , "Santa Barbara, CA"@fr , "Santa Barbara, CA"@de , "Santa Barbara, Calif."@en , "Santa Barbara, Calif."@fr , "Santa Barbara, Calif."@de , "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de , "Downtown Santa Barbara, California"@en .
+
+<http://dbpedia.org/resource/Calvin_Coolidge__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Barbara,_California> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Calvin_Coolidge>
+        rdfs:label     "Calvin Coolidge"@de , "Calvin Coolidge"@fr , "Calvin Coolidge"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Calvin_Coolidge__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Calvin_Coolidge> , <http://de.dbpedia.org/resource/Calvin_Coolidge> ;
+        skos:altLabel  "Coolidge administration"@de , "Coolidge administration"@fr , "J. Calvin Coolidge, Jr."@en , "J. Calvin Coolidge, Jr."@fr , "J. Calvin Coolidge, Jr."@de , "Calvin Coolidge"@en , "Calvin Coolidge"@de , "Calvin Coolidge"@fr , "John C. Coolidge"@en , "John C. Coolidge"@fr , "John C. Coolidge"@de , "Calvin Cooldige"@en , "President Coolidge"@en , "President Coolidge"@de , "President Coolidge"@fr , "Calvin Cooldige"@fr , "Calvin Cooldige"@de , "Calvin coolidge"@en , "Presidency of Calvin Coolidge"@en , "Calvin coolidge"@de , "Calvin coolidge"@fr , "Presidency of Calvin Coolidge"@de , "Presidency of Calvin Coolidge"@fr , "30th President of the United States"@en , "Coolidge Administration"@en , "John C. Coolidge, Jr."@en , "Coolidge Administration"@fr , "John C. Coolidge, Jr."@de , "John C. Coolidge, Jr."@fr , "Coolidge Administration"@de , "John Calvin Coolidge"@en , "30th President of the United States"@fr , "John Calvin Coolidge"@de , "30th President of the United States"@de , "John Calvin Coolidge"@fr , "Calvin"@en , "Calvin"@de , "Calvin"@fr , "John Calvin Coolidge Jr."@en , "John Calvin Coolidge Jr."@de , "John Calvin Coolidge Jr."@fr , "President Calvin Coolidge"@en , "President Calvin Coolidge"@de , "President Calvin Coolidge"@fr , "Calvin collidge"@en , "Calvin collidge"@fr , "Calvin collidge"@de , "Calvin Koolaid"@en , "Calvin Koolaid"@de , "Calvin Koolaid"@fr , "John Coolidge, Jr."@en , "John Coolidge, Jr."@de , "John Coolidge, Jr."@fr , "J. Calvin Coolidge"@en , "J. Calvin Coolidge"@fr , "J. Calvin Coolidge"@de , "Silent cal"@en , "Silent cal"@fr , "Silent cal"@de , "Coolidge"@en , "Coolidge"@fr , "Coolidge"@de , "The business of America is business"@en , "The business of America is business"@fr , "The business of America is business"@de , "Coolidge administration"@en , "John Calvin Coolidge, Jr."@en , "John Calvin Coolidge, Jr."@de , "John Calvin Coolidge, Jr."@fr .

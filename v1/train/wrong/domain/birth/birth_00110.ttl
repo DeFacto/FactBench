@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tom_Hanks__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Richland_Center,_Wisconsin> ;
+        dbo:from        "1867"^^xsd:gYear ;
+        dbo:to          "1867"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tom_Hanks>
+        rdfs:label     "Tom Hanks"@de , "Tom Hanks"@fr , "Tom Hanks"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tom_Hanks__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tom_Hanks> , <http://de.dbpedia.org/resource/Tom_Hanks> ;
+        skos:altLabel  "Hanks"@de , "Hanks"@fr , "Hanks"@en , "Samantha Lewes"@en , "Tom hanks"@de , "Tom hanks"@fr , "Tom hanks"@en , "Samantha Lewes"@de , "Samantha Lewes"@fr , "Sandra Hanks Benoiton"@de , "Sandra Hanks Benoiton"@fr , "Sandra Hanks Benoiton"@en , "Hanks, Tom"@de , "Hanks, Tom"@fr , "Hanks, Tom"@en , "Thomas Jeffrey Hanks"@de , "Thomas Jeffrey Hanks"@fr , "Thomas Jeffrey Hanks"@en , "Samantha"@de , "Samantha"@fr , "Samantha"@en , "Tom Hanks filmography"@en , "Tom Hanks filmography"@de , "Tom Hanks filmography"@fr , "Tom Hank"@de , "Tom Hank"@fr , "Tom Hank"@en , "Thomas Hanks"@en , "Thomas Hanks"@de , "Thomas Hanks"@fr , "Chet Hanks"@de , "Chet Hanks"@fr , "Chet Hanks"@en , "Chet Haze"@en , "Chet Haze"@de , "Chet Haze"@fr , "Tom Hanks"@de , "Tom Hanks"@fr , "Tom Hanks"@en .
+
+<http://dbpedia.org/resource/Richland_Center,_Wisconsin>
+        rdfs:label     "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland Center, Wisconsin"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Richland_Center_(Wisconsin)> ;
+        skos:altLabel  "Richland Center"@en , "Richland Center"@fr , "Richland Center, WI"@en , "Richland Center, WI"@fr , "LOCODE:USRLC"@fr , "LOCODE:USRLC"@en , "Richland Center, Wi"@en , "Richland Center, Wi"@fr , "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland"@en , "Richland"@fr .

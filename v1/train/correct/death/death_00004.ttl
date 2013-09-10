@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Harry_S._Truman__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Kansas_City,_Missouri> ;
+        dbo:from        "1972-12-26"^^xsd:date ;
+        dbo:to          "1972-12-26"^^xsd:date .
+
+<http://dbpedia.org/resource/Harry_S._Truman>
+        rdfs:label     "Harry S. Truman"@de , "Harry S. Truman"@fr , "Harry S. Truman"@en ;
+        dbo:death      <http://dbpedia.org/resource/Harry_S._Truman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Harry_S._Truman> , <http://de.dbpedia.org/resource/Harry_S._Truman> ;
+        skos:altLabel  "H.S. Truman"@fr , "Mary Jane Truman"@fr , "Truman comittee"@fr , "Truman administration"@fr , "H.S. Truman"@de , "Mary Jane Truman"@de , "Truman comittee"@de , "Truman administration"@de , "Truman administration"@en , "Mary Jane Truman"@en , "H.S. Truman"@en , "Truman comittee"@en , "Harry Shippe Truman"@fr , "Harry Shippe Truman"@en , "Harry Shippe Truman"@de , "Presidency of Harry S. Truman"@fr , "33rd President of the United States"@fr , "President Truman"@fr , "Presidency of Harry S. Truman"@de , "33rd President of the United States"@de , "President Truman"@de , "Presidency of Harry S. Truman"@en , "33rd President of the United States"@en , "President Truman"@en , "Truman"@fr , "Truman"@de , "Truman"@en , "Harry Truman"@fr , "Harry Truman"@de , "Harry Truman"@en , "Harry S.Truman"@fr , "Harry S.Truman"@de , "Harry S.Truman"@en , "Truman Administration"@fr , "Truman Administration"@en , "Truman Administration"@de , "Truman Committee"@fr , "Truman Committee"@de , "Truman Committee"@en , "S truman"@fr , "S truman"@en , "S truman"@de , "President Harry Truman"@fr , "President Harry Truman"@en , "President Harry Truman"@de , "Mr. Citizen"@fr , "Mr. Citizen"@de , "Mr. Citizen"@en , "Truman Comission"@fr , "Truman Comission"@de , "Truman Comission"@en , "Harry S. Truman"@fr , "Harry S. Truman"@de , "Harry S. Truman"@en , "Harry Shipp Truman"@fr , "Harry Shipp Truman"@de , "Harry Shipp Truman"@en , "H. Truman"@fr , "H. Truman"@de , "H. Truman"@en , "Harry S Truman"@fr , "Harry S Truman"@de , "Harry S Truman"@en , "Harry Truman's"@fr , "Harry Truman's"@en , "Harry Truman's"@de , "Harry Solomon Truman"@fr , "Harry Solomon Truman"@de , "Harry Solomon Truman"@en , "H. S. Truman"@fr , "H. S. Truman"@en , "H. S. Truman"@de , "Hary truman"@fr , "Truman Commission"@fr , "Hary truman"@de , "Truman Commission"@en , "Truman Commission"@de , "Hary truman"@en .
+
+<http://dbpedia.org/resource/Kansas_City,_Missouri>
+        rdfs:label     "Kansas City, Missouri"@de , "Kansas City, Missouri"@fr , "Kansas City, Missouri"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kansas_City_(Missouri)> , <http://fr.dbpedia.org/resource/Kansas_City_(Missouri)> ;
+        skos:altLabel  "Main Street"@en , "Kansas City, Missouri"@en , "Kansas City, Missouri"@de , "Kansas City Missouri"@en , "Kansas City Missouri"@de , "Main Street"@de , "Kansas city, mo"@fr , "Kansas City"@en , "Kansas city, mo"@en , "Kansas city, mo"@de , "Kansas City"@de , "Kansas City"@fr , "Kansas City, MO"@fr , "Kansas City, MO"@en , "Kansas City, MO"@de , "Killa City"@fr , "Killa City"@en , "Killa City"@de , "Kansas City Sports Teams"@en , "Kansas City Sports Teams"@de , "Kansas City Sports Teams"@fr , "Kansas City, Mo"@fr , "Kansas City, Mo"@en , "Kansas City, Mo"@de , "Kansas City, Mo,"@fr , "Kansas City, Mo,"@en , "Kansas City, Mo,"@de , "Kansas City, Missouri."@fr , "Kansas City, Missouri."@en , "Kansas City, Missouri."@de , "Kansas City, Kan."@fr , "Kansas City, Kan."@en , "Kansas City, Kan."@de , "Kansas City MO"@en , "Kansas City MO"@de , "Kansas City MO"@fr , "LOCODE:USMKC"@fr , "LOCODE:USMKC"@en , "LOCODE:USMKC"@de , "Kansas city light rail"@fr , "Kansas city light rail"@en , "Kansas city light rail"@de , "Kansas City LRT"@fr , "Kansas City LRT"@en , "Kansas City LRT"@de , "Main Street"@fr , "Kansas City Missouri"@fr , "Kansas City, Missouri"@fr .

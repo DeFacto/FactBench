@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01d6t8__1>
+        dbo:from      "1975"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.03gk4q> ;
+        dbo:to        "1975"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03gk4q>
+        rdfs:label  "Options"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Options_(novel)> .
+
+<http://rdf.freebase.com/ns/m.01d6t8>
+        rdfs:label     "Robert Sheckley"@en , "Robert Sheckley"@fr , "Robert Sheckley"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01d6t8__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robert_Sheckley> , <http://dbpedia.org/resource/Robert_Sheckley> , <http://de.dbpedia.org/resource/Robert_Sheckley> ;
+        skos:altLabel  "Ned Lang"@en , "After the Fall"@en , "Panzaism"@fr , "After the Fall"@fr , "After the Fall"@de , "Panzaism"@de , "Finn O'Donnevan"@en , "Robert Sheckley"@en , "Robert Sheckley"@fr , "Robert Sheckley"@de , "Phillips Barbee"@en , "Finn O'Donovan"@en , "Finn O'Donovan"@de , "Finn O'Donovan"@fr , "Sheckley"@en , "Sheckley"@fr , "Sheckley"@de , "Panzaism"@en .

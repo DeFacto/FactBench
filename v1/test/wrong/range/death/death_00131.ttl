@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ketchum,_Idaho>
+        rdfs:label     "Ketchum, Idaho"@en , "Ketchum, Idaho"@fr , "Ketchum, Idaho"@de ;
+        skos:altLabel  "Ketchum, ID"@en , "Ketchum, Idaho"@en , "Ketchum, Id"@en , "LOCODE:USQKM"@en , "Ketchum"@en .
+
+<http://dbpedia.org/resource/Andy_Williams__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Ketchum,_Idaho> ;
+        dbo:from        "2012"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Andy_Williams>
+        rdfs:label     "Andy Williams"@de , "Andy Williams"@en , "Andy Williams"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Andy_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Andy_Williams_(chanteur)> , <http://de.dbpedia.org/resource/Andy_Williams> ;
+        skos:altLabel  "Howard Andrew Williams"@en , "Howard Andrew Williams"@fr , "Howard Andrew Williams"@de , "Andy Williams"@en , "Andy Williams"@fr , "Andy Williams"@de , "Williams, Andrew"@en , "Williams, Andrew"@fr , "Williams, Andrew"@de , "Andy"@en , "Andy williams"@en , "Andy"@fr , "Andy williams"@de , "Andy williams"@fr , "Andy"@de .

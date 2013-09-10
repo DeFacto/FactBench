@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Miles_Davis__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Houston_Rockets> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Miles_Davis>
+        rdfs:label     "Miles Davis"@en , "Miles Davis"@fr , "Miles Davis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Miles_Davis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Miles_Davis> , <http://de.dbpedia.org/resource/Miles_Davis> ;
+        skos:altLabel  "Miles"@fr , "Miles"@de , "Miles Davis"@en , "Miles Davis"@fr , "Miles Davis"@de , "Miles David"@en , "Miles David"@fr , "Miles David"@de , "Generique"@en , "Generique"@fr , "Generique"@de , "Miles Dewey Davis"@en , "Miles Dewey Davis"@fr , "Miles Dewey Davis"@de , "Miles Davies"@en , "Miles Dewey Davis III"@en , "Miles Davies"@fr , "Miles Dewey Davis III"@fr , "Miles Davies"@de , "Miles Dewey Davis III"@de , "Miles"@en , "Miles davis"@en , "M. Davis"@en , "Générique"@en , "Miles davis"@fr , "Davis"@fr , "M. Davis"@fr , "M. Davis"@de , "Générique"@fr , "Miles davis"@de , "Générique"@de .
+
+<http://dbpedia.org/resource/Houston_Rockets>
+        rdfs:label     "Houston Rockets"@en , "Houston Rockets"@fr , "Houston Rockets"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rockets_de_Houston> , <http://de.dbpedia.org/resource/Houston_Rockets> ;
+        skos:altLabel  "Rockets de houston"@fr , "Rockets de San Diego"@fr , "San Diego Rockets"@en , "San Diego Rockets"@fr , "San Diego Rockets"@de , "Houston Rockets"@en , "Houston"@en , "Houston Rockets"@fr , "Houston"@fr , "Houston Rockets"@de , "Houston"@de , "Rocket"@en , "Rocket"@fr , "Rocket"@de , "Twin Towers"@en , "Twin Towers"@fr , "Rockets de Houston"@fr , "Twin Towers"@de .

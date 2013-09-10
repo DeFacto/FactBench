@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05b5c__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.02jx1> ;
+        dbo:from        "1979"^^xsd:gYear ;
+        dbo:to          "1979"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05b5c>
+        rdfs:label     "Nokia"@de , "Nokia"@fr , "Nokia"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05b5c__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Nokia> , <http://de.dbpedia.org/resource/Nokia> , <http://fr.dbpedia.org/resource/Nokia> ;
+        skos:altLabel  "Mobira"@en , "Mobira"@fr , "Mobira"@de , "Nokia World 2011"@en , "Nokia World 2011"@fr , "Nokia World 2011"@de , "Nokia corporation"@en , "Nokia Music"@en , "Nokia corporation"@fr , "Nokia Music"@fr , "Nokia Music"@de , "Nokia corporation"@de , "Nokia, Inc."@en , "Nokia Messaging"@en , "Nokia, Inc."@fr , "Nokia Messaging"@fr , "Nokia Messaging"@de , "Nokia, Inc."@de , "Nokia Corporation"@en , "Nokia Corporation"@fr , "Nokia Corporation"@de , "\"Comes With Music\""@en , "\"Comes With Music\""@fr , "\"Comes With Music\""@de , "Fredrik Idestam"@de , "Comes With Music"@en , "Comes With Music"@fr , "Comes With Music"@de , "Nokia Komárom"@de , "Nokia phone"@en , "Nokia phone"@fr , "Nokia phone"@de , "Nokia Oy"@en , "Nokia Oy"@de , "Nokia Oy"@fr , "Mobira Talkman"@en , "Mobira Talkman"@fr , "Mobira Talkman"@de , "Nokia"@en , "Mobira Cityman"@en , "Mobira Cityman"@fr , "Mobira Cityman"@de , "Nokia Aero"@en , "Nokia"@fr , "Nokia"@de , "Nokia Corp."@en , "Nokia Corp."@de , "Nokia Corp."@fr , "Nokia Aero"@fr , "Nokia Aero"@de , "Nokrosoft"@en , "Mobira Senator"@en , "Nokrosoft"@fr , "Mobira Senator"@fr , "Nokrosoft"@de , "Mobira Senator"@de , "The Nokia Corporation"@en , "The Nokia Corporation"@fr , "The Nokia Corporation"@de , "Nokia E9400"@en , "Nokialand"@en , "Nokialand"@fr , "Nokia Komarom"@de , "Nokialand"@de , "Nokia Oyj"@en , "Nokia E9400"@fr , "Nokia Oyj"@de , "Nokia E9400"@de , "Nokia Oyj"@fr , "Aero"@en , "Aero"@fr , "Aero"@de , "NokiaLaptop"@en , "Network Alchemy"@en , "NOKIA"@en , "NokiaLaptop"@fr , "Network Alchemy"@fr , "Network Alchemy"@de , "NOKIA"@de , "NOKIA"@fr , "NokiaLaptop"@de , "Nokia Comes With Music"@en , "Nokia Comes With Music"@de , "Nokia Comes With Music"@fr , "Nokia Research Center"@en , "Nokia Research Center"@fr , "Nokia Research Center"@de .
+
+<http://rdf.freebase.com/ns/m.02jx1>
+        rdfs:label     "England"@de , "England"@en , "Angleterre"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/England> , <http://fr.dbpedia.org/resource/Angleterre> , <http://de.dbpedia.org/resource/England> ;
+        skos:altLabel  "English Nation"@de , "English Nation"@fr , "List of England-related topics"@en , "List of England-related topics"@de , "List of England-related topics"@fr , "Engeland"@en , "Engeland"@fr , "Engeland"@de , "England's"@en , "England's"@fr , "England's"@de , "Name of England"@en , "Name of England"@fr , "Name of England"@de , "Albion"@en , "Engelond"@en , "Engelond"@fr , "Engelond"@de , "England"@en , "England"@de , "England"@fr , "Life in England"@en , "Life in England"@fr , "Life in England"@de , "Land of the Angles"@en , "Land of the Angles"@de , "Land of the Angles"@fr , "Aengland"@en , "Aengland"@fr , "Aengland"@de , "Loegria"@en , "Sasainn"@en , "Sasainn"@fr , "Sasainn"@de , "Ingland"@en , "Ingland"@fr , "Ingland"@de , "Englaland"@en , "Englaland"@de , "Englaland"@fr , "Ængland"@en , "Ængland"@de , "Ængland"@fr , "Etymology of England"@en , "Etymology of England"@fr , "Etymology of England"@de , "Anglica"@en , "Anglica"@fr , "Anglica"@de , "The land of the Angles"@en , "The land of the Angles"@fr , "The land of the Angles"@de , "England, United Kingdom"@en , "England, United Kingdom"@fr , "England, United Kingdom"@de , "Angleterre"@fr , "ENGLAND"@en , "ENGLAND"@fr , "ENGLAND"@de , "Terre des Angles"@fr , "Communications in England"@en , "Ænglaland"@en , "Communications in England"@fr , "Communications in England"@de , "Ænglaland"@fr , "Ænglaland"@de , "Ange"@fr , "Ængla land"@en , "Ængla land"@de , "Ængla land"@fr , "GB-ENG"@de , "Pow Sows"@en , "Englnad"@en , "Engla land"@en , "Pow Sows"@fr , "Pow Sows"@de , "England, UK"@en , "Aenglaland"@en , "England, UK"@fr , "Aenglaland"@de , "Aenglaland"@fr , "England, UK"@de , "Engla land"@fr , "Engla land"@de , "Englnad"@fr , "Englnad"@de , "English Nation"@en .

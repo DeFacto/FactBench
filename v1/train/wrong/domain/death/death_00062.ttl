@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Jones>
+        rdfs:label     "George Jones"@en , "George Jones"@fr , "George Jones"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Jones__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Jones> , <http://de.dbpedia.org/resource/George_Jones_(Musiker)> ;
+        skos:altLabel  "Jones"@fr , "Jones, George"@de , "Thumper Jones"@de , "George Jones"@en , "George Jones"@fr , "George Jones"@de , "No-Show Jones"@en , "No-Show Jones"@fr , "No-Show Jones"@de , "No Show Jones"@en , "No Show Jones"@de , "No Show Jones"@fr , "Jones, George"@en , "Jones, George"@fr .
+
+<http://dbpedia.org/resource/Santa_Ana,_California>
+        rdfs:label     "Santa Ana, California"@de , "Santa Ana, California"@fr , "Santa Ana, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Santa_Ana_(Californie)> , <http://de.dbpedia.org/resource/Santa_Ana_(Kalifornien)> ;
+        skos:altLabel  "Santa Ana, Orange County, CA"@de , "Santa Ana, Orange County, CA"@fr , "Santa Ana, Orange County, CA"@en , "Santa Ana"@de , "Santa Ana"@fr , "Santa Ana"@en , "Santa Ana de Los Angeles"@de , "Santa Ana de Los Angeles"@fr , "Santa Ana de Los Angeles"@en , "El Sol Science and Arts Academy"@en , "El Sol Science and Arts Academy"@fr , "El Sol Science and Arts Academy"@de , "Santa Anna, California"@de , "Santa Anna, California"@fr , "Santa Anna, California"@en , "Santa Ana, Ca"@de , "Santa Ana, Ca"@fr , "Santa Ana, Ca"@en , "Santa Ana de Los Ángeles"@en , "Santa Ana de Los Ángeles"@de , "Santa Ana de Los Ángeles"@fr , "Santa ana, ca"@en , "Santa ana, ca"@de , "Santa ana, ca"@fr , "Santa Ana, Orange County, California"@de , "Santa Ana, Orange County, California"@fr , "Santa Ana, Orange County, California"@en , "Santa ana, California"@en , "Santa ana, California"@de , "Santa ana, California"@fr , "Santa Ana, California"@en , "Santa Ana, California"@de , "Santa Ana, California"@fr , "Santa Ana, CA"@de , "Santa Ana, CA"@fr , "Santa Ana, CA"@en , "El sol science and arts academy"@de , "El sol science and arts academy"@fr , "El sol science and arts academy"@en , "LOCODE:USSNA"@de , "LOCODE:USSNA"@fr , "LOCODE:USSNA"@en .
+
+<http://dbpedia.org/resource/George_Jones__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Ana,_California> ;
+        dbo:from        "1982"^^xsd:gYear ;
+        dbo:to          "1982"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tayshaun_Prince>
+        rdfs:label     "Tayshaun Prince"@en , "Tayshaun Prince"@fr , "Tayshaun Prince"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tayshaun_Prince__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tayshaun_Prince> , <http://de.dbpedia.org/resource/Tayshaun_Prince> ;
+        skos:altLabel  "Tayshaun Prince"@en , "Tayshaun Durell Prince"@en , "Tayshaun Prince"@fr , "Tayshaun Durell Prince"@fr , "Tayshaun Prince"@de , "Tayshaun Durell Prince"@de , "Prince"@de , "Tayshaun"@en , "Tayshaun"@de , "Tayshaun"@fr , "Tayshawn Prince"@en , "Tayshawn Prince"@fr , "Tayshawn Prince"@de .
+
+<http://dbpedia.org/resource/Tayshaun_Prince__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Charlotte_Bobcats> ;
+        dbo:to    "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlotte_Bobcats>
+        rdfs:label     "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bobcats_de_Charlotte> , <http://de.dbpedia.org/resource/Charlotte_Bobcats> ;
+        skos:altLabel  "Bobcat"@de , "Bobcats de Charlotte"@fr , "Charlotte Flight"@en , "Charlotte Flight"@de , "Charlotte Flight"@fr , "Bobcats de charlotte"@fr , "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de , "Bobcats De Charlotte"@fr , "Bobcat"@en , "Bobcat"@fr .

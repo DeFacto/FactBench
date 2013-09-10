@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02h6g40>
+        rdfs:label     "Marimba"@en ;
+        skos:altLabel  "Marimba Inc"@en .
+
+<http://rdf.freebase.com/ns/m.04gnhw>
+        rdfs:label       "BMC Software"@fr , "BMC Software"@en , "BMC Software"@de ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.04gnhw__42> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/BMC_Software> , <http://fr.dbpedia.org/resource/BMC_Software> , <http://dbpedia.org/resource/BMC_Software> ;
+        skos:altLabel    "BladeLogic"@fr , "BladeLogic"@de , "BMC Software Inc"@fr , "BMC Software Inc"@de , "BMC Software, Inc."@fr , "BMC Software"@fr , "BMC Software, Inc."@de , "BMC Software"@de , "Marimba, Inc."@fr , "Marimba, Inc."@de .
+
+<http://rdf.freebase.com/ns/m.04gnhw__42>
+        dbo:from        "2004-04"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02h6g40> ;
+        dbo:to          "2004-04"^^xsd:gYearMonth .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ginger_Rogers>
+        rdfs:label     "Ginger Rogers"@en , "Ginger Rogers"@fr , "Ginger Rogers"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ginger_Rogers__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ginger_Rogers> , <http://fr.dbpedia.org/resource/Ginger_Rogers> ;
+        skos:altLabel  "Virginia Katherine McMath"@en , "Virginia Katherine McMath"@fr , "Virginia Katherine McMath"@de , "Ginger"@en , "Virginia Katherine Mcmath"@en , "Ginger"@fr , "Virginia Katherine Mcmath"@fr , "Virginia Katherine Mcmath"@de , "Ginger"@de , "Ginger Rogers"@en , "Ginger Rogers"@fr , "Ginger Rogers"@de , "Rogers"@fr .
+
+<http://dbpedia.org/resource/Ginger_Rogers__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Cairo> ;
+        dbo:from        "1970"^^xsd:gYear ;
+        dbo:to          "1970"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Cairo>
+        rdfs:label     "Cairo"@fr , "Cairo"@en , "Cairo"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Le_Caire> , <http://de.dbpedia.org/resource/Kairo> ;
+        skos:altLabel  "History of Cairo"@en , "El Qahira"@en , "El Qahira"@fr , "Capitale de l'Egypte"@fr , "Le Caire"@fr , "El Qahira"@de , "History of Cairo"@fr , "History of Cairo"@de , "Cairote"@fr , "HECA"@fr , "Cairo"@en , "Cairo"@fr , "Cairo"@de , "Al-Qahira"@en , "Al-Qahira"@fr , "Al-Qahira"@de , "Al-Qahirah"@en , "Al-Qahirah"@fr , "Al-Qahirah"@de , "El Zaher"@en , "El Zaher"@de , "El Zaher"@fr , "Qahirah"@en , "Qahirah"@fr , "Qahirah"@de , "El-Qahira"@en , "El-Qahira"@fr , "El-Qahira"@de , "Caire"@fr , "El Qâhira"@en , "El Qâhira"@de , "El Qâhira"@fr , "Abbaseya"@en , "Abbaseya"@fr , "Abbaseya"@de , "Medieval Cairo"@en , "Medieval Cairo"@fr , "Medieval Cairo"@de , "Cairo, EG"@en , "Cairo, EG"@fr , "Cairo, EG"@de , "Al Qahirah"@fr , "Al Qahirah"@de , "Al-Qāhira"@en , "Qāhirah"@en , "Al-Qāhira"@fr , "Qāhirah"@fr , "Al-Qāhira"@de , "Qāhirah"@de , "Al-Q"@en , "Al-Q"@fr , "Al-Q"@de , "Al-Kahir"@en , "Al-Kahir"@fr , "Al-Kahir"@de , "Ancient cairo"@en , "Ancient cairo"@fr , "Ancient cairo"@de , "Kairo"@de , "Abdeen"@en , "Abdeen"@fr , "Abdeen"@de , "Qahira"@en , "Qahira"@fr , "Qahira"@de , "History of cairo"@en , "History of cairo"@fr , "History of cairo"@de , "LOCODE:EGCAI"@en , "Al Qahira"@en , "Cairene"@en , "Shubra El Khiema"@en , "The weather in Cairo"@en , "LOCODE:EGCAI"@fr , "Shubra El Khiema"@fr , "Shubra El Khiema"@de , "Al Qahira"@fr , "Cairene"@fr , "LOCODE:EGCAI"@de , "The weather in Cairo"@fr , "Cairene"@de , "The weather in Cairo"@de , "Al Qahira"@de , "Al-Qāhirah"@en , "Cairo, Egypt"@en , "Al-Qāhirah"@fr , "Cairo, Egypt"@de , "Al-Qāhirah"@de , "Cairo, Egypt"@fr , "Cairo, Arab Republic of Egypt"@en , "Cairo, Arab Republic of Egypt"@fr , "Cairo, Arab Republic of Egypt"@de , "Classical cairo"@en , "Classical cairo"@fr , "Classical cairo"@de , "Cairo in the middle ages"@en , "Cairo in the middle ages"@fr , "Cairo in the middle ages"@de .

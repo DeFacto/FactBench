@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nazr_Mohammed__1>
+        dbo:from  "2004"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/San_Antonio_Spurs> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Nazr_Mohammed>
+        rdfs:label     "Nazr Mohammed"@fr , "Nazr Mohammed"@de , "Nazr Mohammed"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nazr_Mohammed__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nazr_Mohammed> , <http://de.dbpedia.org/resource/Nazr_Mohammed> ;
+        skos:altLabel  "Nazr mohamed"@fr , "Nazr mohamed"@de , "Nazr Mohammed"@de , "Nazr Mohammed"@fr , "Nazr Tahiru Mohammed"@fr , "Nazr Tahiru Mohammed"@de , "Nazr Mohammad"@fr , "Nazr Mohammad"@de .
+
+<http://dbpedia.org/resource/San_Antonio_Spurs>
+        rdfs:label     "San Antonio Spurs"@en , "San Antonio Spurs"@fr , "San Antonio Spurs"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/San_Antonio_Spurs> , <http://fr.dbpedia.org/resource/Spurs_de_San_Antonio> ;
+        skos:altLabel  "Chaparrals du Texas"@fr , "Spurs de San Antonio"@fr , "Texas Chaparrals"@fr , "Dallas Chaparrals"@fr , "Dallas Chaparrals"@de , "Texas Chapparals"@fr , "Twin Towers"@en , "Twin Towers"@fr , "Twin Towers"@de , "Spurs"@en , "Spurs"@fr , "Fort Worth Chaparrals"@fr , "Spurs"@de , "San Antonio Gunslingers"@en , "Spurs de san antonio"@fr , "San Antonio Spurs"@en , "San Antonio Gunslingers"@fr , "Chaparrals de Dallas"@fr , "San Antonio Spurs"@fr , "San Antonio Spurs"@de , "San Antonio Gunslingers"@de .

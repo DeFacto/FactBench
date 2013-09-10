@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j11784>
+        rdfs:label  "Lana Pritchard"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j11784__1> .
+
+<http://rdf.freebase.com/ns/m.068fkb>
+        rdfs:label     "Lisa Faulkner"@en , "Lisa Faulkner"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Lisa_Faulkner> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Lisa Faulkner"@en , "Lisa Tamsin Faulkner"@en .
+
+<http://rdf.freebase.com/ns/m.0j11784__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.068fkb> ;
+        dbo:to      "2012"^^xsd:gYear .

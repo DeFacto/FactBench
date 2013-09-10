@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yokohama>
+        rdfs:label     "Yokohama"@en , "Yokohama"@fr , "Yokohama"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Yokohama> , <http://de.dbpedia.org/resource/Yokohama> ;
+        skos:altLabel  "Tsurumi-ku, Kanagawa"@en , "Tsurumi-ku, Kanagawa"@fr , "Tsurumi-ku, Kanagawa"@de , "Yokohama City"@en , "Yokohama City"@fr , "Yokohama City"@de , "History of Yokohama"@en , "Jokohama"@de , "History of Yokohama"@fr , "History of Yokohama"@de , "Yokohama, Kanagawa"@en , "Yokohama, Kanagawa"@fr , "Ramen-Museum"@de , "Yokohama, Kanagawa"@de , "Yokohama"@en , "Yokohama"@fr , "Yokohama"@de , "History of Yokohama, Japan"@en , "History of Yokohama, Japan"@fr , "History of Yokohama, Japan"@de , "Yokohama, Japan"@en , "Yokohama, Japan"@fr , "Yokohama, Japan"@de , "Yokohama Bay"@en , "Yokohama Bay"@fr , "Yokohama Bay"@de .
+
+<http://dbpedia.org/resource/Stevie_Wonder__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Yokohama> ;
+        dbo:from        "1945"^^xsd:gYear ;
+        dbo:to          "1945"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Stevie_Wonder>
+        rdfs:label     "Stevie Wonder"@de , "Stevie Wonder"@fr , "Stevie Wonder"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stevie_Wonder__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Stevie_Wonder> , <http://fr.dbpedia.org/resource/Stevie_Wonder> ;
+        skos:altLabel  "Stevie Wonder"@en , "Stevie Wonder"@de , "Stevie Wonder"@fr , "Little Stevie Wonder"@en , "Little Stevie Wonder"@de , "Little Stevie Wonder"@fr , "Steveland Judkins"@en , "Steveland Judkins"@de , "Steveland Judkins"@fr , "Blame It On the Sun"@en , "Blame It On the Sun"@de , "Blame It On the Sun"@fr , "Wonder, Stevie"@de , "Wonder, Stevie"@fr , "Wonder, Stevie"@en , "Stevland Hardaway Judkins"@en , "Stevland Hardaway Judkins"@de , "Stevland Hardaway Judkins"@fr , "Stevland Hardaway Morris"@en , "Stevland Hardaway Morris"@de , "Stevland Hardaway Morris"@fr , "Stevland Judkins Morris"@en , "Stevland Judkins Morris"@de , "Stevland Judkins Morris"@fr , "Steveland Morris Judkins"@en , "Steveland Morris Judkins"@de , "Steveland Morris Judkins"@fr , "Stevie"@en , "Wonder"@en , "Stevland Morris"@en , "Stevie"@de , "Wonder"@de , "Wonder"@fr , "Stevie"@fr , "Stevland Morris"@de , "Stevland Morris"@fr , "Wonderlove"@en , "Wonderlove"@de , "Wonderlove"@fr , "Stevie wonder"@en , "Stevie wonder"@de , "Stevie wonder"@fr , "Stewie Wonder"@en , "Stewie Wonder"@de , "Stewie Wonder"@fr , "Eivets Rednow"@en , "Eivets Rednow"@de , "Eivets Rednow"@fr , "Steveland Morris"@en , "Steveland Morris"@de , "Steveland Morris"@fr , "Steveland Hardaway Judkins Morris"@de .

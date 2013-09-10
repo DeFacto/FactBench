@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Richland_Center,_Wisconsin>
+        rdfs:label     "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland Center, Wisconsin"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Richland_Center_(Wisconsin)> ;
+        skos:altLabel  "Richland Center"@en , "Richland Center"@fr , "Richland Center, WI"@en , "Richland Center, WI"@fr , "LOCODE:USRLC"@fr , "LOCODE:USRLC"@en , "Richland Center, Wi"@en , "Richland Center, Wi"@fr , "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland"@en , "Richland"@fr .
+
+<http://dbpedia.org/resource/Emmylou_Harris__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Richland_Center,_Wisconsin> ;
+        dbo:from        "1947"^^xsd:gYear ;
+        dbo:to          "1947"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Emmylou_Harris>
+        rdfs:label     "Emmylou Harris"@en , "Emmylou Harris"@fr , "Emmylou Harris"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Emmylou_Harris__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Emmylou_Harris> , <http://de.dbpedia.org/resource/Emmylou_Harris> ;
+        skos:altLabel  "Harris"@fr , "Emylou Harris"@en , "Emylou Harris"@fr , "Emylou Harris"@de , "Emmy Lou Harris"@en , "Emmy Lou Harris"@de , "Emmy Lou Harris"@fr , "Emmylou Harris"@en , "Emmylou Harris"@fr , "Emmylou Harris"@de .

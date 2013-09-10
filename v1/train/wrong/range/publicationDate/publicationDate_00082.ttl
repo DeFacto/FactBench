@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01db19__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0g6fry> ;
+        dbo:from    "1960"^^xsd:gYear ;
+        dbo:to      "1960"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01db19>
+        rdfs:label     "Walter M. Miller"@fr , "Walter M. Miller"@de , "Walter M. Miller, Jr."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01db19__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Walter_M._Miller> , <http://de.dbpedia.org/resource/Walter_M._Miller,_Jr.> , <http://dbpedia.org/resource/Walter_M._Miller,_Jr.> ;
+        skos:altLabel  "Walter M. Miller Jr."@en , "Walter M. Miller Jr."@fr , "Walter M. Miller Jr."@de , "Walter M. Miller, Jr"@en , "Walter M. Miller, Jr"@fr , "Walter M. Miller, Jr"@de , "Walter Miller, Jr."@en , "Walter Miller"@fr , "Dark Benediction"@en , "Dark Benediction"@fr , "Dark Benediction"@de , "Walter Michael Miller Jr."@en , "Walter Michael Miller Jr."@fr , "Walter Michael Miller Jr."@de , "Walter Michael Miller"@en , "Walter Michael Miller"@fr , "Walter Michael Miller"@de , "Walter Michael Miller, Jr."@en , "Walter Michael Miller, Jr."@fr , "Walter Michael Miller, Jr."@de , "Walter M. Miller"@en , "Walter M. Miller"@fr , "Walter M. Miller"@de , "Walter M. Miller, Jr."@en , "Walter M. Miller, Jr."@fr , "Walter M. Miller, Jr."@de .
+
+<http://rdf.freebase.com/ns/m.0g6fry>
+        rdfs:label     "Dragonsblood"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Dragonsblood> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Dragonsblood"@en .

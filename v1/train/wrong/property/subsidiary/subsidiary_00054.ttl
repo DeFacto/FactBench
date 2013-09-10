@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.065qzg>
+        rdfs:label  "SSA Global Technologies"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.065qzg__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/SSA_Global_Technologies> .
+
+<http://rdf.freebase.com/ns/m.065qzg__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03bngt3> ;
+        dbo:to      "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03bngt3>
+        rdfs:label  "Walker Interactive Systems"@en .

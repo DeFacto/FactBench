@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06lbp__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01vhfj> ;
+        dbo:from    "1886"^^xsd:gYear ;
+        dbo:to      "1886"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.06lbp>
+        rdfs:label     "Robert Louis Stevenson"@de , "Robert Louis Stevenson"@fr , "Robert Louis Stevenson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06lbp__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Louis_Stevenson> , <http://fr.dbpedia.org/resource/Robert_Louis_Stevenson> , <http://dbpedia.org/resource/Robert_Louis_Stevenson> ;
+        skos:altLabel  "Stevenson, Robert Louis"@en , "Robert Louis Stevenson"@en , "Robert Louis Stevenson"@de , "Robert Louis Stevenson"@fr , "Robert-Louis Stevenson"@fr , "Robert-Louis Stevenson"@en , "RL Stevenson"@de , "RL Stevenson"@fr , "RL Stevenson"@en , "Robert L. Stevenson"@de , "Robert L. Stevenson"@fr , "Robert L. Stevenson"@en , "R.L.Stevenson"@fr , "R.l. stevenson"@de , "R.l. stevenson"@fr , "R.l. stevenson"@en , "Robert Louis Balfour Stevenson"@en , "Robert Louis Balfour Stevenson"@de , "Robert Louis Balfour Stevenson"@fr , "Robert"@fr , "Robert Lewis Balfour Stevenson"@de , "Robert Lewis Balfour Stevenson"@fr , "Robert Lewis Balfour Stevenson"@en , "Stevenson"@en , "Stevenson"@de , "Stevenson"@fr , "An Apology for Idlers"@en , "An Apology for Idlers"@de , "An Apology for Idlers"@fr , "Robert Lewis Stevenson"@en , "Robert Lewis Stevenson"@de , "Robert Lewis Stevenson"@fr , "R. Stevenson"@en , "R L Stevenson"@en , "R L Stevenson"@de , "R L Stevenson"@fr , "R. L. Stevenson"@en , "R. L. Stevenson"@de , "R. L. Stevenson"@fr , "Robert Stevenson"@en , "Robert Louis Stephenson"@en , "Robert Louis Stephenson"@de , "Robert Louis Stephenson"@fr , "Robert L. Stivenson"@en , "R.L. Stevenson"@de , "R.L. Stevenson"@fr , "R.L. Stevenson"@en .
+
+<http://rdf.freebase.com/ns/m.01vhfj>
+        rdfs:label     "Nova Express"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Nova_Express> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Nova Express"@en .

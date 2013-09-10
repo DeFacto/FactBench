@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kiel>
+        rdfs:label     "Kiel"@en , "Kiel"@fr , "Kiel"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kiel> , <http://de.dbpedia.org/resource/Kiel> ;
+        skos:altLabel  "Kilonia"@en , "LOCODE:DEKEL"@fr , "LOCODE:DEKEL"@de , "Kilonia"@fr , "Kilonia"@de , "Kiel, Germany"@en , "Kiel, Germany"@de , "Kiel, Germany"@fr , "Kiel"@en , "Kiel"@fr , "Kiel"@de , "LOCODE:DEKEL"@en .
+
+<http://dbpedia.org/resource/William_Randolph_Hearst__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Kiel> ;
+        dbo:from        "1951"^^xsd:gYear ;
+        dbo:to          "1951"^^xsd:gYear .
+
+<http://dbpedia.org/resource/William_Randolph_Hearst>
+        rdfs:label     "William Randolph Hearst"@fr , "William Randolph Hearst"@en , "William Randolph Hearst"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_Randolph_Hearst__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/William_Randolph_Hearst> , <http://fr.dbpedia.org/resource/William_Randolph_Hearst> ;
+        skos:altLabel  "William R. Hearst"@en , "William Randoph Hearst"@de , "William Randoph Hearst"@fr , "William Randoph Hearst"@en , "William R. Hearst"@de , "William R. Hearst"@fr , "William Randolph Hearst, Sr."@de , "William Randolph Hearst, Sr."@fr , "William Randolph Hearst, Sr."@en , "William Randolf Hearst"@de , "William Randolf Hearst"@fr , "William Randolf Hearst"@en , "Bill Hearst"@de , "Bill Hearst"@fr , "Bill Hearst"@en , "William Randolph Hearst"@en , "William Randolph Hearst"@de , "William Randolph Hearst"@fr , "William Randolph Hear$t"@de , "William Randolph Hear$t"@fr , "William Randolph Hear$t"@en , "Hearst"@en , "Hearst"@de , "Hearst"@fr , "William Randolph Hearst I"@en , "William Randolph Hearst I"@de , "William Randolph Hearst I"@fr , "W. R. Hearst"@de , "W. R. Hearst"@fr , "W. R. Hearst"@en , "Randolph Hearst"@de , "Randolph Hearst"@fr , "Randolph Hearst"@en , "Beverly House"@en , "Beverly House"@de , "Beverly House"@fr , "William Randolph Herst"@de , "William Randolph Herst"@fr , "William Randolph Herst"@en , "William Randolph Hurst"@en , "William Randolph Hurst"@de , "William Randolph Hurst"@fr .

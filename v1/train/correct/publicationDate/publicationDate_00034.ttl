@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05d0hs__34>
+        dbo:author  <http://rdf.freebase.com/ns/m.05d0hs> ;
+        dbo:from    "1972"^^xsd:gYear ;
+        dbo:to      "1972"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05d0hs>
+        rdfs:label     "Again, Dangerous Visions"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Again,_Dangerous_Visions> ;
+        skos:altLabel  "Again Dangerous Visions"@en , "Again, Dangerous Visions"@en .
+
+<http://rdf.freebase.com/ns/m.03hpr>
+        rdfs:label       "Harlan Ellison"@en , "Harlan Ellison"@de , "Harlan Ellison"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.05d0hs__34> ;
+        owl:sameAs       <http://dbpedia.org/resource/Harlan_Ellison> , <http://de.dbpedia.org/resource/Harlan_Ellison> , <http://fr.dbpedia.org/resource/Harlan_Ellison> ;
+        skos:altLabel    "Harlan"@fr , "Cordwainer Bird"@fr , "Harlan Ellison ®"@fr , "Harlan"@de , "Cordwainer Bird"@de , "Cordwainer Bird"@en , "Harlan"@en , "Harlan Ellison ®"@de , "Harlan Ellison ®"@en , "Ellison"@fr , "Ellison"@de , "Ellison"@en , "Harlan Jay Ellison"@fr , "Harlan Jay Ellison"@de , "Harlan Jay Ellison"@en , "Harlan Ellison"@fr , "Harlan Ellison"@de , "Harlan Ellison"@en , "Harlan J. Ellison"@fr , "Harlan J. Ellison"@de , "Harlan J. Ellison"@en , "Harold Ellison"@fr , "Harold Ellison"@de , "Harold Ellison"@en , "Cord Wainer Bird"@en , "Sley Harson"@en , "Harlan ellison"@fr , "Nalrah Nosille"@en , "Harlan ellison"@de , "Harlan ellison"@en , "Paul Merchant"@en .

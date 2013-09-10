@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Frank_Lloyd_Wright>
+        rdfs:label     "Frank Lloyd Wright"@fr , "Frank Lloyd Wright"@en , "Frank Lloyd Wright"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Frank_Lloyd_Wright__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frank_Lloyd_Wright> , <http://fr.dbpedia.org/resource/Frank_Lloyd_Wright> ;
+        skos:altLabel  "Wright, Frank Lloyd"@de , "Wright, Frank Lloyd"@fr , "Wright, Frank Lloyd"@en , "Frank lyold wright"@de , "Frank lyold wright"@fr , "Frank lyold wright"@en , "Lloyd Wright"@fr , "Taliesin West"@fr , "Usonien"@de , "Wright"@de , "Wright"@fr , "Wright"@en , "Frank lloyd wright"@de , "Frank lloyd wright"@fr , "Frank lloyd wright"@en , "Franklin Lloyd wright"@en , "Franklin Lloyd wright"@de , "Franklin Lloyd wright"@fr , "Frank Lloyd"@de , "Frank Lloyd"@fr , "Frank Lloyd"@en , "F.L. Wright"@de , "F.L. Wright"@fr , "F.L. Wright"@en , "Frank L. Wright"@en , "Frank L. Wright"@de , "Frank L. Wright"@fr , "Lloyd"@fr , "Franck Lloyd Wright"@fr , "Frank Lloyd Wright"@en , "Frank Lloyd Wright"@de , "Frank Lloyd Wright"@fr , "Wright,Frank Lloyd"@en , "Wright,Frank Lloyd"@de , "Wright,Frank Lloyd"@fr , "FL Wright"@de , "FL Wright"@fr , "FL Wright"@en , "F. L. Wright"@en , "F. L. Wright"@de , "F. L. Wright"@fr .
+
+<http://dbpedia.org/resource/Frank_Lloyd_Wright__1>
+        dbo:from    "1942"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Hoboken,_New_Jersey> ;
+        dbo:to      "1942"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hoboken,_New_Jersey>
+        rdfs:label     "Hoboken, New Jersey"@en , "Hoboken, New Jersey"@fr , "Hoboken, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hoboken_(New_Jersey)> , <http://fr.dbpedia.org/resource/Hoboken_(New_Jersey)> ;
+        skos:altLabel  "Hoboken City, Hudson County, New Jersey"@en , "Hoboken City, Hudson County, New Jersey"@fr , "Hoboken City, Hudson County, New Jersey"@de , "Hoboken NJ"@en , "Hoboken NJ"@fr , "Hoboken NJ"@de , "LOCODE:USHBK"@en , "Hoboken, NJ"@en , "LOCODE:USHBK"@fr , "LOCODE:USHBK"@de , "Hoboken, nj"@en , "Hoboken, NJ"@fr , "Hoboken, nj"@fr , "Hoboken, NJ"@de , "Hoboken, nj"@de , "Hoboken, N.J."@en , "Hoboken, N.J."@fr , "Hoboken, N.J."@de , "Hoboken Township, Hudson County, New Jersey"@en , "Hoboken Township, Hudson County, New Jersey"@fr , "Hoboken Township, Hudson County, New Jersey"@de , "Hoboken"@en , "Hoboken"@fr , "Hoboken"@de , "Hoboken Township, New Jersey"@en , "Hoboken Township, New Jersey"@fr , "Hoboken Township, New Jersey"@de , "Hoboken, New Jersey"@en , "Hoboken, New Jersey"@fr , "Hoboken, New Jersey"@de , "Hoboken City, New Jersey"@en , "Hoboken City, New Jersey"@fr , "Hoboken City, New Jersey"@de .

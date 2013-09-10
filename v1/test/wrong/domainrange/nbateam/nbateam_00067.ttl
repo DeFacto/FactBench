@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Lucas_III>
+        rdfs:label     "John Lucas III"@en , "John Lucas III"@fr , "John Lucas III"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Lucas_III__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Lucas_III> ;
+        skos:altLabel  "John Lucas"@fr , "John Lucas"@en , "John Harding Lucas III"@en , "John Lucas III"@fr , "John Lucas III"@en , "John Harding Lucas III"@fr .
+
+<http://dbpedia.org/resource/John_Lucas_III__1>
+        dbo:from  "2011"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/New_York_Knicks> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/New_York_Knicks>
+        rdfs:label     "New York Knicks"@en , "New York Knicks"@fr , "New York Knicks"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/New_York_Knicks> , <http://fr.dbpedia.org/resource/Knicks_de_New_York> ;
+        skos:altLabel  "Knicks de New York"@fr , "NY Knicks"@en , "NY Knicks"@fr , "NY Knicks"@de , "Nicks"@en , "The knicks"@en , "Nicks"@fr , "The knicks"@fr , "The knicks"@de , "Nicks"@de , "New York Knickerbockers"@en , "New York Knickerbockers"@fr , "New York Knickerbockers"@de , "Knicks"@en , "Knicks"@fr , "Knicks"@de , "New York Knicks City Dancers"@en , "New York Knicks City Dancers"@fr , "New York Knicks City Dancers"@de , "New York Knicks"@en , "New York Knicks City Kids"@en , "The Nicks"@en , "Knicks de new york"@fr , "The Nicks"@fr , "The Nicks"@de , "New York Knicks City Kids"@fr , "New York Knicks City Kids"@de , "Knicks De New York"@fr , "New York Knicks"@fr , "New York Knicks"@de , "NY knickerbockers"@en , "NY knickerbockers"@fr , "NY knickerbockers"@de .

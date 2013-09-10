@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_9r_>
+        rdfs:label       "Michael F. Flynn"@en , "Michael F. Flynn"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02xx5l__126> ;
+        owl:sameAs       <http://dbpedia.org/resource/Michael_F._Flynn> , <http://fr.dbpedia.org/resource/Michael_F._Flynn> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel    "The Wreck of The River of Stars"@fr , "Michael F. Flynn"@fr , "Mike Flynn"@en , "Michael Flynn"@fr , "Michael Francis Flynn"@en , "Flynn"@fr .
+
+<http://rdf.freebase.com/ns/m.02xx5l__126>
+        dbo:author  <http://rdf.freebase.com/ns/m.02xx5l> ;
+        dbo:from    "1991"^^xsd:gYear ;
+        dbo:to      "1991"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02xx5l>
+        rdfs:label     "Fallen Angels"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Fallen_Angels_(science_fiction_novel)> ;
+        skos:altLabel  "Fallen Angels"@en , "Fallen angel"@en .

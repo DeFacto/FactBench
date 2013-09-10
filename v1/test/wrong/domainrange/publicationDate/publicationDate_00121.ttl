@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03jht>
+        rdfs:label     "Hermann Hesse"@de , "Hermann Hesse"@fr , "Hermann Hesse"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03jht__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hermann_Hesse> , <http://dbpedia.org/resource/Hermann_Hesse> , <http://de.dbpedia.org/resource/Hermann_Hesse> ;
+        skos:altLabel  "Hermann Hesse"@en , "Hermann Hesse"@de , "Hermann Hesse"@fr , "Hermann Karl Hesse"@de , "Herman Hesse"@de , "Herman Hesse"@fr , "Herman Hesse"@en , "Hermann Hess"@de , "Hermann Hess"@fr , "Hermann Hess"@en , "Hermman Hesse"@fr , "Hermman Hesse"@en , "Hermman Hesse"@de , "hermann_hesse"@en , "Hesse"@de , "Hesse"@fr , "Hesse"@en , "Hesse, Hermann"@de , "Hesse, Hermann"@fr , "Hesse, Hermann"@en , "Hermann hesse"@fr , "Herman Hess"@en , "Herman Hess"@de , "Herman Hess"@fr , "Hermann"@de , "Hermann"@fr , "Hermann"@en , "Emil Sinclair"@de , "Emil Sinclair"@fr , "Emil Sinclair"@en , "Maria Bernoulli"@de , "Maria Bernoulli"@fr , "Maria Bernoulli"@en .
+
+<http://rdf.freebase.com/ns/m.03jht__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02zlm> ;
+        dbo:from    "1979"^^xsd:gYear ;
+        dbo:to      "1979"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02zlm>
+        rdfs:label     "Frankenstein ou le Prométhée moderne"@fr , "Frankenstein"@de , "Frankenstein"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frankenstein_(Roman)> , <http://fr.dbpedia.org/resource/Frankenstein_ou_le_Prométhée_moderne> , <http://dbpedia.org/resource/Frankenstein> ;
+        skos:altLabel  "Frankenstein"@en , "Frankenstein"@de , "Frankenstein"@fr , "Frankenstein: The Modern Prometheus"@en , "Frankenstein: The Modern Prometheus"@de , "Frankenstein: The Modern Prometheus"@fr , "Frankenstein, or the Modern Prometheus"@en , "Frankenstein, or the Modern Prometheus"@fr , "Frankenstein, or the Modern Prometheus"@de , "Frankestein"@en , "Frankestein"@de , "Frankestein"@fr , "Prométhée"@fr , "Frankenstein; or, The Modern Prometheus"@en , "The Essential Frankenstein"@en , "Frankenstein; or, The Modern Prometheus"@de , "Frankenstein; or, The Modern Prometheus"@fr , "Frankenstein; or, the Modern Prometheus"@en , "Frankenstein; or, the Modern Prometheus"@de , "Frankenstein; or, the Modern Prometheus"@fr , "Frankenstien"@en , "Frankenstien"@de , "Frankenstien"@fr , "Henry Clerval"@en , "Frankenstein Ou Le Promethee Moderne"@fr , "Henry Clerval"@de , "Henry Clerval"@fr , "Doctor Frankenstein"@en , "Doctor Frankenstein"@de , "Doctor Frankenstein"@fr , "Frankenstein oder Der moderne Prometheus"@de , "Robert Walton"@en , "Robert Walton"@de , "Robert Walton"@fr , "Frankenstein ou le Prométhé moderne"@fr , "Modern Prometheus"@en , "Modern Prometheus"@de , "Modern Prometheus"@fr , "Frankenstein Ou Le Prométhée Moderne"@fr , "Frankenstein ou le Prométhée moderne"@fr , "The Modern Prometheus"@en , "The Modern Prometheus"@de , "The Modern Prometheus"@fr , "Frankenstein; or, The Modern Prometheu"@en , "Frankenstein; or, The Modern Prometheu"@de , "Frankenstein; or, The Modern Prometheu"@fr , "Promethee"@fr , "Frankenstein ou le Promethee moderne"@fr , "Shelley's Frankenstein"@en , "Frankinsteine"@en , "Frankenstein ou le prométhée moderne"@fr , "Frankinsteine"@de , "Frankinsteine"@fr , "Frankenstein ou le Promethe moderne"@fr , "Frankenstein ou le promethee moderne"@fr , "Frankenstein or The Modern Prometheus"@de .

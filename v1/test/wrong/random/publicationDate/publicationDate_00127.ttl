@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0md8t>
+        rdfs:label  "The Road to Mars"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Road_to_Mars> .
+
+<http://rdf.freebase.com/ns/m.0l4st>
+        rdfs:label     "Heinrich Böll"@en , "Heinrich Böll"@fr , "Heinrich Böll"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0l4st__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Heinrich_B%C3%B6ll> ;
+        skos:altLabel  "Heinrich Boll"@en , "Heinrich Theodor Böll"@en .
+
+<http://rdf.freebase.com/ns/m.0l4st__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0md8t> ;
+        dbo:from        "1995"^^xsd:gYear ;
+        dbo:to          "1995"^^xsd:gYear .

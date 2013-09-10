@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05st6>
+        rdfs:label     "Do Androids Dream of Electric Sheep?"@en , "Les androïdes rêvent-ils de moutons électriques ?"@fr , "Träumen Androiden von elektrischen Schafen?"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Do_Androids_Dream_of_Electric_Sheep%3F> , <http://fr.dbpedia.org/resource/Les_androïdes_rêvent-ils_de_moutons_électriques_%3F> , <http://de.dbpedia.org/resource/Träumen_Androiden_von_elektrischen_Schafen%3F> ;
+        skos:altLabel  "Les androides revent-ils de moutons electriques ?"@fr , "Traumen Androiden von elektrischen Schafen?"@de , "Do Androids Dream of Electric Sheep?"@fr , "Do Androids Dream of Electric Sheep?"@de , "Do Androids Dream of Electric Sheep?"@en , "Les androïdes rêvent-ils de moutons électriques ?"@fr , "Blade Runner"@en , "Träumen Androiden von elektrischen Schafen?"@de .
+
+<http://rdf.freebase.com/ns/m.049gc__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05st6> ;
+        dbo:from    "1968"^^xsd:gYear ;
+        dbo:to      "1968"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.049gc>
+        rdfs:label     "Kurt Vonnegut"@de , "Kurt Vonnegut"@fr , "Kurt Vonnegut"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.049gc__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kurt_Vonnegut> , <http://de.dbpedia.org/resource/Kurt_Vonnegut> , <http://dbpedia.org/resource/Kurt_Vonnegut> ;
+        skos:altLabel  "Kurt Vonegut"@en , "Kurt Vonegut"@de , "Kurt Vonegut"@fr , "Kurt Vonnegutt"@en , "Kurt Vonnegut, Jr"@en , "Kurt Vonnegut"@en , "Kurt Vonnegut"@de , "Kurt Vonnegutt"@de , "Kurt Vonnegutt"@fr , "Kurt Vonnegut, Jr"@de , "Kurt Vonnegut, Jr"@fr , "Kurt Vonnegut"@fr , "Vonnegutian"@en , "Vonnegutian"@de , "Vonnegutian"@fr , "Kurt Vonneguet"@en , "Kurt Vonneguet"@de , "Kurt Vonneguet"@fr , "Diana moon-glampers"@en , "Diana moon-glampers"@de , "Diana moon-glampers"@fr , "Kurt Vonnegut Jr"@en , "Kurt Vonnegut Jr"@de , "Kurt Vonnegut Jr"@fr , "Kurt"@en , "Kurt"@fr , "Kurt"@de , "Kurt Vonagut"@en , "Kurt Vonagut"@de , "Kurt Vonagut"@fr , "Kurt vonnegutt"@en , "Kurt vonnegutt"@de , "Kurt vonnegutt"@fr , "Diana Moon-Glampers"@en , "Diana Moon-Glampers"@de , "Diana Moon-Glampers"@fr , "Kirk Vonagut"@en , "Kirk Vonagut"@de , "Kirk Vonagut"@fr , "Kilgore Trout"@en , "Kurt Vonnegut Jr."@en , "Kurt Vonnegut Jr."@fr , "Kurt Vonnegut Jr."@de , "Diana Moon Glampers"@en , "Diana Moon Glampers"@de , "Diana Moon Glampers"@fr , "Kurt Vonnegut, Jr."@en , "Kurt Vonnegut, Jr."@de , "Kurt Vonnegut, Jr."@fr , "Vonnegut"@en , "Vonnegut"@de , "Vonnegut"@fr , "Kurt Vonnegut Junior"@fr , "Vonnegut hero"@en , "Kurt Vonegut, Jr."@en , "Vonnegut hero"@de , "Vonnegut hero"@fr , "Kurt Vonegut, Jr."@de , "Kurt Vonegut, Jr."@fr .

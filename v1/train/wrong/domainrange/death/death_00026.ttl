@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Naples,_Florida>
+        rdfs:label     "Naples, Florida"@en , "Naples, Florida"@fr , "Naples, Florida"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Naples_(Floride)> , <http://de.dbpedia.org/resource/Naples_(Florida)> ;
+        skos:altLabel  "Aeroport municipal de Naples"@fr , "Naples, Fl"@en , "Paradise coast"@en , "LOCODE:USAPF"@en , "Naples, Fl"@fr , "Paradise coast"@fr , "Naples, Fl"@de , "Paradise coast"@de , "LOCODE:USAPF"@fr , "LOCODE:USAPF"@de , "Naples"@en , "Naples"@fr , "Naples"@de , "Naples, Florida"@en , "Naples, Florida"@fr , "Aéroport municipal de Naples"@fr , "Naples, Florida"@de , "Paradise Coast"@en , "Naples florida"@en , "Naples Municipal Airport"@fr , "Paradise Coast"@fr , "Naples florida"@fr , "Paradise Coast"@de , "Naples florida"@de , "Naples, fl"@en , "Naples, FL"@en , "Naples, fl"@fr , "Naples, FL"@fr , "Naples, fl"@de , "Naples, FL"@de .
+
+<http://dbpedia.org/resource/John_Lee_Hooker__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Naples,_Florida> ;
+        dbo:from        "1901"^^xsd:gYear ;
+        dbo:to          "1901"^^xsd:gYear .
+
+<http://dbpedia.org/resource/John_Lee_Hooker>
+        rdfs:label     "John Lee Hooker"@en , "John Lee Hooker"@fr , "John Lee Hooker"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Lee_Hooker__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Lee_Hooker> , <http://fr.dbpedia.org/resource/John_Lee_Hooker> ;
+        skos:altLabel  "1 Bourbon, 1 Scotch, 1 beer"@fr , "1 Bourbon, 1 Scotch, 1 beer"@de , "John lee hooker"@en , "John lee hooker"@fr , "John lee hooker"@de , "Hooker"@en , "Hooker"@fr , "Hooker"@de , "At Newport"@en , "At Newport"@fr , "At Newport"@de , "Lee Hooker"@en , "Hooker, John Lee"@en , "J. L. Hooker"@fr , "Lee Hooker"@fr , "Hooker, John Lee"@fr , "Hooker, John Lee"@de , "Lee Hooker"@de , "Johnny Lee Hooker"@en , "Live at Newport"@en , "Johnny Lee Hooker"@fr , "Johnny Lee Hooker"@de , "Live at Newport"@fr , "Live at Newport"@de , "John Lee Hooker"@en , "John Lee Hooker"@fr , "John Lee Hooker"@de , "1 Bourbon, 1 Scotch, 1 beer"@en .

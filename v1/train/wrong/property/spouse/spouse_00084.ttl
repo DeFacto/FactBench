@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026nv0c__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.043mfw6> ;
+        dbo:from   "2009"^^xsd:gYear ;
+        dbo:to     "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.043mfw6>
+        rdfs:label     "Sthefany Brito"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Sthefany_Brito> ;
+        skos:altLabel  "Sthephany de Brito"@en , "Sthefany de Brito"@en , "Sthefany brito"@en , "Stephany Brito"@en , "Sthefany Brito"@en , "Sthefany Fernandes de Brito"@en .
+
+<http://rdf.freebase.com/ns/m.026nv0c>
+        rdfs:label     "Alexandre Pato"@en , "Alexandre Pato"@de , "Alexandre Rodrigues da Silva"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.026nv0c__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alexandre_Rodrigues_da_Silva> , <http://dbpedia.org/resource/Alexandre_Pato> , <http://de.dbpedia.org/resource/Alexandre_Pato> ;
+        skos:altLabel  "Rodrigues"@fr , "Alexandre Rodrigues da Silva"@en , "Alexandre Rodrigues da Silva"@fr , "Alexandre Rodrigues da Silva"@de , "Alexander Pato"@en , "Alexander Pato"@fr , "Alexander Pato"@de , "Pa7o"@en , "The Duck"@en , "Alex Pato"@en , "Pato Maravilha"@en , "Alexandre Pato"@en , "Alex Pato"@fr , "Alex Pato"@de , "Alexandre Pato"@fr , "Alexandre Pato"@de , "Silva"@en , "Silva"@fr , "Silva"@de , "Pato"@en , "Pato"@fr , "Pato"@de .

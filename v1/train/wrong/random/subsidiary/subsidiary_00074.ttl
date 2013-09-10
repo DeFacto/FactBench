@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.023bvv__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Springfield,_Missouri> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Springfield,_Missouri>
+        rdfs:label     "Springfield, Missouri"@en , "Springfield, Missouri"@fr , "Springfield, Missouri"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Springfield_(Missouri)> , <http://fr.dbpedia.org/resource/Springfield_(Missouri)> ;
+        skos:altLabel  "Springfield, Missouri"@de , "Springfield, MO"@en , "Springfield, MO"@fr , "Springfield, MO"@de , "LOCODE:USSGF"@en , "Springfield missouri"@en , "Springfield missouri"@fr , "Springfield missouri"@de , "LOCODE:USSGF"@fr , "LOCODE:USSGF"@de , "Springfield"@en , "Springfield"@fr , "Springfield"@de , "The Summit Preparatory School"@en , "Springfield, Mo."@en , "The Summit Preparatory School"@fr , "Springfield, Mo."@fr , "Springfield, Mo."@de , "The Summit Preparatory School"@de , "Springfield, Missouri"@en , "Springfield Mo"@en , "Springfield, Missouri"@fr , "Springfield Mo"@fr , "Springfield Mo"@de .
+
+<http://rdf.freebase.com/ns/m.023bvv>
+        rdfs:label     "Max von Laue"@en , "Max von Laue"@fr , "Max von Laue"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.023bvv__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Max_von_Laue> , <http://fr.dbpedia.org/resource/Max_von_Laue> , <http://dbpedia.org/resource/Max_von_Laue> ;
+        skos:altLabel  "Von Laue"@fr , "Von Laue"@de , "Max Von Laue"@de , "Max Theodor Laue"@fr , "Max Theodor Laue"@de , "Max Laue"@en , "Max Laue"@fr , "Max Laue"@de , "Max von laue"@fr , "Max von Laue"@en , "Max von Laue"@fr , "Max von Laue"@de , "Laue"@en , "Max Felix Theodor von Laue"@de , "Laue"@fr , "Laue"@de , "Max Von Laue"@en , "Max Theodor Felix von Laue"@en , "Max Theodor Felix von Laue"@fr , "Max Theodor Felix von Laue"@de , "Max Theodor Laue"@en , "Von Laue"@en , "Max Von Laue"@fr .

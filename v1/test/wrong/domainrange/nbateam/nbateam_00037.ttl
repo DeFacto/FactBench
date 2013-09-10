@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Derek_Fisher>
+        rdfs:label     "Derek Fisher"@en , "Derek Fisher"@fr , "Derek Fisher"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Derek_Fisher__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Derek_Fisher> , <http://de.dbpedia.org/resource/Derek_Fisher> ;
+        skos:altLabel  "D-Fish"@en , "D-Fish"@fr , "D-Fish"@de , "DFISH"@en , "Point 4"@en , "Point 4"@fr , "Point 4"@de , "DFISH"@fr , "DFISH"@de , "Derrick Fisher"@en , "Derrick Fisher"@fr , "Derrick Fisher"@de , "Derek Fisher"@en , "Derek Fisher"@fr , "Derek Fisher"@de , "The Fish That Saved LA"@en , "The Fish That Saved LA"@fr , "The Fish That Saved LA"@de .
+
+<http://dbpedia.org/resource/Orlando_Magic>
+        rdfs:label     "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Magic_d'Orlando> , <http://de.dbpedia.org/resource/Orlando_Magic> ;
+        skos:altLabel  "Magic, Orlando"@en , "Magic, Orlando"@fr , "Magic, Orlando"@de , "Magic d'Orlando"@fr , "Orlando"@fr , "Magic"@en , "Magic"@fr , "Magic"@de , "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de .
+
+<http://dbpedia.org/resource/Derek_Fisher__1>
+        dbo:from  "2001"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Orlando_Magic> ;
+        dbo:to    "2004"^^xsd:gYear .

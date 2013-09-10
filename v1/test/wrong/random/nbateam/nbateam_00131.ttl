@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.082y5>
+        rdfs:label     "Władysław Stanisław Reymont"@en , "Władysław Reymont"@fr , "Władysław Reymont"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.082y5__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/W%C5%82adys%C5%82aw_Reymont> ;
+        skos:altLabel  "Stanisław Władysław Rejment"@en , "Władysław Reymont"@en .
+
+<http://rdf.freebase.com/ns/m.04c1dp>
+        rdfs:label  "Jill Halfpenny"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jill_Halfpenny> .
+
+<http://rdf.freebase.com/ns/m.082y5__1>
+        dbo:from  "2012"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.04c1dp> ;
+        dbo:to    "2012"^^xsd:gYear .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0794g>
+        rdfs:label     "Sandra Bullock"@en , "Sandra Bullock"@fr , "Sandra Bullock"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sandra_Bullock> , <http://fr.dbpedia.org/resource/Sandra_Bullock> , <http://dbpedia.org/resource/Sandra_Bullock> ;
+        skos:altLabel  "Sandy"@en , "Sandra bulock"@en , "Sandra bulock"@fr , "Sandra bulock"@de , "Sandra Bullock"@en , "Sandy Bullock"@en , "The Girl Next Door"@en , "Sandra Bullock"@fr , "Sandy Bullock"@fr , "Sandy Bullock"@de , "Sandra Bullock"@de , "America's Sweetheart"@en , "Bullock"@en , "Bullock"@fr , "Bullock"@de , "Fortis Films"@en , "Fortis Films"@fr , "Fortis Films"@de , "Sandra Annette Bullock"@en , "Sandra Annette Bullock"@de , "Sandra Annette Bullock"@fr .
+
+<http://rdf.freebase.com/ns/m.0j1vvq7__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0794g> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0j1vvq7>
+        rdfs:label  "Melanie Leis"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j1vvq7__1> .

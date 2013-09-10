@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Sacramento_Kings>
+        rdfs:label     "Sacramento Kings"@en , "Sacramento Kings"@fr , "Sacramento Kings"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kings_de_Sacramento> , <http://de.dbpedia.org/resource/Sacramento_Kings> ;
+        skos:altLabel  "Kansas City Kings"@fr , "Kansas City Kings"@de , "Sacramento Kings roster"@en , "Royals de Cincinnati"@fr , "Kings de Kansas City"@fr , "Sacramento Kings roster"@fr , "Sacramento Kings roster"@de , "Kings de Sacramento"@fr , "Sacramento Kings"@en , "Sacramento Kings"@fr , "Sacramento Kings"@de , "Kansas City-Omaha Kings"@en , "Kansas City-Omaha Kings"@fr , "Kansas City-Omaha Kings"@de , "Kings"@en , "Kings"@fr , "Rochester Royals"@fr , "Rochester Royals"@de , "Kings"@de , "Cincinatti Royals"@fr , "Kings De Sacramento"@fr , "Anaheim kings"@en , "Anaheim kings"@fr , "Anaheim kings"@de , "Cincinnati Royals"@fr , "Cincinnati Royals"@de , "Royals de Rochester"@fr , "Sacramento"@fr , "Sacramento"@de , "Kings de sacramento"@fr , "Kansas City Kings"@en .
+
+<http://dbpedia.org/resource/Kwame_Brown>
+        rdfs:label     "Kwame Brown"@en , "Kwame Brown"@fr , "Kwame Brown"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kwame_Brown__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kwame_Brown> , <http://fr.dbpedia.org/resource/Kwame_Brown> ;
+        skos:altLabel  "Kwame James Brown"@de , "Brown"@fr , "Kwame Brown"@fr , "Kwame Brown"@de , "Kwame"@fr , "Kwame"@de .
+
+<http://dbpedia.org/resource/Kwame_Brown__1>
+        dbo:from  "2005"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Sacramento_Kings> ;
+        dbo:to    "2007"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0198q7>
+        rdfs:label     "Kim Newman"@en , "Kim Newman"@fr , "Kim Newman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0198q7__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kim_Newman> , <http://dbpedia.org/resource/Kim_Newman> , <http://de.dbpedia.org/resource/Kim_Newman> ;
+        skos:altLabel  "Kim Newman"@en , "Kim Newman"@de , "Kim Newman"@fr , "Newman"@en , "Newman"@fr , "Newman"@de , "Kim James Newman"@en , "Jack Yeovil"@en , "Jack Yeovil"@de , "Jack Yeovil"@fr , "Newman, Kim"@en .
+
+<http://rdf.freebase.com/ns/m.0dr0_b>
+        rdfs:label  "Back in the USSA"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Back_in_the_USSA> .
+
+<http://rdf.freebase.com/ns/m.0198q7__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0dr0_b> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .

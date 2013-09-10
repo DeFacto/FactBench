@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Unquillo>
+        rdfs:label     "Unquillo"@en , "Unquillo"@fr , "Unquillo"@de ;
+        skos:altLabel  "Unquillo"@en .
+
+<http://rdf.freebase.com/ns/m.0m3hd>
+        rdfs:label     "Hendrik Lorentz"@en , "Hendrik Antoon Lorentz"@de , "Hendrik Antoon Lorentz"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0m3hd__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hendrik_Antoon_Lorentz> , <http://de.dbpedia.org/resource/Hendrik_Antoon_Lorentz> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/H._A._Lorentz> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Hendrik_Lorentz> ;
+        skos:altLabel  "H. Lorentz"@de , "H. Lorentz"@fr , "H. Lorentz"@en , "HA Lorentz"@en , "Lorentz, Hendrik Antoon"@de , "Lorentz, Hendrik Antoon"@fr , "Lorentz, Hendrik Antoon"@en , "Hendrick Lorentz"@de , "Hendrick Lorentz"@fr , "Hendrick Lorentz"@en , "H. A. Lorentz"@en , "H A Lorentz"@en , "H.A. Lorentz"@en , "Hendrik A. Lorentz"@de , "Hendrik A. Lorentz"@fr , "Hendrik A. Lorentz"@en , "Lorentz"@de , "Lorentz"@fr , "Lorentz"@en , "Hendrik Antoon Lorentz"@de , "Hendrik Antoon Lorentz"@fr , "Hendrik Antoon Lorentz"@en , "Hendrik Lorentz"@de , "Hendrik Lorentz"@fr , "Hendrik Lorentz"@en , "Antoon Lorentz"@fr , "Hendrick Antoon Lorentz"@de , "Hendrick Antoon Lorentz"@fr , "Hendrick Antoon Lorentz"@en , "Henry Lorentz"@de , "Henry Lorentz"@fr , "Henry Lorentz"@en .
+
+<http://rdf.freebase.com/ns/m.0m3hd__1>
+        dbo:author  <http://dbpedia.org/resource/Unquillo> ;
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:to      "2008"^^xsd:gYear .

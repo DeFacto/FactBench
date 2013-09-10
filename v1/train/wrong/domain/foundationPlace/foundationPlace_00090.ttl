@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05b5c__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0c1d0> ;
+        dbo:from             "1978"^^xsd:gYear ;
+        dbo:to               "1978"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05b5c>
+        rdfs:label     "Nokia"@de , "Nokia"@fr , "Nokia"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05b5c__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Nokia> , <http://de.dbpedia.org/resource/Nokia> , <http://fr.dbpedia.org/resource/Nokia> ;
+        skos:altLabel  "Mobira"@en , "Mobira"@fr , "Mobira"@de , "Nokia World 2011"@en , "Nokia World 2011"@fr , "Nokia World 2011"@de , "Nokia corporation"@en , "Nokia Music"@en , "Nokia corporation"@fr , "Nokia Music"@fr , "Nokia Music"@de , "Nokia corporation"@de , "Nokia, Inc."@en , "Nokia Messaging"@en , "Nokia, Inc."@fr , "Nokia Messaging"@fr , "Nokia Messaging"@de , "Nokia, Inc."@de , "Nokia Corporation"@en , "Nokia Corporation"@fr , "Nokia Corporation"@de , "\"Comes With Music\""@en , "\"Comes With Music\""@fr , "\"Comes With Music\""@de , "Fredrik Idestam"@de , "Comes With Music"@en , "Comes With Music"@fr , "Comes With Music"@de , "Nokia Komárom"@de , "Nokia phone"@en , "Nokia phone"@fr , "Nokia phone"@de , "Nokia Oy"@en , "Nokia Oy"@de , "Nokia Oy"@fr , "Mobira Talkman"@en , "Mobira Talkman"@fr , "Mobira Talkman"@de , "Nokia"@en , "Mobira Cityman"@en , "Mobira Cityman"@fr , "Mobira Cityman"@de , "Nokia Aero"@en , "Nokia"@fr , "Nokia"@de , "Nokia Corp."@en , "Nokia Corp."@de , "Nokia Corp."@fr , "Nokia Aero"@fr , "Nokia Aero"@de , "Nokrosoft"@en , "Mobira Senator"@en , "Nokrosoft"@fr , "Mobira Senator"@fr , "Nokrosoft"@de , "Mobira Senator"@de , "The Nokia Corporation"@en , "The Nokia Corporation"@fr , "The Nokia Corporation"@de , "Nokia E9400"@en , "Nokialand"@en , "Nokialand"@fr , "Nokia Komarom"@de , "Nokialand"@de , "Nokia Oyj"@en , "Nokia E9400"@fr , "Nokia Oyj"@de , "Nokia E9400"@de , "Nokia Oyj"@fr , "Aero"@en , "Aero"@fr , "Aero"@de , "NokiaLaptop"@en , "Network Alchemy"@en , "NOKIA"@en , "NokiaLaptop"@fr , "Network Alchemy"@fr , "Network Alchemy"@de , "NOKIA"@de , "NOKIA"@fr , "NokiaLaptop"@de , "Nokia Comes With Music"@en , "Nokia Comes With Music"@de , "Nokia Comes With Music"@fr , "Nokia Research Center"@en , "Nokia Research Center"@fr , "Nokia Research Center"@de .
+
+<http://rdf.freebase.com/ns/m.0c1d0>
+        rdfs:label     "Providence"@de , "Providence"@fr , "Providence"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Providence> , <http://fr.dbpedia.org/resource/Providence_(Rhode_Island)> , <http://dbpedia.org/resource/Providence,_Rhode_Island> ;
+        skos:altLabel  "LOCODE:USPVD"@de , "LOCODE:USPVD"@fr , "LOCODE:USPVD"@en , "Providence, Rhode island"@en , "Capital of Rhode Island"@de , "Capital of Rhode Island"@fr , "Capital of Rhode Island"@en , "Nathanael Greene school"@de , "Nathanael Greene school"@fr , "Nathanael Greene school"@en , "Providence, R.I."@de , "Providence, Rhode island"@de , "Providence Rhode Island"@de , "Providence Rhode Island"@fr , "Providence Rhode Island"@en , "Providence, Rhode island"@fr , "Providence, R.I."@fr , "Providence, R.I."@en , "Providence, RI"@de , "Providence, RI"@fr , "Providence, RI"@en , "Providence County / Providence city"@en , "Providence, USA"@en , "Providence, USA"@de , "Providence, USA"@fr , "Providence, Rhode Island"@de , "Providence, Rhode Island"@fr , "Providence, Rhode Island"@en , "Providence"@en , "Providence"@de , "Providence"@fr , "Providence rhode island"@de , "Providence rhode island"@fr , "Providence rhode island"@en , "Providnece"@en , "Providnece"@de , "Providnece"@fr , "Providence RI"@en , "Providence RI"@de , "Providence RI"@fr , "Providence, ri"@de , "Providence, ri"@fr , "Providence, ri"@en .

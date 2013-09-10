@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02z6p5f__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Plano,_Texas> ;
+        dbo:from        "1983"^^xsd:gYear ;
+        dbo:to          "1983"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02z6p5f>
+        rdfs:label     "Gabriel Aubry"@en , "Gabriel Aubry"@fr , "Gabriel Aubry"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z6p5f__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gabriel_Aubry> , <http://de.dbpedia.org/resource/Gabriel_Aubry> , <http://fr.dbpedia.org/resource/Gabriel_Aubry> ;
+        skos:altLabel  "Gabriel Aubrey"@fr , "Gabriel Aubrey"@de , "Aubry"@de , "Aubry"@fr , "Gabriel Aubry"@fr , "Gabriel Aubry"@de .
+
+<http://dbpedia.org/resource/Plano,_Texas>
+        rdfs:label     "Plano, Texas"@en , "Plano, Texas"@fr , "Plano, Texas"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Plano_(Texas)> , <http://de.dbpedia.org/resource/Plano_(Texas)> ;
+        skos:altLabel  "LOCODE:USPLZ"@en , "LOCODE:USPLZ"@fr , "LOCODE:USPLZ"@de , "Chinaville"@en , "Chinaville"@fr , "Chinaville"@de , "Plano"@en , "Plano"@fr , "Plano"@de , "Plano, Texas"@en , "Plano, Texas"@fr , "Plano, Texas"@de , "Plano, TX"@en , "Plano, TX"@fr , "Plano, TX"@de , "Plano, Tex."@en , "Plano Police Department"@en , "Plano, Tex."@fr , "Plano Police Department"@fr , "Plano, Tex."@de , "Plano Police Department"@de .

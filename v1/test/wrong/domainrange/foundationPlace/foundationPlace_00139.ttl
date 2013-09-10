@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0_ytj>
+        rdfs:label     "Bryan"@fr , "Bryan"@de , "Bryan"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Bryan,_Texas> , <http://de.dbpedia.org/resource/Bryan_(Texas)> , <http://fr.dbpedia.org/resource/Bryan_(Texas)> ;
+        skos:altLabel  "Bryan, TX"@en , "Bryan, tx"@fr , "Bryan, TX"@fr , "Bryan, tx"@de , "Bryan, TX"@de , "LOCODE:USCFD"@en , "LOCODE:USCFD"@fr , "LOCODE:USCFD"@de , "Brazos County / Bryan city"@en , "Bryan, Texas"@en , "Bryan, Texas"@fr , "Bryan, Texas"@de , "Bryan"@en , "Bryan"@fr , "Bryan"@de , "Bryan texas"@en , "Bryan texas"@fr , "Bryan texas"@de , "Bryan, tx"@en .
+
+<http://rdf.freebase.com/ns/m.02sjpw__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0_ytj> ;
+        dbo:from             "1994"^^xsd:gYear ;
+        dbo:to               "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02sjpw>
+        rdfs:label     "Kaspersky Lab"@en , "Kaspersky Lab"@fr , "Kaspersky Lab"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02sjpw__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kaspersky_Lab> , <http://de.dbpedia.org/resource/Kaspersky_Lab> , <http://fr.dbpedia.org/resource/Kaspersky_Lab> ;
+        skos:altLabel  "Kaspersky Labs"@en , "Kaspersky lab"@en , "Kaspersky Labs"@fr , "Kaspersky Labs"@de , "Kaspersky lab"@fr , "Kaspersky lab"@de , "Kaspersky Online Scanner"@en , "Kaspersky Online Scanner"@fr , "Kaspersky Online Scanner"@de , "Kaspersky Lab"@en , "Laboratoriya Kasperskovo"@en , "Kaspersky Lab"@fr , "Laboratoriya Kasperskovo"@fr , "Kaspersky Lab"@de , "Laboratoriya Kasperskovo"@de , "Kaspersky"@en , "Kaspersky"@fr , "Kaspersky"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Alan_Rickman>
+        rdfs:label     "Alan Rickman"@en , "Alan Rickman"@fr , "Alan Rickman"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alan_Rickman> , <http://de.dbpedia.org/resource/Alan_Rickman> ;
+        skos:altLabel  "Rickman"@fr , "Rickman"@de , "Rickman"@en , "Alan"@fr , "Alan Rickman"@fr , "Alan Rickman"@de , "Alan Rickman"@en , "Allen rickman"@fr , "Alan S. P. Rickman"@fr , "Alan S. P. Rickman"@de , "Alan S. P. Rickman"@en , "Alan Sidney Patrick Rickman"@fr , "Allen rickman"@de , "Alan Sidney Patrick Rickman"@de , "Allen rickman"@en , "Alan Sidney Patrick Rickman"@en , "Alan rickman"@fr , "Alan rickman"@de , "Alan rickman"@en .
+
+<http://dbpedia.org/resource/Love_Actually>
+        rdfs:label      "Love Actually"@en , "Love Actually"@fr , "Love Actually"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/Love_Actually__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Tatsächlich…_Liebe> , <http://fr.dbpedia.org/resource/Love_Actually> ;
+        skos:altLabel   "Tatsächlich … Liebe"@de , "Tatsachlich Liebe"@de , "Tatsachlich… Liebe"@de , "Tatsächlich Liebe"@de , "Tatsachlich ... Liebe"@de , "Love, Actually"@fr , "Love, Actually"@de , "Love, Actually"@en , "Love actually"@fr , "Love Actually"@fr , "Love actually"@de , "Tatsachlich...Liebe"@de , "Love Actually"@de , "Love Actually"@en , "Love actually"@en , "Tatsachlich … Liebe"@de , "Tatsachlich... Liebe"@de , "Tatsächlich… Liebe"@de , "Tatsächlich...Liebe"@de , "Tatsächlich... Liebe"@de , "Tatsächlich ... Liebe"@de .
+
+<http://dbpedia.org/resource/Love_Actually__1>
+        dbo:from      "2003-11-07"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Alan_Rickman> ;
+        dbo:to        "2003-11-07"^^xsd:date .

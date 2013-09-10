@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chennai>
+        rdfs:label     "Chennai"@de , "Chennai"@fr , "Chennai"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chennai> , <http://fr.dbpedia.org/resource/Chennai> ;
+        skos:altLabel  "Cennai"@de , "Madras, India"@en , "Madras, India"@de , "Madras, India"@fr , "City of Chennai"@en , "City of Chennai"@de , "City of Chennai"@fr , "Banking Capital of India"@en , "Banking Capital of India"@fr , "Banking Capital of India"@de , "Chennapatnam"@en , "Chennapatnam"@de , "Chennapatnam"@fr , "Venkatapathy Nayakudu"@en , "Venkatapathy Nayakudu"@de , "Venkatapathy Nayakudu"@fr , "Madras"@en , "Madras"@de , "Madras"@fr , "Chennai City"@en , "Chennai City"@de , "Chennai City"@fr , "Chennai, India"@en , "Chennai, India"@de , "Chennai, India"@fr , "Chennai Schools"@en , "Chennai Schools"@de , "Chennai Schools"@fr , "Chennappattanam"@de , "Gate way of South India"@en , "Chennai"@en , "Gate way of South India"@de , "Gate way of South India"@fr , "Channai"@en , "Channai"@fr , "Chennai"@de , "Chennai"@fr , "Channai"@de , "City of Madras"@en , "City of Madras"@de , "City of Madras"@fr , "Chennapuri"@en , "Chennapuri"@de , "Chennapuri"@fr , "Chennai, Tamil Nadu"@en , "Chenai"@en , "LOCODE:INMAA"@en , "Chennai, Tamil Nadu"@de , "Chennai, Tamil Nadu"@fr , "LOCODE:INMAA"@de , "LOCODE:INMAA"@fr , "Chenai"@de , "Chenai"@fr , "Health Capital of India"@en , "Health Capital of India"@de , "Health Capital of India"@fr .
+
+<http://dbpedia.org/resource/Cher>
+        rdfs:label     "Cher"@de , "Cher"@fr , "Cher"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Cher__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cher_(artiste)> , <http://de.dbpedia.org/resource/Cher_(Künstlerin)> ;
+        skos:altLabel  "Bagel Boy"@de , "Bagel Boy"@fr , "Bagel Boy"@en , "Bonnie Jo Mason"@de , "Bonnie Jo Mason"@fr , "Bonnie Jo Mason"@en , "Cherilyn Sarkisian"@en , "Cherilyn Sarkisian"@de , "Cherilyn Sarkisian"@fr , "Cher"@de , "Cher"@fr , "Cher"@en , "Cherylin Sarkisian LaPiere"@de , "Cherylin Sarkisian LaPiere"@fr , "Cherylin Sarkisian LaPiere"@en , "Chér"@de , "Chér"@fr , "Chér"@en , "Cher Allman"@de , "Cher Allman"@fr , "Cher Allman"@en , "Cher Bono"@de , "Cher Bono"@fr , "Cher Bono"@en , "Cheryl Sarkisian LaPiere"@en , "Cheryl Sarkisian LaPiere"@de , "Cheryl Sarkisian LaPiere"@fr , "The Greatest Thing"@de , "The Greatest Thing"@fr , "The Greatest Thing"@en , "Cherilyn LaPierre"@de , "Cherilyn LaPierre"@fr , "Cherilyn LaPierre"@en , "Cherilyn LaPiere Sarkesian Bono Allman"@de , "Chèr"@en , "Chèr"@de , "Chèr"@fr , "CHER"@en , "CHER"@de , "CHER"@fr .
+
+<http://dbpedia.org/resource/Cher__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Chennai> ;
+        dbo:from        "1974"^^xsd:gYear ;
+        dbo:to          "1974"^^xsd:gYear .

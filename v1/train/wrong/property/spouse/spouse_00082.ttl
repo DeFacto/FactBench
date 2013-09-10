@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01pctb__1>
+        dbo:from  "2005"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.01vsykc> ;
+        dbo:to    "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01pctb>
+        rdfs:label     "Heidi Klum"@en , "Heidi Klum"@fr , "Heidi Klum"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01pctb__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Heidi_Klum> , <http://dbpedia.org/resource/Heidi_Klum> , <http://fr.dbpedia.org/resource/Heidi_Klum> ;
+        skos:altLabel  "Klum"@en , "Klum"@fr , "Klum"@de , "Heidi Klüm"@en , "Hiedi Klum"@en , "Heidi Klüm"@fr , "Hiedi Klum"@fr , "Hiedi Klum"@de , "Heidi Klüm"@de , "The Body"@en , "Heidi Klum Samuel"@en , "Heidi Klum Samuel"@fr , "Heidi Klum Samuel"@de , "Klum, Heidi"@en , "Heidi Cloom"@en , "Heidi Samuel"@en , "Heidi Klum"@en , "Heidi Cloom"@fr , "Heidi Samuel"@fr , "Heidi Klum"@fr , "Heidi Cloom"@de , "Heidi Klum"@de , "Heidi Samuel"@de , "Heidi Klug"@en , "Heidi Klug"@fr , "Heidi Klug"@de .
+
+<http://rdf.freebase.com/ns/m.01vsykc>
+        rdfs:label     "Seal"@de , "Seal"@fr , "Seal"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seal> , <http://dbpedia.org/resource/Seal_(musician)> , <http://de.dbpedia.org/resource/Seal> ;
+        skos:altLabel  "Henry Olusegun Olumide Samuel"@de , "Henry Olusegun Olumide Samuel"@fr , "Henry Olusegun Olumide Samuel"@en , "Seal"@de , "Seal"@fr , "Seal"@en , "Henry Olusegun Samuel"@de , "Henry Olusegun Samuel"@fr , "Henry Olusegun Samuel"@en , "Adamski"@en , "Henry Samuel"@de , "Henry Samuel"@fr , "Henry Samuel"@en , "Seal Samuel"@de , "Seal Samuel"@fr , "Seal Samuel"@en , "Henry Olusegun Adeola Samuel"@de , "Henry Olusegun Adeola Samuel"@fr , "Henry Olusegun Adeola Samuel"@en , "Henry Olusegun Olumide Adelo Samuel"@de , "Henry Olusegun Olumide Adelo Samuel"@fr , "Henry Olusegun Olumide Adelo Samuel"@en , "Henry Olusegun Olumide Adeola Samuel"@de , "Henry Olusegun Olumide Adeola Samuel"@fr , "Henry Olusegun Olumide Adeola Samuel"@en , "Seal Henry Olusegun Olumide Adelo Samuel"@de , "Seal Henry Olusegun Olumide Adelo Samuel"@fr , "Seal Henry Olusegun Olumide Adelo Samuel"@en , "Seal Henry Olusegun Olumide Adeola Samuel"@de , "Seal Henry Olusegun Olumide Adeola Samuel"@fr , "Seal Henry Olusegun Olumide Adeola Samuel"@en , "Sean Henry Samuel"@de , "Sean Henry Samuel"@fr , "Sean Henry Samuel"@en , "Henry Olumide Adeola Samuel"@de , "Henry Olumide Adeola Samuel"@fr , "Henry Olumide Adeola Samuel"@en .

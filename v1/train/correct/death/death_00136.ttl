@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Palo_Alto,_California>
+        rdfs:label     "Palo Alto, California"@de , "Palo Alto, California"@fr , "Palo Alto, California"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Palo_Alto> , <http://fr.dbpedia.org/resource/Palo_Alto> ;
+        skos:altLabel  "Aéroport du comté de Santa Clara à Palo Alto"@fr , "Palo Alto Airport of Santa Clara County"@fr , "LOCODE:USPAO"@en , "LOCODE:USPAO"@de , "LOCODE:USPAO"@fr , "Mayfield, California"@fr , "Mayfield, California"@en , "Mayfield, California"@de , "City of Palo Alto"@fr , "Aeroport du comte de Santa Clara a Palo Alto"@fr , "City of Palo Alto"@en , "City of Palo Alto"@de , "Palo alto"@fr , "Palo Alto, Calif."@en , "Palo Alto, Calif."@de , "Palo Alto, Calif."@fr , "Palo alto"@en , "Palo alto"@de , "Mayfield, CA"@en , "Mayfield, CA"@de , "Mayfield, CA"@fr , "Palo Alto, CA"@en , "Palo Alto, CA"@de , "Palo Alto, CA"@fr , "Mayfield"@fr , "Mayfield"@en , "Mayfield"@de , "California Avenue Business District, California"@fr , "California Avenue Business District, California"@en , "California Avenue Business District, California"@de , "Barron Park"@fr , "Barron Park"@en , "Barron Park"@de , "Palo Alto"@fr , "Palo Alto"@en , "Palo Alto"@de , "Palo Alto, California"@en , "Alto"@de , "Palo Alto, California"@de , "Palo Alto, California"@fr , "Keys School"@fr , "Keys School"@en , "Keys School"@de , "Middlefield Challenger"@fr , "Middlefield Challenger"@en , "Middlefield Challenger"@de .
+
+<http://dbpedia.org/resource/Steve_Jobs__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Palo_Alto,_California> ;
+        dbo:from        "2011-10-05"^^xsd:date ;
+        dbo:to          "2011-10-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Steve_Jobs>
+        rdfs:label     "Steve Jobs"@de , "Steve Jobs"@fr , "Steve Jobs"@en ;
+        dbo:death      <http://dbpedia.org/resource/Steve_Jobs__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Steve_Jobs> , <http://de.dbpedia.org/resource/Steve_Jobs> ;
+        skos:altLabel  "Steve P Jobs"@fr , "Steve P Jobs"@de , "Steve P Jobs"@en , "El jobso"@fr , "El jobso"@de , "El jobso"@en , "Remember Steve Jobs"@fr , "The Steve"@fr , "Remember Steve Jobs"@de , "The Steve"@de , "Remember Steve Jobs"@en , "The Steve"@en , "Steven P Jobs"@fr , "Steven P Jobs"@de , "Steven P Jobs"@en , "Jobs, Steve"@fr , "Jobs, Steve"@de , "Jobs, Steve"@en , "ISad"@fr , "ISad"@de , "ISad"@en , "Reality-distortion field"@fr , "Reality-distortion field"@de , "Reality-distortion field"@en , "SteveJobs"@fr , "SteveJobs"@de , "SteveJobs"@en , "ICEO"@fr , "ICEO"@de , "ICEO"@en , "Steven Paul Jobs"@fr , "Steven Paul Jobs"@de , "Steven Paul Jobs"@en , "Steve jobs effect"@fr , "Steve jobs effect"@de , "Steve jobs effect"@en , "Jobs, Steven Paul"@fr , "Jobs, Steven Paul"@de , "Jobs, Steven Paul"@en , "Steve P. Jobs"@fr , "Steve P. Jobs"@de , "Steve P. Jobs"@en , "Steven P. Jobs"@fr , "Steven P. Jobs"@de , "Steven P. Jobs"@en , "IGod"@de , "Jobs Steve"@fr , "SteveyJ"@fr , "Steve Jobs dies"@fr , "SteveyJ"@de , "Steve Jobs dies"@de , "Steve Jobs dies"@en , "SteveyJ"@en , "Steven Jobs"@fr , "Steve Mobbs"@fr , "Jobs Steve"@de , "Steven Jobs"@de , "Steve Mobbs"@de , "Jobs Steve"@en , "Steve Mobbs"@en , "Steven Jobs"@en , "Death of Steve Jobs"@fr , "Death of Steve Jobs"@de , "Death of Steve Jobs"@en , "His Steveness"@fr , "Steve Jobbs"@fr , "His Steveness"@de , "His Steveness"@en , "Steve Jobbs"@de , "Steve Jobbs"@en , "S jobs"@fr , "S jobs"@de , "S jobs"@en , "Steve Jobs"@fr , "Steeve Jobs"@fr , "Steve Jobs"@de , "Steve Jobs"@en , "Jobs"@fr , "Steve Job"@fr , "Jobs"@de , "Jobs"@en , "Steve Job"@en , "Steve Job"@de , "StevieJ"@fr , "StevieJ"@de , "StevieJ"@en , "Mr. Steve Jobs"@fr , "Mr. Steve Jobs"@de , "Mr. Steve Jobs"@en , "Stevie Jobs"@fr , "Stevie Jobs"@de , "Stevie Jobs"@en , "Steve jobs"@fr , "Steve jobs"@de , "Steve jobs"@en , "Stev Jobs"@fr , "Stev Jobs"@de , "Stev Jobs"@en , "Steve Paul Jobs"@fr , "Steve Paul Jobs"@de , "Steve Paul Jobs"@en .

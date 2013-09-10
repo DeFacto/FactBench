@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01zlwg6>
+        rdfs:label     "Redlands"@en , "Redlands"@fr , "Redlands"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Redlands_(Kalifornien)> , <http://fr.dbpedia.org/resource/Redlands_(Californie)> , <http://dbpedia.org/resource/Redlands,_California> ;
+        skos:altLabel  "Redlands (Kalifornien)"@de , "Redlands, Ca"@en , "Redlands, Ca"@fr , "Redlands, Ca"@de , "LOCODE:USRLS"@en , "LOCODE:USRLS"@fr , "LOCODE:USRLS"@de , "San Bernardino County / Redlands city"@en , "Redlands, CA"@en , "Redlands, CA"@fr , "Redlands, CA"@de , "Downtown Redlands, California"@en , "Downtown Redlands, California"@fr , "Downtown Redlands, California"@de , "Redlands, California"@en , "Redlands"@en , "Lugonia, California"@en , "Redlands, California"@fr , "Redlands"@fr , "Redlands"@de , "Redlands, California"@de , "Lugonia, California"@fr , "Lugonia, California"@de , "Guachama"@en , "Guachama"@fr , "Guachama"@de .
+
+<http://rdf.freebase.com/ns/m.0bgrmg>
+        rdfs:label  "Epic Systems"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bgrmg__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Epic_Systems> .
+
+<http://rdf.freebase.com/ns/m.0bgrmg__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01zlwg6> ;
+        dbo:from             "1979"^^xsd:gYear ;
+        dbo:to               "1979"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Münster>
+        rdfs:label     "Münster"@en , "Münster"@fr , "Münster"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Münster_(Westfalen)> , <http://fr.dbpedia.org/resource/Münster> ;
+        skos:altLabel  "Münsteraner"@de , "Jambon de Westphalie"@fr , "Munster"@fr , "Munster"@de , "Munsteraner"@de , "Münster"@de , "Münster"@fr .
+
+<http://dbpedia.org/resource/Otis_Redding>
+        rdfs:label     "Otis Redding"@en , "Otis Redding"@fr , "Otis Redding"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Otis_Redding__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Otis_Redding> , <http://de.dbpedia.org/resource/Otis_Redding> ;
+        skos:altLabel  "Redding"@en , "Redding"@fr , "Redding"@de , "Ottis Readding"@fr , "Otis Redding"@en , "Otis Redding"@fr , "Otis Redding"@de , "version 1"@en , "Otis Readding"@fr , "Otis reding"@fr , "version 1"@fr , "version 1"@de , "Remember Me"@fr , "Otis Reading"@en , "Otis Reading"@fr , "Otis Reading"@de , "Otis"@fr , "Ottis redding"@en , "Otis redding"@en , "Ottis redding"@fr , "Ottis redding"@de , "Otis redding"@fr , "Otis redding"@de .
+
+<http://dbpedia.org/resource/Otis_Redding__1>
+        dbo:author  <http://dbpedia.org/resource/Münster> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .

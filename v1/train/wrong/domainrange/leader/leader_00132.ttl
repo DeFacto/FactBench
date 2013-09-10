@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Belgium>
+        rdfs:label     "Belgium"@de , "Belgium"@fr , "Belgium"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Belgique> , <http://de.dbpedia.org/resource/Belgien> ;
+        skos:altLabel  "Belgum"@fr , "Belgum"@de , "Belgien"@en , "Belgien"@de , "Belgien"@fr , "Gelbique"@fr , "Belgique"@en , "ISO 3166-1:BE"@en , "Belgique"@fr , "ISO 3166-1:BE"@fr , "ISO 3166-1:BE"@de , "Belgique"@de , "Begium"@en , "Begium"@fr , "Begium"@de , "Koenigreich Belgien"@en , "Koenigreich Belgien"@fr , "Koenigreich Belgien"@de , "Beljum"@en , "Beljum"@fr , "Beljum"@de , "Cockpit of Europe"@en , "Cockpit of Europe"@fr , "Cockpit of Europe"@de , "Belguim"@en , "Belguim"@fr , "Belguim"@de , "Blegium"@en , "Beldjike"@en , "Beldjike"@fr , "Beldjike"@de , "Blegium"@fr , "Blegium"@de , "People of Belgium"@en , "People of Belgium"@fr , "Belge"@fr , "People of Belgium"@de , "Belge"@de , "Konigreich Belgien"@en , "Konigreich Belgien"@fr , "Konigreich Belgien"@de , "Kingdom Of Belgium"@en , "Kingdom Of Belgium"@fr , "Kingdom Of Belgium"@de , "Beljam"@en , "Beljam"@fr , "Beljam"@de , "Königreich Belgien"@en , "Königreich Belgien"@fr , "Königreich Belgien"@de , "Kingdom of Belgium"@en , "België"@en , "Belgian"@en , "Belgian"@de , "Belgian"@fr , "Kingdom of Belgium"@fr , "Kingdom of Belgium"@de , "België"@fr , "België"@de , "Belgier"@de , "Belgium facts"@en , "Belgium facts"@fr , "Belgium facts"@de , "Belgium"@en , "Belgium"@fr , "Belgium"@de , "Koninkrijk België"@en , "Koninkrijk België"@fr , "Koninkrijk België"@de , "Belgie"@en , "Belgio"@en , "Belgio"@fr , "Belgio"@de , "Belgie"@fr , "Belgie"@de , "Beligum"@en , "Beligum"@fr , "Beligum"@de , "facts"@en , "Kingdom of the Belgians"@en , "The Quebec of Europe"@en , "facts"@fr , "The Quebec of Europe"@de , "Kingdom of the Belgians"@de , "Kingdom of the Belgians"@fr , "facts"@de , "The Quebec of Europe"@fr , "Royaume de Belgique"@en , "Koninkrijk Belgie"@en , "Belgian Government"@en , "Royaume de Belgique"@fr , "Koninkrijk Belgie"@fr , "Belgian Government"@fr , "Koninkrijk Belgie"@de , "Royaume de Belgique"@de , "Belgian Government"@de , "Belgum"@en .
+
+<http://dbpedia.org/resource/Benazir_Bhutto__1>
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Belgium> ;
+        dbo:to      "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Benazir_Bhutto>
+        rdfs:label     "Benazir Bhutto"@de , "Benazir Bhutto"@fr , "Benazir Bhutto"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Benazir_Bhutto__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Benazir_Bhutto> , <http://de.dbpedia.org/resource/Benazir_Bhutto> ;
+        skos:altLabel  "Bainazir Bhuttoo"@en , "Bainazir Bhuttoo"@de , "Bainazir Bhuttoo"@fr , "Benezir Bhutto"@en , "Benezir Bhutto"@de , "Benezir Bhutto"@fr , "Benazir bhutto"@en , "Benazir bhutto"@de , "Benazir bhutto"@fr , "Binazir Butto"@en , "Binazir Butto"@de , "Binazir Butto"@fr , "Benazir Bhutto"@en , "Benazir Bhutto"@fr , "Benazir Bhutto"@de , "Asifa bhutto zardari"@en , "Asifa bhutto zardari"@de , "Asifa bhutto zardari"@fr , "Binazir Bhutto"@en , "Binazir Bhutto"@de , "Binazir Bhutto"@fr , "Bainazir Bhuttoo Government"@en , "Bainazir Bhuttoo Government"@de , "Bainazir Bhuttoo Government"@fr , "Bhutto, Benazir"@en , "Bhutto, Benazir"@de , "Bhutto, Benazir"@fr , "Bhutto"@de , "Bhutto"@fr , "Benazhir Bhutto"@en , "Benazhir Bhutto"@de , "Benazhir Bhutto"@fr , "Benazeer Bhutto"@en , "Benazeer Bhutto"@fr , "Benazeer Bhutto"@de , "Benizir Bhutto"@en , "Benazir Bhuto"@en , "Benizir Bhutto"@de , "Benazir Bhuto"@de , "Benazir Bhuto"@fr , "Benizir Bhutto"@fr , "Benazir"@en , "Benazir"@de , "Benazir"@fr , "Benazeer Butto"@en , "Benazeer Butto"@de , "Benazeer Butto"@fr , "Benazir Butto"@en , "Mohtarma Benazir Bhutto"@en , "Benazir Butto"@de , "Mohtarma Benazir Bhutto"@de , "Mohtarma Benazir Bhutto"@fr , "Benazir Butto"@fr .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Philip_K._Dick>
+        rdfs:label     "Philip K. Dick"@de , "Philip K. Dick"@fr , "Philip K. Dick"@en ;
+        dbo:death      <http://dbpedia.org/resource/Philip_K._Dick__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Philip_K._Dick> , <http://de.dbpedia.org/resource/Philip_K._Dick> ;
+        skos:altLabel  "Phildickian"@de , "Phildickian"@en , "Philip K Dick"@fr , "Philip K Dick"@de , "Philip K Dick"@en , "K dick"@fr , "K dick"@de , "K dick"@en , "Phillip K. Dick"@fr , "Phillip K. Dick"@de , "Phillip K. Dick"@en , "Philip k. dick"@fr , "Philip k. dick"@de , "Philip k. dick"@en , "Philip Kindred Dick"@fr , "Philip Kindred Dick"@en , "Philip Kindred Dick"@de , "In Pursuit of Valis"@fr , "In Pursuit of Valis"@en , "In Pursuit of Valis"@de , "Phillip K Dick"@fr , "P. K. Dick"@fr , "Phillip K Dick"@en , "Phillip K Dick"@de , "P. K. Dick"@en , "P. K. Dick"@de , "Philip K. Dick in popular culture"@fr , "Philip K. Dick in popular culture"@en , "Philip K. Dick in popular culture"@de , "Philip K. Dick"@fr , "Philipp K. Dick"@fr , "Philipp K. Dick"@de , "Philipp K. Dick"@en , "Philip K. Dick"@de , "Philip K. Dick"@en , "Phillip Kindred Dick"@fr , "Phillip Dick"@fr , "Vesicle pisces"@fr , "Philip dick"@fr , "P.K. Dick"@fr , "Phillip Kindred Dick"@de , "Phillip Kindred Dick"@en , "Philip dick"@en , "Philip dick"@de , "Phillip Dick"@de , "Vesicle pisces"@de , "Phillip Dick"@en , "Vesicle pisces"@en , "P.K. Dick"@en , "P.K. Dick"@de , "Dick"@fr , "Dick"@de , "Phil Dick"@fr , "Phil K. Dick"@de , "Phil Dick"@de , "Phil Dick"@en , "The Galactic Pot Healer"@fr , "The Galactic Pot Healer"@de , "The Galactic Pot Healer"@en , "Philip"@fr , "Philip"@en , "Philip"@de , "Philip k dick"@fr , "Philip k dick"@en , "Philip k dick"@de , "Jack Dowland"@fr , "Jack Dowland"@de , "Jack Dowland"@en , "PK Dick"@fr , "PK Dick"@en , "PK Dick"@de , "Philip Dick"@fr , "Philip Dick"@de , "Philip Dick"@en , "Phildickian"@fr .
+
+<http://dbpedia.org/resource/Philip_K._Dick__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Ana,_California> ;
+        dbo:from        "1982-03-02"^^xsd:date ;
+        dbo:to          "1982-03-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Ana,_California>
+        rdfs:label     "Santa Ana, California"@de , "Santa Ana, California"@fr , "Santa Ana, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Santa_Ana_(Californie)> , <http://de.dbpedia.org/resource/Santa_Ana_(Kalifornien)> ;
+        skos:altLabel  "Santa Ana, Orange County, CA"@en , "Santa Ana, Orange County, CA"@de , "Santa Ana, Orange County, CA"@fr , "Santa Ana"@en , "Santa Ana"@de , "Santa Ana"@fr , "Santa Ana de Los Angeles"@en , "Santa Ana de Los Angeles"@de , "Santa Ana de Los Angeles"@fr , "El Sol Science and Arts Academy"@fr , "El Sol Science and Arts Academy"@de , "El Sol Science and Arts Academy"@en , "Santa Anna, California"@en , "Santa Anna, California"@de , "Santa Anna, California"@fr , "Santa Ana, Ca"@fr , "Santa Ana, Ca"@en , "Santa Ana, Ca"@de , "Santa Ana de Los Ángeles"@fr , "Santa Ana de Los Ángeles"@en , "Santa Ana de Los Ángeles"@de , "Santa ana, ca"@fr , "Santa ana, ca"@en , "Santa ana, ca"@de , "Santa Ana, Orange County, California"@en , "Santa Ana, Orange County, California"@de , "Santa Ana, Orange County, California"@fr , "Santa ana, California"@fr , "Santa ana, California"@en , "Santa ana, California"@de , "Santa Ana, California"@fr , "Santa Ana, California"@en , "Santa Ana, California"@de , "Santa Ana, CA"@fr , "Santa Ana, CA"@en , "Santa Ana, CA"@de , "El sol science and arts academy"@en , "El sol science and arts academy"@de , "El sol science and arts academy"@fr , "LOCODE:USSNA"@en , "LOCODE:USSNA"@de , "LOCODE:USSNA"@fr .

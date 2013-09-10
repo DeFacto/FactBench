@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ian_Mahinmi__1>
+        dbo:from  "2007"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Denver_Nuggets> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Denver_Nuggets>
+        rdfs:label     "Denver Nuggets"@fr , "Denver Nuggets"@de , "Denver Nuggets"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Denver_Nuggets> , <http://fr.dbpedia.org/resource/Nuggets_de_Denver> ;
+        skos:altLabel  "Colorado nuggets"@en , "Colorado nuggets"@fr , "Colorado nuggets"@de , "Denver nuggets"@en , "Nuggets"@en , "Denver nuggets"@fr , "Denver nuggets"@de , "Nuggets"@fr , "Nuggets"@de , "Jonathon Herrera"@en , "Denver Rockets"@en , "Jonathon Herrera"@fr , "Denver Rockets"@fr , "Denver Rockets"@de , "Jonathon Herrera"@de , "Nuggets de Denver"@fr , "Rockets de Denver"@fr , "Denver nuggetts"@en , "Denver nuggetts"@fr , "Denver nuggetts"@de , "Denver"@de , "Denver Nuggets"@en , "Denver Nuggets"@fr , "Denver Nuggets"@de , "Denver Larks"@en , "Denver Larks"@fr , "Denver Larks"@de , "Nuggets de denver"@fr .
+
+<http://dbpedia.org/resource/Ian_Mahinmi>
+        rdfs:label     "Ian Mahinmi"@en , "Ian Mahinmi"@fr , "Ian Mahinmi"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ian_Mahinmi__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ian_Mahinmi> , <http://de.dbpedia.org/resource/Ian_Mahinmi> ;
+        skos:altLabel  "Mahinmi"@de , "Ian Mahinmi"@en , "Ian Mahinmi"@fr , "Ian Mahinmi"@de .

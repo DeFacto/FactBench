@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/A_Door_into_Ocean>
+        skos:altLabel  "Shora"@en , "A Door Into Ocean"@en , "A Door into Ocean"@en .
+
+<http://rdf.freebase.com/ns/m.01yh8h>
+        rdfs:label  "A Door into Ocean"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/A_Door_into_Ocean> .
+
+<http://rdf.freebase.com/ns/m.01yh8h__94>
+        dbo:author  <http://rdf.freebase.com/ns/m.01yh8h> ;
+        dbo:from    "1986"^^xsd:gYear ;
+        dbo:to      "1986"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.075m35>
+        rdfs:label       "Joan Slonczewski"@en , "Joan Slonczewski"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.01yh8h__94> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Joan_Slonczewski> , <http://dbpedia.org/resource/Joan_Slonczewski> ;
+        skos:altLabel    "Slonczewski"@de , "Joan L. Slonczewski"@de , "Joan Slonczewski"@de .

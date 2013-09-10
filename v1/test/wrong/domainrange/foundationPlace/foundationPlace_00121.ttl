@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06dplm>
+        rdfs:label     "ANSYS"@fr , "ANSYS"@de , "Ansys"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06dplm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/ANSYS> , <http://dbpedia.org/resource/Ansys> , <http://de.dbpedia.org/resource/Ansys_Inc.> ;
+        skos:altLabel  "ANSYS Inc."@en , "Ansoft"@en , "Ansys Inc."@de , "Ansoft"@fr , "Ansoft"@de , "ANSYS Inc."@fr , "ANSYS Inc."@de , "ANSYS"@en , "ANSYS"@fr , "ANSYS"@de , "ANSYS, Inc"@en , "ANSYS, Inc"@fr , "ANSYS, Inc"@de , "Fluent, Inc."@en , "Fluent, Inc."@fr , "Fluent, Inc."@de , "Fluent"@en , "Fluent"@fr , "Fluent"@de , "Ansys"@en , "Ansys"@fr , "Ansys"@de , "ANSYS, Inc."@en , "ANSYS, Inc."@fr , "ANSYS, Inc."@de , "Ansoft Corporation"@en , "Ansoft Corporation"@fr , "Ansoft Corporation"@de .
+
+<http://rdf.freebase.com/ns/m.02m958>
+        rdfs:label     "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sindelfingen> , <http://de.dbpedia.org/resource/Sindelfingen> , <http://dbpedia.org/resource/Sindelfingen> ;
+        skos:altLabel  "Sindelfingen, Germany"@en , "Sindelfingen, Germany"@de , "Sindelfingen, Germany"@fr , "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de , "Goldberg"@de , "Sindelfingen-Goldberg"@de , "Sindlefingen, germany"@en , "Sindlefingen, germany"@fr , "Sindlefingen, germany"@de .
+
+<http://rdf.freebase.com/ns/m.06dplm__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02m958> ;
+        dbo:from             "1984"^^xsd:gYear ;
+        dbo:to               "1984"^^xsd:gYear .

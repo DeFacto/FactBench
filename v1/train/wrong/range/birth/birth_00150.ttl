@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yoko_Ono>
+        rdfs:label     "Yoko Ono"@de , "Yoko Ono"@fr , "Yoko Ono"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Yoko_Ono__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Yoko_Ono> , <http://de.dbpedia.org/resource/Yoko_Ono> ;
+        skos:altLabel  "Ono Yôko"@en , "Ono Yôko"@de , "Ono Yôko"@fr , "Yôko Ono"@en , "Yôko Ono"@de , "Yôko Ono"@fr , "Yoko Ono Lennon"@en , "Yoko Ono Lennon"@de , "Yoko Ono Lennon"@fr , "Ono Yoko"@de , "Ono Yoko"@fr , "Ono Yoko"@en , "Yohko Ono"@de , "Yohko Ono"@fr , "Yohko Ono"@en , "Yoko"@de , "Yoko"@fr , "John Ono Lennon II"@de , "John Ono Lennon II"@fr , "John Ono Lennon II"@en , "Yoko"@en , "Kyoko Cox"@de , "Kyoko Cox"@fr , "Kyoko Cox"@en , "Yōko Ono"@fr , "Kyoko Chan Cox"@de , "Kyoko Chan Cox"@fr , "Kyoko Chan Cox"@en , "Onochord"@en , "Onochord"@de , "Onochord"@fr , "Yoko Lennon"@de , "Yoko Lennon"@fr , "Yoko Lennon"@en , "Yoko ono"@en , "Yoko ono"@de , "Yoko ono"@fr , "Ono Yōko"@en , "Ono Yōko"@de , "Ono Yōko"@fr , "Yoko Ono"@en , "Yoko Ono"@de , "Yoko Ono"@fr .
+
+<http://dbpedia.org/resource/Yoko_Ono__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/El_Centro,_California> ;
+        dbo:from        "1933"^^xsd:gYear ;
+        dbo:to          "1933"^^xsd:gYear .
+
+<http://dbpedia.org/resource/El_Centro,_California>
+        rdfs:label     "El Centro, California"@en , "El Centro, California"@fr , "El Centro, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/El_Centro> , <http://de.dbpedia.org/resource/El_Centro_(Kalifornien)> ;
+        skos:altLabel  "El Centro, California"@de , "Cabarker"@en , "Cabarker"@fr , "Cabarker"@de , "Cabarker, California"@en , "El Centro"@en , "Cabarker, California"@fr , "Cabarker, California"@de , "El Centro"@fr , "El Centro"@de , "Centro"@fr , "El Centro, Ca"@en , "El Centro, Ca"@fr , "El Centro, Ca"@de , "LOCODE:USECO"@en , "LOCODE:USECO"@fr , "LOCODE:USECO"@de , "El Centro, CA"@en , "McCabe school"@en , "El Centro, CA"@fr , "McCabe school"@fr , "El Centro, CA"@de , "McCabe school"@de , "McCabe"@en , "McCabe"@fr , "McCabe"@de , "El Centro, California"@en , "El Centro, California"@fr .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gqp98__1>
+        dbo:award  <http://dbpedia.org/resource/Kumasi> ;
+        dbo:from   "1994"^^xsd:gYear ;
+        dbo:to     "1994"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kumasi>
+        rdfs:label     "Kumasi"@en , "Kumasi"@fr , "Kumasi"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kumasi> , <http://de.dbpedia.org/resource/Kumasi> ;
+        skos:altLabel  "Kumase"@en , "Kumase"@fr , "Kumase"@de , "Kumasi"@en , "Kumasi"@de , "Kumasi"@fr , "Kumassi"@en , "Kumassi"@fr , "Kumassi"@de , "Kumasi, Ghana"@en , "Kumasi, Ghana"@fr , "Kumasi, Ghana"@de .
+
+<http://rdf.freebase.com/ns/m.0gqp98>
+        rdfs:label  "Team and Concepts"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0gqp98__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Team_and_Concepts> .

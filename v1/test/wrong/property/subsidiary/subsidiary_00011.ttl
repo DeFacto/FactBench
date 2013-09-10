@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.025j1__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.026v5> ;
+        dbo:from   "1998"^^xsd:gYear ;
+        dbo:to     "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.026v5>
+        rdfs:label     "Digital Equipment Corporation"@en , "Digital Equipment Corporation"@fr , "Digital Equipment Corporation"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Digital_Equipment_Corporation> , <http://fr.dbpedia.org/resource/Digital_Equipment_Corporation> , <http://dbpedia.org/resource/Digital_Equipment_Corporation> ;
+        skos:altLabel  "Digital Equipement"@fr , "The Digital Equipment Corporation"@en , "Digital Equipment Corporation"@en , "Digital Equipment Corporation"@fr , "The Digital Equipment Corporation"@fr , "Digital Equipment Corporation"@de , "The Digital Equipment Corporation"@de , "Digital"@en , "DigitalTown, Inc."@en , "Digital"@fr , "Digital"@de , "Digital Equipment Corp."@en , "DigitalTown Inc"@en , "Digital Equipment Corp."@fr , "Digital Equipment Corp."@de , "DIGITAL"@en , "Digital Equipment"@en , "Digital Corporation"@en , "Digital Corporation"@fr , "Digital Corporation"@de , "Digital Equipment Company"@en , "CYBERSTAR COMPUTER CORP"@en , "Digital Equipment"@fr , "Digital Equipment"@de , "Digital Equipment Company"@fr , "Digital Equipment Company"@de , "ENETPC INC"@en , "Digital equipment corporation"@fr , "System Building Blocks"@en , "DEC"@en , "System Building Blocks"@fr , "System Building Blocks"@de , "BDC CAPITAL INC"@en .
+
+<http://rdf.freebase.com/ns/m.025j1>
+        rdfs:label     "Compaq"@de , "Compaq"@fr , "Compaq"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.025j1__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Compaq> , <http://dbpedia.org/resource/Compaq> , <http://fr.dbpedia.org/resource/Compaq> ;
+        skos:altLabel  "Bill Murto"@fr , "Presario"@en , "Presario"@fr , "Presario"@de , "Compaq Presario 9500"@en , "Compaq Presario 9500"@fr , "Compaq Presario 9500"@de , "HP Presario"@en , "HP Presario"@fr , "HP Presario"@de , "Compaq Computer Corp."@en , "Compaq Computer Corp."@fr , "Compaq Computer Corp."@de , "Compaq Presario"@en , "Compaq Presario"@fr , "Compaq Presario"@de , "Compaq Computer Corporation"@en , "Compaq Computer Corporation"@fr , "Compaq Computer Corporation"@de , "Compaq Presario 6410"@en , "Compaq Presario 6410"@fr , "Compaq Presario 6410"@de , "Compaq Presario 9548"@en , "Compaq Presario SR2013WM"@en , "Compaq Presario 5700T"@en , "Compaq Deskpro 386"@en , "Compaq Presario 5700T"@fr , "Compaq Presario 5700T"@de , "Compaq Presario 5800"@en , "Compaq Presario 5800"@de , "Compaq Presario 5800"@fr , "Compaq Presario 7500"@en , "Compaq Presario 9548"@fr , "Compaq Presario SR2013WM"@fr , "Compaq Deskpro 386"@fr , "Compaq Presario 7500"@fr , "Compaq Presario 9548"@de , "Compaq Deskpro 386"@de , "Compaq Presario SR2013WM"@de , "Compaq Presario 7500"@de , "Presario 2500"@en , "COMPAQ"@en , "Compaq Presatio 7800"@en , "Compaq"@en , "Compaq Presario 5900Z"@en , "Compaq Presatio 7800"@fr , "Compaq Presatio 7800"@de , "Presario 2500"@fr , "COMPAQ"@fr , "Compaq"@fr , "COMPAQ"@de , "Compaq"@de , "Compaq Presario 5900Z"@de , "Presario 2500"@de , "Compaq Presario 5900Z"@fr , "Compaq Presario 7900"@en , "Compaq Corp."@en , "Compaq Presario 7900"@fr , "Compaq Corp."@de , "Compaq Corp."@fr , "Compaq Presario 7900"@de , "Compaq Presario 7400"@en , "Compaq Presario 7400"@fr , "Compaq Presario 7400"@de , "Compaq Presario 5900T"@en , "Compaq Presario 5900T"@de , "Compaq Presario 5900T"@fr , "Compaq Presario S6700NX"@en , "Compaq Presario S6700NX"@fr , "Compaq Presario S6700NX"@de , "Compaq Presario 7300"@en , "Compaq Presario 7300"@fr , "Compaq Presario 7300"@de , "Compaq Presario 5700N"@en , "Compqa"@en , "Compaq Presario 5700N"@fr , "Compqa"@fr , "Compqa"@de , "Compaq Presario 5700N"@de , "Compaq Armada"@en , "Compaq Armada"@de , "Compaq Armada"@fr , "Bill Murto"@en , "Bill Murto"@de .

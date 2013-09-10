@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h25>
+        rdfs:label     "Ayn Rand"@en , "Ayn Rand"@de , "Ayn Rand"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h25__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Ayn_Rand> , <http://fr.dbpedia.org/resource/Ayn_Rand> , <http://de.dbpedia.org/resource/Ayn_Rand> ;
+        skos:altLabel  "Ayn Rand"@en , "Ayn Rand"@de , "Ayn Rand"@fr , "Alyssa Rosenbaum"@en , "Alyssa Rosenbaum"@fr , "Alyssa Rosenbaum"@de , "Zinovievna Rosenbaum"@en , "Zinovievna Rosenbaum"@fr , "Zinovievna Rosenbaum"@de , "AynRand"@en , "Randisme"@fr , "AynRand"@fr , "AynRand"@de , "Frank o'connor"@en , "Frank o'connor"@de , "Frank o'connor"@fr , "Alisa Rosenbaum"@en , "Alisa Rosenbaum"@de , "Alisa Rosenbaum"@fr , "Alissa Zinovievina"@en , "Alissa Zinovievina"@fr , "Alissa Zinovievina"@de , "Rand"@en , "Rand"@de , "Rand"@fr , "Alissa Zinovievna"@en , "Alissa Zinovievna"@fr , "Alissa Zinovievna"@de , "O'Connor"@en , "O'Connor"@fr , "O'Connor"@de , "ayn_rand"@en , "Alisa Zinov'yevna Rosenbaum"@en , "Alisa Zinov'yevna Rosenbaum"@de , "Alisa Zinov'yevna Rosenbaum"@fr , "Zinovievina Rosenbaum"@en , "Ayn Rand O'Connor"@en , "Zinovievina Rosenbaum"@fr , "Ayn Rand O'Connor"@de , "Ayn Rand O'Connor"@fr , "Zinovievina Rosenbaum"@de , "Alisha Rosenbaum"@en , "Ayb rand"@en , "Ayb rand"@fr , "Ayb rand"@de , "Alissa Zinovievna Rosenbaum"@en , "Alissa Zinovievna Rosenbaum"@de , "Alissa Zinovievna Rosenbaum"@fr , "Alice Rosenbaum"@en , "Ann Rand"@en , "Alice Rosenbaum"@fr , "Ann Rand"@fr , "Alissa Sinowjewna Rosenbaum"@de , "Alice Rosenbaum"@de , "Ann Rand"@de , "Rand, Ayn"@en , "Randian"@en , "Randian"@fr , "Randian"@de , "Alissa Rosenbaum"@en , "Alissa Rosenbaum"@de , "Alissa Rosenbaum"@fr , "An rayn"@en , "An rayn"@fr , "An rayn"@de , "Ayn O'Connor"@en , "Ayn O'Connor"@de , "Ayn O'Connor"@fr , "Frank O'Connor"@en , "Frank O'Connor"@de , "Frank O'Connor"@fr , "Ayn rand"@en , "Ayn rand"@fr , "Ayn rand"@de , "Alisa Zinovyevna Rosenbaum"@en , "Alisa Zinovyevna Rosenbaum"@fr , "Alisa Zinovyevna Rosenbaum"@de .
+
+<http://rdf.freebase.com/ns/m.0h25__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05_m0c> ;
+        dbo:from    "1975"^^xsd:gYear ;
+        dbo:to      "1975"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05_m0c>
+        rdfs:label     "Der große Eisenbahnraub"@de , "The Great Train Robbery"@en , "Un train d'or pour la Crimée"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Der_große_Eisenbahnraub_(Roman)> , <http://fr.dbpedia.org/resource/Un_train_d'or_pour_la_Crimée> , <http://dbpedia.org/resource/The_Great_Train_Robbery_(novel)> ;
+        skos:altLabel  "Un train d'or pour la Crimee"@fr , "Un Train d'Or pour la Crimee"@fr , "The Great Train Robbery"@fr , "The Great Train Robbery"@de , "Un train d'or pour la Crimée"@fr , "Der große Eisenbahnraub"@de , "Un Train d'Or pour la Crimée"@fr .

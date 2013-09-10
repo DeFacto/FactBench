@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Carlin__1>
+        dbo:award  <http://dbpedia.org/resource/Santa_Monica,_California> ;
+        dbo:from   "2008"^^xsd:gYear ;
+        dbo:to     "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Carlin>
+        rdfs:label     "George Carlin"@de , "George Carlin"@fr , "George Carlin"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Carlin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Carlin> , <http://de.dbpedia.org/resource/George_Carlin> ;
+        skos:altLabel  "George Carlin's"@de , "George Carlin's"@fr , "George Carlin's"@en , "Taskforce for Better Pancakes"@de , "Taskforce for Better Pancakes"@fr , "Taskforce for Better Pancakes"@en , "George Denis Patrick Carlin"@de , "George Denis Patrick Carlin"@fr , "George Denis Patrick Carlin"@en , "Frisbyterianism"@de , "Frisbyterianism"@fr , "Frisbyterianism"@en , "George Carlin"@de , "George Carlin"@fr , "George Carlin"@en , "Frissbeetarianism"@de , "Frissbeetarianism"@fr , "Frissbeetarianism"@en , "George Carlin discography"@de , "George Carlin discography"@fr , "George Carlin discography"@en , "Pussification"@de , "Pussification"@fr , "Pussification"@en , "George Dennis Carlin"@en , "George Dennis Carlin"@de , "George Dennis Carlin"@fr , "The George Carlin Show"@de , "George carlin"@de , "George carlin"@fr , "George carlin"@en , "Brenda Carlin"@en , "Brenda Carlin"@de , "Brenda Carlin"@fr , "Carlin"@de , "Carlin"@fr , "Carlin"@en .
+
+<http://dbpedia.org/resource/Santa_Monica,_California>
+        rdfs:label     "Santa Monica, California"@en , "Santa Monica, California"@fr , "Santa Monica, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Monica> , <http://fr.dbpedia.org/resource/Santa_Monica> ;
+        skos:altLabel  "Santa Monica, California"@en , "Santa Monica"@en , "Santa Monica, California"@fr , "Santa Monica"@fr , "Santa Monica, California"@de , "Santa Monica"@de , "Santa Monica, Californie"@fr , "Santa Monica, Ca"@en , "Santa Monica, Ca"@fr , "Santa Monica, Ca"@de , "LOCODE:USSMO"@en , "LOCODE:USSMO"@fr , "LOCODE:USSMO"@de , "Santa Monica California"@en , "Santa Monica California"@fr , "Santa Monica California"@de , "Santa Monica, CA"@en , "City of Santa Monica"@en , "Santa Monica, CA"@fr , "City of Santa Monica"@fr , "Santa Monica, CA"@de , "City of Santa Monica"@de , "Monica"@en , "Monica"@fr , "Monica"@de .

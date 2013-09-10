@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j695b2>
+        rdfs:label     "Heather Khan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j695b2__1> ;
+        skos:altLabel  "Heather Blair Khan"@en , "Heather Jocelyn Khan"@en .
+
+<http://rdf.freebase.com/ns/m.0j695b2__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01pk3z> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01pk3z>
+        rdfs:label     "Anna Faris"@en , "Anna Faris"@fr , "Anna Faris"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anna_Faris> , <http://de.dbpedia.org/resource/Anna_Faris> , <http://dbpedia.org/resource/Anna_Faris> ;
+        skos:altLabel  "Anna Faris-Indra"@en , "Anna Farris"@en , "Anna Farris"@fr , "Anna Farris"@de , "Anna Faris"@en , "Anna Faris"@fr , "Anna Faris"@de , "Anna Kay Faris"@en , "Anna Kay Faris"@fr , "Anna Kay Faris"@de , "Ana faris"@en , "Ana faris"@de , "Ana faris"@fr , "Anna Faris-Pratt"@en , "Anna faris"@en , "Anna faris"@fr , "Anna faris"@de , "Faris"@en , "Faris"@fr , "Faris"@de .

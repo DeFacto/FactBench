@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01db19__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.01bvdl> ;
+        dbo:from        "1960"^^xsd:gYear ;
+        dbo:to          "1960"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01bvdl>
+        rdfs:label     "Un cantique pour Leibowitz"@fr , "A Canticle for Leibowitz"@en , "Lobgesang auf Leibowitz"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Un_cantique_pour_Leibowitz> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/A_Canticle_for_Leibowitz> ;
+        skos:altLabel  "Deluge"@fr , "A Canticle For Leibowitz"@fr , "Canticle for Leibowitz"@en , "Canticle for Leibowitz"@fr , "Leibowitz"@en , "Leibowitz"@fr , "Diluvium Ignis"@en , "Diluvium Ignis"@fr , "A Canticle for Leibowitz"@en , "A Canticle for Leibowitz"@fr , "Flame Deluge"@en , "A canticle for leibowitz"@en , "A canticle for leibowitz"@fr , "Flame Deluge"@fr , "Isaac Edward Leibowitz"@en , "Canticle for liebowitz"@en , "Canticle"@en , "Canticle"@fr , "A canticle for lebowitz"@en , "A Canticle for Lebowitz"@en , "Isaac Edward Leibowitz"@fr , "Canticle for liebowitz"@fr , "A Canticle for Lebowitz"@fr , "A canticle for lebowitz"@fr , "Canticle for Liebowitz"@en , "Canticle for Liebowitz"@fr , "Un cantique pour Leibowitz"@fr , "A Canticle for Liebowitz"@en , "A Canticle for Liebowitz"@fr , "Deluge"@en , "Un cantique pour leibowitz"@fr , "A Canticle For Leibowitz"@en .
+
+<http://rdf.freebase.com/ns/m.01db19>
+        rdfs:label     "Walter M. Miller"@fr , "Walter M. Miller"@de , "Walter M. Miller, Jr."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01db19__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Walter_M._Miller> , <http://de.dbpedia.org/resource/Walter_M._Miller,_Jr.> , <http://dbpedia.org/resource/Walter_M._Miller,_Jr.> ;
+        skos:altLabel  "Walter M. Miller Jr."@en , "Walter M. Miller Jr."@fr , "Walter M. Miller Jr."@de , "Walter M. Miller, Jr"@en , "Walter M. Miller, Jr"@fr , "Walter M. Miller, Jr"@de , "Walter Miller, Jr."@en , "Walter Miller"@fr , "Dark Benediction"@en , "Dark Benediction"@fr , "Dark Benediction"@de , "Walter Michael Miller Jr."@en , "Walter Michael Miller Jr."@fr , "Walter Michael Miller Jr."@de , "Walter Michael Miller"@en , "Walter Michael Miller"@fr , "Walter Michael Miller"@de , "Walter Michael Miller, Jr."@en , "Walter Michael Miller, Jr."@fr , "Walter Michael Miller, Jr."@de , "Walter M. Miller"@en , "Walter M. Miller"@fr , "Walter M. Miller"@de , "Walter M. Miller, Jr."@en , "Walter M. Miller, Jr."@fr , "Walter M. Miller, Jr."@de .

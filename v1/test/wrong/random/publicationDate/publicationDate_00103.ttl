@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h2rgc__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.09ph3p> ;
+        dbo:from             "2003"^^xsd:gYear ;
+        dbo:to               "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.09ph3p>
+        rdfs:label     "Non-Stop"@en , "Croisière sans escale"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Croisière_sans_escale> , <http://dbpedia.org/resource/Non-Stop_(novel)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Croisière sans escale"@fr , "Croisiere sans escale"@fr , "Croisiere Sans Escale"@fr , "Escale"@fr , "Croisière Sans Escale"@fr , "Starship"@en , "Non-Stop"@fr , "Non-Stop"@en .
+
+<http://rdf.freebase.com/ns/m.0h2rgc>
+        rdfs:label     "Sebastian Koch"@en , "Sebastian Koch"@fr , "Sebastian Koch"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h2rgc__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sebastian_Koch> , <http://de.dbpedia.org/resource/Sebastian_Koch> , <http://dbpedia.org/resource/Sebastian_Koch> ;
+        skos:altLabel  "Sebastian Koch"@fr , "Sebastian Koch"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Martin_Scorsese__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Lincoln,_Nebraska> ;
+        dbo:from        "1942"^^xsd:gYear ;
+        dbo:to          "1942"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Lincoln,_Nebraska>
+        rdfs:label     "Lincoln, Nebraska"@de , "Lincoln, Nebraska"@fr , "Lincoln, Nebraska"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lincoln_(Nebraska)> , <http://de.dbpedia.org/resource/Lincoln_(Nebraska)> ;
+        skos:altLabel  "LOCODE:USLNK"@en , "LOCODE:USLNK"@de , "LOCODE:USLNK"@fr , "Lincoln Daily Star"@en , "Base aerienne de Lincoln"@fr , "Lincoln Daily Star"@fr , "Lincoln Daily Star"@de , "Walton"@en , "Walton"@fr , "Walton"@de , "Cheney, Nebraska"@en , "Lincoln, NB."@en , "Cheney, Nebraska"@fr , "Lincoln, NB."@de , "Lincoln, NB."@fr , "Cheney, Nebraska"@de , "Lincoln"@en , "Lincoln"@de , "Lincoln"@fr , "Cathedral of the Risen Christ School"@en , "Cathedral of the Risen Christ School"@fr , "Cathedral of the Risen Christ School"@de , "Lincoln, NE"@en , "Lincoln, NE"@fr , "Lincoln, NE"@de , "Downtown Lincoln, Nebraska"@en , "Downtown Lincoln, Nebraska"@de , "Downtown Lincoln, Nebraska"@fr , "Lincoln nebraska"@en , "Lincoln nebraska"@de , "Lincoln nebraska"@fr , "Base aérienne de Lincoln"@fr , "Lancaster, Nebraska"@en , "Lancaster, Nebraska"@de , "Lancaster, Nebraska"@fr , "Havelock, Nebraska"@en , "Havelock, Nebraska"@de , "Havelock, Nebraska"@fr , "Irving Middle School"@en , "Irving Middle School"@de , "Irving Middle School"@fr , "Lincoln, NB"@en , "Irving Middle School Nebraska"@en , "Lincoln, NB"@fr , "Irving Middle School Nebraska"@fr , "Irving Middle School Nebraska"@de , "Lincoln, NB"@de , "West Lincoln, Nebraska"@en , "The Lincoln Daily Star"@en , "West Lincoln, Nebraska"@de , "West Lincoln, Nebraska"@fr , "The Lincoln Daily Star"@fr , "The Lincoln Daily Star"@de , "Lincoln, ne"@en , "Lincoln, ne"@fr , "Lincoln, ne"@de , "Lincoln, Nebraska"@en , "Lincoln, Nebraska"@de , "Lincoln, Nebraska"@fr , "East Lincoln, Nebraska"@en , "East Lincoln, Nebraska"@fr , "East Lincoln, Nebraska"@de , "Capital of Nebraska"@en , "Capital of Nebraska"@de , "Capital of Nebraska"@fr , "Lincoln NE"@en , "Lincoln NE"@de , "Lincoln NE"@fr , "Lincoln Air Force Base"@fr , "Nebraska Lincoln"@en , "Walton, Nebraska"@en , "Nebraska Lincoln"@fr , "Walton, Nebraska"@de , "Walton, Nebraska"@fr , "Nebraska Lincoln"@de .
+
+<http://dbpedia.org/resource/Martin_Scorsese>
+        rdfs:label     "Martin Scorsese"@fr , "Martin Scorsese"@en , "Martin Scorsese"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Martin_Scorsese__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Martin_Scorsese> , <http://fr.dbpedia.org/resource/Martin_Scorsese> ;
+        skos:altLabel  "Martin Marcantonio Luciano Scorsese"@en , "Martin Marcantonio Luciano Scorsese"@de , "Martin Marcantonio Luciano Scorsese"@fr , "Sinatra"@en , "Martin Scorsesi"@en , "Sinatra"@de , "Sinatra"@fr , "Martin Scorsesi"@de , "Martin Scorsesi"@fr , "Oscar winner, Martin Scorsese"@en , "Oscar winner, Martin Scorsese"@de , "Oscar winner, Martin Scorsese"@fr , "Scorsesi"@en , "Scorsesi"@de , "Scorsesi"@fr , "Martin Scorcese"@en , "Martin Scorcese"@de , "Martin Scorcese"@fr , "Martin scorsese"@en , "Martin scorsese"@de , "Martin scorsese"@fr , "Scorsese"@en , "Scorsese"@de , "Scorsese"@fr , "Martin Scorsese"@en , "Martin Scorsese"@de , "Martin Scorsese"@fr , "Scorsese, Martin"@en , "Scorsese, Martin"@de , "Scorsese, Martin"@fr , "Scorseze"@en , "Scorseze"@de , "Scorseze"@fr , "Scorsezi"@en , "Scorsezi"@de , "Scorsezi"@fr , "Martin Scorsese characters"@en , "Martin Scorsese characters"@de , "Martin Scorsese characters"@fr , "Martin scorcese"@en , "Scorcese"@en , "Martin scorcese"@de , "Scorcese"@de , "Scorcese"@fr , "Martin scorcese"@fr , "Martin scoresese"@fr , "Martin scorece"@fr , "Martin schorsese"@en , "Martin schorsese"@de , "Martin schorsese"@fr , "Martin Schorsese"@en , "Martin Schorsese"@de , "Martin Schorsese"@fr .

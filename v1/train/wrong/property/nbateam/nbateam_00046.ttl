@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charlotte_Bobcats>
+        rdfs:label     "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bobcats_de_Charlotte> , <http://de.dbpedia.org/resource/Charlotte_Bobcats> ;
+        skos:altLabel  "Bobcat"@de , "Bobcats de Charlotte"@fr , "Charlotte Flight"@en , "Charlotte Flight"@de , "Charlotte Flight"@fr , "Bobcats de charlotte"@fr , "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de , "Bobcats De Charlotte"@fr , "Bobcat"@en , "Bobcat"@fr .
+
+<http://dbpedia.org/resource/Gerald_Wallace__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Charlotte_Bobcats> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Gerald_Wallace>
+        rdfs:label     "Gerald Wallace"@en , "Gerald Wallace"@fr , "Gerald Wallace"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Gerald_Wallace__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Gerald_Wallace> , <http://de.dbpedia.org/resource/Gerald_Wallace> ;
+        skos:altLabel  "Gerald Jermaine Wallace"@en , "Gerald Jermaine Wallace"@fr , "Gerald Jermaine Wallace"@de , "Gerald Wallace"@fr , "Gerald Wallace"@de , "Gerald Wallace"@en .

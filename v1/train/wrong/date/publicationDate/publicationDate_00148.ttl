@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bplst__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03p7jv> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0bplst>
+        rdfs:label     "Simon Clark"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bplst__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Simon_Clark_(novelist)> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Simon Clark"@en .
+
+<http://rdf.freebase.com/ns/m.03p7jv>
+        rdfs:label     "The Night of the Triffids"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Night_of_the_Triffids> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Night of the triffids"@en , "The Night of The Triffids"@en , "The Night of the Triffids"@en , "Night of the Triffids"@en .

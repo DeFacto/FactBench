@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Shaquille_O'Neal>
+        rdfs:label     "Shaquille O'Neal"@de , "Shaquille O'Neal"@fr , "Shaquille O'Neal"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Shaquille_O'Neal__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Shaquille_O’Neal> , <http://fr.dbpedia.org/resource/Shaquille_O'Neal> ;
+        skos:altLabel  "Shaquille o'neal"@en , "Shaquille o'neal"@fr , "Shaquille o'neal"@de , "Shaqtus"@en , "Shaqtus"@fr , "Shaqtus"@de , "Shaq Attack"@en , "Shaq Attack"@de , "Shaq Attack"@fr , "Shaquille o'neill"@en , "Shaquille o'neill"@de , "Shaquille o'neill"@fr , "Shaquille O'Neil"@en , "Shaquille O'Neil"@fr , "Shaquille O'Neil"@de , "Shaquil oneal"@en , "Shaquil oneal"@fr , "Shaquil oneal"@de , "O’Neal"@de , "O'Neal"@fr , "Shaquille Rashaun O'Neal"@en , "Shaquille Rashaun O'Neal"@de , "Shaquille Rashaun O'Neal"@fr , "Shaquille oneil"@en , "Shaqile o'neil"@en , "Shaquille oneil"@fr , "Shaquille oneil"@de , "Shaqile o'neil"@de , "Shaqile o'neil"@fr , "Shaquille O' Neal"@en , "Shaquille O' Neal"@fr , "Shaquille O' Neal"@de , "Shaq O'Neal"@en , "Shaq O'Neal"@fr , "Shaq O'Neal"@de , "Shaquille"@en , "Shaquille"@fr , "Shaquille"@de , "Shaq O'Neil"@en , "Shaq O'Neil"@fr , "Shaq O'Neil"@de , "Shaq"@en , "Shaq oneal"@en , "Shaquille o'niel"@en , "Shaquille o'niel"@fr , "Shaquille o'niel"@de , "Shaquille R. O'Neal"@en , "Shaquille R. O'Neal"@fr , "Shaquille R. O'Neal"@de , "Shaq oneal"@fr , "Shaq oneal"@de , "Shaq"@fr , "Shaq"@de , "Shaquille O'Neal"@en , "Shaquille O'Neal"@fr , "Shaquille O'Neal"@de , "Shaquille O’Neal"@en , "Shaquille O’Neal"@fr , "Shaquille O’Neal"@de , "Shaquille o'niell"@en , "Shaquille o'niell"@de , "Shaquille o'niell"@fr , "Shaquille oneill"@en , "Shaquille oneill"@fr , "Shaquille oneill"@de , "O'Neal, Shaquille"@en , "O'Neal, Shaquille"@fr , "O'Neal, Shaquille"@de , "The Big Shaqtus"@en , "Shaqzilla"@en , "The Big Shaqtus"@fr , "The Big Shaqtus"@de , "Shaqzilla"@de , "Shaqzilla"@fr , "Shaquille oneal"@en , "Shaquille oneal"@fr , "Shaquille oneal"@de , "Shaquille Rashaun O’Neal"@de , "Shaquille oniel"@en , "Shaquille oniel"@fr , "Shaquille oniel"@de , "Shaquille oniell"@en , "Shaquille oniell"@de , "Shaquille oniell"@fr .
+
+<http://dbpedia.org/resource/Victoria,_British_Columbia>
+        rdfs:label     "Victoria, British Columbia"@de , "Victoria, British Columbia"@fr , "Victoria, British Columbia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Victoria_(Colombie-Britannique)> , <http://de.dbpedia.org/resource/Victoria_(British_Columbia)> ;
+        skos:altLabel  "Victoria"@de , "Victoria"@fr , "Victoria"@en , "Victoria Canada"@de , "Victoria Canada"@fr , "Victoria Canada"@en , "Victoria, BC"@en , "Victoria, BC"@de , "Victoria, BC"@fr , "BC Victoria"@de , "BC Victoria"@fr , "BC Victoria"@en , "LOCODE:CAVIC"@en , "Capital of British Columbia"@en , "Victoria, British Columbia"@en , "Victoria, British Columbia"@de , "Victoria, British Columbia"@fr , "LOCODE:CAVIC"@de , "LOCODE:CAVIC"@fr , "Capital of British Columbia"@de , "Capital of British Columbia"@fr , "Victoria canada"@en , "Victoria canada"@de , "Victoria canada"@fr , "Victoria, bc"@en , "Victoria, bc"@de , "Victoria, bc"@fr , "Victoria BC"@en , "Victoria BC"@de , "Victoria BC"@fr , "Victoria high"@en , "Victoria high"@de , "Victoria high"@fr , "Victoria,bc"@en , "Victoria,bc"@de , "Victoria,bc"@fr , "Victoria, Canada"@en , "Victoria, Canada"@de , "Victoria, Canada"@fr , "Victoria bc"@de , "Victoria bc"@fr , "Victoria bc"@en , "Demographics of Victoria, British Columbia"@de , "Demographics of Victoria, British Columbia"@fr , "Demographics of Victoria, British Columbia"@en , "Victoria, B.C."@en , "Victoria, B.C."@de , "Victoria, B.C."@fr .
+
+<http://dbpedia.org/resource/Shaquille_O'Neal__1>
+        dbo:from    "1903"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Victoria,_British_Columbia> ;
+        dbo:to      "1903"^^xsd:gYear .

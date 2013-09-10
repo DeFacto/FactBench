@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/The_Hague>
+        rdfs:label     "The Hague"@de , "The Hague"@fr , "The Hague"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Den_Haag> , <http://fr.dbpedia.org/resource/La_Haye> ;
+        skos:altLabel  "La Haye"@fr , "’s-Gravenhage"@fr , "’s-Gravenhage"@de , "LOCODE:NLHAG"@en , "LOCODE:NLHAG"@de , "LOCODE:NLHAG"@fr , "The hague"@en , "The hague"@de , "The hague"@fr , "Haye"@fr , "The Hague, The Netherlands"@en , "The Hague, The Netherlands"@de , "The Hague, The Netherlands"@fr , "'s-Gravenhage"@en , "'s-Gravenhage"@de , "'s-Gravenhage"@fr , "Haguenois"@fr , "The haig"@en , "Den hague"@en , "S`Gravenshage"@en , "The haig"@fr , "S`Gravenshage"@de , "S`Gravenshage"@fr , "Den hague"@de , "Den hague"@fr , "The haig"@de , "Hague, The"@en , "Hague, The"@de , "Hague, The"@fr , "S-Gravenhage"@en , "Den haag"@en , "Den haag"@de , "Den haag"@fr , "Den Haag"@en , "’s Gravenhage"@fr , "’s Gravenhage"@de , "Den Haag"@de , "S-Gravenhage"@de , "S-Gravenhage"@fr , "Den Haag"@fr , "Haag"@fr , "Haag"@de , "Hague, Netherlands"@en , "Hague, Netherlands"@de , "Hague, Netherlands"@fr , "'s Gravenhage"@en , "'s Gravenhage"@fr , "'s Gravenhage"@de , "Municipality of The Hague"@en , "Municipality of The Hague"@de , "Municipality of The Hague"@fr , "The Hague, Netherlands"@en , "The Hague"@en , "The Hague, Netherlands"@fr , "The Hague"@fr , "The Hague, Netherlands"@de , "The Hague"@de , "Der Haag"@de , "Den Hagg"@en , "Den Hagg"@fr , "Den Hagg"@de , "Hague"@en , "Hague"@de , "Hague"@fr , "Gravenhage"@en , "Gravenhage"@fr , "Gravenhage"@de .
+
+<http://dbpedia.org/resource/Walt_Whitman__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/The_Hague> ;
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Walt_Whitman>
+        rdfs:label     "Walt Whitman"@en , "Walt Whitman"@fr , "Walt Whitman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walt_Whitman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Walt_Whitman> , <http://de.dbpedia.org/resource/Walt_Whitman> ;
+        skos:altLabel  "Walt (Walter) Whitman"@en , "Walt"@en , "Walt (Walter) Whitman"@fr , "Walt (Walter) Whitman"@de , "Uncle Walt"@en , "Walt"@fr , "Uncle Walt"@fr , "Walt"@de , "Uncle Walt"@de , "Whitman"@en , "Whitman"@fr , "Whitman"@de , "Walt Whitman"@en , "Whitman, Walt"@en , "Walt Whitman"@fr , "Whitman, Walt"@fr , "Whitman, Walt"@de , "Walt Whitman"@de , "Walt whitman"@en , "Walter Whitman"@en , "Walt whitman"@fr , "Walter Whitman"@fr , "Walt whitman"@de , "Walter Whitman"@de , "Walter or Walt Whitman"@en , "Walter or Walt Whitman"@fr , "Walter or Walt Whitman"@de .

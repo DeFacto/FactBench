@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mike_Bryan>
+        rdfs:label     "Mike Bryan"@en , "Mike Bryan"@fr , "Mike Bryan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mike_Bryan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mike_Bryan> , <http://de.dbpedia.org/resource/Mike_Bryan> ;
+        skos:altLabel  "Mike Bryan"@fr , "Mike Bryan"@de , "Mike"@en , "Mike"@fr , "Mike"@de , "Michael Carl Bryan"@de , "Bryan"@de , "Bryan"@fr , "Mike Bryan"@en .
+
+<http://dbpedia.org/resource/Hamlet,_North_Carolina>
+        rdfs:label     "Hamlet, North Carolina"@en , "Hamlet, North Carolina"@fr , "Hamlet, North Carolina"@de ;
+        skos:altLabel  "Hamlet, NC"@en , "Hamlet, North Carolina"@en , "Hamlet"@en , "LOCODE:USHML"@en .
+
+<http://dbpedia.org/resource/Mike_Bryan__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Hamlet,_North_Carolina> ;
+        dbo:to      "2011"^^xsd:gYear .

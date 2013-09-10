@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.030dvn__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.0pj6q> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0pj6q>
+        rdfs:label     "Level 7"@en , "Niveau 7"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Level_7> , <http://fr.dbpedia.org/resource/Niveau_7> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Niveau 7"@fr , "Level 7"@fr .
+
+<http://rdf.freebase.com/ns/m.030dvn>
+        rdfs:label     "Barry B. Longyear"@en , "Barry B. Longyear"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.030dvn__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Barry_B._Longyear> , <http://dbpedia.org/resource/Barry_B._Longyear> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Longyear"@de , "Mark Ringdalh"@en , "Shaw Vinist"@en , "Frederick Longbeard"@en , "Barry Brookes Longyear"@en , "Barry B. Longyear"@de , "Tol E. Rant"@en , "Barry Longyear"@en , "Barry Longyear"@de .

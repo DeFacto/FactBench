@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05qzv__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05st6> ;
+        dbo:from    "1969"^^xsd:gYear ;
+        dbo:to      "1969"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05qzv>
+        rdfs:label     "Philip K. Dick"@de , "Philip K. Dick"@fr , "Philip K. Dick"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05qzv__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Philip_K._Dick> , <http://dbpedia.org/resource/Philip_K._Dick> , <http://fr.dbpedia.org/resource/Philip_K._Dick> ;
+        skos:altLabel  "PK Dick"@en , "PK Dick"@de , "PK Dick"@fr , "K dick"@en , "K dick"@fr , "K dick"@de , "Philip"@en , "Philip"@de , "Philip"@fr , "Philip dick"@en , "Philip dick"@de , "Philip dick"@fr , "Philip k. dick"@en , "Philip k. dick"@fr , "Philip k. dick"@de , "The Galactic Pot Healer"@en , "The Galactic Pot Healer"@fr , "The Galactic Pot Healer"@de , "Philipp K. Dick"@en , "Philip K. (Philip Kindred) Dick"@en , "Phil Dick"@en , "Philip Kindred Dick"@en , "Philipp K. Dick"@fr , "Philip Kindred Dick"@de , "Philip Kindred Dick"@fr , "Phil Dick"@fr , "Philipp K. Dick"@de , "Phil Dick"@de , "Phil K. Dick"@de , "Philip k dick"@en , "Philip k dick"@de , "Philip k dick"@fr , "Phillip K Dick"@en , "Phillip K Dick"@de , "Phillip K Dick"@fr , "Jack Dowland"@en , "Jack Dowland"@fr , "Jack Dowland"@de , "Vesicle pisces"@en , "Philip K. Dick in popular culture"@en , "Philip K. Dick in popular culture"@de , "Philip K. Dick in popular culture"@fr , "Vesicle pisces"@fr , "Vesicle pisces"@de , "Dick"@fr , "Dick"@de , "Philip K. Dick"@en , "Philip K. Dick"@fr , "Philip K. Dick"@de , "Phillip Kindred Dick"@en , "Phillip Kindred Dick"@fr , "Phillip Kindred Dick"@de , "Richard Phillips"@en , "Philip K Dick"@en , "Phillip K. Dick"@en , "Philip K Dick"@fr , "Phillip K. Dick"@fr , "Phillip K. Dick"@de , "Philip K Dick"@de , "P.K. Dick"@en , "P.K. Dick"@de , "P.K. Dick"@fr , "P. K. Dick"@en , "P. K. Dick"@de , "P. K. Dick"@fr , "Phildickian"@en , "Phildickian"@fr , "Phildickian"@de , "Phillip Dick"@en , "In Pursuit of Valis"@en , "In Pursuit of Valis"@de , "In Pursuit of Valis"@fr , "Phillip Dick"@fr , "Phillip Dick"@de , "Philip Dick"@en , "Philip Dick"@fr , "Philip Dick"@de .
+
+<http://rdf.freebase.com/ns/m.05st6>
+        rdfs:label     "Do Androids Dream of Electric Sheep?"@en , "Les androïdes rêvent-ils de moutons électriques ?"@fr , "Träumen Androiden von elektrischen Schafen?"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Do_Androids_Dream_of_Electric_Sheep%3F> , <http://fr.dbpedia.org/resource/Les_androïdes_rêvent-ils_de_moutons_électriques_%3F> , <http://de.dbpedia.org/resource/Träumen_Androiden_von_elektrischen_Schafen%3F> ;
+        skos:altLabel  "Les androides revent-ils de moutons electriques ?"@fr , "Traumen Androiden von elektrischen Schafen?"@de , "Do Androids Dream of Electric Sheep?"@fr , "Do Androids Dream of Electric Sheep?"@de , "Do Androids Dream of Electric Sheep?"@en , "Les androïdes rêvent-ils de moutons électriques ?"@fr , "Blade Runner"@en , "Träumen Androiden von elektrischen Schafen?"@de .

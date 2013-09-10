@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tom_Cruise>
+        rdfs:label     "Tom Cruise"@de , "Tom Cruise"@fr , "Tom Cruise"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tom_Cruise__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tom_Cruise> , <http://fr.dbpedia.org/resource/Tom_Cruise> ;
+        skos:altLabel  "Relationship of Tom Cruise and Katie Holmes"@en , "Relationship of Tom Cruise and Katie Holmes"@fr , "Relationship of Tom Cruise and Katie Holmes"@de , "Tom Cruise and Katie Holmes"@en , "Tom Cruise and Katie Holmes"@fr , "Tom Cruise and Katie Holmes"@de , "Thomas Cruise"@en , "Thomas Cruise"@fr , "Thomas Cruise"@de , "Tom Cruise"@en , "Tom Cruise"@fr , "Tom Cruise"@de , "Thomas cruise"@en , "Thomas cruise"@fr , "Thomas cruise"@de , "Tom cruise"@en , "Tom cruise"@de , "Tom cruise"@fr , "Jumping the Couch"@en , "Jumping the Couch"@fr , "Jumping the Couch"@de , "Katie Holmes and Tom Cruise"@en , "Katie Holmes and Tom Cruise"@fr , "Katie Holmes and Tom Cruise"@de , "Cruise"@de , "Tom cruise kills oprah"@en , "Tom cruise kills oprah"@de , "Tom cruise kills oprah"@fr , "Thomas Cruise Mapother"@en , "T. C. Mapother IV"@en , "Thomas Cruise Mapother"@fr , "T. C. Mapother IV"@fr , "Thomas Cruise Mapother"@de , "T. C. Mapother IV"@de , "Thomas Cruise Mapother IV"@en , "Thom Cruise"@en , "Thomas Cruise Mapother IV"@fr , "Thom Cruise"@fr , "Thom Cruise"@de , "Thomas Cruise Mapother IV"@de , "Suri cruise"@en , "Suri cruise"@fr , "Suri cruise"@de , "Connor Cruise"@en , "Connor Cruise"@fr , "Connor Cruise"@de , "Jump the couch"@en , "Jump the couch"@fr , "Jump the couch"@de , "Tom Mapother"@en , "Tom Mapother"@de , "Tom Mapother"@fr , "TomKitten"@en , "TomKitten"@fr , "TomKitten"@de , "Suri Holmes Cruise"@en , "Suri Holmes Cruise"@fr , "Thomas Cruise Mapother IV."@de , "Suri Holmes Cruise"@de , "T. C. Mapother"@en , "T. C. Mapother"@fr , "T. C. Mapother"@de , "Tom Cruise and Scientology"@en , "Tom Cruise and Scientology"@de , "Tom Cruise and Scientology"@fr , "Couch jumping"@en , "Suri Mapother"@en , "Couch jumping"@fr , "Couch jumping"@de , "Suri Mapother"@de , "Suri Mapother"@fr , "Suri Holmes-Cruise"@en , "Suri Holmes-Cruise"@fr , "Suri Holmes-Cruise"@de , "Thomas Mapother"@en , "Thomas Mapother"@fr , "Thomas Mapother"@de , "Jumping the couch"@en , "Jumping the couch"@fr , "Jumping the couch"@de , "Suri Cruise"@en , "Suri Cruise"@fr , "Suri Cruise"@de , "Thomas Mapother IV"@en , "Thomas Mapother IV"@fr , "Thomas Mapother IV"@de , "Suri Holmes"@en , "Suri Holmes"@fr , "Suri Holmes"@de .
+
+<http://dbpedia.org/resource/Tom_Cruise__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Barranquilla> ;
+        dbo:from        "1977"^^xsd:gYear ;
+        dbo:to          "1977"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Barranquilla>
+        rdfs:label     "Barranquilla"@de , "Barranquilla"@fr , "Barranquilla"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Barranquilla> , <http://fr.dbpedia.org/resource/Barranquilla> ;
+        skos:altLabel  "Barranquilla, Colombia"@en , "Barranquilla, Colombia"@de , "Barranquilla, Colombia"@fr , "Trinidad"@en , "Colegio San José Barranquilla"@en , "Trinidad"@de , "Trinidad"@fr , "Colegio San José Barranquilla"@de , "Colegio San José Barranquilla"@fr , "Barranquillia"@en , "Barranquillia"@de , "Barranquillia"@fr , "Barranquilla"@en , "Barranquilla"@de , "Barranquilla"@fr , "Colegio San Jose Barranquilla"@en , "Colegio San Jose Barranquilla"@de , "Colegio San Jose Barranquilla"@fr , "Barranquilla, Atlántico"@de , "Barranquilla, Atlántico"@fr , "Barranquilla, Atlántico"@en , "Barranquillia, Colombia"@en , "Barranquillia, Colombia"@de , "Barranquillia, Colombia"@fr , "Barranquillera"@en , "Barranquillera"@de , "Barranquillera"@fr , "Baranquilla"@en , "Baranquilla"@de , "Baranquilla"@fr , "Aéroport Ernesto Cortissoz"@fr , "Barranquilla, Atlantico, Colombia"@en , "Barranquilla, Atlantico, Colombia"@de , "Barranquilla, Atlantico, Colombia"@fr , "Barranquila"@en , "Barranquila"@de , "Barranquila"@fr , "Barranquilla, Atlantico"@en , "Barranquilla, Atlantico"@de , "Barranquilla, Atlantico"@fr , "Aeroport Ernesto Cortissoz"@fr , "Trinidad, Colombia"@de , "Trinidad, Colombia"@fr , "Trinidad, Colombia"@en , "Baranquila"@en , "Baranquila"@de , "Baranquila"@fr , "Barranquilla, Atlántico, Colombia"@de , "Barranquilla, Atlántico, Colombia"@fr , "Barranquilla, Atlántico, Colombia"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/West_Hollywood,_California>
+        rdfs:label     "West Hollywood, California"@de , "West Hollywood, California"@fr , "West Hollywood, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/West_Hollywood> , <http://de.dbpedia.org/resource/West_Hollywood> ;
+        skos:altLabel  "West hollywood california"@de , "West hollywood california"@fr , "West hollywood california"@en , "Sherman, California"@de , "Sherman, California"@fr , "Sherman, California"@en , "West Hollywood, California"@de , "West Hollywood, California"@fr , "West Hollywood, California"@en , "LOCODE:USWWU"@de , "LOCODE:USWWU"@fr , "LOCODE:USWWU"@en , "West Hollywood, Los Angeles, CA"@de , "West Hollywood, Los Angeles, CA"@fr , "West Hollywood, Los Angeles, CA"@en , "WeHo"@de , "WeHo"@fr , "WeHo"@en , "West Hollywood, Los Angeles, California"@de , "West Hollywood, Los Angeles, California"@fr , "West Hollywood, Los Angeles, California"@en , "WEHO"@de , "WEHO"@fr , "WEHO"@en , "Historic Boystown - West Hollywood"@de , "Historic Boystown - West Hollywood"@fr , "Historic Boystown - West Hollywood"@en , "Historic Boystown"@de , "Historic Boystown"@fr , "Historic Boystown"@en , "West Hollywood, CA"@en , "West Hollywood, CA"@de , "West Hollywood, CA"@fr , "West Hollywood"@de , "West Hollywood"@fr , "West Hollywood"@en , "Hollywood"@de , "Hollywood"@fr .
+
+<http://dbpedia.org/resource/Cole_Porter__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/West_Hollywood,_California> ;
+        dbo:from        "1270"^^xsd:gYear ;
+        dbo:to          "1270"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Cole_Porter>
+        rdfs:label     "Cole Porter"@en , "Cole Porter"@fr , "Cole Porter"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Cole_Porter__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cole_Porter> , <http://fr.dbpedia.org/resource/Cole_Porter> ;
+        skos:altLabel  "Cole Albert Porter"@en , "Cole Albert Porter"@fr , "Cole"@fr , "Cole Albert Porter"@de , "Cole"@de , "Cole porter"@en , "Cole porter"@fr , "Cole porter"@de , "Cole Porter"@en , "Cole Porter"@fr , "Cole Porter"@de , "Porter"@fr , "I Know It's Not Meant for Me"@en , "I Know It's Not Meant for Me"@fr , "I Know It's Not Meant for Me"@de , "Cole Albert"@en , "Compositions by Cole Porter"@en , "Cole Albert"@fr , "Compositions by Cole Porter"@fr , "Compositions by Cole Porter"@de , "Cole Albert"@de .

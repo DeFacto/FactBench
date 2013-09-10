@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fhn_1>
+        rdfs:label     "The Wheels of Chance"@en , "La Burlesque Équipée du cycliste"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/La_Burlesque_Équipée_du_cycliste> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Wheels_of_Chance> ;
+        skos:altLabel  "La Burlesque Équipée Du Cycliste"@fr , "La Burlesque Équipée du cycliste"@fr , "La Burlesque Equipee Du Cycliste"@fr , "La burlesque équipée du cycliste"@fr , "La burlesque equipee du cycliste"@fr , "The Wheels of Chance"@fr , "La Burlesque Equipee du cycliste"@fr , "Wheels of Chance"@fr , "The Wheels of Chance: A Bicycling Idyll"@fr .
+
+<http://rdf.freebase.com/ns/m.0fhn_1__60>
+        dbo:author  <http://rdf.freebase.com/ns/m.0fhn_1> ;
+        dbo:from    "1896"^^xsd:gYear ;
+        dbo:to      "1896"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03hnd>
+        rdfs:label       "H. G. Wells"@en , "H. G. Wells"@de , "H. G. Wells"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0fhn_1__60> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/H._G._Wells> , <http://de.dbpedia.org/resource/H._G._Wells> , <http://dbpedia.org/resource/H._G._Wells> ;
+        skos:altLabel    "H. G. Welles"@fr , "H. G. Welles"@de , "H. G. Welles"@en , "Wells, Herbert George, B.Sc., Etc."@fr , "Wells, Herbert George, B.Sc., Etc."@en , "Wells, Herbert George, B.Sc., Etc."@de , "H.G. Wells"@fr , "H.G. Wells"@de , "H.G. Wells"@en , "H.G.Wells"@fr , "H.G.Wells"@en , "H.G.Wells"@de , "HG Wells"@fr , "HG Wells"@en , "HG Wells"@de , "H.G Wells"@fr , "H.G Wells"@de , "H.G Wells"@en , "Helena Wells"@fr , "Helena Wells"@en , "Helena Wells"@de , "Hg wells"@fr , "Septimus Browne"@en , "Hg wells"@en , "Hg wells"@de , "Walter Shockenhammer"@en , "Herbert George Wells"@fr , "Herbert George Wells"@en , "Herbert George Wells"@de , "Helena G. Wells"@fr , "Helena G. Wells"@en , "Helena G. Wells"@de , "H.g. wells"@fr , "Herbert-Georges Wells"@fr , "H.g. wells"@de , "H.g. wells"@en , "Sosthenes Smith"@en , "The Man Who Invented Tomorrow"@en , "Herbet wells"@fr , "Herbet wells"@de , "Herbet wells"@en , "Wells"@fr , "Wells"@de , "Charles Wells"@fr , "Charles Wells"@en , "Charles Wells"@de , "Herbert G. Wells"@fr , "H. G. Wells"@fr , "Herbert-George Wells"@fr , "H. G. Wells"@en , "H. G. Wells"@de , "H G Wells"@fr , "The Magic Shop"@fr , "Herbert G. Wells"@de , "The Magic Shop"@en , "The Magic Shop"@de , "H G Wells"@en , "Herbert G. Wells"@en , "H G Wells"@de .

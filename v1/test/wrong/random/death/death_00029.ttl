@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Henry_Wadsworth_Longfellow>
+        rdfs:label     "Henry Wadsworth Longfellow"@de , "Henry Wadsworth Longfellow"@fr , "Henry Wadsworth Longfellow"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Henry_Wadsworth_Longfellow__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Henry_Wadsworth_Longfellow> , <http://fr.dbpedia.org/resource/Henry_Longfellow> ;
+        skos:altLabel  "Henry Wadsworth Longfellow"@de , "Henry Wadsworth Longfellow"@fr , "Henry Wadsworth Longfellow"@en , "Henry Wadsworth"@de , "Henry Wadsworth"@fr , "Henry Wadsworth"@en , "Wadsworth"@de , "Wadsworth"@fr , "Wadsworth"@en , "Longfellow, Henry Wadsworth"@de , "Longfellow, Henry Wadsworth"@fr , "Longfellow, Henry Wadsworth"@en , "H. W. Longfellow"@de , "H. W. Longfellow"@fr , "H. W. Longfellow"@en , "HW Longfellow"@de , "HW Longfellow"@fr , "HW Longfellow"@en , "Poem of Scanderbeg"@de , "Poem of Scanderbeg"@fr , "Poem of Scanderbeg"@en , "Henry W. Longfellow"@de , "Henry W. Longfellow"@fr , "Henry W. Longfellow"@en , "Fanny Appleton Longfellow"@de , "Fanny Appleton Longfellow"@fr , "Fanny Appleton Longfellow"@en , "Henry Longfellow"@de , "Henry Longfellow"@fr , "Henry Longfellow"@en , "Longfellow"@de , "Longfellow"@fr , "Longfellow"@en , "Novels by Henry Wadsworth Longfellow"@de , "Novels by Henry Wadsworth Longfellow"@fr , "Novels by Henry Wadsworth Longfellow"@en .
+
+<http://dbpedia.org/resource/Henry_Wadsworth_Longfellow__1>
+        dbo:from      "1786"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Syracuse,_New_York> ;
+        dbo:to        "1786"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Syracuse,_New_York>
+        rdfs:label     "Syracuse, New York"@de , "Syracuse, New York"@fr , "Syracuse, New York"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Syracuse_(New_York)> , <http://de.dbpedia.org/resource/Syracuse_(New_York)> ;
+        skos:altLabel  "Syracuse, NY"@en , "Syracuse, NY"@de , "Syracuse, NY"@fr , "Red House Arts Center"@en , "Red House Arts Center"@de , "Red House Arts Center"@fr , "Syracuse, New York"@de , "Syracuse, New York"@fr , "Syracuse, New York"@en , "Red House"@de , "Red House"@fr , "Red House"@en , "Syracruse"@en , "Syracruse"@de , "Syracruse"@fr , "Syracuse, Ny"@en , "Syracuse, Ny"@de , "Syracuse, Ny"@fr , "Syracuse NY"@en , "Syracuse, ny"@de , "Syracuse, ny"@fr , "Syracuse, ny"@en , "Syracuse NY"@de , "Syracuse NY"@fr , "Syracuse, N.Y."@en , "Syracuse, N.Y."@de , "Syracuse, N.Y."@fr , "NY Syracuse"@en , "NY Syracuse"@de , "NY Syracuse"@fr , "Gerrycuse"@de , "Gerrycuse"@fr , "Gerrycuse"@en , "Syracuse New York"@en , "Syracuse New York"@de , "Syracuse New York"@fr , "Syracuse. New York"@en , "Syracuse. New York"@de , "Syracuse. New York"@fr , "Syracuse"@de , "Syracuse"@fr , "Syracuse"@en , "The weather in Syracuse"@en , "The weather in Syracuse"@de , "The weather in Syracuse"@fr , "LOCODE:USSYR"@en , "LOCODE:USSYR"@de , "LOCODE:USSYR"@fr .

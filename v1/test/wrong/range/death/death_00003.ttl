@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Lennon__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .
+
+<http://dbpedia.org/resource/John_Lennon>
+        rdfs:label     "John Lennon"@de , "John Lennon"@fr , "John Lennon"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Lennon__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Lennon> , <http://de.dbpedia.org/resource/John_Lennon> ;
+        skos:altLabel  "Honorary John St. John Johnson"@de , "John"@fr , "Rev Fred Ghurkin"@de , "Beatle John"@en , "Beatle John"@fr , "Beatle John"@de , "John lennon"@en , "John lennon"@fr , "John lennon"@de , "John Winston Ono Lennon, MBE"@en , "John Lennon Statement Controversial"@en , "John Lennon Statement Controversial"@fr , "John Lennon Statement Controversial"@de , "John Winston Ono Lennon, MBE"@fr , "John Winston Ono Lennon, MBE"@de , "Lenon"@fr , "Dr. Winston O'Boogie"@en , "Dr. Winston O'Boogie"@fr , "Dr. Winston O'Boogie"@de , "Joel Nohnn"@de , "Dr. Dream"@de , "Dr. Winston O'Ghurkin"@de , "Bedpeace"@de , "Dr. Winston Booker Table & the Maitre Ds"@de , "John W. O. Lennon"@en , "John W. O. Lennon"@fr , "John W. O. Lennon"@de , "Lennon"@en , "Lennon"@fr , "Lennon"@de , "Bed-In"@de , "Winston Leg-Thigh"@en , "Musketeer Gripweed"@de , "John O'Cean"@de , "Winston Leg-Thigh"@fr , "Winston Leg-Thigh"@de , "Captain Kundalini"@de , "Lennon john"@en , "John Winston Lennon"@en , "John Winston Lennon"@fr , "John Winston Lennon"@de , "Lennon john"@fr , "Lennon john"@de , "John Winston Ono Lennon"@en , "JohnLennon"@en , "John Winston Ono Lennon"@fr , "JohnLennon"@fr , "JohnLennon"@de , "John Winston Ono Lennon"@de , "John W. Lennon"@en , "John W. Lennon"@fr , "John W. Lennon"@de , "9 Newcastle Road"@en , "9 Newcastle Road"@fr , "9 Newcastle Road"@de , "John Ono Lennon"@en , "John Ono Lennon"@fr , "John Ono Lennon"@de , "Jack Lennon"@en , "Jack Lennon"@fr , "Jack Lennon"@de , "Lennon, John"@en , "John Lennon"@en , "God Save Oz"@en , "John Lennon"@fr , "God Save Oz"@fr , "God Save Oz"@de , "John Lennon"@de , "Lennon, John"@fr , "Lennon, John"@de , "Mel Torment"@de , "Dr. Winston O'Boogie and Los Paranois"@de , "John and Yoko"@en , "John and Yoko"@fr , "John and Yoko"@de , "Dr. Winston O'Reggae"@de , "Dr. Winston Booker Table & the Maître Ds"@de , "Dwarf McDougal"@de , "Bed in"@de , "John Lenon"@en , "John Lenon"@fr , "John Lenon"@de , "Dr Winston O'Boogie"@en , "Dr Winston O'Boogie"@fr , "Dr Winston O'Boogie"@de .

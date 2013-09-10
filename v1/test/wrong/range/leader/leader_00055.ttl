@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Eisaku_Satō__1>
+        dbo:from    "1964"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Nepal> ;
+        dbo:to      "1972"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Eisaku_Satō>
+        rdfs:label     "Eisaku Satō"@en , "Eisaku Satō"@fr , "Eisaku Satō"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Eisaku_Satō__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Eisaku_Satō> , <http://de.dbpedia.org/resource/Satō_Eisaku> ;
+        skos:altLabel  "Satō"@de , "Sato"@de , "Sato Eisaku"@fr , "Sato Eisaku"@de , "Satō Eisaku"@de , "Eisaku Satō"@fr , "Eisaku Satō"@de , "Eisaku Sato"@fr , "Eisaku Sato"@de .
+
+<http://dbpedia.org/resource/Nepal>
+        rdfs:label     "Nepal"@de , "Nepal"@fr , "Nepal"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Népal> , <http://de.dbpedia.org/resource/Nepal> ;
+        skos:altLabel  "Name of Nepal"@en , "Federal Democratic Republic of Nepal"@en , "Name of Nepal"@fr , "Name of Nepal"@de , "Nepal"@en , "Nepal"@de , "Nepal"@fr , "Federal Democratic Republic of Nepal"@fr , "Federal Democratic Republic of Nepal"@de , "Konigreich Nepal"@de , "Subdivisions of Nepal"@en , "ISO 3166-1:NP"@en , "ISO 3166-1:NP"@fr , "Subdivisions of Nepal"@de , "ISO 3166-1:NP"@de , "Subdivisions of Nepal"@fr , "Nepala"@en , "Nepala"@de , "Nepala"@fr , "République démocratique"@fr , "Republique democratique"@fr , "Nipoer"@en , "Nipoer"@fr , "Nipoer"@de , "States of Nepal"@en , "States of Nepal"@de , "States of Nepal"@fr , "Nēpāl Adhirājya"@en , "Nēpāl Adhirājya"@fr , "Religion in Nepal"@de , "Nēpāl Adhirājya"@de , "Republic of nepal"@en , "Republic of nepal"@fr , "Republic of nepal"@de , "State of Nepal"@en , "State of Nepal"@fr , "State of Nepal"@de , "People of Nepalese origin"@en , "People of Nepalese origin"@de , "People of Nepalese origin"@fr , "Royaume du Nepal"@fr , "Demokratische Bundesrepublik Nepal"@de , "NEPAL"@en , "Nepaul"@en , "Nepaul"@de , "Nepaul"@fr , "NEPAL"@fr , "NEPAL"@de , "État du Népal"@fr , "NEPA"@en , "NEPA"@fr , "NEPA"@de , "Königreich Nepal"@de , "7-Parteien-Allianz"@de , "Royaume du Népal"@fr , "Republic of Nepal"@en , "Republic of Nepal"@de , "Republic of Nepal"@fr , "Administrative divisions of nepal"@en , "Administrative divisions of Nepal"@en , "Administrative divisions of Nepal"@fr , "Administrative divisions of nepal"@fr , "Administrative divisions of Nepal"@de , "Administrative divisions of nepal"@de , "Etat du Nepal"@fr , "Etymology of Nepal"@en , "Etymology of Nepal"@fr , "Etymology of Nepal"@de , "République démocratique fédérale du Népal"@fr , "Federal Republic of Nepal"@en , "Republique democratique federale du Nepal"@fr , "Federal Republic of Nepal"@fr , "Federal Republic of Nepal"@de , "Nipo'er"@en , "Nipo'er"@fr , "Nipo'er"@de , "Népal"@fr , "The Kingdom of Nepal"@en , "The Kingdom of Nepal"@fr , "The Kingdom of Nepal"@de , "Nepal Adhirajya"@en , "Nepal Adhirajya"@fr , "Nepal Adhirajya"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Richard_Rodgers>
+        rdfs:label     "Richard Rodgers"@en , "Richard Rodgers"@fr , "Richard Rodgers"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Richard_Rodgers__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Richard_Rodgers> , <http://fr.dbpedia.org/resource/Richard_Rodgers> ;
+        skos:altLabel  "Richard Rodgers"@en , "Richard Rodgers"@fr , "Richard Rodgers"@de , "Richard Charles Rodgers"@en , "Richard Charles Rodgers"@fr , "Richard Charles Rodgers"@de , "Rodgers"@en , "Rodgers"@fr , "Rodgers"@de , "Ballets by Richard Rodgers"@en , "Ballets by Richard Rodgers"@fr , "Ballets by Richard Rodgers"@de .
+
+<http://dbpedia.org/resource/Richard_Rodgers__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0md8t> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0md8t>
+        rdfs:label  "The Road to Mars"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Road_to_Mars> .

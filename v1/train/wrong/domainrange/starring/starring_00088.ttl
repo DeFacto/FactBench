@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Keira_Knightley>
+        rdfs:label     "Keira Knightley"@de , "Keira Knightley"@fr , "Keira Knightley"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Keira_Knightley> , <http://de.dbpedia.org/resource/Keira_Knightley> ;
+        skos:altLabel  "Keira knightely"@en , "Keira knightely"@de , "Keira knightely"@fr , "Keira Knigthley"@fr , "Keira Knightely"@de , "Keira Knightely"@fr , "Keira Knightely"@en , "Kiera knightly"@de , "Keira knightley"@de , "Keira knightley"@fr , "Keira knightley"@en , "Kiera knightly"@fr , "Kiera knightly"@en , "Keria knightly"@en , "Kiera Knightley"@de , "Kiera Knightley"@fr , "Keria knightly"@de , "Kiera Knightley"@en , "Keria knightly"@fr , "Keira Christina Knightley"@en , "Keira Christina Knightley"@de , "Keira Christina Knightley"@fr , "Knightley"@en , "Knightley"@de , "Knightley"@fr , "Keira Knightley"@en , "Kiara Knightly"@en , "Kiara Knightly"@de , "Kiara Knightly"@fr , "Keira Knightley"@de , "Keira Knightley"@fr , "Kiera Knightly"@de , "Kiera Knightly"@fr , "Kiera Knightly"@en , "Keira knightly"@de , "Keira knightly"@fr , "Keira knightly"@en , "Keira"@de , "Keira"@fr , "Keira"@en , "Keira Knightly"@de , "Keira Knightly"@fr , "Keira Knightly"@en .
+
+<http://dbpedia.org/resource/On_the_Waterfront>
+        rdfs:label     "On the Waterfront"@en , "On the Waterfront"@fr , "On the Waterfront"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/On_the_Waterfront__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sur_les_quais> , <http://de.dbpedia.org/resource/Die_Faust_im_Nacken> ;
+        skos:altLabel  "Terry Malloy"@en , "Waterfront"@en , "Terry Malloy"@fr , "Waterfront"@fr , "Terry Malloy"@de , "Waterfront"@de , "On The Waterfront"@en , "On The Waterfront"@fr , "On The Waterfront"@de , "Die Faust im Nacken"@de , "On the waterfront"@en , "On the waterfront"@fr , "On the waterfront"@de , "On the Waterfront"@en , "Sur les quais"@fr , "On the Waterfront"@fr , "On the Waterfront"@de .
+
+<http://dbpedia.org/resource/On_the_Waterfront__1>
+        dbo:from      "1993"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Keira_Knightley> ;
+        dbo:to        "1993"^^xsd:gYear .

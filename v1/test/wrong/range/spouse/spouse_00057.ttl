@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h161_h>
+        rdfs:label  "Simone Sestito"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h161_h__1> .
+
+<http://rdf.freebase.com/ns/m.0h161_h__1>
+        dbo:from    "2010"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0d5125> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0d5125>
+        rdfs:label     "Grettell Valdéz"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Grettell_Vald%C3%A9z> ;
+        skos:altLabel  "Grettell Valdez"@en , "Grettell Valeria Valdez Jiménez"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Finland>
+        rdfs:label     "Finland"@de , "Finland"@fr , "Finland"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Finnland> , <http://fr.dbpedia.org/resource/Finlande> ;
+        skos:altLabel  "Republique de Finlande"@fr , "Republik Finnland"@de , "Republiken Finland"@en , "Republiken Finland"@fr , "Republiken Finland"@de , "Fenno"@en , "Fenno"@de , "Fenno"@fr , "Name of Finland"@en , "Name of Finland"@de , "Name of Finland"@fr , "Fin land"@en , "Finlande"@en , "Finlande"@de , "Finlande"@fr , "Fin land"@de , "Fin land"@fr , "Finland's"@en , "Finland's"@fr , "Finland's"@de , "République de Finlande"@fr , "Etymology of Finland"@en , "Etymology of Finland"@de , "Etymology of Finland"@fr , "Suomen Tasavalta"@en , "Suomen Tasavalta"@de , "Suomen Tasavalta"@fr , "ISO 3166-1:FI"@en , "ISO 3166-1:FI"@de , "ISO 3166-1:FI"@fr , "Finland"@en , "Finland"@de , "Finland"@fr , "Finn Land"@en , "Finn Land"@de , "Finn Land"@fr , "FinlanD"@en , "FinlanD"@de , "FinlanD"@fr , "Finnland"@en , "Finlandaise"@fr , "Finnland"@de , "Finnland"@fr , "Republic of Finland"@en , "Republic of Finland"@fr , "Republic of Finland"@de , "Soome"@en , "Soome"@de , "Soome"@fr , "FINLAND"@en , "FINLAND"@fr , "FINLAND"@de , "Finland during World War II"@en , "Finland during World War II"@de , "Finland during World War II"@fr , "Suomen tasavalta"@en , "Suomen tasavalta"@de , "Suomen tasavalta"@fr .
+
+<http://rdf.freebase.com/ns/m.01xds1__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Finland> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01xds1>
+        rdfs:label     "Nelly Sachs"@en , "Nelly Sachs"@fr , "Nelly Sachs"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01xds1__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nelly_Sachs> , <http://dbpedia.org/resource/Nelly_Sachs> , <http://de.dbpedia.org/resource/Nelly_Sachs> ;
+        skos:altLabel  "Nellie Sachs"@fr , "Nellie Sachs"@de , "Nelly Sachs"@en , "Nelly Sachs"@fr , "Nelly Sachs"@de , "Nelly Leonie Sachs"@en , "Nelly Leonie Sachs"@de , "Nelly Leonie Sachs"@fr , "Sachs"@en , "Sachs"@fr , "Sachs"@de , "Nelly"@fr , "Nellie Sachs"@en .

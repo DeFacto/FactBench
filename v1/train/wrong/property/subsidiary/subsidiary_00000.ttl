@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_3cr6__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.02whbs_> ;
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02_3cr6>
+        rdfs:label  "Selectica"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02_3cr6__1> .
+
+<http://rdf.freebase.com/ns/m.02whbs_>
+        rdfs:label     "Determine Software"@en ;
+        skos:altLabel  "Determine Systems"@en , "Lendx"@en , "Capitalinfo"@en .

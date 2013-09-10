@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tom_Hanks__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Concord,_California> ;
+        dbo:from        "1945"^^xsd:gYear ;
+        dbo:to          "1945"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tom_Hanks>
+        rdfs:label     "Tom Hanks"@de , "Tom Hanks"@fr , "Tom Hanks"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tom_Hanks__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tom_Hanks> , <http://de.dbpedia.org/resource/Tom_Hanks> ;
+        skos:altLabel  "Hanks"@de , "Hanks"@fr , "Hanks"@en , "Samantha Lewes"@en , "Tom hanks"@de , "Tom hanks"@fr , "Tom hanks"@en , "Samantha Lewes"@de , "Samantha Lewes"@fr , "Sandra Hanks Benoiton"@de , "Sandra Hanks Benoiton"@fr , "Sandra Hanks Benoiton"@en , "Hanks, Tom"@de , "Hanks, Tom"@fr , "Hanks, Tom"@en , "Thomas Jeffrey Hanks"@de , "Thomas Jeffrey Hanks"@fr , "Thomas Jeffrey Hanks"@en , "Samantha"@de , "Samantha"@fr , "Samantha"@en , "Tom Hanks filmography"@en , "Tom Hanks filmography"@de , "Tom Hanks filmography"@fr , "Tom Hank"@de , "Tom Hank"@fr , "Tom Hank"@en , "Thomas Hanks"@en , "Thomas Hanks"@de , "Thomas Hanks"@fr , "Chet Hanks"@de , "Chet Hanks"@fr , "Chet Hanks"@en , "Chet Haze"@en , "Chet Haze"@de , "Chet Haze"@fr , "Tom Hanks"@de , "Tom Hanks"@fr , "Tom Hanks"@en .
+
+<http://dbpedia.org/resource/Concord,_California>
+        rdfs:label     "Concord, California"@fr , "Concord, California"@de , "Concord, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Concord_(Californie)> , <http://de.dbpedia.org/resource/Concord_(Kalifornien)> ;
+        skos:altLabel  "LOCODE:USCCR"@de , "Buchanan Field"@fr , "Todos Santos, California"@en , "Todos Santos, California"@fr , "Todos Santos, California"@de , "Drunken Indian"@en , "Concord, California"@en , "Drunken Indian"@fr , "Concord, California"@fr , "Concord, California"@de , "Drunken Indian"@de , "Concord, ca"@en , "Concord, ca"@fr , "Concord, ca"@de , "Concord, Calif."@en , "Concord, Calif."@fr , "Concord, Calif."@de , "Concord"@en , "Concord"@fr , "Concord"@de , "Drunken Indian, California"@en , "LOCODE:USCCR"@en , "Concord, CA"@en , "Concord, CA"@fr , "Concord, CA"@de , "Drunken Indian, California"@fr , "LOCODE:USCCR"@fr , "Drunken Indian, California"@de .

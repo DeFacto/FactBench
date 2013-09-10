@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01k4f>
+        rdfs:label     "Basel"@en , "Basel"@de , "Bâle"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Basel> , <http://dbpedia.org/resource/Basel> , <http://fr.dbpedia.org/resource/Bâle> ;
+        skos:altLabel  "Greater Basel"@fr , "Greater Basel"@de , "Greater Basel"@en , "Basel BS"@en , "Basel BS"@de , "Basel BS"@fr , "History of Basel"@fr , "History of Basel"@en , "History of Basel"@de , "Bâle"@fr , "Bâle"@en , "Bâle"@de , "Bale"@en , "Bale"@de , "Bale"@fr , "Theodorskirche"@fr , "Theodorskirche"@en , "Theodorskirche"@de , "Basel-Gasfabrik"@de , "Bâle, Suisse"@en , "Basileae"@fr , "Basle, Switzerland"@fr , "Basle, Switzerland"@en , "Basle, Switzerland"@de , "Basel, Switzerland"@fr , "Basel, Switzerland"@en , "Basel, Switzerland"@de , "Basilea"@fr , "Basilea"@en , "Basilea"@de , "Basel, Schwitzerland"@fr , "Republic of Basel"@en , "Republic of Basel"@de , "Basel, Schwitzerland"@en , "Basel, Schwitzerland"@de , "Republic of Basel"@fr , "LOCODE:CHBSL"@fr , "LOCODE:CHBSL"@en , "LOCODE:CHBSL"@de , "Basle"@fr , "Basle"@en , "Basle"@de , "Basel"@fr , "Basel"@en , "Basel"@de .
+
+<http://rdf.freebase.com/ns/m.030r7mq__108>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01k4f> ;
+        dbo:from             "1993"^^xsd:gYear ;
+        dbo:to               "1993"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.030r7mq>
+        rdfs:label      "Day Software"@de , "Day Software Inc"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.030r7mq__108> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Day_Software> , <http://dbpedia.org/resource/Day_Software> ;
+        skos:altLabel   "Day Software"@de , "Day Software Holding AG"@de , "Day Software"@en .

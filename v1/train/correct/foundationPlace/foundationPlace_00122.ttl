@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03902>
+        rdfs:label     "Genève"@fr , "Genf"@de , "Geneva"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Genf> , <http://dbpedia.org/resource/Geneva> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Histoire_de_Genève> , <http://fr.dbpedia.org/resource/Genève> , <http://dbpedia.org/resource/History_of_Geneva> ;
+        skos:altLabel  "Stadt Genf"@de , "Le Petit-Saconnex"@de , "Geneva, Switzerland"@fr , "Geneva, Switzerland"@de , "Geneva, Switzerland"@en , "Genêve"@fr , "Rome protestante"@fr , "Histoire de geneve"@fr , "Geneva Palexpo"@fr , "Geneve"@fr , "Geneve"@de , "Geneve"@en , "Geneva Palexpo"@de , "Geneva Palexpo"@en , "Les Paquis"@fr , "Cite-centre"@de , "Les Paquis"@de , "Les Acacias"@de , "Les Eaux-Vives"@de , "Les Grottes"@de , "Cité-centre"@de , "City of Geneva"@fr , "Ville de genève"@fr , "City of Geneva"@de , "City of Geneva"@en , "Histoire de Geneve"@fr , "Gɛnf"@fr , "Gɛnf"@de , "Gɛnf"@en , "Dʒənivə"@fr , "Geneva"@fr , "Dʒənivə"@de , "Geneva"@de , "Geneva"@en , "Dʒənivə"@en , "Montbrillant GE"@de , "Pâquis"@fr , "Geneva, CH-GE"@fr , "Pâquis"@de , "Geneva, CH-GE"@de , "Pâquis"@en , "Geneva, CH-GE"@en , "Geneva GE"@fr , "Geneva GE"@de , "Geneva GE"@en , "Champel"@de , "Genevese"@fr , "La Jonction"@de , "Genevese"@de , "Genevese"@en , "Saint-Gervais"@de , "Ville de geneve"@fr , "Histoire De Genève"@fr , "Ginevra"@en , "Genevre"@fr , "Genève"@fr , "Genf"@fr , "Paquis"@fr , "Génève"@fr , "Calvinstadt"@de , "Histoire De Geneve"@fr , "Paquis"@de , "Paquis"@en , "Genf"@de , "Génève"@de , "Genf"@en , "Génève"@en , "Genève"@de , "Genève"@en , "Plainpalais"@de , "Saconnex"@de , "Saint-Jean"@de , "Histoire de Genève"@fr , "LOCODE:CHGVA"@fr , "LOCODE:CHGVA"@en , "LOCODE:CHGVA"@de , "Les Pâquis"@fr , "Les Pâquis"@de , "Ville de Geneve"@fr , "Ville de Genève"@fr , "Dʒenive"@fr , "Dʒenive"@de , "Dʒenive"@en , "Genevra"@en , "DZ@niv@"@fr , "Histoire de genève"@fr , "Les Charmilles"@de , "DZ@niv@"@de , "DZ@niv@"@en , "Genevan"@fr , "ZH@nev"@fr , "Genevan"@de , "ZH@nev"@de , "Genevan"@en , "ZH@nev"@en .
+
+<http://rdf.freebase.com/ns/m.047pspl>
+        rdfs:label      "Temenos Group"@de , "Temenos Group"@en , "Temenos"@fr ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.047pspl__122> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Temenos_(entreprise)> , <http://de.dbpedia.org/resource/Temenos_Group> , <http://dbpedia.org/resource/Temenos_Group> ;
+        skos:altLabel   "Temenos"@fr , "Temenos Group"@de , "Temenos Group"@fr , "TEMENOS Group AG"@de .
+
+<http://rdf.freebase.com/ns/m.047pspl__122>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03902> ;
+        dbo:from             "1993"^^xsd:gYear ;
+        dbo:to               "1993"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01sycb>
+        rdfs:label     "The Forever War"@en , "La Guerre éternelle"@fr , "Der Ewige Krieg"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/La_Guerre_éternelle> , <http://de.dbpedia.org/resource/Der_Ewige_Krieg> , <http://dbpedia.org/resource/The_Forever_War> ;
+        skos:altLabel  "La Guerre eternelle"@fr , "La Guerre éternelle"@fr , "Der ewige Krieg"@de , "La guerre eternelle"@fr , "La Guerre Éternelle"@fr , "William Mandella"@fr , "Marygay Potter"@fr , "Marygay Potter"@de , "Personnages de la Guerre eternelle"@fr , "Forever War"@fr , "Forever War"@de , "La guerre éternelle"@fr , "Personnages de la Guerre éternelle"@fr , "Der Ewige Krieg"@de , "The forever war"@fr , "The Forever War"@fr , "The Forever War"@de , "La Guerre Eternelle"@fr .
+
+<http://rdf.freebase.com/ns/m.0jx90__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01sycb> ;
+        dbo:from    "1974"^^xsd:gYear ;
+        dbo:to      "1974"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0jx90>
+        rdfs:label     "John T. Sladek"@fr , "John Thomas Sladek"@en , "John Sladek"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0jx90__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_T._Sladek> , <http://de.dbpedia.org/resource/John_Sladek> , <http://dbpedia.org/resource/John_Thomas_Sladek> ;
+        skos:altLabel  "Thom Demijohn"@en , "John T. Sladek"@en , "John T. Sladek"@fr , "John T. Sladek"@de , "Dale Johns"@en , "John Sladek"@fr , "John Sladek"@de , "Sladek"@fr , "Sladek"@de , "John Thomas Sladek"@de , "John Thomas Sladek"@fr .

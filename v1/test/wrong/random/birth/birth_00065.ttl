@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mike_Bryan>
+        rdfs:label     "Mike Bryan"@en , "Mike Bryan"@fr , "Mike Bryan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mike_Bryan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mike_Bryan> , <http://de.dbpedia.org/resource/Mike_Bryan> ;
+        skos:altLabel  "Mike Bryan"@fr , "Mike Bryan"@de , "Mike"@en , "Mike"@fr , "Mike"@de , "Michael Carl Bryan"@de , "Bryan"@de , "Bryan"@fr , "Mike Bryan"@en .
+
+<http://dbpedia.org/resource/Long_Branch,_New_Jersey>
+        rdfs:label     "Long Branch, New Jersey"@en , "Long Branch, New Jersey"@fr , "Long Branch, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Long_Branch_(New_Jersey)> , <http://fr.dbpedia.org/resource/Long_Branch_(New_Jersey)> ;
+        skos:altLabel  "Long Branch, NJ"@en , "Long Branch, NJ"@fr , "Long Branch, NJ"@de , "Long Branch City, New Jersey"@en , "Long Branch City, NJ"@en , "Elberon, Monmouth County, New Jersey"@en , "Long Branch City, New Jersey"@fr , "Long Branch City, NJ"@fr , "Elberon, Monmouth County, New Jersey"@fr , "Long Branch City, New Jersey"@de , "Elberon, Monmouth County, New Jersey"@de , "Long Branch City, NJ"@de , "Elberon, Monmouth Co., New Jersey"@en , "Elberon, Monmouth Co., New Jersey"@fr , "Elberon, Monmouth Co., New Jersey"@de , "Long Branch, New Jersey"@en , "Long Branch"@en , "Long Branch, New Jersey"@fr , "Long Branch, New Jersey"@de , "Long Branch"@fr , "Long Branch"@de .
+
+<http://dbpedia.org/resource/Mike_Bryan__1>
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Long_Branch,_New_Jersey> ;
+        dbo:to      "1971"^^xsd:gYear .

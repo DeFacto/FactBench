@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0frrz3__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.02g87m> ;
+        dbo:from   "2004"^^xsd:gYear ;
+        dbo:to     "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0frrz3>
+        rdfs:label     "Lindsay Zir"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0frrz3__1> ;
+        skos:altLabel  "Lindsay Amanda Zir"@en , "Pin"@en .
+
+<http://rdf.freebase.com/ns/m.02g87m>
+        rdfs:label     "Jason Biggs"@en , "Jason Biggs"@fr , "Jason Biggs"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Jason_Biggs> , <http://fr.dbpedia.org/resource/Jason_Biggs> , <http://de.dbpedia.org/resource/Jason_Biggs> ;
+        skos:altLabel  "Jason Matthew Biggs"@en , "Jason Biggs"@en , "Jason Biggs"@fr , "Jason Biggs"@de , "Jason M. Biggs"@en , "Biggs"@fr , "Biggs"@de .

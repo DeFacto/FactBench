@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lancaster,_Pennsylvania>
+        rdfs:label     "Lancaster, Pennsylvania"@en , "Lancaster, Pennsylvania"@fr , "Lancaster, Pennsylvania"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lancaster_(Pennsylvanie)> , <http://de.dbpedia.org/resource/Lancaster_(Pennsylvania)> ;
+        skos:altLabel  "City of Lancaster, Pennsylvania"@en , "City of Lancaster, Pennsylvania"@fr , "City of Lancaster, Pennsylvania"@de , "Lancaster, PA"@en , "Lancaster, PA"@fr , "Lancaster, PA"@de , "Lancester, Pennsylvania"@en , "Lancester, Pennsylvania"@fr , "Lancester, Pennsylvania"@de , "City of Lancaster. Pennsylvania"@en , "LOCODE:USLNS"@en , "City of Lancaster. Pennsylvania"@fr , "LOCODE:USLNS"@fr , "LOCODE:USLNS"@de , "City of Lancaster. Pennsylvania"@de , "Lancaster, Pennsylvania"@en , "Lancaster, Pennsylvania"@fr , "Lancaster, Pennsylvania"@de , "Lancaster Community Safety Coalition"@en , "Lancaster Community Safety Coalition"@fr , "Lancaster Community Safety Coalition"@de , "Lancaster"@en , "Lancaster"@fr , "Lancaster"@de , "City of Lancaster, Pennsylvania."@en , "City of Lancaster, Pennsylvania."@fr , "City of Lancaster, Pennsylvania."@de .
+
+<http://dbpedia.org/resource/Chet_Atkins__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Lancaster,_Pennsylvania> ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chet_Atkins>
+        rdfs:label     "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chet_Atkins__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chet_Atkins> , <http://fr.dbpedia.org/resource/Chet_Atkins> ;
+        skos:altLabel  "Chester Burton Atkins"@fr , "Chester Burton Atkins"@de , "Atkins"@fr , "Atkins"@de , "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de , "Chester B. Atkins"@en , "Chester B. Atkins"@fr , "Chester B. Atkins"@de , "Chet atkins"@fr , "Mr. Guitar"@en , "Mr. Guitar"@fr , "Mr. Guitar"@de , "Chester Atkins"@en , "Chester Atkins"@fr , "Chester Atkins"@de , "Chester Burton Atkins"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Abbott>
+        rdfs:label     "John Abbott"@en , "John Abbott"@fr , "John Abbott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Abbott__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Joseph_Caldwell_Abbott> , <http://de.dbpedia.org/resource/John_Abbott> ;
+        skos:altLabel  "John Joseph Caldwell Abbot"@de , "Mary Bethune Abbott"@fr , "Mary Bethune Abbott"@de , "Abbott"@fr , "Abbott, John Joseph Caldwell, Sir"@fr , "Abbott, John Joseph Caldwell, Sir"@de , "Sir John Joseph Caldwell Abbott"@fr , "Sir John Joseph Caldwell Abbott"@de , "John Joseph Caldwell, Sir Abbott"@fr , "John Joseph Caldwell, Sir Abbott"@de , "Abbott, Sir John Joseph Caldwell"@fr , "John Caldwell Abbott"@fr , "John Joseph Abbott"@fr , "John Caldwell Abbott"@de , "Abbott, Sir John Joseph Caldwell"@de , "John Joseph Abbott"@de , "JohnAbbott"@fr , "John Joseph Caldwell Abbott"@fr , "John J.C. Abbott"@fr , "John Abbott"@fr , "John Abbott"@de , "John Joseph Caldwell Abbott"@de , "JohnAbbott"@de , "John J.C. Abbott"@de , "John Joseph Caldwell Abbot"@fr , "Sir John Abbott"@fr , "Sir John Abbott"@de .
+
+<http://dbpedia.org/resource/Canada>
+        rdfs:label     "Canada"@de , "Canada"@fr , "Canada"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kanada> , <http://fr.dbpedia.org/resource/Canada> ;
+        skos:altLabel  "Kanadische Föderation"@de , "America's top hat"@en , "America's top hat"@fr , "America's top hat"@de , "Xanada"@en , "Commonwealth du Canada"@fr , "Xanada"@fr , "Xanada"@de , "Canadá"@en , "Canadá"@fr , "Canadá"@de , "Candadienne"@fr , "Canadaa"@en , "Canadaa"@fr , "Canadaa"@de , "Dominion du Canada"@fr , "CANADA"@en , "Nation canadienne"@fr , "CANADA"@fr , "CANADA"@de , "Kenadian"@en , "Kenadian"@de , "Kenadian"@fr , "Canada"@en , "Canada"@fr , "Canada"@de , "Canuckistan"@en , "Peuple canadien"@fr , "Canuckistan"@fr , "Canuckistan"@de , "Puissance du Canada"@fr , "Etat federal canadien"@fr , "The Dominion of Canada"@en , "A mari usque ad mare"@de , "The Dominion of Canada"@fr , "The Dominion of Canada"@de , "Canadian Federation"@en , "Canadiophile"@en , "Canadian Federation"@de , "Canadian Federation"@fr , "Canadiophile"@de , "Canadiophile"@fr , "Canayens"@fr , "Population canadienne"@fr , "Pancanadien"@fr , "Caanaadaa"@en , "Etymology of Canada"@en , "Caanaadaa"@fr , "Etymology of Canada"@fr , "Etymology of Canada"@de , "Caanaadaa"@de , "Čanada"@en , "Cnada"@en , "Cnada"@fr , "Čanada"@fr , "Cnada"@de , "Kanadische Foderation"@de , "Čanada"@de , "Canada."@en , "Canada."@de , "Canada."@fr , "État fédéral canadien"@fr , "Kaenada"@en , "Kaenada"@fr , "Kaenada"@de , "Federation canadienne"@fr , "Canada's"@en , "Canada's"@fr , "Canada's"@de , "Canada-Uni,"@fr , "Dominion of Canada"@en , "ISO 3166-1:CA"@en , "ISO 3166-1:CA"@fr , "ISO 3166-1:CA"@de , "Pancanadianisme"@fr , "Dominion of Canada"@fr , "Dominion of Canada"@de , "References"@en , "Canadialand"@en , "Dominion of canada"@en , "Kanada"@de , "References"@fr , "References"@de , "Fédération canadienne"@fr , "Canadialand"@de , "Canadialand"@fr , "Dominion of canada"@de , "Kanadisch"@de , "Dominion of canada"@fr .
+
+<http://dbpedia.org/resource/John_Abbott__1>
+        dbo:from    "1891"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Canada> ;
+        dbo:to      "1894"^^xsd:gYear .

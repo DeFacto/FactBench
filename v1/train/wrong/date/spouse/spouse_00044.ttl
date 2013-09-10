@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01pnn3>
+        rdfs:label     "Elizabeth Hurley"@en , "Elizabeth Hurley"@fr , "Elizabeth Hurley"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Elizabeth_Hurley> , <http://de.dbpedia.org/resource/Elizabeth_Hurley> , <http://fr.dbpedia.org/resource/Elizabeth_Hurley> ;
+        skos:altLabel  "Arun Nayar"@de , "Elisabeth hurley"@fr , "Hurley"@fr , "Hurley"@de , "Liz Hurley"@en , "Liz Hurley"@fr , "Liz Hurley"@de , "Elizabeth Jane Hurley"@en , "Elizabeth Jane Hurley"@fr , "Elizabeth Jane Hurley"@de , "Elizabeth Hurley"@en , "Elizabeth Hurley"@fr , "Elizabeth Hurley"@de , "Liz"@en , "Arun Nayar"@en , "Elisabeth hurley"@en , "Arun Nayar"@fr , "Elisabeth hurley"@de .
+
+<http://rdf.freebase.com/ns/m.0269h2g__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01pnn3> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0269h2g>
+        rdfs:label     "Arun Nayar"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0269h2g__1> ;
+        skos:altLabel  "arun_nayar"@en .

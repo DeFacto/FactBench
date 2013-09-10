@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Lee_(basketball)__1>
+        dbo:from  "2007"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Memphis_Grizzlies> ;
+        dbo:to    "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/David_Lee_(basketball)>
+        rdfs:label     "David Lee (basketball)"@en , "David Lee (basketball)"@fr , "David Lee (basketball)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Lee_(basketball)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/David_Lee_(basket-ball)> , <http://de.dbpedia.org/resource/David_Lee_(Basketballspieler)> ;
+        skos:altLabel  "David lee"@fr , "David Lee"@en , "David Lee"@fr , "David Lee"@de .
+
+<http://dbpedia.org/resource/Memphis_Grizzlies>
+        rdfs:label     "Memphis Grizzlies"@en , "Memphis Grizzlies"@fr , "Memphis Grizzlies"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Memphis_Grizzlies> , <http://fr.dbpedia.org/resource/Grizzlies_de_Memphis> ;
+        skos:altLabel  "Memphis Grizzlies"@en , "Memphis Grizzlies"@fr , "Memphis Grizzlies"@de , "Grizzlies de Vancouver"@fr , "Vancouver Grizzlies"@fr , "Vancouver Grizzlies"@de , "Grizzlies de Memphis"@fr , "Memphis grizzles"@en , "Grizzlies"@en , "Memphis grizzles"@fr , "Grizzlies"@fr , "Grizzlies"@de , "Memphis grizzles"@de , "Grizzlies de memphis"@fr , "Grizzlies De Memphis"@fr .

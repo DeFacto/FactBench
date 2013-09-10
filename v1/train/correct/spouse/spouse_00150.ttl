@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04dn0b>
+        rdfs:label     "Jesús Franco"@fr , "Jesús Franco"@en , "Jess Franco"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Jes%C3%BAs_Franco> ;
+        skos:altLabel  "Adolf M. Frank"@en , "David Kühne"@en , "J. Franck Manera"@en , "Rosa Almirall"@en , "Frank Hollmann"@en , "Dave Tough"@en , "David Kuhne"@en , "Clifford Brawn"@en , "Manfred Gregor"@en , "Jeff Manner"@en , "Jesús Manera"@en , "J. Frank Manera"@en , "Robert Zimmerman"@en , "A.L. Mariaux"@en , "David J. Khune"@en , "Joan Vincent"@en , "Rosa Mª Almirall"@en , "Frank Hollman"@en , "James Gardner"@en , "David H. Klunne"@en , "Toni Falt"@en , "Jess Franco"@en , "A.M. Frank"@en , "Rick Deconinck in Italy"@en , "C. Plaut in English version"@en , "Raymond Dubois"@en , "Betty Carter"@en , "Lowel Richmond"@en , "Lennie Hayden"@en , "Jeff Frank"@en , "Jesus Franco"@en , "Jack Griffin"@en , "Candy Coster"@en , "David Kunne"@en , "Wolfgang Frank"@en , "Dan L. Simon"@en , "Franco Manera"@en , "David Khunne"@en , "A.L. Malraux"@en , "Cady Coster"@en , "Jesse Franco"@en , "Roland Marceignac"@en , "J.P. Johnson"@en , "Lulu Laverne"@en , "Dan Simon"@en , "B.F. Johnson"@en , "David J. Khunne"@en , "Lulú Laverne"@en , "David Khune"@en , "Jesus Manera"@en , "Clifford Brown Jr."@en , "Rosa María Almirall"@en , "Jesus Franco Manera"@en , "Frarik Hollmann"@en , "Jess Frank"@en , "J.F. Manner"@en , "James Gardner in French version"@en , "Jess Franck"@en , "Tío Jess"@en , "Joan Almirall"@en , "Rosa M. Almirall"@en , "David Tough"@en , "James P. Johnson"@en , "David Khunne II"@en , "Preston Quaid"@en , "Jess"@en , "Clifford Brown"@en , "Robert Zinnermann"@en , "Anton Martin Frank"@en , "Pablo Villa"@en , "Chuck Evans"@en , "D. Khunne Jr."@en , "C. Plaut"@en , "P. Querut"@en , "Dennis Farnon"@en , "Rick Deconinck"@en , "Terry De Corsia"@en , "Juan G. Cabral"@en , "D. Khunne"@en , "James Lee Johnson"@en , "J. Franco"@en , "Jesús \"Jess\" Franco"@en , "A.L. Marioux"@en , "Jesús Franco Manera"@en .
+
+<http://dbpedia.org/resource/Jes%C3%BAs_Franco>
+        skos:altLabel  "Jesus Franco"@en , "Jesús Franco"@en .
+
+<http://rdf.freebase.com/ns/m.09d9xf>
+        rdfs:label     "Lina Romay"@de , "Lina Romay"@en , "Lina Romay"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.09d9xf__150> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lina_Romay> , <http://de.dbpedia.org/resource/Lina_Romay_(Schauspielerin)> , <http://dbpedia.org/resource/Lina_Romay> ;
+        skos:altLabel  "Candice Coster"@en , "Jane Morgan"@en , "Rosa M. Almirall"@en , "Candy Coster"@de , "Rosa M-a Almirall"@en , "Candy Coster"@en , "Rosa Almirall"@en , "Rosa María Almirall"@en , "Roas Almirall"@en , "R.M. Almirall"@en , "Rosa Almirail"@en , "Lulú Laverne"@en , "Linan Romay"@en , "Rosa Maria Almirall"@fr , "Lina Romay"@fr , "Lina Romay"@de , "Lina Romay"@en , "Jean Collins"@en , "Lennie Hayden"@en , "Rosa Mª Almirall"@en , "Lulu Laverne"@de , "Lola Falana"@en , "Lulu Laverne"@en , "Betty Carter"@en , "Rosa Maria Almiral"@en , "Rosa María Almirall Martínez"@en .
+
+<http://rdf.freebase.com/ns/m.09d9xf__150>
+        dbo:from    "2008-04-25"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.04dn0b> ;
+        dbo:to      "2012-02-15"^^xsd:date .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0269h2g__44>
+        dbo:from    "2007-03-02"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01pnn3> ;
+        dbo:to      "2011-06-15"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0269h2g>
+        rdfs:label     "Arun Nayar"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0269h2g__44> ;
+        skos:altLabel  "arun_nayar"@en .
+
+<http://rdf.freebase.com/ns/m.01pnn3>
+        rdfs:label     "Elizabeth Hurley"@de , "Elizabeth Hurley"@en , "Elizabeth Hurley"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Elizabeth_Hurley> , <http://de.dbpedia.org/resource/Elizabeth_Hurley> , <http://fr.dbpedia.org/resource/Elizabeth_Hurley> ;
+        skos:altLabel  "Arun Nayar"@en , "Elisabeth hurley"@en , "Hurley"@fr , "Hurley"@de , "Liz Hurley"@fr , "Liz Hurley"@de , "Liz Hurley"@en , "Elizabeth Jane Hurley"@fr , "Elizabeth Jane Hurley"@de , "Elizabeth Jane Hurley"@en , "Elizabeth Hurley"@fr , "Elizabeth Hurley"@de , "Elizabeth Hurley"@en , "Liz"@en , "Arun Nayar"@fr , "Elisabeth hurley"@fr , "Arun Nayar"@de , "Elisabeth hurley"@de .

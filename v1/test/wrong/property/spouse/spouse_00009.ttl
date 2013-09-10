@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0456xp>
+        rdfs:label     "Sienna Miller"@en , "Sienna Miller"@fr , "Sienna Miller"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sienna_Miller> , <http://dbpedia.org/resource/Sienna_Miller> , <http://de.dbpedia.org/resource/Sienna_Miller> ;
+        skos:altLabel  "Sienna Miller"@de , "Miller"@en , "Miller"@fr , "Miller"@de , "Sienna Rose Miller"@en , "Sienna"@de , "Sienna Rose Miller"@fr , "Sienna Rose Miller"@de , "Sienna Rose Diana Miller"@en , "Siena Miller"@en , "Siena Miller"@fr , "Siena Miller"@de , "Twenty8Twelve"@en , "Twenty8Twelve"@fr , "Twenty8Twelve"@de , "Sienna Miller"@en , "Sienna Rose"@en , "Sienna Rose"@fr , "Sienna Rose"@de , "Sienna rose miller"@en , "Sienna rose miller"@fr , "Sienna rose miller"@de , "Sienna Miller"@fr .
+
+<http://rdf.freebase.com/ns/m.01r93l__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0456xp> ;
+        dbo:from             "2009"^^xsd:gYear ;
+        dbo:to               "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01r93l>
+        rdfs:label     "Jude Law"@en , "Jude Law"@fr , "Jude Law"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01r93l__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jude_Law> , <http://dbpedia.org/resource/Jude_Law> , <http://de.dbpedia.org/resource/Jude_Law> ;
+        skos:altLabel  "Jude Law"@fr , "Jude Law"@de , "Jude Law"@en , "Jude"@de , "David Jude Heyworth Law"@en , "David Jude Heyworth Law"@fr , "David Jude Law"@en .

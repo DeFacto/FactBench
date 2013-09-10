@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chandrika_Kumaratunga>
+        rdfs:label     "Chandrika Kumaratunga"@en , "Chandrika Kumaratunga"@fr , "Chandrika Kumaratunga"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chandrika_Kumaratunga__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Chandrika_Kumaratunga> , <http://de.dbpedia.org/resource/Chandrika_Kumaratunga> ;
+        skos:altLabel  "Kumaratunga"@de , "Bandaranaike"@en , "Bandaranaike"@de , "Bandaranaike"@fr , "Chandrika Kumaratunga"@en , "Chandrika Kumaratunga"@fr , "Chandrika Kumaratunga"@de , "Chandrika Bandaranaike Kumaratunga"@en , "Chandrika Bandaranaike Kumaratunga"@fr , "Chandrika Bandaranaike Kumaratunga"@de .
+
+<http://dbpedia.org/resource/Mauritius>
+        rdfs:label     "Mauritius"@de , "Mauritius"@fr , "Mauritius"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Maurice_(pays)> , <http://de.dbpedia.org/resource/Mauritius> ;
+        skos:altLabel  "Crime in mauritius"@en , "British Mauritius"@en , "Crime in mauritius"@fr , "Crime in mauritius"@de , "British Mauritius"@de , "British Mauritius"@fr , "ISO 3166-1:MU"@en , "ISO 3166-1:MU"@fr , "ISO 3166-1:MU"@de , "Maurits"@en , "Maurits"@de , "Maurits"@fr , "Mauritius Island"@en , "Mauritius Island"@de , "Mauritius Island"@fr , "French Mauritius"@en , "French Mauritius"@fr , "French Mauritius"@de , "Isle of France"@en , "Isle of France"@fr , "Isle of France"@de , "Mauricienne"@fr , "Mauritus"@en , "Mauritus"@fr , "Mauritus"@de , "Health in Mauritius"@en , "Health in Mauritius"@de , "Health in Mauritius"@fr , "République de Maurice"@fr , "Republik Mauritius"@de , "Ile Maurice"@en , "Ile Maurice"@de , "Ile Maurice"@fr , "Mauritas"@en , "Mauritas"@fr , "Mauritas"@de , "Mauritias"@en , "Mauritias"@de , "Mauritias"@fr , "Mauritians"@en , "Republique de Maurice"@fr , "Mauritians"@de , "Mauritians"@fr , "Crime in Mauritius"@en , "Crime in Mauritius"@fr , "Mauriciennes"@fr , "Crime in Mauritius"@de , "Republic of Mauritius"@en , "Republic of Mauritius"@de , "Republic of Mauritius"@fr , "Law enforcement in Mauritius"@en , "Law enforcement in Mauritius"@de , "Law enforcement in Mauritius"@fr , "Mauritius"@en , "Mauritius"@fr , "Mauritius"@de , "Maurice"@fr , "Mauricien"@fr , "Island of Mauritius"@en , "Island of Mauritius"@de , "Island of Mauritius"@fr , "Maurituis"@en , "Île Maurice"@en , "Maurituis"@fr , "Île Maurice"@fr , "Île Maurice"@de , "Maurituis"@de , "Mauriciens"@fr .
+
+<http://dbpedia.org/resource/Chandrika_Kumaratunga__1>
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Mauritius> ;
+        dbo:to      "1995"^^xsd:gYear .

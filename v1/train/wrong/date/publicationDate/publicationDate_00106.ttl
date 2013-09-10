@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01szsk>
+        rdfs:label     "John Barnes"@de , "John Barnes"@en , "John Barnes"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01szsk__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/John_Barnes_(author)> , <http://de.dbpedia.org/resource/John_Barnes_(Schriftsteller)> , <http://fr.dbpedia.org/resource/John_Barnes_(auteur)> ;
+        skos:altLabel  "Barnes"@fr , "Eintime"@de , "Eintime"@fr , "John Barnes"@de , "John Barnes"@fr , "John barnes"@fr .
+
+<http://rdf.freebase.com/ns/m.01szsk__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0fdbt1> ;
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:to      "1987"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fdbt1>
+        rdfs:label  "Orbital Resonance"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Orbital_Resonance_(novel)> .

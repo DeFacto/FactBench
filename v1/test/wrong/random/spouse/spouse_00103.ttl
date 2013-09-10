@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03573y>
+        rdfs:label     "Grant Show"@en , "Grant Show"@fr , "Grant Show"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Grant_Show> , <http://dbpedia.org/resource/Grant_Show> , <http://de.dbpedia.org/resource/Grant_Show> ;
+        skos:altLabel  "Grant Alan Show"@en , "Grant Alan Show"@fr , "Grant Show"@fr , "Grant Show"@de .
+
+<http://rdf.freebase.com/ns/m.05zvn75>
+        rdfs:label  "Shraddha Nigam"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05zvn75__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Shraddha_Nigam> .
+
+<http://rdf.freebase.com/ns/m.05zvn75__1>
+        dbo:from  "2004"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.03573y> ;
+        dbo:to    "2012"^^xsd:gYear .

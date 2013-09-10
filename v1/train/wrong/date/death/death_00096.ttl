@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Camden,_New_Jersey>
+        rdfs:label     "Camden, New Jersey"@de , "Camden, New Jersey"@fr , "Camden, New Jersey"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Camden_(New_Jersey)> , <http://de.dbpedia.org/resource/Camden_(New_Jersey)> ;
+        skos:altLabel  "East Philadelphia"@en , "East Philadelphia"@de , "East Philadelphia"@fr , "Downtown Camden, New Jersey"@en , "Downtown Camden, New Jersey"@fr , "Downtown Camden, New Jersey"@de , "Camden, NJ"@en , "Camden, NJ"@de , "Camden, NJ"@fr , "East philadelphia"@en , "East philadelphia"@fr , "East philadelphia"@de , "Port of Camden"@en , "Port of Camden"@de , "Port of Camden"@fr , "Camden"@en , "Camden"@de , "Camden"@fr , "Waterfront"@en , "Camden City, Camden County, New Jersey"@en , "Camden City, Camden County, New Jersey"@de , "Camden City, Camden County, New Jersey"@fr , "Waterfront"@de , "Waterfront"@fr , "LOCODE:USCDE"@en , "LOCODE:USCDE"@fr , "LOCODE:USCDE"@de , "Camden, N.J."@en , "Camden, N.J."@fr , "Camden, N.J."@de , "Camden City, NJ"@en , "Camden City, NJ"@de , "Camden City, NJ"@fr , "Camden, New Jersey"@en , "Camden Waterfront, New Jersey"@en , "Camden, New Jersey"@fr , "Camden Waterfront, New Jersey"@de , "Camden Waterfront, New Jersey"@fr , "Camden, New Jersey"@de , "Camden Township, Camden County, New Jersey"@en , "Camden Township, Camden County, New Jersey"@de , "Camden Township, Camden County, New Jersey"@fr , "Camden City, New Jersey"@en , "Camden City, New Jersey"@fr , "Camden City, New Jersey"@de , "Camden nj"@en , "Camden nj"@de , "Camden nj"@fr , "Camden, nj"@en , "Camden, nj"@de , "Camden, nj"@fr , "Camden City"@en , "Camden City"@de , "Camden City"@fr , "Camden Township, Gloucester County, New Jersey"@en , "Camden Township, Gloucester County, New Jersey"@de , "Camden Township, Gloucester County, New Jersey"@fr , "Camden Township, New Jersey"@en , "Camden Township, New Jersey"@de , "Camden Township, New Jersey"@fr , "Camden Riots"@en , "Camden Riots"@de , "Camden Riots"@fr .
+
+<http://dbpedia.org/resource/Walt_Whitman__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Camden,_New_Jersey> ;
+        dbo:from        "1896"^^xsd:gYear ;
+        dbo:to          "1896"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Walt_Whitman>
+        rdfs:label     "Walt Whitman"@en , "Walt Whitman"@fr , "Walt Whitman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walt_Whitman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Walt_Whitman> , <http://de.dbpedia.org/resource/Walt_Whitman> ;
+        skos:altLabel  "Walt (Walter) Whitman"@en , "Walt"@en , "Walt (Walter) Whitman"@fr , "Walt (Walter) Whitman"@de , "Uncle Walt"@en , "Walt"@fr , "Uncle Walt"@fr , "Walt"@de , "Uncle Walt"@de , "Whitman"@en , "Whitman"@fr , "Whitman"@de , "Walt Whitman"@en , "Whitman, Walt"@en , "Walt Whitman"@fr , "Whitman, Walt"@fr , "Whitman, Walt"@de , "Walt Whitman"@de , "Walt whitman"@en , "Walter Whitman"@en , "Walt whitman"@fr , "Walter Whitman"@fr , "Walt whitman"@de , "Walter Whitman"@de , "Walter or Walt Whitman"@en , "Walter or Walt Whitman"@fr , "Walter or Walt Whitman"@de .

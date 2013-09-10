@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02114t__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05h0n2> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05h0n2>
+        rdfs:label     "Bethany Joy Galeotti"@fr , "Bethany Joy Galeotti"@de , "Bethany Joy Lenz-Galeotti"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Bethany_Joy_Lenz> , <http://de.dbpedia.org/resource/Bethany_Joy_Galeotti> , <http://fr.dbpedia.org/resource/Bethany_Joy_Lenz> ;
+        skos:altLabel  "Brittany joy lenz"@fr , "Joypiter"@en , "Bethany Joy Lafferty"@de , "Bethany Joy Lafferty"@fr , "Bethany Joy Lafferty"@en , "Bethany Joy Lenz"@de , "Bethany Joy Lenz"@fr , "Bethany Joy Lenz"@en , "Bethany Galeotti"@en , "Lenz, Bethany Joy"@en , "Brittany Joy Lenz"@fr , "Lenz"@de , "Lenz"@fr , "Lenz"@en , "Joie Lenz"@de , "Joie Lenz"@fr , "Joie Lenz"@en , "Joy"@en , "Galeotti"@de , "Galeotti"@fr , "Galeotti"@en , "Bethany Joy Lenz-Galeotti"@de , "Bethany Joy Lenz-Galeotti"@fr , "Bethany Joy Lenz-Galeotti"@en , "bethany_joy_lenz"@en , "Bethany Joy"@en , "Bethany"@de , "Bethany"@fr , "Bethany"@en , "Bethany Joy Galeotti-Lafferty"@de , "Bethany Joy Galeotti-Lafferty"@fr , "Bethany Joy Galeotti-Lafferty"@en , "Bethany Joy Galeotti"@de , "Bethany Joy Galeotti"@fr , "Bethany Joy Galeotti"@en .
+
+<http://rdf.freebase.com/ns/m.02114t>
+        rdfs:label     "Scarlett Johansson"@de , "Scarlett Johansson"@fr , "Scarlett Johansson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02114t__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Scarlett_Johansson> , <http://dbpedia.org/resource/Scarlett_Johansson> , <http://fr.dbpedia.org/resource/Scarlett_Johansson> ;
+        skos:altLabel  "Scarlet Johannsen"@en , "Scarlet Johannsen"@de , "Scarlet Johannsen"@fr , "Scarlet johannson"@en , "Scarlet johannson"@de , "Scarlet johannson"@fr , "Scarlet Johanson"@en , "Scarlet Johanson"@de , "Scarlet Johanson"@fr , "Scarlett johanssen"@en , "Scarlett johanssen"@fr , "Scarlett johanssen"@de , "Scarlett Marie Johansson"@de , "Scarlett Johannsen"@en , "Scarlett Johannsen"@de , "Scarlett Johannsen"@fr , "Johansson"@en , "Johansson"@fr , "Johansson"@de , "Scarlett I Johansson"@en , "Scarlett I Johansson"@fr , "Scarlett I Johansson"@de , "Scarlet johansson"@en , "ScarlettJohansson"@en , "Scarlett Johanson"@en , "Scarlet johansson"@fr , "Scarlet johansson"@de , "ScarlettJohansson"@de , "Scarlett Johanson"@de , "Scarlett Johanson"@fr , "ScarlettJohansson"@fr , "Scarlet Johansson"@en , "Scarlet Johannson"@en , "Scarlet Johansson"@fr , "Scarlet Johansson"@de , "Scarlet Johannson"@de , "Scarlet Johannson"@fr , "Scarlett"@de , "Scarlet johanson"@en , "Scarlet johanson"@de , "Scarlet johanson"@fr , "Scarlett Johanssen"@en , "Scarlett Johanssen"@de , "Scarlett Johanssen"@fr , "Scarlett Johansson"@en , "Scarlett Johansson"@de , "Scarlett Johansson"@fr , "Scarlet Johansen"@en , "ScarJo"@en , "Scarlet Johansen"@fr , "Scarlet Johansen"@de , "ScarJo"@de , "ScarJo"@fr , "Scarlett Johannson"@en , "Scarlett Johannson"@de , "Scarlett Johannson"@fr , "Scarlett Johansen"@en , "Scarlett Johansen"@fr , "Scarlett Johansen"@de , "Scarlett I. Johansson"@en , "Scarlett I. Johansson"@de , "Scarlett I. Johansson"@fr , "Scarlet Johanssen"@en , "Scarlet Johanssen"@fr , "Scarlet Johanssen"@de , "Scarlett Ingrid Johansson"@en .

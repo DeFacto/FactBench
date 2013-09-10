@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06dplm>
+        rdfs:label     "ANSYS"@fr , "ANSYS"@de , "Ansys"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06dplm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/ANSYS> , <http://dbpedia.org/resource/Ansys> , <http://de.dbpedia.org/resource/Ansys_Inc.> ;
+        skos:altLabel  "ANSYS Inc."@en , "Ansoft"@en , "Ansys Inc."@de , "Ansoft"@fr , "Ansoft"@de , "ANSYS Inc."@fr , "ANSYS Inc."@de , "ANSYS"@en , "ANSYS"@fr , "ANSYS"@de , "ANSYS, Inc"@en , "ANSYS, Inc"@fr , "ANSYS, Inc"@de , "Fluent, Inc."@en , "Fluent, Inc."@fr , "Fluent, Inc."@de , "Fluent"@en , "Fluent"@fr , "Fluent"@de , "Ansys"@en , "Ansys"@fr , "Ansys"@de , "ANSYS, Inc."@en , "ANSYS, Inc."@fr , "ANSYS, Inc."@de , "Ansoft Corporation"@en , "Ansoft Corporation"@fr , "Ansoft Corporation"@de .
+
+<http://rdf.freebase.com/ns/m.06dplm__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0_frz> ;
+        dbo:from             "1982"^^xsd:gYear ;
+        dbo:to               "1982"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0_frz>
+        rdfs:label     "Canonsburg"@en , "Canonsburg"@fr , "Canonsburg"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Canonsburg> , <http://de.dbpedia.org/resource/Canonsburg> , <http://dbpedia.org/resource/Canonsburg,_Pennsylvania> ;
+        skos:altLabel  "Canonsburg Fourth of July Parade"@de , "Canonsburg Fourth of July Parade"@fr , "Canonsburg"@fr , "Canonsburg"@de , "Washington County / Canonsburg borough"@en , "Canonsburg, Pennsylvania"@en , "Canonsburg, Pennsylvania"@fr , "Canonsburg, Pennsylvania"@de , "LOCODE:USCNN"@fr , "LOCODE:USCNN"@de , "Canonsburg, PA"@fr , "Canonsburg, PA"@de .

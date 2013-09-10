@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.01l63> ;
+        dbo:from        "2002"^^xsd:gYear ;
+        dbo:to          "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01l63>
+        rdfs:label     "Belfast"@de , "Belfast"@fr , "Belfast"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belfast> , <http://fr.dbpedia.org/resource/Belfast> , <http://dbpedia.org/resource/Belfast> ;
+        skos:altLabel  "Belfast"@en , "Belfast"@de , "Belfast"@fr , "City of Belfast, United Kingdom"@en , "Belfast City"@en , "City of Belfast, United Kingdom"@de , "Belfast City"@de , "City of Belfast, United Kingdom"@fr , "Belfast City"@fr , "Belfast, United Kingdom"@de , "Belfast, United Kingdom"@fr , "Belfast, United Kingdom"@en , "City Of Belfast"@en , "East Belfast"@de , "East Belfast"@fr , "East Belfast"@en , "BELFAST"@en , "BELFAST"@de , "BELFAST"@fr , "Bellfast"@en , "Bellfast"@de , "Bellfast"@fr , "Belfast, Northern Ireland"@en , "Beal Feirste"@de , "Belfast, Northern Ireland"@de , "Belfast, Northern Ireland"@fr , "Beal Feirste"@fr , "Beal Feirste"@en , "City of Belfast"@en , "City of Belfast"@de , "City of Belfast"@fr , "GB-BFS"@de , "Bilfawst"@de , "Bilfawst"@fr , "Bilfawst"@en , "The weather in Belfast"@en , "The weather in Belfast"@de , "The weather in Belfast"@fr , "Belfast, Ireland"@en , "Belfast, Ireland"@de , "Belfast, Ireland"@fr , "Capital of Northern Ireland"@de , "Capital of Northern Ireland"@fr , "Capital of Northern Ireland"@en , "Béal Feirste"@en , "Béal Feirste"@de , "Béal Feirste"@fr .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles>
+        rdfs:label     "Beyoncé Knowles"@en , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Beyoncé_Knowles__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beyoncé_Knowles> , <http://de.dbpedia.org/resource/Beyoncé_Knowles> ;
+        skos:altLabel  "House of Dereon"@fr , "Beyoncé Giselle Knowles"@fr , "Why don't you love me"@fr , "Beyoncé Giselle Knowles"@de , "Knowles"@de , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de , "Beyoncé"@fr , "Beyoncé"@de , "Sasha Fierce"@fr , "Sasha Fierce"@de , "House of Deréon"@fr , "Beyonce Giselle Knowles"@fr , "Beyonce Giselle Knowles"@de , "Beyonce"@fr , "Beyonce"@de , "Beyonce Knowles"@fr , "Beyonce Knowles"@de .

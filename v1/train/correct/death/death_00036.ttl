@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ljubljana>
+        rdfs:label     "Ljubljana"@de , "Ljubljana"@fr , "Ljubljana"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ljubljana> , <http://fr.dbpedia.org/resource/Ljubljana> ;
+        skos:altLabel  "Liubliana"@fr , "Liubliana"@en , "Liubliana"@de , "Luwigana"@fr , "Luwigana"@en , "Luwigana"@de , "Ljublijana"@fr , "Ljublijana"@de , "Ljublijana"@en , "SILJU"@fr , "SILJU"@de , "SILJU"@en , "LOCODE:SILJU"@fr , "LOCODE:SILJU"@en , "LOCODE:SILJU"@de , "Ljubljana, Yugoslavia"@fr , "Laybach"@fr , "Ljubljana, Yugoslavia"@de , "Laybach"@en , "Laybach"@de , "Ljubljana, Yugoslavia"@en , "Capitale de la Slovénie"@fr , "Ljubljana, Slovenia"@fr , "Ljubljana, Slovenia"@en , "Ljubljana, Slovenia"@de , "Ljubljana, SR Slovenia"@fr , "Ljubljana, SR Slovenia"@de , "Ljubljana, SR Slovenia"@en , "Sostro"@de , "Capital of Slovenia"@fr , "Capital of Slovenia"@en , "Capital of Slovenia"@de , "Lublijana"@fr , "Ljubljana"@fr , "Ljubljana"@en , "Ljubljana"@de , "Lublijana"@de , "Lublijana"@en , "Lubliana"@fr , "Lubliana"@en , "Lubliana"@de , "Ljubljana, Ljubljana"@fr , "Ljubljana, Ljubljana"@de , "Ljubljana, Ljubljana"@en , "Laibach, Slovenia"@fr , "Laibach, Slovenia"@en , "Laibach, Slovenia"@de , "Lubiana"@fr , "Ljubljana, Slovenija"@fr , "Ljubljana, Slovenija"@de , "Ljubljana, Slovenija"@en , "Ljubliana"@fr , "Ljubliana"@de , "Ljubliana"@en , "SI-061"@de , "Ljubjana"@fr , "Ljubjana"@en , "Ljubjana"@de , "Tacen"@fr , "Tacen"@de , "Tacen"@en , "The weather in Ljubljana"@fr , "The weather in Ljubljana"@de , "The weather in Ljubljana"@en , "Lubljana"@fr , "Lubljana"@en , "Lubljana"@de , "History of Ljubljana"@fr , "History of Ljubljana"@en , "History of Ljubljana"@de , "Capitale de la Slovenie"@fr , "Laibach"@de .
+
+<http://dbpedia.org/resource/Josip_Broz_Tito>
+        rdfs:label     "Josip Broz Tito"@de , "Josip Broz Tito"@fr , "Josip Broz Tito"@en ;
+        dbo:death      <http://dbpedia.org/resource/Josip_Broz_Tito__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Josip_Broz_Tito> , <http://de.dbpedia.org/resource/Josip_Broz_Tito> ;
+        skos:altLabel  "Joseph Tito"@fr , "Joseph Tito"@en , "Joseph Tito"@de , "Marshal Josip Broz Tito"@fr , "Marshal Josip Broz Tito"@en , "Marshal Josip Broz Tito"@de , "J.B.Tito"@fr , "Marechal Tito"@fr , "Titiste"@fr , "Josip Brozović"@fr , "Josip Brozović"@de , "Josip Brozović"@en , "Josip Broz Tito"@fr , "Josip Broz Tito"@en , "Josip Broz Tito"@de , "Broz Tito"@fr , "Broz Tito"@de , "Broz Tito"@en , "Josip Broz"@fr , "Josip Broz"@de , "Josip Broz"@en , "Josip"@fr , "Josip"@de , "Josip"@en , "Josip Brozovich"@fr , "Marshall Josip Broz Tito"@fr , "Josip Broz dit Tito"@fr , "Josip Broj Tito"@fr , "Marshall Tito"@fr , "Marshall Tito"@en , "Marshall Tito"@de , "Josep Tito"@fr , "Marshall Josip Broz Tito"@de , "Marshall Josip Broz Tito"@en , "Marsal Tito"@fr , "Joseph Broz Tito"@fr , "Drug Tito"@fr , "Josip Brozovich"@de , "Josep Tito"@de , "Josep Tito"@en , "Marsal Tito"@de , "Marsal Tito"@en , "Drug Tito"@de , "Drug Tito"@en , "Josip Brozovich"@en , "Joseph Broz Tito"@de , "Joseph Broz Tito"@en , "Tito"@fr , "Joseph brozovic"@fr , "Tito"@de , "Joseph brozovic"@de , "Joseph brozovic"@en , "Tito"@en , "Maršal Tito"@fr , "Maršal Tito"@de , "Maršal Tito"@en , "Broz"@fr , "Marshal Tito"@fr , "Josip Tito"@fr , "Broz"@de , "Marshal Tito"@de , "Josip Tito"@en , "Josip Tito"@de , "Broz"@en , "Marshal Tito"@en , "Marschall Tito"@de , "Josep Broz Tito"@fr , "Josep Broz Tito"@de , "Josep Broz Tito"@en , "Maréchal Tito"@fr , "Josef Broz Tito"@fr , "Josef Broz Tito"@de , "Josef Broz Tito"@en , "Josip Broz, Marshal Tito"@fr , "Josip Broz, Marshal Tito"@en , "Josip Broz, Marshal Tito"@de , "Josip Brozovic"@fr , "Josip Brozovic"@de , "Josip Brozovic"@en , "Josip Broz-Tito"@fr , "Maršal Josip Broz Tito"@fr , "Josip Broz-Tito"@de , "Maršal Josip Broz Tito"@de , "Maršal Josip Broz Tito"@en , "Josip Broz-Tito"@en , "Marsal Josip Broz Tito"@fr , "Marsal Josip Broz Tito"@de , "Marsal Josip Broz Tito"@en .
+
+<http://dbpedia.org/resource/Josip_Broz_Tito__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Ljubljana> ;
+        dbo:from        "1980-05-04"^^xsd:date ;
+        dbo:to          "1980-05-04"^^xsd:date .

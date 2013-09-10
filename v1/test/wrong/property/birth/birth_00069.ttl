@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dublin>
+        rdfs:label     "Dublin"@de , "Dublin"@fr , "Dublin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dublin> , <http://fr.dbpedia.org/resource/Dublin> ;
+        skos:altLabel  "Dublín"@en , "Dublín"@de , "Dublín"@fr , "Dublinn"@fr , "Dublin, Republic of Ireland"@en , "Dublin, Republic of Ireland"@fr , "Dublin, Republic of Ireland"@de , "Capital of Republic of Ireland"@en , "Dublin"@en , "Dublin"@fr , "Dublin"@de , "Capital of Republic of Ireland"@fr , "Capital of Republic of Ireland"@de , "Dublin City, Ireland"@en , "Dyflin"@en , "Dyflin"@de , "Dublin City, Ireland"@de , "Dublin City, Ireland"@fr , "Dyflin"@fr , "Capital of the Republic of Ireland"@en , "Capital of the Republic of Ireland"@fr , "Capital of the Republic of Ireland"@de , "Dublin City Centre"@en , "Dublin City Centre"@de , "Dublin City Centre"@fr , "City Center, Dublin"@en , "City Center, Dublin"@de , "City Center, Dublin"@fr , "Baile Atha Cliath"@en , "Baile Atha Cliath"@fr , "Baile Atha Cliath"@de , "Dubhlinn"@de , "Dubh Linn"@en , "Dubh Linn"@fr , "Dubh Linn"@de , "Dublin, County Dublin"@en , "Dublin, County Dublin"@fr , "Dublin, County Dublin"@de , "City of Dublin"@en , "City of Dublin"@fr , "City of Dublin"@de , "Capital of Ireland"@en , "Capital of Ireland"@fr , "Capital of Ireland"@de , "West Dublin"@en , "West Dublin"@fr , "West Dublin"@de , "Dublin, Ireland"@en , "Dublin, Ireland"@fr , "Dublin, Ireland"@de , "Baile átha Cliath"@en , "City Centre, Dublin"@en , "The weather in Dublin"@en , "The weather in Dublin"@de , "The weather in Dublin"@fr , "Dublin city center"@en , "Baile átha Cliath"@fr , "Baile átha Cliath"@de , "Dublin city center"@de , "Dublin city center"@fr , "Dublin city centre"@en , "City Centre, Dublin"@fr , "City Centre, Dublin"@de , "Dublin city centre"@de , "Dublin city centre"@fr , "Dublin City Center"@en , "Dublin Culture"@en , "Central Dublin"@en , "Dublin City Center"@fr , "Dublin Culture"@fr , "Central Dublin"@fr , "Dublin City Center"@de , "Dublin Culture"@de , "Central Dublin"@de , "Visitor Information for Dublin, Ireland"@en , "Baile Átha Cliath"@en , "Visitor Information for Dublin, Ireland"@fr , "Baile Átha Cliath"@fr , "Visitor Information for Dublin, Ireland"@de , "Baile Átha Cliath"@de , "LOCODE:IEDUB"@en , "LOCODE:IEDUB"@fr , "LOCODE:IEDUB"@de , "Baile atha Cliath"@en , "Baile atha Cliath"@fr , "Baile atha Cliath"@de .
+
+<http://dbpedia.org/resource/Oscar_Wilde>
+        rdfs:label     "Oscar Wilde"@de , "Oscar Wilde"@fr , "Oscar Wilde"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Wilde__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Wilde> , <http://de.dbpedia.org/resource/Oscar_Wilde> ;
+        skos:altLabel  "Oscar Fingal O' Flahertie Wills Wilde"@de , "O Wilde"@en , "O Wilde"@de , "O Wilde"@fr , "Oscar"@en , "Oscar"@de , "Oscar"@fr , "O'Flahertie"@en , "O'Flahertie"@de , "O'Flahertie"@fr , "Oscar O'flaherty Wilde"@en , "Oscar O'flaherty Wilde"@de , "Oscar O'flaherty Wilde"@fr , "Wilde"@en , "Oscar Wild"@de , "Oscar Wild"@fr , "Oscar Wild"@en , "Wilde"@de , "Wilde"@fr , "Theocritus: a villanelle"@en , "Oscar Wilde"@en , "Theocritus: a villanelle"@de , "Theocritus: a villanelle"@fr , "Oscar Wilde"@de , "Oscar Wilde"@fr , "Oscar O'Flahertie Wills Wilde"@en , "Oscar O'Flahertie Wills Wilde"@de , "Oscar O'Flahertie Wills Wilde"@fr , "Biblio"@en , "Biblio"@de , "Biblio"@fr , "Flahertie"@en , "Oscar Fingal O’ Flahertie Wills Wilde"@de , "Flahertie"@de , "Flahertie"@fr , "Cyril Wilde"@en , "Oscar Fingal O'Flaherty Wills Wilde"@en , "Oscar Fingal O'Flaherty Wills Wilde"@de , "Oscar Fingal O'Flaherty Wills Wilde"@fr , "Cyril Wilde"@de , "Cyril Wilde"@fr , "Sebastian Melmoth"@en , "Sebastian Melmoth"@de , "Sebastian Melmoth"@fr , "Oscar wilde"@de , "Oscar wilde"@fr , "Oscar wilde"@en , "Oscar Fingal O'Flahertie Wills Wilde"@en , "Oscar Fingal O'Flahertie Wills Wilde"@de , "Oscar Fingal O'Flahertie Wills Wilde"@fr .
+
+<http://dbpedia.org/resource/Oscar_Wilde__1>
+        dbo:award  <http://dbpedia.org/resource/Dublin> ;
+        dbo:from   "1854"^^xsd:gYear ;
+        dbo:to     "1854"^^xsd:gYear .

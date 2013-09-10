@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ky1>
+        rdfs:label     "Arthur Conan Doyle"@de , "Arthur Conan Doyle"@fr , "Arthur Conan Doyle"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0ky1__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Arthur_Conan_Doyle> , <http://dbpedia.org/resource/Arthur_Conan_Doyle> , <http://de.dbpedia.org/resource/Arthur_Conan_Doyle> ;
+        skos:altLabel  "Doyle, Arthur Conan"@en , "Arthur Conan Doyle"@en , "Doyle, Sir Arthur Conan"@en , "Doyle"@en , "Doyle, Sir Arthur Conan"@de , "Arthur Conan Doyle"@de , "Arthur Conan Doyle"@fr , "Doyle, Sir Arthur Conan"@fr , "Doyle"@de , "Doyle, Arthur Conan"@de , "Doyle, Arthur Conan"@fr , "Doyle"@fr , "Arthur Conan Ignatius, Sir Doyle"@en , "Arthur Conan Ignatius Doyle"@en , "Arthur"@en , "Arthur C. Doyle"@en , "Sir Arthur Ignatius Conan Doyle"@en , "Arthur"@de , "Arthur C. Doyle"@de , "Arthur C. Doyle"@fr , "Arthur"@fr , "Arthur Conan-Doyle"@en , "Arthur Conan Ignatius, Sir Doyle"@fr , "Sir Arthur Ignatius Conan Doyle"@de , "Sir Arthur Ignatius Conan Doyle"@fr , "Arthur Conan-Doyle"@de , "Arthur Conan Ignatius Doyle"@de , "Arthur Conan Ignatius Doyle"@fr , "Arthur Conan Ignatius, Sir Doyle"@de , "Arthur Conan-Doyle"@fr , "Sir Arthur Conan Doyle"@en , "Sir Arthur Conan Doyle"@de , "Sir Arthur Conan Doyle"@fr , "Sir Conan Doyle"@en , "Sir Conan Doyle"@de , "Sir Conan Doyle"@fr , "Arthur Ignatius Conan Doyle"@en , "Conan"@fr , "The Narrative of John Smith"@en , "The Narrative of John Smith"@de , "The Narrative of John Smith"@fr , "A. Conan Doyle"@en , "A. Conan Doyle"@de , "A. Conan Doyle"@fr , "Dr. Arthur Conan Doyle"@en , "Arthur Conan Doyle's"@en , "Arthur Conan Doyle's"@de , "Arthur Conan Doyle's"@fr , "Sir Arthur Conan-Doyle"@en , "Sir Arthur Doyle"@en , "Sir Arthur Doyle"@de , "Sir Arthur Doyle"@fr , "Conan Doyle, Sir Arthur"@en , "Conan Doyle"@en , "Conan Doyle"@de , "Conan Doyle"@fr , "A Conan Doyle"@en , "A Conan Doyle"@de , "A Conan Doyle"@fr .
+
+<http://rdf.freebase.com/ns/m.04_pjf>
+        rdfs:label     "The Poison Belt"@en , "La Ceinture empoisonnée"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Poison_Belt> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/La_Ceinture_empoisonnée> ;
+        skos:altLabel  "La ceinture empoisonee"@fr , "The Poison Belt"@fr , "La Ceinture Empoisonnée"@fr , "La Ceinture Empoisonnee"@fr , "La ceinture empoisonée"@fr , "La ceinture empoisonnée"@fr , "La ceinture empoisonnee"@fr , "La Ceinture empoisonnée"@fr , "La Ceinture empoisonnee"@fr .
+
+<http://rdf.freebase.com/ns/m.0ky1__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04_pjf> ;
+        dbo:from    "1909"^^xsd:gYear ;
+        dbo:to      "1909"^^xsd:gYear .

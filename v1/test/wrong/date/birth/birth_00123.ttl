@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Michael_Jordan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Brooklyn> ;
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Brooklyn>
+        rdfs:label     "Brooklyn"@en , "Brooklyn"@de , "Brooklyn"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Brooklyn> , <http://fr.dbpedia.org/resource/Brooklyn> ;
+        skos:altLabel  "Brooklynites"@en , "Breuckelen"@de , "Brooklynites"@fr , "Brooklynites"@de , "Brooklen"@en , "Brooklen"@fr , "Brooklen"@de , "Brooklynite"@en , "Breukelen, New York"@en , "Breukelen, New York"@fr , "Breukelen, New York"@de , "Comté de Kings"@fr , "Brooklynite"@fr , "Brooklynite"@de , "La Cima Elementary Charter School"@en , "La Cima Elementary Charter School"@fr , "La Cima Elementary Charter School"@de , "Brooklyn, US-NY"@en , "Brooklyn, US-NY"@fr , "Brooklyn, US-NY"@de , "Brooklyn NFL"@en , "Kings NY"@en , "Brooklyn NFL"@fr , "Brooklyn NFL"@de , "Kings NY"@de , "Kings NY"@fr , "Kings County, New York"@en , "Kings County, New York"@fr , "Kings County, New York"@de , "Brooklyn, New York City"@en , "Brooklyn"@en , "Brooklyn, New York City"@fr , "Brooklyn, New York City"@de , "Brooklyn"@fr , "Brooklyn"@de , "Brooklyn,NY"@en , "Brooklyn,NY"@fr , "Brooklyn,NY"@de , "Brooklyn, NYC"@en , "Brooklyn, NYC"@fr , "Brooklyn, NYC"@de , "Brooklyn, N.Y."@en , "Brooklyn, N.Y."@fr , "Brooklyn, N.Y."@de , "Brooklyn, New York, New York"@en , "Brooklyn, New York, New York"@de , "Brooklyn, New York, New York"@fr , "BKLYN"@en , "BKLYN"@de , "BKLYN"@fr , "Kings County, NY"@en , "Kings County, NY"@fr , "Kings County, NY"@de , "Kings County"@de , "District de Brooklyn"@fr , "BROOKLYN, New York"@en , "BROOKLYN, New York"@fr , "BROOKLYN, New York"@de , "Kings County, N.Y."@en , "Kings County, N.Y."@fr , "Kings County, N.Y."@de , "Hiphopabad"@en , "Hiphopabad"@de , "Hiphopabad"@fr , "B'klyn"@en , "Brooklyn, ny"@en , "B'klyn"@fr , "Brooklyn, ny"@fr , "Brooklyn, ny"@de , "B'klyn"@de , "Brooknam"@en , "Brooknam"@fr , "Brooknam"@de , "Brooklyn, NYC, NY"@en , "Brooklyn, New York"@en , "Brooklyn, N.Y"@en , "Brooklyn, N.Y"@fr , "Brooklyn, N.Y"@de , "Breukelen"@en , "Brooklyn, New York"@fr , "Brooklyn, New York"@de , "Brooklyn, NYC, NY"@fr , "Breukelen"@fr , "Brooklyn, NYC, NY"@de , "Breukelen"@de , "Comte de Kings"@fr , "Kings"@en , "Kings"@fr , "Kings"@de , "Brooklyn, NY"@en , "Brooklyn, NY"@fr , "Brooklyn, NY"@de .
+
+<http://dbpedia.org/resource/Michael_Jordan>
+        rdfs:label     "Michael Jordan"@de , "Michael Jordan"@fr , "Michael Jordan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Michael_Jordan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Michael_Jordan> , <http://fr.dbpedia.org/resource/Michael_Jordan> ;
+        skos:altLabel  "Yvette Prieto"@en , "Yvette Prieto"@de , "Yvette Prieto"@fr , "His Airness"@en , "His Airness"@de , "His Airness"@fr , "Michael J. Jordan"@en , "Michael J. Jordan"@de , "Michael J. Jordan"@fr , "MJ23"@en , "MJ23"@de , "MJ23"@fr , "Jordan, Michael"@en , "Jordan, Michael"@de , "Jordan, Michael"@fr , "Michael Jeffrey Jordan"@de , "Michael Jeffrey Jordan"@fr , "Michael Jeffrey Jordan"@en , "Michael Jordan"@en , "Michael Jordan"@fr , "Michael Jordan"@de , "James R. Jordan, Jr."@en , "James R. Jordan, Jr."@fr , "James R. Jordan, Jr."@de , "Micheal Jordan"@en , "Micheal Jordan"@de , "Micheal Jordan"@fr , "Jordan,Michael"@de , "Jordan,Michael"@fr , "Jordan,Michael"@en , "Micheal Jordon"@en , "Michael jordan"@de , "Michael jordan"@fr , "Michael jordan"@en , "Micheal Jordon"@de , "Micheal Jordon"@fr , "Michaël Jordan"@fr , "Jordan"@fr , "Mickael Jordan"@fr , "Michael Jeffery Jordan"@de , "Michael Jeffery Jordan"@fr , "Michael Jeffery Jordan"@en , "Air Jordan"@de , "Michael Jordon"@en , "Michael Jordon"@de , "Michael Jordon"@fr .

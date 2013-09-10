@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0p52s>
+        rdfs:label     "Jamie Lynn Spears"@fr , "Jamie Lynn Spears"@de , "Jamie Lynn Spears"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jamie_Lynn_Spears> , <http://dbpedia.org/resource/Jamie_Lynn_Spears> , <http://fr.dbpedia.org/resource/Jamie_Lynn_Spears> ;
+        skos:altLabel  "Jamie lyn spears"@fr , "Jamie lyn spears"@en , "Jamie lyn spears"@de , "Casey Aldridge"@fr , "Jamie-Lynn Spears"@fr , "Jamie-Lynn Spears"@en , "Jamie-Lynn Spears"@de , "Jamie Lynn Marie Spears"@fr , "Casey Aldridge"@en , "Casey Aldridge"@de , "Maddie Aldridge"@fr , "Maddie Briann Aldridge"@fr , "Maddie Briann Aldridge"@de , "Jamie Lynn Marie Spears"@en , "Jamie Lynn Marie Spears"@de , "Maddie Briann Aldridge"@en , "Maddie Aldridge"@en , "Maddie Aldridge"@de , "Follow Me"@fr , "Jamie lynne spears"@fr , "Follow Me"@en , "Follow Me"@de , "Jamie lynne spears"@en , "Jamie lynne spears"@de , "Jamielynn Spears"@fr , "Jamielynn Spears"@en , "Jamielynn Spears"@de , "J Lynn"@en , "Spears"@fr , "Spears"@de , "Jamie Lynn Spears"@fr , "Jamie Lynn Spears"@en , "Jamie Lynn Spears"@de , "Jaime Spears"@fr , "Jaime Spears"@en , "Jaime Spears"@de , "Jamey Spears"@fr , "Jamey Spears"@en , "Jamey Spears"@de , "Jamie lynn spears baby"@fr , "Jamie lynn spears baby"@en , "Jamie lynn spears baby"@de , "Jamie Lynn"@fr , "Jamie Lynn"@en , "Jamie Lynn"@de , "Jamie Spears"@fr , "Jamie Spears"@en , "Jamie Spears"@de , "J.L. Spears"@fr , "J.L. Spears"@en , "J.L. Spears"@de .
+
+<http://rdf.freebase.com/ns/m.07zq7gz>
+        rdfs:label    "Casey Aldridge"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.07zq7gz__32> .
+
+<http://rdf.freebase.com/ns/m.07zq7gz__32>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0p52s> ;
+        dbo:to      "2009-03"^^xsd:gYearMonth .

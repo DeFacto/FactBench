@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h12zjq>
+        rdfs:label     "Mams Taylor"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h12zjq__1> ;
+        skos:altLabel  "Mams taylor"@en .
+
+<http://rdf.freebase.com/ns/m.03jtbv>
+        rdfs:label     "Bob Guiney"@en , "Bob Guiney"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bob_Guiney> , <http://dbpedia.org/resource/Bob_Guiney> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Guiney"@fr , "Band From TV"@en , "Bob Guiney"@fr , "Robert \"Bob\" Guiney"@fr , "Robert Guiney"@en , "Bachelor Bob"@en .
+
+<http://rdf.freebase.com/ns/m.0h12zjq__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03jtbv> ;
+        dbo:to      "2010"^^xsd:gYear .

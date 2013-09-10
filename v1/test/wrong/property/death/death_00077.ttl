@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mumbai>
+        rdfs:label     "Mumbai"@de , "Mumbai"@fr , "Mumbai"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bombay> , <http://de.dbpedia.org/resource/Mumbai> ;
+        skos:altLabel  "Bombei"@en , "Mubai"@en , "Bombei"@fr , "Bombei"@de , "Mubai"@fr , "Mubai"@de , "Mombai"@en , "Mombai"@fr , "Mombai"@de , "Bom Bahia"@en , "City of Mumbai"@en , "City of Mumbai"@fr , "City of Mumbai"@de , "Bom Bahia"@fr , "Bom Bahia"@de , "Mumbai, India"@en , "Bombay City"@en , "Mumbai, India"@fr , "Mumbai, India"@de , "Bombay City"@fr , "Bombay City"@de , "Greater Bombay"@en , "Greater Bombay"@fr , "Greater Bombay"@de , "Mumbaī"@en , "Mumbaī"@fr , "Mumbaī"@de , "Mumbaii"@en , "Bumbai"@en , "Bumbai"@fr , "Bumbai"@de , "Mumbaii"@fr , "Mumbaii"@de , "Demographics of Mumbai"@en , "Demographics of Mumbai"@fr , "Demographics of Mumbai"@de , "Mumbaï"@fr , "Greater Mumbai"@en , "City of Bombay"@en , "Mumbai, MH"@en , "Greater Mumbai"@fr , "City of Bombay"@fr , "Mumbai, MH"@fr , "Mumbai, MH"@de , "City of Bombay"@de , "Greater Mumbai"@de , "Bombay also known as mumbai"@en , "Mumbai"@en , "Mumbai"@de , "Mumbai"@fr , "Bombay india"@en , "Eastindians"@en , "Bombay also known as mumbai"@fr , "Bombay india"@fr , "Eastindians"@fr , "Bombay also known as mumbai"@de , "Eastindians"@de , "Bombay india"@de , "Mumbaai"@en , "Mumbaai"@fr , "Mumbaai"@de , "Mumbay"@en , "Mumbaikars"@en , "Mumbay"@fr , "Mumbaikars"@fr , "Mumbaikars"@de , "Mumbay"@de , "Downtown Mumbai"@en , "Downtown Mumbai"@fr , "Downtown Mumbai"@de , "Bomaím"@en , "Bomaím"@fr , "Bomaím"@de , "Bombai"@en , "Bombai"@fr , "Bombai"@de , "Bombay"@en , "Bombay"@fr , "Bombay"@de , "Bombay, India"@en , "Bombay, India"@fr , "Bombay, India"@de , "Site de developpement de bombay"@fr , "Mumbia"@en , "Mumbai, Maharastra"@en , "Mumbia"@fr , "Mumbia"@de , "Bomaim"@en , "Mumbai, Maharastra"@fr , "Mumbai, Maharastra"@de , "Bombay, Maharashtra"@en , "Bomaim"@fr , "Bomaim"@de , "Bombay, Maharashtra"@fr , "Bombay, Maharashtra"@de , "Demographics of Bombay"@en , "Demographics of Bombay"@fr , "Demographics of Bombay"@de , "Bombay, MH"@en , "Bombay, MH"@fr , "Bombay, MH"@de , "Mumbai, Maharashtra"@en , "Mumbai, Maharashtra"@fr , "Mumbai, Maharashtra"@de , "Mumbai City"@en , "Mumbai City"@fr , "Mumbai City"@de , "Crime in Mumbai"@en , "Crime in Mumbai"@fr , "Crime in Mumbai"@de .
+
+<http://dbpedia.org/resource/Kishore_Kumar>
+        rdfs:label     "Kishore Kumar"@en , "Kishore Kumar"@fr , "Kishore Kumar"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kishore_Kumar__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kishore_Kumar> , <http://de.dbpedia.org/resource/Kishore_Kumar> ;
+        skos:altLabel  "Kishore da"@en , "Kishore Kumar Ganguly"@en , "Kishore da"@fr , "Kishore Kumar Ganguly"@fr , "Kishore da"@de , "Kishore Kumar Ganguly"@de , "Kishor Kumar"@en , "Phoolon ki zubaan"@en , "Kishor Kumar"@fr , "Phoolon ki zubaan"@fr , "Kishor Kumar"@de , "Phoolon ki zubaan"@de , "Abhas Ganguly"@en , "Kishore Kumar's songs"@en , "Kumar"@en , "Abhas Ganguly"@fr , "Abhas Ganguly"@de , "Kumar"@fr , "Kumar"@de , "Abhas Kumar Ganguly"@en , "Kishore Kumar"@en , "Kishore Kumar"@fr , "Kishore Kumar"@de , "Kishore Kumar's songs"@fr , "Abhas Kumar Ganguly"@fr , "Kishore Kumar's songs"@de , "Abhas Kumar Ganguly"@de , "Kishore"@en , "Kishore"@fr , "Kishore"@de .
+
+<http://dbpedia.org/resource/Kishore_Kumar__1>
+        dbo:from        "1987"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Mumbai> ;
+        dbo:to          "1987"^^xsd:gYear .

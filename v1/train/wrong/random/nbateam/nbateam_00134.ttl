@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0hngp>
+        rdfs:label     "Carrie"@en , "Carrie"@fr , "Carrie"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carrie_(Roman)> , <http://fr.dbpedia.org/resource/Carrie_(roman)> , <http://dbpedia.org/resource/Carrie_(novel)> ;
+        skos:altLabel  "Carrie"@en , "Carrie"@fr , "Carrie"@de , "Carietta \"Carrie\" White"@en , "Carietta \"Carrie\" White"@fr , "Carietta \"Carrie\" White"@de , "Billy Nolan"@fr , "Billy Nolan"@de , "Billy Nolan"@en .
+
+<http://dbpedia.org/resource/Johnny_Mercer>
+        rdfs:label     "Johnny Mercer"@de , "Johnny Mercer"@en , "Johnny Mercer"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Johnny_Mercer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Johnny_Mercer> , <http://fr.dbpedia.org/resource/Johnny_Mercer> ;
+        skos:altLabel  "Bernardine"@fr , "Bernardine"@de , "Johnny Mercer"@fr , "John Herndon Mercer"@fr , "John Herndon Mercer"@de , "Johnny Mercer"@de , "John Herndon \"Johnny\" Mercer"@fr , "Mercer"@fr , "John Herndon \"Johnny\" Mercer"@de , "Mercer"@de , "Conversation While Dancing"@fr , "Conversation While Dancing"@de , "Johnnie Mercer"@fr , "Johnnie Mercer"@de .
+
+<http://dbpedia.org/resource/Johnny_Mercer__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.0hngp> ;
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:to          "2010"^^xsd:gYear .

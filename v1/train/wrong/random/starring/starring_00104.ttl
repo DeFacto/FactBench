@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Minnesota_Timberwolves>
+        rdfs:label     "Minnesota Timberwolves"@de , "Minnesota Timberwolves"@en , "Minnesota Timberwolves"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Timberwolves_du_Minnesota> , <http://de.dbpedia.org/resource/Minnesota_Timberwolves> ;
+        skos:altLabel  "Minnesotatwolves"@en , "Minnesotatwolves"@fr , "Minnesotatwolves"@de , "Minnesota twolves"@en , "Minnesota twolves"@fr , "Minnesota twolves"@de , "Minnesota Timberwolves"@en , "Minnesota Timberwolves"@fr , "Minnesota Timberwolves"@de , "Timberwolves du minnesota"@fr , "Minnesota Wolves"@en , "T-wolves"@en , "Minnesota t-wolves"@en , "Crunch"@en , "Minnesota Wolves"@fr , "T-wolves"@fr , "Timberwolves du Minnessota"@fr , "Minnesota t-wolves"@fr , "T-wolves"@de , "Crunch"@fr , "Minnesota t-wolves"@de , "Minnesota Wolves"@de , "Crunch"@de , "Minnesota T Wolves"@en , "Minnesota T Wolves"@fr , "Timberwolves du Minnesota"@fr , "Minnesota T Wolves"@de .
+
+<http://dbpedia.org/resource/Kaysone_Phomvihane>
+        rdfs:label     "Kaysone Phomvihane"@en , "Kaysone Phomvihane"@fr , "Kaysone Phomvihane"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kaysone_Phomvihane__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kaysone_Phomvihane> , <http://de.dbpedia.org/resource/Kaysone_Phomvihane> ;
+        skos:altLabel  "Kaison Phomvihan"@en , "Kaison Phomvihan"@fr , "Kaison Phomvihan"@de , "Kaysone Phomvihan"@en , "Kaysone Phomvihan"@fr , "Kaysone Phomvihan"@de , "Phomvihane"@de , "Kaisôn Phomvihān"@en , "Kaisôn Phomvihān"@de , "Kaisôn Phomvihān"@fr , "Kaysone Phomvihane"@en , "Kaysone Phomvihane"@fr , "Kaysone Phomvihane"@de .
+
+<http://dbpedia.org/resource/Kaysone_Phomvihane__1>
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Minnesota_Timberwolves> ;
+        dbo:to          "1998"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01dnlr>
+        rdfs:label     "Oulu"@en , "Oulu"@fr , "Oulu"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Oulu> , <http://de.dbpedia.org/resource/Oulu> , <http://fr.dbpedia.org/resource/Oulu> ;
+        skos:altLabel  "LOCODE:FIOUL"@en , "LOCODE:FIOUL"@fr , "LOCODE:FIOUL"@de , "Barony of Oulu"@en , "Barony of Oulu"@fr , "Barony of Oulu"@de , "Uleaborg"@en , "Oulu, Finland"@en , "Oulu"@en , "Uleåborg"@en , "Uleaborg"@fr , "Oulu"@fr , "Uleaborg"@de , "Oulu"@de , "Uleåborg"@fr , "Uleåborg"@de , "LOCODE:FIOLU"@en , "Oulu, Finland"@fr , "LOCODE:FIOLU"@fr , "Oulu, Finland"@de , "LOCODE:FIOLU"@de , "Oulo"@en , "Oulo"@fr , "Oulo"@de .
+
+<http://rdf.freebase.com/ns/m.04d9v1__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01dnlr> ;
+        dbo:from             "1981"^^xsd:gYear ;
+        dbo:to               "1981"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04d9v1>
+        rdfs:label  "Blackbaud"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04d9v1__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Blackbaud> .

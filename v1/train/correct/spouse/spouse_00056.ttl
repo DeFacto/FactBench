@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06cv1>
+        rdfs:label     "Robert Rodriguez"@en , "Robert Rodriguez"@fr , "Robert Rodriguez"@de ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.06cv1__56> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robert_Rodriguez> , <http://dbpedia.org/resource/Robert_Rodriguez> , <http://de.dbpedia.org/resource/Robert_Rodriguez> ;
+        skos:altLabel  "Robert Rodriguez"@en , "Robert Rodriguez 'My Brother'"@en , "Robert Anthony Rodriguez"@de , "Robert Anthony Rodriguez"@en , "The Wizard"@en , "Robert"@fr , "Rodriguez, Robert"@en , "Robert Rodríguez"@fr , "Roberto Rodriguez"@en , "Robert Rodríguez"@de , "Robert Rodríguez"@en , "Robert Rodriguez and Band"@en , "Mi Hermano Robert R."@en , "Robert Rodriguez"@fr , "Robert Rodriguez"@de .
+
+<http://rdf.freebase.com/ns/m.01m4yn>
+        rdfs:label     "Rose McGowan"@de , "Rose McGowan"@en , "Rose McGowan"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Rose_McGowan> , <http://de.dbpedia.org/resource/Rose_McGowan> , <http://fr.dbpedia.org/resource/Rose_McGowan> ;
+        skos:altLabel  "McGowan"@fr , "Rose Arianna McGowan"@en , "McGowan"@de , "McGowan"@en , "Rose Mcgowan"@fr , "Rose Mcgowan"@de , "Rose Mcgowan"@en , "Rose McGowan"@fr , "Actress Rose McGowan"@fr , "Rose McGowan"@de , "Actress Rose McGowan"@de , "Rose McGowan"@en , "Actress Rose McGowan"@en , "Rose mcgowan"@fr , "Rose mcgowan"@de , "Rose mcgowan"@en , "McGowan, Rose"@en , "Rose mcgowen"@fr , "Rose mcgowen"@de , "Rose mcgowen"@en , "Rose McGowen"@en .
+
+<http://rdf.freebase.com/ns/m.06cv1__56>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01m4yn> ;
+        dbo:to      "2009-10-02"^^xsd:date .

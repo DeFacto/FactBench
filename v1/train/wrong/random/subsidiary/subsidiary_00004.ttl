@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dwight_Howard>
+        rdfs:label     "Dwight Howard"@en , "Dwight Howard"@fr , "Dwight Howard"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dwight_Howard__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dwight_Howard> , <http://de.dbpedia.org/resource/Dwight_Howard> ;
+        skos:altLabel  "Dwight David Howard"@de , "Dwight"@de , "Dwight Howard"@fr , "Dwight Howard"@de , "Dwight Howard"@en , "Howard"@fr .
+
+<http://dbpedia.org/resource/Dwight_Howard__1>
+        dbo:from      "1995"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.02_9176> ;
+        dbo:to        "1995"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02_9176>
+        rdfs:label  "Clarity Wireless, Inc"@en .

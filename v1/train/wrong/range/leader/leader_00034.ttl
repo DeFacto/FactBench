@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Denmark>
+        rdfs:label     "Denmark"@de , "Denmark"@fr , "Denmark"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dänemark> , <http://fr.dbpedia.org/resource/Danemark> ;
+        skos:altLabel  "Königreich Dänemark"@de , "Dänemark"@en , "Dänemark"@fr , "Dänemark"@de , "Denmarc"@en , "Denmarc"@fr , "Denmarc"@de , "Denemarke"@en , "Denemarke"@fr , "Denemarke"@de , "Subdivisions of Denmark"@en , "Subdivisions of Denmark"@fr , "Subdivisions of Denmark"@de , "Kongeriget Danmark"@en , "Royaume du Danemark"@fr , "Kongeriget Danmark"@de , "Kongeriget Danmark"@fr , "Royaume de Danemark"@fr , "Denmark"@en , "Daenemark"@en , "Denmark"@fr , "Denmark"@de , "Daenemark"@fr , "Daenemark"@de , "Eastern Denmark"@en , "Danimarca"@en , "Danimarca"@de , "Danimarca"@fr , "Eastern Denmark"@fr , "Eastern Denmark"@de , "Danemark"@en , "Danska"@en , "Danemark"@fr , "Danska"@fr , "Konigreich Danemark"@de , "Danemark"@de , "Danska"@de , "Danish archipelago"@en , "Danish archipelago"@fr , "Danish archipelago"@de , "Danmörk"@en , "Danmörk"@fr , "Danmörk"@de , "Kingdom of Denmark"@en , "Kingdom of Denmark"@de , "Kingdom of Denmark"@fr , "Danish kingdom"@en , "Danish kingdom"@fr , "Danish kingdom"@de , "ISO 3166-1:DK"@en , "ISO 3166-1:DK"@fr , "ISO 3166-1:DK"@de , "KingdomOfDenmark"@en , "KingdomOfDenmark"@fr , "KingdomOfDenmark"@de , "DENMARK"@en , "DENMARK"@fr , "DENMARK"@de , "Administrative divisions of denmark"@en , "Administrative divisions of denmark"@de , "Administrative divisions of denmark"@fr , "Name of Denmark"@en , "Name of Denmark"@fr , "Name of Denmark"@de , "Etymology of Denmark"@en , "Denmarke"@en , "Administrative divisions of Denmark"@en , "Etymology of Denmark"@fr , "Denmarke"@fr , "Denmarke"@de , "Administrative divisions of Denmark"@fr , "Etymology of Denmark"@de , "Administrative divisions of Denmark"@de , "Danmark"@fr , "Danmark"@de , "Danmoerk"@en , "Danmoerk"@fr , "Danmoerk"@de , "Danmork"@en , "Danmork"@de , "Danmork"@fr , "Danish Kingdom"@en , "Denmark proper"@en , "Danish Kingdom"@fr , "Denmark proper"@de , "Denmark proper"@fr , "Danish Kingdom"@de , "Philosophy of Denmark"@en , "Philosophy of Denmark"@fr , "Philosophy of Denmark"@de .
+
+<http://dbpedia.org/resource/Ruud_Lubbers>
+        rdfs:label     "Ruud Lubbers"@en , "Ruud Lubbers"@fr , "Ruud Lubbers"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ruud_Lubbers__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ruud_Lubbers> , <http://de.dbpedia.org/resource/Ruud_Lubbers> ;
+        skos:altLabel  "Ruud Lübbers"@fr , "Ruud F.M. Lubbers"@fr , "Ruud Lubbers"@en , "Ruud Lubbers"@fr , "Ruud Lubbers"@de , "Rudolph Franz Marie Lubbers"@en , "Rudolph Franz Marie Lubbers"@fr , "Rudolph Franz Marie Lubbers"@de , "Ruud F. M. Lubbers"@en , "Ruud F. M. Lubbers"@fr , "Ruud F. M. Lubbers"@de , "Rudolphus Franciscus Marie Lubbers"@en , "Ruud"@en , "Ruud Frans Marie Lubbers"@en , "Lubbers"@en , "Rudolphus Franciscus Marie Lubbers"@fr , "Ruud"@fr , "Ruud Frans Marie Lubbers"@fr , "Lubbers"@fr , "Rudolphus Franciscus Marie Lubbers"@de , "Ruud"@de , "Ruud Frans Marie Lubbers"@de , "Lubbers"@de .
+
+<http://dbpedia.org/resource/Ruud_Lubbers__1>
+        dbo:from    "1982"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Denmark> ;
+        dbo:to      "1994"^^xsd:gYear .

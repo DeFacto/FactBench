@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Martine_McCutcheon>
+        rdfs:label     "Martine McCutcheon"@en , "Martine McCutcheon"@fr , "Martine McCutcheon"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Martine_McCutcheon> , <http://fr.dbpedia.org/resource/Martine_McCutcheon> ;
+        skos:altLabel  "Martine mccutcheon"@de , "Martine mccutcheon"@en , "McCutcheon"@fr , "McCutcheon"@de , "McCutcheon"@en , "Martine"@fr , "Martine"@de , "Martine"@en , "Martine Mccutcheon"@fr , "Martine Mccutcheon"@de , "Martine Mccutcheon"@en , "Martine McCutcheon"@fr , "Martine McClutcheon"@fr , "Martine McClutcheon"@de , "Martine McClutcheon"@en , "Martine McCutcheon"@de , "Martine McCutcheon"@en , "Martine mccutcheon"@fr .
+
+<http://dbpedia.org/resource/Love_Actually>
+        rdfs:label      "Love Actually"@en , "Love Actually"@fr , "Love Actually"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/Love_Actually__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Tatsächlich…_Liebe> , <http://fr.dbpedia.org/resource/Love_Actually> ;
+        skos:altLabel   "Tatsächlich … Liebe"@de , "Tatsachlich Liebe"@de , "Tatsachlich… Liebe"@de , "Tatsächlich Liebe"@de , "Tatsachlich ... Liebe"@de , "Love, Actually"@fr , "Love, Actually"@de , "Love, Actually"@en , "Love actually"@fr , "Love Actually"@fr , "Love actually"@de , "Tatsachlich...Liebe"@de , "Love Actually"@de , "Love Actually"@en , "Love actually"@en , "Tatsachlich … Liebe"@de , "Tatsachlich... Liebe"@de , "Tatsächlich… Liebe"@de , "Tatsächlich...Liebe"@de , "Tatsächlich... Liebe"@de , "Tatsächlich ... Liebe"@de .
+
+<http://dbpedia.org/resource/Love_Actually__1>
+        dbo:from      "2003-11-07"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Martine_McCutcheon> ;
+        dbo:to        "2003-11-07"^^xsd:date .

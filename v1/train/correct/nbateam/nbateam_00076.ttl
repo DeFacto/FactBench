@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Boston_Celtics>
+        rdfs:label     "Boston Celtics"@fr , "Boston Celtics"@de , "Boston Celtics"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Boston_Celtics> , <http://fr.dbpedia.org/resource/Celtics_de_Boston> ;
+        skos:altLabel  "Boston Celts"@fr , "Boston Celts"@de , "Boston Celts"@en , "Boston Celtic"@fr , "Boston Celtics"@fr , "Celtics de boston"@fr , "Boston Celtic"@de , "Boston Celtics"@de , "Boston Celtic"@en , "Boston Celtics"@en , "Celtics de Boston"@fr , "The C's"@fr , "Celtics De Boston"@fr , "The C's"@de , "The C's"@en , "Celtic"@fr , "Celtic"@de , "Celtic"@en .
+
+<http://dbpedia.org/resource/Jason_Terry>
+        rdfs:label      "Jason Terry"@en , "Jason Terry"@fr , "Jason Terry"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/Jason_Terry__3> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Jason_Terry> , <http://de.dbpedia.org/resource/Jason_Terry> ;
+        skos:altLabel   "Jason Eugene Terry"@fr , "Jason Eugene Terry"@en , "Jason Eugene Terry"@de , "Terry"@fr , "Terry"@de , "Terry"@en , "Jason Terry"@fr , "Jason Terry"@de , "Jason Terry"@en .
+
+<http://dbpedia.org/resource/Jason_Terry__3>
+        dbo:from  "2012"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Boston_Celtics> ;
+        dbo:to    "2012"^^xsd:gYear .

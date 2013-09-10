@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ottawa>
+        rdfs:label     "Ottawa"@de , "Ottawa"@fr , "Ottawa"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ottawa> , <http://de.dbpedia.org/resource/Ottawa> ;
+        skos:altLabel  "Woodridge, Ottawa River, Canada"@en , "Woodridge, Ottawa River, Canada"@de , "Woodridge, Ottawa River, Canada"@fr , "Ottawa List of MPs, MPPs, and Senators"@en , "Ottawa List of MPs, MPPs, and Senators"@de , "Ottawa List of MPs, MPPs, and Senators"@fr , "Bytown"@fr , "Antrim, Ontario"@en , "Capitale canadienne"@fr , "Antrim, Ontario"@de , "Antrim, Ontario"@fr , "Capitale du Canada"@fr , "Cedardale"@en , "Cedardale"@de , "Cedardale"@fr , "Capital of Canada"@en , "Capital of Canada"@de , "Capital of Canada"@fr , "City Ottawa"@en , "City Ottawa"@fr , "City Ottawa"@de , "Ottawa, Ontario, Canada"@en , "Ottawa, Ontario, Canada"@fr , "Ottawa, Ontario, Canada"@de , "The weather in Ottawa"@en , "The weather in Ottawa"@de , "The weather in Ottawa"@fr , "Ottawa Municipality, Ontario"@en , "Ottawa Municipality, Ontario"@de , "Ottawa Municipality, Ontario"@fr , "Government of Ottawa"@en , "Government of Ottawa"@fr , "Government of Ottawa"@de , "Ville d'Ottawa"@en , "Ville d'Ottawa"@fr , "Ville d'Ottawa"@de , "Cedardale, Ottawa, Ontario"@en , "Ottawa, Canada"@en , "Cedardale, Ottawa, Ontario"@fr , "Ottawa, Canada"@de , "Ottawa, Canada"@fr , "Cedardale, Ottawa, Ontario"@de , "Ottawa, ontario"@en , "Ottawa, ontario"@de , "Ottawa, ontario"@fr , "Capital city of canada"@en , "Capital city of canada"@fr , "Capital city of canada"@de , "LOCODE:CAOTT"@en , "LOCODE:CAOTT"@de , "LOCODE:CAOTT"@fr , "Ottawa, Ontario"@en , "Ottawa, Ontario"@de , "Ottawa, Ontario"@fr , "Ottawa, ON"@en , "Ottawa, ON"@fr , "Ottawa, ON"@de , "Otawwa"@en , "Otawwa"@de , "Otawwa"@fr , "Cedardale, Ottawa"@en , "Cedardale, Ottawa"@de , "Cedardale, Ottawa"@fr , "Role of Ottawa"@en , "Role of Ottawa"@de , "Role of Ottawa"@fr , "Ottawa"@en , "Ottawa"@fr , "Ottawa"@de .
+
+<http://dbpedia.org/resource/Humphrey_Bogart__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Ottawa> ;
+        dbo:from        "1957"^^xsd:gYear ;
+        dbo:to          "1957"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Humphrey_Bogart>
+        rdfs:label     "Humphrey Bogart"@de , "Humphrey Bogart"@fr , "Humphrey Bogart"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Humphrey_Bogart__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Humphrey_Bogart> , <http://fr.dbpedia.org/resource/Humphrey_Bogart> ;
+        skos:altLabel  "Humphrey"@de , "Humphrey"@fr , "Humphrey"@en , "Bogart"@de , "Bogart"@fr , "Bogart"@en , "Humphry Bogart"@en , "Humphry Bogart"@de , "Humphry Bogart"@fr , "Humhprey Bogart"@fr , "Bogey"@fr , "Humphrey Bogart"@en , "Santana Productions"@de , "Santana Productions"@fr , "Santana Productions"@en , "Humphrey Bogart"@de , "Humphrey Bogart"@fr , "Humphrey boggart"@de , "Humphrey boggart"@fr , "Humphrey boggart"@en , "Humprey Bogart"@de , "Humprey Bogart"@fr , "Humprey Bogart"@en , "DeForest"@en , "DeForest"@de , "DeForest"@fr , "Santana"@de , "Santana"@fr , "Santana"@en , "Stephen Bogart"@de , "Stephen Bogart"@fr , "Stephen Bogart"@en , "Humphrey DeForest Bogart"@en , "Humphrey DeForest Bogart"@de , "Humphrey DeForest Bogart"@fr , "Humphrey bogart"@de , "Humphrey bogart"@fr , "Humphrey bogart"@en , "Tennis anyone"@en , "Tennis anyone"@de , "Tennis anyone"@fr .

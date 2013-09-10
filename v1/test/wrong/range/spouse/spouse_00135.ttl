@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.072d_w>
+        rdfs:label     "Lee Ryan"@en , "Lee Ryan"@fr , "Lee Ryan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.072d_w__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lee_Ryan> , <http://de.dbpedia.org/resource/Lee_Ryan> , <http://dbpedia.org/resource/Lee_Ryan> ;
+        skos:altLabel  "Lee Ryan"@fr , "Lee Ryan"@de , "Lee Ryan"@en , "Ryan, Lee"@en , "Ryan"@fr , "Ryan Coseboom"@en .
+
+<http://rdf.freebase.com/ns/m.0b50t4>
+        rdfs:label     "Carice van Houten"@en , "Carice van Houten"@fr , "Carice van Houten"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Carice_van_Houten> , <http://dbpedia.org/resource/Carice_van_Houten> , <http://de.dbpedia.org/resource/Carice_van_Houten> ;
+        skos:altLabel  "Carice Anouk van Houten"@en , "Carice Van Houten"@fr , "Carice Van Houten"@de , "Carice van Houten"@fr , "Carice van Houten"@de , "Carice van houten"@fr , "Carice van houten"@de , "Van Houten"@de , "Van Houten"@fr .
+
+<http://rdf.freebase.com/ns/m.072d_w__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0b50t4> ;
+        dbo:to      "2007"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01d5pr>
+        rdfs:label     "Janet Asimov"@en , "Janet Asimov"@de , "Janet Opal Jeppson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01d5pr__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Janet_Opal_Jeppson> , <http://de.dbpedia.org/resource/Janet_Asimov> , <http://dbpedia.org/resource/Janet_Asimov> ;
+        skos:altLabel  "Janet"@fr , "JO Jeppson"@fr , "J. O. Jeppson"@en , "Dr. Janet Asimov"@en , "Janet Asimov"@en , "Janet Asimov"@fr , "Janet Asimov"@de , "Janet Jeppson Asimov"@en , "Janet Jeppson Asimov"@fr , "Janet Jeppson Asimov"@de , "Janet Opal (Jeppson) Asimov"@en , "Asimov"@en , "Asimov"@fr , "Asimov"@de , "Janet O. Jeppson"@en , "J O Jeppson"@en , "J O Jeppson"@fr , "J O Jeppson"@de , "Janet Jeppson"@en , "Janet Jeppson"@fr , "Janet Jeppson"@de , "Janet Opal Jeppson"@en , "Janet Opal Jeppson"@fr , "Janet Opal Jeppson"@de .
+
+<http://rdf.freebase.com/ns/m.01d5pr__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05st6> ;
+        dbo:from    "1997"^^xsd:gYear ;
+        dbo:to      "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05st6>
+        rdfs:label     "Do Androids Dream of Electric Sheep?"@en , "Les androïdes rêvent-ils de moutons électriques ?"@fr , "Träumen Androiden von elektrischen Schafen?"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Do_Androids_Dream_of_Electric_Sheep%3F> , <http://fr.dbpedia.org/resource/Les_androïdes_rêvent-ils_de_moutons_électriques_%3F> , <http://de.dbpedia.org/resource/Träumen_Androiden_von_elektrischen_Schafen%3F> ;
+        skos:altLabel  "Les androides revent-ils de moutons electriques ?"@fr , "Traumen Androiden von elektrischen Schafen?"@de , "Do Androids Dream of Electric Sheep?"@fr , "Do Androids Dream of Electric Sheep?"@de , "Do Androids Dream of Electric Sheep?"@en , "Les androïdes rêvent-ils de moutons électriques ?"@fr , "Blade Runner"@en , "Träumen Androiden von elektrischen Schafen?"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Gordon_Brown__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Canada> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Canada>
+        rdfs:label     "Canada"@de , "Canada"@fr , "Canada"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kanada> , <http://fr.dbpedia.org/resource/Canada> ;
+        skos:altLabel  "Kanadische Föderation"@de , "America's top hat"@en , "America's top hat"@fr , "America's top hat"@de , "Xanada"@en , "Commonwealth du Canada"@fr , "Xanada"@fr , "Xanada"@de , "Canadá"@en , "Canadá"@fr , "Canadá"@de , "Candadienne"@fr , "Canadaa"@en , "Canadaa"@fr , "Canadaa"@de , "Dominion du Canada"@fr , "CANADA"@en , "Nation canadienne"@fr , "CANADA"@fr , "CANADA"@de , "Kenadian"@en , "Kenadian"@de , "Kenadian"@fr , "Canada"@en , "Canada"@fr , "Canada"@de , "Canuckistan"@en , "Peuple canadien"@fr , "Canuckistan"@fr , "Canuckistan"@de , "Puissance du Canada"@fr , "Etat federal canadien"@fr , "The Dominion of Canada"@en , "A mari usque ad mare"@de , "The Dominion of Canada"@fr , "The Dominion of Canada"@de , "Canadian Federation"@en , "Canadiophile"@en , "Canadian Federation"@de , "Canadian Federation"@fr , "Canadiophile"@de , "Canadiophile"@fr , "Canayens"@fr , "Population canadienne"@fr , "Pancanadien"@fr , "Caanaadaa"@en , "Etymology of Canada"@en , "Caanaadaa"@fr , "Etymology of Canada"@fr , "Etymology of Canada"@de , "Caanaadaa"@de , "Čanada"@en , "Cnada"@en , "Cnada"@fr , "Čanada"@fr , "Cnada"@de , "Kanadische Foderation"@de , "Čanada"@de , "Canada."@en , "Canada."@de , "Canada."@fr , "État fédéral canadien"@fr , "Kaenada"@en , "Kaenada"@fr , "Kaenada"@de , "Federation canadienne"@fr , "Canada's"@en , "Canada's"@fr , "Canada's"@de , "Canada-Uni,"@fr , "Dominion of Canada"@en , "ISO 3166-1:CA"@en , "ISO 3166-1:CA"@fr , "ISO 3166-1:CA"@de , "Pancanadianisme"@fr , "Dominion of Canada"@fr , "Dominion of Canada"@de , "References"@en , "Canadialand"@en , "Dominion of canada"@en , "Kanada"@de , "References"@fr , "References"@de , "Fédération canadienne"@fr , "Canadialand"@de , "Canadialand"@fr , "Dominion of canada"@de , "Kanadisch"@de , "Dominion of canada"@fr .
+
+<http://dbpedia.org/resource/Gordon_Brown>
+        rdfs:label     "Gordon Brown"@de , "Gordon Brown"@fr , "Gordon Brown"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Gordon_Brown__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Gordon_Brown> , <http://de.dbpedia.org/resource/Gordon_Brown> ;
+        skos:altLabel  "Gordon Brown PM"@en , "Gordon Brown PM"@de , "Gordon Brown PM"@fr , "PM Brown"@en , "PM Brown"@de , "PM Brown"@fr , "Big clunking fist"@en , "Big clunking fist"@de , "Big clunking fist"@fr , "Gordon Broon"@en , "Gordon Broon"@de , "Gordon Broon"@fr , "Brown Bounce"@en , "Brown Bounce"@de , "Brown Bounce"@fr , "Great clunking fist"@en , "Great clunking fist"@de , "Great clunking fist"@fr , "Gordon Brown MP"@en , "Gordon Brown MP"@de , "Gordon Brown MP"@fr , "J. Gordon Brown"@en , "J. Gordon Brown"@de , "J. Gordon Brown"@fr , "Gordon Bronw"@en , "Gordon Bronw"@de , "Gordon Bronw"@fr , "Clunking fist"@en , "Clunking fist"@fr , "Clunking fist"@de , "Gorden brown"@en , "Brown"@en , "Gorden brown"@de , "Gorden brown"@fr , "Brown"@de , "Brown"@fr , "James Gordon Brown"@en , "James Gordon Brown"@de , "James Gordon Brown"@fr , "Prime Minister Brown"@en , "Prime Minister Brown"@de , "Prime Minister Brown"@fr , "Prime Minister Gordon Brown"@en , "Gordon Brown"@en , "Prime Minister Gordon Brown"@de , "Prime Minister Gordon Brown"@fr , "Gordon Brown"@de , "Gordon Brown"@fr , "Gordon"@fr , "Gordon brown"@en , "Gordon brown"@de , "Gordon brown"@fr , "Gordan Brown"@en , "Gordan Brown"@de , "Gordan Brown"@fr .

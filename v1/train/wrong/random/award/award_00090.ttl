@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jim_Henson__1>
+        dbo:from    "1968"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0d9jr> ;
+        dbo:to      "1968"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0d9jr>
+        rdfs:label     "Seattle"@fr , "Seattle"@en , "Seattle"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seattle> , <http://de.dbpedia.org/resource/Seattle> , <http://dbpedia.org/resource/Seattle> ;
+        skos:altLabel  "Seattle, US-WA"@de , "Seattle, US-WA"@fr , "Alki"@de , "The Emerald City"@de , "Seattle, Washington Territory"@en , "Seattle, Washington Territory"@de , "Seattle, Washington Territory"@fr , "Seattle, WA"@en , "Seattle, Washington"@en , "Seattle, WA"@fr , "Seattle, WA"@de , "Seattle, Washington"@de , "Seattle, Washington"@fr , "Seattle, wa"@en , "Seattle, wa"@fr , "Seattle, wa"@de , "King County / Seattle city"@en , "Seattleites"@en , "Seattleites"@fr , "Seattleites"@de , "The weather in Seattle"@en , "Jet City"@en , "Jet City"@de , "Jet City"@fr , "The weather in Seattle"@fr , "The weather in Seattle"@de , "Seattle, USA"@en , "Seattle, USA"@fr , "Seattle, USA"@de , "Seattleans"@en , "Seattle"@en , "Seattle"@fr , "Seattle"@de , "Seattleans"@fr , "Seattleans"@de , "Seattle, United States"@en , "Seattle, United States"@fr , "Seattle, United States"@de , "Seatle"@en , "Seatle"@fr , "Seatle"@de , "Rain City"@de , "LOCODE:USSEA"@en , "LOCODE:USSEA"@fr , "LOCODE:USSEA"@de , "Emerald City, Washington"@en , "Emerald City, Washington"@de , "Emerald City, Washington"@fr , "Die Smaragdstadt"@de , "Duwamps"@en , "Duwamps"@fr , "Duwamps"@de , "Seattle, Wash."@en , "Seattle, Wash."@fr , "Seattle, Wash."@de , "Seattle's"@en , "Seattle's"@de , "Seattle's"@fr , "City of Seattle"@en , "City of Seattle"@fr , "City of Seattle"@de , "Alki Point"@de , "Seattle Washington"@en , "Seattle Washington"@fr , "Seattle Washington"@de , "Emerald City"@en , "Seattle, United States of America"@en , "Seattle, United States of America"@fr , "Seattle, United States of America"@de , "Seattle WA"@en , "Seattle WA"@fr , "Seattle WA"@de , "Seattle, Wa"@en , "Seattle, Wa"@fr , "Seattle, Wa"@de , "Seattle, US-WA"@en , "Seattle, WA, USA"@en , "Seattle, WA, USA"@de , "Seattle, WA, USA"@fr .
+
+<http://dbpedia.org/resource/Jim_Henson>
+        rdfs:label     "Jim Henson"@en , "Jim Henson"@fr , "Jim Henson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jim_Henson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jim_Henson> , <http://de.dbpedia.org/resource/Jim_Henson> ;
+        skos:altLabel  "Henson"@en , "Henson"@fr , "Henson"@de , "The Jim Henson"@en , "James M. Henson"@en , "The Jim Henson"@fr , "James M. Henson"@fr , "James M. Henson"@de , "The Jim Henson"@de , "Jim Henson"@en , "Jim Henson"@fr , "Jim Henson"@de , "James Henson"@en , "James Henson"@fr , "Jim henson"@fr , "James Henson"@de , "Jim Hensen"@en , "Jim Hensen"@fr , "Jim Hensen"@de , "James M Henson"@en , "James M Henson"@fr , "James M Henson"@de , "James Maury Henson"@en , "James Maury Henson"@fr , "James Maury Henson"@de , "Henson, Jim"@en , "Henson, Jim"@fr , "Henson, Jim"@de .

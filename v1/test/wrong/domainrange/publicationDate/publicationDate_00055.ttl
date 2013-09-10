@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027vsqg>
+        rdfs:label  "Polyphemus"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Polyphemus_(book)> .
+
+<http://rdf.freebase.com/ns/m.0282x__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027vsqg> ;
+        dbo:from    "1966"^^xsd:gYear ;
+        dbo:to      "1966"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0282x>
+        rdfs:label     "Douglas Adams"@de , "Douglas Adams"@fr , "Douglas Adams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0282x__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Douglas_Adams> , <http://dbpedia.org/resource/Douglas_Adams> , <http://fr.dbpedia.org/resource/Douglas_Adams> ;
+        skos:altLabel  "DNA"@en , "Douglas adams"@de , "Douglas adams"@fr , "Douglas adams"@en , "Dirk Gently"@de , "Douglas"@en , "Douglas"@fr , "Adams, Douglas Noël"@en , "Douglas N. Adams"@en , "Douglass adams"@de , "Douglass adams"@fr , "Douglass adams"@en , "Adams, Douglas Noël"@de , "Adams, Douglas Noël"@fr , "Bop Ad"@en , "Adams"@fr , "Bop Ad"@de , "Bop Ad"@fr , "Adams, Douglas Noel"@en , "Adams, Douglas Noel"@de , "Adams, Douglas Noel"@fr , "David Agnew"@en , "Douglas Adams"@en , "Douglas Adams"@de , "Douglas Adams"@fr , "Douglas Adams bibliography"@de , "Douglas Adams bibliography"@fr , "Douglas Adams bibliography"@en , "Jane Belson"@en , "Jane Belson"@de , "Jane Belson"@fr , "Adams, Douglas"@en , "Adams, Douglas"@fr , "Adams, Douglas"@de , "Douglas Noël Adams"@en , "Douglas Noël Adams"@de , "Douglas Noël Adams"@fr , "Douglas Addams"@en , "Douglas Noel Adams"@de , "Douglas Noel Adams"@fr , "Douglas Noel Adams"@en , "Douglas Adams Biography"@en , "Douglas Adams Biography"@de , "Douglas Adams Biography"@fr .

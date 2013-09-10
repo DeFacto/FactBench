@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02h6ght>
+        rdfs:label  "Connetics"@en .
+
+<http://dbpedia.org/resource/Conway_Twitty>
+        rdfs:label     "Conway Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Conway_Twitty__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Conway_Twitty> , <http://fr.dbpedia.org/resource/Conway_Twitty> ;
+        skos:altLabel  "Harold Lloyd Jenkins"@en , "Twitty"@en , "Harold Lloyd Jenkins"@fr , "Twitty"@fr , "Harold Lloyd Jenkins"@de , "Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr , "Conway Twitty"@de , "Harold Jenkins a.k.a Conway Twitty"@en , "Conway"@en , "Harold Jenkins"@en , "Conway"@fr , "Conway"@de , "Harold Jenkins"@fr , "Harold Jenkins"@de , "Conway Titty"@en , "Harold Jenkins a.k.a Conway Twitty"@fr , "Harold Jenkins a.k.a Conway Twitty"@de , "Conway Titty"@fr , "Conway Titty"@de .
+
+<http://dbpedia.org/resource/Conway_Twitty__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02h6ght> ;
+        dbo:from             "2003"^^xsd:gYear ;
+        dbo:to               "2003"^^xsd:gYear .

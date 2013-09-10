@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04g_vq>
+        rdfs:label     "The Wind from Nowhere"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Wind_from_Nowhere> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "The Wind From Nowhere"@en , "The Wind from Nowhere"@en .
+
+<http://dbpedia.org/resource/Chauncey_Billups__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.04g_vq> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chauncey_Billups>
+        rdfs:label     "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chauncey_Billups__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chauncey_Billups> , <http://fr.dbpedia.org/resource/Chauncey_Billups> ;
+        skos:altLabel  "Billups"@en , "Billups"@fr , "Billups"@de , "Mr. Big Shot"@en , "Mr. Big Shot"@fr , "Mr. Big Shot"@de , "Chauncy Billups"@en , "Chauncy Billups"@fr , "Chauncy Billups"@de , "Chauncey"@en , "Chauncey"@fr , "Chauncey"@de , "Chauncey Ray Billups"@en , "Chauncey Ray Billups"@fr , "Chauncey Ray Billups"@de , "Mr Big Shot"@en , "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de , "Mr Big Shot"@fr , "Mr Big Shot"@de .

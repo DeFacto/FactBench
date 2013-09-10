@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jimmy_Carter__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Plains,_Georgia> ;
+        dbo:from        "1924-10-01"^^xsd:date ;
+        dbo:to          "1924-10-01"^^xsd:date .
+
+<http://dbpedia.org/resource/Jimmy_Carter>
+        rdfs:label     "Jimmy Carter"@de , "Jimmy Carter"@fr , "Jimmy Carter"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Jimmy_Carter__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jimmy_Carter> , <http://de.dbpedia.org/resource/Jimmy_Carter> ;
+        skos:altLabel  "Jimmy Earl Carter"@fr , "Jimmy Earl Carter"@de , "Jimmy Earl Carter"@en , "President Carter"@fr , "President Carter"@de , "President Carter"@en , "James earl carter"@fr , "2002 Nobel Peace Prize"@fr , "James Earl Carter, Jr"@fr , "2002 Nobel Peace Prize"@de , "James Earl Carter, Jr"@de , "2002 Nobel Peace Prize"@en , "James Earl Carter, Jr"@en , "James Earl Carter Junior"@fr , "James Earl (Jimmy) Carter"@fr , "James Earl (Jimmy) Carter"@de , "James Earl (Jimmy) Carter"@en , "Jimmy"@fr , "Carter"@fr , "Carter"@en , "Carter"@de , "James Earl \"Jimmy\" Carter"@fr , "James Earl \"Jimmy\" Carter"@de , "James Earl \"Jimmy\" Carter"@en , "Why not the best"@fr , "Jimmy Carter, Jr."@fr , "Why not the best"@de , "Jimmy Carter, Jr."@en , "Jimmy Carter, Jr."@de , "Why not the best"@en , "James Earl Carter Jr"@fr , "James Earl Carter"@fr , "James Earl Carter"@de , "James Earl Carter"@en , "James Earle Carter"@fr , "James Earle Carter"@de , "James Earle Carter"@en , "James E. Carter"@fr , "James E. Carter"@de , "James E. Carter"@en , "James Earl Carter, Jr."@fr , "James Earl Carter, Jr."@de , "James Earl Carter, Jr."@en , "James Carter, Jr."@fr , "James Carter, Jr."@de , "James Carter, Jr."@en , "James Carter, Jr"@fr , "James Carter, Jr"@de , "James Carter, Jr"@en , "Jimmy Carter"@fr , "James Earl \"Jimmy\" Carter Jr"@fr , "Jimmy Carter"@de , "James Earl \"Jimmy\" Carter Jr"@de , "James Earl \"Jimmy\" Carter Jr"@en , "Jimmy Carter"@en , "39th President of the United States"@fr , "39th President of the United States"@de , "39th President of the United States"@en , "James \"Jimmy\" Carter"@fr , "James E. Carter Jr."@fr , "James Earl Carter Jr."@fr , "James Earl Carter Jr."@en , "James Earl Carter Jr."@de , "President Jimmy Carter"@fr , "President Jimmy Carter"@de , "President Jimmy Carter"@en , "James \"Jimmy\" Carter"@de , "James \"Jimmy\" Carter"@en , "James E. Carter Jr."@de , "James E. Carter Jr."@en , "James E. Carter, Jr."@fr , "James E. Carter, Jr."@de , "James E. Carter, Jr."@en , "Why Not the Best"@fr , "Why Not the Best"@en , "Why Not the Best"@de , "President carter"@fr , "Jimmy carter"@fr , "Jimmy carter"@en , "Jimmy carter"@de , "President carter"@de , "President carter"@en , "Jimmi Carter"@fr , "Jimmy E. Carter"@fr , "Jimmy E. Carter"@en , "Jimmy E. Carter"@de , "James Earl \"Jimmy\" Carter, Jr."@fr , "James Earl \"Jimmy\" Carter, Jr."@de , "James Earl \"Jimmy\" Carter, Jr."@en .
+
+<http://dbpedia.org/resource/Plains,_Georgia>
+        rdfs:label     "Plains, Georgia"@fr , "Plains, Georgia"@de , "Plains, Georgia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Plains_(Georgia)> , <http://fr.dbpedia.org/resource/Plains_(Géorgie)> ;
+        skos:altLabel  "Plains City"@en , "Plains, Georgia"@fr , "Plains, Georgia"@de , "Plains, Georgia"@en , "LOCODE:USPLS"@fr , "LOCODE:USPLS"@de , "LOCODE:USPLS"@en , "Plains"@fr , "Plains"@de , "Plains"@en , "Plains, GA"@fr , "Plains, GA"@de , "Plains, GA"@en , "Plains City"@fr , "Plains City"@de .

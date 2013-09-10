@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bing_Crosby>
+        rdfs:label     "Bing Crosby"@de , "Bing Crosby"@fr , "Bing Crosby"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bing_Crosby__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bing_Crosby> , <http://fr.dbpedia.org/resource/Bing_Crosby> ;
+        skos:altLabel  "Harry Lillis \"Bing\" Crosby"@de , "Harry Lillis \"Bing\" Crosby"@fr , "Bing Crosby Enterprises"@de , "Bing Crosby Enterprises"@fr , "Bing Crosby Enterprises"@en , "Crosby, Bing"@en , "Crosby, Bing"@de , "Crosby, Bing"@fr , "Bing Crosby Productions"@de , "Bing Crosby Productions"@fr , "Bing Crosby Productions"@en , "Bing Cosby"@de , "Bing Cosby"@fr , "Bing Cosby"@en , "Harry Lillis Bing Crosby"@de , "Harry Lillis Bing Crosby"@fr , "Harry Lillis Bing Crosby"@en , "Bing Crosby"@de , "Bing Crosby"@fr , "Bing Crosby"@en , "Bing crosby"@en , "Harry Lillis Crosby"@de , "Harry Lillis Crosby"@fr , "Harry Lillis Crosby"@en , "Bing crosby"@de , "Bing crosby"@fr , "Harry L. Crosby"@de , "Harry L. Crosby"@fr , "Harry L. Crosby"@en , "Der Bingle"@de , "Der Bingle"@fr , "Der Bingle"@en , "Crosby"@de , "Crosby"@fr , "Crosby"@en , "Bing"@de , "Bing"@fr , "Bing"@en , "Harry Lillis \"Bing\" Crosby"@en .
+
+<http://dbpedia.org/resource/Savannah,_Georgia>
+        rdfs:label     "Savannah, Georgia"@de , "Savannah, Georgia"@fr , "Savannah, Georgia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Savannah_(Géorgie)> , <http://de.dbpedia.org/resource/Savannah_(Georgia)> ;
+        skos:altLabel  "Savannah ga"@en , "Savannah ga"@de , "Savannah ga"@fr , "Savannah, Georgia"@en , "Savannah, GA"@de , "Savannah, GA"@fr , "Savannah, GA"@en , "Savannah, Georgia"@de , "Savannah, Georgia"@fr , "Savannah-Chatham Metropolitan, Georgia"@en , "Savannah-Chatham Metropolitan, Georgia"@de , "Savannah-Chatham Metropolitan, Georgia"@fr , "Connect savannah"@de , "Connect savannah"@fr , "Connect savannah"@en , "Savannah International Airport"@fr , "Downtown Savannah, Georgia"@en , "Downtown Savannah, Georgia"@de , "Downtown Savannah, Georgia"@fr , "Savannah"@en , "Savannah"@de , "Savannah"@fr , "Savannah georgia"@de , "Savannah georgia"@fr , "Savannah georgia"@en , "LOCODE:USSAV"@en , "LOCODE:USSAV"@de , "LOCODE:USSAV"@fr , "Description of Savannah, GA"@de , "Description of Savannah, GA"@fr , "Description of Savannah, GA"@en , "Savannah, Ga."@en , "Savannah, Ga."@de , "Savannah, Ga."@fr , "Connect Savannah"@de , "Connect Savannah"@fr , "Connect Savannah"@en , "Savanna, Georgia"@de , "Savanna, Georgia"@fr , "Savanna, Georgia"@en , "Savanna, GA"@en , "Savanna, GA"@de , "Savanna, GA"@fr , "Savannah, ga"@en , "Savannah, ga"@de , "Savannah, ga"@fr .
+
+<http://dbpedia.org/resource/Bing_Crosby__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Savannah,_Georgia> ;
+        dbo:from        "1903"^^xsd:gYear ;
+        dbo:to          "1903"^^xsd:gYear .

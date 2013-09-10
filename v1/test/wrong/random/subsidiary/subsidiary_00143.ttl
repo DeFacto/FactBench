@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Gary,_Indiana>
+        rdfs:label     "Gary, Indiana"@fr , "Gary, Indiana"@en , "Gary, Indiana"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gary_(Indiana)> , <http://fr.dbpedia.org/resource/Gary_(Indiana)> ;
+        skos:altLabel  "Gary, Indiana"@de , "Gary, Indiana"@fr , "Gary, Indiana"@en , "Gary, Ind"@de , "Gary, Ind"@fr , "Gary, Ind"@en , "LOCODE:USGYY"@de , "LOCODE:USGYY"@fr , "LOCODE:USGYY"@en , "Gary"@de , "Gary"@fr , "Gary"@en , "Tourism in Gary, Indiana"@de , "Tourism in Gary, Indiana"@fr , "Tourism in Gary, Indiana"@en , "Gary-Hammond-East Chicago, IN MSA"@de , "Gary-Hammond-East Chicago, IN MSA"@fr , "Gary-Hammond-East Chicago, IN MSA"@en , "List of Libraries in Gary"@fr , "List of Libraries in Gary"@en , "List of Libraries in Gary"@de , "Gary, in"@de , "Gary, in"@fr , "Gary, in"@en , "Libraries of Gary, Indiana"@fr , "Libraries of Gary, Indiana"@en , "Libraries of Gary, Indiana"@de , "Gary, Ind."@de , "Gary, Ind."@fr , "Gary, Ind."@en , "Gary Public Library System"@de , "Gary Public Library System"@fr , "Gary Public Library System"@en , "Gary, IN"@de , "Gary, IN"@fr , "Gary, IN"@en .
+
+<http://rdf.freebase.com/ns/m.04jmm>
+        rdfs:label     "L. Ron Hubbard"@de , "L. Ron Hubbard"@fr , "L. Ron Hubbard"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04jmm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/L._Ron_Hubbard> , <http://dbpedia.org/resource/L._Ron_Hubbard> , <http://de.dbpedia.org/resource/L._Ron_Hubbard> ;
+        skos:altLabel  "L. Ron Hubard"@en , "l_ron_hubbard"@en , "L. Ron Hubard"@fr , "L. Ron Hubard"@de , "Elron hubbard"@en , "Elron hubbard"@fr , "Elron hubbard"@de , "L. Ron Hubbard"@en , "L. Ron Hubbard"@fr , "L. Ron Hubbard"@de , "Elron Hubbard"@en , "L. Rob Hubbard"@en , "Frederick Engelhardt"@en , "Ron Hubbard"@en , "Elron Hubbard"@fr , "Elron Hubbard"@de , "Ron Hubbard"@fr , "L. Rob Hubbard"@de , "L. Rob Hubbard"@fr , "Ron Hubbard"@de , "L. Ron. Hubbard"@en , "L. Ron. Hubbard"@de , "L. Ron. Hubbard"@fr , "Winchester Remington Colt"@en , "Winchester Remington Colt"@de , "Winchester Remington Colt"@fr , "L.Ron hubbard"@en , "Lron"@en , "L.Ron hubbard"@fr , "Lron"@de , "Lron"@fr , "L.Ron hubbard"@de , "L.ron hubbard"@en , "L.ron hubbard"@fr , "L.ron hubbard"@de , "L. Ronald Hubbard"@en , "L. Ronald Hubbard"@de , "L. Ronald Hubbard"@fr , "Kurt von Rachen"@en , "Hubbard"@fr , "Hubbard"@de , "Lafayette Hubbard"@en , "Ron hubbard"@en , "Lafayette Hubbard"@fr , "Ron hubbard"@de , "Ron hubbard"@fr , "Lafayette Hubbard"@de , "Ron L. Hubbard"@en , "Lafayette Ron Hubbard"@fr , "Ron L. Hubbard"@de , "Ron L. Hubbard"@fr , "René Lafayette"@en , "Lafayette Ronald \"L. Ron\" Hubbard"@en , "Lafayette Ronald \"L. Ron\" Hubbard"@fr , "Lafayette Ronald \"L. Ron\" Hubbard"@de , "L Ron Hubbard"@en , "L Ron Hubbard"@de , "L Ron Hubbard"@fr , "Hubbard, L. Ron"@en , "LRH"@en , "L. Ron"@en , "L. Ron"@de , "L. Ron"@fr , "Lafayette"@en , "Lafayette"@de , "Lafayette"@fr , "Lafayette Ronald Hubbard"@en , "Lafayette Ronald Hubbard"@de , "Lafayette Ronald Hubbard"@fr , "Rene La Fayette"@en , "Elrond Hubbard"@en , "Elrond Hubbard"@fr , "Elrond Hubbard"@de , "Ron"@en , "L ron hubbard"@en , "L ron hubbard"@fr , "L ron hubbard"@de , "I. Ron Hubbard"@en , "Rene LaFayete"@en , "I. Ron Hubbard"@fr , "I. Ron Hubbard"@de .
+
+<http://rdf.freebase.com/ns/m.04jmm__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Gary,_Indiana> ;
+        dbo:to      "2006"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Inglewood,_California>
+        rdfs:label     "Inglewood, California"@de , "Inglewood, California"@fr , "Inglewood, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Inglewood> , <http://de.dbpedia.org/resource/Inglewood> ;
+        skos:altLabel  "Inglewood, California"@de , "Inglewood, California"@fr , "Inglewood, California"@en , "Morningside Park"@de , "Morningside Park"@fr , "Morningside Park"@en , "Morningside Park, Inglewood"@de , "Morningside Park, Inglewood"@fr , "Morningside Park, Inglewood"@en , "Crenshaw-Imperial"@de , "Crenshaw-Imperial"@fr , "Crenshaw-Imperial"@en , "Inglewood california"@de , "Inglewood california"@fr , "Inglewood california"@en , "Morningside Park, Los Angeles, California"@de , "Morningside Park, Los Angeles, California"@fr , "Morningside Park, Los Angeles, California"@en , "Inglewood, Ca"@en , "Morningside Park, Inglewood, California"@de , "Morningside Park, Inglewood, California"@fr , "Morningside Park, Inglewood, California"@en , "Inglewood, Ca"@de , "Inglewood, Ca"@fr , "Inglewood, CA"@de , "Inglewood, CA"@fr , "North Inglewood"@de , "North Inglewood"@fr , "North Inglewood"@en , "Inglewood"@de , "Inglewood"@fr , "Inglewood"@en , "Inglewood, CA"@en , "LOCODE:USING"@en , "LOCODE:USING"@de , "LOCODE:USING"@fr .
+
+<http://dbpedia.org/resource/Curtis_Mayfield>
+        rdfs:label     "Curtis Mayfield"@en , "Curtis Mayfield"@fr , "Curtis Mayfield"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Curtis_Mayfield__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Curtis_Mayfield> , <http://fr.dbpedia.org/resource/Curtis_Mayfield> ;
+        skos:altLabel  "Curtis Mayfield & The Impressions"@en , "Curtis Mayfield & The Impressions"@fr , "Curtis Mayfield & The Impressions"@de , "Curtis"@en , "Curtis"@fr , "Curtis"@de , "Mayfield"@en , "Mayfield"@fr , "Mayfield"@de , "Curtis Mayfield"@en , "Curtis Mayfield"@de , "Curtis Mayfield"@fr .
+
+<http://dbpedia.org/resource/Curtis_Mayfield__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Inglewood,_California> ;
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:to          "2009"^^xsd:gYear .

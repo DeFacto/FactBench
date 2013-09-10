@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04qzff>
+        rdfs:label     "William Tenn"@en , "William Tenn"@fr , "William Tenn"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04qzff__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_Tenn> , <http://de.dbpedia.org/resource/William_Tenn> , <http://dbpedia.org/resource/William_Tenn> ;
+        skos:altLabel  "Fruma Klass"@en , "Fruma Klass"@fr , "Fruma Klass"@de , "Phillip Kerr"@de , "Tenn"@de , "Phil Klass"@en , "Phil Klass"@fr , "Phil Klass"@de , "William Tenn"@en , "William Tenn"@de , "William Tenn"@fr .
+
+<http://rdf.freebase.com/ns/m.026zbtc>
+        rdfs:label  "Wheelers"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Wheelers_(novel)> .
+
+<http://rdf.freebase.com/ns/m.04qzff__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.026zbtc> ;
+        dbo:from    "1979"^^xsd:gYear ;
+        dbo:to      "1979"^^xsd:gYear .

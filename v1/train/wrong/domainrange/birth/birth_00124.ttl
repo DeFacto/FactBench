@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ivan_Ljubičić__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Kingsland,_Arkansas> ;
+        dbo:from        "1982"^^xsd:gYear ;
+        dbo:to          "1982"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kingsland,_Arkansas>
+        rdfs:label     "Kingsland, Arkansas"@en , "Kingsland, Arkansas"@fr , "Kingsland, Arkansas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kingsland_(Arkansas)> , <http://fr.dbpedia.org/resource/Kingsland,_Arkansas> ;
+        skos:altLabel  "Kingsland, AR"@fr , "Kingsland, AR"@de , "Kingsland"@fr , "Kingsland"@de , "Kingsland, Arkansas"@fr , "Kingsland, Arkansas"@de .
+
+<http://dbpedia.org/resource/Ivan_Ljubičić>
+        rdfs:label     "Ivan Ljubičić"@en , "Ivan Ljubičić"@fr , "Ivan Ljubičić"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ivan_Ljubičić__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ivan_Ljubičić> , <http://de.dbpedia.org/resource/Ivan_Ljubičić> ;
+        skos:altLabel  "Ivan Ljubicic"@de , "Ivan Ljubicic"@fr , "Ljubicic"@fr , "Ljubicic"@de , "Ivan Ljubičić"@fr , "Ivan Ljubičić"@de , "Ljubičić"@fr , "Ljubičić"@de .

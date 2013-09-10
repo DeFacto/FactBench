@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Roscoe_Arbuckle>
+        rdfs:label     "Roscoe Arbuckle"@fr , "Roscoe Arbuckle"@en , "Roscoe Arbuckle"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Roscoe_Arbuckle__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Roscoe_Arbuckle> , <http://de.dbpedia.org/resource/Roscoe_Arbuckle> ;
+        skos:altLabel  "Roscoe Abuckle"@de , "Roscoe Abuckle"@fr , "Roscoe Abuckle"@en , "Roscoe Fatty Arbuckle"@en , "Roscoe Fatty Arbuckle"@de , "Roscoe Fatty Arbuckle"@fr , "Arbuckle"@de , "Arbuckle"@fr , "Arbuckle"@en , "William Goodrich"@en , "William Goodrich"@de , "William Goodrich"@fr , "Fatty Arbuckle"@de , "Fatty Arbuckle"@fr , "Fatty Arbuckle"@en , "Fatty Arbuckle scandal"@en , "Fatty Arbuckle scandal"@de , "Fatty Arbuckle scandal"@fr , "Roscoe Arbuckle"@de , "Roscoe Arbuckle"@fr , "Roscoe Arbuckle"@en , "Roscoe 'Fatty' Arbuckle"@de , "Roscoe 'Fatty' Arbuckle"@fr , "Roscoe 'Fatty' Arbuckle"@en , "Roscoe C. Arbuckle"@en , "Roscoe C. Arbuckle"@de , "Roscoe C. Arbuckle"@fr , "Roscoe Conkling Arbuckle"@en , "Roscoe Conkling Arbuckle"@de , "Roscoe Conkling Arbuckle"@fr , "Roscoe „Fatty“ Arbuckle"@de , "Roscoe"@en , "Roscoe"@de , "Roscoe"@fr , "Arbuckle, Roscoe \"Fatty\""@en , "Arbuckle, Roscoe \"Fatty\""@fr , "Arbuckle, Roscoe \"Fatty\""@de , "Fatty"@fr , "Roscoe \"Fatty\" Arbuckle"@en , "Roscoe \"Fatty\" Arbuckle"@de , "Roscoe \"Fatty\" Arbuckle"@fr , "\"Fatty\" Arbuckle"@en , "\"Fatty\" Arbuckle"@de , "\"Fatty\" Arbuckle"@fr .
+
+<http://rdf.freebase.com/ns/m.03jtbv>
+        rdfs:label     "Bob Guiney"@en , "Bob Guiney"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bob_Guiney> , <http://dbpedia.org/resource/Bob_Guiney> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Guiney"@fr , "Band From TV"@en , "Bob Guiney"@fr , "Robert \"Bob\" Guiney"@fr , "Robert Guiney"@en , "Bachelor Bob"@en .
+
+<http://dbpedia.org/resource/Roscoe_Arbuckle__1>
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03jtbv> ;
+        dbo:to          "1978"^^xsd:gYear .

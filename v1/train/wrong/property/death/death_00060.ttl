@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Thelonious_Monk__1>
+        dbo:author  <http://dbpedia.org/resource/Englewood,_New_Jersey> ;
+        dbo:from    "1982"^^xsd:gYear ;
+        dbo:to      "1982"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Englewood,_New_Jersey>
+        rdfs:label     "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Englewood_(New_Jersey)> , <http://fr.dbpedia.org/resource/Englewood_(New_Jersey)> ;
+        skos:altLabel  "LOCODE:USEWD"@en , "LOCODE:USEWD"@fr , "LOCODE:USEWD"@de , "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de , "Englewood, NJ"@en , "Englewood City, Bergen County, New Jersey"@en , "Englewood, N. J."@en , "Englewood"@en , "Englewood, NJ"@fr , "Englewood City, Bergen County, New Jersey"@fr , "Englewood, N. J."@fr , "Englewood"@fr , "Englewood City, Bergen County, New Jersey"@de , "Englewood"@de , "Englewood, NJ"@de , "Englewood, N. J."@de , "Englewood City, New Jersey"@en , "Englewood City, New Jersey"@fr , "Englewood City, New Jersey"@de .
+
+<http://dbpedia.org/resource/Thelonious_Monk>
+        rdfs:label     "Thelonious Monk"@en , "Thelonious Monk"@fr , "Thelonious Monk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Thelonious_Monk__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Thelonious_Monk> , <http://de.dbpedia.org/resource/Thelonious_Monk> ;
+        skos:altLabel  "Thelonious Sphere Monk"@en , "Thelonious Sphere Monk"@fr , "Thelonious Sphere Monk"@de , "Thelonious Monk Quartet"@en , "Thelonious Monk Quartet"@fr , "Thelonious Monk Quartet"@de , "Thelonious monk"@en , "Thelonious monk"@fr , "Thelonious monk"@de , "Theloneous Monk"@en , "Thelonious Monk"@en , "Theloneous Monk"@fr , "Thelonious Monk"@fr , "Theloneous Monk"@de , "Thelonious Monk"@de , "Thelonious"@en , "Thelonious"@fr , "Thelonious"@de , "Thelonius Monk"@en , "The Thelonious Monk Quartet"@en , "Thelonius Monk"@fr , "Thelonius Monk"@de , "The Thelonious Monk Quartet"@fr , "The Thelonious Monk Quartet"@de , "Sphere"@de , "Monk"@en , "Monk"@fr , "Monk"@de , "Thélonious Monk"@fr , "Thelonius"@en , "Thelonius"@fr , "Thelonius"@de , "Thélonius Monk"@fr .

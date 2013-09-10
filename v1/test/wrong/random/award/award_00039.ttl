@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Daniel_Nestor>
+        rdfs:label     "Daniel Nestor"@en , "Daniel Nestor"@fr , "Daniel Nestor"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Daniel_Nestor__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Daniel_Nestor> , <http://de.dbpedia.org/resource/Daniel_Nestor> ;
+        skos:altLabel  "Danijel Nestorovic"@fr , "Danijel Nestorovic"@de , "Danijel Nestorović"@en , "Danijel Nestorović"@fr , "Danijel Nestorović"@de , "Nestor"@de , "Daniel Mark Nestor"@en , "Daniel Mark Nestor"@de , "Daniel Mark Nestor"@fr , "Daniel Nestor"@en , "Daniel Nestor"@fr , "Daniel Nestor"@de , "Danijel Nestorovic"@en .
+
+<http://rdf.freebase.com/ns/m.02m958>
+        rdfs:label     "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sindelfingen> , <http://de.dbpedia.org/resource/Sindelfingen> , <http://dbpedia.org/resource/Sindelfingen> ;
+        skos:altLabel  "Sindelfingen, Germany"@en , "Sindelfingen, Germany"@de , "Sindelfingen, Germany"@fr , "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de , "Goldberg"@de , "Sindelfingen-Goldberg"@de , "Sindlefingen, germany"@en , "Sindlefingen, germany"@fr , "Sindlefingen, germany"@de .
+
+<http://dbpedia.org/resource/Daniel_Nestor__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02m958> ;
+        dbo:from             "1977"^^xsd:gYear ;
+        dbo:to               "1977"^^xsd:gYear .

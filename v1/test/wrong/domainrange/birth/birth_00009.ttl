@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Minsk>
+        rdfs:label     "Minsk"@de , "Minsk"@fr , "Minsk"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minsk> , <http://fr.dbpedia.org/resource/Minsk> ;
+        skos:altLabel  "Miensk"@de , "Miensk"@fr , "Miensk"@en , "Gorod Minsk"@de , "Gorod Minsk"@fr , "Gorod Minsk"@en , "Provice of Minsk"@fr , "Provice of Minsk"@en , "Provice of Minsk"@de , "Minskaya"@en , "Minskaya"@de , "Minskaya"@fr , "Minsku"@de , "Minsku"@fr , "Minsku"@en , "LOCODE:BYMSQ"@de , "LOCODE:BYMSQ"@fr , "LOCODE:BYMSQ"@en , "Capital of Belarus"@de , "Capital of Belarus"@fr , "Capital of Belarus"@en , "Horad Minsk"@de , "Horad Minsk"@fr , "Horad Minsk"@en , "Minskas"@de , "Minskas"@fr , "Minskas"@en , "Minsk, Belarus"@de , "Minsk, Belarus"@fr , "Minsk, Belarus"@en , "Mensk"@de , "Mensk"@fr , "Mensk"@en , "Minsk"@en , "Minsk, USSR"@de , "Minsk, USSR"@fr , "Minsk, USSR"@en , "Minsk"@de , "Minsk"@fr .
+
+<http://dbpedia.org/resource/George_Orwell__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Minsk> ;
+        dbo:from        "1890"^^xsd:gYear ;
+        dbo:to          "1890"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Orwell>
+        rdfs:label     "George Orwell"@fr , "George Orwell"@en , "George Orwell"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Orwell__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/George_Orwell> , <http://fr.dbpedia.org/resource/George_Orwell> ;
+        skos:altLabel  "H. Lewis Always"@de , "Orwellien"@fr , "Eric Arthur Blair"@de , "Eric Arthur Blair"@fr , "Eric Arthur Blair"@en , "Orwell"@de , "Orwell"@fr , "Orwell"@en , "Blair"@de , "Blair"@fr , "Blair"@en , "Eric A. Blair"@en , "Eric A. Blair"@de , "Eric A. Blair"@fr , "George Orwell"@en , "George Orwell"@de , "George Orwell"@fr , "George orwell"@de , "George orwell"@fr , "George orwell"@en , "Geoge orwell"@de , "Geoge orwell"@fr , "Geoge orwell"@en , "Eric Blair"@de , "Eric Blair"@fr , "Eric Blair"@en , "George (Eric Blair) Orwell"@en , "George (Eric Blair) Orwell"@de , "George (Eric Blair) Orwell"@fr , "G. Orwell"@de , "G. Orwell"@fr , "G. Orwell"@en , "Orwell, George"@de , "Orwell, George"@fr , "Orwell, George"@en , "Georges Orwell"@fr , "Arthur Blair"@en , "Arthur Blair"@de , "Arthur Blair"@fr .

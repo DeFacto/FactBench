@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0269h2g__1>
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.04zk59> ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0269h2g>
+        rdfs:label     "Arun Nayar"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0269h2g__1> ;
+        skos:altLabel  "arun_nayar"@en .
+
+<http://rdf.freebase.com/ns/m.04zk59>
+        rdfs:label     "Conrail"@en , "Conrail"@fr , "Conrail"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Conrail> , <http://dbpedia.org/resource/Conrail> , <http://de.dbpedia.org/resource/Conrail> ;
+        skos:altLabel  "Consolidated Rail"@fr , "Consolidated Rail"@de , "CONRAIL"@fr , "ConRail"@fr , "ConRail"@de , "CONRAIL"@de , "Consolidated Rail Corporation"@fr , "Consolidated Rail Corporation"@de , "Conrail"@fr , "Conrail Railroad Bridge"@fr , "Conrail"@de , "Conrail Railroad Bridge"@de , "Consolidated Railroad Corporation"@fr , "Consolidated Rail Company"@fr , "Consolidated Railroad Corporation"@de , "Consolidated Rail Company"@de , "Consolidated Rail Corp."@fr , "Consolidated Rail Corp."@de , "US Conrail"@fr , "US Conrail"@de .

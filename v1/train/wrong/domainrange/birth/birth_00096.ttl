@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John,_King_of_England>
+        rdfs:label     "John, King of England"@de , "John, King of England"@fr , "John, King of England"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John,_King_of_England__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jean_d'Angleterre> , <http://de.dbpedia.org/resource/Johann_Ohneland> ;
+        skos:altLabel  "John lackland"@en , "John, King of England"@en , "John lackland"@fr , "John, King of England"@fr , "John lackland"@de , "John, King of England"@de , "Prinz John"@de , "Softsword"@en , "John Soft-sword"@en , "John Soft-sword"@fr , "John Soft-sword"@de , "Softsword"@fr , "Softsword"@de , "Prince Jean"@fr , "Jean sans Terre"@fr , "King John I"@en , "King John I"@fr , "King John I"@de , "Jean Ier d'Angleterre"@fr , "Soft-Sword"@en , "Soft-Sword"@fr , "Soft-Sword"@de , "John the Incompetent"@en , "John the Incompetent"@de , "John the Incompetent"@fr , "John Soft-Sword"@en , "John Soft-Sword"@fr , "John Soft-Sword"@de , "John"@en , "John"@fr , "John"@de , "Bad King John"@en , "John Softsword"@en , "Sans Terre"@en , "Bad King John"@fr , "John Softsword"@fr , "Sans Terre"@fr , "Bad King John"@de , "Sans Terre"@de , "Johann I."@de , "John Softsword"@de , "Jean d’Angleterre"@fr , "Jean-sans-Terre"@fr , "King John of England"@en , "King John of England"@fr , "King John of England"@de , "John I Lackland"@en , "John I Lackland"@de , "John I Lackland"@fr , "John Lackland of England"@en , "John of England"@en , "John Lackland of England"@fr , "John of England"@fr , "John Lackland of England"@de , "John of England"@de , "John Lackland"@en , "John Lackland"@fr , "John Lackland"@de , "John, Earl of Cornwall and Gloucester"@en , "Jean d'Angleterre"@fr , "Jean Sans-Terre"@de , "John, Earl of Cornwall and Gloucester"@de , "John, Earl of Cornwall and Gloucester"@fr , "Earl of Moreton"@en , "Earl of Moreton"@fr , "Earl of Moreton"@de , "Johann Ohneland"@de , "Jean Sans Terre"@de , "Jean Sans Terre"@fr , "King John I Of England"@en , "Jean sans terre"@fr , "King John I Of England"@fr , "King John I Of England"@de , "King John I of England"@en , "King John I of England"@fr , "King John I of England"@de , "John the Bad"@en , "John the Bad"@fr , "John the Bad"@de , "John I Lackland of England"@en , "John I Lackland of England"@fr , "John I Lackland of England"@de , "Johann ohne Land"@de , "John I of England"@en , "Johann"@de , "Jean Plantagenet"@de , "John I of England"@fr , "John I of England"@de .
+
+<http://dbpedia.org/resource/John,_King_of_England__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Santa_Barbara,_California> ;
+        dbo:from        "1989"^^xsd:gYear ;
+        dbo:to          "1989"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Santa_Barbara,_California>
+        rdfs:label     "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Barbara_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Barbara_(Californie)> ;
+        skos:altLabel  "Westside Projects Barrio"@en , "Downtown Santa Barbara, California"@fr , "Downtown Santa Barbara, California"@de , "Westside Projects Barrio"@fr , "Westside Projects Barrio"@de , "American Riviera"@en , "Santa Barbara, Ca"@en , "American Riviera"@fr , "Santa Barbara, Ca"@fr , "American Riviera"@de , "Santa Barbara, Ca"@de , "LOCODE:USSBA"@en , "Santa barbara, ca"@en , "Barbara"@en , "LOCODE:USSBA"@fr , "Santa barbara, ca"@fr , "Barbara"@fr , "LOCODE:USSBA"@de , "Barbara"@de , "Santa barbara, ca"@de , "Santa Barbara"@en , "Santa Barbara"@fr , "Santa Barbara"@de , "Santa Barbara, CA"@en , "Santa Barbara, CA"@fr , "Santa Barbara, CA"@de , "Santa Barbara, Calif."@en , "Santa Barbara, Calif."@fr , "Santa Barbara, Calif."@de , "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de , "Downtown Santa Barbara, California"@en .

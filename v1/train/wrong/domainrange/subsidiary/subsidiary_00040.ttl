@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01r2lw__1>
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03g3hxd> ;
+        dbo:to          "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01r2lw>
+        rdfs:label     "Forbes Magazine"@de , "Forbes"@fr , "Forbes"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01r2lw__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Forbes_(magazine)> , <http://dbpedia.org/resource/Forbes> , <http://de.dbpedia.org/resource/Forbes_Magazine> ;
+        skos:altLabel  "Forbes"@en , "Forbes"@fr , "Forbes"@de , "Forbes-Liste"@de , "Forbes ASAP"@en , "Forbes ASAP"@de , "Forbes ASAP"@fr , "Forbes magazine"@en , "Forbes magazine"@de , "Forbes magazine"@fr , "ForbesTraveler.com"@en , "Forbe's magazine"@en , "Forbes Asia"@en , "Forbes.com LLC"@en , "ForbesTraveler.com"@fr , "Forbe's magazine"@fr , "Forbes.com LLC"@de , "Forbes.com LLC"@fr , "Forbes Asia"@de , "Forbe's magazine"@de , "ForbesTraveler.com"@de , "Forbes Asia"@fr , "Forbes Magazin"@de , "ForbesAutos"@en , "ForbesAutos"@de , "ForbesAutos"@fr , "Forbes inc."@en , "Forbes inc."@de , "Forbes inc."@fr , "Forbes Life"@en , "Forbes Life"@de , "Forbes Life"@fr , "Forbes LLC"@en , "Forbes LLC"@de , "Forbes LLC"@fr , "Forbe's"@en , "Forbe's"@de , "Forbe's"@fr , "Forbes Inc."@en , "Forbes Autos"@en , "Forbes Inc."@de , "Forbes Inc."@fr , "Forbes Autos"@de , "Forbes Autos"@fr , "ForbesTraveler"@en , "ForbesTraveler"@fr , "ForbesTraveler"@de , "Forbes Magazine"@en , "Forbes Magazine"@de , "Forbes Magazine"@fr , "ForbesWoman"@en , "Forbe's Magazine"@en , "ForbesWoman"@de , "ForbesWoman"@fr , "Forbe's Magazine"@de , "Forbe's Magazine"@fr , "Forbes.com"@en , "Forbes.com"@fr , "Forbes.com"@de , "Forbes Traveler"@en , "Forbes Traveler"@fr , "Forbes Traveler"@de .
+
+<http://rdf.freebase.com/ns/m.03g3hxd>
+        rdfs:label     "MetaSolv Software"@en ;
+        skos:altLabel  "Metasolv"@en , "MetaSolv Inc"@en , "METASOLV SOFTWARE INC"@en .

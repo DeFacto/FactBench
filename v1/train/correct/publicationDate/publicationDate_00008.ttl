@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01gcq>
+        rdfs:label       "Brian Aldiss"@de , "Brian Aldiss"@en , "Brian Aldiss"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.09ph3p__8> ;
+        owl:sameAs       <http://dbpedia.org/resource/Brian_Aldiss> , <http://fr.dbpedia.org/resource/Brian_Aldiss> , <http://de.dbpedia.org/resource/Brian_Aldiss> ;
+        skos:altLabel    "Brian Wilson Aldiss, OBE"@de , "Brain aldiss"@de , "Brain aldiss"@en , "Aldiss"@de , "Brian Wilson Aldiss, OBE"@en , "Aldiss"@en , "Jael Cracken"@en , "Brian Aldiss"@fr , "Brian Aldiss"@de , "Brian Aldiss"@en , "Brian W Aldiss"@fr , "Brian W. Aldiss"@fr , "Brian W. Aldiss"@de , "Brian W. Aldiss"@en , "Brian W Aldiss"@de , "Brian W Aldiss"@en , "Brian Wilson Aldiss"@fr , "Brian Wilson Aldiss"@de , "Brian Wilson Aldiss"@en , "Brian Wilson Aldiss, OBE"@fr , "Aldiss"@fr , "Brain aldiss"@fr .
+
+<http://rdf.freebase.com/ns/m.09ph3p>
+        rdfs:label     "Non-Stop"@en , "Croisière sans escale"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Croisière_sans_escale> , <http://dbpedia.org/resource/Non-Stop_(novel)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Croisiere sans escale"@fr , "Croisiere Sans Escale"@fr , "Croisière sans escale"@fr , "Escale"@fr , "Croisière Sans Escale"@fr , "Starship"@en , "Non-Stop"@fr , "Non-Stop"@en .
+
+<http://rdf.freebase.com/ns/m.09ph3p__8>
+        dbo:author  <http://rdf.freebase.com/ns/m.09ph3p> ;
+        dbo:from    "1958"^^xsd:gYear ;
+        dbo:to      "1958"^^xsd:gYear .

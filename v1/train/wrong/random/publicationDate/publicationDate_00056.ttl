@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.025v54t>
+        rdfs:label  "MokaFive"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.025v54t__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/MokaFive> .
+
+<http://dbpedia.org/resource/Los_Altos,_California>
+        rdfs:label     "Los Altos, California"@en , "Los Altos, California"@fr , "Los Altos, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Los_Altos_(Californie)> , <http://de.dbpedia.org/resource/Los_Altos_(Kalifornien)> ;
+        skos:altLabel  "LOCODE:USLLT"@en , "LOCODE:USLLT"@fr , "LOCODE:USLLT"@de , "Almond Elementary School"@en , "Los Altos, California"@en , "Almond Elementary School"@fr , "Los Altos, California"@fr , "Almond Elementary School"@de , "Los Altos, California"@de , "Los Altos"@en , "Los Altos"@fr , "Los Altos"@de , "Los Altos, Ca"@en , "Los Altos, CA"@en , "Los Altos, Ca"@fr , "Los Altos, CA"@fr , "Los Altos, Ca"@de , "Los Altos, CA"@de , "Almond"@en , "Almond"@fr , "Almond"@de .
+
+<http://rdf.freebase.com/ns/m.025v54t__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Los_Altos,_California> ;
+        dbo:from        "1959"^^xsd:gYear ;
+        dbo:to          "1959"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Abraham_Lincoln>
+        rdfs:label     "Abraham Lincoln"@fr , "Abraham Lincoln"@en , "Abraham Lincoln"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Abraham_Lincoln__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Abraham_Lincoln> , <http://de.dbpedia.org/resource/Abraham_Lincoln> ;
+        skos:altLabel  "Abraham"@de , "Linc"@en , "Linc"@fr , "Linc"@de , "Aberham lincoln"@en , "Aberham lincoln"@fr , "Aberham lincoln"@de , "Stephen Fountain"@en , "Mr. Lincoln"@en , "Stephen Fountain"@fr , "Mr. Lincoln"@fr , "Stephen Fountain"@de , "Mr. Lincoln"@de , "A Lincoln"@en , "A Lincoln"@de , "A Lincoln"@fr , "Lincoln Shrine"@en , "Lincoln Shrine"@fr , "Lincoln Shrine"@de , "Abe lincolin"@en , "Presedent Lincon"@en , "Abe lincolin"@fr , "Presedent Lincon"@de , "Presedent Lincon"@fr , "Abe lincolin"@de , "Abe Lincon"@en , "Abe Lincon"@fr , "Abe Lincon"@de , "The Rail Splitter"@en , "President Abraham Lincoln"@en , "L'or de Lincoln"@fr , "The Rail Splitter"@fr , "The Rail Splitter"@de , "President Abraham Lincoln"@fr , "President Abraham Lincoln"@de , "Abraham Linkin"@en , "Abraham Linkin"@fr , "Abraham Linkin"@de , "Abraham lincoln"@en , "Abraham lincoln"@fr , "Abraham lincoln"@de , "Abraham Lincoln"@en , "Abraham Lincoln"@fr , "Abraham Lincoln"@de , "Lincoln, Abraham"@en , "Great Emancipator"@en , "Lincoln, Abraham"@fr , "Lincoln, Abraham"@de , "Great Emancipator"@fr , "Great Emancipator"@de , "President Abraham"@en , "Lincoln"@en , "President Abraham"@fr , "Lincoln"@fr , "Lincoln"@de , "President Abraham"@de , "16th President of the United States"@en , "16th President of the United States"@fr , "16th President of the United States"@de , "Abrahm Lincoln"@en , "Abrahm Lincoln"@fr , "Abrahm Lincoln"@de , "Lincoln Administration"@en , "Lincoln Administration"@fr , "Lincoln Administration"@de , "Abe Lincoln"@en , "Abe Lincoln"@fr , "Abe Lincoln"@de , "Abaraham lincoln"@en , "Abaraham lincoln"@fr , "Abaraham lincoln"@de , "Lincoln's cabinet"@en , "Lincoln's cabinet"@fr , "Lincoln's cabinet"@de , "The Great Emancipator"@en , "The Great Emancipator"@fr , "The Great Emancipator"@de , "Abraham Lincoln and the American Civil War"@en , "Abraham Lincoln and the American Civil War"@fr , "Abraham Lincoln and the American Civil War"@de , "A. Lincoln"@en , "Jonathan Dillon"@en , "Jonathan Dillon"@fr , "Jonathan Dillon"@de , "A. Lincoln"@fr , "A. Lincoln"@de , "Honest Abe"@en , "Honest Abe"@fr , "Honest Abe"@de , "President Lincoln"@en , "Abraham Lincon"@en , "Abraham Lincon"@fr , "Abraham Lincon"@de , "Abe licnoln"@en , "President Lincoln"@fr , "Abe licnoln"@fr , "President Lincoln"@de , "Abe licnoln"@de , "Abaham lincoln"@en , "Abaham lincoln"@fr , "Abaham lincoln"@de , "Abraham"@en , "Abraham"@fr .
+
+<http://dbpedia.org/resource/Hodgenville,_Kentucky>
+        rdfs:label     "Hodgenville, Kentucky"@en , "Hodgenville, Kentucky"@fr , "Hodgenville, Kentucky"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hodgenville> ;
+        skos:altLabel  "Hodgenville, Kentucky"@de , "Hodgenville, KY"@en , "Hodgenville, KY"@de , "Hodgenville"@en , "Hodgenville"@de , "Hodgenville, Kentucky"@en .
+
+<http://dbpedia.org/resource/Abraham_Lincoln__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hodgenville,_Kentucky> ;
+        dbo:from        "1817"^^xsd:gYear ;
+        dbo:to          "1817"^^xsd:gYear .

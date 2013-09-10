@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/The_Bronx>
+        rdfs:label     "The Bronx"@de , "The Bronx"@fr , "The Bronx"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bronx> , <http://fr.dbpedia.org/resource/Bronx> ;
+        skos:altLabel  "County of Bronx"@fr , "Bronx, N.Y."@de , "Comte de Bronx"@fr , "County of The Bronx"@en , "County of The Bronx"@fr , "County of The Bronx"@de , "The Bronx, New York"@en , "The Bronx, New York"@de , "The Bronx, New York"@fr , "Da Bronx"@en , "Da Bronx"@fr , "Da Bronx"@de , "The Boogie-down"@en , "The Boogie-down"@de , "The Boogie-down"@fr , "Bronx County, NY"@en , "South Bronx"@de , "Bronx County, NY"@de , "Bronx County, NY"@fr , "Comté de Bronx"@fr , "The Bronx, NY"@en , "Bronx County, New York"@en , "The Bronx, NY"@fr , "Bronx County, New York"@de , "The Bronx, NY"@de , "Bronx County, New York"@fr , "The bronx"@en , "The bronx"@de , "The bronx"@fr , "Bronxite"@en , "Bronxite"@de , "Bronxite"@fr , "The Bronx, New York City"@en , "The Bronx, New York City"@de , "The Bronx, New York City"@fr , "Bronx, New York"@en , "Bronx, New York"@de , "Bronx, New York"@fr , "The Bronx"@en , "The Bronx,NY"@en , "The Bronx"@fr , "The Bronx,NY"@de , "The Bronx,NY"@fr , "The Bronx"@de , "County of the Bronx"@en , "Bronx"@en , "Bronx"@de , "Bronx"@fr , "County of the Bronx"@fr , "County of the Bronx"@de , "Bronx, NY"@en , "Bronx, NY"@fr , "Bronx, NY"@de , "Le Bronx"@fr , "Bronx County"@en , "Bronx, New York City"@en , "Bronx, New York City"@de , "Bronx, New York City"@fr , "Bronx County"@de , "Bronx County"@fr , "Bronx NY"@en , "Bronx NY"@de , "Bronx NY"@fr , "Bronx, N.Y."@en , "County of Bronx"@en , "Bronx, N.Y."@fr , "County of Bronx"@de .
+
+<http://dbpedia.org/resource/Serena_Williams>
+        rdfs:label     "Serena Williams"@de , "Serena Williams"@en , "Serena Williams"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Serena_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Serena_Williams> , <http://de.dbpedia.org/resource/Serena_Williams> ;
+        skos:altLabel  "Serena"@de , "Williams"@fr , "Serena Jameka Williams"@en , "Serena Jameka Williams"@fr , "Serena Jameka Williams"@de , "Senera Williams"@en , "Senera Williams"@fr , "Senera Williams"@de , "Serena Williams"@en , "Serena williams"@en , "Serena Williams"@fr , "Serena williams"@de , "Serena Williams"@de , "Serena williams"@fr , "Serena"@en , "Serena"@fr .
+
+<http://dbpedia.org/resource/Serena_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/The_Bronx> ;
+        dbo:from        "1971"^^xsd:gYear ;
+        dbo:to          "1971"^^xsd:gYear .

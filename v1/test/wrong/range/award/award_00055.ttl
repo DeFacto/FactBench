@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0858l__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0dt39> ;
+        dbo:from   "1986"^^xsd:gYear ;
+        dbo:to     "1986"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0858l>
+        rdfs:label     "Wole Soyinka"@de , "Wole Soyinka"@fr , "Wole Soyinka"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0858l__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Wole_Soyinka> , <http://fr.dbpedia.org/resource/Wole_Soyinka> , <http://de.dbpedia.org/resource/Wole_Soyinka> ;
+        skos:altLabel  "Oluwole Soyinka"@de , "Oluwole Soyinka"@fr , "Oluwole Soyinka"@en , "Death in the Dawn"@de , "Death in the Dawn"@fr , "Death in the Dawn"@en , "Woly Soyinka"@en , "Woly Soyinka"@de , "Woly Soyinka"@fr , "Akinwande Oluwole \"Wole\" Soyinka"@de , "Akinwande Oluwole \"Wole\" Soyinka"@fr , "Akinwande Oluwole \"Wole\" Soyinka"@en , "Wola Soyinka"@de , "Wola Soyinka"@fr , "Wola Soyinka"@en , "Soyinka"@de , "Soyinka"@fr , "Soyinka"@en , "The Man Died: Prison Notes of Wole Soyinka"@de , "The Man Died: Prison Notes of Wole Soyinka"@fr , "The Man Died: Prison Notes of Wole Soyinka"@en , "Wole soyinka"@de , "Wole soyinka"@fr , "Wole soyinka"@en , "Wole Soyinka"@de , "Wole Soyinka"@fr , "Wole Soyinka"@en , "Akinwande Oluwole Soyinka"@de , "Akinwande Oluwole Soyinka"@fr , "Akinwande Oluwole Soyinka"@en , "Akinwande Ouwole Soyinka"@en , "Akinwande Ouwole Soyinka"@de , "Akinwande Ouwole Soyinka"@fr .
+
+<http://rdf.freebase.com/ns/m.0dt39>
+        rdfs:label     "Nobel Prize in Physics"@en , "Prix Nobel de physique"@fr , "Nobelpreis für Physik"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Prix_Nobel_de_physique> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Nobelpreis_für_Physik> , <http://dbpedia.org/resource/Nobel_Prize_in_Physics> , <http://de.dbpedia.org/resource/Liste_der_Nobelpreisträger_für_Physik> , <http://dbpedia.org/resource/List_of_Nobel_laureates_in_Physics> ;
+        skos:altLabel  "Nobel Physics Prize"@de , "Nobel laureates in physics"@en , "Nobel laureates in physics"@de , "Nobel laureates in physics"@fr , "Physik-Nobelpreis"@de , "Nobel prize in physics"@en , "Nobel prize in physics"@de , "Nobel prize in physics"@fr , "Nobel Prize for physics"@en , "Nobel Prize for physics"@de , "Nobel Prize for physics"@fr , "Prix Nobel de Physique"@fr , "Physics"@en , "Physics"@de , "Physics"@fr , "Nobel Prizes for Physics"@en , "Nobel Prizes for Physics"@de , "Nobel Prizes for Physics"@fr , "Liste der Physiknobelpreistrager"@de , "Liste des Prix Nobel de physique"@fr , "Liste der Nobelpreisträger für Physik"@de , "Nobelpreis fur Physik"@de , "Nobel prize for Physics"@en , "Nobel prize for Physics"@fr , "Nobel prize for Physics"@de , "Physiknobelpreis"@de , "Nobel Prize in Physics"@en , "Nobel Prize in Physics"@fr , "Nobel Prize in Physics"@de , "Prix nobel de physique"@fr , "PhysicS"@en , "PhysicS"@de , "PhysicS"@fr , "Nobel Prize For Physics - 2007"@en , "Liste der Nobelpreistrager fur Physik"@de , "Nobel Prize For Physics - 2007"@de , "Nobel Prize For Physics - 2007"@fr , "Prix Nobel de physique"@fr , "Physics nobel prize"@en , "Physics nobel prize"@de , "Physics nobel prize"@fr , "Noble prize in physics"@en , "Noble prize in physics"@de , "Noble prize in physics"@fr , "Liste der Physiknobelpreisträger"@de , "Nobel Prize for Physics"@en , "Nobel prize physics"@en , "Nobel Prize for Physics"@fr , "Nobel Prize for Physics"@de , "Nobel prize physics"@fr , "Nobel prize physics"@de , "Nobel Prize in physics"@en , "Nobel Prize in physics"@de , "Nobel Prize in physics"@fr , "Nobelpreis für Physik"@de , "Nobel Physics Prize"@en , "Nobel Physics Prize"@fr .

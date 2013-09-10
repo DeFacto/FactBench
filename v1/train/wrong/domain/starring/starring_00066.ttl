@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/The_Aristocats>
+        rdfs:label     "The Aristocats"@de , "The Aristocats"@fr , "The Aristocats"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/The_Aristocats__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Les_Aristochats> , <http://de.dbpedia.org/resource/Aristocats> ;
+        skos:altLabel  "Edgar the Butler"@fr , "Scales and Arpeggios"@de , "Scales and Arpeggios"@fr , "Scales and Arpeggios"@en , "Dean Clark"@en , "Dean Clark"@fr , "Dean Clark"@de , "Les aristochats"@fr , "Thomas O'Malley"@de , "The Aristocats"@de , "The Aristocats"@fr , "The Aristocats"@en , "Edgar the Butler's Biography"@en , "Edgar the Butler's Biography"@de , "Edgar the Butler's Biography"@fr , "The Aristo Cats"@en , "The Aristo Cats"@de , "The Aristo Cats"@fr , "Les Aristochats"@fr , "Edgar Balthazar"@de , "Edgar Balthazar"@fr , "Edgar Balthazar"@en , "Everybody Wants To Be A Cat"@en , "Everybody Wants To Be A Cat"@de , "Everybody Wants To Be A Cat"@fr , "Everybody Wants to Be a Cat"@en , "Everybody Wants to Be a Cat"@de , "Everybody Wants to Be a Cat"@fr , "The AristoCats"@en , "The AristoCats"@de , "The AristoCats"@fr , "The Aristocats II"@de , "The Aristocats II"@fr , "The Aristocats II"@en , "Aristocats"@en , "Aristocats"@de , "Aristocats"@fr , "Scales And Arpeggios"@en , "Scales And Arpeggios"@de , "Scales And Arpeggios"@fr , "Ev'rybody Wants to Be a Cat"@en , "Aristochats"@fr , "Ev'rybody Wants to Be a Cat"@de , "Ev'rybody Wants to Be a Cat"@fr , "Edgar the Butler"@en , "Edgar the Butler"@de .
+
+<http://dbpedia.org/resource/Will_Ferrell>
+        rdfs:label     "Will Ferrell"@de , "Will Ferrell"@fr , "Will Ferrell"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Will_Ferrell> , <http://de.dbpedia.org/resource/Will_Ferrell> ;
+        skos:altLabel  "Will Ferrell"@de , "Will Ferrell"@fr , "Will Ferrell"@en , "Ferrell"@de , "Ferrell"@fr , "Ferrell"@en , "Will Farrell"@de , "Will Farrell"@fr , "Will Farrell"@en , "John William Ferrell"@de , "John William Ferrell"@fr , "John William Ferrell"@en , "Will Farrel"@de , "Will Farrel"@fr , "Will Farrel"@en , "Mediocre American Man Trilogy"@de , "Mediocre American Man Trilogy"@fr , "Mediocre American Man Trilogy"@en , "Will Ferrel"@de , "Will Ferrel"@fr , "Will Ferrel"@en , "William Ferrell"@de , "Mediocre America Man Trilogy"@de , "Mediocre America Man Trilogy"@fr , "Mediocre America Man Trilogy"@en , "Will ferrell"@de , "Will ferrell"@fr , "Will ferrell"@en , "Will Farell"@de , "Will Farell"@fr , "Will Ferell"@de , "Will Ferell"@fr , "Will Ferell"@en , "Will Farell"@en , "RoJo Johnson"@fr , "RoJo Johnson"@en , "RoJo Johnson"@de .
+
+<http://dbpedia.org/resource/The_Aristocats__1>
+        dbo:from      "1999"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Will_Ferrell> ;
+        dbo:to        "1999"^^xsd:gYear .

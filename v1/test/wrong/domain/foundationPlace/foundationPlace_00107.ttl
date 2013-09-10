@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.084qlr__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0gp6r5> ;
+        dbo:from             "1979"^^xsd:gYear ;
+        dbo:to               "1979"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.084qlr>
+        rdfs:label  "Ansoft"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.084qlr__1> .
+
+<http://rdf.freebase.com/ns/m.0gp6r5>
+        rdfs:label     "Tokushima"@de , "Tokushima"@en , "Tokushima"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tokushima> , <http://fr.dbpedia.org/resource/Tokushima> , <http://dbpedia.org/resource/Tokushima,_Tokushima> ;
+        skos:altLabel  "Tokusima, Tokusima"@en , "Tokushima-shi"@en , "Tokusima, Tokusima"@fr , "Tokushima-shi"@fr , "Tokusima, Tokusima"@de , "Tokushima-shi"@de , "Tokusima"@en , "Tokushima City"@en , "Tokusima"@fr , "Tokusima"@de , "Tokushima City"@fr , "Tokushima City"@de , "Tokushima"@en , "Tokushima"@fr , "Tokushima"@de , "Tokushima, Japan"@en , "Tokushima, Japan"@fr , "Tokushima, Japan"@de , "Tokushima, Tokushima"@en , "Tokushima, Tokushima"@fr , "Tokushima, Tokushima"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03t91s>
+        rdfs:label     "A Time of Changes"@en , "Le Temps des changements"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/A_Time_of_Changes> , <http://fr.dbpedia.org/resource/Le_Temps_des_changements> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Le temps des changements"@fr , "Le Temps Des Changements"@fr , "Le Temps des changements"@fr , "A Time of Changes"@fr .
+
+<http://rdf.freebase.com/ns/m.01k56k>
+        rdfs:label     "Robert Silverberg"@en , "Robert Silverberg"@de , "Robert Silverberg"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01k56k__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Silverberg> , <http://dbpedia.org/resource/Robert_Silverberg> , <http://fr.dbpedia.org/resource/Robert_Silverberg> ;
+        skos:altLabel  "Calvin m knox"@de , "Calvin m knox"@fr , "Calvin m knox"@en , "Ivar Jorgenson"@fr , "Ivar Jorgenson"@en , "Charles D. Hammer"@en , "Calvin M. Knox"@en , "Calvin M. Knox"@de , "Calvin M. Knox"@fr , "Calvin knox"@de , "Calvin knox"@fr , "Calvin knox"@en , "Calvin M.Nox"@fr , "George Osborne"@en , "Richard Greer"@en , "Robert Randall"@fr , "Robert Randall"@en , "Robert Silverberg"@de , "Warren Kastel"@en , "Robert Silverberg"@fr , "David Osborne"@fr , "David Osborne"@en , "Robert Silverberg"@en , "Gordon Aghill"@en , "E. K. Jarvis"@en , "S. M. Tenneshaw"@en , "Robert Arnette"@en , "Webber Martin"@en , "David Challon"@en , "Silverberg"@de , "Silverberg"@fr , "Silverberg"@en , "Calvin Knox"@en , "Leonard G. Spencer"@en , "Hall Thornton"@en , "Clyde Mitchell"@en , "Robert Randalf"@fr , "Ivar Jorgensen"@en , "T. D. Bethlen"@en , "Ralph Burke"@en , "Bob Silverberg"@en .
+
+<http://rdf.freebase.com/ns/m.01k56k__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03t91s> ;
+        dbo:from    "1967"^^xsd:gYear ;
+        dbo:to      "1967"^^xsd:gYear .

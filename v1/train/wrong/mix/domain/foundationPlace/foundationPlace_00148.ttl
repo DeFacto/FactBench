@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04pjlt>
+        rdfs:label     "Acronis"@en , "Acronis"@fr , "Acronis Germany"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04pjlt__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Acronis> , <http://de.dbpedia.org/resource/Acronis_Germany> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Acronis Disk Director Suite"@de , "Disk director suite"@de , "Acronis Rescue Media builder"@de , "Acronis Boot-time Restore"@de , "Acronis Germany"@de , "Acronis OS Selector"@de , "Acronis Snap Deploy"@de , "Acronis® Boot-time Restore"@de , "Acronis Drive Cleanser"@de , "Acronis Recovery Manager"@de , "Acronis International GmbH"@en , "Acronis"@de , "Acronis Inc."@de , "Acronis® Recovery Manager"@de .
+
+<http://rdf.freebase.com/ns/m.0d331>
+        rdfs:label     "Potsdam"@en , "Potsdam"@fr , "Potsdam"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Potsdam> , <http://de.dbpedia.org/resource/Potsdam> , <http://fr.dbpedia.org/resource/Potsdam> ;
+        skos:altLabel  "Potsdam"@en , "Potsdam"@de , "Potsdam"@fr , "Poztupimi"@de , "LOCODE:DEPOT"@en , "LOCODE:DEPOT"@fr , "LOCODE:DEPOT"@de , "Postdam"@fr , "Potsdam, Germany"@en , "Potsdam, Germany"@fr , "Krampnitz"@de , "Potsdam, Germany"@de , "Potzdam"@fr .
+
+<http://rdf.freebase.com/ns/m.04pjlt__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0d331> ;
+        dbo:from             "2006"^^xsd:gYear ;
+        dbo:to               "2006"^^xsd:gYear .

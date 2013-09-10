@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03rx9>
+        rdfs:label     "Isaac Asimov"@fr , "Isaac Asimov"@en , "Isaac Asimov"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03rx9__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Isaac_Asimov> , <http://de.dbpedia.org/resource/Isaac_Asimov> , <http://fr.dbpedia.org/resource/Isaac_Asimov> ;
+        skos:altLabel  "Susan Calvin"@de , "Issac asimov"@en , "Issac asimov"@de , "Issac asimov"@fr , "Planets for Man"@en , "Dr. \"A\""@en , "Isaak Asimov"@de , "Planets for Man"@fr , "Planets for Man"@de , "The Human Typewriter"@en , "Isaac azimov"@en , "Isaac azimov"@fr , "Isaac azimov"@de , "Isaac asimov"@en , "Isaac asimov"@fr , "Isaac asimov"@de , "World Season Calendar"@en , "World Season Calendar"@de , "World Season Calendar"@fr , "Aisek Asimov"@en , "Aisek Asimov"@fr , "Aisek Asimov"@de , "Isaak Judah Ozimov"@en , "Eyzik Asimov"@en , "Eyzik Asimov"@fr , "Eyzik Asimov"@de , "H. B. Ogden"@en , "Azimov"@en , "Azimov"@fr , "Azimov"@de , "Marcia Asimov"@en , "Marcia Asimov"@de , "Marcia Asimov"@fr , "Isaac Azimov"@en , "Isaac Azimov"@fr , "Isaac Azimov"@de , "Isaac Asimov"@en , "Dr. Isaac Asimov"@en , "Isaac Asimov"@fr , "Dr. Isaac Asimov"@fr , "Isaac Asimov"@de , "Dr. Isaac Asimov"@de , "Issac Asimov"@en , "Issac Asimov"@fr , "Issac Asimov"@de , "Asimov, Isaac"@en , "Asimov, Isaac"@de , "Asimov, Isaac"@fr , "Issac assimov"@en , "Issac assimov"@fr , "Issac assimov"@de , "World Seasonal Calendar"@en , "World Seasonal Calendar"@de , "World Seasonal Calendar"@fr , "Asimov"@en , "Asimov"@fr , "Asimov"@de , "Isac Asimof"@en , "Isac Asimof"@fr , "Isac Asimof"@de , "Isacc Asimov"@en , "Franchise"@en , "Franchise"@de , "Franchise"@fr , "Isacc Asimov"@de , "Isacc Asimov"@fr , "Eyzek Asimov"@en , "Eyzek Asimov"@fr , "Eyzek Asimov"@de , "Paul French"@en , "Paul French"@fr , "Paul French"@de , "IsaacAsimov"@en , "IsaacAsimov"@fr , "IsaacAsimov"@de , "George E. Dale"@en , "George E. Dale"@fr , "George E. Dale"@de , "isaac_asimov"@en , "Manya Asimov"@en , "Manya Asimov"@fr , "Manya Asimov"@de .
+
+<http://rdf.freebase.com/ns/m.03rx9__1>
+        dbo:from    "1954"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0gc8_> ;
+        dbo:to      "1954"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0gc8_>
+        rdfs:label     "Die Stahlhöhlen"@de , "The Caves of Steel"@en , "Les Cavernes d'acier"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Die_Stahlhöhlen> , <http://dbpedia.org/resource/The_Caves_of_Steel> , <http://fr.dbpedia.org/resource/Les_Cavernes_d'acier> ;
+        skos:altLabel  "Roj Nemennuh Sarton"@en , "Roj Nemennuh Sarton"@fr , "Roj Nemennuh Sarton"@de , "Les Cavernes d'acier"@fr , "Les cavernes d'acier"@fr , "Caves of steel"@en , "Caves of steel"@fr , "Caves of steel"@de , "The caves of steel"@en , "The caves of steel"@fr , "The caves of steel"@de , "Die Stahlhöhlen"@de , "Les Cavernes D'acier"@fr , "Die Stahlhohlen"@de , "Caves of Steel"@en , "Caves of Steel"@fr , "Caves of Steel"@de , "The Caves Of Steel"@en , "The Caves Of Steel"@fr , "The Caves Of Steel"@de , "The Caves of Steel"@en , "The Caves of Steel"@fr , "The Caves of Steel"@de .

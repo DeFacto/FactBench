@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0dj38d8>
+        rdfs:label  "Modus Operandi Incorporated"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0dj38d8__1> .
+
+<http://rdf.freebase.com/ns/m.0dj38d8__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02m958> ;
+        dbo:from             "1984"^^xsd:gYear ;
+        dbo:to               "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02m958>
+        rdfs:label     "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sindelfingen> , <http://de.dbpedia.org/resource/Sindelfingen> , <http://dbpedia.org/resource/Sindelfingen> ;
+        skos:altLabel  "Sindelfingen, Germany"@en , "Sindelfingen, Germany"@de , "Sindelfingen, Germany"@fr , "Sindelfingen"@en , "Sindelfingen"@fr , "Sindelfingen"@de , "Goldberg"@de , "Sindelfingen-Goldberg"@de , "Sindlefingen, germany"@en , "Sindlefingen, germany"@fr , "Sindlefingen, germany"@de .

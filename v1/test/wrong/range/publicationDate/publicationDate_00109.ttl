@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02m6hs>
+        rdfs:label  "Riddley Walker"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Riddley_Walker> .
+
+<http://rdf.freebase.com/ns/m.09ljl>
+        rdfs:label     "Gregory Benford"@de , "Gregory Benford"@en , "Gregory Benford"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09ljl__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gregory_Benford> , <http://fr.dbpedia.org/resource/Gregory_Benford> , <http://dbpedia.org/resource/Gregory_Benford> ;
+        skos:altLabel  "Greg Benford"@en , "Greg Benford"@fr , "Greg Benford"@de , "G. A. Benford"@en , "Benford"@en , "Benford, Gregory"@en , "Gergory Benford"@en , "Benford law of controversy"@en , "G. A. Benford"@fr , "Benford"@fr , "Benford, Gregory"@fr , "G. A. Benford"@de , "Benford"@de , "Benford, Gregory"@de , "Gergory Benford"@fr , "Benford law of controversy"@fr , "Gergory Benford"@de , "Benford law of controversy"@de , "Gregory"@fr , "Benford's Law of Controversy"@en , "Benford's Law of Controversy"@fr , "Benford's Law of Controversy"@de , "Sterling Blake"@en , "Benford's law of controversy"@en , "Gregory Benford"@en , "Benford's law of controversy"@fr , "Gregory Benford"@fr , "Benford's law of controversy"@de , "Gregory Benford"@de , "Gregory S. Benford"@en , "Gregory S. Benford"@fr , "Gregory S. Benford"@de .
+
+<http://rdf.freebase.com/ns/m.09ljl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02m6hs> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .

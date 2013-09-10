@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Andy_Roddick__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Omaha,_Nebraska> ;
+        dbo:from        "1982-08-30"^^xsd:date ;
+        dbo:to          "1982-08-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Omaha,_Nebraska>
+        rdfs:label     "Omaha, Nebraska"@en , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Omaha> , <http://fr.dbpedia.org/resource/Omaha_(Nebraska)> ;
+        skos:altLabel  "Omaha, ne"@fr , "Omaha Nebraska"@fr , "City of Omaha"@fr , "Omaha City"@fr , "Omaha Nebraska"@de , "Omaha Nebraska"@en , "Omaha, ne"@de , "City of Omaha"@de , "Omaha, ne"@en , "Omaha City"@de , "Omaha City"@en , "City of Omaha"@en , "Omaha, NE"@fr , "Omaha, NE"@de , "Omaha, NE"@en , "Omaha"@fr , "Omaha"@de , "Omaha"@en , "LOCODE:USOMA"@fr , "Omaha, Neb."@fr , "LOCODE:USOMA"@de , "Omaha, Neb."@de , "LOCODE:USOMA"@en , "Omaha, Neb."@en , "Songs about Omaha"@fr , "Songs about Omaha"@de , "Songs about Omaha"@en , "Omaha,Nebraska"@fr , "Omaha, Nebraska"@fr , "Omaha,Nebraska"@de , "Omaha, Nebraska"@de , "Omaha,Nebraska"@en , "Omaha, Nebraska"@en .
+
+<http://dbpedia.org/resource/Andy_Roddick>
+        rdfs:label     "Andy Roddick"@fr , "Andy Roddick"@de , "Andy Roddick"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Andy_Roddick__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Andy_Roddick> , <http://fr.dbpedia.org/resource/Andy_Roddick> ;
+        skos:altLabel  "Andy roddick"@fr , "Andy roddick"@de , "Andy roddick"@en , "Andrew Roddick"@fr , "Andrew Roddick"@de , "Andrew Roddick"@en , "Roddick"@fr , "Roddick"@de , "Roddick"@en , "Blanche Roddick"@fr , "Andy"@fr , "Blanche Roddick"@de , "Blanche Roddick"@en , "Andy Roddick"@fr , "Andy Roddick"@de , "Andy Roddick"@en , "Andrew Stephen Roddick"@de .

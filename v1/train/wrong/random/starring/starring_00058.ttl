@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jonah_Hill>
+        rdfs:label     "Jonah Hill"@fr , "Jonah Hill"@de , "Jonah Hill"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jonah_Hill> , <http://de.dbpedia.org/resource/Jonah_Hill> ;
+        skos:altLabel  "Jonah Hill"@en , "Jonah Hill Feldstein"@de , "Jonah"@en , "Jonah"@fr , "Jonah"@de , "Jonah Hill"@fr , "Jonah Hill"@de .
+
+<http://rdf.freebase.com/ns/m.02z6p5f__1>
+        dbo:from        "1964"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Jonah_Hill> ;
+        dbo:to          "1964"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02z6p5f>
+        rdfs:label     "Gabriel Aubry"@en , "Gabriel Aubry"@fr , "Gabriel Aubry"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z6p5f__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gabriel_Aubry> , <http://de.dbpedia.org/resource/Gabriel_Aubry> , <http://fr.dbpedia.org/resource/Gabriel_Aubry> ;
+        skos:altLabel  "Gabriel Aubrey"@fr , "Gabriel Aubrey"@de , "Aubry"@de , "Aubry"@fr , "Gabriel Aubry"@fr , "Gabriel Aubry"@de .

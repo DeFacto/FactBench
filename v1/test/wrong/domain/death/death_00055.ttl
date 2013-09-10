@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Carlin__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Davenport,_Iowa> ;
+        dbo:from        "1986"^^xsd:gYear ;
+        dbo:to          "1986"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Carlin>
+        rdfs:label     "George Carlin"@de , "George Carlin"@fr , "George Carlin"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Carlin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Carlin> , <http://de.dbpedia.org/resource/George_Carlin> ;
+        skos:altLabel  "George Carlin's"@de , "George Carlin's"@fr , "George Carlin's"@en , "Taskforce for Better Pancakes"@de , "Taskforce for Better Pancakes"@fr , "Taskforce for Better Pancakes"@en , "George Denis Patrick Carlin"@de , "George Denis Patrick Carlin"@fr , "George Denis Patrick Carlin"@en , "Frisbyterianism"@de , "Frisbyterianism"@fr , "Frisbyterianism"@en , "George Carlin"@de , "George Carlin"@fr , "George Carlin"@en , "Frissbeetarianism"@de , "Frissbeetarianism"@fr , "Frissbeetarianism"@en , "George Carlin discography"@de , "George Carlin discography"@fr , "George Carlin discography"@en , "Pussification"@de , "Pussification"@fr , "Pussification"@en , "George Dennis Carlin"@en , "George Dennis Carlin"@de , "George Dennis Carlin"@fr , "The George Carlin Show"@de , "George carlin"@de , "George carlin"@fr , "George carlin"@en , "Brenda Carlin"@en , "Brenda Carlin"@de , "Brenda Carlin"@fr , "Carlin"@de , "Carlin"@fr , "Carlin"@en .
+
+<http://dbpedia.org/resource/Davenport,_Iowa>
+        rdfs:label     "Davenport, Iowa"@en , "Davenport, Iowa"@fr , "Davenport, Iowa"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Davenport_(Iowa)> , <http://fr.dbpedia.org/resource/Davenport_(Iowa)> ;
+        skos:altLabel  "Stampe Lilac Garden"@en , "Stampe Lilac Garden"@fr , "Stampe Lilac Garden"@de , "Davenport"@en , "LOCODE:USDVN"@en , "Davenport"@fr , "LOCODE:USDVN"@fr , "LOCODE:USDVN"@de , "Davenport"@de , "Meredith Haley"@en , "Meredith Haley"@fr , "Meredith Haley"@de , "Davenport, Iowa"@en , "Davenport, Iowa"@fr , "Davenport, Iowa"@de , "Davenport, iowa"@en , "Davenport, iowa"@fr , "Davenport, iowa"@de , "Davenport, IA"@en , "Davenport, IA"@fr , "Davenport, IA"@de .

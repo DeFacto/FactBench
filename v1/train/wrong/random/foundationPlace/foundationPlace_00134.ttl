@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hendersonville,_Tennessee>
+        rdfs:label     "Hendersonville, Tennessee"@fr , "Hendersonville, Tennessee"@de , "Hendersonville, Tennessee"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hendersonville_(Tennessee)> , <http://fr.dbpedia.org/resource/Hendersonville_(Tennessee)> ;
+        skos:altLabel  "Hendersonville"@en , "Hendersonville"@fr , "Hendersonville"@de , "LOCODE:USHDV"@en , "LOCODE:USHDV"@fr , "LOCODE:USHDV"@de , "Hendersonville, Tennessee"@en , "Hendersonville, Tennessee"@de , "Hendersonville, Tennessee"@fr , "Hendersonville, TN"@en , "Hendersonville, TN"@fr , "Hendersonville, TN"@de .
+
+<http://rdf.freebase.com/ns/m.0h12zjq>
+        rdfs:label     "Mams Taylor"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h12zjq__1> ;
+        skos:altLabel  "Mams taylor"@en .
+
+<http://rdf.freebase.com/ns/m.0h12zjq__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Hendersonville,_Tennessee> ;
+        dbo:from             "1980"^^xsd:gYear ;
+        dbo:to               "1980"^^xsd:gYear .

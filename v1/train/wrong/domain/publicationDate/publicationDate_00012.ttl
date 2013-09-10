@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0385fd>
+        rdfs:label     "Philip Wylie"@de , "Philip Wylie"@en , "Philip Wylie"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0385fd__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Philip_Wylie> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Phillip G. Wylie"@en , "Philip Wylie"@en , "Philip G. Wylie"@en , "Philip Gordon Wylie"@en , "Phillip Wylie"@en .
+
+<http://rdf.freebase.com/ns/m.0263tzc>
+        rdfs:label  "Immodest Proposals"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Immodest_Proposals> .
+
+<http://rdf.freebase.com/ns/m.0385fd__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0263tzc> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .

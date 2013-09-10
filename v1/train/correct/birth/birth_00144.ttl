@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Victoria,_British_Columbia>
+        rdfs:label     "Victoria, British Columbia"@de , "Victoria, British Columbia"@fr , "Victoria, British Columbia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Victoria_(Colombie-Britannique)> , <http://de.dbpedia.org/resource/Victoria_(British_Columbia)> ;
+        skos:altLabel  "Victoria"@en , "Victoria"@de , "Victoria"@fr , "Victoria Canada"@fr , "Victoria Canada"@en , "Victoria Canada"@de , "Victoria, BC"@fr , "Victoria, BC"@en , "Victoria, BC"@de , "BC Victoria"@en , "BC Victoria"@de , "BC Victoria"@fr , "LOCODE:CAVIC"@fr , "Capital of British Columbia"@fr , "Victoria, British Columbia"@fr , "Victoria, British Columbia"@en , "Victoria, British Columbia"@de , "LOCODE:CAVIC"@en , "LOCODE:CAVIC"@de , "Capital of British Columbia"@en , "Capital of British Columbia"@de , "Victoria canada"@fr , "Victoria canada"@en , "Victoria canada"@de , "Victoria, bc"@fr , "Victoria, bc"@en , "Victoria, bc"@de , "Victoria BC"@fr , "Victoria BC"@en , "Victoria BC"@de , "Victoria high"@fr , "Victoria high"@en , "Victoria high"@de , "Victoria,bc"@fr , "Victoria,bc"@en , "Victoria,bc"@de , "Victoria, Canada"@fr , "Victoria, Canada"@en , "Victoria, Canada"@de , "Victoria bc"@fr , "Victoria bc"@en , "Victoria bc"@de , "Demographics of Victoria, British Columbia"@en , "Demographics of Victoria, British Columbia"@de , "Demographics of Victoria, British Columbia"@fr , "Victoria, B.C."@fr , "Victoria, B.C."@en , "Victoria, B.C."@de .
+
+<http://dbpedia.org/resource/Nelly_Furtado>
+        rdfs:label     "Nelly Furtado"@de , "Nelly Furtado"@fr , "Nelly Furtado"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Nelly_Furtado__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nelly_Furtado> , <http://fr.dbpedia.org/resource/Nelly_Furtado> ;
+        skos:altLabel  "Conozcame"@fr , "Nelstar"@fr , "Nelstar"@en , "Nelstar"@de , "Nelly Furtodo"@en , "Nelly Furtodo"@de , "Nelly Furtodo"@fr , "Nelstar*"@en , "Nelstar*"@de , "Nelstar*"@fr , "Nellie Furtado"@en , "Nellie Furtado"@de , "Nellie Furtado"@fr , "Nelly Kim Furtado"@en , "Nelly Kim Furtado"@de , "Nelly Kim Furtado"@fr , "Nelly Furtado"@fr , "Nelly Furtado's first Spanish language album"@en , "Nelly Furtado"@en , "Nelly Furtado"@de , "Nelly Furtado's first Spanish language album"@de , "Nelly Furtado's first Spanish language album"@fr , "Furtado, Nelly"@fr , "Nelly"@en , "Nelly"@de , "Nelly"@fr , "Furtado, Nelly"@en , "Furtado, Nelly"@de , "Furtado"@en , "Furtado"@de , "Furtado"@fr , "Nelly furtado"@en , "Nelly furtado"@de , "Nelly furtado"@fr , "Nelly Furtado's First Spanish Album"@en , "Nelly Furtado's First Spanish Album"@de , "Nelly Furtado's First Spanish Album"@fr .
+
+<http://dbpedia.org/resource/Nelly_Furtado__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Victoria,_British_Columbia> ;
+        dbo:from        "1978-12-02"^^xsd:date ;
+        dbo:to          "1978-12-02"^^xsd:date .

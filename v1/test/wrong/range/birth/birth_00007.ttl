@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cambridge>
+        rdfs:label     "Cambridge"@de , "Cambridge"@fr , "Cambridge"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cambridge> , <http://de.dbpedia.org/resource/Cambridge> ;
+        skos:altLabel  "Cambridge, UK"@de , "Cambridge, UK"@fr , "Cambridge, UK"@en , "LOCODE:GBCMG"@de , "LOCODE:GBCMG"@fr , "LOCODE:GBCMG"@en , "Aéroport de Cambridge"@fr , "Cambridge, England"@de , "Cambridge, England"@fr , "Cambridge, England"@en , "Cambridge, United Kingdom"@en , "Cambridge, United Kingdom"@de , "Cambridge, United Kingdom"@fr , "Park Street Church of England Primary School"@de , "Park Street Church of England Primary School"@fr , "Park Street Church of England Primary School"@en , "Aeroport de Cambridge"@fr , "England Cambridge"@de , "England Cambridge"@fr , "England Cambridge"@en , "Christ's Piece"@en , "Christ's Piece"@de , "Christ's Piece"@fr , "Cambridge, Cambridgeshire"@en , "Cambridge, Cambridgeshire"@de , "Cambridge, Cambridgeshire"@fr , "Christs Pieces"@de , "Christs Pieces"@fr , "Christs Pieces"@en , "Grantabridge"@en , "Grantabridge"@de , "Grantabridge"@fr , "Cambridge"@en , "Cambridge"@de , "Cambridge"@fr , "The weather in Cambridge"@en , "The weather in Cambridge"@de , "The weather in Cambridge"@fr , "Caergrawnt"@en , "Caergrawnt"@de , "Caergrawnt"@fr .
+
+<http://dbpedia.org/resource/Frank_Sinatra>
+        rdfs:label     "Frank Sinatra"@de , "Frank Sinatra"@fr , "Frank Sinatra"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Frank_Sinatra__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Frank_Sinatra> , <http://de.dbpedia.org/resource/Frank_Sinatra> ;
+        skos:altLabel  "Francis Albert \"Frank\" Sinatra"@de , "Columbus Day Riot"@en , "Columbus Day Riot"@fr , "Columbus Day Riot"@de , "Frank sinatra"@en , "Frank sinatra"@fr , "Frank sinatra"@de , "Francis Albert Sinatra"@en , "Francis Albert Sinatra"@fr , "Francis Albert Sinatra"@de , "Frank senatra"@en , "Frank senatra"@fr , "Frank senatra"@de , "Ol' Blue Eyes"@en , "Ol' Blue Eyes"@fr , "Ol' Blue Eyes"@de , "Political beliefs of frank sinatra"@en , "Political beliefs of frank sinatra"@de , "Political beliefs of frank sinatra"@fr , "Sinatra"@en , "Sinatra"@fr , "Sinatra"@de , "A Voice in Time: 1939-1952"@en , "A Voice in Time: 1939-1952"@de , "A Voice in Time: 1939-1952"@fr , "Fbi files on frank sinatra"@en , "Fbi files on frank sinatra"@fr , "Fbi files on frank sinatra"@de , "Frank sanatra"@en , "Frank sanatra"@fr , "Frank sanatra"@de , "Political beliefs of Frank Sinatra"@en , "Political beliefs of Frank Sinatra"@de , "Political beliefs of Frank Sinatra"@fr , "Frank Sinatra"@en , "Franck Sinatra"@en , "Frank Sinatra"@fr , "Frank Sinatra"@de , "Franck Sinatra"@de , "Franck Sinatra"@fr , "Frankie Blue Eyes"@de , "Francis A. Sinatra"@en , "Francis A. Sinatra"@fr , "Francis A. Sinatra"@de , "Biography of frank sinatra"@en , "Biography of frank sinatra"@de , "Biography of frank sinatra"@fr , "Francis Sinatra"@en , "Francis Sinatra"@fr , "Francis Sinatra"@de , "Old blue eyes"@en , "Old blue eyes"@de , "Old blue eyes"@fr , "Frank Sinatra, Sr."@en , "FBI Files on Frank Sinatra"@en , "Frank Sinatra, Sr."@fr , "FBI Files on Frank Sinatra"@fr , "Frank Sinatra, Sr."@de , "FBI Files on Frank Sinatra"@de , "Old Blue Eyes"@en , "Old Blue Eyes"@de , "Old Blue Eyes"@fr , "Biography of Frank Sinatra"@en , "Biography of Frank Sinatra"@fr , "Biography of Frank Sinatra"@de , "Frank"@en , "Frank"@fr , "Frank"@de , "Ol’ Blue Eyes"@en , "Ol’ Blue Eyes"@de , "Ol’ Blue Eyes"@fr , "A Voice in Time: 1939–1952"@en , "A Voice in Time: 1939–1952"@fr , "A Voice in Time: 1939–1952"@de , "Sinatra Sings Cole Porter"@en , "Sinatra Sings Cole Porter"@fr , "Sinatra Sings Cole Porter"@de , "Life of Frank Sinatra"@en , "Life of Frank Sinatra"@fr , "Life of Frank Sinatra"@de , "Francis Albert \"Frank\" Sinatra"@en , "Francis Albert \"Frank\" Sinatra"@fr .
+
+<http://dbpedia.org/resource/Frank_Sinatra__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Cambridge> ;
+        dbo:from        "1915"^^xsd:gYear ;
+        dbo:to          "1915"^^xsd:gYear .

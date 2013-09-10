@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02z6p5f__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0hwfl> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02z6p5f>
+        rdfs:label     "Gabriel Aubry"@en , "Gabriel Aubry"@fr , "Gabriel Aubry"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z6p5f__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gabriel_Aubry> , <http://de.dbpedia.org/resource/Gabriel_Aubry> , <http://fr.dbpedia.org/resource/Gabriel_Aubry> ;
+        skos:altLabel  "Gabriel Aubrey"@fr , "Gabriel Aubrey"@de , "Aubry"@de , "Aubry"@fr , "Gabriel Aubry"@fr , "Gabriel Aubry"@de .
+
+<http://rdf.freebase.com/ns/m.0hwfl>
+        rdfs:label     "Anna Nicole Smith"@en , "Anna Nicole Smith"@de , "Anna Nicole Smith"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anna_Nicole_Smith> , <http://dbpedia.org/resource/Anna_Nicole_Smith> , <http://de.dbpedia.org/resource/Anna_Nicole_Smith> ;
+        skos:altLabel  "Nikki   Hart"@en , "Anna Nicole Smith"@fr , "Anna Nicole Smith"@de , "Vickie Hogan"@en , "Victoria Marshall"@en , "Vickie Hogan"@fr , "Smith"@fr , "Victoria Marshall"@fr , "Victoria Marshall"@de , "Vickie Hogan"@de , "Vicki Smith"@en , "Hogan"@fr , "Anna nichole"@en , "Anna nichole"@fr , "Anna nichole"@de , "Vickie Marshall"@en , "Vickie Marshall"@de , "Vickie Marshall"@fr , "Victoria Hogan"@en , "Victoria Hogan"@fr , "Victoria Hogan"@de , "Anna Nichole Smith"@en , "Anna Nichole Smith"@fr , "Anna Nichole Smith"@de , "Vickie Lynn Marshall"@en , "Vickie Lynn Marshall"@fr , "Vickie Lynn Marshall"@de , "Virgie Arthur"@en , "Virgie Arthur"@de , "Virgie Arthur"@fr , "Anna-Nicole Smith"@en , "Anna-Nicole Smith"@fr , "Anna-Nicole Smith"@de , "Vicki Lynn Hogan"@en , "Vicki Lynn Hogan"@fr , "Vicki Lynn Hogan"@de , "Anna Nicole-Smith"@en , "Anna Nicole-Smith"@fr , "Anna Nicole-Smith"@de , "Lynn Marshall"@en , "Lynn Marshall"@fr , "Lynn Marshall"@de , "Anne Nicole Smith"@en , "Anne Nicole Smith"@fr , "Anne Nicole Smith"@de , "Death of Anna Nicole Smith"@en , "Ana Nicole Smith"@en , "Vickie Lynn"@en , "Vickie Lynn"@de , "Vickie Lynn"@fr , "Death of Anna Nicole Smith"@fr , "Death of Anna Nicole Smith"@de , "Ana Nicole Smith"@de , "Ana Nicole Smith"@fr , "Vicky Marshall"@en , "Anna nicole Smith"@en , "Anna nicole Smith"@fr , "Anna nicole Smith"@de , "Anna-Nicole-Smith"@en , "Ana Nicole"@en , "Vicky Hogan"@en , "Vicky Marshall"@fr , "Anna-Nicole-Smith"@fr , "Ana Nicole"@fr , "Ana Nicole"@de , "Vicky Marshall"@de , "Vicky Hogan"@de , "Vicky Hogan"@fr , "Anna-Nicole-Smith"@de , "Dannielynn Hope Marshall Stern"@en , "Dannielynn Hope Marshall Stern"@fr , "Dannielynn Hope Marshall Stern"@de , "Vickie Lynn Hogan"@en , "Anna nicole smith"@en , "Vickie Lynn Hogan"@fr , "Anna nicole smith"@fr , "Anna nicole smith"@de , "Vickie Lynn Hogan"@de , "Vicky Lynn Hogan"@en , "Vicky Lynn Hogan"@de , "Vicky Lynn Hogan"@fr , "Anna Nicole"@en , "Vickie Smith"@en , "Vickie Smith"@fr , "Vickie Smith"@de , "G. Ben Thompson"@en , "Anna nichole smith"@en , "Anna nichole smith"@fr , "Anna nichole smith"@de , "G. Ben Thompson"@fr , "G. Ben Thompson"@de , "Anna Nicole Smith"@en .

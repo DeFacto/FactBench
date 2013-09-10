@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04m5s5>
+        rdfs:label     "Adrianne Curry"@fr , "Adrianne Curry"@de , "Adrianne Curry"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Adrianne_Curry> , <http://dbpedia.org/resource/Adrianne_Curry> , <http://fr.dbpedia.org/resource/Adrianne_Curry> ;
+        skos:altLabel  "Adrianne Curry"@fr , "Adrianne Curry"@de , "Adrienne Curry"@fr , "Adrienne Curry"@de , "Curry"@de , "Adri"@en , "Adrianne Marie Curry"@en , "Adrianne"@fr , "Adrianne"@de .
+
+<http://rdf.freebase.com/ns/m.09s5td>
+        rdfs:label     "Christopher Knight"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.09s5td__96> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Christopher_Knight_(actor)> ;
+        skos:altLabel  "Christopher Knight"@en , "Christopher A. Knight"@en , "Chris Knight"@en , "Christopher Anton Knight"@en .
+
+<http://rdf.freebase.com/ns/m.09s5td__96>
+        dbo:from    "2006-05-29"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.04m5s5> ;
+        dbo:to      "2012-02"^^xsd:gYearMonth .

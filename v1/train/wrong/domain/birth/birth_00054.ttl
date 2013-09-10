@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mark_Woodforde__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Brno> ;
+        dbo:from        "1968"^^xsd:gYear ;
+        dbo:to          "1968"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Brno>
+        rdfs:label     "Brno"@de , "Brno"@fr , "Brno"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brno> , <http://de.dbpedia.org/resource/Brünn> ;
+        skos:altLabel  "LOCODE:CZBRQ"@en , "LOCODE:CZBRQ"@de , "LOCODE:CZBRQ"@fr , "Brno, Czech"@en , "Brno, Czech"@de , "Brno, Czech"@fr , "Brno City"@en , "Brno City"@de , "Brno City"@fr , "Brně"@de , "Brně"@fr , "Brně"@en , "Deutsche Technische Hochschule Brünn"@en , "Deutsche Technische Hochschule Brunn"@de , "Deutsche Technische Hochschule Brunn"@fr , "Deutsche Technische Hochschule Brünn"@de , "Deutsche Technische Hochschule Brünn"@fr , "Deutsche Technische Hochschule Brunn"@en , "Brno-Tuřany"@fr , "Brno, Czech Republic"@en , "Brno, Czech Republic"@de , "Brno, Czech Republic"@fr , "Exhibition Centre Brno"@en , "Exhibition Centre Brno"@de , "Exhibition Centre Brno"@fr , "Brünn"@en , "Brunn"@en , "Brünn"@de , "Brunn"@de , "Brunn"@fr , "Brünn"@fr , "Aeroport de Brno-Turany"@fr , "AUTOSALON Brno"@en , "AUTOSALON Brno"@de , "AUTOSALON Brno"@fr , "Brno"@de , "Brno"@fr , "Brno"@en , "Brne"@en , "Brne"@de , "Brne"@fr , "Bruenn"@en , "Bruenn"@de , "Bruenn"@fr , "Aéroport de Brno-Tuřany"@fr , "Brno-Turany"@fr , "Brno-Centre"@en , "Brno-Centre"@de , "Brno-Centre"@fr .
+
+<http://dbpedia.org/resource/Mark_Woodforde>
+        rdfs:label     "Mark Woodforde"@en , "Mark Woodforde"@fr , "Mark Woodforde"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mark_Woodforde__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mark_Woodforde> , <http://fr.dbpedia.org/resource/Mark_Woodforde> ;
+        skos:altLabel  "Mark Woodforde"@en , "Mark Woodforde"@fr , "Mark Woodforde"@de , "Woodforde"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0g7qq2>
+        rdfs:label     "Laird Macintosh"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Laird_Macintosh> ;
+        skos:altLabel  "Laird MacIntosh"@en , "SSgt. Laird Macintosh"@en , "Laird Rattray"@en , "Laird MacIntosh Rattray"@en .
+
+<http://rdf.freebase.com/ns/m.0pby787__1>
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0g7qq2> ;
+        dbo:to      "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0pby787>
+        rdfs:label     "Melanie Shepherd"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0pby787__1> ;
+        skos:altLabel  "Melanie Rattray"@en .

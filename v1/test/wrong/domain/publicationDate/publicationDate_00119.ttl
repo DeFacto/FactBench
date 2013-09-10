@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02nl0d>
+        rdfs:label     "Le Monde des Ā"@fr , "Welt der Null-A"@de , "The World of Null-A"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Welt_der_Null-A> , <http://dbpedia.org/resource/The_World_of_Null-A> , <http://fr.dbpedia.org/resource/Le_Monde_des_Ā> ;
+        skos:altLabel  "Welt der Null-A"@de , "Le Monde des non-A"@fr , "Le monde des A"@fr , "Le monde des Ã"@fr , "The World of Null-A"@fr , "The World of Null-A"@de , "Le Monde des A"@fr , "Le monde des ā"@fr , "Le Monde Des A"@fr , "World of Null-A"@fr , "World of Null-A"@de , "Le Monde Des Ā"@fr , "Le Monde des Ã"@fr , "Le monde des non-A"@fr , "Le monde des Ā"@fr , "Le Monde des Ā"@fr , "Le monde des a"@fr .
+
+<http://rdf.freebase.com/ns/m.04mhl>
+        rdfs:label     "Larry Niven"@en , "Larry Niven"@fr , "Larry Niven"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04mhl__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Larry_Niven> , <http://dbpedia.org/resource/Larry_Niven> , <http://de.dbpedia.org/resource/Larry_Niven> ;
+        skos:altLabel  "Niven"@en , "Niven"@fr , "Niven"@de , "Larry"@en , "Larry"@fr , "Larry"@de , "Larry Niven"@en , "Larry Niven"@fr , "Larry Niven"@de , "Laurence Van Cott Niven"@en , "Laurence van Cott Niven"@en , "Laurence van Cott Niven"@fr , "Laurence van Cott Niven"@de , "Larry niven"@en , "Larry niven"@fr , "Larry niven"@de , "Laurence Niven"@en , "Laurence Niven"@fr , "Laurence Niven"@de .
+
+<http://rdf.freebase.com/ns/m.04mhl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02nl0d> ;
+        dbo:from    "1948"^^xsd:gYear ;
+        dbo:to      "1948"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Raymond_Poincaré__1>
+        dbo:from        "1972"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.04ns2xh> ;
+        dbo:to          "1974"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Raymond_Poincaré>
+        rdfs:label     "Raymond Poincaré"@en , "Raymond Poincaré"@fr , "Raymond Poincaré"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Raymond_Poincaré__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Raymond_Poincaré> , <http://fr.dbpedia.org/resource/Raymond_Poincaré> ;
+        skos:altLabel  "Poincare"@de , "Poincare"@fr , "Raymond Poincaré"@fr , "Raymond Poincaré"@de , "Raymond Poincare"@fr , "Poincaré"@fr , "Raymond Poincare"@de , "Poincaré"@de .
+
+<http://rdf.freebase.com/ns/m.04ns2xh>
+        rdfs:label     "Billy Rovzar"@en , "Billy Rovzar"@fr ;
+        skos:altLabel  "Guillermo Fernando Rovzar Diez Barroso"@en , "Billy"@en , "Billy"@fr .

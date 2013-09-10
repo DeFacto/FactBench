@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ply0>
+        rdfs:label     "Orlando"@de , "Orlando"@en , "Orlando"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Orlando_(Florida)> , <http://fr.dbpedia.org/resource/Orlando_(Floride)> , <http://dbpedia.org/resource/Orlando,_Florida> ;
+        skos:altLabel  "Orlando, Florida"@fr , "Orlando, Florida"@en , "Orlando, Florida"@de , "Orlando"@fr , "Orlando, FL"@fr , "Orlando"@en , "Orlando, FL"@en , "Orlando, FL"@de , "Orlando"@de , "City of Orlando"@fr , "Legacy Middle School"@fr , "City of Orlando"@de , "Legacy Middle School"@en , "Legacy Middle School"@de , "City of Orlando"@en , "Downtown Orlando, Florida"@fr , "Downtown Orlando, Florida"@de , "Downtown Orlando, Florida"@en , "Eastwood, Florida"@fr , "Eastwood, Florida"@en , "Eastwood, Florida"@de , "Orlando, Fla."@fr , "Orlando, Fla."@en , "Orlando, Fla."@de , "Orlando, fl"@fr , "Orlando, fl"@de , "Orlando, fl"@en , "Orlando florida"@fr , "Orlando florida"@de , "Orlando florida"@en , "Mickeyland"@fr , "East Orlando, Florida"@fr , "East Orlando, Florida"@en , "East Orlando, Florida"@de , "Mickeyland"@en , "Mickeyland"@de , "Orlando, Fl"@fr , "Orlando, Fl"@en , "Orlando, Fl"@de , "East Orlando"@fr , "East Orlando"@de , "East Orlando"@en , "Lake Nona"@fr , "Lake Nona"@en , "Lake Nona"@de , "LOCODE:USORL"@fr , "LOCODE:USORL"@de , "LOCODE:USORL"@en , "Orlando, USA"@fr , "Orlando, USA"@de , "Orlando, USA"@en , "Orlando FL"@fr , "Orlando FL"@de , "Orlando FL"@en , "Orlando,Florida"@fr , "Orlando,Florida"@de , "Orlando,Florida"@en , "Orange County / Orlando city"@en , "The weather in orlando"@fr , "The weather in orlando"@en , "The weather in orlando"@de , "East Orlando, FL"@fr , "East Orlando, FL"@en , "East Orlando, FL"@de .
+
+<http://rdf.freebase.com/ns/m.02xn216>
+        rdfs:label      "Cloudspace"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.02xn216__12> ;
+        skos:altLabel   "Unity Marketing, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.02xn216__12>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0ply0> ;
+        dbo:from             "1996-06-06"^^xsd:date ;
+        dbo:to               "1996-06-06"^^xsd:date .

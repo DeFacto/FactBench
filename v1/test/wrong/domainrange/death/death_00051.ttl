@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kurt_Cobain__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hollywood,_Florida> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hollywood,_Florida>
+        rdfs:label     "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hollywood_(Florida)> , <http://fr.dbpedia.org/resource/Hollywood_(Floride)> ;
+        skos:altLabel  "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de , "Hollywood"@en , "Hollywood"@fr , "Hollywood"@de , "Hollywood, fl"@en , "Hollywood, fl"@fr , "Hollywood, fl"@de , "Hollywood, Fl"@en , "Hollywood, Fl"@fr , "Hollywood, Fl"@de , "Hollywood Beach, Florida"@en , "Hollywood Beach, Florida"@fr , "Hollywood Beach, Florida"@de , "LOCODE:USHWO"@en , "LOCODE:USHWO"@fr , "LOCODE:USHWO"@de , "Hollywood, FL"@en , "Hollywood, FL"@fr , "Hollywood, FL"@de , "Hollywood FL"@en , "Hollywood FL"@fr , "Hollywood FL"@de .
+
+<http://dbpedia.org/resource/Kurt_Cobain>
+        rdfs:label     "Kurt Cobain"@de , "Kurt Cobain"@fr , "Kurt Cobain"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kurt_Cobain__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kurt_Cobain> , <http://de.dbpedia.org/resource/Kurt_Cobain> ;
+        skos:altLabel  "List of musical equipment used by Kurt Cobain"@en , "List of musical equipment used by Kurt Cobain"@fr , "List of musical equipment used by Kurt Cobain"@de , "Curt Kobain"@en , "Kurt Cobain"@en , "Curt Kobain"@fr , "Curt Kobain"@de , "Kurt Cobain"@de , "Kurt Cobain"@fr , "Kurt D. Cobain"@en , "Kurt D. Cobain"@de , "Kurt D. Cobain"@fr , "Kurdt Donald Cobain"@fr , "Kurt Kobain"@en , "Kurt Kobain"@fr , "Kurt Kobain"@de , "Curt cobain"@en , "Curt cobain"@de , "Curt cobain"@fr , "Cobain, Kurt"@en , "Cobain, Kurt"@de , "Cobain, Kurt"@fr , "Kurt Cobrain"@en , "Kurt Cobrain"@de , "Kurt Cobrain"@fr , "K-bain"@en , "K-bain"@de , "K-bain"@fr , "Fecal Matter"@fr , "Cobain"@en , "Cobain"@fr , "Cobain"@de , "Kurt Cobaine"@de , "CoBain"@en , "CoBain"@de , "CoBain"@fr , "Kurdt Kobain"@en , "Kurdt Kobain"@fr , "Kurdt Kobain"@de , "Curt Cobain"@en , "Curt Cobain"@de , "Curt Cobain"@fr , "Boddah"@en , "KurtCobain"@en , "Boddah"@fr , "Boddah"@de , "KurtCobain"@de , "KurtCobain"@fr , "Kurt Donald Cobain"@en , "Kurt Donald Cobain"@de , "Kurt Donald Cobain"@fr , "Kurt"@en , "Kurt"@fr , "Kurt"@de , "Kurdt Cobain"@en , "Kurdt Cobain"@de , "Kurdt Cobain"@fr , "Cobai"@fr , "Kurtis Cohbaine"@en , "Kurtis Cohbaine"@fr , "Kurtis Cohbaine"@de , "Kurt cobain"@en , "Kurt cobain"@fr , "Kurt cobain"@de .

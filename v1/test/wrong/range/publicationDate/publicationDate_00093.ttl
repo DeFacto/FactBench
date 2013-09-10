@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0f196>
+        rdfs:label     "I Will Fear No Evil"@en , "Le Ravin des ténèbres"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/I_Will_Fear_No_Evil> , <http://fr.dbpedia.org/resource/Le_Ravin_des_ténèbres> ;
+        skos:altLabel  "I Will Fear No Evil"@fr , "Le ravin des ténèbres"@fr , "Le ravin des tenebres"@fr , "Le Ravin Des Tenebres"@fr , "Le Ravin des ténèbres"@fr , "Le Ravin des tenebres"@fr , "Le Ravin Des Ténèbres"@fr , "Fear No Evil"@fr .
+
+<http://rdf.freebase.com/ns/m.018qhj>
+        rdfs:label     "Mary Doria Russell"@en , "Mary Doria Russell"@fr , "Mary Doria Russell"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.018qhj__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mary_Doria_Russell> , <http://fr.dbpedia.org/resource/Mary_Doria_Russell> , <http://dbpedia.org/resource/Mary_Doria_Russell> ;
+        skos:altLabel  "Russell"@fr , "Mary Doria Russell"@fr , "Mary Doria Russell"@de .
+
+<http://rdf.freebase.com/ns/m.018qhj__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0f196> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .

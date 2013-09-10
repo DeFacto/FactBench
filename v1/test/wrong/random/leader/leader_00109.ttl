@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0168dy>
+        rdfs:label     "Brittany Murphy"@de , "Brittany Murphy"@fr , "Brittany Murphy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0168dy__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Brittany_Murphy> , <http://fr.dbpedia.org/resource/Brittany_Murphy> , <http://de.dbpedia.org/resource/Brittany_Murphy> ;
+        skos:altLabel  "Britt"@en , "Brittany Anne Murphy-Monjack"@en , "Brittney Murphy"@de , "Brittney Murphy"@fr , "Brittney Murphy"@en , "Brittany Anne Murphy-Monjack"@de , "Brittany Anne Murphy-Monjack"@fr , "Brittany Murphy"@de , "Brittany Murphy"@fr , "Brittany Murphy"@en , "Brittany Bertolotti"@en , "Brittany Bertolotti"@de , "Brittany Anne Bertolotti"@de , "Brittany Anne Bertolotti"@fr , "Brittany Anne Bertolotti"@en , "Britney Murphy"@de , "Britney Murphy"@fr , "Britney Murphy"@en , "Brittany Anne Murphy"@de , "Brittany Anne Murphy"@fr , "Brittany Anne Murphy"@en , "Britanny murphey"@de , "Britanny murphey"@fr , "Britanny murphey"@en , "Murphy, Brittany"@en , "Brittany"@fr , "Sug@r"@de , "Sug@r"@fr , "Sug@r"@en , "Murphy"@de , "Murphy"@fr , "Brittany murphy"@de , "Brittany murphy"@fr , "Murphy"@en , "Brittany murphy"@en , "Britanny Murphy"@de , "Britanny Murphy"@fr , "Britanny Murphy"@en .
+
+<http://rdf.freebase.com/ns/m.0168dy__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Tacoma,_Washington> ;
+        dbo:from        "1984"^^xsd:gYear ;
+        dbo:to          "1986"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tacoma,_Washington>
+        rdfs:label     "Tacoma, Washington"@en , "Tacoma, Washington"@fr , "Tacoma, Washington"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tacoma> , <http://de.dbpedia.org/resource/Tacoma> ;
+        skos:altLabel  "Tacoma City Center, Washington"@en , "Tacoma City Center, Washington"@fr , "Tacoma City Center, Washington"@de , "Tacoma, WA"@en , "LOCODE:USTIW"@en , "Tacoma, Wash."@en , "LOCODE:USTIW"@fr , "LOCODE:USTIW"@de , "Tacoma, WA"@fr , "Tacoma, Wash."@fr , "Tacoma, Wash."@de , "Tacoma, WA"@de , "Tacoma Aroma"@en , "Tacoma Aroma"@fr , "Tacoma Aroma"@de , "Gray Army Air Field"@fr , "Tacoma"@en , "Tacoma"@fr , "Tacoma"@de , "Tacoma mayoral election, 2009"@en , "Tacoma Washington"@en , "Tacoma mayoral election, 2009"@fr , "Tacoma Washington"@fr , "Tacoma Washington"@de , "Tacoma mayoral election, 2009"@de , "Tacoma, wa"@en , "Tacoma, Washington"@en , "Tacoma, wa"@fr , "Tacoma, Washington"@fr , "Tacoma, wa"@de , "Tacoma, Washington"@de , "Tacoma, Wa"@en , "Tacoma, Wa"@fr , "Tacoma, Wa"@de .

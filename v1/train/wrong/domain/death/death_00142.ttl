@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .
+
+<http://dbpedia.org/resource/Bob_Marley__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Bob_Marley>
+        rdfs:label     "Bob Marley"@de , "Bob Marley"@fr , "Bob Marley"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bob_Marley__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bob_Marley> , <http://fr.dbpedia.org/resource/Bob_Marley> ;
+        skos:altLabel  "Nesta Robert Marley"@en , "Nesta Robert Marley"@fr , "Nesta Robert Marley"@de , "Bob Marley"@en , "Marley, Robert Nesta"@en , "Bob Marley"@de , "Bob Marley"@fr , "Marley, Robert Nesta"@de , "Marley, Robert Nesta"@fr , "Marley, Bob"@en , "Marley, Bob"@de , "Marley, Bob"@fr , "Berhane Selassie"@en , "Berhane Selassie"@de , "Berhane Selassie"@fr , "Hon. Robert Nesta Marley O.M."@en , "Hon. Robert Nesta Marley O.M."@de , "Hon. Robert Nesta Marley O.M."@fr , "Marley, Robert"@en , "Marley, Robert"@de , "Marley, Robert"@fr , "Norval Marley"@fr , "Marley"@en , "Marley"@de , "Marley"@fr , "Bob Marley & The Wailers"@fr , "Nesta Marley"@en , "Nesta Marley"@de , "Nesta Marley"@fr , "Kjfdj"@en , "Kjfdj"@fr , "Kjfdj"@de , "Robert Marley"@en , "Robert Marley"@de , "Robert Marley"@fr , "Bob Nesta Marley"@en , "Bob Nesta Marley"@de , "Bob Nesta Marley"@fr , "Robert Bob Nesta Marley"@en , "Robert Bob Nesta Marley"@de , "Robert Bob Nesta Marley"@fr , "Bob Marly"@en , "Bob Marly"@de , "Bob Marly"@fr , "Robert Nesta Marley"@en , "Robert Nesta Marley"@de , "Robert Nesta Marley"@fr , "Bob marley"@en , "Bob marley"@de , "Bob marley"@fr , "Bob Marley And The Wailers"@en , "Bob Marley And The Wailers"@de , "Bob Marley And The Wailers"@fr , "Robert Nesta Marley O.M."@en , "Robert Nesta Marley O.M."@de , "Robert Nesta Marley O.M."@fr .

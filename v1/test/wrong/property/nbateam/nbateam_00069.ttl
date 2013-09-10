@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/J._J._Redick__1>
+        dbo:author  <http://dbpedia.org/resource/Orlando_Magic> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/J._J._Redick>
+        rdfs:label     "J. J. Redick"@en , "J. J. Redick"@fr , "J. J. Redick"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/J._J._Redick__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/J._J._Redick> , <http://fr.dbpedia.org/resource/J._J._Redick> ;
+        skos:altLabel  "Jj redick"@fr , "Jj redick"@de , "J J Redick"@fr , "J J Redick"@de , "Jonathan Clay \"J. J.\" Redick"@fr , "Jonathan Clay \"J. J.\" Redick"@de , "JJ Redick"@fr , "Jonathan Redick"@fr , "JJ Redick"@de , "J.J Redick"@fr , "J.J Redick"@de , "Jonathan Redick"@de , "JJ Reddick"@fr , "JJ Reddick"@de , "J. J. Redick"@fr , "J. J. Redick"@de , "Redick"@de , "Jj reddick"@fr , "J.J. Redick"@fr , "Jonathan Clay Redick"@fr , "Jj reddick"@de , "J.J. Redick"@de , "Jonathan Clay Redick"@de .
+
+<http://dbpedia.org/resource/Orlando_Magic>
+        rdfs:label     "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Magic_d'Orlando> , <http://de.dbpedia.org/resource/Orlando_Magic> ;
+        skos:altLabel  "Magic, Orlando"@en , "Magic, Orlando"@fr , "Magic, Orlando"@de , "Magic d'Orlando"@fr , "Orlando"@fr , "Magic"@en , "Magic"@fr , "Magic"@de , "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de .

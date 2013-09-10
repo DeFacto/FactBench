@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.020xn__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03lzsc> ;
+        dbo:from    "1977"^^xsd:gYear ;
+        dbo:to      "1977"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03lzsc>
+        rdfs:label     "The Passion of New Eve"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Passion_of_New_Eve> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "The Passion of New Eve"@en , "Passion of new eve"@en .
+
+<http://rdf.freebase.com/ns/m.020xn>
+        rdfs:label     "Cordwainer Smith"@en , "Cordwainer Smith"@fr , "Paul Linebarger"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.020xn__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Paul_Linebarger> , <http://fr.dbpedia.org/resource/Cordwainer_Smith> , <http://dbpedia.org/resource/Cordwainer_Smith> ;
+        skos:altLabel  "Carmichael Smith"@en , "Felix C. Forrest"@en , "Paul M. A. Linebarger"@en , "Paul M. A. Linebarger"@fr , "Paul M. A. Linebarger"@de , "Karolman Junghar"@en , "Anthony Bearden"@en , "Paul Linebarger"@fr , "Paul Linebarger"@de , "Smith"@fr , "Linebarger"@de , "Paul Myron Anthony Linebarger"@en , "Paul Myron Anthony Linebarger"@fr , "Paul Myron Anthony Linebarger"@de , "Cordwainer Smith"@fr , "Cordwainer Smith"@de .

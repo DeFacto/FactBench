@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Olivia_Newton-John__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Winterset,_Iowa> ;
+        dbo:from        "1907"^^xsd:gYear ;
+        dbo:to          "1907"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Olivia_Newton-John>
+        rdfs:label     "Olivia Newton-John"@en , "Olivia Newton-John"@fr , "Olivia Newton-John"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Olivia_Newton-John__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Olivia_Newton-John> , <http://de.dbpedia.org/resource/Olivia_Newton-John> ;
+        skos:altLabel  "Newton-John, Olivia"@fr , "Newton-John, Olivia"@de , "Olivia NewtonJohn"@en , "Olivia NewtonJohn"@fr , "Olivia NewtonJohn"@de , "Olivia Newton-John"@en , "Olivia Newton-John"@fr , "Olivia Newton-John"@de , "Olivia"@fr , "John"@fr , "Olivia Newton"@en , "Newton"@fr , "Olivia Newton"@fr , "Olivia Newton"@de , "Olivia Newton-John Cancer and Wellness Centre"@en , "Olivia Newton-John Cancer and Wellness Centre"@fr , "Olivia Newton-John Cancer and Wellness Centre"@de , "Olivia Newton John"@en , "Olivia Newton John"@fr , "Olivia Newton John"@de , "Koala Blue"@en , "Koala Blue"@fr , "Koala Blue"@de , "Olivia newton-john"@en , "Olivia newton-john"@fr , "Olivia newton-john"@de , "Newton-John, Olivia"@en .
+
+<http://dbpedia.org/resource/Winterset,_Iowa>
+        rdfs:label     "Winterset, Iowa"@en , "Winterset, Iowa"@fr , "Winterset, Iowa"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Winterset> , <http://fr.dbpedia.org/resource/Winterset> ;
+        skos:altLabel  "Winterset, Iowa"@de , "LOCODE:USWNT"@en , "LOCODE:USWNT"@de , "LOCODE:USWNT"@fr , "Winterset"@en , "Winterset, IA"@en , "Winterset"@fr , "Winterset, IA"@de , "Winterset"@de , "Winterset, IA"@fr , "Winterset, Iowa"@en , "Winterset, Iowa"@fr .

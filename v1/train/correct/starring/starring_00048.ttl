@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mel_Gibson>
+        rdfs:label     "Mel Gibson"@de , "Mel Gibson"@fr , "Mel Gibson"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mel_Gibson> , <http://de.dbpedia.org/resource/Mel_Gibson> ;
+        skos:altLabel  "Anne Reilly Gibson"@fr , "Anne Reilly Gibson"@en , "Anne Reilly Gibson"@de , "Mel Colm-Cille Gerard Gibson AO"@fr , "Mel Colm-Cille Gerard Gibson AO"@en , "Mel Colm-Cille Gerard Gibson AO"@de , "Mel Gibson DUI incident"@fr , "Mel Gibson DUI incident"@en , "Mel Gibson DUI incident"@de , "Mel Columcille Gerard Gibson"@fr , "Mel Columcille Gerard Gibson"@de , "Mel Columcille Gerard Gibson"@en , "Mel gibson"@fr , "Mel gibson"@en , "Mel gibson"@de , "Mel-meltdown"@fr , "Mel Colm-Cille Gerard Gibson"@fr , "Mel-meltdown"@de , "Mel-meltdown"@en , "Mel Colm-Cille Gerard Gibson"@en , "Mel Colm-Cille Gerard Gibson"@de , "Mel Colm-Cille Gerard Gibson, AO"@fr , "Mel Colm-Cille Gerard Gibson, AO"@en , "Mel Colm-Cille Gerard Gibson, AO"@de , "Gibson"@fr , "Gibson"@en , "Gibson"@de , "James Mee"@fr , "James Mee"@de , "James Mee"@en , "Gibson, Mel"@fr , "Sugartits"@fr , "Gibson, Mel"@de , "Gibson, Mel"@en , "Sugartits"@en , "Sugartits"@de , "Deputy James Mee"@fr , "Mel Gibson Defense"@fr , "Mel Gibson Defense"@de , "Mel Gibson Defense"@en , "Melvin Gibson"@fr , "Deputy James Mee"@de , "Deputy James Mee"@en , "Melvin Gibson"@de , "Melvin Gibson"@en , "Mel Gibson drinking"@fr , "Mel Gibson drinking"@en , "Mel Gibson drinking"@de , "Mel Gibson apology"@fr , "Mel Gibson apology"@en , "Mel Gibson apology"@de , "Mel Gibson"@fr , "Mel Gibson"@en , "Mel Gibson"@de , "Columcille Gerard Gibson"@fr , "Columcille Gerard Gibson"@en , "Columcille Gerard Gibson"@de , "Mel Gibson DWI incident"@fr , "Mel Gibson DWI incident"@en , "Mel Gibson DWI incident"@de , "Mel Gibson DUI"@fr , "Mel Gibson DUI"@en , "Mel Gibson DUI"@de .
+
+<http://dbpedia.org/resource/Mad_Max>
+        rdfs:label      "Mad Max"@en , "Mad Max"@fr , "Mad Max"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/Mad_Max__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Mad_Max> , <http://fr.dbpedia.org/resource/Mad_Max> ;
+        skos:altLabel   "Mad Max 2 : le défi"@fr , "Madmax"@fr , "Madmax"@de , "Madmax"@en , "Mad Max III"@fr , "Mad max 1"@fr , "Mad max 1"@de , "Mad max 1"@en , "Mad Max 2 : le defi"@fr , "Mad max"@fr , "Mad max"@de , "Mad max"@en , "Main Force Patrol"@fr , "Main Force Patrol"@de , "Main Force Patrol"@en , "Mad Max"@fr , "Mad Max"@de , "Mad Max"@en .
+
+<http://dbpedia.org/resource/Mad_Max__1>
+        dbo:from      "1979-04-12"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Mel_Gibson> ;
+        dbo:to        "1979-04-12"^^xsd:date .

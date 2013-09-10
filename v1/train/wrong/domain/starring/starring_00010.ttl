@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Alan_Rickman>
+        rdfs:label     "Alan Rickman"@en , "Alan Rickman"@fr , "Alan Rickman"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alan_Rickman> , <http://de.dbpedia.org/resource/Alan_Rickman> ;
+        skos:altLabel  "Rickman"@en , "Rickman"@fr , "Rickman"@de , "Alan"@fr , "Alan Rickman"@en , "Alan Rickman"@fr , "Alan Rickman"@de , "Allen rickman"@en , "Alan S. P. Rickman"@en , "Alan S. P. Rickman"@fr , "Alan S. P. Rickman"@de , "Alan Sidney Patrick Rickman"@en , "Allen rickman"@fr , "Alan Sidney Patrick Rickman"@fr , "Allen rickman"@de , "Alan Sidney Patrick Rickman"@de , "Alan rickman"@en , "Alan rickman"@fr , "Alan rickman"@de .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1>
+        dbo:from      "2003"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Alan_Rickman> ;
+        dbo:to        "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)>
+        rdfs:label     "A Hard Day's Night (film)"@en , "A Hard Day's Night (film)"@fr , "A Hard Day's Night (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/A_Hard_Day's_Night_(film)> , <http://de.dbpedia.org/resource/Yeah_Yeah_Yeah> ;
+        skos:altLabel  "Quatre garcons dans le vent"@fr , "A Hard Days Night"@en , "A Hard Days Night"@fr , "A Hard Days Night"@de , "Quatre Garçons dans le vent"@fr , "Quatre Garcons dans le vent"@fr , "A Hard Day's Night"@en , "A Hard Day's Night"@fr , "A Hard Day's Night"@de , "4 garcons dans le vent"@fr , "Yeah Yeah Yeah"@de , "Quatre garçons dans le vent"@fr , "Hard day's night"@en , "Hard day's night"@fr , "Hard day's night"@de , "4 garçons dans le vent"@fr .

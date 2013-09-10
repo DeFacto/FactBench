@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/The_Aristocats>
+        rdfs:label     "The Aristocats"@de , "The Aristocats"@fr , "The Aristocats"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/The_Aristocats__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Les_Aristochats> , <http://de.dbpedia.org/resource/Aristocats> ;
+        skos:altLabel  "Edgar the Butler"@fr , "Scales and Arpeggios"@de , "Scales and Arpeggios"@fr , "Scales and Arpeggios"@en , "Dean Clark"@en , "Dean Clark"@fr , "Dean Clark"@de , "Les aristochats"@fr , "Thomas O'Malley"@de , "The Aristocats"@de , "The Aristocats"@fr , "The Aristocats"@en , "Edgar the Butler's Biography"@en , "Edgar the Butler's Biography"@de , "Edgar the Butler's Biography"@fr , "The Aristo Cats"@en , "The Aristo Cats"@de , "The Aristo Cats"@fr , "Les Aristochats"@fr , "Edgar Balthazar"@de , "Edgar Balthazar"@fr , "Edgar Balthazar"@en , "Everybody Wants To Be A Cat"@en , "Everybody Wants To Be A Cat"@de , "Everybody Wants To Be A Cat"@fr , "Everybody Wants to Be a Cat"@en , "Everybody Wants to Be a Cat"@de , "Everybody Wants to Be a Cat"@fr , "The AristoCats"@en , "The AristoCats"@de , "The AristoCats"@fr , "The Aristocats II"@de , "The Aristocats II"@fr , "The Aristocats II"@en , "Aristocats"@en , "Aristocats"@de , "Aristocats"@fr , "Scales And Arpeggios"@en , "Scales And Arpeggios"@de , "Scales And Arpeggios"@fr , "Ev'rybody Wants to Be a Cat"@en , "Aristochats"@fr , "Ev'rybody Wants to Be a Cat"@de , "Ev'rybody Wants to Be a Cat"@fr , "Edgar the Butler"@en , "Edgar the Butler"@de .
+
+<http://dbpedia.org/resource/Vanessa_Hudgens>
+        rdfs:label     "Vanessa Hudgens"@de , "Vanessa Hudgens"@fr , "Vanessa Hudgens"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Vanessa_Hudgens> , <http://de.dbpedia.org/resource/Vanessa_Hudgens> ;
+        skos:altLabel  "Vannesa Hudgens"@en , "Vanessa hudgens"@en , "Vannesa Hudgens"@fr , "Vannesa Hudgens"@de , "Vanessa Hudgens"@en , "Vanessa hudgens"@de , "Vanessa hudgens"@fr , "Vanessa Hudgens"@de , "Vanessa Hudgens"@fr , "Vannessa Hudgens"@en , "Vannessa Hudgens"@de , "Vannessa Hudgens"@fr , "A Musical Tribute"@en , "A Musical Tribute: Vanessa Hudgens"@en , "A Musical Tribute"@fr , "A Musical Tribute"@de , "A Musical Tribute: Vanessa Hudgens"@fr , "A Musical Tribute: Vanessa Hudgens"@de , "Vannesa Anne Hudgens"@en , "Vannesa Anne Hudgens"@fr , "Vannesa Anne Hudgens"@de , "Vanessa Anne Hudegns"@en , "Vanessa Anne Hudegns"@de , "Vanessa Anne Hudegns"@fr , "Stella Hudgens"@en , "Stella Hudgens"@de , "Stella Hudgens"@fr , "Vanessa Stephanie Hudgens"@fr , "Vanessa ann Hudgens"@en , "Vanessa ann Hudgens"@de , "Vanessa ann Hudgens"@fr , "Vanessa Hudgen"@en , "Vanessa Hudgen"@fr , "Vanessa Hudgen"@de , "Vanessa Hudgens filmography"@en , "Vanessa Hudgens filmography"@fr , "Vanessa Hudgens filmography"@de , "Stella hudgens"@en , "Stella hudgens"@de , "Stella hudgens"@fr , "StellaHudgens"@en , "StellaHudgens"@fr , "StellaHudgens"@de , "Vanessa"@en , "Vanessa"@de , "Vanessa"@fr , "Let's Dance(song)"@en , "Let's Dance(song)"@fr , "Let's Dance(song)"@de , "Vanessa Ann Hudgens"@en , "Vanessa Ann Hudgens"@de , "Vanessa Ann Hudgens"@fr , "Filmographie de Vanessa Hudgens"@fr , "Hudgens"@en , "Vanessa Anne Hutchinson"@en , "Vanessa Anne Hutchinson"@de , "Vanessa Anne Hutchinson"@fr , "Hudgens"@de , "Hudgens"@fr , "Get On It"@en , "Get On It"@de , "Get On It"@fr , "Let's Dance"@en , "Let's Dance"@de , "Let's Dance"@fr , "Vanessa Anne Hudgens"@en , "Vanessa Anne Hudgens"@de , "Vanessa Anne Hudgens"@fr .
+
+<http://dbpedia.org/resource/The_Aristocats__1>
+        dbo:from      "1970"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Vanessa_Hudgens> ;
+        dbo:to        "1970"^^xsd:gYear .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.025xw0n>
+        rdfs:label       "BabyCenter"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.025xw0n__70> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/BabyCenter> ;
+        skos:altLabel    "Babycenter"@en , "Babycentre"@en , "BabyCenter"@en , "BabyCentre"@en .
+
+<http://rdf.freebase.com/ns/m.03bs26q>
+        rdfs:label     "Maya's Mom"@en ;
+        skos:altLabel  "mayasmom.com"@en .
+
+<http://rdf.freebase.com/ns/m.025xw0n__70>
+        dbo:from        "2007-08"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03bs26q> ;
+        dbo:to          "2007-08"^^xsd:gYearMonth .

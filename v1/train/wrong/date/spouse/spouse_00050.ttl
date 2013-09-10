@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0382m4>
+        rdfs:label     "Michael C. Hall"@en , "Michael C. Hall"@fr , "Michael C. Hall"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Michael_C._Hall> , <http://de.dbpedia.org/resource/Michael_C._Hall> , <http://dbpedia.org/resource/Michael_C._Hall> ;
+        skos:altLabel  "Michael Carlyle Hall"@en , "Michael Carlyle Hall"@fr , "Michael Carlyle Hall"@de , "Michael C Hall"@en , "Michael C Hall"@fr , "Michael C Hall"@de , "Michael Carlisle Hall"@en , "Michael C. Hall"@en , "Michael C. Hall"@de , "Michael C. Hall"@fr , "Michael Hall"@en , "Hall"@fr .
+
+<http://rdf.freebase.com/ns/m.0k_kb1>
+        rdfs:label     "Amy Spanger"@en , "Amy Spanger"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0k_kb1__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Amy_Spanger> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Amy_Spanger> ;
+        skos:altLabel  "Amy Spanger"@en , "Amy Spanger"@fr .
+
+<http://rdf.freebase.com/ns/m.0k_kb1__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0382m4> ;
+        dbo:to      "2007"^^xsd:gYear .

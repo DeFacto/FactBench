@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02xyl__1>
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.03lvx> ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03lvx>
+        rdfs:label     "Heretics of Dune"@en , "Les Hérétiques de Dune"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Heretics_of_Dune> , <http://fr.dbpedia.org/resource/Les_Hérétiques_de_Dune> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Les Heretiques De Dune"@fr , "Stiros"@en , "Stiros"@fr , "Tuek"@en , "Tuek"@fr , "Heretics Of Dune"@en , "Heretics Of Dune"@fr , "Burzmali"@en , "Burzmali"@fr , "Les Heretiques de Dune"@fr , "Les Hérétiques de Dune"@fr , "Les heretiques de dune"@fr , "Heretics of Dune"@en , "Heretics of Dune"@fr , "Les hérétiques de dune"@fr , "Heretics of dune"@en , "Heretics of dune"@fr , "Les Hérétiques De Dune"@fr .
+
+<http://rdf.freebase.com/ns/m.02xyl>
+        rdfs:label     "Frank Herbert"@en , "Frank Herbert"@fr , "Frank Herbert"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02xyl__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Frank_Herbert> , <http://de.dbpedia.org/resource/Frank_Herbert> , <http://fr.dbpedia.org/resource/Frank_Herbert> ;
+        skos:altLabel  "Frank"@fr , "Frank Patrick Herbert"@en , "Herbert"@fr , "Frank Patrick Herbert"@fr , "Frank Patrick Herbert"@de , "Franck Herbert"@fr , "Herbert, Frank Patrick"@en , "Franklin Patrick Herbert, Jr."@en , "Frank Herbert"@en , "Herbert, Frank Patrick"@fr , "Frank Herbert"@fr , "Herbert, Frank Patrick"@de , "Frank Herbert"@de , "Frank herbert"@en , "Frank herbert"@fr , "Frank herbert"@de .

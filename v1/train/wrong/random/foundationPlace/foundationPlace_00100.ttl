@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nas>
+        rdfs:label     "Nas"@en , "Nas"@fr , "Nas"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nas__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nas_(Rapper)> , <http://fr.dbpedia.org/resource/Nas_(rappeur)> ;
+        skos:altLabel  "Nasir Jones"@en , "Nas Jones"@en , "Nasir Bin Olu Dara"@fr , "Nasir Jones"@fr , "Nasir Jones"@de , "Nas Jones"@fr , "Nas Jones"@de , "Nasir Bin Olu Dara"@de , "Nasty Nas"@en , "Nasty Nas"@fr , "Nasty Nas"@de , "The Jones Experience"@en , "The Jones Experience"@fr , "The Jones Experience"@de , "Nasir Bin Olu Dara Jones"@en , "Nasir Bin Olu Dara Jones"@fr , "Nasir Bin Olu Dara Jones"@de , "Nasir bin Olu Dara Jones"@de , "Nasir"@en , "Nas Escobar"@en , "Nasir bin Olu Dara"@en , "Nasir"@fr , "Nas Escobar"@fr , "Nasir"@de , "Nas Escobar"@de , "Nasir bin Olu Dara"@fr , "Nasir bin Olu Dara"@de , "Nasir Bin Olu Dara"@en .
+
+<http://rdf.freebase.com/ns/m.03z1j_>
+        rdfs:label     "Kerr Smith"@fr , "Kerr Smith"@de , "Kerr Smith"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Kerr_Smith> , <http://fr.dbpedia.org/resource/Kerr_Smith> , <http://de.dbpedia.org/resource/Kerr_Smith> ;
+        skos:altLabel  "Kerr Van Cleve Smith"@en , "Kerr Smith"@en , "Kerr Smith"@fr , "Kerr Smith"@de .
+
+<http://dbpedia.org/resource/Nas__1>
+        dbo:from        "1976"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03z1j_> ;
+        dbo:to          "1976"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c6_j8>
+        rdfs:label     "Kana"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c6_j8__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kana_Software> ;
+        skos:altLabel  "KANA COMMUNICATIONS INC"@en , "KANA Software"@en , "Kana Commmunications"@en , "KANA SOFTWARE INC"@en .
+
+<http://rdf.freebase.com/ns/m.0vm75>
+        rdfs:label     "Troy"@en , "Troy"@fr , "Troy"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Troy_(Michigan)> , <http://dbpedia.org/resource/Troy,_Michigan> , <http://fr.dbpedia.org/resource/Troy_(Michigan)> ;
+        skos:altLabel  "Troy, MI"@fr , "Troy, MI"@de , "Troy"@fr , "Troy"@de , "Troy Corners, Michigan"@fr , "Troy Corners, Michigan"@de , "Barnard Elementary"@fr , "Barnard Elementary"@de , "Troy Township, Oakland County, Michigan"@fr , "Troy Township, Oakland County, Michigan"@de , "Oakland County / Troy city"@en , "Troy, Michigan"@en , "Big Beaver, Michigan"@fr , "Big Beaver, Michigan"@de , "Troy, Michigan"@fr , "Troy, Michigan"@de .
+
+<http://rdf.freebase.com/ns/m.0c6_j8__1>
+        dbo:from    "1970"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0vm75> ;
+        dbo:to      "1970"^^xsd:gYear .

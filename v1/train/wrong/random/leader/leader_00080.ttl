@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dominion_of_Newfoundland>
+        rdfs:label     "Dominion of Newfoundland"@en , "Dominion of Newfoundland"@fr , "Dominion of Newfoundland"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dominion_de_Terre-Neuve> , <http://de.dbpedia.org/resource/Neufundland_(Dominion)> ;
+        skos:altLabel  "Dominion of newfoundland"@en , "Dominion of newfoundland"@fr , "Dominion of newfoundland"@de , "Neufundland"@de , "Newfoundland"@en , "Newfoundland"@fr , "Newfoundland"@de , "Dominion of Newfoundland"@en , "Dominion of Newfoundland"@fr , "Dominion of Newfoundland"@de , "Dominion de Terre-Neuve"@fr .
+
+<http://dbpedia.org/resource/Ibrahim_al-Jaafari__1>
+        dbo:from    "1922"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Dominion_of_Newfoundland> ;
+        dbo:to      "1922"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ibrahim_al-Jaafari>
+        rdfs:label     "Ibrahim al-Jaafari"@de , "Ibrahim al-Jaafari"@fr , "Ibrahim al-Jaafari"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ibrahim_al-Jaafari__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ibrahim_al-Jaafari> , <http://de.dbpedia.org/resource/Ibrahim_al-Dschafari> ;
+        skos:altLabel  "Ibrahim al-Dschaafari"@de , "Ibrahim Al Jaafari"@en , "Ibrahim Al Jaafari"@de , "Ibrahim Al Jaafari"@fr , "Ibrahim el Dschafari"@de , "Ibrahim Jaafari"@de , "Ibrahim Jaafari"@fr , "Ibrahim Jaafari"@en , "Ibrahim al-َAshaiqir al-Jaafari"@en , "Ibrahim al-َAshaiqir al-Jaafari"@de , "Ibrahim al-َAshaiqir al-Jaafari"@fr , "Ibrahim al-Jafari"@en , "Ibrahim Al-Jaffari"@en , "Ibrahim al-Jafari"@de , "Ibrahim al-Jafari"@fr , "Ibrahim Al-Jaffari"@de , "Ibrahim Al-Jaffari"@fr , "Dschafari"@de , "Ibrahim al-Jaafari"@en , "Ibrahim al-Jaafari"@fr , "Ibrahim al-Jaafari"@de , "Ibrahim al Jafari"@en , "Ibrahim al Jafari"@de , "Ibrahim al Jafari"@fr , "Ibrahim al-Eshaiker"@en , "Ibrahim al-Eshaiker"@de , "Ibrahim al-Eshaiker"@fr , "Al-Jaafari"@en , "Al-Jaafari"@de , "Al-Jaafari"@fr , "Jaafari"@en , "Jaafari"@de , "Jaafari"@fr , "Al Jaafari"@en , "Al Jaafari"@de , "Al Jaafari"@fr , "Ibrahim al Jaafari"@en , "Ibrahim al Jaafari"@de , "Ibrahim al Jaafari"@fr , "Ibrahim al-jaafari"@fr , "Ibrahim Jafari"@en , "Ibrahim Jafari"@de , "Ibrahim Jafari"@fr , "Ibrahim Al-Jaafari"@en , "Ibrahim Al-Jaafari"@de , "Ibrahim Al-Jaafari"@fr , "Ibrahim al-aAshaiqir al-Jaafari"@en , "Ibrahim al-aAshaiqir al-Jaafari"@de , "Ibrahim al-aAshaiqir al-Jaafari"@fr , "Ibrahim al-Dschafari"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01xdr5>
+        rdfs:label     "Saint-John Perse"@de , "Saint-John Perse"@fr , "Saint-John Perse"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01xdr5__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Saint-John_Perse> , <http://dbpedia.org/resource/Saint-John_Perse> , <http://de.dbpedia.org/resource/Saint-John_Perse> ;
+        skos:altLabel  "St. John Perse"@en , "St. John Perse"@de , "St. John Perse"@fr , "St.-John Perse"@en , "St.-John Perse"@de , "St.-John Perse"@fr , "St-John Perse"@en , "St-John Perse"@de , "St-John Perse"@fr , "Alexis saint-legér léger"@en , "Alexis saint-legér léger"@de , "Alexis saint-legér léger"@fr , "Alexis Leger"@en , "Perse Saint-John"@de , "Perse Saint-John"@fr , "Perse Saint-John"@en , "Alexis Leger"@de , "Alexis Leger"@fr , "Alexis Saintleger Leger"@fr , "St John Perse"@fr , "Alexis Saint-Leger Leger"@en , "Alexis Saint-Leger Leger"@de , "Alexis Saint-Leger Leger"@fr , "Leger, Alexis Saint-Leger"@en , "Leger, Alexis Saint-Leger"@de , "Leger, Alexis Saint-Leger"@fr , "Alexis Saint-Legér Léger"@en , "Alexis Saint-Legér Léger"@de , "Alexis Saint-Legér Léger"@fr , "Saint-John"@fr , "Saint­John Perse"@en , "Saint John Perse"@en , "Saint John Perse"@de , "Saint John Perse"@fr , "Saint-John Perse"@en , "Saint-John Perse"@de , "Saint-John Perse"@fr , "Alexis saint-leger leger"@en , "Alexis saint-leger leger"@de , "Alexis saint-leger leger"@fr , "Saint-Leger Leger"@en , "Alexis Léger"@de , "Alexis Léger"@fr , "Saint john perse"@fr , "Perse"@en , "Saintleger Leger"@fr , "Perse"@de , "Perse"@fr , "Saint-john perse"@fr .
+
+<http://rdf.freebase.com/ns/m.01xdr5__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.01sycb> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01sycb>
+        rdfs:label     "The Forever War"@en , "La Guerre éternelle"@fr , "Der Ewige Krieg"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/La_Guerre_éternelle> , <http://de.dbpedia.org/resource/Der_Ewige_Krieg> , <http://dbpedia.org/resource/The_Forever_War> ;
+        skos:altLabel  "La Guerre eternelle"@fr , "La Guerre éternelle"@fr , "Der ewige Krieg"@de , "La guerre eternelle"@fr , "La Guerre Éternelle"@fr , "William Mandella"@fr , "Marygay Potter"@fr , "Marygay Potter"@de , "Personnages de la Guerre eternelle"@fr , "Forever War"@fr , "Forever War"@de , "La guerre éternelle"@fr , "Personnages de la Guerre éternelle"@fr , "Der Ewige Krieg"@de , "The forever war"@fr , "The Forever War"@fr , "The Forever War"@de , "La Guerre Eternelle"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hope,_Arkansas>
+        rdfs:label     "Hope, Arkansas"@en , "Hope, Arkansas"@fr , "Hope, Arkansas"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hope_(Arkansas)> , <http://de.dbpedia.org/resource/Hope_(Arkansas)> ;
+        skos:altLabel  "Hope, Ark."@en , "Hope, Ark."@fr , "Hope, Ark."@de , "Hope, AR mSA"@en , "Hope, Arkansas"@en , "Hope, AR mSA"@fr , "Hope, Arkansas"@de , "Hope, AR mSA"@de , "Hope, Arkansas"@fr , "Hope"@en , "Hope"@fr , "Hope"@de , "Hope, AR"@en , "Hope, AR"@fr , "Hope, AR"@de , "LOCODE:USHPR"@en , "LOCODE:USHPR"@fr , "LOCODE:USHPR"@de .
+
+<http://rdf.freebase.com/ns/m.09d9xf>
+        rdfs:label     "Lina Romay"@en , "Lina Romay"@fr , "Lina Romay"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09d9xf__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lina_Romay> , <http://de.dbpedia.org/resource/Lina_Romay_(Schauspielerin)> , <http://dbpedia.org/resource/Lina_Romay> ;
+        skos:altLabel  "Candice Coster"@en , "Jane Morgan"@en , "Rosa M. Almirall"@en , "Candy Coster"@en , "Rosa M-a Almirall"@en , "Candy Coster"@de , "Rosa Almirall"@en , "Rosa María Almirall"@en , "Roas Almirall"@en , "R.M. Almirall"@en , "Rosa Almirail"@en , "Lulú Laverne"@en , "Linan Romay"@en , "Rosa Maria Almirall"@fr , "Lina Romay"@en , "Lina Romay"@fr , "Lina Romay"@de , "Jean Collins"@en , "Lennie Hayden"@en , "Rosa Mª Almirall"@en , "Lola Falana"@en , "Lulu Laverne"@en , "Lulu Laverne"@de , "Betty Carter"@en , "Rosa María Almirall Martínez"@en , "Rosa Maria Almiral"@en .
+
+<http://rdf.freebase.com/ns/m.09d9xf__1>
+        dbo:from    "1935"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Hope,_Arkansas> ;
+        dbo:to      "1935"^^xsd:gYear .

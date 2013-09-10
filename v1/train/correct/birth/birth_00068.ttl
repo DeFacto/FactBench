@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Martin_Scorsese__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Queens> ;
+        dbo:from        "1942-11-17"^^xsd:date ;
+        dbo:to          "1942-11-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Queens>
+        rdfs:label     "Queens"@de , "Queens"@fr , "Queens"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Queens> , <http://de.dbpedia.org/resource/Queens> ;
+        skos:altLabel  "Borough of Queens"@fr , "Borough of Queens"@en , "Borough of Queens"@de , "Queens, New York, New York"@fr , "Queens, New York City, New York"@en , "Queens, New York City, New York"@de , "Queens, New York City, New York"@fr , "Queens, New York, New York"@en , "Queens, New York, New York"@de , "Borough of Queens, New York"@en , "Borough of Queens, New York"@de , "Borough of Queens, New York"@fr , "Queens NY"@en , "Queens NY"@de , "Queens NY"@fr , "Comte de Queens"@fr , "Queens, New York"@en , "Queens, New York"@de , "Queens, New York"@fr , "Comté de Queens"@fr , "Queens County, New York"@en , "Queens County, New York"@de , "Queens County, New York"@fr , "Queens, NYC"@en , "Queens, NYC"@de , "Queens, NYC"@fr , "Queens, New York City"@fr , "Queens, New York City"@en , "Queens, New York City"@de , "Queens County"@de , "Queens , New York"@fr , "Queens , New York"@en , "Queens , New York"@de , "Queens, NY"@fr , "Queens, NY"@en , "Queens, NY"@de , "Queens County, NY"@fr , "Queens County, NY"@en , "Queens County, NY"@de , "Queens"@fr , "Queen"@de , "Queens"@en , "Queens"@de .
+
+<http://dbpedia.org/resource/Martin_Scorsese>
+        rdfs:label     "Martin Scorsese"@fr , "Martin Scorsese"@en , "Martin Scorsese"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Martin_Scorsese__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Martin_Scorsese> , <http://fr.dbpedia.org/resource/Martin_Scorsese> ;
+        skos:altLabel  "Martin Marcantonio Luciano Scorsese"@fr , "Martin Marcantonio Luciano Scorsese"@en , "Martin Marcantonio Luciano Scorsese"@de , "Sinatra"@fr , "Martin Scorsesi"@fr , "Sinatra"@en , "Sinatra"@de , "Martin Scorsesi"@en , "Martin Scorsesi"@de , "Oscar winner, Martin Scorsese"@fr , "Oscar winner, Martin Scorsese"@en , "Oscar winner, Martin Scorsese"@de , "Scorsesi"@fr , "Scorsesi"@en , "Scorsesi"@de , "Martin Scorcese"@fr , "Martin Scorcese"@en , "Martin Scorcese"@de , "Martin scorsese"@fr , "Martin scorsese"@en , "Martin scorsese"@de , "Scorsese"@fr , "Scorsese"@en , "Scorsese"@de , "Martin Scorsese"@fr , "Martin Scorsese"@en , "Martin Scorsese"@de , "Scorsese, Martin"@fr , "Scorsese, Martin"@en , "Scorsese, Martin"@de , "Scorseze"@fr , "Scorseze"@en , "Scorseze"@de , "Scorsezi"@fr , "Scorsezi"@en , "Scorsezi"@de , "Martin Scorsese characters"@fr , "Martin Scorsese characters"@en , "Martin Scorsese characters"@de , "Martin scorcese"@fr , "Scorcese"@fr , "Martin scorcese"@en , "Scorcese"@en , "Scorcese"@de , "Martin scorcese"@de , "Martin scoresese"@fr , "Martin scorece"@fr , "Martin schorsese"@fr , "Martin schorsese"@en , "Martin schorsese"@de , "Martin Schorsese"@fr , "Martin Schorsese"@en , "Martin Schorsese"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03jtgb>
+        rdfs:label     "Rebecca Budig"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03jtgb__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Rebecca_Budig> ;
+        skos:altLabel  "Peanut"@en , "Little Budig"@en , "Rebecca Jo Budig"@en , "\"G\""@en .
+
+<http://rdf.freebase.com/ns/m.03jtgb__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.037fhr> ;
+        dbo:from             "2005"^^xsd:gYear ;
+        dbo:to               "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.037fhr>
+        rdfs:label     "Brooke Kinsella"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Brooke_Kinsella> ;
+        skos:altLabel  "Brooke Michelle Moore"@en , "Brook Kinsella"@en .

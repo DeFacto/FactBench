@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quincy,_Massachusetts>
+        rdfs:label     "Quincy, Massachusetts"@en , "Quincy, Massachusetts"@fr , "Quincy, Massachusetts"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quincy_(Massachusetts)> , <http://de.dbpedia.org/resource/Quincy_(Massachusetts)> ;
+        skos:altLabel  "Quincy Massachusetts"@en , "Quincy MA"@en , "Quincy, MA"@en , "Quincy, Massachusetts"@fr , "Quincy"@fr , "Quincy, ma"@fr , "Quincy MA"@fr , "Quincy, Massachusetts"@de , "Quincy MA"@de , "Quincy Massachusetts"@fr , "Quincy, MA"@fr , "Quincy Massachusetts"@de , "Quincy"@de , "Quincy, ma"@de , "Quincy, MA"@de , "LOCODE:USMQI"@en , "LOCODE:USMQI"@fr , "LOCODE:USMQI"@de , "Quincy, mass"@en , "Quincy, mass"@fr , "Quincy, mass"@de , "Fore River Apprentice School"@en , "Fore River Apprentice School"@fr , "Fore River Apprentice School"@de , "Quincy, Mass."@en , "Quincy, Mass."@fr , "Quincy, Mass."@de , "Quincy, Massachusetts"@en , "Quincy"@en , "Quincy, ma"@en .
+
+<http://dbpedia.org/resource/Mardy_Fish>
+        rdfs:label     "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy Fish"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mardy_Fish__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mardy_Fish> , <http://fr.dbpedia.org/resource/Mardy_Fish> ;
+        skos:altLabel  "Mardy Fish"@en , "Marty Fish"@en , "Marty Fish"@fr , "Marty Fish"@de , "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy"@en , "Mardy"@de , "Mardy"@fr , "Fish"@en , "Fish"@fr , "Fish"@de .
+
+<http://dbpedia.org/resource/Mardy_Fish__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Quincy,_Massachusetts> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .

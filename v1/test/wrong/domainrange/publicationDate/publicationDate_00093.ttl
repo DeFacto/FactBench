@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01zkxv>
+        rdfs:label     "Charles Stross"@fr , "Charles Stross"@de , "Charles Stross"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zkxv__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Charles_Stross> , <http://dbpedia.org/resource/Charles_Stross> , <http://fr.dbpedia.org/resource/Charles_Stross> ;
+        skos:altLabel  "Charles Stross"@en , "Sharles Stross"@en , "Sharles Stross"@fr , "Sharles Stross"@de , "Charles Stross"@fr , "Charles Stross"@de , "The Merchant Princes"@en , "The Merchant Princes"@fr , "The Merchant Princes"@de , "Charles David George Stross"@en , "Merchant Princes"@en , "Charles Davidson"@en , "Merchant Princes"@fr , "Merchant Princes"@de , "Laundryverse"@en , "Laundryverse"@fr , "Laundryverse"@de , "On Her Majesty's Occult Service"@en , "Stross"@en , "Charlie Stross"@en , "Stross"@fr , "Stross"@de , "On Her Majesty's Occult Service"@fr , "Charlie Stross"@fr , "On Her Majesty's Occult Service"@de , "Charlie Stross"@de .
+
+<http://rdf.freebase.com/ns/m.06hbsl>
+        rdfs:label     "Time's Eye"@en , "L'Œil du temps"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Time's_Eye_(novel)> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Time's Eye"@en .
+
+<http://rdf.freebase.com/ns/m.01zkxv__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.06hbsl> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .

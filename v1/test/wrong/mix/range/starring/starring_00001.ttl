@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Liam_Neeson>
+        rdfs:label     "Liam Neeson"@de , "Liam Neeson"@fr , "Liam Neeson"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Liam_Neeson> , <http://fr.dbpedia.org/resource/Liam_Neeson> ;
+        skos:altLabel  "William John \"Liam\" Neeson OBE"@de , "William John \"Liam\" Neeson OBE"@fr , "William John \"Liam\" Neeson OBE"@en , "Liam Neeson"@de , "Liam Neeson"@fr , "Liam Neeson"@en , "Liam Neesan"@de , "Liam Neesan"@fr , "Liam Neesan"@en , "Liam Neesom"@de , "Liam Neesom"@fr , "Liam Neesom"@en , "William John Neeson"@de , "Neeson, Liam"@de , "Neeson, Liam"@fr , "Neeson, Liam"@en , "Liam Neesin"@en , "Liam Neesin"@de , "Liam Neesin"@fr , "William John \"Liam\" Neeson, OBE"@de , "William John \"Liam\" Neeson, OBE"@fr , "William John \"Liam\" Neeson, OBE"@en , "William John Neeson, OBE"@de , "William John Neeson, OBE"@fr , "William John Neeson, OBE"@en , "Neeson"@en , "Neeson"@de , "Neeson"@fr , "William John Neeson OBE"@de , "William John Neeson OBE"@fr , "William John Neeson OBE"@en , "William John \"Liam\" Neeson"@en , "William John \"Liam\" Neeson"@de , "William John \"Liam\" Neeson"@fr , "Liam neeson"@de , "Liam neeson"@fr , "Liam neeson"@en , "Liam Neesen"@de , "Liam Neesen"@fr , "Liam Neesen"@en .
+
+<http://dbpedia.org/resource/Kill_Bill>
+        rdfs:label     "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kill_Bill__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kill_Bill> , <http://fr.dbpedia.org/resource/Kill_Bill> ;
+        skos:altLabel  "Kill Bill 2"@fr , "Kill Bill : Volume 2"@fr , "Kill Bill, volume 1"@fr , "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de , "Kill Bill: Volume 3"@en , "Kill Bill: Volume 3"@fr , "Kill Bill: Volume 3"@de , "Kill Bill: Vol. 1"@fr , "Bill"@fr , "Kill Bill: Vol. 2"@fr , "Kill"@fr , "Tuer Bill"@fr , "Kill bill"@en , "Kill bill"@fr , "Kill bill"@de , "Kill Bill Vol 2"@fr , "Kill Bill : volume 1"@fr .
+
+<http://dbpedia.org/resource/Kill_Bill__1>
+        dbo:from      "2003"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Liam_Neeson> ;
+        dbo:to        "2003"^^xsd:gYear .

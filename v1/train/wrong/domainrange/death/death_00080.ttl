@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hanover>
+        rdfs:label     "Hanover"@de , "Hanover"@fr , "Hanover"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hannover> , <http://fr.dbpedia.org/resource/Hanovre> ;
+        skos:altLabel  "Hanover"@fr , "Hanover"@en , "Ville de Hanovre"@fr , "Hannover's Museums"@de , "Hannover's Museums"@fr , "Hannover's Museums"@en , "Hanôvre"@fr , "Hannover UNRRA displaced persons camp"@de , "Hannover UNRRA displaced persons camp"@fr , "Hannoveraner"@de , "Hon overe"@de , "Hannoveraner"@fr , "Hannoveraner"@en , "Hannover UNRRA displaced persons camp"@en , "Hannover, Germany"@de , "Hannover, Germany"@fr , "Hannover, Germany"@en , "Hanover, Germany"@de , "Hanover, Germany"@fr , "Hanover, Germany"@en , "Hanovre"@de , "Hanovre"@fr , "Honovere"@de , "Hannovre"@de , "Hannovre"@fr , "Hannovre"@en , "Hannover"@de , "Hannover"@fr , "Hannover"@en , "Herrenhausen"@fr , "Hanovrienne"@fr , "Hanower"@de , "LOCODE:DEHAJ"@de , "LOCODE:DEHAJ"@fr , "LOCODE:DEHAJ"@en , "Hanover"@de .
+
+<http://dbpedia.org/resource/David_Hume__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hanover> ;
+        dbo:from        "1745"^^xsd:gYear ;
+        dbo:to          "1745"^^xsd:gYear .
+
+<http://dbpedia.org/resource/David_Hume>
+        rdfs:label     "David Hume"@en , "David Hume"@fr , "David Hume"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Hume__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Hume> , <http://fr.dbpedia.org/resource/David_Hume> ;
+        skos:altLabel  "Hume"@en , "Hume"@fr , "Hume"@de , "David Home"@fr , "David Hume"@en , "David Hume"@fr , "David Hume"@de , "Hume, David"@en , "Hume, David"@fr , "Hume, David"@de , "DavidHume"@en , "DavidHume"@de , "DavidHume"@fr , "Humean"@en , "Humean"@fr , "Humean"@de .

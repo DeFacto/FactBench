@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kwame_Brown>
+        rdfs:label     "Kwame Brown"@en , "Kwame Brown"@fr , "Kwame Brown"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kwame_Brown__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kwame_Brown> , <http://fr.dbpedia.org/resource/Kwame_Brown> ;
+        skos:altLabel  "Kwame James Brown"@de , "Brown"@fr , "Kwame Brown"@fr , "Kwame Brown"@de , "Kwame"@fr , "Kwame"@de .
+
+<http://dbpedia.org/resource/Washington_Wizards>
+        rdfs:label     "Washington Wizards"@de , "Washington Wizards"@fr , "Washington Wizards"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Washington_Wizards> , <http://fr.dbpedia.org/resource/Wizards_de_Washington> ;
+        skos:altLabel  "Washington"@fr , "Wizards"@de , "Washingotn Wiziards"@de , "Washingotn Wiziards"@fr , "Washingotn Wiziards"@en , "Chicago Packers"@fr , "Chicago Packers"@en , "Chicago Packers"@de , "Bullets de Baltimore"@fr , "Wizards de Washington"@fr , "Washington Bullets"@de , "Washington Bullets"@fr , "Washington Bullets"@en , "Washington Wizards"@de , "Washington Wizards"@fr , "Washington Wizards"@en , "Chicago Zephyrs"@de , "Chicago Zephyrs"@fr , "Chicago Zephyrs"@en , "Baltimore Bullets"@de , "Baltimore Bullets"@fr , "Baltimore Bullets"@en , "Wizards de washington"@fr , "Capital Bullets"@de , "Capital Bullets"@fr , "Capital Bullets"@en , "Wizard"@de , "Wizard"@fr , "Wizard"@en , "Washington Wiz"@de , "Washington Wiz"@fr , "Washington Wiz"@en , "Packer"@de , "Packer"@fr , "Packer"@en .
+
+<http://dbpedia.org/resource/Kwame_Brown__1>
+        dbo:from      "2001"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Washington_Wizards> ;
+        dbo:to        "2004"^^xsd:gYear .

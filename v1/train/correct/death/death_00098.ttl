@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robert_Menzies__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Melbourne> ;
+        dbo:from        "1978-05-15"^^xsd:date ;
+        dbo:to          "1978-05-15"^^xsd:date .
+
+<http://dbpedia.org/resource/Melbourne>
+        rdfs:label     "Melbourne"@de , "Melbourne"@fr , "Melbourne"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Melbourne> , <http://de.dbpedia.org/resource/Melbourne> ;
+        skos:altLabel  "Geography of Melbourne"@fr , "Geography of Melbourne"@de , "Geography of Melbourne"@en , "Melbourne, Victoria"@fr , "Melbourne, Victoria"@de , "Melbourne, Victoria"@en , "Melbournian"@fr , "Essendon"@fr , "LOCODE:AUMEL"@fr , "Melbournian"@de , "Melbournian"@en , "LOCODE:AUMEL"@de , "LOCODE:AUMEL"@en , "Bearbrass"@fr , "Bearbrass"@de , "Bearbrass"@en , "Melborne"@fr , "Melborne"@de , "Melborne"@en , "Melbouren"@fr , "Melbouren"@en , "Melbouren"@de , "Aeroport d'Essendon"@fr , "Economy of Melbourne"@fr , "Economy of Melbourne"@en , "Economy of Melbourne"@de , "Melbourne"@fr , "Melbourne"@en , "Melbourne"@de , "Melben"@fr , "Melben"@de , "Melben"@en , "Kensington Community High School"@fr , "Mlbourne"@fr , "Kensington Community High School"@de , "Kensington Community High School"@en , "Mlbourne"@en , "Mlbourne"@de , "Melb"@fr , "Melb"@de , "Melb"@en , "Melbourne (Vic.), Australia"@fr , "Melbourne (Vic.), Australia"@de , "Melbourne (Vic.), Australia"@en , "Melbourne, Australia."@fr , "Melbourne, Victoria, Australia"@fr , "Melbourne, Victoria, Australia"@en , "Melbourne, Victoria, Australia"@de , "Melbourne city"@fr , "Melbourne, Australia."@de , "Melbourne, Australia."@en , "Melbourne city"@de , "Melbourne city"@en , "Mlebourne"@fr , "Mlebourne"@de , "Mlebourne"@en , "Melbourne, VIC"@fr , "Marvellous melbourne"@fr , "Marvellous melbourne"@en , "Marvellous melbourne"@de , "Melbourne, VIC"@en , "Melbourne, VIC"@de , "Melbourne australia"@fr , "Melbourne australia"@en , "Melbourne australia"@de , "Melbourne, AU-VIC"@fr , "Melbourne, AU-VIC"@de , "Melbourne, AU-VIC"@en , "Melbourne, Australia"@fr , "Melbourne, Australia"@de , "Melbourne, Australia"@en , "Greater Melbourne"@fr , "Greater Melbourne"@de , "Greater Melbourne"@en , "Melbourne Australia"@fr , "Melbourne Australia"@en , "Melbourne Australia"@de , "Essendon Airport"@fr , "Aéroport d'Essendon"@fr .
+
+<http://dbpedia.org/resource/Robert_Menzies>
+        rdfs:label     "Robert Menzies"@en , "Robert Menzies"@fr , "Robert Menzies"@de ;
+        dbo:death      <http://dbpedia.org/resource/Robert_Menzies__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Menzies> , <http://fr.dbpedia.org/resource/Robert_Menzies> ;
+        skos:altLabel  "Pig Iron Bob"@fr , "Bob Menzies"@fr , "Pig Iron Bob"@de , "Bob Menzies"@de , "Bob Menzies"@en , "Pig Iron Bob"@en , "Robert Menzies"@fr , "Robert Menzies"@de , "Robert Menzies"@en , "Robert Gordon Menzies"@fr , "Robert Gordon Menzies"@de , "Robert Gordon Menzies"@en , "Menzies"@fr , "Sir Robert Gordon Menzies"@fr , "Sir Robert Menzies"@fr , "Menzies"@de , "Menzies"@en , "Sir Robert Gordon Menzies"@de , "Sir Robert Menzies"@de , "Sir Robert Gordon Menzies"@en , "Sir Robert Menzies"@en .

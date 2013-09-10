@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Stanley_Kubrick__1>
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Kumasi> ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kumasi>
+        rdfs:label     "Kumasi"@en , "Kumasi"@fr , "Kumasi"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kumasi> , <http://de.dbpedia.org/resource/Kumasi> ;
+        skos:altLabel  "Kumase"@en , "Kumase"@fr , "Kumase"@de , "Kumasi"@en , "Kumasi"@de , "Kumasi"@fr , "Kumassi"@en , "Kumassi"@fr , "Kumassi"@de , "Kumasi, Ghana"@en , "Kumasi, Ghana"@fr , "Kumasi, Ghana"@de .
+
+<http://dbpedia.org/resource/Stanley_Kubrick>
+        rdfs:label     "Stanley Kubrick"@de , "Stanley Kubrick"@fr , "Stanley Kubrick"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stanley_Kubrick__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stanley_Kubrick> , <http://de.dbpedia.org/resource/Stanley_Kubrick> ;
+        skos:altLabel  "Kubrik"@de , "Kubrik"@fr , "Kubrik"@en , "Uncompleted Kubrick films"@de , "Uncompleted Kubrick films"@fr , "Uncompleted Kubrick films"@en , "Stanley kubrick"@de , "Stanley kubrick"@fr , "Stanley kubrick"@en , "Stanley Kubrick"@de , "Stanley Kubrick"@fr , "Stanley Kubrick"@en , "Kubricks"@de , "Kubricks"@fr , "Kubricks"@en , "Kubrickian"@en , "Kubrickian"@de , "Kubrickian"@fr , "List of Stanley Kubrick films"@fr , "List of Stanley Kubrick films"@en , "Stanley kubrik"@de , "List of Stanley Kubrick films"@de , "Stanley kubrik"@fr , "Stanley kubrik"@en , "Kubrick"@de , "Kubrick"@fr , "Kubrick"@en , "Toba metz"@de , "Toba metz"@fr , "Toba metz"@en , "Stanley"@fr , "Stan Kubrick"@de , "Stan Kubrick"@fr , "Stan Kubrick"@en , "Stanley Kubrik"@de , "Stanley Kubrik"@fr , "Stanley Kubrik"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tim_Henman>
+        rdfs:label     "Tim Henman"@fr , "Tim Henman"@de , "Tim Henman"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tim_Henman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tim_Henman> , <http://de.dbpedia.org/resource/Tim_Henman> ;
+        skos:altLabel  "Henman"@en , "Henman"@fr , "Henman"@de , "Timothy Henry \"Tim\" Henman"@en , "Henmania"@en , "Lucy Henman"@en , "Timothy Henry \"Tim\" Henman"@fr , "Henmania"@fr , "Lucy Henman"@fr , "Lucy Henman"@de , "Timothy Henry \"Tim\" Henman"@de , "Henmania"@de , "Tim henman"@en , "Tim henman"@fr , "Tim henman"@de , "Timothy Henry Henman"@en , "Timothy Henry Henman"@fr , "Timothy Henry Henman"@de , "Timothy Henman"@en , "Tim Henman"@en , "Timothy Henman"@fr , "Tim Henman"@fr , "Timothy Henman"@de , "Tim Henman"@de .
+
+<http://dbpedia.org/resource/Tim_Henman__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Davenport,_Iowa> ;
+        dbo:to    "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Davenport,_Iowa>
+        rdfs:label     "Davenport, Iowa"@en , "Davenport, Iowa"@fr , "Davenport, Iowa"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Davenport_(Iowa)> , <http://fr.dbpedia.org/resource/Davenport_(Iowa)> ;
+        skos:altLabel  "Stampe Lilac Garden"@en , "Stampe Lilac Garden"@fr , "Stampe Lilac Garden"@de , "Davenport"@en , "LOCODE:USDVN"@en , "Davenport"@fr , "LOCODE:USDVN"@fr , "LOCODE:USDVN"@de , "Davenport"@de , "Meredith Haley"@en , "Meredith Haley"@fr , "Meredith Haley"@de , "Davenport, Iowa"@en , "Davenport, Iowa"@fr , "Davenport, Iowa"@de , "Davenport, iowa"@en , "Davenport, iowa"@fr , "Davenport, iowa"@de , "Davenport, IA"@en , "Davenport, IA"@fr , "Davenport, IA"@de .

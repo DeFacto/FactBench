@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Seattle>
+        rdfs:label     "Seattle"@de , "Seattle"@fr , "Seattle"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seattle> , <http://de.dbpedia.org/resource/Seattle> ;
+        skos:altLabel  "Seattle's"@de , "Seattle's"@fr , "Seattle, Washington"@en , "Seattle, Washington"@de , "Seattle, Washington"@fr , "Seattle WA"@en , "The weather in Seattle"@en , "Seattle WA"@fr , "Seattle WA"@de , "The weather in Seattle"@de , "The weather in Seattle"@fr , "Seattleites"@en , "Seattle, Wash."@en , "Duwamps"@en , "Seattleites"@fr , "Seattle, Wash."@fr , "Duwamps"@fr , "Seattleites"@de , "Duwamps"@de , "Seattle, Wash."@de , "Emerald City, Washington"@en , "Emerald City, Washington"@de , "Emerald City, Washington"@fr , "Alki Point"@de , "Seattleans"@en , "Seattleans"@fr , "Seattleans"@de , "City of Seattle"@en , "City of Seattle"@fr , "City of Seattle"@de , "Alki"@de , "Seattle, Wa"@en , "Seattle, Wa"@fr , "Seattle, Wa"@de , "Seatle"@en , "Seatle"@fr , "Seatle"@de , "Die Smaragdstadt"@de , "Seattle, WA, USA"@en , "Seattle, WA, USA"@de , "Seattle, WA, USA"@fr , "Seattle"@en , "Seattle"@fr , "The Emerald City"@de , "Seattle"@de , "Seattle, United States of America"@en , "Seattle, United States of America"@fr , "Seattle, United States of America"@de , "Jet City"@en , "Jet City"@de , "Jet City"@fr , "Seattle, US-WA"@en , "Seattle, US-WA"@de , "Seattle, US-WA"@fr , "Seattle, WA"@en , "Seattle, WA"@fr , "Rain City"@de , "Seattle, WA"@de , "Seattle, United States"@en , "Seattle, USA"@en , "Seattle, United States"@fr , "Seattle, United States"@de , "Seattle, USA"@fr , "Seattle, USA"@de , "Seattle, Washington Territory"@en , "Seattle, Washington Territory"@de , "Seattle, Washington Territory"@fr , "Seattle, wa"@en , "Seattle, wa"@fr , "Seattle, wa"@de , "LOCODE:USSEA"@en , "LOCODE:USSEA"@fr , "LOCODE:USSEA"@de , "Seattle Washington"@en , "Seattle Washington"@fr , "Seattle Washington"@de , "Seattle's"@en .
+
+<http://dbpedia.org/resource/William_McKinley__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Seattle> ;
+        dbo:from        "1904"^^xsd:gYear ;
+        dbo:to          "1904"^^xsd:gYear .
+
+<http://dbpedia.org/resource/William_McKinley>
+        rdfs:label     "William McKinley"@de , "William McKinley"@fr , "William McKinley"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_McKinley__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_McKinley> , <http://de.dbpedia.org/resource/William_McKinley> ;
+        skos:altLabel  "McKinley"@en , "McKinley"@de , "McKinley"@fr , "William A. McKinley"@en , "William A. McKinley"@de , "William A. McKinley"@fr , "W Mckinley"@en , "W Mckinley"@de , "W Mckinley"@fr , "Presidency of William McKinley"@en , "Presidency of William McKinley"@de , "Presidency of William McKinley"@fr , "25th President of the United States"@en , "25th President of the United States"@de , "25th President of the United States"@fr , "William McKinley, Jr."@en , "William McKinley, Jr."@de , "William McKinley, Jr."@fr , "William M'Kinley"@en , "William M'Kinley"@de , "William M'Kinley"@fr , "McKinleynomics"@en , "McKinleynomics"@de , "McKinleynomics"@fr , "McKinley administration"@en , "McKinley administration"@de , "McKinley administration"@fr , "William Mckinley"@en , "William Mckinley"@de , "William Mckinley"@fr , "William McKinley"@en , "William McKinley"@de , "William McKinley"@fr , "W McKinley"@en , "W McKinley"@de , "W McKinley"@fr , "McKinley Administration"@en , "McKinley, William"@en , "President William McKinley"@en , "McKinley, William"@de , "McKinley, William"@fr , "President William McKinley"@de , "President William McKinley"@fr , "McKinley Administration"@de , "McKinley Administration"@fr , "President McKinley"@en , "William mckinley"@en , "President McKinley"@de , "President McKinley"@fr , "William mckinley"@de , "William mckinley"@fr , "William McKinnley"@en , "William McKinnley"@de , "William McKinnley"@fr .

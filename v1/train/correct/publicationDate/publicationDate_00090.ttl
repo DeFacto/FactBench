@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0kjjm>
+        rdfs:label     "De bons présages"@fr , "Ein gutes Omen"@de , "Good Omens"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ein_gutes_Omen> , <http://fr.dbpedia.org/resource/De_bons_présages> , <http://dbpedia.org/resource/Good_Omens> ;
+        skos:altLabel  "De bons présages"@fr , "Good omens"@fr , "De Bons Présages"@fr , "Aziraphale"@fr , "Aziraphale"@de , "Aziraphale"@en , "Good Omens"@fr , "Good Omens"@de , "Good Omens"@en , "De Bons Presages"@fr , "Anthony Crowley"@fr , "Anthony Crowley"@de , "Anthony Crowley"@en , "Ein gutes Omen"@de , "Agnes Nutter"@fr , "Agnes Nutter"@de , "Agnes Nutter"@en , "Anathema Device"@fr , "Anathema Device"@de , "Anathema Device"@en , "De bons presages"@fr .
+
+<http://rdf.freebase.com/ns/m.07d3x>
+        rdfs:label       "Terry Pratchett"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0kjjm__90> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Terry_Pratchett> , <http://dbpedia.org/resource/Terry_Pratchett> , <http://de.dbpedia.org/resource/Terry_Pratchett> ;
+        skos:altLabel    "Terry Pratchet"@fr , "Terry Pratchet"@en , "Terry Pratchet"@de , "Terry Prattchet"@fr , "Terry Prattchet"@en , "Terry Prattchet"@de , "Prattchett"@fr , "Prattchett"@en , "Prattchett"@de , "Terence Pratchett"@fr , "Terence Pratchett"@de , "Terence Pratchett"@en , "Terry"@fr , "Terry"@en , "Terry"@de , "Sir Terry Pratchett"@fr , "Sir Terry Pratchett"@en , "Sir Terry Pratchett"@de , "Terry pratchett"@fr , "Terry pratchett"@de , "Terry pratchett"@en , "Terry Prattchett"@fr , "Terry Prattchett"@en , "Terry Prattchett"@de , "Sir Terence David John Pratchett"@de , "Sir Terence David John \"Terry\" Pratchett, OBE"@en , "Pterry"@fr , "Pterry"@en , "Pterry"@de , "Terry prachet"@fr , "Terence David John Pratchett"@fr , "Terry Prachett"@fr , "Terence David John Pratchett"@en , "Terry Prachett"@en , "Terry Prachett"@de , "Terence David John Pratchett"@de , "Terry prachet"@de , "Terry prachet"@en , "Bissonomy"@fr , "Bissonomy"@de , "Bissonomy"@en , "Sir Terry Pratchett, OBE"@en , "Terry Prattcher"@fr , "Terry Prattcher"@en , "Terry Prattcher"@de , "Terry Pratchett"@fr , "PTerry"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de , "Pterry Pratchett"@fr , "PTerry"@en , "PTerry"@de , "Pratchett"@fr , "Pratchett"@en , "Pratchett"@de .
+
+<http://rdf.freebase.com/ns/m.0kjjm__90>
+        dbo:author  <http://rdf.freebase.com/ns/m.0kjjm> ;
+        dbo:from    "1990"^^xsd:gYear ;
+        dbo:to      "1990"^^xsd:gYear .

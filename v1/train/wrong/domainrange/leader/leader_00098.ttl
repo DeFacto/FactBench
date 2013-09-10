@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Croatia>
+        rdfs:label     "Croatia"@de , "Croatia"@fr , "Croatia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Croatie> , <http://de.dbpedia.org/resource/Kroatien> ;
+        skos:altLabel  "Crotaia"@de , "Crotaia"@fr , "Crotaia"@en , "Croácia"@en , "Croácia"@de , "Croácia"@fr , "Republique de Croatie"@fr , "ISO 3166-1:HR"@de , "ISO 3166-1:HR"@fr , "ISO 3166-1:HR"@en , "Republik Kroatien"@de , "Socijalisticka Republika Hrvatska"@de , "Croatie"@en , "Croatie"@de , "Croatie"@fr , "Croazia"@en , "Croazia"@de , "Croazia"@fr , "République de Croatie"@fr , "Kroatia"@en , "Kroatia"@de , "Kroatia"@fr , "Hrvatska"@de , "Hrvatska"@fr , "Hrvatska"@en , "Kroatien"@en , "Kroatien"@de , "Kroatien"@fr , "Hirvatistan"@en , "Croacia"@en , "Hirvatistan"@de , "Hirvatistan"@fr , "Croacia"@de , "Croacia"@fr , "République croate"@fr , "Republika Hrvatska"@en , "Republika Hrvatska"@de , "Republika Hrvatska"@fr , "Republique croate"@fr , "Republic of Croatia"@en , "Republic of Croatia"@de , "Republic of Croatia"@fr , "Hravatska"@en , "Hravatska"@de , "Hravatska"@fr , "Croatia"@en , "Croatia"@de , "Croatia"@fr .
+
+<http://dbpedia.org/resource/Ruud_Lubbers>
+        rdfs:label     "Ruud Lubbers"@en , "Ruud Lubbers"@fr , "Ruud Lubbers"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ruud_Lubbers__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ruud_Lubbers> , <http://de.dbpedia.org/resource/Ruud_Lubbers> ;
+        skos:altLabel  "Ruud Lübbers"@fr , "Ruud F.M. Lubbers"@fr , "Ruud Lubbers"@en , "Ruud Lubbers"@fr , "Ruud Lubbers"@de , "Rudolph Franz Marie Lubbers"@en , "Rudolph Franz Marie Lubbers"@fr , "Rudolph Franz Marie Lubbers"@de , "Ruud F. M. Lubbers"@en , "Ruud F. M. Lubbers"@fr , "Ruud F. M. Lubbers"@de , "Rudolphus Franciscus Marie Lubbers"@en , "Ruud"@en , "Ruud Frans Marie Lubbers"@en , "Lubbers"@en , "Rudolphus Franciscus Marie Lubbers"@fr , "Ruud"@fr , "Ruud Frans Marie Lubbers"@fr , "Lubbers"@fr , "Rudolphus Franciscus Marie Lubbers"@de , "Ruud"@de , "Ruud Frans Marie Lubbers"@de , "Lubbers"@de .
+
+<http://dbpedia.org/resource/Ruud_Lubbers__1>
+        dbo:from    "1931"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Croatia> ;
+        dbo:to      "1933"^^xsd:gYear .

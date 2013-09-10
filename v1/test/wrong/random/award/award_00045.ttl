@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03c1446>
+        rdfs:label  "Jamie Yeo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jamie_Yeo> .
+
+<http://rdf.freebase.com/ns/m.04g0m>
+        rdfs:label     "Knut Hamsun"@en , "Knut Hamsun"@fr , "Knut Hamsun"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04g0m__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Knut_Hamsun> , <http://fr.dbpedia.org/resource/Knut_Hamsun> , <http://de.dbpedia.org/resource/Knut_Hamsun> ;
+        skos:altLabel  "Knut Hamsund"@en , "Knut Hamsund"@fr , "Knut Hamsund"@de , "Knut Pederson"@en , "Knut Hamsen"@en , "Knut Hamsun"@en , "Knut Hamsen"@fr , "Knut Hamsun"@fr , "Knut Hamsun"@de , "Knut Hamsen"@de , "Knut Pedersen Hamsund"@en , "Knut Pedersen Hamsund"@fr , "Knut Pedersen Hamsund"@de , "Hamsun"@en , "Knud Pedersen Hamsund"@en , "Hamsun"@fr , "Hamsun"@de , "Knut Pedersen"@en , "Hamsun, Knut"@en , "Knut Pedersen Hamsun"@en , "Knut Pedersen Hamsun"@fr , "Knut Pedersen Hamsun"@de , "Knud Pedersen"@en , "Knut Pederson Hamsun"@en , "Knut Pedersen"@fr , "Knut Pederson Hamsun"@fr , "Knut Pederson Hamsun"@de , "Knud Pedersen"@de , "Knut Pedersen"@de .
+
+<http://rdf.freebase.com/ns/m.04g0m__1>
+        dbo:from  "1970"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.03c1446> ;
+        dbo:to    "1970"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Niles,_Ohio>
+        rdfs:label     "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Niles_(Ohio)> , <http://fr.dbpedia.org/resource/Niles_(Ohio)> ;
+        skos:altLabel  "Niles, OH"@en , "Niles, Oh"@en , "LOCODE:USNLS"@en , "Niles, Oh"@fr , "Niles, Oh"@de , "LOCODE:USNLS"@fr , "LOCODE:USNLS"@de , "Niles, OH"@fr , "Niles, OH"@de , "Heatons Furnace"@de , "Mahoning Salt Springs"@de , "Niles City"@de , "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de , "Nilestown"@de , "Mahoning"@de , "Niles"@en , "Niles"@fr , "Niles"@de , "Mohoning"@de .
+
+<http://dbpedia.org/resource/Dolly_Parton__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Niles,_Ohio> ;
+        dbo:from        "1932"^^xsd:gYear ;
+        dbo:to          "1932"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dolly_Parton>
+        rdfs:label     "Dolly Parton"@de , "Dolly Parton"@en , "Dolly Parton"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dolly_Parton__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dolly_Parton> , <http://fr.dbpedia.org/resource/Dolly_Parton> ;
+        skos:altLabel  "Dolly"@en , "Dolly"@fr , "Dolly"@de , "Floyd Parton"@en , "Floyd Parton"@fr , "Floyd Parton"@de , "Parton"@en , "Parton"@fr , "Parton"@de , "Dolly Rebecca Parton"@en , "Dolly Rebecca Parton"@fr , "Dolly Rebecca Parton"@de , "Dolly Parton"@en , "Dolly Parton"@fr , "Dolly Parton"@de , "Dolly Pardon"@en , "Dolly Pardon"@fr , "Dolly Pardon"@de .

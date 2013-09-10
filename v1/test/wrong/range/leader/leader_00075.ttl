@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Anneli_Jäätteenmäki__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Syria> ;
+        dbo:to      "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Syria>
+        rdfs:label     "Syria"@de , "Syria"@fr , "Syria"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Syrie> , <http://de.dbpedia.org/resource/Syrien> ;
+        skos:altLabel  "Syria related external links"@en , "Syria related external links"@de , "Syria related external links"@fr , "Sport in Syria"@en , "Sport in Syria"@fr , "Sport in Syria"@de , "Amorrhitis"@en , "Amorrhitis"@de , "Amorrhitis"@fr , "Souria"@en , "Souria"@fr , "Souria"@de , "Subdivisions of Syria"@en , "Subdivisions of Syria"@de , "Subdivisions of Syria"@fr , "Suriyah"@en , "Suriyah"@fr , "Suriyah"@de , "Sūriyā"@en , "Sūriyā"@fr , "Sūriyā"@de , "ISO 3166-1:SY"@en , "Syria"@en , "ISO 3166-1:SY"@de , "ISO 3166-1:SY"@fr , "Republique arabe syrienne"@fr , "Syria"@de , "Syria"@fr , "Northern Syria"@en , "Northern Syria"@de , "Northern Syria"@fr , "Culture of Syria"@en , "Culture of Syria"@de , "Culture of Syria"@fr , "Arabische Republik Syrien"@de , "Arab Republic"@en , "Arab Republic"@fr , "Arab Republic"@de , "Nordsyrien"@de , "Syrischer Dichter"@de , "Syrian Arab Republic"@en , "Syrian Arab Republic"@de , "Syrian Arab Republic"@fr , "Etymology of Syria"@en , "Etymology of Syria"@de , "Etymology of Syria"@fr , "Syrien"@en , "Syrien"@fr , "Syrien"@de , "Administrative divisions of Syria"@en , "Administrative divisions of Syria"@de , "Administrative divisions of Syria"@fr , "Languages of Syria"@en , "Languages of Syria"@fr , "Languages of Syria"@de , "République arabe syrienne"@fr , "Syriens"@fr , "Syrie"@en , "Syrie"@de , "Syrie"@fr , "Suriya"@en , "Suriya"@fr , "Suriya"@de , "Syrian"@en , "Syrian"@fr , "Syrian"@de .
+
+<http://dbpedia.org/resource/Anneli_Jäätteenmäki>
+        rdfs:label     "Anneli Jäätteenmäki"@en , "Anneli Jäätteenmäki"@fr , "Anneli Jäätteenmäki"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Anneli_Jäätteenmäki__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Anneli_Jäätteenmäki> , <http://fr.dbpedia.org/resource/Anneli_Jäätteenmäki> ;
+        skos:altLabel  "Jaatteenmaki"@de , "Jäätteenmäki"@de , "Anneli Jäätteenmäki"@fr , "Anneli Jäätteenmäki"@de , "Anneli Jaateenmaki"@fr , "Anneli Jääteenmäki"@fr , "Anneli Jaatteenmaki"@fr , "Anneli Jaatteenmaki"@de .

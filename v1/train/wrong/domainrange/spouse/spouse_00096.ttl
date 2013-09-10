@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01j2xj>
+        rdfs:label     "Sam Mendes"@en , "Sam Mendes"@fr , "Sam Mendes"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Sam_Mendes> , <http://fr.dbpedia.org/resource/Sam_Mendes> , <http://de.dbpedia.org/resource/Sam_Mendes> ;
+        skos:altLabel  "Samuel Alexander \"Sam\" Mendes"@en , "Sam Mendes"@fr , "Sam Mendes"@de , "Sam Mendes"@en , "Midas Mendes"@en , "Mendes"@de , "Sam Mendès"@fr , "Samuel Alexander Mendes"@en , "Samuel Alexander Mendes"@fr , "Samuel Alexander Mendes"@de .
+
+<http://rdf.freebase.com/ns/m.0k2151r>
+        rdfs:label  "Surata Zuri McCants"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0k2151r__1> .
+
+<http://rdf.freebase.com/ns/m.0k2151r__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01j2xj> ;
+        dbo:to      "2012"^^xsd:gYear .

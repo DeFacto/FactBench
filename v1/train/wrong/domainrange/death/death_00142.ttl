@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dayton,_Tennessee>
+        rdfs:label     "Dayton, Tennessee"@en , "Dayton, Tennessee"@fr , "Dayton, Tennessee"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dayton_(Tennessee)> , <http://de.dbpedia.org/resource/Dayton_(Tennessee)> ;
+        skos:altLabel  "Dayton, TN"@en , "LOCODE:USDAT"@en , "Dayton, TN"@fr , "LOCODE:USDAT"@fr , "Dayton, TN"@de , "LOCODE:USDAT"@de , "Dayton"@en , "Dayton"@fr , "Dayton"@de , "Dayton, Tennessee"@en , "Dayton, Tennessee"@de , "Dayton, Tennessee"@fr , "Crystal Springs Community"@en , "Crystal Springs Community"@fr , "Crystal Springs Community"@de .
+
+<http://dbpedia.org/resource/Elizabeth_Taylor__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Dayton,_Tennessee> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Elizabeth_Taylor>
+        rdfs:label     "Elizabeth Taylor"@en , "Elizabeth Taylor"@fr , "Elizabeth Taylor"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Elizabeth_Taylor__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Elizabeth_Taylor> , <http://fr.dbpedia.org/resource/Elizabeth_Taylor> ;
+        skos:altLabel  "Liz Taylor"@de , "Dame Elizbeth Taylor"@en , "Dame Elizbeth Taylor"@fr , "Dame Elizbeth Taylor"@de , "Elizabeth Taylor"@en , "Elizabeth Taylor"@fr , "Elizabeth Taylor"@de , "Taylor, Dame Elizabeth Rosemond"@en , "Taylor, Dame Elizabeth Rosemond"@fr , "Taylor, Dame Elizabeth Rosemond"@de , "Elisabeth Taylor"@en , "Elisabeth Taylor"@fr , "Elisabeth Taylor"@de , "Elizabeth"@en , "Elizabeth"@fr , "Elizabeth"@de , "Elizabeth Rosemond Taylor"@en , "Dame Elizabeth Rosemond Taylor"@en , "Dame Elizabeth Rosemond Taylor, DBE"@en , "Elizabeth Rosemond Taylor"@fr , "Dame Elizabeth Rosemond Taylor"@fr , "Elizabeth Rosemond Taylor"@de , "Dame Elizabeth Rosemond Taylor, DBE"@fr , "Dame Elizabeth Rosemond Taylor"@de , "Dame Elizabeth Rosemond Taylor, DBE"@de , "Maria Carson"@en , "Liz Taylor"@en , "Maria Carson"@fr , "Liz Taylor"@fr , "Maria Carson"@de .

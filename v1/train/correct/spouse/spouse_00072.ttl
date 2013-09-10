@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0jvdtsd>
+        rdfs:label     "Jenny Elam"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0jvdtsd__72> ;
+        skos:altLabel  "Jenny Elam Paull"@en .
+
+<http://rdf.freebase.com/ns/m.03d2k31>
+        rdfs:label     "Morgan Paull"@de , "Morgan Paull"@fr , "Morgan Paull"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Morgan_Paull> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Morgan_Paull> ;
+        skos:altLabel  "Paull"@fr , "Morgan Paull"@fr , "Morgan Paul"@en .
+
+<http://rdf.freebase.com/ns/m.0jvdtsd__72>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03d2k31> ;
+        dbo:to      "2012-07-17"^^xsd:date .

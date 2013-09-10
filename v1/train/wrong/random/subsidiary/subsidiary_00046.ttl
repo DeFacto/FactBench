@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01pllx__1>
+        dbo:author  <http://dbpedia.org/resource/Norway> ;
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:to      "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01pllx>
+        rdfs:label     "Charlie Sheen"@de , "Charlie Sheen"@fr , "Charlie Sheen"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01pllx__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Charlie_Sheen> , <http://fr.dbpedia.org/resource/Charlie_Sheen> , <http://de.dbpedia.org/resource/Charlie_Sheen> ;
+        skos:altLabel  "Duh, winning"@en , "Duh, winning"@de , "Duh, winning"@fr , "Charlie Sheen"@en , "Charlie Sheen"@de , "Charlie Sheen"@fr , "Charlysheen"@en , "Charlysheen"@de , "Charlysheen"@fr , "Charles Sheen"@en , "WINNING!"@en , "Carlos estevez"@en , "WINNING!"@de , "WINNING!"@fr , "Carlos estevez"@de , "Carlos estevez"@fr , "My Violent Torpedo of Truth"@en , "My Violent Torpedo of Truth"@de , "My Violent Torpedo of Truth"@fr , "Brooke Mueller"@de , "Carlos Estévez"@en , "Carlos Estévez"@de , "Carlos Estévez"@fr , "Charlie"@de , "Charlie"@fr , "Carlos Irwin Estévez"@en , "Carlos Irwin Estévez"@de , "Carlos Irwin Estévez"@fr , "Charlie sheen"@en , "Charlie sheen"@de , "Charlie sheen"@fr , "Chuckles"@en , "Charles Irwin Sheen"@en , "Charles Irwin Sheen"@de , "Charles Irwin Sheen"@fr , "Charles sheen"@en , "Charles sheen"@de , "Charles sheen"@fr , "The Machine"@en , "Carlos Irwin Estevez"@en , "Carlos Irwin Estevez"@de , "Carlos Irwin Estevez"@fr , "Good Time Charlie"@en , "Carlos irwin estevez"@en , "Carlos irwin estevez"@de , "Carlos irwin estevez"@fr , "Bi-winning"@en , "Carlos Estevez"@en , "Bi-winning"@de , "Bi-winning"@fr , "Carlos Estevez"@de , "Carlos Estevez"@fr , "Sheen"@en , "Sheen"@de , "Sheen"@fr .
+
+<http://dbpedia.org/resource/Norway>
+        rdfs:label     "Norway"@en , "Norway"@de , "Norway"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norwegen> , <http://fr.dbpedia.org/resource/Norvège> ;
+        skos:altLabel  "Noregur"@en , "Noregur"@de , "Noregur"@fr , "Norwegian kingdom"@en , "Norvegienne"@fr , "Norwegian kingdom"@de , "Norwegian kingdom"@fr , "Norvégienne"@fr , "Royaume de Norvege"@fr , "Norwegen"@en , "Norwegen"@fr , "Norwegen"@de , "Norwegia"@en , "Norge"@de , "Norge"@fr , "Royal Kingdom of Norway"@en , "Norwegia"@fr , "Royal Kingdom of Norway"@de , "Royal Kingdom of Norway"@fr , "Norwegia"@de , "Norvége"@fr , "Norwegische Literatur"@de , "Kongeriket Norge"@en , "NORWAY"@en , "NORWAY"@de , "Kongeriket Norge"@de , "Kongeriket Norge"@fr , "NORWAY"@fr , "Etymology of Norway"@en , "Etymology of Norway"@de , "Etymology of Norway"@fr , "Norvege"@en , "Norvege"@de , "Norvege"@fr , "Royaume de Norvège"@fr , "Noreg"@fr , "Nore"@fr , "Noorwegen"@en , "Noorwegen"@de , "Noorwegen"@fr , "Norwegian state"@en , "Norwegian state"@de , "Norwegian state"@fr , "Konigreich Norwegen"@de , "ISO 3166-1:NO"@en , "ISO 3166-1:NO"@de , "ISO 3166-1:NO"@fr , "Noruega"@en , "Noruega"@de , "Noruega"@fr , "Norway"@en , "Norway"@fr , "Norway"@de , "Königreich Norwegen"@de , "Kongeriket Noreg"@en , "Kongeriket Noreg"@fr , "Kongeriket Noreg"@de , "Norvège"@en , "Norvège"@de , "Norvège"@fr .

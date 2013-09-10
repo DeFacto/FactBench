@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yugoslavia>
+        rdfs:label     "Yugoslavia"@de , "Yugoslavia"@fr , "Yugoslavia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jugoslawien> , <http://fr.dbpedia.org/resource/Yougoslavie> ;
+        skos:altLabel  "Demographics of the former Yugoslavia"@en , "Demographics of the former Yugoslavia"@fr , "Demographics of the former Yugoslavia"@de , "Yugoslavien"@de , "Jugoszlavia"@de , "Yougoslavie"@fr , "ExYu"@en , "ExYu"@fr , "ExYu"@de , "Südslawien"@de , "Jugosllavia"@de , "Ex-Jugoslawien"@de , "Histoire de la Yougoslavie"@fr , "Serboslavia"@en , "Serboslavia"@fr , "Serboslavia"@de , "Yougoslavia"@en , "Yugoslavia"@en , "Yougoslavia"@fr , "Yugoslavia"@fr , "Yugoslavia"@de , "Yougoslavia"@de , "Yougo"@fr , "Jugoslawien"@de , "Jugo"@de , "History of Yugoslavia"@en , "Republic of Yugoslavia"@en , "History of Yugoslavia"@fr , "History of Yugoslavia"@de , "Republic of Yugoslavia"@fr , "Republic of Yugoslavia"@de , "Yugosavia"@en , "Yugosavia"@fr , "Yugosavia"@de , "South slavia"@en , "South slavia"@fr , "South slavia"@de , "Yugoslav"@en , "Jugoslavia"@en , "Yugoslav"@fr , "Jugoslavia"@fr , "Yugoslav"@de , "Jugoslavia"@de , "Jugoslavija"@en , "Jugoslavija"@de , "Jugoslavija"@fr , "Yugosalvia"@en , "Yugosalvia"@fr , "Yugosalvia"@de , "SHS-Konigreich"@de , "Jugoszlávia"@de , "ISO 3166-1:YU"@en , "ISO 3166-1:YU"@fr , "ISO 3166-1:YU"@de , "Jugoslavije"@en , "SHS-Königreich"@de , "Jugoslavije"@fr , "Jugoslavije"@de , "South Slavia"@en , "South Slavia"@fr , "South Slavia"@de , "Yugosphere"@en , "Yugosphere"@fr , "Yugosphere"@de , "Yugo."@en , "Yugo."@de , "Yugo."@fr , "Ex-Yougoslavie"@fr , "Yugoslawien"@de , "Ex-Yu"@en , "Ex-Yu"@de , "Ex-Yu"@fr , "History"@en , "History"@fr , "History"@de , "Sudslawien"@de , "Jugoslawischer"@de .
+
+<http://dbpedia.org/resource/Jomo_Kenyatta>
+        rdfs:label     "Jomo Kenyatta"@en , "Jomo Kenyatta"@fr , "Jomo Kenyatta"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jomo_Kenyatta__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jomo_Kenyatta> , <http://de.dbpedia.org/resource/Jomo_Kenyatta> ;
+        skos:altLabel  "Kenyatta, Jomo"@en , "Kenyatta, Jomo"@fr , "Kenyatta, Jomo"@de , "Jomo Kenyatta"@en , "Jomo Kenyatta"@fr , "Jomo Kenyatta"@de , "H. E. Mzee Jomo Kenyatta"@en , "Jomo Kenyata"@en , "Kamau wa Ngengi"@en , "H. E. Mzee Jomo Kenyatta"@fr , "Jomo Kenyata"@fr , "H. E. Mzee Jomo Kenyatta"@de , "Jomo Kenyata"@de , "Kamau wa Ngengi"@fr , "Kamau wa Ngengi"@de , "Johnstone Kamau"@en , "Johnstone Kamau"@fr , "Johnstone Kamau"@de , "Mzee Jomo Kenyatta"@en , "Mzee Jomo Kenyatta"@fr , "Mzee Jomo Kenyatta"@de , "Kamau Ngengi"@en , "Jomo Kenyatta: First President of Kenya"@en , "Kenyatta"@en , "Kamau Ngengi"@fr , "Jomo Kenyatta: First President of Kenya"@fr , "Kenyatta"@fr , "Jomo Kenyatta: First President of Kenya"@de , "Kenyatta"@de , "Kamau Ngengi"@de .
+
+<http://dbpedia.org/resource/Jomo_Kenyatta__1>
+        dbo:from    "1944"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Yugoslavia> ;
+        dbo:to      "1963"^^xsd:gYear .

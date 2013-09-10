@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Georges_Pompidou__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0k_q_> ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Georges_Pompidou>
+        rdfs:label     "Georges Pompidou"@en , "Georges Pompidou"@fr , "Georges Pompidou"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Georges_Pompidou__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Georges_Pompidou> , <http://de.dbpedia.org/resource/Georges_Pompidou> ;
+        skos:altLabel  "George Pompidou"@fr , "Georges Pompidou"@en , "Georges Pompidou"@fr , "Georges Pompidou"@de , "Georges"@en , "Georges"@fr , "Georges"@de , "Georges Jean Raymond Pompidou"@en , "Georges Jean Raymond Pompidou"@fr , "Georges Jean Raymond Pompidou"@de , "Pompidolisme"@fr , "Pompidou"@en , "Pompidou"@fr , "Pompidou"@de , "Pompidolien"@fr , "George Pompidou"@en , "George Pompidou"@de .
+
+<http://rdf.freebase.com/ns/m.0k_q_>
+        rdfs:label     "Glendale"@en , "Glendale"@fr , "Glendale"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Glendale,_California> , <http://fr.dbpedia.org/resource/Glendale_(Californie)> , <http://de.dbpedia.org/resource/Glendale_(Kalifornien)> ;
+        skos:altLabel  "Chamlian Armenian School"@en , "Chamlian Armenian School"@fr , "Chamlian Armenian School"@de , "Los Angeles County / Glendale city"@en , "Los Angeles Township, California"@en , "Los Angeles Township, California"@fr , "Los Angeles Township, California"@de , "Glendale, CA"@en , "Glendale, CA"@fr , "Glendale, CA"@de , "Verdugo City, California"@en , "Verdugo City, California"@fr , "Verdugo City, California"@de , "Glendale california"@en , "Glendale, California"@en , "Glendale, California"@fr , "Glendale, California"@de , "Glendale california"@fr , "Glendale california"@de , "North Glendale, California"@en , "North Glendale, California"@fr , "North Glendale, California"@de , "Glendale, ca"@en , "Glendale, ca"@fr , "Glendale, ca"@de , "LOCODE:USJGX"@en , "LOCODE:USJGX"@fr , "LOCODE:USJGX"@de , "Glendale"@en , "Glendale, Californie"@fr , "Glendale"@fr , "Glendale"@de .

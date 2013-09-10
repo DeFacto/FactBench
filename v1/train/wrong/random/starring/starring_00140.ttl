@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.043mfw6>
+        rdfs:label     "Sthefany Brito"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Sthefany_Brito> ;
+        skos:altLabel  "Sthephany de Brito"@en , "Sthefany de Brito"@en , "Sthefany brito"@en , "Stephany Brito"@en , "Sthefany Brito"@en , "Sthefany Fernandes de Brito"@en .
+
+<http://dbpedia.org/resource/Kelly_Clarkson>
+        rdfs:label     "Kelly Clarkson"@en , "Kelly Clarkson"@de , "Kelly Clarkson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kelly_Clarkson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kelly_Clarkson> , <http://de.dbpedia.org/resource/Kelly_Clarkson> ;
+        skos:altLabel  "Awards and Nominations for Kelly Clarkson"@de , "Awards and Nominations for Kelly Clarkson"@fr , "Kelly"@fr , "Kelly clarckson"@de , "Kelly clarckson"@fr , "Kelly clarckson"@en , "Clarkson"@de , "Clarkson"@fr , "Kellly clarkson"@de , "Kellly clarkson"@fr , "Kellly clarkson"@en , "I Wish"@de , "I Wish"@fr , "I Wish"@en , "Jekky"@de , "Jekky"@fr , "Jekky"@en , "Kelly clarkson"@fr , "Kelly clarkson"@en , "Kelly clarkson"@de , "True You"@de , "True You"@fr , "True You"@en , "Kelly Brianne Clarkson"@de , "Kelly Brianne Clarkson"@fr , "Kelly Brianne Clarkson"@en , "Clarkson, Kelly"@en , "Clarkson, Kelly"@de , "Clarkson, Kelly"@fr , "The Way I Like It"@en , "The Way I Like It"@de , "The Way I Like It"@fr , "Kelly Clarkson"@de , "Kelly Clarkson"@fr , "Kelly Clarkson"@en , "Kelly Clarkston"@de , "Kelly Clarkston"@fr , "Kelly Clarkston"@en , "Awards and Nominations for Kelly Clarkson"@en .
+
+<http://dbpedia.org/resource/Kelly_Clarkson__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.043mfw6> ;
+        dbo:from             "1994"^^xsd:gYear ;
+        dbo:to               "1994"^^xsd:gYear .

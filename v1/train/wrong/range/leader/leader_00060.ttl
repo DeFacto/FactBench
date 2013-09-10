@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Slovakia>
+        rdfs:label     "Slovakia"@fr , "Slovakia"@en , "Slovakia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Slovaquie> , <http://de.dbpedia.org/resource/Slowakei> ;
+        skos:altLabel  "Slovak government 1994-1998"@en , "Slovak government 1994-1998"@de , "Slovak government 1994-1998"@fr , "Slovak republic"@fr , "Slovak republic"@de , "Slowakei"@de , "Republica Eslovaca"@en , "Republica Eslovaca"@fr , "Republica Eslovaca"@de , "Eslovaquia"@en , "Slovenská republika"@en , "Eslovaquia"@fr , "Slovenská republika"@fr , "Eslovaquia"@de , "Slovenská republika"@de , "Slowakische Republik"@de , "Slovakland"@en , "Slovakland"@fr , "Slovakland"@de , "ISO 3166-1:SK"@en , "ISO 3166-1:SK"@fr , "ISO 3166-1:SK"@de , "Administrative divisions of Slovakia"@en , "Administrative divisions of Slovakia"@fr , "Administrative divisions of Slovakia"@de , "Slovakia"@en , "Slovakia"@fr , "Slovakia"@de , "Climate of Slovakia"@en , "Climate of Slovakia"@fr , "Climate of Slovakia"@de , "Slovaquie"@en , "Slovaquie"@fr , "Slovaquie"@de , "Szlovákia"@en , "Szlovákia"@fr , "Szlovákia"@de , "Subdivisions of Slovakia"@en , "Slovensko"@en , "Slovensko"@de , "Slovensko"@fr , "Subdivisions of Slovakia"@fr , "Subdivisions of Slovakia"@de , "Slovenska"@en , "Slovenska"@de , "Slovenska"@fr , "République slovaque"@fr , "Slovenská"@en , "Slovenská"@fr , "Slovenská"@de , "Slovenska republika"@en , "Slovenska republika"@fr , "Slovenska republika"@de , "Eslováquia"@en , "Eslováquia"@fr , "Eslováquia"@de , "Republique Slovaque"@fr , "Little Big Country"@en , "Little Big Country"@fr , "Little Big Country"@de , "Second Slovak Republic"@en , "Second Slovak Republic"@de , "Second Slovak Republic"@fr , "Slovokia"@en , "Slovak Republic"@en , "Slovak Republic"@fr , "Slovak Republic"@de , "Slovokia"@fr , "Slovokia"@de , "República Eslovaca"@en , "República Eslovaca"@fr , "República Eslovaca"@de , "Republic of Slovakia"@en , "Republic of Slovakia"@fr , "Republic of Slovakia"@de , "Upper Hungaria"@en , "Upper Hungaria"@de , "Upper Hungaria"@fr , "Republique slovaque"@fr , "République Slovaque"@fr , "Slovak"@en , "Slovak"@fr , "Slovak"@de , "Szlovakia"@en , "Haute-Hongrie"@fr , "Szlovakia"@fr , "Szlovakia"@de , "Slovak republic"@en .
+
+<http://dbpedia.org/resource/Jean_Casimir-Perier>
+        rdfs:label     "Jean Casimir-Perier"@en , "Jean Casimir-Perier"@fr , "Jean Casimir-Perier"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jean_Casimir-Perier__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jean_Casimir-Perier> , <http://de.dbpedia.org/resource/Jean_Casimir-Perier> ;
+        skos:altLabel  "Jean Casimir-Perier"@en , "Jean Casimir-Perier"@fr , "Jean Casimir-Perier"@de , "Jean Casimir-Perier né Perier"@fr , "Casimir-Périer"@de , "JPP Casimir-Perier"@en , "JPP Casimir-Perier"@fr , "JPP Casimir-Perier"@de , "Casimir-Perier"@de , "Jean Casimir-Perier ne Perier"@fr , "Jean Paul Pierre Casimir-Périer"@en , "Jean Casimir Perrier"@en , "Jean Paul Pierre Casimir-Perier"@en , "Jean Paul Pierre Casimir-Perier"@fr , "Jean Paul Pierre Casimir-Perier"@de , "Jean Casimir-Périer"@en , "Jean Casimir-Périer"@fr , "Jean Casimir-Périer"@de , "Jean Paul Pierre Casimir-Périer"@fr , "Jean Paul Pierre Casimir-Périer"@de , "Jean Casimir Perrier"@fr , "Perier"@de , "Jean casimir-perier"@fr , "Jean Casimir Perrier"@de .
+
+<http://dbpedia.org/resource/Jean_Casimir-Perier__1>
+        dbo:from    "1893"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Slovakia> ;
+        dbo:to      "1894"^^xsd:gYear .

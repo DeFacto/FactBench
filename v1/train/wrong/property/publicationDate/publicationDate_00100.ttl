@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.099h29>
+        rdfs:label     "Tony Rothman"@en , "Tony Rothman"@fr , "Tony Rothman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.099h29__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tony_Rothman> , <http://dbpedia.org/resource/Tony_Rothman> , <http://fr.dbpedia.org/resource/Tony_Rothman> ;
+        skos:altLabel  "Rothman"@fr , "Tony Rothman"@fr .
+
+<http://rdf.freebase.com/ns/m.02343f>
+        rdfs:label  "The World Is Round"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_World_Is_Round> .
+
+<http://rdf.freebase.com/ns/m.099h29__1>
+        dbo:from    "1978"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.02343f> ;
+        dbo:to      "1978"^^xsd:gYear .

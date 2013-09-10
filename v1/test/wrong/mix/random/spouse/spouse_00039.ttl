@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027083b>
+        rdfs:label     "Alexondra Lee"@en , "Alexondra Lee"@fr , "Alexondra Lee"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alexondra_Lee> , <http://dbpedia.org/resource/Alexondra_Lee> , <http://de.dbpedia.org/resource/Alexondra_Lee> ;
+        skos:altLabel  "Alexondra Lee"@fr , "Alexondra Lee"@de .
+
+<http://dbpedia.org/resource/Jonathan_Swift>
+        rdfs:label     "Jonathan Swift"@en , "Jonathan Swift"@fr , "Jonathan Swift"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jonathan_Swift__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jonathan_Swift> , <http://de.dbpedia.org/resource/Jonathan_Swift> ;
+        skos:altLabel  "Swift"@en , "Swift"@fr , "Swift"@de , "Johnathan Swift"@en , "Johnathan Swift"@fr , "Johnathan Swift"@de , "Jonathan swift"@en , "Jonathan swift"@fr , "Jonathan swift"@de , "Jonathon Swift"@en , "Jonathon Swift"@fr , "Jonathon Swift"@de , "Johnathon swift"@en , "Johnathon swift"@fr , "Johnathon swift"@de , "Verses on the Death of Dr. Swift"@en , "Verses on the Death of Dr. Swift"@fr , "Verses on the Death of Dr. Swift"@de , "Jonathan Swift"@en , "Jonathan Swift"@fr , "Jonathan Swift"@de , "Swiftian"@en , "Swiftian"@fr , "Swiftian"@de , "Jonathin swift"@en , "Jonathin swift"@fr , "Jonathin swift"@de , "Dean Swift"@en , "Dean Swift"@fr , "Dean Swift"@de .
+
+<http://dbpedia.org/resource/Jonathan_Swift__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.027083b> ;
+        dbo:to    "2011"^^xsd:gYear .

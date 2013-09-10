@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05lt23__1>
+        dbo:from        "2009"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02k77rm> ;
+        dbo:to          "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02k77rm>
+        rdfs:label     "Aceva Technologies"@en ;
+        skos:altLabel  "Aceva Technologies LLC"@en .
+
+<http://rdf.freebase.com/ns/m.05lt23>
+        rdfs:label     "SunGard"@en , "SunGard"@fr , "SunGard"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05lt23__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/SunGard> , <http://fr.dbpedia.org/resource/Sungard> , <http://dbpedia.org/resource/SunGard> ;
+        skos:altLabel  "SunGard"@fr , "SunGard"@de , "Systems & Computer Technology"@fr , "Systems & Computer Technology"@de , "Collegis"@en , "Collegis"@fr , "Collegis"@de , "SCTC"@en , "SCTC"@fr , "SCTC"@de , "Systems & Computer Technology Corp."@en , "Systems & Computer Technology Corp."@fr , "Systems & Computer Technology Corp."@de , "SunGard Data Systems"@en , "Systems & Computer Technology Corporation"@en , "Systems & Computer Technology Corp"@en , "SunGard Data Systems"@fr , "Systems & Computer Technology Corp"@fr , "Systems & Computer Technology Corp"@de , "Systems & Computer Technology Corporation"@fr , "SunGard Data Systems"@de , "Systems & Computer Technology Corporation"@de , "Sungard Data Systems"@en , "Sungard"@en , "Sungard"@fr , "Sungard"@de , "SunGard"@en , "Systems & Computer Technology"@en .

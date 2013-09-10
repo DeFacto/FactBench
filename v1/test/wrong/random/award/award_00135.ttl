@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nelson_Rockefeller>
+        rdfs:label     "Nelson Rockefeller"@en , "Nelson Rockefeller"@fr , "Nelson Rockefeller"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nelson_Rockefeller__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nelson_Rockefeller> , <http://de.dbpedia.org/resource/Nelson_Rockefeller> ;
+        skos:altLabel  "Nelson Rockefeler"@fr , "Vice President Rockefeller"@fr , "Nelson Aldrich Rockefeller"@fr , "Vice President Rockefeller"@de , "Nelson Aldrich Rockefeller"@de , "Nelson A. Rockefeller"@fr , "Nelson A Rockefeller"@fr , "Nelson Rockefeler"@de , "Nelson A. Rockefeller"@de , "Nelson A Rockefeller"@de , "Nelson Rockfeler"@en , "Nelson Rockfeler"@fr , "Nelson Rockfeler"@de , "Rockefeller"@en , "Rockefeller"@fr , "Rockefeller"@de , "Nelson Rockefeller"@en , "Nelson Rockefeller"@fr , "Nelson Rockefeller"@de , "Nelson Rockfeller"@en , "Nelson Rockfeller"@fr , "Nelson Rockfeller"@de , "Nelson Rockefeler"@en , "Nelson A. Rockefeller"@en , "Vice President Rockefeller"@en , "Nelson D. Rockefeller"@en , "Nelson A Rockefeller"@en , "Nelson Aldrich Rockefeller"@en , "Nelson D. Rockefeller"@fr , "Nelson D. Rockefeller"@de .
+
+<http://rdf.freebase.com/ns/m.01q_ph>
+        rdfs:label     "Owen Wilson"@de , "Owen Wilson"@en , "Owen Wilson"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Owen_Wilson> , <http://dbpedia.org/resource/Owen_Wilson> , <http://de.dbpedia.org/resource/Owen_Wilson> ;
+        skos:altLabel  "Owen wilson"@en , "Owen wilson"@fr , "Owen wilson"@de , "O"@en , "Owen Wilson"@en , "Owen Wilson"@fr , "Owen Wilson"@de , "The Butterscotch Stallion"@en , "The Butterscotch Stallion"@fr , "The Butterscotch Stallion"@de , "Owen Cunningham Wilson"@en , "Wilson"@fr , "Owen Cunningham Wilson"@de , "Wilson, Owen"@en , "Owen C. Wilson"@en , "Owen C. Wilson"@fr , "Owen C. Wilson"@de , "Owen"@fr .
+
+<http://dbpedia.org/resource/Nelson_Rockefeller__1>
+        dbo:from      "1948"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.01q_ph> ;
+        dbo:to        "1948"^^xsd:gYear .

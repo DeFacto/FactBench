@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0317zz__96>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0r1hb> ;
+        dbo:from             "1980"^^xsd:gYear ;
+        dbo:to               "1980"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0r1hb>
+        rdfs:label     "Novato"@fr , "Novato"@en , "Novato"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Novato> , <http://fr.dbpedia.org/resource/Novato> , <http://dbpedia.org/resource/Novato,_California> ;
+        skos:altLabel  "Novato, California"@en , "Novato, CA"@de , "Novato, CA"@en , "Marin County / Novato city"@en , "LOCODE:USNOT"@fr , "LOCODE:USNOT"@de , "LOCODE:USNOT"@en , "San Marin, California"@fr , "San Marin, California"@de , "San Marin, California"@en , "Downtown Novato, California"@fr , "Downtown Novato, California"@de , "Downtown Novato, California"@en , "Novato"@fr , "Novato, California"@fr , "Novato, CA"@fr , "Novato"@de , "Novato"@en , "Novato, California"@de .
+
+<http://rdf.freebase.com/ns/m.0317zz>
+        rdfs:label      "Mindscape"@de , "Mindscape Group"@en , "Mindscape France"@fr ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0317zz__96> ;
+        owl:sameAs      <http://dbpedia.org/resource/Mindscape> , <http://de.dbpedia.org/resource/Mindscape> , <http://fr.dbpedia.org/resource/Mindscape> ;
+        skos:altLabel   "Mindscape, Inc."@de , "Mindscape, Inc."@en , "Mindscape"@fr , "Mindscape"@de , "The Software Toolworks"@de , "Mindscape"@en , "Mindscape Inc."@de , "Mindscape International"@de , "Mindscape Group"@de , "MindScape"@de , "Mindscape Software"@de , "Software Toolworks"@de , "Logotron, Mindscape, Inc."@de .

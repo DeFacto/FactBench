@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cleveland_Cavaliers>
+        rdfs:label     "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cavaliers_de_Cleveland> , <http://de.dbpedia.org/resource/Cleveland_Cavaliers> ;
+        skos:altLabel  "The cleveland cavs"@en , "The cleveland cavs"@fr , "The cleveland cavs"@de , "Moondog"@en , "Moondog"@fr , "Moondog"@de , "Cavalier"@en , "Cavalier"@fr , "Cavalier"@de , "Cleveland Cavs"@en , "Cleveland Cavs"@fr , "Cleveland Cavs"@de , "Cavaliers, Cleveland"@en , "Whammer"@en , "Cavaliers, Cleveland"@fr , "Cavaliers, Cleveland"@de , "Whammer"@fr , "Whammer"@de , "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de , "Cavs"@en , "Moondog - Cavaliers"@en , "Cavaliers De Cleveland"@fr , "Cavs"@fr , "Moondog - Cavaliers"@fr , "Cavaliers de Cleveland"@fr , "Cavs"@de , "Moondog - Cavaliers"@de , "Cavaliers de cleveland"@fr .
+
+<http://dbpedia.org/resource/Martell_Webster__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Cleveland_Cavaliers> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Martell_Webster>
+        rdfs:label     "Martell Webster"@en , "Martell Webster"@fr , "Martell Webster"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Martell_Webster__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Martell_Webster> , <http://de.dbpedia.org/resource/Martell_Webster> ;
+        skos:altLabel  "Martell Webster"@fr , "Webster"@fr , "Martell Webster"@de .

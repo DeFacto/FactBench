@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.059btz__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05h0n2> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05h0n2>
+        rdfs:label     "Bethany Joy Galeotti"@fr , "Bethany Joy Galeotti"@de , "Bethany Joy Lenz-Galeotti"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Bethany_Joy_Lenz> , <http://de.dbpedia.org/resource/Bethany_Joy_Galeotti> , <http://fr.dbpedia.org/resource/Bethany_Joy_Lenz> ;
+        skos:altLabel  "Brittany joy lenz"@fr , "Joypiter"@en , "Bethany Joy Lafferty"@de , "Bethany Joy Lafferty"@fr , "Bethany Joy Lafferty"@en , "Bethany Joy Lenz"@de , "Bethany Joy Lenz"@fr , "Bethany Joy Lenz"@en , "Bethany Galeotti"@en , "Lenz, Bethany Joy"@en , "Brittany Joy Lenz"@fr , "Lenz"@de , "Lenz"@fr , "Lenz"@en , "Joie Lenz"@de , "Joie Lenz"@fr , "Joie Lenz"@en , "Joy"@en , "Galeotti"@de , "Galeotti"@fr , "Galeotti"@en , "Bethany Joy Lenz-Galeotti"@de , "Bethany Joy Lenz-Galeotti"@fr , "Bethany Joy Lenz-Galeotti"@en , "bethany_joy_lenz"@en , "Bethany Joy"@en , "Bethany"@de , "Bethany"@fr , "Bethany"@en , "Bethany Joy Galeotti-Lafferty"@de , "Bethany Joy Galeotti-Lafferty"@fr , "Bethany Joy Galeotti-Lafferty"@en , "Bethany Joy Galeotti"@de , "Bethany Joy Galeotti"@fr , "Bethany Joy Galeotti"@en .
+
+<http://rdf.freebase.com/ns/m.059btz>
+        rdfs:label     "Poppy Montgomery"@en , "Poppy Montgomery"@fr , "Poppy Montgomery"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.059btz__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Poppy_Montgomery> , <http://de.dbpedia.org/resource/Poppy_Montgomery> , <http://fr.dbpedia.org/resource/Poppy_Montgomery> ;
+        skos:altLabel  "Poppy Petal Emma Elizabeth Deveraux Donahue"@en , "Poppy"@fr , "Poppy"@de , "Poppy Montgomery"@fr , "Poppy Montgomery"@de .

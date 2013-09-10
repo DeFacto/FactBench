@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03c1446>
+        rdfs:label  "Jamie Yeo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jamie_Yeo> .
+
+<http://rdf.freebase.com/ns/m.026xn8k>
+        rdfs:label  "Glenn Ong"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.026xn8k__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Glenn_Ong> .
+
+<http://rdf.freebase.com/ns/m.026xn8k__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03c1446> ;
+        dbo:to      "2009"^^xsd:gYear .

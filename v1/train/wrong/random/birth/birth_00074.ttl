@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jana_Novotná>
+        rdfs:label     "Jana Novotná"@en , "Jana Novotná"@fr , "Jana Novotná"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jana_Novotná__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jana_Novotná> , <http://fr.dbpedia.org/resource/Jana_Novotná> ;
+        skos:altLabel  "Jana Novotna"@fr , "Jana Novotna"@de , "Novotna"@fr , "Jana Novotná"@de , "Novotna"@de , "Jana Novotná"@fr , "Novotná"@fr , "Novotná"@de .
+
+<http://dbpedia.org/resource/Peru,_Indiana>
+        rdfs:label     "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Peru_(Indiana)> , <http://de.dbpedia.org/resource/Peru_(Indiana)> ;
+        skos:altLabel  "LOCODE:USGUS"@en , "LOCODE:USGUS"@fr , "LOCODE:USGUS"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr , "Peru, Indiana"@de , "Peru, IN"@en , "Peru, IN"@de , "Peru, IN"@fr , "Miamisport, Indiana"@en , "Miamisport, Indiana"@fr , "Miamisport, Indiana"@de , "Peru"@en , "Peru"@fr , "Peru"@de , "Peru, IN µSA"@en , "Peru, IN µSA"@fr , "Peru, IN µSA"@de .
+
+<http://dbpedia.org/resource/Jana_Novotná__1>
+        dbo:from  "1935"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Peru,_Indiana> ;
+        dbo:to    "1935"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Englewood,_New_Jersey>
+        rdfs:label     "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Englewood_(New_Jersey)> , <http://fr.dbpedia.org/resource/Englewood_(New_Jersey)> ;
+        skos:altLabel  "LOCODE:USEWD"@en , "LOCODE:USEWD"@fr , "LOCODE:USEWD"@de , "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de , "Englewood, NJ"@en , "Englewood City, Bergen County, New Jersey"@en , "Englewood, N. J."@en , "Englewood"@en , "Englewood, NJ"@fr , "Englewood City, Bergen County, New Jersey"@fr , "Englewood, N. J."@fr , "Englewood"@fr , "Englewood City, Bergen County, New Jersey"@de , "Englewood"@de , "Englewood, NJ"@de , "Englewood, N. J."@de , "Englewood City, New Jersey"@en , "Englewood City, New Jersey"@fr , "Englewood City, New Jersey"@de .
+
+<http://dbpedia.org/resource/Isaac_Hayes>
+        rdfs:label     "Isaac Hayes"@en , "Isaac Hayes"@fr , "Isaac Hayes"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Isaac_Hayes__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Isaac_Hayes> , <http://fr.dbpedia.org/resource/Isaac_Hayes> ;
+        skos:altLabel  "Isaac hayes"@en , "Isaac Lee Hayes"@en , "Isaac hayes"@fr , "Isaac Lee Hayes"@fr , "Isaac hayes"@de , "Isaac Lee Hayes"@de , "Isaac Hayes"@en , "Isaac Hayes"@fr , "Isaac Hayes"@de , "Isacc hayes"@en , "Isacc hayes"@fr , "Isacc hayes"@de , "Issac Hayes"@en , "Issac Hayes"@fr , "Issac Hayes"@de , "Isaac"@fr , "Hayes"@fr , "Black Moses"@de .
+
+<http://dbpedia.org/resource/Isaac_Hayes__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Englewood,_New_Jersey> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .

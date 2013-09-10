@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0q48svj>
+        rdfs:label  "Stephen Hensley"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0q48svj__1> .
+
+<http://rdf.freebase.com/ns/m.025p38>
+        rdfs:label     "Preity Zinta"@en , "Preity Zinta"@fr , "Preity Zinta"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Preity_Zinta> , <http://dbpedia.org/resource/Preity_Zinta> , <http://de.dbpedia.org/resource/Preity_Zinta> ;
+        skos:altLabel  "Preetam Singh"@en , "Priety Zinta"@en , "Preity"@en , "Preeti Zinta"@en , "Priety Zinta"@fr , "Preeti Zinta"@fr , "Priety Zinta"@de , "Preeti Zinta"@de , "PZNZ Media"@en , "Preity"@fr , "Preity"@de , "PZNZ Media"@fr , "PZNZ Media"@de , "Preity Zintar"@en , "प्रीति ज़िंटा"@en , "Background and personal life of Preity Zinta"@en , "Background and personal life of Preity Zinta"@fr , "Background and personal life of Preity Zinta"@de , "Preity Zinta"@en , "Preity Zinta"@fr , "Preity Zinta"@de , "Zinta"@en , "Zinta"@fr , "Zinta"@de , "Personal life of Preity Zinta"@en , "Preity Zinta Bollywood"@en , "Personal life of Preity Zinta"@fr , "Personal life of Preity Zinta"@de , "Preity Zinta Bollywood"@fr , "Preity Zinta Bollywood"@de .
+
+<http://rdf.freebase.com/ns/m.0q48svj__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.025p38> ;
+        dbo:to      "2011"^^xsd:gYear .

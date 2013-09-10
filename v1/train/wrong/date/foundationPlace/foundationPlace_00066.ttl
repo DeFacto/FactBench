@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02rsj7z>
+        rdfs:label  "Xero"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02rsj7z__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Xero_(software)> .
+
+<http://rdf.freebase.com/ns/m.02rsj7z__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0ctw_b> ;
+        dbo:from             "2007"^^xsd:gYear ;
+        dbo:to               "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0ctw_b>
+        rdfs:label     "Nouvelle-Zélande"@fr , "New Zealand"@en , "Neuseeland"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nouvelle-Zélande> , <http://dbpedia.org/resource/New_Zealand> , <http://de.dbpedia.org/resource/Neuseeland> ;
+        skos:altLabel  "Mew Zealand"@de , "Mew Zealand"@fr , "Mew Zealand"@en , "Niu Tireni"@de , "Niu Tireni"@fr , "Niu Tireni"@en , "Commonwealth de Nouvelle-Zélande"@fr , "Neo-Zelandais"@fr , "New Xealand"@de , "New Xealand"@fr , "New Xealand"@en , "Nvelle Zelande"@fr , "Enzed"@en , "Newzealand"@de , "Newzealand"@fr , "Newzealand"@en , "Enzed"@de , "Enzed"@fr , "Nieuw Zeeland"@en , "Nieuw Zeeland"@de , "Nieuw Zeeland"@fr , "Neo-zelandais"@fr , "Nouvelle zélande"@fr , "Néo-Zélandaise"@fr , "New Zealend"@de , "New Zealend"@fr , "New Zealend"@en , "Administrative divisions of new zealand"@en , "Administrative divisions of new zealand"@de , "Administrative divisions of new zealand"@fr , "New Zealand's"@de , "New Zealand's"@fr , "New Zealand's"@en , "New Zealand"@en , "New Zealand"@de , "New Zealand"@fr , "Māoria"@de , "Māoria"@fr , "Māoria"@en , "ISO 3166-1:NZ"@en , "ISO 3166-1:NZ"@de , "ISO 3166-1:NZ"@fr , "New-Zealand"@en , "New-Zealand"@de , "New-Zealand"@fr , "Staaten land"@de , "Staaten land"@fr , "Staaten land"@en , "Neo-Zelandaise"@fr , "Neuseeland"@de , "N. Zealand"@en , "N. Zealand"@de , "N. Zealand"@fr , "Maoria"@de , "Maoria"@fr , "Maoria"@en , "Nouvelle Zelande"@fr , "Zealand"@en , "NewZealand"@de , "NewZealand"@fr , "NewZealand"@en , "New Zeland"@de , "Zealand"@de , "Zealand"@fr , "New Zeland"@fr , "Name of New Zealand"@de , "Name of New Zealand"@fr , "Name of New Zealand"@en , "New Zeland"@en , "New zealand"@de , "New zealand"@fr , "New zealand"@en , "Kiwiland"@de , "Kiwiland"@fr , "Kiwiland"@en , "Nouvelle-Zelande"@en , "Nouvelle-Zelande"@de , "New Zaeland"@de , "New Zaeland"@fr , "New Zaeland"@en , "Nouvelle-Zelande"@fr , "Nova Zeelandia"@en , "Nova Zeelandia"@de , "Nova Zeelandia"@fr , "New Zealand,"@de , "New Zealand,"@fr , "New Zealand,"@en , "Aotearoa"@en , "Nouvelle-zélande"@fr , "Nouvelle-Zélande"@de , "Nouvelle-Zélande"@fr , "Nouvelle-Zélande"@en , "Nouvelle-zelande"@fr , "N.Z."@de , "N.Z."@fr , "N.Z."@en , "Néo-zélandaise"@fr , "New zelanad"@de , "New zelanad"@fr , "New zelanad"@en , "New zeland"@de , "New zeland"@fr , "New zeland"@en , "New zeeland"@de , "New zeeland"@fr , "New zeeland"@en , "Néo-Zélandais"@fr , "New Zealnd"@en , "New Zealnd"@de , "New Zealnd"@fr , "N Zealand"@de , "N Zealand"@fr , "N Zealand"@en , "NEW ZEALAND"@de , "NEW ZEALAND"@fr , "NEW ZEALAND"@en , "Néo-zélandais"@fr , "Land of the long white cloud"@en , "Neo-zelandaise"@fr , "NZ"@en , "New Zeeland"@en , "New Zeeland"@de , "New Zeeland"@fr , "Kiwistan"@de , "Kiwistan"@fr , "Kiwistan"@en , "Nouvelle zelande"@fr , "Commonwealth de Nouvelle-Zelande"@fr , "Neo Zealand"@en , "Neo Zealand"@de , "Neo Zealand"@fr , "New Zealnad"@de , "New Zealnad"@fr , "New Zealnad"@en , "Staten Land"@de , "Staten Land"@fr , "Staten Land"@en , "AoTeAroa"@de , "AoTeAroa"@fr , "AoTeAroa"@en , "Staten Landt"@en , "Staten Landt"@de , "Staten Landt"@fr , "God's own"@en , "NEW Z"@de , "NEW Z"@fr , "NEW Z"@en , "Nu Tirani"@en , "Sheepland"@en , "Maoriland"@de , "Maoriland"@fr , "Nu Tirani"@de , "Nu Tirani"@fr , "Maoriland"@en , "Etymology of New Zealand"@fr , "Etymology of New Zealand"@en , "Administrative divisions of New Zealand"@de , "Administrative divisions of New Zealand"@fr , "New Zealand."@de , "Sheepland"@de , "Sheepland"@fr , "New Zealand."@fr , "New Zealand."@en , "Administrative divisions of New Zealand"@en , "Nouvelle Zélande"@fr , "New.Zealand"@de , "New.Zealand"@fr , "New.Zealand"@en , "Etymology of New Zealand"@de .

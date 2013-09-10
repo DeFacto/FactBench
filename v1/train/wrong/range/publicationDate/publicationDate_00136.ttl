@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09y3hn>
+        rdfs:label  "Wizard"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Wizard_(novel)> .
+
+<http://rdf.freebase.com/ns/m.0jt90f5__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.09y3hn> ;
+        dbo:from    "1974"^^xsd:gYear ;
+        dbo:to      "1974"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0jt90f5>
+        rdfs:label     "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0jt90f5__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Stephen_King> , <http://de.dbpedia.org/resource/Stephen_King> , <http://fr.dbpedia.org/resource/Stephen_King> ;
+        skos:altLabel  "The King"@en , "Stephen"@de , "Stephen"@fr , "Stephen"@en , "List of cultural references to Stephen King"@en , "Stephen king accident"@en , "List of cultural references to Stephen King"@de , "List of cultural references to Stephen King"@fr , "Stephen king accident"@de , "Stephen king accident"@fr , "The Works of Stephen King"@en , "The Works of Stephen King"@de , "The Works of Stephen King"@fr , "Stephan king"@en , "Stephan king"@de , "Stephan king"@fr , "Bachman"@fr , "List of books that stephen king has written"@en , "John Swithen"@en , "List of books that stephen king has written"@de , "List of books that stephen king has written"@fr , "John Swithen"@de , "John Swithen"@fr , "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en , "The King of horror"@en , "Steven King Accident"@en , "Richard Bachmann"@de , "Steven King Accident"@de , "Steven King Accident"@fr , "Steven king"@fr , "Master of Horror"@en , "King"@fr , "Stephen Edwin King"@en , "Stephen Edwin King"@de , "Stephen Edwin King"@fr , "Stephen E. King"@en , "Stephen E. King"@de , "Stephen E. King"@fr , "King, Stephen"@en , "King, Stephen"@de , "King, Stephen"@fr , "Richard Bachman"@en , "Richard Bachman"@de , "Richard Bachman"@fr , "Stephen king"@en , "Stephen king"@de , "Stephen king"@fr .

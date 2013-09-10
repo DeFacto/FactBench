@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Springfield,_Missouri>
+        rdfs:label     "Springfield, Missouri"@en , "Springfield, Missouri"@fr , "Springfield, Missouri"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Springfield_(Missouri)> , <http://fr.dbpedia.org/resource/Springfield_(Missouri)> ;
+        skos:altLabel  "Springfield, Missouri"@de , "Springfield, MO"@en , "Springfield, MO"@fr , "Springfield, MO"@de , "LOCODE:USSGF"@en , "Springfield missouri"@en , "Springfield missouri"@fr , "Springfield missouri"@de , "LOCODE:USSGF"@fr , "LOCODE:USSGF"@de , "Springfield"@en , "Springfield"@fr , "Springfield"@de , "The Summit Preparatory School"@en , "Springfield, Mo."@en , "The Summit Preparatory School"@fr , "Springfield, Mo."@fr , "Springfield, Mo."@de , "The Summit Preparatory School"@de , "Springfield, Missouri"@en , "Springfield Mo"@en , "Springfield, Missouri"@fr , "Springfield Mo"@fr , "Springfield Mo"@de .
+
+<http://dbpedia.org/resource/Charles_Mingus>
+        rdfs:label     "Charles Mingus"@en , "Charles Mingus"@fr , "Charles Mingus"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Charles_Mingus__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charles_Mingus> , <http://de.dbpedia.org/resource/Charles_Mingus> ;
+        skos:altLabel  "Charles Mingus - Town Hall Concert"@en , "Charlie Mingus"@en , "Charles Mingus - Town Hall Concert"@fr , "Charlie Mingus"@fr , "Charles Mingus - Town Hall Concert"@de , "Charlie Mingus"@de , "Charles Mingus Sextet With Eric Dolphy"@en , "Mingus"@en , "Charles Mingus Sextet With Eric Dolphy"@fr , "Charles Mingus Sextet With Eric Dolphy"@de , "Mingus"@fr , "Mingus"@de , "Charles"@en , "Charles"@fr , "Charles"@de , "Beneath the Underdog"@en , "Beneath the Underdog"@fr , "Beneath the Underdog"@de , "Charles Mingus"@en , "Charles Mingus"@fr , "Charles Mingus"@de .
+
+<http://dbpedia.org/resource/Charles_Mingus__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Springfield,_Missouri> ;
+        dbo:from        "1993"^^xsd:gYear ;
+        dbo:to          "1993"^^xsd:gYear .

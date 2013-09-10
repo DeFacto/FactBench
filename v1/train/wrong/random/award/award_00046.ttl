@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ira_Gershwin__1>
+        dbo:from        "1965"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02w5q6> ;
+        dbo:to          "1965"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02w5q6>
+        rdfs:label     "Mario López"@en , "Mario López"@fr , "Thomas Schatz"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mario_Lopez_(Schauspieler)> , <http://fr.dbpedia.org/resource/Mario_López> , <http://dbpedia.org/resource/Mario_Lopez> ;
+        skos:altLabel  "Mario Lopez"@en , "López"@fr , "Mario Lopez"@fr , "Mario Lopez"@de , "Mario Michael Lopez, Jr."@en , "Mario Lopez, Jr."@en , "Mario López"@de , "Mario López"@en , "Mario López"@fr , "Lopez"@fr .
+
+<http://dbpedia.org/resource/Ira_Gershwin>
+        rdfs:label     "Ira Gershwin"@en , "Ira Gershwin"@fr , "Ira Gershwin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ira_Gershwin__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ira_Gershwin> , <http://fr.dbpedia.org/resource/Ira_Gershwin> ;
+        skos:altLabel  "Gershwin"@en , "Gershwin"@fr , "Gershwin"@de , "Israel Gershovitz"@en , "Israel Gershovitz"@de , "Israel Gershovitz"@fr , "Arthur Francis"@en , "Ira Gerschwin"@fr , "Arthur Francis"@fr , "Arthur Francis"@de , "Ira Gershwin"@en , "Ira Gershwin"@fr , "Ira Gershwin"@de .

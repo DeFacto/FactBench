@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03m5ms>
+        rdfs:label     "Charlotte Ross"@en , "Charlotte Ross"@fr , "Charlotte Ross"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Charlotte_Ross> , <http://de.dbpedia.org/resource/Charlotte_Ross> , <http://fr.dbpedia.org/resource/Charlotte_Ross> ;
+        skos:altLabel  "Charlotte Ross"@fr , "Charlotte Ross"@de .
+
+<http://rdf.freebase.com/ns/m.05r5w__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.03m5ms> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05r5w>
+        rdfs:label     "Pamela Anderson"@de , "Pamela Anderson"@fr , "Pamela Anderson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05r5w__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pamela_Anderson> , <http://dbpedia.org/resource/Pamela_Anderson> , <http://de.dbpedia.org/resource/Pamela_Anderson> ;
+        skos:altLabel  "Pamela Lee"@de , "Pamela Lee"@fr , "Pamela Lee"@en , "Pam Andreson"@en , "Pamela Lee Anderson"@en , "Pam Andreson"@de , "Pam Andreson"@fr , "Pamela Lee Anderson"@de , "Pamela Lee Anderson"@fr , "Pamela Anderson"@en , "Pamela Anderson"@de , "Pamela Anderson"@fr , "Pamela Denise Anderson"@en , "Miss february 1990"@de , "Miss february 1990"@fr , "Miss february 1990"@en , "Pamela Denise Anderson"@de , "Pamela Denise Anderson"@fr , "Pamela anderson"@de , "Pamela anderson"@fr , "Pamela anderson"@en , "Anderson"@fr , "Pamela Anderson Lee"@en , "Pamela Anderson Lee"@de , "Pamela Anderson Lee"@fr , "Pammy"@en , "Pam Anderson"@en , "Pam Anderson"@de , "Pam Anderson"@fr , "Pam anderson"@de , "Pam anderson"@fr , "Pam anderson"@en , "Pamela andersson"@en , "Pamela andersson"@de , "Pamela andersson"@fr , "Pamala anderson"@en , "Pamala anderson"@de , "Pamala anderson"@fr , "Pamula Anderson"@en , "Pamula Anderson"@de , "Pamula Anderson"@fr , "Pamela Anderson House"@de , "Pamela Anderson House"@fr , "Pamela Anderson House"@en , "Pamela Anderson Lee Rock"@en .

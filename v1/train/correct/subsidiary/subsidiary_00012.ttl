@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01yxhy>
+        rdfs:label       "Norfolk Southern Railway"@de , "Norfolk Southern Railway"@en , "Norfolk Southern"@fr ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.01yxhy__12> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Norfolk_Southern> , <http://dbpedia.org/resource/Norfolk_Southern_Railway> , <http://de.dbpedia.org/resource/Norfolk_Southern_Railway> ;
+        skos:altLabel    "Norfolk"@de , "Norfolk"@en , "Southern Railway"@de , "Southern Railway"@en , "Norfolk Southern"@de , "Norfolk Southern"@en , "Norfolk southern"@fr , "Norfolk Southern Rail Corporation"@fr , "Norfolk Southern Combined Railroad Subsidiaries"@fr , "Norfolk southern"@de , "Norfolk Southern Combined Railroad Subsidiaries"@de , "Norfolk Southern Combined Railroad Subsidiaries"@en , "Norfolk Southern Rail Corporation"@de , "Norfolk southern"@en , "Norfolk Southern Rail Corporation"@en , "Norfolk Southern Railway"@fr , "Norfolk Southern Railway"@de , "Norfolk Southern Railway"@en , "Norfolk Souhthern"@fr , "NS Railway"@fr , "NS Railway"@de , "NS Railway"@en , "Norfolk Southern"@fr , "Norfolk"@fr , "Southern Railway"@fr .
+
+<http://rdf.freebase.com/ns/m.04zk59>
+        rdfs:label     "Conrail"@fr , "Conrail"@de , "Conrail"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Conrail> , <http://dbpedia.org/resource/Conrail> , <http://de.dbpedia.org/resource/Conrail> ;
+        skos:altLabel  "Consolidated Rail"@fr , "Consolidated Rail"@de , "CONRAIL"@fr , "ConRail"@fr , "ConRail"@de , "CONRAIL"@de , "Consolidated Rail Corporation"@fr , "Consolidated Rail Corporation"@de , "Conrail"@fr , "Conrail Railroad Bridge"@fr , "Conrail"@de , "Conrail Railroad Bridge"@de , "Consolidated Railroad Corporation"@fr , "Consolidated Rail Company"@fr , "Consolidated Railroad Corporation"@de , "Consolidated Rail Company"@de , "Consolidated Rail Corp."@fr , "Consolidated Rail Corp."@de , "US Conrail"@fr , "US Conrail"@de .
+
+<http://rdf.freebase.com/ns/m.01yxhy__12>
+        dbo:from        "1999"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.04zk59> ;
+        dbo:to          "1999"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lacey_Chabert>
+        rdfs:label     "Lacey Chabert"@en , "Lacey Chabert"@fr , "Lacey Chabert"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lacey_Chabert> , <http://fr.dbpedia.org/resource/Lacey_Chabert> ;
+        skos:altLabel  "Lacey Chabert"@en , "Lacey Chabert"@fr , "Lacey Chabert"@de , "Lacy Chabert"@en , "Lacy Chabert"@fr , "Lacy Chabert"@de , "Chabert"@de , "Chabert"@fr , "Lacey"@en , "Lacey"@fr , "Lacey"@de .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1>
+        dbo:from      "2004"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Lacey_Chabert> ;
+        dbo:to        "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)>
+        rdfs:label     "A Hard Day's Night (film)"@en , "A Hard Day's Night (film)"@fr , "A Hard Day's Night (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/A_Hard_Day's_Night_(film)> , <http://de.dbpedia.org/resource/Yeah_Yeah_Yeah> ;
+        skos:altLabel  "Quatre garcons dans le vent"@fr , "A Hard Days Night"@en , "A Hard Days Night"@fr , "A Hard Days Night"@de , "Quatre Garçons dans le vent"@fr , "Quatre Garcons dans le vent"@fr , "A Hard Day's Night"@en , "A Hard Day's Night"@fr , "A Hard Day's Night"@de , "4 garcons dans le vent"@fr , "Yeah Yeah Yeah"@de , "Quatre garçons dans le vent"@fr , "Hard day's night"@en , "Hard day's night"@fr , "Hard day's night"@de , "4 garçons dans le vent"@fr .

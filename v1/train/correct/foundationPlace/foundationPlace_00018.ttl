@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0241_l>
+        rdfs:label      "Wipro Technologies"@de , "Wipro Technologies"@fr , "Wipro Technologies"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0241_l__18> ;
+        skos:altLabel   "Wipro Ltd."@en , "Wipro Limited"@en , "Wipro"@en .
+
+<http://rdf.freebase.com/ns/m.03rk0>
+        rdfs:label     "Indien"@de , "India"@en , "Inde"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/India> , <http://fr.dbpedia.org/resource/Inde> , <http://de.dbpedia.org/resource/Indien> ;
+        skos:altLabel  "India."@fr , "Bharat Ganarajya"@fr , "Indische Union"@de , "Bharat Ganarajya"@en , "Bharat Ganarajya"@de , "India."@de , "India."@en , "Some indian facts"@fr , "Some indian facts"@de , "Some indian facts"@en , "Bhart"@fr , "Bhart"@de , "Bhart"@en , "Origine du nom de l'inde"@fr , "Indea"@fr , "Republique d'Inde"@fr , "Indea"@de , "Indea"@en , "Indien"@de , "Bharat"@en , "Yin du"@fr , "Republique de l'Inde"@fr , "Yin du"@de , "Yin du"@en , "Origine du nom de l'Inde"@fr , "Bhārat Gaṇarājya"@fr , "Bhārat Gaṇarājya"@en , "Bhārat Gaṇarājya"@de , "Ndia"@fr , "ISO 3166-1:IN"@fr , "Ndia"@de , "ISO 3166-1:IN"@en , "Hindustan"@en , "ISO 3166-1:IN"@de , "Ndia"@en , "Indya"@fr , "INDIA"@fr , "INDIA"@de , "INDIA"@en , "India proper"@fr , "Indya"@de , "Indya"@en , "India proper"@de , "India proper"@en , "Tenjikukoku"@fr , "Indian Republic"@fr , "Tenjikukoku"@de , "Indian Republic"@de , "Indian Republic"@en , "Tenjikukoku"@en , "India's"@fr , "India's"@de , "India's"@en , "Hindio"@fr , "The Republic of India"@fr , "Hindio"@de , "The Republic of India"@de , "Hindio"@en , "The Republic of India"@en , "Inde"@fr , "Les Indes"@fr , "Les Indes"@de , "Les Indes"@en , "Hind"@fr , "Hind"@de , "Hind"@en , "Etymology of India"@fr , "Etymology of India"@de , "Etymology of India"@en , "Republic Of India"@fr , "Republic Of India"@de , "Republic Of India"@en , "Religion in Indien"@de , "Indian republic"@fr , "Indian republic"@de , "Indian republic"@en , "République de l'Inde"@fr , "Republic of India"@fr , "Republic of India"@de , "Republic of India"@en , "République d'Inde"@fr , "Republic of india"@fr , "Al Hind"@fr , "Republic of india"@de , "Republic of india"@en , "Al-Hind"@fr , "Hindistan"@fr , "Al-Hind"@de , "Hindistan"@de , "Hindistan"@en , "Al-Hind"@en , "Union de l'Inde"@fr , "Al Hind"@de , "Al Hind"@en , "Indischer"@de , "Republik Indien"@de , "Bharat Ganrajya"@en , "India"@fr , "India"@de , "India"@en .
+
+<http://rdf.freebase.com/ns/m.0241_l__18>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03rk0> ;
+        dbo:from             "1945"^^xsd:gYear ;
+        dbo:to               "1945"^^xsd:gYear .

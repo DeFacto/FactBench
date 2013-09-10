@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Concord,_California>
+        rdfs:label     "Concord, California"@fr , "Concord, California"@de , "Concord, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Concord_(Californie)> , <http://de.dbpedia.org/resource/Concord_(Kalifornien)> ;
+        skos:altLabel  "LOCODE:USCCR"@de , "Buchanan Field"@fr , "Todos Santos, California"@en , "Todos Santos, California"@fr , "Todos Santos, California"@de , "Drunken Indian"@en , "Concord, California"@en , "Drunken Indian"@fr , "Concord, California"@fr , "Concord, California"@de , "Drunken Indian"@de , "Concord, ca"@en , "Concord, ca"@fr , "Concord, ca"@de , "Concord, Calif."@en , "Concord, Calif."@fr , "Concord, Calif."@de , "Concord"@en , "Concord"@fr , "Concord"@de , "Drunken Indian, California"@en , "LOCODE:USCCR"@en , "Concord, CA"@en , "Concord, CA"@fr , "Concord, CA"@de , "Drunken Indian, California"@fr , "LOCODE:USCCR"@fr , "Drunken Indian, California"@de .
+
+<http://dbpedia.org/resource/Kylie_Minogue__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Concord,_California> ;
+        dbo:from        "1956"^^xsd:gYear ;
+        dbo:to          "1956"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kylie_Minogue>
+        rdfs:label     "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie Minogue"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kylie_Minogue__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kylie_Minogue> , <http://de.dbpedia.org/resource/Kylie_Minogue> ;
+        skos:altLabel  "Kylie Minogue OBE"@en , "Kylie Minogue OBE"@de , "Kylie Minogue OBE"@fr , "Darling"@de , "Darling"@fr , "Darling"@en , "New Age"@en , "New Age"@de , "New Age"@fr , "Minogue"@de , "Minogue, Kylie"@en , "Minogue, Kylie"@de , "Minogue, Kylie"@fr , "Kyly"@en , "Kyly"@de , "Kyly"@fr , "Kylie Ann Minogue OBE"@en , "Kylie Ann Minogue OBE"@de , "Kylie Ann Minogue OBE"@fr , "Kylie Minogue"@de , "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie"@en , "Kylie"@de , "Kylie"@fr , "Kylie Ann Minogue"@de , "Kylie Ann Minogue"@fr , "Kylie Ann Minogue"@en , "Kylie Monogue"@en , "Kylie Monogue"@de , "Kylie Monogue"@fr , "Kylie minogue"@en , "Kylie minogue"@de , "Kylie minogue"@fr , "White Diamond"@en , "White Diamond"@de , "White Diamond"@fr , "Kylie minoge"@en , "Love Kylie"@en , "Love Kylie"@de , "Love Kylie"@fr , "The Best of Kylie Minogue"@en , "Kylie minouge"@en , "Kylie minouge"@de , "Kylie minouge"@fr , "Kylie minoge"@de , "The Best of Kylie Minogue"@de , "The Best of Kylie Minogue"@fr , "Kylie minoge"@fr .

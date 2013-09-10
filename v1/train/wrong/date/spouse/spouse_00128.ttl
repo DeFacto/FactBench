@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.028b22n__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.032_g_> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.032_g_>
+        rdfs:label     "Stacey Dash"@en , "Stacey Dash"@fr , "Stacey Dash"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Stacey_Dash> , <http://de.dbpedia.org/resource/Stacey_Dash> , <http://fr.dbpedia.org/resource/Stacey_Dash> ;
+        skos:altLabel  "Stacy Dash"@en , "Stacy Dash"@fr , "Stacy Dash"@de , "Stacey L. Dash"@en , "Dash"@fr , "Dash"@de , "Stacie Dash"@de , "Stacie Dash"@fr , "Stacey"@de , "Stacey Lauretta Dash"@en , "Stacey Dash"@fr , "Stacey Dash"@de .
+
+<http://rdf.freebase.com/ns/m.028b22n>
+        rdfs:label     "Emmanuel Xuereb"@en , "Emmanuel Xuereb"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.028b22n__1> ;
+        skos:altLabel  "Emanuel Xuereb"@en .

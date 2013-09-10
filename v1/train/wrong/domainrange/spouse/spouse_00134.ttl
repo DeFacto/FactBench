@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03csn3n>
+        rdfs:label     "Kimberly Anne Scott"@en , "Kimberly Anne Scott"@fr , "Kimberly Anne Scott"@de ;
+        skos:altLabel  "Kim"@en .
+
+<http://rdf.freebase.com/ns/m.05zvn75>
+        rdfs:label  "Shraddha Nigam"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05zvn75__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Shraddha_Nigam> .
+
+<http://rdf.freebase.com/ns/m.05zvn75__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03csn3n> ;
+        dbo:to      "2008"^^xsd:gYear .

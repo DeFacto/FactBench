@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cole_Porter__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Peru,_Indiana> ;
+        dbo:from        "1891-06-09"^^xsd:date ;
+        dbo:to          "1891-06-09"^^xsd:date .
+
+<http://dbpedia.org/resource/Cole_Porter>
+        rdfs:label     "Cole Porter"@en , "Cole Porter"@fr , "Cole Porter"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Cole_Porter__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cole_Porter> , <http://fr.dbpedia.org/resource/Cole_Porter> ;
+        skos:altLabel  "Cole Albert Porter"@fr , "Cole"@fr , "Cole Albert Porter"@de , "Cole Albert Porter"@en , "Cole"@de , "Cole porter"@fr , "Cole porter"@de , "Cole porter"@en , "Cole Porter"@fr , "Cole Porter"@de , "Cole Porter"@en , "Porter"@fr , "I Know It's Not Meant for Me"@fr , "I Know It's Not Meant for Me"@de , "I Know It's Not Meant for Me"@en , "Cole Albert"@fr , "Compositions by Cole Porter"@fr , "Cole Albert"@de , "Compositions by Cole Porter"@de , "Compositions by Cole Porter"@en , "Cole Albert"@en .
+
+<http://dbpedia.org/resource/Peru,_Indiana>
+        rdfs:label     "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Peru_(Indiana)> , <http://de.dbpedia.org/resource/Peru_(Indiana)> ;
+        skos:altLabel  "LOCODE:USGUS"@fr , "LOCODE:USGUS"@de , "LOCODE:USGUS"@en , "Peru, Indiana"@fr , "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, IN"@fr , "Peru, IN"@de , "Peru, IN"@en , "Miamisport, Indiana"@fr , "Miamisport, Indiana"@de , "Miamisport, Indiana"@en , "Peru"@fr , "Peru"@de , "Peru"@en , "Peru, IN µSA"@fr , "Peru, IN µSA"@de , "Peru, IN µSA"@en .

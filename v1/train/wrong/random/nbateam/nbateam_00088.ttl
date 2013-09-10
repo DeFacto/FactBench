@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0263tzc>
+        rdfs:label  "Immodest Proposals"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Immodest_Proposals> .
+
+<http://dbpedia.org/resource/Herman_Melville__1>
+        dbo:from  "2009"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.0263tzc> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Herman_Melville>
+        rdfs:label     "Herman Melville"@en , "Herman Melville"@fr , "Herman Melville"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Herman_Melville__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Herman_Melville> , <http://fr.dbpedia.org/resource/Herman_Melville> ;
+        skos:altLabel  "Herman Melvill"@en , "Herman Melvill"@fr , "Herman Melvill"@de , "Herman"@en , "Herman"@fr , "Herman"@de , "Herman Melville"@en , "Herman melville"@en , "Herman Melville"@fr , "Herman melville"@fr , "Herman melville"@de , "Herman Melville"@de , "HermanMelville"@en , "Melville"@fr , "Melville"@de , "HermanMelville"@fr , "HermanMelville"@de , "Hermann Melville"@en , "Hermann Melville"@fr , "Hermann Melville"@de .

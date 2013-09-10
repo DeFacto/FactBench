@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jerry_Goldsmith__1>
+        dbo:author  <http://dbpedia.org/resource/Savannah,_Georgia> ;
+        dbo:from    "1977"^^xsd:gYear ;
+        dbo:to      "1977"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Savannah,_Georgia>
+        rdfs:label     "Savannah, Georgia"@de , "Savannah, Georgia"@fr , "Savannah, Georgia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Savannah_(Géorgie)> , <http://de.dbpedia.org/resource/Savannah_(Georgia)> ;
+        skos:altLabel  "Savannah ga"@en , "Savannah ga"@de , "Savannah ga"@fr , "Savannah, Georgia"@en , "Savannah, GA"@de , "Savannah, GA"@fr , "Savannah, GA"@en , "Savannah, Georgia"@de , "Savannah, Georgia"@fr , "Savannah-Chatham Metropolitan, Georgia"@en , "Savannah-Chatham Metropolitan, Georgia"@de , "Savannah-Chatham Metropolitan, Georgia"@fr , "Connect savannah"@de , "Connect savannah"@fr , "Connect savannah"@en , "Savannah International Airport"@fr , "Downtown Savannah, Georgia"@en , "Downtown Savannah, Georgia"@de , "Downtown Savannah, Georgia"@fr , "Savannah"@en , "Savannah"@de , "Savannah"@fr , "Savannah georgia"@de , "Savannah georgia"@fr , "Savannah georgia"@en , "LOCODE:USSAV"@en , "LOCODE:USSAV"@de , "LOCODE:USSAV"@fr , "Description of Savannah, GA"@de , "Description of Savannah, GA"@fr , "Description of Savannah, GA"@en , "Savannah, Ga."@en , "Savannah, Ga."@de , "Savannah, Ga."@fr , "Connect Savannah"@de , "Connect Savannah"@fr , "Connect Savannah"@en , "Savanna, Georgia"@de , "Savanna, Georgia"@fr , "Savanna, Georgia"@en , "Savanna, GA"@en , "Savanna, GA"@de , "Savanna, GA"@fr , "Savannah, ga"@en , "Savannah, ga"@de , "Savannah, ga"@fr .
+
+<http://dbpedia.org/resource/Jerry_Goldsmith>
+        rdfs:label     "Jerry Goldsmith"@en , "Jerry Goldsmith"@fr , "Jerry Goldsmith"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jerry_Goldsmith__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jerry_Goldsmith> , <http://fr.dbpedia.org/resource/Jerry_Goldsmith> ;
+        skos:altLabel  "Jerrald King Goldsmith"@de , "Jerrald Goldsmith"@de , "Jerry Goldsmith"@en , "Jerry Goldsmith"@fr , "Jerry Goldsmith"@de , "Jerry goldsmith"@en , "Jerry goldsmith"@fr , "Jerry goldsmith"@de , "Carol Heather Goldsmith"@en , "Goldsmith"@fr , "Carol Heather Goldsmith"@fr , "Goldsmith"@de , "Carol Heather Goldsmith"@de .

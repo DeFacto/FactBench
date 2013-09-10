@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charles_Dickens__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Portsmouth> ;
+        dbo:from        "1812-02-07"^^xsd:date ;
+        dbo:to          "1812-02-07"^^xsd:date .
+
+<http://dbpedia.org/resource/Charles_Dickens>
+        rdfs:label     "Charles Dickens"@de , "Charles Dickens"@fr , "Charles Dickens"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Charles_Dickens__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charles_Dickens> , <http://de.dbpedia.org/resource/Charles_Dickens> ;
+        skos:altLabel  "CJH Dickens"@en , "CJH Dickens"@de , "CJH Dickens"@fr , "Dickens"@fr , "Dickens"@en , "Dickens"@de , "Charles John Huffam Dickens, FRSA"@fr , "Charles John Huffam Dickens, FRSA"@en , "Charles John Huffam Dickens, FRSA"@de , "Charles John Huffam Dickens"@fr , "Charles John Huffam Dickens"@en , "Charles John Huffam Dickens"@de , "Dickensien"@fr , "Charles Dickons"@en , "Charles Dickons"@de , "Charles Dickons"@fr , "Dickens charles"@en , "Dickens charles"@de , "Dickens charles"@fr , "Charles Dickens"@fr , "Charles Dickens"@en , "Charles Dickens"@de , "Charles"@fr , "Charles"@en , "Charles"@de , "Charles John Huffam Dickens FRSA"@fr , "Charles John Huffam Dickens FRSA"@en , "Charles John Huffam Dickens FRSA"@de , "Dickensian"@fr , "Dickensian"@en , "Dickensian"@de , "Dickensian character"@fr , "Dickensian character"@en , "Dickensian character"@de , "C Dickens"@fr , "Charels Dickens"@fr , "C Dickens"@en , "C Dickens"@de , "Charels Dickens"@en , "Charels Dickens"@de , "Charles Dickins"@en , "Charles Dickins"@de , "Charles Dickins"@fr , "Charles dickens"@fr , "Charles dickens"@en , "Charles dickens"@de .
+
+<http://dbpedia.org/resource/Portsmouth>
+        rdfs:label     "Portsmouth"@en , "Portsmouth"@de , "Portsmouth"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Portsmouth> , <http://de.dbpedia.org/resource/Portsmouth> ;
+        skos:altLabel  "Portsmouth, England"@fr , "Portsmouth, England"@en , "Portsmouth, England"@de , "Portsmouth, United Kingdom"@fr , "Portsmouth, United Kingdom"@en , "Portsmouth, United Kingdom"@de , "Portsmouth UA"@en , "Portsmouth UA"@de , "Portsmouth UA"@fr , "County Borough of Portsmouth"@fr , "County Borough of Portsmouth"@en , "County Borough of Portsmouth"@de , "GB-POR"@de , "Springfield School"@fr , "King Richard Secondary School"@fr , "King Richard Secondary School"@en , "King Richard Secondary School"@de , "Springfield School"@en , "Springfield School"@de , "Portsmouth City Council"@en , "Portsmouth City Council"@de , "Portsmouth City Council"@fr , "Portsmouth, Britain"@fr , "Portsmouth, Britain"@en , "Portsmouth, Britain"@de , "St Edmund's RC School"@en , "St Edmund's RC School"@de , "St Edmund's RC School"@fr , "Havenmuiden"@fr , "Havenmuiden"@en , "Havenmuiden"@de , "City of Portsmouth"@fr , "City of Portsmouth"@en , "City of Portsmouth"@de , "Milton Cross School"@fr , "Milton Cross School"@en , "Milton Cross School"@de , "Portsmouth"@en , "Portsmouth"@de , "Portsmouth"@fr , "St Luke's School"@fr , "St Luke's School"@de , "St Luke's School"@en , "LOCODE:GBPME"@fr , "LOCODE:GBPME"@en , "LOCODE:GBPME"@de .

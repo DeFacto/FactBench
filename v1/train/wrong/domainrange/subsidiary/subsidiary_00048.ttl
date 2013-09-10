@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06p917>
+        rdfs:label     "LSI Corporation"@en , "LSI Logic"@fr , "LSI Corporation"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06p917__1> ;
+        skos:altLabel  "LSI CORP"@en , "LSI LOGIC CORP"@en .
+
+<http://rdf.freebase.com/ns/m.01btsf>
+        rdfs:label     "Paypal"@de , "PayPal"@en , "PayPal"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/PayPal> , <http://de.dbpedia.org/resource/PayPal> , <http://dbpedia.org/resource/PayPal> ;
+        skos:altLabel  "Pay Pal"@en , "PayPal"@en , "PayPal Here"@en , "Pay Pal"@fr , "PayPal, Inc."@de , "Pay Pal"@de , "PayPal Here"@fr , "PayPal Here"@de , "Pay pal"@en , "X.com"@en , "PayPal"@fr , "PayPal"@de , "X.com"@fr , "X.com"@de , "Pay pal"@fr , "Pay pal"@de , "Paypal.com"@en , "Paypal.com"@fr , "Paypal.com"@de , "Paypal"@en , "PayPal.com"@en , "Paypalsucks"@en , "Paypalsucks.com"@en , "Paypal"@fr , "PayPal.com"@fr , "Paypal"@de , "PayPal.com"@de , "Paypalsucks"@fr , "Paypalsucks.com"@fr , "Paypalsucks"@de , "Paypalsucks.com"@de .
+
+<http://rdf.freebase.com/ns/m.06p917__1>
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01btsf> ;
+        dbo:to          "1998"^^xsd:gYear .

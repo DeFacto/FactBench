@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charlotte_Bobcats>
+        rdfs:label     "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bobcats_de_Charlotte> , <http://de.dbpedia.org/resource/Charlotte_Bobcats> ;
+        skos:altLabel  "Bobcat"@de , "Bobcats de Charlotte"@fr , "Charlotte Flight"@en , "Charlotte Flight"@de , "Charlotte Flight"@fr , "Bobcats de charlotte"@fr , "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de , "Bobcats De Charlotte"@fr , "Bobcat"@en , "Bobcat"@fr .
+
+<http://dbpedia.org/resource/Amar'e_Stoudemire__1>
+        dbo:from  "2002"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Charlotte_Bobcats> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Amar'e_Stoudemire>
+        rdfs:label     "Amar'e Stoudemire"@en , "Amar'e Stoudemire"@fr , "Amar'e Stoudemire"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Amar'e_Stoudemire__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Amar'e_Stoudemire> , <http://de.dbpedia.org/resource/Amar'e_Stoudemire> ;
+        skos:altLabel  "Amare stoudamire"@en , "Amare stoudamire"@fr , "Amare stoudamire"@de , "Amare Stoudemaire"@en , "Amare Stoudemaire"@fr , "Amare Stoudemaire"@de , "Amaré Stoudemire"@en , "Amaré Stoudemire"@fr , "Amaré Stoudemire"@de , "Stoudemire"@en , "Stoudemire"@fr , "Stoudemire"@de , "Amare Stoudamire"@en , "Amare Stoudamire"@fr , "Amare Stoudamire"@de , "Amare Stoudemire"@en , "Amare Stoudemire"@fr , "Amare Stoudemire"@de , "Amar'e Carsares Stoudemire"@en , "Amar'e Carsares Stoudemire"@fr , "Amar'e Carsares Stoudemire"@de , "Amare Carsares Stoudemire"@en , "Amare Carsares Stoudemire"@fr , "Amare Carsares Stoudemire"@de , "Amar'e Stoudemire"@en , "Amare stoudemire"@en , "Amar'e Stoudemire"@fr , "Amar'e Stoudemire"@de , "Amare stoudemire"@fr , "Amare stoudemire"@de .

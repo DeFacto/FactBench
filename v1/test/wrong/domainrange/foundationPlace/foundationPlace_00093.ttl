@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0899m9__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.081yw> ;
+        dbo:from             "1998"^^xsd:gYear ;
+        dbo:to               "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0899m9>
+        rdfs:label     "Comverse Technology"@en , "Comverse Technology"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0899m9__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Comverse_Technology> , <http://dbpedia.org/resource/Comverse_Technology> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Comverse Technology, Inc"@en , "Efrat Future Technologies"@fr , "Comverse Infosys"@fr , "Comverse Technology"@fr , "CTI"@en , "Comverse"@fr .
+
+<http://rdf.freebase.com/ns/m.081yw>
+        rdfs:label     "Washington"@de , "Washington"@en , "État de Washington"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/État_de_Washington> , <http://dbpedia.org/resource/Washington_(state)> , <http://de.dbpedia.org/resource/Washington_(Bundesstaat)> ;
+        skos:altLabel  "Washington State"@de , "Sports in Washington"@de , "The 42nd state"@en , "The 42nd state"@de , "The 42nd state"@fr , "State Washington"@en , "State Washington"@fr , "State Washington"@de , "Transport in Washington"@en , "Transport in Washington"@de , "Transport in Washington"@fr , "Washington state"@en , "Washington state"@de , "Etat de Washington"@fr , "Washington state"@fr , "State of Washington"@en , "State of Washington"@fr , "State of Washington"@de , "Transportation in Washington"@en , "Transportation in Washington"@de , "Transportation in Washington"@fr , "Washington"@en , "Washington"@fr , "Washington"@de , "US-WA"@en , "US-WA"@fr , "US-WA"@de , "Huashengdun"@en , "Huashengdun"@de , "Huashengdun"@fr , "Geography of Washington"@en , "Geography of Washington"@de , "Geography of Washington"@fr , "Climate of Washington"@en , "Government of Washington"@en , "Climate of Washington"@fr , "Climate of Washington"@de , "Government of Washington"@de , "Government of Washington"@fr , "Religion in Washington"@en , "Economy of Washington"@en , "Politics of Washington"@en , "Education in Washington"@en , "42nd State"@en , "Estado de Washington"@en , "Estado de Washington"@de , "Estado de Washington"@fr , "Washignton"@en , "Religion in Washington"@fr , "Education in Washington"@fr , "Religion in Washington"@de , "42nd State"@fr , "Washignton"@de , "Education in Washington"@de , "Washignton"@fr , "42nd State"@de , "Economy of Washington"@fr , "Politics of Washington"@fr , "Politics of Washington"@de , "Economy of Washington"@de , "Demographics of Washington"@en , "Washington Sports"@en , "Demographics of Washington"@fr , "Demographics of Washington"@de , "Washington Sports"@fr , "Washington Sports"@de , "Emerald state"@en , "Emerald state"@fr , "Emerald state"@de , "The emerald state"@en , "The emerald state"@de , "The emerald state"@fr , "Wash"@en , "The Evergreen State"@en , "The Evergreen State"@fr , "The Evergreen State"@de , "État de Washington"@fr , "Washington, Madras"@en , "WA"@en , "Sports in Washington"@en , "Sports in Washington"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dan_Aykroyd>
+        rdfs:label     "Dan Aykroyd"@en , "Dan Aykroyd"@fr , "Dan Aykroyd"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dan_Aykroyd> , <http://de.dbpedia.org/resource/Dan_Aykroyd> ;
+        skos:altLabel  "Daniel E. Aykroyd"@en , "Daniel E. Aykroyd"@fr , "Daniel E. Aykroyd"@de , "Dan Akyroyd"@en , "Dan Akyroyd"@fr , "Dan Akyroyd"@de , "Daniel Akyroyd"@en , "Aykroyd"@de , "Fred Garvin"@en , "Fred Garvin"@fr , "Fred Garvin"@de , "Daniel Akyroyd"@fr , "Daniel Akyroyd"@de , "Daniel Aykroyd"@en , "Dan Akroid"@en , "Dan Akroid"@fr , "Dan Akroid"@de , "Dan Aykroyd"@en , "Dan Ackroyd"@en , "Daniel Aykroyd"@fr , "Dan Aykroyd"@fr , "Daniel Aykroyd"@de , "Dan Ackroyd"@fr , "Dan Ackroyd"@de , "Dan Aykroyd"@de , "Daniel Edward Aykroyd"@en , "Dan Akroyd"@en , "Daniel Edward Aykroyd"@fr , "Dan Akroyd"@fr , "Daniel Edward Aykroyd"@de , "Dan Akroyd"@de .
+
+<http://dbpedia.org/resource/Love_Actually>
+        rdfs:label     "Love Actually"@en , "Love Actually"@fr , "Love Actually"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Love_Actually__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tatsächlich…_Liebe> , <http://fr.dbpedia.org/resource/Love_Actually> ;
+        skos:altLabel  "Tatsächlich … Liebe"@de , "Tatsachlich Liebe"@de , "Tatsächlich Liebe"@de , "Tatsachlich… Liebe"@de , "Tatsachlich ... Liebe"@de , "Love, Actually"@en , "Love, Actually"@fr , "Love, Actually"@de , "Love actually"@en , "Love Actually"@en , "Love actually"@fr , "Love Actually"@fr , "Tatsachlich...Liebe"@de , "Love actually"@de , "Love Actually"@de , "Tatsachlich … Liebe"@de , "Tatsachlich... Liebe"@de , "Tatsächlich… Liebe"@de , "Tatsächlich...Liebe"@de , "Tatsächlich... Liebe"@de , "Tatsächlich ... Liebe"@de .
+
+<http://dbpedia.org/resource/Love_Actually__1>
+        dbo:from      "1989"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Dan_Aykroyd> ;
+        dbo:to        "1989"^^xsd:gYear .

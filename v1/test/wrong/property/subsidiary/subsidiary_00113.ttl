@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.037jwk>
+        rdfs:label     "Orbital Sciences Corporation"@en , "Orbital Sciences Corporation"@de , "Orbital Sciences"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.037jwk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Orbital_Sciences_Corporation> , <http://fr.dbpedia.org/resource/Orbital_Sciences> , <http://dbpedia.org/resource/Orbital_Sciences_Corporation> ;
+        skos:altLabel  "Orbital sciences corporation"@fr , "ORB.N"@en , "ORB.N"@fr , "ORB.N"@de , "Orbital"@en , "Orbital"@fr , "Orbital"@de , "ORBITAL SCIENCES CORP"@en , "Orbital Sciences"@en , "Orbital Sciences Corporation"@en , "Orbital Sciences"@fr , "Orbital Sciences Corporation"@fr , "Orbital Sciences Corporation"@de , "Orbital Sciences"@de , "ORBITAL SCIENCES CORP /DE/"@en .
+
+<http://rdf.freebase.com/ns/m.026_770>
+        rdfs:label     "Magellan Navigation"@en , "Magellan Navigation"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Magellan_Navigation> , <http://dbpedia.org/resource/Magellan_Navigation> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Magellan"@de , "Magellan Corporation"@de , "Magellan Navigation"@de , "Magellan Navigation Inc."@de .
+
+<http://rdf.freebase.com/ns/m.037jwk__1>
+        dbo:from  "1994"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.026_770> ;
+        dbo:to    "1994"^^xsd:gYear .

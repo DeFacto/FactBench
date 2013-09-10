@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Japan>
+        rdfs:label     "Japan"@de , "Japan"@fr , "Japan"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Japon> , <http://de.dbpedia.org/resource/Japan> ;
+        skos:altLabel  "Nippon"@fr , "Japao"@en , "Japan"@en , "Japan"@fr , "État du Japon"@fr , "Japan"@de , "Japao"@fr , "Japao"@de , "Japonaise"@fr , "Iapam"@en , "Empire du Soleil levant"@fr , "Iapam"@fr , "Iapam"@de , "Giappone"@en , "Ilbon"@en , "State of Japan"@en , "Ilbon"@fr , "State of Japan"@fr , "Ilbon"@de , "State of Japan"@de , "Giappone"@fr , "Giappone"@de , "Japanese Home Islands"@en , "Administrative divisions of Japan"@en , "Japanese Home Islands"@fr , "Das Land der aufgehenden Sonne"@de , "Administrative divisions of Japan"@fr , "Administrative divisions of Japan"@de , "Japanese Home Islands"@de , "Jpan"@en , "Archipelago of Japan"@en , "Archipelago of Japan"@fr , "Archipelago of Japan"@de , "Jpan"@fr , "Jpan"@de , "Moonland"@en , "Japanio"@en , "Moonland"@fr , "Japanio"@fr , "Japanio"@de , "Moonland"@de , "Republic of Japan"@en , "Republic of Japan"@fr , "Republic of Japan"@de , "ISO 3166-1:JP"@en , "ISO 3166-1:JP"@fr , "ISO 3166-1:JP"@de , "JAPAN"@en , "JAPAN"@fr , "JAPAN"@de , "Yilbon"@en , "Yilbon"@fr , "Yilbon"@de , "Japon"@en , "Japon"@fr , "Japon"@de , "Nihon"@en , "Nihon"@fr , "Nihon"@de , "Land der aufgehenden Sonne"@de , "Nihon-koku"@en , "Riben"@en , "Riben"@fr , "Riben"@de , "Nippon-koku"@en , "Nihon-koku"@fr , "Etat du Japon"@fr , "Nippon-koku"@fr , "Nippon-koku"@de , "Nihon-koku"@de , "Etymology of Japan"@en , "Etymology of Japan"@fr , "Etymology of Japan"@de , "Japanese territory"@en , "Jepun"@en , "Jepun"@fr , "Jepun"@de , "Japanese financial sector"@en , "Japanese territory"@fr , "Japanese financial sector"@fr , "Japanese financial sector"@de , "Japanese territory"@de , "Japang"@en , "Japang"@fr , "Japang"@de , "Rìběn"@en , "Japanese lifestyle"@en , "Rìběn"@fr , "Japanese lifestyle"@fr , "Japanese lifestyle"@de , "Rìběn"@de , "Nihonkoku"@fr , "Le japon"@fr , "Subdivisions of Japan"@en , "Subdivisions of Japan"@fr , "Subdivisions of Japan"@de , "The State of Japan"@en , "The State of Japan"@fr , "The State of Japan"@de , "Japoa"@en , "Japoa"@fr , "Japoa"@de , "Giapan"@en , "JapaN"@en , "Ja-pan"@en , "Giapan"@fr , "Giapan"@de , "JapaN"@fr , "JapaN"@de , "The Land of the Rising Sun"@en , "Ja-pan"@fr , "The Land of the Rising Sun"@fr , "Zipango"@de , "Ja-pan"@de , "The Land of the Rising Sun"@de , "Nipponkoku"@fr .
+
+<http://dbpedia.org/resource/Lynden_Pindling>
+        rdfs:label     "Lynden Pindling"@en , "Lynden Pindling"@fr , "Lynden Pindling"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Lynden_Pindling__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lynden_O._Pindling> , <http://fr.dbpedia.org/resource/Lynden_Oscar_Pindling> ;
+        skos:altLabel  "Lynden Oscar Pindling"@fr , "Lynden Oscar Pindling"@de , "Pindling"@de , "Pindling, Sir Lynden Oscar"@fr , "Pindling, Sir Lynden Oscar"@de , "Lynden O. Pindling"@fr , "Lynden O. Pindling"@de , "Lynden Pindling"@fr , "Lynden Pindling"@de , "Bahamian Black Tuesday"@fr , "Bahamian Black Tuesday"@de , "Sir Pindling"@fr , "Sir Pindling"@de , "Sir Lynden Pindling"@fr , "Sir Lynden Pindling"@de .
+
+<http://dbpedia.org/resource/Lynden_Pindling__1>
+        dbo:from    "1962"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Japan> ;
+        dbo:to      "1968"^^xsd:gYear .

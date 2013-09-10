@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Camarillo,_California>
+        rdfs:label     "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Camarillo> , <http://de.dbpedia.org/resource/Camarillo> ;
+        skos:altLabel  "Camarillo"@en , "Camarillo, ca"@en , "LOCODE:USCMR"@en , "Camarillo, ca"@fr , "LOCODE:USCMR"@fr , "Camarillo, ca"@de , "LOCODE:USCMR"@de , "Camarillo"@fr , "Camarillo"@de , "Camarillo, CA"@en , "Camarillo, CA"@fr , "Camarillo, CA"@de , "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de .
+
+<http://dbpedia.org/resource/Bob_Bryan>
+        rdfs:label     "Bob Bryan"@en , "Bob Bryan"@fr , "Bob Bryan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bob_Bryan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bob_Bryan> , <http://fr.dbpedia.org/resource/Bob_Bryan> ;
+        skos:altLabel  "Bob Bryan"@fr , "Bob Bryan"@de , "Bob Bryan"@en , "Robert Charles Bryan"@de , "Bryan"@fr , "Bryan"@de .
+
+<http://dbpedia.org/resource/Bob_Bryan__1>
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Camarillo,_California> ;
+        dbo:to          "1978"^^xsd:gYear .

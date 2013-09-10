@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.083zh7>
+        rdfs:label  "XITEX Software"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.083zh7__1> .
+
+<http://rdf.freebase.com/ns/m.083zh7__1>
+        dbo:from        "1944"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.017b2p> ;
+        dbo:to          "1944"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.017b2p>
+        rdfs:label     "Ayumi Hamasaki"@de , "Ayumi Hamasaki"@fr , "Ayumi Hamasaki"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Ayumi_Hamasaki> , <http://de.dbpedia.org/resource/Ayumi_Hamasaki> , <http://fr.dbpedia.org/resource/Ayumi_Hamasaki> ;
+        skos:altLabel  "TeamAyu"@en , "TeamAyu"@de , "TeamAyu"@fr , "浜﨑 あゆみ"@en , "はまさき あゆみ"@en , "Ayumi"@en , "はまさきくるみ"@en , "Team Ayu"@en , "Team Ayu"@de , "Team Ayu"@fr , "Ayumi"@de , "Ayumi"@fr , "あゆ"@en , "浜崎 くるみ"@en , "Hamasaki"@en , "Hamasaki"@de , "Hamasaki"@fr , "Empress of J-Pop"@en , "浜崎步"@en , "Empress of J-Pop"@de , "Empress of J-Pop"@fr , "Team ayu"@en , "Team ayu"@de , "Team ayu"@fr , "Ayumi hamasaki"@en , "Empress of Pop"@en , "Empress of Pop"@de , "Empress of Pop"@fr , "Ayumi hamasaki"@de , "Ayumi hamasaki"@fr , "Kurumi Hamazaki"@en , "Kurumi Hamazaki"@de , "Kurumi Hamazaki"@fr , "Teamayu"@en , "Teamayu"@de , "Teamayu"@fr , "ayumi hamasaki"@en , "AYMU"@en , "AYMU"@de , "AYMU"@fr , "CREA"@en , "Hamasaki Kurumi"@en , "Hamasaki Kurumi"@de , "Hamasaki Kurumi"@fr , "Ayumi Hamazaki"@en , "Ayumi Hamazaki"@fr , "Ayumi Hamazaki"@de , "Ayumi hamasaki remixes"@en , "Ayumi hamasaki remixes"@de , "Ayumi hamasaki remixes"@fr , "Hamasaki, Ayumi"@en , "Hamazaki Ayumi"@en , "Hamazaki Ayumi"@de , "Hamazaki Ayumi"@fr , "Hamasaki Ayumi"@en , "Hamasaki Ayumi"@de , "Hamasaki Ayumi"@fr , "濱崎歩"@en , "Kurumi Hamasaki"@en , "浜崎あゆみ"@en , "Kurumi Hamasaki"@de , "Kurumi Hamasaki"@fr , "Hamazaki Kurumi"@en , "Hamazaki Kurumi"@de , "Hamazaki Kurumi"@fr , "Ayumi Hamasaki"@en , "Ayumi Hamasaki"@de , "Ayumi Hamasaki"@fr , "Ayu"@en .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09h8nv__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04w7d1s> ;
+        dbo:from    "1959"^^xsd:gYear ;
+        dbo:to      "1959"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04w7d1s>
+        rdfs:label  "Norby and the Court Jester"@en .
+
+<http://rdf.freebase.com/ns/m.09h8nv>
+        rdfs:label     "Mordecai Roshwald"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09h8nv__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Mordecai_Roshwald> ;
+        skos:altLabel  "Mordecai Marceli Roshwald"@en .

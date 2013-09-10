@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05q9l6>
+        rdfs:label  "Interlink Computer Sciences"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Interlink_Computer_Sciences> .
+
+<http://rdf.freebase.com/ns/m.01t1bk__1>
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.05q9l6> ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01t1bk>
+        rdfs:label     "Citrix Systems"@en , "Citrix Systems"@fr , "Citrix Systems"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01t1bk__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Citrix_Systems> , <http://dbpedia.org/resource/Citrix_Systems> , <http://de.dbpedia.org/resource/Citrix_Systems> ;
+        skos:altLabel  "CTXS"@en , "CTXS"@fr , "CTXS"@de , "Citrix systems"@fr , "Citrix Cloud Center"@de , "Citrix XenDesktop"@en , "Citrix Systems, Inc."@en , "Citrix XenDesktop"@fr , "Citrix Systems, Inc."@fr , "Citrix XenDesktop"@de , "Citrix Systems, Inc."@de , "Citrix"@en , "Citrix Systems"@en , "XenDesktop"@en , "Citrix Systems"@fr , "Citrix Systems"@de , "Citrix"@fr , "Citrix"@de , "Citrix Systems Inc"@de , "XenDesktop"@fr , "XenDesktop"@de , "MultiWin"@fr .

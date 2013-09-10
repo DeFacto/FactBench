@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Toronto>
+        rdfs:label     "Toronto"@de , "Toronto"@fr , "Toronto"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Toronto> , <http://fr.dbpedia.org/resource/Toronto> ;
+        skos:altLabel  "T-Dot"@en , "T-Dot"@fr , "T-Dot"@de , "Toronto, Ontario, Canada"@en , "City of Toronto"@en , "Toronto, Ontario, Canada"@fr , "Toronto, Ontario, Canada"@de , "City of Toronto"@fr , "City of Toronto"@de , "Toronto Division"@en , "Toronto Division"@fr , "Toronto Division"@de , "Toronto, ontario Part 2"@en , "Toronto, ontario Part 2"@fr , "Toronto, ontario Part 2"@de , "Toronto, Canada"@en , "List of Toronto MPs and MPPs"@en , "Toronto, CA"@en , "Toronto, Canada"@fr , "Toronto, CA"@fr , "Toronto, Canada"@de , "Toronto, CA"@de , "List of Toronto MPs and MPPs"@fr , "List of Toronto MPs and MPPs"@de , "Issues of Toronto"@en , "Issues of Toronto"@fr , "Issues of Toronto"@de , "Service de police de Toronto"@fr , "Highways within Greater Toronto Area"@en , "Issues in Toronto, Ontario"@en , "Toronto"@en , "Highways within Greater Toronto Area"@fr , "Issues in Toronto, Ontario"@fr , "Toronto"@fr , "Toronto"@de , "Highways within Greater Toronto Area"@de , "Issues in Toronto, Ontario"@de , "Trawna"@en , "Accordion City"@en , "Trawna"@fr , "Toronto Police Service"@fr , "Trawna"@de , "Accordion City"@fr , "Accordion City"@de , "LOCODE:CATOR"@en , "LOCODE:CATOR"@fr , "LOCODE:CATOR"@de , "Toronto, Ontario."@en , "Toronto, Ontario."@fr , "Toronto, Ontario."@de , "Tdot"@en , "Tdot"@de , "Tdot"@fr , "Toronto Ontario"@en , "Toronto Ontario"@fr , "Toronto Ontario"@de , "History of crime in Toronto"@en , "History of crime in Toronto"@fr , "History of crime in Toronto"@de , "York"@fr , "Toronto List of MPs and MPPs"@en , "Toronto List of MPs and MPPs"@fr , "Toronto List of MPs and MPPs"@de , "Torontonians"@en , "Torontonians"@fr , "Torontonians"@de , "Torontonian"@en , "Torontonian"@fr , "Torontonian"@de , "Toronto, ON"@en , "Toronto, ON"@fr , "Toronto, ON"@de , "Public Transportation in Toronto"@en , "Toronto Municipality, Ontario"@en , "Toronto Municipality, Ontario"@fr , "Toronto Municipality, Ontario"@de , "Public Transportation in Toronto"@fr , "Public Transportation in Toronto"@de , "The big tee oh"@en , "The big tee oh"@fr , "The big tee oh"@de , "Toronto, Ontario"@en , "Toronto, Ontario"@fr , "Toronto, Ontario"@de , "Toronto, Ontario Part 2"@en , "Toronto, Ontario Part 2"@fr , "Toronto, Ontario Part 2"@de , "Édifice du gouvernement du Canada à North York"@fr , "Tornonto, Ont."@en , "Service de Police de Toronto"@fr , "Tornonto, Ont."@fr , "Tornonto, Ont."@de , "The big to"@en , "The big to"@fr , "The big to"@de , "List of City of Toronto Issues"@en , "List of City of Toronto Issues"@fr , "List of City of Toronto Issues"@de , "Toronto, Canada."@en , "Toronto, Canada."@fr , "Toronto, Canada."@de , "Torotno"@en , "Torotno"@fr , "Torotno"@de , "The weather in Toronto"@en , "The weather in Toronto"@fr , "The weather in Toronto"@de , "Torontorian"@en , "Torontorian"@fr , "Torontorian"@de , "Edifice du gouvernement du Canada a North York"@fr .
+
+<http://dbpedia.org/resource/Johnny_Mercer>
+        rdfs:label     "Johnny Mercer"@de , "Johnny Mercer"@en , "Johnny Mercer"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Johnny_Mercer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Johnny_Mercer> , <http://fr.dbpedia.org/resource/Johnny_Mercer> ;
+        skos:altLabel  "Bernardine"@fr , "Bernardine"@de , "Johnny Mercer"@fr , "John Herndon Mercer"@fr , "John Herndon Mercer"@de , "Johnny Mercer"@de , "John Herndon \"Johnny\" Mercer"@fr , "Mercer"@fr , "John Herndon \"Johnny\" Mercer"@de , "Mercer"@de , "Conversation While Dancing"@fr , "Conversation While Dancing"@de , "Johnnie Mercer"@fr , "Johnnie Mercer"@de .
+
+<http://dbpedia.org/resource/Johnny_Mercer__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Toronto> ;
+        dbo:from        "1909"^^xsd:gYear ;
+        dbo:to          "1909"^^xsd:gYear .

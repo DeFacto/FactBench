@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Maria_das_Neves>
+        rdfs:label     "Maria das Neves"@en , "Maria das Neves"@fr , "Maria das Neves"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Maria_das_Neves__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Maria_das_Neves> ;
+        skos:altLabel  "Maria das Neves"@de , "Maria das Neves Ceita Baptista de Sousa"@de , "Neves"@de .
+
+<http://dbpedia.org/resource/Portugal>
+        rdfs:label     "Portugal"@en , "Portugal"@fr , "Portugal"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Portugal> , <http://fr.dbpedia.org/resource/Portugal> ;
+        skos:altLabel  "Phû-tô-gâ"@de , "Phû-tô-gâ"@fr , "Phû-tô-gâ"@en , "Republica Portuguesa"@de , "Republica Portuguesa"@fr , "Republica Portuguesa"@en , "Portugual"@de , "Portugual"@fr , "Portugual"@en , "Potigal"@de , "Potigal"@fr , "Potigal"@en , "Bồ Đào Nha"@en , "Bồ Đào Nha"@de , "Bồ Đào Nha"@fr , "An Phortaingeil"@de , "An Phortaingeil"@fr , "An Phortaingeil"@en , "PORTUGAL"@de , "PORTUGAL"@fr , "PORTUGAL"@en , "Portugaleje"@de , "Portugaleje"@fr , "Portugaleje"@en , "Potiti"@de , "Potiti"@fr , "Potiti"@en , "Portegal"@de , "Portegal"@fr , "Portegal"@en , "Emplastro"@de , "Emplastro"@fr , "Emplastro"@en , "Portekîz"@de , "Portekîz"@fr , "Portekîz"@en , "Bo Đao Nha"@en , "O Papagaio"@en , "Phu-to-ga"@de , "Phu-to-ga"@fr , "Bo Đao Nha"@de , "Bo Đao Nha"@fr , "Portuguese Republic"@de , "Portuguese Republic"@fr , "Portuguese Republic"@en , "Portugale"@de , "Portugale"@fr , "Portugale"@en , "República Portuguesa"@de , "República Portuguesa"@fr , "República Portuguesa"@en , "Portgual"@de , "O Papagaio"@de , "O Papagaio"@fr , "Portgual"@fr , "Portgual"@en , "Phu-to-ga"@en , "Portugál"@de , "Portugál"@fr , "Portugál"@en , "Portugallu"@en , "Portugallu"@de , "Portugallu"@fr , "Portugali"@de , "Portugali"@fr , "Portogallo"@de , "Portogallo"@fr , "Portogallo"@en , "Portugali"@en , "Republique Portugaise"@fr , "Portugalėjė"@en , "Portugalėjė"@de , "Portekiz"@de , "Portekiz"@fr , "Portekiz"@en , "Portyngal"@de , "Portyngal"@fr , "Portyngal"@en , "Portugalėjė"@fr , "Portogalo"@en , "Portogało"@de , "Portogało"@fr , "Portogało"@en , "Portogalo"@de , "Portogalo"@fr , "Republique portugaise"@fr , "République portugaise"@fr , "Pōtītī"@de , "Pōtītī"@fr , "Pōtītī"@en , "Portugalujo"@de , "Portugalujo"@fr , "Portugalujo"@en , "Republic of Portugal"@de , "Portunga"@de , "Portunga"@fr , "Portunga"@en , "Portugalska"@de , "Portugalska"@fr , "Portugalska"@en , "Republic of Portugal"@fr , "ISO 3166-1:PT"@de , "ISO 3166-1:PT"@fr , "ISO 3166-1:PT"@en , "Portugal"@de , "Portugal"@fr , "Portugal"@en , "Republic of Portugal"@en , "Portugul"@en , "Portugul"@de , "Portugul"@fr , "Portugaul"@de , "Portugaul"@fr , "Portugaul"@en , "Portugāle"@de , "Portugāle"@fr , "Portugāle"@en , "Portugiesische Republik"@de , "Portugalija"@de , "Portugalija"@fr , "Portugalija"@en , "Portugall"@de , "Portugall"@fr , "Portugall"@en , "Portiwgal"@de , "Portiwgal"@fr , "Portiwgal"@en , "Bo Dao Nha"@de , "Bo Dao Nha"@fr , "Bo Dao Nha"@en , "Yn Phortiugal"@de , "Yn Phortiugal"@fr , "Yn Phortiugal"@en , "Portúgal"@en , "Portúgal"@de , "Portúgal"@fr , "Portugalsko"@de , "Portugalsko"@fr , "Portugalsko"@en , "Portuga"@de , "Portuga"@fr , "Portuga"@en , "Portugaises"@fr , "Pòtigal"@de , "Pòtigal"@fr , "Pòtigal"@en , "An Phortaingéil"@de , "An Phortaingéil"@fr , "An Phortaingéil"@en , "Portûnga"@en , "Portûnga"@de , "Portûnga"@fr , "Pertual"@de , "Pertual"@fr , "Pertual"@en , "Portugalio"@de , "Portugalio"@fr , "Portugalio"@en , "République Portugaise"@fr .
+
+<http://dbpedia.org/resource/Maria_das_Neves__1>
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Portugal> ;
+        dbo:to      "2004"^^xsd:gYear .

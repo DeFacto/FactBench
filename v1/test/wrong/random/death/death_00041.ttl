@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Ferrer__1>
+        dbo:from  "1999"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Harare> ;
+        dbo:to    "1999"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Harare>
+        rdfs:label     "Harare"@de , "Harare"@en , "Harare"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Harare> , <http://de.dbpedia.org/resource/Harare> ;
+        skos:altLabel  "Salisbury, Rhodesia"@en , "Salisbury, Rhodesia"@fr , "Salisbury, Rhodesia"@de , "Harare, Zimbabwe"@en , "Harare Metropolitan Province"@en , "Harare, Zimbabwe"@fr , "Harare, Zimbabwe"@de , "Harare Metropolitan Province"@fr , "Harare Metropolitan Province"@de , "Salisbury Rhodesia"@en , "Salisbury Rhodesia"@fr , "Salisbury Rhodesia"@de , "ZW-HA"@de , "Salisbury"@en , "Salisbury, Zimbabwe"@en , "Harare Province"@en , "Salisbury"@fr , "Salisbury, Zimbabwe"@fr , "Harare Province"@fr , "Harare Province"@de , "Salisbury"@de , "Salisbury, Zimbabwe"@de , "Harare"@en , "Capital of Zimbabwe"@en , "Harare"@fr , "Capital of Zimbabwe"@fr , "Capital of Zimbabwe"@de , "Harare"@de .
+
+<http://dbpedia.org/resource/David_Ferrer>
+        rdfs:label     "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Ferrer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Ferrer> , <http://fr.dbpedia.org/resource/David_Ferrer> ;
+        skos:altLabel  "Ferrer"@en , "Ferrer"@fr , "Ferrer"@de , "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de , "David Ferrer Ern"@en , "David Ferrer Ern Gaydamak"@en , "David Ferrer Ern Gaydamak"@fr , "David Ferrer Ern"@de , "David Ferrer Ern"@fr , "David Ferrer Ern Gaydamak"@de .

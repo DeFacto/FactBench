@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02pthzb>
+        rdfs:label     "CoCreate"@en , "CoCreate"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02pthzb__1> ;
+        skos:altLabel  "CoCreate Software GmbH"@de .
+
+<http://rdf.freebase.com/ns/m.02pthzb__1>
+        dbo:from    "1980"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0kjjm> ;
+        dbo:to      "1980"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0kjjm>
+        rdfs:label     "De bons présages"@fr , "Ein gutes Omen"@de , "Good Omens"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ein_gutes_Omen> , <http://fr.dbpedia.org/resource/De_bons_présages> , <http://dbpedia.org/resource/Good_Omens> ;
+        skos:altLabel  "De bons présages"@fr , "Good omens"@fr , "De Bons Présages"@fr , "Aziraphale"@en , "Aziraphale"@fr , "Aziraphale"@de , "Good Omens"@en , "Good Omens"@fr , "Good Omens"@de , "Anthony Crowley"@en , "De Bons Presages"@fr , "Anthony Crowley"@fr , "Anthony Crowley"@de , "Ein gutes Omen"@de , "Agnes Nutter"@en , "Agnes Nutter"@fr , "Agnes Nutter"@de , "Anathema Device"@en , "Anathema Device"@fr , "Anathema Device"@de , "De bons presages"@fr .

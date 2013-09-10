@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Eugene_O'Neill__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Fremont,_Ohio> ;
+        dbo:from        "1893"^^xsd:gYear ;
+        dbo:to          "1893"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Fremont,_Ohio>
+        rdfs:label     "Fremont, Ohio"@en , "Fremont, Ohio"@fr , "Fremont, Ohio"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fremont_(Ohio)> , <http://de.dbpedia.org/resource/Fremont_(Ohio)> ;
+        skos:altLabel  "Fremont, OH"@de , "Lower Sandusky"@en , "Lower Sandusky"@fr , "Lower Sandusky"@de , "Croghanville, Ohio"@en , "Croghanville, Ohio"@fr , "Croghanville, Ohio"@de , "Fremont, Ohio"@en , "Fremont, oh"@en , "Fremont, oh"@fr , "Fremont, oh"@de , "Fremont, Ohio"@fr , "Fremont, Ohio"@de , "LOCODE:USXFK"@en , "LOCODE:USXFK"@fr , "LOCODE:USXFK"@de , "Fremont, Oh"@en , "Fremont, Oh"@fr , "Fremont, Oh"@de , "Lower Sandusky, Ohio"@en , "Lower Sandusky, Ohio"@fr , "Lower Sandusky, Ohio"@de , "Fremont"@en , "Fremont"@fr , "Fremont"@de , "Fremont, OH"@en , "Fremont, OH"@fr .
+
+<http://dbpedia.org/resource/Eugene_O'Neill>
+        rdfs:label     "Eugene O'Neill"@de , "Eugene O'Neill"@fr , "Eugene O'Neill"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Eugene_O'Neill__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eugene_O’Neill> , <http://fr.dbpedia.org/resource/Eugene_O'Neill> ;
+        skos:altLabel  "O'Neill, Eugene Gladstone"@en , "O'Neill, Eugene Gladstone"@de , "O'Neill, Eugene Gladstone"@fr , "Plays by Eugene O'Neill"@de , "Plays by Eugene O'Neill"@fr , "Plays by Eugene O'Neill"@en , "Eugene O'Neil"@en , "SS Glencairn"@de , "SS Glencairn"@fr , "SS Glencairn"@en , "Eugene O'Neil"@de , "Eugene O'Neil"@fr , "Eugène O'Neill"@fr , "Eugène O’Neill"@fr , "Eugene O’Neill"@en , "Eugene O’Neill"@de , "Eugene O’Neill"@fr , "Eugene (Gladstone) O'Neill"@en , "Eugene (Gladstone) O'Neill"@de , "Eugene (Gladstone) O'Neill"@fr , "Eugene oneil"@en , "Eugene oneil"@de , "Eugene oneil"@fr , "Eugene oneill"@en , "Eugene oneill"@de , "Eugene oneill"@fr , "O'Neill"@de , "O'Neill"@fr , "O'Neill"@en , "Eugene O'Neill"@en , "Eugene O'Neill"@de , "Eugene O'Neill"@fr , "Days Without End"@en , "Eugene Gladstone O'Neill"@en , "Eugene Gladstone O'Neill"@de , "Days Without End"@de , "Days Without End"@fr , "Eugene Gladstone O'Neill"@fr , "O’Neill"@de , "Eugene O' Neill"@en , "Eugene O' Neill"@de , "Eugene O' Neill"@fr , "Eugene O'Neal"@en , "Eugene O'Neal"@de , "Eugene O'Neal"@fr , "Eugene Oneill"@en , "Eugene Oneill"@de , "Eugene Oneill"@fr .

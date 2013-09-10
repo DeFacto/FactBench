@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robert_De_Niro>
+        rdfs:label     "Robert De Niro"@de , "Robert De Niro"@fr , "Robert De Niro"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robert_De_Niro__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_De_Niro> , <http://fr.dbpedia.org/resource/Robert_De_Niro> ;
+        skos:altLabel  "Robert Mario De Niro Jr."@en , "Robert Mario De Niro Jr."@fr , "Robert Mario De Niro Jr."@de , "Bobby De Nero"@en , "Bobby De Nero"@fr , "Bobby De Nero"@de , "Robert De Nero"@en , "Robert De Nero"@fr , "Robert De Nero"@de , "Bob deniro"@en , "Bob deniro"@fr , "Bob deniro"@de , "Robert Mario \"Bob\" De Niro, Jr"@en , "Robert"@fr , "Robert Mario \"Bob\" De Niro, Jr"@de , "Robert Mario \"Bob\" De Niro, Jr"@fr , "Robert de niro"@en , "Robert de niro"@fr , "Robert de niro"@de , "Robert DeNero"@en , "Robert DeNero"@de , "Robert DeNero"@fr , "Robert deNiro"@en , "Robert deNiro"@fr , "Robert deNiro"@de , "Bob De Nero"@en , "Bob De Nero"@de , "Bob De Nero"@fr , "Bobby deniro"@en , "Bobby deniro"@fr , "Bobby deniro"@de , "Robert de Niro"@en , "Robert de Niro"@fr , "Robert de Niro"@de , "Robert Deniro"@en , "Robert Deniro"@fr , "Robert Deniro"@de , "Robert Mario De Niro, Jr"@en , "Robert Mario De Niro, Jr"@de , "Robert Mario De Niro, Jr"@fr , "Robert Mario \"Bob\" De Niro, Jr."@en , "Robert De Niro"@en , "Robert Mario \"Bob\" De Niro, Jr."@de , "Robert De Niro"@de , "Robert De Niro"@fr , "Robert Mario \"Bob\" De Niro, Jr."@fr , "De Niro, Robert"@en , "De Niro, Robert"@fr , "De Niro, Robert"@de , "Robert De Niro, Jr."@en , "Robert De Niro, Jr."@fr , "Robert De Niro, Jr."@de , "De Niro"@en , "De Niro"@fr , "De Niro"@de , "Bob De Niro"@en , "Bob De Niro"@fr , "Bob De Niro"@de , "Bobby De Niro"@en , "Bobby De Niro"@fr , "Bobby De Niro"@de , "De Nero"@en , "De Nero"@fr , "De Nero"@de , "Robert Dinero"@en , "Robert Dinero"@fr , "Robert Dinero"@de , "Robert DeNiro"@en , "Robert DeNiro"@fr , "Robert DeNiro"@de , "Robert de Nero"@en , "Deniro"@en , "Robert de Nero"@fr , "Deniro"@de , "Deniro"@fr , "Robert de Nero"@de , "Robert Di Nero"@en , "Robert De Niro, Jr"@en , "Robert Di Nero"@fr , "Robert De Niro, Jr"@fr , "Robert Di Nero"@de , "Robert De Niro, Jr"@de , "Robert Mario De Niro"@de .
+
+<http://dbpedia.org/resource/Belleville,_Ontario>
+        rdfs:label     "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belleville_(Ontario)> , <http://fr.dbpedia.org/resource/Belleville_(Ontario)> ;
+        skos:altLabel  "Belleville, ON"@en , "Belleville, ON"@fr , "Belleville, ON"@de , "Thrasher's Corners, Ontario"@en , "Thrasher's Corners, Ontario"@de , "Thrasher's Corners, Ontario"@fr , "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de , "Belleville"@en , "Belleville"@fr , "Belleville"@de .
+
+<http://dbpedia.org/resource/Robert_De_Niro__1>
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Belleville,_Ontario> ;
+        dbo:to          "2003"^^xsd:gYear .

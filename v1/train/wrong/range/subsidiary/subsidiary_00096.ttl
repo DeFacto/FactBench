@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.022f7q>
+        rdfs:label     "BEA Systems"@en , "BEA Systems"@fr , "BEA Systems"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.022f7q__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/BEA_Systems> , <http://fr.dbpedia.org/resource/BEA_Systems> , <http://dbpedia.org/resource/BEA_Systems> ;
+        skos:altLabel  "AquaLogic"@de , "WebLogic"@de , "BEA"@en , "BEA Systems"@en , "BEA Systems, Inc."@en , "Liquid Data"@en , "Bea Systems"@en , "BEA Systems"@fr , "Liquid Data"@fr , "Bea Systems"@fr , "BEA Systems"@de , "Bea Systems"@de , "Liquid Data"@de , "BEA Systems, Inc."@fr , "BEA Systems, Inc."@de , "Oracle WebLogic"@de , "BEA WebLogic"@de , "BEAS"@en , "BEAS"@fr , "BEAS"@de , "ALSB"@en , "ALSB"@fr , "ALSB"@de , "BEA Weblogic"@de , "Bea Weblogic"@de , "BEA Systems Inc."@de .
+
+<http://rdf.freebase.com/ns/m.02lpkz>
+        rdfs:label  "NYNEX"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/NYNEX> .
+
+<http://rdf.freebase.com/ns/m.022f7q__1>
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02lpkz> ;
+        dbo:to          "2005"^^xsd:gYear .

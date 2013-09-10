@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Niles,_Ohio>
+        rdfs:label     "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Niles_(Ohio)> , <http://fr.dbpedia.org/resource/Niles_(Ohio)> ;
+        skos:altLabel  "Niles, OH"@en , "Niles, Oh"@en , "LOCODE:USNLS"@en , "Niles, Oh"@fr , "Niles, Oh"@de , "LOCODE:USNLS"@fr , "LOCODE:USNLS"@de , "Niles, OH"@fr , "Niles, OH"@de , "Heatons Furnace"@de , "Mahoning Salt Springs"@de , "Niles City"@de , "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de , "Nilestown"@de , "Mahoning"@de , "Niles"@en , "Niles"@fr , "Niles"@de , "Mohoning"@de .
+
+<http://dbpedia.org/resource/William_McKinley__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Niles,_Ohio> ;
+        dbo:from        "1832"^^xsd:gYear ;
+        dbo:to          "1832"^^xsd:gYear .
+
+<http://dbpedia.org/resource/William_McKinley>
+        rdfs:label     "William McKinley"@de , "William McKinley"@fr , "William McKinley"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_McKinley__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_McKinley> , <http://de.dbpedia.org/resource/William_McKinley> ;
+        skos:altLabel  "McKinley"@en , "McKinley"@de , "McKinley"@fr , "William A. McKinley"@en , "William A. McKinley"@de , "William A. McKinley"@fr , "W Mckinley"@en , "W Mckinley"@de , "W Mckinley"@fr , "Presidency of William McKinley"@en , "Presidency of William McKinley"@de , "Presidency of William McKinley"@fr , "25th President of the United States"@en , "25th President of the United States"@de , "25th President of the United States"@fr , "William McKinley, Jr."@en , "William McKinley, Jr."@de , "William McKinley, Jr."@fr , "William M'Kinley"@en , "William M'Kinley"@de , "William M'Kinley"@fr , "McKinleynomics"@en , "McKinleynomics"@de , "McKinleynomics"@fr , "McKinley administration"@en , "McKinley administration"@de , "McKinley administration"@fr , "William Mckinley"@en , "William Mckinley"@de , "William Mckinley"@fr , "William McKinley"@en , "William McKinley"@de , "William McKinley"@fr , "W McKinley"@en , "W McKinley"@de , "W McKinley"@fr , "McKinley Administration"@en , "McKinley, William"@en , "President William McKinley"@en , "McKinley, William"@de , "McKinley, William"@fr , "President William McKinley"@de , "President William McKinley"@fr , "McKinley Administration"@de , "McKinley Administration"@fr , "President McKinley"@en , "William mckinley"@en , "President McKinley"@de , "President McKinley"@fr , "William mckinley"@de , "William mckinley"@fr , "William McKinnley"@en , "William McKinnley"@de , "William McKinnley"@fr .

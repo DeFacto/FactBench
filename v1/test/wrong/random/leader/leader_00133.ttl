@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02z6p5f__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0gc8_> ;
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02z6p5f>
+        rdfs:label     "Gabriel Aubry"@en , "Gabriel Aubry"@fr , "Gabriel Aubry"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z6p5f__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gabriel_Aubry> , <http://de.dbpedia.org/resource/Gabriel_Aubry> , <http://fr.dbpedia.org/resource/Gabriel_Aubry> ;
+        skos:altLabel  "Gabriel Aubrey"@fr , "Gabriel Aubrey"@de , "Aubry"@de , "Aubry"@fr , "Gabriel Aubry"@fr , "Gabriel Aubry"@de .
+
+<http://rdf.freebase.com/ns/m.0gc8_>
+        rdfs:label     "Die Stahlhöhlen"@de , "The Caves of Steel"@en , "Les Cavernes d'acier"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Die_Stahlhöhlen> , <http://dbpedia.org/resource/The_Caves_of_Steel> , <http://fr.dbpedia.org/resource/Les_Cavernes_d'acier> ;
+        skos:altLabel  "Roj Nemennuh Sarton"@en , "Roj Nemennuh Sarton"@fr , "Roj Nemennuh Sarton"@de , "Les Cavernes d'acier"@fr , "Les cavernes d'acier"@fr , "Caves of steel"@en , "Caves of steel"@fr , "Caves of steel"@de , "The caves of steel"@en , "The caves of steel"@fr , "The caves of steel"@de , "Die Stahlhöhlen"@de , "Les Cavernes D'acier"@fr , "Die Stahlhohlen"@de , "Caves of Steel"@en , "Caves of Steel"@fr , "Caves of Steel"@de , "The Caves Of Steel"@en , "The Caves Of Steel"@fr , "The Caves Of Steel"@de , "The Caves of Steel"@en , "The Caves of Steel"@fr , "The Caves of Steel"@de .

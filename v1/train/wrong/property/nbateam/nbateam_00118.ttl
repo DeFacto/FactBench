@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Al_Jefferson__1>
+        dbo:from    "2010"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Utah_Jazz> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Utah_Jazz>
+        rdfs:label     "Utah Jazz"@de , "Utah Jazz"@en , "Utah Jazz"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jazz_de_l'Utah> , <http://de.dbpedia.org/resource/Utah_Jazz> ;
+        skos:altLabel  "Jazz De L'Utah"@fr , "Jazz"@en , "Jazz"@fr , "Jazz"@de , "Utah Jazz"@en , "Utah Jazz"@fr , "Utah Jazz"@de , "New Orleans Jazz"@en , "New Orleans Jazz"@de , "New Orleans Jazz"@fr , "Jazz de l'Utah"@fr , "Utah jazz"@en , "Utah jazz"@fr , "Utah jazz"@de , "Jazz de l'utah"@fr .
+
+<http://dbpedia.org/resource/Al_Jefferson>
+        rdfs:label     "Al Jefferson"@en , "Al Jefferson"@fr , "Al Jefferson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Al_Jefferson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Al_Jefferson> , <http://de.dbpedia.org/resource/Al_Jefferson> ;
+        skos:altLabel  "Al Jefferson"@en , "Al Jefferson"@fr , "Al Jefferson"@de , "Jefferson"@de .

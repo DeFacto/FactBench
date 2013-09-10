@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ph77>
+        rdfs:label     "Olaf Stapledon"@en , "Olaf Stapledon"@fr , "Olaf Stapledon"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0ph77__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Olaf_Stapledon> , <http://de.dbpedia.org/resource/Olaf_Stapledon> , <http://dbpedia.org/resource/Olaf_Stapledon> ;
+        skos:altLabel  "Olaf Stapledon"@en , "Olaf Stapledon"@fr , "Olaf Stapledon"@de , "W. Olaf Stapledon"@en , "William Olaf Stapledon"@en , "William Olaf Stapledon"@de , "Olaf Stapleton"@en , "Olaf Stapeldon"@fr , "Olaf Stapleton"@fr , "Olaf Stapleton"@de , "Stapledon"@en , "Stapledon"@de , "Stapledon"@fr .
+
+<http://rdf.freebase.com/ns/m.03m4lg>
+        rdfs:label  "Sirius"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Sirius_(novel)> .
+
+<http://rdf.freebase.com/ns/m.0ph77__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03m4lg> ;
+        dbo:from    "1942"^^xsd:gYear ;
+        dbo:to      "1942"^^xsd:gYear .

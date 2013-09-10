@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03knl>
+        rdfs:label     "Halle Berry"@en , "Halle Berry"@fr , "Halle Berry"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Halle_Berry> , <http://de.dbpedia.org/resource/Halle_Berry> , <http://fr.dbpedia.org/resource/Halle_Berry> ;
+        skos:altLabel  "Haly berry"@fr , "Haly berry"@de , "Halle Berry"@en , "Halle Berry"@fr , "Halle Berry"@de , "Hally Berry"@en , "Hally Berry"@fr , "Hally Berry"@de , "Halle"@en , "Halle"@fr , "Halle"@de , "Halle berry"@en , "Halle Barry"@en , "Berry"@en , "Halle berry"@fr , "Halle Barry"@fr , "Berry"@fr , "Halle Barry"@de , "Berry"@de , "Halle berry"@de , "Maria Halle Berry"@en , "Halle Maria Berry"@en , "Maria Halle Berry"@fr , "Halle Maria Berry"@fr , "Maria Halle Berry"@de , "Halle Maria Berry"@de , "Haly berry"@en .
+
+<http://rdf.freebase.com/ns/m.0fccsp>
+        rdfs:label     "Elsa Pataky"@en , "Elsa Pataky"@fr , "Elsa Pataky"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fccsp__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Elsa_Pataky> , <http://de.dbpedia.org/resource/Elsa_Pataky> , <http://dbpedia.org/resource/Elsa_Pataky> ;
+        skos:altLabel  "Elsa Pataki"@fr , "Elsa Pataki"@de , "Pataky"@de , "Elsa Pataky"@en , "Elsa Pataky"@fr , "Elsa Pataky"@de , "Elsa Pataki"@en , "Elsa Lafuente Medianu"@en .
+
+<http://rdf.freebase.com/ns/m.0fccsp__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03knl> ;
+        dbo:to      "2010"^^xsd:gYear .

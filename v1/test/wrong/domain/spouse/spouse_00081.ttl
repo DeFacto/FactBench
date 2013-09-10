@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03lt8g>
+        rdfs:label     "Eva Longoria"@en , "Eva Longoria"@fr , "Eva Longoria"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Eva_Longoria> , <http://dbpedia.org/resource/Eva_Longoria> , <http://de.dbpedia.org/resource/Eva_Longoria> ;
+        skos:altLabel  "Eva Longoria-Parker"@en , "Eva Longoria Christopher"@fr , "Eva Longoria Christopher"@de , "Eva Longoria-Parker"@fr , "Eva Longoria-Parker"@de , "Eva J. Longoria"@en , "Eva J. Longoria"@fr , "Eva J. Longoria"@de , "Eva Longoria"@en , "Eva Parker"@en , "Eva Longoria"@fr , "Eva Parker"@fr , "Eva Longoria"@de , "Eva Parker"@de , "Eva Longoria Parker"@en , "Eva langoria"@en , "Longoria"@en , "Eva Longoria Parker"@fr , "Eva Longoria Parker"@de , "Eva langoria"@fr , "Eva langoria"@de , "Longoria"@fr , "Longoria"@de , "Eva Longoria-Christopher"@en , "Eva L. Parker"@en , "Eva L. Parker"@fr , "Eva L. Parker"@de , "Eva Jacqueline Longoria"@en , "Eva Jacqueline Longoria"@fr , "Eva Jacqueline Longoria"@de , "Eva Longoria Christopher"@en , "Eva Jacqueline Longoria Parker"@en .
+
+<http://rdf.freebase.com/ns/m.0p17j__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03lt8g> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0p17j>
+        rdfs:label     "Tori Spelling"@de , "Tori Spelling"@en , "Tori Spelling"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0p17j__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tori_Spelling> , <http://dbpedia.org/resource/Tori_Spelling> , <http://de.dbpedia.org/resource/Tori_Spelling> ;
+        skos:altLabel  "Tori Spelling"@en , "Tori Spelling"@fr , "Tori Spelling"@de , "Victoria Davey Spelling"@en , "Spelling"@en , "T"@en , "Victoria Davey Spelling"@fr , "Spelling"@fr , "Spelling"@de , "Victoria Davey Spelling"@de , "The TV Movie Queen"@en , "Victoria Spelling"@en , "Victoria Spelling"@fr , "Victoria Spelling"@de , "Tori Spelling-McDermott"@en , "Spelling, Tori"@en , "Victoria Davey \"Tori\" Spelling"@en , "Tori"@en , "Tori"@de , "Tori"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Venus_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Portland,_Maine> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Portland,_Maine>
+        rdfs:label     "Portland, Maine"@en , "Portland, Maine"@fr , "Portland, Maine"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Portland_(Maine)> , <http://fr.dbpedia.org/resource/Portland_(Maine)> ;
+        skos:altLabel  "Portland"@en , "Portland"@fr , "Portland"@de , "Downtown Portland, Maine"@en , "Downtown Portland, Maine"@fr , "Downtown Portland, Maine"@de , "Portland International Marine Terminal"@en , "Portland Maine"@en , "Portland International Marine Terminal"@fr , "Portland Maine"@fr , "Portland Maine"@de , "Portland International Marine Terminal"@de , "Great Fire of 1866"@en , "Great Fire of 1866"@fr , "Great Fire of 1866"@de , "Portland Pier"@en , "Portland, ME"@en , "Portland, me"@en , "Keystone"@en , "Portland, me"@fr , "Keystone"@fr , "Portland, me"@de , "Keystone"@de , "LOCODE:USPWM"@en , "Portland Pier"@fr , "Portland, ME"@fr , "LOCODE:USPWM"@fr , "Portland Pier"@de , "LOCODE:USPWM"@de , "Portland, ME"@de , "Portland, Maine"@en , "Portland, Maine"@fr , "Portland, Maine"@de .
+
+<http://dbpedia.org/resource/Venus_Williams>
+        rdfs:label     "Venus Williams"@en , "Venus Williams"@fr , "Venus Williams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Venus_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Venus_Williams> , <http://de.dbpedia.org/resource/Venus_Williams> ;
+        skos:altLabel  "Vénus Williams"@fr , "Venus Williams"@en , "Williams"@fr , "Venus Williams"@fr , "Venus Williams"@de , "Venus"@en , "Venus"@fr , "Venus"@de , "Venus Ebone Starr Williams"@en , "Venus Ebone Starr Williams"@de , "Venus Ebone Starr Williams"@fr .

@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01vx3m>
+        rdfs:label     "Woking"@en , "Woking"@de , "Woking"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Woking> , <http://fr.dbpedia.org/resource/Woking> , <http://de.dbpedia.org/resource/Woking> ;
+        skos:altLabel  "Sythwood Primary School"@fr , "Sythwood Primary School"@de , "Sythwood Primary School"@en , "Hoe Bridge School"@fr , "Hoe Bridge School"@de , "Hoe Bridge School"@en , "Barnsbury Estate"@fr , "Barnsbury Estate"@de , "Barnsbury Estate"@en , "Woking"@fr , "Woking"@de , "Woking"@en , "Hoebridge"@fr , "Woking Community Hospital"@fr , "Hoebridge"@de , "Woking Community Hospital"@de , "Hoebridge"@en , "Woking Community Hospital"@en , "International School of London in Surrey"@fr , "Woking, Surrey"@fr , "Woking Hospital"@fr , "International School of London in Surrey"@de , "International School of London in Surrey"@en , "Woking, Surrey"@de , "Woking Hospital"@de , "Woking Hospital"@en , "Woking, Surrey"@en , "St Hugh of Lincoln Catholic Primary School"@fr , "St Hugh of Lincoln Catholic Primary School"@de , "St Hugh of Lincoln Catholic Primary School"@en , "Prins Willem-Alexander school"@fr , "Prins Willem-Alexander school"@de , "Prins Willem-Alexander school"@en .
+
+<http://rdf.freebase.com/ns/m.0d71_x__48>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01vx3m> ;
+        dbo:from             "1997"^^xsd:gYear ;
+        dbo:to               "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0d71_x>
+        rdfs:label      "Intec Telecom Systems"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0d71_x__48> ;
+        owl:sameAs      <http://dbpedia.org/resource/Intec_Telecom_Systems> ;
+        skos:altLabel   "Intec"@en .
+
+<http://dbpedia.org/resource/Intec_Telecom_Systems>
+        skos:altLabel  "Intec Billing"@en , "Intec Telecom Systems"@en , "INTEC"@en , "Intec"@en .

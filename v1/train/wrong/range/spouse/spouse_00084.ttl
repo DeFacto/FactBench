@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026nv0c__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.029q_y> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.026nv0c>
+        rdfs:label     "Alexandre Pato"@en , "Alexandre Pato"@de , "Alexandre Rodrigues da Silva"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.026nv0c__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alexandre_Rodrigues_da_Silva> , <http://dbpedia.org/resource/Alexandre_Pato> , <http://de.dbpedia.org/resource/Alexandre_Pato> ;
+        skos:altLabel  "Rodrigues"@fr , "Alexandre Rodrigues da Silva"@en , "Alexandre Rodrigues da Silva"@fr , "Alexandre Rodrigues da Silva"@de , "Alexander Pato"@en , "Alexander Pato"@fr , "Alexander Pato"@de , "Pa7o"@en , "The Duck"@en , "Alex Pato"@en , "Pato Maravilha"@en , "Alexandre Pato"@en , "Alex Pato"@fr , "Alex Pato"@de , "Alexandre Pato"@fr , "Alexandre Pato"@de , "Silva"@en , "Silva"@fr , "Silva"@de , "Pato"@en , "Pato"@fr , "Pato"@de .
+
+<http://rdf.freebase.com/ns/m.029q_y>
+        rdfs:label     "Holly Marie Combs"@en , "Holly Marie Combs"@fr , "Holly Marie Combs"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Holly_Marie_Combs> , <http://dbpedia.org/resource/Holly_Marie_Combs> , <http://fr.dbpedia.org/resource/Holly_Marie_Combs> ;
+        skos:altLabel  "Holly Marie Combs Donoho"@en , "Holly Marie Combs Donoho"@de , "Holly Marie Combs Donoho"@fr , "Holly Marie Donoho"@en , "Holly Marie Donoho"@fr , "Holly Marie Donoho"@de , "Combs"@fr , "Combs"@de , "holly_marie_combs"@en , "Holl"@en , "Holly Marie Combs-Donoho"@en , "Holly Marie Combs"@en , "Holly Marie Combs"@fr , "Holly Marie Combs"@de , "Holly Combs"@en , "Holly marie combs"@en , "Holly marie combs"@fr , "Holly marie combs"@de , "Holly Donoho"@en , "Holz"@en , "Holly"@fr , "Holly"@de , "Holly Marie Smith"@en .

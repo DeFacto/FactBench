@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02wk6hq__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01vw20_> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02wk6hq>
+        rdfs:label     "ChoiceBot Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02wk6hq__1> ;
+        skos:altLabel  "ChoiceBot"@en .
+
+<http://rdf.freebase.com/ns/m.01vw20_>
+        rdfs:label     "Kid Rock"@en , "Kid Rock"@fr , "Kid Rock"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Kid_Rock> , <http://fr.dbpedia.org/resource/Kid_Rock> , <http://de.dbpedia.org/resource/Kid_Rock> ;
+        skos:altLabel  "Robert James \"Bob\" Ritchie"@en , "Kid Rock"@en , "Bob Ritchie"@en , "Kid Rock"@fr , "Kid Rock"@de , "Robert Ritchie"@en , "Stefanie Eulinberg"@en , "Robert Ritchie"@fr , "Stefanie Eulinberg"@fr , "Stefanie Eulinberg"@de , "Robert Ritchie"@de , "Twisted Brown Trucker"@en , "Ritchie"@en , "Twisted Brown Trucker"@fr , "Ritchie"@fr , "Twisted Brown Trucker"@de , "Ritchie"@de , "Rap Monkey"@en , "Rap Monkey"@fr , "Rap Monkey"@de , "Stephanie Eulinberg"@en , "Stephanie Eulinberg"@fr , "Stephanie Eulinberg"@de , "Bobby"@en , "Rock"@fr , "Bob"@en , "Kid rock"@en , "Kid rock"@fr , "Kid rock"@de , "Robert James Ritchie"@en , "Robert James Ritchie"@fr , "Robert James Ritchie"@de .

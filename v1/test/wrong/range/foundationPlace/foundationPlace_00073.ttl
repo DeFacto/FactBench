@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0r6ff>
+        rdfs:label     "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sunnyvale> , <http://de.dbpedia.org/resource/Sunnyvale_(Kalifornien)> , <http://dbpedia.org/resource/Sunnyvale,_California> ;
+        skos:altLabel  "Sunnyvale, CA"@de , "Sunnyvale, Ca"@fr , "Sunnyvale, California"@fr , "Sunnyvale, California"@de , "Sunnyvale, Ca"@de , "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de , "Vale"@en , "Vale"@fr , "Vale"@de , "Sunnvale"@fr , "LOCODE:USSNN"@en , "LOCODE:USSNN"@fr , "LOCODE:USSNN"@de , "Sunnyvale, CA"@en , "Sunnyvale, Ca"@en , "Sunnyvale, California"@en , "Santa Clara County / Sunnyvale city"@en , "Sunnyvale, CA"@fr .
+
+<http://rdf.freebase.com/ns/m.018nm3__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0r6ff> ;
+        dbo:from             "1982"^^xsd:gYear ;
+        dbo:to               "1982"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018nm3>
+        rdfs:label     "Autodesk"@en , "Autodesk"@fr , "Autodesk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.018nm3__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Autodesk> , <http://fr.dbpedia.org/resource/Autodesk> , <http://dbpedia.org/resource/Autodesk> ;
+        skos:altLabel  "Autodesk Inc. Staff"@en , "Autodesk"@en , "Autodesk"@fr , "Autodesk"@de , "AutoDesk"@en , "AutoDesk"@fr , "AutoDesk"@de , "Inc. Autodesk"@en , "Architectural Desktop"@de , "C-Plan"@de , "Autodesk, Inc."@en , "Autodesk, Inc."@fr , "Autodesk, Inc."@de , "Autodesk Autodesk"@en , "C-Plan AG"@de , "Autodesk Inc."@en , "Autodesk Inc."@fr , "Autodesk Inc."@de , "ADSK"@en , "Autodesk Inc"@en , "ADSK"@fr , "ADSK"@de , "Autodesk Inc"@fr , "Autodesk Inc"@de , "Autodesk building systems"@en , "Autodesk building systems"@fr , "Autodesk building systems"@de .

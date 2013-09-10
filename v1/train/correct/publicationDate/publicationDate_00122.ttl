@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05qph1__122>
+        dbo:author  <http://rdf.freebase.com/ns/m.05qph1> ;
+        dbo:from    "1953"^^xsd:gYear ;
+        dbo:to      "1953"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0cgvf>
+        rdfs:label       "Alfred Bester"@en , "Alfred Bester"@fr , "Alfred Bester"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.05qph1__122> ;
+        owl:sameAs       <http://dbpedia.org/resource/Alfred_Bester> , <http://de.dbpedia.org/resource/Alfred_Bester> , <http://fr.dbpedia.org/resource/Alfred_Bester> ;
+        skos:altLabel    "Bester"@fr , "Bester"@de , "Sonny Powell"@en , "Bester"@en , "Bester, Alfred"@fr , "Bester, Alfred"@de , "Bester, Alfred"@en , "Alfred Bester"@fr , "Alfred Bestor"@en , "Alfred Bester"@de , "Alfred Bester"@en , "Bester alfred"@fr , "Bester alfred"@de , "Bester alfred"@en .
+
+<http://rdf.freebase.com/ns/m.05qph1>
+        rdfs:label     "L'Homme démoli"@fr , "The Demolished Man"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Demolished_Man> , <http://fr.dbpedia.org/resource/L'Homme_démoli> ;
+        skos:altLabel  "L'homme demoli"@fr , "L'Homme Démoli"@fr , "The Demolished Man"@fr , "The Demolished Man"@en , "L'Homme démoli"@fr , "L'Homme demoli"@fr , "Demolished Man"@en , "Demolished Man"@fr , "L'homme démoli"@fr , "L'Homme Demoli"@fr .

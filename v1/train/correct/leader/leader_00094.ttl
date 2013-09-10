@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ionatana_Ionatana__1>
+        dbo:from    "1999-04-27"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Tuvalu> ;
+        dbo:to      "2000-12-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Ionatana_Ionatana>
+        rdfs:label     "Ionatana Ionatana"@en , "Ionatana Ionatana"@fr , "Ionatana Ionatana"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Ionatana_Ionatana__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ionatana_Ionatana> , <http://de.dbpedia.org/resource/Ionatana_Ionatana> ;
+        skos:altLabel  "Ionatana"@fr , "Ionatana Ionatana"@fr , "Ionatana Ionatana"@de , "Ionatana Ionatana, CVO, OBE"@fr , "Ionatana Ionatana, CVO, OBE"@de , "Ionatana"@de .
+
+<http://dbpedia.org/resource/Tuvalu>
+        rdfs:label     "Tuvalu"@de , "Tuvalu"@fr , "Tuvalu"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tuvalu> , <http://fr.dbpedia.org/resource/Tuvalu> ;
+        skos:altLabel  "Toovaloo"@fr , "Toovaloo"@en , "Toovaloo"@de , "Tepuka Savilivili"@fr , "Tepuka Savilivili"@en , "Tepuka Savilivili"@de , "Education in Tuvalu"@fr , "Education in Tuvalu"@de , "Education in Tuvalu"@en , "Tuvaluer"@de , "Fakavae Aliki-Malo i Tuvalu"@de , "Nivalakita"@fr , "Nivalakita"@en , "Nivalakita"@de , "Elliceinseln"@de , "Tuvalu islands"@fr , "Tuvalu islands"@en , "Tuvalu islands"@de , "Transportation in Tuvalu"@fr , "Transportation in Tuvalu"@en , "Tuiva"@de , "Transportation in Tuvalu"@de , "Transport in Tuvalu"@fr , "Transport in Tuvalu"@en , "Transport in Tuvalu"@de , "Sport in Tuvalu"@fr , "Sport in Tuvalu"@en , "Sport in Tuvalu"@de , "Ellice Islands"@fr , "Ellice Islands"@de , "Ellice Islands"@en , "Tuvalu"@fr , "Tuvalu"@en , "Tuvalu"@de , "Îles Tuvalu"@fr , "Ellis Islands"@fr , "ISO 3166-1:TV"@fr , "Ellis Islands"@de , "ISO 3166-1:TV"@en , "ISO 3166-1:TV"@de , "Ellis Islands"@en , "Tuvalu Islands"@fr , "Tuvalu Islands"@en , "Tuvalu Islands"@de , "Ellice-Inseln"@de , "Tuvalo"@fr , "Ellice Island"@fr , "Lagoon Islands"@fr , "Transnational issues"@fr , "Tuvalo"@de , "Ellice Island"@de , "Transnational issues"@en , "Transnational issues"@de , "Ellice Island"@en , "Lagoon Islands"@en , "Lagoon Islands"@de , "Tuvalo"@en , "Iles Tuvalu"@fr , "Transportation"@fr , "Transportation"@en , "Transportation"@de .

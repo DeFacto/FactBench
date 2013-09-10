@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0frrz3__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0730b4> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0frrz3>
+        rdfs:label     "Lindsay Zir"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0frrz3__1> ;
+        skos:altLabel  "Lindsay Amanda Zir"@en , "Pin"@en .
+
+<http://rdf.freebase.com/ns/m.0730b4>
+        rdfs:label     "Kris Humphries"@en , "Kris Humphries"@fr , "Kris Humphries"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kris_Humphries> , <http://dbpedia.org/resource/Kris_Humphries> , <http://de.dbpedia.org/resource/Kris_Humphries> ;
+        skos:altLabel  "Humphries"@fr , "Humphries"@de , "Humphries"@en , "Kris Humphries"@en , "Kris Humphries"@fr , "Kris Humphries"@de , "Kris humphries"@fr , "Kris Nathan Humphries"@en .

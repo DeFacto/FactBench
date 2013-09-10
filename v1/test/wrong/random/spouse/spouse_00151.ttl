@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0lx2l>
+        rdfs:label     "Jim Carrey"@de , "Jim Carrey"@fr , "Jim Carrey"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0lx2l__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jim_Carrey> , <http://dbpedia.org/resource/Jim_Carrey> , <http://fr.dbpedia.org/resource/Jim_Carrey> ;
+        skos:altLabel  "Tony Clifton"@en , "James eugene carrey"@de , "James eugene carrey"@fr , "James eugene carrey"@en , "James Carrey"@de , "James Carrey"@fr , "James Carrey"@en , "Jane Carrey"@de , "Jane Carrey"@fr , "Jane Carrey"@en , "James Eugene Carrey"@de , "James Eugene Carrey"@fr , "James Eugene Carrey"@en , "Jim eugene carrey"@de , "Jim eugene carrey"@fr , "Jim eugene carrey"@en , "Carrey"@de , "Carrey"@fr , "Carrey"@en , "Jim Carry"@de , "Jim Carry"@fr , "Jim Carry"@en , "Jim Carrey"@de , "Jim Carrey"@fr , "Jim Carrey"@en , "James Eugene \"Jim\" Carrey"@en , "Jane Erin Carrey"@en , "Jane Erin Carrey"@de , "Jane Erin Carrey"@fr , "Jim"@fr , "Jim"@en , "Jim carrey"@en , "Jim carrey"@de , "Jim carrey"@fr .
+
+<http://rdf.freebase.com/ns/m.030hbp>
+        rdfs:label     "Mary-Louise Parker"@en , "Mary-Louise Parker"@fr , "Mary-Louise Parker"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mary-Louise_Parker> , <http://de.dbpedia.org/resource/Mary-Louise_Parker> , <http://dbpedia.org/resource/Mary-Louise_Parker> ;
+        skos:altLabel  "Moore and Parker"@en , "Mary-louise parker"@fr , "Mary louise-parker"@en , "MaryLoise Parker"@en , "MaryLoise Parker"@fr , "MaryLoise Parker"@de , "Mary louise-parker"@fr , "Mary louise-parker"@de , "Parker"@fr , "Mary Louise Parker"@en , "Mary Louise Parker"@fr , "Mary Louise Parker"@de , "Mary-Louise Parker"@en , "Mary-Louise Parker"@de , "Mary-Louise Parker"@fr .
+
+<http://rdf.freebase.com/ns/m.0lx2l__1>
+        dbo:from      "2007"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.030hbp> ;
+        dbo:to        "2010"^^xsd:gYear .

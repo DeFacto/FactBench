@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02vjph0__6>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.056_y> ;
+        dbo:from             "1996-11"^^xsd:gYearMonth ;
+        dbo:to               "1996-11"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.056_y>
+        rdfs:label     "Madrid"@fr , "Madrid"@de , "Madrid"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Madrid> , <http://de.dbpedia.org/resource/Madrid> , <http://dbpedia.org/resource/Madrid> ;
+        skos:altLabel  "Madrileno"@fr , "LOCODE:ESMAD"@fr , "Madrileno"@de , "LOCODE:ESMAD"@en , "LOCODE:ESMAD"@de , "Madrileno"@en , "Mayrit"@fr , "Mayrit"@en , "Mayrit"@de , "Madrid, Madrid"@fr , "Madrid, Madrid"@en , "Madrid, Madrid"@de , "Madrilenian"@fr , "Madrilenian"@en , "Madrilenian"@de , "Madrileña"@fr , "Madrileña"@en , "Madrileña"@de , "Capitale de l'Espagne"@fr , "Madrilena"@fr , "Madrilena"@en , "Madrilena"@de , "Capital of Spain"@fr , "Capital of Spain"@en , "Capital of Spain"@de , "Madrilène"@fr , "Lavapiés"@de , "Lavapies"@de , "Madrid"@fr , "Madrid"@en , "Madrid"@de , "Madeurideu"@fr , "Madeurideu"@de , "Madeurideu"@en , "Maduridu"@fr , "Madrileño"@fr , "Madrileño"@en , "Madrileño"@de , "Maduridu"@en , "Maduridu"@de , "Madrilene"@fr , "Madrilene"@en , "Madrilene"@de , "Villa de Madrid"@en , "Madrid, Spain"@fr , "Madrid, Spain"@en , "Madrid, Spain"@de , "The weather in Madrid"@fr , "The weather in Madrid"@en , "The weather in Madrid"@de , "Madrid- Spain"@fr , "Madrid- Spain"@de , "Madrid- Spain"@en , "Madrid City"@fr , "Madrid City"@en , "Madrid City"@de .
+
+<http://rdf.freebase.com/ns/m.02vjph0>
+        rdfs:label      "Silicon Artists, Inc."@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.02vjph0__6> .

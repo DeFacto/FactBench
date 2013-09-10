@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Rawalpindi>
+        rdfs:label     "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rawalpindi> , <http://fr.dbpedia.org/resource/Rawalpindi> ;
+        skos:altLabel  "Rāwalpindi"@en , "Rāwalpindi"@fr , "Rāwalpindi"@de , "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de , "Rawal Pindee"@en , "Rawal Pindee"@fr , "Rawal Pindee"@de , "Râwalpindî"@fr , "Rawalpindi, Pakistan"@en , "Rawalpindi, Pakistan"@fr , "Rawalpindi, Pakistan"@de , "Rāwalpindi, Pakistan"@en , "Rawal Pindi"@en , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@en , "RawalPindi"@en , "Rawal Pindi"@fr , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@fr , "Rawal Pindi"@de , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@de , "Rāwalpindi, Pakistan"@fr , "RawalPindi"@fr , "Rāwalpindi, Pakistan"@de , "RawalPindi"@de , "Pindi"@en , "Pindi"@fr , "Pindi"@de , "Rawlpindini"@en , "Rawlpindini"@fr , "Rawlpindini"@de , "'Pindi"@en , "'Pindi"@fr , "'Pindi"@de .
+
+<http://dbpedia.org/resource/Burt_Lancaster__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rawalpindi> ;
+        dbo:from        "1979"^^xsd:gYear ;
+        dbo:to          "1979"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Burt_Lancaster>
+        rdfs:label     "Burt Lancaster"@en , "Burt Lancaster"@fr , "Burt Lancaster"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Burt_Lancaster__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Burt_Lancaster> , <http://de.dbpedia.org/resource/Burt_Lancaster> ;
+        skos:altLabel  "Burt Lancaster"@de , "Burt Stephen Lancaster"@de , "Bert Lancaster"@en , "Bert Lancaster"@fr , "Bert Lancaster"@de , "Hecht-Hill-Productions"@en , "Hecht-Hill-Productions"@fr , "Hecht-Hill-Productions"@de , "Burt"@de , "Lancaster"@fr , "Lancaster"@de , "Hill-Hecht-Lancaster Productions"@en , "Hill-Hecht-Lancaster Productions"@fr , "Hill-Hecht-Lancaster Productions"@de , "Hecht-Hill-Lancaster Productions"@en , "Burt lancaster"@en , "Burt lancaster"@fr , "Burt lancaster"@de , "Hecht-Hill-Lancaster Productions"@fr , "Hecht-Hill-Lancaster Productions"@de , "Burton Stephen Lancaster"@en , "Burton Stephen Lancaster"@fr , "Burton Stephen Lancaster"@de , "Burton Stephen \"Burt\" Lancaster"@en , "Burton Stephen \"Burt\" Lancaster"@fr , "Burton Stephen \"Burt\" Lancaster"@de , "Burt Lancaster"@en , "Burt Lancaster"@fr .

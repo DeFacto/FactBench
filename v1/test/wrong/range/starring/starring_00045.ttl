@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mad_Max>
+        rdfs:label     "Mad Max"@en , "Mad Max"@fr , "Mad Max"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mad_Max__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mad_Max> , <http://fr.dbpedia.org/resource/Mad_Max> ;
+        skos:altLabel  "Madmax"@en , "Mad Max 2 : le défi"@fr , "Madmax"@fr , "Madmax"@de , "Mad Max III"@fr , "Mad max 1"@en , "Mad max 1"@fr , "Mad max 1"@de , "Mad max"@en , "Mad Max 2 : le defi"@fr , "Mad max"@fr , "Mad max"@de , "Main Force Patrol"@en , "Main Force Patrol"@fr , "Main Force Patrol"@de , "Mad Max"@en , "Mad Max"@fr , "Mad Max"@de .
+
+<http://dbpedia.org/resource/Emma_Thompson>
+        rdfs:label     "Emma Thompson"@en , "Emma Thompson"@fr , "Emma Thompson"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Emma_Thompson> , <http://fr.dbpedia.org/resource/Emma_Thompson> ;
+        skos:altLabel  "Emma thompson"@en , "Emma thompson"@fr , "Emma thompson"@de , "Thompson"@fr , "Ms. Emma Thompson"@en , "Ms. Emma Thompson"@fr , "Ms. Emma Thompson"@de , "Emma Wise"@en , "Emma Wise"@de , "Emma Wise"@fr , "Emma Branagh"@en , "Emma Branagh"@fr , "Emma Branagh"@de , "Emma"@fr , "Emma Thompson"@en , "Emma Thompson"@fr , "Emma Thompson"@de .
+
+<http://dbpedia.org/resource/Mad_Max__1>
+        dbo:from      "1979"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Emma_Thompson> ;
+        dbo:to        "1979"^^xsd:gYear .

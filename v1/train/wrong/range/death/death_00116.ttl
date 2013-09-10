@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kurt_Cobain__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Ana,_California> ;
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:to          "1994"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Santa_Ana,_California>
+        rdfs:label     "Santa Ana, California"@de , "Santa Ana, California"@fr , "Santa Ana, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Santa_Ana_(Californie)> , <http://de.dbpedia.org/resource/Santa_Ana_(Kalifornien)> ;
+        skos:altLabel  "Santa Ana, Orange County, CA"@de , "Santa Ana, Orange County, CA"@fr , "Santa Ana, Orange County, CA"@en , "Santa Ana"@de , "Santa Ana"@fr , "Santa Ana"@en , "Santa Ana de Los Angeles"@de , "Santa Ana de Los Angeles"@fr , "Santa Ana de Los Angeles"@en , "El Sol Science and Arts Academy"@en , "El Sol Science and Arts Academy"@fr , "El Sol Science and Arts Academy"@de , "Santa Anna, California"@de , "Santa Anna, California"@fr , "Santa Anna, California"@en , "Santa Ana, Ca"@de , "Santa Ana, Ca"@fr , "Santa Ana, Ca"@en , "Santa Ana de Los Ángeles"@en , "Santa Ana de Los Ángeles"@de , "Santa Ana de Los Ángeles"@fr , "Santa ana, ca"@en , "Santa ana, ca"@de , "Santa ana, ca"@fr , "Santa Ana, Orange County, California"@de , "Santa Ana, Orange County, California"@fr , "Santa Ana, Orange County, California"@en , "Santa ana, California"@en , "Santa ana, California"@de , "Santa ana, California"@fr , "Santa Ana, California"@en , "Santa Ana, California"@de , "Santa Ana, California"@fr , "Santa Ana, CA"@de , "Santa Ana, CA"@fr , "Santa Ana, CA"@en , "El sol science and arts academy"@de , "El sol science and arts academy"@fr , "El sol science and arts academy"@en , "LOCODE:USSNA"@de , "LOCODE:USSNA"@fr , "LOCODE:USSNA"@en .
+
+<http://dbpedia.org/resource/Kurt_Cobain>
+        rdfs:label     "Kurt Cobain"@de , "Kurt Cobain"@fr , "Kurt Cobain"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kurt_Cobain__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kurt_Cobain> , <http://de.dbpedia.org/resource/Kurt_Cobain> ;
+        skos:altLabel  "List of musical equipment used by Kurt Cobain"@en , "List of musical equipment used by Kurt Cobain"@fr , "List of musical equipment used by Kurt Cobain"@de , "Curt Kobain"@en , "Kurt Cobain"@en , "Curt Kobain"@fr , "Curt Kobain"@de , "Kurt Cobain"@de , "Kurt Cobain"@fr , "Kurt D. Cobain"@en , "Kurt D. Cobain"@de , "Kurt D. Cobain"@fr , "Kurdt Donald Cobain"@fr , "Kurt Kobain"@en , "Kurt Kobain"@fr , "Kurt Kobain"@de , "Curt cobain"@en , "Curt cobain"@de , "Curt cobain"@fr , "Cobain, Kurt"@en , "Cobain, Kurt"@de , "Cobain, Kurt"@fr , "Kurt Cobrain"@en , "Kurt Cobrain"@de , "Kurt Cobrain"@fr , "K-bain"@en , "K-bain"@de , "K-bain"@fr , "Fecal Matter"@fr , "Cobain"@en , "Cobain"@fr , "Cobain"@de , "Kurt Cobaine"@de , "CoBain"@en , "CoBain"@de , "CoBain"@fr , "Kurdt Kobain"@en , "Kurdt Kobain"@fr , "Kurdt Kobain"@de , "Curt Cobain"@en , "Curt Cobain"@de , "Curt Cobain"@fr , "Boddah"@en , "KurtCobain"@en , "Boddah"@fr , "Boddah"@de , "KurtCobain"@de , "KurtCobain"@fr , "Kurt Donald Cobain"@en , "Kurt Donald Cobain"@de , "Kurt Donald Cobain"@fr , "Kurt"@en , "Kurt"@fr , "Kurt"@de , "Kurdt Cobain"@en , "Kurdt Cobain"@de , "Kurdt Cobain"@fr , "Cobai"@fr , "Kurtis Cohbaine"@en , "Kurtis Cohbaine"@fr , "Kurtis Cohbaine"@de , "Kurt cobain"@en , "Kurt cobain"@fr , "Kurt cobain"@de .

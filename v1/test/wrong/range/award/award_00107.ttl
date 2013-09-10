@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h0gk>
+        rdfs:label     "Jaroslav Seifert"@en , "Jaroslav Seifert"@fr , "Jaroslav Seifert"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h0gk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jaroslav_Seifert> , <http://fr.dbpedia.org/resource/Jaroslav_Seifert> , <http://dbpedia.org/resource/Jaroslav_Seifert> ;
+        skos:altLabel  "Jaroslav Seifert"@en , "Jaroslav Seifert"@fr , "Jaroslav Seifert"@de , "Seifert"@fr , "Seifert"@de , "Seifert"@en .
+
+<http://rdf.freebase.com/ns/m.05f3q>
+        rdfs:label     "Nobel Peace Prize"@en , "Friedensnobelpreis"@de , "Prix Nobel de la paix"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Friedensnobelpreis> , <http://fr.dbpedia.org/resource/Prix_Nobel_de_la_paix> , <http://dbpedia.org/resource/Nobel_Peace_Prize> ;
+        skos:altLabel  "Friedens-Nobelpreis"@de , "Nobel Prize for Peace"@en , "Nobel Peace Laureate"@en , "Nobel Prize for Peace"@fr , "Nobelpreis für Frieden"@de , "Nobel Peace Laureate"@fr , "Nobel Prize for Peace"@de , "Nobel Peace Laureate"@de , "Nobel peace prize"@en , "Nobel peace prize"@de , "Nobel peace prize"@fr , "Nobel peace laureate"@en , "Nobel peace laureate"@fr , "Nobel peace laureate"@de , "Peace"@en , "Peace"@fr , "Peace"@de , "Nobel Peace Prize Winner"@en , "Nobel Peace Prize Winner"@de , "Nobel Peace Prize Winner"@fr , "Peace Prize"@en , "Peace Prize"@fr , "Peace Prize"@de , "Nobel peace"@en , "Nobel peace"@fr , "Nobel peace"@de , "Nobel prize peace"@en , "Nobel prize peace"@fr , "Nobel prize peace"@de , "Nobel de la paix"@fr , "Prix nobel de la paix"@fr , "Nobel Peace Price"@en , "Nobel Peace Price"@fr , "Prix nobel de la Paix"@fr , "Nobel Peace Price"@de , "Nobel Peace prize"@en , "Nobel Peace prize"@de , "Nobel Peace prize"@fr , "Prix Nobel de la Paix"@fr , "Peace Nobel"@en , "Peace Nobel"@fr , "Peace Nobel"@de , "Nobelpreis fur Frieden"@de , "Friedensnobelpreis"@de , "Noble Peace Prize"@en , "Noble Peace Prize"@fr , "Noble Peace Prize"@de , "Nobel Prize in Peace"@en , "Nobel Prize in Peace"@fr , "Nobel Prize in Peace"@de , "2012 Nobel Peace Prize"@en , "2012 Nobel Peace Prize"@de , "2012 Nobel Peace Prize"@fr , "Nobel Peace Prixe"@en , "Nobel Peace Prixe"@de , "Nobel Peace Prixe"@fr , "PeacE"@en , "PeacE"@fr , "PeacE"@de , "Nobel Peace"@en , "Nobel Peace"@de , "Nobel Peace"@fr , "Nobel Peace Prize"@en , "Nobel Peace Prize"@de , "Nobel Peace Prize"@fr , "Prix Nobel de la paix"@fr , "Peace Award"@en , "Peace Award"@fr , "Peace Award"@de , "2001 Nobel Peace Prize"@en , "Nobel Prize in peace"@en , "2001 Nobel Peace Prize"@fr , "2001 Nobel Peace Prize"@de , "Nobel Prize in peace"@fr , "Nobel Prize in peace"@de .
+
+<http://rdf.freebase.com/ns/m.0h0gk__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.05f3q> ;
+        dbo:from   "1984"^^xsd:gYear ;
+        dbo:to     "1984"^^xsd:gYear .

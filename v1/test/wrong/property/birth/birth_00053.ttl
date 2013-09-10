@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Shakira>
+        rdfs:label     "Shakira"@de , "Shakira"@fr , "Shakira"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Shakira__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Shakira> , <http://de.dbpedia.org/resource/Shakira> ;
+        skos:altLabel  "Shakira's Sixth Studio Album"@en , "Shakira's Sixth Studio Album"@fr , "Shakira's Sixth Studio Album"@de , "Chakira"@fr , "Tu Seras la Historia de Mi Vida"@en , "Tu Seras la Historia de Mi Vida"@fr , "Tu Seras la Historia de Mi Vida"@de , "Pure Intuition: The Best of Collection"@en , "Pure Intuition: The Best of Collection"@de , "Pure Intuition: The Best of Collection"@fr , "Tu Seras La Historia De Mi Vida"@en , "Tu Seras La Historia De Mi Vida"@fr , "Tu Seras La Historia De Mi Vida"@de , "Love in the Time of Cholera"@en , "Pure Intuition: The Best Of Collection"@en , "Esta Noche Voy Contigo"@en , "Love in the Time of Cholera"@fr , "Love in the Time of Cholera"@de , "Pure Intuition: The Best Of Collection"@de , "Pure Intuition: The Best Of Collection"@fr , "Esta Noche Voy Contigo"@de , "Esta Noche Voy Contigo"@fr , "Shakira & Alejandro Sanz"@en , "Shakira & Alejandro Sanz"@fr , "Shakira & Alejandro Sanz"@de , "Shakira"@en , "Shakira"@fr , "Shakira"@de , "Shakira Mebarak"@en , "Shakira Isabel Mebarak"@en , "Shakira Isabel Mebarak"@de , "Shakira Isabel Mebarak"@fr , "Shakira Mebarak"@fr , "Shakira Mebarak"@de , "Lejos De Tu Amor"@en , "Lejos De Tu Amor"@fr , "Lejos De Tu Amor"@de , "Brujeria"@en , "Brujeria"@fr , "Brujeria"@de , "Shakira Mebarak Ripoll"@en , "Shakira Mebarak Ripoll"@de , "Shakira Mebarak Ripoll"@fr , "Movement"@en , "Movement"@fr , "Movement"@de , "Shakira Bio"@en , "Shakira Bio"@de , "Shakira Bio"@fr , "Shaqira"@en , "Shaqira"@fr , "Shaqira"@de , "Todos Juntos"@en , "Todos Juntos"@fr , "Todos Juntos"@de , "Peligro"@en , "Peligro"@fr , "Peligro"@de , "Shakira notable concerts"@en , "Shakira notable concerts"@fr , "Shakira notable concerts"@de , "Shakira Isabel"@en , "Shakira Isabel"@de , "Shakira Isabel"@fr , "Shakira Isabel Ripoll"@en , "Shakira Isabel Ripoll"@fr , "Shakira Isabel Ripoll"@de , "Shakira Ripol"@en , "Shakira Ripol"@fr , "Shakira Ripol"@de , "Shakira ft. Wyclef Jean"@en , "Shakira ft. Wyclef Jean"@fr , "Shakira ft. Wyclef Jean"@de , "Shakira Isabel Mebarak Ripoll"@en , "Shakira Ripoll"@en , "Shakira Ripoll"@de , "Shakira Isabel Mebarak Ripoll"@de , "Shakira Isabel Mebarak Ripoll"@fr , "Shakira Ripoll"@fr .
+
+<http://dbpedia.org/resource/Shakira__1>
+        dbo:from      "1977"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Barranquilla> ;
+        dbo:to        "1977"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Barranquilla>
+        rdfs:label     "Barranquilla"@de , "Barranquilla"@fr , "Barranquilla"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Barranquilla> , <http://fr.dbpedia.org/resource/Barranquilla> ;
+        skos:altLabel  "Barranquilla, Colombia"@en , "Barranquilla, Colombia"@de , "Barranquilla, Colombia"@fr , "Trinidad"@en , "Colegio San José Barranquilla"@en , "Trinidad"@de , "Trinidad"@fr , "Colegio San José Barranquilla"@de , "Colegio San José Barranquilla"@fr , "Barranquillia"@en , "Barranquillia"@de , "Barranquillia"@fr , "Barranquilla"@en , "Barranquilla"@de , "Barranquilla"@fr , "Colegio San Jose Barranquilla"@en , "Colegio San Jose Barranquilla"@de , "Colegio San Jose Barranquilla"@fr , "Barranquilla, Atlántico"@de , "Barranquilla, Atlántico"@fr , "Barranquilla, Atlántico"@en , "Barranquillia, Colombia"@en , "Barranquillia, Colombia"@de , "Barranquillia, Colombia"@fr , "Barranquillera"@en , "Barranquillera"@de , "Barranquillera"@fr , "Baranquilla"@en , "Baranquilla"@de , "Baranquilla"@fr , "Aéroport Ernesto Cortissoz"@fr , "Barranquilla, Atlantico, Colombia"@en , "Barranquilla, Atlantico, Colombia"@de , "Barranquilla, Atlantico, Colombia"@fr , "Barranquila"@en , "Barranquila"@de , "Barranquila"@fr , "Barranquilla, Atlantico"@en , "Barranquilla, Atlantico"@de , "Barranquilla, Atlantico"@fr , "Aeroport Ernesto Cortissoz"@fr , "Trinidad, Colombia"@de , "Trinidad, Colombia"@fr , "Trinidad, Colombia"@en , "Baranquila"@en , "Baranquila"@de , "Baranquila"@fr , "Barranquilla, Atlántico, Colombia"@de , "Barranquilla, Atlántico, Colombia"@fr , "Barranquilla, Atlántico, Colombia"@en .

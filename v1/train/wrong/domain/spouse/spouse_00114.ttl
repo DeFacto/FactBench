@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.064j4zy>
+        rdfs:label     "Charlie Shanian"@en ;
+        skos:altLabel  "Charlie Shahnaian"@en .
+
+<http://rdf.freebase.com/ns/m.04z_8x>
+        rdfs:label     "Isabella Leong"@en , "Isabella Leong"@fr , "Isabella Leong"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04z_8x__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Isabella_Leong> , <http://fr.dbpedia.org/resource/Isabella_Leong> , <http://de.dbpedia.org/resource/Isabella_Leong> ;
+        skos:altLabel  "Leong"@de , "Isabella Leong"@fr , "Isabella Leong"@de , "Luoshi Liang"@en , "Lok-si Leung"@en , "Bella"@en , "梁洛施"@en , "Luísa Isabella Nolasco da Silva"@en , "Isabella"@en , "Liang Luoshi"@fr , "Liang Luoshi"@de , "Isabella Leung"@en , "Isabella Leung"@fr , "Isabella Leung"@de , "Leong, Isabella"@en .
+
+<http://rdf.freebase.com/ns/m.04z_8x__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.064j4zy> ;
+        dbo:to      "2006"^^xsd:gYear .

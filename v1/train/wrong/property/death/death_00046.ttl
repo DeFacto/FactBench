@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Münster>
+        rdfs:label     "Münster"@en , "Münster"@fr , "Münster"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Münster_(Westfalen)> , <http://fr.dbpedia.org/resource/Münster> ;
+        skos:altLabel  "Münsteraner"@de , "Jambon de Westphalie"@fr , "Munster"@fr , "Munster"@de , "Munsteraner"@de , "Münster"@de , "Münster"@fr .
+
+<http://dbpedia.org/resource/Kurt_Aland>
+        rdfs:label     "Kurt Aland"@de , "Kurt Aland"@en , "Kurt Aland"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kurt_Aland__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kurt_Aland> , <http://fr.dbpedia.org/resource/Kurt_Aland> ;
+        skos:altLabel  "Kurt Aland"@en , "Kurt Aland"@fr , "Kurt Aland"@de , "Aland"@en , "Aland"@fr , "Aland"@de .
+
+<http://dbpedia.org/resource/Kurt_Aland__1>
+        dbo:author  <http://dbpedia.org/resource/Münster> ;
+        dbo:from    "1994"^^xsd:gYear ;
+        dbo:to      "1994"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Malaysia>
+        rdfs:label     "Malaysia"@de , "Malaysia"@fr , "Malaysia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Malaysia> , <http://fr.dbpedia.org/resource/Malaisie> ;
+        skos:altLabel  "Name of Malaysia"@en , "Name of Malaysia"@de , "Name of Malaysia"@fr , "ISO 3166-1:MY"@en , "ISO 3166-1:MY"@fr , "ISO 3166-1:MY"@de , "Malaysia sports"@en , "Malaysia sports"@fr , "Malaysia sports"@de , "Republic of Malaysia"@en , "Republic of Malaysia"@fr , "Republic of Malaysia"@de , "MSIA"@en , "MSIA"@de , "MSIA"@fr , "Subdivisions of Malaysia"@en , "Subdivisions of Malaysia"@de , "Subdivisions of Malaysia"@fr , "Malaya"@en , "Malaya"@fr , "Malaya"@de , "Maylasia"@en , "Maylasia"@de , "Maylasia"@fr , "Fédération de Malaysia"@fr , "MALAYSIA"@en , "Federation state of Malaysia"@en , "Islam in Malaysia"@de , "MALAYSIA"@fr , "Federation state of Malaysia"@de , "Federation state of Malaysia"@fr , "MALAYSIA"@de , "M'sia"@en , "Federation de Malaysia"@fr , "M'sia"@de , "M'sia"@fr , "Malaysian Federation"@en , "Malaysian Federation"@fr , "Malaysian Federation"@de , "Malaysians"@en , "Malaysians"@fr , "Malaysians"@de , "Malayasia"@en , "Malayasia"@fr , "Malayasia"@de , "Maylaysia"@en , "Maylaysia"@fr , "Maylaysia"@de , "Malaixiya"@en , "Malaixiya"@fr , "Malaixiya"@de , "Malais"@fr , "Embassy of Malaysia"@en , "Embassy of Malaysia"@fr , "Embassy of Malaysia"@de , "Malyasia"@en , "Malasia"@en , "Malyasia"@fr , "Malasia"@de , "Malasia"@fr , "Malaysie"@fr , "Malyasia"@de , "Malaisia"@en , "Malaisie"@en , "Malaisia"@fr , "Malaisia"@de , "Malaisie"@fr , "Malaisie"@de , "Malaise"@fr , "Malaysien"@de , "Persekutuan Malaysia"@en , "Malay"@en , "Malay"@fr , "Malay"@de , "Persekutuan Malaysia"@fr , "Persekutuan Malaysia"@de , "Federation of Malaysia"@en , "Federation of Malaysia"@fr , "Federation of Malaysia"@de , "Etymology of Malaysia"@en , "Etymology of Malaysia"@de , "Etymology of Malaysia"@fr , "Malaysia"@en , "Malaysia"@fr , "Malaysia"@de .
+
+<http://dbpedia.org/resource/Osachi_Hamaguchi>
+        rdfs:label     "Osachi Hamaguchi"@en , "Osachi Hamaguchi"@fr , "Osachi Hamaguchi"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Osachi_Hamaguchi__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Osachi_Hamaguchi> , <http://de.dbpedia.org/resource/Hamaguchi_Osachi> ;
+        skos:altLabel  "Osaji Hamaguchi"@en , "Osaji Hamaguchi"@fr , "Osaji Hamaguchi"@de , "Hamaguchi Yuko"@de , "Hamaguchi Osachi"@en , "Hamaguchi Osachi"@fr , "Hamaguchi Osachi"@de , "Hamaguchi Yūkō"@de , "Hamaguchi"@en , "Hamaguchi"@fr , "Hamaguchi"@de , "Osachi Hamaguchi"@en , "Osachi Hamaguchi"@fr , "Osachi Hamaguchi"@de .
+
+<http://dbpedia.org/resource/Osachi_Hamaguchi__1>
+        dbo:from    "1982"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Malaysia> ;
+        dbo:to      "1996"^^xsd:gYear .

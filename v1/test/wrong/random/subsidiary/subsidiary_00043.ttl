@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/James_Callaghan__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0r6ff> ;
+        dbo:from   "2006"^^xsd:gYear ;
+        dbo:to     "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0r6ff>
+        rdfs:label     "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sunnyvale> , <http://de.dbpedia.org/resource/Sunnyvale_(Kalifornien)> , <http://dbpedia.org/resource/Sunnyvale,_California> ;
+        skos:altLabel  "Sunnyvale, CA"@de , "Sunnyvale, Ca"@fr , "Sunnyvale, California"@fr , "Sunnyvale, California"@de , "Sunnyvale, Ca"@de , "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de , "Vale"@en , "Vale"@fr , "Vale"@de , "Sunnvale"@fr , "LOCODE:USSNN"@en , "LOCODE:USSNN"@fr , "LOCODE:USSNN"@de , "Sunnyvale, CA"@en , "Sunnyvale, Ca"@en , "Sunnyvale, California"@en , "Santa Clara County / Sunnyvale city"@en , "Sunnyvale, CA"@fr .
+
+<http://dbpedia.org/resource/James_Callaghan>
+        rdfs:label     "James Callaghan"@de , "James Callaghan"@fr , "James Callaghan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/James_Callaghan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/James_Callaghan> , <http://fr.dbpedia.org/resource/James_Callaghan> ;
+        skos:altLabel  "Jim Callaghan"@de , "Premiership of James Callaghan"@de , "Premiership of James Callaghan"@fr , "Premiership of James Callaghan"@en , "Jim Callaghan"@fr , "Jim Callaghan"@en , "James Callaghan, Baron Callaghan"@de , "James Callaghan, Baron Callaghan"@fr , "James Callaghan, Baron Callaghan"@en , "James, Baron Callaghan of Cardiff Callaghan"@de , "James, Baron Callaghan of Cardiff Callaghan"@fr , "James, Baron Callaghan of Cardiff Callaghan"@en , "Baron Callaghan of Cardiff"@de , "Baron Callaghan of Cardiff"@fr , "Baron Callaghan of Cardiff"@en , "Lord Callaghan"@de , "Lord Callaghan"@fr , "Lord Callaghan"@en , "Leonard James Callaghan"@de , "Leonard James Callaghan"@fr , "Leonard James Callaghan"@en , "Lord Callaghan of Cardiff"@de , "Lord Callaghan of Cardiff"@fr , "Lord Callaghan of Cardiff"@en , "James Callaghan"@de , "James Callaghan"@fr , "James Callaghan"@en , "Callaghan"@de , "Callaghan"@fr , "Lord James Callaghan"@de , "Lord James Callaghan"@fr , "Lord James Callaghan"@en , "James Callaghan, Baron Callaghan of Cardiff"@de , "James Callaghan, Baron Callaghan of Cardiff"@fr , "James Callaghan, Baron Callaghan of Cardiff"@en .

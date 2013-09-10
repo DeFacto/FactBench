@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Setagaya,_Tokyo>
+        rdfs:label     "Setagaya, Tokyo"@en , "Setagaya, Tokyo"@fr , "Setagaya, Tokyo"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Setagaya> , <http://fr.dbpedia.org/resource/Setagaya> ;
+        skos:altLabel  "Setagaya"@en , "Setagaya, Tokyo"@en , "Setagaya"@fr , "Setagaya"@de , "Setagaya, Tokyo"@de , "Setagaya, Tokyo"@fr , "Setagaya-ku"@en , "Setagaya-ku"@fr , "Setagaya-ku"@de , "Setagaya-ku, Tokyo"@en , "Setagaya-ku, Tokyo"@fr , "Setagaya-ku, Tokyo"@de , "Setagaya Ward"@en , "Setagaya Ward"@fr , "Setagaya Ward"@de .
+
+<http://rdf.freebase.com/ns/m.06y030>
+        rdfs:label  "Susan Lanier"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06y030__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Susan_Lanier> .
+
+<http://rdf.freebase.com/ns/m.06y030__1>
+        dbo:award  <http://dbpedia.org/resource/Setagaya,_Tokyo> ;
+        dbo:from   "1999"^^xsd:gYear ;
+        dbo:to     "1999"^^xsd:gYear .

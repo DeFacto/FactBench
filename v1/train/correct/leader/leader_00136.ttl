@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Louis_Botha__1>
+        dbo:from    "1910-05-31"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/South_Africa> ;
+        dbo:to      "1919-08-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Louis_Botha>
+        rdfs:label     "Louis Botha"@en , "Louis Botha"@fr , "Louis Botha"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Louis_Botha__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Louis_Botha> , <http://de.dbpedia.org/resource/Louis_Botha> ;
+        skos:altLabel  "Botha"@fr , "Botha"@en , "Botha"@de , "Louis Botha"@fr , "Louis Botha"@de , "Louis Botha"@en , "General Louis Botha"@fr , "General Louis Botha"@de , "General Louis Botha"@en .
+
+<http://dbpedia.org/resource/South_Africa>
+        rdfs:label     "South Africa"@de , "South Africa"@fr , "South Africa"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Afrique_du_Sud> , <http://de.dbpedia.org/resource/Südafrika> ;
+        skos:altLabel  "Seth efrika"@de , "Seth efrika"@en , "Afrique du Sud"@fr , "Zuid Afrika"@fr , "Zuid Afrika"@de , "Zuid Afrika"@en , "South-Africa"@fr , "South-Africa"@de , "South-Africa"@en , "Sudaf"@fr , "Third Republic"@fr , "National Council of Provinces"@de , "Third Republic"@en , "Third Republic"@de , "South Africa's"@fr , "South Africa's"@de , "South Africa's"@en , "Sud-africains"@fr , "Republic of south africa"@fr , "Republic of south africa"@de , "Republic of south africa"@en , "République d'Afrique du Sud"@fr , "Afrique Du Sud"@fr , "Zuid Africa"@fr , "Suid-Afrika"@fr , "Zuid Africa"@de , "Suid-Afrika"@de , "Suid-Afrika"@en , "Zuid Africa"@en , "S. Africa"@fr , "S. Africa"@de , "S. Africa"@en , "South Africa"@fr , "South Africa"@de , "South Africa"@en , "Republik Südafrika"@de , "Sudafrika"@de , "Suid Africa"@fr , "Suid Africa"@de , "Suid Africa"@en , "Southafrica"@fr , "Southafrica"@de , "Southafrica"@en , "South Africaà"@fr , "Saffa"@fr , "South Africaà"@de , "Saffa"@de , "Saffa"@en , "South Africaà"@en , "Sud-Africain"@fr , "Sudafrikanisch"@de , "Sud africain"@fr , "Afrique-du-Sud"@fr , "Afrique d'Sud"@fr , "Zuidafrika"@fr , "Zuidafrika"@de , "Zuidafrika"@en , "South africa"@fr , "South-African"@fr , "South-African"@de , "South-African"@en , "South africa"@de , "South africa"@en , "Ningizimu Afrika"@fr , "Ningizimu Afrika"@de , "Ningizimu Afrika"@en , "Republik Sudafrika"@de , "Capital of South Africa"@fr , "Capital of South Africa"@de , "Capital of South Africa"@en , "Republiek van Suid-Afrika"@fr , "Republiek van Suid-Afrika"@de , "Republiek van Suid-Afrika"@en , "The Republic of South Africa"@fr , "South Africa black and whites"@fr , "Südafrikanisch"@de , "The Republic of South Africa"@de , "The Republic of South Africa"@en , "South Africa black and whites"@de , "South Africa black and whites"@en , "Zuid-Afrika"@fr , "Zuid-Afrika"@de , "Zuid-Afrika"@en , "The Beloved Country"@fr , "Afrique du sud"@fr , "Afrique du sud"@de , "Afrique du sud"@en , "Mzansi"@fr , "The Beloved Country"@de , "Mzansi"@de , "The Beloved Country"@en , "Mzansi"@en , "Regenbogennation"@de , "Sud-africain"@fr , "Udsa"@fr , "Udsa"@de , "Udsa"@en , "South African"@fr , "South African"@de , "South African"@en , "Republic of South Africa"@fr , "British South Africa"@fr , "British South Africa"@de , "British South Africa"@en , "Republic of South Africa"@de , "Republic of South Africa"@en , "ISO 3166-1:ZA"@fr , "ISO 3166-1:ZA"@de , "ISO 3166-1:ZA"@en , "S Africa"@fr , "S Africa"@de , "S Africa"@en , "Suedafrika"@de , "Sud-africaine"@fr , "South Africaa"@fr , "South Africaa"@de , "Südafrika"@de , "South Africaa"@en , "Seth efrika"@fr , "Republique d'Afrique du Sud"@fr .

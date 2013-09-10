@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nazr_Mohammed__1>
+        dbo:from  "2005"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Los_Angeles_Lakers> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Nazr_Mohammed>
+        rdfs:label     "Nazr Mohammed"@fr , "Nazr Mohammed"@de , "Nazr Mohammed"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nazr_Mohammed__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nazr_Mohammed> , <http://de.dbpedia.org/resource/Nazr_Mohammed> ;
+        skos:altLabel  "Nazr mohamed"@fr , "Nazr mohamed"@de , "Nazr Mohammed"@de , "Nazr Mohammed"@fr , "Nazr Tahiru Mohammed"@fr , "Nazr Tahiru Mohammed"@de , "Nazr Mohammad"@fr , "Nazr Mohammad"@de .
+
+<http://dbpedia.org/resource/Los_Angeles_Lakers>
+        rdfs:label     "Los Angeles Lakers"@de , "Los Angeles Lakers"@fr , "Los Angeles Lakers"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Los_Angeles_Lakers> , <http://fr.dbpedia.org/resource/Lakers_de_Los_Angeles> ;
+        skos:altLabel  "Los Angeles Laker"@en , "Los Angeles Laker"@de , "Los Angeles Laker"@fr , "Gems de Détroit"@fr , "Lakers de los angeles"@fr , "Lakers de Los Angeles"@fr , "The Los Angeles Lakers"@en , "Lakers De Los Angeles"@fr , "Losangeles lakers"@de , "Losangeles lakers"@fr , "The Los Angeles Lakers"@de , "The Los Angeles Lakers"@fr , "Losangeles lakers"@en , "Laker"@en , "Laker"@de , "Minneapolis Lakers"@de , "Minneapolis Lakers"@fr , "Minneapolis Lakers"@en , "Laker"@fr , "Minnesota Lakers"@de , "Minnesota Lakers"@fr , "Minnesota Lakers"@en , "Lakers"@en , "Lakers"@de , "Lakers"@fr , "Gems de Detroit"@fr , "Los Angeles Lakers retired numbers"@en , "Los Angeles Lakers retired numbers"@de , "Los Angeles Lakers retired numbers"@fr , "L.A. Lakers"@en , "L.A. Lakers"@de , "L.A. Lakers"@fr , "LA Lakers"@en , "LA Lakers"@de , "LA Lakers"@fr , "Lakers de Minneapolis"@fr , "L. A. Lakers"@de , "La lakers"@en , "La lakers"@de , "La lakers"@fr , "Detroit Gems"@fr , "Los Angeles Lakers"@en , "Los Angeles Lakers"@de , "Los Angeles Lakers"@fr , "L.a lakers"@en , "L.a lakers"@de , "L.a lakers"@fr .

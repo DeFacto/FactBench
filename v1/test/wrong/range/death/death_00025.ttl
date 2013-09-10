@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dean_Martin__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Davenport,_Iowa> ;
+        dbo:from        "1995"^^xsd:gYear ;
+        dbo:to          "1995"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dean_Martin>
+        rdfs:label     "Dean Martin"@en , "Dean Martin"@fr , "Dean Martin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dean_Martin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dean_Martin> , <http://de.dbpedia.org/resource/Dean_Martin> ;
+        skos:altLabel  "Dean"@fr , "Dino Crocetti"@en , "Dino Crocetti"@fr , "Dino Crocetti"@de , "Martin"@fr , "Dean Martin"@en , "Dino Martini"@en , "Dean Martin"@fr , "Dean Martin"@de , "Dino Martini"@fr , "Dino Martini"@de , "Dino Martin"@en , "Dino Paul Crocetti"@en , "Dino Paul Crocetti"@fr , "Dino Paul Crocetti"@de , "Dino Martin"@fr , "Dino Martin"@de , "Martin, Dean"@en , "Martin, Dean"@fr , "Martin, Dean"@de .
+
+<http://dbpedia.org/resource/Davenport,_Iowa>
+        rdfs:label     "Davenport, Iowa"@en , "Davenport, Iowa"@fr , "Davenport, Iowa"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Davenport_(Iowa)> , <http://fr.dbpedia.org/resource/Davenport_(Iowa)> ;
+        skos:altLabel  "Stampe Lilac Garden"@en , "Stampe Lilac Garden"@fr , "Stampe Lilac Garden"@de , "Davenport"@en , "LOCODE:USDVN"@en , "Davenport"@fr , "LOCODE:USDVN"@fr , "LOCODE:USDVN"@de , "Davenport"@de , "Meredith Haley"@en , "Meredith Haley"@fr , "Meredith Haley"@de , "Davenport, Iowa"@en , "Davenport, Iowa"@fr , "Davenport, Iowa"@de , "Davenport, iowa"@en , "Davenport, iowa"@fr , "Davenport, iowa"@de , "Davenport, IA"@en , "Davenport, IA"@fr , "Davenport, IA"@de .

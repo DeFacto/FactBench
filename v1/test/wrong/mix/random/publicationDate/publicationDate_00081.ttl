@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mary_Pickford__1>
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0r679> ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0r679>
+        rdfs:label     "Cupertino"@en , "Cupertino"@fr , "Cupertino"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cupertino> , <http://dbpedia.org/resource/Cupertino,_California> , <http://fr.dbpedia.org/resource/Cupertino> ;
+        skos:altLabel  "Cupertino"@en , "Cupertino"@fr , "Cupertino"@de , "Santa Clara County / Cupertino city"@en , "Cupertino, Calif."@en , "Cupertino, Calif."@fr , "Cupertino, Calif."@de , "LOCODE:USCUO"@en , "LOCODE:USCUO"@fr , "LOCODE:USCUO"@de , "Cupertino, CA"@en , "Cupertino, CA"@fr , "Cupertino, CA"@de , "Cupertino, Ca"@en , "Cupertino, Ca"@de , "Cupertino, Ca"@fr , "Cupertino, California"@en , "Cupertino, California"@fr , "Cupertino, California"@de .
+
+<http://dbpedia.org/resource/Mary_Pickford>
+        rdfs:label     "Mary Pickford"@en , "Mary Pickford"@fr , "Mary Pickford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mary_Pickford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mary_Pickford> , <http://fr.dbpedia.org/resource/Mary_Pickford> ;
+        skos:altLabel  "Mary Gladys Louise Smith"@en , "Mary Pickford"@en , "MaryPickford"@en , "Dorothy Nicholson"@fr , "Mary Gladys Louise Smith"@fr , "MaryPickford"@de , "MaryPickford"@fr , "Mary Pickford"@fr , "Mary Pickford"@de , "Mary Gladys Louise Smith"@de , "Pickford"@en , "Pickford"@fr , "Pickford"@de .

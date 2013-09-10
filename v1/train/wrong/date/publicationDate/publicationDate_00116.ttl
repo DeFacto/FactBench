@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0m77m__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.09z4nb> ;
+        dbo:from    "1978"^^xsd:gYear ;
+        dbo:to      "1978"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0m77m>
+        rdfs:label     "Doris Lessing"@de , "Doris Lessing"@fr , "Doris Lessing"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0m77m__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Doris_Lessing> , <http://de.dbpedia.org/resource/Doris_Lessing> , <http://dbpedia.org/resource/Doris_Lessing> ;
+        skos:altLabel  "Doris May Lessing CH, OBE"@de , "Doris May Lessing CH, OBE"@fr , "Doris May Lessing CH, OBE"@en , "Doriss Lessing"@fr , "Doris lessing"@de , "Doris lessing"@fr , "Doris lessing"@en , "Lessing, Doris"@de , "Lessing, Doris"@fr , "Lessing, Doris"@en , "Briefing for a Descent into Hell"@de , "Briefing for a Descent into Hell"@fr , "Briefing for a Descent into Hell"@en , "Doris May Lessing"@fr , "Doris May Lessing"@en , "Doris May Lessing"@de , "Doris Lessing"@de , "Doris Lessing"@fr , "Doris Lessing"@en , "Doris May Taylor"@en , "Doris Lessig"@de , "Doris Lessig"@fr , "Doris Lessig"@en , "Lessing"@de , "Lessing"@fr , "Lessing"@en , "Doris May Tayler"@de , "Doris May Tayler"@en , "Doris Lessin"@en , "Doris Tayler"@en , "Jane Somers"@de , "Jane Somers"@fr , "Jane Somers"@en , "Doris Lessing; et. al."@en .
+
+<http://rdf.freebase.com/ns/m.09z4nb>
+        rdfs:label     "The Sentimental Agents in the Volyen Empire"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Sentimental_Agents_in_the_Volyen_Empire> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "The Sentimental Agents in the Volyen Empire"@en .

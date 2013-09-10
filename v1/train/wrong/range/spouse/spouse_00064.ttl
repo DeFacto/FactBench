@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.016xh5>
+        rdfs:label     "Hugh Grant"@fr , "Hugh Grant"@de , "Hugh Grant"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hugh_Grant> , <http://de.dbpedia.org/resource/Hugh_Grant> , <http://dbpedia.org/resource/Hugh_Grant> ;
+        skos:altLabel  "Hughie Grant"@en , "Hugh John Mungo Grant"@en , "Hugh John Mungo Grant"@de , "Hugh John Mungo Grant"@fr , "Hugh Grant"@en , "Hugh Grant"@fr , "Hugh Grant"@de , "Grant"@fr .
+
+<http://rdf.freebase.com/ns/m.06y030>
+        rdfs:label  "Susan Lanier"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06y030__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Susan_Lanier> .
+
+<http://rdf.freebase.com/ns/m.06y030__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.016xh5> ;
+        dbo:to      "2008"^^xsd:gYear .

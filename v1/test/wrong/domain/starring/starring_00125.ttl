@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1>
+        dbo:from      "1987"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Jesse_Ventura> ;
+        dbo:to        "1987"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Jesse_Ventura>
+        rdfs:label     "Jesse Ventura"@de , "Jesse Ventura"@fr , "Jesse Ventura"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jesse_Ventura> , <http://de.dbpedia.org/resource/Jesse_Ventura> ;
+        skos:altLabel  "James George Janos"@de , "James George Janos"@fr , "James George Janos"@en , "James G. Janos"@fr , "James G. Janos"@en , "James G. Janos"@de , "Gov. Jesse Ventura"@de , "Gov. Jesse Ventura"@fr , "Gov. Jesse Ventura"@en , "Jim Janos"@de , "Jim Janos"@fr , "Jim Janos"@en , "Jessee Ventura"@de , "Jessee Ventura"@fr , "Jessee Ventura"@en , "Jesse The Body Ventura"@de , "Jesse The Body Ventura"@fr , "Jesse The Body Ventura"@en , "James Janos"@de , "James Janos"@fr , "James Janos"@en , "Ventura"@de , "Ventura"@fr , "Jesse \"The Body\" Ventura"@de , "Jesse \"The Body\" Ventura"@fr , "Jesse \"The Body\" Ventura"@en , "Ventura"@en , "Jessie Ventura"@de , "Jessie Ventura"@fr , "Jessie Ventura"@en , "Jessie ventura"@de , "Jessie ventura"@fr , "Jessie ventura"@en , "Jesse"@fr , "Jesse Ventura"@de , "Jesse Ventura"@fr , "Jesse Ventura"@en .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)>
+        rdfs:label     "A Hard Day's Night (film)"@en , "A Hard Day's Night (film)"@fr , "A Hard Day's Night (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/A_Hard_Day's_Night_(film)> , <http://de.dbpedia.org/resource/Yeah_Yeah_Yeah> ;
+        skos:altLabel  "Quatre garcons dans le vent"@fr , "A Hard Days Night"@en , "A Hard Days Night"@fr , "A Hard Days Night"@de , "Quatre Garçons dans le vent"@fr , "Quatre Garcons dans le vent"@fr , "A Hard Day's Night"@en , "A Hard Day's Night"@fr , "A Hard Day's Night"@de , "4 garcons dans le vent"@fr , "Yeah Yeah Yeah"@de , "Quatre garçons dans le vent"@fr , "Hard day's night"@en , "Hard day's night"@fr , "Hard day's night"@de , "4 garçons dans le vent"@fr .

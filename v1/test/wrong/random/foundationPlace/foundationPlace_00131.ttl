@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c1d0>
+        rdfs:label     "Providence"@de , "Providence"@fr , "Providence"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Providence> , <http://fr.dbpedia.org/resource/Providence_(Rhode_Island)> , <http://dbpedia.org/resource/Providence,_Rhode_Island> ;
+        skos:altLabel  "LOCODE:USPVD"@de , "LOCODE:USPVD"@fr , "LOCODE:USPVD"@en , "Providence, Rhode island"@en , "Capital of Rhode Island"@de , "Capital of Rhode Island"@fr , "Capital of Rhode Island"@en , "Nathanael Greene school"@de , "Nathanael Greene school"@fr , "Nathanael Greene school"@en , "Providence, R.I."@de , "Providence, Rhode island"@de , "Providence Rhode Island"@de , "Providence Rhode Island"@fr , "Providence Rhode Island"@en , "Providence, Rhode island"@fr , "Providence, R.I."@fr , "Providence, R.I."@en , "Providence, RI"@de , "Providence, RI"@fr , "Providence, RI"@en , "Providence County / Providence city"@en , "Providence, USA"@en , "Providence, USA"@de , "Providence, USA"@fr , "Providence, Rhode Island"@de , "Providence, Rhode Island"@fr , "Providence, Rhode Island"@en , "Providence"@en , "Providence"@de , "Providence"@fr , "Providence rhode island"@de , "Providence rhode island"@fr , "Providence rhode island"@en , "Providnece"@en , "Providnece"@de , "Providnece"@fr , "Providence RI"@en , "Providence RI"@de , "Providence RI"@fr , "Providence, ri"@de , "Providence, ri"@fr , "Providence, ri"@en .
+
+<http://dbpedia.org/resource/Prince_(musician)__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.0c1d0> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Prince_(musician)>
+        rdfs:label     "Prince (musician)"@de , "Prince (musician)"@fr , "Prince (musician)"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Prince_(musician)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Prince> , <http://fr.dbpedia.org/resource/Prince_(musicien)> ;
+        skos:altLabel  "Alexander Nevermind"@en , "Alexander Nevermind"@de , "Alexander Nevermind"@fr , "Prince Nelson"@en , "The Artist Formerly Known As Prince"@en , "Prince Nelson"@fr , "Prince Nelson"@de , "The Artist Formerly Known As Prince"@fr , "The Artist Formerly Known As Prince"@de , "The Artist Formerly Known as Prince"@en , "The Artist Formerly Known as Prince"@fr , "The Artist Formerly Known as Prince"@de , "The Artist Formally Known As Prince"@en , "The Artist Formally Known As Prince"@fr , "The Artist Formally Known As Prince"@de , "Mattie Shaw"@en , "Mattie Shaw"@de , "Mattie Shaw"@fr , "Matti Shaw"@en , "Matti Shaw"@fr , "Matti Shaw"@de , "Artist formerly known as Prince"@de , "Artist formerly known as Symbol"@de , "Jamie Starr"@en , "Jamie Starr"@fr , "Jamie Starr"@de , "Prince Rogers Nelson"@en , "Prince & the New Revolution"@en , "Prince Rogers Nelson"@fr , "Prince & the New Revolution"@de , "Prince & the New Revolution"@fr , "Prince Rogers Nelson"@de , "Prince singer"@en , "TAFKAP"@en , "TAFKAP"@de , "TAFKAP"@fr , "Prince & the Revolution"@fr , "Prince artist"@en , "Alexander nevermind"@en , "Alexander nevermind"@fr , "Alexander nevermind"@de , "Rogers Nelson"@de , "Prince artist"@fr , "Prince singer"@de , "Prince singer"@fr , "Prince artist"@de , "Artist Formerly Known as Prince"@en , "Artist Formerly Known as Prince"@fr , "Artist Formerly Known as Prince"@de , "Mayte Garcia"@fr , "Manuela Testolini"@en , "Manuela Testolini"@fr , "Manuela Testolini"@de , "AFKAP"@en , "AFKAP"@fr , "AFKAP"@de , "Artist Formerly Known As Prince"@en , "Artist Formerly Known As Prince"@de , "Artist Formerly Known As Prince"@fr , "TAKFAP"@fr , "Tafkap"@en , "Tafkap"@de , "Tafkap"@fr , "Prince roger nelson"@en , "Prince roger nelson"@fr , "Prince roger nelson"@de , "Prince"@en , "Prince"@fr , "Prince"@de , "Prince Fans United"@en , "Prince Fans United"@de , "Prince Fans United"@fr .

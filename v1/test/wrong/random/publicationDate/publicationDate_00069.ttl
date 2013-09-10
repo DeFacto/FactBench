@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0807_n>
+        rdfs:label  "MarkLogic"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0807_n__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/MarkLogic> .
+
+<http://dbpedia.org/resource/Roswell,_Georgia>
+        rdfs:label     "Roswell, Georgia"@en , "Roswell, Georgia"@fr , "Roswell, Georgia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Roswell_(Georgia)> ;
+        skos:altLabel  "LOCODE:USRWE"@de , "LOCODE:USRWE"@en , "Roswell"@en , "Roswell"@de , "Roswell, Georgia"@en , "Roswell, Georgia"@de , "Roswell, GA"@en , "Roswell, GA"@de .
+
+<http://rdf.freebase.com/ns/m.0807_n__1>
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Roswell,_Georgia> ;
+        dbo:to      "1984"^^xsd:gYear .

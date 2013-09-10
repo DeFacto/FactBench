@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Burma>
+        rdfs:label     "Burma"@de , "Burma"@fr , "Burma"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Birmanie> , <http://de.dbpedia.org/resource/Myanmar> ;
+        skos:altLabel  "Miandian"@en , "Miandian"@fr , "Miandian"@de , "Pyidaungsu Thamada Myanmar Naing-Ngan-Daw"@de , "Birmanie"@en , "Birmanie"@fr , "Birmanie"@de , "Union von Myanmar"@de , "Union of burma"@en , "Eastern Burma"@en , "Eastern Burma"@de , "Eastern Burma"@fr , "Union of burma"@fr , "Union of burma"@de , "Republic of the Union of Myanmar"@en , "Mayanmar"@en , "Republic of the Union of Myanmar"@fr , "Pyidaungzu Myanma Naingngandaw"@fr , "Mayanmar"@fr , "Mayanmar"@de , "Republic of the Union of Myanmar"@de , "Birman"@fr , "Union du Myanmar"@fr , "Myammar"@en , "Myammar"@fr , "Myammar"@de , "Union of Burma"@en , "Union of Burma"@de , "Union of Burma"@fr , "Myanma Naingngan"@de , "Myanma"@en , "Myanma"@fr , "Myanma"@de , "Socialist Republic of the Union of Burma"@en , "Mianmar"@en , "BURMA"@en , "BURMA"@de , "BURMA"@fr , "République de l'Union du Myanmar"@fr , "Socialist Republic of the Union of Burma"@fr , "Socialist Republic of the Union of Burma"@de , "Union Myanmar"@de , "Mianmar"@fr , "République socialiste de l'Union de Birmanie"@fr , "Mianmar"@de , "Birmania"@en , "Birmania"@de , "Birmania"@fr , "Republique socialiste de l'Union de Birmanie"@fr , "Union of Myanmar"@en , "Union of Myanmar"@fr , "Union of Myanmar"@de , "Birma"@en , "Birma"@fr , "Birma"@de , "Pye Tawngsu Myanma Naingngan"@de , "(Burma)"@en , "(Burma)"@fr , "(Burma)"@de , "Birman Empire"@en , "Birman Empire"@fr , "Birman Empire"@de , "Myanmar"@en , "Myanmar"@fr , "Myanmar"@de , "Republique de l'Union du Myanmar"@fr , "Union de Birmanie"@fr , "Noms de la Birmanie"@fr , "Burma"@en , "Burma"@fr , "Burma"@de , "Mjanmar"@de , "Pyi-daung-zu Myan-ma Naing-ngan-daw"@en , "Pyi-daung-zu Myan-ma Naing-ngan-daw"@de , "Pyi-daung-zu Myan-ma Naing-ngan-daw"@fr , "Noms de la birmanie"@fr , "Etymology of Burma"@en , "ISO 3166-1:MM"@en , "ISO 3166-1:MM"@de , "ISO 3166-1:MM"@fr , "Etymology of Burma"@fr , "Etymology of Burma"@de , "Myanmer"@en , "Myanmer"@fr , "Myanmer"@de .
+
+<http://dbpedia.org/resource/Than_Shwe__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Burma> ;
+        dbo:from             "1992"^^xsd:gYear ;
+        dbo:to               "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Than_Shwe>
+        rdfs:label     "Than Shwe"@en , "Than Shwe"@fr , "Than Shwe"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Than_Shwe__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Than_Shwe> , <http://fr.dbpedia.org/resource/Than_Shwe> ;
+        skos:altLabel  "Than Shew"@fr , "Than Shew"@de , "General Than Shwe"@en , "General Than Shwe"@fr , "General Than Shwe"@de , "Shwe"@en , "U Than Shwe"@en , "U Than Shwe"@fr , "U Than Shwe"@de , "Shwe"@fr , "Shwe"@de , "Senior General Than Shwe"@en , "Senior General Than Shwe"@fr , "Senior General Than Shwe"@de , "THAN SHWE"@en , "THAN SHWE"@fr , "THAN SHWE"@de , "Than Shwe"@en , "Than Shwe"@fr , "Than Shwe"@de , "Than Shew"@en .

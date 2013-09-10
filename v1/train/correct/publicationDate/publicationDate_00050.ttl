@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04mhl>
+        rdfs:label       "Larry Niven"@de , "Larry Niven"@en , "Larry Niven"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02lw7f__50> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Larry_Niven> , <http://dbpedia.org/resource/Larry_Niven> , <http://de.dbpedia.org/resource/Larry_Niven> ;
+        skos:altLabel    "Niven"@fr , "Niven"@de , "Niven"@en , "Larry"@fr , "Larry"@de , "Larry"@en , "Larry Niven"@fr , "Larry Niven"@de , "Larry Niven"@en , "Laurence Van Cott Niven"@en , "Laurence van Cott Niven"@fr , "Laurence van Cott Niven"@de , "Laurence van Cott Niven"@en , "Larry niven"@fr , "Larry niven"@de , "Larry niven"@en , "Laurence Niven"@fr , "Laurence Niven"@de , "Laurence Niven"@en .
+
+<http://dbpedia.org/resource/The_Integral_Trees>
+        skos:altLabel  "Integral Trees"@en , "The Integral Trees"@en .
+
+<http://rdf.freebase.com/ns/m.02lw7f>
+        rdfs:label  "The Integral Trees"@fr , "The Integral Trees"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Integral_Trees> .
+
+<http://rdf.freebase.com/ns/m.02lw7f__50>
+        dbo:author  <http://rdf.freebase.com/ns/m.02lw7f> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .

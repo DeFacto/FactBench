@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0k6bt>
+        rdfs:label     "Louvain"@fr , "Löwen"@de , "Leuven"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Louvain> , <http://de.dbpedia.org/resource/Löwen> , <http://dbpedia.org/resource/Leuven> ;
+        skos:altLabel  "LOCODE:BELEU"@de , "LOCODE:BELEU"@fr , "LOCODE:BELEU"@en , "Lowen"@de , "Lowen"@fr , "Lowen"@en , "Lovaina"@de , "Lovaina"@fr , "Lovaina"@en , "Loewen"@de , "Loewen"@fr , "Loewen"@en , "Wijgmaal"@de , "Wijgmaal"@fr , "Wijgmaal"@en , "Lowanium"@de , "Lowanium"@fr , "Lowanium"@en , "Leuven railway station"@de , "Leuven railway station"@fr , "Leuven railway station"@en , "Lovanium"@de , "Lovanium"@fr , "Lovanium"@en , "Leuven, Belgium"@de , "Leuven, Belgium"@fr , "Leuven, Belgium"@en , "Leuven"@de , "Louvaine"@de , "Louvaine"@fr , "Louvaine"@en , "Leuven"@fr , "Leuven"@en , "Louvain"@fr , "Louvain"@en , "Löwen"@de , "Löwen"@en .
+
+<http://rdf.freebase.com/ns/m.02vjph0>
+        rdfs:label  "Silicon Artists, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02vjph0__1> .
+
+<http://rdf.freebase.com/ns/m.02vjph0__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0k6bt> ;
+        dbo:from             "1984"^^xsd:gYear ;
+        dbo:to               "1984"^^xsd:gYear .

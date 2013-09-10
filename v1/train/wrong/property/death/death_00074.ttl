@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nashville,_Tennessee>
+        rdfs:label     "Nashville, Tennessee"@en , "Nashville, Tennessee"@de , "Nashville, Tennessee"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nashville> , <http://de.dbpedia.org/resource/Nashville> ;
+        skos:altLabel  "Nashville, Tennesee"@de , "Nashville-Davidson"@en , "Nashville Neighborhoods"@en , "Nashville-Davidson"@fr , "Nashville Neighborhoods"@fr , "Nashville Neighborhoods"@de , "Nashville-Davidson"@de , "Little kurdistan"@en , "Little kurdistan"@fr , "Little kurdistan"@de , "Nashville Tennessee"@en , "Nashville Tennessee"@fr , "Nashville Tennessee"@de , "City of Nashville"@en , "City of Nashville"@fr , "City of Nashville"@de , "West Nashville"@en , "West Nashville"@fr , "West Nashville"@de , "Capital of Tennessee"@en , "Capital of Tennessee"@fr , "Capital of Tennessee"@de , "Aeroport international de Nashville"@fr , "Nashville-Davidson (city), TN"@en , "Nashville-Davidson (city), TN"@fr , "Nashville-Davidson (city), TN"@de , "Cashville, Tennessee"@en , "Cashville, Tennessee"@fr , "Cashville, Tennessee"@de , "Nashville neighborhoods"@en , "Nashville neighborhoods"@fr , "Nashville neighborhoods"@de , "Businesses in Nashville"@en , "Nashville-Davidson (city), Davidson County, TN"@en , "Nashville-Davidson, Tennessee"@en , "Nashville tn"@en , "Nashville-Davidson, Tennessee"@fr , "Nashville-Davidson, Tennessee"@de , "Nashville-Davidson (city), Davidson County, TN"@fr , "Nashville-Davidson (city), Davidson County, TN"@de , "Businesses in Nashville"@fr , "Nashville tn"@fr , "Nashville tn"@de , "Businesses in Nashville"@de , "Music City"@en , "Music City"@fr , "Music City"@de , "Nashville, Tenn."@en , "Nashville, Tenn."@fr , "Nashville, Tenn."@de , "Nashville-Davidson County"@en , "Nashville, USA"@en , "Nashville-Davidson County"@fr , "Nashville, USA"@fr , "Nashville-Davidson County"@de , "Nashville, USA"@de , "Nashville-Davidson, TN"@en , "Nashville-Davidson, TN"@fr , "Nashville-Davidson, TN"@de , "Downtown Nashville"@en , "Neighborhoods of Nashville"@en , "Nashville, TN"@en , "Downtown Nashville"@fr , "Nashville, TN"@fr , "Downtown Nashville"@de , "Nashville, TN"@de , "Neighborhoods of Nashville"@fr , "Neighborhoods of Nashville"@de , "Music City Walk of Fame"@de , "Music City USA"@en , "Music City USA"@fr , "Music City USA"@de , "Nashville, tn"@en , "Nashville, tn"@fr , "Nashville, tn"@de , "Nashville, Tennessee"@en , "Nashvillian"@en , "Nashville, Tennessee"@fr , "Nashville, Tennessee"@de , "Nashvillian"@fr , "Nashvillian"@de , "South Nashville"@en , "South Nashville"@fr , "South Nashville"@de , "Nashville International Airport"@fr , "Aéroport international de Nashville"@fr , "Nash Vegas"@en , "Nash Vegas"@fr , "Nash Vegas"@de , "Nashville Tenn"@en , "Nashville Tenn"@fr , "Nashville Tenn"@de , "Nashville"@en , "Nashville"@fr , "Nashville"@de , "The weather in Nashville"@en , "The weather in Nashville"@fr , "The weather in Nashville"@de , "Little Kurdistan"@en , "Little Kurdistan"@fr , "Little Kurdistan"@de , "Nashville-Davidson (city), Tennessee"@en , "North Nashville"@en , "Nashville-Davidson (city), Tennessee"@fr , "North Nashville"@de , "Nashville-Davidson (city), Tennessee"@de , "North Nashville"@fr , "Nashville, Tennesee"@en , "Nashville, Tennesee"@fr .
+
+<http://dbpedia.org/resource/Chet_Atkins__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Nashville,_Tennessee> ;
+        dbo:from             "2001"^^xsd:gYear ;
+        dbo:to               "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chet_Atkins>
+        rdfs:label     "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chet_Atkins__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chet_Atkins> , <http://fr.dbpedia.org/resource/Chet_Atkins> ;
+        skos:altLabel  "Chester Burton Atkins"@fr , "Chester Burton Atkins"@de , "Atkins"@fr , "Atkins"@de , "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de , "Chester B. Atkins"@en , "Chester B. Atkins"@fr , "Chester B. Atkins"@de , "Chet atkins"@fr , "Mr. Guitar"@en , "Mr. Guitar"@fr , "Mr. Guitar"@de , "Chester Atkins"@en , "Chester Atkins"@fr , "Chester Atkins"@de , "Chester Burton Atkins"@en .

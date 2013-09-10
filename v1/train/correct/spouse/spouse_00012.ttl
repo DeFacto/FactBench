@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05lh1j>
+        rdfs:label     "Jessica Paré"@de , "Jessica Paré"@fr , "Jessica Paré"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Jessica_Par%C3%A9> ;
+        skos:altLabel  "Jessica Pare"@en .
+
+<http://rdf.freebase.com/ns/m.0bqwjpy>
+        rdfs:label     "Joseph M. Smith"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0bqwjpy__12> ;
+        skos:altLabel  "Joe Smith"@en .
+
+<http://dbpedia.org/resource/Jessica_Par%C3%A9>
+        skos:altLabel  "Jessica Paré"@en , "Jessica Pare"@en .
+
+<http://rdf.freebase.com/ns/m.0bqwjpy__12>
+        dbo:from    "2007-08-10"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05lh1j> ;
+        dbo:to      "2010"^^xsd:gYear .

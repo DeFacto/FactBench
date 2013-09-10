@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0282rdt>
+        rdfs:label     "Macecraft Software"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0282rdt__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Macecraft_Software> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Macecraft Software"@en .
+
+<http://rdf.freebase.com/ns/m.0282rdt__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03khn> ;
+        dbo:from             "1999"^^xsd:gYear ;
+        dbo:to               "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03khn>
+        rdfs:label     "Helsinki"@fr , "Helsinki"@en , "Helsinki"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Helsinki> , <http://dbpedia.org/resource/Helsinki> , <http://de.dbpedia.org/resource/Helsinki> ;
+        skos:altLabel  "Helsinki"@de , "Helsinki"@fr , "Helsinki"@en , "Capitale de la Finlande"@fr , "Helstinky"@de , "Helstinky"@fr , "Helstinky"@en , "Helsset"@en , "Helsset"@de , "Helsset"@fr , "Helsinkiem"@de , "Helsinkiem"@fr , "Helsinkiem"@en , "Helsingfors"@en , "Helsingfors"@de , "Helsingfors"@fr , "Stadi"@de , "Stadi"@fr , "Stadi"@en , "Helsinki, Finland"@de , "Helsinki, Finland"@fr , "Helsinki, Finland"@en , "LOCODE:FIHEL"@de , "LOCODE:FIHEL"@fr , "LOCODE:FIHEL"@en , "Helsinky"@de , "Helsinky"@fr , "Helsinky"@en , "Helsinki, finland"@en , "Helsinki, finland"@de , "Helsinki, finland"@fr , "Helsinki,Finland"@de , "Helsinki,Finland"@fr , "Helsinki,Finland"@en , "Capital of Finland"@de , "Capital of Finland"@fr , "Capital of Finland"@en , "City of Helsinki"@de , "City of Helsinki"@fr , "City of Helsinki"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tupac_Shakur>
+        rdfs:label     "Tupac Shakur"@en , "Tupac Shakur"@de , "Tupac Shakur"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tupac_Shakur__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tupac_Shakur> , <http://de.dbpedia.org/resource/Tupac_Shakur> ;
+        skos:altLabel  "Tu Pac"@en , "Shakur"@en , "Tupac Shakur Tattoos"@en , "Tu Pac"@fr , "Shakur"@fr , "Tupac Shakur Tattoos"@fr , "Tu Pac"@de , "Shakur"@de , "Tupac Shakur Tattoos"@de , "2 pac"@en , "2 pac"@fr , "2 pac"@de , "Tu-Pac"@en , "Tu-Pac"@fr , "Tu-Pac"@de , "Ghetto Gospel"@de , "2Pac"@en , "Thug Life"@en , "Two pac"@en , "Two pac"@fr , "Two pac"@de , "The Hate You Give Little Infants Fucks Everybody"@en , "2Pac"@fr , "Thug Life"@fr , "Thug Life"@de , "The Hate You Give Little Infants Fucks Everybody"@fr , "2Pac"@de , "The Hate You Give Little Infants Fucks Everybody"@de , "Tupac"@en , "Tupac"@fr , "Tupac"@de , "Tupac amaru shakur"@de , "Makavelli"@en , "Makavelli"@fr , "Makavelli"@de , "Tupac Amaru Shakur"@en , "Tupac Amaru Shakur"@fr , "Tupac Amaru Shakur"@de , "TuPac"@fr , "Crooks"@de , "Amaru"@en , "Amaru"@fr , "Amaru"@de , "2Face"@en , "Tupak Shakur"@en , "2Face"@fr , "Tupak Shakur"@fr , "2Face"@de , "Tupak Shakur"@de , "Parish Crooks"@en , "Parish Crooks"@fr , "Parish Crooks"@de , "Crooks, Parish Lesane"@en , "Crooks, Parish Lesane"@fr , "Crooks, Parish Lesane"@de , "Lesane Parish Crooks"@en , "Lesane Parish Crooks"@fr , "Lesane Parish Crooks"@de , "2pac Shakur"@en , "2pac"@en , "2pac Shakur"@fr , "2pac"@fr , "2pac"@de , "2pac Shakur"@de , "One Nation"@en , "One Nation"@fr , "One Nation"@de , "Tupa"@en , "Tupa"@fr , "Tupa"@de , "Euphanasia"@en , "2PAC"@en , "Euphanasia"@fr , "2PAC"@fr , "Euphanasia"@de , "2PAC"@de , "Macadoshis"@en , "Macadoshis"@fr , "Macadoshis"@de , "Túpac Shakur"@en , "Túpac Shakur"@fr , "Túpac Shakur"@de , "Makaveli"@en , "Makaveli"@fr , "Makaveli"@de , "Parish Lesane Crooks"@en , "Parish Lesane Crooks"@fr , "Parish Lesane Crooks"@de , "'Pac"@en , "'Pac"@fr , "'Pac"@de , "Lesane Crooks"@en , "Live 2 Tell"@en , "2 Pac"@en , "Noble outlaw"@en , "Thug Immortal"@en , "Lesane Crooks"@fr , "Makaveli The Don"@de , "2 Pac"@fr , "Thug Immortal"@fr , "Thug Immortal"@de , "2 Pac"@de , "Noble outlaw"@fr , "Noble outlaw"@de , "Lesane Crooks"@de , "Live 2 Tell"@fr , "Live 2 Tell"@de , "2Pac Amaru Shakur"@en , "2Pac Shakur"@en , "2Pac Amaru Shakur"@fr , "2Pac Shakur"@fr , "2Pac Amaru Shakur"@de , "2Pac Shakur"@de , "Túpac Amaru Shakur"@en , "Túpac Amaru Shakur"@fr , "Túpac Amaru Shakur"@de , "Billy Garland"@en , "Billy Garland"@fr , "Billy Garland"@de , "MC New York"@en , "MC New York"@fr , "MC New York"@de , "TwoPack"@en , "TwoPack"@fr , "TwoPack"@de , "2-Pac"@en , "2-Pac"@fr , "2-Pac"@de , "Tupac Shakur"@en , "Thug"@en , "Tupac Shakur"@fr , "Thug"@fr , "Thug"@de , "Tupac Shakur"@de .
+
+<http://dbpedia.org/resource/Tupac_Shakur__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Plano,_Texas> ;
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Plano,_Texas>
+        rdfs:label     "Plano, Texas"@en , "Plano, Texas"@fr , "Plano, Texas"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Plano_(Texas)> , <http://de.dbpedia.org/resource/Plano_(Texas)> ;
+        skos:altLabel  "LOCODE:USPLZ"@en , "LOCODE:USPLZ"@fr , "LOCODE:USPLZ"@de , "Chinaville"@en , "Chinaville"@fr , "Chinaville"@de , "Plano"@en , "Plano"@fr , "Plano"@de , "Plano, Texas"@en , "Plano, Texas"@fr , "Plano, Texas"@de , "Plano, TX"@en , "Plano, TX"@fr , "Plano, TX"@de , "Plano, Tex."@en , "Plano Police Department"@en , "Plano, Tex."@fr , "Plano Police Department"@fr , "Plano, Tex."@de , "Plano Police Department"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0pf5y>
+        rdfs:label     "Mannheim"@en , "Mannheim"@fr , "Mannheim"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mannheim> , <http://dbpedia.org/resource/Mannheim> , <http://de.dbpedia.org/resource/Mannheim> ;
+        skos:altLabel  "Neckarau"@en , "Neckarau"@fr , "Neckarau"@de , "Manheim, Germany"@en , "Manheim, Germany"@fr , "Manheim, Germany"@de , "Heim"@fr , "Quadratestadt"@en , "Quadratestadt"@de , "Quadratestadt"@fr , "Mannheim, Germany"@en , "Mannheim, Germany"@fr , "Mannheim, Germany"@de , "LOCODE:DEMHG"@en , "Mannheim"@en , "LOCODE:DEMHG"@fr , "Mannheim"@fr , "Mannheim"@de , "LOCODE:DEMHG"@de .
+
+<http://rdf.freebase.com/ns/m.01pf4l__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0pf5y> ;
+        dbo:from             "1964"^^xsd:gYear ;
+        dbo:to               "1964"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01pf4l>
+        rdfs:label     "SAP"@fr , "SAP"@de , "SAP AG"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01pf4l__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/SAP> , <http://dbpedia.org/resource/SAP_AG> , <http://fr.dbpedia.org/resource/SAP_(entreprise)> ;
+        skos:altLabel  "SAP Business One"@de , "SAP Aktiengesellschaft"@en , "SAP Aktiengesellschaft"@de , "SAP Aktiengesellschaft"@fr , "SAP"@en , "SAP consultancy"@en , "SAP consultancy"@de , "SAP consultancy"@fr , "SAP TECHED"@en , "SAP TECHED"@de , "SAP TECHED"@fr , "SAP APJ"@en , "SAP APJ"@fr , "SAP Business ByDesign"@de , "SAP APJ"@de , "SAP TechEd"@en , "SAP User-Group Executive Network"@en , "SAP Labs India"@en , "SAP TechEd"@fr , "SAP TechEd"@de , "Systemanalyse und Programmentwicklung"@de , "SAP User-Group Executive Network"@fr , "SAP User-Group Executive Network"@de , "SAP Labs India"@de , "SAP Labs India"@fr , "Www.sap.com"@en , "Www.sap.com"@fr , "Www.sap.com"@de , "Sap Aktiengesellschaft"@en , "Sap Aktiengesellschaft"@de , "Sap Aktiengesellschaft"@fr , "SAP User Group Executive Network"@en , "SAP User Group Executive Network"@de , "SAP User Group Executive Network"@fr , "SAP Enterprise Learning"@en , "SAP Enterprise Learning"@de , "SAP Enterprise Learning"@fr , "SAP Labs"@en , "SAP Labs"@de , "SAP Labs"@fr , "SAP America"@en , "Sap ventures"@en , "Sap ventures"@de , "Sap ventures"@fr , "SAP America"@de , "SAP America"@fr , "Online Service System"@de , "Basis Team"@en , "Basis Team"@fr , "Basis Team"@de , "SAP Budget Control System"@en , "SAP Budget Control System"@de , "SAP Budget Control System"@fr , "SAP AG"@en , "SAP AG"@de , "SAP AG"@fr , "SAP Human Resource Management Systems"@en , "SAP Human Resource Management Systems"@de , "SAP Human Resource Management Systems"@fr , "Business One"@de .

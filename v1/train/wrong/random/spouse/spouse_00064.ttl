@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Warm_Springs,_Georgia>
+        rdfs:label     "Warm Springs, Georgia"@en , "Warm Springs, Georgia"@fr , "Warm Springs, Georgia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Warm_Springs_(Géorgie)> , <http://de.dbpedia.org/resource/Warm_Springs_(Georgia)> ;
+        skos:altLabel  "Warm Springs, Georgia"@de , "Warm Springs, Georgia"@fr , "Warm Springs, GA"@de , "Warm Springs"@fr , "Warm Springs"@de , "Warm Springs, Ga."@de , "Warm Springs, Ga."@fr , "Warm Springs, GA"@fr .
+
+<http://rdf.freebase.com/ns/m.01r93l__1>
+        dbo:author  <http://dbpedia.org/resource/Warm_Springs,_Georgia> ;
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01r93l>
+        rdfs:label     "Jude Law"@en , "Jude Law"@fr , "Jude Law"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01r93l__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jude_Law> , <http://dbpedia.org/resource/Jude_Law> , <http://de.dbpedia.org/resource/Jude_Law> ;
+        skos:altLabel  "Jude Law"@fr , "Jude Law"@de , "Jude Law"@en , "Jude"@de , "David Jude Heyworth Law"@en , "David Jude Heyworth Law"@fr , "David Jude Law"@en .

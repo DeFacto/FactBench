@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02rds__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03kwyl> ;
+        dbo:from    "1884"^^xsd:gYear ;
+        dbo:to      "1884"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03kwyl>
+        rdfs:label     "When Worlds Collide"@en , "Le Choc des mondes"@fr , "Der jüngste Tag (Film)"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/When_Worlds_Collide> , <http://de.dbpedia.org/resource/Der_jüngste_Tag_(Film)> , <http://fr.dbpedia.org/resource/Le_Choc_des_mondes> ;
+        skos:altLabel  "Der jungste Tag"@de , "Zyra"@de , "Le Choc Des Mondes"@fr , "Le Choc des mondes"@fr , "When Worlds Collide"@fr , "When Worlds Collide"@de , "Le choc des mondes"@fr , "Der jüngste Tag"@de , "Le Choc des Mondes"@fr .
+
+<http://rdf.freebase.com/ns/m.02rds>
+        rdfs:label     "Edwin Abbott Abbott"@en , "Edwin Abbott Abbott"@fr , "Edwin Abbott Abbott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02rds__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://fr.dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://de.dbpedia.org/resource/Edwin_Abbott_Abbott> ;
+        skos:altLabel  "Edwin Abbott"@fr , "Edwin Abbott"@de , "E. A. Abbott"@fr , "E. A. Abbott"@de , "Abbott, Edwin Abbott"@fr , "Abbott, Edwin Abbott"@de , "Edwin A. Abbott"@en , "A Square"@en , "Edwin A. Abbott"@fr , "Edwin Abbott Abbott"@fr , "Edwin Abbott Abbott"@de , "Edwin A. Abbott"@de , "Edwin abbott abbot"@fr , "Edwin abbott abbot"@de , "Abbott"@fr .

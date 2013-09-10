@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dr._Dre>
+        rdfs:label     "Dr. Dre"@de , "Dr. Dre"@fr , "Dr. Dre"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dr._Dre__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dr._Dre> , <http://de.dbpedia.org/resource/Dr._Dre> ;
+        skos:altLabel  "Dr. drei"@de , "Dr. drei"@fr , "André Romel Young"@de , "André Romel Young"@fr , "André Young"@en , "André Young"@de , "André Young"@fr , "André"@en , "André Romell Young"@en , "André Romell Young"@de , "André Romell Young"@fr , "Dr.Dre"@en , "Dr.Dre"@de , "André"@de , "André"@fr , "Dr.Dre"@fr , "Andre Romel Young"@en , "Andre Romel Young"@de , "Andre Romel Young"@fr , "Andre Romelle Young"@en , "Andre Romelle Young"@de , "Andre Romelle Young"@fr , "Dr dre"@en , "Dr dre"@de , "Dr dre"@fr , "Dr Dre"@en , "Dr Dre"@fr , "Dr Dre"@de , "Andre Romell Young"@en , "Andre Romell Young"@de , "Andre Romell Young"@fr , "Dr. Dré"@en , "Dr. Dré"@de , "Dr. Dré"@fr , "Andre"@en , "Andre"@de , "Andre"@fr , "Andre Young"@en , "Andre Young"@fr , "Andre Young"@de , "Dr. Allen DuMont"@en , "Dr. Allen DuMont"@de , "Dr. Allen DuMont"@fr , "List of Dr Dre awards and nominations"@en , "List of Dr Dre awards and nominations"@de , "List of Dr Dre awards and nominations"@fr , "Dr. Dre"@en , "Dr. Dre"@de , "Dr. Dre"@fr , "Exclusive"@en , "Exclusive"@de , "Exclusive"@fr , "Dr. D"@en , "Dr. D"@de , "Dr. D"@fr , "André Romel Young"@en , "Dr. drei"@en .
+
+<http://dbpedia.org/resource/Dr._Dre__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Plains,_Georgia> ;
+        dbo:from        "1965"^^xsd:gYear ;
+        dbo:to          "1965"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Plains,_Georgia>
+        rdfs:label     "Plains, Georgia"@fr , "Plains, Georgia"@de , "Plains, Georgia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Plains_(Géorgie)> , <http://de.dbpedia.org/resource/Plains_(Georgia)> ;
+        skos:altLabel  "Plains City"@de , "Plains City"@fr , "Plains, Georgia"@en , "Plains, Georgia"@de , "Plains, Georgia"@fr , "LOCODE:USPLS"@en , "LOCODE:USPLS"@fr , "LOCODE:USPLS"@de , "Plains"@en , "Plains"@fr , "Plains"@de , "Plains, GA"@en , "Plains, GA"@fr , "Plains, GA"@de , "Plains City"@en .

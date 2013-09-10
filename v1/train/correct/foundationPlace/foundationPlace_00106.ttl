@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.021y1s>
+        rdfs:label     "Warwickshire"@en , "Warwickshire"@de , "Warwickshire"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Warwickshire> , <http://dbpedia.org/resource/Warwickshire> , <http://fr.dbpedia.org/resource/Warwickshire> ;
+        skos:altLabel  "Great wolford"@fr , "Comte de Warwickshire"@fr , "Great wolford"@de , "Great wolford"@en , "Warwick"@fr , "Warks"@fr , "Warwick"@de , "Warks"@de , "Warks"@en , "Warwick"@en , "Warwickshire"@fr , "Warwickshire, England"@fr , "Warwickshire"@de , "County Of Warwickshire"@en , "Warwickshire, England"@de , "Warwickshire"@en , "Warwickshire, England"@en , "Comté de Warwickshire"@fr , "Great Wolford"@fr , "Warwickshire County Council"@fr , "Great Wolford"@de , "GB-WAR"@de , "Warwickshire County Council"@de , "Great Wolford"@en , "Warwickshire County Council"@en , "Yew Green"@fr , "Yew Green"@de , "Yew Green"@en , "County of Warwick"@fr , "County of Warwick"@de , "County of Warwick"@en .
+
+<http://rdf.freebase.com/ns/m.046qpy__106>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.021y1s> ;
+        dbo:from             "1985"^^xsd:gYear ;
+        dbo:to               "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.046qpy>
+        rdfs:label      "Codemasters"@en , "Codemasters"@de , "Codemasters"@fr ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.046qpy__106> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Codemasters> , <http://fr.dbpedia.org/resource/Codemasters> , <http://dbpedia.org/resource/Codemasters> ;
+        skos:altLabel   "Supersonic Software"@de , "Supersonic Software"@en , "The Codemasters Software Company Limited"@fr , "The Codemasters Software Company Limited"@de , "The Codemasters Software Company Limited"@en , "Indy Cars Series 2005"@fr , "Code masters"@fr , "Indy Cars Series 2005"@de , "Code masters"@de , "Indy Cars Series 2005"@en , "Code masters"@en , "Supersonic Software Ltd"@fr , "Supersonic Software Ltd"@de , "Supersonic Software Ltd"@en , "Code Masters"@fr , "Stuart Black"@fr , "Codemasters"@fr , "Codemasters Software Company Limited"@fr , "IGI 2"@de , "CodeMasters"@fr , "Code Masters"@de , "Stuart Black"@de , "Codemasters"@de , "CodeMasters"@de , "CodeMasters"@en , "Codemasters"@en , "Codemasters Software Company Limited"@de , "Code Masters"@en , "The Codemasters Software Company"@de , "Codemasters Software Company Limited"@en , "Stuart Black"@en , "Supersonic Software"@fr .

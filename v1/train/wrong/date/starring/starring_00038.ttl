@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/2012_(film)>
+        rdfs:label     "2012 (film)"@en , "2012 (film)"@fr , "2012 (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/2012_(film)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/2012_(Film)> , <http://fr.dbpedia.org/resource/2012_(film)> ;
+        skos:altLabel  "Institute for Human Continuity"@en , "Institute for Human Continuity"@fr , "Institute for Human Continuity"@de , "The Institute for Human Continuity"@en , "The Institute for Human Continuity"@fr , "The Institute for Human Continuity"@de , "2012 film"@en , "2012 film"@de , "2012 film"@fr , "2012 movie"@en , "2012 movie"@fr , "2012 movie"@de , "Charlie Frost"@en , "Charlie Frost"@fr , "Charlie Frost"@de .
+
+<http://dbpedia.org/resource/2012_(film)__1>
+        dbo:from      "2004"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Amanda_Peet> ;
+        dbo:to        "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Amanda_Peet>
+        rdfs:label     "Amanda Peet"@en , "Amanda Peet"@fr , "Amanda Peet"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Amanda_Peet> , <http://de.dbpedia.org/resource/Amanda_Peet> ;
+        skos:altLabel  "Amanda peet"@en , "Amanda peet"@de , "Amanda peet"@fr , "Amanda Pete"@en , "Amanda Pete"@fr , "Amanda Pete"@de , "Peet"@en , "Peet"@fr , "Peet"@de , "Amanda Peet"@en , "Amanda Peet"@fr , "Amanda Peet"@de , "Amanda Peat"@en , "Amanda Peat"@fr , "Amanda Peat"@de .

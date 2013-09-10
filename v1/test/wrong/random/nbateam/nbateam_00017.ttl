@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Michael_Chang>
+        rdfs:label     "Michael Chang"@en , "Michael Chang"@fr , "Michael Chang"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Michael_Chang__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Michael_Chang> , <http://fr.dbpedia.org/resource/Michael_Chang> ;
+        skos:altLabel  "Michel Chang"@de , "Michael Chang"@en , "Michael Chang"@de , "Michael Chang"@fr , "Michael Te-Pei Chang"@en , "Michael Te-Pei Chang"@fr , "Michael Te-Pei Chang"@de , "Chang"@fr , "Chang"@de , "Michel Chang"@en , "Zhang Depei"@en , "Zhang Depei"@fr , "Zhang Depei"@de , "Michel Chang"@fr .
+
+<http://dbpedia.org/resource/Michael_Chang__1>
+        dbo:award  <http://dbpedia.org/resource/Eindhoven> ;
+        dbo:from   "2009"^^xsd:gYear ;
+        dbo:to     "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Eindhoven>
+        rdfs:label     "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eindhoven> , <http://fr.dbpedia.org/resource/Eindhoven> ;
+        skos:altLabel  "Eindhoven, Netherlands"@fr , "Eindhoven, Netherlands"@de , "Eindhoven, North Brabant"@de , "Eindhoven, North Brabant"@fr , "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de , "LOCODE:NLEIN"@en , "LOCODE:NLEIN"@fr , "LOCODE:NLEIN"@de , "Eindhoven, Noord-Brabant"@en , "Eindhoven, Noord-Brabant"@fr , "Eindhoven, Noord-Brabant"@de , "Eindhoven, Netherlands"@en , "Eindhoven, North Brabant"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Novi_Sad>
+        rdfs:label     "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Novi_Sad> , <http://de.dbpedia.org/resource/Novi_Sad> ;
+        skos:altLabel  "Capital of Vojvodina"@de , "Capital of Vojvodina"@fr , "Capital of Vojvodina"@en , "Ujvidek"@de , "Ujvidek"@fr , "Ujvidek"@en , "Újvidék"@de , "Újvidék"@fr , "Újvidék"@en , "Serbian Athens"@de , "Serbian Athens"@fr , "Serbian Athens"@en , "Ujvidék"@de , "Ujvidék"@fr , "Ujvidék"@en , "Novi Sad, Serbia"@en , "Novi Sad, Serbia"@de , "Novi Sad, Serbia"@fr , "Ratzenstadt"@de , "Neusatz"@de , "Neusatz"@fr , "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en , "Novi"@de , "Novi"@fr , "Novi"@en , "City of Novi Sad"@de , "City of Novi Sad"@fr , "City of Novi Sad"@en , "Novi Sad City"@de , "Novi Sad City"@fr , "Novi Sad City"@en , "Neusatz an der Donau"@de , "Serb Athens"@de , "Serb Athens"@fr , "Serb Athens"@en , "Nowi Sad"@de .
+
+<http://dbpedia.org/resource/Kurt_Vonnegut>
+        rdfs:label     "Kurt Vonnegut"@de , "Kurt Vonnegut"@fr , "Kurt Vonnegut"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kurt_Vonnegut__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kurt_Vonnegut> , <http://fr.dbpedia.org/resource/Kurt_Vonnegut> ;
+        skos:altLabel  "Vonnegut hero"@en , "Kurt Vonegut"@en , "Diana Moon Glampers"@en , "Kurt Vonegut"@de , "Kurt Vonegut"@fr , "Diana Moon Glampers"@de , "Diana Moon Glampers"@fr , "Vonnegut hero"@de , "Vonnegut hero"@fr , "Kurt vonnegutt"@en , "Kurt vonnegutt"@de , "Kurt vonnegutt"@fr , "Kurt Vonegut, Jr."@en , "Kurt Vonegut, Jr."@de , "Kurt Vonegut, Jr."@fr , "Kurt Vonnegut Junior"@fr , "Kurt Vonagut"@en , "Kurt Vonagut"@de , "Kurt Vonagut"@fr , "Kurt Vonnegut, Jr"@en , "Kurt Vonnegut, Jr"@de , "Kurt Vonnegut, Jr"@fr , "Kirk Vonagut"@en , "Kirk Vonagut"@de , "Kirk Vonagut"@fr , "Vonnegut"@en , "Vonnegut"@de , "Vonnegut"@fr , "Kurt Vonnegut"@en , "Kurt Vonnegut"@de , "Kurt Vonnegut"@fr , "Vonnegutian"@en , "Vonnegutian"@de , "Vonnegutian"@fr , "Kurt Vonnegut Jr."@en , "Kurt Vonnegut Jr."@fr , "Kurt Vonnegut Jr."@de , "Kurt Vonnegut, Jr."@en , "Kurt Vonnegut, Jr."@de , "Kurt Vonnegut, Jr."@fr , "Kurt"@en , "Kurt"@fr , "Kurt"@de , "Diana moon-glampers"@en , "Diana moon-glampers"@de , "Diana moon-glampers"@fr , "Kurt Vonneguet"@en , "Kurt Vonneguet"@fr , "Kurt Vonneguet"@de , "Kurt Vonnegutt"@en , "Kurt Vonnegutt"@de , "Kurt Vonnegutt"@fr , "Kurt Vonnegut Jr"@en , "Kurt Vonnegut Jr"@de , "Kurt Vonnegut Jr"@fr , "Diana Moon-Glampers"@en , "Diana Moon-Glampers"@de , "Diana Moon-Glampers"@fr .
+
+<http://dbpedia.org/resource/Kurt_Vonnegut__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Novi_Sad> ;
+        dbo:from        "2010"^^xsd:gYear ;
+        dbo:to          "2011"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03hdl5j__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0_707> ;
+        dbo:from             "2002"^^xsd:gYear ;
+        dbo:to               "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03hdl5j>
+        rdfs:label     "Really Strategies, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03hdl5j__1> ;
+        skos:altLabel  "Really Strategies"@en .
+
+<http://rdf.freebase.com/ns/m.0_707>
+        rdfs:label     "Lansdale"@en , "Lansdale"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Lansdale,_Pennsylvania> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Lansdale> ;
+        skos:altLabel  "Lansdale"@en , "Lansdale, Pennsylvania"@en , "Lansdale, Pennsylvania"@fr , "Montgomery County / Lansdale borough"@en , "Lansdale, PA"@en , "Lansdale, PA"@fr , "LOCODE:USLSD"@en , "LOCODE:USLSD"@fr , "Lansdale"@fr .

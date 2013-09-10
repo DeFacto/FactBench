@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01ksr1__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01cj6y> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01ksr1>
+        rdfs:label     "Ryan Phillippe"@en , "Ryan Phillippe"@fr , "Ryan Phillippe"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01ksr1__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Ryan_Phillippe> , <http://fr.dbpedia.org/resource/Ryan_Phillippe> , <http://de.dbpedia.org/resource/Ryan_Phillippe> ;
+        skos:altLabel  "Ryan Phillipe"@en , "Ryan Phillipe"@fr , "Ryan Phillipe"@de , "Matthew Ryan Phillippe"@en , "Matthew Ryan Phillippe"@fr , "Matthew Ryan Phillippe"@de , "Phillippe"@en , "Phillippe"@fr , "Phillippe"@de , "Ryan Phillippe"@en , "Ryan Phillippe"@fr , "Ryan Phillippe"@de , "Matthew Phillippe"@de , "Ryan Philippe"@en , "Ryan Philippe"@fr , "Ryan Philippe"@de .
+
+<http://rdf.freebase.com/ns/m.01cj6y>
+        rdfs:label     "Adrien Brody"@en , "Adrien Brody"@fr , "Adrien Brody"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Adrien_Brody> , <http://de.dbpedia.org/resource/Adrien_Brody> , <http://fr.dbpedia.org/resource/Adrien_Brody> ;
+        skos:altLabel  "Byron Deidra"@en , "Adrien Brody"@en , "Adrien Brody"@fr , "Adrien Brody"@de , "Brody"@fr , "Brody"@de , "Adrian Brody"@en , "Adrian Brody"@fr , "Adrian Brody"@de , "Adrien brody"@en , "Adrien brody"@de , "Adrien brody"@fr , "Adrien"@en , "Adrien"@fr , "Adrien"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mike_Bryan>
+        rdfs:label     "Mike Bryan"@en , "Mike Bryan"@fr , "Mike Bryan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mike_Bryan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mike_Bryan> , <http://de.dbpedia.org/resource/Mike_Bryan> ;
+        skos:altLabel  "Mike Bryan"@fr , "Mike Bryan"@de , "Mike"@en , "Mike"@fr , "Mike"@de , "Michael Carl Bryan"@de , "Bryan"@de , "Bryan"@fr , "Mike Bryan"@en .
+
+<http://dbpedia.org/resource/Mike_Bryan__1>
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Hollywood,_Florida> ;
+        dbo:to          "1998"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hollywood,_Florida>
+        rdfs:label     "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hollywood_(Florida)> , <http://fr.dbpedia.org/resource/Hollywood_(Floride)> ;
+        skos:altLabel  "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de , "Hollywood"@en , "Hollywood"@fr , "Hollywood"@de , "Hollywood, fl"@en , "Hollywood, fl"@fr , "Hollywood, fl"@de , "Hollywood, Fl"@en , "Hollywood, Fl"@fr , "Hollywood, Fl"@de , "Hollywood Beach, Florida"@en , "Hollywood Beach, Florida"@fr , "Hollywood Beach, Florida"@de , "LOCODE:USHWO"@en , "LOCODE:USHWO"@fr , "LOCODE:USHWO"@de , "Hollywood, FL"@en , "Hollywood, FL"@fr , "Hollywood, FL"@de , "Hollywood FL"@en , "Hollywood FL"@fr , "Hollywood FL"@de .

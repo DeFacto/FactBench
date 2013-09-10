@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0180df>
+        rdfs:label     "Macromedia"@de , "Macromedia"@en , "Macromedia"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Macromedia> , <http://fr.dbpedia.org/resource/Macromedia> , <http://de.dbpedia.org/resource/Macromedia> ;
+        skos:altLabel  "Macromédia"@fr , "Macromedia"@fr , "Macromedia"@en , "Macromedia"@de , "Macromedia Press"@fr , "Macromedia Press"@de , "Macromedia Inc."@en , "Macromedia Press"@en .
+
+<http://rdf.freebase.com/ns/m.0vlf__52>
+        dbo:from        "2005-12-03"^^xsd:date ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0180df> ;
+        dbo:to          "2005-12-03"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0vlf>
+        rdfs:label       "Adobe Systems"@de , "Adobe Systems"@fr , "Adobe Systems"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.0vlf__52> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Adobe_Systems> , <http://dbpedia.org/resource/Adobe_Systems> , <http://fr.dbpedia.org/resource/Adobe_Systems> ;
+        skos:altLabel    "Adobe Inc"@en , "Hypatia Sans"@fr , "Hypatia Sans"@en , "Hypatia Sans"@de , "Adobe Systems Inc"@fr , "Adobe Systems Inc"@de , "Adobe Systems Inc"@en , "Adobe Systems, Inc."@fr , "Adobe Systems, Inc."@de , "Adobe Systems, Inc."@en , "List of Adobe acquisitions"@fr , "List of Adobe acquisitions"@de , "List of Adobe acquisitions"@en , "Adobe.com"@fr , "Adobe.com"@en , "Adobe.com"@de , "Adobe Incorporated"@en , "Macrodobe"@fr , "Macrodobe"@en , "Macrodobe"@de , "Macromedia.com"@fr , "Macromedia.com"@de , "Macromedia.com"@en , "Adobe Systems"@fr , "Adobe Systems"@de , "Adobe Systems"@en , "Hypatia"@fr , "Hypatia"@de , "Hypatia"@en , "Adobe Systems Inc. Development Team"@en , "ADOBE"@en , "Adobe Development Team"@en , "Adobe systems"@fr , "Adobe systems"@de , "Adobe systems"@en , "Adobe, Inc."@fr , "Adobe, Inc."@de , "Adobe, Inc."@en , "Adobe Software"@fr , "Adobe Software"@en , "Adobe Software"@de , "Adobe Systems Incorporated"@fr , "Adobe"@fr , "Adobe Systems Incorporated"@de , "Adobe"@de , "Adobe Systems Incorporated"@en , "Adobe"@en , "Adobe software"@fr , "Adobe software"@en , "Adobe software"@de , "Adobe Creative Team"@en , "ADBE"@fr , "Adobe Labs"@fr , "Adobe Labs"@en , "Adobe Labs"@de , "ADBE"@en , "ADBE"@de , "Adobe Systems Inc."@fr , "Adobe Systems Inc."@de , "Adobe Systems Inc."@en .

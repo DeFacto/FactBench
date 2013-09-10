@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bing_Crosby>
+        rdfs:label     "Bing Crosby"@de , "Bing Crosby"@fr , "Bing Crosby"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bing_Crosby__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bing_Crosby> , <http://fr.dbpedia.org/resource/Bing_Crosby> ;
+        skos:altLabel  "Harry Lillis \"Bing\" Crosby"@de , "Harry Lillis \"Bing\" Crosby"@fr , "Bing Crosby Enterprises"@de , "Bing Crosby Enterprises"@fr , "Bing Crosby Enterprises"@en , "Crosby, Bing"@en , "Crosby, Bing"@de , "Crosby, Bing"@fr , "Bing Crosby Productions"@de , "Bing Crosby Productions"@fr , "Bing Crosby Productions"@en , "Bing Cosby"@de , "Bing Cosby"@fr , "Bing Cosby"@en , "Harry Lillis Bing Crosby"@de , "Harry Lillis Bing Crosby"@fr , "Harry Lillis Bing Crosby"@en , "Bing Crosby"@de , "Bing Crosby"@fr , "Bing Crosby"@en , "Bing crosby"@en , "Harry Lillis Crosby"@de , "Harry Lillis Crosby"@fr , "Harry Lillis Crosby"@en , "Bing crosby"@de , "Bing crosby"@fr , "Harry L. Crosby"@de , "Harry L. Crosby"@fr , "Harry L. Crosby"@en , "Der Bingle"@de , "Der Bingle"@fr , "Der Bingle"@en , "Crosby"@de , "Crosby"@fr , "Crosby"@en , "Bing"@de , "Bing"@fr , "Bing"@en , "Harry Lillis \"Bing\" Crosby"@en .
+
+<http://dbpedia.org/resource/Bing_Crosby__1>
+        dbo:from  "1867"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Mumbai> ;
+        dbo:to    "1867"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Mumbai>
+        rdfs:label     "Mumbai"@de , "Mumbai"@fr , "Mumbai"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bombay> , <http://de.dbpedia.org/resource/Mumbai> ;
+        skos:altLabel  "Bombei"@en , "Mubai"@en , "Bombei"@fr , "Bombei"@de , "Mubai"@fr , "Mubai"@de , "Mombai"@en , "Mombai"@fr , "Mombai"@de , "Bom Bahia"@en , "City of Mumbai"@en , "City of Mumbai"@fr , "City of Mumbai"@de , "Bom Bahia"@fr , "Bom Bahia"@de , "Mumbai, India"@en , "Bombay City"@en , "Mumbai, India"@fr , "Mumbai, India"@de , "Bombay City"@fr , "Bombay City"@de , "Greater Bombay"@en , "Greater Bombay"@fr , "Greater Bombay"@de , "Mumbaī"@en , "Mumbaī"@fr , "Mumbaī"@de , "Mumbaii"@en , "Bumbai"@en , "Bumbai"@fr , "Bumbai"@de , "Mumbaii"@fr , "Mumbaii"@de , "Demographics of Mumbai"@en , "Demographics of Mumbai"@fr , "Demographics of Mumbai"@de , "Mumbaï"@fr , "Greater Mumbai"@en , "City of Bombay"@en , "Mumbai, MH"@en , "Greater Mumbai"@fr , "City of Bombay"@fr , "Mumbai, MH"@fr , "Mumbai, MH"@de , "City of Bombay"@de , "Greater Mumbai"@de , "Bombay also known as mumbai"@en , "Mumbai"@en , "Mumbai"@de , "Mumbai"@fr , "Bombay india"@en , "Eastindians"@en , "Bombay also known as mumbai"@fr , "Bombay india"@fr , "Eastindians"@fr , "Bombay also known as mumbai"@de , "Eastindians"@de , "Bombay india"@de , "Mumbaai"@en , "Mumbaai"@fr , "Mumbaai"@de , "Mumbay"@en , "Mumbaikars"@en , "Mumbay"@fr , "Mumbaikars"@fr , "Mumbaikars"@de , "Mumbay"@de , "Downtown Mumbai"@en , "Downtown Mumbai"@fr , "Downtown Mumbai"@de , "Bomaím"@en , "Bomaím"@fr , "Bomaím"@de , "Bombai"@en , "Bombai"@fr , "Bombai"@de , "Bombay"@en , "Bombay"@fr , "Bombay"@de , "Bombay, India"@en , "Bombay, India"@fr , "Bombay, India"@de , "Site de developpement de bombay"@fr , "Mumbia"@en , "Mumbai, Maharastra"@en , "Mumbia"@fr , "Mumbia"@de , "Bomaim"@en , "Mumbai, Maharastra"@fr , "Mumbai, Maharastra"@de , "Bombay, Maharashtra"@en , "Bomaim"@fr , "Bomaim"@de , "Bombay, Maharashtra"@fr , "Bombay, Maharashtra"@de , "Demographics of Bombay"@en , "Demographics of Bombay"@fr , "Demographics of Bombay"@de , "Bombay, MH"@en , "Bombay, MH"@fr , "Bombay, MH"@de , "Mumbai, Maharashtra"@en , "Mumbai, Maharashtra"@fr , "Mumbai, Maharashtra"@de , "Mumbai City"@en , "Mumbai City"@fr , "Mumbai City"@de , "Crime in Mumbai"@en , "Crime in Mumbai"@fr , "Crime in Mumbai"@de .

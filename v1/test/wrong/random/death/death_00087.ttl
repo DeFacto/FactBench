@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/West_Hollywood,_California>
+        rdfs:label     "West Hollywood, California"@de , "West Hollywood, California"@fr , "West Hollywood, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/West_Hollywood> , <http://de.dbpedia.org/resource/West_Hollywood> ;
+        skos:altLabel  "West hollywood california"@de , "West hollywood california"@fr , "West hollywood california"@en , "Sherman, California"@de , "Sherman, California"@fr , "Sherman, California"@en , "West Hollywood, California"@de , "West Hollywood, California"@fr , "West Hollywood, California"@en , "LOCODE:USWWU"@de , "LOCODE:USWWU"@fr , "LOCODE:USWWU"@en , "West Hollywood, Los Angeles, CA"@de , "West Hollywood, Los Angeles, CA"@fr , "West Hollywood, Los Angeles, CA"@en , "WeHo"@de , "WeHo"@fr , "WeHo"@en , "West Hollywood, Los Angeles, California"@de , "West Hollywood, Los Angeles, California"@fr , "West Hollywood, Los Angeles, California"@en , "WEHO"@de , "WEHO"@fr , "WEHO"@en , "Historic Boystown - West Hollywood"@de , "Historic Boystown - West Hollywood"@fr , "Historic Boystown - West Hollywood"@en , "Historic Boystown"@de , "Historic Boystown"@fr , "Historic Boystown"@en , "West Hollywood, CA"@en , "West Hollywood, CA"@de , "West Hollywood, CA"@fr , "West Hollywood"@de , "West Hollywood"@fr , "West Hollywood"@en , "Hollywood"@de , "Hollywood"@fr .
+
+<http://dbpedia.org/resource/Kylie_Minogue__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/West_Hollywood,_California> ;
+        dbo:from        "1776"^^xsd:gYear ;
+        dbo:to          "1776"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kylie_Minogue>
+        rdfs:label     "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie Minogue"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kylie_Minogue__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kylie_Minogue> , <http://de.dbpedia.org/resource/Kylie_Minogue> ;
+        skos:altLabel  "Kylie Minogue OBE"@en , "Kylie Minogue OBE"@de , "Kylie Minogue OBE"@fr , "Darling"@de , "Darling"@fr , "Darling"@en , "New Age"@en , "New Age"@de , "New Age"@fr , "Minogue"@de , "Minogue, Kylie"@en , "Minogue, Kylie"@de , "Minogue, Kylie"@fr , "Kyly"@en , "Kyly"@de , "Kyly"@fr , "Kylie Ann Minogue OBE"@en , "Kylie Ann Minogue OBE"@de , "Kylie Ann Minogue OBE"@fr , "Kylie Minogue"@de , "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie"@en , "Kylie"@de , "Kylie"@fr , "Kylie Ann Minogue"@de , "Kylie Ann Minogue"@fr , "Kylie Ann Minogue"@en , "Kylie Monogue"@en , "Kylie Monogue"@de , "Kylie Monogue"@fr , "Kylie minogue"@en , "Kylie minogue"@de , "Kylie minogue"@fr , "White Diamond"@en , "White Diamond"@de , "White Diamond"@fr , "Kylie minoge"@en , "Love Kylie"@en , "Love Kylie"@de , "Love Kylie"@fr , "The Best of Kylie Minogue"@en , "Kylie minouge"@en , "Kylie minouge"@de , "Kylie minouge"@fr , "Kylie minoge"@de , "The Best of Kylie Minogue"@de , "The Best of Kylie Minogue"@fr , "Kylie minoge"@fr .

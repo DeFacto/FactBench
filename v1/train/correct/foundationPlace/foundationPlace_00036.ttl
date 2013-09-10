@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0870gg__36>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03rj0> ;
+        dbo:from             "1997"^^xsd:gYear ;
+        dbo:to               "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03rj0>
+        rdfs:label     "Iceland"@en , "Island"@de , "Islande"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Iceland> , <http://fr.dbpedia.org/resource/Islande> , <http://de.dbpedia.org/resource/Island> ;
+        skos:altLabel  "République islandaise"@fr , "The Republic of Iceland"@fr , "Republik Island"@de , "The Republic of Iceland"@en , "The Republic of Iceland"@de , "Icedland"@fr , "Icedland"@de , "Icedland"@en , "Ice land"@fr , "Ice land"@en , "Ice land"@de , "Lyðveldið Island"@fr , "Lyðveldið Island"@de , "Lyðveldið island"@fr , "Lyðveldið island"@de , "Lyðveldið island"@en , "Republique islandaise"@fr , "The land of ice and snow"@fr , "The land of ice and snow"@en , "The land of ice and snow"@de , "Icelandic isles"@fr , "Icelandic isles"@en , "Icelandic isles"@de , "Lýðveldið Ísland"@fr , "Lýðveldið Ísland"@de , "Icealnd"@fr , "Icealnd"@en , "Icealnd"@de , "Ice-land"@fr , "Ice-land"@en , "Ice-land"@de , "Islande"@fr , "Island"@fr , "Island"@de , "Island"@en , "Iceland"@fr , "Gardarsholm"@de , "Iceland"@de , "Iceland"@en , "Lýðveldið ísland"@fr , "Lýðveldið ísland"@de , "Lýðveldið ísland"@en , "Terre de glace"@fr , "Republic of Iceland"@fr , "Republic of Iceland"@en , "Republic of Iceland"@de , "République d'Islande"@fr , "Ísland"@fr , "Lydveldid island"@fr , "ICELAND"@fr , "Lydveldid island"@de , "Lydveldid island"@en , "IJsland"@fr , "Island of Iceland"@fr , "ICELAND"@en , "ICELAND"@de , "IJsland"@en , "IJsland"@de , "Island of Iceland"@en , "Island of Iceland"@de , "Ísland"@de , "Ísland"@en , "ISO 3166-1:IS"@fr , "ISO 3166-1:IS"@en , "ISO 3166-1:IS"@de , "Garðarsholmur"@de , "Republique d'Islande"@fr .
+
+<http://rdf.freebase.com/ns/m.0870gg>
+        rdfs:label      "VYRE"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0870gg__36> .

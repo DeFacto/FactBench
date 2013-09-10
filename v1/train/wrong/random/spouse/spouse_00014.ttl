@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Woody_Allen__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.01rh0w> ;
+        dbo:from        "2010"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01rh0w>
+        rdfs:label     "Liv Tyler"@en , "Liv Tyler"@fr , "Liv Tyler"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Liv_Tyler> , <http://de.dbpedia.org/resource/Liv_Tyler> , <http://dbpedia.org/resource/Liv_Tyler> ;
+        skos:altLabel  "Liver"@en , "Liv Rundgren"@en , "Liv taylor"@en , "Liv Rundgren"@de , "Liv taylor"@fr , "Liv taylor"@de , "Liv Rundgren Tyler"@en , "Liv Rundgren Tyler"@fr , "Liv Rundgren Tyler"@de , "Tyler"@fr , "Livy"@en , "Liv Tyler"@en , "Liv Tyler"@de , "Liv Tyler"@fr , "Liv tylor"@en , "Liv tylor"@de , "Liv tylor"@fr .
+
+<http://dbpedia.org/resource/Woody_Allen>
+        rdfs:label     "Woody Allen"@en , "Woody Allen"@fr , "Woody Allen"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Woody_Allen__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Woody_Allen> , <http://de.dbpedia.org/resource/Woody_Allen> ;
+        skos:altLabel  "Woddy Allen"@en , "Woddy Allen"@fr , "Woddy Allen"@de , "Woody"@fr , "Woodie allen"@fr , "Allen Stewart Konigsberg"@en , "Allen Konigsberg"@en , "Allan Stewart Königsberg"@fr , "Allen Stewart Konigsberg"@fr , "Allen Konigsberg"@fr , "Allen Konigsberg"@de , "Allen Stewart Konigsberg"@de , "Allen, Woody"@en , "Allen"@fr , "Allen, Woody"@fr , "Allen, Woody"@de , "Heywood Allen"@en , "Heywood Allen"@fr , "Heywood Allen"@de , "Allan Konigsberg"@en , "Allan Stewart Konigsberg"@en , "Allan Stewart Konigsberg"@fr , "Allan Konigsberg"@fr , "Allan Konigsberg"@de , "Allan Stewart Konigsberg"@de , "Woody Allen"@en , "Woody allen"@en , "Woody Allen"@fr , "Allen Stewart Königsberg"@fr , "Woody allen"@fr , "Woody allen"@de , "Woody Allen"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cuernavaca>
+        rdfs:label     "Cuernavaca"@en , "Cuernavaca"@fr , "Cuernavaca"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cuernavaca> , <http://de.dbpedia.org/resource/Cuernavaca> ;
+        skos:altLabel  "Cuauhnahuac"@fr , "Cuauhnahuac"@de , "Cuauhnahuac"@en , "Quauhnahuac"@fr , "Quauhnahuac"@de , "Quauhnahuac"@en , "Cuauhnáhuac"@de , "Cuernavaca, Morelos"@fr , "Cuernavaca"@fr , "Cuernavaca"@de , "Cuernavaca"@en , "Cuernavaca, Mexico"@fr , "Cuernavaca, Morelos"@de , "Cuernavaca, Mexico"@de , "Cuernavaca, Morelos"@en , "Cuernavaca, Mexico"@en , "Cuernavacas"@fr , "Cuernavacas"@de , "Cuernavacas"@en , "Cuernavacca"@de .
+
+<http://dbpedia.org/resource/Charles_Mingus>
+        rdfs:label     "Charles Mingus"@en , "Charles Mingus"@fr , "Charles Mingus"@de ;
+        dbo:death      <http://dbpedia.org/resource/Charles_Mingus__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charles_Mingus> , <http://de.dbpedia.org/resource/Charles_Mingus> ;
+        skos:altLabel  "Charles Mingus - Town Hall Concert"@fr , "Charlie Mingus"@fr , "Charles Mingus - Town Hall Concert"@de , "Charlie Mingus"@de , "Charles Mingus - Town Hall Concert"@en , "Charlie Mingus"@en , "Charles Mingus Sextet With Eric Dolphy"@fr , "Mingus"@fr , "Charles Mingus Sextet With Eric Dolphy"@de , "Charles Mingus Sextet With Eric Dolphy"@en , "Mingus"@de , "Mingus"@en , "Charles"@fr , "Charles"@de , "Charles"@en , "Beneath the Underdog"@fr , "Beneath the Underdog"@de , "Beneath the Underdog"@en , "Charles Mingus"@fr , "Charles Mingus"@de , "Charles Mingus"@en .
+
+<http://dbpedia.org/resource/Charles_Mingus__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Cuernavaca> ;
+        dbo:from        "1979-01-05"^^xsd:date ;
+        dbo:to          "1979-01-05"^^xsd:date .

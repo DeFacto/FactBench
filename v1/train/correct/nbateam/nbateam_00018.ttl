@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chauncey_Billups__5>
+        dbo:from  "2002"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Detroit_Pistons> ;
+        dbo:to    "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chauncey_Billups>
+        rdfs:label      "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/Chauncey_Billups__5> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Chauncey_Billups> , <http://fr.dbpedia.org/resource/Chauncey_Billups> ;
+        skos:altLabel   "Billups"@fr , "Billups"@de , "Billups"@en , "Mr. Big Shot"@fr , "Mr. Big Shot"@de , "Mr. Big Shot"@en , "Chauncy Billups"@fr , "Chauncy Billups"@de , "Chauncy Billups"@en , "Chauncey"@fr , "Chauncey"@de , "Chauncey"@en , "Chauncey Ray Billups"@fr , "Chauncey Ray Billups"@de , "Chauncey Ray Billups"@en , "Mr Big Shot"@fr , "Chauncey Billups"@fr , "Chauncey Billups"@de , "Chauncey Billups"@en , "Mr Big Shot"@de , "Mr Big Shot"@en .
+
+<http://dbpedia.org/resource/Detroit_Pistons>
+        rdfs:label     "Detroit Pistons"@en , "Detroit Pistons"@fr , "Detroit Pistons"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Detroit_Pistons> , <http://fr.dbpedia.org/resource/Pistons_de_Détroit> ;
+        skos:altLabel  "Detroit Pistons"@fr , "Detroit Pistons"@de , "Detroit Pistons"@en , "Ft. Wayne Pistons"@de , "Ft. Wayne Pistons"@en , "Sir Slam A Lot"@fr , "Pistons de Détroit"@fr , "Sir Slam A Lot"@de , "Sir Slam A Lot"@en , "Wayne"@de , "Pistons de detroit"@fr , "Fort Wayne Zollner Pistons"@fr , "Fort Wayne Zollner Pistons"@de , "Fort Wayne Zollner Pistons"@en , "Ft. Wayne Zollner Pistons"@fr , "Detroit Piston"@fr , "Ft. Wayne Zollner Pistons"@de , "Detroit Piston"@de , "Detroit Piston"@en , "Ft. Wayne Zollner Pistons"@en , "Fort Wayne Pistons"@fr , "Fort Wayne Pistons"@de , "Fort Wayne Pistons"@en , "Pistons de Detroit"@fr , "Pistons de Fort Wayne"@fr , "Bad Boys"@fr , "Bad Boys"@de , "Bad Boys"@en , "Piston"@fr , "Piston"@de , "Piston"@en , "Ft. Wayne Pistons"@fr .

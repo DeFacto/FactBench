@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tameka_Foster>
+        skos:altLabel  "Tameka Raymond"@en , "Tameka Foster"@en .
+
+<http://rdf.freebase.com/ns/m.0bs69sw__102>
+        dbo:from    "2007-08-03"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01trhmt> ;
+        dbo:to      "2009-11-04"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.01trhmt>
+        rdfs:label     "Usher"@en , "Usher"@de , "Usher"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Usher> , <http://dbpedia.org/resource/Usher_(entertainer)> , <http://de.dbpedia.org/resource/Usher> ;
+        skos:altLabel  "Usher Jamie Raymond"@fr , "Usher Jamie Raymond"@en , "Usher Jamie Raymond"@de , "Raymond IV Usher"@en , "Mr. Entertainment"@en , "USH Records"@fr , "USH Records"@en , "USH Records"@de , "U. Raymond"@en , "Usher Raymond IV"@fr , "Usher Raymond IV"@en , "Usher Raymond IV"@de , "Usher Raymond"@fr , "Usher Raymond"@en , "Usher Raymond"@de , "Usher Terry Raymond IV"@en , "R. Usher"@en , "Usher -"@en , "Best of Usher"@en , "Raymond Usher"@en , "US Records"@fr , "US Records"@en , "US Records"@de , "U. Raymond IV"@en , "Big Ush"@en , "Us-Her"@en , "Usher"@fr , "Usher 'Mr. Entertainment'"@en , "Usher (Caesar of The South)"@en , "Usher"@en , "Usher"@de , "Big Tyme"@en , "Ush Records"@fr , "Ush Records"@en , "Ush Records"@de , "Usher Terrence Raymond IV"@en , "Usher Raymond IV "@en , "Usher Jamie Raymond IV"@en , "Usher Jamie Raymond IV"@de , "Usher Jamie Raymond IV"@fr , "Usher Raymond IV."@de .
+
+<http://rdf.freebase.com/ns/m.0bs69sw>
+        rdfs:label    "Tameka Foster"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.0bs69sw__102> ;
+        owl:sameAs    <http://dbpedia.org/resource/Tameka_Foster> .

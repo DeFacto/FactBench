@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tyson_Chandler>
+        rdfs:label      "Tyson Chandler"@en , "Tyson Chandler"@fr , "Tyson Chandler"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/Tyson_Chandler__3> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Tyson_Chandler> , <http://de.dbpedia.org/resource/Tyson_Chandler> ;
+        skos:altLabel   "Tyson Chandler"@fr , "Tyson Chandler"@de , "Tyson Chandler"@en , "Tyson"@fr , "Tyson"@de , "Tyson"@en , "Chandler"@de , "Tyson Cleotis Chandler"@fr , "Ty Chandler"@fr , "Tyson Cleotis Chandler"@de , "Ty Chandler"@de , "Tyson Cleotis Chandler"@en , "Ty Chandler"@en .
+
+<http://dbpedia.org/resource/Tyson_Chandler__3>
+        dbo:from  "2009"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Charlotte_Bobcats> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlotte_Bobcats>
+        rdfs:label     "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bobcats_de_Charlotte> , <http://de.dbpedia.org/resource/Charlotte_Bobcats> ;
+        skos:altLabel  "Bobcat"@en , "Bobcats de Charlotte"@fr , "Charlotte Flight"@fr , "Charlotte Flight"@en , "Charlotte Flight"@de , "Bobcats de charlotte"@fr , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de , "Charlotte Bobcats"@en , "Bobcats De Charlotte"@fr , "Bobcat"@fr , "Bobcat"@de .

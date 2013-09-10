@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02fpms__84>
+        dbo:from        "2007-07"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02h7486> ;
+        dbo:to          "2007-07"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.02h7486>
+        rdfs:label  "PacketHop"@en .
+
+<http://rdf.freebase.com/ns/m.02fpms>
+        rdfs:label       "Stanford Research Institute"@de , "SRI International"@en , "SRI International"@fr ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.02fpms__84> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/SRI_International> , <http://dbpedia.org/resource/SRI_International> , <http://fr.dbpedia.org/resource/SRI_International> ;
+        skos:altLabel    "Stanford Research"@fr , "Stanford Research"@de , "Stanford Research"@en , "SRI International"@fr , "SRI International"@de , "SRI International"@en , "Stanford Research Institute."@en , "Stanford Research Institute"@fr , "Stanford Research Institute"@de , "Stanford Research Institute"@en .

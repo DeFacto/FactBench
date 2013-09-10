@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Memphis,_Tennessee>
+        rdfs:label     "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennessee"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Memphis_(Tennessee)> , <http://de.dbpedia.org/resource/Memphis_(Tennessee)> ;
+        skos:altLabel  "Memphis TN"@de , "Memphis TN"@fr , "Memphis TN"@en , "Memphis, Tennesse"@de , "Memphis, Tennesse"@fr , "Memphis, Tennesse"@en , "LOCODE:USMEM"@en , "LOCODE:USMEM"@de , "LOCODE:USMEM"@fr , "TN Memphis"@en , "TN Memphis"@de , "TN Memphis"@fr , "Memphis"@en , "Memphis"@de , "Memphis"@fr , "Memphis Tennessee"@de , "Memphis Tennessee"@fr , "Memphis Tennessee"@en , "Memphis, tn"@en , "Memphis,TN"@en , "Memphis,TN"@de , "Memphis,TN"@fr , "Memphis, tn"@de , "Memphis, tn"@fr , "Memphrica"@de , "Memphrica"@fr , "Memphrica"@en , "Menphis"@en , "Menphis"@de , "Menphis"@fr , "Memphis, USA"@en , "Memphis, TN"@de , "Memphis, TN"@fr , "Memphis, TN"@en , "Memphis, USA"@fr , "Memphis, USA"@de , "Memfrica"@de , "Memfrica"@fr , "Memfrica"@en , "Memphis, Tennessee"@en , "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennesee"@de , "Memphis, Tennesee"@fr , "Memphis, Tennesee"@en .
+
+<http://dbpedia.org/resource/Justin_Timberlake__1>
+        dbo:from  "1981"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Memphis,_Tennessee> ;
+        dbo:to    "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Justin_Timberlake>
+        rdfs:label     "Justin Timberlake"@de , "Justin Timberlake"@fr , "Justin Timberlake"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Justin_Timberlake__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Justin_Timberlake> , <http://de.dbpedia.org/resource/Justin_Timberlake> ;
+        skos:altLabel  "Justin Timberland"@fr , "Timberlake, Justin"@en , "Timberlake, Justin"@de , "Timberlake, Justin"@fr , "List of songs recorded by Justin Timberlake"@en , "List of songs recorded by Justin Timberlake"@de , "List of songs recorded by Justin Timberlake"@fr , "Timberlake"@en , "Timberlake"@de , "Timberlake"@fr , "Justin Tiberlake"@en , "Justin Tiberlake"@de , "Justin Tiberlake"@fr , "Justin timberlake"@en , "Justin timberlake"@de , "Justin timberlake"@fr , "Justin Timberlake filmography"@en , "Justin Timberlake filmography"@de , "Justin Timberlake filmography"@fr , "Justin Timberlake"@en , "Justin Timberlake"@de , "Justin Timberlake"@fr , "J-tims"@en , "J-tims"@de , "J-tims"@fr , "Boutique in heaven"@en , "Boutique in heaven"@de , "Boutique in heaven"@fr , "Lynn Harless"@en , "Lynn Harless"@de , "Lynn Harless"@fr , "Justin Randall Timberlake"@en , "Justin Randall Timberlake"@de , "Justin Randall Timberlake"@fr , "Magic"@en , "Magic"@de , "Magic"@fr , "Just In Time"@en , "Just In Time"@fr , "Just In Time"@de , "Justin"@en , "Justin"@de , "Justin"@fr , "Justin R. Timberlake"@en , "Justin R. Timberlake"@de , "Justin R. Timberlake"@fr , "Jasuchin Chinbarekku"@en , "Jasuchin Chinbarekku"@de , "Jasuchin Chinbarekku"@fr , "J-Tims"@en , "Justin Timberland"@en , "Justin Timberland"@de , "J-Tims"@de , "J-Tims"@fr .

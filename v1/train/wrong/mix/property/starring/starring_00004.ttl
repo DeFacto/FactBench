@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lucy_Liu>
+        rdfs:label     "Lucy Liu"@de , "Lucy Liu"@fr , "Lucy Liu"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lucy_Liu> , <http://de.dbpedia.org/resource/Lucy_Liu> ;
+        skos:altLabel  "Lucy Loo"@en , "Lucy Liu"@en , "Lucy Loo"@de , "Lucy Loo"@fr , "Liu Yü-ling"@en , "Lucy Liu"@de , "Liu Yü-ling"@de , "Liu Yü-ling"@fr , "Lucy Liu"@fr , "Lucy Lu"@en , "Lucy Lu"@de , "Lucy Lu"@fr , "Liu Yuling"@de , "Liu Yuling"@fr , "Liu Yuling"@en , "Liu Yue-ling"@en , "Liu Yue-ling"@de , "Liu Yue-ling"@fr , "Lucy loo"@en , "Lucy Alexis Liu"@de , "Lucy Alexis Liu"@fr , "Lucy Alexis Liu"@en , "Lucy loo"@de , "Lucy loo"@fr , "Lucy liu"@en , "Lucy liu"@de , "Lucy liu"@fr , "Liou Yuling"@en , "Liou Yuling"@de , "Liou Yuling"@fr , "Liu Yu-ling"@de , "Liu Yu-ling"@fr , "Liu Yu-ling"@en , "Lucy Lui"@en , "Lucy Lui"@de , "Lucy Lui"@fr , "Làuh Yuhk-lìhng"@en , "Làuh Yuhk-lìhng"@de , "Làuh Yuhk-lìhng"@fr , "Lauh Yuhk-lihng"@de , "Lauh Yuhk-lihng"@fr , "Lauh Yuhk-lihng"@en , "Lacy Lu"@en , "Lacy Lu"@de , "Lacy Lu"@fr , "Liú Yùlíng"@de , "Liú Yùlíng"@fr , "Liú Yùlíng"@en .
+
+<http://dbpedia.org/resource/Kill_Bill>
+        rdfs:label     "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kill_Bill__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kill_Bill> , <http://fr.dbpedia.org/resource/Kill_Bill> ;
+        skos:altLabel  "Kill Bill 2"@fr , "Kill Bill : Volume 2"@fr , "Kill Bill, volume 1"@fr , "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de , "Kill Bill: Volume 3"@en , "Kill Bill: Volume 3"@fr , "Kill Bill: Volume 3"@de , "Kill Bill: Vol. 1"@fr , "Bill"@fr , "Kill Bill: Vol. 2"@fr , "Kill"@fr , "Tuer Bill"@fr , "Kill bill"@en , "Kill bill"@fr , "Kill bill"@de , "Kill Bill Vol 2"@fr , "Kill Bill : volume 1"@fr .
+
+<http://dbpedia.org/resource/Kill_Bill__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Lucy_Liu> ;
+        dbo:to      "2003"^^xsd:gYear .

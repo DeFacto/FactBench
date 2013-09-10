@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.088k4>
+        rdfs:label       "Ievgueni Zamiatine"@fr , "Yevgeny Zamyatin"@en , "Jewgeni Iwanowitsch Samjatin"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.01j2k1__88> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Jewgeni_Iwanowitsch_Samjatin> , <http://fr.dbpedia.org/resource/Ievgueni_Zamiatine> , <http://dbpedia.org/resource/Yevgeny_Zamyatin> ;
+        skos:altLabel    "Zami︠a︡tin, Evgeniĭ Ivanovich"@fr , "Zami︠a︡tin, Evgeniĭ Ivanovich"@de , "Zami︠a︡tin, Evgeniĭ Ivanovich"@en , "Zami︠a︡tin"@fr , "Zami︠a︡tin"@de , "Zami︠a︡tin"@en , "Samjatin"@de , "Zamiatine"@fr , "Zamiatin, Evgenii Ivanovich"@fr , "Zamiatin, Evgenii Ivanovich"@de , "Zamiatin, Evgenii Ivanovich"@en , "Evgueny Zamyatin"@fr , "Evgueny Zamyatin"@de , "Evgueny Zamyatin"@en , "Evgeniĭ Ivanovich Zami͡atin"@en , "Jewgeni Iwanowitsch Samjatin"@de , "Eugène Zamiatine"@fr , "Evgeny Zamyatin"@fr , "Evgeny Zamyatin"@en , "Evgeny Zamyatin"@de , "Yevgeny Zamayatin"@fr , "Yevgeny Zamayatin"@de , "Yevgeny Zamayatin"@en , "Yevgeni Zamyatin"@fr , "Yevgeni Zamyatin"@de , "Yevgeni Zamyatin"@en , "Levgueni Zamiatine"@fr , "Jewgenij Samjatin"@de , "Yegveny Ivanovich Zamyatin"@fr , "Yegveny Ivanovich Zamyatin"@en , "Yegveny Ivanovich Zamyatin"@de , "Jewgenij Iwanowitsch Samjatin"@de , "Yevgeny Ivanovich Zamyatin"@fr , "Yevgeny Ivanovich Zamyatin"@en , "Yevgeny Ivanovich Zamyatin"@de , "Zamjatin, Evgenij Ivanovič"@fr , "Zamjatin, Evgenij Ivanovič"@en , "Zamjatin, Evgenij Ivanovič"@de , "Evguéni Zamiatine"@fr , "Zamjatin"@fr , "Evgeny Zamiatin"@fr , "Evgeny Zamiatin"@de , "Evgeny Zamiatin"@en , "Zamjatin"@de , "Zamjatin"@en , "Evgueni Zamiatine"@fr , "Zami︠a︡tin, Evgenii Ivanovich"@fr , "Zami︠a︡tin, Evgenii Ivanovich"@en , "Zami︠a︡tin, Evgenii Ivanovich"@de , "Zamiatin"@fr , "Zamiatin"@en , "Zamiatin"@de , "Zamjatin, Evgenij Ivanovic"@fr , "Zamjatin, Evgenij Ivanovic"@de , "Zamjatin, Evgenij Ivanovic"@en , "Evgenii Ivanovich Zamiatin"@fr , "Yevgeny Zamiatin"@fr , "Yevgeny Zamiatin"@en , "Yevgeny Zamiatin"@de , "Evgenii Ivanovich Zamiatin"@en , "Evgenii Ivanovich Zamiatin"@de , "Zamyatin"@fr , "Eugene Zamiatine"@fr , "Zamyatin"@de , "Zamyatin"@en , "Yevgeny Zamyatin"@fr , "Eugene Zamiatin"@fr , "Yevgeny Zamyatin"@de , "Eugene Zamiatin"@en , "Eugene Zamiatin"@de , "Yevgeny Zamyatin"@en , "Yevgeni Ivanovitch Zamyatin"@fr , "Jewgeni Samjatin"@de , "Jewgienij Zamiatin"@fr , "Jewgienij Zamiatin"@de , "Jewgienij Zamiatin"@en , "Ievgueni Zamiatine"@fr , "Eugene Zamyatin"@fr , "Eugene Zamyatin"@de , "Eugene Zamyatin"@en , "Evgeniĭ Zami͡a︡tin"@en .
+
+<http://rdf.freebase.com/ns/m.01j2k1>
+        rdfs:label     "Nous autres"@fr , "Wir"@de , "We"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nous_autres> , <http://de.dbpedia.org/resource/Wir_(Roman)> , <http://dbpedia.org/resource/We_(novel)> ;
+        skos:altLabel  "D-503"@fr , "D-503"@de , "D-503"@en , "Nous autres"@fr , "Nous Autres"@fr .
+
+<http://rdf.freebase.com/ns/m.01j2k1__88>
+        dbo:author  <http://rdf.freebase.com/ns/m.01j2k1> ;
+        dbo:from    "1924"^^xsd:gYear ;
+        dbo:to      "1924"^^xsd:gYear .

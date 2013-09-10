@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mammootty__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Providence,_Rhode_Island> ;
+        dbo:from        "1942"^^xsd:gYear ;
+        dbo:to          "1942"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Providence,_Rhode_Island>
+        rdfs:label     "Providence, Rhode Island"@de , "Providence, Rhode Island"@fr , "Providence, Rhode Island"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Providence_(Rhode_Island)> , <http://de.dbpedia.org/resource/Providence> ;
+        skos:altLabel  "Nathanael Greene school"@de , "Nathanael Greene school"@fr , "Nathanael Greene school"@en , "Providnece"@en , "Providnece"@de , "Providnece"@fr , "LOCODE:USPVD"@de , "LOCODE:USPVD"@fr , "LOCODE:USPVD"@en , "Providence, ri"@de , "Providence, ri"@fr , "Providence, ri"@en , "Providence rhode island"@de , "Providence rhode island"@fr , "Providence rhode island"@en , "Providence, USA"@en , "Providence, USA"@de , "Providence, USA"@fr , "Providence"@en , "Providence"@de , "Providence"@fr , "Providence Rhode Island"@de , "Providence Rhode Island"@fr , "Providence Rhode Island"@en , "Providence, Rhode Island"@de , "Providence, Rhode Island"@fr , "Providence, Rhode Island"@en , "Providence, RI"@de , "Providence, RI"@fr , "Providence, RI"@en , "Providence, Rhode island"@en , "Providence RI"@en , "Providence, R.I."@de , "Providence, R.I."@fr , "Providence RI"@de , "Providence RI"@fr , "Providence, R.I."@en , "Providence, Rhode island"@de , "Providence, Rhode island"@fr , "Capital of Rhode Island"@de , "Capital of Rhode Island"@fr , "Capital of Rhode Island"@en .
+
+<http://dbpedia.org/resource/Mammootty>
+        rdfs:label     "Mammootty"@en , "Mammootty"@fr , "Mammootty"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mammootty__1> ;
+        skos:altLabel  "Mammukka"@en , "Mammotty"@en , "Mammookka"@en , "Megastar Mammootty"@en , "Muhammad Kutty"@en , "Sajin"@en , "Mammootty"@en , "Mammooty"@en .

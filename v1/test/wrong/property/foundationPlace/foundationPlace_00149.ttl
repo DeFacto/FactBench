@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.052p7>
+        rdfs:label     "Montréal"@fr , "Montreal"@de , "Montreal"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Montreal> , <http://fr.dbpedia.org/resource/Montréal> , <http://dbpedia.org/resource/Montreal> ;
+        skos:altLabel  "Montreal, QC"@de , "Montreal, QC"@fr , "Montreal, QC"@en , "Montréal, QB"@de , "Montréal, QB"@fr , "Montréal, QB"@en , "Montrealais"@fr , "Est de Montréal"@fr , "Québécois de Montréal"@fr , "MontrA(c)al"@de , "MontrA(c)al"@fr , "MontrA(c)al"@en , "Est-Montréal"@fr , "Montreal, QB"@de , "Montreal, QB"@fr , "Montreal, QB"@en , "MontrÃ©al"@de , "MontrÃ©al"@fr , "Ville de Montréal"@de , "Ville de Montréal"@fr , "Ville de Montréal"@en , "MontrÃ©al"@en , "Montreal's"@de , "Montreal's"@fr , "Montreal's"@en , "Tiohtia:ke"@de , "Tiohtia:ke"@fr , "Tiohtia:ke"@en , "Montrea"@de , "Montreal, PQ"@de , "Montrea"@fr , "Montrea"@en , "Montreal, PQ"@fr , "Montreal, PQ"@en , "Métropole du Québec"@fr , "Montreal, Québec"@de , "Montreal, Québec"@fr , "Montreal, Québec"@en , "Quebecois de montreal"@fr , "Montreal, Quebec, Canada"@de , "Montreal, Quebec, Canada"@fr , "Montreal, Quebec, Canada"@en , "Montrela"@de , "Montrela"@fr , "Montrela"@en , "Motnreal"@de , "Motnreal"@fr , "Motnreal"@en , "Montreal Skyline"@en , "Montreal Skyline"@de , "Montreal Skyline"@fr , "Quebecois de Montreal"@fr , "Montréal, Québec"@de , "Montréal, Québec"@fr , "Montréal, Québec"@en , "Team990"@de , "Team990"@fr , "Team990"@en , "Mont"@de , "Mont"@fr , "Mont"@en , "MontrA©al"@de , "MontrA©al"@fr , "MontrA©al"@en , "City of Montreal"@de , "City of Montreal"@fr , "City of Montreal"@en , "Funtreal"@en , "Funtreal"@de , "Funtreal"@fr , "Est-Montreal"@fr , "Montrealers"@de , "Montrealers"@fr , "Montrealers"@en , "Montréal's"@de , "Quebecois De Montreal"@fr , "Montréal's"@fr , "Montréal's"@en , "Montréal, PQ"@de , "Montréal, PQ"@fr , "Montréal, PQ"@en , "Ouest de Montreal"@fr , "Sister Cities of Montreal"@de , "Sister Cities of Montreal"@fr , "Sister Cities of Montreal"@en , "Montreal, Canada"@de , "Montreal, Canada"@fr , "Montreal, Canada"@en , "Montrealaises"@fr , "Montréal"@de , "Montréal"@fr , "Montréal"@en , "Québécois de montréal"@fr , "Ouest de Montréal"@fr , "Montreal, quebec"@de , "Montreal, quebec"@fr , "Montreal, quebec"@en , "Ville de Montreal"@de , "Ville de Montreal"@fr , "Ville de Montreal"@en , "Montreal"@de , "Montreal"@fr , "Montreal"@en , "Metropole du Quebec"@fr , "LOCODE:CAMTR"@de , "LOCODE:CAMTR"@fr , "LOCODE:CAMTR"@en , "Montréal, Quebec"@en , "Montréal, Quebec"@de , "Montreal, qc"@de , "Montreal, qc"@fr , "Montreal, qc"@en , "Montréal, Quebec"@fr , "Montreal, Qc, Canada"@de , "Montreal, Qc, Canada"@fr , "Montreal, Qc, Canada"@en , "Montrealaise"@fr , "Montréalaises"@fr , "Montrealer"@de , "Montrealer"@fr , "Montrealer"@en , "City of Montréal"@de , "City of Montréal"@fr , "City of Montréal"@en , "Montréal, Canada"@de , "Montréal, Canada"@fr , "Montréal, Canada"@en , "Québécois De Montréal"@fr , "Montreal, Qc"@en , "Montréalais"@fr , "Montréal, QC"@de , "Tiohtiá:ke"@de , "Tiohtiá:ke"@fr , "Tiohtiá:ke"@en , "Montreal, Qc"@de , "Montreal, Qc"@fr , "Montreal, Quebec"@de , "Montreal, Quebec"@fr , "Montréalaise"@fr , "Montreal, Quebec"@en , "Montréal, QC"@fr , "Montréal, QC"@en , "Montreol"@de , "Montreol"@fr , "Montreol"@en , "Montreal, Que."@de , "Montreal, Que."@fr , "Montreal, Que."@en , "The weather in Montréal"@de , "The weather in Montreal"@de , "The weather in Montreal"@fr , "The weather in Montreal"@en , "The weather in Montréal"@fr , "The weather in Montréal"@en , "Est de Montreal"@fr .
+
+<http://rdf.freebase.com/ns/m.05bzl20__1>
+        dbo:from  "1984"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.052p7> ;
+        dbo:to    "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05bzl20>
+        rdfs:label     "Dialogic Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05bzl20__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Dialogic_Corporation> ;
+        skos:altLabel  "Eicon"@en .

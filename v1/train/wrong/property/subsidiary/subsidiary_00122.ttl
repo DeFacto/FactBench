@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0168nq>
+        rdfs:label     "Johnson & Johnson"@en , "Johnson & Johnson"@de , "Johnson & Johnson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0168nq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Johnson_&_Johnson> , <http://de.dbpedia.org/resource/Johnson_&_Johnson> , <http://dbpedia.org/resource/Johnson_&_Johnson> ;
+        skos:altLabel  "Johnson&Johnson"@de , "Johnson&johnson"@de , "Johnson&johnson"@fr , "Johnson&johnson"@en , "Johnson and Johnson Corporation"@en , "Johnson and Johnson Corporation"@de , "Johnson and Johnson Corporation"@fr , "Compeed"@de , "Johnson & Johnson Services"@en , "Johnson & Johnson Services"@de , "Johnson & Johnson Services"@fr , "JOHNSON & JOHNSON"@en , "Johnson & Johnson Corporation"@en , "Ethicon"@de , "Johnson & Johnson Corporation"@de , "Johnson & Johnson Corporation"@fr , "Biosense Webster"@en , "Biosense Webster"@de , "Biosense Webster"@fr , "Robert Wood Johnson I"@de , "Johnson & johnson"@de , "Johnson & johnson"@fr , "Johnson & johnson"@en , "Johnson"@en , "Johnson"@de , "Johnson"@fr , "J&J"@en , "Johnson & Johnson Services, Inc."@en , "Johnson & Johnson Services, Inc."@de , "Johnson & Johnson Services, Inc."@fr , "Johnson Johnson"@en , "Johnson Johnson"@de , "Johnson Johnson"@fr , "& Johnson Johnson"@en , "JOHNSON & JOHNSON ET AL"@en , "Johnson & Johnson"@en , "Johnson & Johnson"@de , "Johnson & Johnson"@fr , "Johnson and Johnson"@en , "Johnson and Johnson"@de , "Johnson and Johnson"@fr , "OraPharma"@en , "OraPharma"@de , "OraPharma"@fr , "Johnson and johnson"@en , "Johnson and johnson"@de , "Johnson and johnson"@fr , "K-Y Jelly"@fr , "Listerine"@de , "Ortho Clinical Diagnostics"@fr .
+
+<http://rdf.freebase.com/ns/m.0168nq__1>
+        dbo:from  "2001"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.02_48mg> ;
+        dbo:to    "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02_48mg>
+        rdfs:label  "Heartport Inc."@en .

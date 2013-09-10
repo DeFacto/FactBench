@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kill_Bill>
+        rdfs:label      "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/Kill_Bill__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Kill_Bill> , <http://fr.dbpedia.org/resource/Kill_Bill> ;
+        skos:altLabel   "Kill Bill 2"@fr , "Kill Bill : Volume 2"@fr , "Kill Bill, volume 1"@fr , "Kill Bill"@fr , "Kill Bill"@de , "Kill Bill"@en , "Kill Bill: Volume 3"@fr , "Kill Bill: Volume 3"@en , "Kill Bill: Volume 3"@de , "Kill Bill: Vol. 1"@fr , "Kill Bill: Vol. 2"@fr , "Bill"@fr , "Kill"@fr , "Tuer Bill"@fr , "Kill bill"@fr , "Kill bill"@de , "Kill bill"@en , "Kill Bill Vol 2"@fr , "Kill Bill : volume 1"@fr .
+
+<http://dbpedia.org/resource/Daryl_Hannah>
+        rdfs:label     "Daryl Hannah"@de , "Daryl Hannah"@en , "Daryl Hannah"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Daryl_Hannah> , <http://fr.dbpedia.org/resource/Daryl_Hannah> ;
+        skos:altLabel  "Darrell hannah"@en , "Daryl Hannah"@de , "Darrel Hanna"@de , "Daryl Hannah"@en , "Darrel Hanna"@en , "Daryl Christine Hannah"@fr , "Darrel Hannah"@fr , "Daryl Christine Hannah"@de , "Darrel Hannah"@de , "Darrel Hannah"@en , "Daryl Christine Hannah"@en , "Darryl Hannah"@fr , "Darryl Hannah"@de , "Darryl Hannah"@en , "Daryl Hanna"@fr , "Daryl Hanna"@de , "Daryl Hanna"@en , "Darryl Hanna"@fr , "Darryl Hanna"@de , "Darryl Hanna"@en , "Hannah"@fr , "Hannah"@de , "Daryl Hannah"@fr , "Darrell hannah"@fr , "Darrel Hanna"@fr , "Darrell hannah"@de .
+
+<http://dbpedia.org/resource/Kill_Bill__1>
+        dbo:from      "2003-10-10"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Daryl_Hannah> ;
+        dbo:to        "2003-10-10"^^xsd:date .

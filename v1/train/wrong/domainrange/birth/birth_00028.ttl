@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nas>
+        rdfs:label     "Nas"@en , "Nas"@fr , "Nas"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nas__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nas_(Rapper)> , <http://fr.dbpedia.org/resource/Nas_(rappeur)> ;
+        skos:altLabel  "Nasir Jones"@en , "Nas Jones"@en , "Nasir Bin Olu Dara"@fr , "Nasir Jones"@fr , "Nasir Jones"@de , "Nas Jones"@fr , "Nas Jones"@de , "Nasir Bin Olu Dara"@de , "Nasty Nas"@en , "Nasty Nas"@fr , "Nasty Nas"@de , "The Jones Experience"@en , "The Jones Experience"@fr , "The Jones Experience"@de , "Nasir Bin Olu Dara Jones"@en , "Nasir Bin Olu Dara Jones"@fr , "Nasir Bin Olu Dara Jones"@de , "Nasir bin Olu Dara Jones"@de , "Nasir"@en , "Nas Escobar"@en , "Nasir bin Olu Dara"@en , "Nasir"@fr , "Nas Escobar"@fr , "Nasir"@de , "Nas Escobar"@de , "Nasir bin Olu Dara"@fr , "Nasir bin Olu Dara"@de , "Nasir Bin Olu Dara"@en .
+
+<http://dbpedia.org/resource/Nas__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Norfolk,_Virginia> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Norfolk,_Virginia>
+        rdfs:label     "Norfolk, Virginia"@en , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norfolk_(Virginia)> , <http://fr.dbpedia.org/resource/Norfolk_(Virginie)> ;
+        skos:altLabel  "Ledger-Dispatch"@de , "Norfolk International Airport"@fr , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de , "City of Norfolk, Virginia"@en , "City of Norfolk, Virginia"@fr , "City of Norfolk, Virginia"@de , "Norfolk, Va"@en , "Norfolk, Va"@fr , "Norfolk, Va"@de , "LOCODE:USORF"@en , "LOCODE:USORF"@fr , "LOCODE:USORF"@de , "Norfolk"@en , "Norfolk, VA"@en , "Norfolk, va"@en , "Norfolk"@fr , "Norfolk, VA"@fr , "Norfolk, va"@fr , "Norfolk"@de , "Norfolk, VA"@de , "Norfolk, va"@de , "Norfolk VA"@en , "Norfolk VA"@fr , "Norfolk VA"@de , "Norfolk, Va."@en , "Norfolk, Va."@fr , "Norfolk, Va."@de , "Ledger-Dispatch"@en , "Norfolk, Virginia"@en , "Ledger-Dispatch"@fr .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bing_Crosby>
+        rdfs:label     "Bing Crosby"@de , "Bing Crosby"@fr , "Bing Crosby"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Bing_Crosby__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bing_Crosby> , <http://fr.dbpedia.org/resource/Bing_Crosby> ;
+        skos:altLabel  "Harry Lillis \"Bing\" Crosby"@en , "Harry Lillis \"Bing\" Crosby"@de , "Bing Crosby Enterprises"@en , "Bing Crosby Enterprises"@de , "Bing Crosby Enterprises"@fr , "Crosby, Bing"@fr , "Crosby, Bing"@en , "Crosby, Bing"@de , "Bing Crosby Productions"@fr , "Bing Crosby Productions"@en , "Bing Crosby Productions"@de , "Bing Cosby"@en , "Bing Cosby"@de , "Bing Cosby"@fr , "Harry Lillis Bing Crosby"@en , "Harry Lillis Bing Crosby"@de , "Harry Lillis Bing Crosby"@fr , "Bing Crosby"@en , "Bing Crosby"@de , "Bing Crosby"@fr , "Bing crosby"@fr , "Harry Lillis Crosby"@en , "Harry Lillis Crosby"@de , "Harry Lillis Crosby"@fr , "Bing crosby"@en , "Bing crosby"@de , "Harry L. Crosby"@fr , "Harry L. Crosby"@en , "Harry L. Crosby"@de , "Der Bingle"@en , "Der Bingle"@de , "Der Bingle"@fr , "Crosby"@en , "Crosby"@de , "Crosby"@fr , "Bing"@en , "Bing"@de , "Bing"@fr , "Harry Lillis \"Bing\" Crosby"@fr .
+
+<http://dbpedia.org/resource/Tacoma,_Washington>
+        rdfs:label     "Tacoma, Washington"@en , "Tacoma, Washington"@fr , "Tacoma, Washington"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tacoma> , <http://de.dbpedia.org/resource/Tacoma> ;
+        skos:altLabel  "Tacoma City Center, Washington"@fr , "Tacoma City Center, Washington"@de , "Tacoma City Center, Washington"@en , "LOCODE:USTIW"@fr , "Tacoma, WA"@fr , "Tacoma, Wash."@fr , "LOCODE:USTIW"@de , "LOCODE:USTIW"@en , "Tacoma, WA"@de , "Tacoma, Wash."@de , "Tacoma, Wash."@en , "Tacoma, WA"@en , "Tacoma Aroma"@fr , "Tacoma Aroma"@de , "Tacoma Aroma"@en , "Gray Army Air Field"@fr , "Tacoma"@fr , "Tacoma"@de , "Tacoma"@en , "Tacoma mayoral election, 2009"@fr , "Tacoma Washington"@fr , "Tacoma mayoral election, 2009"@de , "Tacoma Washington"@de , "Tacoma Washington"@en , "Tacoma mayoral election, 2009"@en , "Tacoma, wa"@fr , "Tacoma, Washington"@fr , "Tacoma, wa"@de , "Tacoma, Washington"@de , "Tacoma, wa"@en , "Tacoma, Washington"@en , "Tacoma, Wa"@fr , "Tacoma, Wa"@de , "Tacoma, Wa"@en .
+
+<http://dbpedia.org/resource/Bing_Crosby__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Tacoma,_Washington> ;
+        dbo:from        "1903-05-03"^^xsd:date ;
+        dbo:to          "1903-05-03"^^xsd:date .

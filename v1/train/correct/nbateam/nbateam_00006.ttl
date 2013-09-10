@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dwight_Howard>
+        rdfs:label      "Dwight Howard"@en , "Dwight Howard"@fr , "Dwight Howard"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/Dwight_Howard__1> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Dwight_Howard> , <http://de.dbpedia.org/resource/Dwight_Howard> ;
+        skos:altLabel   "Dwight David Howard"@de , "Dwight"@de , "Dwight Howard"@fr , "Dwight Howard"@de , "Dwight Howard"@en , "Howard"@fr .
+
+<http://dbpedia.org/resource/Dwight_Howard__1>
+        dbo:from  "2004"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Orlando_Magic> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Orlando_Magic>
+        rdfs:label     "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Magic_d'Orlando> , <http://de.dbpedia.org/resource/Orlando_Magic> ;
+        skos:altLabel  "Magic, Orlando"@fr , "Magic, Orlando"@en , "Magic, Orlando"@de , "Magic d'Orlando"@fr , "Orlando"@fr , "Magic"@fr , "Magic"@de , "Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de , "Orlando Magic"@en .

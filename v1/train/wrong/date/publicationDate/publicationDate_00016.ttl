@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08ffjn>
+        rdfs:label  "Beyond Apollo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Beyond_Apollo> .
+
+<http://rdf.freebase.com/ns/m.036jyk__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.08ffjn> ;
+        dbo:from    "1970"^^xsd:gYear ;
+        dbo:to      "1970"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.036jyk>
+        rdfs:label     "Barry N. Malzberg"@en , "Barry N. Malzberg"@fr , "Barry N. Malzberg"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.036jyk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Barry_N._Malzberg> , <http://dbpedia.org/resource/Barry_N._Malzberg> , <http://fr.dbpedia.org/resource/Barry_N._Malzberg> ;
+        skos:altLabel  "Robin Schaefer"@en , "Barry N. Malzberg"@en , "Barry N. Malzberg"@de , "Barry N. Malzberg"@fr , "Barry Malzberg"@en , "Robin Schaeffer"@en , "Barry Nathaniel Malzberg"@en , "Barry Malzberg"@fr , "Barry Malzberg"@de , "Barry Nathaniel Malzberg"@fr , "Barry Nathaniel Malzberg"@de , "K. M. O'Donnell"@en , "K. M. O'Donnell"@fr , "K. M. O'Donnell"@de , "William Coyne"@en , "Mike Barry"@en , "Malzberg"@de .

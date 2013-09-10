@@ -1,0 +1,27 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jack_Dann>
+        skos:altLabel  "Dann"@en , "Jack Dann"@en , "Marilyn"@en , "Jubilee"@en .
+
+<http://rdf.freebase.com/ns/m.0470_v>
+        rdfs:label       "Jack Dann"@fr , "Jack Dann"@de , "Jack Dann"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.03by9yd__36> ;
+        owl:sameAs       <http://dbpedia.org/resource/Jack_Dann> ;
+        skos:altLabel    "Jack Mayo Dann"@en , "Jack M. Dann"@en .
+
+<http://rdf.freebase.com/ns/m.03by9yd>
+        rdfs:label  "Wandering Stars"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Wandering_Stars> .
+
+<http://rdf.freebase.com/ns/m.03by9yd__36>
+        dbo:author  <http://rdf.freebase.com/ns/m.03by9yd> ;
+        dbo:from    "1974"^^xsd:gYear ;
+        dbo:to      "1974"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Wandering_Stars>
+        skos:altLabel  "Wandering Stars"@en , "Wandering star"@en .

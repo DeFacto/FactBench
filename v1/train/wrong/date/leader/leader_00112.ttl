@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Croatia>
+        rdfs:label     "Croatia"@de , "Croatia"@fr , "Croatia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Croatie> , <http://de.dbpedia.org/resource/Kroatien> ;
+        skos:altLabel  "Crotaia"@de , "Crotaia"@fr , "Crotaia"@en , "Croácia"@en , "Croácia"@de , "Croácia"@fr , "Republique de Croatie"@fr , "ISO 3166-1:HR"@de , "ISO 3166-1:HR"@fr , "ISO 3166-1:HR"@en , "Republik Kroatien"@de , "Socijalisticka Republika Hrvatska"@de , "Croatie"@en , "Croatie"@de , "Croatie"@fr , "Croazia"@en , "Croazia"@de , "Croazia"@fr , "République de Croatie"@fr , "Kroatia"@en , "Kroatia"@de , "Kroatia"@fr , "Hrvatska"@de , "Hrvatska"@fr , "Hrvatska"@en , "Kroatien"@en , "Kroatien"@de , "Kroatien"@fr , "Hirvatistan"@en , "Croacia"@en , "Hirvatistan"@de , "Hirvatistan"@fr , "Croacia"@de , "Croacia"@fr , "République croate"@fr , "Republika Hrvatska"@en , "Republika Hrvatska"@de , "Republika Hrvatska"@fr , "Republique croate"@fr , "Republic of Croatia"@en , "Republic of Croatia"@de , "Republic of Croatia"@fr , "Hravatska"@en , "Hravatska"@de , "Hravatska"@fr , "Croatia"@en , "Croatia"@de , "Croatia"@fr .
+
+<http://dbpedia.org/resource/Stjepan_Mesić>
+        rdfs:label     "Stjepan Mesić"@en , "Stjepan Mesić"@fr , "Stjepan Mesić"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stjepan_Mesić__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Stjepan_Mesić> , <http://fr.dbpedia.org/resource/Stjepan_Mesić> ;
+        skos:altLabel  "Mesic"@fr , "Stipe Mesic"@fr , "Mesic"@de , "Stipe Mesic"@de , "Stjepan Mesić"@fr , "Stjepan Mesić"@de , "Stipe Mesić"@fr , "Stipe Mesić"@de , "Mesić"@fr , "Mesić"@de , "Stjepan Mesic"@fr , "Stjepan"@de , "Stjepan Mesic"@de .
+
+<http://dbpedia.org/resource/Stjepan_Mesić__1>
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Croatia> ;
+        dbo:to      "1995"^^xsd:gYear .

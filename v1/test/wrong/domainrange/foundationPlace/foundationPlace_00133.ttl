@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03zv2t>
+        rdfs:label     "Lund"@en , "Lund"@fr , "Lund"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lund_(Suède)> , <http://de.dbpedia.org/resource/Lund> , <http://dbpedia.org/resource/Lund> ;
+        skos:altLabel  "Lund, Sweden"@en , "Lund, Sweden"@fr , "Lund, Sweden"@de , "LOCODE:SELUD"@fr , "LOCODE:SELUD"@de , "LOCODE:SELUD"@en , "Lund"@en , "Lund"@fr , "Lund"@de .
+
+<http://rdf.freebase.com/ns/m.08vbs___1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03zv2t> ;
+        dbo:from             "1985"^^xsd:gYear ;
+        dbo:to               "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08vbs_>
+        rdfs:label  "iUpload"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.08vbs___1> .

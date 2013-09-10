@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05l5n>
+        rdfs:label     "Oxford"@fr , "Oxford"@en , "Oxford"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Oxford> , <http://de.dbpedia.org/resource/Oxford> , <http://fr.dbpedia.org/resource/Oxford> ;
+        skos:altLabel  "Oxford, United Kingdom"@fr , "Oxford, United Kingdom"@en , "Oxford, United Kingdom"@de , "County Borough of Oxford"@fr , "County Borough of Oxford"@de , "County Borough of Oxford"@en , "Oxford"@fr , "Oxford"@en , "Oxford"@de , "Dreaming Spires"@fr , "Dreaming Spires"@de , "Dreaming Spires"@en , "Oxford, england"@fr , "Oxford, england"@en , "Oxford, england"@de , "City of dreaming spires"@fr , "City of dreaming spires"@en , "City of dreaming spires"@de , "Oxford, England"@fr , "Oxford, England"@en , "Oxford, England"@de , "OXFORD"@fr , "OXFORD"@en , "OXFORD"@de , "LOCODE:GBOXF"@fr , "LOCODE:GBOXF"@en , "LOCODE:GBOXF"@de , "City of Oxford"@fr , "City of Oxford"@en , "City of Oxford"@de , "Oxford astrophysics"@fr , "Oxford astrophysics"@de , "Oxford astrophysics"@en , "The city of dreaming spires"@fr , "The city of dreaming spires"@en , "The city of dreaming spires"@de , "The Dreaming Spires"@fr , "The Dreaming Spires"@en , "The Dreaming Spires"@de , "City of Dreaming Spires"@fr , "City of Dreaming Spires"@de , "City of Dreaming Spires"@en , "Oxford, UK"@fr , "Oxenaforda"@fr , "Oxenaforda"@en , "Oxenaforda"@de , "Morrells brewery"@fr , "Oxford, UK"@de , "Morrells brewery"@en , "Morrells brewery"@de , "Oxford, UK"@en , "The weather in Oxford"@fr , "The weather in Oxford"@en , "The weather in Oxford"@de , "Oxford, Oxfordshire"@fr , "Oxford, Oxfordshire"@de , "Oxford, Oxfordshire"@en , "OXFORD CORPORATION"@en , "Lion Brewery"@fr , "Lion Brewery"@de , "Lion Brewery"@en .
+
+<http://rdf.freebase.com/ns/m.06dbx6>
+        rdfs:label      "Softpress"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.06dbx6__76> ;
+        owl:sameAs      <http://dbpedia.org/resource/Softpress> .
+
+<http://rdf.freebase.com/ns/m.06dbx6__76>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.05l5n> ;
+        dbo:from             "1993"^^xsd:gYear ;
+        dbo:to               "1993"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Softpress>
+        skos:altLabel  "Softpress"@en .

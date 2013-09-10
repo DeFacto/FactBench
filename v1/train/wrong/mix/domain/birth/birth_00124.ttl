@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Unquillo>
+        rdfs:label     "Unquillo"@en , "Unquillo"@fr , "Unquillo"@de ;
+        skos:altLabel  "Unquillo"@en .
+
+<http://dbpedia.org/resource/Brian_Wilson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Unquillo> ;
+        dbo:from        "1982"^^xsd:gYear ;
+        dbo:to          "1982"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Brian_Wilson>
+        rdfs:label     "Brian Wilson"@en , "Brian Wilson"@fr , "Brian Wilson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Brian_Wilson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brian_Wilson> , <http://de.dbpedia.org/resource/Brian_Wilson> ;
+        skos:altLabel  "Brain Wilson"@en , "Brain Wilson"@fr , "Brain Wilson"@de , "Brian"@en , "Brian"@fr , "Brian"@de , "California Feelin'"@en , "Brian Wilson"@en , "California Feelin'"@fr , "Brian Wilson"@fr , "California Feelin'"@de , "Brian Wilson"@de , "Wilson, Brian Douglas"@en , "Wilson, Brian Douglas"@fr , "Wilson, Brian Douglas"@de , "Brian Douglas Wilson"@en , "Brian Douglas Wilson"@fr , "Brian Douglas Wilson"@de , "Wilson, Brian"@en , "Wilson, Brian"@fr , "Wilson, Brian"@de .

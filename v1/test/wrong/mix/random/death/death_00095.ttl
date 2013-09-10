@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ferdinand_von_Mueller__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Minsk> ;
+        dbo:from        "1961"^^xsd:gYear ;
+        dbo:to          "1961"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Minsk>
+        rdfs:label     "Minsk"@de , "Minsk"@fr , "Minsk"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minsk> , <http://fr.dbpedia.org/resource/Minsk> ;
+        skos:altLabel  "Miensk"@de , "Miensk"@fr , "Miensk"@en , "Gorod Minsk"@de , "Gorod Minsk"@fr , "Gorod Minsk"@en , "Provice of Minsk"@fr , "Provice of Minsk"@en , "Provice of Minsk"@de , "Minskaya"@en , "Minskaya"@de , "Minskaya"@fr , "Minsku"@de , "Minsku"@fr , "Minsku"@en , "LOCODE:BYMSQ"@de , "LOCODE:BYMSQ"@fr , "LOCODE:BYMSQ"@en , "Capital of Belarus"@de , "Capital of Belarus"@fr , "Capital of Belarus"@en , "Horad Minsk"@de , "Horad Minsk"@fr , "Horad Minsk"@en , "Minskas"@de , "Minskas"@fr , "Minskas"@en , "Minsk, Belarus"@de , "Minsk, Belarus"@fr , "Minsk, Belarus"@en , "Mensk"@de , "Mensk"@fr , "Mensk"@en , "Minsk"@en , "Minsk, USSR"@de , "Minsk, USSR"@fr , "Minsk, USSR"@en , "Minsk"@de , "Minsk"@fr .
+
+<http://dbpedia.org/resource/Ferdinand_von_Mueller>
+        rdfs:label     "Ferdinand von Mueller"@de , "Ferdinand von Mueller"@fr , "Ferdinand von Mueller"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ferdinand_von_Mueller__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ferdinand_von_Mueller> , <http://fr.dbpedia.org/resource/Ferdinand_von_Müller> ;
+        skos:altLabel  "Ferdinand von Muller"@de , "Ferdinand von Muller"@fr , "Ferdinand von Muller"@en , "Ferdinand von mueller"@en , "Ferdinand von mueller"@de , "Ferdinand von mueller"@fr , "Ferdinand Von Müller"@fr , "Ferdinand Von Muller"@fr , "Muller"@fr , "F. Muell."@en , "F. Muell."@de , "F. Muell."@fr , "Müller"@fr , "Ferdinand von muller"@fr , "Ferdinand von müller"@fr , "Ferdinand Jacob Heinrich von Mueller"@en , "Ferdinand Jacob Heinrich von Mueller"@de , "Ferdinand Jacob Heinrich von Mueller"@fr , "Ferdinand von Mueller"@en , "Ferdinand von Mueller"@de , "Ferdinand von Mueller"@fr , "F.Muell."@en , "F.Muell."@de , "F.Muell."@fr , "Baron Ferdinand Jakob Heinrich Von Mueller"@de , "Baron Ferdinand Jakob Heinrich Von Mueller"@fr , "Baron Ferdinand Jakob Heinrich Von Mueller"@en , "Baron Ferdinand von Muller"@en , "Baron Ferdinand von Muller"@de , "Baron Ferdinand von Muller"@fr , "Ferdinand Mueller"@en , "Ferdinand Mueller"@de , "Ferdinand Mueller"@fr , "Ferdinand Jacob Heinrich von Muller"@en , "Ferdinand von Müller"@de , "Ferdinand von Müller"@fr , "Ferdinand Jacob Heinrich von Muller"@de , "Ferdinand Jacob Heinrich von Muller"@fr , "Ferdinand von Müller"@en , "Ferdinand Jacob Heinrich von Müller"@en , "Ferdinand Jacob Heinrich von Müller"@de , "Ferdinand Jacob Heinrich von Müller"@fr , "Mueller"@de , "Mueller"@fr , "Mueller"@en .

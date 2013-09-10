@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Walter_Scott>
+        rdfs:label     "Walter Scott"@fr , "Walter Scott"@en , "Walter Scott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walter_Scott__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walter_Scott> , <http://fr.dbpedia.org/resource/Walter_Scott> ;
+        skos:altLabel  "Sir Walter Scotts's"@de , "Sir Walter Scotts's"@fr , "Sir Walter Scotts's"@en , "Scott, Sir Walter"@en , "Walter, 1st Baronet Scott"@de , "Walter, 1st Baronet Scott"@fr , "Scott, Sir Walter"@de , "Scott, Sir Walter"@fr , "Sir Walter Scott, 1st Baronet"@de , "Sir Walter Scott, 1st Baronet"@fr , "Sir Walter Scott, 1st Baronet"@en , "Walter, 1st Baronet Scott"@en , "Border Minstrel"@de , "Border Minstrel"@fr , "Border Minstrel"@en , "Scott"@fr , "Wizard of the North"@fr , "Wizard of the North"@en , "Wizard of the North"@de , "Sir Walter Scott"@de , "Sir Walter Scott"@fr , "Sir Walter Scott"@en , "Walter Scott, 1st Baronet"@de , "Walter Scott, 1st Baronet"@fr , "Walter Scott, 1st Baronet"@en , "Scott, Walter"@de , "Scott, Walter"@fr , "Scott, Walter"@en , "Sir W. Scott"@en , "Sir W. Scott"@de , "Sir W. Scott"@fr , "Walter Scott"@en , "Walter Scott"@de , "Walter Scott"@fr , "Great Magician"@de , "Great Magician"@fr , "Great Magician"@en .
+
+<http://dbpedia.org/resource/Sydney>
+        rdfs:label     "Sydney"@fr , "Sydney"@en , "Sydney"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sydney> , <http://fr.dbpedia.org/resource/Sydney> ;
+        skos:altLabel  "Sydney Australia"@en , "Sydney Australia"@fr , "Sydney Australia"@de , "Greater Sydney"@en , "Greater Sydney"@fr , "Greater Sydney"@de , "LOCODE:AUSYD"@en , "LOCODE:AUSYD"@de , "LOCODE:AUSYD"@fr , "Sydney, NSW"@en , "Sydney, NSW"@de , "Sydney, NSW"@fr , "Sydneians"@en , "Sydney, AU-NSW"@en , "Sydney, AU-NSW"@de , "Sydney, AU-NSW"@fr , "Sydneians"@de , "Sydneians"@fr , "Sydney, New South Wales, Australia"@en , "Sydney, New South Wales, Australia"@de , "Sydney, New South Wales, Australia"@fr , "Fort Denison"@de , "Sydney"@en , "Sydney"@fr , "Sydney"@de , "Capital of New South Wales"@en , "Capital of New South Wales"@de , "Capital of New South Wales"@fr , "Xedni"@en , "Sydney (N.S.W.), Australia"@en , "Sydney (N.S.W.), Australia"@fr , "Xedni"@de , "Xedni"@fr , "Sydney (N.S.W.), Australia"@de , "Sydney, Australia"@en , "Sydney, Australia"@de , "Sydney, Australia"@fr , "Sydney, NSW, Australia"@en , "Sydney, NSW, Australia"@de , "Sydney, NSW, Australia"@fr , "Sidney, Australia"@en , "Sidney, Australia"@de , "Sidney, Australia"@fr , "Syndey"@en , "Syndey"@de , "Syndey"@fr , "Sydneysider"@en , "Sydney, New South Wales"@en , "Sydney, New South Wales"@de , "Sydney, New South Wales"@fr , "Sydneian"@en , "Sydneian"@de , "Sydneian"@fr , "Sydneysider"@de , "Sydneysider"@fr , "Sydneysiders"@en , "Sydneysiders"@de , "Sydneysiders"@fr .
+
+<http://dbpedia.org/resource/Walter_Scott__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Sydney> ;
+        dbo:from        "1968"^^xsd:gYear ;
+        dbo:to          "1968"^^xsd:gYear .

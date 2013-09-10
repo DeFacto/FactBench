@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0266c36>
+        rdfs:label     "Olga Kurylenko"@en , "Olga Kurylenko"@fr , "Olga Kurylenko"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Olga_Kurylenko> , <http://dbpedia.org/resource/Olga_Kurylenko> , <http://fr.dbpedia.org/resource/Olga_Kurylenko> ;
+        skos:altLabel  "Olha Kurylenko"@fr , "Kurylenko"@en , "Kurylenko"@fr , "Kurylenko"@de , "Olga Kutylenko"@en , "Olha Kostyantynivna Kurylenko"@en , "Olga Kurylenko"@en , "Olga Kurylenko"@fr , "Olga Kurylenko"@de , "Olga Kurilenko"@en , "Olga Kurilenko"@fr , "Olga Kurilenko"@de , "Ольга Костянтинівна Куриленко"@en , "Ol’ha Kostyantynivna Kurylenko"@en , "Olha Kostiantynivna Kurylenko"@en , "Olga Konstantinovna Kurylenko"@en .
+
+<http://rdf.freebase.com/ns/m.0928l6>
+        rdfs:label     "Chelsea Handler"@en , "Chelsea Handler"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0928l6__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Chelsea_Handler> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Chelsea_Handler> ;
+        skos:altLabel  "Chelsea Joy Handler"@en , "Chelsea Joy Handler"@de , "The Sexy Handler"@en , "Handler"@de , "Chelsea Handler"@de .
+
+<http://rdf.freebase.com/ns/m.0928l6__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0266c36> ;
+        dbo:from        "2002"^^xsd:gYear ;
+        dbo:to          "2002"^^xsd:gYear .

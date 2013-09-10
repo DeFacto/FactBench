@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.019pm_>
+        rdfs:label     "Demi Moore"@de , "Demi Moore"@fr , "Demi Moore"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Demi_Moore> , <http://fr.dbpedia.org/resource/Demi_Moore> , <http://dbpedia.org/resource/Demi_Moore> ;
+        skos:altLabel  "Demi"@de , "Demi"@fr , "Demi"@en , "Moore"@de , "Moore"@fr , "Moore"@en , "Demi moore"@de , "Demi moore"@fr , "Demi moore"@en , "Demi Kutcher"@de , "Demi Kutcher"@fr , "Demi Kutcher"@en , "Demi Gene Guynes"@en , "Kutcher"@de , "Kutcher"@fr , "Kutcher"@en , "Demetria Gene Guynes"@de , "Demetria Gene Guynes"@fr , "Demetria Gene Guynes"@en , "De"@en , "Demi Moore"@de , "Demi Moore"@fr , "Demi Moore"@en , "Demi Guynes Kutcher"@en , "Demi Moore-Kutcher"@de , "Demi Moore-Kutcher"@fr , "Demi Moore-Kutcher"@en , "Gimme Moore"@en , "Demetria \"Demi\" Guynes"@en , "Demetria Moore"@de , "Demetria Moore"@fr , "Demetria Moore"@en , "Demetria Guynes"@de , "Demetria Guynes"@fr , "Demetria Guynes"@en .
+
+<http://rdf.freebase.com/ns/m.0c7sj1>
+        rdfs:label     "Sara Maldonado"@en , "Sara Maldonado"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c7sj1__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Sara_Maldonado> , <http://dbpedia.org/resource/Sara_Maldonado> ;
+        skos:altLabel  "Sara Maldonado Fuentes"@en , "Sara Maldonado Fuentes"@fr , "Sarita"@en , "Sari"@en , "Sara Maldonado"@en , "Sara Maldonado"@fr .
+
+<http://rdf.freebase.com/ns/m.0c7sj1__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.019pm_> ;
+        dbo:to      "2012"^^xsd:gYear .

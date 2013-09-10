@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0r6ff>
+        rdfs:label     "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sunnyvale> , <http://de.dbpedia.org/resource/Sunnyvale_(Kalifornien)> , <http://dbpedia.org/resource/Sunnyvale,_California> ;
+        skos:altLabel  "Sunnyvale, CA"@de , "Sunnyvale, Ca"@fr , "Sunnyvale, California"@fr , "Sunnyvale, California"@de , "Sunnyvale, Ca"@de , "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de , "Vale"@en , "Vale"@fr , "Vale"@de , "Sunnvale"@fr , "LOCODE:USSNN"@en , "LOCODE:USSNN"@fr , "LOCODE:USSNN"@de , "Sunnyvale, CA"@en , "Sunnyvale, Ca"@en , "Sunnyvale, California"@en , "Santa Clara County / Sunnyvale city"@en , "Sunnyvale, CA"@fr .
+
+<http://dbpedia.org/resource/David_Lee_(basketball)__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0r6ff> ;
+        dbo:to      "2005"^^xsd:gYear .
+
+<http://dbpedia.org/resource/David_Lee_(basketball)>
+        rdfs:label     "David Lee (basketball)"@en , "David Lee (basketball)"@fr , "David Lee (basketball)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Lee_(basketball)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/David_Lee_(basket-ball)> , <http://de.dbpedia.org/resource/David_Lee_(Basketballspieler)> ;
+        skos:altLabel  "David lee"@fr , "David Lee"@en , "David Lee"@fr , "David Lee"@de .

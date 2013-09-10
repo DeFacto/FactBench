@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03bt6sv>
+        rdfs:label     "CIBIT"@en ;
+        skos:altLabel  "CIBIT Consultants | Educators"@en .
+
+<http://rdf.freebase.com/ns/m.03bnjcr>
+        rdfs:label     "NABI Biopharmaceuticals"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03bnjcr__1> ;
+        skos:altLabel  "NABI"@en , "NORTH AMERICAN BIOLOGICALS INC"@en , "NABI BIOPHARMACEUTICALS"@en .
+
+<http://rdf.freebase.com/ns/m.03bnjcr__1>
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03bt6sv> ;
+        dbo:to          "2006"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/LeBron_James>
+        rdfs:label      "LeBron James"@de , "LeBron James"@fr , "LeBron James"@en ;
+        dbo:playedTeam  <http://dbpedia.org/resource/LeBron_James__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/LeBron_James> , <http://fr.dbpedia.org/resource/LeBron_James> ;
+        skos:altLabel   "Leron james"@fr , "Leron james"@de , "Leron james"@en , "LeBron James"@fr , "LeBron James"@de , "LeBron James"@en , "King James"@fr , "Le Bron James"@fr , "Lebron james"@fr , "Lebron james"@en , "Lebron james"@de , "King LeBron"@fr , "King LeBron"@de , "King LeBron"@en , "LB23"@fr , "LB23"@de , "LB23"@en , "James, LeBron Raymone"@fr , "James, LeBron Raymone"@en , "James, LeBron Raymone"@de , "LeBron"@fr , "LeBron"@en , "LeBron"@de , "LaBron James"@fr , "Lebron James"@fr , "LaBron James"@de , "Lebron James"@en , "LaBron James"@en , "Lebron James"@de , "The Decision"@fr , "The Decision"@en , "The Decision"@de , "Savannah Brinson"@fr , "Savannah Brinson"@en , "Savannah Brinson"@de , "James, LeBron"@fr , "James, LeBron"@en , "James, LeBron"@de , "Bron Bron"@fr , "Bron Bron"@en , "Bron Bron"@de , "James"@fr , "LeBron Witness Shirt"@fr , "LeBron Jim"@fr , "LeBron Jim"@en , "LeBron Jim"@de , "Dunkman"@fr , "LeBron Witness Shirt"@de , "Dunkman"@en , "LeBron Witness Shirt"@en , "Dunkman"@de , "Lebron"@fr , "Lebron"@de , "Lebron"@en , "Lebron Raymone James"@fr , "Lebron Raymone James"@en , "Lebron Raymone James"@de , "The Little Emperor"@fr , "LeBron Raymone James"@fr , "The Little Emperor"@de , "LeBron Raymone James"@en , "The Little Emperor"@en , "LeBron Raymone James"@de , "Le bron james"@fr , "Le bron james"@de , "Le bron james"@en .
+
+<http://dbpedia.org/resource/LeBron_James__1>
+        dbo:from  "2003"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Cleveland_Cavaliers> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Cleveland_Cavaliers>
+        rdfs:label     "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cavaliers_de_Cleveland> , <http://de.dbpedia.org/resource/Cleveland_Cavaliers> ;
+        skos:altLabel  "The cleveland cavs"@fr , "The cleveland cavs"@de , "The cleveland cavs"@en , "Moondog"@fr , "Moondog"@de , "Moondog"@en , "Cavalier"@fr , "Cavalier"@de , "Cavalier"@en , "Cleveland Cavs"@fr , "Cleveland Cavs"@de , "Cleveland Cavs"@en , "Cavaliers, Cleveland"@fr , "Whammer"@fr , "Cavaliers, Cleveland"@de , "Cavaliers, Cleveland"@en , "Whammer"@de , "Whammer"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de , "Cleveland Cavaliers"@en , "Cavaliers De Cleveland"@fr , "Cavs"@fr , "Moondog - Cavaliers"@fr , "Cavaliers de Cleveland"@fr , "Cavs"@de , "Moondog - Cavaliers"@de , "Cavs"@en , "Moondog - Cavaliers"@en , "Cavaliers de cleveland"@fr .

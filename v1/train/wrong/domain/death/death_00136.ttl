@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Palo_Alto,_California>
+        rdfs:label     "Palo Alto, California"@de , "Palo Alto, California"@fr , "Palo Alto, California"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Palo_Alto> , <http://fr.dbpedia.org/resource/Palo_Alto> ;
+        skos:altLabel  "Aéroport du comté de Santa Clara à Palo Alto"@fr , "Palo Alto Airport of Santa Clara County"@fr , "LOCODE:USPAO"@de , "LOCODE:USPAO"@fr , "LOCODE:USPAO"@en , "Mayfield, California"@en , "Mayfield, California"@de , "Mayfield, California"@fr , "City of Palo Alto"@en , "Aeroport du comte de Santa Clara a Palo Alto"@fr , "City of Palo Alto"@de , "City of Palo Alto"@fr , "Palo alto"@en , "Palo Alto, Calif."@de , "Palo Alto, Calif."@fr , "Palo Alto, Calif."@en , "Palo alto"@de , "Palo alto"@fr , "Mayfield, CA"@de , "Mayfield, CA"@fr , "Mayfield, CA"@en , "Palo Alto, CA"@de , "Palo Alto, CA"@fr , "Palo Alto, CA"@en , "Mayfield"@en , "Mayfield"@de , "Mayfield"@fr , "California Avenue Business District, California"@en , "California Avenue Business District, California"@de , "California Avenue Business District, California"@fr , "Barron Park"@en , "Barron Park"@de , "Barron Park"@fr , "Palo Alto"@en , "Palo Alto"@de , "Palo Alto"@fr , "Palo Alto, California"@de , "Alto"@de , "Palo Alto, California"@fr , "Palo Alto, California"@en , "Keys School"@en , "Keys School"@de , "Keys School"@fr , "Middlefield Challenger"@en , "Middlefield Challenger"@de , "Middlefield Challenger"@fr .
+
+<http://dbpedia.org/resource/James_K._Polk>
+        rdfs:label     "James K. Polk"@de , "James K. Polk"@fr , "James K. Polk"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/James_K._Polk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/James_K._Polk> , <http://fr.dbpedia.org/resource/James_Knox_Polk> ;
+        skos:altLabel  "Presidency of James K. Polk"@en , "Presidency of James K. Polk"@de , "Presidency of James K. Polk"@fr , "Young Hickory"@en , "Young Hickory"@de , "Young Hickory"@fr , "President Polk"@en , "President Polk"@de , "President Polk"@fr , "James K. Polks life"@en , "James K. Polks life"@de , "James K. Polks life"@fr , "Napoleon of the Stump"@en , "J. Polk"@de , "Napoleon of the Stump"@de , "Napoleon of the Stump"@fr , "J. Polk"@fr , "J. Polk"@en , "James K. Polk life"@en , "James K. Polk life"@de , "James K. Polk life"@fr , "Polk"@en , "Polk"@de , "Polk"@fr , "James Polk"@en , "James Polk"@de , "James Polk"@fr , "Jame K. Polk"@en , "Jame K. Polk"@de , "Jame K. Polk"@fr , "11th President of the United States"@en , "11th President of the United States"@de , "11th President of the United States"@fr , "James K. Polk"@en , "James K. Polk"@de , "James K. Polk"@fr , "James Knox Polk"@en , "James Knox Polk"@de , "James Knox Polk"@fr , "James K. Polk biography"@en , "James K. Polk biography"@de , "James K. Polk biography"@fr , "Polk Administration"@de , "Polk Administration"@fr , "Polk Administration"@en , "James K Polk"@en , "James K Polk"@de , "James K Polk"@fr .
+
+<http://dbpedia.org/resource/James_K._Polk__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Palo_Alto,_California> ;
+        dbo:from        "2011"^^xsd:gYear ;
+        dbo:to          "2011"^^xsd:gYear .

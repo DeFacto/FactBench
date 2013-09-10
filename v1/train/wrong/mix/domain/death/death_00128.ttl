@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Makati>
+        rdfs:label     "Makati"@fr , "Makati"@en , "Makati"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Makati> , <http://de.dbpedia.org/resource/Makati_City> ;
+        skos:altLabel  "Comembo"@de , "Comembo"@fr , "Comembo"@en , "Makati"@de , "Makati"@fr , "Makati"@en , "The Wall Street of the Philippines"@de , "The Wall Street of the Philippines"@fr , "The Wall Street of the Philippines"@en , "Makati City, Philippines"@de , "Makati City, Philippines"@fr , "Makati City, Philippines"@en , "Magallanes village"@de , "Magallanes village"@fr , "Magallanes village"@en , "Magallanes Village"@de , "Magallanes Village"@fr , "Magallanes Village"@en , "Metro Manila's Central Business District"@de , "Metro Manila's Central Business District"@fr , "Metro Manila's Central Business District"@en , "Magallanes"@en , "Magallanes"@de , "Magallanes"@fr , "The Financial Capital of the Philippines"@de , "The Financial Capital of the Philippines"@fr , "The Financial Capital of the Philippines"@en , "Makati, Metro Manila"@en , "Makati, Metro Manila"@de , "Makati, Metro Manila"@fr , "City of Makati"@de , "City of Makati"@fr , "City of Makati"@en , "Makati city"@de , "Makati city"@fr , "Makati city"@en , "Makati City"@de , "Makati City"@fr , "Makati City"@en .
+
+<http://dbpedia.org/resource/Oscar_Peterson>
+        rdfs:label     "Oscar Peterson"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Peterson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Peterson> , <http://de.dbpedia.org/resource/Oscar_Peterson> ;
+        skos:altLabel  "Advanced School of Contemporary Music"@en , "Advanced School of Contemporary Music"@fr , "Advanced School of Contemporary Music"@de , "Oscar Petersen"@en , "Oscar Petersen"@fr , "Oscar Petersen"@de , "Oscar Emmanuel Peterson"@en , "Oscar Emmanuel Peterson"@fr , "Oscar Emmanuel Peterson"@de , "Oscar Peterson"@en , "Oscar Peterson Trio"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de , "Oscar Peterson Trio"@fr , "Oscar Peterson Trio"@de , "Peterson"@fr , "Oscar peterson"@en , "Oscar peterson"@fr , "Oscar peterson"@de , "In the Key of Oscar"@en , "In the Key of Oscar"@fr , "In the Key of Oscar"@de .
+
+<http://dbpedia.org/resource/Oscar_Peterson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Makati> ;
+        dbo:from        "2009"^^xsd:gYear ;
+        dbo:to          "2009"^^xsd:gYear .

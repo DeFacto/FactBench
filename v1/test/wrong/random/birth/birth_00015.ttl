@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Stephen_Harper__1>
+        dbo:from        "1884"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Norfolk,_Virginia> ;
+        dbo:to          "1884"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Stephen_Harper>
+        rdfs:label     "Stephen Harper"@de , "Stephen Harper"@fr , "Stephen Harper"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stephen_Harper__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stephen_Harper> , <http://de.dbpedia.org/resource/Stephen_Harper> ;
+        skos:altLabel  "Stephen Joseph Harper"@de , "Stephen Joseph Harper"@fr , "Stephen Joseph Harper"@en , "Prime Minister Stephen Harper"@de , "Prime Minister Stephen Harper"@fr , "Prime Minister Stephen Harper"@en , "Stephan harper"@en , "Stephan harper"@de , "Stephan harper"@fr , "Stephen"@de , "Stephen"@fr , "Stephen"@en , "Stephen Harper out of Parliament"@en , "Haper"@de , "Haper"@fr , "Haper"@en , "Stephen Harper out of Parliament"@de , "Stephen Harper out of Parliament"@fr , "Stephen harper"@de , "Stephen harper"@fr , "Stephen harper"@en , "Stephen J. Harper"@de , "Stephen J. Harper"@fr , "Stephen J. Harper"@en , "Stephen Harper"@de , "Stephen Harper"@fr , "Stephen Harper"@en , "Laureen Teskey"@fr , "Steven harper"@fr , "Harper, Steven"@de , "Harper, Steven"@fr , "Harper, Steven"@en , "Prime Minister Harper"@de , "Prime Minister Harper"@fr , "Prime Minister Harper"@en , "Harper"@de , "Harper"@fr , "Harper"@en .
+
+<http://dbpedia.org/resource/Norfolk,_Virginia>
+        rdfs:label     "Norfolk, Virginia"@en , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norfolk_(Virginia)> , <http://fr.dbpedia.org/resource/Norfolk_(Virginie)> ;
+        skos:altLabel  "Ledger-Dispatch"@de , "Norfolk International Airport"@fr , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de , "City of Norfolk, Virginia"@en , "City of Norfolk, Virginia"@fr , "City of Norfolk, Virginia"@de , "Norfolk, Va"@en , "Norfolk, Va"@fr , "Norfolk, Va"@de , "LOCODE:USORF"@en , "LOCODE:USORF"@fr , "LOCODE:USORF"@de , "Norfolk"@en , "Norfolk, VA"@en , "Norfolk, va"@en , "Norfolk"@fr , "Norfolk, VA"@fr , "Norfolk, va"@fr , "Norfolk"@de , "Norfolk, VA"@de , "Norfolk, va"@de , "Norfolk VA"@en , "Norfolk VA"@fr , "Norfolk VA"@de , "Norfolk, Va."@en , "Norfolk, Va."@fr , "Norfolk, Va."@de , "Ledger-Dispatch"@en , "Norfolk, Virginia"@en , "Ledger-Dispatch"@fr .

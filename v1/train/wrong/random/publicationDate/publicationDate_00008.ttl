@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Harold_Lloyd>
+        rdfs:label     "Harold Lloyd"@en , "Harold Lloyd"@fr , "Harold Lloyd"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Harold_Lloyd__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Harold_Lloyd> , <http://de.dbpedia.org/resource/Harold_Lloyd> ;
+        skos:altLabel  "Lonesome Luke"@fr , "Lonesome Luke"@de , "Harold"@fr , "Harold Lloyd"@en , "Harold Lloyd"@fr , "Harold Lloyd"@de , "Third genius"@en , "Third genius"@fr , "Third genius"@de , "Lloyd, Harold Clayton"@en , "Lloyd"@fr , "Lloyd, Harold Clayton"@fr , "Lloyd, Harold Clayton"@de , "Harold Clayton Lloyd"@en , "Harold Clayton Lloyd"@de , "Harold Clayton Lloyd"@fr , "Lonesome Luke"@en .
+
+<http://dbpedia.org/resource/Harold_Lloyd__1>
+        dbo:from      "1958"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Peru,_Indiana> ;
+        dbo:to        "1958"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Peru,_Indiana>
+        rdfs:label     "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Peru_(Indiana)> , <http://de.dbpedia.org/resource/Peru_(Indiana)> ;
+        skos:altLabel  "LOCODE:USGUS"@en , "LOCODE:USGUS"@fr , "LOCODE:USGUS"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr , "Peru, Indiana"@de , "Peru, IN"@en , "Peru, IN"@de , "Peru, IN"@fr , "Miamisport, Indiana"@en , "Miamisport, Indiana"@fr , "Miamisport, Indiana"@de , "Peru"@en , "Peru"@fr , "Peru"@de , "Peru, IN µSA"@en , "Peru, IN µSA"@fr , "Peru, IN µSA"@de .

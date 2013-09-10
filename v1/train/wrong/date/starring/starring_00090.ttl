@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Last_Action_Hero__1>
+        dbo:from      "1984"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Art_Carney> ;
+        dbo:to        "1984"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Last_Action_Hero>
+        rdfs:label     "Last Action Hero"@en , "Last Action Hero"@fr , "Last Action Hero"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Last_Action_Hero__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Last_Action_Hero> , <http://de.dbpedia.org/resource/Last_Action_Hero> ;
+        skos:altLabel  "Jack Slater"@en , "Jack Slater"@fr , "Jack Slater"@de , "Last Action Hero"@en , "Last Action Hero"@fr , "Last Action Hero"@de , "Jack slater"@en , "Jack slater"@fr , "Jack slater"@de , "Last action hero"@en , "Last action hero"@fr , "Last action hero"@de , "Last Action Hero Official Movie Soundtrack"@en , "Last Action Hero Official Movie Soundtrack"@fr , "Last Action Hero Official Movie Soundtrack"@de , "The Last Action Hero"@en , "The Last Action Hero"@fr , "The Last Action Hero"@de .
+
+<http://dbpedia.org/resource/Art_Carney>
+        rdfs:label     "Art Carney"@en , "Art Carney"@fr , "Art Carney"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Art_Carney> , <http://de.dbpedia.org/resource/Art_Carney> ;
+        skos:altLabel  "Art Carney"@en , "Art Carney"@fr , "Art Carney"@de , "Carney"@en , "Carney"@fr , "Carney"@de , "Ya know what I mean?"@en , "Ya know what I mean?"@fr , "Ya know what I mean?"@de , "Art carney"@en , "Art carney"@fr , "Art carney"@de , "Art Carney Special"@en , "Art Carney Special"@fr , "Art Carney Special"@de .

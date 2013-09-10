@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04n1hk>
+        rdfs:label     "Darius McCrary"@en , "Darius McCrary"@fr , "Darius McCrary"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Darius_McCrary> , <http://dbpedia.org/resource/Darius_McCrary> , <http://de.dbpedia.org/resource/Darius_McCrary> ;
+        skos:altLabel  "Darius"@en , "Darius"@fr , "Darius"@de , "McCrary"@de , "Darius McCrary"@en , "Darius McCrary"@fr , "Darius McCrary"@de , "Darius Creston McCrary"@en , "Daruis McCrary"@en , "Darius McCreary"@en .
+
+<http://rdf.freebase.com/ns/m.0j6fz_g__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04n1hk> ;
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:to      "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0j6fz_g>
+        rdfs:label     "Juliette Vann"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j6fz_g__1> ;
+        skos:altLabel  "Juliette Merrill Vann"@en .

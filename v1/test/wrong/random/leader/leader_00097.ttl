@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ljubljana>
+        rdfs:label     "Ljubljana"@fr , "Ljubljana"@en , "Ljubljana"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ljubljana> , <http://fr.dbpedia.org/resource/Ljubljana> ;
+        skos:altLabel  "Liubliana"@en , "Liubliana"@de , "Liubliana"@fr , "Luwigana"@en , "Luwigana"@de , "Luwigana"@fr , "Ljublijana"@en , "Ljublijana"@fr , "Ljublijana"@de , "SILJU"@en , "SILJU"@fr , "SILJU"@de , "LOCODE:SILJU"@en , "LOCODE:SILJU"@de , "LOCODE:SILJU"@fr , "Laybach"@en , "Ljubljana, Yugoslavia"@en , "Ljubljana, Yugoslavia"@fr , "Laybach"@fr , "Laybach"@de , "Ljubljana, Yugoslavia"@de , "Capitale de la Slovénie"@fr , "Ljubljana, Slovenia"@en , "Ljubljana, Slovenia"@de , "Ljubljana, Slovenia"@fr , "Ljubljana, SR Slovenia"@en , "Ljubljana, SR Slovenia"@fr , "Ljubljana, SR Slovenia"@de , "Sostro"@de , "Capital of Slovenia"@en , "Capital of Slovenia"@de , "Capital of Slovenia"@fr , "Lublijana"@en , "Ljubljana"@en , "Ljubljana"@de , "Ljubljana"@fr , "Lublijana"@fr , "Lublijana"@de , "Lubliana"@en , "Lubliana"@de , "Lubliana"@fr , "Ljubljana, Ljubljana"@en , "Ljubljana, Ljubljana"@fr , "Ljubljana, Ljubljana"@de , "Laibach, Slovenia"@en , "Laibach, Slovenia"@de , "Laibach, Slovenia"@fr , "Ljubljana, Slovenija"@en , "Lubiana"@fr , "Ljubljana, Slovenija"@fr , "Ljubljana, Slovenija"@de , "Ljubliana"@en , "Ljubliana"@fr , "Ljubliana"@de , "SI-061"@de , "Ljubjana"@en , "Ljubjana"@de , "Ljubjana"@fr , "Tacen"@en , "Tacen"@fr , "Tacen"@de , "The weather in Ljubljana"@en , "The weather in Ljubljana"@fr , "The weather in Ljubljana"@de , "Lubljana"@en , "Lubljana"@de , "Lubljana"@fr , "History of Ljubljana"@en , "History of Ljubljana"@de , "History of Ljubljana"@fr , "Capitale de la Slovenie"@fr , "Laibach"@de .
+
+<http://rdf.freebase.com/ns/m.03l4vr__1>
+        dbo:from  "1982"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Ljubljana> ;
+        dbo:to    "1996"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03l4vr>
+        rdfs:label     "Andrew Schally"@en , "Andrzej Wiktor Schally"@fr , "Andrew Victor Schally"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03l4vr__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Andrew_Schally> , <http://fr.dbpedia.org/resource/Andrzej_Wiktor_Schally> , <http://de.dbpedia.org/resource/Andrew_Victor_Schally> ;
+        skos:altLabel  "Andrew Victor Schally"@en , "Andrew Wiktor Schally"@en , "Andrew Victor Schally"@fr , "Andrew Wiktor Schally"@fr , "Andrew Wiktor Schally"@de , "Andrew Victor Schally"@de , "Andrzej Wiktor Schally"@fr , "Andrzej Wiktor Schally"@de , "Andrew W. Schally"@en , "Andrew W. Schally"@fr , "Andrew W. Schally"@de , "Andrzej W. Schally"@en , "Andrzej Schally"@en , "Andrzej W. Schally"@fr , "Schally"@de , "Andrzej W. Schally"@de , "Andrew Schally"@en , "Andrew Schally"@fr , "Andrew Schally"@de , "Andrew V. Schally"@en , "Andrew V. Schally"@fr , "Andrew V. Schally"@de .

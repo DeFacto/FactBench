@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04sv4>
+        rdfs:label     "Microsoft"@de , "Microsoft"@fr , "Microsoft"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04sv4__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Microsoft> , <http://dbpedia.org/resource/Microsoft> , <http://fr.dbpedia.org/resource/Microsoft> ;
+        skos:altLabel  "Micro-Soft"@en , "Microsoft Ltd"@en , "Microsoft Ltd"@fr , "Microsoft Ltd"@de , "MICROSOFT"@en , "Microsoft connect"@en , "MSLI"@en , "Microsoft.com"@en , "Microsoft Corp"@en , "Micro-Soft"@fr , "MICROSOFT"@fr , "Micro-Soft"@de , "MICROSOFT"@de , "Microsoft Visitor Center"@en , "\"VIBE\" research lab."@fr , "Microsoft Corp"@fr , "Microsoft Corp"@de , "Microsoft connect"@fr , "Microsoft Visitor Center"@fr , "Microsoft connect"@de , "Microsoft Visitor Center"@de , "Microsoft.com"@fr , "Microsoft.com"@de , "MSLI"@fr , "MSLI"@de , "Microsoft Inc"@en , "'Microsoft Corp"@en , "MSFT"@en , "Microsoat"@en , "Msft"@en , "Microsoft Inc"@fr , "MSFT"@fr , "MSFT"@de , "'Microsoft Corp"@fr , "Msft"@fr , "Microsoft Inc"@de , "'Microsoft Corp"@de , "Most Valuable Student"@fr , "Msft"@de , "Microsoat"@fr , "Microsoat"@de , "Micro soft"@en , "Micro soft"@fr , "Micro soft"@de , "Microsoft Corpration"@en , "Microsoft Corpration"@fr , "Microsoft Corpration"@de , "ms"@en , "Mircosoft"@en , "Mircosoft"@fr , "Mircosoft"@de , "Microsoft's"@en , "Microsoft's"@fr , "Microsoft's"@de , "MS Corp"@en , "MS Corp"@fr , "MS Corp"@de , "Kro$oft"@fr , "Micro-soft"@en , "Micro-soft"@fr , "Micro-soft"@de , "Microsoft Corporation"@en , "Microsoft Corporation"@fr , "Microsoft Corporation"@de , "Office Corporation"@en , "Micro Soft"@en , "Micrasoft"@en , "Office Corporation"@fr , "Micrasoft"@fr , "Micrasoft"@de , "Micro Soft"@fr , "Micro Soft"@de , "Office Corporation"@de , "Microsoft"@en , "Mickeysoft"@en , "Microsoft"@fr , "Mickeysoft"@fr , "Microsoft"@de , "Mickeysoft"@de , "Mikrosoft"@en , "Mikrosoft"@fr , "Mikrosoft"@de , "Microsoft arc Mouse"@en , "Windows Corporation"@en , "Blibbet"@en , "Microsfot"@en , "History of Microsoft Corporation"@en , "Microsoft Corp."@en , "Microsoft Ireland"@en , "MicroSoft"@en , "Microsnot"@en , "Microsoft corporation"@en , "MicroSoft Corporation"@en , "Blibbet"@fr , "Blibbet"@de , "Microsoft arc Mouse"@fr , "Windows Corporation"@fr , "Microsnot"@fr , "Microsnot"@de , "Microsfot"@fr , "Microsoft Corp."@fr , "Microsoft Ireland"@fr , "Microsfot"@de , "Microsoft Corp."@de , "Microsoft corporation"@fr , "MicroSoft Corporation"@fr , "Microsoft arc Mouse"@de , "Microsoft Ireland"@de , "Microsoft corporation"@de , "Windows Corporation"@de , "MicroSoft Corporation"@de , "MicroSoft"@fr , "MicroSoft"@de , "History of Microsoft Corporation"@fr , "History of Microsoft Corporation"@de , "Microosft"@en , "Microosft"@fr , "Microosft"@de , "Microsoft Way"@en , "Microsoft Way"@fr , "Microsoft Way"@de , "Www.microsoft.com"@en , "Www.microsoft.com"@fr , "Www.microsoft.com"@de , "MSoft"@en , "MSoft"@fr , "MSoft"@de , "Micro$"@fr , "Microsft"@en , "Microsft"@fr , "Microsft"@de , "Microsoft Inc."@en , "Microsoft Inc."@fr , "Microsoft Inc."@de , "MSN Corporation"@en , "MSN Corporation"@fr , "MSN Corporation"@de .
+
+<http://rdf.freebase.com/ns/m.04sv4__1>
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.039fnqq> ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.039fnqq>
+        rdfs:label  "Niragongo Ltd."@en .

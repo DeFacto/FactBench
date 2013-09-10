@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04mhl>
+        rdfs:label     "Larry Niven"@en , "Larry Niven"@fr , "Larry Niven"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04mhl__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Larry_Niven> , <http://dbpedia.org/resource/Larry_Niven> , <http://de.dbpedia.org/resource/Larry_Niven> ;
+        skos:altLabel  "Niven"@en , "Niven"@fr , "Niven"@de , "Larry"@en , "Larry"@fr , "Larry"@de , "Larry Niven"@en , "Larry Niven"@fr , "Larry Niven"@de , "Laurence Van Cott Niven"@en , "Laurence van Cott Niven"@en , "Laurence van Cott Niven"@fr , "Laurence van Cott Niven"@de , "Larry niven"@en , "Larry niven"@fr , "Larry niven"@de , "Laurence Niven"@en , "Laurence Niven"@fr , "Laurence Niven"@de .
+
+<http://rdf.freebase.com/ns/m.04mhl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.063_67> ;
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:to      "1995"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.063_67>
+        rdfs:label     "Castle Roogna"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Castle_Roogna> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Castle Roogna"@en .

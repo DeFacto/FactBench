@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.047lbt9>
+        rdfs:label      "Navigon"@de , "Navigon"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.047lbt9__130> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Garmin_Würzburg> , <http://dbpedia.org/resource/Navigon> ;
+        skos:altLabel   "Garmin Wurzburg"@de , "Navigon AG"@de , "Garmin Würzburg"@de , "Navigon"@de , "NAVIGON AG"@de .
+
+<http://rdf.freebase.com/ns/m.047lbt9__130>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03hrz> ;
+        dbo:from             "1991"^^xsd:gYear ;
+        dbo:to               "1991"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03hrz>
+        rdfs:label     "Hamburg"@de , "Hamburg"@en , "Hambourg"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Hamberg> , <http://dbpedia.org/resource/Hamburg> , <http://de.dbpedia.org/resource/Hamburg> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Hamberg> , <http://fr.dbpedia.org/resource/Hambourg> ;
+        skos:altLabel  "Hamburch"@de , "DE-HH"@de , "Ville libre et hanséatique de Hambourg"@fr , "Free un Hansestadt Hamborg"@fr , "LOCODE:DEHAM"@fr , "Free un Hansestadt Hamborg"@de , "LOCODE:DEHAM"@en , "LOCODE:DEHAM"@de , "Tor zur Welt"@de , "Hansestadt Hamburg"@en , "Hansestadt Hamburg"@de , "Free un Hansestadt Hamborg"@en , "Käseburg"@fr , "Hanseatic city of Hamburg"@fr , "DEHAM"@fr , "Hanseatic city of Hamburg"@en , "Hanseatic city of Hamburg"@de , "DEHAM"@en , "DEHAM"@de , "Käseburg"@en , "Käseburg"@de , "Kaseburg"@fr , "Kaseburg"@de , "Kaseburg"@en , "Freie Hansestadt Hamburg"@de , "Freie Und Hansestadt Hamburg"@en , "Hamberg"@de , "Hamborg"@fr , "Hamborg"@de , "Hamborg"@en , "Hamburg"@fr , "Hamburg"@en , "Hamburg"@de , "Cheeseburg"@fr , "Cheeseburg"@en , "Cheeseburg"@de , "Free and Hanseatic City of Hamburg"@fr , "Free and Hanseatic City of Hamburg"@de , "Free and Hanseatic City of Hamburg"@en , "Freie und Hansestadt Hamburg"@fr , "Freie und Hansestadt Hamburg"@de , "Freie und Hansestadt Hamburg"@en , "Ville libre et hanseatique de Hambourg"@fr , "Ḥamburg"@fr , "Ḥamburg"@de , "Ḥamburg"@en , "Hambourg"@fr , "Hambourg"@de , "Hambourg"@en , "Hamburg, Germany"@fr , "Hamburg, Germany"@de , "Hamburg, Germany"@en , "Freie Stadt Hamburg"@de , "Free City of Hamburg"@fr , "Free City of Hamburg"@de , "Free City of Hamburg"@en .

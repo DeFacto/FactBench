@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03sbqd>
+        rdfs:label     "Pat Frank"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03sbqd__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Pat_Frank> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Harry H. Frank"@en , "Harry Hart Frank Jr."@en , "Harry Hart Frank"@en , "Pat Frank"@en .
+
+<http://rdf.freebase.com/ns/m.08hstg>
+        rdfs:label  "The Collected Short Fiction of C. J. Cherryh"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Collected_Short_Fiction_of_C._J._Cherryh> .
+
+<http://rdf.freebase.com/ns/m.03sbqd__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.08hstg> ;
+        dbo:from    "1959"^^xsd:gYear ;
+        dbo:to      "1959"^^xsd:gYear .

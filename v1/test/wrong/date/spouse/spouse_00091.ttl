@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gg681p>
+        rdfs:label     "Brooke Mueller"@en , "Brooke Mueller"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Brooke_Mueller> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Brooke mueller"@en , "Brooke Mueller"@en , "Mueller"@en , "Brooke Jaye Mueller"@en .
+
+<http://rdf.freebase.com/ns/m.01pllx__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0gg681p> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01pllx>
+        rdfs:label     "Charlie Sheen"@de , "Charlie Sheen"@fr , "Charlie Sheen"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01pllx__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Charlie_Sheen> , <http://fr.dbpedia.org/resource/Charlie_Sheen> , <http://de.dbpedia.org/resource/Charlie_Sheen> ;
+        skos:altLabel  "Duh, winning"@en , "Duh, winning"@de , "Duh, winning"@fr , "Charlie Sheen"@en , "Charlie Sheen"@de , "Charlie Sheen"@fr , "Charlysheen"@en , "Charlysheen"@de , "Charlysheen"@fr , "Charles Sheen"@en , "WINNING!"@en , "Carlos estevez"@en , "WINNING!"@de , "WINNING!"@fr , "Carlos estevez"@de , "Carlos estevez"@fr , "My Violent Torpedo of Truth"@en , "My Violent Torpedo of Truth"@de , "My Violent Torpedo of Truth"@fr , "Brooke Mueller"@de , "Carlos Estévez"@en , "Carlos Estévez"@de , "Carlos Estévez"@fr , "Charlie"@de , "Charlie"@fr , "Carlos Irwin Estévez"@en , "Carlos Irwin Estévez"@de , "Carlos Irwin Estévez"@fr , "Charlie sheen"@en , "Charlie sheen"@de , "Charlie sheen"@fr , "Chuckles"@en , "Charles Irwin Sheen"@en , "Charles Irwin Sheen"@de , "Charles Irwin Sheen"@fr , "Charles sheen"@en , "Charles sheen"@de , "Charles sheen"@fr , "The Machine"@en , "Carlos Irwin Estevez"@en , "Carlos Irwin Estevez"@de , "Carlos Irwin Estevez"@fr , "Good Time Charlie"@en , "Carlos irwin estevez"@en , "Carlos irwin estevez"@de , "Carlos irwin estevez"@fr , "Bi-winning"@en , "Carlos Estevez"@en , "Bi-winning"@de , "Bi-winning"@fr , "Carlos Estevez"@de , "Carlos Estevez"@fr , "Sheen"@en , "Sheen"@de , "Sheen"@fr .

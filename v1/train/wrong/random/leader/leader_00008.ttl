@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01wv9p>
+        rdfs:label     "Marc Anthony"@en , "Marc Anthony"@fr , "Marc Anthony"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01wv9p__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Marc_Anthony> , <http://fr.dbpedia.org/resource/Marc_Anthony> , <http://de.dbpedia.org/resource/Marc_Anthony> ;
+        skos:altLabel  "Skinny"@en , "Anthony"@fr , "Marco Antonio Muñiz"@en , "Marc Anthony"@en , "Marc Anthony"@fr , "Marc Anthony"@de , "Marco Antonio Muniz"@de , "Marc Antony"@en , "Marco Antonio Muñiz Ruiz"@en .
+
+<http://dbpedia.org/resource/Münster>
+        rdfs:label     "Münster"@en , "Münster"@fr , "Münster"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Münster_(Westfalen)> , <http://fr.dbpedia.org/resource/Münster> ;
+        skos:altLabel  "Münsteraner"@de , "Jambon de Westphalie"@fr , "Munster"@fr , "Munster"@de , "Munsteraner"@de , "Münster"@de , "Münster"@fr .
+
+<http://rdf.freebase.com/ns/m.01wv9p__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Münster> ;
+        dbo:from        "1989"^^xsd:gYear ;
+        dbo:to          "1991"^^xsd:gYear .

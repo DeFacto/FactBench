@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paul_Haarhuis__1>
+        dbo:from  "1961"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.0fqjhm> ;
+        dbo:to    "1961"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fqjhm>
+        rdfs:label     "Penn Badgley"@fr , "Penn Badgley"@de , "Penn Dayton Badgley"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Penn_Badgley> , <http://de.dbpedia.org/resource/Penn_Badgley> , <http://fr.dbpedia.org/resource/Penn_Badgley> ;
+        skos:altLabel  "Badgley"@fr , "Badgley"@de , "Penn Badgley"@en , "Penn Badgley"@fr , "Penn Badgley"@de , "Penn Badgely"@fr , "Penn Badgely"@de , "Penn Dayton Badgley"@de , "Penn"@en , "Penn"@de , "Penn"@fr .
+
+<http://dbpedia.org/resource/Paul_Haarhuis>
+        rdfs:label     "Paul Haarhuis"@en , "Paul Haarhuis"@fr , "Paul Haarhuis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Paul_Haarhuis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Paul_Haarhuis> , <http://de.dbpedia.org/resource/Paul_Haarhuis> ;
+        skos:altLabel  "Paul Haarhuis"@de , "Paul Haarhuis"@fr , "Haarhuis"@fr , "Haarhuis"@de .

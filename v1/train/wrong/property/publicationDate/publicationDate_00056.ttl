@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03lp5p__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.019qz_> ;
+        dbo:from   "1959"^^xsd:gYear ;
+        dbo:to     "1959"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.019qz_>
+        rdfs:label     "Des fleurs pour Algernon"@fr , "Flowers for Algernon"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Flowers_for_Algernon> , <http://fr.dbpedia.org/resource/Des_fleurs_pour_Algernon> ;
+        skos:altLabel  "Flowers for Algernon"@en , "Flowers for Algernon"@fr , "Des fleurs pour Algernon"@fr , "Des fleurs pour algernon"@fr , "Flowers for algernon"@en , "Flowers for algernon"@fr , "Des Fleurs Pour Algernon"@fr , "Des Fleurs pour Algernon"@fr , "Flowers For Algernon"@en , "Flowers for algeron"@en , "Flowers For Algernon"@fr , "Flowers for algeron"@fr .
+
+<http://rdf.freebase.com/ns/m.03lp5p>
+        rdfs:label     "Daniel Keyes"@en , "Daniel Keyes"@fr , "Daniel Keyes"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03lp5p__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Daniel_Keyes> , <http://de.dbpedia.org/resource/Daniel_Keyes> , <http://dbpedia.org/resource/Daniel_Keyes> ;
+        skos:altLabel  "Keyes"@fr , "Keyes"@de , "Daniel F. Keyes"@fr , "Daniel F. Keyes"@de , "Daniel Keyes"@fr , "Daniel Keyes"@de .

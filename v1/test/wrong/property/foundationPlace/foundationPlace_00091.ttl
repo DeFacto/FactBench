@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fb8x6>
+        rdfs:label  "Danger"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fb8x6__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Danger_(company)> .
+
+<http://rdf.freebase.com/ns/m.0f04c>
+        rdfs:label     "Palo Alto"@de , "Palo Alto"@fr , "Palo Alto"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Palo_Alto> , <http://dbpedia.org/resource/Palo_Alto,_California> , <http://de.dbpedia.org/resource/Palo_Alto> ;
+        skos:altLabel  "Paly"@en , "Santa Clara County / Palo Alto city"@en , "Mayfield"@en , "Mayfield"@de , "Mayfield"@fr , "Aeroport du comte de Santa Clara a Palo Alto"@fr , "City of Palo Alto"@en , "City of Palo Alto"@de , "City of Palo Alto"@fr , "Palo Alto"@en , "Palo Alto"@de , "Palo Alto"@fr , "Barron Park"@en , "Barron Park"@de , "Barron Park"@fr , "Mayfield, CA"@de , "Mayfield, CA"@fr , "Mayfield, CA"@en , "LOCODE:USPAO"@de , "LOCODE:USPAO"@fr , "LOCODE:USPAO"@en , "Middlefield Challenger"@en , "Middlefield Challenger"@de , "Middlefield Challenger"@fr , "Keys School"@en , "Keys School"@de , "Keys School"@fr , "Aéroport du comté de Santa Clara à Palo Alto"@fr , "California Avenue Business District, California"@en , "California Avenue Business District, California"@de , "California Avenue Business District, California"@fr , "Palo Alto, CA"@de , "Palo Alto Airport of Santa Clara County"@fr , "Palo Alto, CA"@fr , "Palo Alto, CA"@en , "palo alto"@en , "Palo Alto, Calif."@de , "Palo Alto, Calif."@fr , "Palo Alto, Calif."@en , "Palo alto"@en , "Palo alto"@de , "Palo alto"@fr , "Mayfield, California"@en , "Mayfield, California"@de , "Mayfield, California"@fr , "Palo Alto,Ca"@en , "Palo Alto, California"@en , "Palo Alto, California"@de , "Palo Alto, California"@fr , "Alto"@de .
+
+<http://rdf.freebase.com/ns/m.0fb8x6__1>
+        dbo:from    "2000"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0f04c> ;
+        dbo:to      "2000"^^xsd:gYear .

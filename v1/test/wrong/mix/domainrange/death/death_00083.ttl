@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ella_Fitzgerald>
+        rdfs:label     "Ella Fitzgerald"@en , "Ella Fitzgerald"@fr , "Ella Fitzgerald"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ella_Fitzgerald__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ella_Fitzgerald> , <http://fr.dbpedia.org/resource/Ella_Fitzgerald> ;
+        skos:altLabel  "FitzGerald"@en , "FitzGerald"@fr , "FitzGerald"@de , "Ella"@en , "Ella"@fr , "Ella"@de , "Ella Jane Fitzgerald"@de , "Louis Armstrong"@en , "Louis Armstrong"@fr , "Louis Armstrong"@de , "Ella Fitzgerald"@en , "Ella Fitzgerald"@fr , "Ella Fitzgerald"@de .
+
+<http://dbpedia.org/resource/Ella_Fitzgerald__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Buffalo,_New_York> ;
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Buffalo,_New_York>
+        rdfs:label     "Buffalo, New York"@fr , "Buffalo, New York"@en , "Buffalo, New York"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Buffalo_(New_York)> , <http://de.dbpedia.org/resource/Buffalo> ;
+        skos:altLabel  "Downtown Buffalo, New York"@en , "Downtown Buffalo, New York"@de , "Downtown Buffalo, New York"@fr , "Buffalonian"@en , "Buffalonian"@fr , "Buffalonian"@de , "City of Good Neighbors"@de , "LOCODE:USBUF"@en , "LOCODE:USBUF"@de , "LOCODE:USBUF"@fr , "Buffalo, United States"@en , "Buffalo, United States"@fr , "Buffalo, United States"@de , "Tsistekeriia'kón:ke"@en , "Tsistekeriia'kón:ke"@de , "Tsistekeriia'kón:ke"@fr , "Nickel City"@de , "Culture of Buffalo, New York"@en , "Culture of Buffalo, New York"@fr , "Culture of Buffalo, New York"@de , "Queen City of the Lakes"@de , "Buffalo, NY"@en , "Buffalo, NY"@fr , "Buffalo, NY"@de , "De-ose-lole"@de , "New York Buffalo"@en , "New York Buffalo"@de , "New York Buffalo"@fr , "Buffalo International Airport"@fr , "City of Light"@de , "Blizzard of '01"@en , "Blizzard of '01"@fr , "Blizzard of '01"@de , "Buffalo, ny"@en , "Buffalo, ny"@fr , "Aéroport international de Buffalo"@fr , "Buffalo, ny"@de , "Chippewa Street"@en , "Chippewa Street"@fr , "Chippewa Street"@de , "Buffalo, N.Y."@en , "Buffalo NY"@en , "Buffalo, New York"@en , "Tsistekeriia'kon:ke"@en , "Buffalo, N.Y."@fr , "Buffalo NY"@fr , "Buffalo, New York"@fr , "Buffalo, N.Y."@de , "Tsistekeriia'kon:ke"@de , "Buffalo NY"@de , "Buffalo, New York"@de , "Tsistekeriia'kon:ke"@fr , "Tick-e-ack-gou-ga"@de , "De-o-tro-weh"@de , "Buffalo"@en , "Buffalo"@fr , "Buffalo"@de , "Buffalo ny"@en , "Buffalo ny"@de , "Buffalo ny"@fr , "Buffalo new york"@en , "Buffalo new york"@fr , "Buffalo new york"@de , "Buffalo (city), New York"@en , "Ne-o-thro-ra"@de , "Buffalo, USA"@en , "Buffalo (city), New York"@fr , "The Queen City"@de , "Buffalo (city), New York"@de , "Buffalo, USA"@de , "Buffalo, USA"@fr , "Aeroport international de Buffalo"@fr .

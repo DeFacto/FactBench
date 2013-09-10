@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Emmylou_Harris__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hamlet,_North_Carolina> ;
+        dbo:from        "1926"^^xsd:gYear ;
+        dbo:to          "1926"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hamlet,_North_Carolina>
+        rdfs:label     "Hamlet, North Carolina"@en , "Hamlet, North Carolina"@fr , "Hamlet, North Carolina"@de ;
+        skos:altLabel  "Hamlet, NC"@en , "Hamlet, North Carolina"@en , "Hamlet"@en , "LOCODE:USHML"@en .
+
+<http://dbpedia.org/resource/Emmylou_Harris>
+        rdfs:label     "Emmylou Harris"@en , "Emmylou Harris"@fr , "Emmylou Harris"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Emmylou_Harris__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Emmylou_Harris> , <http://de.dbpedia.org/resource/Emmylou_Harris> ;
+        skos:altLabel  "Harris"@fr , "Emylou Harris"@en , "Emylou Harris"@fr , "Emylou Harris"@de , "Emmy Lou Harris"@en , "Emmy Lou Harris"@de , "Emmy Lou Harris"@fr , "Emmylou Harris"@en , "Emmylou Harris"@fr , "Emmylou Harris"@de .

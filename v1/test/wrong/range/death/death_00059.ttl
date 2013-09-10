@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charlottesville,_Virginia>
+        rdfs:label     "Charlottesville, Virginia"@en , "Charlottesville, Virginia"@fr , "Charlottesville, Virginia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charlottesville> , <http://de.dbpedia.org/resource/Charlottesville> ;
+        skos:altLabel  "Charlottesville Tomorrow"@en , "Charlottesville Tomorrow"@fr , "Charlottesville Tomorrow"@de , "Charlotte"@en , "Charlotte"@fr , "Charlotte"@de , "Charlottesville"@en , "Charlottesville"@fr , "Charlottesville"@de , "Charlottesville, Virginia"@en , "Charlottesville, Virginia"@fr , "Charlottesville, Virginia"@de , "LOCODE:USCHO"@en , "LOCODE:USCHO"@fr , "LOCODE:USCHO"@de , "Charlotteville, Virginia"@en , "Charlotteville, Virginia"@fr , "Charlotteville, Virginia"@de , "C-Ville Weekly"@en , "C-Ville Weekly"@fr , "C-Ville Weekly"@de , "City of Charlottesville, Virginia"@en , "City of Charlottesville, Virginia"@fr , "City of Charlottesville, Virginia"@de , "Charlottesville, VA"@en , "Charlottesville, VA"@fr , "Charlottesville, VA"@de .
+
+<http://dbpedia.org/resource/Oscar_Peterson>
+        rdfs:label     "Oscar Peterson"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Peterson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Peterson> , <http://de.dbpedia.org/resource/Oscar_Peterson> ;
+        skos:altLabel  "Advanced School of Contemporary Music"@en , "Advanced School of Contemporary Music"@fr , "Advanced School of Contemporary Music"@de , "Oscar Petersen"@en , "Oscar Petersen"@fr , "Oscar Petersen"@de , "Oscar Emmanuel Peterson"@en , "Oscar Emmanuel Peterson"@fr , "Oscar Emmanuel Peterson"@de , "Oscar Peterson"@en , "Oscar Peterson Trio"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de , "Oscar Peterson Trio"@fr , "Oscar Peterson Trio"@de , "Peterson"@fr , "Oscar peterson"@en , "Oscar peterson"@fr , "Oscar peterson"@de , "In the Key of Oscar"@en , "In the Key of Oscar"@fr , "In the Key of Oscar"@de .
+
+<http://dbpedia.org/resource/Oscar_Peterson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Charlottesville,_Virginia> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .

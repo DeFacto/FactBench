@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Rudyard_Kipling__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Brooklyn> ;
+        dbo:from        "1735"^^xsd:gYear ;
+        dbo:to          "1735"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rudyard_Kipling>
+        rdfs:label     "Rudyard Kipling"@en , "Rudyard Kipling"@fr , "Rudyard Kipling"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Rudyard_Kipling__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rudyard_Kipling> , <http://de.dbpedia.org/resource/Rudyard_Kipling> ;
+        skos:altLabel  "Kipling, Joseph Rudyard"@fr , "Kipling, Joseph Rudyard"@de , "R Kipling"@en , "R Kipling"@fr , "R Kipling"@de , "Rudyard Kipling"@en , "Rudyard Kipling"@fr , "Rudyard Kipling"@de , "R. Kipling"@en , "R. Kipling"@fr , "R. Kipling"@de , "Rudyard"@en , "Rudyard"@fr , "Rudyard"@de , "Rudy Kipling"@en , "Rudy Kipling"@fr , "Rudy Kipling"@de , "Ruyard Kipling"@en , "Ruyard Kipling"@fr , "Ruyard Kipling"@de , "Kipling"@en , "Kipling"@fr , "Kipling"@de , "Kipling Society"@en , "Kipling Society"@fr , "Kipling Society"@de , "Kipling rudyard"@en , "Joseph Rudyard Kipling"@en , "Kipling rudyard"@fr , "Joseph Rudyard Kipling"@fr , "Kipling rudyard"@de , "Joseph Rudyard Kipling"@de , "Kipling, Joseph Rudyard"@en .
+
+<http://dbpedia.org/resource/Brooklyn>
+        rdfs:label     "Brooklyn"@en , "Brooklyn"@de , "Brooklyn"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Brooklyn> , <http://fr.dbpedia.org/resource/Brooklyn> ;
+        skos:altLabel  "Brooklynites"@en , "Breuckelen"@de , "Brooklynites"@fr , "Brooklynites"@de , "Brooklen"@en , "Brooklen"@fr , "Brooklen"@de , "Brooklynite"@en , "Breukelen, New York"@en , "Breukelen, New York"@fr , "Breukelen, New York"@de , "Comté de Kings"@fr , "Brooklynite"@fr , "Brooklynite"@de , "La Cima Elementary Charter School"@en , "La Cima Elementary Charter School"@fr , "La Cima Elementary Charter School"@de , "Brooklyn, US-NY"@en , "Brooklyn, US-NY"@fr , "Brooklyn, US-NY"@de , "Brooklyn NFL"@en , "Kings NY"@en , "Brooklyn NFL"@fr , "Brooklyn NFL"@de , "Kings NY"@de , "Kings NY"@fr , "Kings County, New York"@en , "Kings County, New York"@fr , "Kings County, New York"@de , "Brooklyn, New York City"@en , "Brooklyn"@en , "Brooklyn, New York City"@fr , "Brooklyn, New York City"@de , "Brooklyn"@fr , "Brooklyn"@de , "Brooklyn,NY"@en , "Brooklyn,NY"@fr , "Brooklyn,NY"@de , "Brooklyn, NYC"@en , "Brooklyn, NYC"@fr , "Brooklyn, NYC"@de , "Brooklyn, N.Y."@en , "Brooklyn, N.Y."@fr , "Brooklyn, N.Y."@de , "Brooklyn, New York, New York"@en , "Brooklyn, New York, New York"@de , "Brooklyn, New York, New York"@fr , "BKLYN"@en , "BKLYN"@de , "BKLYN"@fr , "Kings County, NY"@en , "Kings County, NY"@fr , "Kings County, NY"@de , "Kings County"@de , "District de Brooklyn"@fr , "BROOKLYN, New York"@en , "BROOKLYN, New York"@fr , "BROOKLYN, New York"@de , "Kings County, N.Y."@en , "Kings County, N.Y."@fr , "Kings County, N.Y."@de , "Hiphopabad"@en , "Hiphopabad"@de , "Hiphopabad"@fr , "B'klyn"@en , "Brooklyn, ny"@en , "B'klyn"@fr , "Brooklyn, ny"@fr , "Brooklyn, ny"@de , "B'klyn"@de , "Brooknam"@en , "Brooknam"@fr , "Brooknam"@de , "Brooklyn, NYC, NY"@en , "Brooklyn, New York"@en , "Brooklyn, N.Y"@en , "Brooklyn, N.Y"@fr , "Brooklyn, N.Y"@de , "Breukelen"@en , "Brooklyn, New York"@fr , "Brooklyn, New York"@de , "Brooklyn, NYC, NY"@fr , "Breukelen"@fr , "Brooklyn, NYC, NY"@de , "Breukelen"@de , "Comte de Kings"@fr , "Kings"@en , "Kings"@fr , "Kings"@de , "Brooklyn, NY"@en , "Brooklyn, NY"@fr , "Brooklyn, NY"@de .

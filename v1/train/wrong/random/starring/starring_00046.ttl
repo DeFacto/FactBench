@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01_4sm>
+        rdfs:label     "Walther Bothe"@en , "Walther Bothe"@fr , "Walther Bothe"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01_4sm__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walther_Bothe> , <http://dbpedia.org/resource/Walther_Bothe> , <http://fr.dbpedia.org/resource/Walther_Bothe> ;
+        skos:altLabel  "Walther Wilhelm Georg Franz Bothe"@fr , "Walther Wilhelm Georg Franz Bothe"@de , "Walther Bothe"@en , "Walther Bothe"@fr , "Walther Bothe"@de , "Walter Wilhelm Georg Franz Bothe"@en , "Walter Wilhelm Georg Franz Bothe"@fr , "Walter Wilhelm Georg Franz Bothe"@de , "Walter Bothe"@en , "Walter Bothe"@fr , "Walter Bothe"@de , "Bothe"@de , "Walther Wilhelm Bothe"@en , "Walther Wilhelm Bothe"@fr , "Walther Wilhelm Bothe"@de , "Walther Wilhelm Georg Franz Bothe"@en , "Walther Wilhelm Georg Bothe"@en , "Walther Wilhelm Georg Bothe"@fr , "Walther Wilhelm Georg Bothe"@de .
+
+<http://rdf.freebase.com/ns/m.01c_bp>
+        rdfs:label     "Macrolife"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Macrolife> ;
+        skos:altLabel  "Macrolife: A Mobile Utopia"@en .
+
+<http://rdf.freebase.com/ns/m.01_4sm__1>
+        dbo:from  "1979"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.01c_bp> ;
+        dbo:to    "1979"^^xsd:gYear .

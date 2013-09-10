@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0mfc0>
+        rdfs:label     "John Varley"@en , "John Varley"@fr , "John Varley"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0mfc0__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/John_Varley_(author)> , <http://de.dbpedia.org/resource/John_Varley> , <http://fr.dbpedia.org/resource/John_Varley> ;
+        skos:altLabel  "John Varley"@fr , "John Varley"@de , "John Varley"@en , "Herb Boehm"@en , "Herb Boehm"@fr , "Varley"@de , "Varley"@fr , "John Herbert Varley"@en .
+
+<http://rdf.freebase.com/ns/m.09y3hn>
+        rdfs:label  "Wizard"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Wizard_(novel)> .
+
+<http://rdf.freebase.com/ns/m.0mfc0__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.09y3hn> ;
+        dbo:from    "1973"^^xsd:gYear ;
+        dbo:to      "1973"^^xsd:gYear .

@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05yn9h5>
+        rdfs:label       "Jean Bonnefoy"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0j087__68> .
+
+<http://rdf.freebase.com/ns/m.0j087__68>
+        dbo:author  <http://rdf.freebase.com/ns/m.0j087> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0j087>
+        rdfs:label     "Macht’s gut, und danke für den Fisch"@de , "Salut, et encore merci pour le poisson"@fr , "So Long, and Thanks for All the Fish"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/So_Long,_and_Thanks_for_All_the_Fish> , <http://fr.dbpedia.org/resource/Salut,_et_encore_merci_pour_le_poisson> , <http://de.dbpedia.org/resource/Macht’s_gut,_und_danke_für_den_Fisch> ;
+        skos:altLabel  "SLATFATF"@en , "SLATFATF"@de , "Le Routard galactique, tome 4"@fr , "Thanks for All the Fish"@fr , "Thanks for All the Fish"@en , "Thanks for All the Fish"@de , "Salut, et encore merci pour le poisson"@fr , "God's Final Message to His Creation"@fr , "God's Final Message to His Creation"@en , "God's Final Message to His Creation"@de , "So long and thanks for all the fish"@fr , "So long and thanks for all the fish"@en , "So long and thanks for all the fish"@de , "So Long, and Thanks for All the Fish"@fr , "So Long, and Thanks for All the Fish"@en , "So Long, and Thanks for All the Fish"@de , "Macht’s gut, und danke fur den Fisch"@de , "Macht's gut, und danke fur den Fisch"@de , "So long, and thanks for all the fish!"@fr , "God's Final Message To His Creation"@fr , "So long, and thanks for all the fish!"@de , "So long, and thanks for all the fish!"@en , "God's Final Message To His Creation"@en , "God's Final Message To His Creation"@de , "Thanks for all the fish"@fr , "Thanks for all the fish"@en , "Thanks for all the fish"@de , "So long, and thanks for all the fish"@fr , "So long, and thanks for all the fish"@de , "So long, and thanks for all the fish"@en , "So Long, and Thanks For All the Fish"@fr , "So Long and Thanks for All the Fish"@fr , "So Long, and Thanks For All the Fish"@de , "So Long and Thanks for All the Fish"@en , "So Long and Thanks for All the Fish"@de , "So Long, and Thanks For All the Fish"@en , "So Long, & Thanks for All the Fish"@fr , "So Long, & Thanks for All the Fish"@en , "So Long, & Thanks for All the Fish"@de , "Macht's gut, und danke für den Fisch"@de , "Macht’s gut, und danke für den Fisch"@de , "God's final message to creation"@fr , "God's final message to creation"@de , "God's final message to creation"@en , "And thanks for all the fish"@fr , "So Long And Thanks For All The Fish"@fr , "And thanks for all the fish"@de , "So Long And Thanks For All The Fish"@en , "And thanks for all the fish"@en , "The Hitchhiker’s Guide to the Galaxy: Quandary Phase"@en , "So Long And Thanks For All The Fish"@de , "Mach's gut, und danke für den Fisch"@de , "So Long, and Thanks for all the Fish"@fr , "So Long, and Thanks for all the Fish"@en , "So Long, and Thanks for all the Fish"@de , "SLATFATF"@fr .

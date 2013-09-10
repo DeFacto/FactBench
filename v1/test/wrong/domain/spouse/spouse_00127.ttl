@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.028ccnr__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.02wwwv5> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.028ccnr>
+        rdfs:label     "Diether Ocampo"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.028ccnr__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Diether_Ocampo> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "diether_ocampo"@en , "Diether Ocampo"@en .
+
+<http://rdf.freebase.com/ns/m.02wwwv5>
+        rdfs:label     "The-Dream"@de , "The-Dream"@en , "The-Dream"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The-Dream> , <http://fr.dbpedia.org/resource/The-Dream> , <http://de.dbpedia.org/resource/The-Dream> ;
+        skos:altLabel  "The-Dream"@de , "The Dream"@en , "Dream"@fr , "Dream"@de , "Terius Youngdell Nash"@en , "Terius Youngdell Nash"@fr , "Terius Youngdell Nash"@de , "Terius Nash"@en , "Terius Nash"@fr , "Terius Nash"@de , "The - Dream"@fr , "The - Dream"@de , "The-Dream"@fr .

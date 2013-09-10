@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03fzz5__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.019dg_> ;
+        dbo:from    "1981"^^xsd:gYear ;
+        dbo:to      "1981"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03fzz5>
+        rdfs:label     "Gene Brewer"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03fzz5__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gene_Brewer> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Gene Brewer"@en .
+
+<http://rdf.freebase.com/ns/m.019dg_>
+        rdfs:label     "Slaughterhouse-Five"@en , "Schlachthof 5 oder Der Kinderkreuzzug"@de , "Abattoir 5 ou la Croisade des enfants"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Schlachthof_5_oder_Der_Kinderkreuzzug> , <http://fr.dbpedia.org/resource/Abattoir_5_ou_la_Croisade_des_enfants> , <http://dbpedia.org/resource/Slaughterhouse-Five> ;
+        skos:altLabel  "Slaughter-House Five"@en , "Slaughterhouse-five"@en , "Slaughterhouse-five"@de , "Slaughterhouse-five"@fr , "Slaughter-House Five"@de , "Slaughter-House Five"@fr , "Slaughterhouse 5"@en , "Slaughterhouse 5"@de , "Slaughterhouse 5"@fr , "Slaughter-house five"@en , "Slaughter-house five"@de , "Slaughter-house five"@fr , "Croisade des enfants"@fr , "Slaughterhouse"@de , "Slaughterhouse"@fr , "Slaughterhouse"@en , "Slaughter house 5"@en , "Slaughter House Five"@de , "Slaughter House Five"@fr , "Slaughter House Five"@en , "Slaughter house 5"@de , "Slaughter house 5"@fr , "Montana Wildhack"@en , "Montana Wildhack"@de , "Montana Wildhack"@fr , "Schlachthof 5 oder Der Kinderkreuzzug"@de , "Schlachthof"@de , "Slaughterhouse Five or The Children's Crusade"@en , "Slaughterhouse Five or The Children's Crusade"@de , "Slaughterhouse Five or The Children's Crusade"@fr , "Slaughterhouse Five"@de , "Slaughterhouse Five"@fr , "Slaughterhouse Five"@en , "Slaughterhouse-Five"@en , "Slaughterhouse-Five"@de , "Slaughterhouse-Five"@fr , "Abattoir 5"@fr , "Slaughterhouse five"@en , "Schlachthof 5 oder der Kinderkreuzzug"@de , "Slaughterhouse five"@de , "Slaughterhouse five"@fr , "Schlachthof 5"@de , "Abattoir 5 ou la croisade des enfants"@fr , "Slaughterhouse-5"@en , "Slaughterhouse-5"@de , "Slaughterhouse-5"@fr , "Abattoir 5 ou la Croisade des enfants"@fr .

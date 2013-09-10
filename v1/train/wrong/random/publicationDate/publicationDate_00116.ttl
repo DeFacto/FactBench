@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01xndx>
+        rdfs:label     "Out of the Silent Planet"@en , "Jenseits des schweigenden Sterns"@de , "Au-delà de la planète silencieuse"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Au-delà_de_la_planète_silencieuse> , <http://de.dbpedia.org/resource/Jenseits_des_schweigenden_Sterns> , <http://dbpedia.org/resource/Out_of_the_Silent_Planet> ;
+        skos:altLabel  "Hross"@en , "Hrossa"@en , "Out of the silent planet"@en , "Hross"@fr , "Hrossa"@fr , "Out of the silent planet"@fr , "Hrossa"@de , "Out of the silent planet"@de , "Hross"@de , "Thulcandra"@en , "Thulcandra"@fr , "Thulcandra"@de , "Jenseits des schweigenden Sterns"@de , "Au-delà de la planète silencieuse"@fr , "Séroni"@en , "Pfifltriggi"@en , "Seroni"@en , "Pfifltriggi"@fr , "Seroni"@fr , "Seroni"@de , "Pfifltriggi"@de , "Séroni"@fr , "Séroni"@de , "Au-dela de la planete silencieuse"@fr , "Out of the Silent Planet"@en , "Pfifltrig"@en , "Out of the Silent Planet"@fr , "Le Silence de la Terre"@fr , "Pfifltrig"@fr , "Out of the Silent Planet"@de , "Pfifltrig"@de .
+
+<http://dbpedia.org/resource/Sarah_Vaughan>
+        rdfs:label     "Sarah Vaughan"@en , "Sarah Vaughan"@fr , "Sarah Vaughan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Sarah_Vaughan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sarah_Vaughan> , <http://fr.dbpedia.org/resource/Sarah_Vaughan> ;
+        skos:altLabel  "Vaughan"@fr , "Vaughan"@de , "Sarah"@fr , "Sarah Vaughan"@en , "Sarah Vaughan"@fr , "Sarah Vaughan"@de , "Sara Vaughn"@en , "Sara Vaughn"@fr , "Sara Vaughn"@de , "Sarah Vaughn"@en , "Sarah Vaughn"@de , "Sarah Vaughn"@fr .
+
+<http://dbpedia.org/resource/Sarah_Vaughan__1>
+        dbo:from    "1983"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.01xndx> ;
+        dbo:to      "1983"^^xsd:gYear .

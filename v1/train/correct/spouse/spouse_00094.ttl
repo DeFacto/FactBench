@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03m5ms>
+        rdfs:label     "Charlotte Ross"@fr , "Charlotte Ross"@de , "Charlotte Ross"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charlotte_Ross> , <http://de.dbpedia.org/resource/Charlotte_Ross> , <http://dbpedia.org/resource/Charlotte_Ross> ;
+        skos:altLabel  "Charlotte Ross"@fr , "Charlotte Ross"@de .
+
+<http://rdf.freebase.com/ns/m.0h2rxc9__94>
+        dbo:from    "2003-10-18"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03m5ms> ;
+        dbo:to      "2008-01-31"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0h2rxc9>
+        rdfs:label    "Michael Goldman"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.0h2rxc9__94> .

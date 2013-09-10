@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Boston_Celtics>
+        rdfs:label     "Boston Celtics"@de , "Boston Celtics"@en , "Boston Celtics"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Boston_Celtics> , <http://fr.dbpedia.org/resource/Celtics_de_Boston> ;
+        skos:altLabel  "Boston Celts"@en , "Boston Celts"@fr , "Boston Celts"@de , "Boston Celtic"@en , "Celtics de boston"@fr , "Boston Celtics"@en , "Boston Celtic"@fr , "Boston Celtics"@fr , "Boston Celtic"@de , "Boston Celtics"@de , "Celtics de Boston"@fr , "The C's"@en , "The C's"@fr , "Celtics De Boston"@fr , "The C's"@de , "Celtic"@en , "Celtic"@fr , "Celtic"@de .
+
+<http://dbpedia.org/resource/Jamal_Crawford>
+        rdfs:label     "Jamal Crawford"@en , "Jamal Crawford"@fr , "Jamal Crawford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jamal_Crawford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jamal_Crawford> , <http://fr.dbpedia.org/resource/Jamal_Crawford> ;
+        skos:altLabel  "Jamaal Crawford"@fr , "Jamaal Crawford"@de , "Aaron Jamal Crawford"@de , "Jamal Crawford"@en , "Jamal Crawford"@de , "Jamal Crawford"@fr , "Jamaal Crawford"@en , "Aaron Jamal Crawford"@en , "Aaron Jamal Crawford"@fr .
+
+<http://dbpedia.org/resource/Jamal_Crawford__1>
+        dbo:from  "2005"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Boston_Celtics> ;
+        dbo:to    "2009"^^xsd:gYear .

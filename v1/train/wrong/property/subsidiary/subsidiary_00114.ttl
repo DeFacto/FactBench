@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0537b>
+        rdfs:label     "Motorola"@de , "Motorola"@fr , "Motorola"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0537b__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Motorola> , <http://de.dbpedia.org/resource/Motorola> , <http://dbpedia.org/resource/Motorola> ;
+        skos:altLabel  "Hellomoto"@de , "Hellomoto"@fr , "Motorol"@de , "Hello moto"@en , "Hello moto"@de , "Hello moto"@fr , "Motorola Incorporated"@de , "Motorola Incorporated"@fr , "Motorola Incorporated"@en , "MOTOROLA"@en , "MOTOROLA"@de , "MOTOROLA"@fr , "Motorola, Inc"@en , "Motorola, Inc"@de , "Motorola, Inc"@fr , "Motorola"@de , "Motorola"@fr , "Motorola"@en , "Galvin Manufacturing Corporation"@en , "Galvin Manufacturing Corporation"@de , "Galvin Manufacturing Corporation"@fr , "Aura"@en , "Aura"@de , "Aura"@fr , "Moto"@en , "Moto"@de , "Moto"@fr , "Motorola General Systems Group"@en , "Motorola General Systems Group"@de , "Motorola General Systems Group"@fr , "Motorolla"@en , "Motorolla"@de , "Motorolla"@fr , "Motofon"@de , "Motorola 6845"@de , "Motorola Inc."@de , "Motorola Inc."@fr , "Motorola Inc."@en , "Motorola, Inc."@en , "Motorola, Inc."@de , "Motorola, Inc."@fr , "Galvin"@en , "Galvin"@de , "Galvin"@fr , "Hellomoto"@en , "Motorola Electronics Pte Ltd"@en , "Motorola Electronics Pte Ltd"@de , "Motorola Electronics Pte Ltd"@fr .
+
+<http://rdf.freebase.com/ns/m.0537b__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03f76fb> ;
+        dbo:from             "2007"^^xsd:gYear ;
+        dbo:to               "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03f76fb>
+        rdfs:label     "Terayon"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Terayon> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Terayon"@en , "Terayon's"@en .

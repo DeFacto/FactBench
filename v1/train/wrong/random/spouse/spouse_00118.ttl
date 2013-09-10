@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Ferrer__1>
+        dbo:award  <http://dbpedia.org/resource/Birmingham> ;
+        dbo:from   "2005"^^xsd:gYear ;
+        dbo:to     "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/David_Ferrer>
+        rdfs:label     "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Ferrer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Ferrer> , <http://fr.dbpedia.org/resource/David_Ferrer> ;
+        skos:altLabel  "Ferrer"@en , "Ferrer"@fr , "Ferrer"@de , "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de , "David Ferrer Ern"@en , "David Ferrer Ern Gaydamak"@en , "David Ferrer Ern Gaydamak"@fr , "David Ferrer Ern"@de , "David Ferrer Ern"@fr , "David Ferrer Ern Gaydamak"@de .
+
+<http://dbpedia.org/resource/Birmingham>
+        rdfs:label     "Birmingham"@de , "Birmingham"@fr , "Birmingham"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Birmingham> , <http://de.dbpedia.org/resource/Birmingham> ;
+        skos:altLabel  "Rotunda"@de , "LOCODE:GBBHM"@en , "LOCODE:GBBHM"@de , "LOCODE:GBBHM"@fr , "Birmingham Corporation"@en , "County Borough of Birmingham"@en , "B'ham"@en , "County Borough of Birmingham"@fr , "County Borough of Birmingham"@de , "Birmingham Corporation"@fr , "B'ham"@fr , "Birmingham Corporation"@de , "B'ham"@de , "Birmingham, England"@en , "Birmingham, England"@de , "Birmingham, England"@fr , "City of birmingham"@en , "City of birmingham"@fr , "City of birmingham"@de , "Birmingham Heritage Festival"@en , "Birmingham Heritage Festival"@fr , "Birmingham Heritage Festival"@de , "Crime and policing in Birmingham"@en , "Crime and policing in Birmingham"@fr , "Crime and policing in Birmingham"@de , "City of a thousand trades"@en , "City of a thousand trades"@fr , "City of a thousand trades"@de , "Bham"@en , "B'Ham"@en , "England Birmingham"@en , "B'Ham"@de , "B'Ham"@fr , "England Birmingham"@de , "England Birmingham"@fr , "Bham"@fr , "Bham"@de , "Birmingham, United Kingdom"@en , "Birmingham, United Kingdom"@de , "Birmingham, United Kingdom"@fr , "Bimringham"@en , "Bimringham"@de , "Bimringham"@fr , "Birmingham overspill"@en , "The weather in Birmingham"@en , "Aston"@de , "Birmingham overspill"@fr , "The weather in Birmingham"@fr , "Birmingham overspill"@de , "The weather in Birmingham"@de , "Birmingham artistic figures"@en , "Birmingham artistic figures"@fr , "Birmingham artistic figures"@de , "Birminghamian"@en , "Birmingham, UK"@en , "Birminghamian"@de , "Birmingham, UK"@de , "Birmingham, UK"@fr , "Birminghamian"@fr , "City of a thousand and one trades"@en , "City of a thousand and one trades"@fr , "City of a thousand and one trades"@de , "Birmingham"@en , "Birmingham"@fr , "Birmingham"@de , "GB-BIR"@de , "Birmingham, West Midlands"@en , "Birmingham, West Midlands"@fr , "Birmingham, West Midlands"@de , "City of Birmingham"@en , "Beormingham"@en , "City of Birmingham"@fr , "Beormingham"@fr , "Beormingham"@de , "City of Birmingham"@de , "Metropolitan Borough of Birmingham"@en , "Metropolitan Borough of Birmingham"@fr , "Metropolitan Borough of Birmingham"@de .

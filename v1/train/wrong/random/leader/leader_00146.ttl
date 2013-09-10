@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02kfc3h>
+        rdfs:label  "Dayton Ward"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02kfc3h__1> .
+
+<http://dbpedia.org/resource/Boston_Celtics>
+        rdfs:label     "Boston Celtics"@de , "Boston Celtics"@en , "Boston Celtics"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Boston_Celtics> , <http://fr.dbpedia.org/resource/Celtics_de_Boston> ;
+        skos:altLabel  "Boston Celts"@en , "Boston Celts"@fr , "Boston Celts"@de , "Boston Celtic"@en , "Celtics de boston"@fr , "Boston Celtics"@en , "Boston Celtic"@fr , "Boston Celtics"@fr , "Boston Celtic"@de , "Boston Celtics"@de , "Celtics de Boston"@fr , "The C's"@en , "The C's"@fr , "Celtics De Boston"@fr , "The C's"@de , "Celtic"@en , "Celtic"@fr , "Celtic"@de .
+
+<http://rdf.freebase.com/ns/m.02kfc3h__1>
+        dbo:from      "2008"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Boston_Celtics> ;
+        dbo:to        "2013"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Memphis_Grizzlies>
+        rdfs:label     "Memphis Grizzlies"@en , "Memphis Grizzlies"@fr , "Memphis Grizzlies"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Memphis_Grizzlies> , <http://fr.dbpedia.org/resource/Grizzlies_de_Memphis> ;
+        skos:altLabel  "Memphis Grizzlies"@en , "Memphis Grizzlies"@fr , "Memphis Grizzlies"@de , "Grizzlies de Vancouver"@fr , "Vancouver Grizzlies"@fr , "Vancouver Grizzlies"@de , "Grizzlies de Memphis"@fr , "Memphis grizzles"@en , "Grizzlies"@en , "Memphis grizzles"@fr , "Grizzlies"@fr , "Grizzlies"@de , "Memphis grizzles"@de , "Grizzlies de memphis"@fr , "Grizzlies De Memphis"@fr .
+
+<http://dbpedia.org/resource/Chauncey_Billups__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Memphis_Grizzlies> ;
+        dbo:to    "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chauncey_Billups>
+        rdfs:label     "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chauncey_Billups__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chauncey_Billups> , <http://fr.dbpedia.org/resource/Chauncey_Billups> ;
+        skos:altLabel  "Billups"@en , "Billups"@fr , "Billups"@de , "Mr. Big Shot"@en , "Mr. Big Shot"@fr , "Mr. Big Shot"@de , "Chauncy Billups"@en , "Chauncy Billups"@fr , "Chauncy Billups"@de , "Chauncey"@en , "Chauncey"@fr , "Chauncey"@de , "Chauncey Ray Billups"@en , "Chauncey Ray Billups"@fr , "Chauncey Ray Billups"@de , "Mr Big Shot"@en , "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de , "Mr Big Shot"@fr , "Mr Big Shot"@de .

@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h9g6__44>
+        dbo:author  <http://rdf.freebase.com/ns/m.0h9g6> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://dbpedia.org/resource/The_Big_U>
+        skos:altLabel  "American Megaversity"@en , "The Big U"@en , "Big U"@en .
+
+<http://rdf.freebase.com/ns/m.0h9g6>
+        rdfs:label  "The Big U"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Big_U> .
+
+<http://rdf.freebase.com/ns/m.05cv8>
+        rdfs:label       "Neal Stephenson"@fr , "Neal Stephenson"@en , "Neal Stephenson"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0h9g6__44> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Neal_Stephenson> , <http://fr.dbpedia.org/resource/Neal_Stephenson> , <http://dbpedia.org/resource/Neal_Stephenson> ;
+        skos:altLabel    "Neal Stephenson bibliography"@en , "Neal Stephenson bibliography"@de , "Neal Stephenson bibliography"@fr , "Neal Stephenson's"@en , "Neal Stephenson's"@de , "Neal Stephenson's"@fr , "Neal"@fr , "Neal"@en , "Neal"@de , "Stephenson, Neal"@en , "The Metaweb"@en , "The Metaweb"@de , "The Metaweb"@fr , "Quicksilver Wiki"@en , "Quicksilver Wiki"@de , "Quicksilver Wiki"@fr , "Neal Stephenson"@fr , "Neal Stephenson"@en , "Neal Stephenson"@de , "Stephenson"@fr , "Stephenson"@en , "Stephenson"@de , "Neal Town Stephenson"@fr , "Neal Town Stephenson"@en , "Neal Town Stephenson"@de , "Stephen Bury"@fr , "Stephen Bury"@en , "Stephen Bury"@de , "Quicksilver wiki"@fr , "Quicksilver wiki"@en , "Quicksilver wiki"@de , "Neil stephenson"@en , "Neil stephenson"@de , "Neil stephenson"@fr , "In the Kingdom of Mao Bell"@fr , "In the Kingdom of Mao Bell"@en , "In the Kingdom of Mao Bell"@de , "Neil Stephenson"@en , "Neil Stephenson"@de , "Neil Stephenson"@fr .

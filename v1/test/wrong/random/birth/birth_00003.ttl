@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Ferrer__1>
+        dbo:author  <http://dbpedia.org/resource/Newark,_New_Jersey> ;
+        dbo:from    "1958"^^xsd:gYear ;
+        dbo:to      "1958"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Newark,_New_Jersey>
+        rdfs:label     "Newark, New Jersey"@de , "Newark, New Jersey"@fr , "Newark, New Jersey"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Newark_(New_Jersey)> , <http://fr.dbpedia.org/resource/Newark_(New_Jersey)> ;
+        skos:altLabel  "University heights charter school"@en , "University heights charter school"@fr , "University heights charter school"@de , "Newarkr, New Jersey"@en , "Newarkr, New Jersey"@fr , "Newarkr, New Jersey"@de , "Downtown Newark, New Jersey"@en , "Downtown Newark, New Jersey"@fr , "Downtown Newark, New Jersey"@de , "Newark new jersey"@en , "Newark new jersey"@fr , "Newark new jersey"@de , "Newark Township, New Jersey"@en , "Newark Township, New Jersey"@fr , "Newark Township, New Jersey"@de , "Newark, N. J."@en , "The Newark Sunday Call"@en , "Newark, New Jersey"@en , "Newark nj"@en , "Newark, N. J."@fr , "The Newark Sunday Call"@fr , "The Newark Sunday Call"@de , "Newark nj"@de , "Newark nj"@fr , "Newark, New Jersey"@fr , "Newark, New Jersey"@de , "Newark, N. J."@de , "Newark City, NJ"@en , "Newark City, NJ"@fr , "Newark City, NJ"@de , "North Newark, New Jersey"@en , "North Newark, New Jersey"@de , "North Newark, New Jersey"@fr , "Academy, NJ"@en , "Academy, NJ"@de , "Academy, NJ"@fr , "Newark Boys Choir School"@en , "Academy, New Jersey"@en , "Newark Boys Choir School"@fr , "Youngs Point"@de , "Academy, New Jersey"@fr , "Academy, New Jersey"@de , "Newark Boys Choir School"@de , "Newark, NJ"@en , "St. Philips Academy"@en , "Newark, NJ"@fr , "St. Philips Academy"@de , "St. Philips Academy"@fr , "Newark, NJ"@de , "Newark City, Essex County, New Jersey"@en , "Newark City, Essex County, New Jersey"@fr , "Newark City, Essex County, New Jersey"@de , "Newark Township, Essex County, New Jersey"@en , "Newark Township, Essex County, New Jersey"@de , "Newark Township, Essex County, New Jersey"@fr , "Newark,nj"@en , "Newark,nj"@fr , "Newark,nj"@de , "History of Newark, NJ"@en , "History of Newark, NJ"@fr , "History of Newark, NJ"@de , "Brick"@en , "The Brick City"@en , "Brick"@fr , "The Brick City"@fr , "The Brick City"@de , "Brick"@de , "Newark, nj"@en , "Newark, nj"@fr , "Newark, nj"@de , "Newark City, New Jersey"@en , "Newark City, New Jersey"@de , "Newark City, New Jersey"@fr , "Brick City"@en , "Brick City"@fr , "Brick City"@de , "St. Philip's Academy"@en , "Newark"@en , "City of Newark"@en , "St. Philip's Academy"@fr , "City of Newark"@de , "City of Newark"@fr , "St. Philip's Academy"@de , "Newark"@fr , "Newark"@de , "Newark Sunday Call"@en , "Newark Sunday Call"@fr , "Newark Sunday Call"@de .
+
+<http://dbpedia.org/resource/David_Ferrer>
+        rdfs:label     "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Ferrer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Ferrer> , <http://fr.dbpedia.org/resource/David_Ferrer> ;
+        skos:altLabel  "Ferrer"@en , "Ferrer"@fr , "Ferrer"@de , "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de , "David Ferrer Ern"@en , "David Ferrer Ern Gaydamak"@en , "David Ferrer Ern Gaydamak"@fr , "David Ferrer Ern"@de , "David Ferrer Ern"@fr , "David Ferrer Ern Gaydamak"@de .

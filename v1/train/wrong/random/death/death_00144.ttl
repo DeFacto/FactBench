@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Donna_Summer>
+        rdfs:label     "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Donna_Summer__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Donna_Summer> , <http://de.dbpedia.org/resource/Donna_Summer> ;
+        skos:altLabel  "Queen of disco"@en , "Queen of disco"@fr , "Queen of disco"@de , "LaDonna Andrea Gaines"@fr , "Queen of Disco"@en , "Queen of Disco"@fr , "Queen of Disco"@de , "Summer"@en , "Donna summer"@en , "Donna Summers"@en , "Donna Summers"@fr , "Donna Summers"@de , "Donna summer"@fr , "Donna summer"@de , "Summer"@fr , "Summer"@de , "Dona summer"@en , "Love To Love You Baby"@fr , "Dona summer"@fr , "Dona summer"@de , "Bad Girls"@fr , "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de .
+
+<http://dbpedia.org/resource/Donna_Summer__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Lynwood,_California> ;
+        dbo:from             "2002"^^xsd:gYear ;
+        dbo:to               "2002"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Lynwood,_California>
+        rdfs:label     "Lynwood, California"@en , "Lynwood, California"@fr , "Lynwood, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lynwood_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lynwood> ;
+        skos:altLabel  "Lynwood, CA"@en , "Lynwood, CA"@fr , "Lynwood, CA"@de , "Lynwood, Ca"@en , "Lynwood, Ca"@fr , "Lynwood, Ca"@de , "Lynwood california"@en , "Lynwood california"@de , "Lynwood california"@fr , "LOCODE:USLYJ"@en , "Lynwood, California"@en , "LOCODE:USLYJ"@fr , "Lynwood, California"@fr , "Lynwood, California"@de , "LOCODE:USLYJ"@de , "Lynwood"@en , "Lynwood"@fr , "Lynwood"@de .

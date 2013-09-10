@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07d3x__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01vhfj> ;
+        dbo:from    "1964"^^xsd:gYear ;
+        dbo:to      "1964"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07d3x>
+        rdfs:label     "Terry Pratchett"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07d3x__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Terry_Pratchett> , <http://dbpedia.org/resource/Terry_Pratchett> , <http://de.dbpedia.org/resource/Terry_Pratchett> ;
+        skos:altLabel  "Terry Pratchet"@en , "Terry Pratchet"@de , "Terry Pratchet"@fr , "Terry Prattchet"@en , "Terry Prattchet"@de , "Terry Prattchet"@fr , "Prattchett"@en , "Prattchett"@de , "Prattchett"@fr , "Terence Pratchett"@en , "Terence Pratchett"@de , "Terence Pratchett"@fr , "Terry"@en , "Terry"@de , "Terry"@fr , "Sir Terry Pratchett"@en , "Sir Terry Pratchett"@de , "Sir Terry Pratchett"@fr , "Terry pratchett"@en , "Terry pratchett"@de , "Terry pratchett"@fr , "Terry Prattchett"@en , "Terry Prattchett"@de , "Terry Prattchett"@fr , "Sir Terence David John Pratchett"@de , "Sir Terence David John \"Terry\" Pratchett, OBE"@en , "Pterry"@en , "Pterry"@de , "Pterry"@fr , "Terry prachet"@en , "Terence David John Pratchett"@en , "Terry Prachett"@en , "Terence David John Pratchett"@de , "Terry Prachett"@de , "Terry Prachett"@fr , "Terence David John Pratchett"@fr , "Terry prachet"@de , "Terry prachet"@fr , "Bissonomy"@en , "Bissonomy"@de , "Bissonomy"@fr , "Sir Terry Pratchett, OBE"@en , "Terry Prattcher"@en , "Terry Prattcher"@de , "Terry Prattcher"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de , "Terry Pratchett"@fr , "PTerry"@en , "Pterry Pratchett"@fr , "PTerry"@de , "PTerry"@fr , "Pratchett"@en , "Pratchett"@de , "Pratchett"@fr .
+
+<http://rdf.freebase.com/ns/m.01vhfj>
+        rdfs:label     "Nova Express"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Nova_Express> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Nova Express"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Godzilla_(1998_film)>
+        rdfs:label     "Godzilla (1998 film)"@en , "Godzilla (1998 film)"@fr , "Godzilla (1998 film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Godzilla_(1998_film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Godzilla_(film,_1998)> , <http://de.dbpedia.org/resource/Godzilla_(1998)> ;
+        skos:altLabel  "The American Godzilla"@en , "The American Godzilla"@fr , "The American Godzilla"@de , "Nick Tatopoulos"@en , "Nick Tatopoulos"@de , "Nick Tatopoulos"@fr , "Godzilla"@en , "Zilla"@fr , "Godzilla"@fr , "Godzilla"@de , "Zilla(1998 film)"@en , "Zilla(1998 film)"@fr , "Zilla(1998 film)"@de .
+
+<http://dbpedia.org/resource/Godzilla_(1998_film)__1>
+        dbo:from      "1998"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Oliver_Platt> ;
+        dbo:to        "1998"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Oliver_Platt>
+        rdfs:label     "Oliver Platt"@en , "Oliver Platt"@fr , "Oliver Platt"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Oliver_Platt> , <http://fr.dbpedia.org/resource/Oliver_Platt> ;
+        skos:altLabel  "Oliver Platt"@en , "Oliver Platt"@fr , "Oliver Platt"@de , "Platt"@fr , "Platt"@de .

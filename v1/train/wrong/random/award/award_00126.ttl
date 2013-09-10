@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lynwood,_California>
+        rdfs:label     "Lynwood, California"@en , "Lynwood, California"@fr , "Lynwood, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lynwood_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lynwood> ;
+        skos:altLabel  "Lynwood, CA"@en , "Lynwood, CA"@fr , "Lynwood, CA"@de , "Lynwood, Ca"@en , "Lynwood, Ca"@fr , "Lynwood, Ca"@de , "Lynwood california"@en , "Lynwood california"@de , "Lynwood california"@fr , "LOCODE:USLYJ"@en , "Lynwood, California"@en , "LOCODE:USLYJ"@fr , "Lynwood, California"@fr , "Lynwood, California"@de , "LOCODE:USLYJ"@de , "Lynwood"@en , "Lynwood"@fr , "Lynwood"@de .
+
+<http://dbpedia.org/resource/Hal_Roach__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Lynwood,_California> ;
+        dbo:from        "1983"^^xsd:gYear ;
+        dbo:to          "1983"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hal_Roach>
+        rdfs:label     "Hal Roach"@en , "Hal Roach"@fr , "Hal Roach"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hal_Roach__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hal_Roach> , <http://de.dbpedia.org/resource/Hal_Roach> ;
+        skos:altLabel  "Roach, Hal"@en , "Roach, Hal"@fr , "Roach, Hal"@de , "Hal Roach"@en , "Hal Roach Studios"@en , "Hal Roach"@de , "Hal Roach"@fr , "Hal Roach Studios"@fr , "Hal Roach Studios"@de , "Roach"@de .

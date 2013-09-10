@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jonathan_Swift>
+        rdfs:label     "Jonathan Swift"@en , "Jonathan Swift"@fr , "Jonathan Swift"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jonathan_Swift__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jonathan_Swift> , <http://de.dbpedia.org/resource/Jonathan_Swift> ;
+        skos:altLabel  "Swift"@en , "Swift"@fr , "Swift"@de , "Johnathan Swift"@en , "Johnathan Swift"@fr , "Johnathan Swift"@de , "Jonathan swift"@en , "Jonathan swift"@fr , "Jonathan swift"@de , "Jonathon Swift"@en , "Jonathon Swift"@fr , "Jonathon Swift"@de , "Johnathon swift"@en , "Johnathon swift"@fr , "Johnathon swift"@de , "Verses on the Death of Dr. Swift"@en , "Verses on the Death of Dr. Swift"@fr , "Verses on the Death of Dr. Swift"@de , "Jonathan Swift"@en , "Jonathan Swift"@fr , "Jonathan Swift"@de , "Swiftian"@en , "Swiftian"@fr , "Swiftian"@de , "Jonathin swift"@en , "Jonathin swift"@fr , "Jonathin swift"@de , "Dean Swift"@en , "Dean Swift"@fr , "Dean Swift"@de .
+
+<http://dbpedia.org/resource/Jonathan_Swift__1>
+        dbo:from    "1960"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.027_d4h> ;
+        dbo:to      "1960"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.027_d4h>
+        rdfs:label     "John Enos III"@fr , "John Enos III"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/John_Enos_III> , <http://fr.dbpedia.org/resource/John_Enos_III> ;
+        skos:altLabel  "John Enos"@en , "John Enos"@fr , "Enos"@fr , "John Enos III"@fr , "Mr. Too Big"@en .

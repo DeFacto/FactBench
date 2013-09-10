@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.082xp>
+        rdfs:label     "Winston Churchill"@de , "Winston Churchill"@fr , "Winston Churchill"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.082xp__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Winston_Churchill> , <http://fr.dbpedia.org/resource/Winston_Churchill> , <http://de.dbpedia.org/resource/Winston_Churchill> ;
+        skos:altLabel  "W. Churchill"@en , "W. Churchill"@fr , "W. Churchill"@de , "Charles Morin"@en , "Charles Morin"@fr , "Charles Morin"@de , "Winston Churchhill"@en , "Winston Churchhill"@fr , "Winston Churchhill"@de , "Winston Churchill"@en , "Winston Churchill"@fr , "Winston Churchill"@de , "Prime Minister Churchill"@en , "Prime Minister Churchill"@fr , "Prime Minister Churchill"@de , "Winston S. Churchill"@en , "Winston S. Churchill"@fr , "Winston S. Churchill"@de , "Winston Spencer"@en , "Marigold Frances Churchill"@en , "Marigold Frances Churchill"@fr , "Marigold Frances Churchill"@de , "Winston Spencer"@fr , "Winston Spencer"@de , "Sir Winston Leonard Spencer-Churchill"@en , "Sir Winston Leonard Spencer-Churchill"@fr , "Sir Winston Leonard Spencer-Churchill"@de , "Colonel Warden"@en , "Colonel Warden"@fr , "Colonel Warden"@de , "WL Spencer-Churchill"@en , "State funeral of Winston Churchill"@en , "WL Spencer-Churchill"@fr , "WL Spencer-Churchill"@de , "State funeral of Winston Churchill"@fr , "State funeral of Winston Churchill"@de , "Sir Winston Churchill"@en , "Sir Winston Leonard Spencer-Churchill, KG, OM, CH, TD, DL, FRS, Hon. RA"@en , "Sir Winston Churchill"@fr , "Sir Winston Churchill"@de , "Churchill"@en , "Churchill"@fr , "Churchill"@de , "The Right Honourable Sir Winston Churchill"@en , "Prime Minister Winston Churchill"@en , "Sir Churchill"@en , "WINSTON CHURCHILL"@en , "Winston Leonard Spencer-Churchill"@en , "Sir Churchill"@fr , "Sir Churchill"@de , "Sir Winston Leonard Spencer Churchill"@en , "Marigold Churchill"@en , "WINSTON CHURCHILL"@fr , "Sir Winston Leonard Spencer Churchill"@fr , "Marigold Churchill"@fr , "Sir Winston Leonard Spencer Churchill"@de , "Marigold Churchill"@de , "WINSTON CHURCHILL"@de , "Winston Leonard Spencer-Churchill"@fr , "Winston Leonard Spencer-Churchill"@de , "Winston Leonard Churchill"@en , "Winston Leonard Churchill"@fr , "Winston Leonard Churchill"@de , "Winnie"@en , "The British Bulldog"@en , "Mr. Churchill"@en , "Winston Churchil"@en , "Winston Churchil"@fr , "Winston Churchil"@de , "サー・ウィンストン・レナード・スペンサー＝チャーチル"@en , "The Honourable Sir Winston Spencer Churchill"@en , "Winston"@en , "Winston"@fr , "Winston"@de , "Winston Leonard Spencer"@en , "The Honourable Sir Winston Spencer Churchill"@fr , "The Honourable Sir Winston Spencer Churchill"@de , "Winston Leonard Spencer"@fr , "Winston Leonard Spencer"@de , "Churchill, Winston"@en , "Churchill, Winston"@fr , "Churchill, Winston"@de , "Tango"@en , "Tango"@fr , "Tango"@de , "Winston Leonard Spencer Churchill"@en , "Winston Leonard Spencer Churchill"@fr , "Winston Leonard Spencer Churchill"@de , "The Focus"@en , "Sir Churchill Winston"@en , "The Focus"@fr , "The Focus"@de , "Churchillian"@en , "Churchillian"@de , "Churchillian"@fr , "Col. Walden"@en , "Winston Spencer Churchill"@en , "Winston Spencer Churchill"@fr , "Winston Spencer Churchill"@de , "Winston churchhill"@en , "Winston churchill"@en , "Winston churchill"@fr , "Winston churchill"@de , "Winston churchhill"@fr , "Winston churchhill"@de , "Winston Spencer-Churchill"@en , "Winston Spencer-Churchill"@fr , "Winston Spencer-Churchill"@de , "Sir Winston"@en , "Sir Winston"@de , "Sir Winston"@fr .
+
+<http://rdf.freebase.com/ns/m.0mzdz>
+        rdfs:label     "Paul McGann"@en , "Paul McGann"@fr , "Paul McGann"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Paul_McGann> , <http://fr.dbpedia.org/resource/Paul_McGann> , <http://de.dbpedia.org/resource/Paul_McGann> ;
+        skos:altLabel  "McGann, Paul"@en , "McGann, Paul"@de , "McGann, Paul"@fr , "McGann"@en , "McGann"@de , "McGann"@fr , "Paul mcgann"@en , "Paul McGann"@en , "Paul mcgann"@fr , "Paul mcgann"@de , "Paul McGann"@fr , "Paul McGann"@de .
+
+<http://rdf.freebase.com/ns/m.082xp__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0mzdz> ;
+        dbo:to      "2006"^^xsd:gYear .

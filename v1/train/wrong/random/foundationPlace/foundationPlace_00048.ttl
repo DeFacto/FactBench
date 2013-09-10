@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Ferrer__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Branson,_Missouri> ;
+        dbo:from             "1997"^^xsd:gYear ;
+        dbo:to               "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Branson,_Missouri>
+        rdfs:label     "Branson, Missouri"@en , "Branson, Missouri"@fr , "Branson, Missouri"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Branson_(Missouri)> , <http://de.dbpedia.org/resource/Branson_(Missouri)> ;
+        skos:altLabel  "Branson, MO"@fr , "Branson, MO"@de , "Branson, Missouri"@en , "Branson, Missouri"@fr , "Branson, Missouri"@de , "Branson"@en , "Branson"@fr , "Branson"@de , "Branson missouri"@en , "Branson missouri"@fr , "Branson missouri"@de , "LOCODE:USPLK"@en , "LOCODE:USPLK"@fr , "LOCODE:USPLK"@de , "Branson mo"@en , "Branson mo"@fr , "Branson mo"@de , "Branson, MO mSA"@en , "Branson, MO mSA"@fr , "Branson, MO mSA"@de , "Branson, MO"@en .
+
+<http://dbpedia.org/resource/David_Ferrer>
+        rdfs:label     "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Ferrer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Ferrer> , <http://fr.dbpedia.org/resource/David_Ferrer> ;
+        skos:altLabel  "Ferrer"@en , "Ferrer"@fr , "Ferrer"@de , "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de , "David Ferrer Ern"@en , "David Ferrer Ern Gaydamak"@en , "David Ferrer Ern Gaydamak"@fr , "David Ferrer Ern"@de , "David Ferrer Ern"@fr , "David Ferrer Ern Gaydamak"@de .

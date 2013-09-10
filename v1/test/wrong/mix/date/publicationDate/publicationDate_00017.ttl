@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0352zf>
+        rdfs:label     "Au tréfonds du ciel"@fr , "A Deepness in the Sky"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Au_tréfonds_du_ciel> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/A_Deepness_in_the_Sky> ;
+        skos:altLabel  "Un abismo en el cielo"@en , "Au trefonds du ciel"@fr , "Au tréfonds du ciel"@en , "Au tréfonds du ciel"@fr , "Taivaan Syvyydet"@en , "Qeng Ho"@en , "Qeng Ho"@fr , "A Deepness In The Sky"@en , "A Deepness In The Sky"@fr , "A Deepness in the Sky"@en , "A Deepness in the Sky"@fr , "A deepness in the sky"@en , "A deepness in the sky"@fr , "Eine Tiefe am Himmel"@en , "Au Tréfonds Du Ciel"@fr , "A Deepness In the Sky"@en , "Deepness in the sky"@en , "Deepness in the sky"@fr , "A Deepness In the Sky"@fr , "Au Trefonds Du Ciel"@fr .
+
+<http://rdf.freebase.com/ns/m.07zl1>
+        rdfs:label     "Vernor Vinge"@en , "Vernor Vinge"@fr , "Vernor Vinge"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07zl1__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Vernor_Vinge> , <http://de.dbpedia.org/resource/Vernor_Vinge> , <http://dbpedia.org/resource/Vernor_Vinge> ;
+        skos:altLabel  "Vernor Steffen Vinge"@en , "Vernor vinge"@en , "Across Realtime"@en , "Vernor vinge"@fr , "Across Realtime"@fr , "Vernor vinge"@de , "Across Realtime"@de , "Vernor"@en , "Vernor"@fr , "Vernor"@de , "Vinge"@en , "Vinge"@fr , "Vinge"@de , "Vernor Vinge"@en , "Vernor Vinge"@fr , "Vernor Vinge"@de , "Vernon Vinge"@en , "Vernon Vinge"@fr , "Vernon Vinge"@de .
+
+<http://rdf.freebase.com/ns/m.07zl1__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0352zf> ;
+        dbo:from    "1998"^^xsd:gYear ;
+        dbo:to      "1998"^^xsd:gYear .

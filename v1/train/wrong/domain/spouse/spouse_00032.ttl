@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j6dznw__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0p52s> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0j6dznw>
+        rdfs:label  "Mary Barto"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j6dznw__1> .
+
+<http://rdf.freebase.com/ns/m.0p52s>
+        rdfs:label     "Jamie Lynn Spears"@de , "Jamie Lynn Spears"@fr , "Jamie Lynn Spears"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jamie_Lynn_Spears> , <http://dbpedia.org/resource/Jamie_Lynn_Spears> , <http://fr.dbpedia.org/resource/Jamie_Lynn_Spears> ;
+        skos:altLabel  "Jamie lyn spears"@en , "Jamie lyn spears"@de , "Jamie lyn spears"@fr , "Casey Aldridge"@en , "Jamie-Lynn Spears"@en , "Jamie-Lynn Spears"@de , "Jamie-Lynn Spears"@fr , "Jamie Lynn Marie Spears"@en , "Casey Aldridge"@de , "Casey Aldridge"@fr , "Maddie Aldridge"@en , "Maddie Briann Aldridge"@fr , "Maddie Briann Aldridge"@en , "Jamie Lynn Marie Spears"@de , "Jamie Lynn Marie Spears"@fr , "Maddie Briann Aldridge"@de , "Maddie Aldridge"@de , "Maddie Aldridge"@fr , "Follow Me"@en , "Jamie lynne spears"@en , "Follow Me"@de , "Follow Me"@fr , "Jamie lynne spears"@de , "Jamie lynne spears"@fr , "Jamielynn Spears"@en , "Jamielynn Spears"@de , "Jamielynn Spears"@fr , "J Lynn"@en , "Spears"@de , "Spears"@fr , "Jamie Lynn Spears"@de , "Jamie Lynn Spears"@fr , "Jamie Lynn Spears"@en , "Jaime Spears"@en , "Jaime Spears"@de , "Jaime Spears"@fr , "Jamey Spears"@de , "Jamey Spears"@fr , "Jamey Spears"@en , "Jamie lynn spears baby"@en , "Jamie lynn spears baby"@de , "Jamie lynn spears baby"@fr , "Jamie Lynn"@en , "Jamie Lynn"@de , "Jamie Lynn"@fr , "Jamie Spears"@en , "Jamie Spears"@de , "Jamie Spears"@fr , "J.L. Spears"@en , "J.L. Spears"@de , "J.L. Spears"@fr .

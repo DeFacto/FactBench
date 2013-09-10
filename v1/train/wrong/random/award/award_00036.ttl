@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Waverly,_Minnesota>
+        rdfs:label     "Waverly, Minnesota"@en , "Waverly, Minnesota"@fr , "Waverly, Minnesota"@de ;
+        skos:altLabel  "Waverly"@en , "Waverly, Minnesota"@en , "Waverly, MN"@en .
+
+<http://dbpedia.org/resource/Warren_G._Harding__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Waverly,_Minnesota> ;
+        dbo:from             "1954"^^xsd:gYear ;
+        dbo:to               "1954"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Warren_G._Harding>
+        rdfs:label     "Warren G. Harding"@de , "Warren G. Harding"@fr , "Warren G. Harding"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Warren_G._Harding__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Warren_G._Harding> , <http://fr.dbpedia.org/resource/Warren_Gamaliel_Harding> ;
+        skos:altLabel  "President Harding"@en , "President Harding"@fr , "President Harding"@de , "Gamaliel"@fr , "Harding"@de , "Harding"@fr , "Harding"@en , "Warren G. Harding Inaugural Address"@en , "Warren G. Harding Inaugural Address"@de , "Warren G. Harding Inaugural Address"@fr , "Gamaliel Harding"@de , "Gamaliel Harding"@fr , "Gamaliel Harding"@en , "Harding Administration"@en , "Harding Administration"@de , "Harding Administration"@fr , "29th President of the United States"@en , "29th President of the United States"@de , "29th President of the United States"@fr , "Presidency of Warren G. Harding"@en , "Presidency of Warren G. Harding"@de , "Presidency of Warren G. Harding"@fr , "Harding Factor"@en , "Warren Gamaliel Harding"@en , "Warren Gamaliel Harding"@de , "Warren Gamaliel Harding"@fr , "Harding Factor"@de , "Harding Factor"@fr , "Warren G. Harding"@en , "Warren G. Harding"@de , "Warren G. Harding"@fr , "Warren G Harding"@en , "Warren G Harding"@de , "Warren G Harding"@fr , "Inaugural Address"@en , "Inaugural Address"@de , "Inaugural Address"@fr , "Warren Gameliel Harding"@de , "Warren Gameliel Harding"@fr , "Warren Gameliel Harding"@en , "Warren Harding"@de , "Warren Harding"@fr , "Warren Harding"@en .

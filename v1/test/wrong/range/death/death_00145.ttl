@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Carlin__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Burbank,_California> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Carlin>
+        rdfs:label     "George Carlin"@de , "George Carlin"@fr , "George Carlin"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Carlin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Carlin> , <http://de.dbpedia.org/resource/George_Carlin> ;
+        skos:altLabel  "George Carlin's"@de , "George Carlin's"@fr , "George Carlin's"@en , "Taskforce for Better Pancakes"@de , "Taskforce for Better Pancakes"@fr , "Taskforce for Better Pancakes"@en , "George Denis Patrick Carlin"@de , "George Denis Patrick Carlin"@fr , "George Denis Patrick Carlin"@en , "Frisbyterianism"@de , "Frisbyterianism"@fr , "Frisbyterianism"@en , "George Carlin"@de , "George Carlin"@fr , "George Carlin"@en , "Frissbeetarianism"@de , "Frissbeetarianism"@fr , "Frissbeetarianism"@en , "George Carlin discography"@de , "George Carlin discography"@fr , "George Carlin discography"@en , "Pussification"@de , "Pussification"@fr , "Pussification"@en , "George Dennis Carlin"@en , "George Dennis Carlin"@de , "George Dennis Carlin"@fr , "The George Carlin Show"@de , "George carlin"@de , "George carlin"@fr , "George carlin"@en , "Brenda Carlin"@en , "Brenda Carlin"@de , "Brenda Carlin"@fr , "Carlin"@de , "Carlin"@fr , "Carlin"@en .
+
+<http://dbpedia.org/resource/Burbank,_California>
+        rdfs:label     "Burbank, California"@en , "Burbank, California"@de , "Burbank, California"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Burbank_(Los_Angeles_County)> , <http://fr.dbpedia.org/resource/Burbank_(Californie)> ;
+        skos:altLabel  "Burbank, Calif"@de , "Burbank, Calif"@fr , "Burbank, Calif"@en , "Burbank, Los Angeles County, California"@en , "Burbank, Los Angeles County, California"@de , "Burbank, Los Angeles County, California"@fr , "Muir (John) Middle School"@de , "Muir (John) Middle School"@fr , "Muir (John) Middle School"@en , "Burbank, Calif."@de , "Burbank, Calif."@fr , "Burbank, Calif."@en , "Burbank, ca"@en , "Burbank, ca"@de , "Burbank, ca"@fr , "Burbank, Los Angeles County, CA"@de , "Burbank, Los Angeles County, CA"@fr , "Burbank, Los Angeles County, CA"@en , "Burbank, CA"@de , "Burbank, CA"@fr , "Burbank, CA"@en , "Burbank"@en , "Burbank"@de , "Burbank"@fr , "John Muir Middle School"@de , "John Muir Middle School"@fr , "John Muir Middle School"@en , "Burbank, Los Angeles, CA"@en , "Burbank, Los Angeles, CA"@fr , "Burbank, Los Angeles, CA"@de , "Burbank california"@de , "Burbank california"@fr , "Burbank california"@en , "Muir Middle School"@de , "Muir Middle School"@fr , "Muir Middle School"@en , "Burbank, California"@en , "Burbank, Los Angeles, California"@de , "Burbank, Los Angeles, California"@fr , "Burbank, Los Angeles, California"@en , "Burbank, California"@de , "Burbank, California"@fr .

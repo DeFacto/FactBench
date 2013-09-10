@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c75w>
+        rdfs:label     "Espoo"@en , "Espoo"@fr , "Espoo"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Espoo> , <http://fr.dbpedia.org/resource/Espoo> , <http://dbpedia.org/resource/Espoo> ;
+        skos:altLabel  "Espoo"@en , "Espoo"@fr , "Espoo"@de , "Espoo Finland"@en , "Espoo Finland"@fr , "Espoo Finland"@de , "Esbo"@en , "Esbo"@de , "Esbo"@fr , "Espoo, Finland"@en , "Espoo, Finland"@fr , "Espoo, Finland"@de .
+
+<http://dbpedia.org/resource/Benjamin_Harrison>
+        rdfs:label     "Benjamin Harrison"@en , "Benjamin Harrison"@fr , "Benjamin Harrison"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Benjamin_Harrison__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Benjamin_Harrison> , <http://de.dbpedia.org/resource/Benjamin_Harrison> ;
+        skos:altLabel  "Benjamin Harrison Administration"@en , "Benjamin Harrison Administration"@fr , "Benjamin Harrison Administration"@de , "Benjamin Harrison, VI"@en , "Benjamin Harrison, VI"@fr , "Benjamin Harrison, VI"@de , "Harrison, Benjamin"@en , "Harrison, Benjamin"@fr , "Harrison, Benjamin"@de , "23rd President of the United States"@en , "B. Harrison Administration"@en , "Benjamin Harrison VIII"@en , "Benjamin Harrison"@en , "Benjamin Harrison VIII"@fr , "Benjamin Harrison VIII"@de , "23rd President of the United States"@fr , "B. Harrison Administration"@fr , "Ben Harrison"@fr , "B. Harrison Administration"@de , "23rd President of the United States"@de , "Benjamin Harrison"@fr , "Benjamin Harrison"@de , "Harrison Administration"@en , "Harrison Administration"@fr , "Harrison Administration"@de , "Harrison"@fr , "Presidency of Benjamin Harrison"@en , "Presidency of Benjamin Harrison"@fr , "Presidency of Benjamin Harrison"@de , "Ben Harrison Law School"@en , "Ben Harrison Law School"@fr , "Ben Harrison Law School"@de .
+
+<http://dbpedia.org/resource/Benjamin_Harrison__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0c75w> ;
+        dbo:from    "1933"^^xsd:gYear ;
+        dbo:to      "1933"^^xsd:gYear .

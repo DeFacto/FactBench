@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Éamon_de_Valera__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.036hf4> ;
+        dbo:from             "2005"^^xsd:gYear ;
+        dbo:to               "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.036hf4>
+        rdfs:label     "Ryan Reynolds"@en , "Ryan Reynolds"@fr , "Ryan Reynolds"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ryan_Reynolds> , <http://dbpedia.org/resource/Ryan_Reynolds> , <http://de.dbpedia.org/resource/Ryan_Reynolds> ;
+        skos:altLabel  "Ryan Reynolds"@en , "Ryan Rodney Reynolds"@en , "Ryan R. Reynolds"@en , "Ryan Reynolds"@fr , "Ryan Rodney Reynolds"@de , "Ryan Reynolds"@de , "Ryan R. Reynolds"@fr , "Ryan R. Reynolds"@de , "Reynolds"@en , "Reynolds"@fr , "Champ Nightengale"@en , "Ryan"@en , "Ryan reynolds"@en , "Ryan reynolds"@de , "Ryan reynolds"@fr .
+
+<http://dbpedia.org/resource/Éamon_de_Valera>
+        rdfs:label     "Éamon de Valera"@en , "Éamon de Valera"@fr , "Éamon de Valera"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Éamon_de_Valera__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Éamon_de_Valera> , <http://fr.dbpedia.org/resource/Éamon_de_Valera> ;
+        skos:altLabel  "Valera"@fr , "Valera"@de , "Eamon de Valera"@de , "Eamon de Valera"@fr , "Éamon de Valera"@fr , "Éamon de Valera"@de , "Eamon De Valera"@fr , "Eamon de valera"@fr , "Éamon de valera"@fr .

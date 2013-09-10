@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bd7l0>
+        rdfs:label     "Leo Burmester"@en , "Leo Burmester"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Leo_Burmester> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Burmester"@en , "Leo Burmester"@en , "Leo Burmeister"@en .
+
+<http://rdf.freebase.com/ns/m.018thc__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0bd7l0> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018thc>
+        rdfs:label     "Eyvind Johnson"@en , "Eyvind Johnson"@fr , "Eyvind Johnson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.018thc__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Eyvind_Johnson> , <http://fr.dbpedia.org/resource/Eyvind_Johnson> , <http://de.dbpedia.org/resource/Eyvind_Johnson> ;
+        skos:altLabel  "Eyvind Olof Verne Johnson"@fr , "Eyvind Johnson"@en , "Eyvind Johnson"@fr , "Eyvind Johnson"@de , "Johnson"@fr , "Eyvind O. V. Johnson"@en , "Eyvind O. V. Johnson"@fr , "Eyvind O. V. Johnson"@de , "Eyvind Olof Verne Johnson"@en , "Eyvind Olof Verne Johnson"@de .

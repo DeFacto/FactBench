@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Akbar>
+        rdfs:label     "Akbar"@de , "Akbar"@fr , "Akbar"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Akbar__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Akbar> , <http://fr.dbpedia.org/resource/Akbar> ;
+        skos:altLabel  "Emperor Akbar"@en , "Jellaladin Muhammad Akbár"@en , "Emperor Akbar"@fr , "Jellaladin Muhammad Akbár"@fr , "Jellaladin Muhammad Akbár"@de , "Emperor Akbar"@de , "Jalaluddin Mohammad Akbar"@en , "Jalaluddin Mohammad Akbar"@fr , "Jalaluddin Mohammad Akbar"@de , "Akbar"@en , "Akbar"@fr , "Akbar"@de , "Jalaluddin Muhammad Akbar"@en , "Jalāl ud-Dīn Muhammad Akbar"@en , "Jalaluddin Muhammad Akbar"@fr , "Jalāl ud-Dīn Muhammad Akbar"@de , "Jalāl ud-Dīn Muhammad Akbar"@fr , "Jalaluddin Muhammad Akbar"@de , "Jellaladin Mahommed Akbar"@en , "Jellaladin Mahommed Akbar"@de , "Jellaladin Mahommed Akbar"@fr , "Jellaladin Muhammad Akbar the Great"@en , "Jellaladin Muhammad Akbar the Great"@fr , "Jellaladin Muhammad Akbar the Great"@de , "Galal ad-Din Abu'l-Fath Muhammad Akbar"@en , "Galal ad-Din Abu'l-Fath Muhammad Akbar"@fr , "Galal ad-Din Abu'l-Fath Muhammad Akbar"@de , "Akbar the Great"@en , "Akbar the Great"@de , "Akbar the Great"@fr , "Jar ad-Din Akbar"@en , "Jar ad-Din Akbar"@de , "Jar ad-Din Akbar"@fr , "Akbar I"@en , "Akbar I"@fr , "Akbar I"@de , "Akbar Schah"@de , "Akbar Shah"@en , "Akbár the Great"@en , "Akbar Shah"@fr , "Akbár the Great"@fr , "Akbár the Great"@de , "Akbar Shah"@de , "Akbar The Great"@en , "Akbar The Great"@fr , "Akbar The Great"@de , "Akbar Shah I"@en , "Akbar Shah I"@fr , "Akbar Shah I"@de , "Shahanshah Akbar-e-Azam"@en , "Shahanshah Akbar-e-Azam"@de , "Shahanshah Akbar-e-Azam"@fr , "Akbar der Große"@de , "Jalal ud-Din Muhammad Akbar"@en , "Jalal ud-Din Muhammad Akbar"@de , "Jalal ud-Din Muhammad Akbar"@fr , "Jalaluddin Muhammad Akbar The Great"@en , "Jalaluddin Muhammad Akbar The Great"@de , "Jalaluddin Muhammad Akbar The Great"@fr , "Akbar the great"@en , "Jalal-uddin Mohammad Akbar"@en , "Jellaladin Muhammad Akbár the Great"@en , "Jalal-uddin Mohammad Akbar"@fr , "Jalal-uddin Mohammad Akbar"@de , "Akbar the great"@fr , "Jellaladin Muhammad Akbár the Great"@de , "Akbar the great"@de , "Jellaladin Muhammad Akbár the Great"@fr , "Jellaladin Muhammad Akbar"@en , "Jellaladin Muhammad Akbar"@de , "Jellaladin Muhammad Akbar"@fr , "Jalal-ud-Din Akbar"@en , "Jalal-ud-Din Akbar"@de , "Jalal-ud-Din Akbar"@fr .
+
+<http://dbpedia.org/resource/Agra>
+        rdfs:label     "Agra"@en , "Agra"@fr , "Agra"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Agra> , <http://fr.dbpedia.org/resource/Āgrā> ;
+        skos:altLabel  "Āgrā"@fr , "Eklavya Sports Stadium"@en , "Eklavya Sports Stadium"@fr , "Eklavya Sports Stadium"@de , "Āgra"@en , "Āgra"@fr , "Āgra"@de , "Agra"@en , "Agra newspapers"@en , "Agra"@fr , "Agra newspapers"@fr , "Agra newspapers"@de , "Agra"@de , "Agra, Uttar Pradesh"@en , "Agra, Uttar Pradesh"@fr , "Agra, Uttar Pradesh"@de , "Agra, India"@en , "LOCODE:INAGR"@en , "Agra, India"@fr , "LOCODE:INAGR"@fr , "Agra, India"@de , "LOCODE:INAGR"@de , "Âgrâ"@fr .
+
+<http://dbpedia.org/resource/Akbar__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Agra> ;
+        dbo:from        "1596"^^xsd:gYear ;
+        dbo:to          "1596"^^xsd:gYear .

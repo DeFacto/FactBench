@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Niles,_Ohio>
+        rdfs:label     "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Niles_(Ohio)> , <http://fr.dbpedia.org/resource/Niles_(Ohio)> ;
+        skos:altLabel  "Niles, OH"@en , "Niles, Oh"@en , "LOCODE:USNLS"@en , "Niles, Oh"@fr , "Niles, Oh"@de , "LOCODE:USNLS"@fr , "LOCODE:USNLS"@de , "Niles, OH"@fr , "Niles, OH"@de , "Heatons Furnace"@de , "Mahoning Salt Springs"@de , "Niles City"@de , "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de , "Nilestown"@de , "Mahoning"@de , "Niles"@en , "Niles"@fr , "Niles"@de , "Mohoning"@de .
+
+<http://rdf.freebase.com/ns/m.0jx90__1>
+        dbo:from    "1943"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Niles,_Ohio> ;
+        dbo:to      "1943"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0jx90>
+        rdfs:label     "John T. Sladek"@fr , "John Thomas Sladek"@en , "John Sladek"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0jx90__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_T._Sladek> , <http://de.dbpedia.org/resource/John_Sladek> , <http://dbpedia.org/resource/John_Thomas_Sladek> ;
+        skos:altLabel  "Thom Demijohn"@en , "John T. Sladek"@en , "John T. Sladek"@fr , "John T. Sladek"@de , "Dale Johns"@en , "John Sladek"@fr , "John Sladek"@de , "Sladek"@fr , "Sladek"@de , "John Thomas Sladek"@de , "John Thomas Sladek"@fr .

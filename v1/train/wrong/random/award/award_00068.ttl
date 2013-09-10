@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0d331>
+        rdfs:label     "Potsdam"@en , "Potsdam"@fr , "Potsdam"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Potsdam> , <http://de.dbpedia.org/resource/Potsdam> , <http://fr.dbpedia.org/resource/Potsdam> ;
+        skos:altLabel  "Potsdam"@en , "Potsdam"@de , "Potsdam"@fr , "Poztupimi"@de , "LOCODE:DEPOT"@en , "LOCODE:DEPOT"@fr , "LOCODE:DEPOT"@de , "Postdam"@fr , "Potsdam, Germany"@en , "Potsdam, Germany"@fr , "Krampnitz"@de , "Potsdam, Germany"@de , "Potzdam"@fr .
+
+<http://dbpedia.org/resource/Dolly_Parton__1>
+        dbo:from      "1962"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.0d331> ;
+        dbo:to        "1962"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dolly_Parton>
+        rdfs:label     "Dolly Parton"@de , "Dolly Parton"@en , "Dolly Parton"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dolly_Parton__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dolly_Parton> , <http://fr.dbpedia.org/resource/Dolly_Parton> ;
+        skos:altLabel  "Dolly"@en , "Dolly"@fr , "Dolly"@de , "Floyd Parton"@en , "Floyd Parton"@fr , "Floyd Parton"@de , "Parton"@en , "Parton"@fr , "Parton"@de , "Dolly Rebecca Parton"@en , "Dolly Rebecca Parton"@fr , "Dolly Rebecca Parton"@de , "Dolly Parton"@en , "Dolly Parton"@fr , "Dolly Parton"@de , "Dolly Pardon"@en , "Dolly Pardon"@fr , "Dolly Pardon"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jean-Pierre_Raffarin__1>
+        dbo:from    "1993"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Pakistan> ;
+        dbo:to      "1996"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Jean-Pierre_Raffarin>
+        rdfs:label     "Jean-Pierre Raffarin"@en , "Jean-Pierre Raffarin"@fr , "Jean-Pierre Raffarin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jean-Pierre_Raffarin__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jean-Pierre_Raffarin> , <http://fr.dbpedia.org/resource/Jean-Pierre_Raffarin> ;
+        skos:altLabel  "Jean-Pierre Raffarin"@en , "Jean-Pierre Raffarin"@fr , "Jean-Pierre Raffarin"@de , "Raffarin"@en , "Raffarin"@fr , "Raffarin"@de , "Jean-pierre raffarin"@fr , "Jean Pierre Raffarin"@en , "Jean Pierre Raffarin"@fr , "Jean Pierre Raffarin"@de , "Jacqueline Raffarin"@fr .
+
+<http://dbpedia.org/resource/Pakistan>
+        rdfs:label     "Pakistan"@de , "Pakistan"@fr , "Pakistan"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pakistan> , <http://de.dbpedia.org/resource/Pakistan> ;
+        skos:altLabel  "Paquistao"@de , "Paquistão"@fr , "Paquistan"@de , "Islami Jumhuri-ye Pakistan"@de , "Pakistana"@de , "Paquistão"@de , "Paquistán"@en , "State of Pakistan"@en , "Islāmī Jumhūrī-ye Pākistān"@en , "The Islamic Republic of Pakistan"@en , "Bakistaan"@fr , "Bakistaan"@de , "Islamische Republik Pakistan"@de , "The Islamic Republic of Pakistan"@fr , "The Islamic Republic of Pakistan"@de , "Bakstaan"@en , "Pakistán"@en , "Bakistan"@en , "Paquistán"@fr , "Bakistan"@fr , "Bakistan"@de , "Pakistanais"@fr , "State of Pakistan"@fr , "Islāmī Jumhūrī-ye Pākistān"@fr , "Bakstaan"@fr , "Pakistán"@fr , "Pakistán"@de , "State of Pakistan"@de , "Bakstaan"@de , "Islāmī Jumhūrī-ye Pākistān"@de , "Paquistán"@de , "IROP"@fr , "IROP"@de , "Packistan"@en , "Packistan"@fr , "Packistan"@de , "Bajisitan"@en , "Westpakistan"@de , "Bajisitan"@fr , "Bajisitan"@de , "Islamic Republic Of Pakistan"@en , "Islamic Republic Of Pakistan"@fr , "Islamic Republic Of Pakistan"@de , "Pakistan, Islamic Republic of"@en , "Pakistan, Islamic Republic of"@fr , "Pakistan, Islamic Republic of"@de , "Islamic Republic of Pakistan"@en , "Etymology of Pakistan"@en , "Name of Pakistan"@en , "PAKISTAN"@en , "Mumlikat e Khudad e Pakistan"@en , "Pakistan's"@en , "PAKISTAN"@fr , "PAKISTAN"@de , "Islamic Republic of Pakistan"@fr , "Pakistan's"@fr , "Pakistan's"@de , "Name of Pakistan"@fr , "Mumlikat e Khudad e Pakistan"@fr , "Mumlikat e Khudad e Pakistan"@de , "Islamic Republic of Pakistan"@de , "Name of Pakistan"@de , "Etymology of Pakistan"@fr , "Etymology of Pakistan"@de , "République islamique du Pakistan"@fr , "Pakisatan"@en , "Pakisatan"@fr , "Pakisatan"@de , "Republic of Pakistan"@en , "Republic of Pakistan"@fr , "Republic of Pakistan"@de , "Religions au Pakistan"@fr , "Federation of pakistan"@en , "Federation of pakistan"@fr , "Federation of pakistan"@de , "ISO 3166-1:PK"@en , "ISO 3166-1:PK"@fr , "ISO 3166-1:PK"@de , "Islamic Pakistan"@en , "Islamic Pakistan"@fr , "Islamic Pakistan"@de , "Pakstan"@en , "Federation of Pakistan"@en , "Pakistanaise"@fr , "Federation of Pakistan"@fr , "Federation of Pakistan"@de , "Republique islamique du Pakistan"@fr , "Pakisthan"@en , "Pakistano"@en , "Pakistano"@fr , "Pakistano"@de , "Pakisthan"@fr , "Pakisthan"@de , "Pakstan"@fr , "Pakstan"@de , "Pakistan"@en , "Pakistan"@fr , "Pakistan"@de , "Pakistan."@en , "Pakistan."@fr , "Pakistan."@de , "Mumlikat-e-Khudad-e-Pakistan"@en , "Mumlikat-e-Khudad-e-Pakistan"@fr , "Mumlikat-e-Khudad-e-Pakistan"@de , "Pakistāna"@en , "Pakistāna"@fr , "Pakistāna"@de , "Pákistán"@en , "Pákistán"@fr , "Pákistán"@de , "I.R. of Pakistan"@en , "I.R. of Pakistan"@fr , "I.R. of Pakistan"@de , "Islami Jumhuri-ye Pakistan"@en , "Bakistaan"@en , "Paquistao"@en , "Paquistan"@en , "IROP"@en , "Pakistana"@en , "Paquistão"@en , "Islami Jumhuri-ye Pakistan"@fr , "Paquistao"@fr , "Paquistan"@fr , "Pakistana"@fr .

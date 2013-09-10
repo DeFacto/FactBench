@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.031twv>
+        rdfs:label     "The Absolute at Large"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Absolute_at_Large> ;
+        skos:altLabel  "The Absolute at Large"@en , "Tovarna na absolutno"@en , "The Factory of Absolute"@en , "Továrna na absolutno"@en , "The absolute at large"@en .
+
+<http://rdf.freebase.com/ns/m.0bx6b__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.031twv> ;
+        dbo:from    "1923"^^xsd:gYear ;
+        dbo:to      "1923"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0bx6b>
+        rdfs:label     "Karel Čapek"@en , "Karel Čapek"@fr , "Karel Čapek"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bx6b__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Karel_%C4%8Capek> ;
+        skos:altLabel  "Karel Capek"@en .

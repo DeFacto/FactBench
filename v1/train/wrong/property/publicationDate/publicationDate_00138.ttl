@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01x0zw>
+        rdfs:label     "Ian Stewart"@en , "Ian Stewart"@fr , "Ian Stewart"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01x0zw__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ian_Stewart_(mathématicien)> , <http://dbpedia.org/resource/Ian_Stewart_(mathematician)> , <http://de.dbpedia.org/resource/Ian_Stewart_(Mathematiker)> ;
+        skos:altLabel  "Ian Stewart"@en , "Ian Stewart"@fr , "Ian Stewart"@de , "Ian stewart"@de , "Ian stewart"@en , "Ian stewart"@fr .
+
+<http://rdf.freebase.com/ns/m.01x0zw__1>
+        dbo:from  "2000"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.026zbtc> ;
+        dbo:to    "2000"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.026zbtc>
+        rdfs:label  "Wheelers"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Wheelers_(novel)> .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01vhfj>
+        rdfs:label     "Nova Express"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Nova_Express> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Nova Express"@en .
+
+<http://rdf.freebase.com/ns/m.0821j__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01vhfj> ;
+        dbo:from    "1986"^^xsd:gYear ;
+        dbo:to      "1986"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0821j>
+        rdfs:label     "William Gibson"@de , "William Gibson"@fr , "William Gibson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0821j__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/William_Gibson> , <http://de.dbpedia.org/resource/William_Gibson> , <http://fr.dbpedia.org/resource/William_Gibson> ;
+        skos:altLabel  "William Gibson"@fr , "William Gibson"@en , "Arizona School for Boys"@en , "Arizona School for Boys"@de , "Arizona School for Boys"@fr , "Gibson"@en , "William gibson"@de , "Gibson"@de , "Gibson"@fr , "William gibson"@fr , "William gibson"@en , "GreatDismal"@de , "GreatDismal"@fr , "GreatDismal"@en , "William Ford Gibson"@de , "William Ford Gibson"@fr , "William Ford Gibson"@en , "William F. Gibson"@en , "Southern Arizona School"@de , "Southern Arizona School"@fr , "William F. Gibson"@de , "William F. Gibson"@fr , "Southern Arizona School"@en , "Southern Arizona School for Boys"@en , "Southern Arizona School for Boys"@de , "Southern Arizona School for Boys"@fr , "The X-Files episodes written by William Gibson"@de , "The X-Files episodes written by William Gibson"@fr , "The X-Files episodes written by William Gibson"@en , "William Gibson's \"The X-Files\" episodes"@en , "William Gibson's \"The X-Files\" episodes"@fr , "William Gibson's \"The X-Files\" episodes"@de , "George Wythe High School"@de , "Pines Elementary School"@de , "Pines Elementary School"@fr , "Pines Elementary School"@en , "George Wythe High School"@fr , "George Wythe High School"@en , "Garage Kubrick"@en , "Garage Kubrick"@de , "Garage Kubrick"@fr , "William Gibson"@de .

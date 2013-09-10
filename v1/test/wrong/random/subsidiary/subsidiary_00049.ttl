@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Raymond_Poincaré__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03rk0> ;
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:to      "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03rk0>
+        rdfs:label     "Indien"@de , "India"@en , "Inde"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/India> , <http://fr.dbpedia.org/resource/Inde> , <http://de.dbpedia.org/resource/Indien> ;
+        skos:altLabel  "India."@en , "Bharat Ganarajya"@en , "Bharat Ganarajya"@de , "Indische Union"@de , "Bharat Ganarajya"@fr , "India."@fr , "India."@de , "Some indian facts"@en , "Some indian facts"@fr , "Some indian facts"@de , "Bhart"@en , "Bhart"@fr , "Bhart"@de , "Origine du nom de l'inde"@fr , "Indea"@en , "Indea"@fr , "Republique d'Inde"@fr , "Indea"@de , "Indien"@de , "Bharat"@en , "Yin du"@en , "Republique de l'Inde"@fr , "Yin du"@fr , "Yin du"@de , "Bhārat Gaṇarājya"@en , "Origine du nom de l'Inde"@fr , "Bhārat Gaṇarājya"@de , "Bhārat Gaṇarājya"@fr , "Ndia"@en , "ISO 3166-1:IN"@en , "Hindustan"@en , "Ndia"@fr , "ISO 3166-1:IN"@de , "ISO 3166-1:IN"@fr , "Ndia"@de , "Indya"@en , "INDIA"@en , "INDIA"@fr , "INDIA"@de , "India proper"@en , "Indya"@fr , "Indya"@de , "India proper"@fr , "India proper"@de , "Tenjikukoku"@en , "Indian Republic"@en , "Tenjikukoku"@fr , "Indian Republic"@fr , "Indian Republic"@de , "Tenjikukoku"@de , "India's"@en , "India's"@fr , "India's"@de , "Hindio"@en , "The Republic of India"@en , "Hindio"@fr , "The Republic of India"@fr , "Hindio"@de , "The Republic of India"@de , "Inde"@fr , "Les Indes"@en , "Les Indes"@de , "Les Indes"@fr , "Hind"@en , "Hind"@fr , "Hind"@de , "Etymology of India"@en , "Etymology of India"@fr , "Etymology of India"@de , "Republic Of India"@en , "Republic Of India"@fr , "Republic Of India"@de , "Religion in Indien"@de , "Indian republic"@en , "Indian republic"@fr , "Indian republic"@de , "République de l'Inde"@fr , "Republic of India"@en , "Republic of India"@fr , "Republic of India"@de , "Republic of india"@en , "Al Hind"@en , "Republic of india"@fr , "Republic of india"@de , "Al-Hind"@en , "Hindistan"@en , "République d'Inde"@fr , "Al-Hind"@fr , "Hindistan"@fr , "Hindistan"@de , "Al-Hind"@de , "Al Hind"@fr , "Union de l'Inde"@fr , "Al Hind"@de , "Indischer"@de , "Bharat Ganrajya"@en , "Republik Indien"@de , "India"@en , "India"@fr , "India"@de .
+
+<http://dbpedia.org/resource/Raymond_Poincaré>
+        rdfs:label     "Raymond Poincaré"@en , "Raymond Poincaré"@fr , "Raymond Poincaré"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Raymond_Poincaré__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Raymond_Poincaré> , <http://fr.dbpedia.org/resource/Raymond_Poincaré> ;
+        skos:altLabel  "Poincare"@de , "Poincare"@fr , "Raymond Poincaré"@fr , "Raymond Poincaré"@de , "Raymond Poincare"@fr , "Poincaré"@fr , "Raymond Poincare"@de , "Poincaré"@de .

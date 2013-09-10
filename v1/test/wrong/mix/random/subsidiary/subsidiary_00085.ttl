@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_2t27>
+        rdfs:label  "Collabra Software"@en .
+
+<http://rdf.freebase.com/ns/m.0mzyq>
+        rdfs:label     "Nils Gustaf Dalén"@en , "Gustaf Dalén"@fr , "Gustaf Dalén"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0mzyq__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gustaf_Dal%C3%A9n> ;
+        skos:altLabel  "Gustaf Dalen"@en .
+
+<http://rdf.freebase.com/ns/m.0mzyq__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02_2t27> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2006"^^xsd:gYear .

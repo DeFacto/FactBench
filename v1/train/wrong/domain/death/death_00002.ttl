@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dallas>
+        rdfs:label     "Dallas"@de , "Dallas"@fr , "Dallas"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dallas> , <http://de.dbpedia.org/resource/Dallas> ;
+        skos:altLabel  "Dallas, texas"@en , "Dallas, texas"@fr , "Dallas, texas"@de , "Dallas, USA"@en , "Dallas, USA"@fr , "Dallas, USA"@de , "Dallas, United States"@en , "Dallas, United States"@fr , "Dallas, United States"@de , "Dallas, tx"@en , "Dallas, tx"@fr , "Dallas, tx"@de , "Dallas,Texas"@en , "Dallas,Texas"@fr , "Dallas,Texas"@de , "Dallas, Tex."@en , "Dallas, Tex."@de , "Dallas, Tex."@fr , "Dallas, Texas, U.S."@en , "Dallas, Texas, U.S."@de , "Dallas, Texas, U.S."@fr , "DALLAS"@en , "DALLAS"@fr , "DALLAS"@de , "Dallas texas"@en , "Dallas texas"@fr , "Dallas texas"@de , "Dallas Texas"@en , "Dallas, Texas, U.S.A."@en , "Dallas, Texas, U.S.A."@fr , "Dallas, Texas, U.S.A."@de , "Big D"@de , "Big 'D"@de , "Dallas Texas"@fr , "Dallas Texas"@de , "History of Dallas, TX"@en , "Dallas, Texas, United States of America"@en , "History of Dallas, TX"@fr , "Dallas, Texas, United States of America"@fr , "Dallas, Texas, United States of America"@de , "History of Dallas, TX"@de , "Draft"@en , "Draft"@de , "Draft"@fr , "Dallas"@en , "Dallas"@fr , "Dallas"@de , "City of Dallas"@en , "Dallas Fire Department"@en , "City of Dallas"@fr , "Dallas Fire Department"@de , "City of Dallas"@de , "Dallas Fire Department"@fr , "LOCODE:USDAL"@en , "LOCODE:USDAL"@de , "LOCODE:USDAL"@fr , "The Big D"@en , "The Big D"@de , "The Big D"@fr , "Dallas, TX"@en , "Dallas, TX"@fr , "Dallas, TX"@de , "City of Dallas, Texas"@en , "City of Dallas, Texas"@de , "City of Dallas, Texas"@fr , "Dallas TX"@en , "Dalls"@en , "Dallas TX"@fr , "Dalls"@de , "Dalls"@fr , "Dallas TX"@de , "Facts on Dallas, TX"@en , "Facts on Dallas, TX"@fr , "Facts on Dallas, TX"@de , "Dallas, Texas"@en , "Dallas, Texas"@fr , "Dallas, Texas"@de , "Dallas, Texas, USA"@en , "Dallas, Texas, USA"@fr , "Dallas, Texas, USA"@de .
+
+<http://dbpedia.org/resource/Kurt_Aland>
+        rdfs:label     "Kurt Aland"@de , "Kurt Aland"@en , "Kurt Aland"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kurt_Aland__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kurt_Aland> , <http://fr.dbpedia.org/resource/Kurt_Aland> ;
+        skos:altLabel  "Kurt Aland"@en , "Kurt Aland"@fr , "Kurt Aland"@de , "Aland"@en , "Aland"@fr , "Aland"@de .
+
+<http://dbpedia.org/resource/Kurt_Aland__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Dallas> ;
+        dbo:from        "1963"^^xsd:gYear ;
+        dbo:to          "1963"^^xsd:gYear .

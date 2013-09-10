@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.043tz43>
+        rdfs:label     "Paulina Gálvez"@en , "Paulina Gálvez"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Paulina_G%C3%A1lvez_(actress)> ;
+        skos:altLabel  "Paulina Galvez"@en , "Paulina Esparza"@en .
+
+<http://rdf.freebase.com/ns/m.027rkcs__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.043tz43> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.027rkcs>
+        rdfs:label     "Alexis Valdés"@en , "Alexis Valdés"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027rkcs__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Alexis_Vald%C3%A9s> ;
+        skos:altLabel  "Alexis Valdes"@en .

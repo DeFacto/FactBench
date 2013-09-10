@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hamburg>
+        rdfs:label     "Hamburg"@en , "Hamburg"@de , "Hamburg"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hambourg> , <http://de.dbpedia.org/resource/Hamburg> ;
+        skos:altLabel  "DEHAM"@fr , "DEHAM"@en , "DEHAM"@de , "Free and Hanseatic City of Hamburg"@fr , "Free and Hanseatic City of Hamburg"@en , "Free and Hanseatic City of Hamburg"@de , "DE-HH"@de , "Freie Hansestadt Hamburg"@de , "Ville libre et hanséatique de Hambourg"@fr , "Hamburg"@fr , "Hamburg"@en , "Hamburg"@de , "Freie Stadt Hamburg"@de , "Free un Hansestadt Hamborg"@fr , "Free un Hansestadt Hamborg"@en , "Free un Hansestadt Hamborg"@de , "Hambourg"@fr , "Hambourg"@de , "Hambourg"@en , "Hanseatic city of Hamburg"@fr , "Hanseatic city of Hamburg"@en , "Hanseatic city of Hamburg"@de , "Cheeseburg"@fr , "Cheeseburg"@de , "Cheeseburg"@en , "Ville libre et hanseatique de Hambourg"@fr , "Freie und Hansestadt Hamburg"@fr , "Freie und Hansestadt Hamburg"@en , "Freie und Hansestadt Hamburg"@de , "Kaseburg"@fr , "Kaseburg"@en , "Kaseburg"@de , "Free City of Hamburg"@fr , "Hamborg"@fr , "Hamborg"@en , "Free City of Hamburg"@en , "Free City of Hamburg"@de , "Hamborg"@de , "Hamburg, Germany"@fr , "Hamburg, Germany"@en , "Hamburg, Germany"@de , "Hansestadt Hamburg"@de , "Hamburch"@de , "Käseburg"@fr , "Käseburg"@en , "Käseburg"@de , "Tor zur Welt"@de , "Ḥamburg"@fr , "Ḥamburg"@en , "Ḥamburg"@de , "LOCODE:DEHAM"@fr , "LOCODE:DEHAM"@en , "LOCODE:DEHAM"@de .
+
+<http://dbpedia.org/resource/Heinrich_Gustav_Reichenbach>
+        rdfs:label     "Heinrich Gustav Reichenbach"@en , "Heinrich Gustav Reichenbach"@fr , "Heinrich Gustav Reichenbach"@de ;
+        dbo:death      <http://dbpedia.org/resource/Heinrich_Gustav_Reichenbach__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Heinrich_Gustav_Reichenbach> , <http://de.dbpedia.org/resource/Heinrich_Gustav_Reichenbach> ;
+        skos:altLabel  "Heinrich Gustav Reichenbach"@de , "Heinrich Gustav Reichenbach"@en , "Heinrich Gustav Reichenbach filius"@de , "H.G. Reichenbach"@fr , "Reichenbach"@fr , "Reichenbach"@de , "Reichenbach"@en , "Rchb. f."@fr , "H.G. Reichenbach"@de , "Rchb. f."@de , "H.G. Reichenbach"@en , "Rchb. f."@en , "Rchb.f."@fr , "Rchb.f"@fr , "Rchb.f."@de , "Rchb.f"@de , "Rchb.f."@en , "Rchb.f"@en , "Rchb f"@fr , "Rchb f"@de , "Rchb f"@en , "Heinrich Gustav Reichenbach"@fr .
+
+<http://dbpedia.org/resource/Heinrich_Gustav_Reichenbach__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hamburg> ;
+        dbo:from        "1889-05-06"^^xsd:date ;
+        dbo:to          "1889-05-06"^^xsd:date .

@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05h0n2>
+        rdfs:label     "Bethany Joy Galeotti"@de , "Bethany Joy Galeotti"@fr , "Bethany Joy Lenz-Galeotti"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Bethany_Joy_Lenz> , <http://de.dbpedia.org/resource/Bethany_Joy_Galeotti> , <http://fr.dbpedia.org/resource/Bethany_Joy_Lenz> ;
+        skos:altLabel  "Brittany joy lenz"@fr , "Joypiter"@en , "Bethany Joy Lafferty"@en , "Bethany Joy Lafferty"@de , "Bethany Joy Lafferty"@fr , "Bethany Joy Lenz"@en , "Bethany Joy Lenz"@de , "Bethany Joy Lenz"@fr , "Bethany Galeotti"@en , "Lenz, Bethany Joy"@en , "Brittany Joy Lenz"@fr , "Lenz"@fr , "Lenz"@en , "Lenz"@de , "Joie Lenz"@en , "Joie Lenz"@de , "Joie Lenz"@fr , "Joy"@en , "Galeotti"@en , "Galeotti"@de , "Galeotti"@fr , "Bethany Joy Lenz-Galeotti"@en , "Bethany Joy Lenz-Galeotti"@de , "Bethany Joy Lenz-Galeotti"@fr , "bethany_joy_lenz"@en , "Bethany Joy"@en , "Bethany"@en , "Bethany"@de , "Bethany"@fr , "Bethany Joy Galeotti-Lafferty"@en , "Bethany Joy Galeotti-Lafferty"@de , "Bethany Joy Galeotti-Lafferty"@fr , "Bethany Joy Galeotti"@en , "Bethany Joy Galeotti"@de , "Bethany Joy Galeotti"@fr .
+
+<http://rdf.freebase.com/ns/m.0j2gxlk>
+        rdfs:label    "Michael Galeotti"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.0j2gxlk__106> .
+
+<http://rdf.freebase.com/ns/m.0j2gxlk__106>
+        dbo:from    "2005-12-31"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05h0n2> ;
+        dbo:to      "2012"^^xsd:gYear .

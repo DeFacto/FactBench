@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02h6mfb>
+        rdfs:label  "Shiva"@en .
+
+<http://rdf.freebase.com/ns/m.03s7h__48>
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02h6mfb> ;
+        dbo:to          "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03s7h>
+        rdfs:label       "Intel"@de , "Intel"@fr , "Intel Corporation"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.03s7h__48> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Intel> , <http://dbpedia.org/resource/Intel> , <http://de.dbpedia.org/resource/Intel> ;
+        skos:altLabel    "Integrated Electronics Corp."@fr , "Intel SSD"@fr , "Integrated Electronics Corp."@de , "Intel SSD"@en , "Intel SSD"@de , "Integrated Electronics Corp."@en , "Intel MPI"@fr , "Intel Corp"@fr , "Intel MPI"@de , "Intel MPI"@en , "INTC"@fr , "Intel Corp"@de , "Intel Corp"@en , "INTC"@en , "INTC"@de , "Open Source Technology Center"@fr , "Open Source Technology Center"@de , "Open Source Technology Center"@en , "Intel motherboard"@fr , "Intel motherboard"@de , "Intel motherboard"@en , "Intel corporation"@fr , "Intel-based system"@fr , "Intel corporation"@de , "Intel-based system"@de , "Intel-based system"@en , "Intel corporation"@en , "GenuineIntel"@de , "Intel Corp."@fr , "Intel Corp."@de , "Intel Corp."@en , "Intel.com"@fr , "Intel.com"@de , "Intel.com"@en , "Xircom"@de , "Leap ahead"@fr , "Leap ahead"@de , "Leap ahead"@en , "Intc"@fr , "Intel inside"@fr , "Intc"@de , "Intel inside"@en , "Intel inside"@de , "Intc"@en , "Intel Capital"@fr , "Intel Capital"@de , "Intel Capital"@en , "Staff Intel"@en , "Intel chips"@fr , "Intel chips"@de , "Corp Intel"@en , "Intel chips"@en , "Intel Corporation"@fr , "Intel Corporation"@de , "Intel Corporation"@en , "Intel Corpoartion"@fr , "Intel Corpoartion"@de , "Intel Corpoartion"@en , "Chipzilla"@fr , "Chipzilla"@de , "Chipzilla"@en , "Intel Inside"@fr , "Intel Inside"@en , "Intel Inside"@de , "Intel based"@fr , "Intel based"@en , "Intel based"@de , "Intel E7205"@fr , "Intel"@fr , "Intel"@en , "Intel"@de .

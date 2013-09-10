@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nelly_Furtado>
+        rdfs:label     "Nelly Furtado"@de , "Nelly Furtado"@fr , "Nelly Furtado"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nelly_Furtado__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nelly_Furtado> , <http://fr.dbpedia.org/resource/Nelly_Furtado> ;
+        skos:altLabel  "Conozcame"@fr , "Nelstar"@de , "Nelstar"@fr , "Nelstar"@en , "Nelly Furtodo"@de , "Nelly Furtodo"@fr , "Nelly Furtodo"@en , "Nelstar*"@de , "Nelstar*"@fr , "Nelstar*"@en , "Nellie Furtado"@de , "Nellie Furtado"@fr , "Nellie Furtado"@en , "Nelly Kim Furtado"@de , "Nelly Kim Furtado"@fr , "Nelly Kim Furtado"@en , "Nelly Furtado's first Spanish language album"@de , "Nelly Furtado"@de , "Nelly Furtado"@fr , "Nelly Furtado"@en , "Nelly Furtado's first Spanish language album"@fr , "Nelly Furtado's first Spanish language album"@en , "Furtado, Nelly"@en , "Nelly"@en , "Nelly"@de , "Nelly"@fr , "Furtado, Nelly"@de , "Furtado, Nelly"@fr , "Furtado"@de , "Furtado"@fr , "Furtado"@en , "Nelly furtado"@de , "Nelly furtado"@fr , "Nelly furtado"@en , "Nelly Furtado's First Spanish Album"@de , "Nelly Furtado's First Spanish Album"@fr , "Nelly Furtado's First Spanish Album"@en .
+
+<http://dbpedia.org/resource/Nelly_Furtado__1>
+        dbo:from    "1706"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Barranquilla> ;
+        dbo:to      "1706"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Barranquilla>
+        rdfs:label     "Barranquilla"@de , "Barranquilla"@fr , "Barranquilla"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Barranquilla> , <http://fr.dbpedia.org/resource/Barranquilla> ;
+        skos:altLabel  "Barranquilla, Colombia"@en , "Barranquilla, Colombia"@de , "Barranquilla, Colombia"@fr , "Trinidad"@en , "Colegio San José Barranquilla"@en , "Trinidad"@de , "Trinidad"@fr , "Colegio San José Barranquilla"@de , "Colegio San José Barranquilla"@fr , "Barranquillia"@en , "Barranquillia"@de , "Barranquillia"@fr , "Barranquilla"@en , "Barranquilla"@de , "Barranquilla"@fr , "Colegio San Jose Barranquilla"@en , "Colegio San Jose Barranquilla"@de , "Colegio San Jose Barranquilla"@fr , "Barranquilla, Atlántico"@de , "Barranquilla, Atlántico"@fr , "Barranquilla, Atlántico"@en , "Barranquillia, Colombia"@en , "Barranquillia, Colombia"@de , "Barranquillia, Colombia"@fr , "Barranquillera"@en , "Barranquillera"@de , "Barranquillera"@fr , "Baranquilla"@en , "Baranquilla"@de , "Baranquilla"@fr , "Aéroport Ernesto Cortissoz"@fr , "Barranquilla, Atlantico, Colombia"@en , "Barranquilla, Atlantico, Colombia"@de , "Barranquilla, Atlantico, Colombia"@fr , "Barranquila"@en , "Barranquila"@de , "Barranquila"@fr , "Barranquilla, Atlantico"@en , "Barranquilla, Atlantico"@de , "Barranquilla, Atlantico"@fr , "Aeroport Ernesto Cortissoz"@fr , "Trinidad, Colombia"@de , "Trinidad, Colombia"@fr , "Trinidad, Colombia"@en , "Baranquila"@en , "Baranquila"@de , "Baranquila"@fr , "Barranquilla, Atlántico, Colombia"@de , "Barranquilla, Atlántico, Colombia"@fr , "Barranquilla, Atlántico, Colombia"@en .

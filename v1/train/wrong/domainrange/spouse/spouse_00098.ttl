@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02wk4d__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.038ncy> ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.038ncy>
+        rdfs:label     "Charlene Choi"@fr , "Charlene Choi"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Charlene_Choi> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Charlene_Choi> ;
+        skos:altLabel  "Charlene Choi Cheuk-Yin"@en , "Charlene Choi Cheuk-Yin"@fr , "Choi Charlene Cheuk-Yi"@en , "Ah Sa"@en , "Ah Sa"@fr , "Cai Zhuoyan"@en , "蔡卓妍"@en , "Cai Zhuoyan"@fr , "Cheuk-yin Choi"@en , "Charlene Choi"@en , "Charlene Choi"@fr , "Cheuk Yin Choi"@en , "Coi3 Coek3-jin4"@en , "Charlene Choi Cheuk Yin"@en , "Sasa"@en , "Choi Cheuk Yin"@en , "Cài Zhuóyán"@en .
+
+<http://rdf.freebase.com/ns/m.02wk4d>
+        rdfs:label     "Nicholas Tse"@de , "Nicholas Tse"@en , "Nicholas Tse"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02wk4d__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Nicholas_Tse> , <http://fr.dbpedia.org/resource/Nicholas_Tse> , <http://de.dbpedia.org/resource/Nicholas_Tse> ;
+        skos:altLabel  "Xie T'ingfeng"@en , "Nic Tse"@en , "Xiè Tíngfēng"@fr , "Xiè Tíngfēng"@de , "Nicholas Tse Ting-Fung"@en , "Ting-Fung Tse Nicholas"@en , "謝霆鋒"@en , "Ting-Fung Tse"@en , "Tse Nicholas"@fr , "Tse Nicholas"@de , "Xie Tingfeng"@fr , "Xie Tingfeng"@de , "谢霆锋"@en , "Tingfeng Xie"@en , "Nicolas Tse"@de , "Nicolas Tse"@fr , "Nic"@en , "Nicholas Tse"@fr , "Nicholas Tse"@de , "Tse, Nicholas"@en , "Tse Ting-Fung"@en , "Lemon"@en .

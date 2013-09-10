@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04t7hqd__148>
+        dbo:from    "2003-05-03"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01rrd4> ;
+        dbo:to      "2006-10-06"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.04t7hqd>
+        rdfs:label     "Melissa McKnight"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.04t7hqd__148> ;
+        skos:altLabel  "Melissa LeBlanc"@en , "Missy McKnight"@en .
+
+<http://rdf.freebase.com/ns/m.01rrd4>
+        rdfs:label     "Matt LeBlanc"@en , "Matt LeBlanc"@de , "Matt LeBlanc"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Matt_LeBlanc> , <http://fr.dbpedia.org/resource/Matt_LeBlanc> , <http://de.dbpedia.org/resource/Matt_LeBlanc> ;
+        skos:altLabel  "Matthew Steven \"Matt\" LeBlanc"@fr , "Matthew Steven \"Matt\" LeBlanc"@de , "Matthew Steven \"Matt\" LeBlanc"@en , "Matt Le Blanc"@fr , "Matt"@fr , "Matthew David Leblanc"@fr , "Matt Le Blanc"@de , "Matthew David Leblanc"@de , "Matt Le Blanc"@en , "Matthew David Leblanc"@en , "Leblanc"@fr , "Leblanc"@de , "Leblanc"@en , "Matt Leblanc"@fr , "Matt Leblanc"@de , "Matt Leblanc"@en , "Matty"@en , "Matt LeBlanc"@fr , "Matt LeBlanc"@de , "Matt LeBlanc"@en , "Matthew LeBlanc"@fr , "Matthew LeBlanc"@de , "Matthew Le Blanc"@en , "Matt LeBlanc Arquette"@en , "Matthew LeBlanc"@en , "Matthew Steven LeBlanc"@fr , "Matthew Steven LeBlanc"@de , "Matthew Steven LeBlanc"@en .

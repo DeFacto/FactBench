@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dr._Dre>
+        rdfs:label     "Dr. Dre"@de , "Dr. Dre"@fr , "Dr. Dre"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dr._Dre__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dr._Dre> , <http://de.dbpedia.org/resource/Dr._Dre> ;
+        skos:altLabel  "Dr. drei"@de , "Dr. drei"@fr , "André Romel Young"@de , "André Romel Young"@fr , "André Young"@en , "André Young"@de , "André Young"@fr , "André"@en , "André Romell Young"@en , "André Romell Young"@de , "André Romell Young"@fr , "Dr.Dre"@en , "Dr.Dre"@de , "André"@de , "André"@fr , "Dr.Dre"@fr , "Andre Romel Young"@en , "Andre Romel Young"@de , "Andre Romel Young"@fr , "Andre Romelle Young"@en , "Andre Romelle Young"@de , "Andre Romelle Young"@fr , "Dr dre"@en , "Dr dre"@de , "Dr dre"@fr , "Dr Dre"@en , "Dr Dre"@fr , "Dr Dre"@de , "Andre Romell Young"@en , "Andre Romell Young"@de , "Andre Romell Young"@fr , "Dr. Dré"@en , "Dr. Dré"@de , "Dr. Dré"@fr , "Andre"@en , "Andre"@de , "Andre"@fr , "Andre Young"@en , "Andre Young"@fr , "Andre Young"@de , "Dr. Allen DuMont"@en , "Dr. Allen DuMont"@de , "Dr. Allen DuMont"@fr , "List of Dr Dre awards and nominations"@en , "List of Dr Dre awards and nominations"@de , "List of Dr Dre awards and nominations"@fr , "Dr. Dre"@en , "Dr. Dre"@de , "Dr. Dre"@fr , "Exclusive"@en , "Exclusive"@de , "Exclusive"@fr , "Dr. D"@en , "Dr. D"@de , "Dr. D"@fr , "André Romel Young"@en , "Dr. drei"@en .
+
+<http://dbpedia.org/resource/Dr._Dre__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Newport_News,_Virginia> ;
+        dbo:from        "1913"^^xsd:gYear ;
+        dbo:to          "1913"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Newport_News,_Virginia>
+        rdfs:label     "Newport News, Virginia"@de , "Newport News, Virginia"@fr , "Newport News, Virginia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Newport_News_(Virginie)> , <http://de.dbpedia.org/resource/Newport_News> ;
+        skos:altLabel  "Newport News Waterworks"@de , "Newport News Waterworks"@fr , "Newport News Waterworks"@en , "Newport news, va"@de , "Newport news, va"@fr , "Newport news, va"@en , "Downtown Newport News, Virginia"@de , "Downtown Newport News, Virginia"@fr , "Downtown Newport News, Virginia"@en , "Bad News, VA"@de , "Bad News, VA"@fr , "Bad News, VA"@en , "Newport News, VA"@de , "Newport News, VA"@fr , "Newport News, VA"@en , "LOCODE:USNNS"@de , "Newport News, Va."@de , "Newport News, Va."@fr , "Newport News, Va."@en , "LOCODE:USNNS"@fr , "LOCODE:USNNS"@en , "City of Newport News, Virginia"@de , "City of Newport News, Virginia"@fr , "City of Newport News, Virginia"@en , "Newport News, Virginia"@en , "Newport News, Virginia"@de , "Newport News, Virginia"@fr , "Bad News, Virginia"@de , "Bad News, Virginia"@fr , "Bad News, Virginia"@en , "Newport News"@en , "Newport News"@de , "Newport News"@fr , "Newportnews"@de , "Newportnews"@fr , "Newportnews"@en , "Newport"@de , "Newport"@fr , "Newport"@en .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03sr18__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0md8t> ;
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:to      "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0md8t>
+        rdfs:label  "The Road to Mars"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Road_to_Mars> .
+
+<http://rdf.freebase.com/ns/m.03sr18>
+        rdfs:label     "Alan E. Nourse"@en , "Alan E. Nourse"@fr , "Alan E. Nourse"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03sr18__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Alan_E._Nourse> , <http://fr.dbpedia.org/resource/Alan_E._Nourse> , <http://dbpedia.org/resource/Alan_E._Nourse> ;
+        skos:altLabel  "Alan Edward Nourse"@en , "Alan Edward Nourse"@fr , "Alan Edward Nourse"@de , "Alan E. Nourse"@fr , "Al Edwards"@fr , "Alan E. Nourse"@de , "Alan Nourse"@en , "Alan Nourse"@fr , "Alan Nourse"@de , "Dr. Alan E. Nourse"@en , "Nourse"@fr , "Nourse"@de , "Doctor X"@en , "Doctor X"@fr .

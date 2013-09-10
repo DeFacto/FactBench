@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cape_Verde>
+        rdfs:label     "Cape Verde"@de , "Cape Verde"@fr , "Cape Verde"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cap-Vert> , <http://de.dbpedia.org/resource/Kap_Verde> ;
+        skos:altLabel  "Cape de Verde"@en , "Cape de Verde Islands"@en , "Cape de Verde Islands"@fr , "Cape de Verde Islands"@de , "Cape de Verde"@fr , "Cape de Verde"@de , "Republic of Cabo Verde"@en , "Republic of Cabo Verde"@fr , "Republic of Cabo Verde"@de , "Ile du Cap Vert"@fr , "Cape verde islands"@en , "Cape verde islands"@fr , "Capverdien"@fr , "Kap Verden"@de , "Cape verde islands"@de , "Cape Verde islands"@en , "Cape Verde islands"@de , "Cape Verde islands"@fr , "Republik Kap Verde"@de , "Republic of Cape Verde"@en , "Republic of Cape Verde"@fr , "Republic of Cape Verde"@de , "Cap Verde"@en , "Cap Verde"@fr , "Cap Verde"@de , "Cap vert"@fr , "Cape Verde"@en , "Cape Verde"@fr , "Cape Verde"@de , "Iles du Cap-Vert"@fr , "Cap-vert"@fr , "Cap-Vert"@fr , "Cape Verdian"@en , "Cape Verdian"@de , "Cape Verdian"@fr , "ISO 3166-1:CV"@en , "Cape Verde Archipelago"@en , "ISO 3166-1:CV"@fr , "Cape Verde Archipelago"@fr , "Îles du Cap-Vert"@fr , "ISO 3166-1:CV"@de , "Cape Verde Archipelago"@de , "Cabo"@en , "Cabo"@fr , "Cabo"@de , "Kabu Verdi"@en , "Kabu Verdi"@fr , "Kabu Verdi"@de , "République du Cap-Vert"@fr , "Cabo Verde"@en , "Cabo Verde"@de , "Cabo Verde"@fr , "Kapverdisch"@de , "Cape Verdes"@en , "Cape Verde Islands"@en , "Kap Verde"@en , "Kap Verde"@fr , "Kap Verde"@de , "Cape verde"@en , "Cape de Verd Islands"@en , "Cape Verdes"@fr , "Cape Verde Islands"@fr , "Cape verde"@fr , "Cape Verdes"@de , "Cape de Verd Islands"@de , "Cape de Verd Islands"@fr , "Cape Verde Islands"@de , "Cape verde"@de , "Republica de Cabo Verde"@en , "Republica de Cabo Verde"@de , "Republica de Cabo Verde"@fr , "Capo Verde"@en , "Capo Verde"@fr , "Capo Verde"@de , "Kabu verdi"@en , "Kabu verdi"@fr , "Kabu verdi"@de , "Republique du Cap-Vert"@fr , "Kapverden"@en , "Cape de Verde Isles"@en , "Cape de Verde Isles"@fr , "Cape de Verde Isles"@de , "Kapverden"@fr , "Kapverden"@de , "Verde"@en , "Cape-Verde"@en , "Île du Cap Vert"@fr , "Cape-Verde"@fr , "Cape-Verde"@de , "Name of Cape Verde"@en , "Verde"@fr , "Name of Cape Verde"@fr , "Verde"@de , "Name of Cape Verde"@de , "República de Cabo Verde"@en , "República de Cabo Verde"@fr , "República de Cabo Verde"@de , "Cap Vert"@fr .
+
+<http://dbpedia.org/resource/Gro_Harlem_Brundtland>
+        rdfs:label     "Gro Harlem Brundtland"@en , "Gro Harlem Brundtland"@fr , "Gro Harlem Brundtland"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Gro_Harlem_Brundtland__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gro_Harlem_Brundtland> , <http://fr.dbpedia.org/resource/Gro_Harlem_Brundtland> ;
+        skos:altLabel  "Harlem"@en , "Harlem"@fr , "Harlem"@de , "Gro Brundtland"@en , "Gro Brundtland"@fr , "Gro Brundtland"@de , "Gro Harlem Brundtland"@en , "Gro Harlem Brundtland"@de , "Gro Harlem Brundtland"@fr , "Brundtland"@en , "Brundtland"@fr , "Brundtland"@de .
+
+<http://dbpedia.org/resource/Gro_Harlem_Brundtland__1>
+        dbo:from    "1967"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Cape_Verde> ;
+        dbo:to      "1970"^^xsd:gYear .

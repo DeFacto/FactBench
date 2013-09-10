@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04fdd3__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0d9jr> ;
+        dbo:from             "1983"^^xsd:gYear ;
+        dbo:to               "1983"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04fdd3>
+        rdfs:label     "Intuit"@fr , "Intuit"@de , "Intuit Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04fdd3__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Intuit> , <http://fr.dbpedia.org/resource/Intuit> , <http://dbpedia.org/resource/Intuit> ;
+        skos:altLabel  "INTU"@fr , "INTU"@de , "Lacerte"@fr , "Lacerte"@de , "Intuit"@en , "Intuit"@fr , "Intuit"@de , "Intuit Inc."@fr , "Intuit, Inc."@fr , "Intuit Inc."@de , "QuickBase"@fr , "Intuit, Inc."@de , "QuickBase"@de , "ProSeries"@fr , "ProSeries"@de .
+
+<http://rdf.freebase.com/ns/m.0d9jr>
+        rdfs:label     "Seattle"@fr , "Seattle"@en , "Seattle"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seattle> , <http://de.dbpedia.org/resource/Seattle> , <http://dbpedia.org/resource/Seattle> ;
+        skos:altLabel  "Seattle, US-WA"@de , "Seattle, US-WA"@fr , "Alki"@de , "The Emerald City"@de , "Seattle, Washington Territory"@en , "Seattle, Washington Territory"@de , "Seattle, Washington Territory"@fr , "Seattle, WA"@en , "Seattle, Washington"@en , "Seattle, WA"@fr , "Seattle, WA"@de , "Seattle, Washington"@de , "Seattle, Washington"@fr , "Seattle, wa"@en , "Seattle, wa"@fr , "Seattle, wa"@de , "King County / Seattle city"@en , "Seattleites"@en , "Seattleites"@fr , "Seattleites"@de , "The weather in Seattle"@en , "Jet City"@en , "Jet City"@de , "Jet City"@fr , "The weather in Seattle"@fr , "The weather in Seattle"@de , "Seattle, USA"@en , "Seattle, USA"@fr , "Seattle, USA"@de , "Seattleans"@en , "Seattle"@en , "Seattle"@fr , "Seattle"@de , "Seattleans"@fr , "Seattleans"@de , "Seattle, United States"@en , "Seattle, United States"@fr , "Seattle, United States"@de , "Seatle"@en , "Seatle"@fr , "Seatle"@de , "Rain City"@de , "LOCODE:USSEA"@en , "LOCODE:USSEA"@fr , "LOCODE:USSEA"@de , "Emerald City, Washington"@en , "Emerald City, Washington"@de , "Emerald City, Washington"@fr , "Die Smaragdstadt"@de , "Duwamps"@en , "Duwamps"@fr , "Duwamps"@de , "Seattle, Wash."@en , "Seattle, Wash."@fr , "Seattle, Wash."@de , "Seattle's"@en , "Seattle's"@de , "Seattle's"@fr , "City of Seattle"@en , "City of Seattle"@fr , "City of Seattle"@de , "Alki Point"@de , "Seattle Washington"@en , "Seattle Washington"@fr , "Seattle Washington"@de , "Emerald City"@en , "Seattle, United States of America"@en , "Seattle, United States of America"@fr , "Seattle, United States of America"@de , "Seattle WA"@en , "Seattle WA"@fr , "Seattle WA"@de , "Seattle, Wa"@en , "Seattle, Wa"@fr , "Seattle, Wa"@de , "Seattle, US-WA"@en , "Seattle, WA, USA"@en , "Seattle, WA, USA"@de , "Seattle, WA, USA"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_F._Kennedy>
+        rdfs:label     "John F. Kennedy"@de , "John F. Kennedy"@fr , "John F. Kennedy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_F._Kennedy__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_F._Kennedy> , <http://fr.dbpedia.org/resource/John_Fitzgerald_Kennedy> ;
+        skos:altLabel  "John F. Kennedy"@fr , "John Kennedy"@fr , "John Kennedy"@de , "John F. Kennedy"@de , "President Kennedy"@en , "President Kennedy"@fr , "President Kennedy"@de , "J.F.K"@en , "J.F.K"@fr , "J.F.K"@de , "J F Kennedy"@en , "U.S. President J.F. Kennedy"@en , "Senator John F. Kennedy"@en , "Kennedy, John F."@en , "John F Kennedy"@en , "U.S. President J.F. Kennedy"@fr , "Senator John F. Kennedy"@fr , "Kennedy, John F."@fr , "Senator John F. Kennedy"@de , "Kennedy, John F."@de , "John F Kennedy"@fr , "U.S. President J.F. Kennedy"@de , "John F Kennedy"@de , "J F Kennedy"@fr , "J F Kennedy"@de , "J.F. Kennedy"@en , "J.F. Kennedy"@fr , "J.F. Kennedy"@de , "35th President of the United States"@en , "35th President of the United States"@fr , "35th President of the United States"@de , "JF Kennedy"@en , "John f. kennedy"@en , "Eponyms of John F. Kennedy"@en , "John Fitzgerald Kennedy"@en , "John f. kennedy"@fr , "Eponyms of John F. Kennedy"@fr , "John Fitzgerald Kennedy"@fr , "John Fitzgerald Kennedy"@de , "John f. kennedy"@de , "Eponyms of John F. Kennedy"@de , "JF Kennedy"@fr , "JF Kennedy"@de , "Early years of john f. kennedy"@en , "Early years of john f. kennedy"@fr , "Early years of john f. kennedy"@de , "Président Kennedy"@fr , "J. F. Kennedy"@en , "J. F. Kennedy"@fr , "J. F. Kennedy"@de , "Jack Kennedy"@en , "John f k"@en , "Kennedy Administration"@en , "President John Kennedy"@en , "John fitzgerald kennady"@en , "JFK administration"@en , "Jack Kennedy"@fr , "John f k"@fr , "Kennedy Administration"@fr , "John f k"@de , "President John Kennedy"@fr , "JFK administration"@fr , "Kennedy Administration"@de , "Jack Kennedy"@de , "President John Kennedy"@de , "JFK administration"@de , "J.F.K."@en , "John fitzgerald kennady"@fr , "J.F.K."@fr , "John fitzgerald kennady"@de , "J.F.K."@de , "FitzGerald"@en , "John f. kenedy"@en , "Kennedy administration"@en , "FitzGerald"@fr , "Kennedy administration"@fr , "Kennedy administration"@de , "FitzGerald"@de , "John F. Kennedie"@en , "John F. Kennedie"@fr , "John F. Kennedie"@de , "John f. kenedy"@fr , "John f. kenedy"@de , "John Fitzgerald"@en , "John Fitzgerald"@fr , "John Fitzgerald"@de , "John F. \"Jack\" Kennedy"@en , "John F. \"Jack\" Kennedy"@fr , "John F. \"Jack\" Kennedy"@de , "President John F. Kennedy"@en , "President John F. Kennedy"@fr , "President John F. Kennedy"@de , "John f kennedy"@en , "John f kennedy"@fr , "John f kennedy"@de , "President John F Kennedy"@en , "President John F Kennedy"@fr , "President John F Kennedy"@de , "John Fitzgerald \"Jack\" Kennedy"@en , "John Fitzgerald \"Jack\" Kennedy"@fr , "John Fitzgerald \"Jack\" Kennedy"@de , "John f kenedy"@en , "John f kenedy"@fr , "John f kenedy"@de , "John F.Kennedy"@en , "John F.Kennedy"@fr , "John F.Kennedy"@de , "What did jfk do"@en , "Kennedy"@en , "What did jfk do"@fr , "Kennedy"@fr , "What did jfk do"@de , "Kennedy"@de , "John F. Kennedy"@en , "John Kennedy"@en .
+
+<http://dbpedia.org/resource/John_F._Kennedy__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Dayton,_Tennessee> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dayton,_Tennessee>
+        rdfs:label     "Dayton, Tennessee"@en , "Dayton, Tennessee"@fr , "Dayton, Tennessee"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dayton_(Tennessee)> , <http://de.dbpedia.org/resource/Dayton_(Tennessee)> ;
+        skos:altLabel  "Dayton, TN"@en , "LOCODE:USDAT"@en , "Dayton, TN"@fr , "LOCODE:USDAT"@fr , "Dayton, TN"@de , "LOCODE:USDAT"@de , "Dayton"@en , "Dayton"@fr , "Dayton"@de , "Dayton, Tennessee"@en , "Dayton, Tennessee"@de , "Dayton, Tennessee"@fr , "Crystal Springs Community"@en , "Crystal Springs Community"@fr , "Crystal Springs Community"@de .

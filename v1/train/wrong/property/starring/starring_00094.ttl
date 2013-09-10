@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Last_Action_Hero__1>
+        dbo:from  "1993"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/F._Murray_Abraham> ;
+        dbo:to    "1993"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Last_Action_Hero>
+        rdfs:label     "Last Action Hero"@en , "Last Action Hero"@fr , "Last Action Hero"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Last_Action_Hero__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Last_Action_Hero> , <http://de.dbpedia.org/resource/Last_Action_Hero> ;
+        skos:altLabel  "Jack Slater"@en , "Jack Slater"@fr , "Jack Slater"@de , "Last Action Hero"@en , "Last Action Hero"@fr , "Last Action Hero"@de , "Jack slater"@en , "Jack slater"@fr , "Jack slater"@de , "Last action hero"@en , "Last action hero"@fr , "Last action hero"@de , "Last Action Hero Official Movie Soundtrack"@en , "Last Action Hero Official Movie Soundtrack"@fr , "Last Action Hero Official Movie Soundtrack"@de , "The Last Action Hero"@en , "The Last Action Hero"@fr , "The Last Action Hero"@de .
+
+<http://dbpedia.org/resource/F._Murray_Abraham>
+        rdfs:label     "F. Murray Abraham"@en , "F. Murray Abraham"@fr , "F. Murray Abraham"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/F._Murray_Abraham> , <http://fr.dbpedia.org/resource/F._Murray_Abraham> ;
+        skos:altLabel  "Fahrid Murray Abraham"@en , "Fahrid Murray Abraham"@fr , "Fahrid Murray Abraham"@de , "F. Murray Abraham"@en , "F.Murray Abraham"@en , "F. Murray Abraham"@fr , "F.Murray Abraham"@fr , "F.Murray Abraham"@de , "F. Murray Abraham"@de , "Abraham, Murray"@en , "Abraham, Murray"@fr , "Abraham, Murray"@de , "F murray abraham"@en , "F murray abraham"@fr , "F murray abraham"@de , "F. murray abraham"@en , "F. murray abraham"@fr , "F. murray abraham"@de , "Murray Abraham"@en , "Murray Abraham"@fr , "Murray Abraham"@de , "F. Murray Abraham syndrome"@en , "F. Murray Abraham syndrome"@fr , "F. Murray Abraham syndrome"@de , "F Murray Abraham"@en , "F Murray Abraham"@fr , "F Murray Abraham"@de .

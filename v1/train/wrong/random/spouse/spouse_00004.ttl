@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Akron,_Ohio>
+        rdfs:label     "Akron, Ohio"@de , "Akron, Ohio"@fr , "Akron, Ohio"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Akron> , <http://fr.dbpedia.org/resource/Akron_(Ohio)> ;
+        skos:altLabel  "Akron Ohio"@de , "Akron Ohio"@fr , "Akron Ohio"@en , "Akron, oh"@en , "Akron, oh"@de , "Akron, oh"@fr , "Downtown Akron, OH"@de , "Downtown Akron, OH"@fr , "Downtown Akron, OH"@en , "Akron, Oh"@de , "Akron, Oh"@fr , "Akron, Oh"@en , "Akron"@en , "Akron"@de , "Akron"@fr , "Ohio Akron"@en , "Ohio Akron"@de , "Ohio Akron"@fr , "Rubber City"@de , "Rubber City"@fr , "Rubber City"@en , "Akron Police Department"@de , "Akron Police Department"@fr , "Akron Police Department"@en , "Downtown Akron, Ohio"@de , "Downtown Akron, Ohio"@fr , "Downtown Akron, Ohio"@en , "Ak rowdy"@en , "Ak rowdy"@de , "Ak rowdy"@fr , "Akron, Ohio Police"@en , "Akron, Ohio"@de , "Akron, Ohio"@fr , "Akron, Ohio"@en , "Akron, Ohio Police"@de , "Akron, Ohio Police"@fr , "LOCODE:USAKH"@de , "LOCODE:USAKH"@fr , "LOCODE:USAKH"@en , "Akron, OH"@de , "Akron, OH"@fr , "Akron, OH"@en .
+
+<http://rdf.freebase.com/ns/m.06y030>
+        rdfs:label  "Susan Lanier"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06y030__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Susan_Lanier> .
+
+<http://rdf.freebase.com/ns/m.06y030__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Akron,_Ohio> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .

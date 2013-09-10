@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03m2m__1>
+        dbo:author  <http://dbpedia.org/resource/Unquillo> ;
+        dbo:from    "1910"^^xsd:gYear ;
+        dbo:to      "1910"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Unquillo>
+        rdfs:label     "Unquillo"@en , "Unquillo"@fr , "Unquillo"@de ;
+        skos:altLabel  "Unquillo"@en .
+
+<http://rdf.freebase.com/ns/m.03m2m>
+        rdfs:label     "Halldór Laxness"@en , "Halldór Laxness"@fr , "Halldór Laxness"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03m2m__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Halld%C3%B3r_Laxness> ;
+        skos:altLabel  "Halldor Laxness"@en , "Halldór Guðjónsson"@en , "Halldor Kiljan Gudjonsson"@en , "Halldor Kiljan Laxness"@en .

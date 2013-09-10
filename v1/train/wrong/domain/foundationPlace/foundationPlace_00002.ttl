@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0xxm3>
+        rdfs:label     "Endicott"@en , "Endicott"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Endicott,_New_York> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "LOCODE:USENC"@en , "Endicott, NY"@en , "Endicott, New York"@en , "Endicott"@en .
+
+<http://rdf.freebase.com/ns/m.0g1bcq__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0xxm3> ;
+        dbo:from             "1911"^^xsd:gYear ;
+        dbo:to               "1911"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0g1bcq>
+        rdfs:label     "Rogue Wave Software"@en , "Rogue Wave"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0g1bcq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rogue_Wave_(société)> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Rogue_Wave_Software> ;
+        skos:altLabel  "Rogue Wave Software"@fr , "Rogue Wave"@fr , "RogueWave"@fr , "Rogue wave"@fr .

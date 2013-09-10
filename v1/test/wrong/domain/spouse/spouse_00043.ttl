@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026m56t>
+        rdfs:label     "Gaile Lok"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Gaile_Lok> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Jier Le"@en , "Kei-yi Lok"@en , "Gaile Lai"@en , "Gaile Lok"@en .
+
+<http://rdf.freebase.com/ns/m.06_bq1>
+        rdfs:label     "Blake Lively"@en , "Blake Lively"@fr , "Blake Lively"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06_bq1__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Blake_Lively> , <http://fr.dbpedia.org/resource/Blake_Lively> , <http://de.dbpedia.org/resource/Blake_Lively> ;
+        skos:altLabel  "Blake Ellender Brown"@en , "Blake Ellender Brown"@fr , "Blake Ellender Lively"@en , "Blake Ellender Lively"@fr , "Blake Lively"@en , "Blake Lively"@de , "Blake Lively"@fr , "Blake"@en , "Blake"@fr , "Blake"@de , "Blake Christina Lively"@en , "Blake Christina Lively"@fr , "Blake Christina Lively"@de , "Lively"@en , "Lively"@fr , "Lively"@de .
+
+<http://rdf.freebase.com/ns/m.06_bq1__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.026m56t> ;
+        dbo:to      "2012"^^xsd:gYear .

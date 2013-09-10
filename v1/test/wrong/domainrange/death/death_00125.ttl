@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dayton,_Tennessee>
+        rdfs:label     "Dayton, Tennessee"@en , "Dayton, Tennessee"@fr , "Dayton, Tennessee"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dayton_(Tennessee)> , <http://de.dbpedia.org/resource/Dayton_(Tennessee)> ;
+        skos:altLabel  "Dayton, TN"@en , "LOCODE:USDAT"@en , "Dayton, TN"@fr , "LOCODE:USDAT"@fr , "Dayton, TN"@de , "LOCODE:USDAT"@de , "Dayton"@en , "Dayton"@fr , "Dayton"@de , "Dayton, Tennessee"@en , "Dayton, Tennessee"@de , "Dayton, Tennessee"@fr , "Crystal Springs Community"@en , "Crystal Springs Community"@fr , "Crystal Springs Community"@de .
+
+<http://dbpedia.org/resource/Oscar_Peterson>
+        rdfs:label     "Oscar Peterson"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Peterson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Peterson> , <http://de.dbpedia.org/resource/Oscar_Peterson> ;
+        skos:altLabel  "Advanced School of Contemporary Music"@en , "Advanced School of Contemporary Music"@fr , "Advanced School of Contemporary Music"@de , "Oscar Petersen"@en , "Oscar Petersen"@fr , "Oscar Petersen"@de , "Oscar Emmanuel Peterson"@en , "Oscar Emmanuel Peterson"@fr , "Oscar Emmanuel Peterson"@de , "Oscar Peterson"@en , "Oscar Peterson Trio"@en , "Oscar Peterson"@fr , "Oscar Peterson"@de , "Oscar Peterson Trio"@fr , "Oscar Peterson Trio"@de , "Peterson"@fr , "Oscar peterson"@en , "Oscar peterson"@fr , "Oscar peterson"@de , "In the Key of Oscar"@en , "In the Key of Oscar"@fr , "In the Key of Oscar"@de .
+
+<http://dbpedia.org/resource/Oscar_Peterson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Dayton,_Tennessee> ;
+        dbo:from        "1979"^^xsd:gYear ;
+        dbo:to          "1979"^^xsd:gYear .

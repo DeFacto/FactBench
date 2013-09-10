@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04_by>
+        rdfs:label     "Mary Shelley"@de , "Mary Shelley"@fr , "Mary Shelley"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04_by__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mary_Shelley> , <http://dbpedia.org/resource/Mary_Shelley> , <http://fr.dbpedia.org/resource/Mary_Shelley> ;
+        skos:altLabel  "Mary W Shelley"@de , "Mary W Shelley"@fr , "Mary W Shelley"@en , "Mary Shelly"@de , "Mary Shelly"@fr , "Mary Shelly"@en , "Shelley"@de , "Shelley"@fr , "Shelley"@en , "Mary Wollstonecraft-Shelley"@de , "Mary Shelley"@de , "Mary Shelley"@fr , "Mary Shelley"@en , "Mrs. Mary Wollstonecraft (Godwin) Shelley"@de , "Mrs. Mary Wollstonecraft (Godwin) Shelley"@fr , "Mrs. Mary Wollstonecraft (Godwin) Shelley"@en , "Mary Wollstonecraft Godwin Shelley"@de , "Mary Wollstonecraft Godwin Shelley"@fr , "Mary Wollstonecraft Godwin Shelley"@en , "Mary"@fr , "Mary Wollstonecraft Shelley"@de , "Mary Wollstonecraft Shelley"@fr , "Mary Wollstonecraft Shelley"@en , "Mary Wollstonecraft Shelly"@en , "Shelley, Mary W."@en , "Mrs. Percy B. Shelley"@en , "Mary W. Shelley"@de , "Mary W. Shelley"@fr , "Mary W. Shelley"@en , "Mary Woolstonecraft Godwin"@de , "Mary Woolstonecraft Godwin"@fr , "Mary Woolstonecraft Godwin"@en , "Mary Wollenscraft Shelly"@en , "Mary Wollstonecraft (Godwin) Shelley"@en , "Wollstonecraft Godwin"@de , "Wollstonecraft Godwin"@fr , "Wollstonecraft Godwin"@en , "Mary Wollstonecraft Godwin"@en , "Mary Wollstonecraft Godwin"@de , "Mary Wollstonecraft Godwin"@fr .
+
+<http://rdf.freebase.com/ns/m.02zlm>
+        rdfs:label     "Frankenstein ou le Prométhée moderne"@fr , "Frankenstein"@de , "Frankenstein"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frankenstein_(Roman)> , <http://fr.dbpedia.org/resource/Frankenstein_ou_le_Prométhée_moderne> , <http://dbpedia.org/resource/Frankenstein> ;
+        skos:altLabel  "Frankenstein"@en , "Frankenstein"@de , "Frankenstein"@fr , "Frankenstein: The Modern Prometheus"@en , "Frankenstein: The Modern Prometheus"@de , "Frankenstein: The Modern Prometheus"@fr , "Frankenstein, or the Modern Prometheus"@en , "Frankenstein, or the Modern Prometheus"@fr , "Frankenstein, or the Modern Prometheus"@de , "Frankestein"@en , "Frankestein"@de , "Frankestein"@fr , "Prométhée"@fr , "Frankenstein; or, The Modern Prometheus"@en , "The Essential Frankenstein"@en , "Frankenstein; or, The Modern Prometheus"@de , "Frankenstein; or, The Modern Prometheus"@fr , "Frankenstein; or, the Modern Prometheus"@en , "Frankenstein; or, the Modern Prometheus"@de , "Frankenstein; or, the Modern Prometheus"@fr , "Frankenstien"@en , "Frankenstien"@de , "Frankenstien"@fr , "Henry Clerval"@en , "Frankenstein Ou Le Promethee Moderne"@fr , "Henry Clerval"@de , "Henry Clerval"@fr , "Doctor Frankenstein"@en , "Doctor Frankenstein"@de , "Doctor Frankenstein"@fr , "Frankenstein oder Der moderne Prometheus"@de , "Robert Walton"@en , "Robert Walton"@de , "Robert Walton"@fr , "Frankenstein ou le Prométhé moderne"@fr , "Modern Prometheus"@en , "Modern Prometheus"@de , "Modern Prometheus"@fr , "Frankenstein Ou Le Prométhée Moderne"@fr , "Frankenstein ou le Prométhée moderne"@fr , "The Modern Prometheus"@en , "The Modern Prometheus"@de , "The Modern Prometheus"@fr , "Frankenstein; or, The Modern Prometheu"@en , "Frankenstein; or, The Modern Prometheu"@de , "Frankenstein; or, The Modern Prometheu"@fr , "Promethee"@fr , "Frankenstein ou le Promethee moderne"@fr , "Shelley's Frankenstein"@en , "Frankinsteine"@en , "Frankenstein ou le prométhée moderne"@fr , "Frankinsteine"@de , "Frankinsteine"@fr , "Frankenstein ou le Promethe moderne"@fr , "Frankenstein ou le promethee moderne"@fr , "Frankenstein or The Modern Prometheus"@de .
+
+<http://rdf.freebase.com/ns/m.04_by__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02zlm> ;
+        dbo:from    "1816"^^xsd:gYear ;
+        dbo:to      "1816"^^xsd:gYear .

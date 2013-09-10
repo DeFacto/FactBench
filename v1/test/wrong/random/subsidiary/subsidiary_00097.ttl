@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05q9l6>
+        rdfs:label  "Interlink Computer Sciences"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Interlink_Computer_Sciences> .
+
+<http://rdf.freebase.com/ns/m.01dhxm>
+        rdfs:label     "Robert Charles Wilson"@en , "Robert Charles Wilson"@fr , "Robert Charles Wilson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01dhxm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robert_Charles_Wilson> , <http://dbpedia.org/resource/Robert_Charles_Wilson> , <http://de.dbpedia.org/resource/Robert_Charles_Wilson> ;
+        skos:altLabel  "Wilson"@fr , "Bob Chuck Wilson"@en , "Robert C. Wilson"@fr , "Robert Charles Wilson"@fr , "Robert Charles Wilson"@de , "Robert Charles Wilson"@en , "Robert-Charles Wilson"@fr .
+
+<http://rdf.freebase.com/ns/m.01dhxm__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.05q9l6> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .

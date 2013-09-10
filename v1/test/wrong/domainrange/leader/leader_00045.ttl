@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bahamas>
+        rdfs:label  "Bahamas"@en , "Bahamas"@fr , "Bahamas"@de .
+
+<http://dbpedia.org/resource/Zine_El_Abidine_Ben_Ali__1>
+        dbo:from    "1937"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Bahamas> ;
+        dbo:to      "1938"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Zine_El_Abidine_Ben_Ali>
+        rdfs:label     "Zine El Abidine Ben Ali"@de , "Zine El Abidine Ben Ali"@fr , "Zine El Abidine Ben Ali"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Zine_El_Abidine_Ben_Ali__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Zine_el-Abidine_Ben_Ali> , <http://de.dbpedia.org/resource/Zine_el-Abidine_Ben_Ali> ;
+        skos:altLabel  "Chiffre 7 en tunisie"@fr , "Zajn al-Abidin Ibn Ali"@en , "Zajn al-Abidin Ibn Ali"@de , "Zajn al-Abidin Ibn Ali"@fr , "L'opposition politique en Tunisie"@fr , "Zine el-Abidine ben Ali"@de , "Zayn al-ʿAbidin b. ʿAli"@de , "Le chiffre 7 en Tunisie"@fr , "Opposition politique en Tunisie"@fr , "Zīn al-‘Ābidīn bin ‘Alī"@en , "Zīn al-‘Ābidīn bin ‘Alī"@fr , "Zīn al-‘Ābidīn bin ‘Alī"@de , "Zine Abidine Ben Ali"@fr , "Zine"@de , "Ben Ali"@en , "Zine el Abidine Ben Ali"@en , "Ben Ali"@de , "Ben Ali"@fr , "Zine el Abidine Ben Ali"@de , "Zine el Abidine Ben Ali"@fr , "Révolution au jasmin"@fr , "Zayn al-ʿAbidīn b. ʿAlī"@de , "Chiffre 7 en Tunisie"@fr , "Zine al-Abidine Ben Ali"@en , "Zine al-Abidine Ben Ali"@fr , "Zain al-ʿĀbidīn ibn ʿAlī"@de , "Zine al-Abidine Ben Ali"@de , "Zain al-ʿAbidin ibn ʿAli"@de , "Zine al Abidine Ben Ali"@de , "Zine el-Abedine Ben Ali"@en , "Zine el-Abedine Ben Ali"@fr , "Zine el-Abedine Ben Ali"@de , "Zine El-Abidine Ben Ali"@en , "Zine El-Abidine Ben Ali"@fr , "Zine El-Abidine Ben Ali"@de , "Zine-el-Abidine-Ben-Ali"@fr , "Zayn al-Abidin bin Ali"@en , "Zayn al-Abidin bin Ali"@fr , "Zayn al-Abidin bin Ali"@de , "Zine Abidine Ben-Ali"@en , "Zine Abidine Ben-Ali"@fr , "Zine Abidine Ben-Ali"@de , "Zine El Abidine Ben Ali"@en , "Zine el-Abidine Ben Ali"@en , "Zīna al-‘Ābidīna bin ‘Alī"@en , "Zayn al-'Abidin Ibn 'Ali"@en , "Zine El Abidine Ben Ali"@fr , "Revolution au jasmin"@fr , "Zīna al-‘Ābidīna bin ‘Alī"@fr , "Zayn al-'Abidin Ibn 'Ali"@fr , "Zine el-Abidine Ben Ali"@fr , "Zayn al-'Abidin Ibn 'Ali"@de , "Zine El Abidine Ben Ali"@de , "Zine el-Abidine Ben Ali"@de , "Zīna al-‘Ābidīna bin ‘Alī"@de , "Zine el-abidine ben ali"@fr , "Zine Ben Ali"@en , "Zin al-‘Abidin bin ‘Ali"@en , "Zine Ben Ali"@fr , "Zin al-‘Abidin bin ‘Ali"@fr , "Zin al-‘Abidin bin ‘Ali"@de , "Zine Ben Ali"@de , "Zine El Abidene ben Ali"@en , "Zine El Abidene ben Ali"@fr , "Zine El Abidene ben Ali"@de , "Zin al-Abidin bin Ali"@en , "Opposition politique en tunisie"@fr , "Zin al-Abidin bin Ali"@de , "Zin al-Abidin bin Ali"@fr , "Zina al-‘Abidina bin ‘Ali"@en , "Zina al-‘Abidina bin ‘Ali"@fr , "Zina al-‘Abidina bin ‘Ali"@de , "Zein El-Abidine Ben Ali"@fr , "Zayn al-‘Ābidīn bin ‘Alī"@en , "Zayn al-‘Ābidīn bin ‘Alī"@fr , "Zayn al-‘Ābidīn bin ‘Alī"@de , "ZABA"@fr , "Zayn al-‘Abidin bin ‘Ali"@en , "Zayn al-‘Abidin bin ‘Ali"@fr , "Zayn al-‘Abidin bin ‘Ali"@de , "Chiffre 7 En Tunisie"@fr , "President Ben Ali"@en , "President Ben Ali"@de , "President Ben Ali"@fr .

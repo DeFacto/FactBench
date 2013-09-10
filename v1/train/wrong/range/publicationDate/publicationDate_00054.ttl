@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.024m3t>
+        rdfs:label     "Ein Yankee am Hofe des König Artus"@de , "A Connecticut Yankee in King Arthur's Court"@en , "Un Yankee à la cour du roi Arthur"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ein_Yankee_am_Hofe_des_König_Artus> , <http://dbpedia.org/resource/A_Connecticut_Yankee_in_King_Arthur's_Court> , <http://fr.dbpedia.org/resource/Un_Yankee_à_la_cour_du_roi_Arthur> ;
+        skos:altLabel  "A Connecticut Yankee At King Arthur's Court"@en , "A Connecticut Yankee At King Arthur's Court"@de , "A Connecticut Yankee At King Arthur's Court"@fr , "A connecticut yankee in king arthur's court"@en , "A connecticut yankee in king arthur's court"@de , "A connecticut yankee in king arthur's court"@fr , "Ein Yankee aus Connecticut an König Artus' Hof"@de , "Un Yankee à la cour du roi Arthur"@fr , "Connecticut Yankee in King Arthur's Court"@en , "A Connecticut Yankee in King Arthur’s Court"@en , "Connecticut Yankee in King Arthur's Court"@de , "A Connecticut Yankee in King Arthur’s Court"@de , "A Connecticut Yankee in King Arthur’s Court"@fr , "Connecticut Yankee in King Arthur's Court"@fr , "A Connecticut Yankee In King Arthur's Court"@de , "A Connecticut Yankee In King Arthur's Court"@fr , "A Connecticut Yankee In King Arthur's Court"@en , "A Connecticut Yankee in King Arthur's Court"@en , "A Connecticut Yankee in King Arthur's Court"@de , "A Connecticut Yankee in King Arthur's Court"@fr , "Ein Yankee am Hofe des König Artus"@de , "Ein Yankee am Hofe des Konig Artus"@de , "Ein Yankee an Konig Artus' Hof"@de , "Yankee in King Arthur's Court"@de , "Yankee in King Arthur's Court"@fr , "Yankee in King Arthur's Court"@en , "Sir Boss"@de , "A Connecticut Yankee"@de , "A Connecticut Yankee"@fr , "A Connecticut Yankee"@en , "Sir Boss"@fr , "Sir Boss"@en , "Ein Yankee an König Artus' Hof"@de , "Un Yankee a la cour du roi Arthur"@fr , "Ein Yankee aus Connecticut an Konig Artus' Hof"@de , "Hank Morgan"@de , "Hank Morgan"@fr , "Hank Morgan"@en , "CYKAC"@en , "CYKAC"@de , "CYKAC"@fr , "ACYINKAC"@en , "ACYINKAC"@de , "ACYINKAC"@fr .
+
+<http://rdf.freebase.com/ns/m.06nb9__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.024m3t> ;
+        dbo:from    "1961"^^xsd:gYear ;
+        dbo:to      "1961"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.06nb9>
+        rdfs:label     "Stanisław Lem"@en , "Stanislas Lem"@fr , "Stanisław Lem"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06nb9__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Stanis%C5%82aw_Lem> ;
+        skos:altLabel  "Lem, Stanisław"@en , "Stanislaw Lem"@en .

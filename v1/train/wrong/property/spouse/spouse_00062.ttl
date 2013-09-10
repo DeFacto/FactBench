@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05trb8__1>
+        dbo:from  "2004"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.03xl77> ;
+        dbo:to    "2008"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03xl77>
+        rdfs:label     "Travis Barker"@en , "Travis Barker"@de , "Travis Barker"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Travis_Barker> , <http://fr.dbpedia.org/resource/Travis_Barker> , <http://dbpedia.org/resource/Travis_Barker> ;
+        skos:altLabel  "Baron von tito"@de , "Baron von tito"@fr , "Baron von tito"@en , "Baron von Tito"@de , "Baron von Tito"@fr , "Baron von Tito"@en , "Box Car Racer"@en , "Blink 182"@en , "Travis Landon Barker"@de , "Travis Landon Barker"@fr , "Travis Landon Barker"@en , "Barker"@de , "Barker"@fr , "Travis Barker"@de , "Travis Barker"@fr , "Travis Barker"@en , "Alabama Louella Barker"@de , "Alabama Louella Barker"@fr , "Alabama Louella Barker"@en , "The Baron Von Tito"@de , "The Baron Von Tito"@fr , "The Baron Von Tito"@en , "The Transplants"@en , "+44"@en , "Baron Von Tito"@en , "Trav"@en , "Barker, Travis"@en , "Blink-182"@en , "Travis"@de , "Travis"@fr , "Travis"@en , "The Baron von Tito"@de , "The Baron von Tito"@fr , "The Baron von Tito"@en .
+
+<http://rdf.freebase.com/ns/m.05trb8>
+        rdfs:label     "Shanna Moakler"@en , "Shanna Moakler"@fr , "Shanna Moakler"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05trb8__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Shanna_Moakler> , <http://dbpedia.org/resource/Shanna_Moakler> , <http://de.dbpedia.org/resource/Shanna_Moakler> ;
+        skos:altLabel  "Shanna"@en , "Shanna"@de , "Shanna"@fr , "Shanna Lynn Moakler"@en , "Shanna Lynn Moakler Barker"@en , "Shanna Moakler"@en , "Shanna Moakler"@fr , "Shanna Moakler"@de , "Shanna Barker"@en , "Shanna Barker"@fr , "Shanna Barker"@de , "Shana Moakler"@en , "Shana Moakler"@fr , "Shana Moakler"@de , "Moakler"@de .

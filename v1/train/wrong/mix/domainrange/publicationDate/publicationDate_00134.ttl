@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02lbzp>
+        rdfs:label     "Er, Sie und Es"@de , "He, She and It"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/He,_She_and_It> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Er,_Sie_und_Es> ;
+        skos:altLabel  "He, She And It"@de , "Er, Sie und Es"@de , "He, She and It"@de , "He, she, and it"@de , "Body of Glass"@en , "Body of Glass"@de .
+
+<http://rdf.freebase.com/ns/m.04093__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02lbzp> ;
+        dbo:from    "1976"^^xsd:gYear ;
+        dbo:to      "1976"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04093>
+        rdfs:label     "Jules Verne"@de , "Jules Verne"@fr , "Jules Verne"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04093__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Jules_Verne> , <http://de.dbpedia.org/resource/Jules_Verne> , <http://fr.dbpedia.org/resource/Jules_Verne> ;
+        skos:altLabel  "Jules vernes"@fr , "J. Verne"@en , "Julius verne"@de , "Julius verne"@fr , "Julius verne"@en , "Honorine Verne"@de , "Honorine Verne"@fr , "Honorine Verne"@en , "JulesVerne"@en , "JulesVerne"@de , "JulesVerne"@fr , "Honorine de Viane Morel"@de , "Honorine de Viane Morel"@fr , "Honorine de Viane Morel"@en , "Jules Gabriel Verne"@en , "Júlio Verne"@en , "Jules Gabriel Verne"@de , "Jules Gabriel Verne"@fr , "Verne gyula"@de , "Verne gyula"@fr , "Verne gyula"@en , "Les Œuvres de jules verne"@fr , "Jules Verne"@en , "Jules Verne"@de , "Jules Verne"@fr , "The Father of Science Fiction"@en , "Julio Verne"@en , "Jules verne"@en , "Jules"@de , "Jules"@fr , "Jules"@en , "Jules verne"@de , "Jules verne"@fr , "Verne"@de , "Verne"@fr , "Verne"@en , "Verne, Jules"@de , "Verne, Jules"@fr , "Verne, Jules"@en .

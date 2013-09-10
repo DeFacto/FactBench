@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01zpmq>
+        rdfs:label     "Symantec"@de , "Symantec"@fr , "Symantec Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zpmq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Symantec> , <http://dbpedia.org/resource/Symantec> , <http://de.dbpedia.org/resource/Symantec> ;
+        skos:altLabel  "PowerQuest"@de , "Symantec Endpoint Virtualization Suite"@de , "Symantec Endpoint Virtualization Suite"@fr , "Symantec Endpoint Virtualization Suite"@en , "Symantec.com"@de , "Symantec.com"@fr , "Symantec.com"@en , "Category 5"@de , "Category 5"@fr , "Category 5"@en , "Norton Identity Client"@fr , "Norton Identity Client"@en , "Norton Identity Client"@de , "Symantec"@de , "Symantec"@fr , "Symantec"@en , "Symantec Corporation"@de , "Symantec Corporation"@fr , "Symantec Corporation"@en , "Symantec AI Builder"@de , "Symantec AI Builder"@fr , "Symantec AI Builder"@en , "Symantec Corp."@de , "Symantec Corp."@fr , "Symantec Corp."@en , "Distributor Pro"@de , "Distributor Pro"@fr , "Distributor Pro"@en , "Category 5 computer virus"@de , "SYMC"@de , "SYMC"@fr , "SYMC"@en , "Category 5 computer virus"@fr , "Category 5 computer virus"@en .
+
+<http://rdf.freebase.com/ns/m.01zpmq__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.027w18d> ;
+        dbo:from             "2007"^^xsd:gYear ;
+        dbo:to               "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.027w18d>
+        rdfs:label  "Meeting in Infinity"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Meeting_in_Infinity> .

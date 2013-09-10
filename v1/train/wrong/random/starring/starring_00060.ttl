@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0k0pms>
+        rdfs:label     "Camilo José Cela"@en , "Camilo José Cela"@fr , "Camilo José Cela"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0k0pms__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Camilo_Jos%C3%A9_Cela> ;
+        skos:altLabel  "Camilo Jose Cela"@en , "Camilo Cela"@en .
+
+<http://rdf.freebase.com/ns/m.02pqzms>
+        rdfs:label     "Quigo"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Quigo> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Quigo Technologies, Inc."@en , "Quigo Technologies LLC"@en , "Quigo"@en , "QUIGO TECHNOLOGIES INC"@en .
+
+<http://rdf.freebase.com/ns/m.0k0pms__1>
+        dbo:from    "1964"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.02pqzms> ;
+        dbo:to      "1964"^^xsd:gYear .

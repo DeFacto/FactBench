@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yitzhak_Shamir>
+        rdfs:label     "Yitzhak Shamir"@de , "Yitzhak Shamir"@fr , "Yitzhak Shamir"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Yitzhak_Shamir__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Yitzhak_Shamir> , <http://de.dbpedia.org/resource/Jitzchak_Schamir> ;
+        skos:altLabel  "Itzchak Shamir"@en , "Itzchak Shamir"@de , "Itzchak Shamir"@fr , "Yitzhak Yernitsky Shamir"@en , "Yitzhak Yernitsky Shamir"@de , "Yitzhak Yernitsky Shamir"@fr , "Yitzhak Yezernitzky"@en , "Yitzhak Yezernitzky"@de , "Yitzhak Yezernitzky"@fr , "Itzhak Shamir"@en , "Itzhak Shamir"@de , "Itzhak Shamir"@fr , "Yitzchak Shamir"@en , "Yitzchak Shamir"@de , "Yitzchak Shamir"@fr , "Icchak Jeziernicky"@de , "Icchak Jeziernicky"@fr , "Icchak Jeziernicky"@en , "Yitzhak"@en , "Yitzhak"@de , "Yitzhak"@fr , "Yitzhak Yezernitsky"@en , "Yitzhak Yezernitsky"@de , "Yitzhak Yezernitsky"@fr , "Schamir"@de , "Jitzchak Schamir"@de , "Shamir"@en , "Shamir"@de , "Shamir"@fr , "Yitzak Shamir"@en , "Yitzak Shamir"@de , "Yitzak Shamir"@fr , "Yitzhak Shamir"@en , "Yitzhak Shamir"@de , "Yitzhak Shamir"@fr , "Yitzhak Yizernitzky"@de , "Yitzhak Yizernitzky"@fr , "Yitzhak Yizernitzky"@en , "Icchak Jaziernicki"@de , "Icchak Jaziernicki"@fr , "Icchak Jaziernicki"@en , "Itzchak Schamir"@de , "Yitzhak Sahmir"@de , "Yitzhak Sahmir"@fr , "Yitzhak Sahmir"@en , "Jitzhak Schamir"@de .
+
+<http://dbpedia.org/resource/Yitzhak_Shamir__1>
+        dbo:from    "1932"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Canada> ;
+        dbo:to      "1933"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Canada>
+        rdfs:label     "Canada"@de , "Canada"@fr , "Canada"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kanada> , <http://fr.dbpedia.org/resource/Canada> ;
+        skos:altLabel  "Kanadische Föderation"@de , "America's top hat"@en , "America's top hat"@fr , "America's top hat"@de , "Xanada"@en , "Commonwealth du Canada"@fr , "Xanada"@fr , "Xanada"@de , "Canadá"@en , "Canadá"@fr , "Canadá"@de , "Candadienne"@fr , "Canadaa"@en , "Canadaa"@fr , "Canadaa"@de , "Dominion du Canada"@fr , "CANADA"@en , "Nation canadienne"@fr , "CANADA"@fr , "CANADA"@de , "Kenadian"@en , "Kenadian"@de , "Kenadian"@fr , "Canada"@en , "Canada"@fr , "Canada"@de , "Canuckistan"@en , "Peuple canadien"@fr , "Canuckistan"@fr , "Canuckistan"@de , "Puissance du Canada"@fr , "Etat federal canadien"@fr , "The Dominion of Canada"@en , "A mari usque ad mare"@de , "The Dominion of Canada"@fr , "The Dominion of Canada"@de , "Canadian Federation"@en , "Canadiophile"@en , "Canadian Federation"@de , "Canadian Federation"@fr , "Canadiophile"@de , "Canadiophile"@fr , "Canayens"@fr , "Population canadienne"@fr , "Pancanadien"@fr , "Caanaadaa"@en , "Etymology of Canada"@en , "Caanaadaa"@fr , "Etymology of Canada"@fr , "Etymology of Canada"@de , "Caanaadaa"@de , "Čanada"@en , "Cnada"@en , "Cnada"@fr , "Čanada"@fr , "Cnada"@de , "Kanadische Foderation"@de , "Čanada"@de , "Canada."@en , "Canada."@de , "Canada."@fr , "État fédéral canadien"@fr , "Kaenada"@en , "Kaenada"@fr , "Kaenada"@de , "Federation canadienne"@fr , "Canada's"@en , "Canada's"@fr , "Canada's"@de , "Canada-Uni,"@fr , "Dominion of Canada"@en , "ISO 3166-1:CA"@en , "ISO 3166-1:CA"@fr , "ISO 3166-1:CA"@de , "Pancanadianisme"@fr , "Dominion of Canada"@fr , "Dominion of Canada"@de , "References"@en , "Canadialand"@en , "Dominion of canada"@en , "Kanada"@de , "References"@fr , "References"@de , "Fédération canadienne"@fr , "Canadialand"@de , "Canadialand"@fr , "Dominion of canada"@de , "Kanadisch"@de , "Dominion of canada"@fr .

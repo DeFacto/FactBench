@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mardy_Fish>
+        rdfs:label     "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy Fish"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mardy_Fish__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mardy_Fish> , <http://fr.dbpedia.org/resource/Mardy_Fish> ;
+        skos:altLabel  "Mardy Fish"@en , "Marty Fish"@en , "Marty Fish"@fr , "Marty Fish"@de , "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy"@en , "Mardy"@de , "Mardy"@fr , "Fish"@en , "Fish"@fr , "Fish"@de .
+
+<http://dbpedia.org/resource/Edina,_Minnesota>
+        rdfs:label     "Edina, Minnesota"@en , "Edina, Minnesota"@fr , "Edina, Minnesota"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edina> , <http://de.dbpedia.org/resource/Edina_(Minnesota)> ;
+        skos:altLabel  "Edina, mn"@en , "Edina, mn"@de , "Edina, mn"@fr , "Edina"@en , "Edina"@fr , "Edina"@de , "Edina, MN"@en , "Edina, MN"@fr , "Edina, MN"@de , "Our Lady of Grace"@en , "Our Lady of Grace"@fr , "Our Lady of Grace"@de , "Bredesen Park"@en , "Edina, Minnesota"@en , "Edina, Minnesota"@fr , "Edina, Minnesota"@de , "Bredesen Park"@fr , "Bredesen Park"@de .
+
+<http://dbpedia.org/resource/Mardy_Fish__1>
+        dbo:award  <http://dbpedia.org/resource/Edina,_Minnesota> ;
+        dbo:from   "1981"^^xsd:gYear ;
+        dbo:to     "1981"^^xsd:gYear .

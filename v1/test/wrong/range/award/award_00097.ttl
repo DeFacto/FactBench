@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0hnjt>
+        rdfs:label     "Eugene O’Neill"@de , "Eugene O'Neill"@fr , "Eugene O'Neill"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0hnjt__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Eugene_O'Neill> , <http://de.dbpedia.org/resource/Eugene_O’Neill> , <http://fr.dbpedia.org/resource/Eugene_O'Neill> ;
+        skos:altLabel  "Eugene Oneill"@en , "Eugene oneil"@en , "Eugene Oneill"@de , "Eugene Oneill"@fr , "O’Neill"@de , "Eugene oneil"@de , "Eugene oneil"@fr , "Eugene O’Neill"@en , "Eugene O’Neill"@de , "Eugene O’Neill"@fr , "Days Without End"@en , "Eugene oneill"@en , "Days Without End"@de , "Days Without End"@fr , "Eugene oneill"@de , "Eugene oneill"@fr , "Eugene O' Neill"@en , "Eugene O' Neill"@de , "Eugene O' Neill"@fr , "Eugene Gladstone O'Neill"@en , "Eugene Gladstone O'Neill"@de , "Eugene Gladstone O'Neill"@fr , "Eugene (Gladstone) O'Neill"@en , "Eugene (Gladstone) O'Neill"@de , "Eugene (Gladstone) O'Neill"@fr , "Eugene O'Neill"@en , "Eugene O'Neill"@de , "O'Neill"@de , "O'Neill"@fr , "O'Neill"@en , "Eugene O'Neill"@fr , "SS Glencairn"@de , "SS Glencairn"@fr , "SS Glencairn"@en , "Eugene O'Neil"@en , "Eugene O'Neil"@de , "Eugene O'Neil"@fr , "Eugene O'Neal"@en , "Eugene O'Neal"@de , "Eugene O'Neal"@fr , "Eugene ONeill"@en , "O'Neill, Eugene Gladstone"@en , "O'Neill, Eugene Gladstone"@de , "Plays by Eugene O'Neill"@de , "O'Neill, Eugene Gladstone"@fr , "Plays by Eugene O'Neill"@fr , "Plays by Eugene O'Neill"@en , "Eugène O'Neill"@fr , "Eugène O’Neill"@fr .
+
+<http://rdf.freebase.com/ns/m.0hnjt__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.05f3q> ;
+        dbo:from   "1936"^^xsd:gYear ;
+        dbo:to     "1936"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05f3q>
+        rdfs:label     "Nobel Peace Prize"@en , "Friedensnobelpreis"@de , "Prix Nobel de la paix"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Friedensnobelpreis> , <http://fr.dbpedia.org/resource/Prix_Nobel_de_la_paix> , <http://dbpedia.org/resource/Nobel_Peace_Prize> ;
+        skos:altLabel  "Friedens-Nobelpreis"@de , "Nobel Prize for Peace"@en , "Nobel Peace Laureate"@en , "Nobel Prize for Peace"@fr , "Nobelpreis für Frieden"@de , "Nobel Peace Laureate"@fr , "Nobel Prize for Peace"@de , "Nobel Peace Laureate"@de , "Nobel peace prize"@en , "Nobel peace prize"@de , "Nobel peace prize"@fr , "Nobel peace laureate"@en , "Nobel peace laureate"@fr , "Nobel peace laureate"@de , "Peace"@en , "Peace"@fr , "Peace"@de , "Nobel Peace Prize Winner"@en , "Nobel Peace Prize Winner"@de , "Nobel Peace Prize Winner"@fr , "Peace Prize"@en , "Peace Prize"@fr , "Peace Prize"@de , "Nobel peace"@en , "Nobel peace"@fr , "Nobel peace"@de , "Nobel prize peace"@en , "Nobel prize peace"@fr , "Nobel prize peace"@de , "Nobel de la paix"@fr , "Prix nobel de la paix"@fr , "Nobel Peace Price"@en , "Nobel Peace Price"@fr , "Prix nobel de la Paix"@fr , "Nobel Peace Price"@de , "Nobel Peace prize"@en , "Nobel Peace prize"@de , "Nobel Peace prize"@fr , "Prix Nobel de la Paix"@fr , "Peace Nobel"@en , "Peace Nobel"@fr , "Peace Nobel"@de , "Nobelpreis fur Frieden"@de , "Friedensnobelpreis"@de , "Noble Peace Prize"@en , "Noble Peace Prize"@fr , "Noble Peace Prize"@de , "Nobel Prize in Peace"@en , "Nobel Prize in Peace"@fr , "Nobel Prize in Peace"@de , "2012 Nobel Peace Prize"@en , "2012 Nobel Peace Prize"@de , "2012 Nobel Peace Prize"@fr , "Nobel Peace Prixe"@en , "Nobel Peace Prixe"@de , "Nobel Peace Prixe"@fr , "PeacE"@en , "PeacE"@fr , "PeacE"@de , "Nobel Peace"@en , "Nobel Peace"@de , "Nobel Peace"@fr , "Nobel Peace Prize"@en , "Nobel Peace Prize"@de , "Nobel Peace Prize"@fr , "Prix Nobel de la paix"@fr , "Peace Award"@en , "Peace Award"@fr , "Peace Award"@de , "2001 Nobel Peace Prize"@en , "Nobel Prize in peace"@en , "2001 Nobel Peace Prize"@fr , "2001 Nobel Peace Prize"@de , "Nobel Prize in peace"@fr , "Nobel Prize in peace"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Slobodan_Milošević__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Baghdad> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Slobodan_Milošević>
+        rdfs:label     "Slobodan Milošević"@en , "Slobodan Milošević"@fr , "Slobodan Milošević"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Slobodan_Milošević__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Slobodan_Milošević> , <http://fr.dbpedia.org/resource/Slobodan_Milošević> ;
+        skos:altLabel  "Slobodan Miloševic"@fr , "Slobodan Milochevitch"@fr , "Slobodan Milosevitch"@fr , "Slobodan Milosević"@fr , "Slobodan Milosević"@de , "Milosevic"@fr , "Milosevic"@de , "Slobodan Milosevic"@fr , "Slobodan Milosevic"@de , "Slobodan Milošević"@fr , "Milosovic"@de , "Slobodan Milošević"@de , "Milošević"@fr , "Slobo"@fr , "Slobo"@de , "Milošević"@de .
+
+<http://dbpedia.org/resource/Baghdad>
+        rdfs:label     "Baghdad"@de , "Baghdad"@fr , "Baghdad"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bagdad> , <http://fr.dbpedia.org/resource/Bagdad> ;
+        skos:altLabel  "Bhagdad"@en , "Bhagdad"@de , "Bhagdad"@fr , "Bagdad"@en , "Bagdad"@de , "Bagdad"@fr , "Baghdād, Iraq"@de , "Baghdād, Iraq"@fr , "Baghdād, Iraq"@en , "Bahgdad"@de , "Bahgdad"@fr , "Bahgdad"@en , "Baghdad, Iraq"@de , "Baghdad, Iraq"@fr , "Baghdad, Iraq"@en , "Baghdad City"@de , "Baghdad City"@fr , "Baghdad City"@en , "Baghdâd"@fr , "Baghdad"@en , "Baghdad"@de , "Baghdad"@fr , "Bagdhad"@de , "Bagdhad"@fr , "Bagdhad"@en , "Baġdād"@de , "Baġdād"@fr , "Baġdād"@en , "Round City"@en , "Round City"@de , "Round City"@fr , "Bagdat"@de , "Bagdat"@fr , "Bagdat"@en , "Capital of Iraq"@de , "Capital of Iraq"@fr , "Capital of Iraq"@en , "Baqdad"@en , "Baqdad"@de , "Baqdad"@fr , "Baghdād"@en , "Baghdād"@de , "Baghdād"@fr .

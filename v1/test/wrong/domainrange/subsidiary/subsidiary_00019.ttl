@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.019qx>
+        rdfs:label     "Borland"@en , "Borland"@fr , "Borland"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.019qx__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Borland> , <http://de.dbpedia.org/resource/Borland> , <http://fr.dbpedia.org/resource/Borland> ;
+        skos:altLabel  "INPRISE CORP"@en , "Inprise"@en , "Inprise"@fr , "Inprise"@de , "BORLAND SOFTWARE CORP"@en , "BORLAND INTERNATIONAL INC"@en , "Inc. Borland International"@en , "Inc. Borland International"@fr , "Inc. Borland International"@de , "Borland"@en , "Borland"@fr , "Borland"@de , "Borland Software Corporation"@en , "Borland Software Corporation"@fr , "Borland Software Corporation"@de , "Borland International, Inc."@en , "Borland International, Inc."@fr , "Borland International, Inc."@de , "Segue Software"@en , "Segue Software"@fr , "Segue Software"@de , "Borland International"@en , "Inprise Corporation"@en , "Borland International"@fr , "Borland International"@de , "Borland Software"@en , "Borland Software"@fr , "Borland Software"@de , "Inprise Corporation"@fr , "Inprise Corporation"@de .
+
+<http://rdf.freebase.com/ns/m.02_9ty9>
+        rdfs:label  "Guardent, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.019qx__1>
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_9ty9> ;
+        dbo:to          "1994"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bplst__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02lw7f> ;
+        dbo:from    "1989"^^xsd:gYear ;
+        dbo:to      "1989"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0bplst>
+        rdfs:label     "Simon Clark"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bplst__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Simon_Clark_(novelist)> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Simon Clark"@en .
+
+<http://rdf.freebase.com/ns/m.02lw7f>
+        rdfs:label  "The Integral Trees"@en , "The Integral Trees"@fr ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Integral_Trees> .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0dwl2__124>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.010rhw> ;
+        dbo:from             "1996"^^xsd:gYear ;
+        dbo:to               "1996"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0dwl2>
+        rdfs:label      "Valve Corporation"@en , "Valve Corporation"@fr , "Valve Corporation"@de ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0dwl2__124> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Valve_Corporation> , <http://dbpedia.org/resource/Valve_Corporation> , <http://de.dbpedia.org/resource/Valve_(Spieleentwickler)> ;
+        skos:altLabel   "Valve Corp"@de , "Valve Corp"@en , "Valve Developer Community"@fr , "Valve Corp."@fr , "Valvesoftware.com"@fr , "Valve Developer Community"@de , "Valve Developer Community"@en , "Valvesoftware"@fr , "Valve Corp."@de , "Valve Corp."@en , "Valvesoftware.com"@en , "Valvesoftware.com"@de , "Valvesoftware"@en , "Valvesoftware"@de , "Valve Incorporated"@fr , "Valve Incorporated"@de , "Valve Incorporated"@en , "Valve corporation"@fr , "Valve corporation"@en , "Valve corporation"@de , "Valve"@fr , "Valve"@en , "Valve"@de , "Valve developer community"@fr , "Valve developer community"@en , "Valve developer community"@de , "Valve, LLC"@fr , "Valve, LLC"@en , "Valve, LLC"@de , "Valve Complete Pack"@fr , "Valve Complete Pack"@de , "Valve Complete Pack"@en , "Valve Inc."@fr , "Valve Inc."@de , "Valve Inc."@en , "Valve Corporation"@fr , "Valve Corporation"@en , "Valve Corporation"@de , "Gnome Chomsky"@fr , "Gnome Chomsky"@en , "Gnome Chomsky"@de , "Valve Inc"@fr , "Valve Time"@fr , "Valve Inc"@de , "Valve Inc"@en , "Valve Time"@en , "Valve Time"@de , "Valve Software Corporation"@fr , "Valve software"@fr , "Valve software"@en , "Valve software"@de , "Steam Box"@fr , "Steam Box"@de , "Steam Box"@en , "Orange Box"@de , "Valve Software"@fr , "Valve Software"@de , "Valve Software"@en , "VALVe Software"@fr , "VALVe Software"@en , "VALVe Software"@de , "VALVe"@fr , "VALVe"@de , "VALVe"@en , "Valve Corp"@fr .
+
+<http://rdf.freebase.com/ns/m.010rhw>
+        rdfs:label     "Kirkland"@fr , "Kirkland"@de , "Kirkland"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kirkland_(Washington)> , <http://dbpedia.org/resource/Kirkland,_Washington> , <http://fr.dbpedia.org/resource/Kirkland_(Washington)> ;
+        skos:altLabel  "King County / Kirkland city"@en , "Kirkland, Washington"@fr , "Kirkland, Washington"@de , "Kirkland, Washington"@en , "Kirkland, Wa"@fr , "Kirkland, Wa"@de , "Kirkland, Wa"@en , "Totem Lake"@fr , "Totem Lake"@de , "Totem Lake"@en , "Kirkland"@fr , "Kirkland"@de , "Kirkland"@en , "LOCODE:USXHF"@fr , "Kirkland, WA"@fr , "Kirkland, WA"@de , "Kirkland, WA"@en , "LOCODE:USXHF"@de , "LOCODE:USXHF"@en .

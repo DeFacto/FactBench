@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chris_Evert>
+        rdfs:label     "Chris Evert"@fr , "Chris Evert"@de , "Chris Evert"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Evert__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Chris_Evert> , <http://de.dbpedia.org/resource/Chris_Evert> ;
+        skos:altLabel  "Christine Marie Evert"@en , "Christine Marie Evert"@fr , "Christine Marie Evert"@de , "Chris Evert-Lloyd"@en , "Christine Evert"@en , "Chris Evert-Lloyd"@fr , "Christine Evert"@fr , "Chris Evert-Lloyd"@de , "Christine Evert"@de , "Evert"@fr , "Evert"@de , "Chris Evert Lloyd"@en , "Chris Evert Lloyd"@fr , "Chris Evert Lloyd"@de , "Christine Marie \"Chris\" Evert"@en , "Christine Marie \"Chris\" Evert"@fr , "Christine Marie \"Chris\" Evert"@de , "Christine M. Evert"@en , "Chris Evert-Mill"@de , "Christine M. Evert"@fr , "Christine M. Evert"@de , "Chris Evert"@en , "Chris Evert"@fr , "Chris Evert"@de .
+
+<http://rdf.freebase.com/ns/m.0r6ff>
+        rdfs:label     "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sunnyvale> , <http://de.dbpedia.org/resource/Sunnyvale_(Kalifornien)> , <http://dbpedia.org/resource/Sunnyvale,_California> ;
+        skos:altLabel  "Sunnyvale, CA"@de , "Sunnyvale, Ca"@fr , "Sunnyvale, California"@fr , "Sunnyvale, California"@de , "Sunnyvale, Ca"@de , "Sunnyvale"@en , "Sunnyvale"@fr , "Sunnyvale"@de , "Vale"@en , "Vale"@fr , "Vale"@de , "Sunnvale"@fr , "LOCODE:USSNN"@en , "LOCODE:USSNN"@fr , "LOCODE:USSNN"@de , "Sunnyvale, CA"@en , "Sunnyvale, Ca"@en , "Sunnyvale, California"@en , "Santa Clara County / Sunnyvale city"@en , "Sunnyvale, CA"@fr .
+
+<http://dbpedia.org/resource/Chris_Evert__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0r6ff> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .

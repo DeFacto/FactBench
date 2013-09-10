@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Menachem_Begin>
+        rdfs:label     "Menachem Begin"@de , "Menachem Begin"@fr , "Menachem Begin"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Menachem_Begin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Menahem_Begin> , <http://de.dbpedia.org/resource/Menachem_Begin> ;
+        skos:altLabel  "Menachen Begin"@de , "Menachen Begin"@fr , "Menachen Begin"@en , "Menachem Begin"@de , "Menachem Begin"@fr , "Menachem Begin"@en , "Begin"@de , "Begin"@fr , "Begin"@en , "Menachim Begin"@de , "Menachim Begin"@fr , "Menachim Begin"@en , "Menachem Wolfovitch Begin"@de , "Menachem Wolfovitch Begin"@fr , "Menachem Wolfovitch Begin"@en , "Begin, Menachem Wolfovitch"@de , "Begin, Menachem Wolfovitch"@fr , "Begin, Menachem Wolfovitch"@en , "Prime Minister Begin"@de , "Prime Minister Begin"@fr , "Prime Minister Begin"@en , "Menahem"@fr , "Begin, Menachem"@de , "Begin, Menachem"@fr , "Begin, Menachem"@en , "Menahem Begin"@de , "Menahem Begin"@fr , "Menahem Begin"@en , "Menachum Begin"@de , "Menachum Begin"@fr , "Menachum Begin"@en , "Menachem"@de , "Mieczysław Biegun"@de , "Mieczysław Biegun"@fr , "Mieczysław Biegun"@en .
+
+<http://dbpedia.org/resource/Spain>
+        rdfs:label     "Spain"@de , "Spain"@fr , "Spain"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Espagne> , <http://de.dbpedia.org/resource/Spanien> ;
+        skos:altLabel  "Supein"@fr , "Subdivisions of Spain"@en , "Spanje"@en , "Subdivisions of Spain"@fr , "Subdivisions of Spain"@de , "Spanje"@fr , "Spanje"@de , "Name of Spain"@en , "Name of Spain"@fr , "Name of Spain"@de , "Espana"@fr , "Espainia"@en , "Seupein"@en , "Reino de España"@en , "Seupein"@fr , "Reino de España"@fr , "Seupein"@de , "Reino de España"@de , "Espainia"@fr , "Espainia"@de , "Espanya"@en , "Regne d'Espanha"@en , "Regne d'Espanha"@fr , "Regne d'Espanha"@de , "Regne d'Espanya"@en , "Espanya"@fr , "Regne d'Espanya"@fr , "Regne d'Espanya"@de , "Espanya"@de , "ISO 3166-1:ES"@en , "ISO 3166-1:ES"@de , "ISO 3166-1:ES"@fr , "Konigreich Spanien"@de , "The Spanish Society"@en , "The Spanish Society"@fr , "The Spanish Society"@de , "Northern Spain"@en , "España"@fr , "Northern Spain"@fr , "Northern Spain"@de , "Spanish society"@en , "Spain"@en , "Spanish society"@fr , "Spanish society"@de , "Spain"@de , "Spain"@fr , "Reino de Espana"@en , "Reino de Espana"@fr , "Reino de Espana"@de , "Old Spain"@en , "Old Spain"@fr , "Old Spain"@de , "Etymology of Spain"@en , "SPAIN"@en , "SPAIN"@de , "SPAIN"@fr , "Etymology of Spain"@fr , "Etymology of Spain"@de , "Königreich Spanien"@de , "Spane"@en , "Spane"@fr , "Spane"@de , "Esupanya"@en , "Esupanya"@fr , "Esupanya"@de , "Spanien"@de , "Spanish state"@en , "Spanish state"@de , "Spanish state"@fr , "Espainiako Erresuma"@en , "Espainiako Erresuma"@de , "Espainiako Erresuma"@fr , "Espagne"@fr , "Eseupanya"@en , "Eseupanya"@fr , "Eseupanya"@de , "Kingdom of the Spains"@en , "Kingdom of the Spains"@fr , "Kingdom of the Spains"@de , "Royaume d’Espagne"@fr , "Kingdom of Spain"@en , "Kingdom of Spain"@fr , "Kingdom of Spain"@de , "Royaume d'Espagne"@fr , "Supein"@en , "Supein"@de .
+
+<http://dbpedia.org/resource/Menachem_Begin__1>
+        dbo:from    "1977"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Spain> ;
+        dbo:to      "1983"^^xsd:gYear .

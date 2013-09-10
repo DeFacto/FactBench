@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fqnms3>
+        rdfs:label     "Ezel Akay"@en , "Ezel Akay"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Ezel_Akay> , <http://de.dbpedia.org/resource/Ezel_Akay> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Ezop"@en , "Ezel Akay"@de .
+
+<http://rdf.freebase.com/ns/m.02z16_6>
+        rdfs:label     "Şebnem Dönmez"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z16_6__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/%C5%9Eebnem_D%C3%B6nmez> ;
+        skos:altLabel  "Dönmez, Şebnem"@en , "Sebnem Donmez"@en .
+
+<http://rdf.freebase.com/ns/m.02z16_6__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0fqnms3> ;
+        dbo:to      "2010"^^xsd:gYear .

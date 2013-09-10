@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0dy6tm>
+        rdfs:label     "James Yap"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/James_Yap> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "James Yap"@en .
+
+<http://dbpedia.org/resource/Steve_Jobs__1>
+        dbo:from      "1981"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.0dy6tm> ;
+        dbo:to        "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Steve_Jobs>
+        rdfs:label     "Steve Jobs"@de , "Steve Jobs"@fr , "Steve Jobs"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Steve_Jobs__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Steve_Jobs> , <http://de.dbpedia.org/resource/Steve_Jobs> ;
+        skos:altLabel  "Steve P Jobs"@en , "Steve P Jobs"@fr , "Steve P Jobs"@de , "El jobso"@en , "El jobso"@fr , "El jobso"@de , "Remember Steve Jobs"@en , "The Steve"@en , "Remember Steve Jobs"@fr , "The Steve"@fr , "Remember Steve Jobs"@de , "The Steve"@de , "Steven P Jobs"@en , "Steven P Jobs"@fr , "Steven P Jobs"@de , "Jobs, Steve"@en , "Jobs, Steve"@fr , "Jobs, Steve"@de , "ISad"@en , "ISad"@fr , "ISad"@de , "Reality-distortion field"@en , "Reality-distortion field"@fr , "Reality-distortion field"@de , "SteveJobs"@en , "SteveJobs"@fr , "SteveJobs"@de , "ICEO"@en , "ICEO"@fr , "ICEO"@de , "Steven Paul Jobs"@en , "Steven Paul Jobs"@fr , "Steven Paul Jobs"@de , "Steve jobs effect"@en , "Steve jobs effect"@fr , "Steve jobs effect"@de , "Jobs, Steven Paul"@en , "Jobs, Steven Paul"@fr , "Jobs, Steven Paul"@de , "Steve P. Jobs"@en , "Steve P. Jobs"@fr , "Steve P. Jobs"@de , "Steven P. Jobs"@en , "Steven P. Jobs"@fr , "Steven P. Jobs"@de , "IGod"@de , "Jobs Steve"@en , "SteveyJ"@en , "Steve Jobs dies"@en , "SteveyJ"@fr , "Steve Jobs dies"@fr , "Steve Jobs dies"@de , "SteveyJ"@de , "Steven Jobs"@en , "Steve Mobbs"@en , "Jobs Steve"@fr , "Steven Jobs"@fr , "Steve Mobbs"@fr , "Jobs Steve"@de , "Steve Mobbs"@de , "Steven Jobs"@de , "Death of Steve Jobs"@en , "Death of Steve Jobs"@fr , "Death of Steve Jobs"@de , "His Steveness"@en , "His Steveness"@fr , "His Steveness"@de , "Steve Jobbs"@en , "Steve Jobbs"@fr , "Steve Jobbs"@de , "S jobs"@en , "S jobs"@fr , "S jobs"@de , "Steve Jobs"@en , "Steve Jobs"@fr , "Steeve Jobs"@fr , "Steve Jobs"@de , "Steve Job"@en , "Jobs"@en , "Steve Job"@fr , "Jobs"@de , "Steve Job"@de , "Jobs"@fr , "StevieJ"@en , "StevieJ"@fr , "StevieJ"@de , "Mr. Steve Jobs"@en , "Mr. Steve Jobs"@fr , "Mr. Steve Jobs"@de , "Stevie Jobs"@en , "Stevie Jobs"@fr , "Stevie Jobs"@de , "Steve jobs"@en , "Steve jobs"@fr , "Steve jobs"@de , "Stev Jobs"@en , "Stev Jobs"@fr , "Stev Jobs"@de , "Steve Paul Jobs"@en , "Steve Paul Jobs"@fr , "Steve Paul Jobs"@de .

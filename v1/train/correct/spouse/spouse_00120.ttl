@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.017b2p>
+        rdfs:label     "Ayumi Hamasaki"@fr , "Ayumi Hamasaki"@de , "Ayumi Hamasaki"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Ayumi_Hamasaki> , <http://de.dbpedia.org/resource/Ayumi_Hamasaki> , <http://fr.dbpedia.org/resource/Ayumi_Hamasaki> ;
+        skos:altLabel  "TeamAyu"@fr , "TeamAyu"@de , "TeamAyu"@en , "浜﨑 あゆみ"@en , "はまさき あゆみ"@en , "Ayumi"@fr , "Team Ayu"@fr , "Ayumi"@de , "はまさきくるみ"@en , "Team Ayu"@en , "Team Ayu"@de , "Ayumi"@en , "あゆ"@en , "浜崎 くるみ"@en , "Hamasaki"@fr , "Hamasaki"@de , "Hamasaki"@en , "Empress of J-Pop"@fr , "Empress of J-Pop"@de , "Empress of J-Pop"@en , "浜崎步"@en , "Team ayu"@fr , "Team ayu"@de , "Team ayu"@en , "Ayumi hamasaki"@fr , "Empress of Pop"@fr , "Empress of Pop"@de , "Empress of Pop"@en , "Ayumi hamasaki"@de , "Ayumi hamasaki"@en , "Kurumi Hamazaki"@fr , "Kurumi Hamazaki"@de , "Kurumi Hamazaki"@en , "Teamayu"@fr , "Teamayu"@en , "Teamayu"@de , "ayumi hamasaki"@en , "AYMU"@fr , "AYMU"@en , "AYMU"@de , "CREA"@en , "Hamasaki Kurumi"@fr , "Hamasaki Kurumi"@de , "Hamasaki Kurumi"@en , "Ayumi Hamazaki"@fr , "Ayumi Hamazaki"@de , "Ayumi Hamazaki"@en , "Ayumi hamasaki remixes"@fr , "Ayumi hamasaki remixes"@de , "Ayumi hamasaki remixes"@en , "Hamasaki, Ayumi"@en , "Hamazaki Ayumi"@fr , "Hamazaki Ayumi"@de , "Hamazaki Ayumi"@en , "Hamasaki Ayumi"@fr , "Hamasaki Ayumi"@de , "Hamasaki Ayumi"@en , "濱崎歩"@en , "Kurumi Hamasaki"@fr , "Kurumi Hamasaki"@de , "Kurumi Hamasaki"@en , "浜崎あゆみ"@en , "Hamazaki Kurumi"@fr , "Hamazaki Kurumi"@de , "Hamazaki Kurumi"@en , "Ayumi Hamasaki"@fr , "Ayumi Hamasaki"@de , "Ayumi Hamasaki"@en , "Ayu"@en .
+
+<http://rdf.freebase.com/ns/m.0n41fmh>
+        rdfs:label    "Manuel Schwarz"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.0n41fmh__120> .
+
+<http://rdf.freebase.com/ns/m.0n41fmh__120>
+        dbo:from    "2011-01-01"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.017b2p> ;
+        dbo:to      "2012-01-17"^^xsd:date .

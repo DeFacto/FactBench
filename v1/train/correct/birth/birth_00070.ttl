@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robbie_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Stoke-on-Trent> ;
+        dbo:from        "1974-02-13"^^xsd:date ;
+        dbo:to          "1974-02-13"^^xsd:date .
+
+<http://dbpedia.org/resource/Stoke-on-Trent>
+        rdfs:label     "Stoke-on-Trent"@de , "Stoke-on-Trent"@fr , "Stoke-on-Trent"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stoke-on-Trent> , <http://de.dbpedia.org/resource/Stoke-on-Trent> ;
+        skos:altLabel  "Lordship Lane"@fr , "Lordship Lane"@en , "Lordship Lane"@de , "Trent"@fr , "Trent"@de , "Trent"@en , "GB-STE"@de , "Stoke-On-Trent"@fr , "St John's CE (A) Primary School"@fr , "St John's CE (A) Primary School"@en , "St John's CE (A) Primary School"@de , "Stoke"@fr , "Stoke-On-Trent"@de , "Stoke"@en , "Stoke"@de , "Stoke-On-Trent"@en , "Stoke-on-Trent, Staffordshire"@fr , "Stoke-on-Trent, Staffordshire"@de , "Stoke-on-Trent, Staffordshire"@en , "Stoke On Trent"@fr , "Stoke On Trent"@en , "Stoke On Trent"@de , "Stoke, Staffordshire"@fr , "Stoke, Staffordshire"@de , "Stoke, Staffordshire"@en , "History of Stoke-on-Trent"@fr , "History of Stoke-on-Trent"@en , "History of Stoke-on-Trent"@de , "Oakhill"@fr , "Oakhill"@en , "Oakhill"@de , "Stoke Pride"@fr , "Stoke Pride"@de , "Stoke Pride"@en , "Stoke-on-rent"@fr , "Stoke-on-rent"@de , "Stoke-on-rent"@en , "City of Stoke on Trent"@fr , "County Borough of Stoke on Trent"@fr , "City of Stoke on Trent"@de , "City of Stoke on Trent"@en , "Six Towns"@fr , "County Borough of Stoke on Trent"@de , "County Borough of Stoke on Trent"@en , "Six Towns"@en , "Six Towns"@de , "Stoke-on-Trent UA"@fr , "Stoke-on-Trent UA"@de , "Stoke-on-Trent UA"@en , "Stoke-on-trent"@fr , "Stoke-on-trent"@de , "Stoke-on-trent"@en , "Stoke-on-Trent"@fr , "Stoke On Trent, England"@fr , "Stoke on Trent"@fr , "Stoke-on-Trent"@de , "Stoke on Trent"@de , "Stoke on Trent"@en , "Stoke On Trent, England"@de , "Stoke-on-Trent"@en , "Stoke On Trent, England"@en , "Stoke-on-Trent City Council"@fr , "Stoke-on-Trent City Council"@de , "Stoke-on-Trent City Council"@en , "Oakhill Primary School"@fr , "City of Stoke-on-Trent"@fr , "Oakhill Primary School"@de , "City of Stoke-on-Trent"@en , "Oakhill Primary School"@en , "City of Stoke-on-Trent"@de , "Stoke on trent"@fr , "Stoke on trent"@en , "Stoke on trent"@de , "Oakhill primary school"@fr , "Oakhill primary school"@de , "Oakhill primary school"@en .
+
+<http://dbpedia.org/resource/Robbie_Williams>
+        rdfs:label     "Robbie Williams"@fr , "Robbie Williams"@de , "Robbie Williams"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Robbie_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robbie_Williams> , <http://de.dbpedia.org/resource/Robbie_Williams> ;
+        skos:altLabel  "Robbie williams"@fr , "Robbie williams"@de , "Robbie williams"@en , "Pure Frances"@fr , "Robbie"@fr , "Rabi viliams"@fr , "Pure Frances"@de , "Rabi viliams"@de , "Pure Frances"@en , "Rabi viliams"@en , "Farrell"@fr , "Farrell"@de , "Farrell"@en , "Råbi viliams"@fr , "Robbie Williams"@fr , "Williams"@fr , "Robbie William"@fr , "Robert Peter Williams"@fr , "Williams, Robbie"@fr , "Råbi viliams"@de , "Robbie Williams"@de , "Robby Williams"@de , "Robert Peter Maximilian Williams"@de , "Robert Peter Williams"@de , "Robbie Williams"@en , "Williams, Robbie"@de , "Råbi viliams"@en , "Robert Peter Williams"@en , "Williams, Robbie"@en .

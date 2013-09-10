@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Makati>
+        rdfs:label     "Makati"@fr , "Makati"@en , "Makati"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Makati> , <http://de.dbpedia.org/resource/Makati_City> ;
+        skos:altLabel  "Comembo"@de , "Comembo"@fr , "Comembo"@en , "Makati"@de , "Makati"@fr , "Makati"@en , "The Wall Street of the Philippines"@de , "The Wall Street of the Philippines"@fr , "The Wall Street of the Philippines"@en , "Makati City, Philippines"@de , "Makati City, Philippines"@fr , "Makati City, Philippines"@en , "Magallanes village"@de , "Magallanes village"@fr , "Magallanes village"@en , "Magallanes Village"@de , "Magallanes Village"@fr , "Magallanes Village"@en , "Metro Manila's Central Business District"@de , "Metro Manila's Central Business District"@fr , "Metro Manila's Central Business District"@en , "Magallanes"@en , "Magallanes"@de , "Magallanes"@fr , "The Financial Capital of the Philippines"@de , "The Financial Capital of the Philippines"@fr , "The Financial Capital of the Philippines"@en , "Makati, Metro Manila"@en , "Makati, Metro Manila"@de , "Makati, Metro Manila"@fr , "City of Makati"@de , "City of Makati"@fr , "City of Makati"@en , "Makati city"@de , "Makati city"@fr , "Makati city"@en , "Makati City"@de , "Makati City"@fr , "Makati City"@en .
+
+<http://dbpedia.org/resource/Corazon_Aquino__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Makati> ;
+        dbo:from             "2009"^^xsd:gYear ;
+        dbo:to               "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Corazon_Aquino>
+        rdfs:label     "Corazon Aquino"@de , "Corazon Aquino"@fr , "Corazon Aquino"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Corazon_Aquino__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Corazon_Aquino> , <http://de.dbpedia.org/resource/Corazon_Aquino> ;
+        skos:altLabel  "Maria Corazon Cojuangco-Aquino"@en , "Aquino Government"@en , "Aquino Government"@de , "Aquino Government"@fr , "Maria Corazon Aquino"@en , "Maria Corazon Cojuangco-Aquino"@fr , "Maria Corazon Aquino"@fr , "Maria Corazon Cojuangco-Aquino"@de , "Maria Corazon Aquino"@de , "Corazon \"Cori\" Aquino"@en , "Cory Aquino's"@en , "Corazon Cojuangco-Aquino"@en , "Corazon \"Cori\" Aquino"@fr , "Corazon \"Cori\" Aquino"@de , "Corazon Cojuangco-Aquino"@de , "Corazon Cojuangco-Aquino"@fr , "Cory Aquino's"@de , "Cory Aquino's"@fr , "Maria Corazon Sumulong Cojuangco Aquino"@en , "Maria Corazon Sumulong Cojuangco Aquino"@de , "Maria Corazon Sumulong Cojuangco Aquino"@fr , "Maria Corazon aquino-Cojuangco"@en , "Maria Corazon aquino-Cojuangco"@fr , "Maria Corazon aquino-Cojuangco"@de , "Corazón Aquino"@en , "Corazón Aquino"@fr , "Corazón Aquino"@de , "Aquino, Corazon"@en , "Aquino, Corazon"@de , "Aquino, Corazon"@fr , "Maria Corazon Sumulong Cojuangco"@de , "Maria Corazon Sumulong Cojuangco-Aquino"@en , "Corazon Cojuangco"@en , "Corazon Cojuangco Aquino"@en , "Corazon Cojuangco Aquino"@de , "Corazon Cojuangco Aquino"@fr , "Corazón Cojuangco"@en , "Corazón Cojuangco"@de , "Corazón Cojuangco"@fr , "Maria Corazon Sumulong Cojuangco-Aquino"@fr , "Maria Corazon Sumulong Cojuangco-Aquino"@de , "Corazon Cojuangco"@de , "Corazon Cojuangco"@fr , "Corazon Aquino"@en , "Corazon Aquino"@de , "Corazon Aquino"@fr , "Aquino"@en , "Aquino"@de , "Aquino"@fr , "Corazon Cojuanco-Aquino"@en , "Corazon Cojuanco-Aquino"@fr , "Corazon Cojuanco-Aquino"@de , "Corázon Aquino"@fr , "Cory Aquino"@en , "Cory Aquino"@fr , "Cory Aquino"@de , "Corazon C. Aquino"@en , "Corazon C. Aquino"@fr , "Corazon C. Aquino"@de , "María Corazón Sumulong Cojuangco-Aquino"@en , "Cory aquino"@en , "Cory aquino"@de , "Cory aquino"@fr , "María Corazón Sumulong Cojuangco-Aquino"@de , "María Corazón Sumulong Cojuangco-Aquino"@fr , "Corizon Aquino"@en , "Corizon Aquino"@fr , "Corizon Aquino"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Richland_Center,_Wisconsin>
+        rdfs:label     "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland Center, Wisconsin"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Richland_Center_(Wisconsin)> ;
+        skos:altLabel  "Richland Center"@en , "Richland Center"@fr , "Richland Center, WI"@en , "Richland Center, WI"@fr , "LOCODE:USRLC"@fr , "LOCODE:USRLC"@en , "Richland Center, Wi"@en , "Richland Center, Wi"@fr , "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland"@en , "Richland"@fr .
+
+<http://dbpedia.org/resource/Oscar_Wilde>
+        rdfs:label     "Oscar Wilde"@de , "Oscar Wilde"@fr , "Oscar Wilde"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Oscar_Wilde__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oscar_Wilde> , <http://de.dbpedia.org/resource/Oscar_Wilde> ;
+        skos:altLabel  "Oscar Fingal O' Flahertie Wills Wilde"@de , "O Wilde"@en , "O Wilde"@de , "O Wilde"@fr , "Oscar"@en , "Oscar"@de , "Oscar"@fr , "O'Flahertie"@en , "O'Flahertie"@de , "O'Flahertie"@fr , "Oscar O'flaherty Wilde"@en , "Oscar O'flaherty Wilde"@de , "Oscar O'flaherty Wilde"@fr , "Wilde"@en , "Oscar Wild"@de , "Oscar Wild"@fr , "Oscar Wild"@en , "Wilde"@de , "Wilde"@fr , "Theocritus: a villanelle"@en , "Oscar Wilde"@en , "Theocritus: a villanelle"@de , "Theocritus: a villanelle"@fr , "Oscar Wilde"@de , "Oscar Wilde"@fr , "Oscar O'Flahertie Wills Wilde"@en , "Oscar O'Flahertie Wills Wilde"@de , "Oscar O'Flahertie Wills Wilde"@fr , "Biblio"@en , "Biblio"@de , "Biblio"@fr , "Flahertie"@en , "Oscar Fingal O’ Flahertie Wills Wilde"@de , "Flahertie"@de , "Flahertie"@fr , "Cyril Wilde"@en , "Oscar Fingal O'Flaherty Wills Wilde"@en , "Oscar Fingal O'Flaherty Wills Wilde"@de , "Oscar Fingal O'Flaherty Wills Wilde"@fr , "Cyril Wilde"@de , "Cyril Wilde"@fr , "Sebastian Melmoth"@en , "Sebastian Melmoth"@de , "Sebastian Melmoth"@fr , "Oscar wilde"@de , "Oscar wilde"@fr , "Oscar wilde"@en , "Oscar Fingal O'Flahertie Wills Wilde"@en , "Oscar Fingal O'Flahertie Wills Wilde"@de , "Oscar Fingal O'Flahertie Wills Wilde"@fr .
+
+<http://dbpedia.org/resource/Oscar_Wilde__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Richland_Center,_Wisconsin> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .

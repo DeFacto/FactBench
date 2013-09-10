@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Detroit>
+        rdfs:label     "Detroit"@de , "Detroit"@fr , "Detroit"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Detroit> , <http://fr.dbpedia.org/resource/Détroit_(Michigan)> ;
+        skos:altLabel  "Racial and Ethnic History of Detroit"@en , "Racial and Ethnic History of Detroit"@fr , "Racial and Ethnic History of Detroit"@de , "City of Detroit"@en , "Detroiters"@en , "Detroit Michigan"@en , "City of Detroit"@fr , "Detroiters"@fr , "Detroiters"@de , "Detroit Michigan"@fr , "City of Detroit"@de , "Detroit Michigan"@de , "Motor City"@en , "Motor City"@fr , "Motor City"@de , "The motor city"@en , "The motor city"@fr , "The motor city"@de , "Detroit, USA"@en , "Detroit, USA"@fr , "Detroit, USA"@de , "Motor city"@en , "Motor city"@fr , "Motor city"@de , "City of Detroit, Michigan"@en , "City of Detroit, Michigan"@fr , "City of Detroit, Michigan"@de , "Demographics of Detroit"@en , "Demographics of Detroit"@fr , "Demographics of Detroit"@de , "Detroit, Michigan"@en , "West Side Detroit"@en , "Detroit, Michigan"@fr , "West Side Detroit"@fr , "Detroit, Michigan"@de , "West Side Detroit"@de , "Détroit, Michigan"@en , "Détroit, Michigan"@fr , "Détroit, Michigan"@de , "Detroit, Michigan, USA"@en , "Detroit, Michigan, USA"@fr , "Detroit, Michigan, USA"@de , "Detroit, Michigan, U.S."@en , "Detroit, Michigan, U.S."@fr , "Detroit, Michigan, U.S."@de , "Detroit, Michigan, U.S.A."@en , "Motown, Michigan"@en , "Motown, Michigan"@fr , "Motown, Michigan"@de , "Demographic profile of Detroit"@en , "Detroit, Michigan, U.S.A."@fr , "Demographic profile of Detroit"@fr , "Demographic profile of Detroit"@de , "Detroit, Michigan, U.S.A."@de , "Detroit"@en , "Détroit"@en , "Detroit"@fr , "Détroit"@fr , "Detroit"@de , "Détroit"@de , "Detroit's Effort in the Great War"@en , "Detroit, Michigan, United States"@en , "Detroit's Effort in the Great War"@fr , "Detroit, Michigan, United States"@fr , "Detroit, Michigan, United States"@de , "Detroit's Effort in the Great War"@de , "Detroit, mi"@en , "Detroit, mi"@fr , "Detroit, mi"@de , "The weather in Detroit"@en , "The weather in Detroit"@fr , "The weather in Detroit"@de , "Demographics of Detriot"@en , "East Side Detroit"@en , "Demographics of Detriot"@fr , "East Side Detroit"@fr , "East Side Detroit"@de , "Demographics of Detriot"@de , "Détroit, MI"@en , "Detriot"@en , "The Motor City"@en , "Detroit automaker"@en , "Detroit automaker"@fr , "Detroit automaker"@de , "Détroit, MI"@fr , "Detriot"@fr , "Detriot"@de , "The Motor City"@fr , "Détroit, MI"@de , "The Motor City"@de , "The 3-1-3"@en , "The 3-1-3"@fr , "The 3-1-3"@de , "The 313"@en , "The 313"@fr , "The 313"@de , "Detroit MI"@en , "Detroit MI"@fr , "Detroit MI"@de , "Detroit, MI"@en , "Detroit, MI"@fr , "Detroit, MI"@de , "LOCODE:USDET"@en , "LOCODE:USDET"@de , "LOCODE:USDET"@fr , "Detroit, Michigan, US"@en , "Detroit, Michigan, US"@fr , "Detroit, Michigan, US"@de .
+
+<http://dbpedia.org/resource/Dean_Martin__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Detroit> ;
+        dbo:from        "2009"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dean_Martin>
+        rdfs:label     "Dean Martin"@en , "Dean Martin"@fr , "Dean Martin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dean_Martin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dean_Martin> , <http://de.dbpedia.org/resource/Dean_Martin> ;
+        skos:altLabel  "Dean"@fr , "Dino Crocetti"@en , "Dino Crocetti"@fr , "Dino Crocetti"@de , "Martin"@fr , "Dean Martin"@en , "Dino Martini"@en , "Dean Martin"@fr , "Dean Martin"@de , "Dino Martini"@fr , "Dino Martini"@de , "Dino Martin"@en , "Dino Paul Crocetti"@en , "Dino Paul Crocetti"@fr , "Dino Paul Crocetti"@de , "Dino Martin"@fr , "Dino Martin"@de , "Martin, Dean"@en , "Martin, Dean"@fr , "Martin, Dean"@de .

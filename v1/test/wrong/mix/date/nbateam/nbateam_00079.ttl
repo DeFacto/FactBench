@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jason_Richardson>
+        rdfs:label     "Jason Richardson"@de , "Jason Richardson"@en , "Jason Richardson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jason_Richardson__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jason_Richardson> , <http://fr.dbpedia.org/resource/Jason_Richardson> ;
+        skos:altLabel  "J Rich"@en , "Jason Anthoney (J-Rich) Richardson"@en , "J Rich"@fr , "Jason Anthoney (J-Rich) Richardson"@fr , "J Rich"@de , "Jason Anthoney (J-Rich) Richardson"@de , "J-Rich"@en , "Jason Richardson"@en , "J-Rich"@fr , "Jason Richardson"@fr , "Jason Richardson"@de , "J-Rich"@de , "Richardson"@fr , "Jason Anthoney \"J-Rich\" Richardson"@en , "Jason Anthoney \"J-Rich\" Richardson"@fr , "Jason Anthoney \"J-Rich\" Richardson"@de , "Jason Anthoney Richardson"@en , "Jason Anthoney Richardson"@fr , "Jason Anthoney Richardson"@de .
+
+<http://dbpedia.org/resource/Jason_Richardson__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Phoenix_Suns> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Phoenix_Suns>
+        rdfs:label     "Phoenix Suns"@en , "Phoenix Suns"@fr , "Phoenix Suns"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Suns_de_Phoenix> , <http://de.dbpedia.org/resource/Phoenix_Suns> ;
+        skos:altLabel  "Phx suns"@en , "Phx suns"@fr , "Phx suns"@de , "Suns de Phoenix"@fr , "Phoenix suns"@en , "Phoenix Suns"@en , "Phoenix suns"@fr , "Phoenix suns"@de , "Phoenix Suns"@de , "Phoenix Suns"@fr , "Phoenix"@fr , "Suns"@en , "Suns"@fr , "Suns"@de , "Phoenix Suns roster"@en , "Phoenix Suns roster"@fr , "Phoenix Suns roster"@de , "Arizona suns"@en , "Arizona suns"@fr , "Arizona suns"@de , "Suns de phoenix"@fr .

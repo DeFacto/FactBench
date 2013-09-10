@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014ps4>
+        rdfs:label     "Gene Wolfe"@en , "Gene Wolfe"@fr , "Gene Wolfe"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.014ps4__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gene_Wolfe> , <http://de.dbpedia.org/resource/Gene_Wolfe> , <http://fr.dbpedia.org/resource/Gene_Wolfe> ;
+        skos:altLabel  "Gene wlfe"@en , "Gene wlfe"@fr , "Gene wlfe"@de , "Gene Rodman Wolfe"@en , "Wolfe"@de , "Wolfe"@fr , "Gene wolfe"@en , "Gene wolfe"@fr , "Gene wolfe"@de , "Gene wolf"@en , "Gene wolf"@fr , "Gene wolf"@de , "Gene Wolfe"@en , "Gene Wolfe"@fr , "Gene Wolfe"@de , "Gene Wolf"@fr .
+
+<http://dbpedia.org/resource/Northampton,_Massachusetts>
+        rdfs:label     "Northampton, Massachusetts"@en , "Northampton, Massachusetts"@fr , "Northampton, Massachusetts"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Northampton_(Massachusetts)> , <http://fr.dbpedia.org/resource/Northampton_(Massachusetts)> ;
+        skos:altLabel  "Northampton"@fr , "Northampton"@de , "Northampton, MA"@en , "Northampton, MA"@fr , "Northampton, MA"@de , "Lesbianville"@en , "Lesbianville"@fr , "Lesbianville"@de , "Northhampton, Massachusetts"@en , "Northhampton, Massachusetts"@fr , "Northhampton, Massachusetts"@de , "LOCODE:USNHM"@en , "LOCODE:USNHM"@fr , "LOCODE:USNHM"@de , "Northhampton, MA"@en , "Northhampton, MA"@fr , "Northhampton, MA"@de , "Northampton massachusetts"@en , "Northampton, ma"@en , "Northampton, ma"@fr , "Northampton, ma"@de , "Northampton, Massachusetts"@en , "Northampton massachusetts"@fr , "Northampton, Massachusetts"@fr , "Northampton massachusetts"@de , "Northampton, Massachusetts"@de , "North Hampton, Massachusetts"@en , "North Hampton, Massachusetts"@fr , "North Hampton, Massachusetts"@de , "Northampton"@en .
+
+<http://rdf.freebase.com/ns/m.014ps4__1>
+        dbo:award  <http://dbpedia.org/resource/Northampton,_Massachusetts> ;
+        dbo:from   "1922"^^xsd:gYear ;
+        dbo:to     "1922"^^xsd:gYear .

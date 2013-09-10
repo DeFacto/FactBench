@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0202l6>
+        rdfs:label     "Tony Parker"@en , "Tony Parker"@fr , "Tony Parker"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0202l6__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tony_Parker> , <http://de.dbpedia.org/resource/Tony_Parker> , <http://dbpedia.org/resource/Tony_Parker> ;
+        skos:altLabel  "Tony Parker"@fr , "Tony parker"@fr , "Tony"@de , "Parker, Tony"@en , "T. P."@en , "Alexandra paressant"@en , "Alexandra paressant"@fr , "Alexandra paressant"@de , "Alexandra Paressant"@en , "William Anthony Parker"@en , "Alexandra Paressant"@fr , "Alexandra Paressant"@de , "William Anthony \"Tony\" Parker Jr."@en , "Tony P"@en , "Parker"@en , "Parker"@fr , "Parker"@de , "Tony Parker"@en , "Tony Parker"@de .
+
+<http://rdf.freebase.com/ns/m.0202l6__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.02hk_k> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02hk_k>
+        rdfs:label     "Footfall"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Footfall> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Footfall"@en , "Fithp"@en .

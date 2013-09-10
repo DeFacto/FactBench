@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/2012_(film)>
+        rdfs:label      "2012 (film)"@en , "2012 (film)"@fr , "2012 (film)"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/2012_(film)__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/2012_(Film)> , <http://fr.dbpedia.org/resource/2012_(film)> ;
+        skos:altLabel   "Institute for Human Continuity"@fr , "Institute for Human Continuity"@de , "Institute for Human Continuity"@en , "The Institute for Human Continuity"@fr , "The Institute for Human Continuity"@de , "The Institute for Human Continuity"@en , "2012 film"@fr , "2012 film"@de , "2012 film"@en , "2012 movie"@fr , "2012 movie"@de , "2012 movie"@en , "Charlie Frost"@fr , "Charlie Frost"@de , "Charlie Frost"@en .
+
+<http://dbpedia.org/resource/2012_(film)__1>
+        dbo:from      "2009-11-13"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Oliver_Platt> ;
+        dbo:to        "2009-11-13"^^xsd:date .
+
+<http://dbpedia.org/resource/Oliver_Platt>
+        rdfs:label     "Oliver Platt"@en , "Oliver Platt"@fr , "Oliver Platt"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Oliver_Platt> , <http://fr.dbpedia.org/resource/Oliver_Platt> ;
+        skos:altLabel  "Oliver Platt"@fr , "Oliver Platt"@de , "Oliver Platt"@en , "Platt"@de , "Platt"@fr .

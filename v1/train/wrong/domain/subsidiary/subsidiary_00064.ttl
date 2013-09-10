@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01yxhy>
+        rdfs:label     "Norfolk Southern Railway"@en , "Norfolk Southern Railway"@de , "Norfolk Southern"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01yxhy__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Norfolk_Southern> , <http://dbpedia.org/resource/Norfolk_Southern_Railway> , <http://de.dbpedia.org/resource/Norfolk_Southern_Railway> ;
+        skos:altLabel  "Norfolk"@fr , "Norfolk"@de , "Southern Railway"@fr , "Southern Railway"@de , "Norfolk Southern"@en , "Norfolk Southern"@fr , "Norfolk Southern"@de , "Norfolk southern"@en , "Norfolk Southern Rail Corporation"@en , "Norfolk Southern Combined Railroad Subsidiaries"@en , "Norfolk southern"@fr , "Norfolk Southern Combined Railroad Subsidiaries"@fr , "Norfolk Southern Combined Railroad Subsidiaries"@de , "Norfolk Southern Rail Corporation"@fr , "Norfolk southern"@de , "Norfolk Southern Rail Corporation"@de , "Norfolk Southern Railway"@en , "Norfolk Southern Railway"@fr , "Norfolk Southern Railway"@de , "Norfolk Souhthern"@fr , "NS Railway"@en , "NS Railway"@fr , "NS Railway"@de , "Norfolk"@en , "Southern Railway"@en .
+
+<http://rdf.freebase.com/ns/m.01yxhy__1>
+        dbo:from        "2002"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03lpbx> ;
+        dbo:to          "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03lpbx>
+        rdfs:label     "Fox Kids"@en , "Fox Kids"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Fox_Kids> , <http://fr.dbpedia.org/resource/Fox_Kids> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Foxkids"@en , "Fox Kids"@en , "Fox Kids"@fr , "Foxkids"@fr , "Fox Kids Magazine"@en , "Fox Kids Magazine"@fr , "Fox Kids Weekday Block"@en , "Fox Kids Weekday Block"@fr , "Fox Kids Video"@en , "Fox Kids Video"@fr , "Fox kids"@fr , "FOX Kids"@en , "The Fox Kids Network"@en , "Fox Children's Network"@en , "FOX Kids"@fr , "The Fox Kids Network"@fr , "Fox Children's Network"@fr , "FOX kids"@en , "FOX kids"@fr , "Fox Kids Network"@en , "Fox Kids Network"@fr .

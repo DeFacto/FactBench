@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01t6yw__1>
+        dbo:author  <http://dbpedia.org/resource/Charlotte_Bobcats> ;
+        dbo:from    "1959"^^xsd:gYear ;
+        dbo:to      "1960"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlotte_Bobcats>
+        rdfs:label     "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bobcats_de_Charlotte> , <http://de.dbpedia.org/resource/Charlotte_Bobcats> ;
+        skos:altLabel  "Bobcat"@de , "Bobcats de Charlotte"@fr , "Charlotte Flight"@en , "Charlotte Flight"@de , "Charlotte Flight"@fr , "Bobcats de charlotte"@fr , "Charlotte Bobcats"@en , "Charlotte Bobcats"@fr , "Charlotte Bobcats"@de , "Bobcats De Charlotte"@fr , "Bobcat"@en , "Bobcat"@fr .
+
+<http://rdf.freebase.com/ns/m.01t6yw>
+        rdfs:label     "Eugenio Montale"@en , "Eugenio Montale"@fr , "Eugenio Montale"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01t6yw__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Eugenio_Montale> , <http://de.dbpedia.org/resource/Eugenio_Montale> , <http://fr.dbpedia.org/resource/Eugenio_Montale> ;
+        skos:altLabel  "Cima"@en , "Cima"@fr , "Cima"@de , "Montale"@en , "Montale"@fr , "Montale"@de , "Eugene Montale"@en , "Eugene Montale"@fr , "Eugene Montale"@de , "Eugenio"@en , "Annalisa Cima"@en , "Eugenio"@fr , "Annalisa Cima"@fr , "Eugenio"@de , "Annalisa Cima"@de , "Eugenio Montale"@en , "Eugenio Montale"@fr , "Eugenio Montale"@de .

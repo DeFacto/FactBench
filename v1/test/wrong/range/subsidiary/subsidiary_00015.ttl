@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07_dn__1>
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03bqstn> ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07_dn>
+        rdfs:label     "Verizon Communications"@de , "Verizon Communications"@fr , "Verizon Communications"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07_dn__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Verizon_Communications> , <http://fr.dbpedia.org/resource/Verizon_Communications> , <http://dbpedia.org/resource/Verizon_Communications> ;
+        skos:altLabel  "Verizon.com"@en , "Verizon.com"@de , "Verizon.com"@fr , "Verizon"@en , "Verizon"@de , "Verizon"@fr , "Verizon Internet Services"@en , "Verizon Internet Services"@de , "Verizon Internet Services"@fr , "Bell Atlantic"@en , "Bell Atlantic"@fr , "Bell Atlantic"@de , "BELL ATLANTIC CORP"@en , "Verizon ringtones"@en , "Verizon Internet Services Inc"@en , "Verizon Communications Incorporated"@en , "Verizon Internet Services Inc"@fr , "Verizon Internet Services Inc"@de , "Verizon Communications Incorporated"@de , "Verizon ringtones"@de , "Verizon ringtones"@fr , "Verizon Communications Incorporated"@fr , "Verizon VoiceWing"@en , "Verizon Communications Inc."@en , "Verizon Communications Inc."@de , "Verizon Communications Inc."@fr , "Verizon VoiceWing"@fr , "Verizon VoiceWing"@de , "GTE Operating Companies"@en , "GTE Operating Companies"@fr , "GTE Operating Companies"@de , "Verizon Communications"@en , "GTE operating companies"@en , "Verizon Communications"@fr , "GTE operating companies"@de , "GTE operating companies"@fr , "Verizon Communications"@de , "VERIZ"@en , "Verizon Communications Inc"@en , "VERIZ"@fr , "VERIZ"@de , "Verison"@en , "Verison"@fr , "Verison"@de , "Verizon Communications, Inc."@en , "Verizon Communications, Inc."@de , "Verizon Communications, Inc."@fr , "GTE-Sylvania"@en , "GTE-Sylvania"@de , "GTE-Sylvania"@fr , "Verizon Plus"@en , "Verizon Plus"@fr , "Verizon Plus"@de , "Template:Verizon Spinoffs"@en , "Template:Verizon Spinoffs"@de , "Template:Verizon Spinoffs"@fr , "Verizon Internet Services Inc."@en , "Verizon Internet Services Inc."@fr , "Verizon Internet Services Inc."@de , "VeriZon"@en , "VeriZon"@de , "VeriZon"@fr , "Verizon.net"@en , "Verizon.net"@fr , "Verizon.net"@de , "NYSE:VZ"@en , "NYSE:VZ"@de , "NYSE:VZ"@fr , "Verizon services"@en , "Verizon services"@de , "Verizon services"@fr .
+
+<http://rdf.freebase.com/ns/m.03bqstn>
+        rdfs:label  "StoreAge Networking Technologies"@en .

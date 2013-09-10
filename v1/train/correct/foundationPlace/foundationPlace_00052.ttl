@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Helmi_Technologies>
+        skos:altLabel  "Helmi Technologies"@en , "Helmi"@en .
+
+<http://rdf.freebase.com/ns/m.01dnlr>
+        rdfs:label     "Oulu"@de , "Oulu"@en , "Oulu"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Oulu> , <http://de.dbpedia.org/resource/Oulu> , <http://fr.dbpedia.org/resource/Oulu> ;
+        skos:altLabel  "LOCODE:FIOUL"@fr , "LOCODE:FIOUL"@de , "LOCODE:FIOUL"@en , "Barony of Oulu"@fr , "Barony of Oulu"@de , "Barony of Oulu"@en , "Uleaborg"@fr , "Oulu, Finland"@fr , "Oulu"@fr , "Uleåborg"@fr , "Uleaborg"@de , "Oulu"@de , "Uleaborg"@en , "Oulu"@en , "Uleåborg"@de , "Uleåborg"@en , "LOCODE:FIOLU"@fr , "Oulu, Finland"@de , "LOCODE:FIOLU"@de , "Oulu, Finland"@en , "LOCODE:FIOLU"@en , "Oulo"@fr , "Oulo"@de , "Oulo"@en .
+
+<http://rdf.freebase.com/ns/m.0kqsmz>
+        rdfs:label      "Helmi Technologies"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0kqsmz__52> ;
+        owl:sameAs      <http://dbpedia.org/resource/Helmi_Technologies> .
+
+<http://rdf.freebase.com/ns/m.0kqsmz__52>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01dnlr> ;
+        dbo:from             "1996"^^xsd:gYear ;
+        dbo:to               "1996"^^xsd:gYear .

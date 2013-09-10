@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02r4_fd__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0161c2> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0161c2>
+        rdfs:label     "Avril Lavigne"@de , "Avril Lavigne"@fr , "Avril Lavigne"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Avril_Lavigne> , <http://de.dbpedia.org/resource/Avril_Lavigne> , <http://fr.dbpedia.org/resource/Avril_Lavigne> ;
+        skos:altLabel  "Avril"@en , "Avril"@fr , "Avril"@de , "Lavigne"@en , "Lavigne"@de , "Lavigne"@fr , "Avril Whibley"@en , "Skater girl"@en , "Black Star"@en , "Skater girl"@fr , "Black Star"@de , "Black Star"@fr , "Skater girl"@de , "Avril Whibley"@fr , "Avril Whibley"@de , "Avril Lavgine"@en , "Avril Lavine"@en , "Avril Lavgine"@fr , "Avril Lavgine"@de , "Avril Lavigne-Whibley"@en , "Avril Lavine"@fr , "Avril Lavine"@de , "Avril Lavigne-Whibley"@fr , "Avril Lavigne-Whibley"@de , "Lavigne, Avril"@en , "Lavigne, Avril"@fr , "Lavigne, Avril"@de , "Showtime"@en , "Avril Lavigne Whibley"@en , "Showtime"@fr , "Avril Lavigne Whibley"@fr , "Avril Lavigne Whibley"@de , "Showtime"@de , "Averil Lavigne"@en , "Averil Lavigne"@fr , "Averil Lavigne"@de , "Awards and Nominations earned by Avril Lavigne"@en , "Awards and Nominations earned by Avril Lavigne"@fr , "Awards and Nominations earned by Avril Lavigne"@de , "Avrillavigne.com"@en , "Avrillavigne.com"@fr , "Avrillavigne.com"@de , "April Lavigne"@en , "April Lavigne"@de , "April Lavigne"@fr , "Whibley"@en , "Whibley"@de , "Whibley"@fr , "Avril lavine"@en , "Avril lavine"@fr , "Avril lavine"@de , "Avril lagvine"@en , "Avril lagvine"@de , "Avril lagvine"@fr , "Avril Lavigne"@en , "Avril Lavigne"@fr , "Avril Lavigne"@de , "Arvil lavigne"@en , "Pink Crust"@fr , "Arvil lavigne"@de , "Arvil lavigne"@fr , "Avril Lavinge"@en , "Avril Lavinge"@de , "Avril Lavinge"@fr , "Avril Ramona Lavigne"@en , "Avril Ramona Lavigne"@de , "Avril Ramona Lavigne"@fr , "Avril Ramona Lavigne Whibley"@en , "Avril Ramona Lavigne Whibley"@fr , "Avril Ramona Lavigne Whibley"@de , "avril  lavigne"@en , "Avril Lavene"@en , "Avril Lavene"@de , "Avril Lavene"@fr , "Avril lavigne"@en , "Avril lavigne"@de , "Avril lavigne"@fr , "List of Avril Lavigne's Concert Tours"@en , "List of Avril Lavigne's Concert Tours"@de , "List of Avril Lavigne's Concert Tours"@fr , "avril_lavigne"@en .
+
+<http://rdf.freebase.com/ns/m.02r4_fd>
+        rdfs:label     "Stephen Dunham"@en , "Stephen Dunham"@fr , "Stephen Dunham"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02r4_fd__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Stephen_Dunham> , <http://dbpedia.org/resource/Stephen_Dunham> , <http://fr.dbpedia.org/resource/Stephen_Dunham> ;
+        skos:altLabel  "Stephen Dunham"@fr , "Stephen Dunham"@de , "Stephen Dunham Bowers"@en , "Dunham"@de , "Stephen Bowers"@en .

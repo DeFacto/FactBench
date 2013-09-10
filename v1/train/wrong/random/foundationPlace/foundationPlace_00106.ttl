@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hidden_Hills,_California>
+        rdfs:label     "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hidden_Hills> , <http://de.dbpedia.org/resource/Hidden_Hills> ;
+        skos:altLabel  "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de , "Hidden hills california"@en , "Hidden hills california"@fr , "Hidden hills california"@de , "Hidden Hills, CA"@en , "Hidden Hills, CA"@de , "Hidden Hills, CA"@fr , "Hidden Hills"@fr , "Hidden Hills"@de .
+
+<http://dbpedia.org/resource/Clark_Gable__1>
+        dbo:from    "1985"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Hidden_Hills,_California> ;
+        dbo:to      "1985"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Clark_Gable>
+        rdfs:label     "Clark Gable"@en , "Clark Gable"@fr , "Clark Gable"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Clark_Gable__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Clark_Gable> , <http://fr.dbpedia.org/resource/Clark_Gable> ;
+        skos:altLabel  "Clark Gable"@en , "Clark Gable"@fr , "Clark Gable"@de , "Gable, Clark"@en , "Gable, Clark"@fr , "Gable, Clark"@de , "Clarke Gable"@en , "Clarke Gable"@fr , "Clarke Gable"@de , "William Clark Gable"@de , "Clark"@en , "Clark"@fr , "Clark"@de , "Gable"@en , "Gable"@fr , "Gable"@de .

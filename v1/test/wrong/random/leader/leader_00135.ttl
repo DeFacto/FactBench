@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01pnn3>
+        rdfs:label     "Elizabeth Hurley"@en , "Elizabeth Hurley"@fr , "Elizabeth Hurley"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Elizabeth_Hurley> , <http://de.dbpedia.org/resource/Elizabeth_Hurley> , <http://fr.dbpedia.org/resource/Elizabeth_Hurley> ;
+        skos:altLabel  "Arun Nayar"@de , "Elisabeth hurley"@fr , "Hurley"@fr , "Hurley"@de , "Liz Hurley"@en , "Liz Hurley"@fr , "Liz Hurley"@de , "Elizabeth Jane Hurley"@en , "Elizabeth Jane Hurley"@fr , "Elizabeth Jane Hurley"@de , "Elizabeth Hurley"@en , "Elizabeth Hurley"@fr , "Elizabeth Hurley"@de , "Liz"@en , "Arun Nayar"@en , "Elisabeth hurley"@en , "Arun Nayar"@fr , "Elisabeth hurley"@de .
+
+<http://rdf.freebase.com/ns/m.01zmb8>
+        rdfs:label     "Angela Carter"@en , "Angela Carter"@fr , "Angela Carter"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zmb8__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Angela_Carter> , <http://dbpedia.org/resource/Angela_Carter> , <http://de.dbpedia.org/resource/Angela_Carter> ;
+        skos:altLabel  "Angela Olive Stalker Carter"@en , "Angela Carter"@en , "Angela Carter"@fr , "Angela Carter"@de , "Angela Olive Stalker"@en .
+
+<http://rdf.freebase.com/ns/m.01zmb8__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01pnn3> ;
+        dbo:from    "1956"^^xsd:gYear ;
+        dbo:to      "1957"^^xsd:gYear .

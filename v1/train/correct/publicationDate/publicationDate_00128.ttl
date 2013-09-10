@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05_qg>
+        rdfs:label       "Peter F. Hamilton"@en , "Peter F. Hamilton"@de , "Peter F. Hamilton"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.03y2kc__128> ;
+        owl:sameAs       <http://dbpedia.org/resource/Peter_F._Hamilton> , <http://de.dbpedia.org/resource/Peter_F._Hamilton> , <http://fr.dbpedia.org/resource/Peter_F._Hamilton> ;
+        skos:altLabel    "Peter F. Hamilton"@fr , "Peter F. Hamilton"@de , "Peter F. Hamilton"@en , "Peter f hamilton"@fr , "Peter f hamilton"@de , "Peter f hamilton"@en , "Peter F Hamilton"@fr , "Peter F Hamilton"@de , "Peter F Hamilton"@en , "Peter f. hamilton"@fr , "Armageddon-Zyklus"@de , "Hamilton"@fr , "Peter Hamilton"@de , "Peter f. hamilton"@de , "Peter f. hamilton"@en , "Peter Hamilton"@en .
+
+<http://rdf.freebase.com/ns/m.03y2kc__128>
+        dbo:author  <http://rdf.freebase.com/ns/m.03y2kc> ;
+        dbo:from    "1997"^^xsd:gYear ;
+        dbo:to      "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03y2kc>
+        rdfs:label     "The Neutronium Alchemist"@en , "L'Alchimiste du Neutronium"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Neutronium_Alchemist> , <http://fr.dbpedia.org/resource/L'Alchimiste_du_Neutronium> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "The Neutronium Alchemist"@fr , "Alchemist"@fr , "L'alchimiste du neutronium"@fr , "L'Alchimiste Du Neutronium"@fr , "L'Alchimiste du Neutronium"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.084nh__1>
+        dbo:from      "1998"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.05fmy> ;
+        dbo:to        "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05fmy>
+        rdfs:label     "Prix Nobel de chimie"@fr , "Nobel Prize in Chemistry"@en , "Nobelpreis für Chemie"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Prix_Nobel_de_chimie> , <http://dbpedia.org/resource/Nobel_Prize_in_Chemistry> , <http://de.dbpedia.org/resource/Nobelpreis_für_Chemie> ;
+        skos:altLabel  "Nobelpriset i kemi"@en , "Nobelpriset i kemi"@de , "Nobelpriset i kemi"@fr , "Nobel Prize for chemistry"@en , "Nobel Prize for chemistry"@de , "Nobel Prize for chemistry"@fr , "Nobel prize of Chemistry"@de , "Nobel prize of Chemistry"@fr , "Nobel prize of Chemistry"@en , "Chemienobelpreis"@de , "Prix Nobel de chimie"@fr , "Chemie-Nobelpreis"@de , "Nobelpreis für Chemie"@de , "Nobelpreis fur Chemie"@de , "Nobel prize chemistry"@en , "Nobel prize chemistry"@de , "Nobel prize chemistry"@fr , "Nobel Prize in chemistry"@de , "Nobel Prize in chemistry"@fr , "Nobel Prize in chemistry"@en , "Nobel prize in Chemistry"@en , "Nobel prize in Chemistry"@fr , "Nobel prize in Chemistry"@de , "ChemistrY"@en , "Nobel Prize for Chemistry"@en , "Nobel Prize for Chemistry"@de , "Nobel Prize for Chemistry"@fr , "Chemistry"@de , "Chemistry"@fr , "Chemistry"@en , "Nobel prize for chemistry"@de , "Nobel prize for chemistry"@fr , "ChemistrY"@de , "ChemistrY"@fr , "Prix nobel de chimie"@fr , "Nobel prize for chemistry"@en , "Prix Nobel de Chimie"@fr , "Nobel Prize in Chemistry"@de , "Nobel Prize in Chemistry"@fr , "Nobel Prize in Chemistry"@en , "Nobel prize in chemistry"@de , "Nobel prize in chemistry"@fr , "Nobel prize in chemistry"@en .
+
+<http://rdf.freebase.com/ns/m.084nh>
+        rdfs:label     "William Butler Yeats"@de , "William Butler Yeats"@fr , "William Butler Yeats"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.084nh__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_Butler_Yeats> , <http://de.dbpedia.org/resource/William_Butler_Yeats> , <http://dbpedia.org/resource/W._B._Yeats> ;
+        skos:altLabel  "W. B. Yeats in popular culture"@en , "W. B. Yeats in popular culture"@de , "W. B. Yeats in popular culture"@fr , "The Wind Among the Reeds"@en , "The Wind Among the Reeds"@de , "The Wind Among the Reeds"@fr , "William Butler Yeats"@en , "William Butler Yeats"@de , "William Butler Yeats"@fr , "W. B. (William Butler) Yeats"@en , "W.B.Yeats"@en , "W.B.Yeats"@de , "W.B.Yeats"@fr , "William Yeats"@en , "William Yeats"@de , "William Yeats"@fr , "Butler Yeats"@en , "Butler Yeats"@de , "Butler Yeats"@fr , "Secret Rose"@en , "W.B. Yeats"@en , "Secret Rose"@de , "Secret Rose"@fr , "W.B. Yeats"@de , "W.B. Yeats"@fr , "Strand"@en , "Strand"@de , "Strand"@fr , "William B Yeats"@en , "William B Yeats"@de , "William B Yeats"@fr , "William Butler"@en , "William Butler"@de , "William Butler"@fr , "W. B. Yeats"@en , "W. B. Yeats"@fr , "W. B. Yeats"@de , "On Baile's Strand"@en , "On Baile's Strand"@de , "On Baile's Strand"@fr , "The Secret Rose"@en , "The Secret Rose"@de , "The Secret Rose"@fr , "Yeats"@en , "Yeats"@de , "Yeats"@fr , "Wb yeats"@en , "Wb yeats"@de , "Wb yeats"@fr , "W B Yeats"@en , "W B Yeats"@fr , "W B Yeats"@de , "WB Yeats"@en , "WB Yeats"@de , "WB Yeats"@fr , "William B. Yeats"@en , "William B. Yeats"@de , "William B. Yeats"@fr , "Yeats, William Butler"@en .

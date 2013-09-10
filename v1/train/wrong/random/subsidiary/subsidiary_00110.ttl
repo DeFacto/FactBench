@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kanye_West>
+        rdfs:label     "Kanye West"@de , "Kanye West"@fr , "Kanye West"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kanye_West__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kanye_West> , <http://de.dbpedia.org/resource/Kanye_West> ;
+        skos:altLabel  "Donda West"@fr , "Donda West"@de , "Kanye West biography"@en , "Pastelle Clothing"@en , "Kanye West biography"@fr , "Pastelle Clothing"@fr , "Kanye West biography"@de , "Pastelle Clothing"@de , "Kanye"@en , "Kanye"@de , "Kanye"@fr , "Kayne West"@en , "LVs & Autotune"@en , "LVs & Autotune"@fr , "LVs & Autotune"@de , "Kayne West"@fr , "Kayne West"@de , "Kanye West"@en , "Kanye West"@de , "Kanye West"@fr , "Kanie West"@en , "Yeezy"@en , "Lil' Kanye West"@en , "Kanye Omari"@en , "Kanie West"@fr , "Lil' Kanye West"@de , "Lil' Kanye West"@fr , "Kanye Omari"@de , "Kanye Omari"@fr , "Yeezy"@de , "Yeezy"@fr , "Kanie West"@de , "West"@fr , "KanYe West"@en , "KanYe West"@de , "KanYe West"@fr , "Past Tell Clothing"@en , "Past Tell Clothing"@de , "Past Tell Clothing"@fr , "Dropout Bear"@en , "Dropout Bear"@de , "Dropout Bear"@fr , "Kanje West"@en , "Kanje West"@de , "Kanje West"@fr , "Kanye west"@en , "Kanye west"@fr , "Kanye west"@de , "Universecity"@en , "Universecity"@de , "Universecity"@fr , "Kanyeezy"@en , "Kanyeezy"@de , "Kanyeezy"@fr , "Kanyewest"@en , "Kanyewest"@fr , "Kanyewest"@de , "Pastel Clothing"@en , "Pastel Clothing"@de , "Pastel Clothing"@fr , "Kanye west sounds"@en , "Kanye Omari West"@en , "Kanye Omari West"@fr , "Kanye Omari West"@de , "Kanye west sounds"@fr , "Kanye west sounds"@de , "KanYeWest"@en , "KanYeWest"@fr , "KanYeWest"@de , "Donda West"@en .
+
+<http://dbpedia.org/resource/Kanye_West__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Norway> ;
+        dbo:to      "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Norway>
+        rdfs:label     "Norway"@en , "Norway"@de , "Norway"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norwegen> , <http://fr.dbpedia.org/resource/Norvège> ;
+        skos:altLabel  "Noregur"@en , "Noregur"@de , "Noregur"@fr , "Norwegian kingdom"@en , "Norvegienne"@fr , "Norwegian kingdom"@de , "Norwegian kingdom"@fr , "Norvégienne"@fr , "Royaume de Norvege"@fr , "Norwegen"@en , "Norwegen"@fr , "Norwegen"@de , "Norwegia"@en , "Norge"@de , "Norge"@fr , "Royal Kingdom of Norway"@en , "Norwegia"@fr , "Royal Kingdom of Norway"@de , "Royal Kingdom of Norway"@fr , "Norwegia"@de , "Norvége"@fr , "Norwegische Literatur"@de , "Kongeriket Norge"@en , "NORWAY"@en , "NORWAY"@de , "Kongeriket Norge"@de , "Kongeriket Norge"@fr , "NORWAY"@fr , "Etymology of Norway"@en , "Etymology of Norway"@de , "Etymology of Norway"@fr , "Norvege"@en , "Norvege"@de , "Norvege"@fr , "Royaume de Norvège"@fr , "Noreg"@fr , "Nore"@fr , "Noorwegen"@en , "Noorwegen"@de , "Noorwegen"@fr , "Norwegian state"@en , "Norwegian state"@de , "Norwegian state"@fr , "Konigreich Norwegen"@de , "ISO 3166-1:NO"@en , "ISO 3166-1:NO"@de , "ISO 3166-1:NO"@fr , "Noruega"@en , "Noruega"@de , "Noruega"@fr , "Norway"@en , "Norway"@fr , "Norway"@de , "Königreich Norwegen"@de , "Kongeriket Noreg"@en , "Kongeriket Noreg"@fr , "Kongeriket Noreg"@de , "Norvège"@en , "Norvège"@de , "Norvège"@fr .

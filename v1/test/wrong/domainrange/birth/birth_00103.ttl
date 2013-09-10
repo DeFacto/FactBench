@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tim_Henman>
+        rdfs:label     "Tim Henman"@fr , "Tim Henman"@de , "Tim Henman"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tim_Henman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tim_Henman> , <http://de.dbpedia.org/resource/Tim_Henman> ;
+        skos:altLabel  "Henman"@en , "Henman"@fr , "Henman"@de , "Timothy Henry \"Tim\" Henman"@en , "Henmania"@en , "Lucy Henman"@en , "Timothy Henry \"Tim\" Henman"@fr , "Henmania"@fr , "Lucy Henman"@fr , "Lucy Henman"@de , "Timothy Henry \"Tim\" Henman"@de , "Henmania"@de , "Tim henman"@en , "Tim henman"@fr , "Tim henman"@de , "Timothy Henry Henman"@en , "Timothy Henry Henman"@fr , "Timothy Henry Henman"@de , "Timothy Henman"@en , "Tim Henman"@en , "Timothy Henman"@fr , "Tim Henman"@fr , "Timothy Henman"@de , "Tim Henman"@de .
+
+<http://dbpedia.org/resource/Tim_Henman__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Omaha,_Nebraska> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Omaha,_Nebraska>
+        rdfs:label     "Omaha, Nebraska"@en , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Omaha> , <http://fr.dbpedia.org/resource/Omaha_(Nebraska)> ;
+        skos:altLabel  "Omaha, ne"@en , "Omaha Nebraska"@en , "City of Omaha"@en , "Omaha City"@en , "Omaha Nebraska"@fr , "Omaha Nebraska"@de , "Omaha, ne"@fr , "City of Omaha"@fr , "Omaha, ne"@de , "Omaha City"@fr , "Omaha City"@de , "City of Omaha"@de , "Omaha, NE"@en , "Omaha, NE"@fr , "Omaha, NE"@de , "Omaha"@en , "Omaha"@fr , "Omaha"@de , "LOCODE:USOMA"@en , "Omaha, Neb."@en , "LOCODE:USOMA"@fr , "Omaha, Neb."@fr , "LOCODE:USOMA"@de , "Omaha, Neb."@de , "Songs about Omaha"@en , "Songs about Omaha"@fr , "Songs about Omaha"@de , "Omaha,Nebraska"@en , "Omaha, Nebraska"@en , "Omaha,Nebraska"@fr , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de , "Omaha,Nebraska"@de .

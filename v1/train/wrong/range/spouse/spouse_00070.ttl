@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01vsykc>
+        rdfs:label     "Seal"@de , "Seal"@fr , "Seal"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seal> , <http://dbpedia.org/resource/Seal_(musician)> , <http://de.dbpedia.org/resource/Seal> ;
+        skos:altLabel  "Henry Olusegun Olumide Samuel"@de , "Henry Olusegun Olumide Samuel"@fr , "Henry Olusegun Olumide Samuel"@en , "Seal"@de , "Seal"@fr , "Seal"@en , "Henry Olusegun Samuel"@de , "Henry Olusegun Samuel"@fr , "Henry Olusegun Samuel"@en , "Adamski"@en , "Henry Samuel"@de , "Henry Samuel"@fr , "Henry Samuel"@en , "Seal Samuel"@de , "Seal Samuel"@fr , "Seal Samuel"@en , "Henry Olusegun Adeola Samuel"@de , "Henry Olusegun Adeola Samuel"@fr , "Henry Olusegun Adeola Samuel"@en , "Henry Olusegun Olumide Adelo Samuel"@de , "Henry Olusegun Olumide Adelo Samuel"@fr , "Henry Olusegun Olumide Adelo Samuel"@en , "Henry Olusegun Olumide Adeola Samuel"@de , "Henry Olusegun Olumide Adeola Samuel"@fr , "Henry Olusegun Olumide Adeola Samuel"@en , "Seal Henry Olusegun Olumide Adelo Samuel"@de , "Seal Henry Olusegun Olumide Adelo Samuel"@fr , "Seal Henry Olusegun Olumide Adelo Samuel"@en , "Seal Henry Olusegun Olumide Adeola Samuel"@de , "Seal Henry Olusegun Olumide Adeola Samuel"@fr , "Seal Henry Olusegun Olumide Adeola Samuel"@en , "Sean Henry Samuel"@de , "Sean Henry Samuel"@fr , "Sean Henry Samuel"@en , "Henry Olumide Adeola Samuel"@de , "Henry Olumide Adeola Samuel"@fr , "Henry Olumide Adeola Samuel"@en .
+
+<http://rdf.freebase.com/ns/m.0261x8t__1>
+        dbo:from    "2011"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01vsykc> ;
+        dbo:to      "2013"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0261x8t>
+        rdfs:label     "Kim Kardashian"@fr , "Kim Kardashian"@en , "Kim Kardashian"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0261x8t__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kim_Kardashian> , <http://dbpedia.org/resource/Kim_Kardashian> , <http://de.dbpedia.org/resource/Kim_Kardashian> ;
+        skos:altLabel  "Kimmie"@en , "Kim Kardashain"@en , "Kim Kardashain"@de , "Kim Kardashain"@fr , "Kardashian"@de , "Kardashian"@fr , "Kardashian"@en , "Kim"@en , "Kimberly Kardashian"@de , "Kimberly Kardashian"@fr , "Kimberly Kardashian"@en , "Kim Kardashian-Humphries"@en , "Kim Kardashian-Humphries"@de , "Kim Kardashian-Humphries"@fr , "Kim K"@de , "Kim K"@fr , "Kim K"@en , "Kim Kardashian Humphries"@en , "Kim Kardashian Humphries"@de , "Kim Kardashian Humphries"@fr , "Kimberly Noel Kardashian"@en , "Kimberly Noel Kardashian"@de , "Kimberly Noel Kardashian"@fr , "Kim Kardishian"@en , "Kim Kardishian"@de , "Kim Kardishian"@fr , "Kim Kardashan"@en , "Kim Kardashan"@de , "Kim Kardashan"@fr , "Kim kardashian"@en , "Kim kardashian"@de , "Kim kardashian"@fr , "Kim Humphries"@de , "Kim Humphries"@fr , "Kim Humphries"@en , "Kim K."@en , "Kim K."@de , "Kim K."@fr , "Jonathan Cheban"@de , "Jonathan Cheban"@fr , "Jonathan Cheban"@en , "Kim Kardashian"@en , "Kim Kardashian"@de , "Kim Kardashian"@fr , "Kim Kardeshian"@de , "Kim Kardeshian"@fr , "Kim Kardeshian"@en .

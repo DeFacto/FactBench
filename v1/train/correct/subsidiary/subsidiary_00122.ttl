@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0168nq>
+        rdfs:label       "Johnson & Johnson"@fr , "Johnson & Johnson"@de , "Johnson & Johnson"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.0168nq__122> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Johnson_&_Johnson> , <http://de.dbpedia.org/resource/Johnson_&_Johnson> , <http://dbpedia.org/resource/Johnson_&_Johnson> ;
+        skos:altLabel    "Johnson&Johnson"@de , "Johnson&johnson"@fr , "Johnson&johnson"@en , "Johnson&johnson"@de , "Johnson and Johnson Corporation"@fr , "Johnson and Johnson Corporation"@en , "Johnson and Johnson Corporation"@de , "Compeed"@de , "Johnson & Johnson Services"@fr , "Johnson & Johnson Services"@en , "Johnson & Johnson Services"@de , "JOHNSON & JOHNSON"@en , "Johnson & Johnson Corporation"@fr , "Ethicon"@de , "Johnson & Johnson Corporation"@en , "Johnson & Johnson Corporation"@de , "Biosense Webster"@fr , "Biosense Webster"@en , "Biosense Webster"@de , "Robert Wood Johnson I"@de , "Johnson & johnson"@fr , "Johnson & johnson"@en , "Johnson & johnson"@de , "Johnson"@fr , "Johnson"@en , "Johnson"@de , "J&J"@en , "Johnson & Johnson Services, Inc."@fr , "Johnson & Johnson Services, Inc."@de , "Johnson & Johnson Services, Inc."@en , "Johnson Johnson"@fr , "Johnson Johnson"@en , "Johnson Johnson"@de , "& Johnson Johnson"@en , "JOHNSON & JOHNSON ET AL"@en , "Johnson & Johnson"@fr , "Johnson & Johnson"@en , "Johnson & Johnson"@de , "Johnson and Johnson"@fr , "Johnson and Johnson"@en , "Johnson and Johnson"@de , "OraPharma"@fr , "OraPharma"@en , "OraPharma"@de , "Johnson and johnson"@fr , "Johnson and johnson"@en , "Johnson and johnson"@de , "K-Y Jelly"@fr , "Listerine"@de , "Ortho Clinical Diagnostics"@fr .
+
+<http://rdf.freebase.com/ns/m.02_48mg>
+        rdfs:label  "Heartport Inc."@en .
+
+<http://rdf.freebase.com/ns/m.0168nq__122>
+        dbo:from        "2001-02"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_48mg> ;
+        dbo:to          "2001-02"^^xsd:gYearMonth .

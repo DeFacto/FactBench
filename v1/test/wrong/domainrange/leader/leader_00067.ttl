@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tunku_Abdul_Rahman__1>
+        dbo:from    "1959"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Belgium> ;
+        dbo:to      "1960"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tunku_Abdul_Rahman>
+        rdfs:label     "Tunku Abdul Rahman"@fr , "Tunku Abdul Rahman"@de , "Tunku Abdul Rahman"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tunku_Abdul_Rahman__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Abdul_Rahman_(Premierminister)> , <http://fr.dbpedia.org/resource/Tunku_Abdul_Rahman> ;
+        skos:altLabel  "Abdul Rahman Putra Alhaj"@en , "Abdul Rahman"@de , "Tunku Abdul Rahman Putra Alhaj"@en , "Tunku Abdul Rahman Putra Alhaj"@fr , "Tunku Abdul Rahman Putra Alhaj"@de , "Tunku Rahman"@en , "Tunku Abdul Rahman Putra Al-Haj"@en , "Abdul Rahman, Tunku"@en , "Abdul Rahman Putra Alhaj"@fr , "Tunku Rahman"@fr , "Tunku Rahman"@de , "Abdul Rahman Putra Alhaj"@de , "Tunku Abdul Rahman Putra Al-Haj"@fr , "Abdul Rahman, Tunku"@fr , "Abdul Rahman, Tunku"@de , "Tunku Abdul Rahman Putra Al-Haj"@de , "Tunku Abdul Rahman"@en , "Tunku Abdul Rahman"@fr , "Tunku Abdul Rahman"@de , "Tunku Abdul Rahman Putra al-Haj"@en , "Tunku Abdul Rahman Putra al-Haj"@fr , "Tunku Abdul Rahman Putra al-Haj"@de , "Putra al-Haj"@en , "Putra al-Haj"@fr , "Putra al-Haj"@de , "Tunku Abdul Rahman Putra"@en , "Tunku Abdul Rahman Putra"@fr , "Tunku Abdul Rahman Putra"@de .
+
+<http://dbpedia.org/resource/Belgium>
+        rdfs:label     "Belgium"@de , "Belgium"@fr , "Belgium"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Belgique> , <http://de.dbpedia.org/resource/Belgien> ;
+        skos:altLabel  "Belgum"@fr , "Belgum"@de , "Belgien"@en , "Belgien"@de , "Belgien"@fr , "Gelbique"@fr , "Belgique"@en , "ISO 3166-1:BE"@en , "Belgique"@fr , "ISO 3166-1:BE"@fr , "ISO 3166-1:BE"@de , "Belgique"@de , "Begium"@en , "Begium"@fr , "Begium"@de , "Koenigreich Belgien"@en , "Koenigreich Belgien"@fr , "Koenigreich Belgien"@de , "Beljum"@en , "Beljum"@fr , "Beljum"@de , "Cockpit of Europe"@en , "Cockpit of Europe"@fr , "Cockpit of Europe"@de , "Belguim"@en , "Belguim"@fr , "Belguim"@de , "Blegium"@en , "Beldjike"@en , "Beldjike"@fr , "Beldjike"@de , "Blegium"@fr , "Blegium"@de , "People of Belgium"@en , "People of Belgium"@fr , "Belge"@fr , "People of Belgium"@de , "Belge"@de , "Konigreich Belgien"@en , "Konigreich Belgien"@fr , "Konigreich Belgien"@de , "Kingdom Of Belgium"@en , "Kingdom Of Belgium"@fr , "Kingdom Of Belgium"@de , "Beljam"@en , "Beljam"@fr , "Beljam"@de , "Königreich Belgien"@en , "Königreich Belgien"@fr , "Königreich Belgien"@de , "Kingdom of Belgium"@en , "België"@en , "Belgian"@en , "Belgian"@de , "Belgian"@fr , "Kingdom of Belgium"@fr , "Kingdom of Belgium"@de , "België"@fr , "België"@de , "Belgier"@de , "Belgium facts"@en , "Belgium facts"@fr , "Belgium facts"@de , "Belgium"@en , "Belgium"@fr , "Belgium"@de , "Koninkrijk België"@en , "Koninkrijk België"@fr , "Koninkrijk België"@de , "Belgie"@en , "Belgio"@en , "Belgio"@fr , "Belgio"@de , "Belgie"@fr , "Belgie"@de , "Beligum"@en , "Beligum"@fr , "Beligum"@de , "facts"@en , "Kingdom of the Belgians"@en , "The Quebec of Europe"@en , "facts"@fr , "The Quebec of Europe"@de , "Kingdom of the Belgians"@de , "Kingdom of the Belgians"@fr , "facts"@de , "The Quebec of Europe"@fr , "Royaume de Belgique"@en , "Koninkrijk Belgie"@en , "Belgian Government"@en , "Royaume de Belgique"@fr , "Koninkrijk Belgie"@fr , "Belgian Government"@fr , "Koninkrijk Belgie"@de , "Royaume de Belgique"@de , "Belgian Government"@de , "Belgum"@en .

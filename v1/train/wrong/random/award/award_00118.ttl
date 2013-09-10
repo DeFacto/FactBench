@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03mp9s>
+        rdfs:label     "Michelle Williams"@fr , "Michelle Williams"@de , "Michelle Williams"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Michelle_Williams_(actress)> , <http://fr.dbpedia.org/resource/Michelle_Williams_(actrice)> , <http://de.dbpedia.org/resource/Michelle_Williams_(Schauspielerin)> ;
+        skos:altLabel  "Michelle Williams"@en , "Michelle Williams"@de , "Michelle Williams"@fr , "Michelle williams"@fr , "Michelle Ingrid Williams"@en , "Michelle Ingrid Williams"@fr , "Michelle Ingrid Williams"@de , "Williams"@fr , "Matilda Ledger"@en , "Matilda Ledger"@fr , "Matilda Ledger"@de .
+
+<http://rdf.freebase.com/ns/m.04nlb__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03mp9s> ;
+        dbo:from             "2003"^^xsd:gYear ;
+        dbo:to               "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04nlb>
+        rdfs:label     "John William Strutt, 3. Baron Rayleigh"@de , "John William Strutt"@en , "John William Strutt Rayleigh"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04nlb__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_William_Strutt_Rayleigh> , <http://dbpedia.org/resource/John_Strutt,_3rd_Baron_Rayleigh> , <http://de.dbpedia.org/resource/John_William_Strutt,_3._Baron_Rayleigh> ;
+        skos:altLabel  "Strutt"@en , "Strutt"@de , "Strutt"@fr , "John William Strutt, 3. Lord Rayleigh"@de , "Rayleigh"@de , "Rayleigh"@fr , "Rayleigh"@en , "John William Rayleigh"@en , "John William Rayleigh"@de , "John William Rayleigh"@fr , "John William Strutt"@de , "John William Strutt"@fr , "John William Strutt"@en , "JW Strutt"@de , "JW Strutt"@fr , "JW Strutt"@en , "John William Strutt, Lord Rayleigh"@de , "John William Strutt, Lord Rayleigh"@fr , "John William Strutt, Lord Rayleigh"@en , "John William Strutt, 3. Baron Rayleigh"@de , "John William Strutt, 3rd Baron Rayleigh"@de , "John William Strutt, 3rd Baron Rayleigh"@fr , "John William Strutt, 3rd Baron Rayleigh"@en , "Lord Rayleigh"@en , "Lord Rayleigh"@de , "Lord Rayleigh"@fr , "John William Strutt 3rd Baron Rayleigh"@de , "John William Strutt 3rd Baron Rayleigh"@fr , "John William Strutt 3rd Baron Rayleigh"@en , "John William Strutt Rayleigh"@de , "John William Strutt Rayleigh"@fr , "John William Strutt Rayleigh"@en , "John Strutt, 3rd Baron Rayleigh"@en , "John Rayleigh"@en , "John Rayleigh"@de , "John Rayleigh"@fr , "John Strutt, 3rd Baron Rayleigh"@de , "John Strutt, 3rd Baron Rayleigh"@fr , "3rd Baron Rayleigh"@de , "3rd Baron Rayleigh"@fr , "3rd Baron Rayleigh"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03mp9s>
+        rdfs:label     "Michelle Williams"@fr , "Michelle Williams"@de , "Michelle Williams"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Michelle_Williams_(actress)> , <http://fr.dbpedia.org/resource/Michelle_Williams_(actrice)> , <http://de.dbpedia.org/resource/Michelle_Williams_(Schauspielerin)> ;
+        skos:altLabel  "Michelle Williams"@en , "Michelle Williams"@de , "Michelle Williams"@fr , "Michelle williams"@fr , "Michelle Ingrid Williams"@en , "Michelle Ingrid Williams"@fr , "Michelle Ingrid Williams"@de , "Williams"@fr , "Matilda Ledger"@en , "Matilda Ledger"@fr , "Matilda Ledger"@de .
+
+<http://dbpedia.org/resource/Conway_Twitty>
+        rdfs:label     "Conway Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Conway_Twitty__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Conway_Twitty> , <http://fr.dbpedia.org/resource/Conway_Twitty> ;
+        skos:altLabel  "Harold Lloyd Jenkins"@en , "Twitty"@en , "Harold Lloyd Jenkins"@fr , "Twitty"@fr , "Harold Lloyd Jenkins"@de , "Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr , "Conway Twitty"@de , "Harold Jenkins a.k.a Conway Twitty"@en , "Conway"@en , "Harold Jenkins"@en , "Conway"@fr , "Conway"@de , "Harold Jenkins"@fr , "Harold Jenkins"@de , "Conway Titty"@en , "Harold Jenkins a.k.a Conway Twitty"@fr , "Harold Jenkins a.k.a Conway Twitty"@de , "Conway Titty"@fr , "Conway Titty"@de .
+
+<http://dbpedia.org/resource/Conway_Twitty__1>
+        dbo:from        "1981"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03mp9s> ;
+        dbo:to          "1981"^^xsd:gYear .

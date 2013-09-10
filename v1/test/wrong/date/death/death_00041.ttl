@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Stanley_Kubrick__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/St_Albans> ;
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:to          "1998"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Stanley_Kubrick>
+        rdfs:label     "Stanley Kubrick"@de , "Stanley Kubrick"@fr , "Stanley Kubrick"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stanley_Kubrick__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stanley_Kubrick> , <http://de.dbpedia.org/resource/Stanley_Kubrick> ;
+        skos:altLabel  "Kubrik"@de , "Kubrik"@fr , "Kubrik"@en , "Uncompleted Kubrick films"@de , "Uncompleted Kubrick films"@fr , "Uncompleted Kubrick films"@en , "Stanley kubrick"@de , "Stanley kubrick"@fr , "Stanley kubrick"@en , "Stanley Kubrick"@de , "Stanley Kubrick"@fr , "Stanley Kubrick"@en , "Kubricks"@de , "Kubricks"@fr , "Kubricks"@en , "Kubrickian"@en , "Kubrickian"@de , "Kubrickian"@fr , "List of Stanley Kubrick films"@fr , "List of Stanley Kubrick films"@en , "Stanley kubrik"@de , "List of Stanley Kubrick films"@de , "Stanley kubrik"@fr , "Stanley kubrik"@en , "Kubrick"@de , "Kubrick"@fr , "Kubrick"@en , "Toba metz"@de , "Toba metz"@fr , "Toba metz"@en , "Stanley"@fr , "Stan Kubrick"@de , "Stan Kubrick"@fr , "Stan Kubrick"@en , "Stanley Kubrik"@de , "Stanley Kubrik"@fr , "Stanley Kubrik"@en .
+
+<http://dbpedia.org/resource/St_Albans>
+        rdfs:label     "St Albans"@de , "St Albans"@fr , "St Albans"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/St_Albans> , <http://de.dbpedia.org/resource/St_Albans> ;
+        skos:altLabel  "Alban"@de , "Saint Alban's"@en , "St. Alban's, Hertfordshire"@en , "St. Alban's, Hertfordshire"@fr , "St. Alban's, Hertfordshire"@de , "Saint Alban's"@de , "Saint Alban's"@fr , "Waeclingacaester"@en , "Waeclingacaester"@fr , "Waeclingacaester"@de , "The weather in St. Albans"@en , "The weather in St. Albans"@de , "The weather in St. Albans"@fr , "Saint-Albans"@de , "St Alban's, Hertfordshire"@en , "St Alban's, Hertfordshire"@fr , "St Alban's, Hertfordshire"@de , "St. Albans"@en , "St. Albans"@de , "St. Albans"@fr , "St Alban's"@en , "St Alban's"@fr , "St Alban's"@de , "St. Alban's"@en , "St. Alban's"@de , "St. Alban's"@fr , "Watlingchester"@en , "Watlingchester"@de , "Watlingchester"@fr , "Saint Albans"@en , "Saint Albans"@fr , "Saint Albans"@de , "St. Albans, Hertfordshire"@en , "St. Albans, Hertfordshire"@fr , "St. Albans, Hertfordshire"@de , "St albans"@en , "St albans"@fr , "St albans"@de , "St Albans"@en , "St Albans"@de , "St Albans"@fr , "Cite et District de St Albans"@fr , "The weather in Saint Albans"@en , "The weather in Saint Albans"@de , "The weather in Saint Albans"@fr , "St Albans, Herts"@en , "St Albans, Herts"@fr , "St Albans, Herts"@de , "Cité et District de St Albans"@fr , "Verlamchester"@en , "Verlamchester"@de , "Verlamchester"@fr , "Saint Albans, United Kingdom"@en , "Saint Albans, United Kingdom"@fr , "Saint Albans, United Kingdom"@de , "The weather in St Albans"@en , "The weather in St Albans"@de , "The weather in St Albans"@fr , "St Albans, England"@en , "St Albans, England"@fr , "St Albans, England"@de , "Romeland"@en , "St. Albans, United Kingdom"@en , "Romeland"@fr , "St. Albans, United Kingdom"@fr , "St. Albans, United Kingdom"@de , "Romeland"@de , "St Albans, Hertfordshire"@en , "St Albans, Hertfordshire"@de , "St Albans, Hertfordshire"@fr , "Wæclingacaester"@en , "Wæclingacaester"@de , "Wæclingacaester"@fr , "Alban"@en , "Alban"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0lrpc__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.05fmy> ;
+        dbo:from   "1985"^^xsd:gYear ;
+        dbo:to     "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05fmy>
+        rdfs:label     "Prix Nobel de chimie"@fr , "Nobel Prize in Chemistry"@en , "Nobelpreis für Chemie"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Prix_Nobel_de_chimie> , <http://dbpedia.org/resource/Nobel_Prize_in_Chemistry> , <http://de.dbpedia.org/resource/Nobelpreis_für_Chemie> ;
+        skos:altLabel  "Nobelpriset i kemi"@en , "Nobelpriset i kemi"@de , "Nobelpriset i kemi"@fr , "Nobel Prize for chemistry"@en , "Nobel Prize for chemistry"@de , "Nobel Prize for chemistry"@fr , "Nobel prize of Chemistry"@de , "Nobel prize of Chemistry"@fr , "Nobel prize of Chemistry"@en , "Chemienobelpreis"@de , "Prix Nobel de chimie"@fr , "Chemie-Nobelpreis"@de , "Nobelpreis für Chemie"@de , "Nobelpreis fur Chemie"@de , "Nobel prize chemistry"@en , "Nobel prize chemistry"@de , "Nobel prize chemistry"@fr , "Nobel Prize in chemistry"@de , "Nobel Prize in chemistry"@fr , "Nobel Prize in chemistry"@en , "Nobel prize in Chemistry"@en , "Nobel prize in Chemistry"@fr , "Nobel prize in Chemistry"@de , "ChemistrY"@en , "Nobel Prize for Chemistry"@en , "Nobel Prize for Chemistry"@de , "Nobel Prize for Chemistry"@fr , "Chemistry"@de , "Chemistry"@fr , "Chemistry"@en , "Nobel prize for chemistry"@de , "Nobel prize for chemistry"@fr , "ChemistrY"@de , "ChemistrY"@fr , "Prix nobel de chimie"@fr , "Nobel prize for chemistry"@en , "Prix Nobel de Chimie"@fr , "Nobel Prize in Chemistry"@de , "Nobel Prize in Chemistry"@fr , "Nobel Prize in Chemistry"@en , "Nobel prize in chemistry"@de , "Nobel prize in chemistry"@fr , "Nobel prize in chemistry"@en .
+
+<http://rdf.freebase.com/ns/m.0lrpc>
+        rdfs:label     "Theodor Mommsen"@en , "Theodor Mommsen"@fr , "Theodor Mommsen"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0lrpc__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Theodor_Mommsen> , <http://de.dbpedia.org/resource/Theodor_Mommsen> , <http://fr.dbpedia.org/resource/Theodor_Mommsen> ;
+        skos:altLabel  "Mommsen"@en , "Mommsen"@fr , "Théodore Mommsen"@fr , "Mommsen"@de , "Christian Mommsen"@en , "Christian Mommsen"@fr , "Christian Mommsen"@de , "Theodore Mommsen"@en , "T. Mommsen"@en , "Theodore Mommsen"@fr , "T. Mommsen"@fr , "Theodore Mommsen"@de , "T. Mommsen"@de , "Theodor"@en , "Theodor"@fr , "Theodor"@de , "1880 fire at Theodor Mommsen's house"@en , "1880 fire at Theodor Mommsen's house"@fr , "1880 fire at Theodor Mommsen's house"@de , "Theodor Mommsen"@en , "Christian Matthias Theodor Mommsen"@en , "Theodor Mommsen"@fr , "Christian Matthias Theodor Mommsen"@fr , "Theodor Mommsen"@de , "Christian Matthias Theodor Mommsen"@de .

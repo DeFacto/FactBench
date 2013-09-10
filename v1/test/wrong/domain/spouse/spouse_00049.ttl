@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0g7qq2>
+        rdfs:label     "Laird Macintosh"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Laird_Macintosh> ;
+        skos:altLabel  "Laird MacIntosh"@en , "SSgt. Laird Macintosh"@en , "Laird Rattray"@en , "Laird MacIntosh Rattray"@en .
+
+<http://rdf.freebase.com/ns/m.0ncx75g>
+        rdfs:label     "Joshua"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0ncx75g__1> ;
+        skos:altLabel  "JOSHUA"@en , "Joshua Niimura"@en , "Niimura Joshua"@en , "新村 ジョシュア"@en , "にいむら じょしゅあ"@en , "ジョシュア"@en .
+
+<http://rdf.freebase.com/ns/m.0ncx75g__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0g7qq2> ;
+        dbo:to      "2009"^^xsd:gYear .

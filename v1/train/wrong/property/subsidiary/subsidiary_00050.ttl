@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03bn31z__1>
+        dbo:from      "1995"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.0f0ty9> ;
+        dbo:to        "1995"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03bn31z>
+        rdfs:label  "IFM Renewable Energy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03bn31z__1> .
+
+<http://rdf.freebase.com/ns/m.0f0ty9>
+        rdfs:label  "Pacific Hydro"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Pacific_Hydro> .

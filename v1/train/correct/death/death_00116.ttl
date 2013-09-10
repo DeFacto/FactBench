@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kurt_Cobain__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Seattle> ;
+        dbo:from        "1994-04-05"^^xsd:date ;
+        dbo:to          "1994-04-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Seattle>
+        rdfs:label     "Seattle"@de , "Seattle"@fr , "Seattle"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seattle> , <http://de.dbpedia.org/resource/Seattle> ;
+        skos:altLabel  "Seattle's"@en , "Seattle's"@de , "Seattle, Washington"@fr , "Seattle, Washington"@de , "Seattle, Washington"@en , "Seattle WA"@fr , "The weather in Seattle"@fr , "Seattle WA"@de , "Seattle WA"@en , "The weather in Seattle"@de , "The weather in Seattle"@en , "Seattleites"@fr , "Seattle, Wash."@fr , "Duwamps"@fr , "Duwamps"@de , "Seattleites"@de , "Duwamps"@en , "Seattleites"@en , "Seattle, Wash."@en , "Seattle, Wash."@de , "Emerald City, Washington"@fr , "Emerald City, Washington"@en , "Emerald City, Washington"@de , "Alki Point"@de , "Seattleans"@fr , "Seattleans"@en , "Seattleans"@de , "City of Seattle"@fr , "City of Seattle"@de , "City of Seattle"@en , "Alki"@de , "Seattle, Wa"@fr , "Seattle, Wa"@de , "Seattle, Wa"@en , "Seatle"@fr , "Seatle"@de , "Seatle"@en , "Die Smaragdstadt"@de , "Seattle, WA, USA"@fr , "Seattle, WA, USA"@en , "Seattle, WA, USA"@de , "Seattle"@fr , "The Emerald City"@de , "Seattle"@en , "Seattle"@de , "Seattle, United States of America"@fr , "Seattle, United States of America"@en , "Seattle, United States of America"@de , "Jet City"@fr , "Jet City"@en , "Jet City"@de , "Seattle, US-WA"@fr , "Seattle, US-WA"@de , "Seattle, US-WA"@en , "Seattle, WA"@fr , "Seattle, WA"@de , "Rain City"@de , "Seattle, WA"@en , "Seattle, United States"@fr , "Seattle, USA"@fr , "Seattle, United States"@en , "Seattle, United States"@de , "Seattle, USA"@de , "Seattle, USA"@en , "Seattle, Washington Territory"@fr , "Seattle, Washington Territory"@en , "Seattle, Washington Territory"@de , "Seattle, wa"@fr , "Seattle, wa"@de , "Seattle, wa"@en , "LOCODE:USSEA"@fr , "LOCODE:USSEA"@de , "LOCODE:USSEA"@en , "Seattle Washington"@fr , "Seattle Washington"@de , "Seattle Washington"@en , "Seattle's"@fr .
+
+<http://dbpedia.org/resource/Kurt_Cobain>
+        rdfs:label     "Kurt Cobain"@de , "Kurt Cobain"@fr , "Kurt Cobain"@en ;
+        dbo:death      <http://dbpedia.org/resource/Kurt_Cobain__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kurt_Cobain> , <http://de.dbpedia.org/resource/Kurt_Cobain> ;
+        skos:altLabel  "List of musical equipment used by Kurt Cobain"@fr , "List of musical equipment used by Kurt Cobain"@de , "List of musical equipment used by Kurt Cobain"@en , "Curt Kobain"@fr , "Kurt Cobain"@fr , "Curt Kobain"@de , "Curt Kobain"@en , "Kurt Cobain"@en , "Kurt Cobain"@de , "Kurt D. Cobain"@fr , "Kurt D. Cobain"@en , "Kurt D. Cobain"@de , "Kurdt Donald Cobain"@fr , "Kurt Kobain"@fr , "Kurt Kobain"@de , "Kurt Kobain"@en , "Curt cobain"@fr , "Curt cobain"@en , "Curt cobain"@de , "Cobain, Kurt"@fr , "Cobain, Kurt"@en , "Cobain, Kurt"@de , "Kurt Cobrain"@fr , "Kurt Cobrain"@en , "Kurt Cobrain"@de , "K-bain"@fr , "K-bain"@en , "K-bain"@de , "Fecal Matter"@fr , "Cobain"@fr , "Cobain"@de , "Cobain"@en , "Kurt Cobaine"@de , "CoBain"@fr , "CoBain"@en , "CoBain"@de , "Kurdt Kobain"@fr , "Kurdt Kobain"@de , "Kurdt Kobain"@en , "Curt Cobain"@fr , "Curt Cobain"@en , "Curt Cobain"@de , "Boddah"@fr , "KurtCobain"@fr , "Boddah"@de , "Boddah"@en , "KurtCobain"@en , "KurtCobain"@de , "Kurt Donald Cobain"@fr , "Kurt Donald Cobain"@en , "Kurt Donald Cobain"@de , "Kurt"@fr , "Kurt"@de , "Kurt"@en , "Kurdt Cobain"@fr , "Kurdt Cobain"@en , "Kurdt Cobain"@de , "Cobai"@fr , "Kurtis Cohbaine"@fr , "Kurtis Cohbaine"@en , "Kurtis Cohbaine"@de , "Kurt cobain"@fr , "Kurt cobain"@de , "Kurt cobain"@en .

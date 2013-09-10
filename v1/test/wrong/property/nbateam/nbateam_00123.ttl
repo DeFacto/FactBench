@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Golden_State_Warriors>
+        rdfs:label     "Golden State Warriors"@en , "Golden State Warriors"@de , "Golden State Warriors"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Warriors_de_Golden_State> , <http://de.dbpedia.org/resource/Golden_State_Warriors> ;
+        skos:altLabel  "GS Warrriors"@de , "GS Warrriors"@fr , "GS Warrriors"@en , "Warriorsworld.net"@en , "Golden States Warriors"@fr , "Warriorsworld.net"@de , "Warriorsworld.net"@fr , "Oakland Warriors"@de , "Oakland Warriors"@fr , "Oakland Warriors"@en , "Warriors du golden state"@fr , "San Francisco Warriors"@en , "San Francisco Warriors"@de , "San Francisco Warriors"@fr , "Golden State"@en , "Golden State"@de , "Golden State"@fr , "Warriors de Philadelphie"@fr , "Golden St. Warriors"@de , "Golden St. Warriors"@fr , "Golden St. Warriors"@en , "Warrior"@en , "Warrior"@de , "Warrior"@fr , "Warriors de Golden State"@fr , "Philadelphia Warriors"@de , "Philadelphia Warriors"@fr , "Philadelphia Warriors"@en , "Warriors de San Francisco"@fr , "GS Warriors"@de , "GS Warriors"@fr , "GS Warriors"@en , "Warriors du Golden State"@fr , "Golden State Warriors"@en , "Golden State Warriors"@de , "Golden State Warriors"@fr , "Golden st. warriors"@de , "Golden st. warriors"@fr , "Golden st. warriors"@en , "Goldens State Warriors"@de , "Goldens State Warriors"@fr , "Goldens State Warriors"@en .
+
+<http://dbpedia.org/resource/Jamal_Crawford>
+        rdfs:label     "Jamal Crawford"@en , "Jamal Crawford"@fr , "Jamal Crawford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jamal_Crawford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jamal_Crawford> , <http://fr.dbpedia.org/resource/Jamal_Crawford> ;
+        skos:altLabel  "Jamaal Crawford"@fr , "Jamaal Crawford"@de , "Aaron Jamal Crawford"@de , "Jamal Crawford"@en , "Jamal Crawford"@de , "Jamal Crawford"@fr , "Jamaal Crawford"@en , "Aaron Jamal Crawford"@en , "Aaron Jamal Crawford"@fr .
+
+<http://dbpedia.org/resource/Jamal_Crawford__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Golden_State_Warriors> ;
+        dbo:to      "2008"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Henry_Wadsworth_Longfellow>
+        rdfs:label     "Henry Wadsworth Longfellow"@de , "Henry Wadsworth Longfellow"@fr , "Henry Wadsworth Longfellow"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Henry_Wadsworth_Longfellow__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Henry_Wadsworth_Longfellow> , <http://fr.dbpedia.org/resource/Henry_Longfellow> ;
+        skos:altLabel  "Henry Wadsworth Longfellow"@de , "Henry Wadsworth Longfellow"@fr , "Henry Wadsworth Longfellow"@en , "Henry Wadsworth"@de , "Henry Wadsworth"@fr , "Henry Wadsworth"@en , "Wadsworth"@de , "Wadsworth"@fr , "Wadsworth"@en , "Longfellow, Henry Wadsworth"@de , "Longfellow, Henry Wadsworth"@fr , "Longfellow, Henry Wadsworth"@en , "H. W. Longfellow"@de , "H. W. Longfellow"@fr , "H. W. Longfellow"@en , "HW Longfellow"@de , "HW Longfellow"@fr , "HW Longfellow"@en , "Poem of Scanderbeg"@de , "Poem of Scanderbeg"@fr , "Poem of Scanderbeg"@en , "Henry W. Longfellow"@de , "Henry W. Longfellow"@fr , "Henry W. Longfellow"@en , "Fanny Appleton Longfellow"@de , "Fanny Appleton Longfellow"@fr , "Fanny Appleton Longfellow"@en , "Henry Longfellow"@de , "Henry Longfellow"@fr , "Henry Longfellow"@en , "Longfellow"@de , "Longfellow"@fr , "Longfellow"@en , "Novels by Henry Wadsworth Longfellow"@de , "Novels by Henry Wadsworth Longfellow"@fr , "Novels by Henry Wadsworth Longfellow"@en .
+
+<http://dbpedia.org/resource/Henry_Wadsworth_Longfellow__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Colombo> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Colombo>
+        rdfs:label     "Colombo"@de , "Colombo"@fr , "Colombo"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Colombo> , <http://fr.dbpedia.org/resource/Colombo> ;
+        skos:altLabel  "Colombo"@de , "Colombo"@fr , "Colombo"@en , "Colombo, Ceylon"@de , "Colombo, Ceylon"@fr , "Greater Colombo area"@de , "Greater Colombo area"@fr , "Greater Colombo area"@en , "Kolamba"@de , "Kolamba"@fr , "Kolamba"@en , "Colombo, Ceylon"@en , "Greater Colombo"@de , "Greater Colombo"@fr , "Colombo, Sri Lanka"@de , "Colombo, Sri Lanka"@fr , "Colombo, Sri Lanka"@en , "Greater Colombo"@en , "Metro de Colombo"@fr , "Kolumpu"@en , "Kolumpu"@de , "Kolumpu"@fr , "Colombo Times"@de , "Colombo Times"@fr , "Colombo Times"@en , "Bandaranaike International Airport"@fr , "Kŏḷamba"@de , "Kŏḷamba"@fr , "Kŏḷamba"@en , "Kolombo"@de , "Kŏl̮umpu"@de , "Kŏl̮umpu"@fr , "Kŏl̮umpu"@en , "Zones of Colombo City"@de , "Zones of Colombo City"@fr , "Zones of Colombo City"@en , "Métro de Colombo"@fr , "Katunayake"@fr .

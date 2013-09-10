@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Novi_Sad>
+        rdfs:label     "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Novi_Sad> , <http://de.dbpedia.org/resource/Novi_Sad> ;
+        skos:altLabel  "Capital of Vojvodina"@de , "Capital of Vojvodina"@fr , "Capital of Vojvodina"@en , "Ujvidek"@de , "Ujvidek"@fr , "Ujvidek"@en , "Újvidék"@de , "Újvidék"@fr , "Újvidék"@en , "Serbian Athens"@de , "Serbian Athens"@fr , "Serbian Athens"@en , "Ujvidék"@de , "Ujvidék"@fr , "Ujvidék"@en , "Novi Sad, Serbia"@en , "Novi Sad, Serbia"@de , "Novi Sad, Serbia"@fr , "Ratzenstadt"@de , "Neusatz"@de , "Neusatz"@fr , "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en , "Novi"@de , "Novi"@fr , "Novi"@en , "City of Novi Sad"@de , "City of Novi Sad"@fr , "City of Novi Sad"@en , "Novi Sad City"@de , "Novi Sad City"@fr , "Novi Sad City"@en , "Neusatz an der Donau"@de , "Serb Athens"@de , "Serb Athens"@fr , "Serb Athens"@en , "Nowi Sad"@de .
+
+<http://dbpedia.org/resource/Immanuel_Kant>
+        rdfs:label     "Immanuel Kant"@de , "Immanuel Kant"@fr , "Immanuel Kant"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Immanuel_Kant__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Emmanuel_Kant> , <http://de.dbpedia.org/resource/Immanuel_Kant> ;
+        skos:altLabel  "Emannuel Kant"@en , "Emannuel Kant"@fr , "Emannuel Kant"@de , "Emmanuel"@fr , "Emmanuel Kant"@en , "Emmanuel Kant"@fr , "Emmanuel Kant"@de , "Kantian aesthetics"@en , "Kantian aesthetics"@fr , "Kantian aesthetics"@de , "Dogmatic slumber"@en , "Dogmatic slumber"@fr , "Dogmatic slumber"@de , "Kantien"@fr , "Imanuel Kant"@en , "Imanuel Kant"@fr , "Imanuel Kant"@de , "You Kant Do That On Television"@en , "You Kant Do That On Television"@fr , "You Kant Do That On Television"@de , "Kant, Immanuel"@en , "Kant, Immanuel"@fr , "Kant, Immanuel"@de , "Kant bibliography"@en , "Chinaman of Konigsberg"@en , "Chinaman of Königsberg"@en , "Chinaman of Königsberg"@fr , "Chinaman of Königsberg"@de , "Immanuel Kant"@en , "Chinaman of Konigsberg"@fr , "Chinaman of Konigsberg"@de , "Immanuel Kant"@de , "Kant bibliography"@de , "Immanuel Kant"@fr , "Kant bibliography"@fr , "Imanuel kant"@en , "Imanuel kant"@fr , "Imanuel kant"@de , "Kantisme"@fr , "KANT"@en , "KANT"@fr , "KANT"@de , "Kantio"@en , "The Yuki"@en , "Kantio"@fr , "The Yuki"@fr , "Kantio"@de , "The Yuki"@de , "Kantians"@en , "Kantians"@de , "Kantians"@fr , "Chinaman of Koenigsberg"@en , "Chinaman of Koenigsberg"@de , "Chinaman of Koenigsberg"@fr , "Maitre de Konigsberg"@fr , "Kantism"@en , "I. Kant"@en , "Kantism"@fr , "I. Kant"@fr , "I. Kant"@de , "Kantism"@de , "Idealisme kantien"@fr , "Kant"@en , "Kant"@de , "Kant"@fr , "Idéalisme kantien"@fr , "Pragmatischer Imperativ"@de , "Emanuel Kant"@en , "Emanuel Kant"@fr , "Emanuel Kant"@de , "Maître de Königsberg"@fr , "Emmannuel Kant"@en , "Emmannuel Kant"@fr , "Émmanuel Kant"@fr , "Philosophie kantienne"@fr , "Emmannuel Kant"@de , "Immanual Kant"@en , "Immanual Kant"@fr , "Immanual Kant"@de .
+
+<http://dbpedia.org/resource/Immanuel_Kant__1>
+        dbo:from      "1977"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Novi_Sad> ;
+        dbo:to        "1977"^^xsd:gYear .

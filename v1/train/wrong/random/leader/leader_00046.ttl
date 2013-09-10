@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Manuel_Azaña__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03p472> ;
+        dbo:from             "1935"^^xsd:gYear ;
+        dbo:to               "1937"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03p472>
+        rdfs:label     "Die nächste Begegnung"@de , "The Garden of Rama"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Garden_of_Rama> , <http://de.dbpedia.org/resource/Die_nächste_Begegnung> ;
+        skos:altLabel  "Die nachste Begegnung"@de , "Garden of Rama"@en , "Garden of Rama"@de , "The Garden of Rama"@en , "The Garden of Rama"@de , "Die nächste Begegnung"@de .
+
+<http://dbpedia.org/resource/Manuel_Azaña>
+        rdfs:label     "Manuel Azaña"@de , "Manuel Azaña"@en , "Manuel Azaña"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Manuel_Azaña__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Manuel_Azaña> , <http://fr.dbpedia.org/resource/Manuel_Azaña> ;
+        skos:altLabel  "Manuel Azaña Díaz"@fr , "Manuel azana"@fr , "Azana"@de , "Manuel Azana y Diaz"@de , "Manuel Azana Diaz"@fr , "Manuel Azana Diaz"@de , "Manuel Azaña"@fr , "Manuel Azaña"@de , "Azaña"@de , "Manuel Azana"@fr , "Manuel Azana"@de , "Manuel Azaña y Díaz"@de , "Manuel Azaña Diaz"@fr .

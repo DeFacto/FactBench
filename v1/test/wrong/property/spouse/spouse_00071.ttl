@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02vz3s1>
+        rdfs:label     "Alki David"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Alki_David> ;
+        skos:altLabel  "Alkiviades David"@en , "Alkiviades \"Alki\" David"@en .
+
+<http://rdf.freebase.com/ns/m.0qs4h8r>
+        rdfs:label  "Emma McAllister"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0qs4h8r__1> .
+
+<http://rdf.freebase.com/ns/m.0qs4h8r__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.02vz3s1> ;
+        dbo:from   "2007"^^xsd:gYear ;
+        dbo:to     "2009"^^xsd:gYear .

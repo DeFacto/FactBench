@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Andy_Roddick__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Abbott,_Texas> ;
+        dbo:from        "1933"^^xsd:gYear ;
+        dbo:to          "1933"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Abbott,_Texas>
+        rdfs:label     "Abbott, Texas"@en , "Abbott, Texas"@fr , "Abbott, Texas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Abbott_(Texas)> ;
+        skos:altLabel  "Abbott City, Texas"@de , "Abbott City, Texas"@en , "Abbott, TX"@en , "Abbott, TX"@de , "Abbott"@en , "Abbott"@de , "Abbott, Texas"@en , "Abbott, Texas"@de .
+
+<http://dbpedia.org/resource/Andy_Roddick>
+        rdfs:label     "Andy Roddick"@fr , "Andy Roddick"@de , "Andy Roddick"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Andy_Roddick__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Andy_Roddick> , <http://fr.dbpedia.org/resource/Andy_Roddick> ;
+        skos:altLabel  "Andy roddick"@en , "Andy roddick"@fr , "Andy roddick"@de , "Andrew Roddick"@en , "Andrew Roddick"@fr , "Andrew Roddick"@de , "Roddick"@en , "Roddick"@fr , "Roddick"@de , "Blanche Roddick"@en , "Andy Roddick"@en , "Blanche Roddick"@fr , "Blanche Roddick"@de , "Andy"@fr , "Andy Roddick"@fr , "Andy Roddick"@de , "Andrew Stephen Roddick"@de .

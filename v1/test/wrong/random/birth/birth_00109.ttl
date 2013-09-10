@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ted_Kennedy__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Portsmouth> ;
+        dbo:from        "1926"^^xsd:gYear ;
+        dbo:to          "1926"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ted_Kennedy>
+        rdfs:label     "Ted Kennedy"@de , "Ted Kennedy"@fr , "Ted Kennedy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ted_Kennedy__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edward_Moore_Kennedy> , <http://de.dbpedia.org/resource/Edward_Kennedy> ;
+        skos:altLabel  "Edward kennedy"@en , "Edward kennedy"@fr , "Edward kennedy"@de , "Kennedy"@en , "Kennedy"@de , "Kennedy"@fr , "The Lion of the Senate"@de , "The Lion of the Senate"@fr , "The Lion of the Senate"@en , "Edward Moore Kennedy"@en , "Edward Moore Kennedy"@de , "Edward Moore Kennedy"@fr , "Edward M Kennedy"@en , "Edward M Kennedy"@de , "Edward M Kennedy"@fr , "Teddy Kennedy"@de , "Teddy Kennedy"@fr , "Teddy Kennedy"@en , "Senator Ted Kennedy"@en , "Senator Ted Kennedy"@de , "Senator Ted Kennedy"@fr , "Edward M. Kennedy"@en , "Edward M. Kennedy"@de , "Edward M. Kennedy"@fr , "Draft 1"@en , "Draft 1"@de , "Draft 1"@fr , "Edward Moore"@en , "Edward Moore"@de , "Edward Moore"@fr , "Edward Moore \"Ted\" Kennedy"@de , "Edward Moore \"Ted\" Kennedy"@fr , "Edward Moore \"Ted\" Kennedy"@en , "Ted Kennedy"@de , "Ted Kennedy"@fr , "Ted Kennedy"@en , "Edward Kennedy"@de , "Edward Kennedy"@fr , "Edward Kennedy"@en , "Ted kennedy"@en , "Sir Edward Kennedy"@en , "Ted kennedy"@de , "Ted kennedy"@fr , "Sir Edward Kennedy"@de , "Sir Edward Kennedy"@fr .
+
+<http://dbpedia.org/resource/Portsmouth>
+        rdfs:label     "Portsmouth"@en , "Portsmouth"@de , "Portsmouth"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Portsmouth> , <http://de.dbpedia.org/resource/Portsmouth> ;
+        skos:altLabel  "Portsmouth, England"@en , "Portsmouth, England"@de , "Portsmouth, England"@fr , "Portsmouth, United Kingdom"@en , "Portsmouth, United Kingdom"@de , "Portsmouth, United Kingdom"@fr , "Portsmouth UA"@de , "Portsmouth UA"@fr , "Portsmouth UA"@en , "County Borough of Portsmouth"@de , "County Borough of Portsmouth"@fr , "County Borough of Portsmouth"@en , "GB-POR"@de , "Springfield School"@en , "King Richard Secondary School"@en , "King Richard Secondary School"@de , "King Richard Secondary School"@fr , "Springfield School"@de , "Springfield School"@fr , "Portsmouth City Council"@de , "Portsmouth City Council"@fr , "Portsmouth City Council"@en , "Portsmouth, Britain"@en , "Portsmouth, Britain"@de , "Portsmouth, Britain"@fr , "St Edmund's RC School"@de , "St Edmund's RC School"@fr , "St Edmund's RC School"@en , "Havenmuiden"@en , "Havenmuiden"@de , "Havenmuiden"@fr , "City of Portsmouth"@de , "City of Portsmouth"@fr , "City of Portsmouth"@en , "Milton Cross School"@en , "Milton Cross School"@de , "Milton Cross School"@fr , "Portsmouth"@de , "Portsmouth"@fr , "Portsmouth"@en , "St Luke's School"@en , "St Luke's School"@fr , "St Luke's School"@de , "LOCODE:GBPME"@en , "LOCODE:GBPME"@de , "LOCODE:GBPME"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.018f94>
+        rdfs:label     "Bochum"@de , "Bochum"@en , "Bochum"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bochum> , <http://dbpedia.org/resource/Bochum> , <http://fr.dbpedia.org/resource/Bochum> ;
+        skos:altLabel  "Bochum, Germany"@en , "Bochum, Germany"@fr , "Bochum, Germany"@de , "Kornharpen-Voede-Abzweig"@en , "Bochum"@en , "LOCODE:DEBOM"@en , "Kornharpen-Voede-Abzweig"@fr , "Kornharpen-Voede-Abzweig"@de , "Bochum"@de , "Bochum"@fr , "LOCODE:DEBOM"@fr , "LOCODE:DEBOM"@de .
+
+<http://rdf.freebase.com/ns/m.02qh1cx__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.018f94> ;
+        dbo:from        "1910"^^xsd:gYear ;
+        dbo:to          "1910"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02qh1cx>
+        rdfs:label     "Chris Coghill"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02qh1cx__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Chris_Coghill> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Christopher \"Chris\" Coghill"@en , "Chris Coghill"@en , "Coghill"@en , "Christopher Coghill"@en .

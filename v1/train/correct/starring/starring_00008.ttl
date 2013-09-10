@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Seven_(film)>
+        rdfs:label      "Seven (film)"@en , "Seven (film)"@fr , "Seven (film)"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/Seven_(film)__1> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Seven_(film)> , <http://de.dbpedia.org/resource/Sieben_(Film)> ;
+        skos:altLabel   "John Doe"@de , "Seven"@fr , "Seven"@de , "Seven"@en , "Se7en"@fr , "Se7en"@de , "Se7en"@en , "John Doe"@fr , "John Doe"@en .
+
+<http://dbpedia.org/resource/Seven_(film)__1>
+        dbo:from      "1995-09-22"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Brad_Pitt> ;
+        dbo:to        "1995-09-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Brad_Pitt>
+        rdfs:label     "Brad Pitt"@en , "Brad Pitt"@fr , "Brad Pitt"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Brad_Pitt> , <http://fr.dbpedia.org/resource/Brad_Pitt> ;
+        skos:altLabel  "Brad Jolie-Pitt"@de , "Brad Pit"@fr , "Brad pitt"@fr , "Brad Pit"@de , "Brad pitt"@de , "Brad Pit"@en , "Brad pitt"@en , "Pitt, William Bradley"@fr , "Pitt, William Bradley"@de , "Pitt, William Bradley"@en , "Pitt"@fr , "Pitt"@de , "Pitt"@en , "Brad"@fr , "Brad"@de , "Brad"@en , "Brad Pitt"@fr , "Bradley Pitt"@fr , "Brad Pitt"@de , "Brad Pitt"@en , "Bradley Pitt"@de , "Bradley Pitt"@en , "William Bradley Pitt"@fr , "William Bradley Pitt"@de , "William Bradley Pitt"@en .

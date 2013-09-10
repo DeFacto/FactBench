@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kingsland,_Arkansas>
+        rdfs:label     "Kingsland, Arkansas"@en , "Kingsland, Arkansas"@fr , "Kingsland, Arkansas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kingsland_(Arkansas)> , <http://fr.dbpedia.org/resource/Kingsland,_Arkansas> ;
+        skos:altLabel  "Kingsland, AR"@fr , "Kingsland, AR"@de , "Kingsland"@fr , "Kingsland"@de , "Kingsland, Arkansas"@fr , "Kingsland, Arkansas"@de .
+
+<http://dbpedia.org/resource/Katy_Perry__1>
+        dbo:award  <http://dbpedia.org/resource/Kingsland,_Arkansas> ;
+        dbo:from   "1947"^^xsd:gYear ;
+        dbo:to     "1947"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Katy_Perry>
+        rdfs:label     "Katy Perry"@en , "Katy Perry"@de , "Katy Perry"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Katy_Perry__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Katy_Perry> , <http://de.dbpedia.org/resource/Katy_Perry> ;
+        skos:altLabel  "Ageega"@en , "Ageega"@de , "Ageega"@fr , "Katherine perry"@fr , "Katie Perry"@fr , "Kathy Perry"@fr , "Kathryn Hudson"@en , "Kathryn Hudson"@de , "Kathryn Hudson"@fr , "Katy Hudson"@en , "Katy Perrie"@en , "Katy Perrie"@de , "Katy Perrie"@fr , "Katy Hudson"@de , "Katy Hudson"@fr , "Katy pery"@en , "Katy pery"@de , "Katy pery"@fr , "Katy Elizabeth Hudson"@de , "Perry"@fr , "Katheryn Elizabeth Hudson"@en , "(A) Katy Perry"@en , "(A) Katy Perry"@de , "(A) Katy Perry"@fr , "Kate Perry"@en , "Kate Perry"@de , "Kate Perry"@fr , "Katheryn Elizabeth Hudson"@de , "Katheryn Elizabeth Hudson"@fr , "Katherine Perry"@fr , "Katie Perrie"@en , "Katy perry"@en , "Katie Perrie"@de , "Katy perry"@de , "Katy perry"@fr , "Katie Perrie"@fr , "Katty Perry"@en , "Katty Perry"@de , "Katty Perry"@fr , "Kathryn Elizabeth Hudson"@en , "Kathryn Elizabeth Hudson"@de , "Kathryn Elizabeth Hudson"@fr , "Katheryn Hudson"@en , "Katheryn Hudson"@de , "Katheryn Hudson"@fr , "List of songs recorded by Katy Perry"@en , "List of songs recorded by Katy Perry"@de , "List of songs recorded by Katy Perry"@fr , "Katy Perry"@en , "Katy Perry"@de , "Katy Perry"@fr .

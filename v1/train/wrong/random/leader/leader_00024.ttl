@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Arthur_Conan_Doyle__1>
+        dbo:from      "1967"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.01jr6> ;
+        dbo:to        "1970"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01jr6>
+        rdfs:label     "Berkeley"@de , "Berkeley"@fr , "Berkeley"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Berkeley> , <http://dbpedia.org/resource/Berkeley,_California> , <http://fr.dbpedia.org/resource/Berkeley_(Californie)> ;
+        skos:altLabel  "Berkeley Daily Gazette"@en , "Berkeley Daily Gazette"@de , "Berkeley Daily Gazette"@fr , "Berkeley, California"@en , "Berkeley, California"@de , "Berkeley, California"@fr , "Berkeley"@de , "Berkeley"@fr , "Berkeley"@en , "People's Republic of Berkeley"@en , "People's Republic of Berkeley"@de , "People's Republic of Berkeley"@fr , "Berkeley, CA"@en , "Berkeley, CA"@de , "Berkeley, CA"@fr , "Berkely, California"@en , "Berkeley, Calif."@en , "Berkely, California"@de , "Berkely, California"@fr , "The People's Republic of Berkeley"@en , "Berkley, CA"@en , "Berkeley Gazette"@en , "Berkeley Gazette"@de , "Berkeley Gazette"@fr , "Berkley, CA"@de , "Berkley, CA"@fr , "Berkley, California"@en , "Berkley, California"@de , "Berkley, California"@fr , "Alameda County / Berkeley city"@en , "Berkeley, Ca"@en , "Berkeley, Ca"@de , "Berkeley, Ca"@fr , "Stockyards, California"@de , "Stockyards, California"@fr , "Stockyards, California"@en , "Berkely, CA"@en , "Berkely, CA"@de , "Berkely, CA"@fr , "LOCODE:USJBK"@en , "LOCODE:USJBK"@de , "LOCODE:USJBK"@fr , "Peoples republic of berkeley"@en , "Peoples republic of berkeley"@de , "Peoples republic of berkeley"@fr , "Berkeley California"@en , "Berkeley California"@de , "Berkeley California"@fr , "Stockyard"@en , "Stockyard"@de , "Stockyard"@fr , "Berserkley"@en , "Berserkley"@de , "Berserkley"@fr , "Berzerkely"@en .
+
+<http://dbpedia.org/resource/Arthur_Conan_Doyle>
+        rdfs:label     "Arthur Conan Doyle"@de , "Arthur Conan Doyle"@fr , "Arthur Conan Doyle"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Arthur_Conan_Doyle__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Arthur_Conan_Doyle> , <http://fr.dbpedia.org/resource/Arthur_Conan_Doyle> ;
+        skos:altLabel  "Arthur C. Doyle"@en , "Arthur C. Doyle"@de , "Arthur C. Doyle"@fr , "A Conan Doyle"@en , "A Conan Doyle"@de , "A Conan Doyle"@fr , "Arthur Conan Ignatius, Sir Doyle"@en , "Arthur Conan Ignatius, Sir Doyle"@fr , "Arthur Conan Ignatius, Sir Doyle"@de , "Sir Arthur Conan Doyle"@en , "Sir Arthur Conan Doyle"@de , "Sir Arthur Conan Doyle"@fr , "Doyle, Arthur Conan"@en , "Doyle, Arthur Conan"@de , "Doyle, Arthur Conan"@fr , "Arthur Conan Doyle"@en , "Arthur Conan Doyle"@de , "Arthur Conan Doyle"@fr , "The Narrative of John Smith"@en , "The Narrative of John Smith"@de , "The Narrative of John Smith"@fr , "Arthur Conan Ignatius Doyle"@en , "Arthur Conan Ignatius Doyle"@de , "Arthur Conan Ignatius Doyle"@fr , "Sir Arthur Doyle"@en , "Sir Arthur Doyle"@de , "Sir Arthur Doyle"@fr , "Arthur Conan-Doyle"@en , "Arthur Conan-Doyle"@de , "Arthur Conan-Doyle"@fr , "Arthur"@en , "Arthur"@de , "Arthur"@fr , "Sir Conan Doyle"@en , "Sir Conan Doyle"@de , "Sir Conan Doyle"@fr , "Conan Doyle"@en , "Doyle"@en , "Doyle"@de , "Doyle"@fr , "Conan Doyle"@de , "Conan Doyle"@fr , "A. Conan Doyle"@en , "Sir Arthur Ignatius Conan Doyle"@en , "Sir Arthur Ignatius Conan Doyle"@de , "Sir Arthur Ignatius Conan Doyle"@fr , "A. Conan Doyle"@de , "A. Conan Doyle"@fr , "Arthur Conan Doyle's"@en , "Doyle, Sir Arthur Conan"@en , "Conan"@fr , "Doyle, Sir Arthur Conan"@de , "Doyle, Sir Arthur Conan"@fr , "Arthur Conan Doyle's"@de , "Arthur Conan Doyle's"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hugo_Chávez>
+        rdfs:label     "Hugo Chávez"@en , "Hugo Chávez"@fr , "Hugo Chávez"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hugo_Chávez__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hugo_Chávez> , <http://fr.dbpedia.org/resource/Hugo_Chávez> ;
+        skos:altLabel  "Chavistas"@fr , "Hugo Rafael Chavez"@fr , "Hugo Chávez Frías"@fr , "Hugo Rafael Chávez Frías"@fr , "Hugo Chávez Frías"@de , "Hugo Rafael Chávez Frías"@de , "Hugo Rafael Chavez Frias"@fr , "Hugo Chávez"@fr , "Hugo Chávez"@de , "Hugo Rafael Chavez Frias"@de , "Chávez"@fr , "Affaire de l'antisémitisme de Hugo Chavez"@fr , "Hugo Chavez Frias"@fr , "Hugo Chavez Frias"@de , "Hugo Chavez"@fr , "Hugo Chavez"@de , "Chavez"@fr , "Hugo Rafael Chávez"@fr , "Hugo Rafael Chavéz"@fr , "Hugo chavez"@fr , "Affaire de l'antisemitisme de Hugo Chavez"@fr .
+
+<http://dbpedia.org/resource/Fort_Lauderdale,_Florida>
+        rdfs:label     "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fort_Lauderdale> , <http://de.dbpedia.org/resource/Fort_Lauderdale> ;
+        skos:altLabel  "Venedig Amerikas"@de , "Ft. Lauderdale, Fla."@en , "Ft. Lauderdale, Fla."@de , "Ft. Lauderdale, Fla."@fr , "Fort Laderdale, Florida"@en , "Fort Laderdale, Florida"@fr , "Fort Laderdale, Florida"@de , "Ft. Lauderdale"@en , "Ft. Lauderdale"@de , "Ft. Lauderdale"@fr , "Ft. Lauderdale, FL"@en , "Ft. Lauderdale, FL"@de , "Ft. Lauderdale, FL"@fr , "Ft. Lauderdale, Fl."@en , "Downtown Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Fl."@de , "Ft. Lauderdale, Fl."@fr , "Downtown Fort Lauderdale, Florida"@de , "Downtown Fort Lauderdale, Florida"@fr , "Ft Lauderdale, Florida"@en , "Ft Lauderdale, Florida"@de , "Ft Lauderdale, Florida"@fr , "Fort Lauderdale, FL"@en , "Fort Lauderdale, FL"@de , "Fort Lauderdale, FL"@fr , "Ft Lauderdale"@en , "Ft Lauderdale"@de , "Ft Lauderdale"@fr , "Ft lauderdale, fl"@en , "Ft lauderdale, fl"@fr , "Ft lauderdale, fl"@de , "Ft. Lauderdale, Florida"@en , "Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Ft. Lauderdale, Florida"@de , "Ft. lauderdale, fl"@en , "Ft. lauderdale, fl"@fr , "Ft. lauderdale, fl"@de , "L-City"@en , "L-City"@de , "L-City"@fr , "Fort lauderdale, fl"@en , "Fort lauderdale, fl"@de , "Fort lauderdale, fl"@fr , "Fort loderdale"@fr , "Lauderdale"@en , "Lauderdale"@de , "Lauderdale"@fr , "Das Venedig Amerikas"@de , "Fort Lauderdale"@en , "Fort Lauderdale"@de , "Fort Lauderdale"@fr , "Ft.Lauderdale"@en , "Ft.Lauderdale"@de , "Ft.Lauderdale"@fr , "Ft Lauderdale, FL"@en , "Ft Lauderdale, FL"@de , "Ft Lauderdale, FL"@fr .
+
+<http://dbpedia.org/resource/Hugo_Chávez__1>
+        dbo:from      "1979"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Fort_Lauderdale,_Florida> ;
+        dbo:to        "1979"^^xsd:gYear .

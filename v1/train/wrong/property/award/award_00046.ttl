@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01gjkq__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.0dt49> ;
+        dbo:from        "1965"^^xsd:gYear ;
+        dbo:to          "1965"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01gjkq>
+        rdfs:label     "François Jacob"@en , "François Jacob"@fr , "François Jacob"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01gjkq__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Fran%C3%A7ois_Jacob> ;
+        skos:altLabel  "Francois Jacob"@en , "François Jacob"@en .
+
+<http://rdf.freebase.com/ns/m.0dt49>
+        rdfs:label     "Prix Nobel de physiologie ou médecine"@fr , "Nobelpreis für Physiologie oder Medizin"@de , "Nobel Prize in Physiology or Medicine"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nobelpreis_für_Physiologie_oder_Medizin> , <http://dbpedia.org/resource/Nobel_Prize_in_Physiology_or_Medicine> , <http://fr.dbpedia.org/resource/Prix_Nobel_de_physiologie_ou_médecine> ;
+        skos:altLabel  "Nobel prizes in medicine"@de , "Nobelpreis für Medizin und Physiologie"@de , "2006 Nobel Prize in Physiology or Medicine"@en , "2006 Nobel Prize in Physiology or Medicine"@fr , "2006 Nobel Prize in Physiology or Medicine"@de , "Physiology or medicine"@en , "Physiology or medicine"@de , "Physiology or medicine"@fr , "Nobelpreis fur Physiologie oder Medizin"@de , "Prix Nobel de physiologie ou de médecine"@fr , "Prix Nobel de physiologie et de medecine"@fr , "Prix nobel de physiologie ou médecine"@fr , "Nobel Prize in Medicine"@en , "Nobel Prize in Medicine"@fr , "Nobel Prize in Medicine"@de , "Nobelpreis für Medizin"@de , "Prix Nobel de Médecine"@fr , "Nobel Prize in Medicine and Physiology"@en , "Prix Nobel de Physiologie et Medecine"@fr , "Nobel Prize in Medicine and Physiology"@fr , "Nobel Prize in Medicine and Physiology"@de , "Prix Nobel de physiologie et de médecine"@fr , "Physiology or Medicine"@en , "Physiology or Medicine"@fr , "Prix Nobel de physiologie ou medecine"@fr , "Prix Nobel de Medecine"@fr , "Physiology or Medicine"@de , "Medizinnobelpreis"@de , "Nobelpreis fur Medizin"@de , "Prix Nobel de Physiologie et Médecine"@fr , "Nobel Prize for Medicine"@en , "Nobel Prize for Medicine"@fr , "Nobel Prize for Medicine"@de , "Prix Nobel de médecine"@fr , "Nobelpreis für Physiologie oder Medizin"@de , "2008 Nobel Prize in Medicine"@en , "2008 Nobel Prize in Medicine"@fr , "2008 Nobel Prize in Medicine"@de , "Prix Nobel de physiologie ou médecine"@fr , "Nobelpreis fur Medizin und Physiologie"@de , "Prix Nobel de medecine"@fr , "Nobel Prize in Physiology"@en , "Nobel prize in medicine"@en , "Nobel Prize in Physiology"@fr , "Nobel Prize in Physiology"@de , "Nobel prize in medicine"@de , "Nobel prize in medicine"@fr , "Prix Nobel de physiologie"@fr , "Prix Nobel de médecine et de physiologie"@fr , "Nobel Prize in Physiology or Medicine"@en , "Nobel Prize in Physiology or Medicine"@fr , "Nobel Prize in Physiology or Medicine"@de , "Nobel Prize in medicine"@en , "Nobel Prize in medicine"@fr , "Nobel Prize in medicine"@de , "Nobel prize in Physiology or Medicine"@en , "Nobel prize in Physiology or Medicine"@fr , "Nobel prize in Physiology or Medicine"@de , "Nobelpriset i fysiologi eller medicin"@en , "Nobelpriset i fysiologi eller medicin"@fr , "Nobelpriset i fysiologi eller medicin"@de , "Prix Nobel de Physiologie ou Médecine"@fr , "Prix Nobel de physiologie ou de medecine"@fr , "Nobel Prize for Physiology or Medicine"@en , "Nobel Prize for Physiology or Medicine"@fr , "Nobel Prize for Physiology or Medicine"@de , "Prix Nobel de Physiologie ou Medecine"@fr , "Prix nobel de physiologie ou medecine"@fr , "Nobel Prize in physiology or medicine"@en , "Nobel Prize in physiology or medicine"@de , "Nobel Prize in physiology or medicine"@fr , "Physiology"@en , "Nobel prize in physiology or medicine"@en , "Prix Nobel de biologie"@fr , "Nobel prize in physiology or medicine"@de , "Nobel prize in physiology or medicine"@fr , "Physiology"@de , "Physiology"@fr , "Nobel Prize in Physiology and Medicine"@en , "Nobel Prize in Physiology and Medicine"@fr , "Nobel Prize in Physiology and Medicine"@de , "Nobel prize for physiology or medicine"@en , "Nobel prize for physiology or medicine"@fr , "Nobel prize for physiology or medicine"@de , "Prix Nobel de medecine et de physiologie"@fr , "Nobel prizes in medicine"@en , "Nobel prizes in medicine"@fr .

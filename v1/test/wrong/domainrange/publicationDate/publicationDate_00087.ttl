@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gdfn>
+        rdfs:label     "Whit"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Whit> ;
+        skos:altLabel  "Whit, or Isis amongst the unsaved"@en .
+
+<http://rdf.freebase.com/ns/m.0125qk>
+        rdfs:label     "Ira Levin"@en , "Ira Levin"@fr , "Ira Levin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0125qk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ira_Levin> , <http://dbpedia.org/resource/Ira_Levin> , <http://fr.dbpedia.org/resource/Ira_Levin> ;
+        skos:altLabel  "Ira Marvin Levin"@en , "Levin, Ira"@en , "Levin, Ira"@de , "Levin, Ira"@fr , "Ira Levin"@en , "Ira Levin"@fr , "Ira Levin"@de , "Levin"@fr , "Levin"@de , "Todesfalle"@de .
+
+<http://rdf.freebase.com/ns/m.0125qk__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0gdfn> ;
+        dbo:from    "1938"^^xsd:gYear ;
+        dbo:to      "1938"^^xsd:gYear .

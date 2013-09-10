@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0r1hb>
+        rdfs:label     "Novato"@en , "Novato"@fr , "Novato"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Novato> , <http://fr.dbpedia.org/resource/Novato> , <http://dbpedia.org/resource/Novato,_California> ;
+        skos:altLabel  "Novato, California"@fr , "Novato, CA"@fr , "Novato, CA"@de , "Marin County / Novato city"@en , "LOCODE:USNOT"@en , "LOCODE:USNOT"@fr , "LOCODE:USNOT"@de , "San Marin, California"@en , "San Marin, California"@fr , "San Marin, California"@de , "Downtown Novato, California"@en , "Downtown Novato, California"@fr , "Downtown Novato, California"@de , "Novato"@en , "Novato, CA"@en , "Novato, California"@en , "Novato"@fr , "Novato"@de , "Novato, California"@de .
+
+<http://dbpedia.org/resource/Cara_Black>
+        rdfs:label     "Cara Black"@en , "Cara Black"@fr , "Cara Black"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Cara_Black__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cara_Black> , <http://fr.dbpedia.org/resource/Cara_Black> ;
+        skos:altLabel  "Cara black"@en , "Cara black"@fr , "Cara black"@de , "Black"@fr , "Cara Black"@fr , "Cara Black"@de , "Cara Black"@en .
+
+<http://dbpedia.org/resource/Cara_Black__1>
+        dbo:from      "2002"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.0r1hb> ;
+        dbo:to        "2002"^^xsd:gYear .

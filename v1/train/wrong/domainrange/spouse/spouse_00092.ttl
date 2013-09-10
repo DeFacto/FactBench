@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014v6x>
+        rdfs:label     "Haylie Duff"@en , "Haylie Duff"@fr , "Haylie Duff"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Haylie_Duff> , <http://fr.dbpedia.org/resource/Haylie_Duff> , <http://dbpedia.org/resource/Haylie_Duff> ;
+        skos:altLabel  "Haley Duff"@en , "Haylie Katherine Duff"@en , "Haley Duff"@fr , "Haley Duff"@de , "Haylie Katherine Duff"@de , "Hilary and Hailey Duff"@en , "Halie Duff"@en , "Halie Duff"@fr , "Halie Duff"@de , "Hailey Duff"@en , "Hailie Duff"@en , "Hayley Duff"@en , "Hailey Duff"@fr , "Hailey Duff"@de , "Hailie Duff"@fr , "Hayley Duff"@fr , "Hayley Duff"@de , "Hailie Duff"@de , "Haylie Duff"@en , "Haylie Duff"@fr , "Haylie Duff"@de , "Hayls"@en , "Duff"@fr .
+
+<http://rdf.freebase.com/ns/m.0h0zx_y>
+        rdfs:label     "Harmoni Everett"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h0zx_y__1> ;
+        skos:altLabel  "Harmonie Everett"@en .
+
+<http://rdf.freebase.com/ns/m.0h0zx_y__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.014v6x> ;
+        dbo:to      "2012"^^xsd:gYear .

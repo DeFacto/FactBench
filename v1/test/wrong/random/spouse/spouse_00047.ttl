@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lleyton_Hewitt__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.03d2k31> ;
+        dbo:from             "2007"^^xsd:gYear ;
+        dbo:to               "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03d2k31>
+        rdfs:label     "Morgan Paull"@en , "Morgan Paull"@fr , "Morgan Paull"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Morgan_Paull> , <http://dbpedia.org/resource/Morgan_Paull> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Morgan Paul"@en , "Paull"@fr , "Morgan Paull"@fr .
+
+<http://dbpedia.org/resource/Lleyton_Hewitt>
+        rdfs:label     "Lleyton Hewitt"@en , "Lleyton Hewitt"@fr , "Lleyton Hewitt"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Lleyton_Hewitt__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lleyton_Hewitt> , <http://de.dbpedia.org/resource/Lleyton_Hewitt> ;
+        skos:altLabel  "LleytonHewitt"@en , "LleytonHewitt"@fr , "LleytonHewitt"@de , "Lleyton Hewitt"@en , "Lleyton Hewitt"@fr , "Lleyton Hewitt"@de , "Hewitt"@en , "Hewitt"@fr , "Hewitt"@de , "Leyton hewitt"@en , "Leyton hewitt"@fr , "Leyton hewitt"@de , "Leyton Hewitt"@en , "Lleyton Glynn Hewitt"@en , "Leyton Hewitt"@fr , "Lleyton Glynn Hewitt"@fr , "Lleyton Glynn Hewitt"@de , "Leyton Hewitt"@de .

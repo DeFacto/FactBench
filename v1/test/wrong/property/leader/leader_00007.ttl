@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kwame_Nkrumah>
+        rdfs:label     "Kwame Nkrumah"@de , "Kwame Nkrumah"@fr , "Kwame Nkrumah"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kwame_Nkrumah__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kwame_Nkrumah> , <http://de.dbpedia.org/resource/Kwame_Nkrumah> ;
+        skos:altLabel  "Osagyefo"@en , "Osagyefo"@de , "Osagyefo"@fr , "Kwame N’Krumah"@en , "Kwame Nkhruma"@en , "Kwame N’Krumah"@de , "Kwame Nkhruma"@de , "Kwame Nkhruma"@fr , "Kwame N’Krumah"@fr , "Francis Nwia Kofi Ngonloma"@en , "Francis Nwia Kofi Ngonloma"@de , "Francis Nwia Kofi Ngonloma"@fr , "Nkrumah, Kwame"@en , "Show Boy"@en , "Nkrumah, Kwame"@de , "Nkrumah, Kwame"@fr , "Show Boy"@de , "Show Boy"@fr , "Kwame nkrumah"@en , "Kwame nkrumah"@de , "Kwame nkrumah"@fr , "Dr.Kwame Nkrumah"@en , "Dr.Kwame Nkrumah"@de , "Dr.Kwame Nkrumah"@fr , "Kwame N'Krumah"@en , "Deliverer of Ghana"@en , "Kwame N'Krumah"@fr , "Deliverer of Ghana"@de , "Deliverer of Ghana"@fr , "Kwame N'Krumah"@de , "Nkrumah"@en , "Nkrumah"@de , "Nkrumah"@fr , "Kwame Francis Nwia Kofi Nkrumah"@en , "Kwame"@en , "Kwame"@de , "Kwame"@fr , "Kwame Francis Nwia Kofi Nkrumah"@de , "Kwame Francis Nwia Kofi Nkrumah"@fr , "Krumah"@de , "Krumah"@fr , "Kwame Nkruma"@en , "Kwame Nkruma"@de , "Kwame Nkruma"@fr , "Francis Nwia Kofie Kwame Nkru-mah"@de , "Kwame Nkrumah"@en , "Kwame Nkrumah"@de , "Kwame Nkrumah"@fr , "Mbrantsehene"@en , "Mbrantsehene"@de , "Mbrantsehene"@fr , "Kantamanto"@en , "Kantamanto"@de , "Kantamanto"@fr .
+
+<http://dbpedia.org/resource/Ghana>
+        rdfs:label     "Ghana"@de , "Ghana"@fr , "Ghana"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ghana> , <http://de.dbpedia.org/resource/Ghana> ;
+        skos:altLabel  "Republique du Ghana"@fr , "Ghâna"@fr , "Ghanéen"@fr , "Republic Ghana"@de , "Republic Ghana"@fr , "Republic Ghana"@en , "Ghanaian"@en , "Ghanaian"@de , "Ghanaian"@fr , "The Republic Of Ghana"@en , "The Republic Of Ghana"@de , "The Republic Of Ghana"@fr , "Gana"@de , "State of Ghana"@de , "State of Ghana"@fr , "State of Ghana"@en , "Republic Of Ghana"@en , "Republic Of Ghana"@de , "Republic Of Ghana"@fr , "ISO 3166-1:GH"@en , "ISO 3166-1:GH"@de , "ISO 3166-1:GH"@fr , "Republik Ghana"@de , "Ghana"@de , "Ghana"@fr , "Ghana"@en , "République du Ghana"@fr , "Black Star of Africa"@de , "Black Star of Africa"@fr , "Black Star of Africa"@en , "The Democradic Republic of Ghana"@en , "The Democradic Republic of Ghana"@de , "The Democradic Republic of Ghana"@fr , "Administrative divisions of Ghana"@de , "Administrative divisions of Ghana"@fr , "Administrative divisions of Ghana"@en , "Ghaneen"@fr , "Republic of Ghana"@de , "Republic of Ghana"@fr , "Republic of Ghana"@en , "Etymology of Ghana"@en , "Etymology of Ghana"@de , "Etymology of Ghana"@fr .
+
+<http://dbpedia.org/resource/Kwame_Nkrumah__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Ghana> ;
+        dbo:from             "1957"^^xsd:gYear ;
+        dbo:to               "1960"^^xsd:gYear .

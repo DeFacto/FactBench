@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gcpsj>
+        rdfs:label  "Summon the Thunder"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Summon_the_Thunder> .
+
+<http://dbpedia.org/resource/Chris_Bosh__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.0gcpsj> ;
+        dbo:from        "1957"^^xsd:gYear ;
+        dbo:to          "1958"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chris_Bosh>
+        rdfs:label     "Chris Bosh"@en , "Chris Bosh"@fr , "Chris Bosh"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Bosh__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chris_Bosh> , <http://fr.dbpedia.org/resource/Chris_Bosh> ;
+        skos:altLabel  "Christopher Bosh"@en , "Christopher Bosh"@fr , "Christopher Bosh"@de , "Christopher Wesson Bosh"@en , "Christopher Wesson Bosh"@fr , "Christopher Wesson Bosh"@de , "Bosh"@en , "Bosh"@fr , "Bosh"@de , "Chris Bosh"@en , "Chris Bosh"@fr , "Chris Bosh"@de .

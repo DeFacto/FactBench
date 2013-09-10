@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/2012_(film)>
+        rdfs:label     "2012 (film)"@en , "2012 (film)"@fr , "2012 (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/2012_(film)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/2012_(Film)> , <http://fr.dbpedia.org/resource/2012_(film)> ;
+        skos:altLabel  "Institute for Human Continuity"@en , "Institute for Human Continuity"@fr , "Institute for Human Continuity"@de , "The Institute for Human Continuity"@en , "The Institute for Human Continuity"@fr , "The Institute for Human Continuity"@de , "2012 film"@en , "2012 film"@de , "2012 film"@fr , "2012 movie"@en , "2012 movie"@fr , "2012 movie"@de , "Charlie Frost"@en , "Charlie Frost"@fr , "Charlie Frost"@de .
+
+<http://dbpedia.org/resource/2012_(film)__1>
+        dbo:from      "2009"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Paul_McCartney> ;
+        dbo:to        "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Paul_McCartney>
+        rdfs:label     "Paul McCartney"@de , "Paul McCartney"@fr , "Paul McCartney"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Paul_McCartney> , <http://de.dbpedia.org/resource/Paul_McCartney> ;
+        skos:altLabel  "Paul mccartny"@en , "Paul mccartny"@de , "Paul mccartny"@fr , "Paul McCartney's solo career"@en , "Paul McCartney's solo career"@de , "Paul McCartney's solo career"@fr , "Sir paul mccartney"@en , "Sir paul mccartney"@fr , "Sir paul mccartney"@de , "Apollo C. Vermouth"@en , "Apollo C. Vermouth"@de , "Apollo C. Vermouth"@fr , "Paul McCartney: Relationships and marriages"@en , "Paul McCartney: Relationships and marriages"@fr , "Paul McCartney: Relationships and marriages"@de , "Sir Paul McCartney"@en , "Sir Paul McCartney"@fr , "Sir Paul McCartney"@de , "Paul mccartney"@en , "Paul mccartney"@fr , "Paul mccartney"@de , "Paul mc cartney"@en , "Paul mc cartney"@de , "Paul mc cartney"@fr , "Sir James Paul McCartney MBE"@en , "Sir James Paul McCartney MBE"@de , "Sir James Paul McCartney MBE"@fr , "Gladys Jenkins"@en , "Gladys Jenkins"@fr , "Gladys Jenkins"@de , "Paul MacCartney"@en , "Paul MacCartney"@fr , "Paul MacCartney"@de , "Paul Mccartney"@en , "Paul Mccartney"@fr , "Paul Mccartney"@de , "Ballets to the music of Paul McCartney"@en , "James Paul McCartney"@en , "Ballets to the music of Paul McCartney"@fr , "Ballets to the music of Paul McCartney"@de , "James Paul McCartney"@fr , "James Paul McCartney"@de , "Wings lead singer"@en , "Wings lead singer"@fr , "Wings lead singer"@de , "Paul Ramone"@en , "Paul Ramone"@de , "Paul Ramone"@fr , "Bernard Webb"@en , "Bernard Webb"@fr , "Bernard Webb"@de , "McCartney"@de , "McCartney"@fr , "McCartney, Paul"@en , "McCartney, Paul"@de , "McCartney, Paul"@fr , "Paul Mc Cartney"@fr , "Beatle Paul"@en , "Paul McCartney"@en , "Paul McCartney"@fr , "Beatle Paul"@de , "Beatle Paul"@fr , "Paul McCartney"@de , "Sir Paul Mccartney"@en , "Sir Paul Mccartney"@de , "Sir Paul Mccartney"@fr , "Sir James Paul McCartney"@en , "Sir James Paul McCartney"@de , "Sir James Paul McCartney"@fr , "Percy \"Thrills\" Thrillington"@fr , "Paul Ramon"@en , "Paul Ramon"@de , "Paul Ramon"@fr .

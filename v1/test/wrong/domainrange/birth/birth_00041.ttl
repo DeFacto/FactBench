@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mitt_Romney>
+        rdfs:label     "Mitt Romney"@de , "Mitt Romney"@fr , "Mitt Romney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mitt_Romney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mitt_Romney> , <http://fr.dbpedia.org/resource/Mitt_Romney> ;
+        skos:altLabel  "Willard mitt romney"@de , "Willard mitt romney"@fr , "Willard mitt romney"@en , "Gov. Mitt Romney"@en , "Gov. Mitt Romney"@de , "Gov. Mitt Romney"@fr , "Willard"@en , "Willard"@de , "Willard"@fr , "Mitt romney"@en , "Mitt Rommey"@fr , "Mitt romney"@de , "Mitt romney"@fr , "Mitt Romney"@de , "Mitt Romney"@fr , "Mitt Romney"@en , "Willard Romney"@en , "Willard Romney"@de , "Willard Romney"@fr , "W. Mitt Romney"@en , "W. Mitt Romney"@de , "W. Mitt Romney"@fr , "Mitt Romny"@de , "Mitt Romny"@fr , "Mitt Romny"@en , "Romney"@en , "Romney"@de , "Romney"@fr , "W.M. Romney"@en , "W.M. Romney"@de , "W.M. Romney"@fr , "Mit Romney"@en , "Mit Romney"@de , "Mit Romney"@fr , "Willard Mitt Romney"@en , "Willard Mitt Romney"@de , "Willard Mitt Romney"@fr , "Willard M. Romney"@en , "Willard M. Romney"@de , "Willard M. Romney"@fr , "Governor Mitt Romney"@en , "Governor Mitt Romney"@de , "Governor Mitt Romney"@fr , "Willard Mitt"@en , "Willard Mitt"@de , "Willard Mitt"@fr , "Mitt"@en , "Mitt"@de , "Mitt"@fr .
+
+<http://dbpedia.org/resource/Mitt_Romney__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Barranquilla> ;
+        dbo:from        "1972"^^xsd:gYear ;
+        dbo:to          "1972"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Barranquilla>
+        rdfs:label     "Barranquilla"@de , "Barranquilla"@fr , "Barranquilla"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Barranquilla> , <http://fr.dbpedia.org/resource/Barranquilla> ;
+        skos:altLabel  "Barranquilla, Colombia"@en , "Barranquilla, Colombia"@de , "Barranquilla, Colombia"@fr , "Trinidad"@en , "Colegio San José Barranquilla"@en , "Trinidad"@de , "Trinidad"@fr , "Colegio San José Barranquilla"@de , "Colegio San José Barranquilla"@fr , "Barranquillia"@en , "Barranquillia"@de , "Barranquillia"@fr , "Barranquilla"@en , "Barranquilla"@de , "Barranquilla"@fr , "Colegio San Jose Barranquilla"@en , "Colegio San Jose Barranquilla"@de , "Colegio San Jose Barranquilla"@fr , "Barranquilla, Atlántico"@de , "Barranquilla, Atlántico"@fr , "Barranquilla, Atlántico"@en , "Barranquillia, Colombia"@en , "Barranquillia, Colombia"@de , "Barranquillia, Colombia"@fr , "Barranquillera"@en , "Barranquillera"@de , "Barranquillera"@fr , "Baranquilla"@en , "Baranquilla"@de , "Baranquilla"@fr , "Aéroport Ernesto Cortissoz"@fr , "Barranquilla, Atlantico, Colombia"@en , "Barranquilla, Atlantico, Colombia"@de , "Barranquilla, Atlantico, Colombia"@fr , "Barranquila"@en , "Barranquila"@de , "Barranquila"@fr , "Barranquilla, Atlantico"@en , "Barranquilla, Atlantico"@de , "Barranquilla, Atlantico"@fr , "Aeroport Ernesto Cortissoz"@fr , "Trinidad, Colombia"@de , "Trinidad, Colombia"@fr , "Trinidad, Colombia"@en , "Baranquila"@en , "Baranquila"@de , "Baranquila"@fr , "Barranquilla, Atlántico, Colombia"@de , "Barranquilla, Atlántico, Colombia"@fr , "Barranquilla, Atlántico, Colombia"@en .

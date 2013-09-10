@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paul_Simon__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Plains,_Georgia> ;
+        dbo:from        "1941"^^xsd:gYear ;
+        dbo:to          "1941"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Paul_Simon>
+        rdfs:label     "Paul Simon"@en , "Paul Simon"@fr , "Paul Simon"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Paul_Simon__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Paul_Simon> , <http://fr.dbpedia.org/resource/Paul_Simon_(chanteur)> ;
+        skos:altLabel  "Jerry Landis"@en , "Jerry Landis"@fr , "Jerry Landis"@de , "Paul Frédéric Simon"@fr , "Tico and the Triumphs"@en , "Tico and the Triumphs"@fr , "Tico and the Triumphs"@de , "Simon"@fr , "Paul Simon"@en , "Paul Simon"@fr , "Paul Simon"@de , "Tico"@en , "Tico"@fr , "Tico"@de , "Paul Frederic Simon"@en , "Kathy Chitty"@en , "Paul Frederic Simon"@fr , "Paul Frederic Simon"@de , "Kathy Chitty"@fr , "Kathy Chitty"@de .
+
+<http://dbpedia.org/resource/Plains,_Georgia>
+        rdfs:label     "Plains, Georgia"@fr , "Plains, Georgia"@de , "Plains, Georgia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Plains_(Géorgie)> , <http://de.dbpedia.org/resource/Plains_(Georgia)> ;
+        skos:altLabel  "Plains City"@de , "Plains City"@fr , "Plains, Georgia"@en , "Plains, Georgia"@de , "Plains, Georgia"@fr , "LOCODE:USPLS"@en , "LOCODE:USPLS"@fr , "LOCODE:USPLS"@de , "Plains"@en , "Plains"@fr , "Plains"@de , "Plains, GA"@en , "Plains, GA"@fr , "Plains, GA"@de , "Plains City"@en .

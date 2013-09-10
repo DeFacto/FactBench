@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dr._Dre>
+        rdfs:label     "Dr. Dre"@de , "Dr. Dre"@fr , "Dr. Dre"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Dr._Dre__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dr._Dre> , <http://de.dbpedia.org/resource/Dr._Dre> ;
+        skos:altLabel  "Dr. drei"@en , "Dr. drei"@de , "André Romel Young"@de , "André Romel Young"@en , "André Young"@fr , "André Young"@en , "André Young"@de , "André"@fr , "André Romell Young"@fr , "André Romell Young"@en , "André Romell Young"@de , "Dr.Dre"@fr , "Dr.Dre"@en , "André"@en , "André"@de , "Dr.Dre"@de , "Andre Romel Young"@fr , "Andre Romel Young"@en , "Andre Romel Young"@de , "Andre Romelle Young"@fr , "Andre Romelle Young"@en , "Andre Romelle Young"@de , "Dr dre"@fr , "Dr dre"@en , "Dr dre"@de , "Dr Dre"@fr , "Dr Dre"@de , "Dr Dre"@en , "Andre Romell Young"@fr , "Andre Romell Young"@en , "Andre Romell Young"@de , "Dr. Dré"@fr , "Dr. Dré"@en , "Dr. Dré"@de , "Andre"@fr , "Andre"@en , "Andre"@de , "Andre Young"@fr , "Andre Young"@de , "Andre Young"@en , "Dr. Allen DuMont"@fr , "Dr. Allen DuMont"@en , "Dr. Allen DuMont"@de , "List of Dr Dre awards and nominations"@fr , "List of Dr Dre awards and nominations"@en , "List of Dr Dre awards and nominations"@de , "Dr. Dre"@fr , "Dr. Dre"@de , "Dr. Dre"@en , "Exclusive"@fr , "Exclusive"@en , "Exclusive"@de , "Dr. D"@fr , "Dr. D"@en , "Dr. D"@de , "André Romel Young"@fr , "Dr. drei"@fr .
+
+<http://dbpedia.org/resource/Dr._Dre__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Compton,_California> ;
+        dbo:from        "1965-02-18"^^xsd:date ;
+        dbo:to          "1965-02-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Compton,_California>
+        rdfs:label     "Compton, California"@en , "Compton, California"@fr , "Compton, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Compton_(Californie)> , <http://de.dbpedia.org/resource/Compton_(Kalifornien)> ;
+        skos:altLabel  "Compton, California"@en , "Compton, Ca"@en , "Compton Airport"@fr , "Compton"@fr , "Compton"@de , "Compton"@en , "Bompton"@fr , "Bompton"@de , "Bompton"@en , "Aéroport de Compton"@fr , "Compton, Los Angeles, California"@fr , "Compton, CA"@fr , "Compton, Los Angeles, California"@de , "Compton, CA"@de , "Compton, CA"@en , "Compton, Los Angeles, California"@en , "LOCODE:USCPM"@fr , "LOCODE:USCPM"@de , "LOCODE:USCPM"@en , "City of Compton"@fr , "Bity of Bompton"@fr , "City of Compton"@de , "Bity of Bompton"@de , "Bity of Bompton"@en , "City of Compton"@en , "Aeroport de Compton"@fr , "Compton, California"@fr , "Compton, Ca"@fr , "Compton, California"@de , "Compton, Ca"@de .

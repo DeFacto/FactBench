@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.047gwd>
+        rdfs:label     "Emmy Rossum"@fr , "Emmy Rossum"@en , "Emmy Rossum"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Emmy_Rossum> , <http://fr.dbpedia.org/resource/Emmy_Rossum> , <http://de.dbpedia.org/resource/Emmy_Rossum> ;
+        skos:altLabel  "Emmanuelle Grey Rossum"@fr , "Emmanuelle Grey Rossum"@de , "Emmanuelle Grey Rossum"@en , "Em"@en , "Emmy Rossum"@fr , "emmy_rossum"@en , "Emmy Rossum"@de , "Emmy Rossum"@en , "Emmanuelle Rossum"@fr , "Emmanuelle Grey \"Emmy\" Rossum"@fr , "Emmanuelle Rossum"@de , "Emmanuelle Grey \"Emmy\" Rossum"@de , "Emmanuelle Rossum"@en , "Emmanuelle Grey \"Emmy\" Rossum"@en , "Emmy"@en , "Emmy Rossum discography"@fr , "Emmy Rossum discography"@de , "Emmy Rossum discography"@en , "Emmy Grey"@en , "Rossum"@fr , "Rossum"@de , "Rossum"@en .
+
+<http://rdf.freebase.com/ns/m.03bv7j3__10>
+        dbo:from    "2008-02-17"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.047gwd> ;
+        dbo:to      "2010-12-28"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.03bv7j3>
+        rdfs:label    "Justin Siegel"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.03bv7j3__10> .

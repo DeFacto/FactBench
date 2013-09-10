@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Walter_Scott>
+        rdfs:label     "Walter Scott"@fr , "Walter Scott"@en , "Walter Scott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walter_Scott__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walter_Scott> , <http://fr.dbpedia.org/resource/Walter_Scott> ;
+        skos:altLabel  "Sir Walter Scotts's"@de , "Sir Walter Scotts's"@fr , "Sir Walter Scotts's"@en , "Scott, Sir Walter"@en , "Walter, 1st Baronet Scott"@de , "Walter, 1st Baronet Scott"@fr , "Scott, Sir Walter"@de , "Scott, Sir Walter"@fr , "Sir Walter Scott, 1st Baronet"@de , "Sir Walter Scott, 1st Baronet"@fr , "Sir Walter Scott, 1st Baronet"@en , "Walter, 1st Baronet Scott"@en , "Border Minstrel"@de , "Border Minstrel"@fr , "Border Minstrel"@en , "Scott"@fr , "Wizard of the North"@fr , "Wizard of the North"@en , "Wizard of the North"@de , "Sir Walter Scott"@de , "Sir Walter Scott"@fr , "Sir Walter Scott"@en , "Walter Scott, 1st Baronet"@de , "Walter Scott, 1st Baronet"@fr , "Walter Scott, 1st Baronet"@en , "Scott, Walter"@de , "Scott, Walter"@fr , "Scott, Walter"@en , "Sir W. Scott"@en , "Sir W. Scott"@de , "Sir W. Scott"@fr , "Walter Scott"@en , "Walter Scott"@de , "Walter Scott"@fr , "Great Magician"@de , "Great Magician"@fr , "Great Magician"@en .
+
+<http://dbpedia.org/resource/Oxford>
+        rdfs:label     "Oxford"@fr , "Oxford"@en , "Oxford"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oxford> , <http://de.dbpedia.org/resource/Oxford> ;
+        skos:altLabel  "Oxford, United Kingdom"@en , "Oxford, United Kingdom"@de , "Oxford, United Kingdom"@fr , "The city of dreaming spires"@en , "The city of dreaming spires"@de , "The city of dreaming spires"@fr , "County Borough of Oxford"@en , "County Borough of Oxford"@de , "County Borough of Oxford"@fr , "OXFORD"@en , "OXFORD"@de , "OXFORD"@fr , "City of Dreaming Spires"@en , "City of Dreaming Spires"@fr , "City of Dreaming Spires"@de , "Oxford"@en , "Oxford"@de , "Oxford"@fr , "Oxford, england"@en , "Oxford, england"@fr , "Oxford, england"@de , "Lion Brewery"@en , "Lion Brewery"@fr , "Lion Brewery"@de , "Oxford, England"@en , "The weather in Oxford"@en , "Oxford, England"@de , "Oxford, England"@fr , "The weather in Oxford"@de , "The weather in Oxford"@fr , "The Dreaming Spires"@en , "The Dreaming Spires"@de , "The Dreaming Spires"@fr , "Morrells brewery"@en , "Morrells brewery"@de , "Morrells brewery"@fr , "Oxford, UK"@en , "Oxford, UK"@de , "Oxford, UK"@fr , "LOCODE:GBOXF"@en , "LOCODE:GBOXF"@de , "LOCODE:GBOXF"@fr , "Oxford astrophysics"@en , "City of Oxford"@en , "City of Oxford"@de , "City of Oxford"@fr , "Oxford astrophysics"@de , "Oxford astrophysics"@fr , "Oxenaforda"@en , "Oxenaforda"@fr , "Oxenaforda"@de , "Dreaming Spires"@en , "Dreaming Spires"@de , "Dreaming Spires"@fr , "City of dreaming spires"@en , "City of dreaming spires"@de , "City of dreaming spires"@fr , "Oxford, Oxfordshire"@en , "Oxford, Oxfordshire"@fr , "Oxford, Oxfordshire"@de .
+
+<http://dbpedia.org/resource/Walter_Scott__1>
+        dbo:award  <http://dbpedia.org/resource/Oxford> ;
+        dbo:from   "1605"^^xsd:gYear ;
+        dbo:to     "1605"^^xsd:gYear .

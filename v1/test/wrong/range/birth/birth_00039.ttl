@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dublin>
+        rdfs:label     "Dublin"@de , "Dublin"@fr , "Dublin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dublin> , <http://fr.dbpedia.org/resource/Dublin> ;
+        skos:altLabel  "Dublín"@en , "Dublín"@de , "Dublín"@fr , "Dublinn"@fr , "Dublin, Republic of Ireland"@en , "Dublin, Republic of Ireland"@fr , "Dublin, Republic of Ireland"@de , "Capital of Republic of Ireland"@en , "Dublin"@en , "Dublin"@fr , "Dublin"@de , "Capital of Republic of Ireland"@fr , "Capital of Republic of Ireland"@de , "Dublin City, Ireland"@en , "Dyflin"@en , "Dyflin"@de , "Dublin City, Ireland"@de , "Dublin City, Ireland"@fr , "Dyflin"@fr , "Capital of the Republic of Ireland"@en , "Capital of the Republic of Ireland"@fr , "Capital of the Republic of Ireland"@de , "Dublin City Centre"@en , "Dublin City Centre"@de , "Dublin City Centre"@fr , "City Center, Dublin"@en , "City Center, Dublin"@de , "City Center, Dublin"@fr , "Baile Atha Cliath"@en , "Baile Atha Cliath"@fr , "Baile Atha Cliath"@de , "Dubhlinn"@de , "Dubh Linn"@en , "Dubh Linn"@fr , "Dubh Linn"@de , "Dublin, County Dublin"@en , "Dublin, County Dublin"@fr , "Dublin, County Dublin"@de , "City of Dublin"@en , "City of Dublin"@fr , "City of Dublin"@de , "Capital of Ireland"@en , "Capital of Ireland"@fr , "Capital of Ireland"@de , "West Dublin"@en , "West Dublin"@fr , "West Dublin"@de , "Dublin, Ireland"@en , "Dublin, Ireland"@fr , "Dublin, Ireland"@de , "Baile átha Cliath"@en , "City Centre, Dublin"@en , "The weather in Dublin"@en , "The weather in Dublin"@de , "The weather in Dublin"@fr , "Dublin city center"@en , "Baile átha Cliath"@fr , "Baile átha Cliath"@de , "Dublin city center"@de , "Dublin city center"@fr , "Dublin city centre"@en , "City Centre, Dublin"@fr , "City Centre, Dublin"@de , "Dublin city centre"@de , "Dublin city centre"@fr , "Dublin City Center"@en , "Dublin Culture"@en , "Central Dublin"@en , "Dublin City Center"@fr , "Dublin Culture"@fr , "Central Dublin"@fr , "Dublin City Center"@de , "Dublin Culture"@de , "Central Dublin"@de , "Visitor Information for Dublin, Ireland"@en , "Baile Átha Cliath"@en , "Visitor Information for Dublin, Ireland"@fr , "Baile Átha Cliath"@fr , "Visitor Information for Dublin, Ireland"@de , "Baile Átha Cliath"@de , "LOCODE:IEDUB"@en , "LOCODE:IEDUB"@fr , "LOCODE:IEDUB"@de , "Baile atha Cliath"@en , "Baile atha Cliath"@fr , "Baile atha Cliath"@de .
+
+<http://dbpedia.org/resource/Novak_Djokovic__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Dublin> ;
+        dbo:from        "1987"^^xsd:gYear ;
+        dbo:to          "1987"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Novak_Djokovic>
+        rdfs:label     "Novak Djokovic"@de , "Novak Djokovic"@fr , "Novak Djokovic"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Novak_Djokovic__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Novak_Đoković> , <http://de.dbpedia.org/resource/Novak_Đoković> ;
+        skos:altLabel  "Novak dokovic"@en , "Novak"@fr , "Novak"@de , "Novak dokovic"@de , "Novak dokovic"@fr , "Đokovic"@de , "Đokovic"@fr , "Novak Ðokovic"@en , "Nole Đokovic"@en , "Novak Ðokovic"@fr , "Nole Đokovic"@de , "Novak Ðokovic"@de , "Nole Đokovic"@fr , "Novak Đjoković"@en , "Djocovic"@en , "Novak Đjoković"@fr , "Novak Đjoković"@de , "Novak Djoković"@en , "Novak Djoković"@de , "Novak Djoković"@fr , "Djocovic"@de , "Djocovic"@fr , "Novak Đoković"@en , "Novak Đoković"@de , "Novak Đoković"@fr , "Novak Đokovic"@en , "Novak Đokovic"@fr , "Novak Đokovic"@de , "Đoković"@fr , "Đoković"@de , "Novak Đjokovic"@en , "Novak Đjokovic"@fr , "Novak Đjokovic"@de , "Djokovic"@en , "Djokovic"@de , "Djokovic"@fr , "Dokovic"@fr , "Dokovic"@de , "Djoker"@en , "Djoker"@fr , "Djoker"@de , "Nowak Djokovic"@de , "Nole Djokovic"@en , "Nole Djokovic"@de , "Nole Djokovic"@fr , "Djoko"@en , "Djoko"@fr , "Djoko"@de , "Novak Jokovic"@de , "Nole Đoković"@en , "Nole Đoković"@de , "Nole Đoković"@fr , "Novak Dokovic"@en , "Novak Djokovic"@en , "Nole Dokovic"@en , "Novak Dokovic"@fr , "Novak Dokovic"@de , "Novak Djokovic"@fr , "Novak Djokovic"@de , "Nole Dokovic"@de , "Nole Dokovic"@fr , "The Djoker"@en , "The Djoker"@fr , "The Djoker"@de , "Novak Ðoković"@en , "Novak Ðoković"@fr , "Novak Ðoković"@de , "Novak djokovic"@en , "Novak djokovic"@fr , "Novak djokovic"@de , "Novak"@en .

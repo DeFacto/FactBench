@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Maggie_d'Abo>
+        rdfs:label  "Maggie d'Abo"@en , "Maggie d'Abo"@fr , "Maggie d'Abo"@de .
+
+<http://dbpedia.org/resource/Love_Actually>
+        rdfs:label     "Love Actually"@en , "Love Actually"@fr , "Love Actually"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Love_Actually__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tatsächlich…_Liebe> , <http://fr.dbpedia.org/resource/Love_Actually> ;
+        skos:altLabel  "Tatsächlich … Liebe"@de , "Tatsachlich Liebe"@de , "Tatsächlich Liebe"@de , "Tatsachlich… Liebe"@de , "Tatsachlich ... Liebe"@de , "Love, Actually"@en , "Love, Actually"@fr , "Love, Actually"@de , "Love actually"@en , "Love Actually"@en , "Love actually"@fr , "Love Actually"@fr , "Tatsachlich...Liebe"@de , "Love actually"@de , "Love Actually"@de , "Tatsachlich … Liebe"@de , "Tatsachlich... Liebe"@de , "Tatsächlich… Liebe"@de , "Tatsächlich...Liebe"@de , "Tatsächlich... Liebe"@de , "Tatsächlich ... Liebe"@de .
+
+<http://dbpedia.org/resource/Love_Actually__1>
+        dbo:from      "1987"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Maggie_d'Abo> ;
+        dbo:to        "1987"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.078g3l>
+        rdfs:label     "John Heard"@en , "John Heard"@fr , "John Heard"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Heard> , <http://fr.dbpedia.org/resource/John_Heard> , <http://dbpedia.org/resource/John_Heard_(actor)> ;
+        skos:altLabel  "John Heard, Jr."@en , "Heard"@fr , "Heard"@de , "John Heard"@fr , "John Heard"@de .
+
+<http://dbpedia.org/resource/Dries_van_Agt__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.078g3l> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dries_van_Agt>
+        rdfs:label     "Dries van Agt"@en , "Dries van Agt"@fr , "Dries van Agt"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dries_van_Agt__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dries_van_Agt> , <http://fr.dbpedia.org/resource/Dries_van_Agt> ;
+        skos:altLabel  "Van Agt"@en , "Van Agt"@fr , "Van Agt"@de , "Van Agt, Andreas Antonius Maria"@en , "Van Agt, Andreas Antonius Maria"@fr , "Van Agt, Andreas Antonius Maria"@de , "Dries"@fr , "Andreas Antonius Maria \"Dries\" van Agt"@en , "Andreas Antonius Maria \"Dries\" van Agt"@fr , "Andreas Antonius Maria \"Dries\" van Agt"@de , "Dries van Agt"@en , "Andreas van Agt"@en , "Andreas Antonius Maria van Agt"@en , "Dries van Agt"@fr , "Andreas van Agt"@fr , "Andreas van Agt"@de , "Dries van Agt"@de , "Andreas Antonius Maria van Agt"@fr , "Andreas Antonius Maria van Agt"@de , "Dries van agt"@en , "Dries van agt"@fr , "Dries van agt"@de , "Dries Van Agt"@en , "Dries Van Agt"@fr , "Dries Van Agt"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0f196>
+        rdfs:label     "I Will Fear No Evil"@en , "Le Ravin des ténèbres"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/I_Will_Fear_No_Evil> , <http://fr.dbpedia.org/resource/Le_Ravin_des_ténèbres> ;
+        skos:altLabel  "I Will Fear No Evil"@fr , "Le ravin des ténèbres"@fr , "Le ravin des tenebres"@fr , "Le Ravin Des Tenebres"@fr , "Le Ravin des ténèbres"@fr , "Le Ravin des tenebres"@fr , "Le Ravin Des Ténèbres"@fr , "Fear No Evil"@fr .
+
+<http://rdf.freebase.com/ns/m.06bng__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0f196> ;
+        dbo:from    "1968"^^xsd:gYear ;
+        dbo:to      "1968"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.06bng>
+        rdfs:label     "Robert A. Heinlein"@de , "Robert A. Heinlein"@fr , "Robert A. Heinlein"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06bng__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Robert_A._Heinlein> , <http://de.dbpedia.org/resource/Robert_A._Heinlein> , <http://fr.dbpedia.org/resource/Robert_A._Heinlein> ;
+        skos:altLabel  "Heinlin"@en , "Heinlin"@de , "Heinlin"@fr , "Caleb Saunders"@en , "Caleb Saunders"@de , "Caleb Saunders"@fr , "Anson MacDonald"@en , "Robert Anson Heinlein"@en , "Robert Anson Heinlein"@fr , "Robert Anson Heinlein"@de , "R.A. Heinlein"@en , "Anson Macdonald"@en , "Anson Macdonald"@fr , "Anson Macdonald"@de , "John Riverside"@en , "John Riverside"@fr , "John Riverside"@de , "Simon York"@en , "Simon York"@de , "Simon York"@fr , "RobertHeinlein"@en , "Patrick Henry League"@en , "Patrick Henry League"@de , "Patrick Henry League"@fr , "RobertHeinlein"@de , "RobertHeinlein"@fr , "Robert Heinlein on metaphysics"@en , "Robert Heinlein on metaphysics"@fr , "Robert Heinlein on metaphysics"@de , "Lyle Monroe"@en , "Robert heinlin"@en , "Robert heinlin"@de , "Robert heinlin"@fr , "Lyle Monroe"@fr , "Lyle Monroe"@de , "Robert"@fr , "Robert Henlein"@en , "Robert Henlein"@fr , "Robert Henlein"@de , "Robert Hienlien"@en , "Robert Hienlien"@fr , "Robert Hienlien"@de , "Robert A. Heinlein"@en , "Robert A. Heinlein"@de , "Robert A. Heinlein"@fr , "Robert A. HeinLein"@en , "Ishtar"@en , "Ishtar"@fr , "Ishtar"@de , "Robert Heinlein"@en , "Robert Heinlein"@fr , "Robert Heinlein"@de , "Heinlein"@de , "Robert Anson MacDonald Heinlein"@en , "Robert Anson MacDonald Heinlein"@fr , "Robert Anson MacDonald Heinlein"@de , "Heinlein, Robert A."@en , "Robert a. heinlein"@en , "Robert a. heinlein"@fr , "Robert a. heinlein"@de , "Dean of Science Fiction"@en , "Robert A. Heilein"@en , "Dean of Science Fiction"@fr , "Dean of Science Fiction"@de , "Robert A. Heilein"@de , "Robert A. Heilein"@fr , "Robert Heinleim"@en , "Robert A Heinlein"@en , "Robert Heinleim"@fr , "Robert Heinleim"@de , "Robert heinlein"@en , "Robert heinlein"@de , "Robert heinlein"@fr , "Robert A Heinlein"@de , "Robert A Heinlein"@fr , "Robert Heinlen"@en , "Robert Heinlen"@fr , "Robert Heinlen"@de .

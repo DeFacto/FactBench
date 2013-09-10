@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01k4f>
+        rdfs:label     "Basel"@en , "Basel"@de , "Bâle"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Basel> , <http://dbpedia.org/resource/Basel> , <http://fr.dbpedia.org/resource/Bâle> ;
+        skos:altLabel  "Greater Basel"@en , "Greater Basel"@fr , "Greater Basel"@de , "Basel BS"@de , "Basel BS"@fr , "Basel BS"@en , "History of Basel"@de , "History of Basel"@fr , "History of Basel"@en , "Bâle"@en , "Bâle"@de , "Bâle"@fr , "Bale"@de , "Bale"@fr , "Bale"@en , "Theodorskirche"@en , "Theodorskirche"@de , "Theodorskirche"@fr , "Basel-Gasfabrik"@de , "Bâle, Suisse"@en , "Basileae"@fr , "Basle, Switzerland"@en , "Basle, Switzerland"@de , "Basle, Switzerland"@fr , "Basel, Switzerland"@en , "Basel, Switzerland"@de , "Basel, Switzerland"@fr , "Basilea"@en , "Basilea"@de , "Basilea"@fr , "Basel, Schwitzerland"@en , "Republic of Basel"@de , "Republic of Basel"@fr , "Basel, Schwitzerland"@de , "Basel, Schwitzerland"@fr , "Republic of Basel"@en , "LOCODE:CHBSL"@en , "LOCODE:CHBSL"@de , "LOCODE:CHBSL"@fr , "Basle"@en , "Basle"@de , "Basle"@fr , "Basel"@en , "Basel"@de , "Basel"@fr .
+
+<http://rdf.freebase.com/ns/m.0h5x6v__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01k4f> ;
+        dbo:from             "1993"^^xsd:gYear ;
+        dbo:to               "1993"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0h5x6v>
+        rdfs:label     "Big Fish Games"@en , "Big Fish Games"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h5x6v__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Big_Fish_Games> , <http://fr.dbpedia.org/resource/Big_Fish_Games> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Bigfishgames.com"@en , "Bigfishgames.com"@fr , "Big Fish"@en , "Big fish studio"@en , "Big Fish"@fr , "Big fish studio"@fr , "Bigfishstudios.com"@en , "Bigfishstudios.com"@fr , "Funpause"@en , "Funpause"@fr , "Bigfishstudios"@en , "Bigfishstudios"@fr , "Big Fish Games, Inc"@en , "Big fish games inc"@en , "Big fish games inc"@fr , "Big fish game"@en , "Big fish game"@fr , "Big Fish Studios"@en , "Bigfishgames"@en , "Bigfishgames"@fr , "Big Fish Studios"@fr , "My Big Fish Games"@en , "My Big Fish Games"@fr , "Big Fish Games"@en , "Big Fish Games"@fr , "Bigfish games"@en , "Bigfish games"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h0gk>
+        rdfs:label     "Jaroslav Seifert"@en , "Jaroslav Seifert"@fr , "Jaroslav Seifert"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h0gk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jaroslav_Seifert> , <http://fr.dbpedia.org/resource/Jaroslav_Seifert> , <http://dbpedia.org/resource/Jaroslav_Seifert> ;
+        skos:altLabel  "Jaroslav Seifert"@en , "Jaroslav Seifert"@fr , "Jaroslav Seifert"@de , "Seifert"@fr , "Seifert"@de , "Seifert"@en .
+
+<http://rdf.freebase.com/ns/m.0h0gk__1>
+        dbo:award  <http://dbpedia.org/resource/Rancho_Mirage,_California> ;
+        dbo:from   "2001"^^xsd:gYear ;
+        dbo:to     "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rancho_Mirage,_California>
+        rdfs:label     "Rancho Mirage, California"@fr , "Rancho Mirage, California"@de , "Rancho Mirage, California"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rancho_Mirage> , <http://fr.dbpedia.org/resource/Rancho_Mirage> ;
+        skos:altLabel  "Rancho Mirage, Ca"@en , "Rancho Mirage, Ca"@fr , "Rancho Mirage, Ca"@de , "Rancho Mirage"@en , "Rancho Mirage"@fr , "Rancho Mirage"@de , "Rancho Mirage, CA"@en , "Rancho Mirage, CA"@fr , "Rancho Mirage, CA"@de , "Rancho Mirage, California"@en , "Rancho Mirage, California"@de , "Rancho Mirage, California"@fr .

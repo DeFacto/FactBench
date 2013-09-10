@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Jones>
+        rdfs:label     "George Jones"@en , "George Jones"@fr , "George Jones"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Jones__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Jones> , <http://de.dbpedia.org/resource/George_Jones_(Musiker)> ;
+        skos:altLabel  "Jones"@fr , "Jones, George"@de , "Thumper Jones"@de , "George Jones"@en , "George Jones"@fr , "George Jones"@de , "No-Show Jones"@en , "No-Show Jones"@fr , "No-Show Jones"@de , "No Show Jones"@en , "No Show Jones"@de , "No Show Jones"@fr , "Jones, George"@en , "Jones, George"@fr .
+
+<http://rdf.freebase.com/ns/m.04shbh>
+        rdfs:label     "Daniel Craig"@en , "Daniel Craig"@fr , "Daniel Craig"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Daniel_Craig> , <http://fr.dbpedia.org/resource/Daniel_Craig> , <http://de.dbpedia.org/resource/Daniel_Craig> ;
+        skos:altLabel  "Daniel Craig"@fr , "Daniel Craig"@de , "Daniel Craig"@en , "Dan Craig"@en , "Dan Craig"@fr , "Dan Craig"@de , "Craig"@fr , "Daniel Wroughton Craig"@en , "Daniel Wroughton Craig"@de .
+
+<http://dbpedia.org/resource/George_Jones__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.04shbh> ;
+        dbo:from        "1903"^^xsd:gYear ;
+        dbo:to          "1903"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Johnny_Carson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Baltimore> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Johnny_Carson>
+        rdfs:label     "Johnny Carson"@en , "Johnny Carson"@fr , "Johnny Carson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Johnny_Carson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Johnny_Carson> , <http://de.dbpedia.org/resource/Johnny_Carson> ;
+        skos:altLabel  "John William “Johnny” Carson"@fr , "John William “Johnny” Carson"@de , "John William Carson"@en , "John William Carson"@fr , "John William Carson"@de , "Johnny Carson"@en , "Johnny Carson"@fr , "Johnny Carson"@de , "Jonny Carson"@en , "John William \"Johnny\" Carson"@en , "Jonny Carson"@fr , "John William \"Johnny\" Carson"@fr , "Jonny Carson"@de , "John William \"Johnny\" Carson"@de , "Carson"@fr , "Carson"@de , "Johnny carson"@en , "Johnny carson"@fr , "Johnny carson"@de , "King of Late Night"@en , "King of Late Night"@fr , "King of Late Night"@de , "Johny carson"@en , "The Squirrel's Nest"@en , "Johny carson"@fr , "Johny carson"@de , "The Squirrel's Nest"@fr , "The Squirrel's Nest"@de , "John William “Johnny” Carson"@en .
+
+<http://dbpedia.org/resource/Baltimore>
+        rdfs:label     "Baltimore"@de , "Baltimore"@fr , "Baltimore"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Baltimore> , <http://de.dbpedia.org/resource/Baltimore> ;
+        skos:altLabel  "Charm city"@de , "Charm city"@fr , "Baltimore, Maryland, United States of America"@en , "Baltimore, Maryland, US"@en , "Charm City"@en , "Charm City"@de , "Charm City"@fr , "Baltimore City, MD"@en , "Baltimore, Maryland, United States of America"@fr , "Baltimore, Maryland, United States of America"@de , "Baltimore, Maryland, US"@fr , "Baltimore, Maryland, US"@de , "Baltimore City, MD"@de , "Baltimore City, MD"@fr , "Baltimore, US-MD"@en , "Baltimore, US-MD"@fr , "Baltimore, US-MD"@de , "Baltimore, Maryland, USA"@en , "Baltimore, Maryland, USA"@fr , "Baltimore, Maryland, USA"@de , "Mobtown"@en , "Mobtown"@de , "Mobtown"@fr , "Baltimore City Sheriff's Office"@en , "Baltimore City Sheriff's Office"@fr , "Baltimore City Sheriff's Office"@de , "Baltimore, United States"@en , "Baltimore, United States"@fr , "Baltimore, United States"@de , "Baltamore"@en , "Economy of Baltimore"@en , "Economy of Baltimore"@de , "Economy of Baltimore"@fr , "Baltamore"@fr , "Baltamore"@de , "Baltimore City, Maryland"@en , "Baltimore City, Maryland"@de , "Baltimore City, Maryland"@fr , "LOCODE:USBAL"@en , "LOCODE:USBAL"@fr , "LOCODE:USBAL"@de , "City of Baltimore"@en , "City of Baltimore"@fr , "City of Baltimore"@de , "Baltimore, USA"@en , "Baltimore, USA"@fr , "Baltimore, USA"@de , "Baltimore, Md"@en , "Baltimore, Md"@de , "Baltimore, Md"@fr , "City of Baltimore, Maryland"@en , "City of Baltimore, Maryland"@fr , "City of Baltimore, Maryland"@de , "Transportation in Baltimore"@en , "Transportation in Baltimore"@fr , "Transportation in Baltimore"@de , "Baltimore, Md."@en , "Baltimore, Md."@de , "Baltimore, Md."@fr , "Baltimore, Maryland, United States"@en , "Baltimore, Maryland, United States"@fr , "Baltimore, Maryland, United States"@de , "Baltimore, MD"@en , "Baltimore City"@en , "Baltimore, MD"@fr , "Baltimore, MD"@de , "Baltimore City"@fr , "Baltimore City"@de , "Baltimoreans"@en , "Baltimoreans"@de , "Baltimoreans"@fr , "Bmore"@en , "Bmore"@fr , "Bmore"@de , "Baltimore"@en , "Baltimore"@de , "Baltimore"@fr , "Baltimore, Maryland"@en , "Baltimore, Maryland"@fr , "Baltimore, Maryland"@de , "Charm city"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bryan_Adams>
+        rdfs:label     "Bryan Adams"@en , "Bryan Adams"@fr , "Bryan Adams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bryan_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bryan_Adams> , <http://fr.dbpedia.org/resource/Bryan_Adams> ;
+        skos:altLabel  "Bryan Adams"@en , "Bryan Adams"@fr , "Bryan Adams"@de , "Brian Adams"@en , "Brian Adams"@fr , "Brian Adams"@de , "Adams"@fr , "Bryan Guy Adams"@en , "Bryan Guy Adams"@fr , "Bryan Guy Adams"@de , "Bryan"@fr , "Bryan adams"@en , "Groover from vancouver"@en , "Bryan Guy Adams, OC, OBC"@en , "Bryan adams"@fr , "Groover from vancouver"@fr , "Bryan Guy Adams, OC, OBC"@fr , "Bryan adams"@de , "Bryan Guy Adams, OC, OBC"@de , "Groover from vancouver"@de , "Zane Puff"@en , "The groover from vancouver"@en , "The groover from vancouver"@fr , "The groover from vancouver"@de , "Zane Puff"@fr , "Zane Puff"@de , "Byran Adams"@en , "Byran Adams"@fr , "Byran Adams"@de .
+
+<http://dbpedia.org/resource/Bryan_Adams__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Concord,_New_Hampshire> ;
+        dbo:from             "2000"^^xsd:gYear ;
+        dbo:to               "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Concord,_New_Hampshire>
+        rdfs:label     "Concord, New Hampshire"@en , "Concord, New Hampshire"@fr , "Concord, New Hampshire"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Concord_(New_Hampshire)> , <http://de.dbpedia.org/resource/Concord_(New_Hampshire)> ;
+        skos:altLabel  "Concord, N. H."@en , "Concord, N. H."@fr , "Concord, N. H."@de , "Concord"@en , "Concord"@fr , "Concord"@de , "Aeroport municipal de Concord"@fr , "Concord, nh"@en , "Concord New Hampshire"@en , "Concord, nh"@fr , "Concord New Hampshire"@fr , "Concord New Hampshire"@de , "Concord, nh"@de , "Concord, NH"@en , "Concord, NH"@fr , "Concord, NH"@de , "Aéroport municipal de Concord"@fr , "LOCODE:USCON"@en , "Concord, New Hampshire"@en , "LOCODE:USCON"@fr , "Concord, New Hampshire"@fr , "LOCODE:USCON"@de , "Concord, New Hampshire"@de , "Concord Municipal Airport"@fr , "Capital of New Hampshire"@en , "Capital of New Hampshire"@fr , "Capital of New Hampshire"@de .

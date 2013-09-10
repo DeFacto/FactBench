@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01jc0c>
+        rdfs:label     "Erik Axel Karlfeldt"@en , "Erik Axel Karlfeldt"@fr , "Erik Axel Karlfeldt"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01jc0c__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Erik_Axel_Karlfeldt> , <http://dbpedia.org/resource/Erik_Axel_Karlfeldt> , <http://de.dbpedia.org/resource/Erik_Axel_Karlfeldt> ;
+        skos:altLabel  "Karlfeldt, Erik Axel"@en , "Erik Karlfeldt"@en , "Erik Karlfeldt"@de , "Erik Karlfeldt"@fr , "E A Karlfeldt"@en , "E A Karlfeldt"@fr , "E A Karlfeldt"@de , "Karlfeldt"@en , "Karlfeldt"@fr , "Karlfeldt"@de , "Erik Axel Karlfeldt"@en , "Erik Axel Karlfeldt"@de , "Erik Axel Karlfeldt"@fr .
+
+<http://rdf.freebase.com/ns/m.01gnt0>
+        rdfs:label     "Nokia"@en , "Nokia"@fr , "Nokia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nokia_(Stadt)> , <http://fr.dbpedia.org/resource/Nokia_(ville)> , <http://dbpedia.org/resource/Nokia,_Finland> ;
+        skos:altLabel  "Nokia, Finland"@en , "Nokia, Finland"@fr , "Nokia, Finland"@de , "Pohjois-Pirkkala"@fr , "Pohjois-Pirkkala"@de , "Pohjois-Pirkkala"@en , "Nokia"@en , "Nokia"@fr , "Nokia"@de .
+
+<http://rdf.freebase.com/ns/m.01jc0c__1>
+        dbo:from  "2003"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.01gnt0> ;
+        dbo:to    "2003"^^xsd:gYear .

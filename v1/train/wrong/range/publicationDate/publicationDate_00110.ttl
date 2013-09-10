@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01d4t0__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01j2k1> ;
+        dbo:from    "1989"^^xsd:gYear ;
+        dbo:to      "1989"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01j2k1>
+        rdfs:label     "Nous autres"@fr , "Wir"@de , "We"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nous_autres> , <http://de.dbpedia.org/resource/Wir_(Roman)> , <http://dbpedia.org/resource/We_(novel)> ;
+        skos:altLabel  "D-503"@de , "D-503"@en , "D-503"@fr , "Nous autres"@fr , "Nous Autres"@fr .
+
+<http://rdf.freebase.com/ns/m.01d4t0>
+        rdfs:label     "Roger MacBride Allen"@en , "Roger MacBride Allen"@fr , "Roger MacBride Allen"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01d4t0__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Roger_MacBride_Allen> , <http://de.dbpedia.org/resource/Roger_MacBride_Allen> , <http://dbpedia.org/resource/Roger_MacBride_Allen> ;
+        skos:altLabel  "Roger McBride Allen"@fr , "Roger McBride Allen"@de , "Allen"@fr , "MacBride Allen"@de , "Roger Mac Bride Allen"@fr , "Roger MacBride Allen"@de , "Roger MacBride Allen"@fr , "Roger Macbride Allen"@fr , "The Falling World"@fr , "Roger Macbride Allen"@de , "The Falling World"@de .

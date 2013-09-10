@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tanganyika>
+        rdfs:label     "Tanganyika"@en , "Tanganyika"@fr , "Tanganyika"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tanganjika> , <http://fr.dbpedia.org/resource/Tanganyika_(protectorat)> ;
+        skos:altLabel  "Tanganyica"@en , "Tanganyica"@fr , "Tanganyica"@de , "Tanganyikans"@en , "Tanganyikans"@fr , "Tanganyikans"@de , "Tanganyikan"@en , "Tanganyikan"@fr , "Tanganyikan"@de , "Tanganika"@en , "Tanganika"@fr , "Tanganika"@de , "Tanganijka"@de , "Tanganyikas"@de , "Britisch-Tanganjika"@de , "Nyika"@de , "Tanganyka"@en , "Tanganjika"@en , "Republic of Tanganyika"@en , "Tanganyika"@en , "Tanganyka"@fr , "Tanganjika"@fr , "Republic of Tanganyika"@fr , "Republic of Tanganyika"@de , "Tanganjika"@de , "Tanganyika"@fr , "Tanganyka"@de , "Tanganyika"@de .
+
+<http://dbpedia.org/resource/Miguel_Primo_de_Rivera>
+        rdfs:label  "Miguel Primo de Rivera"@en , "Miguel Primo de Rivera"@fr , "Miguel Primo de Rivera"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Miguel_Primo_de_Rivera__1> .
+
+<http://dbpedia.org/resource/Miguel_Primo_de_Rivera__1>
+        dbo:from    "1923"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Tanganyika> ;
+        dbo:to      "1930"^^xsd:gYear .

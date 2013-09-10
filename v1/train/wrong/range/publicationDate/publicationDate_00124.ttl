@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01jzql>
+        rdfs:label     "Shadow of the Hegemon"@en , "L'Ombre de l'Hégémon"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Shadow_of_the_Hegemon> , <http://fr.dbpedia.org/resource/L'Ombre_de_l'Hégémon> ;
+        skos:altLabel  "Hegemon"@en , "Hegemon"@fr , "Shadow of the Hegemon"@en , "Shadow of the Hegemon"@fr , "L'ombre de l'hégémon"@fr , "L'Ombre De L'Hégémon"@fr , "L'Ombre de l'Hegemon"@fr , "L'Ombre de l'Hégémon"@fr , "L'Ombre De L'Hegemon"@fr , "L'ombre de l'hegemon"@fr .
+
+<http://rdf.freebase.com/ns/m.02x8d___1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01jzql> ;
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:to      "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02x8d_>
+        rdfs:label     "Rodman Philbrick"@en , "Rodman Philbrick"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02x8d___1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Rodman_Philbrick> , <http://dbpedia.org/resource/Rodman_Philbrick> ;
+        skos:altLabel  "Philbrick"@de , "W. R. Philbrick"@en , "Rodman"@de , "Rodman Philbrick"@de , "Chris Jordan"@en , "William R Dantz"@en , "William R. Dantz"@en .

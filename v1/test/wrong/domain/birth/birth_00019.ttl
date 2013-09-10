@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Ferrer__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Chicago> ;
+        dbo:from        "1947"^^xsd:gYear ;
+        dbo:to          "1947"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chicago>
+        rdfs:label     "Chicago"@de , "Chicago"@fr , "Chicago"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chicago> , <http://fr.dbpedia.org/resource/Chicago> ;
+        skos:altLabel  "Hog Butcher for the World"@fr , "Hog Butcher for the World"@de , "Chicago Finance Committee"@en , "Chicago Finance Committee"@fr , "Chicago Finance Committee"@de , "Chicago(Illinois)"@fr , "Chicago, Illionis"@en , "Chicago, Illionis"@fr , "Chicago, Illionis"@de , "Chicago Illinois"@en , "Chicago Illinois"@fr , "Chicago Illinois"@de , "Chicago, Illinois"@en , "Chicago, Illinois, USA"@en , "Cicagho"@en , "Chigaygo"@en , "Chicago, Illinois"@fr , "Chicago, Illinois"@de , "Shikago"@en , "Chigaygo"@fr , "Shikago"@fr , "Chigaygo"@de , "Shikago"@de , "Chicago, Illinois, USA"@fr , "Cicagho"@fr , "Chicago, Illinois, USA"@de , "Cicagho"@de , "Chicago, United States"@en , "Chicago, United States"@fr , "Chicago, United States"@de , "Chicago, Illinois, United States"@en , "Sikago"@en , "Chicago, Illinois, United States"@fr , "Chicago, Illinois, United States"@de , "Chi-Town"@en , "Sikago"@fr , "Chi-Town"@fr , "Sikago"@de , "Chi-Town"@de , "Chicago, IL"@en , "Chicago, IL"@fr , "Chicago, IL"@de , "Chichago"@en , "Chicago il"@en , "Chichago"@fr , "Chikago"@de , "Chichago"@de , "Chicago il"@fr , "Chicago il"@de , "List of sister cities of Chicago"@en , "List of sister cities of Chicago"@fr , "List of sister cities of Chicago"@de , "Chicago Transportation Committee"@en , "Chicago Transportation Committee"@fr , "Chicago Transportation Committee"@de , "Chi town"@en , "Chicago, Illinois, US"@en , "Chi town"@fr , "Chicago, Illinois, US"@fr , "Chi town"@de , "Chicago, Illinois, US"@de , "Chicago, IL."@en , "Chicago, IL."@fr , "Chicago, IL."@de , "Chicago, Illinois, U.S.A."@en , "Chicago, Illinois, U.S.A."@fr , "Chicago, Illinois, U.S.A."@de , "Chicago, Illinois, U.S."@en , "Chicago, Illinois, U.S."@fr , "Chicago, Illinois, U.S."@de , "The Windy City"@en , "Chicago"@en , "Sister cities of Chicago"@en , "Chicago"@fr , "Sister cities of Chicago"@fr , "Sister cities of Chicago"@de , "Chicago"@de , "The Windy City"@fr , "The Windy City"@de , "Chicago, WI"@en , "Chicago, WI"@fr , "Chicago, WI"@de , "Transport in Chicago"@en , "Transport in Chicago"@fr , "Transport in Chicago"@de , "LOCODE:USCHI"@en , "LOCODE:USCHI"@fr , "LOCODE:USCHI"@de , "Chi City"@en , "Chicago, Il"@en , "Chicago, Il"@fr , "Chicago, Il"@de , "Chi City"@fr , "Chi City"@de , "Chicago, Wisconsin"@en , "Sister Cities Chicago"@en , "Sister Cities Chicago"@fr , "Sister Cities Chicago"@de , "Chicago, USA"@en , "City of Chicago, Illinois"@en , "Chcago"@en , "Sister Cities of Chicago"@en , "City of Chicago"@en , "Chicago, Wisconsin"@fr , "Chicago, USA"@fr , "City of Chicago, Illinois"@fr , "Chcago"@fr , "Chicago, Wisconsin"@de , "Sister Cities of Chicago"@fr , "Sister Cities of Chicago"@de , "City of Chicago"@fr , "Chicago, USA"@de , "Chcago"@de , "City of Chicago, Illinois"@de , "City of Chicago"@de , "City of chicago"@en , "City of chicago"@fr , "City of chicago"@de , "The weather in Chicago"@en , "The weather in Chicago"@fr , "The weather in Chicago"@de , "Religion in Chicago"@en , "Religion in Chicago"@fr , "Religion in Chicago"@de , "Land of smelly onions"@en , "Land of smelly onions"@fr , "Land of smelly onions"@de , "Hog Butcher for the World"@en .
+
+<http://dbpedia.org/resource/David_Ferrer>
+        rdfs:label     "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Ferrer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Ferrer> , <http://fr.dbpedia.org/resource/David_Ferrer> ;
+        skos:altLabel  "Ferrer"@en , "Ferrer"@fr , "Ferrer"@de , "David Ferrer"@en , "David Ferrer"@fr , "David Ferrer"@de , "David Ferrer Ern"@en , "David Ferrer Ern Gaydamak"@en , "David Ferrer Ern Gaydamak"@fr , "David Ferrer Ern"@de , "David Ferrer Ern"@fr , "David Ferrer Ern Gaydamak"@de .

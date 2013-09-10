@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tyson_Chandler>
+        rdfs:label      "Tyson Chandler"@en , "Tyson Chandler"@fr , "Tyson Chandler"@de ;
+        dbo:playedTeam  <http://dbpedia.org/resource/Tyson_Chandler__1> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Tyson_Chandler> , <http://de.dbpedia.org/resource/Tyson_Chandler> ;
+        skos:altLabel   "Tyson Chandler"@fr , "Tyson Chandler"@de , "Tyson Chandler"@en , "Tyson"@fr , "Tyson"@de , "Tyson"@en , "Tyson Cleotis Chandler"@fr , "Chandler"@de , "Ty Chandler"@fr , "Tyson Cleotis Chandler"@de , "Ty Chandler"@de , "Tyson Cleotis Chandler"@en , "Ty Chandler"@en .
+
+<http://dbpedia.org/resource/Chicago_Bulls>
+        rdfs:label     "Chicago Bulls"@en , "Chicago Bulls"@fr , "Chicago Bulls"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chicago_Bulls> , <http://fr.dbpedia.org/resource/Bulls_de_Chicago> ;
+        skos:altLabel  "John Ligmanowski"@fr , "John Ligmanowski"@de , "John Ligmanowski"@en , "Bulls De Chicago"@fr , "Chicago Bulls"@fr , "Chicago Bulls"@de , "Chicago Bulls"@en , "Chicago"@fr , "Chicago"@de , "Chicago"@en , "Bulls"@fr , "Bulls"@de , "Bulls"@en , "Chicago bulls"@fr , "Chicago bulls"@de , "Chicago bulls"@en , "Bulls de Chicago"@fr , "Bulls de chicago"@fr .
+
+<http://dbpedia.org/resource/Tyson_Chandler__1>
+        dbo:from  "2001"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Chicago_Bulls> ;
+        dbo:to    "2005"^^xsd:gYear .

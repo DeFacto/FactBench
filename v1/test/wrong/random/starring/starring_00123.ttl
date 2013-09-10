@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Slovenia>
+        rdfs:label     "Slovenia"@de , "Slovenia"@fr , "Slovenia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Slowenien> , <http://fr.dbpedia.org/resource/Slovénie> ;
+        skos:altLabel  "Republique slovene"@fr , "Slowenische Wirtschaft"@de , "Slowenien"@de , "Republic of Slovenia"@en , "Szlovénia"@en , "Republic of Slovenia"@de , "Republic of Slovenia"@fr , "Szlovénia"@de , "Szlovénia"@fr , "Slovenian"@en , "Slovenian"@de , "Slovenian"@fr , "Slovènie"@fr , "Slovenia (general), Slovenia"@en , "Slovenia (general), Slovenia"@de , "Slovenia (general), Slovenia"@fr , "Republique de Slovenie"@fr , "Eslovenia"@en , "Eslovenia"@de , "Eslovenia"@fr , "Slovénie"@en , "Slovénie"@de , "Slovénie"@fr , "Nordslowenien"@de , "Slovenie"@en , "Slovenie"@de , "Slovenie"@fr , "Szlovenia"@en , "Szlovenia"@fr , "Szlovenia"@de , "Subdivisions de Slovénie"@fr , "ISO 3166-1:SI"@en , "ISO 3166-1:SI"@fr , "ISO 3166-1:SI"@de , "Subdivisions de Slovenie"@fr , "Slovenia"@en , "Slovenia"@de , "Slovenia"@fr , "République slovène"@fr , "Republika Slovenija"@en , "Republika Slovenija"@de , "Republika Slovenija"@fr , "Subdivisions of Slovenia"@en , "Subdivisions of Slovenia"@de , "Subdivisions of Slovenia"@fr , "Administrative divisions of Slovenia"@en , "Administrative divisions of Slovenia"@fr , "Administrative divisions of Slovenia"@de , "République de Slovénie"@fr , "Slovenija"@en , "Slovenija"@de , "Slovenija"@fr , "Eslovênia"@en , "Eslovênia"@fr , "Eslovênia"@de , "Liste slowenischer Schriftsteller"@de , "Republik Slowenien"@de .
+
+<http://dbpedia.org/resource/Lucille_Ball>
+        rdfs:label     "Lucille Ball"@en , "Lucille Ball"@fr , "Lucille Ball"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Lucille_Ball__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lucille_Ball> , <http://de.dbpedia.org/resource/Lucille_Ball> ;
+        skos:altLabel  "Lucille Desiree Ball"@en , "Lucille Desiree Ball"@fr , "Lucille Desiree Ball"@de , "Lucille Ball"@en , "Lucille Ball"@fr , "Lucille Ball"@de , "Dianne Belmont"@en , "Dianne Belmont"@fr , "Dianne Belmont"@de , "Lucy Carter"@en , "Lucille ball"@en , "Lucille Désirée Ball"@en , "Lucy Carter"@fr , "Lucy Carter"@de , "Lucy Ball"@en , "Lucille Désirée Ball"@fr , "Lucille Désirée Ball"@de , "Lucile ball"@en , "Lucile ball"@fr , "Lucile ball"@de , "Lucille ball"@fr , "Lucy Ball"@fr , "Lucille ball"@de , "Lucy Ball"@de , "Lucy Carmichael"@en , "Lucille"@en , "Lucy Carmichael"@fr , "Lucille"@fr , "Lucy Carmichael"@de , "Lucille"@de .
+
+<http://dbpedia.org/resource/Lucille_Ball__1>
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Slovenia> ;
+        dbo:to      "1987"^^xsd:gYear .

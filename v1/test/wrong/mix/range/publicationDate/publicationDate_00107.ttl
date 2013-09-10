@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02wlr4>
+        rdfs:label     "The Last Book in the Universe"@en , "Der Weg nach Eden"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Last_Book_in_the_Universe> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "The Last Book in the Universe"@en .
+
+<http://rdf.freebase.com/ns/m.0hfml__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02wlr4> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0hfml>
+        rdfs:label     "Buzz Aldrin"@en , "Buzz Aldrin"@de , "Buzz Aldrin"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0hfml__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Buzz_Aldrin> , <http://dbpedia.org/resource/Buzz_Aldrin> , <http://fr.dbpedia.org/resource/Buzz_Aldrin> ;
+        skos:altLabel  "Dr Buzz Aldrin"@en , "Edwin Buzz Aldrin"@en , "Edwin Buzz Aldrin"@de , "Edwin Buzz Aldrin"@fr , "Edwin Eugene Aldrin, Jr."@de , "Edwin Eugene Aldrin, Jr."@fr , "Edwin Eugene Aldrin, Jr."@en , "Edwin E. Aldrin Jr."@en , "Edwin Eugene Jr. Aldrin"@en , "Edwin Eugene Jr. Aldrin"@de , "Edwin Eugene Jr. Aldrin"@fr , "Buzz Aldren"@de , "Buzz Aldren"@fr , "Buzz Aldren"@en , "Edwin Eugene Aldrin"@de , "Edwin Eugene Aldrin"@fr , "Edwin Eugene Aldrin"@en , "Edwin E. Aldrin, Jr."@en , "Edwin E. Aldrin, Jr."@de , "Edwin E. Aldrin, Jr."@fr , "Aldrin, Edwin Eugene Jr."@en , "Aldrin, Edwin Eugene Jr."@de , "Aldrin, Edwin Eugene Jr."@fr , "Edwin E. Aldrin"@en , "Edwin E. Aldrin"@de , "Edwin E. Aldrin"@fr , "Edwin Aldrin"@de , "Edwin Aldrin"@fr , "Edwin Aldrin"@en , "Dr. Buzz Aldrin"@en , "Buzz Aldrin"@en , "Buzz Aldrin"@de , "Buzz Aldrin"@fr , "Edwin Eugene Aldrin Jr."@en , "Edwin E. 'Buzz' Aldrin Jr."@en , "Edwin Aldrin, Jr."@de , "Edwin Aldrin, Jr."@fr , "Edwin Aldrin, Jr."@en , "Buzz"@en , "Buzz"@de , "Buzz"@fr , "Aldrin"@de , "Aldrin"@fr , "Aldrin"@en , "Edwin \"Buzz\" Aldrin"@en , "Edwin Eugene \"Buzz\" Aldrin, Jr."@en , "Edwin 'Buzz' Aldrin"@en , "Edwin \"Buzz\" Aldrin"@de , "Edwin \"Buzz\" Aldrin"@fr .

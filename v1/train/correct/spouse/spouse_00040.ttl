@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01p4vl__40>
+        dbo:from    "2005-09-24"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.019pm_> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.019pm_>
+        rdfs:label     "Demi Moore"@fr , "Demi Moore"@en , "Demi Moore"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Demi_Moore> , <http://fr.dbpedia.org/resource/Demi_Moore> , <http://dbpedia.org/resource/Demi_Moore> ;
+        skos:altLabel  "Demi"@en , "Demi"@de , "Demi"@fr , "Moore"@en , "Moore"@de , "Moore"@fr , "Demi moore"@en , "Demi moore"@de , "Demi moore"@fr , "Demi Kutcher"@fr , "Demi Kutcher"@en , "Demi Kutcher"@de , "Demi Gene Guynes"@en , "Kutcher"@fr , "Kutcher"@en , "Kutcher"@de , "Demetria Gene Guynes"@en , "Demetria Gene Guynes"@de , "Demetria Gene Guynes"@fr , "De"@en , "Demi Moore"@en , "Demi Moore"@de , "Demi Moore"@fr , "Demi Guynes Kutcher"@en , "Demi Moore-Kutcher"@en , "Demi Moore-Kutcher"@de , "Demi Moore-Kutcher"@fr , "Gimme Moore"@en , "Demetria \"Demi\" Guynes"@en , "Demetria Moore"@en , "Demetria Moore"@de , "Demetria Moore"@fr , "Demetria Guynes"@en , "Demetria Guynes"@de , "Demetria Guynes"@fr .
+
+<http://rdf.freebase.com/ns/m.01p4vl>
+        rdfs:label     "Ashton Kutcher"@de , "Ashton Kutcher"@en , "Ashton Kutcher"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.01p4vl__40> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ashton_Kutcher> , <http://dbpedia.org/resource/Ashton_Kutcher> , <http://de.dbpedia.org/resource/Ashton_Kutcher> ;
+        skos:altLabel  "Ashton Kutcher"@fr , "Chris Kutcher"@fr , "Christopher Kutcher"@fr , "Christopher Kutcher"@de , "Christopher Kutcher"@en , "Christopher Ashton Kutcher"@fr , "Ashton Kutcher"@de , "Ashton Kutcher"@en , "Chris Kutcher"@de , "Christopher Ashton Kutcher"@de , "Christopher Ashton Kutcher"@en , "Chris Kutcher"@en , "AshtonKutcher"@fr , "AshtonKutcher"@de , "AshtonKutcher"@en , "Ashton Kucher"@fr , "Ashton Kutsher"@fr , "Ashton kutcher"@fr , "Ashton Kucher"@de , "Ashton Kucher"@en , "Ashton Kutsher"@de , "Ashton kutcher"@de , "Ashton Kutsher"@en , "Ashton kutcher"@en , "Kutch"@en , "Kutcher"@fr , "Kutcher"@de , "Kutcher"@en , "Ash"@en , "Ashton"@fr , "Ashton"@de , "Ashton"@en .

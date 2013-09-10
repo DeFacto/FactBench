@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02nr1t2>
+        rdfs:label  "Clickability, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02nr1t2__1> .
+
+<http://rdf.freebase.com/ns/m.02nr1t2__1>
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Brisbane> ;
+        dbo:to      "1999"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Brisbane>
+        rdfs:label     "Brisbane"@de , "Brisbane"@fr , "Brisbane"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brisbane> , <http://de.dbpedia.org/resource/Brisbane> ;
+        skos:altLabel  "Brisbane Historical Buildings"@en , "Brisbane Historical Buildings"@fr , "Brisbane Historical Buildings"@de , "Brisbane's"@en , "Bris Vegas"@en , "Brisbane's"@fr , "Bris Vegas"@fr , "Bris Vegas"@de , "Brisbane's"@de , "Brisbane Metropolitan Area"@en , "Brisbane Metropolitan Area"@fr , "Brisbane Metropolitan Area"@de , "Brisbane roads, seaports and airports"@en , "Brisben"@en , "Brisbanite"@en , "Brisben"@fr , "Brisbanite"@fr , "Brisben"@de , "Brisbanite"@de , "Brisbane roads, seaports and airports"@fr , "Brisbane roads, seaports and airports"@de , "Scene around Brisbane, Queensland"@en , "Scene around Brisbane, Queensland"@fr , "Scene around Brisbane, Queensland"@de , "Brisbanian"@en , "Brisbanian"@fr , "Brisbanian"@de , "Edenglassie, Queensland"@en , "Brisbane City"@en , "Brisbane music groups"@en , "Brisbane City"@fr , "Brisbane City"@de , "Edenglassie, Queensland"@fr , "Brisbane music groups"@fr , "Edenglassie, Queensland"@de , "Brisbane music groups"@de , "Notable buildings and structures in Brisbane"@en , "Brisbane culture and arts"@en , "Brisbane culture and arts"@fr , "Brisbane culture and arts"@de , "Brisbane heritage"@en , "Brizben"@en , "Brizben"@fr , "Brizben"@de , "Notable buildings and structures in Brisbane"@fr , "Brisbane heritage"@fr , "Brisbane heritage"@de , "Notable buildings and structures in Brisbane"@de , "Brisbane, Australia"@en , "Brisbane, Australia"@fr , "Brisbane, Australia"@de , "List of Brisbane landmarks"@en , "List of Brisbane landmarks"@fr , "List of Brisbane landmarks"@de , "Edenglassie"@en , "Edenglassie"@fr , "Edenglassie"@de , "Brisneyland"@en , "Brisbane entertainment and music"@en , "Brisneyland"@fr , "Brisbane entertainment and music"@fr , "Brisbane entertainment and music"@de , "Brisneyland"@de , "Streets of Brisbane"@en , "Streets of Brisbane"@fr , "Streets of Brisbane"@de , "Close to Brisbane"@en , "Close to Brisbane"@fr , "Close to Brisbane"@de , "Brisbane, AU-QLD"@en , "Brisbane, AU-QLD"@fr , "Brisbane, AU-QLD"@de , "Eastern Suburbs"@en , "Eastern Suburbs"@fr , "Eastern Suburbs"@de , "Drisbane"@en , "Drisbane"@fr , "Drisbane"@de , "Brisbane sport"@en , "Brisbane sport"@fr , "Brisbane sport"@de , "Historic Buildings of Brisbane, Queensland"@en , "Historic Buildings of Brisbane, Queensland"@fr , "Historic Buildings of Brisbane, Queensland"@de , "Brisbane city streets"@en , "Brisbane city streets"@fr , "Brisbane city streets"@de , "Brisbane, Queensland, Australia"@en , "Brisbane, Queensland, Australia"@fr , "Brisbane, Queensland, Australia"@de , "Brisbane's sister cities"@en , "Brisbane's sister cities"@fr , "Brisbane's sister cities"@de , "Brisbane"@en , "Brisbane"@fr , "Brisbane"@de , "Brissy"@en , "Brissy"@fr , "Brissy"@de , "Brisebane, Australia"@en , "Brisebane, Australia"@fr , "Brisebane, Australia"@de , "Brisvegas"@en , "Brisvegas"@fr , "Brisvegas"@de , "Brisbane City QLD"@en , "Brisbane City QLD"@fr , "Brisbane City QLD"@de , "Brizbane"@en , "Brizbane"@fr , "Brizbane"@de , "LOCODE:AUBNE"@en , "LOCODE:AUBNE"@fr , "LOCODE:AUBNE"@de , "Brisbane, Queensland"@en , "Historical Buildings of Brisbane, Queensland"@en , "Brisbane, Queensland"@fr , "Brisbane, Queensland"@de , "Historical Buildings of Brisbane, Queensland"@fr , "Historical Buildings of Brisbane, Queensland"@de , "Brisbane Architecture"@en , "Brisbane Architecture"@fr , "Brisbane Architecture"@de .

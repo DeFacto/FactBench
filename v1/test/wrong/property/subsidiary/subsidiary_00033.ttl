@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02z4169>
+        rdfs:label     "MediaTek"@en , "MediaTek"@fr , "MediaTek"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z4169__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/MediaTek> , <http://fr.dbpedia.org/resource/MediaTek> , <http://dbpedia.org/resource/MediaTek> ;
+        skos:altLabel  "MediaTek, Inc."@de , "MediaTek, Inc."@fr , "MediaTek Inc."@en , "MediaTek"@fr , "MediaTek"@de , "Mediatek"@de , "Mediatek"@fr .
+
+<http://rdf.freebase.com/ns/m.02_b4wd>
+        rdfs:label  "NuCore Technology"@en .
+
+<http://rdf.freebase.com/ns/m.02z4169__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02_b4wd> ;
+        dbo:from             "2007"^^xsd:gYear ;
+        dbo:to               "2007"^^xsd:gYear .

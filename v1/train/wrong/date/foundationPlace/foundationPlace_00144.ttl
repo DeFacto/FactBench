@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c75w>
+        rdfs:label     "Espoo"@en , "Espoo"@fr , "Espoo"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Espoo> , <http://fr.dbpedia.org/resource/Espoo> , <http://dbpedia.org/resource/Espoo> ;
+        skos:altLabel  "Espoo"@en , "Espoo"@fr , "Espoo"@de , "Espoo Finland"@en , "Espoo Finland"@fr , "Espoo Finland"@de , "Esbo"@en , "Esbo"@de , "Esbo"@fr , "Espoo, Finland"@en , "Espoo, Finland"@fr , "Espoo, Finland"@de .
+
+<http://rdf.freebase.com/ns/m.05nq4w__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0c75w> ;
+        dbo:from             "1993"^^xsd:gYear ;
+        dbo:to               "1993"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05nq4w>
+        rdfs:label     "Futuremark"@en , "Futuremark"@fr , "Futuremark"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05nq4w__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Futuremark> , <http://fr.dbpedia.org/resource/Futuremark> , <http://dbpedia.org/resource/Futuremark> ;
+        skos:altLabel  "FutureMark"@de , "MadOnion"@fr , "MadOnion"@de , "MadOnion.com"@fr , "SYSmark"@de , "MadOnion.com"@de , "Madonion"@fr , "Futuremark Corporation"@fr , "Madonion"@de , "Futuremark Corporation"@de , "Futuremark"@fr , "Futuremark"@de , "Futuremark Games Studio"@en , "Futuremark Games Studio"@fr , "Futuremark Games Studio"@de , "Onion"@de , "Mad Onion"@fr , "Mad Onion"@de , "FutureMark"@fr .

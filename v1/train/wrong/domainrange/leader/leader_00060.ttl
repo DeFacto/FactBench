@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chad>
+        rdfs:label     "Chad"@de , "Chad"@fr , "Chad"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tchad> , <http://de.dbpedia.org/resource/Tschad> ;
+        skos:altLabel  "Chad"@en , "Chad"@de , "Chad"@fr , "ISO 3166-1:TD"@de , "ISO 3166-1:TD"@fr , "ISO 3166-1:TD"@en , "Tsjad"@en , "Jumhuriyyat Tshad"@en , "Jumhuriyyat Tshad"@de , "Jumhuriyyat Tshad"@fr , "Tchad"@en , "Tsjad"@de , "Tsjad"@fr , "Tchad"@de , "Tchad"@fr , "République du Tchad"@en , "République du Tchad"@de , "République du Tchad"@fr , "Tchadien"@fr , "Culture of Chad"@en , "Culture of Chad"@de , "Culture of Chad"@fr , "Republik Tschad"@de , "Culture Du Tchad"@fr , "Tshād"@en , "Republique du Tchad"@en , "Republique du Tchad"@de , "Culture du tchad"@fr , "Republique du Tchad"@fr , "Tshād"@de , "Tshād"@fr , "Tshad"@en , "Tshad"@de , "Tshad"@fr , "Culture du Tchad"@fr , "Republic of Chad"@en , "Republic of Chad"@de , "Republic of Chad"@fr , "Jumhūriyyat Tshād"@de , "Jumhūriyyat Tshād"@fr , "Jumhūriyyat Tshād"@en , "Tschad"@de , "Chade"@de , "Chade"@fr , "Chade"@en , "The Chad"@en , "The Chad"@de , "The Chad"@fr .
+
+<http://dbpedia.org/resource/Vazgen_Sargsyan>
+        rdfs:label     "Vazgen Sargsyan"@en , "Vazgen Sargsyan"@fr , "Vazgen Sargsyan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Vazgen_Sargsyan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Vazgen_Sargsian> , <http://de.dbpedia.org/resource/Wasken_Sarkissjan> ;
+        skos:altLabel  "Vazguen Sargsian"@fr , "Vazgen Sarkissian"@fr , "Vazgen Sarkissian"@de , "Sarkissjan"@de , "Vazgen Sargsyan"@fr , "Vazgen Sargsyan"@de , "Sargsyan"@fr , "Sargsyan"@de , "Vasgen Sarkissian"@fr , "Vasgen Sarkissian"@de , "Vazgen Sarkisian"@fr , "Vazgen Sarkisyan"@fr , "Vazgen Sarkisian"@de , "Vasken Sarkissjan"@de , "Vazgen Sarkisyan"@de , "Vazgen Sargsian"@fr , "Vazgen Sargsian"@de , "Wasken Sarkissjan"@de .
+
+<http://dbpedia.org/resource/Vazgen_Sargsyan__1>
+        dbo:from    "1893"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Chad> ;
+        dbo:to      "1894"^^xsd:gYear .

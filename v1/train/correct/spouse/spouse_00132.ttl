@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04dhbf__132>
+        dbo:from    "2008-02-29"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.08dh3d> ;
+        dbo:to      "2009-01-17"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.08dh3d>
+        rdfs:label     "Persia White"@de , "Persia White"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Persia_White> , <http://dbpedia.org/resource/Persia_White> ;
+        skos:altLabel  "Mecca"@de , "Persia White"@de , "Persia Jessica White"@de .
+
+<http://rdf.freebase.com/ns/m.04dhbf>
+        rdfs:label     "Saul Williams"@en , "Saul Williams"@de , "Saul Williams"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.04dhbf__132> ;
+        owl:sameAs     <http://dbpedia.org/resource/Saul_Williams> , <http://de.dbpedia.org/resource/Saul_Williams> , <http://fr.dbpedia.org/resource/Saul_Williams> ;
+        skos:altLabel  "Williams"@fr , "Saul williams"@fr , "Saul Stacey Williams"@en , "Saul williams"@de , "Saul williams"@en , "Saul"@fr , "Saul"@de , "Saul"@en , "Saul Williams"@fr , "Saul Williams"@de , "Saul Williams"@en , "Saül Williams"@fr .

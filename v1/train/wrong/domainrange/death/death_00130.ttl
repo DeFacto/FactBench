@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Edgar_Allan_Poe__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "1979"^^xsd:gYear ;
+        dbo:to          "1979"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .
+
+<http://dbpedia.org/resource/Edgar_Allan_Poe>
+        rdfs:label     "Edgar Allan Poe"@de , "Edgar Allan Poe"@fr , "Edgar Allan Poe"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Edgar_Allan_Poe__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Edgar_Allan_Poe> , <http://fr.dbpedia.org/resource/Edgar_Allan_Poe> ;
+        skos:altLabel  "Edgar allan poe"@en , "Edgar alen poe"@en , "E A Poe"@en , "Edgar alen poe"@fr , "Edgar alen poe"@de , "E A Poe"@de , "E A Poe"@fr , "Edgar allan poe"@fr , "Edgar allan poe"@de , "Influence litteraire d'Edgar Allan Poe"@fr , "Edgar"@en , "Edgar"@de , "Edgar"@fr , "Edgar A. Poe"@en , "Edgar A. Poe"@fr , "Edgar A. Poe"@de , "Poe, Edgar Allen"@en , "Poe, Edgar Allen"@fr , "Poe, Edgar Allen"@de , "EA Poe"@en , "EA Poe"@fr , "EA Poe"@de , "Literary influence of Edgar Allan Poe"@en , "The Life of Edgar Allan Poe"@en , "The Life of Edgar Allan Poe"@fr , "Literary influence of Edgar Allan Poe"@de , "Literary influence of Edgar Allan Poe"@fr , "The Life of Edgar Allan Poe"@de , "Edgar Poe"@de , "Edgar Poe"@fr , "E.A. Poe"@en , "E.A. Poe"@de , "E.A. Poe"@fr , "Edgar Alan Poe"@en , "Edgar Alan Poe"@fr , "Edgar Alan Poe"@de , "Eddy is no more"@en , "Eddy is no more"@fr , "Eddy is no more"@de , "Edgar Allan Poe and the Stories He Has Written"@en , "Psyche Zenobia"@de , "Edgar Allan Poe and the Stories He Has Written"@fr , "Edgar Allan Poe and the Stories He Has Written"@de , "Allan"@fr , "Edgar Allan Poe's Tales of Mystery and Terror"@en , "Edgar Allan Poe's Tales of Mystery and Terror"@fr , "Edgar Allan Poe's Tales of Mystery and Terror"@de , "Edgar Allan Poe"@en , "Edgar Allan Poe"@de , "Edgar Allan Poe"@fr , "Influence littéraire d'Edgar Allan Poe"@fr , "Henri Le Rennet"@en , "Henri Le Rennet"@fr , "Henri Le Rennet"@de , "E. A. Poe"@en , "E. A. Poe"@de , "E. A. Poe"@fr , "Edgar Allan Poe's literary influence"@en , "Ea poe"@en , "Edgar Allan Poe's literary influence"@de , "Edgar Allan Poe's literary influence"@fr , "Ea poe"@de , "Ea poe"@fr , "Edgar allen poe"@en , "Edgar allen poe"@de , "Edgar allen poe"@fr , "Edger Allen Poe"@en , "Edgar Allen Poe"@en , "Edger Allen Poe"@fr , "Edger Allen Poe"@de , "Edgar Allen Poe"@de , "Edgar Allen Poe"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ferdinand_von_Mueller__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.05f3q> ;
+        dbo:from        "1989"^^xsd:gYear ;
+        dbo:to          "1989"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05f3q>
+        rdfs:label     "Nobel Peace Prize"@en , "Friedensnobelpreis"@de , "Prix Nobel de la paix"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Friedensnobelpreis> , <http://fr.dbpedia.org/resource/Prix_Nobel_de_la_paix> , <http://dbpedia.org/resource/Nobel_Peace_Prize> ;
+        skos:altLabel  "Friedens-Nobelpreis"@de , "Nobel Prize for Peace"@en , "Nobel Peace Laureate"@en , "Nobel Prize for Peace"@fr , "Nobelpreis für Frieden"@de , "Nobel Peace Laureate"@fr , "Nobel Prize for Peace"@de , "Nobel Peace Laureate"@de , "Nobel peace prize"@en , "Nobel peace prize"@de , "Nobel peace prize"@fr , "Nobel peace laureate"@en , "Nobel peace laureate"@fr , "Nobel peace laureate"@de , "Peace"@en , "Peace"@fr , "Peace"@de , "Nobel Peace Prize Winner"@en , "Nobel Peace Prize Winner"@de , "Nobel Peace Prize Winner"@fr , "Peace Prize"@en , "Peace Prize"@fr , "Peace Prize"@de , "Nobel peace"@en , "Nobel peace"@fr , "Nobel peace"@de , "Nobel prize peace"@en , "Nobel prize peace"@fr , "Nobel prize peace"@de , "Nobel de la paix"@fr , "Prix nobel de la paix"@fr , "Nobel Peace Price"@en , "Nobel Peace Price"@fr , "Prix nobel de la Paix"@fr , "Nobel Peace Price"@de , "Nobel Peace prize"@en , "Nobel Peace prize"@de , "Nobel Peace prize"@fr , "Prix Nobel de la Paix"@fr , "Peace Nobel"@en , "Peace Nobel"@fr , "Peace Nobel"@de , "Nobelpreis fur Frieden"@de , "Friedensnobelpreis"@de , "Noble Peace Prize"@en , "Noble Peace Prize"@fr , "Noble Peace Prize"@de , "Nobel Prize in Peace"@en , "Nobel Prize in Peace"@fr , "Nobel Prize in Peace"@de , "2012 Nobel Peace Prize"@en , "2012 Nobel Peace Prize"@de , "2012 Nobel Peace Prize"@fr , "Nobel Peace Prixe"@en , "Nobel Peace Prixe"@de , "Nobel Peace Prixe"@fr , "PeacE"@en , "PeacE"@fr , "PeacE"@de , "Nobel Peace"@en , "Nobel Peace"@de , "Nobel Peace"@fr , "Nobel Peace Prize"@en , "Nobel Peace Prize"@de , "Nobel Peace Prize"@fr , "Prix Nobel de la paix"@fr , "Peace Award"@en , "Peace Award"@fr , "Peace Award"@de , "2001 Nobel Peace Prize"@en , "Nobel Prize in peace"@en , "2001 Nobel Peace Prize"@fr , "2001 Nobel Peace Prize"@de , "Nobel Prize in peace"@fr , "Nobel Prize in peace"@de .
+
+<http://dbpedia.org/resource/Ferdinand_von_Mueller>
+        rdfs:label     "Ferdinand von Mueller"@de , "Ferdinand von Mueller"@fr , "Ferdinand von Mueller"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ferdinand_von_Mueller__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ferdinand_von_Mueller> , <http://fr.dbpedia.org/resource/Ferdinand_von_Müller> ;
+        skos:altLabel  "Ferdinand von Muller"@de , "Ferdinand von Muller"@fr , "Ferdinand von Muller"@en , "Ferdinand von mueller"@en , "Ferdinand von mueller"@de , "Ferdinand von mueller"@fr , "Ferdinand Von Müller"@fr , "Ferdinand Von Muller"@fr , "Muller"@fr , "F. Muell."@en , "F. Muell."@de , "F. Muell."@fr , "Müller"@fr , "Ferdinand von muller"@fr , "Ferdinand von müller"@fr , "Ferdinand Jacob Heinrich von Mueller"@en , "Ferdinand Jacob Heinrich von Mueller"@de , "Ferdinand Jacob Heinrich von Mueller"@fr , "Ferdinand von Mueller"@en , "Ferdinand von Mueller"@de , "Ferdinand von Mueller"@fr , "F.Muell."@en , "F.Muell."@de , "F.Muell."@fr , "Baron Ferdinand Jakob Heinrich Von Mueller"@de , "Baron Ferdinand Jakob Heinrich Von Mueller"@fr , "Baron Ferdinand Jakob Heinrich Von Mueller"@en , "Baron Ferdinand von Muller"@en , "Baron Ferdinand von Muller"@de , "Baron Ferdinand von Muller"@fr , "Ferdinand Mueller"@en , "Ferdinand Mueller"@de , "Ferdinand Mueller"@fr , "Ferdinand Jacob Heinrich von Muller"@en , "Ferdinand von Müller"@de , "Ferdinand von Müller"@fr , "Ferdinand Jacob Heinrich von Muller"@de , "Ferdinand Jacob Heinrich von Muller"@fr , "Ferdinand von Müller"@en , "Ferdinand Jacob Heinrich von Müller"@en , "Ferdinand Jacob Heinrich von Müller"@de , "Ferdinand Jacob Heinrich von Müller"@fr , "Mueller"@de , "Mueller"@fr , "Mueller"@en .

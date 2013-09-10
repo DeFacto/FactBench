@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bob_Dylan>
+        rdfs:label     "Bob Dylan"@de , "Bob Dylan"@fr , "Bob Dylan"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Bob_Dylan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bob_Dylan> , <http://de.dbpedia.org/resource/Bob_Dylan> ;
+        skos:altLabel  "Lucky Wilbury"@fr , "Lucky Wilbury"@de , "Lucky Wilbury"@en , "Robert Allen Zimmermann"@fr , "Robert Allen Zimmermann"@de , "Bobby Zimmerman"@fr , "Bobby Zimmerman"@de , "Bobby Zimmerman"@en , "Bob Dylan"@fr , "Elston gunn"@fr , "List of people compared to Bob Dylan"@fr , "List of people compared to Bob Dylan"@de , "List of people compared to Bob Dylan"@en , "Elston gunn"@de , "Elston gunn"@en , "Bob Dylan"@de , "Bob Dylan"@en , "Robert Allen Zimmerman"@fr , "Robert Allen Zimmerman"@de , "Robert Allen Zimmerman"@en , "Bobby Dylan"@fr , "Bobby Dylan"@de , "Bobby Dylan"@en , "Robert Zimmerman"@fr , "Robert Zimmerman"@de , "Shabtai Zisel ben Avraham"@fr , "Shabtai Zisel ben Avraham"@de , "Shabtai Zisel ben Avraham"@en , "Elston Gunnn"@fr , "Elston Gunnn"@de , "Elston Gunnn"@en , "Bob Allen Zimmerman"@fr , "List of people likened to Bob Dylan"@fr , "List of people likened to Bob Dylan"@de , "List of people likened to Bob Dylan"@en , "Tedham Porterhouse"@fr , "Tedham Porterhouse"@de , "Tedham Porterhouse"@en , "Bob Allen Zimmerman"@de , "Bob Allen Zimmerman"@en , "Boo wilbury"@fr , "Boo wilbury"@de , "Boo wilbury"@en , "Bob Dillan"@fr , "Bob Zimmerman"@fr , "Bob Dillan"@de , "Bob Zimmerman"@de , "Bob Zimmerman"@en , "Bob Dillan"@en , "Bob dylan on film"@fr , "Bob dylan on film"@de , "Bob dylan on film"@en , "Dylan"@fr , "Dylan"@de , "Dylan"@en , "Bobby Zimmermann"@de , "Dylan, Bob"@fr , "Dylan, Bob"@de , "Dylan, Bob"@en , "Bob dylcheval"@fr , "Bobby D"@fr , "Bobby D"@de , "Bobby D"@en , "Zimmy"@fr , "Zimmy"@de , "Zimmy"@en , "Shabtai"@fr , "Shabtai"@de , "Shabtai"@en , "Bob Dylans Debut"@fr , "Bob Dylans Debut"@de , "Bob Dylans Debut"@en , "Bob dylan"@fr , "Bob dylan"@de , "Bob dylan"@en , "Bob dylan in film"@fr , "Bob dylan in film"@de , "Bob dylan in film"@en , "Dyanology"@fr , "Dyanology"@de , "Dyanology"@en , "Bob Dylon"@fr , "Bob Dylon"@en , "Bob Dylon"@de , "Elston Gunn"@fr , "Elston Gunn"@de , "Elston Gunn"@en , "Dylanesque"@fr , "Dylanesque"@de , "Dylanesque"@en , "Boo Wilbury"@fr , "Bob Dylan in film"@fr , "Boo Wilbury"@de , "Bob Dylan in film"@de , "Bob Dylan in film"@en , "Boo Wilbury"@en , "Blind Boy Grunt"@fr , "Blind Boy Grunt"@en , "Blind Boy Grunt"@de , "Bob Dillon"@fr , "Bob Dillon"@de , "Bob Dillon"@en .
+
+<http://dbpedia.org/resource/Bob_Dylan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Duluth,_Minnesota> ;
+        dbo:from        "1941-05-24"^^xsd:date ;
+        dbo:to          "1941-05-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Duluth,_Minnesota>
+        rdfs:label     "Duluth, Minnesota"@fr , "Duluth, Minnesota"@de , "Duluth, Minnesota"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Duluth> , <http://de.dbpedia.org/resource/Duluth_(Minnesota)> ;
+        skos:altLabel  "Duluth mn"@fr , "Duluth mn"@de , "Duluth mn"@en , "Duluth minnesota"@fr , "Duluth minnesota"@de , "Duluth minnesota"@en , "Duluth, MN"@fr , "Duluth, MN"@de , "Duluth, MN"@en , "Duluth, mn"@fr , "Duluth, mn"@de , "Duluth, mn"@en , "Duluth, Minnesota"@fr , "Duluth, Minnesota"@de , "Duluth, Minnesota"@en , "Duluth"@fr , "Duluth"@de , "Duluth"@en , "Duluth Minn"@fr , "Duluth Minn"@de , "Duluth Minn"@en , "Duluth, Minn"@fr , "Duluth, Minn"@de , "Duluth, Minn"@en , "Duluth, Mn"@fr , "Duluth, Mn"@de , "Duluth, Mn"@en .

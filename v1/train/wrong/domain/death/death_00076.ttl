@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .
+
+<http://dbpedia.org/resource/Calvin_Coolidge__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "1971"^^xsd:gYear ;
+        dbo:to          "1971"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Calvin_Coolidge>
+        rdfs:label     "Calvin Coolidge"@de , "Calvin Coolidge"@fr , "Calvin Coolidge"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Calvin_Coolidge__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Calvin_Coolidge> , <http://de.dbpedia.org/resource/Calvin_Coolidge> ;
+        skos:altLabel  "Coolidge administration"@de , "Coolidge administration"@fr , "J. Calvin Coolidge, Jr."@en , "J. Calvin Coolidge, Jr."@fr , "J. Calvin Coolidge, Jr."@de , "Calvin Coolidge"@en , "Calvin Coolidge"@de , "Calvin Coolidge"@fr , "John C. Coolidge"@en , "John C. Coolidge"@fr , "John C. Coolidge"@de , "Calvin Cooldige"@en , "President Coolidge"@en , "President Coolidge"@de , "President Coolidge"@fr , "Calvin Cooldige"@fr , "Calvin Cooldige"@de , "Calvin coolidge"@en , "Presidency of Calvin Coolidge"@en , "Calvin coolidge"@de , "Calvin coolidge"@fr , "Presidency of Calvin Coolidge"@de , "Presidency of Calvin Coolidge"@fr , "30th President of the United States"@en , "Coolidge Administration"@en , "John C. Coolidge, Jr."@en , "Coolidge Administration"@fr , "John C. Coolidge, Jr."@de , "John C. Coolidge, Jr."@fr , "Coolidge Administration"@de , "John Calvin Coolidge"@en , "30th President of the United States"@fr , "John Calvin Coolidge"@de , "30th President of the United States"@de , "John Calvin Coolidge"@fr , "Calvin"@en , "Calvin"@de , "Calvin"@fr , "John Calvin Coolidge Jr."@en , "John Calvin Coolidge Jr."@de , "John Calvin Coolidge Jr."@fr , "President Calvin Coolidge"@en , "President Calvin Coolidge"@de , "President Calvin Coolidge"@fr , "Calvin collidge"@en , "Calvin collidge"@fr , "Calvin collidge"@de , "Calvin Koolaid"@en , "Calvin Koolaid"@de , "Calvin Koolaid"@fr , "John Coolidge, Jr."@en , "John Coolidge, Jr."@de , "John Coolidge, Jr."@fr , "J. Calvin Coolidge"@en , "J. Calvin Coolidge"@fr , "J. Calvin Coolidge"@de , "Silent cal"@en , "Silent cal"@fr , "Silent cal"@de , "Coolidge"@en , "Coolidge"@fr , "Coolidge"@de , "The business of America is business"@en , "The business of America is business"@fr , "The business of America is business"@de , "Coolidge administration"@en , "John Calvin Coolidge, Jr."@en , "John Calvin Coolidge, Jr."@de , "John Calvin Coolidge, Jr."@fr .

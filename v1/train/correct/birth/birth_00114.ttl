@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lou_Reed__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Brooklyn> ;
+        dbo:from        "1942-03-02"^^xsd:date ;
+        dbo:to          "1942-03-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Lou_Reed>
+        rdfs:label     "Lou Reed"@de , "Lou Reed"@en , "Lou Reed"@fr ;
+        dbo:birth      <http://dbpedia.org/resource/Lou_Reed__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lou_Reed> , <http://fr.dbpedia.org/resource/Lou_Reed> ;
+        skos:altLabel  "Reed"@fr , "Lou Reed"@fr , "Lou Reed"@de , "Lou Reed"@en .
+
+<http://dbpedia.org/resource/Brooklyn>
+        rdfs:label     "Brooklyn"@en , "Brooklyn"@de , "Brooklyn"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Brooklyn> , <http://fr.dbpedia.org/resource/Brooklyn> ;
+        skos:altLabel  "Brooklynites"@fr , "Breuckelen"@de , "Brooklynites"@de , "Brooklynites"@en , "Brooklen"@fr , "Brooklen"@de , "Brooklen"@en , "Comté de Kings"@fr , "Breukelen, New York"@fr , "Breukelen, New York"@de , "Breukelen, New York"@en , "Brooklynite"@fr , "Brooklynite"@de , "Brooklynite"@en , "La Cima Elementary Charter School"@fr , "La Cima Elementary Charter School"@de , "La Cima Elementary Charter School"@en , "Brooklyn, US-NY"@fr , "Brooklyn, US-NY"@de , "Brooklyn, US-NY"@en , "Brooklyn NFL"@fr , "Kings NY"@fr , "Brooklyn NFL"@de , "Brooklyn NFL"@en , "Kings NY"@en , "Kings NY"@de , "Kings County, New York"@fr , "Kings County, New York"@de , "Kings County, New York"@en , "Brooklyn, New York City"@fr , "Brooklyn"@fr , "Brooklyn, New York City"@de , "Brooklyn, New York City"@en , "Brooklyn"@de , "Brooklyn"@en , "Brooklyn,NY"@fr , "Brooklyn,NY"@de , "Brooklyn,NY"@en , "Brooklyn, NYC"@fr , "Brooklyn, NYC"@de , "Brooklyn, NYC"@en , "Brooklyn, N.Y."@fr , "Brooklyn, N.Y."@de , "Brooklyn, N.Y."@en , "Brooklyn, New York, New York"@fr , "Brooklyn, New York, New York"@en , "Brooklyn, New York, New York"@de , "BKLYN"@fr , "BKLYN"@en , "BKLYN"@de , "Kings County, NY"@fr , "Kings County, NY"@de , "Kings County, NY"@en , "Kings County"@de , "District de Brooklyn"@fr , "BROOKLYN, New York"@fr , "BROOKLYN, New York"@de , "BROOKLYN, New York"@en , "Kings County, N.Y."@fr , "Kings County, N.Y."@de , "Kings County, N.Y."@en , "Hiphopabad"@fr , "Hiphopabad"@en , "Hiphopabad"@de , "B'klyn"@fr , "Brooklyn, ny"@fr , "B'klyn"@de , "Brooklyn, ny"@de , "Brooklyn, ny"@en , "B'klyn"@en , "Brooknam"@fr , "Brooknam"@de , "Brooknam"@en , "Brooklyn, New York"@fr , "Brooklyn, NYC, NY"@fr , "Brooklyn, N.Y"@fr , "Brooklyn, N.Y"@de , "Brooklyn, N.Y"@en , "Breukelen"@fr , "Brooklyn, New York"@de , "Brooklyn, New York"@en , "Brooklyn, NYC, NY"@de , "Breukelen"@de , "Brooklyn, NYC, NY"@en , "Breukelen"@en , "Comte de Kings"@fr , "Kings"@fr , "Kings"@de , "Kings"@en , "Brooklyn, NY"@fr , "Brooklyn, NY"@de , "Brooklyn, NY"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charlie_Parker__1>
+        dbo:from      "2008"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Chennai> ;
+        dbo:to        "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlie_Parker>
+        rdfs:label     "Charlie Parker"@de , "Charlie Parker"@fr , "Charlie Parker"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Charlie_Parker__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Charlie_Parker> , <http://fr.dbpedia.org/resource/Charlie_Parker> ;
+        skos:altLabel  "Charlie “Bird” Parker"@de , "Charlie “Bird” Parker"@fr , "Charlie “Bird” Parker"@en , "Charlie"@de , "Charlie"@fr , "Parker, Charlie Bird"@de , "Charlie parker"@de , "Charlie parker"@fr , "Charlie parker"@en , "Parker, Charlie Bird"@fr , "Parker, Charlie Bird"@en , "Cool blues"@de , "Cool blues"@fr , "Cool blues"@en , "The Charlie Parker Septet"@de , "The Charlie Parker Septet"@fr , "The Charlie Parker Septet"@en , "Zoizeau"@fr , "Charlie \"Bird\" Parker"@de , "Charlie \"Bird\" Parker"@fr , "Charlie \"Bird\" Parker"@en , "Charlie Parker"@de , "Charlie Parker"@fr , "Charlie Parker"@en , "Charles Parker, Jr."@en , "Charles Parker, Jr."@de , "Charles Parker, Jr."@fr , "Charlie Parker Septet"@de , "Charlie Parker Septet"@fr , "Charlie Parker Septet"@en , "Charlie Parker Residence"@de , "Charlie Parker Residence"@fr , "Charlie Parker Residence"@en , "Now's the Time"@de , "Now's the Time"@fr , "Now's the Time"@en , "Parker"@fr .
+
+<http://dbpedia.org/resource/Chennai>
+        rdfs:label     "Chennai"@de , "Chennai"@fr , "Chennai"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chennai> , <http://fr.dbpedia.org/resource/Chennai> ;
+        skos:altLabel  "Cennai"@de , "Madras, India"@en , "Madras, India"@de , "Madras, India"@fr , "City of Chennai"@en , "City of Chennai"@de , "City of Chennai"@fr , "Banking Capital of India"@en , "Banking Capital of India"@fr , "Banking Capital of India"@de , "Chennapatnam"@en , "Chennapatnam"@de , "Chennapatnam"@fr , "Venkatapathy Nayakudu"@en , "Venkatapathy Nayakudu"@de , "Venkatapathy Nayakudu"@fr , "Madras"@en , "Madras"@de , "Madras"@fr , "Chennai City"@en , "Chennai City"@de , "Chennai City"@fr , "Chennai, India"@en , "Chennai, India"@de , "Chennai, India"@fr , "Chennai Schools"@en , "Chennai Schools"@de , "Chennai Schools"@fr , "Chennappattanam"@de , "Gate way of South India"@en , "Chennai"@en , "Gate way of South India"@de , "Gate way of South India"@fr , "Channai"@en , "Channai"@fr , "Chennai"@de , "Chennai"@fr , "Channai"@de , "City of Madras"@en , "City of Madras"@de , "City of Madras"@fr , "Chennapuri"@en , "Chennapuri"@de , "Chennapuri"@fr , "Chennai, Tamil Nadu"@en , "Chenai"@en , "LOCODE:INMAA"@en , "Chennai, Tamil Nadu"@de , "Chennai, Tamil Nadu"@fr , "LOCODE:INMAA"@de , "LOCODE:INMAA"@fr , "Chenai"@de , "Chenai"@fr , "Health Capital of India"@en , "Health Capital of India"@de , "Health Capital of India"@fr .

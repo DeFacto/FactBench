@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Stephen_King__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Portland,_Maine> ;
+        dbo:from        "1947-09-21"^^xsd:date ;
+        dbo:to          "1947-09-21"^^xsd:date .
+
+<http://dbpedia.org/resource/Portland,_Maine>
+        rdfs:label     "Portland, Maine"@en , "Portland, Maine"@fr , "Portland, Maine"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Portland_(Maine)> , <http://fr.dbpedia.org/resource/Portland_(Maine)> ;
+        skos:altLabel  "Portland"@fr , "Portland"@de , "Portland"@en , "Downtown Portland, Maine"@fr , "Downtown Portland, Maine"@de , "Downtown Portland, Maine"@en , "Portland International Marine Terminal"@fr , "Portland Maine"@fr , "Portland International Marine Terminal"@de , "Portland Maine"@de , "Portland Maine"@en , "Portland International Marine Terminal"@en , "Great Fire of 1866"@fr , "Great Fire of 1866"@de , "Great Fire of 1866"@en , "Portland Pier"@fr , "Portland, ME"@fr , "Keystone"@fr , "Portland, me"@fr , "Keystone"@de , "Portland, me"@de , "Portland, me"@en , "Keystone"@en , "LOCODE:USPWM"@fr , "Portland Pier"@de , "Portland, ME"@de , "LOCODE:USPWM"@de , "Portland Pier"@en , "LOCODE:USPWM"@en , "Portland, ME"@en , "Portland, Maine"@fr , "Portland, Maine"@de , "Portland, Maine"@en .
+
+<http://dbpedia.org/resource/Stephen_King>
+        rdfs:label     "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Stephen_King__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stephen_King> , <http://de.dbpedia.org/resource/Stephen_King> ;
+        skos:altLabel  "Richard Bachmann"@de , "King"@fr , "Stephen King"@en , "Stephen King"@de , "Stephen King"@fr , "Stephan king"@fr , "Stephen E. King"@en , "Stephan king"@en , "Stephan king"@de , "Stephen E. King"@de , "Stephen E. King"@fr , "Stephen king"@fr , "Stephen king"@en , "Stephen king"@de , "Steven King Accident"@fr , "Steven king"@fr , "List of books that stephen king has written"@fr , "Steven King Accident"@en , "Steven King Accident"@de , "List of books that stephen king has written"@en , "List of books that stephen king has written"@de , "List of cultural references to Stephen King"@fr , "List of cultural references to Stephen King"@en , "List of cultural references to Stephen King"@de , "Richard Bachman"@fr , "Richard Bachman"@de , "The Works of Stephen King"@en , "The Works of Stephen King"@de , "The Works of Stephen King"@fr , "Stephen Edwin King"@fr , "Stephen Edwin King"@en , "Stephen Edwin King"@de , "King, Stephen"@fr , "King, Stephen"@en , "King, Stephen"@de , "Stephen king accident"@en , "Stephen king accident"@de , "Stephen king accident"@fr , "Bachman"@fr , "John Swithen"@fr , "John Swithen"@en , "John Swithen"@de , "Stephen"@en , "Stephen"@de , "Stephen"@fr .

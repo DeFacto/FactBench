@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02pwb07>
+        rdfs:label     "Sling Media Inc."@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Sling_Media> ;
+        skos:altLabel  "Sling Media"@en .
+
+<http://rdf.freebase.com/ns/m.0dmtp__1>
+        dbo:from        "1999"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02pwb07> ;
+        dbo:to          "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0dmtp>
+        rdfs:label     "Cisco Systems"@fr , "Cisco"@de , "Cisco Systems, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0dmtp__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cisco_Systems> , <http://dbpedia.org/resource/Cisco_Systems> , <http://fr.dbpedia.org/resource/Cisco_Systems> ;
+        skos:altLabel  "PostPath"@de , "PostPath"@fr , "Cisco"@en , "Latitude Communications"@de , "Latitude Communications"@fr , "Latitude Communications"@en , "Nexus 1000V"@de , "Cisco Unified Operations Manager"@de , "Cisco Unified Operations Manager"@fr , "Cisco Unified Operations Manager"@en , "Nexus 1000V"@fr , "Nexus 1000V"@en , "CSCO"@en , "Topspin Communications"@en , "Topspin Communications"@de , "Topspin Communications"@fr , "CoreOptics"@de , "CoreOptics"@fr , "CoreOptics"@en , "Network Magic"@de , "Network Magic"@fr , "Network Magic"@en , "Nashoba Networks"@en , "ExtendMedia"@de , "ExtendMedia"@fr , "ExtendMedia"@en , "Integrated Network"@de , "Integrated Network"@fr , "Integrated Network"@en , "Nashoba Networks"@de , "Nashoba Networks"@fr , "AXL(Cisco API)"@de , "AXL(Cisco API)"@fr , "AXL(Cisco API)"@en , "Grand Junction Networks"@en , "Grand Junction Networks"@de , "Grand Junction Networks"@fr , "CISCO Systems"@de , "CISCO Systems"@fr , "CISCO Systems"@en , "Pure Networks, Inc."@de , "Pure Networks, Inc."@fr , "Pure Networks, Inc."@en , "Atlantech Technologies"@de , "Atlantech Technologies"@fr , "Atlantech Technologies"@en , "Cisco Systems Incorporated"@de , "Cisco Systems Incorporated"@fr , "Cisco Systems Incorporated"@en , "CISCO"@de , "CISCO"@fr , "CISCO"@en , "Lynksys"@de , "Lynksys"@fr , "Lynksys"@en , "Meetinghouse"@en , "Pipelinks"@en , "Meetinghouse"@de , "Meetinghouse"@fr , "Radiata"@de , "Actona Technologies"@de , "Actona Technologies"@fr , "Actona Technologies"@en , "Arch Rock Corporation"@de , "Arch Rock Corporation"@fr , "Arch Rock Corporation"@en , "HyNEX"@de , "HyNEX"@fr , "HyNEX"@en , "Cisco systems"@de , "Cisco systems"@fr , "Cisco systems"@en , "Radiata"@fr , "Radiata"@en , "SpansLogic"@de , "SpansLogic"@fr , "Nuova Systems, Inc."@de , "Nuova Systems, Inc."@fr , "Nuova Systems, Inc."@en , "SpansLogic"@en , "Combinet"@de , "Combinet"@fr , "Combinet"@en , "Pipelinks"@de , "Pipelinks"@fr , "Richards-Zeta Building Intelligence"@en , "Richards-Zeta Building Intelligence"@de , "Richards-Zeta Building Intelligence"@fr , "Cisco Systems Inc"@de , "Cisco Systems Inc"@fr , "Cisco Systems Inc"@en , "Metaplex"@de , "Metaplex"@fr , "Metaplex"@en , "Cisco Certified Network Associate"@de , "NuSpeed Internet Systems"@de , "NuSpeed Internet Systems"@fr , "NuSpeed Internet Systems"@en , "Grid Net"@de , "Grid Net"@fr , "Grid Net"@en , "Cisco Systems, Inc."@de , "Cisco Systems, Inc."@fr , "Cisco Systems, Inc."@en , "Precept Software"@de , "Precept Software"@fr , "Precept Software"@en , "Fibex Systems"@de , "Fibex Systems"@fr , "Fibex Systems"@en , "Cisco Systems"@de , "Cisco Systems"@fr , "Cisco Systems"@en , "LightSpeed International"@de , "LightSpeed International"@fr , "LightSpeed International"@en , "BCN Systems"@de , "BCN Systems"@fr , "BCN Systems"@en , "Netiverse"@de , "Netiverse"@fr , "Netiverse"@en , "Cisco Systems, Inc"@de , "Cisco Systems, Inc"@fr , "Cisco Systems, Inc"@en , "Monterey Networks"@de , "Monterey Networks"@fr , "Monterey Networks"@en , "Airespace"@de , "Airespace"@fr , "Airespace"@en , "Jabber, Inc."@de , "Jabber, Inc."@fr , "Jabber, Inc."@en , "Active Voice"@de , "Active Voice"@fr , "Active Voice"@en , "Orative"@de , "Orative"@fr , "Orative"@en , "Cisco Systems Inc."@en , "Cisco Systems Inc."@de , "Cisco Systems Inc."@fr , "Greenfield Networks"@en , "Andiamo Systems"@de , "Greenfield Networks"@de , "Greenfield Networks"@fr , "Andiamo Systems"@fr , "Andiamo Systems"@en , "Linksys"@de , "Five Across"@de , "Five Across"@fr , "Five Across"@en , "Calista"@de , "Calista"@fr , "Calista"@en , "PostPath"@en , "Cisco"@de , "Cisco"@fr .

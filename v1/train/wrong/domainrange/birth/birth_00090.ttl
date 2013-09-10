@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Monica_Seles__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Peru,_Indiana> ;
+        dbo:from        "1890"^^xsd:gYear ;
+        dbo:to          "1890"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Monica_Seles>
+        rdfs:label     "Monica Seles"@de , "Monica Seles"@fr , "Monica Seles"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Monica_Seles__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Monica_Seles> , <http://de.dbpedia.org/resource/Monica_Seles> ;
+        skos:altLabel  "Monika Szeles"@de , "Monika Szeles"@fr , "Monika Szeles"@en , "Monika seles"@de , "Monika seles"@fr , "Monika seles"@en , "Parche"@de , "Gunter Parche"@en , "Gunter Parche"@de , "Gunter Parche"@fr , "Karoly Seles"@fr , "Guenter Parche"@en , "Guenter Parche"@de , "Guenter Parche"@fr , "Szeles Mónika"@de , "Szeles Mónika"@fr , "Szeles Mónika"@en , "Károly Seles"@fr , "Monica"@fr , "Monika Seleš"@de , "Monika Seleš"@fr , "Monika Seleš"@en , "Monica Seleš"@en , "Monica Seleš"@de , "Monica Seleš"@fr , "Monika Seles"@en , "Monika Seles"@de , "Monika Seles"@fr , "Seles"@en , "Monica Seles"@en , "Seles"@de , "Monica Seles"@de , "Monica Seles"@fr , "Seles"@fr , "Mónika Szeles"@en , "Mónika Szeles"@de , "Mónika Szeles"@fr , "Günter Parche"@en , "Günter Parche"@de , "Günter Parche"@fr , "Szeles Monika"@en , "Szeles Monika"@de , "Szeles Monika"@fr , "Karolj Seles"@fr .
+
+<http://dbpedia.org/resource/Peru,_Indiana>
+        rdfs:label     "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Peru_(Indiana)> , <http://de.dbpedia.org/resource/Peru_(Indiana)> ;
+        skos:altLabel  "LOCODE:USGUS"@en , "LOCODE:USGUS"@fr , "LOCODE:USGUS"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr , "Peru, Indiana"@de , "Peru, IN"@en , "Peru, IN"@de , "Peru, IN"@fr , "Miamisport, Indiana"@en , "Miamisport, Indiana"@fr , "Miamisport, Indiana"@de , "Peru"@en , "Peru"@fr , "Peru"@de , "Peru, IN µSA"@en , "Peru, IN µSA"@fr , "Peru, IN µSA"@de .

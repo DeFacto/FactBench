@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.069xr6>
+        rdfs:label     "Hyperion Solutions"@en , "Hyperion Solutions"@fr , "Hyperion Solutions"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hyperion_Solutions> , <http://dbpedia.org/resource/Oracle_Hyperion> , <http://de.dbpedia.org/resource/Hyperion_Solutions> ;
+        skos:altLabel  "ARBOR SOFTWARE CORP"@en , "Hyperion"@fr , "Hyperion"@de , "Arbor Software Corporation"@fr , "Arbor Software Corporation"@de , "Hyperion Solutions Corporation"@en , "Hyperion Solutions Corporation"@fr , "Hyperion Solutions Corporation"@de , "Hyperion Solutions"@fr , "Hyperion Solutions"@de , "Hyperion Solutions Corp."@en , "Arbor Software"@fr , "Arbor Software"@de , "HYPERION SOLUTIONS CORP"@en , "Oracle Hyperion"@de , "Oracle Hyperion"@fr .
+
+<http://rdf.freebase.com/ns/m.03bq625__1>
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.069xr6> ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03bq625>
+        rdfs:label  "Elan Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03bq625__1> .

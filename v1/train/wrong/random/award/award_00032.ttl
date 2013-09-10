@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01t6yw__1>
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Sevierville,_Tennessee> ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Sevierville,_Tennessee>
+        rdfs:label     "Sevierville, Tennessee"@en , "Sevierville, Tennessee"@fr , "Sevierville, Tennessee"@de ;
+        skos:altLabel  "Sevierville, TN"@en , "LOCODE:USSVU"@en , "Sevierville, Tennessee"@en , "Sevierville"@en .
+
+<http://rdf.freebase.com/ns/m.01t6yw>
+        rdfs:label     "Eugenio Montale"@en , "Eugenio Montale"@fr , "Eugenio Montale"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01t6yw__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Eugenio_Montale> , <http://de.dbpedia.org/resource/Eugenio_Montale> , <http://fr.dbpedia.org/resource/Eugenio_Montale> ;
+        skos:altLabel  "Cima"@en , "Cima"@fr , "Cima"@de , "Montale"@en , "Montale"@fr , "Montale"@de , "Eugene Montale"@en , "Eugene Montale"@fr , "Eugene Montale"@de , "Eugenio"@en , "Annalisa Cima"@en , "Eugenio"@fr , "Annalisa Cima"@fr , "Eugenio"@de , "Annalisa Cima"@de , "Eugenio Montale"@en , "Eugenio Montale"@fr , "Eugenio Montale"@de .

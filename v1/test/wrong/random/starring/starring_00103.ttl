@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Samuel_Dalembert__1>
+        dbo:from    "1998"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0g949d> ;
+        dbo:to      "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0g949d>
+        rdfs:label  "Across the Sea of Suns"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Across_the_Sea_of_Suns> .
+
+<http://dbpedia.org/resource/Samuel_Dalembert>
+        rdfs:label     "Samuel Dalembert"@en , "Samuel Dalembert"@fr , "Samuel Dalembert"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Samuel_Dalembert__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Samuel_Dalembert> , <http://de.dbpedia.org/resource/Samuel_Dalembert> ;
+        skos:altLabel  "Samuel Davis Dalembert"@en , "Samuel Davis Dalembert"@de , "Samuel Davis Dalembert"@fr , "Sam Dalembert"@en , "Samuel Dalembert"@en , "Sam Dalembert"@fr , "Sam Dalembert"@de , "Samuel Dalembert"@fr , "Samuel Dalembert"@de , "Dalembert"@de .

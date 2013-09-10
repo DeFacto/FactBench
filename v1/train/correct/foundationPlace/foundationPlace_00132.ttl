@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ftzld>
+        rdfs:label      "Krstarica"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0ftzld__132> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Krstarica> ;
+        skos:altLabel   "Krstarica.com"@en , "Krstarica"@en .
+
+<http://rdf.freebase.com/ns/m.0fhzf>
+        rdfs:label     "Belgrade"@fr , "Belgrade"@en , "Belgrad"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Belgrade> , <http://de.dbpedia.org/resource/Belgrad> , <http://fr.dbpedia.org/resource/Belgrade> ;
+        skos:altLabel  "Београд"@en , "Batajnia Air Base"@fr , "Prinzeugenstadt"@fr , "Prinz-Eugenstadt"@fr , "Prinz-Eugenstadt"@en , "Prinz-Eugenstadt"@de , "Prinzeugenstadt"@de , "Prinzeugenstadt"@en , "Nándorfehérvár"@fr , "Capital of Yugoslavia"@fr , "Capital of Yugoslavia"@en , "Nándorfehérvár"@en , "Nándorfehérvár"@de , "Capital of Yugoslavia"@de , "Belgrade"@fr , "Belgrade"@en , "Belgrade"@de , "LOCODE:CSBEG"@fr , "LOCODE:CSBEG"@de , "LOCODE:CSBEG"@en , "Grad"@fr , "Grad"@en , "Grad"@de , "City of Belgrade"@fr , "City of Belgrade"@de , "City of Belgrade"@en , "Region of Belgrade"@fr , "Region of Belgrade"@en , "Region of Belgrade"@de , "Belograd"@fr , "Belograd"@en , "Belograd"@de , "Belgrade, Serbia"@fr , "Belgrade, Serbia"@de , "Belgrade, Serbia"@en , "Belgrade, Yugoslavia"@fr , "Belgrade, Yugoslavia"@de , "Belgrade, Yugoslavia"@en , "RS-00"@de , "LOCODE:RSBEG"@fr , "LOCODE:RSBEG"@de , "LOCODE:RSBEG"@en , "Belgrad"@fr , "Belgrad"@en , "Belgrad"@de , "Belgrád"@fr , "Belgrád"@de , "Belgrád"@en , "Capital of Serbia and Montenegro"@fr , "Belgrade Region"@fr , "Capital of Serbia and Montenegro"@de , "Capital of Serbia and Montenegro"@en , "Belgrade Region"@de , "Belgrade Region"@en , "Capital of Serbia"@fr , "Capital of Serbia"@en , "Capital of Serbia"@de , "Nandorfehervar"@fr , "Beograd"@fr , "Nandorfehervar"@de , "Nandorfehervar"@en , "Beograd"@en , "Beograd"@de , "Belgrade District"@fr , "Belgrade District"@de , "Belgrade District"@en .
+
+<http://rdf.freebase.com/ns/m.0ftzld__132>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0fhzf> ;
+        dbo:from             "1999"^^xsd:gYear ;
+        dbo:to               "1999"^^xsd:gYear .

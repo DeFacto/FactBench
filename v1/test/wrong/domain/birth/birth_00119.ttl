@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ai_Sugiyama>
+        rdfs:label     "Ai Sugiyama"@en , "Ai Sugiyama"@fr , "Ai Sugiyama"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ai_Sugiyama__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ai_Sugiyama> , <http://de.dbpedia.org/resource/Ai_Sugiyama> ;
+        skos:altLabel  "Ai Sugiyama"@en , "Ai Sugiyama"@de , "Ai Sugiyama"@fr , "Aï Sugiyama"@fr , "Sugiyama"@en , "Sugiyama"@fr , "Sugiyama"@de , "Sugiyama Ai"@de .
+
+<http://dbpedia.org/resource/Banja_Luka>
+        rdfs:label     "Banja Luka"@en , "Banja Luka"@fr , "Banja Luka"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Banja_Luka> , <http://fr.dbpedia.org/resource/Banja_Luka> ;
+        skos:altLabel  "Banja luka"@en , "Banja luka"@fr , "Banja luka"@de , "Banja Luka"@en , "Banja Luka"@fr , "Banja Luka"@de , "Luka"@de , "Banya Luka"@en , "Banya Luka"@fr , "Banya Luka"@de , "Banjaluka"@en , "Banjaluka"@de , "Banjaluka"@fr , "Trapisti"@de .
+
+<http://dbpedia.org/resource/Ai_Sugiyama__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Banja_Luka> ;
+        dbo:from        "1979"^^xsd:gYear ;
+        dbo:to          "1979"^^xsd:gYear .

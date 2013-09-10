@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Avril_Lavigne>
+        rdfs:label     "Avril Lavigne"@de , "Avril Lavigne"@fr , "Avril Lavigne"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Avril_Lavigne__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Avril_Lavigne> , <http://fr.dbpedia.org/resource/Avril_Lavigne> ;
+        skos:altLabel  "Avril lavigne"@de , "Avril lavigne"@fr , "Avril lavine"@fr , "Avril lavine"@de , "Lavigne"@en , "Lavigne"@de , "Lavigne"@fr , "Awards and Nominations earned by Avril Lavigne"@en , "Awards and Nominations earned by Avril Lavigne"@fr , "Awards and Nominations earned by Avril Lavigne"@de , "Avril Ramona Lavigne Whibley"@en , "Avril Ramona Lavigne Whibley"@fr , "Avril Ramona Lavigne Whibley"@de , "Avril Whibley"@en , "Avril Whibley"@fr , "Avril Whibley"@de , "Avril Lavigne-Whibley"@en , "Avril Lavigne-Whibley"@fr , "Avril Lavigne-Whibley"@de , "Averil Lavigne"@en , "Averil Lavigne"@fr , "Averil Lavigne"@de , "Black Star"@en , "Black Star"@de , "Black Star"@fr , "Avril"@en , "Avril"@fr , "Avril"@de , "List of Avril Lavigne's Concert Tours"@en , "List of Avril Lavigne's Concert Tours"@de , "List of Avril Lavigne's Concert Tours"@fr , "Arvil lavigne"@en , "April Lavigne"@en , "Arvil lavigne"@de , "Arvil lavigne"@fr , "April Lavigne"@de , "April Lavigne"@fr , "Avril Lavigne Whibley"@en , "Avril Lavigne Whibley"@fr , "Avril Lavigne Whibley"@de , "Showtime"@en , "Showtime"@fr , "Showtime"@de , "Skater girl"@en , "Skater girl"@fr , "Skater girl"@de , "Avrillavigne.com"@en , "Avrillavigne.com"@fr , "Avrillavigne.com"@de , "Avril Lavigne"@en , "Avril Lavigne"@fr , "Avril Lavigne"@de , "Avril lagvine"@en , "Avril lagvine"@de , "Avril lagvine"@fr , "Avril Lavgine"@en , "Avril Lavinge"@en , "Avril Lavgine"@fr , "Avril Lavinge"@fr , "Avril Lavgine"@de , "Avril Lavinge"@de , "Whibley"@en , "Whibley"@de , "Whibley"@fr , "Pink Crust"@fr , "Avril Lavene"@en , "Avril Lavene"@de , "Avril Lavene"@fr , "Lavigne, Avril"@en , "Lavigne, Avril"@fr , "Lavigne, Avril"@de , "Avril Lavine"@en , "Avril Lavine"@fr , "Avril Lavine"@de , "Avril lavine"@en , "Avril Ramona Lavigne"@en , "Avril Ramona Lavigne"@de , "Avril Ramona Lavigne"@fr , "Avril lavigne"@en .
+
+<http://dbpedia.org/resource/Hope,_Arkansas>
+        rdfs:label     "Hope, Arkansas"@en , "Hope, Arkansas"@fr , "Hope, Arkansas"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hope_(Arkansas)> , <http://de.dbpedia.org/resource/Hope_(Arkansas)> ;
+        skos:altLabel  "Hope, Ark."@en , "Hope, Ark."@fr , "Hope, Ark."@de , "Hope, AR mSA"@en , "Hope, Arkansas"@en , "Hope, AR mSA"@fr , "Hope, Arkansas"@de , "Hope, AR mSA"@de , "Hope, Arkansas"@fr , "Hope"@en , "Hope"@fr , "Hope"@de , "Hope, AR"@en , "Hope, AR"@fr , "Hope, AR"@de , "LOCODE:USHPR"@en , "LOCODE:USHPR"@fr , "LOCODE:USHPR"@de .
+
+<http://dbpedia.org/resource/Avril_Lavigne__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Hope,_Arkansas> ;
+        dbo:from             "2008"^^xsd:gYear ;
+        dbo:to               "2012"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0hg_0qm__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05mgpn> ;
+        dbo:to      "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0hg_0qm>
+        rdfs:label     "Lora Lee Ecobelli"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0hg_0qm__1> ;
+        skos:altLabel  "LL"@en , "Lora Lee Amram"@en .
+
+<http://rdf.freebase.com/ns/m.05mgpn>
+        rdfs:label     "Prashanth"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Prashanth_(actor)> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Prasanth"@en , "Prashanth"@en , "Prashant"@en , "Prashanth Thiagarajan"@en , "Prashanth Thyagarajan"@en .

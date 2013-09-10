@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0frrz3__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.01804k> ;
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:to          "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01804k>
+        rdfs:label     "Kate del Castillo"@en , "Kate del Castillo"@fr , "Kate del Castillo"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kate_del_Castillo> , <http://dbpedia.org/resource/Kate_del_Castillo> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Kate del Castillo Negrete Trillo"@en , "Kate del Castillo"@de , "Kate Del Castillo"@de .
+
+<http://rdf.freebase.com/ns/m.0frrz3>
+        rdfs:label     "Lindsay Zir"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0frrz3__1> ;
+        skos:altLabel  "Lindsay Amanda Zir"@en , "Pin"@en .

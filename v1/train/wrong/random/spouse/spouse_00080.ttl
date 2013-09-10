@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Zulfikar_Ali_Bhutto__1>
+        dbo:author  <http://dbpedia.org/resource/Compton,_California> ;
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Zulfikar_Ali_Bhutto>
+        rdfs:label     "Zulfikar Ali Bhutto"@de , "Zulfikar Ali Bhutto"@fr , "Zulfikar Ali Bhutto"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Zulfikar_Ali_Bhutto__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Zulfikar_Ali_Bhutto> , <http://fr.dbpedia.org/resource/Zulfikar_Alî_Bhutto> ;
+        skos:altLabel  "Z. A. Bhutto"@en , "Z. A. Bhutto"@de , "Z. A. Bhutto"@fr , "Zulfikar Ali Bhutto"@en , "Zulfikar Ali Bhutto"@de , "Zulfikar Ali Bhutto"@fr , "Bhutto, Zulfikar Ali"@en , "Bhutto, Zulfikar Ali"@de , "Bhutto, Zulfikar Ali"@fr , "Zulfi Bhutto"@de , "Zulfi Bhutto"@fr , "Zulfi Bhutto"@en , "Quaid-e-Awam"@en , "Quaid-e-Awam"@de , "Quaid-e-Awam"@fr , "Zulfiqar 'Ali Bhutto"@en , "Zulfiqar 'Ali Bhutto"@de , "Zulfiqar 'Ali Bhutto"@fr , "Zulfiqar Bhutto"@de , "Zulfiqar Bhutto"@fr , "Zulfiqar Bhutto"@en , "Zalfikar Ali Bhutto"@en , "Zalfikar Ali Bhutto"@de , "Zalfikar Ali Bhutto"@fr , "Bhutto"@de , "Bhutto"@fr , "Bhutto, Zulfiqar Ali"@en , "Zulifiqar Ali Bhutto"@de , "Bhutto, Zulfiqar Ali"@de , "Bhutto, Zulfiqar Ali"@fr , "Zulifiqar Ali Bhutto"@fr , "Zulifiqar Ali Bhutto"@en , "Zulfikar Bhutto"@en , "Zulfikar Bhutto"@de , "Zulfikar Bhutto"@fr , "Ali Bhutto"@en , "Ali Bhutto"@de , "Ali Bhutto"@fr , "Zulfiqqar Ali Bhuttoo"@en , "Zulifikar Bhutto"@en , "Zulfiqqar Ali Bhuttoo"@de , "Zulfiqqar Ali Bhuttoo"@fr , "Zulifikar Bhutto"@de , "Zulifikar Bhutto"@fr , "Zulfikar Alî Bhutto"@fr , "Zulfiqar Ali Bhutto"@en , "Zulfiqar Ali Bhutto"@de , "Zulfiqar Ali Bhutto"@fr .
+
+<http://dbpedia.org/resource/Compton,_California>
+        rdfs:label     "Compton, California"@en , "Compton, California"@fr , "Compton, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Compton_(Kalifornien)> , <http://fr.dbpedia.org/resource/Compton_(Californie)> ;
+        skos:altLabel  "Compton, Ca"@fr , "Compton, California"@de , "Compton, Ca"@de , "Compton Airport"@fr , "Compton"@en , "Compton"@fr , "Compton"@de , "Bompton"@en , "Bompton"@fr , "Bompton"@de , "Aéroport de Compton"@fr , "Compton, Los Angeles, California"@en , "Compton, CA"@en , "Compton, Los Angeles, California"@fr , "Compton, CA"@fr , "Compton, CA"@de , "Compton, Los Angeles, California"@de , "LOCODE:USCPM"@en , "LOCODE:USCPM"@fr , "LOCODE:USCPM"@de , "City of Compton"@en , "Bity of Bompton"@en , "City of Compton"@fr , "Bity of Bompton"@fr , "Bity of Bompton"@de , "City of Compton"@de , "Aeroport de Compton"@fr , "Compton, California"@en , "Compton, Ca"@en , "Compton, California"@fr .

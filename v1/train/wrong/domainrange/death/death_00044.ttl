@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Thelonious_Monk__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hanover> ;
+        dbo:from        "1987"^^xsd:gYear ;
+        dbo:to          "1987"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Thelonious_Monk>
+        rdfs:label     "Thelonious Monk"@en , "Thelonious Monk"@fr , "Thelonious Monk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Thelonious_Monk__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Thelonious_Monk> , <http://de.dbpedia.org/resource/Thelonious_Monk> ;
+        skos:altLabel  "Thelonious Sphere Monk"@en , "Thelonious Sphere Monk"@fr , "Thelonious Sphere Monk"@de , "Thelonious Monk Quartet"@en , "Thelonious Monk Quartet"@fr , "Thelonious Monk Quartet"@de , "Thelonious monk"@en , "Thelonious monk"@fr , "Thelonious monk"@de , "Theloneous Monk"@en , "Thelonious Monk"@en , "Theloneous Monk"@fr , "Thelonious Monk"@fr , "Theloneous Monk"@de , "Thelonious Monk"@de , "Thelonious"@en , "Thelonious"@fr , "Thelonious"@de , "Thelonius Monk"@en , "The Thelonious Monk Quartet"@en , "Thelonius Monk"@fr , "Thelonius Monk"@de , "The Thelonious Monk Quartet"@fr , "The Thelonious Monk Quartet"@de , "Sphere"@de , "Monk"@en , "Monk"@fr , "Monk"@de , "Thélonious Monk"@fr , "Thelonius"@en , "Thelonius"@fr , "Thelonius"@de , "Thélonius Monk"@fr .
+
+<http://dbpedia.org/resource/Hanover>
+        rdfs:label     "Hanover"@de , "Hanover"@fr , "Hanover"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hannover> , <http://fr.dbpedia.org/resource/Hanovre> ;
+        skos:altLabel  "Hanover"@fr , "Hanover"@en , "Ville de Hanovre"@fr , "Hannover's Museums"@de , "Hannover's Museums"@fr , "Hannover's Museums"@en , "Hanôvre"@fr , "Hannover UNRRA displaced persons camp"@de , "Hannover UNRRA displaced persons camp"@fr , "Hannoveraner"@de , "Hon overe"@de , "Hannoveraner"@fr , "Hannoveraner"@en , "Hannover UNRRA displaced persons camp"@en , "Hannover, Germany"@de , "Hannover, Germany"@fr , "Hannover, Germany"@en , "Hanover, Germany"@de , "Hanover, Germany"@fr , "Hanover, Germany"@en , "Hanovre"@de , "Hanovre"@fr , "Honovere"@de , "Hannovre"@de , "Hannovre"@fr , "Hannovre"@en , "Hannover"@de , "Hannover"@fr , "Hannover"@en , "Herrenhausen"@fr , "Hanovrienne"@fr , "Hanower"@de , "LOCODE:DEHAJ"@de , "LOCODE:DEHAJ"@fr , "LOCODE:DEHAJ"@en , "Hanover"@de .

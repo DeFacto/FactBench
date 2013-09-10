@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pierre_Trudeau__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Birmingham,_Alabama> ;
+        dbo:from             "2006"^^xsd:gYear ;
+        dbo:to               "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Pierre_Trudeau>
+        rdfs:label     "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Pierre Trudeau"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Pierre_Trudeau__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pierre_Elliott_Trudeau> , <http://de.dbpedia.org/resource/Pierre_Trudeau> ;
+        skos:altLabel  "Trudeau"@en , "Trudeau"@de , "Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@en , "Pierre Eliott Trudeau"@en , "Pierre Eliott Trudeau"@de , "Pierre Eliott Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@de , "Joseph Philippe Pierre Yves Elliott Trudeau"@fr , "Pierre Trudeau"@en , "Joseph Philippe Pierre Ives Elliott Trudeau"@de , "Joseph Philippe Pierre Ives Elliott Trudeau"@fr , "Joseph Philippe Pierre Ives Elliott Trudeau"@en , "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Joseph Philipp Pierre"@en , "Joseph Philipp Pierre"@de , "Joseph Philipp Pierre"@fr , "Pierre-Elliot Trudeau"@en , "Pierre-Elliot Trudeau"@de , "Pierre-Elliot Trudeau"@fr , "Pierre Elliott Trudeau"@en , "PE Trudeau"@fr , "Pierre Elliott Trudeau"@de , "Pierre Elliott Trudeau"@fr , "Pierre trudeau"@en , "Pierre trudeau"@de , "Pierre trudeau"@fr , "Joseph Philipp Pierre Yves Elliott Trudeau"@en , "Pierre"@en , "Pierre"@de , "Pierre"@fr , "Pierre Philippe Yves Elliott Trudeau"@en , "Joseph Philipp Pierre Yves Elliott Trudeau"@de , "Joseph Philipp Pierre Yves Elliott Trudeau"@fr , "Pierre Philippe Yves Elliott Trudeau"@de , "Pierre Philippe Yves Elliott Trudeau"@fr , "Pierre-Eliott-Trudeau"@fr , "Pierre-Elliott Trudeau"@de , "Pierre-Elliott Trudeau"@fr , "Pierre-Elliott Trudeau"@en , "Trudeauisme"@fr , "Trudeauiste"@fr , "Pierre E. Trudeau"@en , "Pierre E. Trudeau"@de , "Pierre E. Trudeau"@fr , "Pierre Elliot Trudeau"@en , "Pierre Elliot Trudeau"@de , "Pierre Elliot Trudeau"@fr .
+
+<http://dbpedia.org/resource/Birmingham,_Alabama>
+        rdfs:label     "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Birmingham, Alabama"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Birmingham_(Alabama)> , <http://fr.dbpedia.org/resource/Birmingham_(Alabama)> ;
+        skos:altLabel  "Birmingham alabama"@en , "Birmingham alabama"@de , "Birmingham alabama"@fr , "Tragic city"@en , "Tragic city"@de , "Tragic city"@fr , "Burmingham, AL"@en , "Burmingham, AL"@de , "Burmingham, AL"@fr , "Birmingham, Alabama"@en , "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Tragic City"@en , "Tragic City"@de , "Tragic City"@fr , "Birmingham, USA"@en , "Birmingham, USA"@de , "Birmingham, USA"@fr , "Bombingham"@en , "Bombingham"@de , "Bombingham"@fr , "Aeroport international de Birmingham"@fr , "Birmingham, AL"@de , "Birmingham, AL"@fr , "Birmingham, AL"@en , "Birmingham"@en , "Birmingham"@de , "Birmingham"@fr , "Pratt City, Alabama"@en , "Pratt City, Alabama"@de , "Pratt City, Alabama"@fr , "Birmingham, Al"@en , "Birmingham, Al"@de , "Birmingham, Al"@fr , "Birmingham, Ala."@en , "Burmingham, Alabama"@en , "Birmingham, Ala."@de , "Birmingham, Ala."@fr , "Burmingham, Alabama"@de , "Burmingham, Alabama"@fr , "Aéroport international de Birmingham"@fr , "The Magic City"@en , "The Magic City"@de , "The Magic City"@fr , "Downtown Birmingham, Alabama"@en , "Downtown Birmingham, Alabama"@de , "Downtown Birmingham, Alabama"@fr , "LOCODE:USBHM"@en , "LOCODE:USBHM"@de , "LOCODE:USBHM"@fr , "Schaeffer Eye Center Crawfish Boil"@en , "Schaeffer Eye Center Crawfish Boil"@de , "Schaeffer Eye Center Crawfish Boil"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07d3x__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Portland_Trail_Blazers> ;
+        dbo:from             "1991"^^xsd:gYear ;
+        dbo:to               "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07d3x>
+        rdfs:label     "Terry Pratchett"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07d3x__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Terry_Pratchett> , <http://dbpedia.org/resource/Terry_Pratchett> , <http://de.dbpedia.org/resource/Terry_Pratchett> ;
+        skos:altLabel  "Terry Pratchet"@en , "Terry Pratchet"@de , "Terry Pratchet"@fr , "Terry Prattchet"@en , "Terry Prattchet"@de , "Terry Prattchet"@fr , "Prattchett"@en , "Prattchett"@de , "Prattchett"@fr , "Terence Pratchett"@en , "Terence Pratchett"@de , "Terence Pratchett"@fr , "Terry"@en , "Terry"@de , "Terry"@fr , "Sir Terry Pratchett"@en , "Sir Terry Pratchett"@de , "Sir Terry Pratchett"@fr , "Terry pratchett"@en , "Terry pratchett"@de , "Terry pratchett"@fr , "Terry Prattchett"@en , "Terry Prattchett"@de , "Terry Prattchett"@fr , "Sir Terence David John Pratchett"@de , "Sir Terence David John \"Terry\" Pratchett, OBE"@en , "Pterry"@en , "Pterry"@de , "Pterry"@fr , "Terry prachet"@en , "Terence David John Pratchett"@en , "Terry Prachett"@en , "Terence David John Pratchett"@de , "Terry Prachett"@de , "Terry Prachett"@fr , "Terence David John Pratchett"@fr , "Terry prachet"@de , "Terry prachet"@fr , "Bissonomy"@en , "Bissonomy"@de , "Bissonomy"@fr , "Sir Terry Pratchett, OBE"@en , "Terry Prattcher"@en , "Terry Prattcher"@de , "Terry Prattcher"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de , "Terry Pratchett"@fr , "PTerry"@en , "Pterry Pratchett"@fr , "PTerry"@de , "PTerry"@fr , "Pratchett"@en , "Pratchett"@de , "Pratchett"@fr .
+
+<http://dbpedia.org/resource/Portland_Trail_Blazers>
+        rdfs:label     "Portland Trail Blazers"@de , "Portland Trail Blazers"@fr , "Portland Trail Blazers"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Trail_Blazers_de_Portland> , <http://de.dbpedia.org/resource/Portland_Trail_Blazers> ;
+        skos:altLabel  "Portland Blazers"@de , "Portland Blazers"@fr , "Portland Blazers"@en , "Portland Trial Blazers"@de , "Portland Trial Blazers"@fr , "Portland Trial Blazers"@en , "Blazermania"@de , "Blazermania"@fr , "Blazermania"@en , "Trailblazers de Portland"@fr , "Portland"@de , "Portland"@fr , "Portland"@en , "Trial Blazers"@de , "Trial Blazers"@fr , "Trial Blazers"@en , "Blazer"@en , "Blazer"@de , "Blazer"@fr , "Jail Blazers"@de , "Jail Blazers"@fr , "Jail Blazers"@en , "Portland TrailBlazers"@de , "Portland Trailblazers"@de , "Portland Trailblazers"@fr , "Portland Trailblazers"@en , "Portland TrailBlazers"@fr , "Portland TrailBlazers"@en , "Trail Blazers"@de , "Trail Blazers"@fr , "Trail Blazers"@en , "Trail Blazers de Portland"@fr , "Portland Trail Blazers"@de , "Portland Trail Blazers"@fr , "Trail blazers de portland"@fr , "Portland Trail Blazers"@en , "Blazers de Portland"@fr .

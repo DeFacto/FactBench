@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Lloyd_George>
+        rdfs:label     "David Lloyd George"@de , "David Lloyd George"@fr , "David Lloyd George"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Lloyd_George__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Lloyd_George> , <http://fr.dbpedia.org/resource/David_Lloyd_George> ;
+        skos:altLabel  "Lloyd George, David, 1st Earl of Dwyfor"@de , "Lloyd George, David, 1st Earl of Dwyfor"@fr , "Lloyd George, David, 1st Earl of Dwyfor"@en , "The Welsh Wizard"@de , "The Welsh Wizard"@fr , "The Welsh Wizard"@en , "David Lloyd"@en , "David Lloyd"@de , "David Lloyd"@fr , "Lloyd George, David"@de , "Lloyd George, David"@fr , "Lloyd George, David"@en , "David Lloyd-George"@de , "David Lloyd-George"@fr , "David Lloyd-George"@en , "Lloyd George"@de , "Lloyd George"@fr , "Lloyd George"@en , "Lloyd Georges"@fr , "Llyod George"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@de , "David, 1st Earl Lloyd-George of Dwyfor"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@en , "D Lloyd-George"@de , "D Lloyd-George"@fr , "D Lloyd-George"@en , "Lloyd"@fr , "David Lloyd George, 1. Earl Lloyd George of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@fr , "David Lloyd George, 1st Earl of Dwyfor"@en , "David Lloyd George"@en , "David Lloyd George"@de , "David Lloyd George"@fr , "Lloyd-George"@en , "Richard Lloyd"@en , "Richard Lloyd"@de , "Richard Lloyd"@fr , "Lloyd-George"@de , "Lloyd-George"@fr .
+
+<http://dbpedia.org/resource/Eindhoven>
+        rdfs:label     "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eindhoven> , <http://fr.dbpedia.org/resource/Eindhoven> ;
+        skos:altLabel  "Eindhoven, Netherlands"@fr , "Eindhoven, Netherlands"@de , "Eindhoven, North Brabant"@de , "Eindhoven, North Brabant"@fr , "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de , "LOCODE:NLEIN"@en , "LOCODE:NLEIN"@fr , "LOCODE:NLEIN"@de , "Eindhoven, Noord-Brabant"@en , "Eindhoven, Noord-Brabant"@fr , "Eindhoven, Noord-Brabant"@de , "Eindhoven, Netherlands"@en , "Eindhoven, North Brabant"@en .
+
+<http://dbpedia.org/resource/David_Lloyd_George__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Eindhoven> ;
+        dbo:from        "1915"^^xsd:gYear ;
+        dbo:to          "1915"^^xsd:gYear .

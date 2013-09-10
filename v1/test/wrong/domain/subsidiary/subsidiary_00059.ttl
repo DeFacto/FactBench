@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01ggfh>
+        rdfs:label     "Sequent Computer Systems"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Sequent_Computer_Systems> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Sequent Computer Systems"@en , "Sequent"@en .
+
+<http://rdf.freebase.com/ns/m.03cn90t>
+        rdfs:label  "Kyphon"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03cn90t__1> .
+
+<http://rdf.freebase.com/ns/m.03cn90t__1>
+        dbo:from        "1999"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01ggfh> ;
+        dbo:to          "1999"^^xsd:gYear .

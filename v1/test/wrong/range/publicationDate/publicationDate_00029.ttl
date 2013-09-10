@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gsx27>
+        rdfs:label     "The Clan Corporate"@en , "Famille et Cie"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Famille_et_Cie> , <http://dbpedia.org/resource/The_Clan_Corporate> ;
+        skos:altLabel  "The Clan Corporate"@fr , "Famille et Cie"@fr .
+
+<http://rdf.freebase.com/ns/m.018fq__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0gsx27> ;
+        dbo:from    "1985"^^xsd:gYear ;
+        dbo:to      "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018fq>
+        rdfs:label     "Bruce Sterling"@en , "Bruce Sterling"@fr , "Bruce Sterling"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.018fq__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bruce_Sterling> , <http://dbpedia.org/resource/Bruce_Sterling> , <http://fr.dbpedia.org/resource/Bruce_Sterling> ;
+        skos:altLabel  "Sterling"@en , "Bruce Sterling"@en , "Sterling"@fr , "Bruce Sterling"@fr , "Bruce Sterling"@de , "Sterling"@de , "Vincenty Omniaveritas"@en , "Globalhead"@en , "Globalhead"@de , "Globalhead"@fr , "Vincent Omniaveritas"@en , "Bruce sterling"@en , "Chairman Bruce"@en , "Michael Bruce Sterling"@en , "Bruce sterling"@fr , "Bruce sterling"@de , "Chairman Bruce"@fr , "Chairman Bruce"@de .

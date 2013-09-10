@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quincy,_Massachusetts>
+        rdfs:label     "Quincy, Massachusetts"@en , "Quincy, Massachusetts"@fr , "Quincy, Massachusetts"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quincy_(Massachusetts)> , <http://de.dbpedia.org/resource/Quincy_(Massachusetts)> ;
+        skos:altLabel  "Quincy Massachusetts"@en , "Quincy MA"@en , "Quincy, MA"@en , "Quincy, Massachusetts"@fr , "Quincy"@fr , "Quincy, ma"@fr , "Quincy MA"@fr , "Quincy, Massachusetts"@de , "Quincy MA"@de , "Quincy Massachusetts"@fr , "Quincy, MA"@fr , "Quincy Massachusetts"@de , "Quincy"@de , "Quincy, ma"@de , "Quincy, MA"@de , "LOCODE:USMQI"@en , "LOCODE:USMQI"@fr , "LOCODE:USMQI"@de , "Quincy, mass"@en , "Quincy, mass"@fr , "Quincy, mass"@de , "Fore River Apprentice School"@en , "Fore River Apprentice School"@fr , "Fore River Apprentice School"@de , "Quincy, Mass."@en , "Quincy, Mass."@fr , "Quincy, Mass."@de , "Quincy, Massachusetts"@en , "Quincy"@en , "Quincy, ma"@en .
+
+<http://dbpedia.org/resource/Charlton_Heston__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Quincy,_Massachusetts> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlton_Heston>
+        rdfs:label     "Charlton Heston"@en , "Charlton Heston"@fr , "Charlton Heston"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Charlton_Heston__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Charlton_Heston> , <http://fr.dbpedia.org/resource/Charlton_Heston> ;
+        skos:altLabel  "Carlton Heston"@de , "Charlton"@de , "Charlton Heston"@en , "Charlton Heston"@fr , "Charlton Heston"@de , "Charleton Heston"@en , "Charleton Heston"@fr , "Charleton Heston"@de , "Chuck Heston"@en , "Charleston Heston"@en , "Chuck Heston"@fr , "Charleston Heston"@fr , "Charleston Heston"@de , "Chuck Heston"@de , "Heston"@en , "Heston"@fr , "Heston"@de , "Charlton heston"@en , "John Charles Carter"@en , "Heston, Charlton"@en , "Carlton Heston"@en , "Charlton heston"@fr , "John Charles Carter"@fr , "Heston, Charlton"@fr , "Carlton Heston"@fr , "Charlton heston"@de , "John Charles Carter"@de , "Heston, Charlton"@de .

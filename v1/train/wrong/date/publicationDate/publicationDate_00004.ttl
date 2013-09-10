@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05x8n__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0726fk> ;
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:to      "1987"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05x8n>
+        rdfs:label     "Poul Anderson"@de , "Poul Anderson"@fr , "Poul Anderson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05x8n__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Poul_Anderson> , <http://de.dbpedia.org/resource/Poul_Anderson> , <http://fr.dbpedia.org/resource/Poul_Anderson> ;
+        skos:altLabel  "Anderson, Poul"@de , "Anderson, Poul"@fr , "Anderson, Poul"@en , "A. A. Craig"@de , "A. A. Craig"@en , "Poul Anderson"@de , "Poul Anderson"@fr , "Poul Anderson"@en , "Poul"@de , "Poul"@fr , "Poul"@en , "Poul anderson"@de , "Poul anderson"@fr , "Poul anderson"@en , "Anderson"@fr , "Poul William Anderson"@de , "Poul William Anderson"@fr , "Poul William Anderson"@en , "Pohl anderson"@de , "Pohl anderson"@fr , "Pohl anderson"@en , "A Knight of Ghosts and Shadows"@de , "A Knight of Ghosts and Shadows"@fr , "A Knight of Ghosts and Shadows"@en , "Winston P. Sanders"@de , "Winston P. Sanders"@en , "Twilight World"@de , "Twilight World"@fr , "Twilight World"@en , "Poul W. Anderson"@de , "Poul W. Anderson"@fr , "Poul W. Anderson"@en , "Michael Karageorge"@de , "Michael Karageorge"@en .
+
+<http://rdf.freebase.com/ns/m.0726fk>
+        rdfs:label  "The Boat of a Million Years"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Boat_of_a_Million_Years> .

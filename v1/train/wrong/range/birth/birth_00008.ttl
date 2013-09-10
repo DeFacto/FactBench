@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robert_Christgau__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Abbott,_Texas> ;
+        dbo:from        "1942"^^xsd:gYear ;
+        dbo:to          "1942"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Robert_Christgau>
+        rdfs:label     "Robert Christgau"@en , "Robert Christgau"@fr , "Robert Christgau"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robert_Christgau__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robert_Christgau> , <http://de.dbpedia.org/resource/Robert_Christgau> ;
+        skos:altLabel  "Bob Christgau"@en , "Bob Christgau"@fr , "Bob Christgau"@de , "Christgau, Robert"@en , "Christgau, Robert"@fr , "Christgau, Robert"@de , "Xgau"@en , "Xgau"@fr , "Xgau"@de , "Robert Christgau"@en , "Robert Christgau"@fr , "Robert Christgau"@de , "Christgau"@en , "Christgau"@de , "Christgau"@fr .
+
+<http://dbpedia.org/resource/Abbott,_Texas>
+        rdfs:label     "Abbott, Texas"@en , "Abbott, Texas"@fr , "Abbott, Texas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Abbott_(Texas)> ;
+        skos:altLabel  "Abbott City, Texas"@de , "Abbott City, Texas"@en , "Abbott, TX"@en , "Abbott, TX"@de , "Abbott"@en , "Abbott"@de , "Abbott, Texas"@en , "Abbott, Texas"@de .

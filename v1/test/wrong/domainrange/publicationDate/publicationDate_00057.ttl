@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02kfc3h>
+        rdfs:label  "Dayton Ward"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02kfc3h__1> .
+
+<http://rdf.freebase.com/ns/m.015hxm>
+        rdfs:label     "Le Facteur"@fr , "The Postman"@en , "Postman"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Postman_(Roman)> , <http://fr.dbpedia.org/resource/Le_Facteur_(roman)> , <http://dbpedia.org/resource/The_Postman> ;
+        skos:altLabel  "The Postman"@fr , "The Postman"@de , "The Holnists"@fr , "The Holnists"@de , "Le facteur"@fr , "Le facteur (french title)"@en , "Le Facteur"@fr , "Postman"@en , "Postman"@fr , "Postman"@de , "Pine View, Oregon"@en , "Pine View, Oregon"@fr , "Pine View, Oregon"@de , "Nathan Holn"@en , "Nathan Holn"@fr , "Nathan Holn"@de , "The Holnists"@en , "The Postman"@en .
+
+<http://rdf.freebase.com/ns/m.02kfc3h__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.015hxm> ;
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:to      "1995"^^xsd:gYear .

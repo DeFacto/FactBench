@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ffb0___1>
+        dbo:from  "2001"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Mississauga> ;
+        dbo:to    "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Mississauga>
+        rdfs:label     "Mississauga"@de , "Mississauga"@fr , "Mississauga"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mississauga> , <http://de.dbpedia.org/resource/Mississauga> ;
+        skos:altLabel  "Missisauga"@en , "Missisauga"@de , "Missisauga"@fr , "Mississauga, Ontario"@de , "Mississauga, Ontario"@fr , "Mississauga, Ontario"@en , "Mississauga"@de , "Mississauga"@fr , "Mississauga"@en , "Mississaugua, Ontario"@de , "Mississaugua, Ontario"@fr , "Neighbourhoods of Churchill, Mississauga, Ontario"@de , "Neighbourhoods of Churchill, Mississauga, Ontario"@fr , "Neighbourhoods of Churchill, Mississauga, Ontario"@en , "Mississaugua, Ontario"@en , "Applewood Acres"@en , "Mississagua"@en , "Applewood Acres"@de , "Applewood Acres"@fr , "Mississagua"@de , "Mississagua"@fr , "Missisauga, Ontario"@de , "Missisauga, Ontario"@fr , "Missisauga, Ontario"@en , "City of Mississauga"@de , "City of Mississauga"@fr , "City of Mississauga"@en , "Toronto Township"@fr , "Mississauga, Canada"@de , "Mississauga, Canada"@fr , "Mississauga, Canada"@en , "Mississauga, ON"@de , "Mississauga, ON"@fr , "Mississauga, ON"@en , "Mississagua, Ontario"@de , "Mississagua, Ontario"@fr , "Mississagua, Ontario"@en , "Mississaugan"@de , "Mississaugan"@fr , "Mississaugan"@en .
+
+<http://rdf.freebase.com/ns/m.0ffb0_>
+        rdfs:label  "LogiSense"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0ffb0___1> ;
+        owl:sameAs  <http://dbpedia.org/resource/LogiSense> .

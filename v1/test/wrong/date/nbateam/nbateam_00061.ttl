@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Sacramento_Kings>
+        rdfs:label     "Sacramento Kings"@en , "Sacramento Kings"@fr , "Sacramento Kings"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kings_de_Sacramento> , <http://de.dbpedia.org/resource/Sacramento_Kings> ;
+        skos:altLabel  "Kansas City Kings"@fr , "Kansas City Kings"@de , "Sacramento Kings roster"@en , "Royals de Cincinnati"@fr , "Kings de Kansas City"@fr , "Sacramento Kings roster"@fr , "Sacramento Kings roster"@de , "Kings de Sacramento"@fr , "Sacramento Kings"@en , "Sacramento Kings"@fr , "Sacramento Kings"@de , "Kansas City-Omaha Kings"@en , "Kansas City-Omaha Kings"@fr , "Kansas City-Omaha Kings"@de , "Kings"@en , "Kings"@fr , "Rochester Royals"@fr , "Rochester Royals"@de , "Kings"@de , "Cincinatti Royals"@fr , "Kings De Sacramento"@fr , "Anaheim kings"@en , "Anaheim kings"@fr , "Anaheim kings"@de , "Cincinnati Royals"@fr , "Cincinnati Royals"@de , "Royals de Rochester"@fr , "Sacramento"@fr , "Sacramento"@de , "Kings de sacramento"@fr , "Kansas City Kings"@en .
+
+<http://dbpedia.org/resource/Metta_World_Peace>
+        rdfs:label     "Metta World Peace"@de , "Metta World Peace"@fr , "Metta World Peace"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Metta_World_Peace__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Metta_World_Peace> , <http://de.dbpedia.org/resource/Metta_World_Peace> ;
+        skos:altLabel  "Ron Artest"@de , "Ron Artest"@fr , "Ron Artest"@en , "Mettā World Peace"@de , "Mettā World Peace"@fr , "Mettā World Peace"@en , "Meta World Peace"@de , "Meta World Peace"@fr , "Meta World Peace"@en , "Ron artest"@en , "Ron artest"@de , "Ron artest"@fr , "Metta World Peace"@de , "Metta World Peace"@fr , "Metta World Peace"@en , "Ronald (Ron) William Artest Jr."@de , "Ronald (Ron) William Artest Jr."@fr , "Ronald (Ron) William Artest Jr."@en , "My World"@en , "My World"@de , "My World"@fr , "Artest"@de , "Artest"@fr , "Artest"@en , "Ronald (Ron) William Artest, Jr."@de , "Ronald (Ron) William Artest, Jr."@fr , "Ronald (Ron) William Artest, Jr."@en , "Tru Warrior"@de , "Tru Warrior"@fr , "Tru Warrior"@en , "Ron Bartest"@de , "Ron Bartest"@fr , "Ron Bartest"@en , "Ronald Artest"@en , "Ronald Artest"@de , "Ronald Artest"@fr , "World Peace"@en , "World Peace"@de , "World Peace"@fr .
+
+<http://dbpedia.org/resource/Metta_World_Peace__1>
+        dbo:from  "2004"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Sacramento_Kings> ;
+        dbo:to    "2008"^^xsd:gYear .

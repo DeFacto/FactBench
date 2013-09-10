@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.018nm3__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.034n52> ;
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018nm3>
+        rdfs:label     "Autodesk"@en , "Autodesk"@fr , "Autodesk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.018nm3__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Autodesk> , <http://fr.dbpedia.org/resource/Autodesk> , <http://dbpedia.org/resource/Autodesk> ;
+        skos:altLabel  "Autodesk Inc. Staff"@en , "Autodesk"@en , "Autodesk"@fr , "Autodesk"@de , "AutoDesk"@en , "AutoDesk"@fr , "AutoDesk"@de , "Inc. Autodesk"@en , "Architectural Desktop"@de , "C-Plan"@de , "Autodesk, Inc."@en , "Autodesk, Inc."@fr , "Autodesk, Inc."@de , "Autodesk Autodesk"@en , "C-Plan AG"@de , "Autodesk Inc."@en , "Autodesk Inc."@fr , "Autodesk Inc."@de , "ADSK"@en , "Autodesk Inc"@en , "ADSK"@fr , "ADSK"@de , "Autodesk Inc"@fr , "Autodesk Inc"@de , "Autodesk building systems"@en , "Autodesk building systems"@fr , "Autodesk building systems"@de .
+
+<http://rdf.freebase.com/ns/m.034n52>
+        rdfs:label     "Where Late the Sweet Birds Sang"@en , "Hier, les oiseaux"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Where_Late_the_Sweet_Birds_Sang> , <http://fr.dbpedia.org/resource/Hier,_les_oiseaux> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Hier, les oiseaux"@fr , "Hier, Les Oiseaux"@fr , "Where Late the Sweet Birds Sang"@fr .

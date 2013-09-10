@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01sycb>
+        rdfs:label     "The Forever War"@en , "La Guerre éternelle"@fr , "Der Ewige Krieg"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/La_Guerre_éternelle> , <http://de.dbpedia.org/resource/Der_Ewige_Krieg> , <http://dbpedia.org/resource/The_Forever_War> ;
+        skos:altLabel  "La Guerre eternelle"@fr , "La Guerre éternelle"@fr , "Der ewige Krieg"@de , "La guerre eternelle"@fr , "La Guerre Éternelle"@fr , "William Mandella"@fr , "Marygay Potter"@fr , "Marygay Potter"@de , "Personnages de la Guerre eternelle"@fr , "Forever War"@fr , "Forever War"@de , "La guerre éternelle"@fr , "Personnages de la Guerre éternelle"@fr , "Der Ewige Krieg"@de , "The forever war"@fr , "The Forever War"@fr , "The Forever War"@de , "La Guerre Eternelle"@fr .
+
+<http://rdf.freebase.com/ns/m.01dhmw>
+        rdfs:label     "Joe Haldeman"@en , "Joe Haldeman"@fr , "Joe Haldeman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01dhmw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Joe_Haldeman> , <http://fr.dbpedia.org/resource/Joe_Haldeman> , <http://dbpedia.org/resource/Joe_Haldeman> ;
+        skos:altLabel  "Attar the Merman"@en , "Attar the Merman"@de , "Attar the Merman"@fr , "Joe W. Haldeman"@en , "Haldeman"@en , "Joe Haldeman"@en , "Haldeman"@fr , "Joe Haldeman"@fr , "Haldeman"@de , "Joe Haldeman"@de , "Joe William Haldeman"@en , "Joseph William Haldeman"@en , "Joe Haldemann"@en , "Robert Graham"@en , "Joe Haldemann"@fr , "Joe Haldemann"@de , "Joseph Haldeman"@en .
+
+<http://rdf.freebase.com/ns/m.01dhmw__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01sycb> ;
+        dbo:from    "1980"^^xsd:gYear ;
+        dbo:to      "1980"^^xsd:gYear .

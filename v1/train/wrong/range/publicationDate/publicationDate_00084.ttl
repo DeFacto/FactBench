@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01wd02c>
+        rdfs:label     "C. S. Lewis"@de , "C. S. Lewis"@fr , "C. S. Lewis"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01wd02c__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/C._S._Lewis> , <http://de.dbpedia.org/resource/C._S._Lewis> , <http://dbpedia.org/resource/C._S._Lewis> ;
+        skos:altLabel  "Clives Staples Lewis"@en , "Clives Staples Lewis"@fr , "Clives Staples Lewis"@de , "Jack"@en , "Clive Staple Lewis"@de , "C.S. Lewis"@en , "C.S. Lewis"@fr , "C.S. Lewis"@de , "Lewis, C.S."@en , "N.W. Clark"@en , "C. S Lewis"@en , "C. S Lewis"@fr , "C. S Lewis"@de , "N.W. Clark"@fr , "N.W. Clark"@de , "C Lewis"@en , "C Lewis"@de , "C Lewis"@fr , "Clive Staples Lewis"@en , "C s lewis"@en , "The Inner Ring"@en , "C s lewis"@fr , "C s lewis"@de , "Clive Staples Lewis"@fr , "Clive Staples Lewis"@de , "The Inner Ring"@de , "The Inner Ring"@fr , "Clive S. Lewis"@en , "N. W. Clerk"@en , "Clive S. Lewis"@fr , "Clive S. Lewis"@de , "N. W. Clerk"@de , "N. W. Clerk"@fr , "N.W. Clerk"@en , "N.W. Clerk"@fr , "N.W. Clerk"@de , "C S Lewis"@en , "C S Lewis"@de , "C S Lewis"@fr , "Clive"@fr , "C.S Lewis"@en , "C.s. louis"@en , "C.s. louis"@de , "C.s. louis"@fr , "Clive S Lewis"@en , "Clive S Lewis"@de , "Clive S Lewis"@fr , "C.S Lewis"@de , "C.S Lewis"@fr , "Inner ring"@en , "Inner ring"@de , "Inner ring"@fr , "LEWIS C.S."@en , "Saint Clive"@en , "Saint Clive"@fr , "Saint Clive"@de , "Clive staples lewis"@en , "Clive staples lewis"@fr , "Clive staples lewis"@de , "C. S. Lewis"@en , "C.s. lewis"@en , "Jacksie"@en , "Lewis"@fr , "C. S. Lewis"@fr , "C.s. lewis"@fr , "C. S. Lewis"@de , "C.s. lewis"@de , "Cs lewis"@en , "Cs lewis"@fr , "Cs lewis"@de , "St. Clive"@en , "St. Clive"@de , "St. Clive"@fr , "St Clive"@en , "St Clive"@fr , "St Clive"@de , "CS Lewis"@en , "CS Lewis"@fr , "CS Lewis"@de , "Clive Lewis"@en , "Clive Lewis"@fr , "Clive Lewis"@de , "C.S.Lewis"@en , "C.S.Lewis"@fr , "C.S.Lewis"@de .
+
+<http://rdf.freebase.com/ns/m.01wd02c__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01tgs8> ;
+        dbo:from    "1938"^^xsd:gYear ;
+        dbo:to      "1938"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01tgs8>
+        rdfs:label     "The Sparrow"@en , "Le Moineau de Dieu"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Sparrow_(novel)> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Le_Moineau_de_Dieu> ;
+        skos:altLabel  "Le Moineau de dieu"@fr , "The Sparrow"@fr , "Sperling."@en , "Le Moineau de Dieu"@fr , "Sparrow, The"@en , "Le moineau de Dieu"@en , "Sparrow"@fr .

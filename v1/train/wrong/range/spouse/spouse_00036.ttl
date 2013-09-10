@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07k0k0__1>
+        dbo:from    "2010"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0456xp> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07k0k0>
+        rdfs:label     "Andrés Calamaro"@en , "Andrés Calamaro"@fr , "Andrés Calamaro"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07k0k0__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Andr%C3%A9s_Calamaro> ;
+        skos:altLabel  "Andrés Calamaro Masel"@en , "Andres Calamaro"@en , "Calamaro, Andrés"@en .
+
+<http://rdf.freebase.com/ns/m.0456xp>
+        rdfs:label     "Sienna Miller"@en , "Sienna Miller"@fr , "Sienna Miller"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sienna_Miller> , <http://dbpedia.org/resource/Sienna_Miller> , <http://de.dbpedia.org/resource/Sienna_Miller> ;
+        skos:altLabel  "Sienna Miller"@de , "Miller"@en , "Miller"@fr , "Miller"@de , "Sienna Rose Miller"@en , "Sienna"@de , "Sienna Rose Miller"@fr , "Sienna Rose Miller"@de , "Sienna Rose Diana Miller"@en , "Siena Miller"@en , "Siena Miller"@fr , "Siena Miller"@de , "Twenty8Twelve"@en , "Twenty8Twelve"@fr , "Twenty8Twelve"@de , "Sienna Miller"@en , "Sienna Rose"@en , "Sienna Rose"@fr , "Sienna Rose"@de , "Sienna rose miller"@en , "Sienna rose miller"@fr , "Sienna rose miller"@de , "Sienna Miller"@fr .

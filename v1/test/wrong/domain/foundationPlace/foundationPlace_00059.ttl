@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0r679>
+        rdfs:label     "Cupertino"@en , "Cupertino"@fr , "Cupertino"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cupertino> , <http://dbpedia.org/resource/Cupertino,_California> , <http://fr.dbpedia.org/resource/Cupertino> ;
+        skos:altLabel  "Cupertino"@en , "Cupertino"@fr , "Cupertino"@de , "Santa Clara County / Cupertino city"@en , "Cupertino, Calif."@en , "Cupertino, Calif."@fr , "Cupertino, Calif."@de , "LOCODE:USCUO"@en , "LOCODE:USCUO"@fr , "LOCODE:USCUO"@de , "Cupertino, CA"@en , "Cupertino, CA"@fr , "Cupertino, CA"@de , "Cupertino, Ca"@en , "Cupertino, Ca"@de , "Cupertino, Ca"@fr , "Cupertino, California"@en , "Cupertino, California"@fr , "Cupertino, California"@de .
+
+<http://rdf.freebase.com/ns/m.0350kw>
+        rdfs:label     "Hyperion Entertainment"@en , "Hyperion Entertainment"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0350kw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hyperion_Entertainment> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Hyperion_Entertainment> ;
+        skos:altLabel  "Hyperion Entertainment"@de , "Hyperion"@de .
+
+<http://rdf.freebase.com/ns/m.0350kw__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0r679> ;
+        dbo:from             "1983"^^xsd:gYear ;
+        dbo:to               "1983"^^xsd:gYear .

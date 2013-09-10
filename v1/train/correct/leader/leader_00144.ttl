@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ahmed_Ouyahia>
+        rdfs:label     "Ahmed Ouyahia"@en , "Ahmed Ouyahia"@fr , "Ahmed Ouyahia"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Ahmed_Ouyahia__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ahmed_Ouyahia> , <http://de.dbpedia.org/resource/Ahmed_Ouyahia> ;
+        skos:altLabel  "Ouyahia"@fr , "Ouyahia"@de , "Ahmed Ouyahia"@fr , "Ahmed Ouyahia"@de , "Ahmed Ouyahia"@en , "Ahmed"@fr .
+
+<http://dbpedia.org/resource/Algeria>
+        rdfs:label     "Algeria"@de , "Algeria"@fr , "Algeria"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Algérie> , <http://de.dbpedia.org/resource/Algerien> ;
+        skos:altLabel  "Ad-Dimuqratiyah ash-Sha'biyah"@fr , "Ad-Dimuqratiyah ash-Sha'biyah"@de , "Ad-Dimuqratiyah ash-Sha'biyah"@en , "L'indépendance Algérienne"@fr , "Société algérienne(population)"@fr , "Dzair"@fr , "Republique algerienne democratique populaire"@fr , "People’s Democratic Republic of Algeria"@fr , "People’s Democratic Republic of Algeria"@de , "People’s Democratic Republic of Algeria"@en , "Société algérienne"@fr , "Indépendance algérienne"@fr , "Algerien"@de , "Republique algerienne"@fr , "L'independance Algerienne"@fr , "People's Democratic Algerian Republic"@fr , "Algéro"@fr , "RADP"@fr , "People's Democratic Algerian Republic"@de , "People's Democratic Algerian Republic"@en , "Societe algerienne"@fr , "Ad-Dīmuqrāṭīyah ash-Sha’bīyah"@fr , "Independance Algerienne"@fr , "Ad-Dīmuqrāṭīyah ash-Sha’bīyah"@en , "Ad-Dīmuqrāṭīyah ash-Sha’bīyah"@de , "Popular Democratic Republic of Algeria"@fr , "Popular Democratic Republic of Algeria"@en , "Popular Democratic Republic of Algeria"@de , "Societe algerienne(population)"@fr , "République algérienne"@fr , "Republic of Algeria"@fr , "Algerian Peoples Democratic Republic"@fr , "Algérie"@fr , "Republic of Algeria"@de , "Algerian Peoples Democratic Republic"@de , "Algerian Peoples Democratic Republic"@en , "Algerisch"@de , "Republic of Algeria"@en , "Algérie"@de , "Algérie"@en , "République Algérienne Démocratique et Populaire"@fr , "République Algérienne"@fr , "Ad-Dimuqratiyah ash-Sha’biyah"@fr , "Al Djazaïr"@fr , "Indépendance Algérienne"@fr , "Al-Jumhūrīyah al-Jazā’irīyah"@fr , "Al-Jumhūrīyah al-Jazā’irīyah"@de , "Al-Jumhūrīyah al-Jazā’irīyah"@en , "Al Djazair"@fr , "Ad-Dimuqratiyah ash-Sha’biyah"@de , "Ad-Dimuqratiyah ash-Sha’biyah"@en , "Independance algerienne"@fr , "People's Democratic Republic of Algeria"@fr , "Al-Jumhuriyah al-Jaza’iriyah"@fr , "ISO 3166-1:DZ"@fr , "Al-Jumhuriyah al-Jaza'iriyah"@fr , "Republique Algerienne Democratique et Populaire"@fr , "ISO 3166-1:DZ"@de , "People's Democratic Republic of Algeria"@de , "Al-Jumhuriyah al-Jaza’iriyah"@de , "ISO 3166-1:DZ"@en , "Al-Jumhuriyah al-Jaza'iriyah"@en , "Al-Jumhuriyah al-Jaza'iriyah"@de , "Al-Jumhuriyah al-Jaza’iriyah"@en , "People's Democratic Republic of Algeria"@en , "République algérienne démocratique populaire"@fr , "Alger"@fr , "Alger"@de , "Alger"@en , "Algériens"@fr , "Demokratische Volksrepublik Algerien"@de , "Administrative divisions of Algeria"@fr , "Subdivision of Algeria"@fr , "Algeria"@fr , "Algeria"@de , "Administrative divisions of Algeria"@de , "Administrative divisions of Algeria"@en , "Subdivision of Algeria"@en , "Subdivision of Algeria"@de , "Algeria"@en , "Algery"@fr , "Algerian State"@fr , "Algerienne"@fr , "Algery"@en , "Algery"@de , "Algerian State"@en , "Algerian State"@de , "Dzayer"@fr , "Dzayer"@de , "Dzayer"@en , "AlgeriA"@fr , "AlgeriA"@de , "AlgeriA"@en , "Algero"@fr , "Name of Algeria"@fr , "Name of Algeria"@de , "Name of Algeria"@en , "Republique Algerienne"@fr , "Algérienne"@fr , "République algérienne démocratique et populaire"@fr , "Algeriens"@fr , "Etymology of Algeria"@fr , "Etymology of Algeria"@de , "Etymology of Algeria"@en , "Republique algerienne democratique et populaire"@fr , "Algerie"@fr , "Algerie"@de , "Algerie"@en .
+
+<http://dbpedia.org/resource/Ahmed_Ouyahia__1>
+        dbo:from    "2008-06-23"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Algeria> ;
+        dbo:to      "2012-09-03"^^xsd:date .

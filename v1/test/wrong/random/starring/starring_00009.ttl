@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0hnjt>
+        rdfs:label     "Eugene O’Neill"@de , "Eugene O'Neill"@fr , "Eugene O'Neill"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0hnjt__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Eugene_O'Neill> , <http://de.dbpedia.org/resource/Eugene_O’Neill> , <http://fr.dbpedia.org/resource/Eugene_O'Neill> ;
+        skos:altLabel  "Eugene Oneill"@en , "Eugene oneil"@en , "Eugene Oneill"@de , "Eugene Oneill"@fr , "O’Neill"@de , "Eugene oneil"@de , "Eugene oneil"@fr , "Eugene O’Neill"@en , "Eugene O’Neill"@de , "Eugene O’Neill"@fr , "Days Without End"@en , "Eugene oneill"@en , "Days Without End"@de , "Days Without End"@fr , "Eugene oneill"@de , "Eugene oneill"@fr , "Eugene O' Neill"@en , "Eugene O' Neill"@de , "Eugene O' Neill"@fr , "Eugene Gladstone O'Neill"@en , "Eugene Gladstone O'Neill"@de , "Eugene Gladstone O'Neill"@fr , "Eugene (Gladstone) O'Neill"@en , "Eugene (Gladstone) O'Neill"@de , "Eugene (Gladstone) O'Neill"@fr , "Eugene O'Neill"@en , "Eugene O'Neill"@de , "O'Neill"@de , "O'Neill"@fr , "O'Neill"@en , "Eugene O'Neill"@fr , "SS Glencairn"@de , "SS Glencairn"@fr , "SS Glencairn"@en , "Eugene O'Neil"@en , "Eugene O'Neil"@de , "Eugene O'Neil"@fr , "Eugene O'Neal"@en , "Eugene O'Neal"@de , "Eugene O'Neal"@fr , "Eugene ONeill"@en , "O'Neill, Eugene Gladstone"@en , "O'Neill, Eugene Gladstone"@de , "Plays by Eugene O'Neill"@de , "O'Neill, Eugene Gladstone"@fr , "Plays by Eugene O'Neill"@fr , "Plays by Eugene O'Neill"@en , "Eugène O'Neill"@fr , "Eugène O’Neill"@fr .
+
+<http://dbpedia.org/resource/Northampton,_Massachusetts>
+        rdfs:label     "Northampton, Massachusetts"@en , "Northampton, Massachusetts"@fr , "Northampton, Massachusetts"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Northampton_(Massachusetts)> , <http://fr.dbpedia.org/resource/Northampton_(Massachusetts)> ;
+        skos:altLabel  "Northampton"@fr , "Northampton"@de , "Northampton, MA"@en , "Northampton, MA"@fr , "Northampton, MA"@de , "Lesbianville"@en , "Lesbianville"@fr , "Lesbianville"@de , "Northhampton, Massachusetts"@en , "Northhampton, Massachusetts"@fr , "Northhampton, Massachusetts"@de , "LOCODE:USNHM"@en , "LOCODE:USNHM"@fr , "LOCODE:USNHM"@de , "Northhampton, MA"@en , "Northhampton, MA"@fr , "Northhampton, MA"@de , "Northampton massachusetts"@en , "Northampton, ma"@en , "Northampton, ma"@fr , "Northampton, ma"@de , "Northampton, Massachusetts"@en , "Northampton massachusetts"@fr , "Northampton, Massachusetts"@fr , "Northampton massachusetts"@de , "Northampton, Massachusetts"@de , "North Hampton, Massachusetts"@en , "North Hampton, Massachusetts"@fr , "North Hampton, Massachusetts"@de , "Northampton"@en .
+
+<http://rdf.freebase.com/ns/m.0hnjt__1>
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Northampton,_Massachusetts> ;
+        dbo:to      "1995"^^xsd:gYear .

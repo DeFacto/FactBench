@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Königsberg>
+        rdfs:label     "Königsberg"@en , "Königsberg"@fr , "Königsberg"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Königsberg_(Preußen)> ;
+        skos:altLabel  "Konigsberg"@de , "Konigsberg in Preußen"@de , "Königsberg"@de , "Stadtkreis Königsberg"@de , "Konigsberg i. Pr."@de , "Stadtkreis Konigsberg"@de , "Konigsbarg"@de , "Königsberg i. Pr."@de , "Königsbarg"@de , "Königsberg in Preußen"@de .
+
+<http://dbpedia.org/resource/Justin_Timberlake__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Königsberg> ;
+        dbo:from        "1971"^^xsd:gYear ;
+        dbo:to          "1971"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Justin_Timberlake>
+        rdfs:label     "Justin Timberlake"@de , "Justin Timberlake"@fr , "Justin Timberlake"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Justin_Timberlake__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Justin_Timberlake> , <http://de.dbpedia.org/resource/Justin_Timberlake> ;
+        skos:altLabel  "Justin Timberland"@fr , "Timberlake, Justin"@en , "Timberlake, Justin"@de , "Timberlake, Justin"@fr , "List of songs recorded by Justin Timberlake"@en , "List of songs recorded by Justin Timberlake"@de , "List of songs recorded by Justin Timberlake"@fr , "Timberlake"@en , "Timberlake"@de , "Timberlake"@fr , "Justin Tiberlake"@en , "Justin Tiberlake"@de , "Justin Tiberlake"@fr , "Justin timberlake"@en , "Justin timberlake"@de , "Justin timberlake"@fr , "Justin Timberlake filmography"@en , "Justin Timberlake filmography"@de , "Justin Timberlake filmography"@fr , "Justin Timberlake"@en , "Justin Timberlake"@de , "Justin Timberlake"@fr , "J-tims"@en , "J-tims"@de , "J-tims"@fr , "Boutique in heaven"@en , "Boutique in heaven"@de , "Boutique in heaven"@fr , "Lynn Harless"@en , "Lynn Harless"@de , "Lynn Harless"@fr , "Justin Randall Timberlake"@en , "Justin Randall Timberlake"@de , "Justin Randall Timberlake"@fr , "Magic"@en , "Magic"@de , "Magic"@fr , "Just In Time"@en , "Just In Time"@fr , "Just In Time"@de , "Justin"@en , "Justin"@de , "Justin"@fr , "Justin R. Timberlake"@en , "Justin R. Timberlake"@de , "Justin R. Timberlake"@fr , "Jasuchin Chinbarekku"@en , "Jasuchin Chinbarekku"@de , "Jasuchin Chinbarekku"@fr , "J-Tims"@en , "Justin Timberland"@en , "Justin Timberland"@de , "J-Tims"@de , "J-Tims"@fr .

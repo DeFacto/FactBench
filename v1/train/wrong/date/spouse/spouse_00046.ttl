@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j25rwy>
+        rdfs:label     "Yashu Ma"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j25rwy__1> ;
+        skos:altLabel  "Ma Yashu"@en .
+
+<http://rdf.freebase.com/ns/m.0f77j8>
+        rdfs:label     "Nicky Wu"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Nicky_Wu> ;
+        skos:altLabel  "Wu Qilong"@en , "A Qi"@en , "Kei-lung Ng"@en , "Nicholas Wu"@en , "Qi-long Wu"@en , "Nicky Wu"@en , "Thunderbolt Tiger"@en , "Nicky Wu Chi-lung"@en , "Qilong Wu"@en , "Wú Qílóng"@en , "Chi-Lung Wu"@en , "Nicky Wu Qi-long"@en .
+
+<http://rdf.freebase.com/ns/m.0j25rwy__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0f77j8> ;
+        dbo:to      "2011"^^xsd:gYear .

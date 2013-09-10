@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Miles_Davis__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Cambridge> ;
+        dbo:from        "1991"^^xsd:gYear ;
+        dbo:to          "1991"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Cambridge>
+        rdfs:label     "Cambridge"@de , "Cambridge"@fr , "Cambridge"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cambridge> , <http://de.dbpedia.org/resource/Cambridge> ;
+        skos:altLabel  "Cambridge, UK"@de , "Cambridge, UK"@fr , "Cambridge, UK"@en , "LOCODE:GBCMG"@de , "LOCODE:GBCMG"@fr , "LOCODE:GBCMG"@en , "Aéroport de Cambridge"@fr , "Cambridge, England"@de , "Cambridge, England"@fr , "Cambridge, England"@en , "Cambridge, United Kingdom"@en , "Cambridge, United Kingdom"@de , "Cambridge, United Kingdom"@fr , "Park Street Church of England Primary School"@de , "Park Street Church of England Primary School"@fr , "Park Street Church of England Primary School"@en , "Aeroport de Cambridge"@fr , "England Cambridge"@de , "England Cambridge"@fr , "England Cambridge"@en , "Christ's Piece"@en , "Christ's Piece"@de , "Christ's Piece"@fr , "Cambridge, Cambridgeshire"@en , "Cambridge, Cambridgeshire"@de , "Cambridge, Cambridgeshire"@fr , "Christs Pieces"@de , "Christs Pieces"@fr , "Christs Pieces"@en , "Grantabridge"@en , "Grantabridge"@de , "Grantabridge"@fr , "Cambridge"@en , "Cambridge"@de , "Cambridge"@fr , "The weather in Cambridge"@en , "The weather in Cambridge"@de , "The weather in Cambridge"@fr , "Caergrawnt"@en , "Caergrawnt"@de , "Caergrawnt"@fr .
+
+<http://dbpedia.org/resource/Miles_Davis>
+        rdfs:label     "Miles Davis"@en , "Miles Davis"@fr , "Miles Davis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Miles_Davis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Miles_Davis> , <http://de.dbpedia.org/resource/Miles_Davis> ;
+        skos:altLabel  "Miles"@fr , "Miles"@de , "Miles Davis"@en , "Miles Davis"@fr , "Miles Davis"@de , "Miles David"@en , "Miles David"@fr , "Miles David"@de , "Generique"@en , "Generique"@fr , "Generique"@de , "Miles Dewey Davis"@en , "Miles Dewey Davis"@fr , "Miles Dewey Davis"@de , "Miles Davies"@en , "Miles Dewey Davis III"@en , "Miles Davies"@fr , "Miles Dewey Davis III"@fr , "Miles Davies"@de , "Miles Dewey Davis III"@de , "Miles"@en , "Miles davis"@en , "M. Davis"@en , "Générique"@en , "Miles davis"@fr , "Davis"@fr , "M. Davis"@fr , "M. Davis"@de , "Générique"@fr , "Miles davis"@de , "Générique"@de .

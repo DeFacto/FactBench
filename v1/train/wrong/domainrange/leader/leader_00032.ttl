@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bahamas>
+        rdfs:label  "Bahamas"@en , "Bahamas"@fr , "Bahamas"@de .
+
+<http://dbpedia.org/resource/Yoshirō_Mori>
+        rdfs:label     "Yoshirō Mori"@fr , "Yoshirō Mori"@de , "Yoshirō Mori"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Yoshirō_Mori__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Yoshirō_Mori> , <http://fr.dbpedia.org/resource/Yoshirō_Mori> ;
+        skos:altLabel  "Mori Yoshirō"@de , "Mori Yoshiro"@de , "Mori Yoshiro"@fr , "Yoshiro Mori"@fr , "Yoshiro Mori"@de , "Yoshirō Mori"@fr , "Yoshirō Mori"@de , "Mori"@fr , "Mori"@de .
+
+<http://dbpedia.org/resource/Yoshirō_Mori__1>
+        dbo:from    "1993"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Bahamas> ;
+        dbo:to      "2003"^^xsd:gYear .

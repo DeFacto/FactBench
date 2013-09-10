@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0x1y7>
+        rdfs:label     "Bozeman"@en , "Bozeman"@de , "Bozeman"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Bozeman,_Montana> , <http://fr.dbpedia.org/resource/Bozeman> , <http://de.dbpedia.org/resource/Bozeman> ;
+        skos:altLabel  "Bozeman, mt"@en , "Bozeman, mt"@de , "Bozeman, mt"@fr , "Bozeman"@fr , "Bozeman"@en , "Bozeman"@de , "Gallatin Field"@fr , "Gallatin"@fr , "Bozeman, MT"@en , "Bozeman, MT"@de , "Bozeman, MT"@fr , "LOCODE:USBZN"@fr , "LOCODE:USBZN"@en , "LOCODE:USBZN"@de , "Bozeman, Montana"@fr , "Bozeman, Montana"@en , "Bozeman, Montana"@de , "Gallatin County / Bozeman city"@en , "Aéroport régional de Gallatin"@fr , "KBZN"@fr , "Gallatin Gateway, Montana"@en , "Gallatin Gateway, Montana"@de , "Gallatin Gateway, Montana"@fr , "Bozeman, Mont."@en , "Bozeman, Mont."@de , "Bozeman, Mont."@fr , "Aeroport regional de Gallatin"@fr , "The Bozone"@en , "Bozeman montana"@en , "Bozeman montana"@de , "Bozeman montana"@fr , "Boseman, Mont."@fr , "Boseman, Mont."@en , "Boseman, Mont."@de , "Emily Dickinson Elementary School"@fr , "Emily Dickinson Elementary School"@en , "Emily Dickinson Elementary School"@de , "Bozman"@en , "Bozman"@de , "Bozman"@fr .
+
+<http://rdf.freebase.com/ns/m.08tdfn__38>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0x1y7> ;
+        dbo:from             "1997"^^xsd:gYear ;
+        dbo:to               "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08tdfn>
+        rdfs:label      "RightNow Technologies"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.08tdfn__38> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/RightNow_Technologies> ;
+        skos:altLabel   "RightNow Technologies"@en , "RNT"@en , "RightNow"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04414h>
+        rdfs:label     "Hannah Waterman"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Hannah_Waterman> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Hannah Groves"@en , "Hannah Waterman"@en , "Waterman"@en , "Hannah Waterman-Groves"@en .
+
+<http://rdf.freebase.com/ns/m.06mt91>
+        rdfs:label     "Rihanna"@de , "Rihanna"@fr , "Rihanna"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06mt91__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rihanna> , <http://dbpedia.org/resource/Rihanna> , <http://fr.dbpedia.org/resource/Rihanna> ;
+        skos:altLabel  "Robyn-Rihanna Fenty"@fr , "Found the Answer"@en , "Found the Answer"@fr , "Found the Answer"@de , "Rihanna"@en , "Rihanna"@de , "Rihanna"@fr , "Caribbean Queen"@en , "Emergency room"@en , "Emergency room"@de , "Emergency room"@fr , "Emergency Room"@en , "RihRih"@en , "Emergency Room"@de , "RihRih"@de , "RihRih"@fr , "Emergency Room"@fr , "Robyn Fenty"@en , "Robyn Fenty"@de , "Robyn Fenty"@fr , "Whipping My Hair"@en , "Rianna"@fr , "Whipping My Hair"@fr , "Whipping My Hair"@de , "Rihanna: World Tour 2013"@en , "Rihanna: World Tour 2013"@de , "Rihanna: World Tour 2013"@fr , "Rihanna Fenty"@en , "Riannah"@en , "Rihanna Fenty"@de , "Rihanna Fenty"@fr , "Robyn Rihanna"@en , "Robyn Rihanna"@de , "Robyn Rihanna"@fr , "Rihannah"@en , "Rihannah"@de , "Rihannah"@fr , "RiRi"@en , "RiRi"@de , "RiRi"@fr , "Robyn Rihanna Fenty"@en , "Robyn Rihanna Fenty"@fr , "Robyn Rihanna Fenty"@de , "Whippin' My Hair"@en , "Whippin' My Hair"@de , "Whippin' My Hair"@fr , "Rihanna."@fr , "Coffret 4 CD"@en , "Coffret 4 CD"@de , "Coffret 4 CD"@fr , "Rihanna Fourth Album"@en , "Rihanna Fourth Album"@de , "Rihanna Fourth Album"@fr , "The Barbados Babe"@en , "Riana"@en , "Rihanna fenty"@fr , "Riana"@de , "Riana"@fr , "Rihana"@en , "Ihanna"@en , "Ihanna"@de , "Ihanna"@fr , "Rihana"@de , "Rihana"@fr .
+
+<http://rdf.freebase.com/ns/m.06mt91__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.04414h> ;
+        dbo:to      "2010"^^xsd:gYear .

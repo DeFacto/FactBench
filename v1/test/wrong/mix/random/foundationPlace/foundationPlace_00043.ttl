@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Palm_Desert,_California>
+        rdfs:label     "Palm Desert, California"@en , "Palm Desert, California"@fr , "Palm Desert, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Palm_Desert> , <http://de.dbpedia.org/resource/Palm_Desert> ;
+        skos:altLabel  "Paseo"@en , "Paseo"@fr , "Paseo"@de , "Palm"@fr , "El Paseo Gardens"@en , "El Paseo Gardens"@fr , "El Paseo Gardens"@de , "El Paseo Gradens"@en , "Palm Desert, Ca"@en , "El Paseo"@en , "Palm Desert, California"@en , "Palm Desert"@en , "El Paseo"@fr , "Palm Desert, California"@fr , "Palm Desert, California"@de , "El Paseo"@de , "El Paseo Gradens"@fr , "Palm Desert, Ca"@fr , "Palm Desert"@fr , "Palm Desert"@de , "Palm Desert, Ca"@de , "El Paseo Gradens"@de , "Palm Desert, CA"@en , "Palm Desert, CA"@fr , "Palm Desert, CA"@de , "LOCODE:USPMD"@en , "LOCODE:USPMD"@fr , "LOCODE:USPMD"@de .
+
+<http://rdf.freebase.com/ns/m.0b1h6s__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Palm_Desert,_California> ;
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:to          "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0b1h6s>
+        rdfs:label  "TomorrowNow"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0b1h6s__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/TomorrowNow> .

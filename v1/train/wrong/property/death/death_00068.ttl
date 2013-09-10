@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Oak_Hill,_West_Virginia>
+        rdfs:label     "Oak Hill, West Virginia"@en , "Oak Hill, West Virginia"@fr , "Oak Hill, West Virginia"@de ;
+        skos:altLabel  "Oak Hill, WV"@en , "Oak Hill, West Virginia"@en , "Oak Hill"@en .
+
+<http://dbpedia.org/resource/Hank_Williams__1>
+        dbo:from  "1953"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Oak_Hill,_West_Virginia> ;
+        dbo:to    "1953"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hank_Williams>
+        rdfs:label     "Hank Williams"@en , "Hank Williams"@fr , "Hank Williams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hank_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hank_Williams> , <http://de.dbpedia.org/resource/Hank_Williams> ;
+        skos:altLabel  "Hiram King Williams"@en , "Hiram King Williams"@fr , "Hiram King Williams"@de , "Hank Williams and the Drifting Cowboys"@de , "Hank Williams Sr."@en , "Hank Williams Sr."@fr , "Hank Williams Sr."@de , "Hank Williams, sr."@en , "Hank Williams, sr."@fr , "Hank Williams, sr."@de , "Hank Williams, Sr."@en , "Hank Williams and his Drifting Cowboys"@de , "Hank Williams Sr"@en , "Williams, Hiram"@en , "Hank"@en , "Howlin' at the Moon"@en , "Hank Williams, Sr."@fr , "Hank Williams Sr"@fr , "Williams, Hiram"@fr , "Hank"@fr , "Howlin' at the Moon"@fr , "Williams, Hiram"@de , "Hank"@de , "Hank Williams Sr"@de , "Hank Williams, Sr."@de , "Howlin' at the Moon"@de , "Luke the Drifter"@en , "Luke the Drifter"@fr , "Luke the Drifter"@de , "Hank Williams"@en , "Hank Williams"@fr , "Hank Williams"@de .

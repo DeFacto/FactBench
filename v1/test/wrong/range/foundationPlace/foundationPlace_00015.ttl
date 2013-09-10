@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0l4wg>
+        rdfs:label     "MetaComCo"@en , "MetaComCo"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0l4wg__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/MetaComCo> , <http://dbpedia.org/resource/MetaComCo> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "MetaComCo"@de , "Metacomco"@de .
+
+<http://rdf.freebase.com/ns/m.0l4wg__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0gp66n> ;
+        dbo:from             "1981"^^xsd:gYear ;
+        dbo:to               "1981"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0gp66n>
+        rdfs:label     "Kawasaki"@en , "Kawasaki"@fr , "Kawasaki"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kawasaki_(Kanagawa)> , <http://dbpedia.org/resource/Kawasaki,_Kanagawa> , <http://de.dbpedia.org/resource/Kawasaki_(Kanagawa)> ;
+        skos:altLabel  "Kawasaki"@en , "Kawasaki"@fr , "Kawasaki"@de , "Kawasaki City"@en , "Kawasaki City"@fr , "Kawasaki City"@de , "Kawasaki, Kanagawa"@en , "Kawasaki, Kanagawa"@fr , "Kawasaki, Kanagawa"@de , "Kawasaki, Japan"@en , "Kawasaki, Japan"@de , "Kawasaki, Japan"@fr .

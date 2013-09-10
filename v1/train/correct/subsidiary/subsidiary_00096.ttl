@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.022f7q__96>
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.08wjpw> ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.022f7q>
+        rdfs:label       "BEA Systems"@fr , "BEA Systems"@de , "BEA Systems"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.022f7q__96> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/BEA_Systems> , <http://fr.dbpedia.org/resource/BEA_Systems> , <http://dbpedia.org/resource/BEA_Systems> ;
+        skos:altLabel    "AquaLogic"@de , "WebLogic"@de , "BEA Systems"@fr , "BEA Systems, Inc."@fr , "Liquid Data"@fr , "Bea Systems"@fr , "BEA Systems"@de , "Liquid Data"@de , "BEA Systems, Inc."@de , "Bea Systems"@de , "BEA Systems"@en , "Liquid Data"@en , "Bea Systems"@en , "BEA Systems, Inc."@en , "BEA"@en , "BEA WebLogic"@de , "Oracle WebLogic"@de , "BEAS"@fr , "BEAS"@de , "BEAS"@en , "ALSB"@fr , "ALSB"@de , "BEA Weblogic"@de , "ALSB"@en , "Bea Weblogic"@de , "BEA Systems Inc."@de .
+
+<http://dbpedia.org/resource/Plumtree_Software>
+        skos:altLabel  "Plumtree"@en , "Plumtree Software"@en .
+
+<http://rdf.freebase.com/ns/m.08wjpw>
+        rdfs:label     "Plumtree Software"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Plumtree_Software> ;
+        skos:altLabel  "Plumtree Software Inc"@en .

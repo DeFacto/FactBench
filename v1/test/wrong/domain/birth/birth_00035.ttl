@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Arthur_Conan_Doyle__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Las_Vegas> ;
+        dbo:from        "1970"^^xsd:gYear ;
+        dbo:to          "1970"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Arthur_Conan_Doyle>
+        rdfs:label     "Arthur Conan Doyle"@de , "Arthur Conan Doyle"@fr , "Arthur Conan Doyle"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Arthur_Conan_Doyle__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Arthur_Conan_Doyle> , <http://fr.dbpedia.org/resource/Arthur_Conan_Doyle> ;
+        skos:altLabel  "Arthur C. Doyle"@en , "Arthur C. Doyle"@de , "Arthur C. Doyle"@fr , "A Conan Doyle"@en , "A Conan Doyle"@de , "A Conan Doyle"@fr , "Arthur Conan Ignatius, Sir Doyle"@en , "Arthur Conan Ignatius, Sir Doyle"@fr , "Arthur Conan Ignatius, Sir Doyle"@de , "Sir Arthur Conan Doyle"@en , "Sir Arthur Conan Doyle"@de , "Sir Arthur Conan Doyle"@fr , "Doyle, Arthur Conan"@en , "Doyle, Arthur Conan"@de , "Doyle, Arthur Conan"@fr , "Arthur Conan Doyle"@en , "Arthur Conan Doyle"@de , "Arthur Conan Doyle"@fr , "The Narrative of John Smith"@en , "The Narrative of John Smith"@de , "The Narrative of John Smith"@fr , "Arthur Conan Ignatius Doyle"@en , "Arthur Conan Ignatius Doyle"@de , "Arthur Conan Ignatius Doyle"@fr , "Sir Arthur Doyle"@en , "Sir Arthur Doyle"@de , "Sir Arthur Doyle"@fr , "Arthur Conan-Doyle"@en , "Arthur Conan-Doyle"@de , "Arthur Conan-Doyle"@fr , "Arthur"@en , "Arthur"@de , "Arthur"@fr , "Sir Conan Doyle"@en , "Sir Conan Doyle"@de , "Sir Conan Doyle"@fr , "Conan Doyle"@en , "Doyle"@en , "Doyle"@de , "Doyle"@fr , "Conan Doyle"@de , "Conan Doyle"@fr , "A. Conan Doyle"@en , "Sir Arthur Ignatius Conan Doyle"@en , "Sir Arthur Ignatius Conan Doyle"@de , "Sir Arthur Ignatius Conan Doyle"@fr , "A. Conan Doyle"@de , "A. Conan Doyle"@fr , "Arthur Conan Doyle's"@en , "Doyle, Sir Arthur Conan"@en , "Conan"@fr , "Doyle, Sir Arthur Conan"@de , "Doyle, Sir Arthur Conan"@fr , "Arthur Conan Doyle's"@de , "Arthur Conan Doyle's"@fr .
+
+<http://dbpedia.org/resource/Las_Vegas>
+        rdfs:label     "Las Vegas"@en , "Las Vegas"@fr , "Las Vegas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Las_Vegas> , <http://fr.dbpedia.org/resource/Las_Vegas> ;
+        skos:altLabel  "Las Vegas City Council"@en , "Las Vegas City Council"@fr , "Las Vegas, Nevada"@en , "The City of Las Vegas"@en , "Vegas"@en , "Las Vegas, Nevada"@fr , "Las Vegas"@en , "The City of Las Vegas"@fr , "Las Vegas"@fr , "Las Vegas"@de , "Vegas"@fr , "Vegas"@de , "Las vegas, nv"@en , "Las vegas, nv"@fr , "Los Vegas"@en , "Los Vegas"@fr , "Las vagas"@en , "Las vagas"@fr , "Las vegas"@en , "Las vegas"@fr , "LOCODE:USLAS"@en , "LasVegas"@en , "LOCODE:USLAS"@fr , "LasVegas"@fr , "Las Vegas NV"@en , "Las Vegas NV"@fr , "Citizens Area Transit"@de , "Wedding chapel"@de .

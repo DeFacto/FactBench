@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01wv9p>
+        rdfs:label     "Marc Anthony"@en , "Marc Anthony"@fr , "Marc Anthony"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01wv9p__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Marc_Anthony> , <http://fr.dbpedia.org/resource/Marc_Anthony> , <http://de.dbpedia.org/resource/Marc_Anthony> ;
+        skos:altLabel  "Skinny"@en , "Anthony"@fr , "Marco Antonio Muñiz"@en , "Marc Anthony"@en , "Marc Anthony"@fr , "Marc Anthony"@de , "Marco Antonio Muniz"@de , "Marc Antony"@en , "Marco Antonio Muñiz Ruiz"@en .
+
+<http://rdf.freebase.com/ns/m.03q45x>
+        rdfs:label     "Amy Poehler"@en , "Amy Poehler"@fr , "Amy Poehler"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Amy_Poehler> , <http://de.dbpedia.org/resource/Amy_Poehler> , <http://fr.dbpedia.org/resource/Amy_Poehler> ;
+        skos:altLabel  "Amber"@en , "Amber"@fr , "Amber"@de , "Amy poeler"@en , "Cool Cat Amy"@en , "Archie Arnett"@en , "Archie Arnett"@fr , "Archie Arnett"@de , "Amy poeler"@fr , "Amy poeler"@de , "Poehlercoaster"@en , "Crazy Amy"@en , "Amy Pohler"@en , "Amy Pohler"@fr , "Amy Pohler"@de , "Upright Citizens Brigade"@en , "The Upright Citizens Brigade Theatre"@en , "Amber the farting amputee"@en , "Amber the farting amputee"@fr , "Amber the farting amputee"@de , "Amy Poehler"@en , "Amy Meredith Poehler"@en , "Amber, the One-Legged Hypoglycemic"@en , "Amy Poehler"@fr , "Amber, the One-Legged Hypoglycemic"@fr , "Amy Poehler"@de , "Amber, the One-Legged Hypoglycemic"@de , "Poehler"@de .
+
+<http://rdf.freebase.com/ns/m.01wv9p__1>
+        dbo:from    "2011"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03q45x> ;
+        dbo:to      "2012"^^xsd:gYear .

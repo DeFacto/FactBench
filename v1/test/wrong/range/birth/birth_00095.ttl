@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Fort_Lauderdale,_Florida>
+        rdfs:label     "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fort_Lauderdale> , <http://de.dbpedia.org/resource/Fort_Lauderdale> ;
+        skos:altLabel  "Venedig Amerikas"@de , "Ft. Lauderdale, Fla."@en , "Ft. Lauderdale, Fla."@de , "Ft. Lauderdale, Fla."@fr , "Fort Laderdale, Florida"@en , "Fort Laderdale, Florida"@fr , "Fort Laderdale, Florida"@de , "Ft. Lauderdale"@en , "Ft. Lauderdale"@de , "Ft. Lauderdale"@fr , "Ft. Lauderdale, FL"@en , "Ft. Lauderdale, FL"@de , "Ft. Lauderdale, FL"@fr , "Ft. Lauderdale, Fl."@en , "Downtown Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Fl."@de , "Ft. Lauderdale, Fl."@fr , "Downtown Fort Lauderdale, Florida"@de , "Downtown Fort Lauderdale, Florida"@fr , "Ft Lauderdale, Florida"@en , "Ft Lauderdale, Florida"@de , "Ft Lauderdale, Florida"@fr , "Fort Lauderdale, FL"@en , "Fort Lauderdale, FL"@de , "Fort Lauderdale, FL"@fr , "Ft Lauderdale"@en , "Ft Lauderdale"@de , "Ft Lauderdale"@fr , "Ft lauderdale, fl"@en , "Ft lauderdale, fl"@fr , "Ft lauderdale, fl"@de , "Ft. Lauderdale, Florida"@en , "Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Ft. Lauderdale, Florida"@de , "Ft. lauderdale, fl"@en , "Ft. lauderdale, fl"@fr , "Ft. lauderdale, fl"@de , "L-City"@en , "L-City"@de , "L-City"@fr , "Fort lauderdale, fl"@en , "Fort lauderdale, fl"@de , "Fort lauderdale, fl"@fr , "Fort loderdale"@fr , "Lauderdale"@en , "Lauderdale"@de , "Lauderdale"@fr , "Das Venedig Amerikas"@de , "Fort Lauderdale"@en , "Fort Lauderdale"@de , "Fort Lauderdale"@fr , "Ft.Lauderdale"@en , "Ft.Lauderdale"@de , "Ft.Lauderdale"@fr , "Ft Lauderdale, FL"@en , "Ft Lauderdale, FL"@de , "Ft Lauderdale, FL"@fr .
+
+<http://dbpedia.org/resource/Walter_Scott>
+        rdfs:label     "Walter Scott"@fr , "Walter Scott"@en , "Walter Scott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walter_Scott__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walter_Scott> , <http://fr.dbpedia.org/resource/Walter_Scott> ;
+        skos:altLabel  "Sir Walter Scotts's"@de , "Sir Walter Scotts's"@fr , "Sir Walter Scotts's"@en , "Scott, Sir Walter"@en , "Walter, 1st Baronet Scott"@de , "Walter, 1st Baronet Scott"@fr , "Scott, Sir Walter"@de , "Scott, Sir Walter"@fr , "Sir Walter Scott, 1st Baronet"@de , "Sir Walter Scott, 1st Baronet"@fr , "Sir Walter Scott, 1st Baronet"@en , "Walter, 1st Baronet Scott"@en , "Border Minstrel"@de , "Border Minstrel"@fr , "Border Minstrel"@en , "Scott"@fr , "Wizard of the North"@fr , "Wizard of the North"@en , "Wizard of the North"@de , "Sir Walter Scott"@de , "Sir Walter Scott"@fr , "Sir Walter Scott"@en , "Walter Scott, 1st Baronet"@de , "Walter Scott, 1st Baronet"@fr , "Walter Scott, 1st Baronet"@en , "Scott, Walter"@de , "Scott, Walter"@fr , "Scott, Walter"@en , "Sir W. Scott"@en , "Sir W. Scott"@de , "Sir W. Scott"@fr , "Walter Scott"@en , "Walter Scott"@de , "Walter Scott"@fr , "Great Magician"@de , "Great Magician"@fr , "Great Magician"@en .
+
+<http://dbpedia.org/resource/Walter_Scott__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Fort_Lauderdale,_Florida> ;
+        dbo:from        "1771"^^xsd:gYear ;
+        dbo:to          "1771"^^xsd:gYear .

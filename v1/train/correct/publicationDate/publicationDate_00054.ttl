@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ccd6p>
+        rdfs:label     "Return from the Stars"@en , "Transfer"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Transfer_(Stanisław_Lem)> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Return_from_the_Stars> ;
+        skos:altLabel  "Transfer"@de , "Powrót z gwiazd"@de , "Powrót z gwiazd"@en , "Ruckkehr von den Sternen"@de , "Betrization"@de , "Betrization"@en , "Powrot z gwiazd"@de , "Rückkehr von den Sternen"@de , "Powrot z gwiazd"@en , "Return from the stars"@de , "Return from the Stars"@de , "Return from the Stars"@en , "Return from the stars"@en .
+
+<http://dbpedia.org/resource/Stanis%C5%82aw_Lem>
+        skos:altLabel  "Stanisław Lem"@en .
+
+<http://rdf.freebase.com/ns/m.06nb9>
+        rdfs:label       "Stanisław Lem"@de , "Stanisław Lem"@en , "Stanislas Lem"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0ccd6p__54> ;
+        owl:sameAs       <http://dbpedia.org/resource/Stanis%C5%82aw_Lem> ;
+        skos:altLabel    "Lem, Stanisław"@en , "Stanislaw Lem"@en .
+
+<http://rdf.freebase.com/ns/m.0ccd6p__54>
+        dbo:author  <http://rdf.freebase.com/ns/m.0ccd6p> ;
+        dbo:from    "1961"^^xsd:gYear ;
+        dbo:to      "1961"^^xsd:gYear .

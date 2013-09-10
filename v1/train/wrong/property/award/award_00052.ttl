@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.094kb>
+        rdfs:label     "Svante August Arrhenius"@fr , "Svante Arrhenius"@en , "Svante Arrhenius"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.094kb__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Svante_Arrhenius> , <http://dbpedia.org/resource/Svante_Arrhenius> , <http://fr.dbpedia.org/resource/Svante_August_Arrhenius> ;
+        skos:altLabel  "Svante"@de , "Svante a. arrhenius"@en , "Svante a. arrhenius"@fr , "Svante a. arrhenius"@de , "Svante August Arrhenius"@en , "Svante August Arrhenius"@fr , "Svante August Arrhenius"@de , "Arhennius"@en , "Arhennius"@fr , "Arhennius"@de , "Arrhenius"@en , "Arrhenius"@fr , "Arrhenius"@de , "Svante Arrhenius"@en , "Svante Arrhenius"@fr , "Svante Arrhenius"@de , "Arrhénius"@fr , "August Svante Arrhenius"@fr , "Arrhenious"@en , "Arrhenious"@fr , "Arrhenious"@de , "Svante arhenius"@en , "Svante arhenius"@fr , "Svante arhenius"@de .
+
+<http://rdf.freebase.com/ns/m.05fmy>
+        rdfs:label     "Prix Nobel de chimie"@fr , "Nobel Prize in Chemistry"@en , "Nobelpreis für Chemie"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Prix_Nobel_de_chimie> , <http://dbpedia.org/resource/Nobel_Prize_in_Chemistry> , <http://de.dbpedia.org/resource/Nobelpreis_für_Chemie> ;
+        skos:altLabel  "Nobelpriset i kemi"@en , "Nobelpriset i kemi"@de , "Nobelpriset i kemi"@fr , "Nobel Prize for chemistry"@en , "Nobel Prize for chemistry"@de , "Nobel Prize for chemistry"@fr , "Nobel prize of Chemistry"@de , "Nobel prize of Chemistry"@fr , "Nobel prize of Chemistry"@en , "Chemienobelpreis"@de , "Prix Nobel de chimie"@fr , "Chemie-Nobelpreis"@de , "Nobelpreis für Chemie"@de , "Nobelpreis fur Chemie"@de , "Nobel prize chemistry"@en , "Nobel prize chemistry"@de , "Nobel prize chemistry"@fr , "Nobel Prize in chemistry"@de , "Nobel Prize in chemistry"@fr , "Nobel Prize in chemistry"@en , "Nobel prize in Chemistry"@en , "Nobel prize in Chemistry"@fr , "Nobel prize in Chemistry"@de , "ChemistrY"@en , "Nobel Prize for Chemistry"@en , "Nobel Prize for Chemistry"@de , "Nobel Prize for Chemistry"@fr , "Chemistry"@de , "Chemistry"@fr , "Chemistry"@en , "Nobel prize for chemistry"@de , "Nobel prize for chemistry"@fr , "ChemistrY"@de , "ChemistrY"@fr , "Prix nobel de chimie"@fr , "Nobel prize for chemistry"@en , "Prix Nobel de Chimie"@fr , "Nobel Prize in Chemistry"@de , "Nobel Prize in Chemistry"@fr , "Nobel Prize in Chemistry"@en , "Nobel prize in chemistry"@de , "Nobel prize in chemistry"@fr , "Nobel prize in chemistry"@en .
+
+<http://rdf.freebase.com/ns/m.094kb__1>
+        dbo:from  "1903"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.05fmy> ;
+        dbo:to    "1903"^^xsd:gYear .

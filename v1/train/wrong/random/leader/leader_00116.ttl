@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dries_van_Agt__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01vw20_> ;
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:to      "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dries_van_Agt>
+        rdfs:label     "Dries van Agt"@en , "Dries van Agt"@fr , "Dries van Agt"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dries_van_Agt__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dries_van_Agt> , <http://fr.dbpedia.org/resource/Dries_van_Agt> ;
+        skos:altLabel  "Van Agt"@en , "Van Agt"@fr , "Van Agt"@de , "Van Agt, Andreas Antonius Maria"@en , "Van Agt, Andreas Antonius Maria"@fr , "Van Agt, Andreas Antonius Maria"@de , "Dries"@fr , "Andreas Antonius Maria \"Dries\" van Agt"@en , "Andreas Antonius Maria \"Dries\" van Agt"@fr , "Andreas Antonius Maria \"Dries\" van Agt"@de , "Dries van Agt"@en , "Andreas van Agt"@en , "Andreas Antonius Maria van Agt"@en , "Dries van Agt"@fr , "Andreas van Agt"@fr , "Andreas van Agt"@de , "Dries van Agt"@de , "Andreas Antonius Maria van Agt"@fr , "Andreas Antonius Maria van Agt"@de , "Dries van agt"@en , "Dries van agt"@fr , "Dries van agt"@de , "Dries Van Agt"@en , "Dries Van Agt"@fr , "Dries Van Agt"@de .
+
+<http://rdf.freebase.com/ns/m.01vw20_>
+        rdfs:label     "Kid Rock"@en , "Kid Rock"@fr , "Kid Rock"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Kid_Rock> , <http://fr.dbpedia.org/resource/Kid_Rock> , <http://de.dbpedia.org/resource/Kid_Rock> ;
+        skos:altLabel  "Robert James \"Bob\" Ritchie"@en , "Kid Rock"@en , "Bob Ritchie"@en , "Kid Rock"@fr , "Kid Rock"@de , "Robert Ritchie"@en , "Stefanie Eulinberg"@en , "Robert Ritchie"@fr , "Stefanie Eulinberg"@fr , "Stefanie Eulinberg"@de , "Robert Ritchie"@de , "Twisted Brown Trucker"@en , "Ritchie"@en , "Twisted Brown Trucker"@fr , "Ritchie"@fr , "Twisted Brown Trucker"@de , "Ritchie"@de , "Rap Monkey"@en , "Rap Monkey"@fr , "Rap Monkey"@de , "Stephanie Eulinberg"@en , "Stephanie Eulinberg"@fr , "Stephanie Eulinberg"@de , "Bobby"@en , "Rock"@fr , "Bob"@en , "Kid rock"@en , "Kid rock"@fr , "Kid rock"@de , "Robert James Ritchie"@en , "Robert James Ritchie"@fr , "Robert James Ritchie"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chandler,_Arizona>
+        rdfs:label     "Chandler, Arizona"@en , "Chandler, Arizona"@fr , "Chandler, Arizona"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Chandler_(Arizona)> , <http://de.dbpedia.org/resource/Chandler_(Arizona)> ;
+        skos:altLabel  "Chandler, Arizona"@en , "Chandler, Arizona"@fr , "Aeroport municipal de Chandler"@fr , "Chandler, Arizona"@de , "Aéroport municipal de Chandler"@fr , "Chandler Municipal Airport"@fr , "LOCODE:USCHD"@en , "Chandler, AZ"@en , "Chandler az"@en , "LOCODE:USCHD"@fr , "Chandler az"@fr , "LOCODE:USCHD"@de , "Chandler az"@de , "Chandler, AZ"@fr , "Chandler, AZ"@de , "Chandler Public Library"@en , "Chandler Public Library"@fr , "Chandler Public Library"@de , "Chandler"@en , "Chandler"@fr , "Chandler"@de .
+
+<http://dbpedia.org/resource/Lou_Reed__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Chandler,_Arizona> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Lou_Reed>
+        rdfs:label     "Lou Reed"@fr , "Lou Reed"@de , "Lou Reed"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Lou_Reed__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lou_Reed> , <http://fr.dbpedia.org/resource/Lou_Reed> ;
+        skos:altLabel  "Reed"@fr , "Lou Reed"@en , "Lou Reed"@fr , "Lou Reed"@de .

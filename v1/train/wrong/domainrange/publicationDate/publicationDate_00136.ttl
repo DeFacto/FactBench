@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0klw>
+        rdfs:label     "Arthur C. Clarke"@de , "Arthur C. Clarke"@fr , "Arthur C. Clarke"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0klw__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Arthur_C._Clarke> , <http://fr.dbpedia.org/resource/Arthur_C._Clarke> , <http://de.dbpedia.org/resource/Arthur_C._Clarke> ;
+        skos:altLabel  "Arthur C Clarke"@en , "Arthur C Clarke"@de , "Arthur C Clarke"@fr , "Clarke, Arthur C."@en , "Clarke, Arthur C."@de , "Clarke, Arthur C."@fr , "Sir Arthur Charles Clarke"@en , "E. G. O'Brien"@en , "E. G. O'Brien"@de , "E. G. O'Brien"@fr , "Arthur"@en , "Arthur"@de , "Arthur"@fr , "Arthur Clarke"@en , "Arthur Clarke"@de , "Arthur Clarke"@fr , "Charles Wills"@en , "Sir Arthur C Clarke"@en , "Sir Arthur C Clarke"@de , "Sir Arthur C Clarke"@fr , "Arthur Clark"@en , "A C Clarke"@en , "Clarke"@en , "A C Clarke"@de , "A C Clarke"@fr , "Clarke"@de , "Ac clarke"@de , "Ac clarke"@fr , "Ac clarke"@en , "Clarke"@fr , "A. C. Clarke"@en , "A. C. Clarke"@de , "A. C. Clarke"@fr , "Sir Arthur C. Clarke"@en , "Sir Arthur C. Clarke"@de , "Sir Arthur C. Clarke"@fr , "Arthur Charles Clarke"@en , "Arthur Charles Clarke"@de , "Arthur Charles Clarke"@fr , "Arthur C Clark"@en , "Arthur C Clark"@de , "Arthur C Clark"@fr , "Arthur C. Clarke"@en , "Arthur C. Clarke"@de , "Arthur C. Clarke"@fr , "A.C. Clarke"@en , "A.C. Clarke"@de , "A.C. Clarke"@fr , "Arthur C. Clark"@en , "Arthur C. Clark"@de , "Arthur C. Clark"@fr , "Charles Willis"@en , "Charles A Wills"@en .
+
+<http://rdf.freebase.com/ns/m.04w7d1s>
+        rdfs:label  "Norby and the Court Jester"@en .
+
+<http://rdf.freebase.com/ns/m.0klw__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04w7d1s> ;
+        dbo:from    "1974"^^xsd:gYear ;
+        dbo:to      "1974"^^xsd:gYear .

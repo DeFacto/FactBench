@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027tm0>
+        rdfs:label     "Johannes Stark"@fr , "Johannes Stark"@de , "Johannes Stark"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027tm0__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Johannes_Stark> , <http://de.dbpedia.org/resource/Johannes_Stark> , <http://fr.dbpedia.org/resource/Johannes_Stark> ;
+        skos:altLabel  "Johannes Stark"@en , "Johannes Stark"@fr , "Johannes Stark"@de , "Stark"@fr .
+
+<http://rdf.freebase.com/ns/m.03g3prq>
+        rdfs:label  "G-Log"@en .
+
+<http://rdf.freebase.com/ns/m.027tm0__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03g3prq> ;
+        dbo:to      "2005"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Belarus>
+        rdfs:label     "Belarus"@de , "Belarus"@fr , "Belarus"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Weißrussland> , <http://fr.dbpedia.org/resource/Biélorussie> ;
+        skos:altLabel  "Belorussland"@de , "Weissruthenien"@de , "Byelarus"@en , "Belarus'"@en , "Beloruss"@en , "Last European dictatorship"@en , "Byelarus"@fr , "Belarus'"@fr , "Beloruss"@fr , "Belarus'"@de , "Byelarus"@de , "Beloruss"@de , "Last European dictatorship"@fr , "Last European dictatorship"@de , "Belarussi"@en , "Belarussi"@fr , "Belarussi"@de , "République du Belarus"@fr , "Name of Belarus"@en , "Name of Belarus"@fr , "Name of Belarus"@de , "Etymology of Belarus"@en , "Republic of Belarus"@en , "Etymology of Belarus"@fr , "Etymology of Belarus"@de , "Russe"@fr , "Biełarus"@en , "Bielorussia"@en , "Weißruthenien"@de , "Bellarus"@en , "Belarus"@en , "Belarus"@fr , "Belarus"@de , "Biełarus"@fr , "Biełarus"@de , "Bellarus"@fr , "Bellarus"@de , "Republic of Belarus"@fr , "Bielorussia"@fr , "Bielorussia"@de , "Republic of Belarus"@de , "République de Bélarus"@fr , "Byelarossia"@en , "Byelarossia"@fr , "Byelarossia"@de , "Belorussia"@en , "Belorussia"@fr , "Belorussia"@de , "Belorus"@en , "Belorus"@fr , "Belorus"@de , "Bélarus"@fr , "Belaruss"@en , "Vitryssland"@en , "Belaruss"@fr , "Biélo-Russie"@fr , "Vitryssland"@fr , "Republik Weißrussland"@de , "Vitryssland"@de , "Republique de Belarus"@fr , "Belaruss"@de , "Republik Belarus"@de , "Republique du Belarus"@fr , "Weißrußland"@de , "Belarus’"@en , "Belarus’"@fr , "République de Biélorussie"@fr , "Belarus’"@de , "Republic of Beloruss"@en , "Republic of Beloruss"@fr , "Republic of Beloruss"@de , "Respublika Belarus"@en , "Respublika Belarus"@fr , "Respublika Belarus"@de , "Republique de Bielorussie"@fr , "Bielo-Russie"@fr , "Biełaruś"@en , "Byelorussia"@en , "Biełaruś"@fr , "Byelorussia"@fr , "Biełaruś"@de , "Byelorussia"@de , "Weissrussland"@en , "Weissrussland"@fr , "Belorußland"@de , "Weissrussland"@de , "ISO 3166-1:BY"@en , "ISO 3166-1:BY"@fr , "ISO 3166-1:BY"@de , "Russia"@en , "Belarussia"@en , "Republic of Belorus"@en , "Republic of Belorus"@fr , "Republic of Belorus"@de , "Belorusi"@en , "Russia"@fr , "Belarussia"@fr , "Belorusi"@fr , "Belorusi"@de , "Russia"@de , "Biélorussie"@fr , "Belarussia"@de , "Buelorussia"@en , "Belorusia"@en , "Buelorussia"@fr , "Belorusland"@de , "Buelorussia"@de , "Belorusia"@fr , "Belorusia"@de , "Bielorussie"@fr , "Bielo-russie"@fr , "République du Bélarus"@fr , "Weißrussland"@de .
+
+<http://dbpedia.org/resource/P._W._Botha__1>
+        dbo:from    "1978"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Belarus> ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://dbpedia.org/resource/P._W._Botha>
+        rdfs:label     "P. W. Botha"@de , "P. W. Botha"@fr , "P. W. Botha"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/P._W._Botha__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pieter_Willem_Botha> , <http://de.dbpedia.org/resource/Pieter_Willem_Botha> ;
+        skos:altLabel  "Willem"@en , "Willem"@de , "Willem"@fr , "P Botha"@en , "P Botha"@de , "P Botha"@fr , "P.W. Bortha"@de , "P.W. Bortha"@fr , "P.W. Bortha"@en , "Botha"@en , "Botha"@de , "Botha"@fr , "Pieter Willem Bortha"@en , "Pieter Willem Bortha"@de , "Pieter Willem Bortha"@fr , "Pw botha"@en , "Pw botha"@de , "Pw botha"@fr , "PW Bortha"@de , "PW Bortha"@fr , "PW Bortha"@en , "P w botha"@en , "P w botha"@de , "P w botha"@fr , "Pieter"@en , "P. W. Botha"@en , "Pieter"@de , "Pieter"@fr , "P. W. Botha"@de , "P. W. Botha"@fr , "P.W. Botha"@en , "P.W. Botha"@de , "P.W. Botha"@fr , "Pieter W. Botha"@de , "P W Botha"@en , "P.W Bortha"@de , "P.W Bortha"@fr , "P W Botha"@de , "P W Botha"@fr , "P.W Bortha"@en , "Pieter Botha"@en , "Pieter Botha"@de , "Pieter Botha"@fr , "PW Botha"@en , "PW Botha"@de , "PW Botha"@fr , "Pieter Willem Botha"@en , "Pieter Willem Botha"@de , "Pieter Willem Botha"@fr .

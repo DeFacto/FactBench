@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fpzt5>
+        rdfs:label     "Orson Scott Card"@fr , "Orson Scott Card"@de , "Orson Scott Card"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fpzt5__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Orson_Scott_Card> , <http://dbpedia.org/resource/Orson_Scott_Card> , <http://fr.dbpedia.org/resource/Orson_Scott_Card> ;
+        skos:altLabel  "Brother Orson"@en , "Ender Wiggin"@de , "Orson Scott Card"@en , "Orson Scott Card"@fr , "Orson Scott Card"@de , "Card"@en , "Pseudonyms used by Orson Scott Card"@en , "Byron Walley"@en , "Pseudonyms used by Orson Scott Card"@fr , "Byron Walley"@fr , "Byron Walley"@de , "Pseudonyms used by Orson Scott Card"@de , "Orson"@en , "Orson"@fr , "Orson"@de , "Card, Orson Scott"@en , "Orson Card"@en , "Card, Orson Scott"@fr , "Orson Card"@fr , "Card, Orson Scott"@de , "Orson Card"@de , "Card"@fr , "Card"@de , "Brian Green"@en , "Noam D. Pellume"@en , "Orson scott card"@en , "Brian Green"@fr , "Orson scott card"@fr , "Brian Green"@de , "Orson scott card"@de .
+
+<http://rdf.freebase.com/ns/m.01c_bp>
+        rdfs:label     "Macrolife"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Macrolife> ;
+        skos:altLabel  "Macrolife: A Mobile Utopia"@en .
+
+<http://rdf.freebase.com/ns/m.0fpzt5__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01c_bp> ;
+        dbo:from    "1979"^^xsd:gYear ;
+        dbo:to      "1979"^^xsd:gYear .

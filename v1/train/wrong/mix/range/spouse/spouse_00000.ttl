@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0dvld>
+        rdfs:label     "Kate Winslet"@en , "Kate Winslet"@fr , "Kate Winslet"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0dvld__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kate_Winslet> , <http://de.dbpedia.org/resource/Kate_Winslet> , <http://fr.dbpedia.org/resource/Kate_Winslet> ;
+        skos:altLabel  "Corset Kate"@en , "Roger Winslet"@fr , "Kate Winslet"@fr , "Corset Kate"@fr , "Kate Winslet"@de , "Roger Winslet"@de , "Kate Elizabeth Winslet"@en , "Winslet"@en , "Kate Elizabeth Winslet"@fr , "Winslet"@fr , "Winslet"@de , "Kate winslet"@en , "Kate winslet"@fr , "Kate winslet"@de , "Kate"@fr , "Kate Elizabeth Winslet, CBE"@en , "Kate Elizabeth Winslet, CBE"@fr , "English Rose"@en , "English Rose"@fr , "List of Kate Winslet awards and nominations"@en , "List of Kate Winslet awards and nominations"@fr , "List of Kate Winslet awards and nominations"@de , "Kate Winslett"@en , "Kate Winslett"@fr , "Kate Winslett"@de , "Roger Winslet"@en , "Kate Winslet"@en .
+
+<http://rdf.freebase.com/ns/m.0dvld__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.08dh3d> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08dh3d>
+        rdfs:label     "Persia White"@en , "Persia White"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Persia_White> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Persia_White> ;
+        skos:altLabel  "Mecca"@de , "Persia White"@de , "Persia Jessica White"@de .

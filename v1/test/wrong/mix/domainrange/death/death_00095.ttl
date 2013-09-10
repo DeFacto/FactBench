@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Thelonious_Monk__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Dayton,_Tennessee> ;
+        dbo:from        "1961"^^xsd:gYear ;
+        dbo:to          "1961"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dayton,_Tennessee>
+        rdfs:label     "Dayton, Tennessee"@en , "Dayton, Tennessee"@fr , "Dayton, Tennessee"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dayton_(Tennessee)> , <http://de.dbpedia.org/resource/Dayton_(Tennessee)> ;
+        skos:altLabel  "Dayton, TN"@en , "LOCODE:USDAT"@en , "Dayton, TN"@fr , "LOCODE:USDAT"@fr , "Dayton, TN"@de , "LOCODE:USDAT"@de , "Dayton"@en , "Dayton"@fr , "Dayton"@de , "Dayton, Tennessee"@en , "Dayton, Tennessee"@de , "Dayton, Tennessee"@fr , "Crystal Springs Community"@en , "Crystal Springs Community"@fr , "Crystal Springs Community"@de .
+
+<http://dbpedia.org/resource/Thelonious_Monk>
+        rdfs:label     "Thelonious Monk"@en , "Thelonious Monk"@fr , "Thelonious Monk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Thelonious_Monk__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Thelonious_Monk> , <http://de.dbpedia.org/resource/Thelonious_Monk> ;
+        skos:altLabel  "Thelonious Sphere Monk"@en , "Thelonious Sphere Monk"@fr , "Thelonious Sphere Monk"@de , "Thelonious Monk Quartet"@en , "Thelonious Monk Quartet"@fr , "Thelonious Monk Quartet"@de , "Thelonious monk"@en , "Thelonious monk"@fr , "Thelonious monk"@de , "Theloneous Monk"@en , "Thelonious Monk"@en , "Theloneous Monk"@fr , "Thelonious Monk"@fr , "Theloneous Monk"@de , "Thelonious Monk"@de , "Thelonious"@en , "Thelonious"@fr , "Thelonious"@de , "Thelonius Monk"@en , "The Thelonious Monk Quartet"@en , "Thelonius Monk"@fr , "Thelonius Monk"@de , "The Thelonious Monk Quartet"@fr , "The Thelonious Monk Quartet"@de , "Sphere"@de , "Monk"@en , "Monk"@fr , "Monk"@de , "Thélonious Monk"@fr , "Thelonius"@en , "Thelonius"@fr , "Thelonius"@de , "Thélonius Monk"@fr .

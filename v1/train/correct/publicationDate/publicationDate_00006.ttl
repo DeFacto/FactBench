@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05g5q__6>
+        dbo:author  <http://rdf.freebase.com/ns/m.05g5q> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05g5q>
+        rdfs:label     "Neuromancer"@en , "Neuromancer"@de , "Neuromancien"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Neuromancer> , <http://dbpedia.org/resource/Neuromancer> , <http://fr.dbpedia.org/resource/Neuromancien> ;
+        skos:altLabel  "Neuromancer-Trilogie"@de , "Hosaka"@fr , "Hosaka"@en , "Hosaka"@de , "Willis Corto"@fr , "Panther Moderns"@fr , "Panther Moderns"@en , "Panther Moderns"@de , "Willis Corto"@en , "Willis Corto"@de , "Screaming Fist"@en , "Screaming Fist"@de , "Screaming Fist"@fr , "Purple Octogon"@fr , "Purple Octogon"@en , "Purple Octogon"@de , "Henry Dorsett Case"@fr , "Panther moderns"@fr , "Henry Dorsett Case"@en , "Henry Dorsett Case"@de , "Turing Police"@en , "Turing Police"@de , "Count Zero"@de , "Panther moderns"@en , "Panther moderns"@de , "Turing Police"@fr , "Biochips"@de , "Sprawl"@de , "Neuromancien"@fr , "Panther modern"@fr , "Panther modern"@en , "Panther modern"@de , "Case"@fr , "Case"@en , "Case"@de , "Neuromancer"@de , "Neuromancer"@fr , "Neuromancer"@en , "Wintermute"@fr , "Jive"@fr , "Wintermute"@en , "Wintermute"@de , "Jive"@en , "Jive"@de , "Mona Lisa Overdrive"@de .
+
+<http://rdf.freebase.com/ns/m.0821j>
+        rdfs:label       "William Gibson"@fr , "William Gibson"@en , "William Gibson"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.05g5q__6> ;
+        owl:sameAs       <http://dbpedia.org/resource/William_Gibson> , <http://de.dbpedia.org/resource/William_Gibson> , <http://fr.dbpedia.org/resource/William_Gibson> ;
+        skos:altLabel    "William Gibson"@en , "William Gibson"@de , "Arizona School for Boys"@fr , "Arizona School for Boys"@en , "Arizona School for Boys"@de , "Gibson"@fr , "William gibson"@en , "Gibson"@en , "Gibson"@de , "William gibson"@de , "William gibson"@fr , "GreatDismal"@en , "GreatDismal"@de , "GreatDismal"@fr , "William Ford Gibson"@en , "William Ford Gibson"@de , "William Ford Gibson"@fr , "William F. Gibson"@fr , "Southern Arizona School"@en , "Southern Arizona School"@de , "William F. Gibson"@en , "William F. Gibson"@de , "Southern Arizona School"@fr , "Southern Arizona School for Boys"@fr , "The X-Files episodes written by William Gibson"@fr , "Southern Arizona School for Boys"@en , "Southern Arizona School for Boys"@de , "The X-Files episodes written by William Gibson"@en , "The X-Files episodes written by William Gibson"@de , "William Gibson's \"The X-Files\" episodes"@fr , "William Gibson's \"The X-Files\" episodes"@de , "William Gibson's \"The X-Files\" episodes"@en , "George Wythe High School"@fr , "Pines Elementary School"@en , "Pines Elementary School"@de , "Pines Elementary School"@fr , "George Wythe High School"@en , "George Wythe High School"@de , "Garage Kubrick"@fr , "Garage Kubrick"@en , "Garage Kubrick"@de , "William Gibson"@fr .

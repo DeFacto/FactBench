@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0l_4b__1>
+        dbo:from    "1976"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01zkmtz> ;
+        dbo:to      "1976"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01zkmtz>
+        rdfs:label     "Pacific Grove"@en , "Pacific Grove"@fr , "Pacific Grove"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Pacific_Grove,_California> , <http://de.dbpedia.org/resource/Pacific_Grove> , <http://fr.dbpedia.org/resource/Pacific_Grove> ;
+        skos:altLabel  "Pacific Grove"@en , "Pacific Grove"@fr , "Pacific Grove"@de , "Monterey County / Pacific Grove city"@en , "Grove"@en , "Grove"@de , "Grove"@fr , "Pacific Grove, Ca"@en , "Pacific Grove, Ca"@fr , "Pacific Grove, Ca"@de , "Pacific Grove, California"@en , "Pacific Grove, California"@fr , "Pacific Grove, California"@de , "Pacific Grove, CA"@en , "Pacific Grove, CA"@fr , "Pacific Grove, CA"@de .
+
+<http://rdf.freebase.com/ns/m.0l_4b>
+        rdfs:label     "Digital Research"@de , "Digital Research"@fr , "Digital Research"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0l_4b__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Digital_Research> , <http://de.dbpedia.org/resource/Digital_Research> , <http://dbpedia.org/resource/Digital_Research> ;
+        skos:altLabel  "Digital Research"@de , "Digital Research"@fr , "Digital Research"@en , "Digital-Research"@de , "Microcomputer Applications Associates"@de , "Microcomputer Applications Associates"@fr , "Microcomputer Applications Associates"@en , "Digital Research languages"@de , "Digital Research languages"@fr , "Digital Research languages"@en , "Digital Research Inc."@de , "Digital Research Inc."@fr , "Digital Research Inc."@en , "Intergalactic Digital Research, Inc."@en , "Intergalactic Digital Research, Inc."@de , "Intergalactic Digital Research, Inc."@fr , "Digital Research Incorporated"@en , "Digital Research Incorporated"@de , "Digital Research Incorporated"@fr , "Intergalactic Digital Research"@en , "Intergalactic Digital Research"@de , "Intergalactic Digital Research"@fr , "Digital Research operating systems"@en , "Digital Research operating systems"@de , "Digital Research operating systems"@fr , "Digital Research Corporation"@en , "Digital Research Corporation"@de , "Digital Research Corporation"@fr , "Digital Research software"@de , "Digital Research software"@fr , "Digital Research software"@en , "Intergalactic Digital Research Inc."@de , "Intergalactic Digital Research Inc."@fr , "Intergalactic Digital Research Inc."@en , "Digital"@en , "Digital"@de , "Digital"@fr , "Digital Research employees"@en , "Digital Research employees"@de , "Digital Research employees"@fr , "Research"@fr , "Digital Research, Inc."@en , "Digital Research, Inc."@de , "Digital Research, Inc."@fr .

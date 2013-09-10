@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Janet_Jackson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Gary,_Indiana> ;
+        dbo:from        "1966-05-16"^^xsd:date ;
+        dbo:to          "1966-05-16"^^xsd:date .
+
+<http://dbpedia.org/resource/Gary,_Indiana>
+        rdfs:label     "Gary, Indiana"@en , "Gary, Indiana"@de , "Gary, Indiana"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gary_(Indiana)> , <http://fr.dbpedia.org/resource/Gary_(Indiana)> ;
+        skos:altLabel  "Gary, Indiana"@en , "Gary, Indiana"@de , "Gary, Indiana"@fr , "Gary, Ind"@en , "Gary, Ind"@de , "Gary, Ind"@fr , "LOCODE:USGYY"@en , "LOCODE:USGYY"@de , "LOCODE:USGYY"@fr , "Gary"@en , "Gary"@de , "Gary"@fr , "Tourism in Gary, Indiana"@en , "Tourism in Gary, Indiana"@de , "Tourism in Gary, Indiana"@fr , "Gary-Hammond-East Chicago, IN MSA"@en , "Gary-Hammond-East Chicago, IN MSA"@de , "Gary-Hammond-East Chicago, IN MSA"@fr , "List of Libraries in Gary"@de , "List of Libraries in Gary"@fr , "List of Libraries in Gary"@en , "Gary, in"@en , "Gary, in"@de , "Gary, in"@fr , "Libraries of Gary, Indiana"@fr , "Libraries of Gary, Indiana"@de , "Libraries of Gary, Indiana"@en , "Gary, Ind."@en , "Gary, Ind."@de , "Gary, Ind."@fr , "Gary Public Library System"@en , "Gary Public Library System"@de , "Gary Public Library System"@fr , "Gary, IN"@en , "Gary, IN"@de , "Gary, IN"@fr .
+
+<http://dbpedia.org/resource/Janet_Jackson>
+        rdfs:label     "Janet Jackson"@en , "Janet Jackson"@fr , "Janet Jackson"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Janet_Jackson__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Janet_Jackson> , <http://fr.dbpedia.org/resource/Janet_Jackson> ;
+        skos:altLabel  "Janet Damita Jo Jackson"@fr , "Janet Damita Jo Jackson"@de , "Janet Damita Jo Jackson"@en , "Janet jackson"@fr , "Janet"@fr , "Janet jackson"@de , "Janet"@de , "Janet"@en , "Janet jackson"@en , "Janet Jackson"@fr , "Janet Jackson"@de , "Janet Jackson"@en , "Jackson"@fr , "Janet Damita Jackson"@fr , "Janet Damita Jackson"@de , "Janet Damita Jackson"@en , "Janet Jackson's New Album"@fr , "Janet Jackson's New Album"@de , "Janet Jackson's New Album"@en .

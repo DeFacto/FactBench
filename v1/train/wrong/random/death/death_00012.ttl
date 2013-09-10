@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Daniel_Nestor>
+        rdfs:label     "Daniel Nestor"@en , "Daniel Nestor"@fr , "Daniel Nestor"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Daniel_Nestor__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Daniel_Nestor> , <http://de.dbpedia.org/resource/Daniel_Nestor> ;
+        skos:altLabel  "Danijel Nestorovic"@fr , "Danijel Nestorovic"@de , "Danijel Nestorović"@en , "Danijel Nestorović"@fr , "Danijel Nestorović"@de , "Nestor"@de , "Daniel Mark Nestor"@en , "Daniel Mark Nestor"@de , "Daniel Mark Nestor"@fr , "Daniel Nestor"@en , "Daniel Nestor"@fr , "Daniel Nestor"@de , "Danijel Nestorovic"@en .
+
+<http://dbpedia.org/resource/Eindhoven>
+        rdfs:label     "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eindhoven> , <http://fr.dbpedia.org/resource/Eindhoven> ;
+        skos:altLabel  "Eindhoven, Netherlands"@fr , "Eindhoven, Netherlands"@de , "Eindhoven, North Brabant"@de , "Eindhoven, North Brabant"@fr , "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de , "LOCODE:NLEIN"@en , "LOCODE:NLEIN"@fr , "LOCODE:NLEIN"@de , "Eindhoven, Noord-Brabant"@en , "Eindhoven, Noord-Brabant"@fr , "Eindhoven, Noord-Brabant"@de , "Eindhoven, Netherlands"@en , "Eindhoven, North Brabant"@en .
+
+<http://dbpedia.org/resource/Daniel_Nestor__1>
+        dbo:award  <http://dbpedia.org/resource/Eindhoven> ;
+        dbo:from   "1979"^^xsd:gYear ;
+        dbo:to     "1979"^^xsd:gYear .

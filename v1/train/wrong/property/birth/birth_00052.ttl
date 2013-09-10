@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Frank_Zappa__1>
+        dbo:author  <http://dbpedia.org/resource/Baltimore> ;
+        dbo:from    "1940"^^xsd:gYear ;
+        dbo:to      "1940"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Baltimore>
+        rdfs:label     "Baltimore"@de , "Baltimore"@fr , "Baltimore"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Baltimore> , <http://de.dbpedia.org/resource/Baltimore> ;
+        skos:altLabel  "Charm city"@de , "Charm city"@fr , "Baltimore, Maryland, United States of America"@en , "Baltimore, Maryland, US"@en , "Charm City"@en , "Charm City"@de , "Charm City"@fr , "Baltimore City, MD"@en , "Baltimore, Maryland, United States of America"@fr , "Baltimore, Maryland, United States of America"@de , "Baltimore, Maryland, US"@fr , "Baltimore, Maryland, US"@de , "Baltimore City, MD"@de , "Baltimore City, MD"@fr , "Baltimore, US-MD"@en , "Baltimore, US-MD"@fr , "Baltimore, US-MD"@de , "Baltimore, Maryland, USA"@en , "Baltimore, Maryland, USA"@fr , "Baltimore, Maryland, USA"@de , "Mobtown"@en , "Mobtown"@de , "Mobtown"@fr , "Baltimore City Sheriff's Office"@en , "Baltimore City Sheriff's Office"@fr , "Baltimore City Sheriff's Office"@de , "Baltimore, United States"@en , "Baltimore, United States"@fr , "Baltimore, United States"@de , "Baltamore"@en , "Economy of Baltimore"@en , "Economy of Baltimore"@de , "Economy of Baltimore"@fr , "Baltamore"@fr , "Baltamore"@de , "Baltimore City, Maryland"@en , "Baltimore City, Maryland"@de , "Baltimore City, Maryland"@fr , "LOCODE:USBAL"@en , "LOCODE:USBAL"@fr , "LOCODE:USBAL"@de , "City of Baltimore"@en , "City of Baltimore"@fr , "City of Baltimore"@de , "Baltimore, USA"@en , "Baltimore, USA"@fr , "Baltimore, USA"@de , "Baltimore, Md"@en , "Baltimore, Md"@de , "Baltimore, Md"@fr , "City of Baltimore, Maryland"@en , "City of Baltimore, Maryland"@fr , "City of Baltimore, Maryland"@de , "Transportation in Baltimore"@en , "Transportation in Baltimore"@fr , "Transportation in Baltimore"@de , "Baltimore, Md."@en , "Baltimore, Md."@de , "Baltimore, Md."@fr , "Baltimore, Maryland, United States"@en , "Baltimore, Maryland, United States"@fr , "Baltimore, Maryland, United States"@de , "Baltimore, MD"@en , "Baltimore City"@en , "Baltimore, MD"@fr , "Baltimore, MD"@de , "Baltimore City"@fr , "Baltimore City"@de , "Baltimoreans"@en , "Baltimoreans"@de , "Baltimoreans"@fr , "Bmore"@en , "Bmore"@fr , "Bmore"@de , "Baltimore"@en , "Baltimore"@de , "Baltimore"@fr , "Baltimore, Maryland"@en , "Baltimore, Maryland"@fr , "Baltimore, Maryland"@de , "Charm city"@en .
+
+<http://dbpedia.org/resource/Frank_Zappa>
+        rdfs:label     "Frank Zappa"@de , "Frank Zappa"@fr , "Frank Zappa"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Frank_Zappa__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frank_Zappa> , <http://fr.dbpedia.org/resource/Frank_Zappa> ;
+        skos:altLabel  "Frank Vincent Zappa"@de , "Frank Vincent Zappa"@fr , "Frank Vincent Zappa"@en , "Frank Zappa and the Mothers of Invention"@fr , "Frank Zappa & The Mothers of Invention"@en , "Zappadan"@de , "Frank Zappa & The Mothers of Invention"@de , "Frank Zappa & The Mothers of Invention"@fr , "Zappadan"@fr , "Frank"@fr , "Zappadan"@en , "Frank Zappa"@en , "Vaulternative Records"@de , "Vaulternative Records"@fr , "Vaulternative Records"@en , "Zappa"@en , "Frank Zappa & the Mothers of Invention"@de , "Frank Zappa & the Mothers of Invention"@fr , "Zappa"@de , "Zappa"@fr , "Frank Zappa & the Mothers of Invention"@en , "Frank Zappa"@de , "Frank Zappa"@fr , "Zappa:References"@de , "Zappa:References"@fr , "Zappa:References"@en , "Francis Vincent Jr. Zappa"@en , "Francis Vincent Jr. Zappa"@de , "Francis Vincent Jr. Zappa"@fr , "Frank zappa"@en , "Frank zappa"@de , "Frank zappa"@fr , "Francesco zapato"@de , "Francesco zapato"@fr , "Francesco zapato"@en , "Zappa, Frank"@de , "Zappa, Frank"@fr , "Zappa, Frank"@en , "Frank Zappa and the Mothers"@de , "Frank Zappa and the Mothers"@fr , "Frank Zappa and the Mothers"@en .

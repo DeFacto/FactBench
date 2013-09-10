@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0dt39>
+        rdfs:label     "Nobel Prize in Physics"@en , "Prix Nobel de physique"@fr , "Nobelpreis für Physik"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Prix_Nobel_de_physique> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Nobelpreis_für_Physik> , <http://dbpedia.org/resource/Nobel_Prize_in_Physics> , <http://de.dbpedia.org/resource/Liste_der_Nobelpreisträger_für_Physik> , <http://dbpedia.org/resource/List_of_Nobel_laureates_in_Physics> ;
+        skos:altLabel  "Nobel Physics Prize"@de , "Nobel laureates in physics"@en , "Nobel laureates in physics"@de , "Nobel laureates in physics"@fr , "Physik-Nobelpreis"@de , "Nobel prize in physics"@en , "Nobel prize in physics"@de , "Nobel prize in physics"@fr , "Nobel Prize for physics"@en , "Nobel Prize for physics"@de , "Nobel Prize for physics"@fr , "Prix Nobel de Physique"@fr , "Physics"@en , "Physics"@de , "Physics"@fr , "Nobel Prizes for Physics"@en , "Nobel Prizes for Physics"@de , "Nobel Prizes for Physics"@fr , "Liste der Physiknobelpreistrager"@de , "Liste des Prix Nobel de physique"@fr , "Liste der Nobelpreisträger für Physik"@de , "Nobelpreis fur Physik"@de , "Nobel prize for Physics"@en , "Nobel prize for Physics"@fr , "Nobel prize for Physics"@de , "Physiknobelpreis"@de , "Nobel Prize in Physics"@en , "Nobel Prize in Physics"@fr , "Nobel Prize in Physics"@de , "Prix nobel de physique"@fr , "PhysicS"@en , "PhysicS"@de , "PhysicS"@fr , "Nobel Prize For Physics - 2007"@en , "Liste der Nobelpreistrager fur Physik"@de , "Nobel Prize For Physics - 2007"@de , "Nobel Prize For Physics - 2007"@fr , "Prix Nobel de physique"@fr , "Physics nobel prize"@en , "Physics nobel prize"@de , "Physics nobel prize"@fr , "Noble prize in physics"@en , "Noble prize in physics"@de , "Noble prize in physics"@fr , "Liste der Physiknobelpreisträger"@de , "Nobel Prize for Physics"@en , "Nobel prize physics"@en , "Nobel Prize for Physics"@fr , "Nobel Prize for Physics"@de , "Nobel prize physics"@fr , "Nobel prize physics"@de , "Nobel Prize in physics"@en , "Nobel Prize in physics"@de , "Nobel Prize in physics"@fr , "Nobelpreis für Physik"@de , "Nobel Physics Prize"@en , "Nobel Physics Prize"@fr .
+
+<http://rdf.freebase.com/ns/m.07g2b__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0dt39> ;
+        dbo:from   "1948"^^xsd:gYear ;
+        dbo:to     "1948"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07g2b>
+        rdfs:label     "T. S. Eliot"@de , "T. S. Eliot"@fr , "T. S. Eliot"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07g2b__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/T._S._Eliot> , <http://fr.dbpedia.org/resource/T._S._Eliot> , <http://dbpedia.org/resource/T._S._Eliot> ;
+        skos:altLabel  "Ts eliot"@en , "Ts eliot"@de , "Ts eliot"@fr , "T S Eliot"@en , "T.S. Elliot"@en , "Tom"@en , "T S Eliot"@fr , "T.S. Elliot"@fr , "T.S. Elliot"@de , "T S Eliot"@de , "Eliot"@fr , "Eliot"@de , "Ts elliot"@en , "Ts elliot"@de , "Ts elliot"@fr , "Sweeney among the Nightingales"@en , "Sweeney among the Nightingales"@fr , "Sweeney among the Nightingales"@de , "T Eliot"@en , "T Eliot"@fr , "T Eliot"@de , "Thomas Stearns"@en , "Thomas Stearns"@de , "Thomas Stearns"@fr , "T.S.E."@en , "T.S.E."@de , "T.S.E."@fr , "Thomas Stearns Eliot, OM"@en , "TS Elliot"@en , "Thomas Stearns Eliot, OM"@fr , "TS Elliot"@de , "TS Elliot"@fr , "Thomas Stearns Eliot, OM"@de , "Sweeney Among the Nightingales"@en , "Sweeney Among the Nightingales"@de , "Sweeney Among the Nightingales"@fr , "Thomas Stearns Eliot"@en , "TS Eliot"@en , "Thomas Stearns Eliot"@fr , "TS Eliot"@fr , "Thomas Stearns Eliot"@de , "TS Eliot"@de , "T.S. Eliot"@en , "T.S. Eliot"@de , "T.S. Eliot"@fr , "T.S. Eliott"@en , "T.S. Eliott"@de , "T.S. Eliott"@fr , "T. S. Elliott"@en , "T. S. Elliott"@fr , "T. S. Elliott"@de , "T.s. eliot"@en , "T.s. eliot"@de , "T.s. eliot"@fr , "T.S Eliot"@en , "T.S Eliot"@fr , "T.S Eliot"@de , "T S Elliot"@en , "T.S.Eliot"@en , "T.S.Eliot"@fr , "T.S.Eliot"@de , "T S Elliot"@fr , "T S Elliot"@de , "T.s. Eliot"@en , "T.S Elliot"@en , "T.s. Eliot"@fr , "T.S Elliot"@de , "T.S Elliot"@fr , "T.s. Eliot"@de , "T. S. Elliot"@en , "Thomas S. Eliot"@en , "T. S. Elliot"@fr , "T. S. Elliot"@de , "Thomas S. Eliot"@fr , "Thomas S. Eliot"@de , "Eliot, Thomas Stearns"@en , "T. S. Eliot"@en , "T. S. Eliot"@fr , "T. S. Eliot"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05x6c__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.063_67> ;
+        dbo:from    "1978"^^xsd:gYear ;
+        dbo:to      "1978"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05x6c>
+        rdfs:label     "Piers Anthony"@fr , "Piers Anthony"@de , "Piers Anthony"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05x6c__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Piers_Anthony> , <http://fr.dbpedia.org/resource/Piers_Anthony> , <http://dbpedia.org/resource/Piers_Anthony> ;
+        skos:altLabel  "Pier Xanthony"@de , "Anthony, Piers"@de , "Pier"@en , "Pier"@fr , "Pier"@de , "Piers Anthony Dillingham Jacob"@en , "Piers Anthony"@en , "Piers Anthony Dillingham Jacob"@fr , "Piers Anthony"@fr , "Piers Anthony Dillingham Jacob"@de , "Piers Anthony"@de , "Piers"@de , "Peirs Anthony"@en , "Piers A. Jacob"@en , "Peirs Anthony"@fr , "Peirs Anthony"@de , "Piers anthony"@en , "Piers anthony"@fr , "Piers anthony"@de , "Piers "@en , "Pier Xanthony"@en , "Anthony, Piers"@en , "Pier Xanthony"@fr , "Anthony, Piers"@fr .
+
+<http://rdf.freebase.com/ns/m.063_67>
+        rdfs:label     "Castle Roogna"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Castle_Roogna> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Castle Roogna"@en .

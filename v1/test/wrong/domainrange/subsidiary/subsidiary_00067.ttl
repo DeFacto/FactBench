@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02lpq0__1>
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03g3hxd> ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02lpq0>
+        rdfs:label     "EchoStar Communications Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02lpq0__1> ;
+        skos:altLabel  "DISH Network CORP"@en , "ECHOSTAR COMMUNICATIONS CORP"@en .
+
+<http://rdf.freebase.com/ns/m.03g3hxd>
+        rdfs:label     "MetaSolv Software"@en ;
+        skos:altLabel  "Metasolv"@en , "MetaSolv Inc"@en , "METASOLV SOFTWARE INC"@en .

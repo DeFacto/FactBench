@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Staten_Island>
+        rdfs:label     "Staten Island"@de , "Staten Island"@fr , "Staten Island"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Staten_Island> , <http://fr.dbpedia.org/resource/Staten_Island> ;
+        skos:altLabel  "Staton island"@en , "Staton island"@de , "Staton island"@fr , "Staten Island Community Charter School"@en , "Staten Island Community Charter School"@de , "Staten Island Community Charter School"@fr , "Staten Is."@en , "Staten Is."@de , "Staten Is."@fr , "Richmond County, New York"@en , "Richmond County, New York"@de , "Richmond County, New York"@fr , "Staten Island Bridges"@en , "S.I.N.Y."@en , "S.I.N.Y."@de , "S.I.N.Y."@fr , "Staten Island Bridges"@de , "Staten Island Bridges"@fr , "Comté de Richmond"@fr , "Richmond"@en , "Richmond"@de , "Richmond"@fr , "Richmond County"@de , "Comte de Richmond"@fr , "Staten Island, NY"@en , "Staten Island, NY"@de , "Staten Island, NY"@fr , "Staten island"@en , "Staten island"@de , "Staten island"@fr , "Staten island community charter school"@en , "Staten island community charter school"@de , "Staten island community charter school"@fr , "Staten Island, New York City"@en , "Staten Islander"@en , "Richmond, New York City"@en , "Richmond, New York City"@de , "Richmond, New York City"@fr , "Staten Island, New York City"@de , "Staten Island, New York City"@fr , "Staten Islander"@de , "Staten Islander"@fr , "Staten Island"@en , "Staten Island"@de , "Staten Island"@fr , "Staten Island, N.Y."@en , "Staten Island, N.Y."@de , "Staten Island, N.Y."@fr , "Staten"@en , "Staten"@de , "Staten"@fr , "Staten Island, New York"@en , "Staten Island, New York"@de , "Staten Island, New York"@fr .
+
+<http://dbpedia.org/resource/Bryan_Adams>
+        rdfs:label     "Bryan Adams"@en , "Bryan Adams"@fr , "Bryan Adams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bryan_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bryan_Adams> , <http://fr.dbpedia.org/resource/Bryan_Adams> ;
+        skos:altLabel  "Bryan Adams"@en , "Bryan Adams"@fr , "Bryan Adams"@de , "Brian Adams"@en , "Brian Adams"@fr , "Brian Adams"@de , "Adams"@fr , "Bryan Guy Adams"@en , "Bryan Guy Adams"@fr , "Bryan Guy Adams"@de , "Bryan"@fr , "Bryan adams"@en , "Groover from vancouver"@en , "Bryan Guy Adams, OC, OBC"@en , "Bryan adams"@fr , "Groover from vancouver"@fr , "Bryan Guy Adams, OC, OBC"@fr , "Bryan adams"@de , "Bryan Guy Adams, OC, OBC"@de , "Groover from vancouver"@de , "Zane Puff"@en , "The groover from vancouver"@en , "The groover from vancouver"@fr , "The groover from vancouver"@de , "Zane Puff"@fr , "Zane Puff"@de , "Byran Adams"@en , "Byran Adams"@fr , "Byran Adams"@de .
+
+<http://dbpedia.org/resource/Bryan_Adams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Staten_Island> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .

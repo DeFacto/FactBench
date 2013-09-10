@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Orwell__1>
+        dbo:award  <http://dbpedia.org/resource/Colombo> ;
+        dbo:from   "2004"^^xsd:gYear ;
+        dbo:to     "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Colombo>
+        rdfs:label     "Colombo"@de , "Colombo"@fr , "Colombo"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Colombo> , <http://fr.dbpedia.org/resource/Colombo> ;
+        skos:altLabel  "Colombo"@de , "Colombo"@fr , "Colombo"@en , "Colombo, Ceylon"@de , "Colombo, Ceylon"@fr , "Greater Colombo area"@de , "Greater Colombo area"@fr , "Greater Colombo area"@en , "Kolamba"@de , "Kolamba"@fr , "Kolamba"@en , "Colombo, Ceylon"@en , "Greater Colombo"@de , "Greater Colombo"@fr , "Colombo, Sri Lanka"@de , "Colombo, Sri Lanka"@fr , "Colombo, Sri Lanka"@en , "Greater Colombo"@en , "Metro de Colombo"@fr , "Kolumpu"@en , "Kolumpu"@de , "Kolumpu"@fr , "Colombo Times"@de , "Colombo Times"@fr , "Colombo Times"@en , "Bandaranaike International Airport"@fr , "Kŏḷamba"@de , "Kŏḷamba"@fr , "Kŏḷamba"@en , "Kolombo"@de , "Kŏl̮umpu"@de , "Kŏl̮umpu"@fr , "Kŏl̮umpu"@en , "Zones of Colombo City"@de , "Zones of Colombo City"@fr , "Zones of Colombo City"@en , "Métro de Colombo"@fr , "Katunayake"@fr .
+
+<http://dbpedia.org/resource/George_Orwell>
+        rdfs:label     "George Orwell"@fr , "George Orwell"@en , "George Orwell"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Orwell__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/George_Orwell> , <http://fr.dbpedia.org/resource/George_Orwell> ;
+        skos:altLabel  "H. Lewis Always"@de , "Orwellien"@fr , "Eric Arthur Blair"@de , "Eric Arthur Blair"@fr , "Eric Arthur Blair"@en , "Orwell"@de , "Orwell"@fr , "Orwell"@en , "Blair"@de , "Blair"@fr , "Blair"@en , "Eric A. Blair"@en , "Eric A. Blair"@de , "Eric A. Blair"@fr , "George Orwell"@en , "George Orwell"@de , "George Orwell"@fr , "George orwell"@de , "George orwell"@fr , "George orwell"@en , "Geoge orwell"@de , "Geoge orwell"@fr , "Geoge orwell"@en , "Eric Blair"@de , "Eric Blair"@fr , "Eric Blair"@en , "George (Eric Blair) Orwell"@en , "George (Eric Blair) Orwell"@de , "George (Eric Blair) Orwell"@fr , "G. Orwell"@de , "G. Orwell"@fr , "G. Orwell"@en , "Orwell, George"@de , "Orwell, George"@fr , "Orwell, George"@en , "Georges Orwell"@fr , "Arthur Blair"@en , "Arthur Blair"@de , "Arthur Blair"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.037jwk>
+        rdfs:label     "Orbital Sciences Corporation"@en , "Orbital Sciences Corporation"@de , "Orbital Sciences"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.037jwk__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Orbital_Sciences_Corporation> , <http://fr.dbpedia.org/resource/Orbital_Sciences> , <http://dbpedia.org/resource/Orbital_Sciences_Corporation> ;
+        skos:altLabel  "Orbital sciences corporation"@fr , "ORB.N"@en , "ORB.N"@fr , "ORB.N"@de , "Orbital"@en , "Orbital"@fr , "Orbital"@de , "ORBITAL SCIENCES CORP"@en , "Orbital Sciences"@en , "Orbital Sciences Corporation"@en , "Orbital Sciences"@fr , "Orbital Sciences Corporation"@fr , "Orbital Sciences Corporation"@de , "Orbital Sciences"@de , "ORBITAL SCIENCES CORP /DE/"@en .
+
+<http://rdf.freebase.com/ns/m.01btsf>
+        rdfs:label     "Paypal"@de , "PayPal"@en , "PayPal"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/PayPal> , <http://de.dbpedia.org/resource/PayPal> , <http://dbpedia.org/resource/PayPal> ;
+        skos:altLabel  "Pay Pal"@en , "PayPal"@en , "PayPal Here"@en , "Pay Pal"@fr , "PayPal, Inc."@de , "Pay Pal"@de , "PayPal Here"@fr , "PayPal Here"@de , "Pay pal"@en , "X.com"@en , "PayPal"@fr , "PayPal"@de , "X.com"@fr , "X.com"@de , "Pay pal"@fr , "Pay pal"@de , "Paypal.com"@en , "Paypal.com"@fr , "Paypal.com"@de , "Paypal"@en , "PayPal.com"@en , "Paypalsucks"@en , "Paypalsucks.com"@en , "Paypal"@fr , "PayPal.com"@fr , "Paypal"@de , "PayPal.com"@de , "Paypalsucks"@fr , "Paypalsucks.com"@fr , "Paypalsucks"@de , "Paypalsucks.com"@de .
+
+<http://rdf.freebase.com/ns/m.037jwk__1>
+        dbo:from        "2002"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01btsf> ;
+        dbo:to          "2002"^^xsd:gYear .

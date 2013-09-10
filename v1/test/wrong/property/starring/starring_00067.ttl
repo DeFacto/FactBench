@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Arjun_Rampal>
+        rdfs:label     "Arjun Rampal"@fr , "Arjun Rampal"@de , "Arjun Rampal"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Arjun_Rampal> , <http://de.dbpedia.org/resource/Arjun_Rampal> ;
+        skos:altLabel  "Arjun Rampal"@en , "Arjun Rampal"@fr , "Arjun Rampal"@de , "The Legend of Kunal"@en , "Kunal Avadana"@en , "Kunal Avadana"@de , "Kunal Avadana"@fr , "The Legend of Kunal"@fr , "The Legend of Kunal"@de , "Arjun"@en , "Arjun"@fr , "Arjun"@de , "Rampal"@de , "The Legend Of Kunal"@en , "The Legend Of Kunal"@fr , "The Legend Of Kunal"@de .
+
+<http://dbpedia.org/resource/Om_Shanti_Om__1>
+        dbo:author  <http://dbpedia.org/resource/Arjun_Rampal> ;
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Om_Shanti_Om>
+        rdfs:label     "Om Shanti Om"@en , "Om Shanti Om"@fr , "Om Shanti Om"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Om_Shanti_Om__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Om_Shanti_Om> , <http://de.dbpedia.org/resource/Om_Shanti_Om> ;
+        skos:altLabel  "Main Agar Kahoon"@de , "Om Shanti Om"@en , "Om Shanti Om"@de , "Om Shanti Om"@fr , "Om shanti om"@fr , "Om Shanti Om(film)"@en , "Om Shanti Om(film)"@fr , "Om Shanti Om(film)"@de , "Main Agar Kahoon"@en , "Main Agar Kahoon"@fr .

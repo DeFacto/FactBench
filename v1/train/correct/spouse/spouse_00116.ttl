@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014v6x>
+        rdfs:label     "Haylie Duff"@fr , "Haylie Duff"@en , "Haylie Duff"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Haylie_Duff> , <http://fr.dbpedia.org/resource/Haylie_Duff> , <http://dbpedia.org/resource/Haylie_Duff> ;
+        skos:altLabel  "Haley Duff"@fr , "Haley Duff"@de , "Haylie Katherine Duff"@de , "Haley Duff"@en , "Haylie Katherine Duff"@en , "Hilary and Hailey Duff"@en , "Halie Duff"@fr , "Halie Duff"@de , "Halie Duff"@en , "Hailey Duff"@fr , "Hailie Duff"@fr , "Hayley Duff"@fr , "Hailey Duff"@de , "Hailey Duff"@en , "Hailie Duff"@de , "Hayley Duff"@de , "Hailie Duff"@en , "Hayley Duff"@en , "Haylie Duff"@fr , "Haylie Duff"@de , "Haylie Duff"@en , "Hayls"@en , "Duff"@fr .
+
+<http://rdf.freebase.com/ns/m.09qcp5>
+        rdfs:label     "Nick Zano"@de , "Nick Zano"@fr , "Nick Zano"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.09qcp5__116> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nick_Zano> , <http://fr.dbpedia.org/resource/Nick_Zano> , <http://dbpedia.org/resource/Nick_Zano> ;
+        skos:altLabel  "Zano"@de , "Nick Zano"@fr , "Nick Zano"@de , "Nicholas Zano"@en .
+
+<http://rdf.freebase.com/ns/m.09qcp5__116>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.014v6x> ;
+        dbo:to      "2011-10"^^xsd:gYearMonth .

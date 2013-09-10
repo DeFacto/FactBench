@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0d5xm4>
+        rdfs:label     "Maxine Bahns"@fr , "Maxine Bahns"@de , "Maxine Bahns"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Maxine_Bahns> , <http://de.dbpedia.org/resource/Maxine_Bahns> , <http://dbpedia.org/resource/Maxine_Bahns> ;
+        skos:altLabel  "Maxine Bahns Watson"@en , "Max"@en , "Bahns"@de , "Maxine Bahns"@fr , "Maxine Bahns"@de , "Maxine"@de , "Maxine Lee Bahns"@en .
+
+<http://rdf.freebase.com/ns/m.04lh5x8__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0d5xm4> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04lh5x8>
+        rdfs:label     "Eliot Kennedy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04lh5x8__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Eliot_Kennedy> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Elliot Kennedy"@en , "Eliot kennedy"@en , "Steelworks Productions"@en , "Kennedy, Eliot"@en , "E. Kennedy"@en , "Eliot Kennedy"@en .

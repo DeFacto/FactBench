@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Akira_Kurosawa>
+        rdfs:label     "Akira Kurosawa"@en , "Akira Kurosawa"@fr , "Akira Kurosawa"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Akira_Kurosawa__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Akira_Kurosawa> , <http://fr.dbpedia.org/resource/Akira_Kurosawa> ;
+        skos:altLabel  "Kurosawa sensei"@fr , "Kurosawa"@en , "Akira kurosawa"@en , "Kurosawa"@fr , "Akira kurosawa"@fr , "Kurosawa"@de , "Akira kurosawa"@de , "Kurosawa Akira"@en , "Akira Kurosawa"@en , "Kurosawa Akira"@fr , "Akira Kurosawa"@de , "Akira Kurosawa"@fr , "Kurosawa Akira"@de , "Akira kurasawa"@en , "Akira kurasawa"@fr , "Akira kurasawa"@de .
+
+<http://dbpedia.org/resource/Akira_Kurosawa__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Indianapolis> ;
+        dbo:from        "1998"^^xsd:gYear ;
+        dbo:to          "1998"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Indianapolis>
+        rdfs:label     "Indianapolis"@de , "Indianapolis"@fr , "Indianapolis"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Indianapolis> , <http://de.dbpedia.org/resource/Indianapolis> ;
+        skos:altLabel  "Indianapolis, IN"@en , "Indianapolis, IN"@fr , "Indianapolis, IN"@de , "Speedy City"@en , "Speedy City"@fr , "Speedy City"@de , "Indianapolis"@en , "Indianapolis (city), Indiana"@en , "Indianapolis"@fr , "Indianapolis"@de , "Indianapolis (city), Indiana"@de , "Indianapolis (city), Indiana"@fr , "Indianapolis, Indiana"@en , "Indianapolis, Indiana"@fr , "Indianapolis, Indiana"@de , "Indianapolis (city), Marion County, Indiana"@en , "Indianapolis (city), Marion County, Indiana"@fr , "Indianapolis (city), Marion County, Indiana"@de , "Indianapolis, Indiana, U.S."@en , "Indianapolis, Indiana, U.S."@fr , "Indianapolis, Indiana, U.S."@de , "Indianápolis"@en , "Indianápolis"@de , "Indianápolis"@fr , "Indianapolis, in"@en , "Indy, IN"@en , "Indianapolis, in"@fr , "Indianapolis, in"@de , "Indy, IN"@de , "Indy, IN"@fr , "Capital of Indiana"@en , "Indianapolis IN"@en , "Capital of Indiana"@fr , "Indianapolis IN"@de , "Indianapolis IN"@fr , "Capital of Indiana"@de , "List of monuments in Indianapolis"@en , "INpolis (city), IN"@en , "INpolis (city), IN"@fr , "INpolis (city), IN"@de , "List of monuments in Indianapolis"@fr , "List of monuments in Indianapolis"@de , "City of Indianapolis"@en , "City of Indianapolis"@fr , "City of Indianapolis"@de , "INpolis, IN"@en , "INpolis, IN"@de , "INpolis, IN"@fr , "Indpls"@en , "Indpls"@fr , "Indpls"@de , "Indianapolis, Indiana, US"@en , "Indianapolis, Indiana, US"@fr , "Indianapolis, Indiana, US"@de , "The weather in Indianapolis"@en , "The weather in Indianapolis"@fr , "The weather in Indianapolis"@de , "Indianapolis, Indiana, USA"@en , "Indianapolis, Indiana, USA"@fr , "Indianapolis, Indiana, USA"@de , "List of monuments in Indianapolis, Indiana"@en , "List of monuments in Indianapolis, Indiana"@de , "List of monuments in Indianapolis, Indiana"@fr , "LOCODE:USIND"@en , "LOCODE:USIND"@fr , "LOCODE:USIND"@de , "Indianapolis, USA"@en , "Indianapolis, USA"@fr , "Indianapolis, USA"@de , "Brightwood, Indianapolis"@en , "Brightwood, Indianapolis"@fr , "Brightwood, Indianapolis"@de , "Indianapolis, United States"@en , "Indianapolis, Indiana, U.S.A."@en , "Indianapolis, United States"@fr , "Indianapolis, United States"@de , "Indianapolis, Indiana, U.S.A."@de , "Indianapolis, Indiana, U.S.A."@fr , "The Vogue"@en , "The Vogue"@de , "The Vogue"@fr , "INpolis (city), Marion County, IN"@en , "INpolis (city), Marion County, IN"@de , "INpolis (city), Marion County, IN"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05fxn__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.045b5g> ;
+        dbo:from        "1975"^^xsd:gYear ;
+        dbo:to          "1975"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.045b5g>
+        rdfs:label     "Schismatrice +"@fr , "Schismatrix"@en , "Schismatrix"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Schismatrix> , <http://dbpedia.org/resource/Schismatrix> , <http://fr.dbpedia.org/resource/Schismatrice_+> ;
+        skos:altLabel  "Schismatrix plus"@fr , "Schismatrix"@de , "Schismatrix"@en , "Schismatrix"@fr , "Schismatrice"@fr , "La Schismatrice"@fr , "La schismatrice"@fr .
+
+<http://rdf.freebase.com/ns/m.05fxn>
+        rdfs:label     "NeXT"@en , "NeXT"@fr , "NeXT"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05fxn__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/NeXT> , <http://de.dbpedia.org/resource/NeXT> , <http://fr.dbpedia.org/resource/NeXT> ;
+        skos:altLabel  "Next"@en , "NeXT Computer"@fr , "Next"@fr , "Next"@de , "NeXT Computer"@de , "NeXT"@en , "NeXT"@fr , "NeXT"@de , "NeXT Software"@fr , "NeXT Computer, Inc."@en , "Next, Inc."@en , "NeXT Computer, Inc."@de , "NeXT Computer, Inc."@fr .

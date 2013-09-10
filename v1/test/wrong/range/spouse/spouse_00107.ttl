@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c4bjz__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.038ncy> ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.038ncy>
+        rdfs:label     "Charlene Choi"@fr , "Charlene Choi"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Charlene_Choi> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Charlene_Choi> ;
+        skos:altLabel  "Charlene Choi Cheuk-Yin"@en , "Charlene Choi Cheuk-Yin"@fr , "Choi Charlene Cheuk-Yi"@en , "Ah Sa"@en , "Ah Sa"@fr , "Cai Zhuoyan"@en , "蔡卓妍"@en , "Cai Zhuoyan"@fr , "Cheuk-yin Choi"@en , "Charlene Choi"@en , "Charlene Choi"@fr , "Cheuk Yin Choi"@en , "Coi3 Coek3-jin4"@en , "Charlene Choi Cheuk Yin"@en , "Sasa"@en , "Choi Cheuk Yin"@en , "Cài Zhuóyán"@en .
+
+<http://rdf.freebase.com/ns/m.0c4bjz>
+        rdfs:label     "Luther Davis"@en , "Luther Davis"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c4bjz__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Luther_Davis> , <http://fr.dbpedia.org/resource/Luther_Davis> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Luther Berryhill Davis"@en , "Luther Davis"@fr .

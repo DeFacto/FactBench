@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Djibouti>
+        rdfs:label     "Djibouti"@de , "Djibouti"@fr , "Djibouti"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dschibuti> , <http://fr.dbpedia.org/resource/Djibouti> ;
+        skos:altLabel  "Administrative divisions of Djibouti"@fr , "Administrative divisions of Djibouti"@en , "Administrative divisions of Djibouti"@de , "Djibuti"@fr , "Djibuti"@en , "Djibuti"@de , "Somalie Francaise"@fr , "Republic of Djibouti"@fr , "Republic of Djibouti"@en , "Republic of Djibouti"@de , "Côte des Somalis"@fr , "Dijibouti"@fr , "Dijibouti"@en , "Dijibouti"@de , "République de Djibouti"@fr , "Jumhuriyyat Jibuti"@fr , "Jumhuriyyat Jibuti"@de , "Jumhuriyyat Jibuti"@en , "Jumhūriyyat Jībūtī"@fr , "Djibouti"@fr , "Yibouti"@fr , "Dschibuti"@de , "Djibouti"@de , "Yibouti"@de , "Djibouti"@en , "Yibouti"@en , "Jumhūriyyat Jībūtī"@en , "Jumhūriyyat Jībūtī"@de , "Jabooty"@fr , "Jabooty"@en , "Jabooty"@de , "Dijbouti"@fr , "Dijbouti"@en , "Dijbouti"@de , "Djiboutians"@fr , "Djiboutians"@de , "Djiboutians"@en , "Jibouti"@fr , "Territoire français des Afars et des Issas"@fr , "Territoire français des Afars et des Issas"@en , "Territoire français des Afars et des Issas"@de , "Jibouti"@en , "Jibouti"@de , "Somalie Française"@fr , "Territorium der Afar und Issa"@de , "Djibouti.2C Republic of"@fr , "Djibouti.2C Republic of"@en , "Djibouti.2C Republic of"@de , "Yibuti"@fr , "Yibuti"@en , "Yibuti"@de , "Republik Dschibuti"@de , "Territoire francais des Afars et des Issas"@fr , "Territoire francais des Afars et des Issas"@de , "Territoire francais des Afars et des Issas"@en , "Djabuti"@fr , "Djabuti"@de , "Djabuti"@en , "Jībūtī"@fr , "ISO 3166-1:DJ"@fr , "Cote des Somalis"@fr , "Jībūtī"@de , "Jībūtī"@en , "ISO 3166-1:DJ"@en , "ISO 3166-1:DJ"@de , "Republique de Djibouti"@fr , "Jibuti"@fr , "Jibuti"@de , "Jibuti"@en , "Djbouti"@fr , "Djbouti"@en , "Djbouti"@de .
+
+<http://dbpedia.org/resource/Dileita_Mohamed_Dileita__1>
+        dbo:from    "2001-03-07"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Djibouti> ;
+        dbo:to      "2013-04-01"^^xsd:date .
+
+<http://dbpedia.org/resource/Dileita_Mohamed_Dileita>
+        rdfs:label     "Dileita Mohamed Dileita"@en , "Dileita Mohamed Dileita"@fr , "Dileita Mohamed Dileita"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Dileita_Mohamed_Dileita__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dileita_Mohamed_Dileita> , <http://fr.dbpedia.org/resource/Dileita_Mohamed_Dileita> ;
+        skos:altLabel  "Dilleita Mohamed Dilleita"@fr , "Dilleita Mohamed Dilleita"@de , "Dilleita Mohamed Dilleita"@en , "Dileita Mohammed Dileita"@de , "Dileita"@de , "Mohamed Dileita"@fr , "Dileita Mohamed Dileita"@fr , "Mohamed Dileita"@de , "Dileita Mohamed Dileita"@de , "Dileita Mohamed Dileita"@en , "Mohamed Dileita"@en , "Dileïta Mohamed Dileïta"@fr , "Dileïta Mohamed Dileïta"@de , "Dileïta Mohamed Dileïta"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c0ly8>
+        rdfs:label     "Genzyme"@en , "Genzyme"@fr , "Genzyme"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c0ly8__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Genzyme> , <http://dbpedia.org/resource/Genzyme> , <http://fr.dbpedia.org/resource/Genzyme> ;
+        skos:altLabel  "Genzyme"@de , "Genzyme"@fr , "Genzyme Corporation"@fr , "Genzyme Corporation"@de , "GENZ"@fr , "GENZ"@de , "Integrated Genetics"@fr , "Integrated Genetics"@de , "Genzyme Corp."@fr , "Genzyme Corp."@de .
+
+<http://rdf.freebase.com/ns/m.0c0ly8__1>
+        dbo:from        "1999"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01p6qb> ;
+        dbo:to          "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01p6qb>
+        rdfs:label     "Television South"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Television_South> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Television South"@en , "TVS Entertainment"@en , "TVS Entertainment plc"@en .

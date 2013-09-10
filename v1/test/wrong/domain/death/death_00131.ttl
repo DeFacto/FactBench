@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Harry_S._Truman__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Branson,_Missouri> ;
+        dbo:from        "2012"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Harry_S._Truman>
+        rdfs:label     "Harry S. Truman"@de , "Harry S. Truman"@fr , "Harry S. Truman"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Harry_S._Truman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Harry_S._Truman> , <http://de.dbpedia.org/resource/Harry_S._Truman> ;
+        skos:altLabel  "H.S. Truman"@en , "Mary Jane Truman"@en , "Truman comittee"@en , "Truman administration"@en , "H.S. Truman"@fr , "Mary Jane Truman"@fr , "Truman comittee"@fr , "Truman administration"@fr , "Truman administration"@de , "Mary Jane Truman"@de , "H.S. Truman"@de , "Truman comittee"@de , "Harry Shippe Truman"@en , "Harry Shippe Truman"@de , "Harry Shippe Truman"@fr , "Presidency of Harry S. Truman"@en , "33rd President of the United States"@en , "President Truman"@en , "Presidency of Harry S. Truman"@fr , "33rd President of the United States"@fr , "President Truman"@fr , "Presidency of Harry S. Truman"@de , "33rd President of the United States"@de , "President Truman"@de , "Truman"@en , "Truman"@de , "Truman"@fr , "Harry Truman"@en , "Harry Truman"@fr , "Harry Truman"@de , "Harry S.Truman"@en , "Harry S.Truman"@fr , "Harry S.Truman"@de , "Truman Administration"@en , "Truman Administration"@de , "Truman Administration"@fr , "Truman Committee"@en , "Truman Committee"@fr , "Truman Committee"@de , "S truman"@en , "S truman"@de , "S truman"@fr , "President Harry Truman"@en , "President Harry Truman"@de , "President Harry Truman"@fr , "Mr. Citizen"@en , "Mr. Citizen"@fr , "Mr. Citizen"@de , "Truman Comission"@en , "Truman Comission"@fr , "Truman Comission"@de , "Harry S. Truman"@en , "Harry S. Truman"@fr , "Harry S. Truman"@de , "Harry Shipp Truman"@en , "Harry Shipp Truman"@fr , "Harry Shipp Truman"@de , "H. Truman"@en , "H. Truman"@fr , "H. Truman"@de , "Harry S Truman"@en , "Harry S Truman"@de , "Harry S Truman"@fr , "Harry Truman's"@en , "Harry Truman's"@de , "Harry Truman's"@fr , "Harry Solomon Truman"@en , "Harry Solomon Truman"@fr , "Harry Solomon Truman"@de , "H. S. Truman"@en , "H. S. Truman"@de , "H. S. Truman"@fr , "Hary truman"@en , "Truman Commission"@en , "Hary truman"@fr , "Truman Commission"@de , "Truman Commission"@fr , "Hary truman"@de .
+
+<http://dbpedia.org/resource/Branson,_Missouri>
+        rdfs:label     "Branson, Missouri"@en , "Branson, Missouri"@fr , "Branson, Missouri"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Branson_(Missouri)> , <http://de.dbpedia.org/resource/Branson_(Missouri)> ;
+        skos:altLabel  "Branson, MO"@fr , "Branson, MO"@de , "Branson, Missouri"@en , "Branson, Missouri"@fr , "Branson, Missouri"@de , "Branson"@en , "Branson"@fr , "Branson"@de , "Branson missouri"@en , "Branson missouri"@fr , "Branson missouri"@de , "LOCODE:USPLK"@en , "LOCODE:USPLK"@fr , "LOCODE:USPLK"@de , "Branson mo"@en , "Branson mo"@fr , "Branson mo"@de , "Branson, MO mSA"@en , "Branson, MO mSA"@fr , "Branson, MO mSA"@de , "Branson, MO"@en .

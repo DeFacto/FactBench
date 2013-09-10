@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06g3_y>
+        rdfs:label     "David Buckner"@en , "Dave Buckner"@fr ;
+        skos:altLabel  "Dave Buckner"@en .
+
+<http://dbpedia.org/resource/Timbaland>
+        rdfs:label     "Timbaland"@de , "Timbaland"@fr , "Timbaland"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Timbaland__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Timbaland> , <http://fr.dbpedia.org/resource/Timbaland> ;
+        skos:altLabel  "Thomas Crown Studios"@fr , "Remix & Soundtrack Collection"@en , "Remix & Soundtrack Collection"@de , "Remix & Soundtrack Collection"@fr , "Timbaland Ft. Tony Yayo & 50 Cent"@en , "Timbaland Ft. Tony Yayo & 50 Cent"@de , "Timbaland Ft. Tony Yayo & 50 Cent"@fr , "Timothy Z. Mosley"@de , "Break Ya Back"@en , "Monique Idlett"@en , "Monique Idlett"@de , "Break Ya Back"@de , "Break Ya Back"@fr , "Monique Idlett"@fr , "Timothy Mosley"@en , "Talk That"@en , "Timothy Mosley"@de , "Timothy Mosley"@fr , "Talk That"@de , "Talk That"@fr , "Timbaland"@en , "Timbaland"@de , "Timbaland"@fr , "Timbaland thursdays"@en , "Timbaland thursdays"@de , "Timbaland thursdays"@fr , "T. Mosley"@en , "T. Mosley"@de , "T. Mosley"@fr , "Timothy Zachery Mosley"@en , "Timothy Zachery Mosley"@de , "Timothy Zachery Mosley"@fr , "Da Basement Sound"@en , "Da Basement Sound"@de , "Da Basement Sound"@fr , "Meltdown"@en , "Meltdown"@de , "Meltdown"@fr , "Timothy \"Timbaland\" Mosley"@en , "Tim Mosley"@en , "Tim \"Timbaland\" Mosley"@en , "Tim \"Timbaland\" Mosley"@fr , "Tim \"Timbaland\" Mosley"@de , "Timothy \"Timbaland\" Mosley"@de , "Timothy \"Timbaland\" Mosley"@fr , "TIMBALAND FEAT. KERI HILSON"@en , "Tim Mosley"@de , "Tim Mosley"@fr , "TIMBALAND FEAT. KERI HILSON"@de , "TIMBALAND FEAT. KERI HILSON"@fr , "Mosley"@de , "Thomas Crown Studios"@en , "Thomas Crown Studios"@de .
+
+<http://dbpedia.org/resource/Timbaland__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.06g3_y> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Conway_Twitty>
+        rdfs:label     "Conway Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Conway_Twitty__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Conway_Twitty> , <http://fr.dbpedia.org/resource/Conway_Twitty> ;
+        skos:altLabel  "Harold Lloyd Jenkins"@en , "Twitty"@en , "Harold Lloyd Jenkins"@fr , "Twitty"@fr , "Harold Lloyd Jenkins"@de , "Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr , "Conway Twitty"@de , "Harold Jenkins a.k.a Conway Twitty"@en , "Conway"@en , "Harold Jenkins"@en , "Conway"@fr , "Conway"@de , "Harold Jenkins"@fr , "Harold Jenkins"@de , "Conway Titty"@en , "Harold Jenkins a.k.a Conway Twitty"@fr , "Harold Jenkins a.k.a Conway Twitty"@de , "Conway Titty"@fr , "Conway Titty"@de .
+
+<http://dbpedia.org/resource/Santa_Barbara,_California>
+        rdfs:label     "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Barbara_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Barbara_(Californie)> ;
+        skos:altLabel  "Westside Projects Barrio"@en , "Downtown Santa Barbara, California"@fr , "Downtown Santa Barbara, California"@de , "Westside Projects Barrio"@fr , "Westside Projects Barrio"@de , "American Riviera"@en , "Santa Barbara, Ca"@en , "American Riviera"@fr , "Santa Barbara, Ca"@fr , "American Riviera"@de , "Santa Barbara, Ca"@de , "LOCODE:USSBA"@en , "Santa barbara, ca"@en , "Barbara"@en , "LOCODE:USSBA"@fr , "Santa barbara, ca"@fr , "Barbara"@fr , "LOCODE:USSBA"@de , "Barbara"@de , "Santa barbara, ca"@de , "Santa Barbara"@en , "Santa Barbara"@fr , "Santa Barbara"@de , "Santa Barbara, CA"@en , "Santa Barbara, CA"@fr , "Santa Barbara, CA"@de , "Santa Barbara, Calif."@en , "Santa Barbara, Calif."@fr , "Santa Barbara, Calif."@de , "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de , "Downtown Santa Barbara, California"@en .
+
+<http://dbpedia.org/resource/Conway_Twitty__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Barbara,_California> ;
+        dbo:from        "1964"^^xsd:gYear ;
+        dbo:to          "1964"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Akron,_Ohio>
+        rdfs:label     "Akron, Ohio"@de , "Akron, Ohio"@fr , "Akron, Ohio"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Akron> , <http://fr.dbpedia.org/resource/Akron_(Ohio)> ;
+        skos:altLabel  "Akron Ohio"@de , "Akron Ohio"@fr , "Akron Ohio"@en , "Akron, oh"@en , "Akron, oh"@de , "Akron, oh"@fr , "Downtown Akron, OH"@de , "Downtown Akron, OH"@fr , "Downtown Akron, OH"@en , "Akron, Oh"@de , "Akron, Oh"@fr , "Akron, Oh"@en , "Akron"@en , "Akron"@de , "Akron"@fr , "Ohio Akron"@en , "Ohio Akron"@de , "Ohio Akron"@fr , "Rubber City"@de , "Rubber City"@fr , "Rubber City"@en , "Akron Police Department"@de , "Akron Police Department"@fr , "Akron Police Department"@en , "Downtown Akron, Ohio"@de , "Downtown Akron, Ohio"@fr , "Downtown Akron, Ohio"@en , "Ak rowdy"@en , "Ak rowdy"@de , "Ak rowdy"@fr , "Akron, Ohio Police"@en , "Akron, Ohio"@de , "Akron, Ohio"@fr , "Akron, Ohio"@en , "Akron, Ohio Police"@de , "Akron, Ohio Police"@fr , "LOCODE:USAKH"@de , "LOCODE:USAKH"@fr , "LOCODE:USAKH"@en , "Akron, OH"@de , "Akron, OH"@fr , "Akron, OH"@en .
+
+<http://dbpedia.org/resource/Martin_Scorsese__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Akron,_Ohio> ;
+        dbo:from        "1865"^^xsd:gYear ;
+        dbo:to          "1865"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Martin_Scorsese>
+        rdfs:label     "Martin Scorsese"@fr , "Martin Scorsese"@en , "Martin Scorsese"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Martin_Scorsese__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Martin_Scorsese> , <http://fr.dbpedia.org/resource/Martin_Scorsese> ;
+        skos:altLabel  "Martin Marcantonio Luciano Scorsese"@en , "Martin Marcantonio Luciano Scorsese"@de , "Martin Marcantonio Luciano Scorsese"@fr , "Sinatra"@en , "Martin Scorsesi"@en , "Sinatra"@de , "Sinatra"@fr , "Martin Scorsesi"@de , "Martin Scorsesi"@fr , "Oscar winner, Martin Scorsese"@en , "Oscar winner, Martin Scorsese"@de , "Oscar winner, Martin Scorsese"@fr , "Scorsesi"@en , "Scorsesi"@de , "Scorsesi"@fr , "Martin Scorcese"@en , "Martin Scorcese"@de , "Martin Scorcese"@fr , "Martin scorsese"@en , "Martin scorsese"@de , "Martin scorsese"@fr , "Scorsese"@en , "Scorsese"@de , "Scorsese"@fr , "Martin Scorsese"@en , "Martin Scorsese"@de , "Martin Scorsese"@fr , "Scorsese, Martin"@en , "Scorsese, Martin"@de , "Scorsese, Martin"@fr , "Scorseze"@en , "Scorseze"@de , "Scorseze"@fr , "Scorsezi"@en , "Scorsezi"@de , "Scorsezi"@fr , "Martin Scorsese characters"@en , "Martin Scorsese characters"@de , "Martin Scorsese characters"@fr , "Martin scorcese"@en , "Scorcese"@en , "Martin scorcese"@de , "Scorcese"@de , "Scorcese"@fr , "Martin scorcese"@fr , "Martin scoresese"@fr , "Martin scorece"@fr , "Martin schorsese"@en , "Martin schorsese"@de , "Martin schorsese"@fr , "Martin Schorsese"@en , "Martin Schorsese"@de , "Martin Schorsese"@fr .

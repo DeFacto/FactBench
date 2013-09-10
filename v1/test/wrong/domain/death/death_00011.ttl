@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .
+
+<http://dbpedia.org/resource/Benjamin_Franklin__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Benjamin_Franklin>
+        rdfs:label     "Benjamin Franklin"@fr , "Benjamin Franklin"@en , "Benjamin Franklin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Benjamin_Franklin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Benjamin_Franklin> , <http://de.dbpedia.org/resource/Benjamin_Franklin> ;
+        skos:altLabel  "Richard Saunders"@fr , "Benjamin (Ben) Franklin"@en , "Benjamin (Ben) Franklin"@de , "Benjamin (Ben) Franklin"@fr , "Ben Franklin"@en , "Ben Franklin"@fr , "Ben Franklin"@de , "Ben Franlkin"@en , "Ben Franlkin"@de , "Ben Franlkin"@fr , "Sidi Mehemet Ibrahim"@en , "Those who would give up Essential Liberty"@en , "Those who would give up Essential Liberty"@de , "Those who would give up Essential Liberty"@fr , "Sidi Mehemet Ibrahim"@fr , "Sidi Mehemet Ibrahim"@de , "Franklin"@en , "Franklin"@fr , "Franklin"@de , "Alice Addertongue"@en , "Alice Addertongue"@fr , "Alice Addertongue"@de , "Ben franklin"@en , "Ben franklin"@fr , "Ben franklin"@de , "The Benjamin Franklin Bust"@en , "The Benjamin Franklin Bust"@de , "The Benjamin Franklin Bust"@fr , "Anthony Afterwit"@en , "Anthony Afterwit"@fr , "Anthony Afterwit"@de , "Benjamin franklin"@en , "Benjamin franklin"@fr , "Benjamin franklin"@de , "Benjamin Franklin"@en , "Benjamin Franklin"@fr , "Benjamin Franklin"@de , "Bejamin franklin"@en , "Bejamin franklin"@fr , "Bejamin franklin"@de , "Sage of the Constitutional Convention"@en , "Sage of the Constitutional Convention"@de , "Sage of the Constitutional Convention"@fr , "Silence doogood"@en , "Silence doogood"@de , "Silence doogood"@fr , "The Benjamin Franklin"@en , "The Benjamin Franklin"@de , "The Benjamin Franklin"@fr , "B Franklin"@en , "B Franklin"@fr , "B Franklin"@de , "Friend to the Poor"@en , "Friend to the Poor"@fr , "Friend to the Poor"@de , "Franklin-Ofen"@de , "Dame Silence Dogood"@fr , "Abigail Twitterfield"@en , "Abigail Twitterfield"@fr , "Benjamin"@fr , "Abigail Twitterfield"@de , "Poor Richard"@fr , "Abigail Afterwit"@en , "Abigail Afterwit"@fr , "Abigail Afterwit"@de , "Ben Frank"@en , "Ben Frank"@fr , "Ben Frank"@de , "B franklin"@en , "B franklin"@de , "B franklin"@fr , "B. Franklin"@en , "Silence Dogood"@fr , "Silence Dogood"@de , "B. Franklin"@de , "B. Franklin"@fr , "Betty Diligent"@en , "Betty Diligent"@fr , "Betty Diligent"@de .

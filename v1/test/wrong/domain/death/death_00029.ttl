@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robert_F._Kennedy>
+        rdfs:label     "Robert F. Kennedy"@de , "Robert F. Kennedy"@fr , "Robert F. Kennedy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robert_F._Kennedy__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_F._Kennedy> , <http://fr.dbpedia.org/resource/Robert_Francis_Kennedy> ;
+        skos:altLabel  "Bobby Kenneddy"@en , "Robert Fitzgerald Kennedy"@en , "Bobby Kenneddy"@de , "Bobby Kenneddy"@fr , "Robert Fitzgerald Kennedy"@de , "Robert Fitzgerald Kennedy"@fr , "Bobby Kennedy"@en , "Bobby Kennedy"@de , "Bobby Kennedy"@fr , "Robert F Kennedy"@de , "Robert F Kennedy"@fr , "Bob Kennedy"@fr , "Robert F Kennedy"@en , "Robert Francis Kennedy"@en , "Robert Francis Kennedy"@de , "Robert Francis Kennedy"@fr , "Bobby kennedy"@en , "Bobby kennedy"@de , "Bobby kennedy"@fr , "Robert F. Kennedy"@en , "Robert F. Kennedy"@de , "Robert F. Kennedy"@fr , "Robert Kenedy"@en , "Robert Kenedy"@de , "Robert Kenedy"@fr , "Robert Francis \"Bobby\" Kennedy"@en , "Robert Francis \"Bobby\" Kennedy"@de , "Robert Francis \"Bobby\" Kennedy"@fr , "The Enemy Within"@en , "The Enemy Within"@de , "The Enemy Within"@fr , "Robert f kennedy"@de , "Robert f kennedy"@fr , "Robert f kennedy"@en , "Bobby F. Kennedy"@en , "Bobby F. Kennedy"@de , "Bobby F. Kennedy"@fr , "Bobby Francis Kennedy"@en , "Bobby Francis Kennedy"@de , "Bobby Francis Kennedy"@fr , "Robert"@fr , "Kennedy"@en , "Kennedy"@de , "Kennedy"@fr , "Robert Kennedy"@en , "Robert Kennedy"@de , "Robert Kennedy"@fr .
+
+<http://dbpedia.org/resource/Robert_F._Kennedy__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Potsdam> ;
+        dbo:from        "1786"^^xsd:gYear ;
+        dbo:to          "1786"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Potsdam>
+        rdfs:label     "Potsdam"@de , "Potsdam"@en , "Potsdam"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Potsdam> , <http://fr.dbpedia.org/resource/Potsdam> ;
+        skos:altLabel  "Potzdam"@fr , "LOCODE:DEPOT"@en , "LOCODE:DEPOT"@fr , "LOCODE:DEPOT"@de , "Poztupimi"@de , "Potsdam, Germany"@en , "Potsdam, Germany"@fr , "Potsdam, Germany"@de , "Krampnitz"@de , "Potsdam"@en , "Potsdam"@de , "Potsdam"@fr , "Postdam"@fr .

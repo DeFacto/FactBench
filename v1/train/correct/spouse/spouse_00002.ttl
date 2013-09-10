@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bbf1f>
+        rdfs:label     "Katie Holmes"@fr , "Katie Holmes"@en , "Katie Holmes"@de ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0bbf1f__2> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Katie_Holmes> , <http://fr.dbpedia.org/resource/Katie_Holmes> , <http://dbpedia.org/resource/Katie_Holmes> ;
+        skos:altLabel  "Kate Noelle \"Katie\" Holmes"@en , "Holmes"@en , "Holmes"@fr , "Katy Holmes"@fr , "Jessica Feschbach"@fr , "Jessica Feschbach"@en , "Jessica Feschbach"@de , "Katy Holmes"@en , "Katy Holmes"@de , "Katherine N. Holmes"@fr , "Katherine N. Holmes"@en , "Katherine N. Holmes"@de , "Katherine N Holmes"@fr , "Katherine N Holmes"@en , "Katherine N Holmes"@de , "Katie Cruise"@en , "Kate Noelle Holmes"@en , "Kate Noelle Holmes"@fr , "Katie holmes"@fr , "Katie holmes"@en , "Katie holmes"@de , "Catie Holmes"@fr , "Kaite holmes"@fr , "Catie Holmes"@en , "Katie"@en , "Catie Holmes"@de , "Kaite holmes"@en , "Kaite holmes"@de , "Suri"@en , "Suri"@de , "Suri"@fr , "Katherine Noelle Holmes"@fr , "Katherine Noelle Holmes"@en , "Katherine Noelle Holmes"@de , "Suri Cruise"@fr , "Suri Cruise"@en , "Suri Cruise"@de , "Katherine Holmes"@fr , "Katherine Holmes"@en , "Katherine Holmes"@de , "Katie Holmes"@en , "Katie Holmes"@de , "Katie Holmes"@fr .
+
+<http://rdf.freebase.com/ns/m.07r1h>
+        rdfs:label     "Tom Cruise"@fr , "Tom Cruise"@en , "Tom Cruise"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tom_Cruise> , <http://dbpedia.org/resource/Tom_Cruise> , <http://fr.dbpedia.org/resource/Tom_Cruise> ;
+        skos:altLabel  "Tomy"@fr , "Thomas Cruise Mapother"@fr , "Thomas Cruise Mapother"@de , "Thomas Cruise Mapother"@en , "Thomas Cruise"@fr , "Thomas Cruise"@de , "Thomas Cruise"@en , "Thomas Cruise Mapother IV"@de , "Thomas Cruise Mapother IV"@en , "Thomas Cruise Mapother IV"@fr , "Jump the couch"@fr , "Jump the couch"@de , "Jump the couch"@en , "Tom cruise"@fr , "Tom cruise"@de , "Tom cruise"@en , "Suri cruise"@fr , "Suri cruise"@de , "Suri cruise"@en , "Relationship of Tom Cruise and Katie Holmes"@fr , "Relationship of Tom Cruise and Katie Holmes"@de , "Relationship of Tom Cruise and Katie Holmes"@en , "Tom Cruise and Katie Holmes"@fr , "Tom Cruise and Katie Holmes"@de , "Tom Cruise and Katie Holmes"@en , "Suri Cruise"@fr , "Couch jumping"@fr , "Couch jumping"@de , "Couch jumping"@en , "Suri Cruise"@de , "Suri Cruise"@en , "Tomu Kurûzu"@en , "Tomu Kurûzu"@fr , "Suri Holmes-Cruise"@fr , "Suri Holmes-Cruise"@de , "Suri Holmes-Cruise"@en , "Suri Holmes Cruise"@fr , "Suri Holmes Cruise"@de , "Suri Holmes Cruise"@en , "Jumping the couch"@fr , "Jumping the couch"@de , "Jumping the couch"@en , "Thomas Cruise Mapother IV."@de , "Tom"@en , "Katie Holmes and Tom Cruise"@fr , "Suri Mapother"@fr , "Katie Holmes and Tom Cruise"@de , "Suri Mapother"@de , "Katie Holmes and Tom Cruise"@en , "Suri Mapother"@en , "Cruise"@de , "Tom Cruise"@fr , "Tom Cruise"@de , "Tom Cruise"@en , "Jumping the Couch"@fr , "Tom cruise kills oprah"@fr , "Jumping the Couch"@de , "Tom cruise kills oprah"@de , "Tom cruise kills oprah"@en , "Jumping the Couch"@en , "Thomas Mapother"@fr , "Thomas Mapother"@de , "Thomas Mapother"@en , "Connor Cruise"@fr , "Thom Cruise"@fr , "Connor Cruise"@de , "Thom Cruise"@de , "Thom Cruise"@en , "Connor Cruise"@en , "Thomas cruise"@fr , "Thomas cruise"@de , "Thomas cruise"@en , "T. C. Mapother"@fr , "T. C. Mapother IV"@fr , "T. C. Mapother"@de , "T. C. Mapother"@en , "Tom Cruise and Scientology"@fr , "T. C. Mapother IV"@de , "Tom Cruise and Scientology"@de , "T. C. Mapother IV"@en , "Tom Cruise and Scientology"@en , "Tom Mapother"@fr , "Tom Mapother"@de , "Tom Mapother"@en , "Suri Holmes"@fr , "Suri Holmes"@de , "Suri Holmes"@en , "TomKitten"@fr , "TomKitten"@de , "TomKitten"@en , "Thomas Mapother IV"@fr , "Thomas Mapother IV"@de , "Thomas Mapother IV"@en .
+
+<http://rdf.freebase.com/ns/m.0bbf1f__2>
+        dbo:from    "2006-11-18"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.07r1h> ;
+        dbo:to      "2012-08-20"^^xsd:date .

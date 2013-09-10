@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03y82t6__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.06crng> ;
+        dbo:to    "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.06crng>
+        rdfs:label     "Russell Brand"@en , "Russell Brand"@fr , "Russell Brand"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Russell_Brand> , <http://de.dbpedia.org/resource/Russell_Brand> , <http://fr.dbpedia.org/resource/Russell_Brand> ;
+        skos:altLabel  "Russell Brand"@de , "Russel Brand"@de , "Rusell brand"@en , "Rusell brand"@fr , "Rusell brand"@de , "Brand"@en , "Brand"@fr , "Brand"@de , "Mr. Brand"@en , "Russell of the Brandiest"@en , "Russell of the Brandiest"@fr , "Russell of the Brandiest"@de , "Russell Edward Brand"@en , "Russell Edward Brand"@fr , "Russell Edward Brand"@de , "Russ"@en , "Aldous Snow"@en , "Aldous Snow"@fr , "Aldous Snow"@de , "Aldous snow"@en , "Aldous snow"@fr , "Aldous snow"@de , "Russel Brand"@en , "Russell Brand"@en , "Russel Brand"@fr , "Russell Brand"@fr .
+
+<http://rdf.freebase.com/ns/m.03y82t6>
+        rdfs:label     "Katy Perry"@de , "Katy Perry"@fr , "Katy Perry"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03y82t6__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Katy_Perry> , <http://dbpedia.org/resource/Katy_Perry> , <http://de.dbpedia.org/resource/Katy_Perry> ;
+        skos:altLabel  "Katheryn Brand"@en , "Katy pery"@en , "Katy pery"@de , "Katy pery"@fr , "Katy perry"@en , "Katy perry"@de , "Katy perry"@fr , "Katheryn B. Hudson"@en , "Kathryn Elizabeth Hudson"@en , "Kathryn Elizabeth Hudson"@de , "Kathryn Elizabeth Hudson"@fr , "Katty Perry"@en , "Katty Perry"@de , "Katty Perry"@fr , "Katherine perry"@fr , "Katheryn Elizabeth Hudson"@en , "Katheryn Elizabeth Hudson"@de , "Katheryn Elizabeth Hudson"@fr , "Kathy Perry"@fr , "Ageega"@en , "Ageega"@de , "Ageega"@fr , "Keti Perri"@en , "Katy Perry"@en , "Katy Perrie"@en , "Katy Perry"@de , "Katy Perry"@fr , "Katy Perrie"@de , "Katy Perrie"@fr , "Katy Hudson"@en , "Katy Hudson"@de , "Katy Hudson"@fr , "Kathryn Hudson"@en , "Kathryn Hudson"@de , "Kathryn Hudson"@fr , "(A) Katy Perry"@en , "(A) Katy Perry"@de , "(A) Katy Perry"@fr , "Kate Perry"@en , "Kate Perry"@de , "Kate Perry"@fr , "Katherine Perry"@fr , "List of songs recorded by Katy Perry"@en , "List of songs recorded by Katy Perry"@de , "List of songs recorded by Katy Perry"@fr , "Perry"@fr , "Kety Perry"@en , "Katy Elizabeth Hudson"@de , "Katheryn Hudson"@en , "Katheryn Hudson"@de , "Katheryn Hudson"@fr , "Katie Perry"@fr , "Katie Perrie"@en , "Katie Perrie"@de , "Katie Perrie"@fr .

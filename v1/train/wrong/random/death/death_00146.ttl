@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mardy_Fish>
+        rdfs:label     "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy Fish"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mardy_Fish__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mardy_Fish> , <http://fr.dbpedia.org/resource/Mardy_Fish> ;
+        skos:altLabel  "Mardy Fish"@en , "Marty Fish"@en , "Marty Fish"@fr , "Marty Fish"@de , "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy"@en , "Mardy"@de , "Mardy"@fr , "Fish"@en , "Fish"@fr , "Fish"@de .
+
+<http://dbpedia.org/resource/Norfolk,_Virginia>
+        rdfs:label     "Norfolk, Virginia"@en , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norfolk_(Virginia)> , <http://fr.dbpedia.org/resource/Norfolk_(Virginie)> ;
+        skos:altLabel  "Ledger-Dispatch"@de , "Norfolk International Airport"@fr , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de , "City of Norfolk, Virginia"@en , "City of Norfolk, Virginia"@fr , "City of Norfolk, Virginia"@de , "Norfolk, Va"@en , "Norfolk, Va"@fr , "Norfolk, Va"@de , "LOCODE:USORF"@en , "LOCODE:USORF"@fr , "LOCODE:USORF"@de , "Norfolk"@en , "Norfolk, VA"@en , "Norfolk, va"@en , "Norfolk"@fr , "Norfolk, VA"@fr , "Norfolk, va"@fr , "Norfolk"@de , "Norfolk, VA"@de , "Norfolk, va"@de , "Norfolk VA"@en , "Norfolk VA"@fr , "Norfolk VA"@de , "Norfolk, Va."@en , "Norfolk, Va."@fr , "Norfolk, Va."@de , "Ledger-Dispatch"@en , "Norfolk, Virginia"@en , "Ledger-Dispatch"@fr .
+
+<http://dbpedia.org/resource/Mardy_Fish__1>
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Norfolk,_Virginia> ;
+        dbo:to      "2001"^^xsd:gYear .

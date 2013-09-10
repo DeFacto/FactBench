@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Phoenix_Suns>
+        rdfs:label     "Phoenix Suns"@en , "Phoenix Suns"@fr , "Phoenix Suns"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Suns_de_Phoenix> , <http://de.dbpedia.org/resource/Phoenix_Suns> ;
+        skos:altLabel  "Phx suns"@en , "Phx suns"@fr , "Phx suns"@de , "Suns de Phoenix"@fr , "Phoenix suns"@en , "Phoenix Suns"@en , "Phoenix suns"@fr , "Phoenix suns"@de , "Phoenix Suns"@de , "Phoenix Suns"@fr , "Phoenix"@fr , "Suns"@en , "Suns"@fr , "Suns"@de , "Phoenix Suns roster"@en , "Phoenix Suns roster"@fr , "Phoenix Suns roster"@de , "Arizona suns"@en , "Arizona suns"@fr , "Arizona suns"@de , "Suns de phoenix"@fr .
+
+<http://dbpedia.org/resource/Steve_Nash>
+        rdfs:label     "Steve Nash"@fr , "Steve Nash"@de , "Steve Nash"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Steve_Nash__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Steve_Nash> , <http://de.dbpedia.org/resource/Steve_Nash> ;
+        skos:altLabel  "Steve Nash"@en , "Steve Nash"@fr , "Steve Nash"@de , "Nash"@fr , "Steve Nash Foundation"@en , "Steve Nash Foundation"@fr , "Steve Nash Foundation"@de , "Steven John Nash"@en , "Steven John Nash"@fr , "Steven John Nash"@de , "Stephen John Nash"@en , "Stephen John Nash"@fr , "Stephen John Nash"@de .
+
+<http://dbpedia.org/resource/Steve_Nash__1>
+        dbo:award  <http://dbpedia.org/resource/Phoenix_Suns> ;
+        dbo:from   "2004"^^xsd:gYear ;
+        dbo:to     "2011"^^xsd:gYear .

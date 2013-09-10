@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tennessee_Williams>
+        rdfs:label     "Tennessee Williams"@de , "Tennessee Williams"@fr , "Tennessee Williams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tennessee_Williams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tennessee_Williams> , <http://fr.dbpedia.org/resource/Tennessee_Williams> ;
+        skos:altLabel  "Tennessee"@de , "Tennessee"@fr , "Tennessee"@en , "Tennesse williams"@de , "Tennesse williams"@fr , "Tennesse williams"@en , "Tennessee williams"@de , "Tennessee williams"@fr , "Tennessee williams"@en , "Williams"@fr , "Tenessee Williams"@de , "Tenessee Williams"@fr , "Tenessee Williams"@en , "Androgyne, Mon Amour"@en , "Androgyne, Mon Amour"@de , "Androgyne, Mon Amour"@fr , "Rose Williams"@de , "Rose Williams"@fr , "Rose Williams"@en , "Androgyne, Mon Amour: Poems"@de , "Androgyne, Mon Amour: Poems"@fr , "Thomas Lanier Williams"@de , "Thomas Lanier Williams"@fr , "Thomas Lanier Williams"@en , "Androgyne, Mon Amour: Poems"@en , "Thomas Lanier \"Tennessee\" Williams"@en , "Thomas Lanier \"Tennessee\" Williams"@de , "Thomas Lanier \"Tennessee\" Williams"@fr , "Tennessee Williams"@de , "Tennessee Williams"@fr , "Tennessee Williams"@en , "Thomas Lanier Williams III"@en , "Thomas Lanier Williams III"@de , "Thomas Lanier Williams III"@fr , "Tennesse Williams"@en , "Tennesse Williams"@de , "Tennesse Williams"@fr , "Tennesee Williams"@de , "Tennesee Williams"@fr , "Tennesee Williams"@en .
+
+<http://dbpedia.org/resource/Tennessee_Williams__1>
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Portland,_Maine> ;
+        dbo:to      "1971"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Portland,_Maine>
+        rdfs:label     "Portland, Maine"@en , "Portland, Maine"@fr , "Portland, Maine"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Portland_(Maine)> , <http://fr.dbpedia.org/resource/Portland_(Maine)> ;
+        skos:altLabel  "Portland"@en , "Portland"@fr , "Portland"@de , "Downtown Portland, Maine"@en , "Downtown Portland, Maine"@fr , "Downtown Portland, Maine"@de , "Portland International Marine Terminal"@en , "Portland Maine"@en , "Portland International Marine Terminal"@fr , "Portland Maine"@fr , "Portland Maine"@de , "Portland International Marine Terminal"@de , "Great Fire of 1866"@en , "Great Fire of 1866"@fr , "Great Fire of 1866"@de , "Portland Pier"@en , "Portland, ME"@en , "Portland, me"@en , "Keystone"@en , "Portland, me"@fr , "Keystone"@fr , "Portland, me"@de , "Keystone"@de , "LOCODE:USPWM"@en , "Portland Pier"@fr , "Portland, ME"@fr , "LOCODE:USPWM"@fr , "Portland Pier"@de , "LOCODE:USPWM"@de , "Portland, ME"@de , "Portland, Maine"@en , "Portland, Maine"@fr , "Portland, Maine"@de .

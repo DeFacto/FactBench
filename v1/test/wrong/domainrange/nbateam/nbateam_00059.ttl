@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Carlos_Boozer>
+        rdfs:label     "Carlos Boozer"@en , "Carlos Boozer"@fr , "Carlos Boozer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Carlos_Boozer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carlos_Boozer> , <http://fr.dbpedia.org/resource/Carlos_Boozer> ;
+        skos:altLabel  "Carlos Austin Boozer, Jr."@en , "Carlos Austin Boozer, Jr."@fr , "Carlos Austin Boozer, Jr."@de , "Boozer"@en , "Carlos Boozer"@en , "Carlos Boozer"@fr , "Carlos Boozer"@de , "Boozer"@fr , "Boozer"@de , "Carlos Boozer free agency controversy"@en , "Carlos Boozer free agency controversy"@de , "Carlos Boozer free agency controversy"@fr .
+
+<http://dbpedia.org/resource/Boston_Celtics>
+        rdfs:label     "Boston Celtics"@de , "Boston Celtics"@en , "Boston Celtics"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Boston_Celtics> , <http://fr.dbpedia.org/resource/Celtics_de_Boston> ;
+        skos:altLabel  "Boston Celts"@en , "Boston Celts"@fr , "Boston Celts"@de , "Boston Celtic"@en , "Celtics de boston"@fr , "Boston Celtics"@en , "Boston Celtic"@fr , "Boston Celtics"@fr , "Boston Celtic"@de , "Boston Celtics"@de , "Celtics de Boston"@fr , "The C's"@en , "The C's"@fr , "Celtics De Boston"@fr , "The C's"@de , "Celtic"@en , "Celtic"@fr , "Celtic"@de .
+
+<http://dbpedia.org/resource/Carlos_Boozer__1>
+        dbo:from  "2009"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Boston_Celtics> ;
+        dbo:to    "2009"^^xsd:gYear .

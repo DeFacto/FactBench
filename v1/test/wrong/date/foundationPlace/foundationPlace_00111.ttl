@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04yx44__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0k_q_> ;
+        dbo:from             "2002"^^xsd:gYear ;
+        dbo:to               "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04yx44>
+        rdfs:label     "Applied Minds"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04yx44__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Applied_Minds> ;
+        skos:altLabel  "Applied Minds, Inc."@en , "AMI"@en .
+
+<http://rdf.freebase.com/ns/m.0k_q_>
+        rdfs:label     "Glendale"@en , "Glendale"@fr , "Glendale"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Glendale,_California> , <http://fr.dbpedia.org/resource/Glendale_(Californie)> , <http://de.dbpedia.org/resource/Glendale_(Kalifornien)> ;
+        skos:altLabel  "Chamlian Armenian School"@en , "Chamlian Armenian School"@fr , "Chamlian Armenian School"@de , "Los Angeles County / Glendale city"@en , "Los Angeles Township, California"@en , "Los Angeles Township, California"@fr , "Los Angeles Township, California"@de , "Glendale, CA"@en , "Glendale, CA"@fr , "Glendale, CA"@de , "Verdugo City, California"@en , "Verdugo City, California"@fr , "Verdugo City, California"@de , "Glendale california"@en , "Glendale, California"@en , "Glendale, California"@fr , "Glendale, California"@de , "Glendale california"@fr , "Glendale california"@de , "North Glendale, California"@en , "North Glendale, California"@fr , "North Glendale, California"@de , "Glendale, ca"@en , "Glendale, ca"@fr , "Glendale, ca"@de , "LOCODE:USJGX"@en , "LOCODE:USJGX"@fr , "LOCODE:USJGX"@de , "Glendale"@en , "Glendale, Californie"@fr , "Glendale"@fr , "Glendale"@de .

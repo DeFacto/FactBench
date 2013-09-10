@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Christina_Aguilera__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Prague> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Prague>
+        rdfs:label     "Prague"@de , "Prague"@fr , "Prague"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Prag> , <http://fr.dbpedia.org/resource/Prague> ;
+        skos:altLabel  "Tourisme en République Tchèque"@fr , "Capital of Czech Republic"@en , "Capital of Czech Republic"@de , "Capital of Czech Republic"@fr , "Praha, Czech Republic"@en , "Praha, Czech Republic"@fr , "Praha, Czech Republic"@de , "Prag"@en , "Prahou"@en , "Capital of the Czech Republic"@en , "Prag"@fr , "Prahou"@fr , "Capital of the Czech Republic"@fr , "Prag"@de , "Prahou"@de , "Capital of the Czech Republic"@de , "Historic Centre of Prague"@en , "Historic Centre of Prague"@de , "Historic Centre of Prague"@fr , "CZPRG"@en , "LOCODE:CZPRG"@en , "Praha, hlavni mesto"@fr , "CZPRG"@fr , "CZPRG"@de , "LOCODE:CZPRG"@de , "LOCODE:CZPRG"@fr , "Prague"@en , "Prague"@fr , "Prague"@de , "Hlavní město Praha"@en , "Hlavní město Praha"@de , "Hlavní město Praha"@fr , "Prahy"@en , "Prahy"@de , "Prahy"@fr , "CZ-PR"@de , "Prague ,Czech Republic"@en , "Prague ,Czech Republic"@fr , "Prague ,Czech Republic"@de , "Tourisme en Republique Tcheque"@fr , "Prague, Czechoslovakia"@en , "Prague, Czechoslovakia"@de , "Prague, Czechoslovakia"@fr , "Prague, Czech Republic"@en , "Prague, Czech Republic"@fr , "Prague, Czech Republic"@de , "NUTS Praha"@en , "NUTS Praha"@de , "NUTS Praha"@fr , "Greater Prague"@en , "Greater Prague"@fr , "Greater Prague"@de , "Hlavni mesto Praha"@en , "Hlavni mesto Praha"@de , "Hlavni mesto Praha"@fr , "Praha, hlavní město"@fr , "Praha"@en , "Capitale de la République tchèque"@fr , "Praha"@de , "Praha"@fr , "City of Prague"@en , "City of Prague"@de , "City of Prague"@fr , "Capitale de la Republique tcheque"@fr , "NUTS Prague"@en , "NUTS Prague"@fr , "NUTS Prague"@de , "Wards of Prague"@en , "Wards of Prague"@de , "Wards of Prague"@fr .
+
+<http://dbpedia.org/resource/Christina_Aguilera>
+        rdfs:label     "Christina Aguilera"@de , "Christina Aguilera"@fr , "Christina Aguilera"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Christina_Aguilera__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Christina_Aguilera> , <http://de.dbpedia.org/resource/Christina_Aguilera> ;
+        skos:altLabel  "Max Bratman"@en , "Max Bratman"@de , "Max Bratman"@fr , "Cristina Aguilera"@en , "Cristina Aguilera"@de , "Cristina Aguilera"@fr , "List of unreleased Christina Aguilera songs"@en , "List of unreleased Christina Aguilera songs"@de , "List of unreleased Christina Aguilera songs"@fr , "Christina Bratman"@en , "Christina Bratman"@fr , "Christina Bratman"@de , "Christina"@en , "Christina"@de , "Christina"@fr , "Christine Aguilera"@en , "Christine Aguilera"@fr , "Christine Aguilera"@de , "Christina Aguilara"@en , "Christina Aguilara"@de , "Christina Aguilara"@fr , "X'tina"@en , "Still Dirty"@en , "The Bionic Tour"@en , "Xtina"@en , "Xtina"@de , "Xtina"@fr , "X'tina"@fr , "Still Dirty"@fr , "The Bionic Tour"@fr , "X'tina"@de , "Still Dirty"@de , "The Bionic Tour"@de , "Christina María Aguilera"@en , "Christina Aguleria"@en , "Christina María Aguilera"@fr , "Christina Aguleria"@fr , "Christina Aguleria"@de , "Christina María Aguilera"@de , "Simply Christina Aguilera"@en , "Simply Christina Aguilera"@fr , "Simply Christina Aguilera"@de , "My Kind Of Christmas"@de , "X-tina"@en , "X-tina"@de , "X-tina"@fr , "Xtina aguilera"@en , "Xtina aguilera"@fr , "Xtina aguilera"@de , "Christina aguilera"@en , "Christina Aguillera"@en , "Christina aguilera"@fr , "Christina aguilera"@de , "Christina Aguillera"@de , "Christina Aguillera"@fr , "Christina Agulera"@en , "Christina Agulera"@fr , "Christina Agulera"@de , "Christina Maria Aguilera"@en , "Christina Maria Aguilera"@de , "Christina Maria Aguilera"@fr , "Max Liron Bratman"@en , "Max Liron Bratman"@de , "Max Liron Bratman"@fr , "Christina Aguilera"@en , "Christina Agulara"@en , "Christina Agulara"@de , "Christina Agulara"@fr , "Christina Aguilera"@fr , "Christina Aguilera"@de , "Aguilera"@fr , "Aguilera"@de .

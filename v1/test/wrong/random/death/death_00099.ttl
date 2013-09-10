@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Omaha,_Nebraska>
+        rdfs:label     "Omaha, Nebraska"@en , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Omaha> , <http://fr.dbpedia.org/resource/Omaha_(Nebraska)> ;
+        skos:altLabel  "Omaha, ne"@en , "Omaha Nebraska"@en , "City of Omaha"@en , "Omaha City"@en , "Omaha Nebraska"@fr , "Omaha Nebraska"@de , "Omaha, ne"@fr , "City of Omaha"@fr , "Omaha, ne"@de , "Omaha City"@fr , "Omaha City"@de , "City of Omaha"@de , "Omaha, NE"@en , "Omaha, NE"@fr , "Omaha, NE"@de , "Omaha"@en , "Omaha"@fr , "Omaha"@de , "LOCODE:USOMA"@en , "Omaha, Neb."@en , "LOCODE:USOMA"@fr , "Omaha, Neb."@fr , "LOCODE:USOMA"@de , "Omaha, Neb."@de , "Songs about Omaha"@en , "Songs about Omaha"@fr , "Songs about Omaha"@de , "Omaha,Nebraska"@en , "Omaha, Nebraska"@en , "Omaha,Nebraska"@fr , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de , "Omaha,Nebraska"@de .
+
+<http://dbpedia.org/resource/Walt_Disney__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Omaha,_Nebraska> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Walt_Disney>
+        rdfs:label     "Walt Disney"@de , "Walt Disney"@fr , "Walt Disney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walt_Disney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walt_Disney> , <http://fr.dbpedia.org/resource/Walt_Disney> ;
+        skos:altLabel  "Walter Disney"@en , "Walter Disney"@de , "Walter Disney"@fr , "Walt"@de , "Walt"@fr , "Walter Elias Disney"@en , "Walter Elias Disney"@de , "Walter Elias Disney"@fr , "Walter E. Disney"@en , "Walter E. Disney"@de , "Walter E. Disney"@fr , "Walt Disney"@de , "Walt Disney"@fr , "Walt Disney"@en , "Walt disney"@en , "Walt disney"@de , "Walt disney"@fr , "Walt disney School"@en , "Walt disney School"@fr , "Walt disney School"@de , "Walt E. Disney"@en , "Walt E. Disney"@de , "Walt E. Disney"@fr , "Walt Elias Disney"@en , "Walt Elias Disney"@de , "Walt Elias Disney"@fr , "Walt Disney School"@en , "Walt Disney School"@de , "Walt Disney School"@fr , "Elias"@fr , "Waltdisney"@en , "Waltdisney"@de , "Waltdisney"@fr , "1900s walt timeline"@en , "1900s walt timeline"@de , "1900s walt timeline"@fr , "Walter E Disney"@en , "Walter E Disney"@de , "Walter E Disney"@fr , "Walt DisneyY"@en , "Walt DisneyY"@de , "Walt DisneyY"@fr , "Disney"@en , "Disney"@de , "Disney"@fr , "Walter Elias \"Walt\" Disney"@en , "Walter Elias \"Walt\" Disney"@de , "Walter Elias \"Walt\" Disney"@fr , "W. Disney"@en , "W. Disney"@de , "W. Disney"@fr , "Walt"@en .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/H._P._Lovecraft__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Providence,_Rhode_Island> ;
+        dbo:from        "1890-08-20"^^xsd:date ;
+        dbo:to          "1890-08-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Providence,_Rhode_Island>
+        rdfs:label     "Providence, Rhode Island"@fr , "Providence, Rhode Island"@en , "Providence, Rhode Island"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Providence_(Rhode_Island)> , <http://de.dbpedia.org/resource/Providence> ;
+        skos:altLabel  "Nathanael Greene school"@en , "Nathanael Greene school"@de , "Nathanael Greene school"@fr , "Providnece"@fr , "Providnece"@en , "Providnece"@de , "LOCODE:USPVD"@en , "LOCODE:USPVD"@de , "LOCODE:USPVD"@fr , "Providence, ri"@fr , "Providence, ri"@en , "Providence, ri"@de , "Providence rhode island"@fr , "Providence rhode island"@en , "Providence rhode island"@de , "Providence, USA"@fr , "Providence, USA"@en , "Providence, USA"@de , "Providence"@fr , "Providence"@en , "Providence"@de , "Providence Rhode Island"@en , "Providence Rhode Island"@de , "Providence Rhode Island"@fr , "Providence, Rhode Island"@en , "Providence, Rhode Island"@de , "Providence, Rhode Island"@fr , "Providence, RI"@en , "Providence, RI"@de , "Providence, RI"@fr , "Providence, Rhode island"@fr , "Providence RI"@fr , "Providence, R.I."@en , "Providence, R.I."@de , "Providence RI"@en , "Providence RI"@de , "Providence, R.I."@fr , "Providence, Rhode island"@en , "Providence, Rhode island"@de , "Capital of Rhode Island"@en , "Capital of Rhode Island"@de , "Capital of Rhode Island"@fr .
+
+<http://dbpedia.org/resource/H._P._Lovecraft>
+        rdfs:label     "H. P. Lovecraft"@de , "H. P. Lovecraft"@fr , "H. P. Lovecraft"@en ;
+        dbo:birth      <http://dbpedia.org/resource/H._P._Lovecraft__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/H._P._Lovecraft> , <http://fr.dbpedia.org/resource/H._P._Lovecraft> ;
+        skos:altLabel  "H. Lovecraft"@de , "H. Lovecraft"@en , "H.P. Lovecraft's"@en , "Howard Phillip Lovecraft"@de , "Howard Phillip Lovecraft"@en , "Lovecraft"@fr , "HP Lovecraft"@fr , "Lovecraft"@de , "HP Lovecraft"@en , "HP Lovecraft"@de , "Lovecraft"@en , "H.P.Lovecraft"@fr , "H.P.Lovecraft"@de , "H.P.Lovecraft"@en , "Hp Lovecraft"@fr , "Hp Lovecraft"@de , "Hp Lovecraft"@en , "LOvecraft"@fr , "LOvecraft"@en , "LOvecraft"@de , "H. P. lovecraft"@fr , "H. P. lovecraft"@de , "H. P. lovecraft"@en , "Lovecraft, H."@fr , "Lovecraft, H."@de , "Lovecraft, H."@en , "H.P. Lovecraft"@fr , "H.P. Lovecraft"@en , "H.P. Lovecraft"@de , "H. P. Lovecraft"@fr , "H. P. Lovecraft"@de , "H. P. Lovecraft"@en , "Lovecraft Circle"@fr , "Lovecraft Circle"@de , "Lovecraft Circle"@en , "H.P. lovecraft"@fr , "H.P. lovecraft"@de , "H.P. lovecraft"@en , "Howard Lovecraft"@fr , "Howard Lovecraft"@de , "Howard Lovecraft"@en , "HPLovecraft"@fr , "H.p. Lovecraft"@fr , "HPLovecraft"@de , "H.p. Lovecraft"@de , "H.p. Lovecraft"@en , "HPLovecraft"@en , "H. p. lovecraft"@fr , "H. p. lovecraft"@de , "H. p. lovecraft"@en , "Howard Phillips Lovecraft"@fr , "Howard Phillips Lovecraft"@de , "Howard Phillips Lovecraft"@en , "H.p. lovecraft"@fr , "H.p. lovecraft"@de , "H.p. lovecraft"@en , "Sarah Susan Phillips Lovecraft"@fr , "Sarah Susan Phillips Lovecraft"@de , "Sarah Susan Phillips Lovecraft"@en , "LoveCraft"@fr , "LoveCraft"@de , "LoveCraft"@en , "Howard P. Lovecraft"@fr , "Howard Philips Lovecraft"@fr , "Howard P. Lovecraft"@de , "Howard P. Lovecraft"@en , "H. p. Lovecraft"@fr , "H. p. Lovecraft"@en , "H. p. Lovecraft"@de , "Howard Philips Lovecraft"@en , "Howard Philips Lovecraft"@de , "H P Lovecraft"@fr , "H P Lovecraft"@de , "H P Lovecraft"@en , "Hp lovecraft"@fr , "Hp lovecraft"@en , "Hp lovecraft"@de , "Sophia Greene"@fr , "H.P. Lovecraft's"@fr , "Sophia Greene"@de , "Sophia Greene"@en , "Howard Phillip Lovecraft"@fr , "H. Lovecraft"@fr , "H.P. Lovecraft's"@de .

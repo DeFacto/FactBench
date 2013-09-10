@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Central_African_Republic>
+        rdfs:label     "Central African Republic"@de , "Central African Republic"@fr , "Central African Republic"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/République_centrafricaine> , <http://de.dbpedia.org/resource/Zentralafrikanische_Republik> ;
+        skos:altLabel  "Civil unrest in the Central African Republic"@fr , "Central african republic"@en , "Central african republic"@de , "Central african republic"@fr , "Republique de Centrafrique"@fr , "Central African Rep."@en , "Central African Rep."@fr , "Central African Rep."@de , "Central Africa Republic"@en , "Culture of the Central African Republic"@en , "Central Africa Republic"@de , "Central Africa Republic"@fr , "Culture of the Central African Republic"@fr , "Culture of the Central African Republic"@de , "Central African republic"@en , "Central African republic"@de , "Central African republic"@fr , "Zentralafrikanische Republik"@de , "République centrale d'Afrique"@fr , "Central"@en , "Central"@de , "Central"@fr , "ISO 3166-1:CF"@en , "ISO 3166-1:CF"@de , "ISO 3166-1:CF"@fr , "Centrafrique"@en , "Centrafrique"@fr , "Centrafrique"@de , "Republique centrale d'Afrique"@fr , "République de Centrafrique"@fr , "Central African Rep"@en , "Central African Rep"@de , "Central African Rep"@fr , "Republique Centrafricaine"@en , "Republique Centrafricaine"@fr , "Republique Centrafricaine"@de , "Culture de la République centrafricaine"@fr , "République Centrafricaine"@en , "République Centrafricaine"@fr , "République Centrafricaine"@de , "Republique centrafricaine"@en , "Republique centrafricaine"@de , "Republique centrafricaine"@fr , "République centrafricaine"@en , "République centrafricaine"@de , "République centrafricaine"@fr , "Empire Centraficain"@fr , "The Central African Republic"@en , "The Central African Republic"@de , "The Central African Republic"@fr , "Culture de la Republique centrafricaine"@fr , "Central African"@en , "Central African"@de , "Central African"@fr , "Civil unrest in the Central African Republic"@en , "Central African Republic"@en , "Central African Republic"@de , "Central African Republic"@fr , "Civil unrest in the Central African Republic"@de .
+
+<http://dbpedia.org/resource/Jean_Chrétien>
+        rdfs:label     "Jean Chrétien"@en , "Jean Chrétien"@fr , "Jean Chrétien"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jean_Chrétien__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jean_Chrétien> , <http://fr.dbpedia.org/resource/Jean_Chrétien> ;
+        skos:altLabel  "Jean Chrétien"@fr , "Jean Chrétien"@de , "Joseph Jacques Jean Chrétien"@fr , "Joseph Jacques Jean Chrétien"@de , "Joseph Jacques Jean Chretien"@fr , "Joseph Jacques Jean Chretien"@de , "Chrétien"@fr , "Chrétien"@de , "Chretien"@fr , "Chretien"@de , "Jean Chretien"@fr , "Jean Chretien"@de .
+
+<http://dbpedia.org/resource/Jean_Chrétien__1>
+        dbo:from    "1975"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Central_African_Republic> ;
+        dbo:to      "1976"^^xsd:gYear .

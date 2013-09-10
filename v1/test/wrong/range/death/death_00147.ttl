@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Rawalpindi>
+        rdfs:label     "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rawalpindi> , <http://fr.dbpedia.org/resource/Rawalpindi> ;
+        skos:altLabel  "Rāwalpindi"@en , "Rāwalpindi"@fr , "Rāwalpindi"@de , "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de , "Rawal Pindee"@en , "Rawal Pindee"@fr , "Rawal Pindee"@de , "Râwalpindî"@fr , "Rawalpindi, Pakistan"@en , "Rawalpindi, Pakistan"@fr , "Rawalpindi, Pakistan"@de , "Rāwalpindi, Pakistan"@en , "Rawal Pindi"@en , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@en , "RawalPindi"@en , "Rawal Pindi"@fr , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@fr , "Rawal Pindi"@de , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@de , "Rāwalpindi, Pakistan"@fr , "RawalPindi"@fr , "Rāwalpindi, Pakistan"@de , "RawalPindi"@de , "Pindi"@en , "Pindi"@fr , "Pindi"@de , "Rawlpindini"@en , "Rawlpindini"@fr , "Rawlpindini"@de , "'Pindi"@en , "'Pindi"@fr , "'Pindi"@de .
+
+<http://dbpedia.org/resource/Billy_Preston>
+        rdfs:label     "Billy Preston"@en , "Billy Preston"@fr , "Billy Preston"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Billy_Preston__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Billy_Preston> , <http://de.dbpedia.org/resource/Billy_Preston> ;
+        skos:altLabel  "Billy Preston"@en , "Billy Preston"@fr , "Billy Preston"@de , "Preston"@fr .
+
+<http://dbpedia.org/resource/Billy_Preston__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rawalpindi> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .

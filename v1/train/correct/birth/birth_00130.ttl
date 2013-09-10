@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paramakudi>
+        rdfs:label     "Paramakudi"@en , "Paramakudi"@fr , "Paramakudi"@de ;
+        skos:altLabel  "Paramakudi"@en , "Paramakkudi"@en .
+
+<http://dbpedia.org/resource/Kamal_Haasan>
+        rdfs:label     "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kamal Haasan"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Kamal_Haasan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kamal_Haasan> , <http://fr.dbpedia.org/resource/Kamal_Haasan> ;
+        skos:altLabel  "Kamala hasan"@fr , "Kamala hasan"@en , "Kamala hasan"@de , "Kamalahasan"@fr , "Kamalahasan"@en , "Kamalahasan"@de , "Kamalahaasan"@fr , "Kamalahaasan"@en , "Kamalahaasan"@de , "Kmal haasan"@fr , "Kmal haasan"@en , "Kmal haasan"@de , "Kamalhasan"@de , "Kamalhassan"@fr , "Kamalhassan"@en , "Kamalhassan"@de , "Kamal Hassan"@fr , "Kamal Hassan"@en , "Kamal Hassan"@de , "Kamala haasan"@fr , "Kamala haasan"@en , "Kamala haasan"@de , "Kamalahassan"@fr , "Kamalahassan"@en , "Kamalahassan"@de , "Kamal Hasan"@fr , "Kamal Hasan"@en , "Kamal Hasan"@de , "Marmayogi"@en , "Marmayogi"@de , "Marmayogi"@fr , "Kamal Haasan"@fr , "Kamal Haasan"@en , "Kamal Haasan"@de , "Kaml"@fr , "Kaml"@en , "Kaml"@de , "Thalaivan Irukkiraan"@en , "Thalaivan Irukkiraan"@de , "Thalaivan Irukkiraan"@fr , "Kamal haasna"@en , "Kamal haasna"@de , "Kamal haasna"@fr , "Kamal"@fr , "Kamal"@en , "Kamal"@de .
+
+<http://dbpedia.org/resource/Kamal_Haasan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Paramakudi> ;
+        dbo:from        "1954-11-07"^^xsd:date ;
+        dbo:to          "1954-11-07"^^xsd:date .

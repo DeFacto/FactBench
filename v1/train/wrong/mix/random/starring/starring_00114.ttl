@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kanye_West>
+        rdfs:label     "Kanye West"@de , "Kanye West"@fr , "Kanye West"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kanye_West__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kanye_West> , <http://de.dbpedia.org/resource/Kanye_West> ;
+        skos:altLabel  "Donda West"@fr , "Donda West"@de , "Kanye West biography"@en , "Pastelle Clothing"@en , "Kanye West biography"@fr , "Pastelle Clothing"@fr , "Kanye West biography"@de , "Pastelle Clothing"@de , "Kanye"@en , "Kanye"@de , "Kanye"@fr , "Kayne West"@en , "LVs & Autotune"@en , "LVs & Autotune"@fr , "LVs & Autotune"@de , "Kayne West"@fr , "Kayne West"@de , "Kanye West"@en , "Kanye West"@de , "Kanye West"@fr , "Kanie West"@en , "Yeezy"@en , "Lil' Kanye West"@en , "Kanye Omari"@en , "Kanie West"@fr , "Lil' Kanye West"@de , "Lil' Kanye West"@fr , "Kanye Omari"@de , "Kanye Omari"@fr , "Yeezy"@de , "Yeezy"@fr , "Kanie West"@de , "West"@fr , "KanYe West"@en , "KanYe West"@de , "KanYe West"@fr , "Past Tell Clothing"@en , "Past Tell Clothing"@de , "Past Tell Clothing"@fr , "Dropout Bear"@en , "Dropout Bear"@de , "Dropout Bear"@fr , "Kanje West"@en , "Kanje West"@de , "Kanje West"@fr , "Kanye west"@en , "Kanye west"@fr , "Kanye west"@de , "Universecity"@en , "Universecity"@de , "Universecity"@fr , "Kanyeezy"@en , "Kanyeezy"@de , "Kanyeezy"@fr , "Kanyewest"@en , "Kanyewest"@fr , "Kanyewest"@de , "Pastel Clothing"@en , "Pastel Clothing"@de , "Pastel Clothing"@fr , "Kanye west sounds"@en , "Kanye Omari West"@en , "Kanye Omari West"@fr , "Kanye Omari West"@de , "Kanye west sounds"@fr , "Kanye west sounds"@de , "KanYeWest"@en , "KanYeWest"@fr , "KanYeWest"@de , "Donda West"@en .
+
+<http://rdf.freebase.com/ns/m.0d9jr>
+        rdfs:label     "Seattle"@fr , "Seattle"@en , "Seattle"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seattle> , <http://de.dbpedia.org/resource/Seattle> , <http://dbpedia.org/resource/Seattle> ;
+        skos:altLabel  "Seattle, US-WA"@de , "Seattle, US-WA"@fr , "Alki"@de , "The Emerald City"@de , "Seattle, Washington Territory"@en , "Seattle, Washington Territory"@de , "Seattle, Washington Territory"@fr , "Seattle, WA"@en , "Seattle, Washington"@en , "Seattle, WA"@fr , "Seattle, WA"@de , "Seattle, Washington"@de , "Seattle, Washington"@fr , "Seattle, wa"@en , "Seattle, wa"@fr , "Seattle, wa"@de , "King County / Seattle city"@en , "Seattleites"@en , "Seattleites"@fr , "Seattleites"@de , "The weather in Seattle"@en , "Jet City"@en , "Jet City"@de , "Jet City"@fr , "The weather in Seattle"@fr , "The weather in Seattle"@de , "Seattle, USA"@en , "Seattle, USA"@fr , "Seattle, USA"@de , "Seattleans"@en , "Seattle"@en , "Seattle"@fr , "Seattle"@de , "Seattleans"@fr , "Seattleans"@de , "Seattle, United States"@en , "Seattle, United States"@fr , "Seattle, United States"@de , "Seatle"@en , "Seatle"@fr , "Seatle"@de , "Rain City"@de , "LOCODE:USSEA"@en , "LOCODE:USSEA"@fr , "LOCODE:USSEA"@de , "Emerald City, Washington"@en , "Emerald City, Washington"@de , "Emerald City, Washington"@fr , "Die Smaragdstadt"@de , "Duwamps"@en , "Duwamps"@fr , "Duwamps"@de , "Seattle, Wash."@en , "Seattle, Wash."@fr , "Seattle, Wash."@de , "Seattle's"@en , "Seattle's"@de , "Seattle's"@fr , "City of Seattle"@en , "City of Seattle"@fr , "City of Seattle"@de , "Alki Point"@de , "Seattle Washington"@en , "Seattle Washington"@fr , "Seattle Washington"@de , "Emerald City"@en , "Seattle, United States of America"@en , "Seattle, United States of America"@fr , "Seattle, United States of America"@de , "Seattle WA"@en , "Seattle WA"@fr , "Seattle WA"@de , "Seattle, Wa"@en , "Seattle, Wa"@fr , "Seattle, Wa"@de , "Seattle, US-WA"@en , "Seattle, WA, USA"@en , "Seattle, WA, USA"@de , "Seattle, WA, USA"@fr .
+
+<http://dbpedia.org/resource/Kanye_West__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0d9jr> ;
+        dbo:from   "1983"^^xsd:gYear ;
+        dbo:to     "1983"^^xsd:gYear .

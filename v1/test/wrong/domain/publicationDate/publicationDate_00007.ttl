@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0hlnd>
+        rdfs:label     "Philip José Farmer"@en , "Philip José Farmer"@fr , "Philip José Farmer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0hlnd__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Philip_Jos%C3%A9_Farmer> ;
+        skos:altLabel  "Paul Chapin"@en , "Lord Grandith"@en , "Philip Farmer"@en , "Cordwainer Bird"@en , "Dane Helstrom"@en , "Rod Keen"@en , "Philip Jose Farmer"@en , "Kilgore Trout"@en , "Harry Manders"@en , "Jonathan Swift Sommers, III"@en .
+
+<http://rdf.freebase.com/ns/m.027vqtl>
+        rdfs:label  "Dreams of Dark and Light: The Great Short Fiction of Tanith Lee"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Dreams_of_Dark_and_Light:_The_Great_Short_Fiction_of_Tanith_Lee> .
+
+<http://rdf.freebase.com/ns/m.0hlnd__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027vqtl> ;
+        dbo:from    "1986"^^xsd:gYear ;
+        dbo:to      "1986"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/William_Ewart_Gladstone__1>
+        dbo:from    "2010"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.01v40wd> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01v40wd>
+        rdfs:label     "Nas"@de , "Nas"@fr , "Nas"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nas_(Rapper)> , <http://fr.dbpedia.org/resource/Nas_(rappeur)> , <http://dbpedia.org/resource/Nas> ;
+        skos:altLabel  "Nas Escobar"@de , "Nas Escobar"@fr , "Nas Escobar"@en , "Nasir Jones"@de , "Nasir Jones"@fr , "Nasir Jones"@en , "Nas, will.i.am"@en , "The Jones Experience"@de , "The Jones Experience"@fr , "The Jones Experience"@en , "Nas Jones"@de , "Nas Jones"@fr , "Nas Jones"@en , "Nastradamus"@en , "Nasir bin Olu Dara"@de , "Nasir bin Olu Dara"@fr , "Nasir bin Olu Dara"@en , "Nasir bin Olu Dara Jones"@de , "Nasir bin Olu Dara Jones"@en , "Nasir"@de , "Nasir"@fr , "Nasir"@en , "Nasir Bin Olu Dara"@de , "Nasir Bin Olu Dara"@fr , "Nasir Bin Olu Dara"@en , "Nas & will.i.am"@en , "Nasty Nas"@de , "Nasty Nas"@fr , "Nasty Nas"@en , "Nas (Rapper)"@de , "Nas (rappeur)"@fr , "Scarlett"@en , "Nasir Bin Olu Dara Jones"@de , "Nasir Bin Olu Dara Jones"@fr , "Nasir Bin Olu Dara Jones"@en .
+
+<http://dbpedia.org/resource/William_Ewart_Gladstone>
+        rdfs:label     "William Ewart Gladstone"@de , "William Ewart Gladstone"@fr , "William Ewart Gladstone"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_Ewart_Gladstone__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_Ewart_Gladstone> , <http://de.dbpedia.org/resource/William_Ewart_Gladstone> ;
+        skos:altLabel  "W E Gladstone"@de , "W E Gladstone"@fr , "W E Gladstone"@en , "Gladstone"@de , "Gladstone"@fr , "Gladstone"@en , "W.E. Gladstone"@de , "W.E. Gladstone"@fr , "W.E. Gladstone"@en , "William E Gladstone"@de , "William E Gladstone"@fr , "William E Gladstone"@en , "William Ewart Gladstone"@en , "William Ewart Gladstone"@de , "William Ewart Gladstone"@fr , "Ewart Gladstone"@de , "Ewart Gladstone"@fr , "Ewart Gladstone"@en , "Gladstone's"@de , "Gladstone's"@fr , "Gladstone's"@en , "WE Gladstone"@en , "WE Gladstone"@de , "WE Gladstone"@fr , "W. E. Gladstone"@de , "W. E. Gladstone"@fr , "W. E. Gladstone"@en , "Mr Gladstone"@de , "Mr Gladstone"@fr , "Mr Gladstone"@en , "William E. Gladstone"@de , "William E. Gladstone"@fr , "William E. Gladstone"@en , "Ewart"@en , "Ewart"@de , "Ewart"@fr , "William Gladstone"@de , "William Gladstone"@fr , "William Gladstone"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0lx2l>
+        rdfs:label     "Jim Carrey"@de , "Jim Carrey"@fr , "Jim Carrey"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0lx2l__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jim_Carrey> , <http://dbpedia.org/resource/Jim_Carrey> , <http://fr.dbpedia.org/resource/Jim_Carrey> ;
+        skos:altLabel  "Tony Clifton"@en , "James eugene carrey"@de , "James eugene carrey"@fr , "James eugene carrey"@en , "James Carrey"@de , "James Carrey"@fr , "James Carrey"@en , "Jane Carrey"@de , "Jane Carrey"@fr , "Jane Carrey"@en , "James Eugene Carrey"@de , "James Eugene Carrey"@fr , "James Eugene Carrey"@en , "Jim eugene carrey"@de , "Jim eugene carrey"@fr , "Jim eugene carrey"@en , "Carrey"@de , "Carrey"@fr , "Carrey"@en , "Jim Carry"@de , "Jim Carry"@fr , "Jim Carry"@en , "Jim Carrey"@de , "Jim Carrey"@fr , "Jim Carrey"@en , "James Eugene \"Jim\" Carrey"@en , "Jane Erin Carrey"@en , "Jane Erin Carrey"@de , "Jane Erin Carrey"@fr , "Jim"@fr , "Jim"@en , "Jim carrey"@en , "Jim carrey"@de , "Jim carrey"@fr .
+
+<http://rdf.freebase.com/ns/m.07r1h>
+        rdfs:label     "Tom Cruise"@de , "Tom Cruise"@fr , "Tom Cruise"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tom_Cruise> , <http://dbpedia.org/resource/Tom_Cruise> , <http://fr.dbpedia.org/resource/Tom_Cruise> ;
+        skos:altLabel  "Tomy"@fr , "Thomas Cruise Mapother"@en , "Thomas Cruise Mapother"@fr , "Thomas Cruise Mapother"@de , "Thomas Cruise"@en , "Thomas Cruise"@fr , "Thomas Cruise"@de , "Thomas Cruise Mapother IV"@en , "Thomas Cruise Mapother IV"@fr , "Thomas Cruise Mapother IV"@de , "Jump the couch"@en , "Jump the couch"@fr , "Jump the couch"@de , "Tom cruise"@en , "Tom cruise"@de , "Tom cruise"@fr , "Suri cruise"@en , "Suri cruise"@fr , "Suri cruise"@de , "Relationship of Tom Cruise and Katie Holmes"@en , "Relationship of Tom Cruise and Katie Holmes"@fr , "Relationship of Tom Cruise and Katie Holmes"@de , "Tom Cruise and Katie Holmes"@en , "Tom Cruise and Katie Holmes"@fr , "Tom Cruise and Katie Holmes"@de , "Suri Cruise"@en , "Couch jumping"@en , "Couch jumping"@fr , "Couch jumping"@de , "Suri Cruise"@fr , "Suri Cruise"@de , "Tomu Kurûzu"@en , "Tomu Kurûzu"@fr , "Suri Holmes-Cruise"@en , "Suri Holmes-Cruise"@fr , "Suri Holmes-Cruise"@de , "Suri Holmes Cruise"@en , "Suri Holmes Cruise"@fr , "Suri Holmes Cruise"@de , "Jumping the couch"@en , "Jumping the couch"@fr , "Jumping the couch"@de , "Tom"@en , "Thomas Cruise Mapother IV."@de , "Katie Holmes and Tom Cruise"@en , "Suri Mapother"@en , "Katie Holmes and Tom Cruise"@fr , "Katie Holmes and Tom Cruise"@de , "Suri Mapother"@de , "Suri Mapother"@fr , "Cruise"@de , "Tom Cruise"@en , "Tom Cruise"@fr , "Tom Cruise"@de , "Jumping the Couch"@en , "Tom cruise kills oprah"@en , "Jumping the Couch"@fr , "Tom cruise kills oprah"@de , "Tom cruise kills oprah"@fr , "Jumping the Couch"@de , "Thomas Mapother"@en , "Thomas Mapother"@fr , "Thomas Mapother"@de , "Connor Cruise"@en , "Thom Cruise"@en , "Connor Cruise"@fr , "Thom Cruise"@fr , "Thom Cruise"@de , "Connor Cruise"@de , "Thomas cruise"@en , "Thomas cruise"@fr , "Thomas cruise"@de , "T. C. Mapother"@en , "T. C. Mapother IV"@en , "T. C. Mapother"@fr , "T. C. Mapother"@de , "Tom Cruise and Scientology"@en , "T. C. Mapother IV"@fr , "T. C. Mapother IV"@de , "Tom Cruise and Scientology"@de , "Tom Cruise and Scientology"@fr , "Tom Mapother"@en , "Tom Mapother"@de , "Tom Mapother"@fr , "Suri Holmes"@en , "Suri Holmes"@fr , "Suri Holmes"@de , "TomKitten"@en , "TomKitten"@fr , "TomKitten"@de , "Thomas Mapother IV"@en , "Thomas Mapother IV"@fr , "Thomas Mapother IV"@de .
+
+<http://rdf.freebase.com/ns/m.0lx2l__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.07r1h> ;
+        dbo:to      "2010"^^xsd:gYear .

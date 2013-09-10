@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Walt_Disney__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Burbank,_California> ;
+        dbo:from        "1966-12-15"^^xsd:date ;
+        dbo:to          "1966-12-15"^^xsd:date .
+
+<http://dbpedia.org/resource/Walt_Disney>
+        rdfs:label     "Walt Disney"@de , "Walt Disney"@fr , "Walt Disney"@en ;
+        dbo:death      <http://dbpedia.org/resource/Walt_Disney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walt_Disney> , <http://fr.dbpedia.org/resource/Walt_Disney> ;
+        skos:altLabel  "Walter Disney"@fr , "Walter Disney"@de , "Walter Disney"@en , "Walt"@en , "Walt"@de , "Walter Elias Disney"@fr , "Walter Elias Disney"@en , "Walter Elias Disney"@de , "Walter E. Disney"@fr , "Walter E. Disney"@en , "Walter E. Disney"@de , "Walt Disney"@fr , "Walt Disney"@en , "Walt Disney"@de , "Walt disney"@fr , "Walt disney"@en , "Walt disney"@de , "Walt disney School"@fr , "Walt disney School"@de , "Walt disney School"@en , "Walt E. Disney"@fr , "Walt E. Disney"@en , "Walt E. Disney"@de , "Walt Elias Disney"@fr , "Walt Elias Disney"@en , "Walt Elias Disney"@de , "Walt Disney School"@fr , "Walt Disney School"@en , "Walt Disney School"@de , "Elias"@fr , "Waltdisney"@fr , "Waltdisney"@en , "Waltdisney"@de , "1900s walt timeline"@fr , "1900s walt timeline"@en , "1900s walt timeline"@de , "Walter E Disney"@fr , "Walter E Disney"@en , "Walter E Disney"@de , "Walt DisneyY"@fr , "Walt DisneyY"@en , "Walt DisneyY"@de , "Disney"@fr , "Disney"@en , "Disney"@de , "Walter Elias \"Walt\" Disney"@fr , "Walter Elias \"Walt\" Disney"@en , "Walter Elias \"Walt\" Disney"@de , "W. Disney"@fr , "W. Disney"@en , "W. Disney"@de , "Walt"@fr .
+
+<http://dbpedia.org/resource/Burbank,_California>
+        rdfs:label     "Burbank, California"@en , "Burbank, California"@de , "Burbank, California"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Burbank_(Los_Angeles_County)> , <http://fr.dbpedia.org/resource/Burbank_(Californie)> ;
+        skos:altLabel  "Burbank, Calif"@en , "Burbank, Calif"@de , "Burbank, Calif"@fr , "Burbank, Los Angeles County, California"@fr , "Burbank, Los Angeles County, California"@en , "Burbank, Los Angeles County, California"@de , "Muir (John) Middle School"@fr , "Muir (John) Middle School"@en , "Muir (John) Middle School"@de , "Burbank, Calif."@fr , "Burbank, Calif."@en , "Burbank, Calif."@de , "Burbank, ca"@fr , "Burbank, ca"@en , "Burbank, ca"@de , "Burbank, Los Angeles County, CA"@en , "Burbank, Los Angeles County, CA"@de , "Burbank, Los Angeles County, CA"@fr , "Burbank, CA"@en , "Burbank, CA"@de , "Burbank, CA"@fr , "Burbank"@fr , "Burbank"@en , "Burbank"@de , "John Muir Middle School"@en , "John Muir Middle School"@de , "John Muir Middle School"@fr , "Burbank, Los Angeles, CA"@fr , "Burbank, Los Angeles, CA"@de , "Burbank, Los Angeles, CA"@en , "Burbank california"@en , "Burbank california"@de , "Burbank california"@fr , "Muir Middle School"@en , "Muir Middle School"@de , "Muir Middle School"@fr , "Burbank, California"@fr , "Burbank, Los Angeles, California"@en , "Burbank, Los Angeles, California"@de , "Burbank, Los Angeles, California"@fr , "Burbank, California"@en , "Burbank, California"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mammootty__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Tacoma,_Washington> ;
+        dbo:from        "1965"^^xsd:gYear ;
+        dbo:to          "1965"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tacoma,_Washington>
+        rdfs:label     "Tacoma, Washington"@en , "Tacoma, Washington"@fr , "Tacoma, Washington"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tacoma> , <http://de.dbpedia.org/resource/Tacoma> ;
+        skos:altLabel  "Tacoma City Center, Washington"@en , "Tacoma City Center, Washington"@fr , "Tacoma City Center, Washington"@de , "Tacoma, WA"@en , "LOCODE:USTIW"@en , "Tacoma, Wash."@en , "LOCODE:USTIW"@fr , "LOCODE:USTIW"@de , "Tacoma, WA"@fr , "Tacoma, Wash."@fr , "Tacoma, Wash."@de , "Tacoma, WA"@de , "Tacoma Aroma"@en , "Tacoma Aroma"@fr , "Tacoma Aroma"@de , "Gray Army Air Field"@fr , "Tacoma"@en , "Tacoma"@fr , "Tacoma"@de , "Tacoma mayoral election, 2009"@en , "Tacoma Washington"@en , "Tacoma mayoral election, 2009"@fr , "Tacoma Washington"@fr , "Tacoma Washington"@de , "Tacoma mayoral election, 2009"@de , "Tacoma, wa"@en , "Tacoma, Washington"@en , "Tacoma, wa"@fr , "Tacoma, Washington"@fr , "Tacoma, wa"@de , "Tacoma, Washington"@de , "Tacoma, Wa"@en , "Tacoma, Wa"@fr , "Tacoma, Wa"@de .
+
+<http://dbpedia.org/resource/Mammootty>
+        rdfs:label     "Mammootty"@en , "Mammootty"@fr , "Mammootty"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mammootty__1> ;
+        skos:altLabel  "Mammukka"@en , "Mammotty"@en , "Mammookka"@en , "Megastar Mammootty"@en , "Muhammad Kutty"@en , "Sajin"@en , "Mammootty"@en , "Mammooty"@en .

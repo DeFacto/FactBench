@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.013yq>
+        rdfs:label     "Atlanta"@fr , "Atlanta"@de , "Atlanta"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Atlanta> , <http://fr.dbpedia.org/resource/Atlanta> , <http://dbpedia.org/resource/Atlanta> ;
+        skos:altLabel  "Culture of Atlanta"@en , "The A-T-L"@fr , "The A-T-L"@de , "The A-T-L"@en , "Georgia state capital"@fr , "Georgia state capital"@de , "Georgia state capital"@en , "Population of Atlanta"@fr , "Atlanta, Georgia"@fr , "Atlanta"@fr , "Atlanta , Georgia"@fr , "Atlanta"@de , "Atlanta , Georgia"@de , "Atlanta"@en , "Atlanta , Georgia"@en , "Terminus, GA"@fr , "Population of Atlanta"@de , "Atlanta, Georgia"@de , "Population of Atlanta"@en , "Terminus, GA"@de , "Terminus, GA"@en , "Atlanta, Georgia"@en , "Atlanta, GA"@fr , "Atlanta, Georgie"@fr , "Atlanta, GA"@de , "Atlanta, GA"@en , "Atanta, GA"@fr , "Atanta, GA"@de , "Atanta, GA"@en , "Marthasville, GA"@fr , "Marthasville, GA"@de , "Marthasville, GA"@en , "Fulton County / Atlanta city"@en , "Culture of Atlanta, Georgia"@fr , "Culture of Atlanta, Georgia"@de , "Culture of Atlanta, Georgia"@en , "Atlanta,GA"@fr , "Hotlanta"@fr , "Hotlanta"@de , "Hotlanta"@en , "Atlanta,GA"@de , "Atlanta,GA"@en , "Atlanta, Ga"@fr , "Atlanta, Ga"@de , "Atlanta, Ga"@en , "The city in a forest"@fr , "Atlanta, USA"@fr , "Atlanta ga"@fr , "Atlanta ga"@de , "Atlanta ga"@en , "Atlanta, United States"@fr , "Atlanta Georgia"@fr , "City of Atlanta"@fr , "The city in a forest"@de , "Atlanta, USA"@de , "Atlanta, United States"@de , "Atlanta, United States"@en , "Atlanta, USA"@en , "Atlanta Georgia"@de , "City of Atlanta"@de , "City of Atlanta"@en , "Atlanta Georgia"@en , "The city in a forest"@en , "Terminus, Georgia"@fr , "Terminus, Georgia"@de , "Terminus, Georgia"@en , "Population of atlanta"@fr , "Population of atlanta"@de , "Population of atlanta"@en , "Atlanta, Ga."@fr , "Atlanta, Ga."@de , "Atlanta, Ga."@en , "City in a forest"@fr , "City in a forest"@de , "City in a forest"@en , "The Big Peach"@fr , "The Big Peach"@de , "The Big Peach"@en , "Atlanta GA"@fr , "Atlanta GA"@de , "Atlanta GA"@en , "Atlanta, Géorgie"@fr , "Atlanta,ga"@fr , "Atlanta,ga"@de , "Atlanta,ga"@en , "Cascade"@fr , "Atlanta, GA."@fr , "Atlanta, GA."@de , "Atlanta, GA."@en , "Cascade"@de , "Cascade"@en , "LOCODE:USATL"@fr , "LOCODE:USATL"@de , "LOCODE:USATL"@en , "Atlanta georgia"@fr , "Atlanta georgia"@de , "Atlanta georgia"@en , "Atlanta, ga"@fr , "Atlanta, ga"@de , "Atlanta, ga"@en , "Culture of Atlanta"@fr , "Culture of Atlanta"@de .
+
+<http://dbpedia.org/resource/IBM_Internet_Security_Systems>
+        skos:altLabel  "IBM Internet Security Systems"@en , "Internet Security Systems"@en .
+
+<http://rdf.freebase.com/ns/m.01c6n6__146>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.013yq> ;
+        dbo:from             "1994"^^xsd:gYear ;
+        dbo:to               "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01c6n6>
+        rdfs:label      "IBM Internet Security Systems"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.01c6n6__146> ;
+        owl:sameAs      <http://dbpedia.org/resource/IBM_Internet_Security_Systems> ;
+        skos:altLabel   "Internet Security Systems Inc"@en .

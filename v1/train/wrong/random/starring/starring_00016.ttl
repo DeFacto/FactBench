@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01t_54y__1>
+        dbo:award  <http://dbpedia.org/resource/Veronica_Cartwright> ;
+        dbo:from   "2003"^^xsd:gYear ;
+        dbo:to     "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Veronica_Cartwright>
+        rdfs:label     "Veronica Cartwright"@en , "Veronica Cartwright"@fr , "Veronica Cartwright"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Veronica_Cartwright> , <http://fr.dbpedia.org/resource/Veronica_Cartwright> ;
+        skos:altLabel  "Cartwright"@fr , "Cartwright"@de , "Veronica Cartwright"@en , "Veronica Cartwright"@fr , "Veronica Cartwright"@de , "Veronica A. Cartwright"@fr , "Veronica A. Cartwright"@de , "Veronica A. Cartwright"@en .
+
+<http://rdf.freebase.com/ns/m.01t_54y>
+        rdfs:label     "Ronald Cheng"@en , "Ronald Cheng"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01t_54y__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Ronald_Cheng> ;
+        skos:altLabel  "Cheng Chung-Kei"@en , "郑中基"@en , "Cheng, Ronald"@en , "Zheng Zhong Ji"@en , "Ronald Cheng Chung-Kei"@en , "¾G¤¤°ò"@en , "Cheng Chung Kei"@en , "Ronald Cheng"@en , "Chung-Kei Cheng"@en , "Ronald"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.029c74>
+        rdfs:label     "Kris Aquino"@en , "Kris Aquino"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.029c74__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kris_Aquino> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Kris_Aquino> ;
+        skos:altLabel  "Chris Aquino"@en , "Chris Aquino"@de , "Kristina Bernadette C. Aquino"@en , "Kristina Aquino"@en , "Krissy"@en , "Kristina Aquino"@de , "Kris Aquino"@en , "Kris Aquino"@de , "Aquino"@en , "Aquino"@de , "Queen of All Media"@en , "Philippines' Queen of Talk"@en , "Kris C. Aquino"@en , "Kris C. Aquino"@de , "Tetay"@en , "Kristina Bernadette Cojuangco Aquino"@en , "Kristina Bernadette Aquino-Yap"@en , "Kristina Bernadette Aquino"@en .
+
+<http://rdf.freebase.com/ns/m.029c74__1>
+        dbo:from      "2008"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.0264f6> ;
+        dbo:to        "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0264f6>
+        rdfs:label     "Ruben Studdard"@en , "Ruben Studdard"@fr , "Ruben Studdard"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ruben_Studdard> , <http://dbpedia.org/resource/Ruben_Studdard> , <http://de.dbpedia.org/resource/Ruben_Studdard> ;
+        skos:altLabel  "Rubben Studdard"@en , "Studdard"@en , "Ruben stoddard"@en , "Studdard"@fr , "Studdard"@de , "Ruben stoddard"@fr , "Ruben stoddard"@de , "Ruben Christopher Studdard"@en , "Reuben studdard"@en , "Ruben Studdard"@en , "Christopher Ruben Studdard"@de , "Reuben Studdard"@en , "Ruben Studdard"@fr , "Reuben Studdard"@fr , "Reuben Studdard"@de , "Ruben Studdard"@de , "Ruben Stoddard"@en , "Reuben Stoddard"@en , "Reuben stoddard"@en , "Reuben studdard"@fr , "Reuben Stoddard"@fr , "Reuben Stoddard"@de , "Reuben studdard"@de , "Reuben stoddard"@fr , "Reuben stoddard"@de , "Ruben Stoddard"@fr , "Ruben Stoddard"@de , "Studdard, Ruben"@en , "Ruben Studard"@en , "Ruben Studard"@fr , "Ruben Studard"@de .

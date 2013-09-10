@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c683q>
+        rdfs:label  "IntelliCorp"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c683q__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/IntelliCorp_(software)> .
+
+<http://rdf.freebase.com/ns/m.0c683q__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0rwh9> ;
+        dbo:from             "1991"^^xsd:gYear ;
+        dbo:to               "1991"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0rwh9>
+        rdfs:label     "Cumming"@en , "Cumming"@fr , "Cumming"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cumming_(Géorgie)> , <http://de.dbpedia.org/resource/Cumming_(Georgia)> , <http://dbpedia.org/resource/Cumming,_Georgia> ;
+        skos:altLabel  "Cumming, GA"@en , "Cumming, GA"@fr , "Cumming, GA"@de , "Cumming"@en , "Cumming"@fr , "Cumming"@de , "Cumming, Georgia"@en , "LOCODE:USCMG"@en , "Cumming, Georgia"@fr , "LOCODE:USCMG"@fr , "Cumming, Georgia"@de , "LOCODE:USCMG"@de , "Forsyth County / Cumming city"@en , "Cumming ga"@en , "Cumming ga"@de , "Cumming ga"@fr .

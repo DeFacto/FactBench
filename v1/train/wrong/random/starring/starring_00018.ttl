@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01372v>
+        rdfs:label     "Wilhelm Wien"@en , "Wilhelm Wien"@fr , "Wilhelm Wien"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01372v__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Wilhelm_Wien> , <http://dbpedia.org/resource/Wilhelm_Wien> , <http://de.dbpedia.org/resource/Wilhelm_Wien> ;
+        skos:altLabel  "Wilhelm Wien"@en , "Wilhelm Wien"@fr , "Wilhelm Wien"@de , "Willy Wien"@de , "Willi Wien"@en , "Willi Wien"@fr , "Willi Wien"@de , "Wilhelm Carl Werner Otto Fritz Franz Wien"@en , "Wilhelm Carl Werner Otto Fritz Franz Wien"@fr , "Wilhelm Carl Werner Otto Fritz Franz Wien"@de , "Wilhelm"@en , "Wilhelm"@fr , "Wilhelm"@de , "Wien"@en , "Wien"@fr , "Wien"@de .
+
+<http://rdf.freebase.com/ns/m.01372v__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02wwwv5> ;
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:to      "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02wwwv5>
+        rdfs:label     "The-Dream"@de , "The-Dream"@en , "The-Dream"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The-Dream> , <http://fr.dbpedia.org/resource/The-Dream> , <http://de.dbpedia.org/resource/The-Dream> ;
+        skos:altLabel  "The-Dream"@de , "The Dream"@en , "Dream"@fr , "Dream"@de , "Terius Youngdell Nash"@en , "Terius Youngdell Nash"@fr , "Terius Youngdell Nash"@de , "Terius Nash"@en , "Terius Nash"@fr , "Terius Nash"@de , "The - Dream"@fr , "The - Dream"@de , "The-Dream"@fr .

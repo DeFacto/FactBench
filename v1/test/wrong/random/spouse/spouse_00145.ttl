@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chris_Evert>
+        rdfs:label     "Chris Evert"@fr , "Chris Evert"@de , "Chris Evert"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Evert__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Chris_Evert> , <http://de.dbpedia.org/resource/Chris_Evert> ;
+        skos:altLabel  "Christine Marie Evert"@en , "Christine Marie Evert"@fr , "Christine Marie Evert"@de , "Chris Evert-Lloyd"@en , "Christine Evert"@en , "Chris Evert-Lloyd"@fr , "Christine Evert"@fr , "Chris Evert-Lloyd"@de , "Christine Evert"@de , "Evert"@fr , "Evert"@de , "Chris Evert Lloyd"@en , "Chris Evert Lloyd"@fr , "Chris Evert Lloyd"@de , "Christine Marie \"Chris\" Evert"@en , "Christine Marie \"Chris\" Evert"@fr , "Christine Marie \"Chris\" Evert"@de , "Christine M. Evert"@en , "Chris Evert-Mill"@de , "Christine M. Evert"@fr , "Christine M. Evert"@de , "Chris Evert"@en , "Chris Evert"@fr , "Chris Evert"@de .
+
+<http://dbpedia.org/resource/Norfolk,_Virginia>
+        rdfs:label     "Norfolk, Virginia"@en , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norfolk_(Virginia)> , <http://fr.dbpedia.org/resource/Norfolk_(Virginie)> ;
+        skos:altLabel  "Ledger-Dispatch"@de , "Norfolk International Airport"@fr , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de , "City of Norfolk, Virginia"@en , "City of Norfolk, Virginia"@fr , "City of Norfolk, Virginia"@de , "Norfolk, Va"@en , "Norfolk, Va"@fr , "Norfolk, Va"@de , "LOCODE:USORF"@en , "LOCODE:USORF"@fr , "LOCODE:USORF"@de , "Norfolk"@en , "Norfolk, VA"@en , "Norfolk, va"@en , "Norfolk"@fr , "Norfolk, VA"@fr , "Norfolk, va"@fr , "Norfolk"@de , "Norfolk, VA"@de , "Norfolk, va"@de , "Norfolk VA"@en , "Norfolk VA"@fr , "Norfolk VA"@de , "Norfolk, Va."@en , "Norfolk, Va."@fr , "Norfolk, Va."@de , "Ledger-Dispatch"@en , "Norfolk, Virginia"@en , "Ledger-Dispatch"@fr .
+
+<http://dbpedia.org/resource/Chris_Evert__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Norfolk,_Virginia> ;
+        dbo:from        "2010"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .

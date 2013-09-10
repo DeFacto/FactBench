@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04z_8x__58>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01x6bp> ;
+        dbo:to      "2011-03"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.04z_8x>
+        rdfs:label     "Isabella Leong"@fr , "Isabella Leong"@de , "Isabella Leong"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.04z_8x__58> ;
+        owl:sameAs     <http://dbpedia.org/resource/Isabella_Leong> , <http://fr.dbpedia.org/resource/Isabella_Leong> , <http://de.dbpedia.org/resource/Isabella_Leong> ;
+        skos:altLabel  "Leong"@de , "Isabella Leong"@fr , "Isabella Leong"@de , "Luoshi Liang"@en , "Lok-si Leung"@en , "Bella"@en , "梁洛施"@en , "Luísa Isabella Nolasco da Silva"@en , "Liang Luoshi"@fr , "Isabella Leung"@fr , "Liang Luoshi"@de , "Isabella"@en , "Isabella Leung"@de , "Isabella Leung"@en , "Leong, Isabella"@en .
+
+<http://rdf.freebase.com/ns/m.01x6bp>
+        rdfs:label     "Richard Li"@de , "Richard Li"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Richard_Li> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Li Tzar-kai"@en , "Richard Li"@en , "Richard Li Tzar Kai"@en , "NOW TELEVISION"@en , "Li zekai"@en , "Li Zekai"@en .

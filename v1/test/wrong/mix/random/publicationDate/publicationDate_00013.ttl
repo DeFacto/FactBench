@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Birmingham,_Alabama>
+        rdfs:label     "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Birmingham, Alabama"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Birmingham_(Alabama)> , <http://fr.dbpedia.org/resource/Birmingham_(Alabama)> ;
+        skos:altLabel  "Birmingham alabama"@en , "Birmingham alabama"@de , "Birmingham alabama"@fr , "Tragic city"@en , "Tragic city"@de , "Tragic city"@fr , "Burmingham, AL"@en , "Burmingham, AL"@de , "Burmingham, AL"@fr , "Birmingham, Alabama"@en , "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Tragic City"@en , "Tragic City"@de , "Tragic City"@fr , "Birmingham, USA"@en , "Birmingham, USA"@de , "Birmingham, USA"@fr , "Bombingham"@en , "Bombingham"@de , "Bombingham"@fr , "Aeroport international de Birmingham"@fr , "Birmingham, AL"@de , "Birmingham, AL"@fr , "Birmingham, AL"@en , "Birmingham"@en , "Birmingham"@de , "Birmingham"@fr , "Pratt City, Alabama"@en , "Pratt City, Alabama"@de , "Pratt City, Alabama"@fr , "Birmingham, Al"@en , "Birmingham, Al"@de , "Birmingham, Al"@fr , "Birmingham, Ala."@en , "Burmingham, Alabama"@en , "Birmingham, Ala."@de , "Birmingham, Ala."@fr , "Burmingham, Alabama"@de , "Burmingham, Alabama"@fr , "Aéroport international de Birmingham"@fr , "The Magic City"@en , "The Magic City"@de , "The Magic City"@fr , "Downtown Birmingham, Alabama"@en , "Downtown Birmingham, Alabama"@de , "Downtown Birmingham, Alabama"@fr , "LOCODE:USBHM"@en , "LOCODE:USBHM"@de , "LOCODE:USBHM"@fr , "Schaeffer Eye Center Crawfish Boil"@en , "Schaeffer Eye Center Crawfish Boil"@de , "Schaeffer Eye Center Crawfish Boil"@fr .
+
+<http://rdf.freebase.com/ns/m.035pm__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Birmingham,_Alabama> ;
+        dbo:from        "1985"^^xsd:gYear ;
+        dbo:to          "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.035pm>
+        rdfs:label     "Guglielmo Marconi"@de , "Guglielmo Marconi"@fr , "Guglielmo Marconi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.035pm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Guglielmo_Marconi> , <http://dbpedia.org/resource/Guglielmo_Marconi> , <http://de.dbpedia.org/resource/Guglielmo_Marconi> ;
+        skos:altLabel  "Marchese Marconi, Guglielmo"@en , "Marchese Marconi, Guglielmo"@de , "Marchese Marconi, Guglielmo"@fr , "G Marconi"@de , "G Marconi"@fr , "G Marconi"@en , "Marconigram"@en , "Marchese Guglielmo Marconi"@de , "Marchese Guglielmo Marconi"@fr , "Marchese Guglielmo Marconi"@en , "Marconigram"@de , "Marconigram"@fr , "Guglielmo"@de , "Guglielmo"@fr , "Guglielmo"@en , "Guglielmo Marchese Marconi"@de , "Guglielmo Marchese Marconi"@fr , "Guglielmo Marchese Marconi"@en , "Marconi"@de , "Marconi"@fr , "Marconi"@en , "Marconi Wireless Stations"@en , "Marconi Wireless Stations"@de , "Marconi Wireless Stations"@fr , "Marchese Marconi Guglielmo"@de , "Marchese Marconi Guglielmo"@fr , "Marchese Marconi Guglielmo"@en , "American Marconi Wireless Corporation"@de , "American Marconi Wireless Corporation"@fr , "American Marconi Wireless Corporation"@en , "Marchese Gugliemo Marconi"@de , "Marconi Wireless"@de , "Marconi Wireless"@fr , "Marconi Wireless"@en , "Marchese Gugliemo Marconi"@fr , "Marchese Gugliemo Marconi"@en , "Guglielmo Marconi"@de , "Guglielmo Marconi"@fr , "Guglielmo Marconi"@en .

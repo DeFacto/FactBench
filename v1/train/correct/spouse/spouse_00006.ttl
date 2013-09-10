@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0lx2l>
+        rdfs:label     "Jim Carrey"@fr , "Jim Carrey"@en , "Jim Carrey"@de ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0lx2l__6> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jim_Carrey> , <http://dbpedia.org/resource/Jim_Carrey> , <http://fr.dbpedia.org/resource/Jim_Carrey> ;
+        skos:altLabel  "Tony Clifton"@en , "James eugene carrey"@fr , "James eugene carrey"@en , "James eugene carrey"@de , "James Carrey"@en , "James Carrey"@de , "James Carrey"@fr , "Jane Carrey"@en , "Jane Carrey"@de , "Jane Carrey"@fr , "James Eugene Carrey"@en , "James Eugene Carrey"@fr , "James Eugene Carrey"@de , "Jim eugene carrey"@fr , "Jim eugene carrey"@en , "Jim eugene carrey"@de , "Carrey"@en , "Carrey"@de , "Carrey"@fr , "Jim Carry"@en , "Jim Carry"@de , "Jim Carry"@fr , "Jim Carrey"@fr , "Jim Carrey"@en , "Jim Carrey"@de , "James Eugene \"Jim\" Carrey"@en , "Jane Erin Carrey"@fr , "Jane Erin Carrey"@en , "Jane Erin Carrey"@de , "Jim"@en , "Jim"@fr , "Jim carrey"@fr , "Jim carrey"@en , "Jim carrey"@de .
+
+<http://rdf.freebase.com/ns/m.0lx2l__6>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.02t_99> ;
+        dbo:to      "2010-04"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.02t_99>
+        rdfs:label     "Jenny McCarthy"@en , "Jenny McCarthy"@de , "Jenny McCarthy"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jenny_McCarthy> , <http://dbpedia.org/resource/Jenny_McCarthy> , <http://de.dbpedia.org/resource/Jenny_McCarthy> ;
+        skos:altLabel  "Jennifer McCarthy"@fr , "Jenny McCarthy"@fr , "Jenny McCarthy Show"@fr , "Jenny McCarthy"@de , "Jenny McCarthy"@en , "Jennifer McCarthy"@de , "Jenny McCarthy Show"@de , "Jenny McCarthy Show"@en , "Jennifer McCarthy"@en , "Jenny"@fr , "Jenny"@de , "Jenny mccarthy"@fr , "Jenny mccarthy"@de , "Jenny mccarthy"@en , "Jennifer Ann \"Jenny\" McCarthy"@en , "Jennifer Ann McCarthy"@en , "Jennifer \"Jenny\" McCarthy"@en , "McCarthy"@de , "The Jenny McCarthy Show"@fr , "The Jenny McCarthy Show"@de , "The Jenny McCarthy Show"@en , "Amy McCarthy"@fr , "Amy McCarthy"@de , "Amy McCarthy"@en .

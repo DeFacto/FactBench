@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04c4y>
+        rdfs:label     "K. W. Jeter"@de , "K. W. Jeter"@en , "K. W. Jeter"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04c4y__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/K._W._Jeter> , <http://de.dbpedia.org/resource/K._W._Jeter> , <http://dbpedia.org/resource/K._W._Jeter> ;
+        skos:altLabel  "Soul Eater"@de , "Kevin Wayne Jeter"@de , "K.W. Jeter"@fr , "K. W. Jeter"@fr , "K.W. Jeter"@de , "K. W. Jeter"@de , "KW Jeter"@fr , "KW Jeter"@de , "Dr. Adder"@en , "Bloodletter"@fr , "Bloodletter"@de , "Warped"@fr , "Warped"@de , "The Glass Hammer"@fr , "The Glass Hammer"@de , "Mantis"@fr , "Mantis"@de , "K W Jeter"@fr , "K W Jeter"@de , "Jeter"@fr , "Soul Eater"@fr , "Jeter"@de .
+
+<http://rdf.freebase.com/ns/m.03vtl0>
+        rdfs:label     "Beggars in Spain"@en , "L'une rêve et l'autre pas"@fr , "Bettler in Spanien"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bettler_in_Spanien> , <http://dbpedia.org/resource/Beggars_in_Spain> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Beggars in Spain"@de , "Beggars in spain"@de , "Bettler in Spanien"@de .
+
+<http://rdf.freebase.com/ns/m.04c4y__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03vtl0> ;
+        dbo:from    "1993"^^xsd:gYear ;
+        dbo:to      "1993"^^xsd:gYear .

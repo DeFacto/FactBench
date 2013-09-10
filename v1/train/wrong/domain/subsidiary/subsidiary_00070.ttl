@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0894km__1>
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03bs26q> ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0894km>
+        rdfs:label  "Biomet"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0894km__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Biomet> .
+
+<http://rdf.freebase.com/ns/m.03bs26q>
+        rdfs:label     "Maya's Mom"@en ;
+        skos:altLabel  "mayasmom.com"@en .

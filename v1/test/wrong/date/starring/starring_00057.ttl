@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1>
+        dbo:from      "1966"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Ringo_Starr> ;
+        dbo:to        "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)>
+        rdfs:label     "A Hard Day's Night (film)"@en , "A Hard Day's Night (film)"@fr , "A Hard Day's Night (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/A_Hard_Day's_Night_(film)> , <http://de.dbpedia.org/resource/Yeah_Yeah_Yeah> ;
+        skos:altLabel  "Quatre garcons dans le vent"@fr , "A Hard Days Night"@en , "A Hard Days Night"@fr , "A Hard Days Night"@de , "Quatre Garçons dans le vent"@fr , "Quatre Garcons dans le vent"@fr , "A Hard Day's Night"@en , "A Hard Day's Night"@fr , "A Hard Day's Night"@de , "4 garcons dans le vent"@fr , "Yeah Yeah Yeah"@de , "Quatre garçons dans le vent"@fr , "Hard day's night"@en , "Hard day's night"@fr , "Hard day's night"@de , "4 garçons dans le vent"@fr .
+
+<http://dbpedia.org/resource/Ringo_Starr>
+        rdfs:label     "Ringo Starr"@de , "Ringo Starr"@fr , "Ringo Starr"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ringo_Starr> , <http://fr.dbpedia.org/resource/Ringo_Starr> ;
+        skos:altLabel  "Richie Snare"@en , "Richie Snare"@de , "Richie Snare"@fr , "Ringo Starr"@en , "Ringo Starr"@de , "Ringo Starr"@fr , "Ringo"@en , "Ringo Starr filmography"@de , "Ringo Starr filmography"@fr , "Ringo Starr filmography"@en , "Ringo"@de , "Ringo"@fr , "Richard Starrkey"@en , "Richard Starrkey"@fr , "Richard Starrkey"@de , "Starr"@de , "Starr"@fr , "Ringo Starr Filmography"@en , "Ringo Starr Filmography"@de , "Ringo Starr Filmography"@fr , "Starr, Ringo"@en , "Starr, Ringo"@de , "Starr, Ringo"@fr , "Richard Henry Parkin Starkey Jr."@en , "Richard Henry Parkin Starkey Jr."@de , "Richard Henry Parkin Starkey Jr."@fr , "Ringo Star"@de , "Ringo Star"@fr , "Ringo Star"@en , "Richard Starkey"@en , "Richard Starkey"@de , "Richard Starkey"@fr , "Richard Starky"@en , "Richard Starky"@de , "Richard Starky"@fr , "Beatle Ringo"@en , "Beatle Ringo"@de , "Beatle Ringo"@fr , "Ringo starkey"@en , "Ringo starkey"@de , "Ringo starkey"@fr , "Ringo starr"@de , "Ringo starr"@fr , "Ringo starr"@en , "Ringo Starkey"@en , "Ringo Starkey"@de , "Ringo Starkey"@fr , "Filmography of Ringo Starr"@en , "Filmography of Ringo Starr"@de , "Filmography of Ringo Starr"@fr .

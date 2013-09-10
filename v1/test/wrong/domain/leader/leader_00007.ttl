@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Golda_Meir>
+        rdfs:label     "Golda Meir"@en , "Golda Meir"@fr , "Golda Meir"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Golda_Meir__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Golda_Meir> , <http://de.dbpedia.org/resource/Golda_Meir> ;
+        skos:altLabel  "Golda"@de , "Golda Mabovitch"@en , "Golda Mabovitch"@fr , "Golda Mabovitch"@de , "Golda Myerson"@en , "Golda Myerson"@fr , "Golda Myerson"@de , "Meir"@en , "Meir"@fr , "Meir"@de , "Meyerson"@en , "Meyerson"@fr , "Meyerson"@de , "Golda Meyerson"@en , "Golda Meir"@en , "Golda Meyerson"@fr , "Golda Meir"@fr , "Golda Meir"@de , "Golda Meyerson"@de , "Golda Mabovitz"@en , "Goldie Mabovitch"@en , "Golda Mabovitz"@fr , "Goldie Mabovitch"@fr , "Golda Meïr"@fr , "Goldie Mabovitch"@de , "Golda Mabovitz"@de , "Golda Meïr"@de , "Golda"@en , "Golda"@fr .
+
+<http://dbpedia.org/resource/Ghana>
+        rdfs:label     "Ghana"@de , "Ghana"@fr , "Ghana"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ghana> , <http://de.dbpedia.org/resource/Ghana> ;
+        skos:altLabel  "Republique du Ghana"@fr , "Ghâna"@fr , "Ghanéen"@fr , "Republic Ghana"@de , "Republic Ghana"@fr , "Republic Ghana"@en , "Ghanaian"@en , "Ghanaian"@de , "Ghanaian"@fr , "The Republic Of Ghana"@en , "The Republic Of Ghana"@de , "The Republic Of Ghana"@fr , "Gana"@de , "State of Ghana"@de , "State of Ghana"@fr , "State of Ghana"@en , "Republic Of Ghana"@en , "Republic Of Ghana"@de , "Republic Of Ghana"@fr , "ISO 3166-1:GH"@en , "ISO 3166-1:GH"@de , "ISO 3166-1:GH"@fr , "Republik Ghana"@de , "Ghana"@de , "Ghana"@fr , "Ghana"@en , "République du Ghana"@fr , "Black Star of Africa"@de , "Black Star of Africa"@fr , "Black Star of Africa"@en , "The Democradic Republic of Ghana"@en , "The Democradic Republic of Ghana"@de , "The Democradic Republic of Ghana"@fr , "Administrative divisions of Ghana"@de , "Administrative divisions of Ghana"@fr , "Administrative divisions of Ghana"@en , "Ghaneen"@fr , "Republic of Ghana"@de , "Republic of Ghana"@fr , "Republic of Ghana"@en , "Etymology of Ghana"@en , "Etymology of Ghana"@de , "Etymology of Ghana"@fr .
+
+<http://dbpedia.org/resource/Golda_Meir__1>
+        dbo:from    "1957"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Ghana> ;
+        dbo:to      "1960"^^xsd:gYear .

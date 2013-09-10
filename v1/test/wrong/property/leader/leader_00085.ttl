@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Palestinian_National_Authority>
+        rdfs:label     "Palestinian National Authority"@fr , "Palestinian National Authority"@en , "Palestinian National Authority"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Palästinensische_Autonomiebehörde> , <http://fr.dbpedia.org/resource/Autorité_palestinienne> ;
+        skos:altLabel  "Palestinian Interim Self-Government Authority"@en , "Palestinian Interim Self-Government Authority"@fr , "Palestinian Interim Self-Government Authority"@de , "Palästinensische Autonomiebehörde"@de , "Palestinian Autonomy"@en , "Palestinian National Authority"@en , "Palestinian National Authority"@de , "Palestinian National Authority"@fr , "Palestinian Autonomy"@de , "Palestinian Autonomy"@fr , "The Palestinian Authority"@en , "The Palestinian Authority"@fr , "The Palestinian Authority"@de , "Autorité Palestinienne"@fr , "Autorité Nationale Palestinienne"@fr , "Palästinensische Selbstverwaltung"@de , "Palestinian leadership"@en , "Palestinian leadership"@de , "Palestinian leadership"@fr , "As-Sulta Al-Wataniyya Al-Filastiniyya"@en , "Palastinensische Autonomiebehorde"@de , "As-Sulta Al-Wataniyya Al-Filastiniyya"@de , "As-Sulta Al-Wataniyya Al-Filastiniyya"@fr , "Harashut Hafalastinit"@en , "Harashut Hafalastinit"@de , "Harashut Hafalastinit"@fr , "Palestinan Authority"@en , "Palestinan Authority"@de , "Palestinan Authority"@fr , "Palestine"@en , "Palestine Authority"@en , "Palestine Authority"@de , "Palestine Authority"@fr , "Palestine"@de , "Palestine"@fr , "Palestinian Authority"@en , "Palestinian Authority"@de , "Palestinian Authority"@fr , "Palastinensische Selbstverwaltung"@de , "Autorite Nationale Palestinienne"@fr , "Autorite Palestinienne"@fr , "Palastinensische Autonomieverwaltung"@de , "Palestinian authority"@en , "Palestinian authority"@fr , "Palestinian authority"@de , "Autorite palestinienne"@fr , "The Palestinian National Authority"@en , "History of the Palestinian National Authority"@en , "History of the Palestinian National Authority"@de , "History of the Palestinian National Authority"@fr , "The Palestinian National Authority"@de , "The Palestinian National Authority"@fr , "Palästinensische Autonomieverwaltung"@de , "Autorité palestinienne"@fr .
+
+<http://dbpedia.org/resource/Mahmoud_Abbas>
+        rdfs:label     "Mahmoud Abbas"@de , "Mahmoud Abbas"@fr , "Mahmoud Abbas"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mahmoud_Abbas__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mahmoud_Abbas> , <http://de.dbpedia.org/resource/Mahmud_Abbas> ;
+        skos:altLabel  "Mahmud Abbas"@en , "Abbas"@en , "Mahmud Abbas"@de , "Mahmud Abbas"@fr , "Abbas"@de , "Abbas"@fr , "Mazin"@de , "Abou Mazen"@fr , "Abu Masen"@de , "Maḥmūd ʿAbbās"@de , "Maḥmūd ʿAbbās"@fr , "Maḥmūd ʿAbbās"@en , "Mahmud 'Abbas"@en , "Mahmud 'Abbas"@de , "Mahmud 'Abbas"@fr , "Mahmud ʿAbbas"@en , "Mahmud ʿAbbas"@de , "Mazen"@de , "Mahmud ʿAbbas"@fr , "Machmud Abbas"@de , "Abū Māzin"@de , "Abu Mazɩn"@en , "Åbú Mázɩn"@de , "Åbú Mázɩn"@fr , "Åbú Mázɩn"@en , "Abu Mazɩn"@de , "Abu Mazɩn"@fr , "Abu Mazin"@de , "Māzin"@de , "Mahmoud Abbas"@de , "Mahmoud Abbas"@fr , "Mahmoud Abbas"@en , "Mahmoud 'Abbas"@en , "Mahmoud 'Abbas"@de , "Mahmoud 'Abbas"@fr , "Mahmood Abbas"@en , "Mahmood Abbas"@de , "Mahmood Abbas"@fr , "Abbas, Mahmoud"@de , "Abbas, Mahmoud"@fr , "Abbas, Mahmoud"@en , "Abu Mazen"@en , "Abu Mazen"@de , "Abu Mazen"@fr .
+
+<http://dbpedia.org/resource/Mahmoud_Abbas__1>
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Palestinian_National_Authority> ;
+        dbo:to          "2003"^^xsd:gYear .

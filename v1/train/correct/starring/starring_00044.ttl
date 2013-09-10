@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/2012_(film)>
+        rdfs:label      "2012 (film)"@en , "2012 (film)"@fr , "2012 (film)"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/2012_(film)__1> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/2012_(Film)> , <http://fr.dbpedia.org/resource/2012_(film)> ;
+        skos:altLabel   "Institute for Human Continuity"@fr , "Institute for Human Continuity"@de , "Institute for Human Continuity"@en , "The Institute for Human Continuity"@fr , "The Institute for Human Continuity"@de , "The Institute for Human Continuity"@en , "2012 film"@fr , "2012 film"@de , "2012 film"@en , "2012 movie"@fr , "2012 movie"@de , "2012 movie"@en , "Charlie Frost"@fr , "Charlie Frost"@de , "Charlie Frost"@en .
+
+<http://dbpedia.org/resource/2012_(film)__1>
+        dbo:from      "2009-11-13"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Woody_Harrelson> ;
+        dbo:to        "2009-11-13"^^xsd:date .
+
+<http://dbpedia.org/resource/Woody_Harrelson>
+        rdfs:label     "Woody Harrelson"@en , "Woody Harrelson"@fr , "Woody Harrelson"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Woody_Harrelson> , <http://fr.dbpedia.org/resource/Woody_Harrelson> ;
+        skos:altLabel  "Woodrow Harrelson"@fr , "Woodrow Harrelson"@de , "Woodrow Harrelson"@en , "Woody"@fr , "Woody Harrelson"@fr , "Woodrow \"Woody\" Harrelson"@fr , "Woodrow \"Woody\" Harrelson"@de , "Woodrow \"Woody\" Harrelson"@en , "Woody Harrelson"@de , "Woody Harrelson"@en , "Woody Harelson"@fr , "Woody Harelson"@de , "Woody Harelson"@en , "Woody Harrleson"@fr , "Woody Harrleson"@de , "Woody Harrleson"@en , "Woodrow Tracy Harrelson"@fr , "Woody Harellson"@fr , "Woodrow Tracy Harrelson"@de , "Woody Harellson"@de , "Woody Harellson"@en , "Woodrow Tracy Harrelson"@en , "Harrelson"@fr , "Harrelson"@de , "Harrelson"@en .

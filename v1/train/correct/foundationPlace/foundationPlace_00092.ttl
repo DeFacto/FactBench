@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h3lt>
+        rdfs:label     "Huntington Beach"@fr , "Huntington Beach"@de , "Huntington Beach"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Huntington_Beach> , <http://de.dbpedia.org/resource/Huntington_Beach> , <http://dbpedia.org/resource/Huntington_Beach,_California> ;
+        skos:altLabel  "Huntington beach"@fr , "Huntington beach"@en , "Huntington beach"@de , "Fountain Valley Township, California"@fr , "Fountain Valley Township, California"@en , "Fountain Valley Township, California"@de , "Huntington beach, ca"@en , "Huntington beach, ca"@de , "Huntington beach, ca"@fr , "Surf City, USA"@en , "Surf City, USA"@de , "Surf City, USA"@fr , "Huntington Beach, CA"@fr , "Huntington Beach, CA"@en , "Huntington Beach, CA"@de , "Huntington Beach, Calif."@en , "Huntington Beach, Calif."@de , "Huntington Beach, Calif."@fr , "Huntington Beach, California"@fr , "Huntington Beach, California"@en , "Huntington Beach, California"@de , "Huntingdon beach"@en , "Huntingdon beach"@de , "Huntingdon beach"@fr , "Orange County / Huntington Beach city"@en , "Huntington Beach"@en , "Huntington Beach"@de , "Huntington Beach"@fr , "LOCODE:USHTD"@en , "LOCODE:USHTD"@de , "LOCODE:USHTD"@fr , "Huntington"@de , "Huntington"@fr , "Beach"@fr , "Grace Lutheran School"@en , "Grace Lutheran School"@de , "Grace Lutheran School"@fr .
+
+<http://rdf.freebase.com/ns/m.0fbh5s__92>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0h3lt> ;
+        dbo:from             "2001"^^xsd:gYear ;
+        dbo:to               "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fbh5s>
+        rdfs:label      "Foldera"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0fbh5s__92> .

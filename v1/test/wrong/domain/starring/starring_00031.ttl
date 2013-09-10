@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jasmine_Richards>
+        rdfs:label     "Jasmine Richards"@en , "Jasmine Richards"@fr , "Jasmine Richards"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jasmine_Richards> , <http://fr.dbpedia.org/resource/Jasmine_Richards> ;
+        skos:altLabel  "Jasmine Richards"@fr , "Jasmine"@fr , "Jasmine Richards"@de .
+
+<http://dbpedia.org/resource/Mean_Girls>
+        rdfs:label     "Mean Girls"@de , "Mean Girls"@fr , "Mean Girls"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mean_Girls__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Girls_Club_–_Vorsicht_bissig!> , <http://fr.dbpedia.org/resource/Lolita_malgré_moi> ;
+        skos:altLabel  "Burn book"@de , "Burn book"@fr , "Burn book"@en , "Girl"@de , "Mean Girls"@en , "Mean Girls"@de , "Mean Girls"@fr , "Girls Club – Vorsicht bissig"@de , "Plastic's"@de , "Plastic's"@fr , "Plastic's"@en , "Girls Club"@de , "Regina george"@de , "Regina george"@fr , "Regina george"@en , "Lolita malgré moi"@fr , "Lolita Malgré moi"@fr , "Méchantes ados"@fr , "Cady Heron"@en , "Cady Heron"@fr , "Cady Heron"@de , "Lolita Malgre moi"@fr , "Lolita Malgre Moi"@fr , "Janis Ian"@de , "Janis Ian"@fr , "Janis Ian"@en , "Girls Club – Vorsicht bissig!"@de , "Regina George"@de , "Regina George"@fr , "Lolita malgre moi"@fr , "Mean girls"@de , "Mean girls"@fr , "Mean girls"@en , "Regina George"@en , "Mechantes ados"@fr , "Lolita Malgré Moi"@fr , "Girls Club - Vorsicht bissig!"@de .
+
+<http://dbpedia.org/resource/Mean_Girls__1>
+        dbo:from      "2008"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Jasmine_Richards> ;
+        dbo:to        "2008"^^xsd:gYear .

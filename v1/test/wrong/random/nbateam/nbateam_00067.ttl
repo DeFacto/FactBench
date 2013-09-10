@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/St_Albans>
+        rdfs:label     "St Albans"@de , "St Albans"@fr , "St Albans"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/St_Albans> , <http://de.dbpedia.org/resource/St_Albans> ;
+        skos:altLabel  "Alban"@de , "Saint Alban's"@en , "St. Alban's, Hertfordshire"@en , "St. Alban's, Hertfordshire"@fr , "St. Alban's, Hertfordshire"@de , "Saint Alban's"@de , "Saint Alban's"@fr , "Waeclingacaester"@en , "Waeclingacaester"@fr , "Waeclingacaester"@de , "The weather in St. Albans"@en , "The weather in St. Albans"@de , "The weather in St. Albans"@fr , "Saint-Albans"@de , "St Alban's, Hertfordshire"@en , "St Alban's, Hertfordshire"@fr , "St Alban's, Hertfordshire"@de , "St. Albans"@en , "St. Albans"@de , "St. Albans"@fr , "St Alban's"@en , "St Alban's"@fr , "St Alban's"@de , "St. Alban's"@en , "St. Alban's"@de , "St. Alban's"@fr , "Watlingchester"@en , "Watlingchester"@de , "Watlingchester"@fr , "Saint Albans"@en , "Saint Albans"@fr , "Saint Albans"@de , "St. Albans, Hertfordshire"@en , "St. Albans, Hertfordshire"@fr , "St. Albans, Hertfordshire"@de , "St albans"@en , "St albans"@fr , "St albans"@de , "St Albans"@en , "St Albans"@de , "St Albans"@fr , "Cite et District de St Albans"@fr , "The weather in Saint Albans"@en , "The weather in Saint Albans"@de , "The weather in Saint Albans"@fr , "St Albans, Herts"@en , "St Albans, Herts"@fr , "St Albans, Herts"@de , "Cité et District de St Albans"@fr , "Verlamchester"@en , "Verlamchester"@de , "Verlamchester"@fr , "Saint Albans, United Kingdom"@en , "Saint Albans, United Kingdom"@fr , "Saint Albans, United Kingdom"@de , "The weather in St Albans"@en , "The weather in St Albans"@de , "The weather in St Albans"@fr , "St Albans, England"@en , "St Albans, England"@fr , "St Albans, England"@de , "Romeland"@en , "St. Albans, United Kingdom"@en , "Romeland"@fr , "St. Albans, United Kingdom"@fr , "St. Albans, United Kingdom"@de , "Romeland"@de , "St Albans, Hertfordshire"@en , "St Albans, Hertfordshire"@de , "St Albans, Hertfordshire"@fr , "Wæclingacaester"@en , "Wæclingacaester"@de , "Wæclingacaester"@fr , "Alban"@en , "Alban"@fr .
+
+<http://dbpedia.org/resource/John_Adams>
+        rdfs:label     "John Adams"@fr , "John Adams"@en , "John Adams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Adams> , <http://fr.dbpedia.org/resource/John_Adams_(homme_politique)> ;
+        skos:altLabel  "Inaugural Speech"@en , "Inaugural Speech"@de , "Inaugural Speech"@fr , "John Adams Administration"@en , "John Adams Administration"@fr , "John Adams Administration"@de , "John Adams, Jr."@de , "John Adams, Jr."@fr , "John Adams, Jr."@en , "Novanglus"@en , "Novanglus"@de , "Novanglus"@fr , "The second us president"@en , "The second us president"@de , "The second us president"@fr , "Jon Adams"@en , "Jon Adams"@de , "Jon Adams"@fr , "John adams"@en , "John adams"@de , "John adams"@fr , "John Adam's Administration"@en , "John Adam's Administration"@de , "John Adam's Administration"@fr , "Second President of the United States"@en , "Second President of the United States"@de , "Second President of the United States"@fr , "John Adams"@en , "John Adams"@fr , "John Adams"@de , "Presidency of John Adams"@de , "Presidency of John Adams"@fr , "Presidency of John Adams"@en , "Inaugural Speeech"@en , "Inaugural Speeech"@de , "Inaugural Speeech"@fr , "2nd President of the United States"@en , "2nd President of the United States"@de , "2nd President of the United States"@fr , "Adams"@fr , "John Adams, Jr"@en , "John Adams Inaugural Speech"@en , "John Adams Inaugural Speech"@de , "John Adams Inaugural Speech"@fr , "John Adams, Jr"@fr , "John Adams, Jr"@de , "Adams, John"@en , "Adams, John"@de , "Adams, John"@fr .
+
+<http://dbpedia.org/resource/John_Adams__1>
+        dbo:from  "2011"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/St_Albans> ;
+        dbo:to    "2011"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Elizabeth_Taylor__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Colombo> ;
+        dbo:from        "2011"^^xsd:gYear ;
+        dbo:to          "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Elizabeth_Taylor>
+        rdfs:label     "Elizabeth Taylor"@en , "Elizabeth Taylor"@fr , "Elizabeth Taylor"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Elizabeth_Taylor__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Elizabeth_Taylor> , <http://fr.dbpedia.org/resource/Elizabeth_Taylor> ;
+        skos:altLabel  "Liz Taylor"@de , "Dame Elizbeth Taylor"@en , "Dame Elizbeth Taylor"@fr , "Dame Elizbeth Taylor"@de , "Elizabeth Taylor"@en , "Elizabeth Taylor"@fr , "Elizabeth Taylor"@de , "Taylor, Dame Elizabeth Rosemond"@en , "Taylor, Dame Elizabeth Rosemond"@fr , "Taylor, Dame Elizabeth Rosemond"@de , "Elisabeth Taylor"@en , "Elisabeth Taylor"@fr , "Elisabeth Taylor"@de , "Elizabeth"@en , "Elizabeth"@fr , "Elizabeth"@de , "Elizabeth Rosemond Taylor"@en , "Dame Elizabeth Rosemond Taylor"@en , "Dame Elizabeth Rosemond Taylor, DBE"@en , "Elizabeth Rosemond Taylor"@fr , "Dame Elizabeth Rosemond Taylor"@fr , "Elizabeth Rosemond Taylor"@de , "Dame Elizabeth Rosemond Taylor, DBE"@fr , "Dame Elizabeth Rosemond Taylor"@de , "Dame Elizabeth Rosemond Taylor, DBE"@de , "Maria Carson"@en , "Liz Taylor"@en , "Maria Carson"@fr , "Liz Taylor"@fr , "Maria Carson"@de .
+
+<http://dbpedia.org/resource/Colombo>
+        rdfs:label     "Colombo"@de , "Colombo"@fr , "Colombo"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Colombo> , <http://fr.dbpedia.org/resource/Colombo> ;
+        skos:altLabel  "Colombo"@de , "Colombo"@fr , "Colombo"@en , "Colombo, Ceylon"@de , "Colombo, Ceylon"@fr , "Greater Colombo area"@de , "Greater Colombo area"@fr , "Greater Colombo area"@en , "Kolamba"@de , "Kolamba"@fr , "Kolamba"@en , "Colombo, Ceylon"@en , "Greater Colombo"@de , "Greater Colombo"@fr , "Colombo, Sri Lanka"@de , "Colombo, Sri Lanka"@fr , "Colombo, Sri Lanka"@en , "Greater Colombo"@en , "Metro de Colombo"@fr , "Kolumpu"@en , "Kolumpu"@de , "Kolumpu"@fr , "Colombo Times"@de , "Colombo Times"@fr , "Colombo Times"@en , "Bandaranaike International Airport"@fr , "Kŏḷamba"@de , "Kŏḷamba"@fr , "Kŏḷamba"@en , "Kolombo"@de , "Kŏl̮umpu"@de , "Kŏl̮umpu"@fr , "Kŏl̮umpu"@en , "Zones of Colombo City"@de , "Zones of Colombo City"@fr , "Zones of Colombo City"@en , "Métro de Colombo"@fr , "Katunayake"@fr .

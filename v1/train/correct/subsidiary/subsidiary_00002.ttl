@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05gnf__2>
+        dbo:from        "2007-10"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_3z4l> ;
+        dbo:to          "2007-10"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.05gnf>
+        rdfs:label       "NBC"@en , "National Broadcasting Company"@fr , "National Broadcasting Company"@de ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.05gnf__2> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/National_Broadcasting_Company> , <http://dbpedia.org/resource/NBC> , <http://fr.dbpedia.org/resource/National_Broadcasting_Company> ;
+        skos:altLabel    "NBC Network"@fr , "NBC Network"@de , "NBC Network"@en , "NBC's"@fr , "NBC's"@en , "NBC's"@de , "National Broadcasting Corporation"@fr , "National Broadcasting Corporation"@en , "National Broadcasting Corporation"@de , "Peacock Productions"@fr , "NBC.com"@fr , "NBC.com"@de , "NBC.com"@en , "Peacock Productions"@de , "Peacock Productions"@en , "National Broadcasting Company"@fr , "National Broadcasting Company"@de , "NBC Sports"@de , "National Broadcasting Company"@en , "NBCi"@fr , "NBCi"@de , "NBCi"@en , "Peacock network"@fr , "Peacock network"@de , "Peacock network"@en , "NBC television"@fr , "NBC television"@de , "NBC television"@en , "NBC Direct"@fr , "NBC Direct"@de , "NBC Direct"@en , "Peacock Channel"@fr , "NBC Radio"@fr , "NBC Radio"@en , "NBC Radio"@de , "Peacock Channel"@de , "Peacock Channel"@en , "Peacock channel"@fr , "Peacock channel"@de , "Peacock channel"@en , "The National Broadcasting Company"@fr , "The National Broadcasting Company"@de , "The National Broadcasting Company"@en , "Nat'l Broadcasting Co."@fr , "NBC-TV"@fr , "Nat'l Broadcasting Co."@de , "Nat'l Broadcasting Co."@en , "NBC-TV"@de , "NBC-TV"@en , "Nat'l Breoadcasting Co."@fr , "Nat'l Breoadcasting Co."@en , "Nat'l Breoadcasting Co."@de , "Nbc.com"@fr , "Nbc.com"@de , "Nbc.com"@en , "National broadcasting company"@fr , "NBC radio"@fr , "NBC radio"@de , "NBC radio"@en , "NBC Red"@fr , "Peacock Network"@fr , "National Broadcasting Company Radio"@fr , "Peacock Network"@de , "Peacock Network"@en , "National Broadcasting Company Radio"@en , "National Broadcasting Company Radio"@de , "National Broadcast Company"@fr , "National Broadcast Company"@en , "National Broadcast Company"@de , "The Peacock"@fr , "En bee cee"@fr , "The Peacock"@de , "En bee cee"@de , "The Peacock"@en , "En bee cee"@en , "Orange Network"@fr , "Orange Network"@de , "Orange Network"@en , "NBC News"@de , "The Peacock Network"@en , "National Broadcasting Co. Inc."@fr , "National Broadcasting Co. Inc."@de , "National Broadcasting Co. Inc."@en .
+
+<http://rdf.freebase.com/ns/m.02_3z4l>
+        rdfs:label  "Oxygen media"@en .

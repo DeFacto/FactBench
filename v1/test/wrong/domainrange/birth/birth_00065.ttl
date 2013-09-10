@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ted_Kennedy__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Norfolk,_Virginia> ;
+        dbo:from        "1971"^^xsd:gYear ;
+        dbo:to          "1971"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ted_Kennedy>
+        rdfs:label     "Ted Kennedy"@de , "Ted Kennedy"@fr , "Ted Kennedy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ted_Kennedy__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edward_Moore_Kennedy> , <http://de.dbpedia.org/resource/Edward_Kennedy> ;
+        skos:altLabel  "Edward kennedy"@en , "Edward kennedy"@fr , "Edward kennedy"@de , "Kennedy"@en , "Kennedy"@de , "Kennedy"@fr , "The Lion of the Senate"@de , "The Lion of the Senate"@fr , "The Lion of the Senate"@en , "Edward Moore Kennedy"@en , "Edward Moore Kennedy"@de , "Edward Moore Kennedy"@fr , "Edward M Kennedy"@en , "Edward M Kennedy"@de , "Edward M Kennedy"@fr , "Teddy Kennedy"@de , "Teddy Kennedy"@fr , "Teddy Kennedy"@en , "Senator Ted Kennedy"@en , "Senator Ted Kennedy"@de , "Senator Ted Kennedy"@fr , "Edward M. Kennedy"@en , "Edward M. Kennedy"@de , "Edward M. Kennedy"@fr , "Draft 1"@en , "Draft 1"@de , "Draft 1"@fr , "Edward Moore"@en , "Edward Moore"@de , "Edward Moore"@fr , "Edward Moore \"Ted\" Kennedy"@de , "Edward Moore \"Ted\" Kennedy"@fr , "Edward Moore \"Ted\" Kennedy"@en , "Ted Kennedy"@de , "Ted Kennedy"@fr , "Ted Kennedy"@en , "Edward Kennedy"@de , "Edward Kennedy"@fr , "Edward Kennedy"@en , "Ted kennedy"@en , "Sir Edward Kennedy"@en , "Ted kennedy"@de , "Ted kennedy"@fr , "Sir Edward Kennedy"@de , "Sir Edward Kennedy"@fr .
+
+<http://dbpedia.org/resource/Norfolk,_Virginia>
+        rdfs:label     "Norfolk, Virginia"@en , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norfolk_(Virginia)> , <http://fr.dbpedia.org/resource/Norfolk_(Virginie)> ;
+        skos:altLabel  "Ledger-Dispatch"@de , "Norfolk International Airport"@fr , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de , "City of Norfolk, Virginia"@en , "City of Norfolk, Virginia"@fr , "City of Norfolk, Virginia"@de , "Norfolk, Va"@en , "Norfolk, Va"@fr , "Norfolk, Va"@de , "LOCODE:USORF"@en , "LOCODE:USORF"@fr , "LOCODE:USORF"@de , "Norfolk"@en , "Norfolk, VA"@en , "Norfolk, va"@en , "Norfolk"@fr , "Norfolk, VA"@fr , "Norfolk, va"@fr , "Norfolk"@de , "Norfolk, VA"@de , "Norfolk, va"@de , "Norfolk VA"@en , "Norfolk VA"@fr , "Norfolk VA"@de , "Norfolk, Va."@en , "Norfolk, Va."@fr , "Norfolk, Va."@de , "Ledger-Dispatch"@en , "Norfolk, Virginia"@en , "Ledger-Dispatch"@fr .

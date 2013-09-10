@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Canada>
+        rdfs:label     "Canada"@de , "Canada"@fr , "Canada"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kanada> , <http://fr.dbpedia.org/resource/Canada> ;
+        skos:altLabel  "Kanadische Föderation"@de , "America's top hat"@en , "America's top hat"@fr , "America's top hat"@de , "Xanada"@en , "Commonwealth du Canada"@fr , "Xanada"@fr , "Xanada"@de , "Canadá"@en , "Canadá"@fr , "Canadá"@de , "Candadienne"@fr , "Canadaa"@en , "Canadaa"@fr , "Canadaa"@de , "Dominion du Canada"@fr , "CANADA"@en , "Nation canadienne"@fr , "CANADA"@fr , "CANADA"@de , "Kenadian"@en , "Kenadian"@de , "Kenadian"@fr , "Canada"@en , "Canada"@fr , "Canada"@de , "Canuckistan"@en , "Peuple canadien"@fr , "Canuckistan"@fr , "Canuckistan"@de , "Puissance du Canada"@fr , "Etat federal canadien"@fr , "The Dominion of Canada"@en , "A mari usque ad mare"@de , "The Dominion of Canada"@fr , "The Dominion of Canada"@de , "Canadian Federation"@en , "Canadiophile"@en , "Canadian Federation"@de , "Canadian Federation"@fr , "Canadiophile"@de , "Canadiophile"@fr , "Canayens"@fr , "Population canadienne"@fr , "Pancanadien"@fr , "Caanaadaa"@en , "Etymology of Canada"@en , "Caanaadaa"@fr , "Etymology of Canada"@fr , "Etymology of Canada"@de , "Caanaadaa"@de , "Čanada"@en , "Cnada"@en , "Cnada"@fr , "Čanada"@fr , "Cnada"@de , "Kanadische Foderation"@de , "Čanada"@de , "Canada."@en , "Canada."@de , "Canada."@fr , "État fédéral canadien"@fr , "Kaenada"@en , "Kaenada"@fr , "Kaenada"@de , "Federation canadienne"@fr , "Canada's"@en , "Canada's"@fr , "Canada's"@de , "Canada-Uni,"@fr , "Dominion of Canada"@en , "ISO 3166-1:CA"@en , "ISO 3166-1:CA"@fr , "ISO 3166-1:CA"@de , "Pancanadianisme"@fr , "Dominion of Canada"@fr , "Dominion of Canada"@de , "References"@en , "Canadialand"@en , "Dominion of canada"@en , "Kanada"@de , "References"@fr , "References"@de , "Fédération canadienne"@fr , "Canadialand"@de , "Canadialand"@fr , "Dominion of canada"@de , "Kanadisch"@de , "Dominion of canada"@fr .
+
+<http://dbpedia.org/resource/Anerood_Jugnauth>
+        rdfs:label     "Anerood Jugnauth"@en , "Anerood Jugnauth"@fr , "Anerood Jugnauth"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Anerood_Jugnauth__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anerood_Jugnauth> , <http://de.dbpedia.org/resource/Anerood_Jugnauth> ;
+        skos:altLabel  "Anerood Jugnauth"@fr , "Anerood Jugnauth"@de , "Sir Anerood Jugnauth"@de , "Sir Anerood Jugnauth"@fr , "Aneerood Jugnauth"@fr , "Aneerood Jugnauth"@de , "Jugnauth"@fr , "Jugnauth"@de , "Sarojini Jugnauth"@fr , "Sarojini Jugnauth"@de .
+
+<http://dbpedia.org/resource/Anerood_Jugnauth__1>
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Canada> ;
+        dbo:to      "2009"^^xsd:gYear .

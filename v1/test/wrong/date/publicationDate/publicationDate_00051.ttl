@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04jmm>
+        rdfs:label     "L. Ron Hubbard"@de , "L. Ron Hubbard"@fr , "L. Ron Hubbard"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04jmm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/L._Ron_Hubbard> , <http://dbpedia.org/resource/L._Ron_Hubbard> , <http://de.dbpedia.org/resource/L._Ron_Hubbard> ;
+        skos:altLabel  "L. Ron Hubard"@en , "l_ron_hubbard"@en , "L. Ron Hubard"@fr , "L. Ron Hubard"@de , "Elron hubbard"@en , "Elron hubbard"@fr , "Elron hubbard"@de , "L. Ron Hubbard"@en , "L. Ron Hubbard"@fr , "L. Ron Hubbard"@de , "Elron Hubbard"@en , "L. Rob Hubbard"@en , "Frederick Engelhardt"@en , "Ron Hubbard"@en , "Elron Hubbard"@fr , "Elron Hubbard"@de , "Ron Hubbard"@fr , "L. Rob Hubbard"@de , "L. Rob Hubbard"@fr , "Ron Hubbard"@de , "L. Ron. Hubbard"@en , "L. Ron. Hubbard"@de , "L. Ron. Hubbard"@fr , "Winchester Remington Colt"@en , "Winchester Remington Colt"@de , "Winchester Remington Colt"@fr , "L.Ron hubbard"@en , "Lron"@en , "L.Ron hubbard"@fr , "Lron"@de , "Lron"@fr , "L.Ron hubbard"@de , "L.ron hubbard"@en , "L.ron hubbard"@fr , "L.ron hubbard"@de , "L. Ronald Hubbard"@en , "L. Ronald Hubbard"@de , "L. Ronald Hubbard"@fr , "Kurt von Rachen"@en , "Hubbard"@fr , "Hubbard"@de , "Lafayette Hubbard"@en , "Ron hubbard"@en , "Lafayette Hubbard"@fr , "Ron hubbard"@de , "Ron hubbard"@fr , "Lafayette Hubbard"@de , "Ron L. Hubbard"@en , "Lafayette Ron Hubbard"@fr , "Ron L. Hubbard"@de , "Ron L. Hubbard"@fr , "René Lafayette"@en , "Lafayette Ronald \"L. Ron\" Hubbard"@en , "Lafayette Ronald \"L. Ron\" Hubbard"@fr , "Lafayette Ronald \"L. Ron\" Hubbard"@de , "L Ron Hubbard"@en , "L Ron Hubbard"@de , "L Ron Hubbard"@fr , "Hubbard, L. Ron"@en , "LRH"@en , "L. Ron"@en , "L. Ron"@de , "L. Ron"@fr , "Lafayette"@en , "Lafayette"@de , "Lafayette"@fr , "Lafayette Ronald Hubbard"@en , "Lafayette Ronald Hubbard"@de , "Lafayette Ronald Hubbard"@fr , "Rene La Fayette"@en , "Elrond Hubbard"@en , "Elrond Hubbard"@fr , "Elrond Hubbard"@de , "Ron"@en , "L ron hubbard"@en , "L ron hubbard"@fr , "L ron hubbard"@de , "I. Ron Hubbard"@en , "Rene LaFayete"@en , "I. Ron Hubbard"@fr , "I. Ron Hubbard"@de .
+
+<http://rdf.freebase.com/ns/m.04jmm__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0gzld3> ;
+        dbo:from    "1980"^^xsd:gYear ;
+        dbo:to      "1980"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0gzld3>
+        rdfs:label     "Battlefield Earth"@en , "Battlefield Earth - Terre champ de bataille"@fr , "Kampf um die Erde"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kampf_um_die_Erde> , <http://dbpedia.org/resource/Battlefield_Earth_(novel)> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Kampf um die Erde"@de , "Psychlo"@de , "Battlefield Earth"@de .

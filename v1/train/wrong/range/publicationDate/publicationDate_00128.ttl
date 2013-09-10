@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05_qg>
+        rdfs:label     "Peter F. Hamilton"@en , "Peter F. Hamilton"@fr , "Peter F. Hamilton"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05_qg__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Peter_F._Hamilton> , <http://de.dbpedia.org/resource/Peter_F._Hamilton> , <http://fr.dbpedia.org/resource/Peter_F._Hamilton> ;
+        skos:altLabel  "Peter F. Hamilton"@en , "Peter F. Hamilton"@fr , "Peter F. Hamilton"@de , "Peter f hamilton"@en , "Peter f hamilton"@fr , "Peter f hamilton"@de , "Peter F Hamilton"@en , "Peter F Hamilton"@fr , "Peter F Hamilton"@de , "Peter Hamilton"@en , "Armageddon-Zyklus"@de , "Peter f. hamilton"@en , "Peter f. hamilton"@fr , "Hamilton"@fr , "Peter f. hamilton"@de , "Peter Hamilton"@de .
+
+<http://rdf.freebase.com/ns/m.0kjjm>
+        rdfs:label     "De bons présages"@fr , "Ein gutes Omen"@de , "Good Omens"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ein_gutes_Omen> , <http://fr.dbpedia.org/resource/De_bons_présages> , <http://dbpedia.org/resource/Good_Omens> ;
+        skos:altLabel  "De bons présages"@fr , "Good omens"@fr , "De Bons Présages"@fr , "Aziraphale"@en , "Aziraphale"@fr , "Aziraphale"@de , "Good Omens"@en , "Good Omens"@fr , "Good Omens"@de , "Anthony Crowley"@en , "De Bons Presages"@fr , "Anthony Crowley"@fr , "Anthony Crowley"@de , "Ein gutes Omen"@de , "Agnes Nutter"@en , "Agnes Nutter"@fr , "Agnes Nutter"@de , "Anathema Device"@en , "Anathema Device"@fr , "Anathema Device"@de , "De bons presages"@fr .
+
+<http://rdf.freebase.com/ns/m.05_qg__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0kjjm> ;
+        dbo:from    "1997"^^xsd:gYear ;
+        dbo:to      "1997"^^xsd:gYear .

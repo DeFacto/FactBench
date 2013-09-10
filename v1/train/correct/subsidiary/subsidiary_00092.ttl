@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02pwb07>
+        rdfs:label     "Sling Media Inc."@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Sling_Media> ;
+        skos:altLabel  "Sling Media"@en .
+
+<http://rdf.freebase.com/ns/m.02lpq0__92>
+        dbo:from        "2007-09"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02pwb07> ;
+        dbo:to          "2007-09"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.02lpq0>
+        rdfs:label       "EchoStar Communications Corporation"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.02lpq0__92> ;
+        skos:altLabel    "DISH Network CORP"@en , "ECHOSTAR COMMUNICATIONS CORP"@en .
+
+<http://dbpedia.org/resource/Sling_Media>
+        skos:altLabel  "Sling Media"@en .

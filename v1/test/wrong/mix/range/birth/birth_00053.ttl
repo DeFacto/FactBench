@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Staten_Island>
+        rdfs:label     "Staten Island"@de , "Staten Island"@fr , "Staten Island"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Staten_Island> , <http://fr.dbpedia.org/resource/Staten_Island> ;
+        skos:altLabel  "Staton island"@en , "Staton island"@de , "Staton island"@fr , "Staten Island Community Charter School"@en , "Staten Island Community Charter School"@de , "Staten Island Community Charter School"@fr , "Staten Is."@en , "Staten Is."@de , "Staten Is."@fr , "Richmond County, New York"@en , "Richmond County, New York"@de , "Richmond County, New York"@fr , "Staten Island Bridges"@en , "S.I.N.Y."@en , "S.I.N.Y."@de , "S.I.N.Y."@fr , "Staten Island Bridges"@de , "Staten Island Bridges"@fr , "Comté de Richmond"@fr , "Richmond"@en , "Richmond"@de , "Richmond"@fr , "Richmond County"@de , "Comte de Richmond"@fr , "Staten Island, NY"@en , "Staten Island, NY"@de , "Staten Island, NY"@fr , "Staten island"@en , "Staten island"@de , "Staten island"@fr , "Staten island community charter school"@en , "Staten island community charter school"@de , "Staten island community charter school"@fr , "Staten Island, New York City"@en , "Staten Islander"@en , "Richmond, New York City"@en , "Richmond, New York City"@de , "Richmond, New York City"@fr , "Staten Island, New York City"@de , "Staten Island, New York City"@fr , "Staten Islander"@de , "Staten Islander"@fr , "Staten Island"@en , "Staten Island"@de , "Staten Island"@fr , "Staten Island, N.Y."@en , "Staten Island, N.Y."@de , "Staten Island, N.Y."@fr , "Staten"@en , "Staten"@de , "Staten"@fr , "Staten Island, New York"@en , "Staten Island, New York"@de , "Staten Island, New York"@fr .
+
+<http://dbpedia.org/resource/Shakira>
+        rdfs:label     "Shakira"@de , "Shakira"@fr , "Shakira"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Shakira__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Shakira> , <http://de.dbpedia.org/resource/Shakira> ;
+        skos:altLabel  "Shakira's Sixth Studio Album"@en , "Shakira's Sixth Studio Album"@fr , "Shakira's Sixth Studio Album"@de , "Chakira"@fr , "Tu Seras la Historia de Mi Vida"@en , "Tu Seras la Historia de Mi Vida"@fr , "Tu Seras la Historia de Mi Vida"@de , "Pure Intuition: The Best of Collection"@en , "Pure Intuition: The Best of Collection"@de , "Pure Intuition: The Best of Collection"@fr , "Tu Seras La Historia De Mi Vida"@en , "Tu Seras La Historia De Mi Vida"@fr , "Tu Seras La Historia De Mi Vida"@de , "Love in the Time of Cholera"@en , "Pure Intuition: The Best Of Collection"@en , "Esta Noche Voy Contigo"@en , "Love in the Time of Cholera"@fr , "Love in the Time of Cholera"@de , "Pure Intuition: The Best Of Collection"@de , "Pure Intuition: The Best Of Collection"@fr , "Esta Noche Voy Contigo"@de , "Esta Noche Voy Contigo"@fr , "Shakira & Alejandro Sanz"@en , "Shakira & Alejandro Sanz"@fr , "Shakira & Alejandro Sanz"@de , "Shakira"@en , "Shakira"@fr , "Shakira"@de , "Shakira Mebarak"@en , "Shakira Isabel Mebarak"@en , "Shakira Isabel Mebarak"@de , "Shakira Isabel Mebarak"@fr , "Shakira Mebarak"@fr , "Shakira Mebarak"@de , "Lejos De Tu Amor"@en , "Lejos De Tu Amor"@fr , "Lejos De Tu Amor"@de , "Brujeria"@en , "Brujeria"@fr , "Brujeria"@de , "Shakira Mebarak Ripoll"@en , "Shakira Mebarak Ripoll"@de , "Shakira Mebarak Ripoll"@fr , "Movement"@en , "Movement"@fr , "Movement"@de , "Shakira Bio"@en , "Shakira Bio"@de , "Shakira Bio"@fr , "Shaqira"@en , "Shaqira"@fr , "Shaqira"@de , "Todos Juntos"@en , "Todos Juntos"@fr , "Todos Juntos"@de , "Peligro"@en , "Peligro"@fr , "Peligro"@de , "Shakira notable concerts"@en , "Shakira notable concerts"@fr , "Shakira notable concerts"@de , "Shakira Isabel"@en , "Shakira Isabel"@de , "Shakira Isabel"@fr , "Shakira Isabel Ripoll"@en , "Shakira Isabel Ripoll"@fr , "Shakira Isabel Ripoll"@de , "Shakira Ripol"@en , "Shakira Ripol"@fr , "Shakira Ripol"@de , "Shakira ft. Wyclef Jean"@en , "Shakira ft. Wyclef Jean"@fr , "Shakira ft. Wyclef Jean"@de , "Shakira Isabel Mebarak Ripoll"@en , "Shakira Ripoll"@en , "Shakira Ripoll"@de , "Shakira Isabel Mebarak Ripoll"@de , "Shakira Isabel Mebarak Ripoll"@fr , "Shakira Ripoll"@fr .
+
+<http://dbpedia.org/resource/Shakira__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Staten_Island> ;
+        dbo:from        "1977"^^xsd:gYear ;
+        dbo:to          "1977"^^xsd:gYear .

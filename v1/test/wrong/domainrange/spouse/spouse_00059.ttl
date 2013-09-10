@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02114t__1>
+        dbo:from    "2011"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.025p38> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02114t>
+        rdfs:label     "Scarlett Johansson"@de , "Scarlett Johansson"@fr , "Scarlett Johansson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02114t__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Scarlett_Johansson> , <http://dbpedia.org/resource/Scarlett_Johansson> , <http://fr.dbpedia.org/resource/Scarlett_Johansson> ;
+        skos:altLabel  "Scarlet Johannsen"@en , "Scarlet Johannsen"@de , "Scarlet Johannsen"@fr , "Scarlet johannson"@en , "Scarlet johannson"@de , "Scarlet johannson"@fr , "Scarlet Johanson"@en , "Scarlet Johanson"@de , "Scarlet Johanson"@fr , "Scarlett johanssen"@en , "Scarlett johanssen"@fr , "Scarlett johanssen"@de , "Scarlett Marie Johansson"@de , "Scarlett Johannsen"@en , "Scarlett Johannsen"@de , "Scarlett Johannsen"@fr , "Johansson"@en , "Johansson"@fr , "Johansson"@de , "Scarlett I Johansson"@en , "Scarlett I Johansson"@fr , "Scarlett I Johansson"@de , "Scarlet johansson"@en , "ScarlettJohansson"@en , "Scarlett Johanson"@en , "Scarlet johansson"@fr , "Scarlet johansson"@de , "ScarlettJohansson"@de , "Scarlett Johanson"@de , "Scarlett Johanson"@fr , "ScarlettJohansson"@fr , "Scarlet Johansson"@en , "Scarlet Johannson"@en , "Scarlet Johansson"@fr , "Scarlet Johansson"@de , "Scarlet Johannson"@de , "Scarlet Johannson"@fr , "Scarlett"@de , "Scarlet johanson"@en , "Scarlet johanson"@de , "Scarlet johanson"@fr , "Scarlett Johanssen"@en , "Scarlett Johanssen"@de , "Scarlett Johanssen"@fr , "Scarlett Johansson"@en , "Scarlett Johansson"@de , "Scarlett Johansson"@fr , "Scarlet Johansen"@en , "ScarJo"@en , "Scarlet Johansen"@fr , "Scarlet Johansen"@de , "ScarJo"@de , "ScarJo"@fr , "Scarlett Johannson"@en , "Scarlett Johannson"@de , "Scarlett Johannson"@fr , "Scarlett Johansen"@en , "Scarlett Johansen"@fr , "Scarlett Johansen"@de , "Scarlett I. Johansson"@en , "Scarlett I. Johansson"@de , "Scarlett I. Johansson"@fr , "Scarlet Johanssen"@en , "Scarlet Johanssen"@fr , "Scarlet Johanssen"@de , "Scarlett Ingrid Johansson"@en .
+
+<http://rdf.freebase.com/ns/m.025p38>
+        rdfs:label     "Preity Zinta"@en , "Preity Zinta"@fr , "Preity Zinta"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Preity_Zinta> , <http://dbpedia.org/resource/Preity_Zinta> , <http://de.dbpedia.org/resource/Preity_Zinta> ;
+        skos:altLabel  "Preetam Singh"@en , "Priety Zinta"@en , "Preity"@en , "Preeti Zinta"@en , "Priety Zinta"@fr , "Preeti Zinta"@fr , "Priety Zinta"@de , "Preeti Zinta"@de , "PZNZ Media"@en , "Preity"@fr , "Preity"@de , "PZNZ Media"@fr , "PZNZ Media"@de , "Preity Zintar"@en , "प्रीति ज़िंटा"@en , "Background and personal life of Preity Zinta"@en , "Background and personal life of Preity Zinta"@fr , "Background and personal life of Preity Zinta"@de , "Preity Zinta"@en , "Preity Zinta"@fr , "Preity Zinta"@de , "Zinta"@en , "Zinta"@fr , "Zinta"@de , "Personal life of Preity Zinta"@en , "Preity Zinta Bollywood"@en , "Personal life of Preity Zinta"@fr , "Personal life of Preity Zinta"@de , "Preity Zinta Bollywood"@fr , "Preity Zinta Bollywood"@de .

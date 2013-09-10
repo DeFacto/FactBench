@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Harold_Wilson>
+        rdfs:label     "Harold Wilson"@de , "Harold Wilson"@fr , "Harold Wilson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Harold_Wilson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Harold_Wilson> , <http://de.dbpedia.org/resource/Harold_Wilson> ;
+        skos:altLabel  "A week is a long time in politics"@en , "A week is a long time in politics"@de , "A week is a long time in politics"@fr , "Wilson, Harold"@en , "Wilson, Harold"@de , "Wilson, Harold"@fr , "Shadow Cabinet of Harold Wilson"@de , "Shadow Cabinet of Harold Wilson"@fr , "Shadow Cabinet of Harold Wilson"@en , "Wilson"@en , "Wilson"@de , "Wilson"@fr , "Wislon"@de , "Wislon"@fr , "Wislon"@en , "James Harold Wilson, Baron Wilson of Rievaulx"@de , "James Harold Wilson, Baron Wilson of Rievaulx"@fr , "James Harold Wilson, Baron Wilson of Rievaulx"@en , "James Harold Wilson"@en , "James Harold Wilson"@de , "James Harold Wilson"@fr , "Shadow Cabinet of Harold Wilson II"@en , "Harold, Baron Wilson of Rievaulx Wilson"@en , "Harold, Baron Wilson of Rievaulx Wilson"@de , "Harold, Baron Wilson of Rievaulx Wilson"@fr , "Shadow Cabinet of Harold Wilson II"@de , "Shadow Cabinet of Harold Wilson II"@fr , "Shadow Cabinet of Harold Wilson I"@en , "Shadow Cabinet of Harold Wilson I"@de , "Shadow Cabinet of Harold Wilson I"@fr , "Harold Wilson"@de , "Harold Wilson"@fr , "Harold Wilson"@en , "Harold Wilson's"@en , "Harold Wilson's"@de , "Harold Wilson's"@fr , "Harold Wilson, Baron Wilson of Rievaulx"@en , "Baron Wilson of Rievaulx Wilson Harold"@en , "Harold Wilson, Baron Wilson of Rievaulx"@de , "Harold Wilson, Baron Wilson of Rievaulx"@fr , "Baron Wilson of Rievaulx Wilson Harold"@de , "Baron Wilson of Rievaulx Wilson Harold"@fr , "Sir Harold Wilson"@en , "Baron Wilson of Rievaulx"@en , "Baron Wilson of Rievaulx"@de , "Baron Wilson of Rievaulx"@fr , "Sir Harold Wilson"@de , "Sir Harold Wilson"@fr .
+
+<http://dbpedia.org/resource/Tunisia>
+        rdfs:label     "Tunisia"@de , "Tunisia"@fr , "Tunisia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tunisie> , <http://de.dbpedia.org/resource/Tunesien> ;
+        skos:altLabel  "Etymology of Tunisia"@en , "Tunesia"@en , "Tunesia"@de , "Tunesia"@fr , "Name of Tunisia"@en , "Etymology of Tunisia"@fr , "Etymology of Tunisia"@de , "Name of Tunisia"@fr , "Name of Tunisia"@de , "Tunis"@fr , "Tunisian Republic"@en , "Medieval tunisia"@en , "Medieval tunisia"@de , "Medieval tunisia"@fr , "Tunisa"@en , "La Tunisie"@fr , "Tunisian Republic"@fr , "Tunisian Republic"@de , "Tunisa"@de , "Tunisa"@fr , "Al-Jumhuriyya at-Tunisiyya"@en , "Al-Jumhuriyya at-Tunisiyya"@de , "Al-Jumhuriyya at-Tunisiyya"@fr , "République tunisienne"@fr , "Tunesische Republik"@de , "Ancient tunisia"@en , "Ancient tunisia"@de , "Ancient tunisia"@fr , "ISO 3166-1:TN"@en , "Tunnisia"@en , "ISO 3166-1:TN"@fr , "ISO 3166-1:TN"@de , "Tunnisia"@de , "Tunnisia"@fr , "Franzosisches Protektorat in Tunesien"@de , "Tounisiyya"@en , "Republique tunisienne"@fr , "Tounisiyya"@de , "Tounisiyya"@fr , "Tunisia"@en , "Tunisia"@fr , "Tunisia"@de , "Tunisie"@en , "Französisches Protektorat in Tunesien"@de , "Tunisie"@de , "Tunisie"@fr , "Administrative divisions of Tunisia"@en , "Administrative divisions of Tunisia"@de , "Administrative divisions of Tunisia"@fr , "Tounes"@en , "Tounes"@fr , "Tounes"@de , "Tunisienne"@fr , "Tunesien"@de , "Tunisia in the middle ages"@en , "Tunisia in the middle ages"@de , "Tunisia in the middle ages"@fr , "Republic of Tunisia"@en , "Al-Jumhūriyya at-Tūnisiyya"@en , "Republic of Tunisia"@fr , "Republic of Tunisia"@de , "Al-Jumhūriyya at-Tūnisiyya"@de , "Al-Jumhūriyya at-Tūnisiyya"@fr , "Classical tunisia"@en , "Classical tunisia"@de , "Classical tunisia"@fr .
+
+<http://dbpedia.org/resource/Harold_Wilson__1>
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Tunisia> ;
+        dbo:to      "1987"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Olivia_Newton-John__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Cambridge> ;
+        dbo:from        "1948-09-26"^^xsd:date ;
+        dbo:to          "1948-09-26"^^xsd:date .
+
+<http://dbpedia.org/resource/Cambridge>
+        rdfs:label     "Cambridge"@de , "Cambridge"@fr , "Cambridge"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cambridge> , <http://de.dbpedia.org/resource/Cambridge> ;
+        skos:altLabel  "LOCODE:GBCMG"@fr , "Cambridge, UK"@en , "Cambridge, UK"@de , "Cambridge, UK"@fr , "LOCODE:GBCMG"@en , "LOCODE:GBCMG"@de , "Aéroport de Cambridge"@fr , "Cambridge, England"@en , "Cambridge, England"@de , "Cambridge, England"@fr , "Cambridge, United Kingdom"@fr , "Cambridge, United Kingdom"@en , "Cambridge, United Kingdom"@de , "Park Street Church of England Primary School"@en , "Park Street Church of England Primary School"@de , "Park Street Church of England Primary School"@fr , "Aeroport de Cambridge"@fr , "England Cambridge"@en , "England Cambridge"@de , "England Cambridge"@fr , "Christ's Piece"@fr , "Christ's Piece"@en , "Christ's Piece"@de , "Cambridge, Cambridgeshire"@fr , "Cambridge, Cambridgeshire"@en , "Cambridge, Cambridgeshire"@de , "Christs Pieces"@en , "Christs Pieces"@de , "Christs Pieces"@fr , "Grantabridge"@fr , "Grantabridge"@en , "Grantabridge"@de , "Cambridge"@fr , "Cambridge"@en , "Cambridge"@de , "The weather in Cambridge"@fr , "The weather in Cambridge"@en , "The weather in Cambridge"@de , "Caergrawnt"@fr , "Caergrawnt"@en , "Caergrawnt"@de .
+
+<http://dbpedia.org/resource/Olivia_Newton-John>
+        rdfs:label     "Olivia Newton-John"@en , "Olivia Newton-John"@fr , "Olivia Newton-John"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Olivia_Newton-John__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Olivia_Newton-John> , <http://de.dbpedia.org/resource/Olivia_Newton-John> ;
+        skos:altLabel  "Newton-John, Olivia"@de , "Newton-John, Olivia"@en , "Olivia NewtonJohn"@fr , "Olivia NewtonJohn"@de , "Olivia NewtonJohn"@en , "Olivia Newton-John"@fr , "Olivia Newton-John"@de , "Olivia Newton-John"@en , "Olivia"@fr , "John"@fr , "Newton"@fr , "Olivia Newton"@fr , "Olivia Newton"@de , "Olivia Newton"@en , "Olivia Newton-John Cancer and Wellness Centre"@fr , "Olivia Newton-John Cancer and Wellness Centre"@de , "Olivia Newton-John Cancer and Wellness Centre"@en , "Olivia Newton John"@fr , "Olivia Newton John"@de , "Olivia Newton John"@en , "Koala Blue"@fr , "Koala Blue"@de , "Koala Blue"@en , "Olivia newton-john"@fr , "Olivia newton-john"@de , "Olivia newton-john"@en , "Newton-John, Olivia"@fr .

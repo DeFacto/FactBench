@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09dt7>
+        rdfs:label       "Roger Zelazny"@de , "Roger Zelazny"@en , "Roger Zelazny"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.01hn49__78> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Roger_Zelazny> , <http://dbpedia.org/resource/Roger_Zelazny> , <http://de.dbpedia.org/resource/Roger_Zelazny> ;
+        skos:altLabel    "Zelazny"@fr , "Zelazny"@de , "Zelazny"@en , "Roger"@fr , "Roger Zelany"@fr , "Roger Zelany"@de , "Roger Zelany"@en , "Roger"@de , "Roger"@en , "Roger Joseph Zelazny"@fr , "Roger Joseph Zelazny"@de , "Roger Joseph Zelazny"@en , "Roger zelazny"@fr , "Zelazney"@fr , "Roger zelazny"@de , "Roger zelazny"@en , "Zelazney"@de , "Zelazney"@en , "R. Zelazny"@fr , "R. Zelazny"@de , "Harrison Denmark"@de , "Harrison Denmark"@en , "R. Zelazny"@en , "R Zelazny"@fr , "R Zelazny"@de , "R Zelazny"@en , "Roger Zelazny"@fr , "Roger Zelazny"@de , "Roger Zelazny"@en .
+
+<http://rdf.freebase.com/ns/m.01hn49__78>
+        dbo:author  <http://rdf.freebase.com/ns/m.01hn49> ;
+        dbo:from    "1967"^^xsd:gYear ;
+        dbo:to      "1967"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01hn49>
+        rdfs:label     "Seigneur de lumière"@fr , "Lord of Light"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Seigneur_de_lumière> , <http://dbpedia.org/resource/Lord_of_Light> ;
+        skos:altLabel  "Lord of light"@fr , "Seigneurs de lumiere"@fr , "Seigneur de lumière"@fr , "Lord of Light"@fr , "Seigneur de lumiere"@fr , "Mahasamatman"@fr , "Lord of Fire"@fr , "Lords of light"@fr , "Seigneurs de lumière"@fr .

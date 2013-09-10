@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02rds__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.09wddh> ;
+        dbo:from    "1975"^^xsd:gYear ;
+        dbo:to      "1975"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.09wddh>
+        rdfs:label     "Norstrilia"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Norstrilia> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "The Planet Buyer"@en , "The Underpeople"@en , "Norstrilia"@en .
+
+<http://rdf.freebase.com/ns/m.02rds>
+        rdfs:label     "Edwin Abbott Abbott"@en , "Edwin Abbott Abbott"@fr , "Edwin Abbott Abbott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02rds__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://fr.dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://de.dbpedia.org/resource/Edwin_Abbott_Abbott> ;
+        skos:altLabel  "Edwin Abbott"@fr , "Edwin Abbott"@de , "E. A. Abbott"@fr , "E. A. Abbott"@de , "Abbott, Edwin Abbott"@fr , "Abbott, Edwin Abbott"@de , "Edwin A. Abbott"@en , "A Square"@en , "Edwin A. Abbott"@fr , "Edwin Abbott Abbott"@fr , "Edwin Abbott Abbott"@de , "Edwin A. Abbott"@de , "Edwin abbott abbot"@fr , "Edwin abbott abbot"@de , "Abbott"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Laurent_Fabius__1>
+        dbo:from    "1981"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/New_Haven,_Connecticut> ;
+        dbo:to      "1992"^^xsd:gYear .
+
+<http://dbpedia.org/resource/New_Haven,_Connecticut>
+        rdfs:label     "New Haven, Connecticut"@en , "New Haven, Connecticut"@fr , "New Haven, Connecticut"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/New_Haven> , <http://de.dbpedia.org/resource/New_Haven_(Connecticut)> ;
+        skos:altLabel  "New Haven, New Haven County, Connecticut"@en , "New Haven, New Haven County, Connecticut"@fr , "New Haven, New Haven County, Connecticut"@de , "New haven, ct"@en , "New Haven, Conn."@en , "New Haven, Connecticut"@en , "New haven, ct"@fr , "New Haven, Conn."@fr , "New haven, ct"@de , "New Haven, Connecticut"@fr , "New Haven, Connecticut"@de , "New Haven, Conn."@de , "Newhaven"@fr , "New Haven"@en , "New Haven"@fr , "New Haven"@de , "Roodenburg"@en , "Roodenburg"@fr , "Roodenburg"@de , "New Haven, CT"@en , "New Haven, CT"@fr , "New Haven, CT"@de , "New Haven, USA"@en , "New Haven, USA"@fr , "New Haven, USA"@de , "LOCODE:USHVN"@en , "LOCODE:USHVN"@fr , "LOCODE:USHVN"@de , "New Haven,CT"@en , "New Haven,CT"@fr , "New Haven,CT"@de , "Neuer Zufluchtsort"@de .
+
+<http://dbpedia.org/resource/Laurent_Fabius>
+        rdfs:label     "Laurent Fabius"@de , "Laurent Fabius"@en , "Laurent Fabius"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Laurent_Fabius__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Laurent_Fabius> , <http://fr.dbpedia.org/resource/Laurent_Fabius> ;
+        skos:altLabel  "Lauren Fabius"@fr , "Fabiusien"@fr , "Laurent Fabius"@en , "Laurent Fabius"@fr , "Laurent Fabius"@de , "Fabius"@en , "Fabius"@fr , "Fabius"@de .

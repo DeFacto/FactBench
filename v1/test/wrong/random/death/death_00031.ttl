@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Muhammad_Ali>
+        rdfs:label     "Muhammad Ali"@de , "Muhammad Ali"@fr , "Muhammad Ali"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Muhammad_Ali__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mohamed_Ali_(boxe)> , <http://de.dbpedia.org/resource/Muhammad_Ali> ;
+        skos:altLabel  "Float like a butterfly and sting like a bee"@en , "Float like a butterfly and sting like a bee"@fr , "Float like a butterfly and sting like a bee"@de , "Ale Muhammad"@en , "Ale Muhammad"@fr , "Ale Muhammad"@de , "Cassius Clay, Jr."@en , "Muhammud Ali"@en , "Cassius Marcellus Clay, Jr."@en , "Cassius Marcellus Clay, Jr."@fr , "Cassius x"@de , "Cassius Marcellus Clay, Jr."@de , "Muhammud Ali"@fr , "Muhammud Ali"@de , "Yolanda Williams"@en , "Maryum Ali"@en , "May May"@en , "Mohammed Ali"@en , "Cassius"@en , "Cassius Clay, Jr."@fr , "Mohamed"@fr , "Yolanda Williams"@fr , "Maryum Ali"@fr , "May May"@fr , "Mohammed Ali"@fr , "Maryum Ali"@de , "Cassius"@de , "Cassius Clay, Jr."@de , "Mohammed Ali"@de , "Cassius"@fr , "Yolanda Williams"@de , "May May"@de , "Mohammed Alì"@en , "Mohammed Alì"@fr , "Mohammed Alì"@de , "Cassius Marcellus Clay Senior"@en , "Cassius Marcellus Clay Senior"@fr , "Cassius Marcellus Clay Senior"@de , "Yolanda 'Lonnie' Ali"@en , "Yolanda 'Lonnie' Ali"@fr , "Yolanda 'Lonnie' Ali"@de , "Float like a butterfly sting like a bee"@en , "Float like a butterfly sting like a bee"@fr , "Float like a butterfly sting like a bee"@de , "Ali, Muhammad"@en , "Ali, Muhammad"@fr , "Ali, Muhammad"@de , "Cassius X"@en , "Cassius X"@fr , "Cassius X"@de , "Cassius clay"@en , "Cassius Marcellus Clay"@en , "Cassius Marcellus Clay"@fr , "Cassius Marcellus Clay"@de , "Cassius clay"@fr , "Cassius clay"@de , "Muhummad Ali"@en , "Muhummad Ali"@fr , "Muhummad Ali"@de , "Cassius Marcellus Clay, Junior"@en , "Float like a butter fly sting like a bee"@en , "Cassius Marcellus Clay, Junior"@fr , "Cassius Marcellus Clay, Junior"@de , "Float like a butter fly sting like a bee"@de , "Float like a butter fly sting like a bee"@fr , "Cassius Marcellus Clay Jr."@en , "Cassius Marcellus Clay Jr."@fr , "Cassius Marcellus Clay Jr."@de , "Clay"@en , "Clay"@fr , "Clay"@de , "Muhammad Ali"@en , "Muhammad Ali"@fr , "Mohamed ali"@fr , "Muhammad Ali"@de , "Ali shuffle"@en , "Ali shuffle"@fr , "Ali shuffle"@de , "Cassius Clay"@en , "Cassius Clay"@fr , "Cassius Clay"@de , "Lonnie Ali"@en , "Lonnie Ali"@fr , "Lonnie Ali"@de , "Muhammed Ali"@en , "Muhammed Ali"@fr , "Muhammed Ali"@de , "Muhammet ali"@en , "Muhammet ali"@fr , "Muhammet ali"@de , "Khalilah 'Belinda' Ali"@en , "Khalilah 'Belinda' Ali"@fr , "Khalilah 'Belinda' Ali"@de , "Louisville Lip"@en , "Louisville Lip"@fr , "Louisville Lip"@de , "Mohamed Ali"@fr , "Sonji Roi"@en , "Sonji Roi"@fr , "Sonji Roi"@de .
+
+<http://dbpedia.org/resource/Denison,_Texas>
+        rdfs:label     "Denison, Texas"@en , "Denison, Texas"@fr , "Denison, Texas"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Denison_(Texas)> , <http://de.dbpedia.org/resource/Denison_(Texas)> ;
+        skos:altLabel  "LOCODE:USDSZ"@en , "LOCODE:USDSZ"@fr , "LOCODE:USDSZ"@de , "Denison, TX"@en , "Denison, TX"@fr , "Denison, TX"@de , "Munson Stadium"@en , "Munson Stadium"@fr , "Munson Stadium"@de , "Denison tx"@en , "Denison tx"@fr , "Denison tx"@de , "Denison"@en , "Denison"@de , "Denison"@fr , "Denison, Texas"@en , "Denison, Texas"@fr , "Denison, Texas"@de .
+
+<http://dbpedia.org/resource/Muhammad_Ali__1>
+        dbo:from    "1933"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Denison,_Texas> ;
+        dbo:to      "1933"^^xsd:gYear .

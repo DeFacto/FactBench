@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kamal_Haasan>
+        rdfs:label     "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kamal Haasan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kamal_Haasan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kamal_Haasan> , <http://fr.dbpedia.org/resource/Kamal_Haasan> ;
+        skos:altLabel  "Kamala hasan"@de , "Kamala hasan"@fr , "Kamala hasan"@en , "Kamalahasan"@en , "Kamalahasan"@de , "Kamalahasan"@fr , "Kamalahaasan"@en , "Kamalahaasan"@de , "Kamalahaasan"@fr , "Kmal haasan"@en , "Kmal haasan"@de , "Kmal haasan"@fr , "Kamalhasan"@de , "Kamalhassan"@en , "Kamalhassan"@de , "Kamalhassan"@fr , "Kamal Hassan"@en , "Kamal Hassan"@de , "Kamal Hassan"@fr , "Kamala haasan"@en , "Kamala haasan"@de , "Kamala haasan"@fr , "Kamalahassan"@en , "Kamalahassan"@de , "Kamalahassan"@fr , "Kamal Hasan"@en , "Kamal Hasan"@de , "Kamal Hasan"@fr , "Marmayogi"@de , "Marmayogi"@fr , "Marmayogi"@en , "Kamal Haasan"@en , "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kaml"@en , "Kaml"@de , "Kaml"@fr , "Thalaivan Irukkiraan"@de , "Thalaivan Irukkiraan"@fr , "Thalaivan Irukkiraan"@en , "Kamal haasna"@de , "Kamal haasna"@fr , "Kamal haasna"@en , "Kamal"@de , "Kamal"@fr , "Kamal"@en .
+
+<http://dbpedia.org/resource/Norfolk,_Virginia>
+        rdfs:label     "Norfolk, Virginia"@en , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norfolk_(Virginia)> , <http://fr.dbpedia.org/resource/Norfolk_(Virginie)> ;
+        skos:altLabel  "Ledger-Dispatch"@de , "Norfolk International Airport"@fr , "Norfolk, Virginia"@fr , "Norfolk, Virginia"@de , "City of Norfolk, Virginia"@en , "City of Norfolk, Virginia"@fr , "City of Norfolk, Virginia"@de , "Norfolk, Va"@en , "Norfolk, Va"@fr , "Norfolk, Va"@de , "LOCODE:USORF"@en , "LOCODE:USORF"@fr , "LOCODE:USORF"@de , "Norfolk"@en , "Norfolk, VA"@en , "Norfolk, va"@en , "Norfolk"@fr , "Norfolk, VA"@fr , "Norfolk, va"@fr , "Norfolk"@de , "Norfolk, VA"@de , "Norfolk, va"@de , "Norfolk VA"@en , "Norfolk VA"@fr , "Norfolk VA"@de , "Norfolk, Va."@en , "Norfolk, Va."@fr , "Norfolk, Va."@de , "Ledger-Dispatch"@en , "Norfolk, Virginia"@en , "Ledger-Dispatch"@fr .
+
+<http://dbpedia.org/resource/Kamal_Haasan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Norfolk,_Virginia> ;
+        dbo:from        "1954"^^xsd:gYear ;
+        dbo:to          "1954"^^xsd:gYear .

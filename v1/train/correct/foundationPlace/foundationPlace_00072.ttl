@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05rhc2>
+        rdfs:label      "Intuit Canada"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.05rhc2__72> ;
+        owl:sameAs      <http://dbpedia.org/resource/Intuit_Canada> .
+
+<http://rdf.freebase.com/ns/m.05rhc2__72>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0nlh7> ;
+        dbo:from             "1992"^^xsd:gYear ;
+        dbo:to               "1992"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Intuit_Canada>
+        skos:altLabel  "QuickTax"@en , "Intuit Canada"@en , "Quicktax"@en .
+
+<http://rdf.freebase.com/ns/m.0nlh7>
+        rdfs:label     "Edmonton"@fr , "Edmonton"@de , "Edmonton"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edmonton> , <http://dbpedia.org/resource/Edmonton> , <http://de.dbpedia.org/resource/Edmonton> ;
+        skos:altLabel  "Edmonoton, Alberta"@fr , "Edmonoton, Alberta"@en , "Edmonoton, Alberta"@de , "Edmontonians"@fr , "Edmontonians"@en , "Edmontonians"@de , "Edmonton, Alberta, Canada"@fr , "Edmonton, Alberta, Canada"@de , "Edmonton, Alberta, Canada"@en , "Edmonton Alberta"@fr , "Edmonton Alberta"@en , "Edmonton Alberta"@de , "82 Street, Edmonton"@fr , "82 Street, Edmonton"@de , "82 Street, Edmonton"@en , "E town"@fr , "E town"@de , "E town"@en , "184 Street, Edmonton"@fr , "184 Street, Edmonton"@en , "184 Street, Edmonton"@de , "Hayter Road"@fr , "Hayter Road"@de , "Hayter Road"@en , "Edmonton, AB"@fr , "Edmonton, AB"@de , "Edmonton, AB"@en , "City of Edmonton"@fr , "City of Edmonton"@de , "City of Edmonton"@en , "Clover Bar, Edmonton"@fr , "Clover Bar, Edmonton"@en , "Clover Bar, Edmonton"@de , "17 Street, Edmonton"@fr , "17 Street, Edmonton"@en , "17 Street, Edmonton"@de , "17 Street NW, Edmonton"@fr , "LOCODE:CAEDM"@fr , "17 Street NW, Edmonton"@de , "LOCODE:CAEDM"@de , "LOCODE:CAEDM"@en , "17 Street NW, Edmonton"@en , "The weather in Edmonton"@fr , "The weather in Edmonton"@en , "The weather in Edmonton"@de , "159 Street, Edmonton"@fr , "159 Street, Edmonton"@en , "159 Street, Edmonton"@de , "S.Bruce Smith School"@fr , "S.Bruce Smith School"@en , "S.Bruce Smith School"@de , "Edmonton"@fr , "Edmonton"@de , "Edmonton"@en , "S. Bruce Smith School"@fr , "S. Bruce Smith School"@de , "S. Bruce Smith School"@en , "Edmonchuk"@fr , "Edmonchuk"@en , "Edmonchuk"@de , "Edmonton, Canada"@fr , "Edmonton, Canada"@de , "Edmonton, Canada"@en , "Edmonton, Alberta"@fr , "Edmonton, Alberta"@en , "Edmonton, Alberta"@de .

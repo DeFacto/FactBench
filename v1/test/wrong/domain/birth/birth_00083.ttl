@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Walter_Scott>
+        rdfs:label     "Walter Scott"@fr , "Walter Scott"@en , "Walter Scott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walter_Scott__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walter_Scott> , <http://fr.dbpedia.org/resource/Walter_Scott> ;
+        skos:altLabel  "Sir Walter Scotts's"@de , "Sir Walter Scotts's"@fr , "Sir Walter Scotts's"@en , "Scott, Sir Walter"@en , "Walter, 1st Baronet Scott"@de , "Walter, 1st Baronet Scott"@fr , "Scott, Sir Walter"@de , "Scott, Sir Walter"@fr , "Sir Walter Scott, 1st Baronet"@de , "Sir Walter Scott, 1st Baronet"@fr , "Sir Walter Scott, 1st Baronet"@en , "Walter, 1st Baronet Scott"@en , "Border Minstrel"@de , "Border Minstrel"@fr , "Border Minstrel"@en , "Scott"@fr , "Wizard of the North"@fr , "Wizard of the North"@en , "Wizard of the North"@de , "Sir Walter Scott"@de , "Sir Walter Scott"@fr , "Sir Walter Scott"@en , "Walter Scott, 1st Baronet"@de , "Walter Scott, 1st Baronet"@fr , "Walter Scott, 1st Baronet"@en , "Scott, Walter"@de , "Scott, Walter"@fr , "Scott, Walter"@en , "Sir W. Scott"@en , "Sir W. Scott"@de , "Sir W. Scott"@fr , "Walter Scott"@en , "Walter Scott"@de , "Walter Scott"@fr , "Great Magician"@de , "Great Magician"@fr , "Great Magician"@en .
+
+<http://dbpedia.org/resource/Alicante>
+        rdfs:label     "Alicante"@en , "Alicante"@fr , "Alicante"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alicante> , <http://de.dbpedia.org/resource/Alicante> ;
+        skos:altLabel  "Altet"@fr , "Alicant"@en , "Alicant"@fr , "Alicant"@de , "Alacant"@en , "Alacant"@fr , "Alacant"@de , "Alicante"@en , "Alicante"@fr , "Alicante"@de , "Alacant, Alicante"@en , "Akra Leuke"@en , "Akra Leuke"@fr , "Akra Leuke"@de , "Alacant, Alicante"@fr , "Alacant, Alicante"@de , "Alicante El Altet"@fr , "LOCODE:ESALC"@en , "LOCODE:ESALC"@fr , "LOCODE:ESALC"@de , "Alicante, Spain"@en , "Alicante, Spain"@fr , "Alicante, Spain"@de .
+
+<http://dbpedia.org/resource/Walter_Scott__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Alicante> ;
+        dbo:from        "1982"^^xsd:gYear ;
+        dbo:to          "1982"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02ngbf>
+        rdfs:label     "Solange Knowles"@en , "Solange Knowles"@fr , "Solange Knowles"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Solange_Knowles> , <http://fr.dbpedia.org/resource/Solange_Knowles> , <http://de.dbpedia.org/resource/Solange_Knowles> ;
+        skos:altLabel  "Knowles, Solange"@en , "Pretty Good"@en , "Pretty Good"@fr , "Pretty Good"@de , "Knowles"@de , "Beyonce's sister"@en , "Beyonce's sister"@fr , "Beyonce's sister"@de , "Piaget"@en , "Piaget"@fr , "Piaget"@de , "Solange"@en , "Solange Piaget Knowles"@en , "Solange"@fr , "Solange"@de , "Solange Piaget Knowles"@fr , "Solange Piaget Knowles"@de , "Solange Knowles"@en , "Solange Knowles"@fr , "Solange Knowles"@de , "Solange Knowles-Smith"@en , "Solange Ijiat Knowles"@en , "Solange Knowles Smith"@en .
+
+<http://rdf.freebase.com/ns/m.01p4vl__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.02ngbf> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01p4vl>
+        rdfs:label     "Ashton Kutcher"@en , "Ashton Kutcher"@fr , "Ashton Kutcher"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01p4vl__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ashton_Kutcher> , <http://dbpedia.org/resource/Ashton_Kutcher> , <http://de.dbpedia.org/resource/Ashton_Kutcher> ;
+        skos:altLabel  "Chris Kutcher"@en , "Ashton Kutcher"@en , "Christopher Kutcher"@en , "Christopher Kutcher"@fr , "Christopher Kutcher"@de , "Christopher Ashton Kutcher"@en , "Ashton Kutcher"@fr , "Ashton Kutcher"@de , "Chris Kutcher"@fr , "Christopher Ashton Kutcher"@fr , "Christopher Ashton Kutcher"@de , "Chris Kutcher"@de , "AshtonKutcher"@en , "AshtonKutcher"@fr , "AshtonKutcher"@de , "Ashton Kucher"@en , "Kutch"@en , "Ashton Kutsher"@en , "Ashton Kucher"@fr , "Ashton Kucher"@de , "Ashton kutcher"@en , "Ashton Kutsher"@fr , "Ashton kutcher"@fr , "Ashton Kutsher"@de , "Ashton kutcher"@de , "Kutcher"@en , "Kutcher"@fr , "Kutcher"@de , "Ash"@en , "Ashton"@en , "Ashton"@fr , "Ashton"@de .

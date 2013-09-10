@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/James_Brown>
+        rdfs:label     "James Brown"@de , "James Brown"@fr , "James Brown"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/James_Brown__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/James_Brown> , <http://de.dbpedia.org/resource/James_Brown> ;
+        skos:altLabel  "James Joe Jr. Brown"@en , "James Joe Jr. Brown"@de , "James Joe Jr. Brown"@fr , "The King of Soul"@en , "The King of Soul"@de , "The King of Soul"@fr , "James Joe Brown, Jr."@en , "James Joe Brown, Jr."@de , "James Joe Brown, Jr."@fr , "James brown"@en , "James brown"@fr , "James brown"@de , "The Godfather of Soul"@en , "James J Brown"@en , "James J Brown"@de , "James J Brown"@fr , "Godfather of soul"@en , "Godfather of soul"@de , "Godfather of soul"@fr , "The Godfather of Soul"@de , "The Godfather of Soul"@fr , "James Joe Brown Jr."@en , "James Joe Brown Jr."@de , "James Joe Brown Jr."@fr , "Godfather of Soul"@en , "Godfather of Soul"@de , "Godfather of Soul"@fr , "Brown"@fr , "Brown, James Joe Jr."@en , "Brown, James Joe Jr."@fr , "Brown, James Joe Jr."@de , "The hardest working man in show business"@en , "The hardest working man in show business"@de , "The hardest working man in show business"@fr , "Hardest working man in show business"@en , "Hardest working man in show business"@de , "Hardest working man in show business"@fr , "Brown, James"@en , "Brown, James"@de , "Brown, James"@fr , "James Brown"@en , "James Brown statue"@en , "James Brown"@fr , "James Brown statue"@de , "James Brown statue"@fr , "James Brown"@de , "Untitled James Brown Biopic"@en , "Untitled James Brown Biopic"@de , "Untitled James Brown Biopic"@fr , "James Brown & the Famous Flames"@en , "James Brown & the Famous Flames"@de , "James Brown & the Famous Flames"@fr , "James Brown Statue"@en , "James Brown Statue"@de , "James Brown Statue"@fr .
+
+<http://dbpedia.org/resource/James_Brown__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Barnwell,_South_Carolina> ;
+        dbo:from        "1927"^^xsd:gYear ;
+        dbo:to          "1927"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Barnwell,_South_Carolina>
+        rdfs:label     "Barnwell, South Carolina"@en , "Barnwell, South Carolina"@fr , "Barnwell, South Carolina"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Barnwell_(Caroline_du_Sud)> ;
+        skos:altLabel  "Aéroport du comté de Barnwell"@fr , "Barnwell"@en , "Barnwell"@fr , "Barnwell County Airport"@fr , "Aeroport du comte de Barnwell"@fr , "Barnwell, SC"@en , "Barnwell, SC"@fr , "Barnwell, South Carolina"@en , "LOCODE:USBNL"@en , "Barnwell, South Carolina"@fr , "LOCODE:USBNL"@fr .

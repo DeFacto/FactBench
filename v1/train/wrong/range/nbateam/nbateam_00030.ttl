@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Richard_Jefferson>
+        rdfs:label     "Richard Jefferson"@en , "Richard Jefferson"@fr , "Richard Jefferson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Richard_Jefferson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Richard_Jefferson> , <http://de.dbpedia.org/resource/Richard_Jefferson> ;
+        skos:altLabel  "Jefferson"@fr , "Jefferson"@de , "Ricky Jefferson"@en , "Ricky Jefferson"@de , "Ricky Jefferson"@fr , "Richard Jefferson"@en , "Richard Jefferson"@fr , "Richard Jefferson"@de .
+
+<http://dbpedia.org/resource/Phoenix_Suns>
+        rdfs:label     "Phoenix Suns"@en , "Phoenix Suns"@fr , "Phoenix Suns"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Suns_de_Phoenix> , <http://de.dbpedia.org/resource/Phoenix_Suns> ;
+        skos:altLabel  "Phx suns"@en , "Phx suns"@fr , "Phx suns"@de , "Suns de Phoenix"@fr , "Phoenix suns"@en , "Phoenix Suns"@en , "Phoenix suns"@fr , "Phoenix suns"@de , "Phoenix Suns"@de , "Phoenix Suns"@fr , "Phoenix"@fr , "Suns"@en , "Suns"@fr , "Suns"@de , "Phoenix Suns roster"@en , "Phoenix Suns roster"@fr , "Phoenix Suns roster"@de , "Arizona suns"@en , "Arizona suns"@fr , "Arizona suns"@de , "Suns de phoenix"@fr .
+
+<http://dbpedia.org/resource/Richard_Jefferson__1>
+        dbo:from  "2009"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Phoenix_Suns> ;
+        dbo:to    "2011"^^xsd:gYear .

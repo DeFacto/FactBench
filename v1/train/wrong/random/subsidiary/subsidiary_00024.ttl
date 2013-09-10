@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026x_s>
+        rdfs:label     "Synopsys"@en , "Synopsys"@fr , "Synopsys"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.026x_s__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Synopsys> , <http://dbpedia.org/resource/Synopsys> , <http://de.dbpedia.org/resource/Synopsys> ;
+        skos:altLabel  "Synopsys Inc."@fr , "Synopsys Inc."@de , "Synopsys"@fr , "Synopsys"@de , "Synopsys, Incorporated"@de , "Synopsys, Incorporated"@fr , "Synopsys, Inc."@fr , "Synopsys, Inc."@de .
+
+<http://rdf.freebase.com/ns/m.04_pjf>
+        rdfs:label     "The Poison Belt"@en , "La Ceinture empoisonnée"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Poison_Belt> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/La_Ceinture_empoisonnée> ;
+        skos:altLabel  "La ceinture empoisonee"@fr , "The Poison Belt"@fr , "La Ceinture Empoisonnée"@fr , "La Ceinture Empoisonnee"@fr , "La ceinture empoisonée"@fr , "La ceinture empoisonnée"@fr , "La ceinture empoisonnee"@fr , "La Ceinture empoisonnée"@fr , "La Ceinture empoisonnee"@fr .
+
+<http://rdf.freebase.com/ns/m.026x_s__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.04_pjf> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Armenia>
+        rdfs:label     "Armenia"@de , "Armenia"@fr , "Armenia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Armenien> , <http://fr.dbpedia.org/resource/Arménie> ;
+        skos:altLabel  "Health in Armenia"@en , "Armenia"@en , "Health in Armenia"@fr , "Health in Armenia"@de , "Armenia"@fr , "Armenia"@de , "Altarmenien"@de , "Villages d'Armenie"@fr , "Hayastani Hanrapetutyun"@en , "Hayastani Hanrapetutyun"@fr , "Hayastani Hanrapetutyun"@de , "Hayastan-Karastan"@en , "Hayastan-Karastan"@fr , "Hayastan-Karastan"@de , "Hayasdan"@en , "ISO 3166-1:AM"@en , "Armenie"@en , "Hyester"@en , "ISO 3166-1:AM"@fr , "ISO 3166-1:AM"@de , "Armenie"@de , "Armenie"@fr , "Hyester"@fr , "Republique d'Armenie"@fr , "Hayasdan"@fr , "Hyester"@de , "Hayasdan"@de , "République arménienne"@fr , "Republik Armenien"@de , "Armenai"@en , "Republic of Armenia"@en , "Armenai"@fr , "Republic of Armenia"@fr , "Republic of Armenia"@de , "Armenai"@de , "Hayastani Hanrapetut’yun"@en , "Arménienne"@fr , "Hayastani Hanrapetut’yun"@fr , "Hayastani Hanrapetut’yun"@de , "ARMENIA"@en , "ARMENIA"@de , "ARMENIA"@fr , "Hajastan"@de , "République d'Arménie"@fr , "Hayq"@fr , "Ermeni"@en , "Ermeni"@fr , "Ermeni"@de , "Armenien"@en , "Armenien"@fr , "Armenien"@de , "Arménie"@en , "Arménie"@fr , "Arménie"@de , "Hayastani Hanrapetout'youn"@fr , "Amenia"@en , "Amenia"@de , "Amenia"@fr , "Hayastan"@en , "Hayastan"@fr , "Hayastan"@de , "Armania"@en , "Armania"@fr , "Armania"@de , "Hayastani Hanrapetut'yun"@en , "Hayastani Hanrapetut'yun"@fr , "Hayastani Hanrapetut'yun"@de , "Etymology of Armenia"@en , "Etymology of Armenia"@de , "Etymology of Armenia"@fr , "Ermenistan"@en , "Ermenistan"@de , "Ermenistan"@fr , "Hayastan Karastan"@en , "Karastan"@en , "Hayastan Karastan"@fr , "Karastan"@fr , "Karastan"@de , "Hayastan Karastan"@de , "Villages d'Arménie"@fr , "Armenienne"@fr , "Armenian Hayastan"@en , "Armenian Hayastan"@fr , "Republique armenienne"@fr , "Armenian Hayastan"@de .
+
+<http://dbpedia.org/resource/Vazgen_Sargsyan>
+        rdfs:label     "Vazgen Sargsyan"@en , "Vazgen Sargsyan"@fr , "Vazgen Sargsyan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Vazgen_Sargsyan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Vazgen_Sargsian> , <http://de.dbpedia.org/resource/Wasken_Sarkissjan> ;
+        skos:altLabel  "Vazguen Sargsian"@fr , "Vazgen Sarkissian"@fr , "Vazgen Sarkissian"@de , "Sarkissjan"@de , "Vazgen Sargsyan"@fr , "Vazgen Sargsyan"@de , "Sargsyan"@fr , "Sargsyan"@de , "Vasgen Sarkissian"@fr , "Vasgen Sarkissian"@de , "Vazgen Sarkisian"@fr , "Vazgen Sarkisyan"@fr , "Vazgen Sarkisian"@de , "Vasken Sarkissjan"@de , "Vazgen Sarkisyan"@de , "Vazgen Sargsian"@fr , "Vazgen Sargsian"@de , "Wasken Sarkissjan"@de .
+
+<http://dbpedia.org/resource/Vazgen_Sargsyan__1>
+        dbo:from    "1991"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Armenia> ;
+        dbo:to      "1991"^^xsd:gYear .

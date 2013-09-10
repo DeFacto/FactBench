@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Inglewood,_California>
+        rdfs:label     "Inglewood, California"@de , "Inglewood, California"@fr , "Inglewood, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Inglewood> , <http://de.dbpedia.org/resource/Inglewood> ;
+        skos:altLabel  "Inglewood, California"@de , "Inglewood, California"@fr , "Inglewood, California"@en , "Morningside Park"@de , "Morningside Park"@fr , "Morningside Park"@en , "Morningside Park, Inglewood"@de , "Morningside Park, Inglewood"@fr , "Morningside Park, Inglewood"@en , "Crenshaw-Imperial"@de , "Crenshaw-Imperial"@fr , "Crenshaw-Imperial"@en , "Inglewood california"@de , "Inglewood california"@fr , "Inglewood california"@en , "Morningside Park, Los Angeles, California"@de , "Morningside Park, Los Angeles, California"@fr , "Morningside Park, Los Angeles, California"@en , "Inglewood, Ca"@en , "Morningside Park, Inglewood, California"@de , "Morningside Park, Inglewood, California"@fr , "Morningside Park, Inglewood, California"@en , "Inglewood, Ca"@de , "Inglewood, Ca"@fr , "Inglewood, CA"@de , "Inglewood, CA"@fr , "North Inglewood"@de , "North Inglewood"@fr , "North Inglewood"@en , "Inglewood"@de , "Inglewood"@fr , "Inglewood"@en , "Inglewood, CA"@en , "LOCODE:USING"@en , "LOCODE:USING"@de , "LOCODE:USING"@fr .
+
+<http://dbpedia.org/resource/Brian_Wilson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Inglewood,_California> ;
+        dbo:from        "1947"^^xsd:gYear ;
+        dbo:to          "1947"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Brian_Wilson>
+        rdfs:label     "Brian Wilson"@en , "Brian Wilson"@fr , "Brian Wilson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Brian_Wilson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brian_Wilson> , <http://de.dbpedia.org/resource/Brian_Wilson> ;
+        skos:altLabel  "Brain Wilson"@en , "Brain Wilson"@fr , "Brain Wilson"@de , "Brian"@en , "Brian"@fr , "Brian"@de , "California Feelin'"@en , "Brian Wilson"@en , "California Feelin'"@fr , "Brian Wilson"@fr , "California Feelin'"@de , "Brian Wilson"@de , "Wilson, Brian Douglas"@en , "Wilson, Brian Douglas"@fr , "Wilson, Brian Douglas"@de , "Brian Douglas Wilson"@en , "Brian Douglas Wilson"@fr , "Brian Douglas Wilson"@de , "Wilson, Brian"@en , "Wilson, Brian"@fr , "Wilson, Brian"@de .

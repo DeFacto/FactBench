@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Michael_Chang>
+        rdfs:label     "Michael Chang"@en , "Michael Chang"@fr , "Michael Chang"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Michael_Chang__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Michael_Chang> , <http://fr.dbpedia.org/resource/Michael_Chang> ;
+        skos:altLabel  "Michel Chang"@de , "Michael Chang"@en , "Michael Chang"@de , "Michael Chang"@fr , "Michael Te-Pei Chang"@en , "Michael Te-Pei Chang"@fr , "Michael Te-Pei Chang"@de , "Chang"@fr , "Chang"@de , "Michel Chang"@en , "Zhang Depei"@en , "Zhang Depei"@fr , "Zhang Depei"@de , "Michel Chang"@fr .
+
+<http://dbpedia.org/resource/Banja_Luka>
+        rdfs:label     "Banja Luka"@en , "Banja Luka"@fr , "Banja Luka"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Banja_Luka> , <http://fr.dbpedia.org/resource/Banja_Luka> ;
+        skos:altLabel  "Banja luka"@en , "Banja luka"@fr , "Banja luka"@de , "Banja Luka"@en , "Banja Luka"@fr , "Banja Luka"@de , "Luka"@de , "Banya Luka"@en , "Banya Luka"@fr , "Banya Luka"@de , "Banjaluka"@en , "Banjaluka"@de , "Banjaluka"@fr , "Trapisti"@de .
+
+<http://dbpedia.org/resource/Michael_Chang__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Banja_Luka> ;
+        dbo:from        "1972"^^xsd:gYear ;
+        dbo:to          "1972"^^xsd:gYear .

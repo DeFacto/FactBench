@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03by224>
+        rdfs:label  "Mobile 365"@en .
+
+<http://rdf.freebase.com/ns/m.01c6q7>
+        rdfs:label       "Sybase"@de , "Sybase"@fr , "Sybase"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.01c6q7__86> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Sybase> , <http://de.dbpedia.org/resource/Sybase> , <http://dbpedia.org/resource/Sybase> ;
+        skos:altLabel    "SYBASE"@fr , "SYBASE"@de , "SYBASE"@en , "Sybase Inc."@fr , "Sybase Inc."@en , "Sybase Inc."@de , "Sybase, Inc."@fr , "Sybase, Inc"@fr , "Sybase, Inc."@de , "Sybase, Inc"@de , "Sybase, Inc"@en , "Sybase, Inc."@en , "Replication Server"@fr , "Replication Server"@de , "Replication Server"@en , "Sybase"@fr , "Sybase"@de , "Sybase"@en .
+
+<http://rdf.freebase.com/ns/m.01c6q7__86>
+        dbo:from        "2006-11-08"^^xsd:date ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03by224> ;
+        dbo:to          "2006-11-08"^^xsd:date .

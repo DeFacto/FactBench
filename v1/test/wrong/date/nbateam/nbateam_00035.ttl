@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Carlos_Delfino__1>
+        dbo:from  "2002"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Toronto_Raptors> ;
+        dbo:to    "2002"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Toronto_Raptors>
+        rdfs:label     "Toronto Raptors"@en , "Toronto Raptors"@fr , "Toronto Raptors"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Toronto_Raptors> , <http://fr.dbpedia.org/resource/Raptors_de_Toronto> ;
+        skos:altLabel  "Toronto raptor"@en , "Toronto raptor"@fr , "Toronto raptor"@de , "Raptors Toronto"@de , "Raptors de Toronto"@fr , "Raptorschat"@en , "Raptorschat"@fr , "Raptorschat"@de , "Raptors de toronto"@fr , "Raptor"@en , "The Toronto Raptors"@en , "Toronto Raptors"@en , "The Toronto Raptors"@fr , "The Toronto Raptors"@de , "Toronto Rapists"@en , "Toronto raptors"@en , "Raptors De Toronto"@fr , "Raptor"@fr , "Raptor"@de , "Toronto Raptors"@fr , "Toronto Rapists"@fr , "Toronto raptors"@fr , "Toronto Rapists"@de , "Toronto raptors"@de , "Toronto Raptors"@de , "Toronto Rapters"@en , "Toronto Rapters"@fr , "Toronto Rapters"@de , "The Raptor"@en , "The Raptor"@fr , "The Raptor"@de .
+
+<http://dbpedia.org/resource/Carlos_Delfino>
+        rdfs:label     "Carlos Delfino"@en , "Carlos Delfino"@fr , "Carlos Delfino"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Carlos_Delfino__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carlos_Delfino> , <http://fr.dbpedia.org/resource/Carlos_Delfino> ;
+        skos:altLabel  "Carlos Francisco Delfino"@fr , "Carlos Francisco Delfino"@de , "Carlos Francisco Delfino"@en , "Delfino"@de , "Carlos Delfino"@en , "Carlos Delfino"@fr , "Carlos Delfino"@de .

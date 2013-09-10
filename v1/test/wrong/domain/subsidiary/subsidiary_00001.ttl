@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02g43w_>
+        rdfs:label     "Alexa Internet"@de , "Alexa Internet"@fr , "Alexa Internet"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Alexa_Internet> , <http://de.dbpedia.org/resource/Alexa_Internet> , <http://fr.dbpedia.org/resource/Alexa_Internet> ;
+        skos:altLabel  "Alexa Internet, Inc."@de , "Alexa Internet, Inc."@fr , "Alexa Internet, Inc."@en , "Alexa rankings"@en , "Alexa rankings"@de , "Alexa rankings"@fr , "Alexa"@de , "Alexa"@fr , "Alexa"@en , "Alexa rank"@en , "Alexa rank"@de , "Alexa rank"@fr , "Alexa rating"@en , "Alexa rating"@de , "Alexa rating"@fr , "Alexa Rank"@de , "Alexa Internet"@en , "Alexa Internet"@de , "Alexa Internet"@fr , "Alexa ranking"@en , "Alexa ranking"@de , "Alexa ranking"@fr , "Alexa website"@en , "Alexa website"@de , "Alexa website"@fr , "Alexa internet"@en , "Alexa internet"@de , "Alexa internet"@fr , "Alexa internet rankings"@en , "Alexa internet rankings"@de , "Alexa internet rankings"@fr , "Global 500"@de , "Global 500"@fr , "Global 500"@en , "Alexa.com"@de , "Alexa.com"@fr , "Alexa.com"@en , "Alexa ratings"@de , "Alexa ratings"@fr , "Alexa ratings"@en , "Alexa / Amazon"@en , "Alexa Ranking"@en , "Alexa Ranking"@de , "Alexa Ranking"@fr , "Alexa Web Services"@de , "Alexa Web Services"@fr , "Alexa Web Services"@en .
+
+<http://rdf.freebase.com/ns/m.01zpmq>
+        rdfs:label     "Symantec"@de , "Symantec"@fr , "Symantec Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zpmq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Symantec> , <http://dbpedia.org/resource/Symantec> , <http://de.dbpedia.org/resource/Symantec> ;
+        skos:altLabel  "PowerQuest"@de , "Symantec Endpoint Virtualization Suite"@de , "Symantec Endpoint Virtualization Suite"@fr , "Symantec Endpoint Virtualization Suite"@en , "Symantec.com"@de , "Symantec.com"@fr , "Symantec.com"@en , "Category 5"@de , "Category 5"@fr , "Category 5"@en , "Norton Identity Client"@fr , "Norton Identity Client"@en , "Norton Identity Client"@de , "Symantec"@de , "Symantec"@fr , "Symantec"@en , "Symantec Corporation"@de , "Symantec Corporation"@fr , "Symantec Corporation"@en , "Symantec AI Builder"@de , "Symantec AI Builder"@fr , "Symantec AI Builder"@en , "Symantec Corp."@de , "Symantec Corp."@fr , "Symantec Corp."@en , "Distributor Pro"@de , "Distributor Pro"@fr , "Distributor Pro"@en , "Category 5 computer virus"@de , "SYMC"@de , "SYMC"@fr , "SYMC"@en , "Category 5 computer virus"@fr , "Category 5 computer virus"@en .
+
+<http://rdf.freebase.com/ns/m.01zpmq__1>
+        dbo:from        "1999"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02g43w_> ;
+        dbo:to          "1999"^^xsd:gYear .

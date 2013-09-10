@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Niles,_Ohio>
+        rdfs:label     "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Niles_(Ohio)> , <http://fr.dbpedia.org/resource/Niles_(Ohio)> ;
+        skos:altLabel  "Niles, OH"@en , "Niles, Oh"@en , "LOCODE:USNLS"@en , "Niles, Oh"@fr , "Niles, Oh"@de , "LOCODE:USNLS"@fr , "LOCODE:USNLS"@de , "Niles, OH"@fr , "Niles, OH"@de , "Heatons Furnace"@de , "Mahoning Salt Springs"@de , "Niles City"@de , "Niles, Ohio"@en , "Niles, Ohio"@fr , "Niles, Ohio"@de , "Nilestown"@de , "Mahoning"@de , "Niles"@en , "Niles"@fr , "Niles"@de , "Mohoning"@de .
+
+<http://dbpedia.org/resource/Robert_Christgau__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Niles,_Ohio> ;
+        dbo:from        "1843"^^xsd:gYear ;
+        dbo:to          "1843"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Robert_Christgau>
+        rdfs:label     "Robert Christgau"@en , "Robert Christgau"@fr , "Robert Christgau"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robert_Christgau__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robert_Christgau> , <http://de.dbpedia.org/resource/Robert_Christgau> ;
+        skos:altLabel  "Bob Christgau"@en , "Bob Christgau"@fr , "Bob Christgau"@de , "Christgau, Robert"@en , "Christgau, Robert"@fr , "Christgau, Robert"@de , "Xgau"@en , "Xgau"@fr , "Xgau"@de , "Robert Christgau"@en , "Robert Christgau"@fr , "Robert Christgau"@de , "Christgau"@en , "Christgau"@de , "Christgau"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01vx3m>
+        rdfs:label     "Woking"@fr , "Woking"@de , "Woking"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Woking> , <http://de.dbpedia.org/resource/Woking> , <http://fr.dbpedia.org/resource/Woking> ;
+        skos:altLabel  "Sythwood Primary School"@en , "Sythwood Primary School"@fr , "Sythwood Primary School"@de , "Hoe Bridge School"@en , "Hoe Bridge School"@fr , "Hoe Bridge School"@de , "Barnsbury Estate"@en , "Barnsbury Estate"@fr , "Barnsbury Estate"@de , "Woking"@en , "Woking"@fr , "Woking"@de , "Hoebridge"@en , "Woking Community Hospital"@en , "Hoebridge"@fr , "Woking Community Hospital"@fr , "Hoebridge"@de , "Woking Community Hospital"@de , "International School of London in Surrey"@en , "Woking, Surrey"@en , "Woking Hospital"@en , "International School of London in Surrey"@fr , "International School of London in Surrey"@de , "Woking, Surrey"@fr , "Woking Hospital"@fr , "Woking Hospital"@de , "Woking, Surrey"@de , "St Hugh of Lincoln Catholic Primary School"@en , "St Hugh of Lincoln Catholic Primary School"@fr , "St Hugh of Lincoln Catholic Primary School"@de , "Prins Willem-Alexander school"@en , "Prins Willem-Alexander school"@fr , "Prins Willem-Alexander school"@de .
+
+<http://rdf.freebase.com/ns/m.0d71_x__1>
+        dbo:from  "1997"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.01vx3m> ;
+        dbo:to    "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0d71_x>
+        rdfs:label     "Intec Telecom Systems"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0d71_x__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Intec_Telecom_Systems> ;
+        skos:altLabel  "Intec"@en .

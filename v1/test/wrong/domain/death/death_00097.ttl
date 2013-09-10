@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Walt_Whitman__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Lancaster,_Pennsylvania> ;
+        dbo:from        "1868"^^xsd:gYear ;
+        dbo:to          "1868"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Lancaster,_Pennsylvania>
+        rdfs:label     "Lancaster, Pennsylvania"@en , "Lancaster, Pennsylvania"@fr , "Lancaster, Pennsylvania"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lancaster_(Pennsylvanie)> , <http://de.dbpedia.org/resource/Lancaster_(Pennsylvania)> ;
+        skos:altLabel  "City of Lancaster, Pennsylvania"@en , "City of Lancaster, Pennsylvania"@fr , "City of Lancaster, Pennsylvania"@de , "Lancaster, PA"@en , "Lancaster, PA"@fr , "Lancaster, PA"@de , "Lancester, Pennsylvania"@en , "Lancester, Pennsylvania"@fr , "Lancester, Pennsylvania"@de , "City of Lancaster. Pennsylvania"@en , "LOCODE:USLNS"@en , "City of Lancaster. Pennsylvania"@fr , "LOCODE:USLNS"@fr , "LOCODE:USLNS"@de , "City of Lancaster. Pennsylvania"@de , "Lancaster, Pennsylvania"@en , "Lancaster, Pennsylvania"@fr , "Lancaster, Pennsylvania"@de , "Lancaster Community Safety Coalition"@en , "Lancaster Community Safety Coalition"@fr , "Lancaster Community Safety Coalition"@de , "Lancaster"@en , "Lancaster"@fr , "Lancaster"@de , "City of Lancaster, Pennsylvania."@en , "City of Lancaster, Pennsylvania."@fr , "City of Lancaster, Pennsylvania."@de .
+
+<http://dbpedia.org/resource/Walt_Whitman>
+        rdfs:label     "Walt Whitman"@en , "Walt Whitman"@fr , "Walt Whitman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walt_Whitman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Walt_Whitman> , <http://de.dbpedia.org/resource/Walt_Whitman> ;
+        skos:altLabel  "Walt (Walter) Whitman"@en , "Walt"@en , "Walt (Walter) Whitman"@fr , "Walt (Walter) Whitman"@de , "Uncle Walt"@en , "Walt"@fr , "Uncle Walt"@fr , "Walt"@de , "Uncle Walt"@de , "Whitman"@en , "Whitman"@fr , "Whitman"@de , "Walt Whitman"@en , "Whitman, Walt"@en , "Walt Whitman"@fr , "Whitman, Walt"@fr , "Whitman, Walt"@de , "Walt Whitman"@de , "Walt whitman"@en , "Walter Whitman"@en , "Walt whitman"@fr , "Walter Whitman"@fr , "Walt whitman"@de , "Walter Whitman"@de , "Walter or Walt Whitman"@en , "Walter or Walt Whitman"@fr , "Walter or Walt Whitman"@de .

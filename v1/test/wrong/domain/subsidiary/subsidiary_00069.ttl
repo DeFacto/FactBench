@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02h5b4s__1>
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01xtmx> ;
+        dbo:to          "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01xtmx>
+        rdfs:label     "Rational Software"@en , "Rational Software"@de , "Rational Rose"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rational_Software> , <http://fr.dbpedia.org/resource/Rational_Rose> , <http://dbpedia.org/resource/Rational_Software> ;
+        skos:altLabel  "Rational Software"@de , "Rational robot"@fr , "Rational robot"@de , "RationalRose"@fr , "Rational rose"@fr , "Rational rose"@de , "Rational Machines"@en , "Rational Machines"@fr , "Rational Machines"@de , "Rose"@fr , "Rational"@fr , "Rational"@de , "Rational Rose"@fr , "IBM Jazz"@fr , "IBM Jazz"@de , "Rational Rose"@de , "Jazz"@fr , "Rational Rose RealTime"@fr , "Rational Rose RealTime"@de , "Jazz"@de , "Rationale Software"@fr , "Rationale Software"@de , "Rational Software Corporation"@en , "IBM Rational Software"@fr , "Rational Software Corporation"@fr , "IBM Rational"@fr , "IBM Rational Software"@de , "IBM Rational"@de , "Rational Software Corporation"@de , "Rational Software"@fr .
+
+<http://rdf.freebase.com/ns/m.02h5b4s>
+        rdfs:label  "ByteMobile"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02h5b4s__1> .

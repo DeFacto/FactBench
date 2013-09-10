@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Superbad_(film)__1>
+        dbo:from  "2007"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Bill_Hader> ;
+        dbo:to    "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Superbad_(film)>
+        rdfs:label     "Superbad (film)"@en , "Superbad (film)"@fr , "Superbad (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Superbad_(film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/SuperGrave> , <http://de.dbpedia.org/resource/Superbad> ;
+        skos:altLabel  "McLovin"@en , "McLovin"@fr , "McLovin"@de , "Super Grave"@fr , "Superbad: The Drawings"@en , "Superbad: The Drawings"@fr , "Superbad: The Drawings"@de , "Mclovin"@en , "Superbad"@en , "Mclovin"@fr , "Superbad"@fr , "Mclovin"@de , "Supermalades"@fr , "Superbad"@de , "Fogell"@en , "Fogell"@fr , "Fogell"@de , "Supergrave"@fr , "Period blood girl"@en , "Period blood girl"@fr , "Period blood girl"@de , "SuperGrave"@fr , "Superbad 2007"@en , "Superbad 2007"@fr , "Superbad 2007"@de .
+
+<http://dbpedia.org/resource/Bill_Hader>
+        rdfs:label     "Bill Hader"@en , "Bill Hader"@fr , "Bill Hader"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bill_Hader> , <http://de.dbpedia.org/resource/Bill_Hader> ;
+        skos:altLabel  "Bill Hader"@en , "Bill Hader"@fr , "Hader"@de , "Bill Hader"@de .

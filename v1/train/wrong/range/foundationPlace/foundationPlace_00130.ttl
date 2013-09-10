@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ply0>
+        rdfs:label     "Orlando"@en , "Orlando"@de , "Orlando"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Orlando_(Florida)> , <http://fr.dbpedia.org/resource/Orlando_(Floride)> , <http://dbpedia.org/resource/Orlando,_Florida> ;
+        skos:altLabel  "Orlando, Florida"@en , "Orlando, Florida"@de , "Orlando, Florida"@fr , "Orlando"@en , "Orlando, FL"@en , "Orlando"@de , "Orlando, FL"@de , "Orlando, FL"@fr , "Orlando"@fr , "City of Orlando"@en , "Legacy Middle School"@en , "City of Orlando"@fr , "Legacy Middle School"@de , "Legacy Middle School"@fr , "City of Orlando"@de , "Downtown Orlando, Florida"@en , "Downtown Orlando, Florida"@de , "Downtown Orlando, Florida"@fr , "Eastwood, Florida"@en , "Eastwood, Florida"@de , "Eastwood, Florida"@fr , "Orlando, Fla."@en , "Orlando, Fla."@de , "Orlando, Fla."@fr , "Orlando, fl"@en , "Orlando, fl"@fr , "Orlando, fl"@de , "Orlando florida"@en , "Orlando florida"@fr , "Orlando florida"@de , "Mickeyland"@en , "East Orlando, Florida"@en , "East Orlando, Florida"@de , "East Orlando, Florida"@fr , "Mickeyland"@de , "Mickeyland"@fr , "Orlando, Fl"@en , "Orlando, Fl"@de , "Orlando, Fl"@fr , "East Orlando"@en , "East Orlando"@de , "East Orlando"@fr , "Lake Nona"@en , "Lake Nona"@de , "Lake Nona"@fr , "LOCODE:USORL"@en , "LOCODE:USORL"@fr , "LOCODE:USORL"@de , "Orlando, USA"@en , "Orlando, USA"@de , "Orlando, USA"@fr , "Orlando FL"@en , "Orlando FL"@fr , "Orlando FL"@de , "Orlando,Florida"@en , "Orlando,Florida"@de , "Orlando,Florida"@fr , "Orange County / Orlando city"@en , "The weather in orlando"@en , "The weather in orlando"@de , "The weather in orlando"@fr , "East Orlando, FL"@en , "East Orlando, FL"@de , "East Orlando, FL"@fr .
+
+<http://rdf.freebase.com/ns/m.047lbt9__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0ply0> ;
+        dbo:from             "1991"^^xsd:gYear ;
+        dbo:to               "1991"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.047lbt9>
+        rdfs:label     "Navigon"@en , "Navigon"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.047lbt9__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Garmin_Würzburg> , <http://dbpedia.org/resource/Navigon> ;
+        skos:altLabel  "Garmin Wurzburg"@de , "Navigon AG"@de , "Garmin Würzburg"@de , "Navigon"@de , "NAVIGON AG"@de .

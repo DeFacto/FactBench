@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hamburg>
+        rdfs:label     "Hamburg"@en , "Hamburg"@de , "Hamburg"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hambourg> , <http://de.dbpedia.org/resource/Hamburg> ;
+        skos:altLabel  "DEHAM"@en , "DEHAM"@de , "DEHAM"@fr , "Free and Hanseatic City of Hamburg"@en , "Free and Hanseatic City of Hamburg"@de , "Free and Hanseatic City of Hamburg"@fr , "DE-HH"@de , "Freie Hansestadt Hamburg"@de , "Ville libre et hanséatique de Hambourg"@fr , "Hamburg"@en , "Hamburg"@de , "Hamburg"@fr , "Freie Stadt Hamburg"@de , "Free un Hansestadt Hamborg"@en , "Free un Hansestadt Hamborg"@de , "Free un Hansestadt Hamborg"@fr , "Hambourg"@en , "Hambourg"@fr , "Hambourg"@de , "Hanseatic city of Hamburg"@en , "Hanseatic city of Hamburg"@de , "Hanseatic city of Hamburg"@fr , "Cheeseburg"@en , "Cheeseburg"@fr , "Cheeseburg"@de , "Ville libre et hanseatique de Hambourg"@fr , "Freie und Hansestadt Hamburg"@en , "Freie und Hansestadt Hamburg"@de , "Freie und Hansestadt Hamburg"@fr , "Kaseburg"@en , "Kaseburg"@de , "Kaseburg"@fr , "Free City of Hamburg"@en , "Hamborg"@en , "Hamborg"@de , "Free City of Hamburg"@de , "Free City of Hamburg"@fr , "Hamborg"@fr , "Hamburg, Germany"@en , "Hamburg, Germany"@de , "Hamburg, Germany"@fr , "Hansestadt Hamburg"@de , "Hamburch"@de , "Käseburg"@en , "Käseburg"@de , "Käseburg"@fr , "Tor zur Welt"@de , "Ḥamburg"@en , "Ḥamburg"@de , "Ḥamburg"@fr , "LOCODE:DEHAM"@en , "LOCODE:DEHAM"@de , "LOCODE:DEHAM"@fr .
+
+<http://dbpedia.org/resource/Hubert_Humphrey__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hamburg> ;
+        dbo:from        "1889"^^xsd:gYear ;
+        dbo:to          "1889"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hubert_Humphrey>
+        rdfs:label     "Hubert Humphrey"@de , "Hubert Humphrey"@fr , "Hubert Humphrey"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hubert_Humphrey__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hubert_Humphrey> , <http://de.dbpedia.org/resource/Hubert_H._Humphrey> ;
+        skos:altLabel  "Humphrey"@en , "Humphrey"@de , "Humphrey"@fr , "Hubert Humphrey"@en , "Hubert Humphrey"@de , "Hubert Humphrey"@fr , "Hubert Horatio Humphrey"@en , "Hubert Horatio Humphrey"@de , "Hubert Horatio Humphrey"@fr , "Hubet Humphrey"@en , "Hubet Humphrey"@de , "Hubet Humphrey"@fr , "Hubert Horatio Humphrey, Jr."@en , "Hubert Horatio Humphrey, Jr."@de , "Hubert Horatio Humphrey, Jr."@fr , "Hubert H. Humphrey"@en , "Hubert H. Humphrey"@de , "Hubert H. Humphrey"@fr , "Hubert Horatio Humphrey, II"@en , "Hubert Horatio Humphrey, II"@de , "Hubert Horatio Humphrey, II"@fr , "Hubert Humphrey, Jr."@en , "Hubert H. Humphrey II"@en , "Vice President Humphrey"@en , "Hubert Humphrey, Jr."@fr , "Vice President Humphrey"@de , "Hubert Humphrey, Jr."@de , "Vice President Humphrey"@fr , "Hubert H. Humphrey II"@de , "Hubert H. Humphrey II"@fr , "Hubert H. Humphrey, II"@en , "Hubert H. Humphrey, II"@de , "Hubert H. Humphrey, II"@fr , "Hubert H. Humphrey, Jr."@en , "Hubert H. Humphrey, Jr."@de , "Hubert H. Humphrey, Jr."@fr , "Hubert"@en , "Hubert"@de , "Hubert"@fr , "Humbert Humphrey"@en , "Humbert Humphrey"@de , "Humbert Humphrey"@fr , "Humphrey Fellowship"@en , "Humphrey Fellowship"@de , "Humphrey Fellowship"@fr , "Hubert Horatio Humphrey Jr."@de , "Hubert humphry"@en , "Hubert humphry"@de , "Hubert humphry"@fr , "Hubert Humphrey, II"@en , "Hubert Humphrey, II"@de , "Hubert Humphrey, II"@fr , "Hubert H Humphrey"@en , "Hubert H Humphrey"@de , "Hubert H Humphrey"@fr .

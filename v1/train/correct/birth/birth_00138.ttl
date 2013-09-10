@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kumasi>
+        rdfs:label     "Kumasi"@en , "Kumasi"@fr , "Kumasi"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kumasi> , <http://de.dbpedia.org/resource/Kumasi> ;
+        skos:altLabel  "Kumase"@fr , "Kumase"@de , "Kumase"@en , "Kumasi"@fr , "Kumasi"@de , "Kumasi"@en , "Kumassi"@fr , "Kumassi"@de , "Kumassi"@en , "Kumasi, Ghana"@fr , "Kumasi, Ghana"@en , "Kumasi, Ghana"@de .
+
+<http://dbpedia.org/resource/Kofi_Annan>
+        rdfs:label     "Kofi Annan"@de , "Kofi Annan"@fr , "Kofi Annan"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Kofi_Annan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kofi_Annan> , <http://de.dbpedia.org/resource/Kofi_Annan> ;
+        skos:altLabel  "Efua Atta"@fr , "Efua Atta"@en , "Efua Atta"@de , "Kofi"@fr , "Kofi"@en , "Kofi"@de , "Annan"@fr , "Annan"@en , "Annan"@de , "Kofi Atta Annan"@fr , "Kofi Atta Annan"@de , "Kofi Atta Annan"@en , "Nina Cronstedt de Groot"@fr , "Kofi Anan"@fr , "Nina Cronstedt de Groot"@de , "Kofi Anan"@en , "Kofi Anan"@de , "Nina Cronstedt de Groot"@en , "Annan, Kofi"@fr , "Kofi A Annan"@fr , "Annan, Kofi"@en , "Annan, Kofi"@de , "Kofi A Annan"@en , "Kofi A Annan"@de , "Kofi A. Annan"@fr , "Kofi A. Annan"@en , "Kofi A. Annan"@de , "Nane Annan"@fr , "Nane Annan"@en , "Nane Annan"@de , "Kofi Annan"@fr , "Kofi Annan"@en , "Kofi Annan"@de , "Koffi Annan"@fr , "Koffi Annan"@en , "Koffi Annan"@de , "Kofi Bo Bofi"@fr , "Kofi Bo Bofi"@en , "Kofi Bo Bofi"@de , "Nana maria annan"@fr , "Nana maria annan"@en , "Nana maria annan"@de , "Nana Maria Annan"@fr , "Nana Maria Annan"@en , "Nana Maria Annan"@de , "Ama Annan"@fr , "Ama Annan"@en , "Ama Annan"@de , "Titi Alakija"@fr , "Titi Alakija"@en , "Titi Alakija"@de , "Nane Maria Annan"@fr , "Nane Maria Annan"@en , "Nane Maria Annan"@de .
+
+<http://dbpedia.org/resource/Kofi_Annan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Kumasi> ;
+        dbo:from        "1938-04-08"^^xsd:date ;
+        dbo:to          "1938-04-08"^^xsd:date .

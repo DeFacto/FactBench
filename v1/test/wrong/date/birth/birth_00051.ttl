@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Aretha_Franklin>
+        rdfs:label     "Aretha Franklin"@de , "Aretha Franklin"@fr , "Aretha Franklin"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Aretha_Franklin__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Aretha_Franklin> , <http://fr.dbpedia.org/resource/Aretha_Franklin> ;
+        skos:altLabel  "The Queen In Waiting"@de , "The Queen In Waiting"@fr , "The Queen In Waiting"@en , "Queen of soul"@en , "Ted White Jr"@de , "Ted White Jr"@fr , "Ted White Jr"@en , "Queen of soul"@de , "Queen of soul"@fr , "Queen of Soul"@en , "Queen of Soul"@de , "Queen of Soul"@fr , "The House That Jack Built"@en , "The House That Jack Built"@de , "The House That Jack Built"@fr , "Aretha Louise Franklin"@en , "Aretha Louise Franklin"@de , "Aretha Louise Franklin"@fr , "The Queen of Soul"@de , "The Queen of Soul"@fr , "The Queen of Soul"@en , "The Queen in Waiting"@de , "The Queen in Waiting"@fr , "The Queen in Waiting"@en , "Aretha Franklin"@en , "Aretha Franklin"@de , "Aretha Franklin"@fr , "Aretha"@de , "Aretha"@fr , "The Collection"@de , "The Collection"@fr , "The Collection"@en , "Aretha"@en , "Eddie Franklin"@en , "Eddie Franklin"@de , "Eddie Franklin"@fr , "Franklin"@fr , "Arethra Franklin"@de , "Arethra Franklin"@fr , "Arethra Franklin"@en .
+
+<http://dbpedia.org/resource/Memphis,_Tennessee>
+        rdfs:label     "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennessee"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Memphis_(Tennessee)> , <http://de.dbpedia.org/resource/Memphis_(Tennessee)> ;
+        skos:altLabel  "Memphis TN"@de , "Memphis TN"@fr , "Memphis TN"@en , "Memphis, Tennesse"@de , "Memphis, Tennesse"@fr , "Memphis, Tennesse"@en , "LOCODE:USMEM"@en , "LOCODE:USMEM"@de , "LOCODE:USMEM"@fr , "TN Memphis"@en , "TN Memphis"@de , "TN Memphis"@fr , "Memphis"@en , "Memphis"@de , "Memphis"@fr , "Memphis Tennessee"@de , "Memphis Tennessee"@fr , "Memphis Tennessee"@en , "Memphis, tn"@en , "Memphis,TN"@en , "Memphis,TN"@de , "Memphis,TN"@fr , "Memphis, tn"@de , "Memphis, tn"@fr , "Memphrica"@de , "Memphrica"@fr , "Memphrica"@en , "Menphis"@en , "Menphis"@de , "Menphis"@fr , "Memphis, USA"@en , "Memphis, TN"@de , "Memphis, TN"@fr , "Memphis, TN"@en , "Memphis, USA"@fr , "Memphis, USA"@de , "Memfrica"@de , "Memfrica"@fr , "Memfrica"@en , "Memphis, Tennessee"@en , "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennesee"@de , "Memphis, Tennesee"@fr , "Memphis, Tennesee"@en .
+
+<http://dbpedia.org/resource/Aretha_Franklin__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Memphis,_Tennessee> ;
+        dbo:from        "1944"^^xsd:gYear ;
+        dbo:to          "1944"^^xsd:gYear .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05j3v__1>
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.02_2t27> ;
+        dbo:to      "1995"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02_2t27>
+        rdfs:label  "Collabra Software"@en .
+
+<http://rdf.freebase.com/ns/m.05j3v>
+        rdfs:label     "Netscape"@en , "Netscape Communications"@de , "Netscape Communications"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05j3v__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Netscape_Communications> , <http://de.dbpedia.org/resource/Netscape_Communications> , <http://dbpedia.org/resource/Netscape> ;
+        skos:altLabel  "Netscape Corp."@de , "Netscape Corp."@fr , "Netcenter"@de , "Netcenter"@fr , "Netscpae"@en , "Netscpae"@fr , "Netscpae"@de , "Netscape moment"@en , "Netscape moment"@fr , "Netscape moment"@de , "NetScape"@en , "NetScape"@fr , "NetScape"@de , "Netscape Communications and Weblogs"@fr , "Moscom"@en , "DevEdge"@en , "DevEdge"@de , "Moscom"@de , "Moscom"@fr , "DevEdge"@fr , "Netscape.com"@en , "Mosaic Communications"@en , "Mozcom Communications"@en , "Netscape.com"@fr , "Mozcom Communications"@fr , "Netscape.com"@de , "Mosaic Communications"@de , "Mosaic Communications"@fr , "Mozcom Communications"@de , "Netscape Communications Corp"@en , "AOL-Netscape"@en , "AOL-Netscape"@de , "AOL-Netscape"@fr , "Netscape Mosaic"@en , "Netscape Mosaic"@fr , "Netscape Mosaic"@de , "Netscape Internet Service"@en , "Netscape Internet Service"@de , "Netscape Internet Service"@fr , "Netscape Communications"@en , "Netscape Communications"@de , "Netscape Communications"@fr , "Netscape Corporation"@en , "Netscape Corporation"@de , "Netscape Corporation"@fr , "Netscape Communications And Weblogs"@fr , "Netscape Now"@en , "Netscape Now"@de , "Netscape Now"@fr , "Netscape IPO"@en , "Mosaic Communications Corporation"@en , "Mosaic Communications Corporation"@de , "Mosaic Communications Corporation"@fr , "Netscape IPO"@fr , "Netscape IPO"@de , "Netscape Commnications Corporation"@en , "Netscape Commnications Corporation"@fr , "Netscape communications and weblogs"@fr , "Netscape Commnications Corporation"@de , "Netscape Communications Corp."@en , "Netscape Communications Corp."@fr , "Netscape Communications Corp."@de , "Netscape"@en , "Netscape"@de , "Netscape"@fr , "Netscape Communications Corporation"@en , "Netscape Communications Corporation"@fr , "Netscape Communications Corporation"@de , "Netcenter"@en , "Netscape Corp."@en .

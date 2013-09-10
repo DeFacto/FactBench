@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05yn9h5>
+        rdfs:label  "Jean Bonnefoy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05yn9h5__1> .
+
+<http://rdf.freebase.com/ns/m.05zh32>
+        rdfs:label     "The Gods of Mars"@en , "Les Dieux de Mars"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Gods_of_Mars> , <http://fr.dbpedia.org/resource/Les_Dieux_de_Mars> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Gods of Mars"@fr , "Les Dieux de Mars"@fr , "The Gods of Mars"@fr .
+
+<http://rdf.freebase.com/ns/m.05yn9h5__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05zh32> ;
+        dbo:from    "1918"^^xsd:gYear ;
+        dbo:to      "1918"^^xsd:gYear .

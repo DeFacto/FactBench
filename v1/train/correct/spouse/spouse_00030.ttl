@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0cv8hn>
+        rdfs:label     "Kristine Hermosa"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Kristine_Hermosa> ;
+        skos:altLabel  "Kristine Hermosa"@en , "Tin-tin"@en , "Kristine Hermosa Sotto"@en , "Anne Kirsten Esmeralde Hermosa Orille"@en , "Kristine Hermosa Orille"@en .
+
+<http://rdf.freebase.com/ns/m.028ccnr>
+        rdfs:label     "Diether Ocampo"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.028ccnr__30> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Diether_Ocampo> ;
+        skos:altLabel  "Diether Ocampo"@en , "diether_ocampo"@en .
+
+<http://rdf.freebase.com/ns/m.028ccnr__30>
+        dbo:from    "2004-09-21"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0cv8hn> ;
+        dbo:to      "2009-01-30"^^xsd:date .

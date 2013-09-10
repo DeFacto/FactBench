@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Lloyd_George>
+        rdfs:label     "David Lloyd George"@de , "David Lloyd George"@fr , "David Lloyd George"@en ;
+        dbo:birth      <http://dbpedia.org/resource/David_Lloyd_George__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Lloyd_George> , <http://fr.dbpedia.org/resource/David_Lloyd_George> ;
+        skos:altLabel  "Lloyd George, David, 1st Earl of Dwyfor"@fr , "Lloyd George, David, 1st Earl of Dwyfor"@en , "Lloyd George, David, 1st Earl of Dwyfor"@de , "The Welsh Wizard"@en , "The Welsh Wizard"@de , "The Welsh Wizard"@fr , "David Lloyd"@en , "David Lloyd"@de , "David Lloyd"@fr , "Lloyd George, David"@en , "Lloyd George, David"@de , "Lloyd George, David"@fr , "David Lloyd-George"@en , "David Lloyd-George"@de , "David Lloyd-George"@fr , "Lloyd George"@fr , "Lloyd George"@en , "Lloyd George"@de , "Lloyd Georges"@fr , "Llyod George"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@en , "David, 1st Earl Lloyd-George of Dwyfor"@de , "D Lloyd-George"@en , "D Lloyd-George"@de , "D Lloyd-George"@fr , "Lloyd"@fr , "David Lloyd George, 1. Earl Lloyd George of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@fr , "David Lloyd George, 1st Earl of Dwyfor"@en , "David Lloyd George, 1st Earl of Dwyfor"@de , "David Lloyd George"@en , "David Lloyd George"@de , "David Lloyd George"@fr , "Lloyd-George"@fr , "Richard Lloyd"@fr , "Richard Lloyd"@en , "Richard Lloyd"@de , "Lloyd-George"@en , "Lloyd-George"@de .
+
+<http://dbpedia.org/resource/Manchester>
+        rdfs:label     "Manchester"@de , "Manchester"@fr , "Manchester"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Manchester> , <http://de.dbpedia.org/resource/Manchester> ;
+        skos:altLabel  "The weather in Manchester"@fr , "The weather in Manchester"@en , "The weather in Manchester"@de , "GB-MAN"@de , "England Manchester"@fr , "England Manchester"@en , "England Manchester"@de , "Manchester"@fr , "Manc"@fr , "Drizzlechester"@fr , "Manchester, UK"@fr , "Manchester, UK"@en , "Manchester, UK"@de , "LOCODE:GBMNC"@fr , "Manchester"@en , "Manc"@en , "Manc"@de , "Drizzlechester"@en , "Drizzlechester"@de , "Manchester"@de , "LOCODE:GBMNC"@en , "LOCODE:GBMNC"@de , "Manchester, England"@fr , "Manchester, England"@en , "Manchester, England"@de , "Manchester, United Kingdom"@fr , "Manchester, United Kingdom"@en , "Manchester, United Kingdom"@de , "B of the Bang"@de , "City of Manchester"@fr , "City of Manchester"@en , "City of Manchester"@de , "Metropolitan Borough of Manchester"@fr , "Metropolitan Borough of Manchester"@en , "Metropolitan Borough of Manchester"@de , "Mancunian"@de , "Manchester, Greater Manchester"@fr , "Manchester, Greater Manchester"@en , "Manchester, Greater Manchester"@de , "County Borough of Manchester"@fr , "County Borough of Manchester"@en , "County Borough of Manchester"@de , "Manchester, U.K."@fr , "Manchester, U.K."@en , "Manchester, U.K."@de , "Manchester developments"@fr , "Mancunians"@fr , "Manchester developments"@en , "Manchester developments"@de , "Mancunians"@en , "Mancunians"@de .
+
+<http://dbpedia.org/resource/David_Lloyd_George__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Manchester> ;
+        dbo:from        "1863-01-17"^^xsd:date ;
+        dbo:to          "1863-01-17"^^xsd:date .

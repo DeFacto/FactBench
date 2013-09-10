@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0928l6__66>
+        dbo:from    "2009-02"^^xsd:gYearMonth ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0c__b1> ;
+        dbo:to      "2010-01-25"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0928l6>
+        rdfs:label     "Chelsea Handler"@de , "Chelsea Handler"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0928l6__66> ;
+        owl:sameAs     <http://dbpedia.org/resource/Chelsea_Handler> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Chelsea_Handler> ;
+        skos:altLabel  "Chelsea Joy Handler"@en , "Chelsea Joy Handler"@de , "The Sexy Handler"@en , "Handler"@de , "Chelsea Handler"@de .
+
+<http://dbpedia.org/resource/Ted_Harbert>
+        skos:altLabel  "Ted Harbert"@en .
+
+<http://rdf.freebase.com/ns/m.0c__b1>
+        rdfs:label     "Ted Harbert"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Ted_Harbert> ;
+        skos:altLabel  "Edward W. \"Ted\" Harbert III"@en , "Edward W. Harbert"@en , "Edward Harbert"@en .

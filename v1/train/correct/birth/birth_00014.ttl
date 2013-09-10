@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Saginaw,_Michigan>
+        rdfs:label     "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Saginaw_(Michigan)> , <http://fr.dbpedia.org/resource/Saginaw_(Michigan)> ;
+        skos:altLabel  "Saginaw, MI"@en , "Synergy Medical Education Alliance"@fr , "Synergy Medical Education Alliance"@de , "Synergy Medical Education Alliance"@en , "Synergy Medical Education"@fr , "Synergy Medical Education"@de , "Synergy Medical Education"@en , "Saginaw-Bay City-Saginaw Township North, MI CSA"@fr , "Saginaw-Bay City-Saginaw Township North, MI CSA"@de , "Saginaw-Bay City-Saginaw Township North, MI CSA"@en , "Synergy Medical"@fr , "Synergy Medical"@de , "Synergy Medical"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de , "Saginaw, Michigan"@en , "Saginaw, mi"@fr , "Saginaw, mi"@de , "Saginaw, mi"@en , "Covenant HealthCare"@fr , "Covenant HealthCare"@de , "Covenant HealthCare"@en , "Covenant Healthcare"@fr , "Downtown Saginaw, Michigan"@fr , "Saginaw"@fr , "Covenant Healthcare"@de , "Downtown Saginaw, Michigan"@de , "Downtown Saginaw, Michigan"@en , "Saginaw"@de , "Saginaw"@en , "Covenant Healthcare"@en , "Saginaw, MI"@fr , "Saginaw, MI"@de .
+
+<http://dbpedia.org/resource/Stevie_Wonder__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Saginaw,_Michigan> ;
+        dbo:from        "1950-05-13"^^xsd:date ;
+        dbo:to          "1950-05-13"^^xsd:date .
+
+<http://dbpedia.org/resource/Stevie_Wonder>
+        rdfs:label     "Stevie Wonder"@de , "Stevie Wonder"@fr , "Stevie Wonder"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Stevie_Wonder__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Stevie_Wonder> , <http://fr.dbpedia.org/resource/Stevie_Wonder> ;
+        skos:altLabel  "Stevie Wonder"@fr , "Stevie Wonder"@en , "Stevie Wonder"@de , "Little Stevie Wonder"@fr , "Little Stevie Wonder"@en , "Little Stevie Wonder"@de , "Steveland Judkins"@fr , "Steveland Judkins"@de , "Steveland Judkins"@en , "Blame It On the Sun"@fr , "Blame It On the Sun"@en , "Blame It On the Sun"@de , "Wonder, Stevie"@fr , "Wonder, Stevie"@en , "Wonder, Stevie"@de , "Stevland Hardaway Judkins"@fr , "Stevland Hardaway Judkins"@en , "Stevland Hardaway Judkins"@de , "Stevland Hardaway Morris"@fr , "Stevland Hardaway Morris"@en , "Stevland Hardaway Morris"@de , "Stevland Judkins Morris"@fr , "Stevland Judkins Morris"@en , "Stevland Judkins Morris"@de , "Steveland Morris Judkins"@fr , "Steveland Morris Judkins"@en , "Steveland Morris Judkins"@de , "Stevie"@fr , "Wonder"@fr , "Stevland Morris"@fr , "Stevie"@en , "Wonder"@en , "Wonder"@de , "Stevie"@de , "Stevland Morris"@en , "Stevland Morris"@de , "Wonderlove"@fr , "Wonderlove"@en , "Wonderlove"@de , "Stevie wonder"@fr , "Stevie wonder"@en , "Stevie wonder"@de , "Stewie Wonder"@fr , "Stewie Wonder"@en , "Stewie Wonder"@de , "Eivets Rednow"@fr , "Eivets Rednow"@en , "Eivets Rednow"@de , "Steveland Morris"@fr , "Steveland Morris"@en , "Steveland Morris"@de , "Steveland Hardaway Judkins Morris"@de .

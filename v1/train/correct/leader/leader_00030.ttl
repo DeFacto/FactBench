@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Golda_Meir>
+        rdfs:label     "Golda Meir"@en , "Golda Meir"@fr , "Golda Meir"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Golda_Meir__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Golda_Meir> , <http://de.dbpedia.org/resource/Golda_Meir> ;
+        skos:altLabel  "Golda"@en , "Golda Mabovitch"@fr , "Golda Mabovitch"@de , "Golda Mabovitch"@en , "Golda Myerson"@fr , "Golda Myerson"@de , "Golda Myerson"@en , "Meir"@fr , "Meir"@de , "Meir"@en , "Meyerson"@fr , "Meyerson"@de , "Meyerson"@en , "Golda Meir"@fr , "Golda Meyerson"@fr , "Golda Meir"@de , "Golda Meyerson"@de , "Golda Meir"@en , "Golda Meyerson"@en , "Golda Mabovitz"@fr , "Goldie Mabovitch"@fr , "Golda Meïr"@fr , "Golda Mabovitz"@de , "Goldie Mabovitch"@de , "Goldie Mabovitch"@en , "Golda Mabovitz"@en , "Golda Meïr"@de , "Golda"@fr , "Golda"@de .
+
+<http://dbpedia.org/resource/Israel>
+        rdfs:label     "Israel"@de , "Israel"@fr , "Israel"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Israël> , <http://de.dbpedia.org/resource/Israel> ;
+        skos:altLabel  "Israéliennes"@fr , "Etat d'Israel"@fr , "Yisraél"@fr , "ISO 3166-1:IL"@fr , "ISO 3166-1:IL"@de , "ISO 3166-1:IL"@en , "Yisraél"@de , "Yisraél"@en , "Etymology of Israel"@fr , "Medinat Yisrael"@fr , "Medinat Israel"@fr , "Israeli state"@fr , "Isreal"@fr , "Etymology of Israel"@de , "Medinat Yisrael"@de , "Medinat Yisrael"@en , "Medinat Israel"@de , "Israeli state"@de , "Isreal"@de , "Medinat Israel"@en , "Etymology of Israel"@en , "Israeli state"@en , "Isreal"@en , "Yisroel"@fr , "Yisroel"@de , "Yisroel"@en , "State of Israel"@fr , "State of Israel"@de , "State of Israel"@en , "Israélienne"@fr , "Isra'il"@fr , "Isra'il"@de , "Isra'il"@en , "Staat Israel"@de , "Medinat Yisra'el"@fr , "Medinat Yisra'el"@de , "Medinat Yisra'el"@en , "M'dinat Yisrael"@fr , "M'dinat Yisrael"@de , "M'dinat Yisrael"@en , "Statut de Jérusalem"@fr , "Yisrael"@fr , "Yisrael"@de , "Yisrael"@en , "Isreali"@fr , "Isreali"@de , "Isreali"@en , "Statut de Jerusalem"@fr , "Etat d'Israël"@fr , "Yisroeil"@fr , "Yisroeil"@de , "Yisroeil"@en , "État d'Israël"@fr , "Yiselie"@fr , "Yiselie"@de , "Yiselie"@en , "Israelien"@fr , "Israelian"@fr , "Israelian"@de , "Israelian"@en , "Israil"@fr , "Dawlat Isra'il"@fr , "Israel"@fr , "Modern Israel"@fr , "ISRAEL"@fr , "Israil"@de , "Modern Israel"@de , "Dawlat Isra'il"@de , "Modern Israel"@en , "Israil"@en , "Israel"@de , "ISRAEL"@de , "Israel"@en , "ISRAEL"@en , "Dawlat Isra'il"@en , "The state of Israel"@fr , "Isreael"@fr , "The state of Israel"@de , "The state of Israel"@en , "Isreael"@de , "Isreael"@en , "Israyl"@fr , "Izrael"@fr , "Izrael"@de , "Izrael"@en , "Istrael"@fr , "Israeliennes"@fr , "Istrael"@de , "Istrael"@en , "State of israel"@fr , "Israelienne"@fr , "State of israel"@de , "State of israel"@en , "Israyl"@de , "Israyl"@en , "Dawlat Isrā'īl"@fr , "Israëlien"@fr , "Etat d’Israël"@fr , "Israél"@fr , "Hebrew state"@fr , "Langues d'Israel"@fr , "Republic of Israel"@fr , "Israelim"@fr , "Hebrew state"@de , "Hebrew state"@en , "Republic of Israel"@de , "Dawlat Isrā'īl"@de , "Israelim"@de , "Dawlat Isrā'īl"@en , "Republic of Israel"@en , "Israelim"@en , "Etat d'israel"@fr , "Yisra'el"@fr , "Statut"@fr , "Israeli"@fr , "Yisra'el"@de , "Israeli"@de , "Israeli"@en , "Yisra'el"@en , "İsrail"@fr , "Israelisch"@de , "İsrail"@de , "İsrail"@en , "Etat d’Israel"@fr , "Etat hebreu"@fr , "Israelis"@de , "État hébreu"@fr , "Medīnat Yisrā'el"@fr , "Medīnat Yisrā'el"@de , "Medīnat Yisrā'el"@en , "État d’Israël"@fr , "Israël"@fr , "Israël"@de , "Israël"@en .
+
+<http://dbpedia.org/resource/Golda_Meir__1>
+        dbo:from    "1969-03-17"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Israel> ;
+        dbo:to      "1974-06-03"^^xsd:date .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Iraq>
+        rdfs:label     "Iraq"@de , "Iraq"@fr , "Iraq"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Irak> , <http://fr.dbpedia.org/resource/Irak> ;
+        skos:altLabel  "Komara Iraqe"@en , "Komara Iraqe"@fr , "Komara Iraqe"@de , "Jumhūriyyat ul-ʿIrāq"@en , "Jumhūriyyat ul-ʿIrāq"@fr , "Jumhūriyyat ul-ʿIrāq"@de , "Etymology of Iraq"@en , "Etymology of Iraq"@fr , "Etymology of Iraq"@de , "Republique d'Iraq"@fr , "Central Iraq"@en , "Komara Iraqê"@en , "Central Iraq"@fr , "Komara Iraqê"@fr , "Komara Iraqê"@de , "Central Iraq"@de , "A'raq"@en , "A'raq"@fr , "A'raq"@de , "Eraq"@en , "Eraq"@fr , "Eraq"@de , "Republic of Iraq"@en , "Republic of Iraq"@fr , "Republic of Iraq"@de , "Iraqi Republic"@en , "Iraqi Republic"@fr , "Irakische Geschichte"@de , "Iraqi Republic"@de , "IRAQ"@en , "Al-'Iraq"@en , "IRAQ"@fr , "Al-'Iraq"@fr , "IRAQ"@de , "Al-'Iraq"@de , "Hashemite Kingdom of Iraq"@en , "Hashemite Kingdom of Iraq"@fr , "Hashemite Kingdom of Iraq"@de , "Republik Irak"@de , "List of Iraq related topics"@en , "List of Iraq related topics"@fr , "List of Iraq related topics"@de , "ʿIrāḳ"@de , "The iraq"@en , "The iraq"@fr , "The iraq"@de , "Federal Republic of Iraq"@en , "Federal Republic of Iraq"@fr , "Federal Republic of Iraq"@de , "Al-‘Irāq"@en , "Al-‘Irāq"@fr , "Al-‘Irāq"@de , "Iraker"@de , "Republique d'Irak"@fr , "Iraq"@en , "Iraq"@fr , "Iraq"@de , "République d'Iraq"@fr , "State of Iraq"@en , "State of Iraq"@fr , "State of Iraq"@de , "Name of Iraq"@en , "Name of Iraq"@fr , "Name of Iraq"@de , "Iraqui"@en , "Iraqui"@fr , "Iraqui"@de , "Iraqe"@en , "Iraqe"@fr , "Iraqe"@de , "Iraw"@en , "Iraw"@fr , "ʿIrak"@de , "Iraw"@de , "Irak-Arabi"@en , "Irak-Arabi"@fr , "Irak-Arabi"@de , "Eragh"@en , "ISO 3166-1:IQ"@en , "Eragh"@fr , "ISO 3166-1:IQ"@fr , "Eragh"@de , "ISO 3166-1:IQ"@de , "République d'Irak"@fr , "Aj-Jumhuriyah Al-'Iraqiyah"@en , "Aj-Jumhuriyah Al-'Iraqiyah"@fr , "Aj-Jumhuriyah Al-'Iraqiyah"@de , "Islamic Republic of Iraq"@en , "Islamic Republic of Iraq"@fr , "Islamic Republic of Iraq"@de , "Irak"@en , "Irak"@fr , "Irak"@de , "Iraqê"@en , "Iraqê"@fr , "Iraqê"@de , "Jumhuriyyat ul-ʿIraq"@en , "Jumhuriyyat ul-ʿIraq"@fr , "Jumhuriyyat ul-ʿIraq"@de , "Irāq"@en , "Irāq"@fr , "Irāq"@de , "Al-‘Iraq"@en , "Al-‘Iraq"@fr , "Al-‘Iraq"@de .
+
+<http://dbpedia.org/resource/Timbaland>
+        rdfs:label     "Timbaland"@de , "Timbaland"@fr , "Timbaland"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Timbaland__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Timbaland> , <http://fr.dbpedia.org/resource/Timbaland> ;
+        skos:altLabel  "Thomas Crown Studios"@fr , "Remix & Soundtrack Collection"@en , "Remix & Soundtrack Collection"@de , "Remix & Soundtrack Collection"@fr , "Timbaland Ft. Tony Yayo & 50 Cent"@en , "Timbaland Ft. Tony Yayo & 50 Cent"@de , "Timbaland Ft. Tony Yayo & 50 Cent"@fr , "Timothy Z. Mosley"@de , "Break Ya Back"@en , "Monique Idlett"@en , "Monique Idlett"@de , "Break Ya Back"@de , "Break Ya Back"@fr , "Monique Idlett"@fr , "Timothy Mosley"@en , "Talk That"@en , "Timothy Mosley"@de , "Timothy Mosley"@fr , "Talk That"@de , "Talk That"@fr , "Timbaland"@en , "Timbaland"@de , "Timbaland"@fr , "Timbaland thursdays"@en , "Timbaland thursdays"@de , "Timbaland thursdays"@fr , "T. Mosley"@en , "T. Mosley"@de , "T. Mosley"@fr , "Timothy Zachery Mosley"@en , "Timothy Zachery Mosley"@de , "Timothy Zachery Mosley"@fr , "Da Basement Sound"@en , "Da Basement Sound"@de , "Da Basement Sound"@fr , "Meltdown"@en , "Meltdown"@de , "Meltdown"@fr , "Timothy \"Timbaland\" Mosley"@en , "Tim Mosley"@en , "Tim \"Timbaland\" Mosley"@en , "Tim \"Timbaland\" Mosley"@fr , "Tim \"Timbaland\" Mosley"@de , "Timothy \"Timbaland\" Mosley"@de , "Timothy \"Timbaland\" Mosley"@fr , "TIMBALAND FEAT. KERI HILSON"@en , "Tim Mosley"@de , "Tim Mosley"@fr , "TIMBALAND FEAT. KERI HILSON"@de , "TIMBALAND FEAT. KERI HILSON"@fr , "Mosley"@de , "Thomas Crown Studios"@en , "Thomas Crown Studios"@de .
+
+<http://dbpedia.org/resource/Timbaland__1>
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Iraq> ;
+        dbo:to          "1994"^^xsd:gYear .

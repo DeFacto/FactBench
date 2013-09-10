@@ -1,0 +1,18 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0275y0l>
+        rdfs:label  "Frappr"@en .
+
+<http://rdf.freebase.com/ns/m.02fr94r__60>
+        dbo:from        "2007-10"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0275y0l> ;
+        dbo:to          "2007-10"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.02fr94r>
+        rdfs:label       "Platial"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.02fr94r__60> .

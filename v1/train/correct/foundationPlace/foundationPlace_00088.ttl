@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c01p5__88>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0lbmv> ;
+        dbo:from             "2004"^^xsd:gYear ;
+        dbo:to               "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0c01p5>
+        rdfs:label      "Bloombase"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0c01p5__88> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Bloombase_Technologies> ;
+        skos:altLabel   "Bloom"@en , "Bloombase"@en , "Bloombase Technologies"@en .
+
+<http://rdf.freebase.com/ns/m.0lbmv>
+        rdfs:label     "Shenzhen"@fr , "Shenzhen"@en , "Shenzhen"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Shenzhen> , <http://de.dbpedia.org/resource/Shenzhen> , <http://dbpedia.org/resource/Shenzhen> ;
+        skos:altLabel  "Shēnzhèn"@fr , "Fishermen's Village"@fr , "Shēnzhèn"@de , "Shēnzhèn"@en , "Shenzun"@fr , "Shamchun"@fr , "Fishermen's Village"@en , "Fishermen's Village"@de , "Shenzun"@en , "Shenzun"@de , "Shamchun"@en , "Shamchun"@de , "Shencun"@fr , "Shencun"@de , "Shencun"@en , "Shen Zhen"@fr , "Shen Zhen"@en , "Shen Zhen"@de , "Shenzhen Hi-Tech Industrial Park"@fr , "Shenzhen Hi-Tech Industrial Park"@de , "Shenzhen Hi-Tech Industrial Park"@en , "Shenzhen Municipality"@fr , "Shenzhen Municipality"@en , "Shenzhen Municipality"@de , "Shenzhen City"@fr , "Shenzhen City"@de , "Shenzhen City"@en , "Shenzhen, Guangdong"@fr , "Shenzhen, Guangdong"@en , "Shenzhen, Guangdong"@de , "Shinzhin"@fr , "Shinzhin"@de , "Shinzhin"@en , "Shen-Chen"@fr , "Shēnzhèn shì"@fr , "Shen-Chen"@de , "Shēnzhèn shì"@de , "Shēnzhèn shì"@en , "Shen-Chen"@en , "Shenchou"@fr , "Shenzen"@fr , "Shenchou"@de , "Shenzen"@de , "Shenzen"@en , "Shenchou"@en , "Shenzhen Software Park"@fr , "Sham Chun"@fr , "Sham Chun"@en , "Sham Chun"@de , "Shenzhen Software Park"@de , "Shenzhen Software Park"@en , "Sheng Zhen"@fr , "Sheng Zhen"@de , "Sheng Zhen"@en , "ShenZhen"@fr , "ShenZhen"@de , "ShenZhen"@en , "Shenzhen, China"@fr , "Shenzhen, China"@de , "Shenzhen, China"@en , "Shenzhen"@fr , "Shenzhen"@en , "Shenzhen"@de , "Shenzen, China"@fr , "Shenzen, China"@de , "Shenzen, China"@en , "Shenzhen shi"@fr , "Shenzhen shi"@en , "Shenzhen shi"@de , "Yumin Cun"@fr , "Yumin Cun"@en , "Yumin Cun"@de .

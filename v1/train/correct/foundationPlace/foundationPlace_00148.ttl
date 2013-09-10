@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0jb9vsb__148>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0d331> ;
+        dbo:from             "2006"^^xsd:gYear ;
+        dbo:to               "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0d331>
+        rdfs:label     "Potsdam"@de , "Potsdam"@en , "Potsdam"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Potsdam> , <http://de.dbpedia.org/resource/Potsdam> , <http://fr.dbpedia.org/resource/Potsdam> ;
+        skos:altLabel  "Potsdam"@fr , "Potsdam"@en , "Potsdam"@de , "Poztupimi"@de , "LOCODE:DEPOT"@fr , "Postdam"@fr , "LOCODE:DEPOT"@de , "LOCODE:DEPOT"@en , "Potsdam, Germany"@fr , "Potsdam, Germany"@de , "Krampnitz"@de , "Potsdam, Germany"@en , "Potzdam"@fr .
+
+<http://rdf.freebase.com/ns/m.0jb9vsb>
+        rdfs:label      "Mindquarry"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0jb9vsb__148> .

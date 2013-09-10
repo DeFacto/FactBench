@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kenya>
+        rdfs:label     "Kenya"@de , "Kenya"@en , "Kenya"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kenya> , <http://de.dbpedia.org/resource/Kenia> ;
+        skos:altLabel  "Kénya"@fr , "Kenya-Africa"@en , "Kenya-Africa"@fr , "Kenya-Africa"@de , "Kenya"@en , "Kenya"@fr , "Kenya"@de , "République du Kenya"@fr , "Bodenschatze Kenias"@de , "Etymology of Kenya"@en , "Etymology of Kenya"@fr , "Etymology of Kenya"@de , "Republic of Kenya"@en , "Republic of Kenya"@fr , "Republic of Kenya"@de , "ISO 3166-1:KE"@en , "Kenyans"@en , "Kenyan"@en , "Kenia"@en , "Kenyan"@fr , "Kenia"@fr , "Kenyans"@fr , "Kenyan"@de , "Kenyans"@de , "Kenia"@de , "ISO 3166-1:KE"@fr , "ISO 3166-1:KE"@de , "Bodenschätze Kenias"@de , "Republique du Kenya"@fr , "Administrative divisions of Kenya"@en , "Administrative divisions of Kenya"@fr , "Administrative divisions of Kenya"@de , "Republik Kenia"@de , "Kényan"@fr .
+
+<http://rdf.freebase.com/ns/m.0h7bj3v>
+        rdfs:label  "Grihalakshmi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h7bj3v__1> .
+
+<http://rdf.freebase.com/ns/m.0h7bj3v__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Kenya> ;
+        dbo:from             "1970"^^xsd:gYear ;
+        dbo:to               "1971"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Anthony_Quinn>
+        rdfs:label     "Anthony Quinn"@fr , "Anthony Quinn"@de , "Anthony Quinn"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Anthony_Quinn__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Anthony_Quinn> , <http://fr.dbpedia.org/resource/Anthony_Quinn> ;
+        skos:altLabel  "Alex Quinn"@en , "Alex Quinn"@fr , "Alex Quinn"@de , "Anthony Rudolph Oaxaca Quinn"@en , "Anthony Queen"@en , "Anthony Rudolph Oaxaca Quinn"@fr , "Anthony Rudolph Oaxaca Quinn"@de , "Anthony Queen"@fr , "Anthony Queen"@de , "Quinn"@en , "Quinn"@fr , "Quinn"@de , "Anthony Quinn"@en , "Anthony Quinn"@fr , "Anthony Quinn"@de .
+
+<http://rdf.freebase.com/ns/m.01pk3z>
+        rdfs:label     "Anna Faris"@en , "Anna Faris"@fr , "Anna Faris"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anna_Faris> , <http://de.dbpedia.org/resource/Anna_Faris> , <http://dbpedia.org/resource/Anna_Faris> ;
+        skos:altLabel  "Anna Faris-Indra"@en , "Anna Farris"@en , "Anna Farris"@fr , "Anna Farris"@de , "Anna Faris"@en , "Anna Faris"@fr , "Anna Faris"@de , "Anna Kay Faris"@en , "Anna Kay Faris"@fr , "Anna Kay Faris"@de , "Ana faris"@en , "Ana faris"@de , "Ana faris"@fr , "Anna Faris-Pratt"@en , "Anna faris"@en , "Anna faris"@fr , "Anna faris"@de , "Faris"@en , "Faris"@fr , "Faris"@de .
+
+<http://dbpedia.org/resource/Anthony_Quinn__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01pk3z> ;
+        dbo:from             "1980"^^xsd:gYear ;
+        dbo:to               "1980"^^xsd:gYear .

@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/A_Calculus_of_Angels>
+        skos:altLabel  "A Calculus of Angels"@en .
+
+<http://rdf.freebase.com/ns/m.02_pzx>
+        rdfs:label  "A Calculus of Angels"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/A_Calculus_of_Angels> .
+
+<http://rdf.freebase.com/ns/m.02_pzx__130>
+        dbo:author  <http://rdf.freebase.com/ns/m.02_pzx> ;
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:to      "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02mblf>
+        rdfs:label       "Gregory Keyes"@fr , "Gregory Keyes"@en , "Greg Keyes"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02_pzx__130> ;
+        owl:sameAs       <http://dbpedia.org/resource/Gregory_Keyes> , <http://fr.dbpedia.org/resource/Gregory_Keyes> , <http://de.dbpedia.org/resource/Greg_Keyes> ;
+        skos:altLabel    "Greg keyes"@fr , "Gregory"@fr , "Greg Keyes"@fr , "Greg Keyes"@de , "Greg Keyes"@en , "Gregory Keyes"@fr , "Gregory Keyes"@de , "J. Gregory Keyes"@fr , "J. Gregory Keyes"@de , "J. Gregory Keyes"@en , "J gregory keyes"@fr , "J gregory keyes"@de , "The Waterborn"@fr , "The Waterborn"@de , "Keyes"@fr , "Keyes"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Naji_Shawkat__1>
+        dbo:from    "1932"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Russia> ;
+        dbo:to      "1933"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Naji_Shawkat>
+        rdfs:label     "Naji Shawkat"@en , "Naji Shawkat"@fr , "Naji Shawkat"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Naji_Shawkat__1> ;
+        skos:altLabel  "Naji Shawkat"@en , "Naji Shaukat"@en , "Shawkat"@en , "Naji"@en .
+
+<http://dbpedia.org/resource/Russia>
+        rdfs:label     "Russia"@de , "Russia"@fr , "Russia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Russie> , <http://de.dbpedia.org/resource/Russland> ;
+        skos:altLabel  "Poccnr"@en , "Poccnr"@de , "Poccnr"@fr , "Russian"@en , "Russian"@fr , "Education en russie"@fr , "Russian"@de , "Russland"@en , "Russland"@fr , "Russland"@de , "Russian federation"@en , "Russian federation"@fr , "Russian federation"@de , "Russische Föderation"@de , "The Russian Federation"@en , "RUSSIA"@en , "The Russian Federation"@fr , "RUSSIA"@fr , "Rossiia"@fr , "RUSSIA"@de , "The Russian Federation"@de , "Fédération de Russie"@fr , "Éducation en russie"@fr , "POCCNR"@en , "POCCNR"@de , "POCCNR"@fr , "Rußland"@de , "ISO 3166-1:RU"@en , "ISO 3166-1:RU"@fr , "ISO 3166-1:RU"@de , "Religion de la Russie"@fr , "Novaya russia"@en , "Novaya russia"@fr , "Novaya russia"@de , "Russlandische Foderation"@de , "République Fédérative de Russie"@fr , "Religion russe"@fr , "The Russian federation"@en , "Rossiïskaïa Fédératsiïa"@fr , "Fédération russe"@fr , "Russländische Föderation"@de , "The Russian federation"@fr , "The Russian federation"@de , "Wildlife of Russia"@en , "Wildlife of Russia"@fr , "Wildlife of Russia"@de , "Russ"@en , "Russ"@fr , "Republique federative de Russie"@fr , "Russ"@de , "Federation of Russia"@en , "Federation of Russia"@fr , "Federation of Russia"@de , "Rossiiskaia Federatsiia"@fr , "Federation de Russie"@fr , "Rossiïa"@fr , "Russie"@en , "Eluosi"@en , "Russie"@fr , "Eluosi"@fr , "Russie"@de , "Rossiïskaïa Federatsiïa"@fr , "Eluosi"@de , "Rossijskaja Federatsija"@en , "Rossijskaja Federatsija"@fr , "Rossijskaja Federatsija"@de , "Rossijskaja Federazija"@de , "Venaja"@en , "Russische Foderation"@de , "Venaja"@fr , "Venaja"@de , "Ryssland"@en , "Ryssland"@fr , "Ryssland"@de , "The Country Russia"@en , "Russian Federation"@en , "Etymology of Russia"@en , "République fédérative de Russie"@fr , "The Country Russia"@fr , "Russian Federation"@fr , "Russian Federation"@de , "The Country Russia"@de , "Etymology of Russia"@de , "Etymology of Russia"@fr , "Russia"@en , "Venaejae"@en , "Republique Federative de Russie"@fr , "Russia"@fr , "Venaejae"@fr , "Venaejae"@de , "Russia"@de , "Federation russe"@fr , "Rossiyskaya Federatsiya"@en , "Rossiyskaya Federatsiya"@fr , "Rossiyskaya Federatsiya"@de , "Reosia"@en , "Reosia"@de , "Reosia"@fr .

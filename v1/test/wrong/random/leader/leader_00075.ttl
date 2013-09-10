@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03j43>
+        rdfs:label     "Henri Bergson"@de , "Henri Bergson"@fr , "Henri Bergson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03j43__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Henri_Bergson> , <http://dbpedia.org/resource/Henri_Bergson> , <http://de.dbpedia.org/resource/Henri_Bergson> ;
+        skos:altLabel  "Bergson"@fr , "Bergson"@en , "Bergson"@de , "Henri Louis Bergson"@de , "Henri Louis Bergson"@fr , "Henri Louis Bergson"@en , "Henri"@de , "Henri"@fr , "Henri"@en , "Henri L. Bergson"@de , "Henri L. Bergson"@fr , "Henri L. Bergson"@en , "H. Bergson"@de , "H. Bergson"@fr , "H. Bergson"@en , "Henri-Louis Bergson"@de , "Henri-Louis Bergson"@fr , "Henri-Louis Bergson"@en , "The Two Sources of Morality and Religion"@de , "The Two Sources of Morality and Religion"@fr , "The Two Sources of Morality and Religion"@en , "Bergsonism"@de , "Bergsonism"@fr , "Bergsonism"@en , "Henri Bergson"@de , "Henri Bergson"@fr , "Henri Bergson"@en , "Henry Bergson"@de , "Henry Bergson"@fr , "Henry Bergson"@en , "Bergsonian"@de , "Bergsonian"@fr , "Bergsonian"@en .
+
+<http://rdf.freebase.com/ns/m.03j43__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Saginaw,_Michigan> ;
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:to          "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Saginaw,_Michigan>
+        rdfs:label     "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Saginaw_(Michigan)> , <http://fr.dbpedia.org/resource/Saginaw_(Michigan)> ;
+        skos:altLabel  "Saginaw, MI"@de , "Synergy Medical Education Alliance"@en , "Synergy Medical Education Alliance"@fr , "Synergy Medical Education Alliance"@de , "Synergy Medical Education"@en , "Synergy Medical Education"@fr , "Synergy Medical Education"@de , "Saginaw-Bay City-Saginaw Township North, MI CSA"@en , "Saginaw-Bay City-Saginaw Township North, MI CSA"@fr , "Saginaw-Bay City-Saginaw Township North, MI CSA"@de , "Synergy Medical"@en , "Synergy Medical"@fr , "Synergy Medical"@de , "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de , "Saginaw, mi"@en , "Saginaw, mi"@fr , "Saginaw, mi"@de , "Covenant HealthCare"@en , "Covenant HealthCare"@fr , "Covenant HealthCare"@de , "Covenant Healthcare"@en , "Downtown Saginaw, Michigan"@en , "Saginaw"@en , "Covenant Healthcare"@fr , "Downtown Saginaw, Michigan"@fr , "Downtown Saginaw, Michigan"@de , "Saginaw"@fr , "Saginaw"@de , "Covenant Healthcare"@de , "Saginaw, MI"@en , "Saginaw, MI"@fr .

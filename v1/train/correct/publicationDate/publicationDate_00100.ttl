@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02343f__100>
+        dbo:author  <http://rdf.freebase.com/ns/m.02343f> ;
+        dbo:from    "1978"^^xsd:gYear ;
+        dbo:to      "1978"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.099h29>
+        rdfs:label       "Tony Rothman"@fr , "Tony Rothman"@de , "Tony Rothman"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02343f__100> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Tony_Rothman> , <http://de.dbpedia.org/resource/Tony_Rothman> , <http://dbpedia.org/resource/Tony_Rothman> ;
+        skos:altLabel    "Rothman"@fr , "Tony Rothman"@fr .
+
+<http://rdf.freebase.com/ns/m.02343f>
+        rdfs:label  "The World Is Round"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_World_Is_Round> .
+
+<http://dbpedia.org/resource/The_World_Is_Round>
+        skos:altLabel  "The World is Round"@en , "The World Is Round"@en .

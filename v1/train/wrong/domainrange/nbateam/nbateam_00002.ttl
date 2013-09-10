@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Lucas_III>
+        rdfs:label     "John Lucas III"@en , "John Lucas III"@fr , "John Lucas III"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Lucas_III__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Lucas_III> ;
+        skos:altLabel  "John Lucas"@fr , "John Lucas"@en , "John Harding Lucas III"@en , "John Lucas III"@fr , "John Lucas III"@en , "John Harding Lucas III"@fr .
+
+<http://dbpedia.org/resource/John_Lucas_III__1>
+        dbo:from  "2003"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Portland_Trail_Blazers> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Portland_Trail_Blazers>
+        rdfs:label     "Portland Trail Blazers"@de , "Portland Trail Blazers"@fr , "Portland Trail Blazers"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Trail_Blazers_de_Portland> , <http://de.dbpedia.org/resource/Portland_Trail_Blazers> ;
+        skos:altLabel  "Portland Blazers"@de , "Portland Blazers"@fr , "Portland Blazers"@en , "Portland Trial Blazers"@de , "Portland Trial Blazers"@fr , "Portland Trial Blazers"@en , "Blazermania"@de , "Blazermania"@fr , "Blazermania"@en , "Trailblazers de Portland"@fr , "Portland"@de , "Portland"@fr , "Portland"@en , "Trial Blazers"@de , "Trial Blazers"@fr , "Trial Blazers"@en , "Blazer"@en , "Blazer"@de , "Blazer"@fr , "Jail Blazers"@de , "Jail Blazers"@fr , "Jail Blazers"@en , "Portland TrailBlazers"@de , "Portland Trailblazers"@de , "Portland Trailblazers"@fr , "Portland Trailblazers"@en , "Portland TrailBlazers"@fr , "Portland TrailBlazers"@en , "Trail Blazers"@de , "Trail Blazers"@fr , "Trail Blazers"@en , "Trail Blazers de Portland"@fr , "Portland Trail Blazers"@de , "Portland Trail Blazers"@fr , "Trail blazers de portland"@fr , "Portland Trail Blazers"@en , "Blazers de Portland"@fr .

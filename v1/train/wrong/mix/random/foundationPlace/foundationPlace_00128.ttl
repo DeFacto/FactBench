@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/John_Wayne__1>
+        dbo:from      "1865"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.01zt10> ;
+        dbo:to        "1865"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01zt10>
+        rdfs:label     "Manisha Koirala"@en , "Manisha Koirala"@fr , "Manisha Koirala"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Manisha_Koirala> , <http://dbpedia.org/resource/Manisha_Koirala> , <http://de.dbpedia.org/resource/Manisha_Koirala> ;
+        skos:altLabel  "Koirala"@en , "Monisha Koirala"@en , "Manya"@en , "Manisha Koirala"@en , "Manisha Koirala Dahal"@en , "Manisha Koirala"@fr , "Manisha Koirala"@de , "Manisha B. Koirala"@en , "Manu"@en , "Ms. Manisha Koirala"@en , "Nisha"@en , "Nisha"@fr , "Nisha"@de , "Koirala"@fr , "Koirala"@de .
+
+<http://dbpedia.org/resource/John_Wayne>
+        rdfs:label     "John Wayne"@en , "John Wayne"@fr , "John Wayne"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Wayne__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Wayne> , <http://fr.dbpedia.org/resource/John_Wayne> ;
+        skos:altLabel  "John"@fr , "Marion Robert Morrison"@en , "List of John Wayne films"@en , "Marion Robert Morrison"@fr , "List of John Wayne films"@fr , "Marion Robert Morrison"@de , "List of John Wayne films"@de , "List of John Wayne Films"@en , "List of John Wayne Films"@fr , "List of John Wayne Films"@de , "Marion Michael Morrison"@en , "Marion Morrison"@en , "Marion Michael Morrison"@fr , "Marion Michael Morrison"@de , "Marion Morrison"@fr , "Marion Morrison"@de , "Wayne"@en , "Wayne"@fr , "Wayne"@de , "Morrison"@fr , "John Wayne filmography"@en , "John Wayne filmography"@fr , "John Wayne filmography"@de , "John Wayne"@en , "John Wayne"@fr , "John Wayne"@de , "John wayne"@en , "John wayne"@fr , "John wayne"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0966l__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Brad_Pitt> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0966l>
+        rdfs:label     "Henri Dunant"@fr , "Henry Dunant"@en , "Henry Dunant"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0966l__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Henri_Dunant> , <http://dbpedia.org/resource/Henry_Dunant> , <http://de.dbpedia.org/resource/Henry_Dunant> ;
+        skos:altLabel  "Henry Dunant"@de , "Jean-Henri Dunant"@en , "Henri Dunant"@en , "Jean-Henri Dunant"@fr , "Henri Dunant"@fr , "Henri Dunant"@de , "Jean-Henri Dunant"@de , "Jean-Henri"@en , "Jean-Henri"@fr , "Jean-Henri"@de , "Jean H. Dunant"@en , "Jean Dunant"@en , "Jean H. Dunant"@fr , "Jean Dunant"@fr , "Jean Dunant"@de , "Jean H. Dunant"@de , "Dunant"@en , "Dunant"@fr , "Dunant"@de , "Grave of Henry Dunant"@en , "Jean Henri Dunant"@en , "Grave of Henry Dunant"@fr , "Jean Henri Dunant"@fr , "Grave of Henry Dunant"@de , "Jean Henri Dunant"@de , "Henry Dunant"@en , "Henry Dunant"@fr .
+
+<http://dbpedia.org/resource/Brad_Pitt>
+        rdfs:label     "Brad Pitt"@de , "Brad Pitt"@en , "Brad Pitt"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Brad_Pitt> , <http://fr.dbpedia.org/resource/Brad_Pitt> ;
+        skos:altLabel  "Brad Jolie-Pitt"@de , "Brad Pit"@en , "Brad pitt"@en , "Brad Pit"@fr , "Brad pitt"@fr , "Brad Pit"@de , "Brad pitt"@de , "Pitt, William Bradley"@en , "Pitt, William Bradley"@fr , "Pitt, William Bradley"@de , "Pitt"@en , "Pitt"@fr , "Pitt"@de , "Brad"@en , "Brad"@fr , "Brad"@de , "Brad Pitt"@en , "Bradley Pitt"@en , "Brad Pitt"@fr , "Brad Pitt"@de , "Bradley Pitt"@fr , "Bradley Pitt"@de , "William Bradley Pitt"@en , "William Bradley Pitt"@fr , "William Bradley Pitt"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04sz95__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.013d7t> ;
+        dbo:from   "1981"^^xsd:gYear ;
+        dbo:to     "1981"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.013d7t>
+        rdfs:label     "Shreveport"@en , "Shreveport"@fr , "Shreveport"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Shreveport> , <http://de.dbpedia.org/resource/Shreveport> , <http://dbpedia.org/resource/Shreveport,_Louisiana> ;
+        skos:altLabel  "Shreveport, Texas"@en , "Caddo Parish / Shreveport city"@en , "Shreveport, Texas"@fr , "Shreveport, Texas"@de , "Shreveport, Louisiana"@en , "Shreveport, Louisiana"@fr , "Shreveport, Louisiana"@de , "Shreveport, LA"@en , "Shreveport, LA"@fr , "Shreveport, LA"@de , "Shreveport LA"@en , "Shreveport LA"@fr , "Shreveport LA"@de , "Schreveport"@en , "Schreveport"@fr , "Schreveport"@de , "Shreveport"@en , "Shreveport"@fr , "Shreveport"@de , "Shreveport, TX"@en , "Shreveport, TX"@fr , "Shreveport, TX"@de , "LOCODE:USSHV"@en , "LOCODE:USSHV"@fr , "LOCODE:USSHV"@de , "Ellerbe Road, Shreveport, Louisiana"@en , "Ellerbe Road, Shreveport, Louisiana"@fr , "Ellerbe Road, Shreveport, Louisiana"@de .
+
+<http://rdf.freebase.com/ns/m.04sz95>
+        rdfs:label     "Softdisk"@en , "Softdisk"@fr , "Softdisk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04sz95__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Softdisk> , <http://fr.dbpedia.org/resource/Softdisk> , <http://dbpedia.org/resource/Softdisk> ;
+        skos:altLabel  "Softdisk for Windows"@fr , "Softdisk for Windows"@de , "Softdisk"@fr , "Softdisk"@de , "Gamer's Edge"@fr , "Gamer's Edge"@de , "Gamer´s Edge"@fr , "Gamer´s Edge"@de , "SoftDisk"@fr , "SoftDisk"@de , "Softdisk Publishing"@fr , "Softdisk Publishing"@de .

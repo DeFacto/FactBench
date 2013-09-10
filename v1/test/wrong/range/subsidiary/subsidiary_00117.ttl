@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c6vzt>
+        rdfs:label     "Polycom"@en , "Polycom"@fr , "Polycom"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c6vzt__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Polycom> , <http://fr.dbpedia.org/resource/Polycom_(entreprise)> , <http://dbpedia.org/resource/Polycom> ;
+        skos:altLabel  "Voyant Technologies"@fr , "ViaVideo"@fr , "DST Media"@de , "Voyant Technologies"@de , "ViaVideo"@de , "Atlas Communications Engines"@fr , "Atlas Communications Engines"@de , "Polycom"@fr , "Polycom"@de , "Accord Networks"@fr , "Polycom Inc."@fr , "Polycom Inc."@de , "Accord Networks"@de , "Kirk Telecom"@fr , "Kirk Telecom"@de , "SpectraLink Corporation"@fr , "SpectraLink Corporation"@de , "Destiny Conferencing"@fr , "Destiny Conferencing"@de , "Polycom.com"@en , "MeetU"@fr , "MeetU"@de , "DST Media"@fr .
+
+<http://rdf.freebase.com/ns/m.02vrm_b>
+        rdfs:label     "Mozy"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Mozy> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Berkeley Data Systems"@en , "Mozy"@en .
+
+<http://rdf.freebase.com/ns/m.0c6vzt__1>
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02vrm_b> ;
+        dbo:to          "2007"^^xsd:gYear .

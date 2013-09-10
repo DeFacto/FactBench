@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Gerald_Green>
+        rdfs:label     "Gerald Green"@en , "Gerald Green"@fr , "Gerald Green"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Gerald_Green__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Gerald_Green> , <http://de.dbpedia.org/resource/Gerald_Green_(Basketballspieler)> ;
+        skos:altLabel  "Gerald Green"@en , "Gerald Green"@fr , "Gerald Green"@de .
+
+<http://dbpedia.org/resource/Orlando_Magic>
+        rdfs:label     "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Magic_d'Orlando> , <http://de.dbpedia.org/resource/Orlando_Magic> ;
+        skos:altLabel  "Magic, Orlando"@en , "Magic, Orlando"@fr , "Magic, Orlando"@de , "Magic d'Orlando"@fr , "Orlando"@fr , "Magic"@en , "Magic"@fr , "Magic"@de , "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de .
+
+<http://dbpedia.org/resource/Gerald_Green__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Orlando_Magic> ;
+        dbo:to    "2012"^^xsd:gYear .

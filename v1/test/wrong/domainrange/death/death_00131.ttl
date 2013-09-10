@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nelson_Rockefeller>
+        rdfs:label     "Nelson Rockefeller"@en , "Nelson Rockefeller"@fr , "Nelson Rockefeller"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nelson_Rockefeller__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nelson_Rockefeller> , <http://de.dbpedia.org/resource/Nelson_Rockefeller> ;
+        skos:altLabel  "Nelson Rockefeler"@fr , "Vice President Rockefeller"@fr , "Nelson Aldrich Rockefeller"@fr , "Vice President Rockefeller"@de , "Nelson Aldrich Rockefeller"@de , "Nelson A. Rockefeller"@fr , "Nelson A Rockefeller"@fr , "Nelson Rockefeler"@de , "Nelson A. Rockefeller"@de , "Nelson A Rockefeller"@de , "Nelson Rockfeler"@en , "Nelson Rockfeler"@fr , "Nelson Rockfeler"@de , "Rockefeller"@en , "Rockefeller"@fr , "Rockefeller"@de , "Nelson Rockefeller"@en , "Nelson Rockefeller"@fr , "Nelson Rockefeller"@de , "Nelson Rockfeller"@en , "Nelson Rockfeller"@fr , "Nelson Rockfeller"@de , "Nelson Rockefeler"@en , "Nelson A. Rockefeller"@en , "Vice President Rockefeller"@en , "Nelson D. Rockefeller"@en , "Nelson A Rockefeller"@en , "Nelson Aldrich Rockefeller"@en , "Nelson D. Rockefeller"@fr , "Nelson D. Rockefeller"@de .
+
+<http://dbpedia.org/resource/Agra>
+        rdfs:label     "Agra"@en , "Agra"@fr , "Agra"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Agra> , <http://fr.dbpedia.org/resource/Āgrā> ;
+        skos:altLabel  "Āgrā"@fr , "Eklavya Sports Stadium"@en , "Eklavya Sports Stadium"@fr , "Eklavya Sports Stadium"@de , "Āgra"@en , "Āgra"@fr , "Āgra"@de , "Agra"@en , "Agra newspapers"@en , "Agra"@fr , "Agra newspapers"@fr , "Agra newspapers"@de , "Agra"@de , "Agra, Uttar Pradesh"@en , "Agra, Uttar Pradesh"@fr , "Agra, Uttar Pradesh"@de , "Agra, India"@en , "LOCODE:INAGR"@en , "Agra, India"@fr , "LOCODE:INAGR"@fr , "Agra, India"@de , "LOCODE:INAGR"@de , "Âgrâ"@fr .
+
+<http://dbpedia.org/resource/Nelson_Rockefeller__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Agra> ;
+        dbo:from        "2012"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .

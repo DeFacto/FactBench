@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Waverly,_Minnesota>
+        rdfs:label     "Waverly, Minnesota"@en , "Waverly, Minnesota"@fr , "Waverly, Minnesota"@de ;
+        skos:altLabel  "Waverly"@en , "Waverly, Minnesota"@en , "Waverly, MN"@en .
+
+<http://dbpedia.org/resource/Gary_Cooper__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Waverly,_Minnesota> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Gary_Cooper>
+        rdfs:label     "Gary Cooper"@en , "Gary Cooper"@fr , "Gary Cooper"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Gary_Cooper__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gary_Cooper> , <http://fr.dbpedia.org/resource/Gary_Cooper> ;
+        skos:altLabel  "Cooper, Gary"@en , "Cooper, Gary"@fr , "Cooper, Gary"@de , "Gary"@fr , "Cooper"@fr , "Gary Cooper"@en , "Gary cooper"@en , "Gary cooper"@fr , "Gary cooper"@de , "Gary Cooper"@de , "Gary Cooper"@fr .

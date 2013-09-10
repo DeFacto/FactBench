@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0263tzc>
+        rdfs:label  "Immodest Proposals"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Immodest_Proposals> .
+
+<http://dbpedia.org/resource/Immodest_Proposals>
+        skos:altLabel  "The Last Bounce"@en , "Immodest Proposals"@en , "Proposal"@en .
+
+<http://rdf.freebase.com/ns/m.04qzff>
+        rdfs:label       "William Tenn"@en , "William Tenn"@de , "William Tenn"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0263tzc__12> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/William_Tenn> , <http://de.dbpedia.org/resource/William_Tenn> , <http://dbpedia.org/resource/William_Tenn> ;
+        skos:altLabel    "Fruma Klass"@fr , "Fruma Klass"@de , "Fruma Klass"@en , "Phillip Kerr"@de , "Tenn"@de , "Phil Klass"@fr , "Phil Klass"@de , "Phil Klass"@en , "William Tenn"@fr , "William Tenn"@de , "William Tenn"@en .
+
+<http://rdf.freebase.com/ns/m.0263tzc__12>
+        dbo:author  <http://rdf.freebase.com/ns/m.0263tzc> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .

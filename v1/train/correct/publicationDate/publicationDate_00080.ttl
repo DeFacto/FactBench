@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.018tps__80>
+        dbo:author  <http://rdf.freebase.com/ns/m.018tps> ;
+        dbo:from    "1985"^^xsd:gYear ;
+        dbo:to      "1985"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018tps>
+        rdfs:label     "Contact"@fr , "Contact"@de , "Contact"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Contact_(novel)> , <http://fr.dbpedia.org/resource/Contact_(roman)> , <http://de.dbpedia.org/resource/Contact_(Roman)> ;
+        skos:altLabel  "Contact"@fr , "Contact"@de , "Contact (novel),"@fr , "Contact (novel),"@de , "Ellie Arroway"@fr , "Ellie Arroway"@de , "Contact: A Novel"@fr , "Contact: A Novel"@de , "Ellie"@fr , "Ellie"@de .
+
+<http://rdf.freebase.com/ns/m.01zwy>
+        rdfs:label       "Carl Sagan"@de , "Carl Sagan"@en , "Carl Sagan"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.018tps__80> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Carl_Sagan> , <http://dbpedia.org/resource/Carl_Sagan> , <http://de.dbpedia.org/resource/Carl_Sagan> ;
+        skos:altLabel    "Carl sagan"@en , "William H. Mount"@fr , "William H. Mount"@de , "William H. Mount"@en , "Sagan"@fr , "Sagan"@de , "Sagan"@en , "Sagan, Carl Edward"@fr , "Sagan, Carl Edward"@de , "Sagan, Carl Edward"@en , "Karl Sagan"@fr , "Karl Sagan"@de , "Karl Sagan"@en , "Carl Sagan"@fr , "Dr. Carl Sagan"@fr , "Carl Sagan"@de , "Dr. Carl Sagan"@de , "Carl Sagan"@en , "Dr. Carl Sagan"@en , "Carl Edward Sagan"@fr , "Carl Edward Sagan"@de , "Carl Edward Sagan"@en , "Carl E. Sagan"@fr , "Carl E. Sagan"@de , "Carl E. Sagan"@en , "Sagan, Carl"@fr , "Sagan, Carl"@de , "carl_sagan"@en , "Sagan, Carl"@en , "Carl sagan"@fr , "Carl sagan"@de .

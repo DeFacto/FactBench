@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Johnny_Mercer>
+        rdfs:label     "Johnny Mercer"@de , "Johnny Mercer"@en , "Johnny Mercer"@fr ;
+        dbo:birth      <http://dbpedia.org/resource/Johnny_Mercer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Johnny_Mercer> , <http://fr.dbpedia.org/resource/Johnny_Mercer> ;
+        skos:altLabel  "Bernardine"@fr , "Bernardine"@de , "Johnny Mercer"@fr , "John Herndon Mercer"@fr , "John Herndon Mercer"@de , "Johnny Mercer"@de , "John Herndon \"Johnny\" Mercer"@fr , "Mercer"@fr , "John Herndon \"Johnny\" Mercer"@de , "Mercer"@de , "Conversation While Dancing"@fr , "Conversation While Dancing"@de , "Johnnie Mercer"@fr , "Johnnie Mercer"@de .
+
+<http://dbpedia.org/resource/Savannah,_Georgia>
+        rdfs:label     "Savannah, Georgia"@de , "Savannah, Georgia"@fr , "Savannah, Georgia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Savannah_(Géorgie)> , <http://de.dbpedia.org/resource/Savannah_(Georgia)> ;
+        skos:altLabel  "Savannah ga"@fr , "Savannah ga"@en , "Savannah ga"@de , "Savannah, Georgia"@fr , "Savannah, GA"@en , "Savannah, GA"@de , "Savannah, GA"@fr , "Savannah, Georgia"@en , "Savannah, Georgia"@de , "Savannah-Chatham Metropolitan, Georgia"@fr , "Savannah-Chatham Metropolitan, Georgia"@en , "Savannah-Chatham Metropolitan, Georgia"@de , "Connect savannah"@en , "Connect savannah"@de , "Connect savannah"@fr , "Savannah International Airport"@fr , "Downtown Savannah, Georgia"@fr , "Downtown Savannah, Georgia"@en , "Downtown Savannah, Georgia"@de , "Savannah"@fr , "Savannah"@en , "Savannah"@de , "Savannah georgia"@en , "Savannah georgia"@de , "Savannah georgia"@fr , "LOCODE:USSAV"@fr , "LOCODE:USSAV"@en , "LOCODE:USSAV"@de , "Description of Savannah, GA"@fr , "Description of Savannah, GA"@en , "Description of Savannah, GA"@de , "Savannah, Ga."@fr , "Savannah, Ga."@en , "Savannah, Ga."@de , "Connect Savannah"@en , "Connect Savannah"@de , "Connect Savannah"@fr , "Savanna, Georgia"@en , "Savanna, Georgia"@de , "Savanna, Georgia"@fr , "Savanna, GA"@fr , "Savanna, GA"@en , "Savanna, GA"@de , "Savannah, ga"@fr , "Savannah, ga"@en , "Savannah, ga"@de .
+
+<http://dbpedia.org/resource/Johnny_Mercer__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Savannah,_Georgia> ;
+        dbo:from        "1909-11-18"^^xsd:date ;
+        dbo:to          "1909-11-18"^^xsd:date .

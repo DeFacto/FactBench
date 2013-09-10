@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Adam_Smith>
+        rdfs:label     "Adam Smith"@en , "Adam Smith"@fr , "Adam Smith"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Adam_Smith__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Adam_Smith> , <http://de.dbpedia.org/resource/Adam_Smith> ;
+        skos:altLabel  "Adam smith"@en , "A Smith"@en , "Adam Smith"@en , "Vile maxim"@en , "A Smith"@fr , "A Smith"@de , "Adam smith"@fr , "Vile maxim"@de , "Vile maxim"@fr , "Adam Smith"@fr , "Adam smith"@de , "Adam Smith"@de , "Smith"@fr .
+
+<http://dbpedia.org/resource/Memphis,_Tennessee>
+        rdfs:label     "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennessee"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Memphis_(Tennessee)> , <http://de.dbpedia.org/resource/Memphis_(Tennessee)> ;
+        skos:altLabel  "Memphis TN"@de , "Memphis TN"@fr , "Memphis TN"@en , "Memphis, Tennesse"@de , "Memphis, Tennesse"@fr , "Memphis, Tennesse"@en , "LOCODE:USMEM"@en , "LOCODE:USMEM"@de , "LOCODE:USMEM"@fr , "TN Memphis"@en , "TN Memphis"@de , "TN Memphis"@fr , "Memphis"@en , "Memphis"@de , "Memphis"@fr , "Memphis Tennessee"@de , "Memphis Tennessee"@fr , "Memphis Tennessee"@en , "Memphis, tn"@en , "Memphis,TN"@en , "Memphis,TN"@de , "Memphis,TN"@fr , "Memphis, tn"@de , "Memphis, tn"@fr , "Memphrica"@de , "Memphrica"@fr , "Memphrica"@en , "Menphis"@en , "Menphis"@de , "Menphis"@fr , "Memphis, USA"@en , "Memphis, TN"@de , "Memphis, TN"@fr , "Memphis, TN"@en , "Memphis, USA"@fr , "Memphis, USA"@de , "Memfrica"@de , "Memfrica"@fr , "Memfrica"@en , "Memphis, Tennessee"@en , "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennesee"@de , "Memphis, Tennesee"@fr , "Memphis, Tennesee"@en .
+
+<http://dbpedia.org/resource/Adam_Smith__1>
+        dbo:from        "1960"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Memphis,_Tennessee> ;
+        dbo:to          "1960"^^xsd:gYear .

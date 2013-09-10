@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mammootty__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hodgenville,_Kentucky> ;
+        dbo:from        "1809"^^xsd:gYear ;
+        dbo:to          "1809"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hodgenville,_Kentucky>
+        rdfs:label     "Hodgenville, Kentucky"@en , "Hodgenville, Kentucky"@fr , "Hodgenville, Kentucky"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hodgenville> ;
+        skos:altLabel  "Hodgenville, Kentucky"@de , "Hodgenville, KY"@en , "Hodgenville, KY"@de , "Hodgenville"@en , "Hodgenville"@de , "Hodgenville, Kentucky"@en .
+
+<http://dbpedia.org/resource/Mammootty>
+        rdfs:label     "Mammootty"@en , "Mammootty"@fr , "Mammootty"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mammootty__1> ;
+        skos:altLabel  "Mammukka"@en , "Mammotty"@en , "Mammookka"@en , "Megastar Mammootty"@en , "Muhammad Kutty"@en , "Sajin"@en , "Mammootty"@en , "Mammooty"@en .

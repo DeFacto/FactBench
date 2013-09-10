@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02yqq>
+        rdfs:label     "Fahrenheit 451"@en , "Fahrenheit 451"@de , "Fahrenheit 451"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Fahrenheit_451> , <http://dbpedia.org/resource/Fahrenheit_451> , <http://fr.dbpedia.org/resource/Fahrenheit_451> ;
+        skos:altLabel  "Faber"@en , "Faber"@de , "Faber"@fr , "Farhenheit 451"@en , "Farhenheit 451"@de , "Farhenheit 451"@fr , "451F"@en , "451F"@de , "451F"@fr , "Mildred Montag"@en , "Mildred Montag"@de , "Mildred Montag"@fr , "Clarisse McClellan"@en , "Fahrenheit 451"@en , "Beatty"@en , "Clarisse McClellan"@fr , "Clarisse McClellan"@de , "Fahrenheit 451"@de , "Beatty"@de , "Beatty"@fr , "Fahrenheit 451"@fr , "Mechanical Hound"@en , "Mechanical Hound"@de , "Mechanical Hound"@fr , "The Mechanical Hound"@en , "Farenheit 451"@en , "McClellan"@en , "The Mechanical Hound"@de , "Farenheit 451"@de , "Farenheit 451"@fr , "McClellan"@de , "McClellan"@fr , "The Mechanical Hound"@fr , "Clarisse"@en , "Clarisse"@fr , "Clarisse"@de , "Linda Montag"@en , "Linda Montag"@de , "Linda Montag"@fr , "Captain Beatty"@en , "Captain Beatty"@de , "Captain Beatty"@fr , "Fireman"@en , "Fahrenheit451"@en , "Fireman"@fr , "Fireman"@de , "Fahrenheit451"@de , "Fahrenheit451"@fr , "Clarisse mcclellan"@en , "Clarisse mcclellan"@de , "Clarisse mcclellan"@fr , "F451"@en , "F451"@de , "F451"@fr , "Denham's Dentifrice"@en , "Denham's Dentifrice"@de , "Denham's Dentifrice"@fr , "Fahrenheit"@en , "Fahrenheit"@de , "Fahrenheit"@fr .
+
+<http://rdf.freebase.com/ns/m.02gfjl>
+        rdfs:label     "Marge Piercy"@en , "Marge Piercy"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02gfjl__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Marge_Piercy> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Marge_Piercy> ;
+        skos:altLabel  "Piercy, Marge"@en , "Marge"@de , "Piercy"@de , "M Piercy"@en , "Marge Piercy"@de .
+
+<http://rdf.freebase.com/ns/m.02gfjl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02yqq> ;
+        dbo:from    "1953"^^xsd:gYear ;
+        dbo:to      "1953"^^xsd:gYear .

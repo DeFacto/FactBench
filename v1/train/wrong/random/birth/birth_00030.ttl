@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pierre_Trudeau__1>
+        dbo:author  <http://dbpedia.org/resource/Victoria,_British_Columbia> ;
+        dbo:from    "1982"^^xsd:gYear ;
+        dbo:to      "1982"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Pierre_Trudeau>
+        rdfs:label     "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Pierre Trudeau"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Pierre_Trudeau__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pierre_Elliott_Trudeau> , <http://de.dbpedia.org/resource/Pierre_Trudeau> ;
+        skos:altLabel  "Trudeau"@en , "Trudeau"@de , "Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@en , "Pierre Eliott Trudeau"@en , "Pierre Eliott Trudeau"@de , "Pierre Eliott Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@de , "Joseph Philippe Pierre Yves Elliott Trudeau"@fr , "Pierre Trudeau"@en , "Joseph Philippe Pierre Ives Elliott Trudeau"@de , "Joseph Philippe Pierre Ives Elliott Trudeau"@fr , "Joseph Philippe Pierre Ives Elliott Trudeau"@en , "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Joseph Philipp Pierre"@en , "Joseph Philipp Pierre"@de , "Joseph Philipp Pierre"@fr , "Pierre-Elliot Trudeau"@en , "Pierre-Elliot Trudeau"@de , "Pierre-Elliot Trudeau"@fr , "Pierre Elliott Trudeau"@en , "PE Trudeau"@fr , "Pierre Elliott Trudeau"@de , "Pierre Elliott Trudeau"@fr , "Pierre trudeau"@en , "Pierre trudeau"@de , "Pierre trudeau"@fr , "Joseph Philipp Pierre Yves Elliott Trudeau"@en , "Pierre"@en , "Pierre"@de , "Pierre"@fr , "Pierre Philippe Yves Elliott Trudeau"@en , "Joseph Philipp Pierre Yves Elliott Trudeau"@de , "Joseph Philipp Pierre Yves Elliott Trudeau"@fr , "Pierre Philippe Yves Elliott Trudeau"@de , "Pierre Philippe Yves Elliott Trudeau"@fr , "Pierre-Eliott-Trudeau"@fr , "Pierre-Elliott Trudeau"@de , "Pierre-Elliott Trudeau"@fr , "Pierre-Elliott Trudeau"@en , "Trudeauisme"@fr , "Trudeauiste"@fr , "Pierre E. Trudeau"@en , "Pierre E. Trudeau"@de , "Pierre E. Trudeau"@fr , "Pierre Elliot Trudeau"@en , "Pierre Elliot Trudeau"@de , "Pierre Elliot Trudeau"@fr .
+
+<http://dbpedia.org/resource/Victoria,_British_Columbia>
+        rdfs:label     "Victoria, British Columbia"@de , "Victoria, British Columbia"@fr , "Victoria, British Columbia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Victoria_(Colombie-Britannique)> , <http://de.dbpedia.org/resource/Victoria_(British_Columbia)> ;
+        skos:altLabel  "Victoria"@de , "Victoria"@fr , "Victoria"@en , "Victoria Canada"@de , "Victoria Canada"@fr , "Victoria Canada"@en , "Victoria, BC"@en , "Victoria, BC"@de , "Victoria, BC"@fr , "BC Victoria"@de , "BC Victoria"@fr , "BC Victoria"@en , "LOCODE:CAVIC"@en , "Capital of British Columbia"@en , "Victoria, British Columbia"@en , "Victoria, British Columbia"@de , "Victoria, British Columbia"@fr , "LOCODE:CAVIC"@de , "LOCODE:CAVIC"@fr , "Capital of British Columbia"@de , "Capital of British Columbia"@fr , "Victoria canada"@en , "Victoria canada"@de , "Victoria canada"@fr , "Victoria, bc"@en , "Victoria, bc"@de , "Victoria, bc"@fr , "Victoria BC"@en , "Victoria BC"@de , "Victoria BC"@fr , "Victoria high"@en , "Victoria high"@de , "Victoria high"@fr , "Victoria,bc"@en , "Victoria,bc"@de , "Victoria,bc"@fr , "Victoria, Canada"@en , "Victoria, Canada"@de , "Victoria, Canada"@fr , "Victoria bc"@de , "Victoria bc"@fr , "Victoria bc"@en , "Demographics of Victoria, British Columbia"@de , "Demographics of Victoria, British Columbia"@fr , "Demographics of Victoria, British Columbia"@en , "Victoria, B.C."@en , "Victoria, B.C."@de , "Victoria, B.C."@fr .

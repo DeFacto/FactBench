@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jomo_Kenyatta>
+        rdfs:label     "Jomo Kenyatta"@en , "Jomo Kenyatta"@fr , "Jomo Kenyatta"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jomo_Kenyatta__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jomo_Kenyatta> , <http://de.dbpedia.org/resource/Jomo_Kenyatta> ;
+        skos:altLabel  "Kenyatta, Jomo"@en , "Kenyatta, Jomo"@fr , "Kenyatta, Jomo"@de , "Jomo Kenyatta"@en , "Jomo Kenyatta"@fr , "Jomo Kenyatta"@de , "H. E. Mzee Jomo Kenyatta"@en , "Jomo Kenyata"@en , "Kamau wa Ngengi"@en , "H. E. Mzee Jomo Kenyatta"@fr , "Jomo Kenyata"@fr , "H. E. Mzee Jomo Kenyatta"@de , "Jomo Kenyata"@de , "Kamau wa Ngengi"@fr , "Kamau wa Ngengi"@de , "Johnstone Kamau"@en , "Johnstone Kamau"@fr , "Johnstone Kamau"@de , "Mzee Jomo Kenyatta"@en , "Mzee Jomo Kenyatta"@fr , "Mzee Jomo Kenyatta"@de , "Kamau Ngengi"@en , "Jomo Kenyatta: First President of Kenya"@en , "Kenyatta"@en , "Kamau Ngengi"@fr , "Jomo Kenyatta: First President of Kenya"@fr , "Kenyatta"@fr , "Jomo Kenyatta: First President of Kenya"@de , "Kenyatta"@de , "Kamau Ngengi"@de .
+
+<http://dbpedia.org/resource/Kingdom_of_Tunisia>
+        rdfs:label  "Kingdom of Tunisia"@en , "Kingdom of Tunisia"@fr , "Kingdom of Tunisia"@de .
+
+<http://dbpedia.org/resource/Jomo_Kenyatta__1>
+        dbo:from    "1956"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Kingdom_of_Tunisia> ;
+        dbo:to      "1957"^^xsd:gYear .

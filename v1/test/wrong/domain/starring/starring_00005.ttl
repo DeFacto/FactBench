@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ghostbusters_II>
+        rdfs:label     "Ghostbusters II"@de , "Ghostbusters II"@fr , "Ghostbusters II"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ghostbusters_II__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ghostbusters_II> , <http://fr.dbpedia.org/resource/S.O.S._Fantômes_2> ;
+        skos:altLabel  "Vigo der Karpate"@de , "Ghostbuster 2"@en , "Ghostbuster 2"@de , "Ghostbuster 2"@fr , "S.O.S. fantômes II"@fr , "S.O.S. fantomes II"@fr , "S.O.S. Fantômes II"@fr , "Vigo the carpathian"@en , "Vigo the carpathian"@de , "Vigo the carpathian"@fr , "The Real Ghostbusters in Ghostbusters II"@en , "The Real Ghostbusters in Ghostbusters II"@de , "The Real Ghostbusters in Ghostbusters II"@fr , "S.O.S. Fantomes 2"@fr , "Slime Blower"@en , "Slime Blower"@de , "Slime Blower"@fr , "Vigo"@en , "Gb 2"@en , "Gb 2"@de , "Gb 2"@fr , "Vigo"@de , "Vigo"@fr , "Janosz Poha"@en , "Janosz Poha"@de , "Janosz Poha"@fr , "S.O.S. Fantomes II"@fr , "Lord Vigo"@en , "Ghostbusters"@en , "Ghostbusters"@de , "Ghostbusters"@fr , "Lord Vigo"@de , "Lord Vigo"@fr , "Vigo the Carpathian"@en , "Vigo the Carpathian"@de , "Vigo the Carpathian"@fr , "Scoleri Brothers"@en , "Scoleri Brothers"@de , "Scoleri Brothers"@fr , "Ghostbusters II Trivia"@en , "Ghostbusters II Trivia"@de , "Ghostbusters II Trivia"@fr , "S.O.S. Fantômes 2"@fr , "Ghostbusters 2"@en , "Ghostbusters 2"@de , "Ghostbusters 2"@fr , "Ghostbusters II"@en , "Ghostbusters II"@de , "Ghostbusters II"@fr , "GBII"@en , "GBII"@de , "GBII"@fr .
+
+<http://dbpedia.org/resource/Michael_Madsen>
+        rdfs:label     "Michael Madsen"@en , "Michael Madsen"@fr , "Michael Madsen"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Michael_Madsen> , <http://de.dbpedia.org/resource/Michael_Madsen> ;
+        skos:altLabel  "Michael Soren Madsen"@en , "Michael Soren Madsen"@fr , "Michael Soren Madsen"@de , "Madsen"@fr , "Michael Madsen"@fr , "Michael Madsen"@de , "Michael Madsen"@en .
+
+<http://dbpedia.org/resource/Ghostbusters_II__1>
+        dbo:from      "2003"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Michael_Madsen> ;
+        dbo:to        "2003"^^xsd:gYear .

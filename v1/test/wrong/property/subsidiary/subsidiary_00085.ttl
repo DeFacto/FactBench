@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07psd0__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.03bxy0y> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07psd0>
+        rdfs:label     "VeriFone Holdings, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07psd0__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/VeriFone> ;
+        skos:altLabel  "Verifone"@en , "VeriFone Payment Solutions"@en , "VeriFone, Inc."@en , "VeriFone Systems, Inc."@en , "VeriFone"@en , "VeriFone Inc"@en , "VeriFone Holdings Inc"@en , "VeriFone, Inc"@en .
+
+<http://rdf.freebase.com/ns/m.03bxy0y>
+        rdfs:label  "Lipman Electronic Engineering"@en .

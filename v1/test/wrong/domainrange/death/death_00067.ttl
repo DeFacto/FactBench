@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pierre_Trudeau__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Miami> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Pierre_Trudeau>
+        rdfs:label     "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Pierre Trudeau"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Pierre_Trudeau__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pierre_Elliott_Trudeau> , <http://de.dbpedia.org/resource/Pierre_Trudeau> ;
+        skos:altLabel  "Trudeau"@en , "Trudeau"@de , "Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@en , "Pierre Eliott Trudeau"@en , "Pierre Eliott Trudeau"@de , "Pierre Eliott Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@de , "Joseph Philippe Pierre Yves Elliott Trudeau"@fr , "Pierre Trudeau"@en , "Joseph Philippe Pierre Ives Elliott Trudeau"@de , "Joseph Philippe Pierre Ives Elliott Trudeau"@fr , "Joseph Philippe Pierre Ives Elliott Trudeau"@en , "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Joseph Philipp Pierre"@en , "Joseph Philipp Pierre"@de , "Joseph Philipp Pierre"@fr , "Pierre-Elliot Trudeau"@en , "Pierre-Elliot Trudeau"@de , "Pierre-Elliot Trudeau"@fr , "Pierre Elliott Trudeau"@en , "PE Trudeau"@fr , "Pierre Elliott Trudeau"@de , "Pierre Elliott Trudeau"@fr , "Pierre trudeau"@en , "Pierre trudeau"@de , "Pierre trudeau"@fr , "Joseph Philipp Pierre Yves Elliott Trudeau"@en , "Pierre"@en , "Pierre"@de , "Pierre"@fr , "Pierre Philippe Yves Elliott Trudeau"@en , "Joseph Philipp Pierre Yves Elliott Trudeau"@de , "Joseph Philipp Pierre Yves Elliott Trudeau"@fr , "Pierre Philippe Yves Elliott Trudeau"@de , "Pierre Philippe Yves Elliott Trudeau"@fr , "Pierre-Eliott-Trudeau"@fr , "Pierre-Elliott Trudeau"@de , "Pierre-Elliott Trudeau"@fr , "Pierre-Elliott Trudeau"@en , "Trudeauisme"@fr , "Trudeauiste"@fr , "Pierre E. Trudeau"@en , "Pierre E. Trudeau"@de , "Pierre E. Trudeau"@fr , "Pierre Elliot Trudeau"@en , "Pierre Elliot Trudeau"@de , "Pierre Elliot Trudeau"@fr .
+
+<http://dbpedia.org/resource/Miami>
+        rdfs:label     "Miami"@de , "Miami"@fr , "Miami"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Miami> , <http://de.dbpedia.org/resource/Miami> ;
+        skos:altLabel  "Miami, Florida"@de , "Miami, Florida"@fr , "Miami, Florida"@en , "Miami, FL"@en , "Miami, FL"@de , "Miami, FL"@fr , "Miami, Fla."@de , "Miami, Fla."@fr , "Miami, Fla."@en , "Miami, USA"@de , "Miami, USA"@fr , "Miami, USA"@en , "Miami, fl"@de , "Miami, fl"@fr , "Miami, fl"@en , "City of Miami, Florida"@en , "Miami FL"@de , "City of Miami, Florida"@de , "City of Miami, Florida"@fr , "Miami FL"@fr , "Miami FL"@en , "Miami, Fl"@de , "Miami, Fl"@fr , "Miami, Fl"@en , "Miami Florida"@en , "Miami Florida"@de , "Miami Florida"@fr , "Miami"@de , "Miami"@fr , "Miami"@en , "Miami florida"@de , "Miami florida"@fr , "Miami florida"@en , "The weather in Miami"@de , "The weather in Miami"@fr , "The weather in Miami"@en , "LOCODE:USMIA"@de , "LOCODE:USMIA"@fr , "LOCODE:USMIA"@en .

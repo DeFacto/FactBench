@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04n1hk>
+        rdfs:label     "Darius McCrary"@en , "Darius McCrary"@fr , "Darius McCrary"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Darius_McCrary> , <http://dbpedia.org/resource/Darius_McCrary> , <http://de.dbpedia.org/resource/Darius_McCrary> ;
+        skos:altLabel  "Darius"@en , "Darius"@fr , "Darius"@de , "McCrary"@de , "Darius McCrary"@en , "Darius McCrary"@fr , "Darius McCrary"@de , "Darius Creston McCrary"@en , "Daruis McCrary"@en , "Darius McCreary"@en .
+
+<http://rdf.freebase.com/ns/m.0bbf1f__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.04n1hk> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0bbf1f>
+        rdfs:label     "Katie Holmes"@de , "Katie Holmes"@fr , "Katie Holmes"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bbf1f__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Katie_Holmes> , <http://fr.dbpedia.org/resource/Katie_Holmes> , <http://dbpedia.org/resource/Katie_Holmes> ;
+        skos:altLabel  "Kate Noelle \"Katie\" Holmes"@en , "Holmes"@fr , "Holmes"@en , "Katy Holmes"@en , "Jessica Feschbach"@de , "Jessica Feschbach"@fr , "Jessica Feschbach"@en , "Katy Holmes"@de , "Katy Holmes"@fr , "Katherine N. Holmes"@de , "Katherine N. Holmes"@fr , "Katherine N. Holmes"@en , "Katherine N Holmes"@de , "Katherine N Holmes"@fr , "Katherine N Holmes"@en , "Katie Cruise"@en , "Kate Noelle Holmes"@fr , "Kate Noelle Holmes"@en , "Katie holmes"@en , "Katie holmes"@de , "Katie holmes"@fr , "Catie Holmes"@en , "Kaite holmes"@en , "Catie Holmes"@de , "Katie"@en , "Catie Holmes"@fr , "Kaite holmes"@de , "Kaite holmes"@fr , "Suri"@de , "Suri"@fr , "Suri"@en , "Katherine Noelle Holmes"@en , "Katherine Noelle Holmes"@de , "Katherine Noelle Holmes"@fr , "Suri Cruise"@de , "Suri Cruise"@fr , "Suri Cruise"@en , "Katherine Holmes"@en , "Katherine Holmes"@de , "Katherine Holmes"@fr , "Katie Holmes"@de , "Katie Holmes"@fr , "Katie Holmes"@en .

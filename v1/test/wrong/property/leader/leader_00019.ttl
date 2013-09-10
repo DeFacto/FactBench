@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord__1>
+        dbo:from  "1815"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/France> ;
+        dbo:to    "1815"^^xsd:gYear .
+
+<http://dbpedia.org/resource/France>
+        rdfs:label     "France"@de , "France"@fr , "France"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frankreich> , <http://fr.dbpedia.org/resource/France> ;
+        skos:altLabel  "Purangsu"@de , "FrancE"@fr , "FrancE"@de , "Republique francaise"@en , "Republic of France"@en , "Republique francaise"@fr , "Rance"@fr , "Republic of France"@fr , "Republique francaise"@de , "Française"@fr , "Republic of France"@de , "Hexagone"@en , "Hexagone"@de , "Hexagone"@fr , "Franţa"@en , "Franta"@en , "Franţa"@fr , "Franţa"@de , "Franta"@de , "Franta"@fr , "Franse"@en , "Franse"@fr , "Franse"@de , "FRANCE"@en , "FRANCE"@fr , "FRANCE"@de , "République française"@en , "République française"@fr , "République française"@de , "Franc3"@en , "Franc3"@fr , "Franc3"@de , "Frakkland"@en , "Frakkland"@fr , "Frakkland"@de , "Frankreich"@en , "Frankreich"@de , "Frankreich"@fr , "Franciaorszag"@en , "Franciaorszag"@fr , "Franciaorszag"@de , "ISO 3166-1:FR"@en , "ISO 3166-1:FR"@fr , "ISO 3166-1:FR"@de , "Ranska"@en , "Ranska"@fr , "Ranska"@de , "Francaises"@fr , "List of Lands of the Carolingian Empire"@en , "List of Lands of the Carolingian Empire"@fr , "List of Lands of the Carolingian Empire"@de , "Peurangseu"@en , "Collapse of Charlemagne's empire"@en , "Peurangseu"@fr , "Collapse of Charlemagne's empire"@fr , "Collapse of Charlemagne's empire"@de , "Peurangseu"@de , "Francaise"@fr , "Franc"@en , "FRance"@en , "Franc"@fr , "FRance"@de , "FRance"@fr , "Franc"@de , "Franciaország"@en , "Franciaország"@de , "Franciaország"@fr , "Franța"@en , "Franța"@fr , "Franța"@de , "Etymology of France"@en , "Etymology of France"@fr , "Etymology of France"@de , "Belle France"@en , "Belle France"@fr , "Belle France"@de , "Françaises"@fr , "Republic of france"@en , "Republic of france"@fr , "Republic of france"@de , "Hexagône"@en , "Fracne"@en , "France"@en , "Hexagône"@fr , "France"@fr , "Hexagône"@de , "France"@de , "Fracne"@fr , "Fracne"@de , "French Republic"@en , "French Republic"@fr , "French Republic"@de , "Purangsu"@en , "FrancE"@en , "Ance"@fr , "Purangsu"@fr , "La France"@fr .
+
+<http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord>
+        rdfs:label     "Charles Maurice de Talleyrand-Périgord"@de , "Charles Maurice de Talleyrand-Périgord"@en , "Charles Maurice de Talleyrand-Périgord"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charles-Maurice_de_Talleyrand-Périgord> , <http://de.dbpedia.org/resource/Charles-Maurice_de_Talleyrand-Périgord> ;
+        skos:altLabel  "Charles-Maurice de Talleyrand-Périgord"@de , "Charles-Maurice de Talleyrand-Perigord"@de , "Charles Maurice de Talleyrand-Périgord"@fr , "Charles-maurice de talleyrand-périgord"@fr , "Talleyrand"@fr , "Charles de Talleyrand"@de , "Charles Talleyrand"@fr , "Charles-Maurice De Talleyrand"@fr , "Charles-maurice de talleyrand"@fr , "Charles Maurice de Talleyrand"@fr , "Charles Maurice de Talleyrand"@de , "Perigord"@fr , "Charles-Maurice de Talleyrand"@fr , "Charles-Maurice de Talleyrand"@de , "Prince de Bénévent"@fr , "Charles Maurice de Talleyrand-Perigord"@fr , "Talleyrand-Perigord"@de , "Périgord"@fr , "Charles-maurice De Talleyrand-perigord"@fr , "Charles-Maurice De Talleyrand-Périgord"@fr , "Charles-maurice De Talleyrand-Perigord"@fr , "Charles-maurice de Talleyrand-Perigord"@fr , "Prince de Benevent"@fr , "Charles-maurice De Talleyrand-périgord"@fr , "Charles-maurice de talleyrand-perigord"@fr , "Charles-maurice de Talleyrand-Périgord"@fr , "Charles-maurice De Talleyrand-Périgord"@fr , "Talleyrand-Périgord"@de , "Charles-Maurice De Talleyrand-Perigord"@fr , "Charles-Maurice de Talleyrand-Perigord"@fr , "Charles-Maurice de Talleyrand-Périgord"@fr .

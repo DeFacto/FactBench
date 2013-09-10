@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ftzld__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0fhzf> ;
+        dbo:from             "1997"^^xsd:gYear ;
+        dbo:to               "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0ftzld>
+        rdfs:label     "Krstarica"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0ftzld__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Krstarica> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Krstarica.com"@en , "Krstarica"@en .
+
+<http://rdf.freebase.com/ns/m.0fhzf>
+        rdfs:label     "Belgrade"@fr , "Belgrade"@en , "Belgrad"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Belgrade> , <http://de.dbpedia.org/resource/Belgrad> , <http://fr.dbpedia.org/resource/Belgrade> ;
+        skos:altLabel  "Београд"@en , "Batajnia Air Base"@fr , "Prinzeugenstadt"@en , "Prinz-Eugenstadt"@en , "Prinz-Eugenstadt"@de , "Prinz-Eugenstadt"@fr , "Prinzeugenstadt"@de , "Prinzeugenstadt"@fr , "Nándorfehérvár"@en , "Capital of Yugoslavia"@en , "Capital of Yugoslavia"@de , "Nándorfehérvár"@de , "Nándorfehérvár"@fr , "Capital of Yugoslavia"@fr , "Belgrade"@en , "Belgrade"@de , "Belgrade"@fr , "LOCODE:CSBEG"@en , "LOCODE:CSBEG"@fr , "LOCODE:CSBEG"@de , "Grad"@en , "Grad"@de , "Grad"@fr , "City of Belgrade"@en , "City of Belgrade"@fr , "City of Belgrade"@de , "Region of Belgrade"@en , "Region of Belgrade"@de , "Region of Belgrade"@fr , "Belograd"@en , "Belograd"@de , "Belograd"@fr , "Belgrade, Serbia"@en , "Belgrade, Serbia"@de , "Belgrade, Serbia"@fr , "Belgrade, Yugoslavia"@en , "Belgrade, Yugoslavia"@fr , "Belgrade, Yugoslavia"@de , "RS-00"@de , "LOCODE:RSBEG"@en , "LOCODE:RSBEG"@fr , "LOCODE:RSBEG"@de , "Belgrad"@en , "Belgrad"@de , "Belgrad"@fr , "Belgrád"@en , "Belgrád"@de , "Belgrád"@fr , "Capital of Serbia and Montenegro"@en , "Belgrade Region"@en , "Capital of Serbia and Montenegro"@fr , "Capital of Serbia and Montenegro"@de , "Belgrade Region"@fr , "Belgrade Region"@de , "Capital of Serbia"@en , "Capital of Serbia"@de , "Capital of Serbia"@fr , "Nandorfehervar"@en , "Beograd"@en , "Nandorfehervar"@fr , "Nandorfehervar"@de , "Beograd"@de , "Beograd"@fr , "Belgrade District"@en , "Belgrade District"@fr , "Belgrade District"@de .

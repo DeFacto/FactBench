@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kylie_Minogue__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Melbourne> ;
+        dbo:from        "1968-05-28"^^xsd:date ;
+        dbo:to          "1968-05-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Melbourne>
+        rdfs:label     "Melbourne"@de , "Melbourne"@fr , "Melbourne"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Melbourne> , <http://de.dbpedia.org/resource/Melbourne> ;
+        skos:altLabel  "Geography of Melbourne"@fr , "Geography of Melbourne"@de , "Geography of Melbourne"@en , "Melbourne, Victoria"@fr , "Melbourne, Victoria"@de , "Melbourne, Victoria"@en , "Melbournian"@fr , "Essendon"@fr , "LOCODE:AUMEL"@fr , "Melbournian"@de , "Melbournian"@en , "LOCODE:AUMEL"@de , "LOCODE:AUMEL"@en , "Bearbrass"@fr , "Bearbrass"@de , "Bearbrass"@en , "Melborne"@fr , "Melborne"@de , "Melborne"@en , "Melbouren"@fr , "Melbouren"@en , "Melbouren"@de , "Aeroport d'Essendon"@fr , "Economy of Melbourne"@fr , "Economy of Melbourne"@en , "Economy of Melbourne"@de , "Melbourne"@fr , "Melbourne"@en , "Melbourne"@de , "Melben"@fr , "Melben"@de , "Melben"@en , "Kensington Community High School"@fr , "Mlbourne"@fr , "Kensington Community High School"@de , "Kensington Community High School"@en , "Mlbourne"@en , "Mlbourne"@de , "Melb"@fr , "Melb"@de , "Melb"@en , "Melbourne (Vic.), Australia"@fr , "Melbourne (Vic.), Australia"@de , "Melbourne (Vic.), Australia"@en , "Melbourne, Australia."@fr , "Melbourne, Victoria, Australia"@fr , "Melbourne, Victoria, Australia"@en , "Melbourne, Victoria, Australia"@de , "Melbourne city"@fr , "Melbourne, Australia."@de , "Melbourne, Australia."@en , "Melbourne city"@de , "Melbourne city"@en , "Mlebourne"@fr , "Mlebourne"@de , "Mlebourne"@en , "Melbourne, VIC"@fr , "Marvellous melbourne"@fr , "Marvellous melbourne"@en , "Marvellous melbourne"@de , "Melbourne, VIC"@en , "Melbourne, VIC"@de , "Melbourne australia"@fr , "Melbourne australia"@en , "Melbourne australia"@de , "Melbourne, AU-VIC"@fr , "Melbourne, AU-VIC"@de , "Melbourne, AU-VIC"@en , "Melbourne, Australia"@fr , "Melbourne, Australia"@de , "Melbourne, Australia"@en , "Greater Melbourne"@fr , "Greater Melbourne"@de , "Greater Melbourne"@en , "Melbourne Australia"@fr , "Melbourne Australia"@en , "Melbourne Australia"@de , "Essendon Airport"@fr , "Aéroport d'Essendon"@fr .
+
+<http://dbpedia.org/resource/Kylie_Minogue>
+        rdfs:label     "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie Minogue"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Kylie_Minogue__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kylie_Minogue> , <http://de.dbpedia.org/resource/Kylie_Minogue> ;
+        skos:altLabel  "Kylie Minogue OBE"@fr , "Kylie Minogue OBE"@en , "Kylie Minogue OBE"@de , "Darling"@fr , "Darling"@en , "Darling"@de , "New Age"@fr , "New Age"@en , "New Age"@de , "Minogue"@de , "Minogue, Kylie"@fr , "Minogue, Kylie"@en , "Minogue, Kylie"@de , "Kyly"@fr , "Kyly"@en , "Kyly"@de , "Kylie Ann Minogue OBE"@fr , "Kylie Ann Minogue OBE"@en , "Kylie Ann Minogue OBE"@de , "Kylie Minogue"@en , "Kylie Minogue"@de , "Kylie Minogue"@fr , "Kylie"@fr , "Kylie"@en , "Kylie"@de , "Kylie Ann Minogue"@fr , "Kylie Ann Minogue"@en , "Kylie Ann Minogue"@de , "Kylie Monogue"@fr , "Kylie Monogue"@en , "Kylie Monogue"@de , "Kylie minogue"@fr , "Kylie minogue"@en , "Kylie minogue"@de , "White Diamond"@fr , "White Diamond"@en , "White Diamond"@de , "Kylie minouge"@fr , "Love Kylie"@fr , "Love Kylie"@en , "Love Kylie"@de , "Kylie minoge"@fr , "The Best of Kylie Minogue"@fr , "Kylie minouge"@en , "Kylie minouge"@de , "Kylie minoge"@en , "The Best of Kylie Minogue"@en , "The Best of Kylie Minogue"@de , "Kylie minoge"@de .

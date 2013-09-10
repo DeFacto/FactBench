@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03grc43>
+        rdfs:label     "Materialise NV"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03grc43__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Materialise_NV> ;
+        skos:altLabel  "Materialise"@en .
+
+<http://rdf.freebase.com/ns/m.03z1j_>
+        rdfs:label     "Kerr Smith"@fr , "Kerr Smith"@de , "Kerr Smith"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Kerr_Smith> , <http://fr.dbpedia.org/resource/Kerr_Smith> , <http://de.dbpedia.org/resource/Kerr_Smith> ;
+        skos:altLabel  "Kerr Van Cleve Smith"@en , "Kerr Smith"@en , "Kerr Smith"@fr , "Kerr Smith"@de .
+
+<http://rdf.freebase.com/ns/m.03grc43__1>
+        dbo:from      "1966"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.03z1j_> ;
+        dbo:to        "1966"^^xsd:gYear .

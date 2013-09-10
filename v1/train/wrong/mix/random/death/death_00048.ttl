@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Martina_Navratilova>
+        rdfs:label     "Martina Navratilova"@de , "Martina Navratilova"@en , "Martina Navratilova"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Martina_Navratilova__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Martina_Navrátilová> , <http://fr.dbpedia.org/resource/Martina_Navrátilová> ;
+        skos:altLabel  "Navrátilová"@de , "Martina Navrátilová"@en , "Martina Navrátilová"@fr , "Martina Navrátilová"@de , "Martina Navratilova"@en , "Martina Navratilova"@fr , "Martina Navratilova"@de , "Martina Navratalova"@en , "Martina Navratalova"@fr , "Martina Navratalova"@de , "Martina Šubertová"@de , "Navratilova"@fr , "Navratilova"@de , "Martina Navartilova"@en , "Martina Navartilova"@fr , "Martina Navratilová"@fr , "Martina Navartilova"@de , "Martina Navaratilova"@en , "Navratilova, Martina"@en , "Martina Navaratilova"@fr , "Navratilova, Martina"@fr , "Martina Navaratilova"@de , "Martina Subertova"@de , "Navratilova, Martina"@de .
+
+<http://dbpedia.org/resource/Martina_Navratilova__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hollywood,_Florida> ;
+        dbo:from        "1946"^^xsd:gYear ;
+        dbo:to          "1946"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hollywood,_Florida>
+        rdfs:label     "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hollywood_(Florida)> , <http://fr.dbpedia.org/resource/Hollywood_(Floride)> ;
+        skos:altLabel  "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de , "Hollywood"@en , "Hollywood"@fr , "Hollywood"@de , "Hollywood, fl"@en , "Hollywood, fl"@fr , "Hollywood, fl"@de , "Hollywood, Fl"@en , "Hollywood, Fl"@fr , "Hollywood, Fl"@de , "Hollywood Beach, Florida"@en , "Hollywood Beach, Florida"@fr , "Hollywood Beach, Florida"@de , "LOCODE:USHWO"@en , "LOCODE:USHWO"@fr , "LOCODE:USHWO"@de , "Hollywood, FL"@en , "Hollywood, FL"@fr , "Hollywood, FL"@de , "Hollywood FL"@en , "Hollywood FL"@fr , "Hollywood FL"@de .

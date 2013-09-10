@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04r0t>
+        rdfs:label     "Luigi Pirandello"@en , "Luigi Pirandello"@fr , "Luigi Pirandello"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04r0t__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Luigi_Pirandello> , <http://dbpedia.org/resource/Luigi_Pirandello> , <http://fr.dbpedia.org/resource/Luigi_Pirandello> ;
+        skos:altLabel  "Pirandello"@fr , "Pirandello"@de , "Pirandello"@en , "Luigi Pirandello"@en , "Luigi Pirandello"@fr , "Luigi Pirandello"@de , "ルイジ・ピランデロ"@en .
+
+<http://rdf.freebase.com/ns/m.0f0ty9>
+        rdfs:label  "Pacific Hydro"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Pacific_Hydro> .
+
+<http://rdf.freebase.com/ns/m.04r0t__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.0f0ty9> ;
+        dbo:from        "2003"^^xsd:gYear ;
+        dbo:to          "2003"^^xsd:gYear .

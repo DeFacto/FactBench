@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08vbs___1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0xckc> ;
+        dbo:from             "1998"^^xsd:gYear ;
+        dbo:to               "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08vbs_>
+        rdfs:label  "iUpload"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.08vbs___1> .
+
+<http://rdf.freebase.com/ns/m.0xckc>
+        rdfs:label     "Livonia"@en , "Livonia"@fr , "Livonia"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Livonia,_Michigan> , <http://de.dbpedia.org/resource/Livonia_(Michigan)> , <http://fr.dbpedia.org/resource/Livonia_(Michigan)> ;
+        skos:altLabel  "Wayne County / Livonia city"@en , "Livonia Township, Michigan"@fr , "Livonia Township, Michigan"@de , "Livonia Michigan"@fr , "Livonia Michigan"@de , "Livonia, Michigan"@en , "Livonia, Michigan"@fr , "Livonia"@fr , "Livonia, Michigan"@de , "Livonia"@de , "Livonia, mi"@fr , "Livonia, MI"@de , "Livonia, MI"@fr , "Livonia, mi"@de .

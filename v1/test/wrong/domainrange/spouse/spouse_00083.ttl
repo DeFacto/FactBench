@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014r93>
+        rdfs:label     "Samuel West"@de , "Samuel West"@en , "Samuel West"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Samuel_West> , <http://de.dbpedia.org/resource/Samuel_West> , <http://dbpedia.org/resource/Samuel_West> ;
+        skos:altLabel  "Sam West"@en , "Sam"@en , "Samuel West"@de , "West"@fr , "Samuel West"@fr , "Sammy"@en , "Samuel Alexander Joseph West"@en .
+
+<http://rdf.freebase.com/ns/m.038cwy__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.014r93> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.038cwy>
+        rdfs:label     "Kevin Federline"@en , "Kevin Federline"@fr , "Kevin Federline"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.038cwy__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kevin_Federline> , <http://de.dbpedia.org/resource/Kevin_Federline> , <http://fr.dbpedia.org/resource/Kevin_Federline> ;
+        skos:altLabel  "Kevin Earl Federline"@de , "Kevin Ferderline"@en , "Kevin Spears"@en , "Kevin Spears"@fr , "Kevin Spears"@de , "K Fed"@en , "K Fed"@fr , "K Fed"@de , "K fed"@en , "K fed"@fr , "K fed"@de , "Federline"@en , "Federline"@fr , "Federline"@de , "Cletus"@en , "K-Fed"@en , "K-feds"@en , "K-Fed"@fr , "K-Fed"@de , "K-feds"@fr , "K-feds"@de , "Kevin Federline"@en , "Kevin Federline"@fr , "Kevin Federline"@de , "Kfed"@en , "Kfed"@fr , "Kfed"@de , "Kevin Earl Federline"@en , "Kevin Earl Federline"@fr .

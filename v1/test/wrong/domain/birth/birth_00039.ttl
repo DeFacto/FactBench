@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Stephen_King__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Belgrade> ;
+        dbo:from        "1987"^^xsd:gYear ;
+        dbo:to          "1987"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Stephen_King>
+        rdfs:label     "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stephen_King__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stephen_King> , <http://de.dbpedia.org/resource/Stephen_King> ;
+        skos:altLabel  "Richard Bachmann"@de , "King"@fr , "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en , "Stephan king"@en , "Stephen E. King"@de , "Stephan king"@de , "Stephan king"@fr , "Stephen E. King"@fr , "Stephen E. King"@en , "Stephen king"@en , "Stephen king"@de , "Stephen king"@fr , "Steven King Accident"@en , "List of books that stephen king has written"@en , "Steven King Accident"@de , "Steven king"@fr , "Steven King Accident"@fr , "List of books that stephen king has written"@de , "List of books that stephen king has written"@fr , "List of cultural references to Stephen King"@en , "List of cultural references to Stephen King"@de , "List of cultural references to Stephen King"@fr , "Richard Bachman"@de , "Richard Bachman"@fr , "The Works of Stephen King"@de , "The Works of Stephen King"@fr , "The Works of Stephen King"@en , "Stephen Edwin King"@en , "Stephen Edwin King"@de , "Stephen Edwin King"@fr , "King, Stephen"@en , "Stephen king accident"@en , "King, Stephen"@de , "King, Stephen"@fr , "Stephen king accident"@de , "Stephen king accident"@fr , "Bachman"@fr , "John Swithen"@en , "John Swithen"@de , "John Swithen"@fr , "Stephen"@de , "Stephen"@fr , "Stephen"@en .
+
+<http://dbpedia.org/resource/Belgrade>
+        rdfs:label     "Belgrade"@de , "Belgrade"@fr , "Belgrade"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belgrad> , <http://fr.dbpedia.org/resource/Belgrade> ;
+        skos:altLabel  "Prinzeugenstadt"@en , "Belgrad"@en , "Belgrad"@de , "Belgrad"@fr , "Prinzeugenstadt"@de , "Prinzeugenstadt"@fr , "Belgrade, Serbia"@en , "Belgrade, Serbia"@de , "Belgrade, Serbia"@fr , "Capital of Serbia and Montenegro"@en , "Capital of Serbia and Montenegro"@fr , "Capital of Serbia and Montenegro"@de , "Nándorfehérvár"@en , "Nándorfehérvár"@de , "Nándorfehérvár"@fr , "Belgrade"@en , "Belgrade"@de , "Belgrade"@fr , "Belgrade Region"@en , "Belgrade Region"@fr , "Belgrade Region"@de , "Belgrade, Yugoslavia"@en , "Belgrade, Yugoslavia"@fr , "Belgrade, Yugoslavia"@de , "Prinz-Eugenstadt"@en , "Prinz-Eugenstadt"@de , "Prinz-Eugenstadt"@fr , "Batajnia Air Base"@fr , "Beograd"@en , "Beograd"@de , "Beograd"@fr , "LOCODE:RSBEG"@en , "Belgrád"@en , "LOCODE:RSBEG"@fr , "Belgrád"@de , "Belgrád"@fr , "LOCODE:RSBEG"@de , "Nandorfehervar"@en , "Nandorfehervar"@fr , "Nandorfehervar"@de , "Belograd"@en , "Capital of Yugoslavia"@en , "Belograd"@de , "Belograd"@fr , "Capital of Yugoslavia"@de , "Capital of Yugoslavia"@fr , "City of Belgrade"@en , "City of Belgrade"@fr , "City of Belgrade"@de , "LOCODE:CSBEG"@en , "LOCODE:CSBEG"@de , "LOCODE:CSBEG"@fr , "RS-00"@de , "Belgrade District"@en , "Belgrade District"@fr , "Belgrade District"@de , "Region of Belgrade"@en , "Region of Belgrade"@de , "Region of Belgrade"@fr , "Grad"@en , "Grad"@de , "Grad"@fr , "Capital of Serbia"@en , "Capital of Serbia"@de , "Capital of Serbia"@fr .

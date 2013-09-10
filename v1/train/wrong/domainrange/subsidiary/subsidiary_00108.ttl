@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04mzg2t>
+        rdfs:label  "TiVo, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04mzg2t__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/TiVo,_Inc.> .
+
+<http://rdf.freebase.com/ns/m.04mzg2t__1>
+        dbo:from        "1999"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0390wb> ;
+        dbo:to          "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0390wb>
+        rdfs:label     "StumbleUpon"@de , "StumbleUpon"@en , "StumbleUpon"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/StumbleUpon> , <http://de.dbpedia.org/resource/StumbleUpon> , <http://fr.dbpedia.org/resource/StumbleUpon> ;
+        skos:altLabel  "Stumbleupon.com"@en , "Stumbleupon"@en , "Stumbleupon.com"@fr , "Stumbleupon.com"@de , "Stumbleupon"@fr , "Stumbleupon"@de , "Stumble upon"@en , "Stumble upon"@fr , "Stumble upon"@de , "StumbleUpon"@en , "StumbleUpon"@fr , "StumbleUpon"@de , "Stumble Upon"@en , "StumbleVideo"@en , "Stumble Upon"@fr , "StumbleVideo"@fr , "Stumble Upon"@de , "StumbleVideo"@de , "Stumbling"@en , "Stumbling"@fr , "Stumbling"@de , "Stumble"@en , "Stumble"@fr , "Stumble"@de .

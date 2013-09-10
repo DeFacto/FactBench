@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.015hxm>
+        rdfs:label     "Le Facteur"@fr , "The Postman"@en , "Postman"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Postman_(Roman)> , <http://fr.dbpedia.org/resource/Le_Facteur_(roman)> , <http://dbpedia.org/resource/The_Postman> ;
+        skos:altLabel  "The Postman"@fr , "The Postman"@de , "The Holnists"@fr , "The Holnists"@de , "Le facteur"@fr , "Le facteur (french title)"@en , "Le Facteur"@fr , "Postman"@en , "Postman"@fr , "Postman"@de , "Pine View, Oregon"@en , "Pine View, Oregon"@fr , "Pine View, Oregon"@de , "Nathan Holn"@en , "Nathan Holn"@fr , "Nathan Holn"@de , "The Holnists"@en , "The Postman"@en .
+
+<http://dbpedia.org/resource/Felipe_González__1>
+        dbo:from  "2005"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.015hxm> ;
+        dbo:to    "2005"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Felipe_González>
+        rdfs:label     "Felipe González"@en , "Felipe González"@fr , "Felipe González"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Felipe_González__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Felipe_González> , <http://de.dbpedia.org/resource/Felipe_González> ;
+        skos:altLabel  "Felipe Gonzalez Marquez"@fr , "Felipe Gonzalez Marquez"@de , "González"@fr , "Felipe González Márquez"@fr , "Felipe González Márquez"@de , "Gonzalez"@fr , "Felipe"@fr , "Felipe Gonzales"@fr , "Felipe Gonzalez"@fr , "Felipe Gonzalez"@de , "Felipe González"@fr , "Felipe González"@de .

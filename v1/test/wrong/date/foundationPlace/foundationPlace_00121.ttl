@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03m5r7g>
+        rdfs:label  "Angoss"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03m5r7g__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Angoss> .
+
+<http://rdf.freebase.com/ns/m.05kr_>
+        rdfs:label     "Ontario"@de , "Ontario"@fr , "Ontario"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Ontario> , <http://fr.dbpedia.org/resource/Ontario> , <http://de.dbpedia.org/resource/Ontario> ;
+        skos:altLabel  "Ontairo"@de , "Ontairo"@fr , "Ontairo"@en , "Canada Ontario"@de , "Canada Ontario"@fr , "Canada Ontario"@en , "Ontario"@fr , "Ontario"@en , "Ontario"@de , "Green Energy and Green Economy Act"@de , "Green Energy and Green Economy Act"@fr , "Green Energy and Green Economy Act"@en , "Ontario Canada"@de , "Ontario Canada"@fr , "Ontario Canada"@en , "Province D’ Ontario"@en , "Ontarian"@de , "Ontarian"@fr , "Ontarian"@en , "Ontariens anglais"@fr , "Ontario, Canada"@de , "Ontario, Canada"@fr , "Ontario, Canada"@en , "Ontarien anglophone"@fr , "Ontarien"@fr , "ON"@en , "Province Of Ontario"@en , "Ontarien anglais"@fr , "Ontariens"@fr , "Province of Ontario"@de , "Province of Ontario"@fr , "Province D' Ontario"@en , "Province of Ontario"@en , "CA-ON"@de , "CA-ON"@fr , "CA-ON"@en , "Ontarienne"@fr .
+
+<http://rdf.freebase.com/ns/m.03m5r7g__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.05kr_> ;
+        dbo:from             "1982"^^xsd:gYear ;
+        dbo:to               "1982"^^xsd:gYear .

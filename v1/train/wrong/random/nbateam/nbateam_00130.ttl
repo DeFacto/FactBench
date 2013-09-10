@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chris_Kaman>
+        rdfs:label     "Chris Kaman"@en , "Chris Kaman"@fr , "Chris Kaman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Kaman__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chris_Kaman> , <http://fr.dbpedia.org/resource/Chris_Kaman> ;
+        skos:altLabel  "Christopher Zane Kaman"@fr , "Chris Kaman"@de , "Christopher Zane Kaman"@de , "Kaman"@en , "Kaman"@de , "Kaman"@fr , "Christopher Kaman"@en , "Christopher Kaman"@fr , "Christopher Kaman"@de , "Chris Kaman"@en , "Christopher Zane Kaman"@en , "Chris Kaman"@fr .
+
+<http://dbpedia.org/resource/Chris_Kaman__1>
+        dbo:from      "2007"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.04ns2xh> ;
+        dbo:to        "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04ns2xh>
+        rdfs:label     "Billy Rovzar"@en , "Billy Rovzar"@fr ;
+        skos:altLabel  "Guillermo Fernando Rovzar Diez Barroso"@en , "Billy"@en , "Billy"@fr .

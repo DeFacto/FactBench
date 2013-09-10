@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03y82t6__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0hwfl> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03y82t6>
+        rdfs:label     "Katy Perry"@de , "Katy Perry"@fr , "Katy Perry"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03y82t6__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Katy_Perry> , <http://dbpedia.org/resource/Katy_Perry> , <http://de.dbpedia.org/resource/Katy_Perry> ;
+        skos:altLabel  "Katheryn Brand"@en , "Katy pery"@en , "Katy pery"@de , "Katy pery"@fr , "Katy perry"@en , "Katy perry"@de , "Katy perry"@fr , "Katheryn B. Hudson"@en , "Kathryn Elizabeth Hudson"@en , "Kathryn Elizabeth Hudson"@de , "Kathryn Elizabeth Hudson"@fr , "Katty Perry"@en , "Katty Perry"@de , "Katty Perry"@fr , "Katherine perry"@fr , "Katheryn Elizabeth Hudson"@en , "Katheryn Elizabeth Hudson"@de , "Katheryn Elizabeth Hudson"@fr , "Kathy Perry"@fr , "Ageega"@en , "Ageega"@de , "Ageega"@fr , "Keti Perri"@en , "Katy Perry"@en , "Katy Perrie"@en , "Katy Perry"@de , "Katy Perry"@fr , "Katy Perrie"@de , "Katy Perrie"@fr , "Katy Hudson"@en , "Katy Hudson"@de , "Katy Hudson"@fr , "Kathryn Hudson"@en , "Kathryn Hudson"@de , "Kathryn Hudson"@fr , "(A) Katy Perry"@en , "(A) Katy Perry"@de , "(A) Katy Perry"@fr , "Kate Perry"@en , "Kate Perry"@de , "Kate Perry"@fr , "Katherine Perry"@fr , "List of songs recorded by Katy Perry"@en , "List of songs recorded by Katy Perry"@de , "List of songs recorded by Katy Perry"@fr , "Perry"@fr , "Kety Perry"@en , "Katy Elizabeth Hudson"@de , "Katheryn Hudson"@en , "Katheryn Hudson"@de , "Katheryn Hudson"@fr , "Katie Perry"@fr , "Katie Perrie"@en , "Katie Perrie"@de , "Katie Perrie"@fr .
+
+<http://rdf.freebase.com/ns/m.0hwfl>
+        rdfs:label     "Anna Nicole Smith"@en , "Anna Nicole Smith"@de , "Anna Nicole Smith"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anna_Nicole_Smith> , <http://dbpedia.org/resource/Anna_Nicole_Smith> , <http://de.dbpedia.org/resource/Anna_Nicole_Smith> ;
+        skos:altLabel  "Nikki   Hart"@en , "Anna Nicole Smith"@fr , "Anna Nicole Smith"@de , "Vickie Hogan"@en , "Victoria Marshall"@en , "Vickie Hogan"@fr , "Smith"@fr , "Victoria Marshall"@fr , "Victoria Marshall"@de , "Vickie Hogan"@de , "Vicki Smith"@en , "Hogan"@fr , "Anna nichole"@en , "Anna nichole"@fr , "Anna nichole"@de , "Vickie Marshall"@en , "Vickie Marshall"@de , "Vickie Marshall"@fr , "Victoria Hogan"@en , "Victoria Hogan"@fr , "Victoria Hogan"@de , "Anna Nichole Smith"@en , "Anna Nichole Smith"@fr , "Anna Nichole Smith"@de , "Vickie Lynn Marshall"@en , "Vickie Lynn Marshall"@fr , "Vickie Lynn Marshall"@de , "Virgie Arthur"@en , "Virgie Arthur"@de , "Virgie Arthur"@fr , "Anna-Nicole Smith"@en , "Anna-Nicole Smith"@fr , "Anna-Nicole Smith"@de , "Vicki Lynn Hogan"@en , "Vicki Lynn Hogan"@fr , "Vicki Lynn Hogan"@de , "Anna Nicole-Smith"@en , "Anna Nicole-Smith"@fr , "Anna Nicole-Smith"@de , "Lynn Marshall"@en , "Lynn Marshall"@fr , "Lynn Marshall"@de , "Anne Nicole Smith"@en , "Anne Nicole Smith"@fr , "Anne Nicole Smith"@de , "Death of Anna Nicole Smith"@en , "Ana Nicole Smith"@en , "Vickie Lynn"@en , "Vickie Lynn"@de , "Vickie Lynn"@fr , "Death of Anna Nicole Smith"@fr , "Death of Anna Nicole Smith"@de , "Ana Nicole Smith"@de , "Ana Nicole Smith"@fr , "Vicky Marshall"@en , "Anna nicole Smith"@en , "Anna nicole Smith"@fr , "Anna nicole Smith"@de , "Anna-Nicole-Smith"@en , "Ana Nicole"@en , "Vicky Hogan"@en , "Vicky Marshall"@fr , "Anna-Nicole-Smith"@fr , "Ana Nicole"@fr , "Ana Nicole"@de , "Vicky Marshall"@de , "Vicky Hogan"@de , "Vicky Hogan"@fr , "Anna-Nicole-Smith"@de , "Dannielynn Hope Marshall Stern"@en , "Dannielynn Hope Marshall Stern"@fr , "Dannielynn Hope Marshall Stern"@de , "Vickie Lynn Hogan"@en , "Anna nicole smith"@en , "Vickie Lynn Hogan"@fr , "Anna nicole smith"@fr , "Anna nicole smith"@de , "Vickie Lynn Hogan"@de , "Vicky Lynn Hogan"@en , "Vicky Lynn Hogan"@de , "Vicky Lynn Hogan"@fr , "Anna Nicole"@en , "Vickie Smith"@en , "Vickie Smith"@fr , "Vickie Smith"@de , "G. Ben Thompson"@en , "Anna nichole smith"@en , "Anna nichole smith"@fr , "Anna nichole smith"@de , "G. Ben Thompson"@fr , "G. Ben Thompson"@de , "Anna Nicole Smith"@en .

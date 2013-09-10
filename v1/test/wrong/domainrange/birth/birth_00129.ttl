@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mitt_Romney>
+        rdfs:label     "Mitt Romney"@de , "Mitt Romney"@fr , "Mitt Romney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mitt_Romney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mitt_Romney> , <http://fr.dbpedia.org/resource/Mitt_Romney> ;
+        skos:altLabel  "Willard mitt romney"@de , "Willard mitt romney"@fr , "Willard mitt romney"@en , "Gov. Mitt Romney"@en , "Gov. Mitt Romney"@de , "Gov. Mitt Romney"@fr , "Willard"@en , "Willard"@de , "Willard"@fr , "Mitt romney"@en , "Mitt Rommey"@fr , "Mitt romney"@de , "Mitt romney"@fr , "Mitt Romney"@de , "Mitt Romney"@fr , "Mitt Romney"@en , "Willard Romney"@en , "Willard Romney"@de , "Willard Romney"@fr , "W. Mitt Romney"@en , "W. Mitt Romney"@de , "W. Mitt Romney"@fr , "Mitt Romny"@de , "Mitt Romny"@fr , "Mitt Romny"@en , "Romney"@en , "Romney"@de , "Romney"@fr , "W.M. Romney"@en , "W.M. Romney"@de , "W.M. Romney"@fr , "Mit Romney"@en , "Mit Romney"@de , "Mit Romney"@fr , "Willard Mitt Romney"@en , "Willard Mitt Romney"@de , "Willard Mitt Romney"@fr , "Willard M. Romney"@en , "Willard M. Romney"@de , "Willard M. Romney"@fr , "Governor Mitt Romney"@en , "Governor Mitt Romney"@de , "Governor Mitt Romney"@fr , "Willard Mitt"@en , "Willard Mitt"@de , "Willard Mitt"@fr , "Mitt"@en , "Mitt"@de , "Mitt"@fr .
+
+<http://dbpedia.org/resource/Mitt_Romney__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Liverpool> ;
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Liverpool>
+        rdfs:label     "Liverpool"@de , "Liverpool"@fr , "Liverpool"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Liverpool> , <http://fr.dbpedia.org/resource/Liverpool> ;
+        skos:altLabel  "Palthania"@en , "Palthania"@de , "Palthania"@fr , "Archive 1"@en , "Archive 1"@de , "Archive 1"@fr , "Liverpool, UK"@en , "Liverpool, UK"@de , "Liverpool, UK"@fr , "Liverpool, Britain"@en , "Liverpool, Britain"@de , "Liverpool, Britain"@fr , "Palfania"@en , "Palfania"@de , "Palfania"@fr , "Scouseland"@en , "Scouseland"@de , "Scouseland"@fr , "Palvania"@en , "Palvania"@fr , "Palvania"@de , "County Borough of Liverpool"@en , "County Borough of Liverpool"@de , "County Borough of Liverpool"@fr , "GB-LIV"@de , "Liverpool"@en , "Landmarks in Liverpool"@en , "Landmarks in Liverpool"@de , "Landmarks in Liverpool"@fr , "Liverpool"@de , "Liverpool"@fr , "Liverpool, England"@en , "Liverpool, England"@de , "Liverpool, England"@fr , "Liverpool, Merseyside"@en , "Liverpool, Merseyside"@fr , "Liverpool, Merseyside"@de , "Liverpool – Maritime Mercantile City"@en , "Liverpool – Maritime Mercantile City"@de , "Liverpool – Maritime Mercantile City"@fr , "Metropolitan Borough of Liverpool"@en , "Metropolitan Borough of Liverpool"@de , "Metropolitan Borough of Liverpool"@fr , "The weather in Liverpool"@en , "The weather in Liverpool"@fr , "The weather in Liverpool"@de , "Lerpwl"@en , "Lerpwl"@de , "Lerpwl"@fr , "Liverpudlians"@en , "Liverpudlians"@fr , "Liverpudlians"@de , "Liverpudlian"@en , "Liverpudlian"@de , "Liverpudlian"@fr , "L'POOL"@en , "L'POOL"@de , "L'POOL"@fr .

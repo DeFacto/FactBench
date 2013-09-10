@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Demi_Lovato>
+        rdfs:label     "Demi Lovato"@de , "Demi Lovato"@fr , "Demi Lovato"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Demi_Lovato> , <http://de.dbpedia.org/resource/Demi_Lovato> ;
+        skos:altLabel  "Moves Me"@en , "Moves Me"@fr , "Moves Me"@de , "Lovatic"@en , "Lovatic"@fr , "Lovatic"@de , "Demetria Devone Lovato"@en , "Demetria Devone Lovato"@fr , "Demetria Devone Lovato"@de , "Lovatics"@en , "Lovatics"@fr , "Lovatics"@de , "Lovato"@en , "Lovato"@fr , "Lovato"@de , "Demi"@en , "Demi"@fr , "Demi"@de , "Demi Lovato: Live: Walmart Soundcheck CD DVD"@en , "Demi Lovato: Live: Walmart Soundcheck CD DVD"@fr , "Demi Lovato: Live: Walmart Soundcheck CD DVD"@de , "A Special Night with Demi Lovato"@en , "A Special Night with Demi Lovato"@fr , "A Special Night with Demi Lovato"@de , "Demi Lowato"@en , "List of Demi Lovato songs"@en , "Dem Lovato"@en , "Dem Lovato"@de , "Dem Lovato"@fr , "Demi Lowato"@fr , "List of Demi Lovato songs"@fr , "List of Demi Lovato songs"@de , "Demi Lowato"@de , "Awards and Nominations of Demi Lovato"@en , "Awards and Nominations of Demi Lovato"@fr , "Awards and Nominations of Demi Lovato"@de , "List of songs by Demi Lovato"@en , "List of songs by Demi Lovato"@fr , "List of songs by Demi Lovato"@de , "Demetria Devonne Lovato"@en , "Live: Walmart Soundcheck"@en , "Demetria Devonne Lovato"@fr , "Live: Walmart Soundcheck"@fr , "Live: Walmart Soundcheck"@de , "Demetria Devonne Lovato"@de , "Demetria Devonne \"Demi\" Lovato"@en , "Demetria Devonne \"Demi\" Lovato"@de , "Demetria Devonne \"Demi\" Lovato"@fr , "Demı Lovato"@en , "Demı Lovato"@fr , "Demı Lovato"@de , "Demi Lovato: Live: Walmart Soundcheck"@en , "Demï Lovato"@en , "Demi Lovato: Live: Walmart Soundcheck"@fr , "Demi Lovato: Live: Walmart Soundcheck"@de , "Demï Lovato"@de , "Demï Lovato"@fr , "Demi Lavato"@en , "Demi lavoto"@en , "Demi Lavato"@fr , "Demi Lavato"@de , "Demi lavoto"@fr , "Demi lavoto"@de , "Demi Lovato"@en , "Demi Lovato"@fr , "Demi Lovato"@de , "Dem lovato"@en , "Dem lovato"@fr , "Dem lovato"@de , "Mirror(Demi Lovato Song)"@en , "Demy Lovato"@en , "Mirror(Demi Lovato Song)"@fr , "Demy Lovato"@fr , "Mirror(Demi Lovato Song)"@de , "Demy Lovato"@de , "DD Lovato"@en , "DD Lovato"@fr , "DD Lovato"@de , "Demi Lovatoes"@en , "Demi Lovatoes"@fr , "Demi Lovatoes"@de , "Demi Lavoto"@en , "Demi Lavoto"@fr , "Demi Lavoto"@de , "Mirror"@en , "Mirror"@fr , "Mirror"@de , "Demetria Lovato"@en , "Demetria Lovato"@fr , "Demetria Lovato"@de , "Demi lovato"@en , "DDLovato"@en , "Demi lovato"@fr , "Demi lovato"@de , "DDLovato"@fr , "DDLovato"@de , "Demi lavato"@en , "Demi lavato"@fr , "Demi lavato"@de .
+
+<http://dbpedia.org/resource/Ed_Wood_(film)>
+        rdfs:label     "Ed Wood (film)"@fr , "Ed Wood (film)"@de , "Ed Wood (film)"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ed_Wood_(film)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ed_Wood_(Film)> , <http://fr.dbpedia.org/resource/Ed_Wood_(film)> ;
+        skos:altLabel  "Ed wood"@fr , "Ed Wood"@en , "Ed Wood"@fr , "Ed Wood"@de .
+
+<http://dbpedia.org/resource/Ed_Wood_(film)__1>
+        dbo:from      "1994"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Demi_Lovato> ;
+        dbo:to        "1994"^^xsd:gYear .

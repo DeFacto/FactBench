@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01v8g___1>
+        dbo:author  <http://rdf.freebase.com/ns/m.045b5g> ;
+        dbo:from    "1994"^^xsd:gYear ;
+        dbo:to      "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.045b5g>
+        rdfs:label     "Schismatrice +"@fr , "Schismatrix"@en , "Schismatrix"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Schismatrix> , <http://dbpedia.org/resource/Schismatrix> , <http://fr.dbpedia.org/resource/Schismatrice_+> ;
+        skos:altLabel  "Schismatrix plus"@fr , "Schismatrix"@de , "Schismatrix"@en , "Schismatrix"@fr , "Schismatrice"@fr , "La Schismatrice"@fr , "La schismatrice"@fr .
+
+<http://rdf.freebase.com/ns/m.01v8g_>
+        rdfs:label     "Eric Flint"@en , "Eric Flint"@fr , "Eric Flint"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01v8g___1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eric_Flint> , <http://dbpedia.org/resource/Eric_Flint> , <http://fr.dbpedia.org/resource/Eric_Flint> ;
+        skos:altLabel  "Trail of Glory series"@en , "Trail of Glory series"@fr , "Trail of Glory series"@de , "Eric Flint"@en , "Eric Flint"@fr , "Eric Flint"@de , "Flint"@en , "Flint"@de , "Flint"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jacques_Santer__1>
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Luxembourg> ;
+        dbo:to      "1999"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Luxembourg>
+        rdfs:label     "Luxembourg"@de , "Luxembourg"@fr , "Luxembourg"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Luxemburg> , <http://fr.dbpedia.org/resource/Luxembourg_(pays)> ;
+        skos:altLabel  "Lexenburg"@en , "Grand-Duchy of Luxembourg"@en , "Letzeburg"@fr , "Grand-Duchy of Luxembourg"@de , "Grand-Duchy of Luxembourg"@fr , "Lexenburg"@fr , "Lexenburg"@de , "Luxembourgh"@en , "Grand Duché du Luxembourg"@fr , "Luxembourgh"@fr , "Luxembourgh"@de , "Luxemberg"@en , "Luxemberg"@fr , "Luxemberg"@de , "Groussherzogtum Lëtzebuerg"@en , "Grand-duché de Luxembourg"@fr , "Groussherzogtum Lëtzebuerg"@fr , "Groussherzogtum Lëtzebuerg"@de , "Luxembourg"@en , "Luxembourg"@fr , "Luxembourg"@de , "LUXEMBOURG"@en , "LUXEMBOURG"@fr , "LUXEMBOURG"@de , "Letzebuerg"@en , "Grossherzogtum Luxemburg"@en , "ISO 3166-1:LU"@en , "Grossherzogtum Luxemburg"@fr , "Grossherzogtum Luxemburg"@de , "Grand Duchy of Luxemburg"@en , "Health in Luxembourg"@en , "ISO 3166-1:LU"@fr , "ISO 3166-1:LU"@de , "Letzebuerg"@fr , "Grand Duchy of Luxemburg"@de , "Letzebuerg"@de , "Health in Luxembourg"@de , "Health in Luxembourg"@fr , "Grand Duchy of Luxemburg"@fr , "Grand-Duché du Luxembourg"@fr , "Country Luxembourg"@en , "Country Luxembourg"@fr , "Country Luxembourg"@de , "Grand-Duche de Luxembourg"@en , "Lëtzebuerg"@en , "Grand-Duche de Luxembourg"@fr , "Grand-Duche de Luxembourg"@de , "Lëtzebuerg"@fr , "Lëtzebuerg"@de , "Grand-duche du Luxembourg"@fr , "Groussherzogtum Letzebuerg"@en , "Groussherzogtum Letzebuerg"@de , "Groussherzogtum Letzebuerg"@fr , "Lëtzebürg"@fr , "Herzogtum Luxemburg"@de , "Luxemburg"@en , "Luxemburg"@fr , "Luxemburg"@de , "Luxemborg"@en , "Luxemborg"@fr , "Luxemborg"@de , "Großherzogtum Luxemburg"@en , "Großherzogtum Luxemburg"@fr , "Großherzogtum Luxemburg"@de , "Lexumbourg"@en , "Lexumbourg"@fr , "Lexumbourg"@de , "Grand-duche de Luxembourg"@fr , "Groussherzogdem Lëtzebuerg"@fr , "State of Luxembourg"@en , "State of Luxembourg"@fr , "State of Luxembourg"@de , "Grand-Duché de Luxembourg"@en , "Grand-Duché de Luxembourg"@fr , "Grand-Duché de Luxembourg"@de , "Lussemburgo"@en , "Lussemburgo"@fr , "Lussemburgo"@de , "LuxemburG"@en , "LuxemburG"@fr , "LuxemburG"@de , "Grand-duché du Luxembourg"@fr , "Luxemburger"@en , "Luxemburger"@fr , "Luxemburger"@de , "Grand Duchy of Luxembourg"@en , "Grand Duchy of Luxembourg"@fr , "Grand Duchy of Luxembourg"@de , "Grand-Duche du Luxembourg"@fr , "Grand Duche du Luxembourg"@fr , "Groussherzogdem Letzebuerg"@fr .
+
+<http://dbpedia.org/resource/Jacques_Santer>
+        rdfs:label     "Jacques Santer"@en , "Jacques Santer"@fr , "Jacques Santer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jacques_Santer__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jacques_Santer> , <http://de.dbpedia.org/resource/Jacques_Santer> ;
+        skos:altLabel  "Santer"@fr , "Jean Jacques Santer"@en , "Jean Jacques Santer"@fr , "Jean Jacques Santer"@de , "Jacques Santer"@en , "Jacques Santer"@fr , "Jacques Santer"@de , "Santer"@en , "Santer"@de .

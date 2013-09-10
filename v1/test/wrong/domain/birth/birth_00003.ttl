@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ella_Fitzgerald>
+        rdfs:label     "Ella Fitzgerald"@en , "Ella Fitzgerald"@fr , "Ella Fitzgerald"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ella_Fitzgerald__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ella_Fitzgerald> , <http://fr.dbpedia.org/resource/Ella_Fitzgerald> ;
+        skos:altLabel  "FitzGerald"@en , "FitzGerald"@fr , "FitzGerald"@de , "Ella"@en , "Ella"@fr , "Ella"@de , "Ella Jane Fitzgerald"@de , "Louis Armstrong"@en , "Louis Armstrong"@fr , "Louis Armstrong"@de , "Ella Fitzgerald"@en , "Ella Fitzgerald"@fr , "Ella Fitzgerald"@de .
+
+<http://dbpedia.org/resource/Gary,_Indiana>
+        rdfs:label     "Gary, Indiana"@fr , "Gary, Indiana"@en , "Gary, Indiana"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gary_(Indiana)> , <http://fr.dbpedia.org/resource/Gary_(Indiana)> ;
+        skos:altLabel  "Gary, Indiana"@de , "Gary, Indiana"@fr , "Gary, Indiana"@en , "Gary, Ind"@de , "Gary, Ind"@fr , "Gary, Ind"@en , "LOCODE:USGYY"@de , "LOCODE:USGYY"@fr , "LOCODE:USGYY"@en , "Gary"@de , "Gary"@fr , "Gary"@en , "Tourism in Gary, Indiana"@de , "Tourism in Gary, Indiana"@fr , "Tourism in Gary, Indiana"@en , "Gary-Hammond-East Chicago, IN MSA"@de , "Gary-Hammond-East Chicago, IN MSA"@fr , "Gary-Hammond-East Chicago, IN MSA"@en , "List of Libraries in Gary"@fr , "List of Libraries in Gary"@en , "List of Libraries in Gary"@de , "Gary, in"@de , "Gary, in"@fr , "Gary, in"@en , "Libraries of Gary, Indiana"@fr , "Libraries of Gary, Indiana"@en , "Libraries of Gary, Indiana"@de , "Gary, Ind."@de , "Gary, Ind."@fr , "Gary, Ind."@en , "Gary Public Library System"@de , "Gary Public Library System"@fr , "Gary Public Library System"@en , "Gary, IN"@de , "Gary, IN"@fr , "Gary, IN"@en .
+
+<http://dbpedia.org/resource/Ella_Fitzgerald__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Gary,_Indiana> ;
+        dbo:from        "1958"^^xsd:gYear ;
+        dbo:to          "1958"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/William_Ewart_Gladstone__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Edina,_Minnesota> ;
+        dbo:from        "1809"^^xsd:gYear ;
+        dbo:to          "1809"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Edina,_Minnesota>
+        rdfs:label     "Edina, Minnesota"@en , "Edina, Minnesota"@fr , "Edina, Minnesota"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edina> , <http://de.dbpedia.org/resource/Edina_(Minnesota)> ;
+        skos:altLabel  "Edina, mn"@en , "Edina, mn"@de , "Edina, mn"@fr , "Edina"@en , "Edina"@fr , "Edina"@de , "Edina, MN"@en , "Edina, MN"@fr , "Edina, MN"@de , "Our Lady of Grace"@en , "Our Lady of Grace"@fr , "Our Lady of Grace"@de , "Bredesen Park"@en , "Edina, Minnesota"@en , "Edina, Minnesota"@fr , "Edina, Minnesota"@de , "Bredesen Park"@fr , "Bredesen Park"@de .
+
+<http://dbpedia.org/resource/William_Ewart_Gladstone>
+        rdfs:label     "William Ewart Gladstone"@de , "William Ewart Gladstone"@fr , "William Ewart Gladstone"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_Ewart_Gladstone__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_Ewart_Gladstone> , <http://de.dbpedia.org/resource/William_Ewart_Gladstone> ;
+        skos:altLabel  "W E Gladstone"@de , "W E Gladstone"@fr , "W E Gladstone"@en , "Gladstone"@de , "Gladstone"@fr , "Gladstone"@en , "W.E. Gladstone"@de , "W.E. Gladstone"@fr , "W.E. Gladstone"@en , "William E Gladstone"@de , "William E Gladstone"@fr , "William E Gladstone"@en , "William Ewart Gladstone"@en , "William Ewart Gladstone"@de , "William Ewart Gladstone"@fr , "Ewart Gladstone"@de , "Ewart Gladstone"@fr , "Ewart Gladstone"@en , "Gladstone's"@de , "Gladstone's"@fr , "Gladstone's"@en , "WE Gladstone"@en , "WE Gladstone"@de , "WE Gladstone"@fr , "W. E. Gladstone"@de , "W. E. Gladstone"@fr , "W. E. Gladstone"@en , "Mr Gladstone"@de , "Mr Gladstone"@fr , "Mr Gladstone"@en , "William E. Gladstone"@de , "William E. Gladstone"@fr , "William E. Gladstone"@en , "Ewart"@en , "Ewart"@de , "Ewart"@fr , "William Gladstone"@de , "William Gladstone"@fr , "William Gladstone"@en .

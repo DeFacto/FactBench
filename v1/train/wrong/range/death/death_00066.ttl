@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Archer,_Florida>
+        rdfs:label     "Archer, Florida"@en , "Archer, Florida"@fr , "Archer, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Archer_(Florida)> ;
+        skos:altLabel  "Archer, FL"@en , "Archer, FL"@de , "Archer"@en , "Archer"@de , "Archer, Fl"@de , "Archer, Fl"@en , "Archer, Florida"@de , "Archer, Florida"@en .
+
+<http://dbpedia.org/resource/Jefferson_Davis__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Archer,_Florida> ;
+        dbo:from        "1889"^^xsd:gYear ;
+        dbo:to          "1889"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Jefferson_Davis>
+        rdfs:label     "Jefferson Davis"@de , "Jefferson Davis"@fr , "Jefferson Davis"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jefferson_Davis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jefferson_Davis> , <http://de.dbpedia.org/resource/Jefferson_Davis> ;
+        skos:altLabel  "Samuel Emory Davis"@de , "Samuel Emory Davis"@fr , "Samuel Emory Davis"@en , "Davis"@fr , "Jefferson"@de , "Jefferson"@fr , "Timeline of Jefferson Davis"@en , "Timeline of Jefferson Davis"@de , "Timeline of Jefferson Davis"@fr , "Jefferson Davies"@de , "Jefferson Davies"@fr , "Jefferson Davies"@en , "Jefferson Finis Davis"@en , "Jefferson Finis Davis"@de , "Jefferson Finis Davis"@fr , "Jefferson Davis Day"@de , "Jefferson Davis Day"@fr , "Jefferson Davis Day"@en , "Capture of Jefferson Davis"@de , "Capture of Jefferson Davis"@fr , "Capture of Jefferson Davis"@en , "Davis, Jefferson Finis"@de , "Davis, Jefferson Finis"@fr , "Davis, Jefferson Finis"@en , "Jefferson Davis"@de , "Jefferson Davis"@fr , "Finis"@de , "Finis"@fr , "Finis"@en , "Jefferson Davis"@en , "Jefferson F. Davis"@de , "Jefferson F. Davis"@fr , "Jefferson F. Davis"@en , "Timeline"@en , "Timeline"@de , "Timeline"@fr , "Davis, Jefferson"@de , "Davis, Jefferson"@fr , "Davis, Jefferson"@en .

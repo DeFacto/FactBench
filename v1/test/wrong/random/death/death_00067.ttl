@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hidden_Hills,_California>
+        rdfs:label     "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hidden_Hills> , <http://de.dbpedia.org/resource/Hidden_Hills> ;
+        skos:altLabel  "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de , "Hidden hills california"@en , "Hidden hills california"@fr , "Hidden hills california"@de , "Hidden Hills, CA"@en , "Hidden Hills, CA"@de , "Hidden Hills, CA"@fr , "Hidden Hills"@fr , "Hidden Hills"@de .
+
+<http://dbpedia.org/resource/James_Monroe>
+        rdfs:label     "James Monroe"@de , "James Monroe"@fr , "James Monroe"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/James_Monroe__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/James_Monroe> , <http://fr.dbpedia.org/resource/James_Monroe> ;
+        skos:altLabel  "Fifth President of the United States"@de , "Fifth President of the United States"@fr , "Fifth President of the United States"@en , "Monroe"@de , "Monroe"@fr , "Monroe"@en , "Second Inaugural Address"@de , "Second Inaugural Address"@fr , "Second Inaugural Address"@en , "President James Monroe"@de , "President James Monroe"@fr , "President James Monroe"@en , "First Inaugural Address"@de , "First Inaugural Address"@fr , "First Inaugural Address"@en , "President Monroe"@de , "President Monroe"@fr , "President Monroe"@en , "Presidency of James Monroe"@de , "Presidency of James Monroe"@fr , "Presidency of James Monroe"@en , "James monroe"@de , "James monroe"@fr , "James monroe"@en , "James Monroe"@de , "James Monroe"@fr , "James Monroe"@en , "Monroe Administration"@de , "Monroe Administration"@fr , "Monroe Administration"@en , "Monroe, James"@de , "Monroe, James"@fr , "Monroe, James"@en , "5th President of the United States"@de , "5th President of the United States"@fr , "5th President of the United States"@en .
+
+<http://dbpedia.org/resource/James_Monroe__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hidden_Hills,_California> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .

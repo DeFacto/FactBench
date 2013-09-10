@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mary_Pickford__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Miami> ;
+        dbo:from        "1981"^^xsd:gYear ;
+        dbo:to          "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Miami>
+        rdfs:label     "Miami"@de , "Miami"@fr , "Miami"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Miami> , <http://de.dbpedia.org/resource/Miami> ;
+        skos:altLabel  "Miami, Florida"@de , "Miami, Florida"@fr , "Miami, Florida"@en , "Miami, FL"@en , "Miami, FL"@de , "Miami, FL"@fr , "Miami, Fla."@de , "Miami, Fla."@fr , "Miami, Fla."@en , "Miami, USA"@de , "Miami, USA"@fr , "Miami, USA"@en , "Miami, fl"@de , "Miami, fl"@fr , "Miami, fl"@en , "City of Miami, Florida"@en , "Miami FL"@de , "City of Miami, Florida"@de , "City of Miami, Florida"@fr , "Miami FL"@fr , "Miami FL"@en , "Miami, Fl"@de , "Miami, Fl"@fr , "Miami, Fl"@en , "Miami Florida"@en , "Miami Florida"@de , "Miami Florida"@fr , "Miami"@de , "Miami"@fr , "Miami"@en , "Miami florida"@de , "Miami florida"@fr , "Miami florida"@en , "The weather in Miami"@de , "The weather in Miami"@fr , "The weather in Miami"@en , "LOCODE:USMIA"@de , "LOCODE:USMIA"@fr , "LOCODE:USMIA"@en .
+
+<http://dbpedia.org/resource/Mary_Pickford>
+        rdfs:label     "Mary Pickford"@en , "Mary Pickford"@fr , "Mary Pickford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mary_Pickford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mary_Pickford> , <http://fr.dbpedia.org/resource/Mary_Pickford> ;
+        skos:altLabel  "Mary Gladys Louise Smith"@en , "Mary Pickford"@en , "MaryPickford"@en , "Dorothy Nicholson"@fr , "Mary Gladys Louise Smith"@fr , "MaryPickford"@de , "MaryPickford"@fr , "Mary Pickford"@fr , "Mary Pickford"@de , "Mary Gladys Louise Smith"@de , "Pickford"@en , "Pickford"@fr , "Pickford"@de .

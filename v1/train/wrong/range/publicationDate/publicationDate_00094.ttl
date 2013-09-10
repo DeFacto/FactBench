@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.075m35__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.018tps> ;
+        dbo:from    "1986"^^xsd:gYear ;
+        dbo:to      "1986"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018tps>
+        rdfs:label     "Contact"@en , "Contact"@fr , "Contact"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Contact_(novel)> , <http://fr.dbpedia.org/resource/Contact_(roman)> , <http://de.dbpedia.org/resource/Contact_(Roman)> ;
+        skos:altLabel  "Contact"@de , "Contact"@fr , "Contact (novel),"@fr , "Contact (novel),"@de , "Ellie Arroway"@fr , "Ellie Arroway"@de , "Contact: A Novel"@fr , "Contact: A Novel"@de , "Ellie"@fr , "Ellie"@de .
+
+<http://rdf.freebase.com/ns/m.075m35>
+        rdfs:label     "Joan Slonczewski"@en , "Joan Slonczewski"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.075m35__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Joan_Slonczewski> , <http://de.dbpedia.org/resource/Joan_Slonczewski> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Slonczewski"@de , "Joan L. Slonczewski"@de , "Joan Slonczewski"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.043ns__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Jeff_Goldblum> ;
+        dbo:from        "1983"^^xsd:gYear ;
+        dbo:to          "1983"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Jeff_Goldblum>
+        rdfs:label     "Jeff Goldblum"@en , "Jeff Goldblum"@fr , "Jeff Goldblum"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jeff_Goldblum> , <http://fr.dbpedia.org/resource/Jeff_Goldblum> ;
+        skos:altLabel  "Goldblum"@en , "Goldblum"@fr , "Goldblum"@de , "Jeff Goldblum"@en , "Jeff Goldblum"@fr , "Jeff Goldblum"@de , "Steve Goldblum"@en , "Jeffrey Lynn Goldblum"@en , "Steve Goldblum"@fr , "Jeffrey Lynn Goldblum"@de , "Jeffrey Lynn Goldblum"@fr , "Steve Goldblum"@de , "Jeffrey Lynn \"Jeff\" Goldblum"@en , "Jeff Goldblume"@en , "Jeffrey Lynn \"Jeff\" Goldblum"@fr , "Jeffrey Lynn \"Jeff\" Goldblum"@de , "Jeff Goldblume"@fr , "Jeff Goldblume"@de .
+
+<http://rdf.freebase.com/ns/m.043ns>
+        rdfs:label     "John Brunner"@en , "John Brunner"@fr , "John Brunner"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.043ns__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Brunner> , <http://de.dbpedia.org/resource/John_Brunner> , <http://dbpedia.org/resource/John_Brunner_(novelist)> ;
+        skos:altLabel  "John Brunner"@de , "John Brunner"@fr , "Gill Hunt"@en , "Keith Woodcott"@en , "Brunner"@en , "Brunner"@fr , "Brunner"@de , "John Kilian Houston Brunner"@en , "A. P. H*rb*rt"@en , "John Loxmith"@en , "Kilian Houston Brunner"@en , "K. Houston Brunner"@en , "Trevor Staines"@en , "John Brunner"@en .

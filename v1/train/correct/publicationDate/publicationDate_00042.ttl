@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0f45wj>
+        rdfs:label  "Worldwar: Upsetting the Balance"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Worldwar:_Upsetting_the_Balance> .
+
+<http://dbpedia.org/resource/Worldwar:_Upsetting_the_Balance>
+        skos:altLabel  "Worldwar: Upsetting the Balance"@en .
+
+<http://rdf.freebase.com/ns/m.0f45wj__42>
+        dbo:author  <http://rdf.freebase.com/ns/m.0f45wj> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0b0pf>
+        rdfs:label       "Harry Turtledove"@fr , "Harry Turtledove"@de , "Harry Turtledove"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0f45wj__42> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Harry_Turtledove> , <http://dbpedia.org/resource/Harry_Turtledove> , <http://de.dbpedia.org/resource/Harry_Turtledove> ;
+        skos:altLabel    "H.N. Turtlebaub"@fr , "H.N. Turtlebaub"@en , "H.N. Turtlebaub"@de , "Mark Gordion"@en , "Harry Norman Turtledove"@en , "Harry Norman Turtledove"@de , "Harry Norman Turtledove"@fr , "HN Turtletaub"@fr , "HN Turtletaub"@en , "HN Turtletaub"@de , "Turtledove"@fr , "Turtledove"@en , "Turtledove"@de , "Eric G. Iverson"@fr , "Eric G. Iverson"@en , "Eric G. Iverson"@de , "Eric Iverson"@fr , "Eric Iverson"@en , "Eric Iverson"@de , "Harry Turtledove"@fr , "Harry Turtledove"@en , "Harry Turtledove"@de , "Mark Gordian"@fr , "Mark Gordian"@en , "Mark Gordian"@de , "Harry turtledove"@fr , "Harry turtledove"@en , "Harry turtledove"@de , "The United States of Atlantis"@fr , "The United States of Atlantis"@en , "The United States of Atlantis"@de , "Opening Atlantis"@fr , "H. N. Turteltaub"@fr , "Opening Atlantis"@en , "Opening Atlantis"@de , "H. N. Turteltaub"@en , "H. N. Turteltaub"@de , "Dan Chernenko"@fr , "Dan Chernenko"@en , "Dan Chernenko"@de , "H.N. Turteltaub"@fr , "H.N. Turteltaub"@en , "H.N. Turteltaub"@de .

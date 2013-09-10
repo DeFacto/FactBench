@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01ksr1__112>
+        dbo:from    "2006-08"^^xsd:gYearMonth ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.07jznv> ;
+        dbo:to      "2010-02"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.07jznv>
+        rdfs:label     "Abbie Cornish"@fr , "Abbie Cornish"@en , "Abbie Cornish"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Abbie_Cornish> , <http://de.dbpedia.org/resource/Abbie_Cornish> , <http://dbpedia.org/resource/Abbie_Cornish> ;
+        skos:altLabel  "Abblie Cornish"@en , "Abby Cornish"@fr , "Abby Cornish"@de , "Abbigale Cornish"@en , "Abbie Cornish"@fr , "Abbie Cornish"@de , "Cornish"@fr , "Cornish"@de .
+
+<http://rdf.freebase.com/ns/m.01ksr1>
+        rdfs:label     "Ryan Phillippe"@en , "Ryan Phillippe"@de , "Ryan Phillippe"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.01ksr1__112> ;
+        owl:sameAs     <http://dbpedia.org/resource/Ryan_Phillippe> , <http://fr.dbpedia.org/resource/Ryan_Phillippe> , <http://de.dbpedia.org/resource/Ryan_Phillippe> ;
+        skos:altLabel  "Ryan Phillipe"@fr , "Ryan Phillipe"@de , "Ryan Phillipe"@en , "Matthew Ryan Phillippe"@fr , "Matthew Ryan Phillippe"@de , "Matthew Ryan Phillippe"@en , "Phillippe"@fr , "Phillippe"@de , "Phillippe"@en , "Ryan Phillippe"@fr , "Ryan Phillippe"@de , "Ryan Phillippe"@en , "Matthew Phillippe"@de , "Ryan Philippe"@fr , "Ryan Philippe"@de , "Ryan Philippe"@en .

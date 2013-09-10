@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01dhmw>
+        rdfs:label     "Joe Haldeman"@en , "Joe Haldeman"@fr , "Joe Haldeman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01dhmw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Joe_Haldeman> , <http://fr.dbpedia.org/resource/Joe_Haldeman> , <http://dbpedia.org/resource/Joe_Haldeman> ;
+        skos:altLabel  "Attar the Merman"@en , "Attar the Merman"@de , "Attar the Merman"@fr , "Joe W. Haldeman"@en , "Haldeman"@en , "Joe Haldeman"@en , "Haldeman"@fr , "Joe Haldeman"@fr , "Haldeman"@de , "Joe Haldeman"@de , "Joe William Haldeman"@en , "Joseph William Haldeman"@en , "Joe Haldemann"@en , "Robert Graham"@en , "Joe Haldemann"@fr , "Joe Haldemann"@de , "Joseph Haldeman"@en .
+
+<http://rdf.freebase.com/ns/m.03g499>
+        rdfs:label     "Wasp"@en , "Der Stich der Wespe"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Wasp_(novel)> , <http://de.dbpedia.org/resource/Der_Stich_der_Wespe> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Wasp"@de , "The Wasp"@de , "Dirac Angestun Gesept"@de , "Dirac angestun gesept"@de , "Der Stich der Wespe"@de .
+
+<http://rdf.freebase.com/ns/m.01dhmw__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03g499> ;
+        dbo:from    "1974"^^xsd:gYear ;
+        dbo:to      "1974"^^xsd:gYear .

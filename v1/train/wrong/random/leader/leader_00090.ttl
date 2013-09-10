@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04dhbf__1>
+        dbo:from  "2000"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.010r6f> ;
+        dbo:to    "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04dhbf>
+        rdfs:label     "Saul Williams"@en , "Saul Williams"@fr , "Saul Williams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04dhbf__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Saul_Williams> , <http://de.dbpedia.org/resource/Saul_Williams> , <http://fr.dbpedia.org/resource/Saul_Williams> ;
+        skos:altLabel  "Williams"@fr , "Saul williams"@en , "Saul Stacey Williams"@en , "Saul williams"@fr , "Saul williams"@de , "Saul"@en , "Saul"@fr , "Saul"@de , "Saul Williams"@en , "Saul Williams"@de , "Saul Williams"@fr , "Saül Williams"@fr .
+
+<http://rdf.freebase.com/ns/m.010r6f>
+        rdfs:label     "Bellevue"@fr , "Bellevue"@en , "Bellevue"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bellevue_(Washington)> , <http://dbpedia.org/resource/Bellevue,_Washington> , <http://fr.dbpedia.org/resource/Bellevue_(Washington)> ;
+        skos:altLabel  "Bellevue, WA"@en , "Bellevue, WA"@fr , "Bellevue, WA"@de , "King County / Bellevue city"@en , "Crossroads"@de , "Crossroads"@fr , "Crossroads"@en , "Bellevue washington"@fr , "Bellevue washington"@en , "Bellevue washington"@de , "Bellevue wa"@de , "Bellevue wa"@fr , "Bellevue wa"@en , "LOCODE:USBVE"@en , "LOCODE:USBVE"@de , "LOCODE:USBVE"@fr , "Bellevue"@en , "Bellevue"@de , "Bellevue"@fr , "Bellevue WA"@en , "Bellevue WA"@de , "Bellevue WA"@fr , "West Lake Sammamish"@en , "West Lake Sammamish"@de , "West Lake Sammamish"@fr , "Bellevue, Wa"@fr , "Bellevue, Wa"@en , "Bellevue, Wa"@de , "Bellevue, wa"@en , "Bellevue, wa"@de , "Bellevue, wa"@fr , "Taymar Heliport"@fr , "Bellevue, Washington"@de , "Bellevue, Washington"@fr , "Bellevue, Washington"@en , "Bellview, WA"@en , "Bellview, WA"@de , "Bellview, WA"@fr , "Taymar"@fr , "Crossroads, Bellevue, Washington"@de , "Crossroads, Bellevue, Washington"@fr , "Crossroads, Bellevue, Washington"@en , "West Lake Sammamish, WA"@de , "West Lake Sammamish, WA"@fr , "West Lake Sammamish, WA"@en .

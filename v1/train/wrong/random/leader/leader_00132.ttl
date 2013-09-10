@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ahmed_Ouyahia>
+        rdfs:label     "Ahmed Ouyahia"@en , "Ahmed Ouyahia"@fr , "Ahmed Ouyahia"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ahmed_Ouyahia__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ahmed_Ouyahia> , <http://de.dbpedia.org/resource/Ahmed_Ouyahia> ;
+        skos:altLabel  "Ouyahia"@fr , "Ouyahia"@de , "Ahmed Ouyahia"@fr , "Ahmed Ouyahia"@de , "Ahmed Ouyahia"@en , "Ahmed"@fr .
+
+<http://dbpedia.org/resource/Ahmed_Ouyahia__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0_707> ;
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:to      "2000"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0_707>
+        rdfs:label     "Lansdale"@en , "Lansdale"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Lansdale,_Pennsylvania> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Lansdale> ;
+        skos:altLabel  "Lansdale"@en , "Lansdale, Pennsylvania"@en , "Lansdale, Pennsylvania"@fr , "Montgomery County / Lansdale borough"@en , "Lansdale, PA"@en , "Lansdale, PA"@fr , "LOCODE:USLSD"@en , "LOCODE:USLSD"@fr , "Lansdale"@fr .

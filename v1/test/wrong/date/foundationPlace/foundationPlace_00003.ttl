@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.016pgj__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0l39b> ;
+        dbo:from             "1974"^^xsd:gYear ;
+        dbo:to               "1974"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0l39b>
+        rdfs:label     "Provo"@de , "Provo"@en , "Provo"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Provo,_Utah> , <http://fr.dbpedia.org/resource/Provo_(Utah)> , <http://de.dbpedia.org/resource/Provo> ;
+        skos:altLabel  "Provo Utah"@de , "LOCODE:USPVU"@en , "LOCODE:USPVU"@fr , "LOCODE:USPVU"@de , "Utah County / Provo city"@en , "Provo, UT"@en , "Provo, UT"@fr , "Provo, UT"@de , "Provo"@en , "Provo"@fr , "Provo"@de , "Provo, Utah"@en , "Provo, Utah"@fr , "Provo, Utah"@de , "Provo, Ut"@en , "Provo, Ut"@de , "Provo, Ut"@fr , "Provo Utah"@en , "Provo Utah"@fr .
+
+<http://rdf.freebase.com/ns/m.016pgj>
+        rdfs:label     "Novell"@en , "Novell"@fr , "Novell"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.016pgj__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Novell> , <http://fr.dbpedia.org/resource/Novell> , <http://dbpedia.org/resource/Novell> ;
+        skos:altLabel  "Novell Press"@en , "Novell Press"@fr , "Novell Press"@de , "SilverStream Software"@en , "Novell Inc."@en , "Microsoft-Novell agreement"@en , "SilverStream Software"@fr , "Novell Inc."@fr , "SilverStream Software"@de , "Novell Inc."@de , "Microsoft-Novell agreement"@fr , "Microsoft-Novell agreement"@de , "NOVL"@en , "Novel"@en , "NOVL"@fr , "Novel"@fr , "NOVL"@de , "Novel"@de , "Novell"@en , "Novell, Inc."@en , "Novell"@fr , "Novell, Inc."@fr , "Novell"@de , "Novell, Inc."@de , "Inc. Novell"@en , "Inc. Novell"@fr , "Inc. Novell"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kill_Bill>
+        rdfs:label     "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kill_Bill__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kill_Bill> , <http://fr.dbpedia.org/resource/Kill_Bill> ;
+        skos:altLabel  "Kill Bill 2"@fr , "Kill Bill : Volume 2"@fr , "Kill Bill, volume 1"@fr , "Kill Bill"@en , "Kill Bill"@fr , "Kill Bill"@de , "Kill Bill: Volume 3"@en , "Kill Bill: Volume 3"@fr , "Kill Bill: Volume 3"@de , "Kill Bill: Vol. 1"@fr , "Bill"@fr , "Kill Bill: Vol. 2"@fr , "Kill"@fr , "Tuer Bill"@fr , "Kill bill"@en , "Kill bill"@fr , "Kill bill"@de , "Kill Bill Vol 2"@fr , "Kill Bill : volume 1"@fr .
+
+<http://dbpedia.org/resource/John_Lennon>
+        rdfs:label     "John Lennon"@de , "John Lennon"@fr , "John Lennon"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Lennon> , <http://de.dbpedia.org/resource/John_Lennon> ;
+        skos:altLabel  "Honorary John St. John Johnson"@de , "John"@fr , "Rev Fred Ghurkin"@de , "Beatle John"@en , "Beatle John"@fr , "Beatle John"@de , "John lennon"@en , "John lennon"@fr , "John lennon"@de , "John Winston Ono Lennon, MBE"@en , "John Lennon Statement Controversial"@en , "John Lennon Statement Controversial"@fr , "John Lennon Statement Controversial"@de , "John Winston Ono Lennon, MBE"@fr , "John Winston Ono Lennon, MBE"@de , "Lenon"@fr , "Dr. Winston O'Boogie"@en , "Dr. Winston O'Boogie"@fr , "Dr. Winston O'Boogie"@de , "Joel Nohnn"@de , "Dr. Dream"@de , "Dr. Winston O'Ghurkin"@de , "Bedpeace"@de , "Dr. Winston Booker Table & the Maitre Ds"@de , "John W. O. Lennon"@en , "John W. O. Lennon"@fr , "John W. O. Lennon"@de , "Lennon"@en , "Lennon"@fr , "Lennon"@de , "Bed-In"@de , "Winston Leg-Thigh"@en , "Musketeer Gripweed"@de , "John O'Cean"@de , "Winston Leg-Thigh"@fr , "Winston Leg-Thigh"@de , "Captain Kundalini"@de , "Lennon john"@en , "John Winston Lennon"@en , "John Winston Lennon"@fr , "John Winston Lennon"@de , "Lennon john"@fr , "Lennon john"@de , "John Winston Ono Lennon"@en , "JohnLennon"@en , "John Winston Ono Lennon"@fr , "JohnLennon"@fr , "JohnLennon"@de , "John Winston Ono Lennon"@de , "John W. Lennon"@en , "John W. Lennon"@fr , "John W. Lennon"@de , "9 Newcastle Road"@en , "9 Newcastle Road"@fr , "9 Newcastle Road"@de , "John Ono Lennon"@en , "John Ono Lennon"@fr , "John Ono Lennon"@de , "Jack Lennon"@en , "Jack Lennon"@fr , "Jack Lennon"@de , "Lennon, John"@en , "John Lennon"@en , "God Save Oz"@en , "John Lennon"@fr , "God Save Oz"@fr , "God Save Oz"@de , "John Lennon"@de , "Lennon, John"@fr , "Lennon, John"@de , "Mel Torment"@de , "Dr. Winston O'Boogie and Los Paranois"@de , "John and Yoko"@en , "John and Yoko"@fr , "John and Yoko"@de , "Dr. Winston O'Reggae"@de , "Dr. Winston Booker Table & the Maître Ds"@de , "Dwarf McDougal"@de , "Bed in"@de , "John Lenon"@en , "John Lenon"@fr , "John Lenon"@de , "Dr Winston O'Boogie"@en , "Dr Winston O'Boogie"@fr , "Dr Winston O'Boogie"@de .
+
+<http://dbpedia.org/resource/Kill_Bill__1>
+        dbo:from      "1964"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/John_Lennon> ;
+        dbo:to        "1964"^^xsd:gYear .

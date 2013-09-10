@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0lcx>
+        rdfs:label     "Albert Camus"@de , "Albert Camus"@fr , "Albert Camus"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0lcx__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Albert_Camus> , <http://dbpedia.org/resource/Albert_Camus> , <http://fr.dbpedia.org/resource/Albert_Camus> ;
+        skos:altLabel  "Albert Camee"@fr , "Alber Cami"@en , "Alber Cami"@de , "Alber Cami"@fr , "Albert Camus: The Absurd Hero"@de , "Albert Camus: The Absurd Hero"@fr , "Albert Camus: The Absurd Hero"@en , "Camus"@en , "Camus"@de , "Camus"@fr , "Albert Cammi"@en , "Albert Cammi"@de , "Albert Cammi"@fr , "Cycle de la revolte"@fr , "Alber Cammy"@en , "Alber Cammy"@de , "Alber Cammy"@fr , "Cycle de la révolte"@fr , "Alber Camee"@en , "Alber Camee"@de , "Alber Camee"@fr , "Alber Cammi"@en , "Alber Cammi"@de , "Alber Cammi"@fr , "Albert Camus"@en , "Albert Camus"@de , "Albert Camus"@fr , "Blood of the Hungarians by Albert Camus"@en , "Blood of the Hungarians by Albert Camus"@de , "Blood of the Hungarians by Albert Camus"@fr , "Albert Cammy"@en , "Albert Cammy"@de , "Albert Cammy"@fr , "Absurd hero"@en , "Albert Cami"@en , "Albert Cami"@de , "Absurd hero"@de , "Absurd hero"@fr , "Albert Cami"@fr , "Albert"@fr , "The blood of the hungarians"@en , "The blood of the hungarians"@de , "The blood of the hungarians"@fr , "The Blood of the Hungarians"@en , "The Blood of the Hungarians"@de , "The Blood of the Hungarians"@fr , "Albert Camee"@en , "the Absurd"@en , "Albert Camee"@de , "the Absurd"@de , "the Absurd"@fr .
+
+<http://dbpedia.org/resource/Denver_Nuggets>
+        rdfs:label     "Denver Nuggets"@fr , "Denver Nuggets"@de , "Denver Nuggets"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Denver_Nuggets> , <http://fr.dbpedia.org/resource/Nuggets_de_Denver> ;
+        skos:altLabel  "Colorado nuggets"@en , "Colorado nuggets"@fr , "Colorado nuggets"@de , "Denver nuggets"@en , "Nuggets"@en , "Denver nuggets"@fr , "Denver nuggets"@de , "Nuggets"@fr , "Nuggets"@de , "Jonathon Herrera"@en , "Denver Rockets"@en , "Jonathon Herrera"@fr , "Denver Rockets"@fr , "Denver Rockets"@de , "Jonathon Herrera"@de , "Nuggets de Denver"@fr , "Rockets de Denver"@fr , "Denver nuggetts"@en , "Denver nuggetts"@fr , "Denver nuggetts"@de , "Denver"@de , "Denver Nuggets"@en , "Denver Nuggets"@fr , "Denver Nuggets"@de , "Denver Larks"@en , "Denver Larks"@fr , "Denver Larks"@de , "Nuggets de denver"@fr .
+
+<http://rdf.freebase.com/ns/m.0lcx__1>
+        dbo:author  <http://dbpedia.org/resource/Denver_Nuggets> ;
+        dbo:from    "1969"^^xsd:gYear ;
+        dbo:to      "1969"^^xsd:gYear .

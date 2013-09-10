@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Douglas_Adams>
+        rdfs:label     "Douglas Adams"@de , "Douglas Adams"@fr , "Douglas Adams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Douglas_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Douglas_Adams> , <http://fr.dbpedia.org/resource/Douglas_Adams> ;
+        skos:altLabel  "Adams"@fr , "Adams, Douglas Noel"@de , "Adams, Douglas Noel"@fr , "Adams, Douglas Noel"@en , "Douglas Adams"@de , "Douglas Adams"@fr , "Douglas Adams"@en , "Douglas Adams Biography"@de , "Douglas Adams Biography"@fr , "Douglas Adams Biography"@en , "Adams, Douglas Noël"@de , "Adams, Douglas Noël"@fr , "Adams, Douglas Noël"@en , "Jane Belson"@de , "Jane Belson"@fr , "Jane Belson"@en , "Douglas Noël Adams"@en , "Douglas Noël Adams"@de , "Douglas Noël Adams"@fr , "Douglass adams"@de , "Douglass adams"@fr , "Douglass adams"@en , "Douglas adams"@de , "Douglas adams"@fr , "Douglas adams"@en , "Adams, Douglas"@de , "Adams, Douglas"@fr , "Adams, Douglas"@en , "Dirk Gently"@de , "Douglas Noel Adams"@en , "Douglas Noel Adams"@de , "Douglas Noel Adams"@fr , "Douglas"@fr , "Bop Ad"@de , "Bop Ad"@fr , "Bop Ad"@en , "Douglas Adams bibliography"@en , "Douglas Adams bibliography"@de , "Douglas Adams bibliography"@fr .
+
+<http://dbpedia.org/resource/Douglas_Adams__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:from        "1996"^^xsd:gYear ;
+        dbo:to          "1996"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .

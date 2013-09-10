@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03c1446>
+        rdfs:label  "Jamie Yeo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jamie_Yeo> .
+
+<http://dbpedia.org/resource/Chet_Atkins__1>
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03c1446> ;
+        dbo:to          "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chet_Atkins>
+        rdfs:label     "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chet_Atkins__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chet_Atkins> , <http://fr.dbpedia.org/resource/Chet_Atkins> ;
+        skos:altLabel  "Chester Burton Atkins"@fr , "Chester Burton Atkins"@de , "Atkins"@fr , "Atkins"@de , "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de , "Chester B. Atkins"@en , "Chester B. Atkins"@fr , "Chester B. Atkins"@de , "Chet atkins"@fr , "Mr. Guitar"@en , "Mr. Guitar"@fr , "Mr. Guitar"@de , "Chester Atkins"@en , "Chester Atkins"@fr , "Chester Atkins"@de , "Chester Burton Atkins"@en .

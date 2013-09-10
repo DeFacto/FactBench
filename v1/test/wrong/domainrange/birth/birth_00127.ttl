@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yokohama>
+        rdfs:label     "Yokohama"@en , "Yokohama"@fr , "Yokohama"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Yokohama> , <http://de.dbpedia.org/resource/Yokohama> ;
+        skos:altLabel  "Tsurumi-ku, Kanagawa"@en , "Tsurumi-ku, Kanagawa"@fr , "Tsurumi-ku, Kanagawa"@de , "Yokohama City"@en , "Yokohama City"@fr , "Yokohama City"@de , "History of Yokohama"@en , "Jokohama"@de , "History of Yokohama"@fr , "History of Yokohama"@de , "Yokohama, Kanagawa"@en , "Yokohama, Kanagawa"@fr , "Ramen-Museum"@de , "Yokohama, Kanagawa"@de , "Yokohama"@en , "Yokohama"@fr , "Yokohama"@de , "History of Yokohama, Japan"@en , "History of Yokohama, Japan"@fr , "History of Yokohama, Japan"@de , "Yokohama, Japan"@en , "Yokohama, Japan"@fr , "Yokohama, Japan"@de , "Yokohama Bay"@en , "Yokohama Bay"@fr , "Yokohama Bay"@de .
+
+<http://dbpedia.org/resource/John_Wayne__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Yokohama> ;
+        dbo:from        "1973"^^xsd:gYear ;
+        dbo:to          "1973"^^xsd:gYear .
+
+<http://dbpedia.org/resource/John_Wayne>
+        rdfs:label     "John Wayne"@en , "John Wayne"@fr , "John Wayne"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Wayne__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Wayne> , <http://fr.dbpedia.org/resource/John_Wayne> ;
+        skos:altLabel  "John"@fr , "Marion Robert Morrison"@en , "List of John Wayne films"@en , "Marion Robert Morrison"@fr , "List of John Wayne films"@fr , "Marion Robert Morrison"@de , "List of John Wayne films"@de , "List of John Wayne Films"@en , "List of John Wayne Films"@fr , "List of John Wayne Films"@de , "Marion Michael Morrison"@en , "Marion Morrison"@en , "Marion Michael Morrison"@fr , "Marion Michael Morrison"@de , "Marion Morrison"@fr , "Marion Morrison"@de , "Wayne"@en , "Wayne"@fr , "Wayne"@de , "Morrison"@fr , "John Wayne filmography"@en , "John Wayne filmography"@fr , "John Wayne filmography"@de , "John Wayne"@en , "John Wayne"@fr , "John Wayne"@de , "John wayne"@en , "John wayne"@fr , "John wayne"@de .

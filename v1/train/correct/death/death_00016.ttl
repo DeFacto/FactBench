@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Las_Vegas>
+        rdfs:label     "Las Vegas"@en , "Las Vegas"@fr , "Las Vegas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Las_Vegas> , <http://fr.dbpedia.org/resource/Las_Vegas> ;
+        skos:altLabel  "Las Vegas City Council"@fr , "Las Vegas City Council"@en , "Las Vegas, Nevada"@fr , "The City of Las Vegas"@fr , "Vegas"@fr , "Las Vegas, Nevada"@en , "Las Vegas"@fr , "Las Vegas"@de , "The City of Las Vegas"@en , "Las Vegas"@en , "Vegas"@de , "Vegas"@en , "Las vegas, nv"@fr , "Las vegas, nv"@en , "Los Vegas"@fr , "Los Vegas"@en , "Las vagas"@fr , "Las vagas"@en , "Las vegas"@fr , "Las vegas"@en , "LOCODE:USLAS"@fr , "LasVegas"@fr , "LasVegas"@en , "LOCODE:USLAS"@en , "Las Vegas NV"@fr , "Las Vegas NV"@en , "Citizens Area Transit"@de , "Wedding chapel"@de .
+
+<http://dbpedia.org/resource/Tupac_Shakur>
+        rdfs:label     "Tupac Shakur"@en , "Tupac Shakur"@de , "Tupac Shakur"@fr ;
+        dbo:death      <http://dbpedia.org/resource/Tupac_Shakur__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tupac_Shakur> , <http://de.dbpedia.org/resource/Tupac_Shakur> ;
+        skos:altLabel  "Tu Pac"@fr , "Shakur"@fr , "Tupac Shakur Tattoos"@fr , "Tu Pac"@de , "Shakur"@de , "Tupac Shakur Tattoos"@de , "Tu Pac"@en , "Shakur"@en , "Tupac Shakur Tattoos"@en , "2 pac"@fr , "2 pac"@de , "2 pac"@en , "Tu-Pac"@fr , "Tu-Pac"@de , "Tu-Pac"@en , "Ghetto Gospel"@de , "2Pac"@fr , "Thug Life"@fr , "Two pac"@fr , "Two pac"@de , "Two pac"@en , "The Hate You Give Little Infants Fucks Everybody"@fr , "2Pac"@de , "Thug Life"@de , "Thug Life"@en , "The Hate You Give Little Infants Fucks Everybody"@de , "2Pac"@en , "The Hate You Give Little Infants Fucks Everybody"@en , "Tupac"@fr , "Tupac"@de , "Tupac"@en , "Tupac amaru shakur"@de , "Makavelli"@fr , "Makavelli"@de , "Makavelli"@en , "Tupac Amaru Shakur"@fr , "Tupac Amaru Shakur"@de , "Tupac Amaru Shakur"@en , "TuPac"@fr , "Crooks"@de , "Amaru"@fr , "Amaru"@de , "Amaru"@en , "2Face"@fr , "Tupak Shakur"@fr , "2Face"@de , "Tupak Shakur"@de , "2Face"@en , "Tupak Shakur"@en , "Parish Crooks"@fr , "Parish Crooks"@de , "Parish Crooks"@en , "Crooks, Parish Lesane"@fr , "Crooks, Parish Lesane"@de , "Crooks, Parish Lesane"@en , "Lesane Parish Crooks"@fr , "Lesane Parish Crooks"@de , "Lesane Parish Crooks"@en , "2pac Shakur"@fr , "2pac"@fr , "2pac Shakur"@de , "2pac"@de , "2pac"@en , "2pac Shakur"@en , "One Nation"@fr , "One Nation"@de , "One Nation"@en , "Tupa"@fr , "Tupa"@de , "Tupa"@en , "Euphanasia"@fr , "2PAC"@fr , "Euphanasia"@de , "2PAC"@de , "Euphanasia"@en , "2PAC"@en , "Macadoshis"@fr , "Macadoshis"@de , "Macadoshis"@en , "Túpac Shakur"@fr , "Túpac Shakur"@de , "Túpac Shakur"@en , "Makaveli"@fr , "Makaveli"@de , "Makaveli"@en , "Parish Lesane Crooks"@fr , "Parish Lesane Crooks"@de , "Parish Lesane Crooks"@en , "'Pac"@fr , "'Pac"@de , "'Pac"@en , "Lesane Crooks"@fr , "Live 2 Tell"@fr , "2 Pac"@fr , "Noble outlaw"@fr , "Thug Immortal"@fr , "Lesane Crooks"@de , "Makaveli The Don"@de , "2 Pac"@de , "Thug Immortal"@de , "Thug Immortal"@en , "2 Pac"@en , "Noble outlaw"@de , "Noble outlaw"@en , "Lesane Crooks"@en , "Live 2 Tell"@de , "Live 2 Tell"@en , "2Pac Amaru Shakur"@fr , "2Pac Shakur"@fr , "2Pac Amaru Shakur"@de , "2Pac Shakur"@de , "2Pac Amaru Shakur"@en , "2Pac Shakur"@en , "Túpac Amaru Shakur"@fr , "Túpac Amaru Shakur"@de , "Túpac Amaru Shakur"@en , "Billy Garland"@fr , "Billy Garland"@de , "Billy Garland"@en , "MC New York"@fr , "MC New York"@de , "MC New York"@en , "TwoPack"@fr , "TwoPack"@de , "TwoPack"@en , "2-Pac"@fr , "2-Pac"@de , "2-Pac"@en , "Tupac Shakur"@fr , "Thug"@fr , "Tupac Shakur"@de , "Thug"@de , "Thug"@en , "Tupac Shakur"@en .
+
+<http://dbpedia.org/resource/Tupac_Shakur__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Las_Vegas> ;
+        dbo:from        "1996-09-13"^^xsd:date ;
+        dbo:to          "1996-09-13"^^xsd:date .

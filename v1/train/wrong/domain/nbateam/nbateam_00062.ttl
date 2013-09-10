@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kenyon_Martin__1>
+        dbo:from  "2008"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Houston_Rockets> ;
+        dbo:to    "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Kenyon_Martin>
+        rdfs:label     "Kenyon Martin"@en , "Kenyon Martin"@fr , "Kenyon Martin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kenyon_Martin__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kenyon_Martin> , <http://fr.dbpedia.org/resource/Kenyon_Martin> ;
+        skos:altLabel  "Kenyon Lee Martin"@fr , "Kenyon Martin"@en , "Kenyon Martin"@fr , "Kenyon Martin"@de , "Kenyon"@en , "Kenyon"@de , "Kenyon"@fr , "Kenyon Lee Martin"@en , "Kenyon Lee Martin"@de .
+
+<http://dbpedia.org/resource/Houston_Rockets>
+        rdfs:label     "Houston Rockets"@en , "Houston Rockets"@fr , "Houston Rockets"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rockets_de_Houston> , <http://de.dbpedia.org/resource/Houston_Rockets> ;
+        skos:altLabel  "Rockets de houston"@fr , "Rockets de San Diego"@fr , "San Diego Rockets"@en , "San Diego Rockets"@fr , "San Diego Rockets"@de , "Houston Rockets"@en , "Houston"@en , "Houston Rockets"@fr , "Houston"@fr , "Houston Rockets"@de , "Houston"@de , "Rocket"@en , "Rocket"@fr , "Rocket"@de , "Twin Towers"@en , "Twin Towers"@fr , "Rockets de Houston"@fr , "Twin Towers"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Springfield,_Missouri>
+        rdfs:label     "Springfield, Missouri"@en , "Springfield, Missouri"@fr , "Springfield, Missouri"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Springfield_(Missouri)> , <http://fr.dbpedia.org/resource/Springfield_(Missouri)> ;
+        skos:altLabel  "Springfield, Missouri"@de , "Springfield, MO"@en , "Springfield, MO"@fr , "Springfield, MO"@de , "LOCODE:USSGF"@en , "Springfield missouri"@en , "Springfield missouri"@fr , "Springfield missouri"@de , "LOCODE:USSGF"@fr , "LOCODE:USSGF"@de , "Springfield"@en , "Springfield"@fr , "Springfield"@de , "The Summit Preparatory School"@en , "Springfield, Mo."@en , "The Summit Preparatory School"@fr , "Springfield, Mo."@fr , "Springfield, Mo."@de , "The Summit Preparatory School"@de , "Springfield, Missouri"@en , "Springfield Mo"@en , "Springfield, Missouri"@fr , "Springfield Mo"@fr , "Springfield Mo"@de .
+
+<http://dbpedia.org/resource/Conway_Twitty>
+        rdfs:label     "Conway Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Conway_Twitty__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Conway_Twitty> , <http://fr.dbpedia.org/resource/Conway_Twitty> ;
+        skos:altLabel  "Harold Lloyd Jenkins"@en , "Twitty"@en , "Harold Lloyd Jenkins"@fr , "Twitty"@fr , "Harold Lloyd Jenkins"@de , "Twitty"@de , "Conway Twitty"@en , "Conway Twitty"@fr , "Conway Twitty"@de , "Harold Jenkins a.k.a Conway Twitty"@en , "Conway"@en , "Harold Jenkins"@en , "Conway"@fr , "Conway"@de , "Harold Jenkins"@fr , "Harold Jenkins"@de , "Conway Titty"@en , "Harold Jenkins a.k.a Conway Twitty"@fr , "Harold Jenkins a.k.a Conway Twitty"@de , "Conway Titty"@fr , "Conway Titty"@de .
+
+<http://dbpedia.org/resource/Conway_Twitty__1>
+        dbo:from    "1993"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Springfield,_Missouri> ;
+        dbo:to      "1993"^^xsd:gYear .

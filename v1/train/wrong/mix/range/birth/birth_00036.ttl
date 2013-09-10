@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Camarillo,_California>
+        rdfs:label     "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Camarillo> , <http://de.dbpedia.org/resource/Camarillo> ;
+        skos:altLabel  "Camarillo"@en , "Camarillo, ca"@en , "LOCODE:USCMR"@en , "Camarillo, ca"@fr , "LOCODE:USCMR"@fr , "Camarillo, ca"@de , "LOCODE:USCMR"@de , "Camarillo"@fr , "Camarillo"@de , "Camarillo, CA"@en , "Camarillo, CA"@fr , "Camarillo, CA"@de , "Camarillo, California"@en , "Camarillo, California"@fr , "Camarillo, California"@de .
+
+<http://dbpedia.org/resource/Stephen_King__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Camarillo,_California> ;
+        dbo:from        "1947"^^xsd:gYear ;
+        dbo:to          "1947"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Stephen_King>
+        rdfs:label     "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stephen_King__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stephen_King> , <http://de.dbpedia.org/resource/Stephen_King> ;
+        skos:altLabel  "Richard Bachmann"@de , "King"@fr , "Stephen King"@de , "Stephen King"@fr , "Stephen King"@en , "Stephan king"@en , "Stephen E. King"@de , "Stephan king"@de , "Stephan king"@fr , "Stephen E. King"@fr , "Stephen E. King"@en , "Stephen king"@en , "Stephen king"@de , "Stephen king"@fr , "Steven King Accident"@en , "List of books that stephen king has written"@en , "Steven King Accident"@de , "Steven king"@fr , "Steven King Accident"@fr , "List of books that stephen king has written"@de , "List of books that stephen king has written"@fr , "List of cultural references to Stephen King"@en , "List of cultural references to Stephen King"@de , "List of cultural references to Stephen King"@fr , "Richard Bachman"@de , "Richard Bachman"@fr , "The Works of Stephen King"@de , "The Works of Stephen King"@fr , "The Works of Stephen King"@en , "Stephen Edwin King"@en , "Stephen Edwin King"@de , "Stephen Edwin King"@fr , "King, Stephen"@en , "Stephen king accident"@en , "King, Stephen"@de , "King, Stephen"@fr , "Stephen king accident"@de , "Stephen king accident"@fr , "Bachman"@fr , "John Swithen"@en , "John Swithen"@de , "John Swithen"@fr , "Stephen"@de , "Stephen"@fr , "Stephen"@en .

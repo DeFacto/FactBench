@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02z6v8l>
+        rdfs:label  "OpenLink Software"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02z6v8l__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/OpenLink_Software> .
+
+<http://rdf.freebase.com/ns/m.02z6v8l__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01gnt0> ;
+        dbo:from             "1865"^^xsd:gYear ;
+        dbo:to               "1865"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01gnt0>
+        rdfs:label     "Nokia"@en , "Nokia"@fr , "Nokia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nokia_(Stadt)> , <http://fr.dbpedia.org/resource/Nokia_(ville)> , <http://dbpedia.org/resource/Nokia,_Finland> ;
+        skos:altLabel  "Nokia, Finland"@en , "Nokia, Finland"@fr , "Nokia, Finland"@de , "Pohjois-Pirkkala"@fr , "Pohjois-Pirkkala"@de , "Pohjois-Pirkkala"@en , "Nokia"@en , "Nokia"@fr , "Nokia"@de .

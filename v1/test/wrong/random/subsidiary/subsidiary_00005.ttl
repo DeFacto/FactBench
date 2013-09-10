@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03lvx>
+        rdfs:label     "Heretics of Dune"@en , "Les Hérétiques de Dune"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Heretics_of_Dune> , <http://fr.dbpedia.org/resource/Les_Hérétiques_de_Dune> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Les Heretiques De Dune"@fr , "Stiros"@en , "Stiros"@fr , "Tuek"@en , "Tuek"@fr , "Heretics Of Dune"@en , "Heretics Of Dune"@fr , "Burzmali"@en , "Burzmali"@fr , "Les Heretiques de Dune"@fr , "Les Hérétiques de Dune"@fr , "Les heretiques de dune"@fr , "Heretics of Dune"@en , "Heretics of Dune"@fr , "Les hérétiques de dune"@fr , "Heretics of dune"@en , "Heretics of dune"@fr , "Les Hérétiques De Dune"@fr .
+
+<http://dbpedia.org/resource/Akira_Kurosawa>
+        rdfs:label     "Akira Kurosawa"@en , "Akira Kurosawa"@fr , "Akira Kurosawa"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Akira_Kurosawa__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Akira_Kurosawa> , <http://fr.dbpedia.org/resource/Akira_Kurosawa> ;
+        skos:altLabel  "Kurosawa sensei"@fr , "Kurosawa"@en , "Akira kurosawa"@en , "Kurosawa"@fr , "Akira kurosawa"@fr , "Kurosawa"@de , "Akira kurosawa"@de , "Kurosawa Akira"@en , "Akira Kurosawa"@en , "Kurosawa Akira"@fr , "Akira Kurosawa"@de , "Akira Kurosawa"@fr , "Kurosawa Akira"@de , "Akira kurasawa"@en , "Akira kurasawa"@fr , "Akira kurasawa"@de .
+
+<http://dbpedia.org/resource/Akira_Kurosawa__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03lvx> ;
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:to      "1999"^^xsd:gYear .

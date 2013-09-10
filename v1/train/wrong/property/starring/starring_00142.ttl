@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Patricia_Arquette>
+        rdfs:label     "Patricia Arquette"@en , "Patricia Arquette"@fr , "Patricia Arquette"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Patricia_Arquette> , <http://fr.dbpedia.org/resource/Patricia_Arquette> ;
+        skos:altLabel  "Patricia"@en , "Patricia"@fr , "Patricia"@de , "Patricia arquette"@en , "Patricia arquette"@de , "Patricia arquette"@fr , "Patricia Arquette"@en , "Arquette"@en , "Patricia Arquette"@fr , "Patricia Arquette"@de , "Arquette"@fr , "Arquette"@de .
+
+<http://dbpedia.org/resource/Ed_Wood_(film)>
+        rdfs:label     "Ed Wood (film)"@fr , "Ed Wood (film)"@de , "Ed Wood (film)"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ed_Wood_(film)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ed_Wood_(Film)> , <http://fr.dbpedia.org/resource/Ed_Wood_(film)> ;
+        skos:altLabel  "Ed wood"@fr , "Ed Wood"@en , "Ed Wood"@fr , "Ed Wood"@de .
+
+<http://dbpedia.org/resource/Ed_Wood_(film)__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Patricia_Arquette> ;
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:to          "1994"^^xsd:gYear .

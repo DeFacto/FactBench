@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.030xfx>
+        rdfs:label     "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.030xfx__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carmine_Giovinazzo> , <http://dbpedia.org/resource/Carmine_Giovinazzo> , <http://fr.dbpedia.org/resource/Carmine_Giovinazzo> ;
+        skos:altLabel  "Carmine"@fr , "Carmine"@de , "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de , "Carmine D. Giovinazzo"@en , "Carmine Dominick Giovinazzo"@en , "Carmine"@en , "Giovinazzo"@de , "Giovinazzo"@fr .
+
+<http://rdf.freebase.com/ns/m.030xfx__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03z1j_> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03z1j_>
+        rdfs:label     "Kerr Smith"@fr , "Kerr Smith"@de , "Kerr Smith"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Kerr_Smith> , <http://fr.dbpedia.org/resource/Kerr_Smith> , <http://de.dbpedia.org/resource/Kerr_Smith> ;
+        skos:altLabel  "Kerr Van Cleve Smith"@en , "Kerr Smith"@en , "Kerr Smith"@fr , "Kerr Smith"@de .

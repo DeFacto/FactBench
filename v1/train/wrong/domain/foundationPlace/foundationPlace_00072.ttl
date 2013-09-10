@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.046qpy__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0nlh7> ;
+        dbo:from             "1992"^^xsd:gYear ;
+        dbo:to               "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.046qpy>
+        rdfs:label     "Codemasters"@en , "Codemasters"@fr , "Codemasters"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.046qpy__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Codemasters> , <http://fr.dbpedia.org/resource/Codemasters> , <http://dbpedia.org/resource/Codemasters> ;
+        skos:altLabel  "Supersonic Software"@fr , "Supersonic Software"@de , "The Codemasters Software Company Limited"@en , "The Codemasters Software Company Limited"@fr , "The Codemasters Software Company Limited"@de , "Indy Cars Series 2005"@en , "Code masters"@en , "Indy Cars Series 2005"@fr , "Code masters"@fr , "Indy Cars Series 2005"@de , "Code masters"@de , "Supersonic Software Ltd"@en , "Supersonic Software Ltd"@fr , "Supersonic Software Ltd"@de , "Code Masters"@en , "Stuart Black"@en , "IGI 2"@de , "Codemasters Software Company Limited"@en , "Codemasters"@en , "CodeMasters"@en , "Codemasters"@fr , "CodeMasters"@fr , "CodeMasters"@de , "Codemasters"@de , "Code Masters"@fr , "Code Masters"@de , "Stuart Black"@fr , "Codemasters Software Company Limited"@fr , "The Codemasters Software Company"@de , "Codemasters Software Company Limited"@de , "Stuart Black"@de , "Supersonic Software"@en .
+
+<http://rdf.freebase.com/ns/m.0nlh7>
+        rdfs:label     "Edmonton"@de , "Edmonton"@fr , "Edmonton"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edmonton> , <http://dbpedia.org/resource/Edmonton> , <http://de.dbpedia.org/resource/Edmonton> ;
+        skos:altLabel  "Edmonoton, Alberta"@en , "Edmonoton, Alberta"@de , "Edmonoton, Alberta"@fr , "Edmontonians"@en , "Edmontonians"@de , "Edmontonians"@fr , "Edmonton, Alberta, Canada"@en , "Edmonton, Alberta, Canada"@fr , "Edmonton, Alberta, Canada"@de , "Edmonton Alberta"@en , "Edmonton Alberta"@de , "Edmonton Alberta"@fr , "82 Street, Edmonton"@en , "82 Street, Edmonton"@fr , "82 Street, Edmonton"@de , "E town"@en , "E town"@fr , "E town"@de , "184 Street, Edmonton"@en , "184 Street, Edmonton"@de , "184 Street, Edmonton"@fr , "Hayter Road"@en , "Hayter Road"@de , "Hayter Road"@fr , "Edmonton, AB"@en , "Edmonton, AB"@fr , "Edmonton, AB"@de , "City of Edmonton"@en , "City of Edmonton"@fr , "City of Edmonton"@de , "Clover Bar, Edmonton"@en , "Clover Bar, Edmonton"@de , "Clover Bar, Edmonton"@fr , "17 Street, Edmonton"@en , "17 Street, Edmonton"@de , "17 Street, Edmonton"@fr , "17 Street NW, Edmonton"@en , "LOCODE:CAEDM"@en , "17 Street NW, Edmonton"@fr , "LOCODE:CAEDM"@de , "LOCODE:CAEDM"@fr , "17 Street NW, Edmonton"@de , "The weather in Edmonton"@en , "The weather in Edmonton"@de , "The weather in Edmonton"@fr , "159 Street, Edmonton"@en , "159 Street, Edmonton"@de , "159 Street, Edmonton"@fr , "S.Bruce Smith School"@en , "S.Bruce Smith School"@de , "S.Bruce Smith School"@fr , "Edmonton"@en , "Edmonton"@fr , "Edmonton"@de , "S. Bruce Smith School"@en , "S. Bruce Smith School"@fr , "S. Bruce Smith School"@de , "Edmonchuk"@en , "Edmonchuk"@de , "Edmonchuk"@fr , "Edmonton, Canada"@en , "Edmonton, Canada"@fr , "Edmonton, Canada"@de , "Edmonton, Alberta"@en , "Edmonton, Alberta"@de , "Edmonton, Alberta"@fr .

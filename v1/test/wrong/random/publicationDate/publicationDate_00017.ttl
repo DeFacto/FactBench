@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Henry_Wadsworth_Longfellow>
+        rdfs:label     "Henry Wadsworth Longfellow"@de , "Henry Wadsworth Longfellow"@fr , "Henry Wadsworth Longfellow"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Henry_Wadsworth_Longfellow__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Henry_Wadsworth_Longfellow> , <http://fr.dbpedia.org/resource/Henry_Longfellow> ;
+        skos:altLabel  "Henry Wadsworth Longfellow"@de , "Henry Wadsworth Longfellow"@fr , "Henry Wadsworth Longfellow"@en , "Henry Wadsworth"@de , "Henry Wadsworth"@fr , "Henry Wadsworth"@en , "Wadsworth"@de , "Wadsworth"@fr , "Wadsworth"@en , "Longfellow, Henry Wadsworth"@de , "Longfellow, Henry Wadsworth"@fr , "Longfellow, Henry Wadsworth"@en , "H. W. Longfellow"@de , "H. W. Longfellow"@fr , "H. W. Longfellow"@en , "HW Longfellow"@de , "HW Longfellow"@fr , "HW Longfellow"@en , "Poem of Scanderbeg"@de , "Poem of Scanderbeg"@fr , "Poem of Scanderbeg"@en , "Henry W. Longfellow"@de , "Henry W. Longfellow"@fr , "Henry W. Longfellow"@en , "Fanny Appleton Longfellow"@de , "Fanny Appleton Longfellow"@fr , "Fanny Appleton Longfellow"@en , "Henry Longfellow"@de , "Henry Longfellow"@fr , "Henry Longfellow"@en , "Longfellow"@de , "Longfellow"@fr , "Longfellow"@en , "Novels by Henry Wadsworth Longfellow"@de , "Novels by Henry Wadsworth Longfellow"@fr , "Novels by Henry Wadsworth Longfellow"@en .
+
+<http://dbpedia.org/resource/Henry_Wadsworth_Longfellow__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0f04c> ;
+        dbo:from   "1999"^^xsd:gYear ;
+        dbo:to     "1999"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0f04c>
+        rdfs:label     "Palo Alto"@de , "Palo Alto"@fr , "Palo Alto"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Palo_Alto> , <http://dbpedia.org/resource/Palo_Alto,_California> , <http://de.dbpedia.org/resource/Palo_Alto> ;
+        skos:altLabel  "Paly"@en , "Santa Clara County / Palo Alto city"@en , "Mayfield"@en , "Mayfield"@de , "Mayfield"@fr , "Aeroport du comte de Santa Clara a Palo Alto"@fr , "City of Palo Alto"@en , "City of Palo Alto"@de , "City of Palo Alto"@fr , "Palo Alto"@en , "Palo Alto"@de , "Palo Alto"@fr , "Barron Park"@en , "Barron Park"@de , "Barron Park"@fr , "Mayfield, CA"@de , "Mayfield, CA"@fr , "Mayfield, CA"@en , "LOCODE:USPAO"@de , "LOCODE:USPAO"@fr , "LOCODE:USPAO"@en , "Middlefield Challenger"@en , "Middlefield Challenger"@de , "Middlefield Challenger"@fr , "Keys School"@en , "Keys School"@de , "Keys School"@fr , "Aéroport du comté de Santa Clara à Palo Alto"@fr , "California Avenue Business District, California"@en , "California Avenue Business District, California"@de , "California Avenue Business District, California"@fr , "Palo Alto, CA"@de , "Palo Alto Airport of Santa Clara County"@fr , "Palo Alto, CA"@fr , "Palo Alto, CA"@en , "palo alto"@en , "Palo Alto, Calif."@de , "Palo Alto, Calif."@fr , "Palo Alto, Calif."@en , "Palo alto"@en , "Palo alto"@de , "Palo alto"@fr , "Mayfield, California"@en , "Mayfield, California"@de , "Mayfield, California"@fr , "Palo Alto,Ca"@en , "Palo Alto, California"@en , "Palo Alto, California"@de , "Palo Alto, California"@fr , "Alto"@de .

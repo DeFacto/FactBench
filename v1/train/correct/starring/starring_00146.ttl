@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Edward_Scissorhands>
+        rdfs:label      "Edward Scissorhands"@en , "Edward Scissorhands"@fr , "Edward Scissorhands"@de ;
+        dbo:isStarring  <http://dbpedia.org/resource/Edward_Scissorhands__1> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Edward_aux_mains_d'argent> , <http://de.dbpedia.org/resource/Edward_mit_den_Scherenhänden> ;
+        skos:altLabel   "Edward aux mains d'argent"@fr , "Edward mit den Scherenhänden"@de , "Edward Aux Mains D'argent"@fr , "Edward Scissorhands"@fr , "Edward Scissorhands"@de , "Edward Scissorhands"@en , "Edward aux mains d'Argent"@fr , "Edward mit den Scherenhanden"@de , "Edward Scissor Hands"@fr , "Edward Scissor Hands"@de , "Edward Scissor Hands"@en , "Edward aux mains d’argent"@fr , "Edward scissorhands"@fr , "Edward scissorhands"@de , "Edward scissorhands"@en , "Edward ScissorHands"@fr , "Edward ScissorHands"@de , "Edward ScissorHands"@en .
+
+<http://dbpedia.org/resource/Edward_Scissorhands__1>
+        dbo:from      "1990-12-07"^^xsd:date ;
+        dbo:starring  <http://dbpedia.org/resource/Dianne_Wiest> ;
+        dbo:to        "1990-12-07"^^xsd:date .
+
+<http://dbpedia.org/resource/Dianne_Wiest>
+        rdfs:label     "Dianne Wiest"@en , "Dianne Wiest"@fr , "Dianne Wiest"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dianne_Wiest> , <http://fr.dbpedia.org/resource/Dianne_Wiest> ;
+        skos:altLabel  "Dianne"@de , "Dianne"@en , "Dianne West"@fr , "Diane wiest"@fr , "Wiest"@fr , "Dianne West"@de , "Diane wiest"@de , "Diane wiest"@en , "Dianne West"@en , "Wiest"@de , "Wiest"@en , "Diane Weist"@fr , "Diane Weist"@de , "Diane Weist"@en , "Dianne Weist"@fr , "Dianne Weist"@de , "Dianne Weist"@en , "Diane West"@fr , "Diane Wiest"@fr , "Diane Wiest"@de , "Diane Wiest"@en , "Diane West"@de , "Diane West"@en , "Dianne Wiest"@fr , "Dianne Wiest"@de , "Dianne Wiest"@en , "Dianne"@fr .

@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0726fk>
+        rdfs:label  "The Boat of a Million Years"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Boat_of_a_Million_Years> .
+
+<http://rdf.freebase.com/ns/m.05x8n>
+        rdfs:label       "Poul Anderson"@fr , "Poul Anderson"@en , "Poul Anderson"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0726fk__4> ;
+        owl:sameAs       <http://dbpedia.org/resource/Poul_Anderson> , <http://de.dbpedia.org/resource/Poul_Anderson> , <http://fr.dbpedia.org/resource/Poul_Anderson> ;
+        skos:altLabel    "Anderson, Poul"@en , "Anderson, Poul"@de , "Anderson, Poul"@fr , "A. A. Craig"@en , "A. A. Craig"@de , "Poul Anderson"@en , "Poul Anderson"@de , "Poul Anderson"@fr , "Poul"@en , "Poul"@de , "Poul"@fr , "Poul anderson"@fr , "Poul anderson"@en , "Poul anderson"@de , "Anderson"@fr , "Poul William Anderson"@en , "Poul William Anderson"@de , "Poul William Anderson"@fr , "Pohl anderson"@en , "Pohl anderson"@de , "Pohl anderson"@fr , "A Knight of Ghosts and Shadows"@en , "A Knight of Ghosts and Shadows"@de , "A Knight of Ghosts and Shadows"@fr , "Winston P. Sanders"@en , "Winston P. Sanders"@de , "Twilight World"@en , "Twilight World"@de , "Twilight World"@fr , "Poul W. Anderson"@en , "Poul W. Anderson"@de , "Poul W. Anderson"@fr , "Michael Karageorge"@en , "Michael Karageorge"@de .
+
+<http://rdf.freebase.com/ns/m.0726fk__4>
+        dbo:author  <http://rdf.freebase.com/ns/m.0726fk> ;
+        dbo:from    "1989"^^xsd:gYear ;
+        dbo:to      "1989"^^xsd:gYear .
+
+<http://dbpedia.org/resource/The_Boat_of_a_Million_Years>
+        skos:altLabel  "The boat of a million years"@en , "The Boat of a Million Years"@en , "Boat of a million years"@en .

@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0qyrs>
+        rdfs:label     "Lafayette"@en , "Lafayette"@fr , "Lafayette"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Lafayette,_California> , <http://de.dbpedia.org/resource/Lafayette_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lafayette_(Californie)> ;
+        skos:altLabel  "Burton Valley"@en , "Burton Valley"@de , "Burton Valley"@fr , "Lafayette"@en , "Lafayette"@de , "Lafayette"@fr , "Burton Valley Elementary"@fr , "Burton Valley Elementary"@en , "Burton Valley Elementary"@de , "LOCODE:USLZX"@en , "LOCODE:USLZX"@de , "LOCODE:USLZX"@fr , "Lafayette park theater"@en , "Lafayette park theater"@de , "Lafayette park theater"@fr , "Contra Costa County / Lafayette city"@en , "Lafayette ca"@en , "Lafayette ca"@de , "Lafayette ca"@fr , "Lafayette, California"@en , "Lafayette, California"@de , "Lafayette, California"@fr , "Lafayette, ca"@en , "Lafayette, ca"@de , "Lafayette, ca"@fr , "Lafayette, CA"@fr , "Lafayette, CA"@en , "Lafayette, CA"@de , "La Fayette, California"@en , "La Fayette, California"@de , "La Fayette, California"@fr , "Stanley Middle School"@fr , "Stanley Middle School"@en , "Stanley Middle School"@de , "Central Lafayette, California"@en , "Central Lafayette, California"@de , "Central Lafayette, California"@fr .
+
+<http://dbpedia.org/resource/Techexcel>
+        skos:altLabel  "Techexcel"@en .
+
+<http://rdf.freebase.com/ns/m.03y7mdb>
+        rdfs:label      "Techexcel"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.03y7mdb__116> ;
+        owl:sameAs      <http://dbpedia.org/resource/Techexcel> .
+
+<http://rdf.freebase.com/ns/m.03y7mdb__116>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0qyrs> ;
+        dbo:from             "1995"^^xsd:gYear ;
+        dbo:to               "1995"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c6vzt>
+        rdfs:label     "Polycom"@en , "Polycom"@fr , "Polycom"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c6vzt__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Polycom> , <http://fr.dbpedia.org/resource/Polycom_(entreprise)> , <http://dbpedia.org/resource/Polycom> ;
+        skos:altLabel  "Voyant Technologies"@fr , "ViaVideo"@fr , "DST Media"@de , "Voyant Technologies"@de , "ViaVideo"@de , "Atlas Communications Engines"@fr , "Atlas Communications Engines"@de , "Polycom"@fr , "Polycom"@de , "Accord Networks"@fr , "Polycom Inc."@fr , "Polycom Inc."@de , "Accord Networks"@de , "Kirk Telecom"@fr , "Kirk Telecom"@de , "SpectraLink Corporation"@fr , "SpectraLink Corporation"@de , "Destiny Conferencing"@fr , "Destiny Conferencing"@de , "Polycom.com"@en , "MeetU"@fr , "MeetU"@de , "DST Media"@fr .
+
+<http://rdf.freebase.com/ns/m.0q8tn>
+        rdfs:label     "Madison"@en , "Madison"@fr , "Madison"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Madison,_Alabama> , <http://de.dbpedia.org/resource/Madison_(Alabama)> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Madison, Al"@en , "Madison, Al"@de , "Madison, AL"@de , "Madison, AL"@en , "LOCODE:USMAZ"@en , "LOCODE:USMAZ"@de , "Madison"@en , "Madison"@de , "Madison, Alabama"@en , "Madison, Alabama"@de .
+
+<http://rdf.freebase.com/ns/m.0c6vzt__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0q8tn> ;
+        dbo:from        "1964"^^xsd:gYear ;
+        dbo:to          "1964"^^xsd:gYear .

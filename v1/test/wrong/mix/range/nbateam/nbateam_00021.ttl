@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Indiana_Pacers>
+        rdfs:label     "Indiana Pacers"@en , "Indiana Pacers"@fr , "Indiana Pacers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pacers_de_l'Indiana> , <http://de.dbpedia.org/resource/Indiana_Pacers> ;
+        skos:altLabel  "Pacers d'Indiana"@fr , "Pacer"@en , "Pacer"@fr , "Pacer"@de , "Pacers de l'Indiana"@fr , "Indiana Pacers"@en , "Indiana Pacers"@fr , "Indiana Pacers"@de , "Indianapolis Pacers"@en , "Indianapolis Pacers"@fr , "Indianapolis Pacers"@de , "The Pacers"@en , "The Pacers"@fr , "The Pacers"@de , "Pacers de l'indiana"@fr .
+
+<http://dbpedia.org/resource/Chauncey_Billups__1>
+        dbo:from  "2011"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Indiana_Pacers> ;
+        dbo:to    "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chauncey_Billups>
+        rdfs:label     "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chauncey_Billups__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chauncey_Billups> , <http://fr.dbpedia.org/resource/Chauncey_Billups> ;
+        skos:altLabel  "Billups"@en , "Billups"@fr , "Billups"@de , "Mr. Big Shot"@en , "Mr. Big Shot"@fr , "Mr. Big Shot"@de , "Chauncy Billups"@en , "Chauncy Billups"@fr , "Chauncy Billups"@de , "Chauncey"@en , "Chauncey"@fr , "Chauncey"@de , "Chauncey Ray Billups"@en , "Chauncey Ray Billups"@fr , "Chauncey Ray Billups"@de , "Mr Big Shot"@en , "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de , "Mr Big Shot"@fr , "Mr Big Shot"@de .

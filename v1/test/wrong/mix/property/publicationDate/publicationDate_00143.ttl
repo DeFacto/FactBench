@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.041xl__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.04g_vq> ;
+        dbo:from   "1961"^^xsd:gYear ;
+        dbo:to     "1961"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04g_vq>
+        rdfs:label     "The Wind from Nowhere"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Wind_from_Nowhere> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "The Wind From Nowhere"@en , "The Wind from Nowhere"@en .
+
+<http://rdf.freebase.com/ns/m.041xl>
+        rdfs:label     "James Graham Ballard"@de , "J. G. Ballard"@fr , "J. G. Ballard"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.041xl__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/J._G._Ballard> , <http://de.dbpedia.org/resource/James_Graham_Ballard> , <http://fr.dbpedia.org/resource/J._G._Ballard> ;
+        skos:altLabel  "J G Ballard"@en , "J G Ballard"@de , "J G Ballard"@fr , "JG Ballard"@en , "JG Ballard"@de , "JG Ballard"@fr , "Ballard"@de , "J.-G. Ballard"@fr , "Jg ballard"@de , "Jg ballard"@fr , "Jg ballard"@en , "James G Ballard"@en , "Ballardian"@de , "Ballardian"@fr , "Ballardian"@en , "J.G.Ballard"@de , "J.G.Ballard"@fr , "J.G.Ballard"@en , "James G. Ballard"@en , "James G. Ballard"@de , "James G. Ballard"@fr , "J. G. Ballard"@en , "J. G. Ballard"@de , "J. G. Ballard"@fr , "A User's Guide to the Millenium"@en , "A User's Guide to the Millenium"@de , "A User's Guide to the Millenium"@fr , "J.G. Ballard"@en , "J.G. Ballard"@de , "J.G. Ballard"@fr , "A User's Guide to the Millennium"@en , "A User's Guide to the Millennium"@de , "A User's Guide to the Millennium"@fr , "James Graham Ballard"@en , "James Graham Ballard"@de , "James Graham Ballard"@fr , "James Ballard"@de , "James Ballard"@fr , "James Ballard"@en , "James Graham \"J. G.\" Ballard"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Yoko_Ono>
+        rdfs:label     "Yoko Ono"@de , "Yoko Ono"@fr , "Yoko Ono"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Yoko_Ono__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Yoko_Ono> , <http://de.dbpedia.org/resource/Yoko_Ono> ;
+        skos:altLabel  "Ono Yôko"@en , "Ono Yôko"@de , "Ono Yôko"@fr , "Yôko Ono"@en , "Yôko Ono"@de , "Yôko Ono"@fr , "Yoko Ono Lennon"@en , "Yoko Ono Lennon"@de , "Yoko Ono Lennon"@fr , "Ono Yoko"@de , "Ono Yoko"@fr , "Ono Yoko"@en , "Yohko Ono"@de , "Yohko Ono"@fr , "Yohko Ono"@en , "Yoko"@de , "Yoko"@fr , "John Ono Lennon II"@de , "John Ono Lennon II"@fr , "John Ono Lennon II"@en , "Yoko"@en , "Kyoko Cox"@de , "Kyoko Cox"@fr , "Kyoko Cox"@en , "Yōko Ono"@fr , "Kyoko Chan Cox"@de , "Kyoko Chan Cox"@fr , "Kyoko Chan Cox"@en , "Onochord"@en , "Onochord"@de , "Onochord"@fr , "Yoko Lennon"@de , "Yoko Lennon"@fr , "Yoko Lennon"@en , "Yoko ono"@en , "Yoko ono"@de , "Yoko ono"@fr , "Ono Yōko"@en , "Ono Yōko"@de , "Ono Yōko"@fr , "Yoko Ono"@en , "Yoko Ono"@de , "Yoko Ono"@fr .
+
+<http://dbpedia.org/resource/Yoko_Ono__1>
+        dbo:award  <http://dbpedia.org/resource/Duluth,_Minnesota> ;
+        dbo:from   "1972"^^xsd:gYear ;
+        dbo:to     "1972"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Duluth,_Minnesota>
+        rdfs:label     "Duluth, Minnesota"@fr , "Duluth, Minnesota"@de , "Duluth, Minnesota"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Duluth> , <http://de.dbpedia.org/resource/Duluth_(Minnesota)> ;
+        skos:altLabel  "Duluth mn"@en , "Duluth mn"@fr , "Duluth mn"@de , "Duluth minnesota"@en , "Duluth minnesota"@fr , "Duluth minnesota"@de , "Duluth, MN"@en , "Duluth, MN"@fr , "Duluth, MN"@de , "Duluth, mn"@en , "Duluth, mn"@fr , "Duluth, mn"@de , "Duluth, Minnesota"@en , "Duluth, Minnesota"@fr , "Duluth, Minnesota"@de , "Duluth"@en , "Duluth"@fr , "Duluth"@de , "Duluth Minn"@en , "Duluth Minn"@fr , "Duluth Minn"@de , "Duluth, Minn"@en , "Duluth, Minn"@fr , "Duluth, Minn"@de , "Duluth, Mn"@en , "Duluth, Mn"@fr , "Duluth, Mn"@de .

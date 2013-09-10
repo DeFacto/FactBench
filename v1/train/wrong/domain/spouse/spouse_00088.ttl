@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bd7l0>
+        rdfs:label     "Leo Burmester"@en , "Leo Burmester"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Leo_Burmester> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Burmester"@en , "Leo Burmester"@en , "Leo Burmeister"@en .
+
+<http://rdf.freebase.com/ns/m.030xfx>
+        rdfs:label     "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.030xfx__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carmine_Giovinazzo> , <http://dbpedia.org/resource/Carmine_Giovinazzo> , <http://fr.dbpedia.org/resource/Carmine_Giovinazzo> ;
+        skos:altLabel  "Carmine"@fr , "Carmine"@de , "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de , "Carmine D. Giovinazzo"@en , "Carmine Dominick Giovinazzo"@en , "Carmine"@en , "Giovinazzo"@de , "Giovinazzo"@fr .
+
+<http://rdf.freebase.com/ns/m.030xfx__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0bd7l0> ;
+        dbo:to      "2007"^^xsd:gYear .

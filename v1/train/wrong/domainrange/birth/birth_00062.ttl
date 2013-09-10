@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quentin_Tarantino>
+        rdfs:label     "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quentin Tarantino"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Quentin_Tarantino__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quentin_Tarantino> , <http://de.dbpedia.org/resource/Quentin_Tarantino> ;
+        skos:altLabel  "Q. Tarantino"@fr , "Quinton Tarantino"@en , "Quinton Tarantino"@de , "Quinton Tarantino"@fr , "Quentin Tarrantino"@en , "Quentin Tarrantino"@fr , "Quentin Tarrantino"@de , "Tarrantino"@fr , "Tarantino"@en , "Tarantino"@de , "Tarantino"@fr , "Quentin Jerome Tarantino"@en , "Quentin Jerome Tarantino"@de , "Quentin Jerome Tarantino"@fr , "Quintin Terantino"@en , "Quintin Terantino"@de , "Quintin Terantino"@fr , "Quentin Tarantino"@en , "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quinton Terrantino"@en , "Quinton Terrantino"@de , "Quinton Terrantino"@fr , "Q. Tarentino"@en , "Q. Tarentino"@de , "Q. Tarentino"@fr , "Tarentino"@fr , "The Vega Brothers"@en , "The Vega Brothers"@de , "The Vega Brothers"@fr , "Quinten Tarantino"@en , "Quinten Tarantino"@fr , "Quinten Tarantino"@de , "Quentin tarantino"@en , "Quentin tarantino"@de , "Quentin tarantino"@fr , "Quentin"@en , "Quentin"@de , "Quentin"@fr , "Quinten Tarintino"@en , "Red Apple Cigarettes"@en , "QuentinTarrantino"@en , "Quinten Tarintino"@de , "Quinten Tarintino"@fr , "Quentin Tarintino"@en , "Quentin Tarintino"@de , "Quentin Tarintino"@fr , "Quentin Tarentino"@en , "QuentinTarrantino"@de , "QuentinTarrantino"@fr , "Quentin Tarentino"@de , "Quentin Tarentino"@fr , "Red Apple Cigarettes"@de , "Red Apple Cigarettes"@fr , "Q. Tarantino"@en , "Q. Tarantino"@de .
+
+<http://dbpedia.org/resource/Quentin_Tarantino__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Minneapolis> ;
+        dbo:from        "1948"^^xsd:gYear ;
+        dbo:to          "1948"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Minneapolis>
+        rdfs:label     "Minneapolis"@de , "Minneapolis"@fr , "Minneapolis"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minneapolis> , <http://fr.dbpedia.org/resource/Minneapolis> ;
+        skos:altLabel  "Walker Methodist Health Center"@en , "Walker Methodist Health Center"@de , "Walker Methodist Health Center"@fr , "Minneapolis, United States"@en , "Minneapolis, United States"@de , "Minneapolis, United States"@fr , "Minneapolis, MN"@en , "Minneapolis, MN"@de , "Minneapolis, MN"@fr , "Minneapolis, Minnesota, U.S."@en , "Minneapolis, Minnesota, U.S."@fr , "Minneapolis, Minnesota, U.S."@de , "Minneapolis, Minnesota"@en , "Minneapolis, Minnesota"@fr , "Minneapolis, Minnesota"@de , "Minneapolis, Minn."@en , "Minneapolis, Minn."@fr , "Minneapolis, Minn."@de , "LOCODE:USMES"@en , "LOCODE:USMES"@de , "LOCODE:USMES"@fr , "Minneapolis, Minnesota, US"@en , "Minneapolis, Minnesota, US"@fr , "Minneapolis, Minnesota, US"@de , "Minneapolis, Minnesota, USA"@en , "Minneapolis, Minnesota, USA"@de , "Minneapolis, Minnesota, USA"@fr , "Minneapolis MN"@en , "Minneapolis MN"@fr , "Minneapolis MN"@de , "Minneapolis, Hennepin County, Minnesota"@en , "Minneapolis, Hennepin County, Minnesota"@fr , "Minneapolis, Hennepin County, Minnesota"@de , "Minneapolis Minnesota"@en , "Minneapolis Minnesota"@fr , "Minneapolis Minnesota"@de , "Minneapolis"@en , "Minneapolis"@de , "Minneapolis"@fr , "First city of the west"@en , "First city of the west"@de , "First city of the west"@fr , "Minneapolis,MN"@en , "Minneapolis,MN"@fr , "Minneapolis,MN"@de , "Minneapolis, USA"@en , "Minneapolis, USA"@de , "Minneapolis, USA"@fr , "Minneapolis, Minnesota, U.S.A."@en , "Minneapolis, Minnesota, U.S.A."@fr , "Minneapolis, Minnesota, U.S.A."@de , "The Minneapolis Convention Center"@en , "The Minneapolis Convention Center"@de , "The Minneapolis Convention Center"@fr , "Mineapolis"@en , "Mineapolis"@fr , "Mineapolis"@de , "Minneapolis, mn"@en , "Minneapolis, mn"@de , "Minneapolis, mn"@fr , "City of Minneapolis"@en , "Murderapolis"@en , "Minneapolitan"@en , "City of Minneapolis"@de , "Murderapolis"@de , "City of Minneapolis"@fr , "Murderapolis"@fr , "Minneapolitan"@de , "Minneapolitan"@fr , "Minneapolis,Minnesota"@en , "Minneapolis,Minnesota"@fr , "Minneapolis,Minnesota"@de .

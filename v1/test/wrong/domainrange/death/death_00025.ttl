@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/C._S._Lewis>
+        rdfs:label     "C. S. Lewis"@de , "C. S. Lewis"@fr , "C. S. Lewis"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/C._S._Lewis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/C._S._Lewis> , <http://de.dbpedia.org/resource/C._S._Lewis> ;
+        skos:altLabel  "Clive staples lewis"@en , "C.S.Lewis"@en , "Clive staples lewis"@fr , "C.S.Lewis"@fr , "C.S.Lewis"@de , "Clive staples lewis"@de , "N.W. Clark"@en , "N.W. Clark"@fr , "N.W. Clark"@de , "Saint Clive"@en , "Saint Clive"@fr , "Saint Clive"@de , "C.S Lewis"@en , "The Inner Ring"@en , "C S Lewis"@en , "C S Lewis"@fr , "The Inner Ring"@de , "C.S Lewis"@de , "The Inner Ring"@fr , "C S Lewis"@de , "C.S Lewis"@fr , "C.s. lewis"@en , "C.s. lewis"@fr , "C.s. lewis"@de , "N.W. Clerk"@en , "N.W. Clerk"@fr , "N.W. Clerk"@de , "Clives Staples Lewis"@en , "C. S Lewis"@en , "Clives Staples Lewis"@fr , "C. S Lewis"@fr , "C. S Lewis"@de , "Clives Staples Lewis"@de , "C.S. Lewis"@en , "C.S. Lewis"@fr , "C.S. Lewis"@de , "C Lewis"@en , "C Lewis"@de , "C Lewis"@fr , "Inner ring"@en , "Inner ring"@de , "Inner ring"@fr , "N. W. Clerk"@en , "St. Clive"@en , "N. W. Clerk"@de , "N. W. Clerk"@fr , "St. Clive"@de , "St. Clive"@fr , "Lewis"@fr , "Clive S Lewis"@en , "Clive S Lewis"@de , "Clive S Lewis"@fr , "Clive S. Lewis"@en , "Clive S. Lewis"@fr , "Clive S. Lewis"@de , "C. S. Lewis"@en , "C. S. Lewis"@fr , "C. S. Lewis"@de , "Clive"@fr , "C s lewis"@en , "C s lewis"@fr , "C s lewis"@de , "Clive Staples Lewis"@en , "Clive Staples Lewis"@fr , "Clive Staples Lewis"@de , "St Clive"@en , "St Clive"@fr , "St Clive"@de , "CS Lewis"@en , "CS Lewis"@fr , "CS Lewis"@de , "Cs lewis"@en , "Clive Lewis"@en , "C.s. louis"@en , "Cs lewis"@fr , "Clive Lewis"@fr , "Clive Lewis"@de , "Clive Staple Lewis"@de , "C.s. louis"@de , "C.s. louis"@fr , "Cs lewis"@de .
+
+<http://dbpedia.org/resource/Memphis,_Tennessee>
+        rdfs:label     "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennessee"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Memphis_(Tennessee)> , <http://de.dbpedia.org/resource/Memphis_(Tennessee)> ;
+        skos:altLabel  "Memphis TN"@de , "Memphis TN"@fr , "Memphis TN"@en , "Memphis, Tennesse"@de , "Memphis, Tennesse"@fr , "Memphis, Tennesse"@en , "LOCODE:USMEM"@en , "LOCODE:USMEM"@de , "LOCODE:USMEM"@fr , "TN Memphis"@en , "TN Memphis"@de , "TN Memphis"@fr , "Memphis"@en , "Memphis"@de , "Memphis"@fr , "Memphis Tennessee"@de , "Memphis Tennessee"@fr , "Memphis Tennessee"@en , "Memphis, tn"@en , "Memphis,TN"@en , "Memphis,TN"@de , "Memphis,TN"@fr , "Memphis, tn"@de , "Memphis, tn"@fr , "Memphrica"@de , "Memphrica"@fr , "Memphrica"@en , "Menphis"@en , "Menphis"@de , "Menphis"@fr , "Memphis, USA"@en , "Memphis, TN"@de , "Memphis, TN"@fr , "Memphis, TN"@en , "Memphis, USA"@fr , "Memphis, USA"@de , "Memfrica"@de , "Memfrica"@fr , "Memfrica"@en , "Memphis, Tennessee"@en , "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennesee"@de , "Memphis, Tennesee"@fr , "Memphis, Tennesee"@en .
+
+<http://dbpedia.org/resource/C._S._Lewis__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Memphis,_Tennessee> ;
+        dbo:from        "1995"^^xsd:gYear ;
+        dbo:to          "1995"^^xsd:gYear .

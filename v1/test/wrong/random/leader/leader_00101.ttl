@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0pj6q>
+        rdfs:label     "Level 7"@en , "Niveau 7"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Level_7> , <http://fr.dbpedia.org/resource/Niveau_7> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Niveau 7"@fr , "Level 7"@fr .
+
+<http://rdf.freebase.com/ns/m.04jly0j>
+        rdfs:label  "SevOne"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04jly0j__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/SevOne> .
+
+<http://rdf.freebase.com/ns/m.04jly0j__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0pj6q> ;
+        dbo:from             "2001"^^xsd:gYear ;
+        dbo:to               "2009"^^xsd:gYear .

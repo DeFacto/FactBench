@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Franklin_Pierce>
+        rdfs:label     "Franklin Pierce"@en , "Franklin Pierce"@fr , "Franklin Pierce"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Franklin_Pierce__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Franklin_Pierce> , <http://de.dbpedia.org/resource/Franklin_Pierce> ;
+        skos:altLabel  "Presidency of Franklin Pierce"@en , "Presidency of Franklin Pierce"@fr , "Presidency of Franklin Pierce"@de , "Franklin Pierce, Sr."@en , "Franklin Pierce, Jr."@en , "Franklin Pierce, Jr."@fr , "Franklin Pierce, Jr."@de , "14th President of the United States"@en , "14th President of the United States"@fr , "14th President of the United States"@de , "Franklin Pierce, Sr."@fr , "Pierce"@fr , "Pierce"@de , "Franklin Pierce, Sr."@de , "Franklin peirce"@en , "Franklin peirce"@fr , "Franklin peirce"@de , "Pierce Administration"@en , "Pierce Administration"@fr , "Pierce Administration"@de , "Frank Robert Pierce"@en , "Frank Robert Pierce"@fr , "Frank Robert Pierce"@de , "Franklyn Pierce"@en , "Franklyn Pierce"@fr , "Franklyn Pierce"@de , "Franklin Pierce"@en , "Franklin Pierce"@fr , "Franklin Pierce"@de , "President Pierce"@en , "President Pierce"@fr , "President Pierce"@de .
+
+<http://dbpedia.org/resource/Concord,_New_Hampshire>
+        rdfs:label     "Concord, New Hampshire"@en , "Concord, New Hampshire"@fr , "Concord, New Hampshire"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Concord_(New_Hampshire)> , <http://de.dbpedia.org/resource/Concord_(New_Hampshire)> ;
+        skos:altLabel  "Concord, N. H."@en , "Concord, N. H."@fr , "Concord, N. H."@de , "Concord"@en , "Concord"@fr , "Concord"@de , "Aeroport municipal de Concord"@fr , "Concord, nh"@en , "Concord New Hampshire"@en , "Concord, nh"@fr , "Concord New Hampshire"@fr , "Concord New Hampshire"@de , "Concord, nh"@de , "Concord, NH"@en , "Concord, NH"@fr , "Concord, NH"@de , "Aéroport municipal de Concord"@fr , "LOCODE:USCON"@en , "Concord, New Hampshire"@en , "LOCODE:USCON"@fr , "Concord, New Hampshire"@fr , "LOCODE:USCON"@de , "Concord, New Hampshire"@de , "Concord Municipal Airport"@fr , "Capital of New Hampshire"@en , "Capital of New Hampshire"@fr , "Capital of New Hampshire"@de .
+
+<http://dbpedia.org/resource/Franklin_Pierce__1>
+        dbo:from        "1869"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Concord,_New_Hampshire> ;
+        dbo:to          "1869"^^xsd:gYear .

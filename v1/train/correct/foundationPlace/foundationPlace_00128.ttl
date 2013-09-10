@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05b5c>
+        rdfs:label      "Nokia"@fr , "Nokia"@en , "Nokia"@de ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.05b5c__128> ;
+        owl:sameAs      <http://dbpedia.org/resource/Nokia> , <http://de.dbpedia.org/resource/Nokia> , <http://fr.dbpedia.org/resource/Nokia> ;
+        skos:altLabel   "Mobira"@fr , "Mobira"@de , "Mobira"@en , "Nokia World 2011"@fr , "Nokia World 2011"@de , "Nokia World 2011"@en , "Nokia corporation"@fr , "Nokia Music"@fr , "Nokia corporation"@de , "Nokia Music"@de , "Nokia Music"@en , "Nokia corporation"@en , "Nokia, Inc."@fr , "Nokia Messaging"@fr , "Nokia, Inc."@de , "Nokia Messaging"@de , "Nokia Messaging"@en , "Nokia, Inc."@en , "Nokia Corporation"@fr , "Nokia Corporation"@de , "Nokia Corporation"@en , "\"Comes With Music\""@fr , "\"Comes With Music\""@de , "\"Comes With Music\""@en , "Fredrik Idestam"@de , "Comes With Music"@fr , "Comes With Music"@de , "Comes With Music"@en , "Nokia Komárom"@de , "Nokia phone"@fr , "Nokia phone"@de , "Nokia phone"@en , "Nokia Oy"@fr , "Nokia Oy"@de , "Nokia Oy"@en , "Mobira Talkman"@fr , "Mobira Talkman"@de , "Mobira Talkman"@en , "Nokia"@fr , "Mobira Cityman"@fr , "Mobira Cityman"@de , "Mobira Cityman"@en , "Nokia Aero"@fr , "Nokia"@de , "Nokia"@en , "Nokia Corp."@fr , "Nokia Corp."@en , "Nokia Corp."@de , "Nokia Aero"@de , "Nokia Aero"@en , "Nokrosoft"@fr , "Mobira Senator"@fr , "Nokrosoft"@de , "Mobira Senator"@de , "Nokrosoft"@en , "Mobira Senator"@en , "The Nokia Corporation"@fr , "The Nokia Corporation"@de , "The Nokia Corporation"@en , "Nokia E9400"@fr , "Nokialand"@fr , "Nokia Komarom"@de , "Nokialand"@de , "Nokialand"@en , "Nokia Oyj"@fr , "Nokia E9400"@de , "Nokia Oyj"@en , "Nokia Oyj"@de , "Nokia E9400"@en , "Aero"@fr , "Aero"@de , "Aero"@en , "NokiaLaptop"@fr , "Network Alchemy"@fr , "NOKIA"@fr , "NokiaLaptop"@de , "Network Alchemy"@de , "Network Alchemy"@en , "NOKIA"@en , "NOKIA"@de , "NokiaLaptop"@en , "Nokia Comes With Music"@fr , "Nokia Comes With Music"@en , "Nokia Comes With Music"@de , "Nokia Research Center"@fr , "Nokia Research Center"@de , "Nokia Research Center"@en .
+
+<http://rdf.freebase.com/ns/m.05b5c__128>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01gnt0> ;
+        dbo:from             "1865"^^xsd:gYear ;
+        dbo:to               "1865"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01gnt0>
+        rdfs:label     "Nokia"@fr , "Nokia"@de , "Nokia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nokia_(Stadt)> , <http://fr.dbpedia.org/resource/Nokia_(ville)> , <http://dbpedia.org/resource/Nokia,_Finland> ;
+        skos:altLabel  "Nokia, Finland"@fr , "Nokia, Finland"@de , "Nokia, Finland"@en , "Pohjois-Pirkkala"@fr , "Pohjois-Pirkkala"@en , "Pohjois-Pirkkala"@de , "Nokia"@fr , "Nokia"@de , "Nokia"@en .

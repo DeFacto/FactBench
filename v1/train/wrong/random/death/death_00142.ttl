@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Philip_K._Dick>
+        rdfs:label     "Philip K. Dick"@de , "Philip K. Dick"@fr , "Philip K. Dick"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Philip_K._Dick__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Philip_K._Dick> , <http://de.dbpedia.org/resource/Philip_K._Dick> ;
+        skos:altLabel  "Phildickian"@fr , "Phildickian"@de , "Philip K Dick"@en , "Philip K Dick"@fr , "Philip K Dick"@de , "K dick"@en , "K dick"@fr , "K dick"@de , "Phillip K. Dick"@en , "Phillip K. Dick"@fr , "Phillip K. Dick"@de , "Philip k. dick"@en , "Philip k. dick"@fr , "Philip k. dick"@de , "Philip Kindred Dick"@en , "Philip Kindred Dick"@de , "Philip Kindred Dick"@fr , "In Pursuit of Valis"@en , "In Pursuit of Valis"@de , "In Pursuit of Valis"@fr , "P. K. Dick"@en , "Phillip K Dick"@en , "Phillip K Dick"@de , "Phillip K Dick"@fr , "P. K. Dick"@de , "P. K. Dick"@fr , "Philip K. Dick in popular culture"@en , "Philip K. Dick in popular culture"@de , "Philip K. Dick in popular culture"@fr , "Philip K. Dick"@en , "Philipp K. Dick"@en , "Philipp K. Dick"@fr , "Philipp K. Dick"@de , "Philip K. Dick"@fr , "Philip K. Dick"@de , "Phillip Kindred Dick"@en , "Philip dick"@en , "Phillip Dick"@en , "Vesicle pisces"@en , "P.K. Dick"@en , "Phillip Kindred Dick"@fr , "Phillip Kindred Dick"@de , "Philip dick"@de , "Philip dick"@fr , "Phillip Dick"@fr , "Vesicle pisces"@fr , "Phillip Dick"@de , "Vesicle pisces"@de , "P.K. Dick"@de , "P.K. Dick"@fr , "Dick"@fr , "Dick"@de , "Phil Dick"@en , "Phil K. Dick"@de , "Phil Dick"@fr , "Phil Dick"@de , "The Galactic Pot Healer"@en , "The Galactic Pot Healer"@fr , "The Galactic Pot Healer"@de , "Philip"@en , "Philip"@de , "Philip"@fr , "Philip k dick"@en , "Philip k dick"@de , "Philip k dick"@fr , "Jack Dowland"@en , "Jack Dowland"@fr , "Jack Dowland"@de , "PK Dick"@en , "PK Dick"@de , "PK Dick"@fr , "Philip Dick"@en , "Philip Dick"@fr , "Philip Dick"@de , "Phildickian"@en .
+
+<http://dbpedia.org/resource/Fort_Lauderdale,_Florida>
+        rdfs:label     "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fort_Lauderdale> , <http://de.dbpedia.org/resource/Fort_Lauderdale> ;
+        skos:altLabel  "Venedig Amerikas"@de , "Ft. Lauderdale, Fla."@en , "Ft. Lauderdale, Fla."@de , "Ft. Lauderdale, Fla."@fr , "Fort Laderdale, Florida"@en , "Fort Laderdale, Florida"@fr , "Fort Laderdale, Florida"@de , "Ft. Lauderdale"@en , "Ft. Lauderdale"@de , "Ft. Lauderdale"@fr , "Ft. Lauderdale, FL"@en , "Ft. Lauderdale, FL"@de , "Ft. Lauderdale, FL"@fr , "Ft. Lauderdale, Fl."@en , "Downtown Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Fl."@de , "Ft. Lauderdale, Fl."@fr , "Downtown Fort Lauderdale, Florida"@de , "Downtown Fort Lauderdale, Florida"@fr , "Ft Lauderdale, Florida"@en , "Ft Lauderdale, Florida"@de , "Ft Lauderdale, Florida"@fr , "Fort Lauderdale, FL"@en , "Fort Lauderdale, FL"@de , "Fort Lauderdale, FL"@fr , "Ft Lauderdale"@en , "Ft Lauderdale"@de , "Ft Lauderdale"@fr , "Ft lauderdale, fl"@en , "Ft lauderdale, fl"@fr , "Ft lauderdale, fl"@de , "Ft. Lauderdale, Florida"@en , "Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Ft. Lauderdale, Florida"@de , "Ft. lauderdale, fl"@en , "Ft. lauderdale, fl"@fr , "Ft. lauderdale, fl"@de , "L-City"@en , "L-City"@de , "L-City"@fr , "Fort lauderdale, fl"@en , "Fort lauderdale, fl"@de , "Fort lauderdale, fl"@fr , "Fort loderdale"@fr , "Lauderdale"@en , "Lauderdale"@de , "Lauderdale"@fr , "Das Venedig Amerikas"@de , "Fort Lauderdale"@en , "Fort Lauderdale"@de , "Fort Lauderdale"@fr , "Ft.Lauderdale"@en , "Ft.Lauderdale"@de , "Ft.Lauderdale"@fr , "Ft Lauderdale, FL"@en , "Ft Lauderdale, FL"@de , "Ft Lauderdale, FL"@fr .
+
+<http://dbpedia.org/resource/Philip_K._Dick__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Fort_Lauderdale,_Florida> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .

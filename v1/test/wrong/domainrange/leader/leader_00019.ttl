@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Joaquim_Rafael_Branco__1>
+        dbo:from    "1815"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Fiji> ;
+        dbo:to      "1815"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Fiji>
+        rdfs:label     "Fiji"@de , "Fiji"@fr , "Fiji"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fidji> , <http://de.dbpedia.org/resource/Fidschi> ;
+        skos:altLabel  "Fiji Archipelago"@en , "Fiji Archipelago"@fr , "Fiji Archipelago"@de , "Fiji Islands"@en , "Republique des iles Fidji"@fr , "Fiji Islands"@fr , "Fiji Islands"@de , "Sovereign Democratic Republic of Fiji"@en , "Sovereign Democratic Republic of Fiji"@fr , "Sovereign Democratic Republic of Fiji"@de , "Udu Point"@en , "Fidji"@en , "Fidji"@de , "Fidji"@fr , "Holidays in fiji"@en , "Holidays in fiji"@fr , "Holidays in fiji"@de , "Udu Point"@fr , "Udu Point"@de , "Republique des Fidji"@fr , "Republik Fidschi"@de , "Figi"@en , "Figi"@fr , "Figi"@de , "République des Fidji"@fr , "Republic of Fiji"@en , "Republic of Fiji"@fr , "Republic of Fiji"@de , "Chikoba"@en , "Chikoba"@fr , "Chikoba"@de , "Fidschi-Inseln"@de , "Fiji Islander"@en , "Fiji Islander"@fr , "Fiji Islander"@de , "Fidschiinseln"@de , "Îles Fidji"@fr , "Naitaubu"@en , "Naitaubu"@fr , "Naitaubu"@de , "Fijis"@en , "Holidays in Fiji"@en , "Fijis"@fr , "Holidays in Fiji"@fr , "Fijis"@de , "Holidays in Fiji"@de , "Name of Fiji"@en , "Fiji"@en , "Republic of the Fiji Islands"@en , "Name of Fiji"@fr , "Republic of the Fiji Islands"@fr , "Republic of the Fiji Islands"@de , "Fiji"@fr , "Name of Fiji"@de , "Fiji"@de , "Fiji's"@en , "Fiji's"@fr , "Iles Fidji"@fr , "Fiji's"@de , "FIJI"@en , "FIJI"@fr , "FIJI"@de , "Fidschi"@de , "Matanitu Ko Viti"@en , "Matanitu Ko Viti"@de , "Matanitu Ko Viti"@fr , "Matanitu Tu-Vaka-i-koya ko Viti"@fr , "Fidji Islands"@en , "Fidji Islands"@de , "Fidji Islands"@fr , "Fijian Islands"@en , "Tourism in Fiji"@en , "Votua"@en , "Fijian Islands"@fr , "Tourism in Fiji"@fr , "Tourism in Fiji"@de , "Fijian Islands"@de , "Votua"@fr , "Votua"@de , "ISO 3166-1:FJ"@en , "Etymology of Fiji"@en , "Cikobia"@en , "ISO 3166-1:FJ"@fr , "Etymology of Fiji"@fr , "Cikobia"@fr , "ISO 3166-1:FJ"@de , "Cikobia"@de , "Etymology of Fiji"@de , "Yacata"@en , "Yacata"@fr , "Yacata"@de , "République des Îles Fidji"@fr , "Votua, Fiji"@en , "Votua, Fiji"@fr , "Votua, Fiji"@de , "République des îles Fidji"@fr , "Republique des Iles Fidji"@fr , "Cannibal Isles"@en , "Cannibal Isles"@fr , "Cannibal Isles"@de , "Fiji Island"@en , "Fiji Island"@fr , "Fiji Island"@de , "Ile fidji"@fr .
+
+<http://dbpedia.org/resource/Joaquim_Rafael_Branco>
+        rdfs:label     "Joaquim Rafael Branco"@en , "Joaquim Rafael Branco"@fr , "Joaquim Rafael Branco"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Joaquim_Rafael_Branco__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Joaquim_Rafael_Branco> , <http://fr.dbpedia.org/resource/Joaquim_Rafael_Branco> ;
+        skos:altLabel  "Joaquim Rafael Branco"@fr , "Joaquim Rafael Branco"@de , "Joaquim"@fr , "Joaquim"@de , "Branco"@fr , "Branco"@de .

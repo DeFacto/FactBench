@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jomo_Kenyatta>
+        rdfs:label     "Jomo Kenyatta"@en , "Jomo Kenyatta"@fr , "Jomo Kenyatta"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jomo_Kenyatta__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jomo_Kenyatta> , <http://de.dbpedia.org/resource/Jomo_Kenyatta> ;
+        skos:altLabel  "Kenyatta, Jomo"@en , "Kenyatta, Jomo"@fr , "Kenyatta, Jomo"@de , "Jomo Kenyatta"@en , "Jomo Kenyatta"@fr , "Jomo Kenyatta"@de , "H. E. Mzee Jomo Kenyatta"@en , "Jomo Kenyata"@en , "Kamau wa Ngengi"@en , "H. E. Mzee Jomo Kenyatta"@fr , "Jomo Kenyata"@fr , "H. E. Mzee Jomo Kenyatta"@de , "Jomo Kenyata"@de , "Kamau wa Ngengi"@fr , "Kamau wa Ngengi"@de , "Johnstone Kamau"@en , "Johnstone Kamau"@fr , "Johnstone Kamau"@de , "Mzee Jomo Kenyatta"@en , "Mzee Jomo Kenyatta"@fr , "Mzee Jomo Kenyatta"@de , "Kamau Ngengi"@en , "Jomo Kenyatta: First President of Kenya"@en , "Kenyatta"@en , "Kamau Ngengi"@fr , "Jomo Kenyatta: First President of Kenya"@fr , "Kenyatta"@fr , "Jomo Kenyatta: First President of Kenya"@de , "Kenyatta"@de , "Kamau Ngengi"@de .
+
+<http://rdf.freebase.com/ns/m.081yw>
+        rdfs:label     "Washington"@de , "Washington"@en , "État de Washington"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/État_de_Washington> , <http://dbpedia.org/resource/Washington_(state)> , <http://de.dbpedia.org/resource/Washington_(Bundesstaat)> ;
+        skos:altLabel  "Washington State"@de , "Sports in Washington"@de , "The 42nd state"@en , "The 42nd state"@de , "The 42nd state"@fr , "State Washington"@en , "State Washington"@fr , "State Washington"@de , "Transport in Washington"@en , "Transport in Washington"@de , "Transport in Washington"@fr , "Washington state"@en , "Washington state"@de , "Etat de Washington"@fr , "Washington state"@fr , "State of Washington"@en , "State of Washington"@fr , "State of Washington"@de , "Transportation in Washington"@en , "Transportation in Washington"@de , "Transportation in Washington"@fr , "Washington"@en , "Washington"@fr , "Washington"@de , "US-WA"@en , "US-WA"@fr , "US-WA"@de , "Huashengdun"@en , "Huashengdun"@de , "Huashengdun"@fr , "Geography of Washington"@en , "Geography of Washington"@de , "Geography of Washington"@fr , "Climate of Washington"@en , "Government of Washington"@en , "Climate of Washington"@fr , "Climate of Washington"@de , "Government of Washington"@de , "Government of Washington"@fr , "Religion in Washington"@en , "Economy of Washington"@en , "Politics of Washington"@en , "Education in Washington"@en , "42nd State"@en , "Estado de Washington"@en , "Estado de Washington"@de , "Estado de Washington"@fr , "Washignton"@en , "Religion in Washington"@fr , "Education in Washington"@fr , "Religion in Washington"@de , "42nd State"@fr , "Washignton"@de , "Education in Washington"@de , "Washignton"@fr , "42nd State"@de , "Economy of Washington"@fr , "Politics of Washington"@fr , "Politics of Washington"@de , "Economy of Washington"@de , "Demographics of Washington"@en , "Washington Sports"@en , "Demographics of Washington"@fr , "Demographics of Washington"@de , "Washington Sports"@fr , "Washington Sports"@de , "Emerald state"@en , "Emerald state"@fr , "Emerald state"@de , "The emerald state"@en , "The emerald state"@de , "The emerald state"@fr , "Wash"@en , "The Evergreen State"@en , "The Evergreen State"@fr , "The Evergreen State"@de , "État de Washington"@fr , "Washington, Madras"@en , "WA"@en , "Sports in Washington"@en , "Sports in Washington"@fr .
+
+<http://dbpedia.org/resource/Jomo_Kenyatta__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.081yw> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .

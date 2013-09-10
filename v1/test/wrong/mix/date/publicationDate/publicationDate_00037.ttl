@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027sk_z>
+        rdfs:label  "Nameless Places"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Nameless_Places> .
+
+<http://rdf.freebase.com/ns/m.027sk74>
+        rdfs:label     "Gerald W. Page"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027sk74__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gerald_W._Page> ;
+        skos:altLabel  "Gerald Page"@en .
+
+<http://rdf.freebase.com/ns/m.027sk74__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027sk_z> ;
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:to      "1971"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Errol_Flynn__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Vancouver> ;
+        dbo:from        "1959-10-14"^^xsd:date ;
+        dbo:to          "1959-10-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Errol_Flynn>
+        rdfs:label     "Errol Flynn"@en , "Errol Flynn"@fr , "Errol Flynn"@de ;
+        dbo:death      <http://dbpedia.org/resource/Errol_Flynn__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Errol_Flynn> , <http://de.dbpedia.org/resource/Errol_Flynn> ;
+        skos:altLabel  "Errol Flynn"@fr , "Errol Flynn"@de , "Errol Flynn"@en , "Betsy Hansen"@fr , "Betsy Hansen"@de , "Betsy Hansen"@en , "Eroll Flynn"@fr , "Eroll Flynn"@de , "Eroll Flynn"@en , "Erol Flynn"@fr , "Errol"@fr , "Errol"@de , "Errol"@en , "Errol Flyn"@fr , "Errol Flyn"@de , "Errol Flyn"@en , "Errol Leslie Flynn"@fr , "Erroll Flynn"@fr , "Erol Flynn"@de , "Errol Leslie Flynn"@de , "Errol Leslie Flynn"@en , "Erol Flynn"@en , "Erroll Flynn"@de , "Erroll Flynn"@en , "Flynn"@fr , "Flynn"@de , "Flynn"@en , "Erol Flyn"@fr , "Erol Flyn"@de , "Errol Leslie Thomson Flynn"@de , "Erol Flyn"@en .
+
+<http://dbpedia.org/resource/Vancouver>
+        rdfs:label     "Vancouver"@de , "Vancouver"@fr , "Vancouver"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Vancouver> , <http://fr.dbpedia.org/resource/Vancouver> ;
+        skos:altLabel  "Vancouver, British Columbia, Canada"@fr , "Vancouver, British Columbia, Canada"@en , "Vancouver, British Columbia, Canada"@de , "Vancouver, British Colombia"@fr , "Vancouver, British Colombia"@de , "Vancouver, British Colombia"@en , "Vancouver British Columbia"@fr , "City of Vancouver"@fr , "Vancouver British Columbia"@de , "City of Vancouver"@de , "City of Vancouver"@en , "Vancouver British Columbia"@en , "Vancouver, BC, Canada"@fr , "Vancouver, BC, Canada"@de , "Vancouver, BC, Canada"@en , "Hastings East"@fr , "Hastings East"@en , "Hastings East"@de , "Vancouver Canada"@fr , "Vancouver Canada"@en , "Vancouver Canada"@de , "Vancover, British Columbia"@fr , "Vancouver, British-Columbia"@fr , "Vancouver, British-Columbia"@de , "Vancouver, British-Columbia"@en , "Vancover, British Columbia"@de , "Vancover, British Columbia"@en , "Vancouvr"@fr , "Vancouver City Centre, British Columbia"@fr , "Vancouver City Centre, British Columbia"@en , "Vancouver City Centre, British Columbia"@de , "Vancouvr"@de , "Vancouvr"@en , "LOCODE:CAVAN"@fr , "Vancouver, B.C., Canada"@fr , "Hong couver"@fr , "LOCODE:CAVAN"@de , "Vancouver, B.C., Canada"@de , "Hong couver"@de , "Hong couver"@en , "LOCODE:CAVAN"@en , "Vancouver, B.C., Canada"@en , "Hongcouver"@fr , "Vancouver, BC"@fr , "Hongcouver"@de , "Vancouver, BC"@de , "Vancouver, BC"@en , "Hongcouver"@en , "Vancover"@fr , "Vancover"@en , "Vancover"@de , "Vancouver, B.C."@fr , "Vancouver, B.C."@de , "Vancouver, B.C."@en , "Vancouver BC"@fr , "Vancouver BC"@de , "Vancouver BC"@en , "Greater Vancouver Bridges"@fr , "Greater Vancouver Bridges"@de , "Greater Vancouver Bridges"@en , "Vancouver, bc"@fr , "Vancouver, bc"@de , "Vancouver, bc"@en , "Vancouverite"@fr , "Vancouverite"@de , "Vancouverite"@en , "Vanocuver"@fr , "Vancouver, British Columbia"@fr , "Vanocuver"@de , "Vancouver, British Columbia"@de , "Vanocuver"@en , "Vancouver, British Columbia"@en , "Vansterdam"@fr , "Vansterdam"@de , "Vansterdam"@en , "Hong kouver"@fr , "Hong kouver"@de , "Hong kouver"@en , "Vancouver"@fr , "Vancouver"@de , "Vancouver"@en , "Vancouver, Canada"@fr , "Vancouver, Canada"@de , "Vancouver, Canada"@en , "Vancouverites"@fr , "Vancouverites"@en , "Vancouverites"@de .

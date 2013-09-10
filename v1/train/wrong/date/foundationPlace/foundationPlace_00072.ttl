@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05rhc2>
+        rdfs:label  "Intuit Canada"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05rhc2__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Intuit_Canada> .
+
+<http://rdf.freebase.com/ns/m.0nlh7>
+        rdfs:label     "Edmonton"@de , "Edmonton"@fr , "Edmonton"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edmonton> , <http://dbpedia.org/resource/Edmonton> , <http://de.dbpedia.org/resource/Edmonton> ;
+        skos:altLabel  "Edmonoton, Alberta"@en , "Edmonoton, Alberta"@de , "Edmonoton, Alberta"@fr , "Edmontonians"@en , "Edmontonians"@de , "Edmontonians"@fr , "Edmonton, Alberta, Canada"@en , "Edmonton, Alberta, Canada"@fr , "Edmonton, Alberta, Canada"@de , "Edmonton Alberta"@en , "Edmonton Alberta"@de , "Edmonton Alberta"@fr , "82 Street, Edmonton"@en , "82 Street, Edmonton"@fr , "82 Street, Edmonton"@de , "E town"@en , "E town"@fr , "E town"@de , "184 Street, Edmonton"@en , "184 Street, Edmonton"@de , "184 Street, Edmonton"@fr , "Hayter Road"@en , "Hayter Road"@de , "Hayter Road"@fr , "Edmonton, AB"@en , "Edmonton, AB"@fr , "Edmonton, AB"@de , "City of Edmonton"@en , "City of Edmonton"@fr , "City of Edmonton"@de , "Clover Bar, Edmonton"@en , "Clover Bar, Edmonton"@de , "Clover Bar, Edmonton"@fr , "17 Street, Edmonton"@en , "17 Street, Edmonton"@de , "17 Street, Edmonton"@fr , "17 Street NW, Edmonton"@en , "LOCODE:CAEDM"@en , "17 Street NW, Edmonton"@fr , "LOCODE:CAEDM"@de , "LOCODE:CAEDM"@fr , "17 Street NW, Edmonton"@de , "The weather in Edmonton"@en , "The weather in Edmonton"@de , "The weather in Edmonton"@fr , "159 Street, Edmonton"@en , "159 Street, Edmonton"@de , "159 Street, Edmonton"@fr , "S.Bruce Smith School"@en , "S.Bruce Smith School"@de , "S.Bruce Smith School"@fr , "Edmonton"@en , "Edmonton"@fr , "Edmonton"@de , "S. Bruce Smith School"@en , "S. Bruce Smith School"@fr , "S. Bruce Smith School"@de , "Edmonchuk"@en , "Edmonchuk"@de , "Edmonchuk"@fr , "Edmonton, Canada"@en , "Edmonton, Canada"@fr , "Edmonton, Canada"@de , "Edmonton, Alberta"@en , "Edmonton, Alberta"@de , "Edmonton, Alberta"@fr .
+
+<http://rdf.freebase.com/ns/m.05rhc2__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0nlh7> ;
+        dbo:from             "1996"^^xsd:gYear ;
+        dbo:to               "1996"^^xsd:gYear .

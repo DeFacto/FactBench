@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Braintree,_Massachusetts>
+        rdfs:label     "Braintree, Massachusetts"@en , "Braintree, Massachusetts"@fr , "Braintree, Massachusetts"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Braintree_(Massachusetts)> ;
+        skos:altLabel  "Braintree, Ma"@en , "Braintree, Ma"@de , "Braintree (CDP), Massachusetts"@en , "Braintree (CDP), Massachusetts"@de , "South Braintree"@en , "South Braintree"@de , "Braintree (CDP), Norfolk County, Massachusetts"@en , "Braintree (CDP), Norfolk County, Massachusetts"@de , "South Braintree, Massachusetts"@en , "Braintree (town), MA"@en , "Braintree (town), MA"@de , "South Braintree, Massachusetts"@de , "Braintree (CDP), MA"@en , "Braintree (CDP), Norfolk County, MA"@en , "Braintree (CDP), Norfolk County, MA"@de , "Braintree, MA"@en , "Braintree, Massachusetts"@en , "Braintree, MA"@de , "Braintree (town), Massachusetts"@en , "Braintree (CDP), MA"@de , "Braintree, Massachusetts"@de , "Braintree (town), Massachusetts"@de , "Braintree"@en , "Braintree"@de , "Braintree, Mass"@en , "Braintree, Mass"@de , "Braintree (town), Norfolk County, Massachusetts"@en , "Braintree (town), Norfolk County, Massachusetts"@de , "Braintree (town), Norfolk County, MA"@en , "Braintree (town), Norfolk County, MA"@de .
+
+<http://dbpedia.org/resource/Robbie_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Braintree,_Massachusetts> ;
+        dbo:from        "1978"^^xsd:gYear ;
+        dbo:to          "1978"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Robbie_Williams>
+        rdfs:label     "Robbie Williams"@fr , "Robbie Williams"@de , "Robbie Williams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robbie_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robbie_Williams> , <http://de.dbpedia.org/resource/Robbie_Williams> ;
+        skos:altLabel  "Robbie williams"@en , "Robbie williams"@fr , "Robbie williams"@de , "Pure Frances"@en , "Farrell"@en , "Rabi viliams"@en , "Pure Frances"@fr , "Rabi viliams"@fr , "Pure Frances"@de , "Rabi viliams"@de , "Robbie"@fr , "Farrell"@fr , "Farrell"@de , "Råbi viliams"@en , "Robbie Williams"@en , "Robert Peter Williams"@en , "Williams, Robbie"@en , "Robbie William"@fr , "Råbi viliams"@fr , "Robbie Williams"@fr , "Williams"@fr , "Robert Peter Williams"@fr , "Robbie Williams"@de , "Robert Peter Maximilian Williams"@de , "Robby Williams"@de , "Williams, Robbie"@fr , "Råbi viliams"@de , "Robert Peter Williams"@de , "Williams, Robbie"@de .

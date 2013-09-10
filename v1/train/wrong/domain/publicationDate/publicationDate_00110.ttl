@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02y49>
+        rdfs:label     "Fritz Leiber"@en , "Fritz Leiber"@fr , "Fritz Leiber"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02y49__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Fritz_Leiber> , <http://de.dbpedia.org/resource/Fritz_Leiber> , <http://fr.dbpedia.org/resource/Fritz_Leiber_(écrivain)> ;
+        skos:altLabel  "Fritz leiber"@fr , "Leiber"@en , "Leiber"@fr , "Leiber"@de , "Fritz"@en , "Fritz"@fr , "Fritz"@de , "Fritz Leiber, Jr."@en , "Fritz Reuter Leiber, Jr."@en , "Fritz Reuter Leiber, Jr."@fr , "Fritz Reuter Leiber, Jr."@de , "Fritz Leiber"@en , "Fritz Leiber Jr."@en , "Fritz Leiber"@fr , "Fritz Leiber Jr."@fr , "Fritz Leiber"@de , "Fritz Leiber Jr."@de , "Fritz Lieber"@en , "Fritz Lieber"@fr , "Fritz Lieber"@de , "Fritz Reuter Leiber Jr."@en .
+
+<http://rdf.freebase.com/ns/m.02y49__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0dvrr3> ;
+        dbo:from    "1989"^^xsd:gYear ;
+        dbo:to      "1989"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0dvrr3>
+        rdfs:label  "The War Machine"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_War_Machine> .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Fayetteville,_Georgia>
+        rdfs:label     "Fayetteville, Georgia"@en , "Fayetteville, Georgia"@fr , "Fayetteville, Georgia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fayetteville_(Géorgie)> , <http://de.dbpedia.org/resource/Fayetteville_(Georgia)> ;
+        skos:altLabel  "Fayetteville, Georgia"@fr , "Fayetteville, Georgia"@de , "Fayetteville, GA"@de , "Fayetteville, GA"@fr , "Fayetteville"@fr , "Fayetteville"@de , "LOCODE:USFYE"@fr , "LOCODE:USFYE"@de .
+
+<http://rdf.freebase.com/ns/m.04638_4>
+        rdfs:label  "Craig Conway"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04638_4__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Craig_Conway_(actor)> .
+
+<http://rdf.freebase.com/ns/m.04638_4__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Fayetteville,_Georgia> ;
+        dbo:to      "2007"^^xsd:gYear .

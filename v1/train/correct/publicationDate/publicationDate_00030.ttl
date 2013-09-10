@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014ps4>
+        rdfs:label       "Gene Wolfe"@en , "Gene Wolfe"@de , "Gene Wolfe"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0271xb4__30> ;
+        owl:sameAs       <http://dbpedia.org/resource/Gene_Wolfe> , <http://de.dbpedia.org/resource/Gene_Wolfe> , <http://fr.dbpedia.org/resource/Gene_Wolfe> ;
+        skos:altLabel    "Gene wlfe"@fr , "Gene wlfe"@de , "Gene wlfe"@en , "Wolfe"@fr , "Gene Rodman Wolfe"@en , "Wolfe"@de , "Gene wolfe"@fr , "Gene wolfe"@de , "Gene wolfe"@en , "Gene wolf"@fr , "Gene wolf"@de , "Gene wolf"@en , "Gene Wolfe"@fr , "Gene Wolfe"@de , "Gene Wolfe"@en , "Gene Wolf"@fr .
+
+<http://dbpedia.org/resource/The_Urth_of_the_New_Sun>
+        skos:altLabel  "Urth of the New Sun"@en , "The Urth of the New Sun"@en .
+
+<http://rdf.freebase.com/ns/m.0271xb4>
+        rdfs:label  "The Urth of the New Sun"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Urth_of_the_New_Sun> .
+
+<http://rdf.freebase.com/ns/m.0271xb4__30>
+        dbo:author  <http://rdf.freebase.com/ns/m.0271xb4> ;
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:to      "1987"^^xsd:gYear .

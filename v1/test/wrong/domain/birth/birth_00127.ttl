@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Novi_Sad>
+        rdfs:label     "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Novi_Sad> , <http://de.dbpedia.org/resource/Novi_Sad> ;
+        skos:altLabel  "Capital of Vojvodina"@de , "Capital of Vojvodina"@fr , "Capital of Vojvodina"@en , "Ujvidek"@de , "Ujvidek"@fr , "Ujvidek"@en , "Újvidék"@de , "Újvidék"@fr , "Újvidék"@en , "Serbian Athens"@de , "Serbian Athens"@fr , "Serbian Athens"@en , "Ujvidék"@de , "Ujvidék"@fr , "Ujvidék"@en , "Novi Sad, Serbia"@en , "Novi Sad, Serbia"@de , "Novi Sad, Serbia"@fr , "Ratzenstadt"@de , "Neusatz"@de , "Neusatz"@fr , "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en , "Novi"@de , "Novi"@fr , "Novi"@en , "City of Novi Sad"@de , "City of Novi Sad"@fr , "City of Novi Sad"@en , "Novi Sad City"@de , "Novi Sad City"@fr , "Novi Sad City"@en , "Neusatz an der Donau"@de , "Serb Athens"@de , "Serb Athens"@fr , "Serb Athens"@en , "Nowi Sad"@de .
+
+<http://dbpedia.org/resource/Dean_Martin__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Novi_Sad> ;
+        dbo:from        "1973"^^xsd:gYear ;
+        dbo:to          "1973"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dean_Martin>
+        rdfs:label     "Dean Martin"@en , "Dean Martin"@fr , "Dean Martin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dean_Martin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dean_Martin> , <http://de.dbpedia.org/resource/Dean_Martin> ;
+        skos:altLabel  "Dean"@fr , "Dino Crocetti"@en , "Dino Crocetti"@fr , "Dino Crocetti"@de , "Martin"@fr , "Dean Martin"@en , "Dino Martini"@en , "Dean Martin"@fr , "Dean Martin"@de , "Dino Martini"@fr , "Dino Martini"@de , "Dino Martin"@en , "Dino Paul Crocetti"@en , "Dino Paul Crocetti"@fr , "Dino Paul Crocetti"@de , "Dino Martin"@fr , "Dino Martin"@de , "Martin, Dean"@en , "Martin, Dean"@fr , "Martin, Dean"@de .

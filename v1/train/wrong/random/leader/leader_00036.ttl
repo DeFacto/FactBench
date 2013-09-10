@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chempu>
+        rdfs:label  "Chempu"@en , "Chempu"@fr , "Chempu"@de .
+
+<http://rdf.freebase.com/ns/m.03y7mdb__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Chempu> ;
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:to          "1967"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03y7mdb>
+        rdfs:label  "Techexcel"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03y7mdb__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Techexcel> .

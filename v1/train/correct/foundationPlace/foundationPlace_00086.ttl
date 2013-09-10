@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0b6v17__86>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0619_> ;
+        dbo:from             "2003"^^xsd:gYear ;
+        dbo:to               "2003"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0b6v17>
+        rdfs:label      "Redxpress"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0b6v17__86> ;
+        owl:sameAs      <http://dbpedia.org/resource/Redxpress> .
+
+<http://dbpedia.org/resource/Redxpress>
+        skos:altLabel  "Redxpress"@en .
+
+<http://rdf.freebase.com/ns/m.0619_>
+        rdfs:label     "Portsmouth"@fr , "Portsmouth"@de , "Portsmouth"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Portsmouth> , <http://dbpedia.org/resource/Portsmouth> , <http://fr.dbpedia.org/resource/Portsmouth> ;
+        skos:altLabel  "Portsmouth, United Kingdom"@fr , "Portsmouth, United Kingdom"@en , "Portsmouth, United Kingdom"@de , "St Edmund's RC School"@fr , "St Edmund's RC School"@en , "St Edmund's RC School"@de , "King Richard Secondary School"@fr , "King Richard Secondary School"@en , "King Richard Secondary School"@de , "City Of Portsmouth"@en , "Portsmouth, Hampshire, England"@en , "Portsmouth, England"@fr , "Portsmouth, England"@en , "Portsmouth, England"@de , "Springfield School"@fr , "Springfield School"@en , "Springfield School"@de , "GB-POR"@de , "Portsmouth City Council"@fr , "Portsmouth City Council"@en , "Portsmouth City Council"@de , "Havenmuiden"@fr , "Havenmuiden"@en , "Havenmuiden"@de , "St Luke's School"@fr , "St Luke's School"@en , "St Luke's School"@de , "LOCODE:GBPME"@fr , "Milton Cross School"@fr , "Portsmouth UA"@fr , "Portsmouth UA"@en , "Portsmouth UA"@de , "Milton Cross School"@en , "LOCODE:GBPME"@en , "LOCODE:GBPME"@de , "Milton Cross School"@de , "City of Portsmouth"@fr , "City of Portsmouth"@en , "City of Portsmouth"@de , "County Borough of Portsmouth"@fr , "County Borough of Portsmouth"@en , "County Borough of Portsmouth"@de , "Portsmouth, Britain"@fr , "Portsmouth, Britain"@en , "Portsmouth"@en , "Portsmouth"@de , "Portsmouth"@fr , "Portsmouth, Britain"@de .

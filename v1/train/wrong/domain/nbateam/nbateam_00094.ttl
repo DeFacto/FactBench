@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Miami_Heat>
+        rdfs:label     "Miami Heat"@en , "Miami Heat"@fr , "Miami Heat"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Heat_de_Miami> , <http://de.dbpedia.org/resource/Miami_Heat> ;
+        skos:altLabel  "Heat basketball"@en , "Heat basketball"@fr , "Heat basketball"@de , "Heat"@en , "Heat"@fr , "Heat"@de , "Heat de Miami"@fr , "Miami HEAT"@en , "Miami HEAT"@fr , "Heat De Miami"@fr , "Miami HEAT"@de , "History of the Miami Heat"@en , "Head Coaches of the Miami Heat"@en , "History of the Miami Heat"@fr , "Head Coaches of the Miami Heat"@fr , "Head Coaches of the Miami Heat"@de , "History of the Miami Heat"@de , "Miami Heat"@en , "Miami Heat"@fr , "Miami Heat"@de , "Heat de miami"@fr .
+
+<http://dbpedia.org/resource/Gerald_Green>
+        rdfs:label     "Gerald Green"@en , "Gerald Green"@fr , "Gerald Green"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Gerald_Green__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Gerald_Green> , <http://de.dbpedia.org/resource/Gerald_Green_(Basketballspieler)> ;
+        skos:altLabel  "Gerald Green"@en , "Gerald Green"@fr , "Gerald Green"@de .
+
+<http://dbpedia.org/resource/Gerald_Green__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Miami_Heat> ;
+        dbo:to    "2012"^^xsd:gYear .

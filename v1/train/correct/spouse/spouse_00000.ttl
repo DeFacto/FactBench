@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0dvld>
+        rdfs:label     "Kate Winslet"@de , "Kate Winslet"@en , "Kate Winslet"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0dvld__0> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kate_Winslet> , <http://de.dbpedia.org/resource/Kate_Winslet> , <http://fr.dbpedia.org/resource/Kate_Winslet> ;
+        skos:altLabel  "Roger Winslet"@de , "Kate Winslet"@de , "Kate Winslet"@en , "Corset Kate"@en , "Corset Kate"@fr , "Roger Winslet"@en , "Winslet"@fr , "Winslet"@de , "Kate Elizabeth Winslet"@fr , "Kate Elizabeth Winslet"@en , "Winslet"@en , "Kate winslet"@fr , "Kate winslet"@de , "Kate winslet"@en , "Kate"@fr , "Kate Elizabeth Winslet, CBE"@en , "Kate Elizabeth Winslet, CBE"@fr , "English Rose"@fr , "English Rose"@en , "List of Kate Winslet awards and nominations"@fr , "List of Kate Winslet awards and nominations"@de , "List of Kate Winslet awards and nominations"@en , "Kate Winslett"@fr , "Kate Winslett"@de , "Kate Winslett"@en , "Roger Winslet"@fr , "Kate Winslet"@fr .
+
+<http://rdf.freebase.com/ns/m.01j2xj>
+        rdfs:label     "Sam Mendes"@en , "Sam Mendes"@de , "Sam Mendes"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Sam_Mendes> , <http://fr.dbpedia.org/resource/Sam_Mendes> , <http://de.dbpedia.org/resource/Sam_Mendes> ;
+        skos:altLabel  "Sam Mendes"@fr , "Sam Mendes"@de , "Samuel Alexander \"Sam\" Mendes"@en , "Sam Mendes"@en , "Midas Mendes"@en , "Mendes"@de , "Sam Mendès"@fr , "Samuel Alexander Mendes"@fr , "Samuel Alexander Mendes"@de , "Samuel Alexander Mendes"@en .
+
+<http://rdf.freebase.com/ns/m.0dvld__0>
+        dbo:from    "2003-05-24"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01j2xj> ;
+        dbo:to      "2010"^^xsd:gYear .

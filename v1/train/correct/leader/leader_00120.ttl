@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Portugal>
+        rdfs:label     "Portugal"@en , "Portugal"@fr , "Portugal"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Portugal> , <http://fr.dbpedia.org/resource/Portugal> ;
+        skos:altLabel  "Phû-tô-gâ"@en , "Phû-tô-gâ"@de , "Phû-tô-gâ"@fr , "Republica Portuguesa"@en , "Republica Portuguesa"@de , "Republica Portuguesa"@fr , "Portugual"@en , "Portugual"@de , "Portugual"@fr , "Potigal"@en , "Potigal"@de , "Potigal"@fr , "Bồ Đào Nha"@fr , "Bồ Đào Nha"@en , "Bồ Đào Nha"@de , "An Phortaingeil"@en , "An Phortaingeil"@de , "An Phortaingeil"@fr , "PORTUGAL"@en , "PORTUGAL"@de , "PORTUGAL"@fr , "Portugaleje"@en , "Portugaleje"@de , "Portugaleje"@fr , "Potiti"@en , "Potiti"@de , "Potiti"@fr , "Portegal"@en , "Portegal"@de , "Portegal"@fr , "Emplastro"@en , "Emplastro"@de , "Emplastro"@fr , "Portekîz"@en , "Portekîz"@de , "Portekîz"@fr , "Bo Đao Nha"@fr , "O Papagaio"@fr , "Phu-to-ga"@en , "Phu-to-ga"@de , "Bo Đao Nha"@en , "Bo Đao Nha"@de , "Portuguese Republic"@en , "Portuguese Republic"@de , "Portuguese Republic"@fr , "Portugale"@en , "Portugale"@de , "Portugale"@fr , "República Portuguesa"@en , "República Portuguesa"@de , "República Portuguesa"@fr , "Portgual"@en , "O Papagaio"@en , "O Papagaio"@de , "Portgual"@de , "Portgual"@fr , "Phu-to-ga"@fr , "Portugál"@en , "Portugál"@de , "Portugál"@fr , "Portugallu"@fr , "Portugallu"@en , "Portugallu"@de , "Portugali"@en , "Portugali"@de , "Portogallo"@en , "Portogallo"@de , "Portogallo"@fr , "Portugali"@fr , "Republique Portugaise"@fr , "Portugalėjė"@fr , "Portugalėjė"@en , "Portekiz"@en , "Portekiz"@de , "Portekiz"@fr , "Portyngal"@en , "Portyngal"@de , "Portyngal"@fr , "Portugalėjė"@de , "Portogalo"@fr , "Portogało"@fr , "Portogało"@en , "Portogało"@de , "Portogalo"@en , "Portogalo"@de , "Republique portugaise"@fr , "République portugaise"@fr , "Pōtītī"@en , "Pōtītī"@de , "Pōtītī"@fr , "Portugalujo"@en , "Portugalujo"@de , "Portugalujo"@fr , "Republic of Portugal"@en , "Portunga"@en , "Portunga"@de , "Portunga"@fr , "Portugalska"@en , "Portugalska"@de , "Portugalska"@fr , "Republic of Portugal"@de , "ISO 3166-1:PT"@en , "ISO 3166-1:PT"@de , "ISO 3166-1:PT"@fr , "Portugal"@en , "Portugal"@de , "Portugal"@fr , "Republic of Portugal"@fr , "Portugul"@fr , "Portugul"@en , "Portugul"@de , "Portugaul"@en , "Portugaul"@de , "Portugaul"@fr , "Portugāle"@en , "Portugāle"@de , "Portugāle"@fr , "Portugiesische Republik"@de , "Portugalija"@en , "Portugalija"@de , "Portugalija"@fr , "Portugall"@en , "Portugall"@de , "Portugall"@fr , "Portiwgal"@en , "Portiwgal"@de , "Portiwgal"@fr , "Bo Dao Nha"@en , "Bo Dao Nha"@de , "Bo Dao Nha"@fr , "Yn Phortiugal"@en , "Yn Phortiugal"@de , "Yn Phortiugal"@fr , "Portúgal"@fr , "Portúgal"@en , "Portúgal"@de , "Portugalsko"@en , "Portugalsko"@de , "Portugalsko"@fr , "Portuga"@en , "Portuga"@de , "Portuga"@fr , "Portugaises"@fr , "Pòtigal"@en , "Pòtigal"@de , "Pòtigal"@fr , "An Phortaingéil"@en , "An Phortaingéil"@de , "An Phortaingéil"@fr , "Portûnga"@fr , "Portûnga"@en , "Portûnga"@de , "Pertual"@en , "Pertual"@de , "Pertual"@fr , "Portugalio"@en , "Portugalio"@de , "Portugalio"@fr , "République Portugaise"@fr .
+
+<http://dbpedia.org/resource/Mário_Soares__2>
+        dbo:from    "1976-07-23"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Portugal> ;
+        dbo:to      "1978-08-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Mário_Soares>
+        rdfs:label     "Mário Soares"@en , "Mário Soares"@fr , "Mário Soares"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Mário_Soares__2> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mário_Soares> , <http://de.dbpedia.org/resource/Mário_Soares> ;
+        skos:altLabel  "Mário Alberto Nobre Lopes Soares"@fr , "Mário Alberto Nobre Lopes Soares"@de , "Mário Soares"@fr , "Mario Alberto Nobre Lopes Soares"@fr , "Mário Soares"@de , "Mario Alberto Nobre Lopes Soares"@de , "Mario Soares"@fr , "Mario Soares"@de , "Mário Soarès"@fr .

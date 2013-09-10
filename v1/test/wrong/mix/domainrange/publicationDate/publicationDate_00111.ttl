@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02g75__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01j2f2> ;
+        dbo:from    "1943"^^xsd:gYear ;
+        dbo:to      "1943"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01j2f2>
+        rdfs:label     "Anthem"@en , "Hymne"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Anthem_(novella)> , <http://fr.dbpedia.org/resource/Hymne_(livre)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Anthem"@en , "Anthem"@fr , "Hymne"@fr .
+
+<http://rdf.freebase.com/ns/m.02g75>
+        rdfs:label     "Dan Simmons"@en , "Dan Simmons"@fr , "Dan Simmons"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02g75__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dan_Simmons> , <http://fr.dbpedia.org/resource/Dan_Simmons> , <http://dbpedia.org/resource/Dan_Simmons> ;
+        skos:altLabel  "Dan Simmons"@en , "Dan Simmons"@de , "Dan Simmons"@fr , "Daniel Simmons"@en , "Simmons"@fr , "Simmons"@de , "Dan Simmon"@en , "Dan Simmon"@fr , "Dan Simmon"@de .

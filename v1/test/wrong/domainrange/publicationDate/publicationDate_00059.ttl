@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04_pjf>
+        rdfs:label     "The Poison Belt"@en , "La Ceinture empoisonnée"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Poison_Belt> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/La_Ceinture_empoisonnée> ;
+        skos:altLabel  "La ceinture empoisonee"@fr , "The Poison Belt"@fr , "La Ceinture Empoisonnée"@fr , "La Ceinture Empoisonnee"@fr , "La ceinture empoisonée"@fr , "La ceinture empoisonnée"@fr , "La ceinture empoisonnee"@fr , "La Ceinture empoisonnée"@fr , "La Ceinture empoisonnee"@fr .
+
+<http://rdf.freebase.com/ns/m.027sk74>
+        rdfs:label     "Gerald W. Page"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027sk74__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gerald_W._Page> ;
+        skos:altLabel  "Gerald Page"@en .
+
+<http://rdf.freebase.com/ns/m.027sk74__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04_pjf> ;
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:to      "2003"^^xsd:gYear .

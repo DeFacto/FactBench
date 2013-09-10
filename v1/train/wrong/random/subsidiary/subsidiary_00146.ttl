@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027rkcs__1>
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.07jznv> ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07jznv>
+        rdfs:label     "Abbie Cornish"@en , "Abbie Cornish"@fr , "Abbie Cornish"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Abbie_Cornish> , <http://de.dbpedia.org/resource/Abbie_Cornish> , <http://dbpedia.org/resource/Abbie_Cornish> ;
+        skos:altLabel  "Abblie Cornish"@en , "Abby Cornish"@fr , "Abby Cornish"@de , "Abbigale Cornish"@en , "Abbie Cornish"@fr , "Abbie Cornish"@de , "Cornish"@fr , "Cornish"@de .
+
+<http://rdf.freebase.com/ns/m.027rkcs>
+        rdfs:label     "Alexis Valdés"@en , "Alexis Valdés"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027rkcs__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Alexis_Vald%C3%A9s> ;
+        skos:altLabel  "Alexis Valdes"@en .

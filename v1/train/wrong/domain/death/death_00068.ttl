@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mary_Pickford__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Oak_Hill,_West_Virginia> ;
+        dbo:from        "1953"^^xsd:gYear ;
+        dbo:to          "1953"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Oak_Hill,_West_Virginia>
+        rdfs:label     "Oak Hill, West Virginia"@en , "Oak Hill, West Virginia"@fr , "Oak Hill, West Virginia"@de ;
+        skos:altLabel  "Oak Hill, WV"@en , "Oak Hill, West Virginia"@en , "Oak Hill"@en .
+
+<http://dbpedia.org/resource/Mary_Pickford>
+        rdfs:label     "Mary Pickford"@en , "Mary Pickford"@fr , "Mary Pickford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mary_Pickford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mary_Pickford> , <http://fr.dbpedia.org/resource/Mary_Pickford> ;
+        skos:altLabel  "Mary Gladys Louise Smith"@en , "Mary Pickford"@en , "MaryPickford"@en , "Dorothy Nicholson"@fr , "Mary Gladys Louise Smith"@fr , "MaryPickford"@de , "MaryPickford"@fr , "Mary Pickford"@fr , "Mary Pickford"@de , "Mary Gladys Louise Smith"@de , "Pickford"@en , "Pickford"@fr , "Pickford"@de .

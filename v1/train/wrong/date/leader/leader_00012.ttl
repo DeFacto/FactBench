@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pierre_Trudeau__1>
+        dbo:from    "1966"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Canada> ;
+        dbo:to      "1986"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Pierre_Trudeau>
+        rdfs:label     "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Pierre Trudeau"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Pierre_Trudeau__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pierre_Elliott_Trudeau> , <http://de.dbpedia.org/resource/Pierre_Trudeau> ;
+        skos:altLabel  "Trudeau"@en , "Trudeau"@de , "Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@en , "Pierre Eliott Trudeau"@en , "Pierre Eliott Trudeau"@de , "Pierre Eliott Trudeau"@fr , "Joseph Philippe Pierre Yves Elliott Trudeau"@de , "Joseph Philippe Pierre Yves Elliott Trudeau"@fr , "Pierre Trudeau"@en , "Joseph Philippe Pierre Ives Elliott Trudeau"@de , "Joseph Philippe Pierre Ives Elliott Trudeau"@fr , "Joseph Philippe Pierre Ives Elliott Trudeau"@en , "Pierre Trudeau"@de , "Pierre Trudeau"@fr , "Joseph Philipp Pierre"@en , "Joseph Philipp Pierre"@de , "Joseph Philipp Pierre"@fr , "Pierre-Elliot Trudeau"@en , "Pierre-Elliot Trudeau"@de , "Pierre-Elliot Trudeau"@fr , "Pierre Elliott Trudeau"@en , "PE Trudeau"@fr , "Pierre Elliott Trudeau"@de , "Pierre Elliott Trudeau"@fr , "Pierre trudeau"@en , "Pierre trudeau"@de , "Pierre trudeau"@fr , "Joseph Philipp Pierre Yves Elliott Trudeau"@en , "Pierre"@en , "Pierre"@de , "Pierre"@fr , "Pierre Philippe Yves Elliott Trudeau"@en , "Joseph Philipp Pierre Yves Elliott Trudeau"@de , "Joseph Philipp Pierre Yves Elliott Trudeau"@fr , "Pierre Philippe Yves Elliott Trudeau"@de , "Pierre Philippe Yves Elliott Trudeau"@fr , "Pierre-Eliott-Trudeau"@fr , "Pierre-Elliott Trudeau"@de , "Pierre-Elliott Trudeau"@fr , "Pierre-Elliott Trudeau"@en , "Trudeauisme"@fr , "Trudeauiste"@fr , "Pierre E. Trudeau"@en , "Pierre E. Trudeau"@de , "Pierre E. Trudeau"@fr , "Pierre Elliot Trudeau"@en , "Pierre Elliot Trudeau"@de , "Pierre Elliot Trudeau"@fr .
+
+<http://dbpedia.org/resource/Canada>
+        rdfs:label     "Canada"@de , "Canada"@fr , "Canada"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kanada> , <http://fr.dbpedia.org/resource/Canada> ;
+        skos:altLabel  "Kanadische Föderation"@de , "America's top hat"@en , "America's top hat"@fr , "America's top hat"@de , "Xanada"@en , "Commonwealth du Canada"@fr , "Xanada"@fr , "Xanada"@de , "Canadá"@en , "Canadá"@fr , "Canadá"@de , "Candadienne"@fr , "Canadaa"@en , "Canadaa"@fr , "Canadaa"@de , "Dominion du Canada"@fr , "CANADA"@en , "Nation canadienne"@fr , "CANADA"@fr , "CANADA"@de , "Kenadian"@en , "Kenadian"@de , "Kenadian"@fr , "Canada"@en , "Canada"@fr , "Canada"@de , "Canuckistan"@en , "Peuple canadien"@fr , "Canuckistan"@fr , "Canuckistan"@de , "Puissance du Canada"@fr , "Etat federal canadien"@fr , "The Dominion of Canada"@en , "A mari usque ad mare"@de , "The Dominion of Canada"@fr , "The Dominion of Canada"@de , "Canadian Federation"@en , "Canadiophile"@en , "Canadian Federation"@de , "Canadian Federation"@fr , "Canadiophile"@de , "Canadiophile"@fr , "Canayens"@fr , "Population canadienne"@fr , "Pancanadien"@fr , "Caanaadaa"@en , "Etymology of Canada"@en , "Caanaadaa"@fr , "Etymology of Canada"@fr , "Etymology of Canada"@de , "Caanaadaa"@de , "Čanada"@en , "Cnada"@en , "Cnada"@fr , "Čanada"@fr , "Cnada"@de , "Kanadische Foderation"@de , "Čanada"@de , "Canada."@en , "Canada."@de , "Canada."@fr , "État fédéral canadien"@fr , "Kaenada"@en , "Kaenada"@fr , "Kaenada"@de , "Federation canadienne"@fr , "Canada's"@en , "Canada's"@fr , "Canada's"@de , "Canada-Uni,"@fr , "Dominion of Canada"@en , "ISO 3166-1:CA"@en , "ISO 3166-1:CA"@fr , "ISO 3166-1:CA"@de , "Pancanadianisme"@fr , "Dominion of Canada"@fr , "Dominion of Canada"@de , "References"@en , "Canadialand"@en , "Dominion of canada"@en , "Kanada"@de , "References"@fr , "References"@de , "Fédération canadienne"@fr , "Canadialand"@de , "Canadialand"@fr , "Dominion of canada"@de , "Kanadisch"@de , "Dominion of canada"@fr .

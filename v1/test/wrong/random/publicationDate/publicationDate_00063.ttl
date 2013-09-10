@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0bgrmg>
+        rdfs:label  "Epic Systems"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bgrmg__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Epic_Systems> .
+
+<http://rdf.freebase.com/ns/m.0bgrmg__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.07l1r> ;
+        dbo:from             "1953"^^xsd:gYear ;
+        dbo:to               "1953"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07l1r>
+        rdfs:label     "La Main gauche de la nuit"@fr , "Die linke Hand der Dunkelheit"@de , "The Left Hand of Darkness"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Left_Hand_of_Darkness> , <http://fr.dbpedia.org/resource/La_Main_gauche_de_la_nuit> ;
+        skos:altLabel  "Shifgrethor"@en , "Shifgrethor"@fr , "The Left Hand Of Darkness"@en , "Left Hand of Darkness"@en , "La main gauche de la nuit"@fr , "La Main gauche de la nuit"@fr , "Left Hand of Darkness"@fr , "The Left Hand Of Darkness"@fr , "The left hand of darkness"@en , "The left hand of darkness"@fr , "The Left Hand of Darkness"@en , "The Left Hand of Darkness"@fr , "La Main Gauche De La Nuit"@fr , "Left hand of darkness"@en , "Left hand of darkness"@fr .

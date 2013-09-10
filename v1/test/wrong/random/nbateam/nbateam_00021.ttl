@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0md8t>
+        rdfs:label  "The Road to Mars"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Road_to_Mars> .
+
+<http://dbpedia.org/resource/Cara_Black>
+        rdfs:label     "Cara Black"@en , "Cara Black"@fr , "Cara Black"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Cara_Black__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cara_Black> , <http://fr.dbpedia.org/resource/Cara_Black> ;
+        skos:altLabel  "Cara black"@en , "Cara black"@fr , "Cara black"@de , "Black"@fr , "Cara Black"@fr , "Cara Black"@de , "Cara Black"@en .
+
+<http://dbpedia.org/resource/Cara_Black__1>
+        dbo:from    "2011"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0md8t> ;
+        dbo:to      "2012"^^xsd:gYear .

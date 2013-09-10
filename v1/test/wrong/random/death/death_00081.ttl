@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Gary,_Indiana>
+        rdfs:label     "Gary, Indiana"@fr , "Gary, Indiana"@en , "Gary, Indiana"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gary_(Indiana)> , <http://fr.dbpedia.org/resource/Gary_(Indiana)> ;
+        skos:altLabel  "Gary, Indiana"@de , "Gary, Indiana"@fr , "Gary, Indiana"@en , "Gary, Ind"@de , "Gary, Ind"@fr , "Gary, Ind"@en , "LOCODE:USGYY"@de , "LOCODE:USGYY"@fr , "LOCODE:USGYY"@en , "Gary"@de , "Gary"@fr , "Gary"@en , "Tourism in Gary, Indiana"@de , "Tourism in Gary, Indiana"@fr , "Tourism in Gary, Indiana"@en , "Gary-Hammond-East Chicago, IN MSA"@de , "Gary-Hammond-East Chicago, IN MSA"@fr , "Gary-Hammond-East Chicago, IN MSA"@en , "List of Libraries in Gary"@fr , "List of Libraries in Gary"@en , "List of Libraries in Gary"@de , "Gary, in"@de , "Gary, in"@fr , "Gary, in"@en , "Libraries of Gary, Indiana"@fr , "Libraries of Gary, Indiana"@en , "Libraries of Gary, Indiana"@de , "Gary, Ind."@de , "Gary, Ind."@fr , "Gary, Ind."@en , "Gary Public Library System"@de , "Gary Public Library System"@fr , "Gary Public Library System"@en , "Gary, IN"@de , "Gary, IN"@fr , "Gary, IN"@en .
+
+<http://dbpedia.org/resource/Rutherford_B._Hayes>
+        rdfs:label     "Rutherford B. Hayes"@fr , "Rutherford B. Hayes"@en , "Rutherford B. Hayes"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Rutherford_B._Hayes__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rutherford_Birchard_Hayes> , <http://de.dbpedia.org/resource/Rutherford_B._Hayes> ;
+        skos:altLabel  "Rutherford Hayes"@fr , "Rutherford Hayes"@en , "Hayes Administration"@de , "Hayes Administration"@fr , "Hayes Administration"@en , "Inaugural Address"@de , "Inaugural Address"@fr , "Inaugural Address"@en , "19th President of the United States"@en , "19th President of the United States"@de , "19th President of the United States"@fr , "Hayes, Rutherford B."@de , "Hayes, Rutherford B."@fr , "Hayes, Rutherford B."@en , "Presidency of Rutherford B. Hayes"@en , "Presidency of Rutherford B. Hayes"@de , "Presidency of Rutherford B. Hayes"@fr , "Rutherford B Hayes"@en , "Rutherford B Hayes"@de , "Rutherford B Hayes"@fr , "Rutherford"@de , "Rutherford"@fr , "Rutherford"@en , "Rutherford Birchard Hayes"@de , "Rutherford Birchard Hayes"@fr , "Rutherford Birchard Hayes"@en , "Hayes"@de , "Hayes"@fr , "Rutherfraud Hayes"@en , "Rutherfraud Hayes"@de , "Rutherfraud Hayes"@fr , "Hayes, Rutherford Birchard"@en , "Hayes, Rutherford Birchard"@de , "Hayes, Rutherford Birchard"@fr , "President Hayes"@de , "President Hayes"@fr , "President Hayes"@en , "Rutherford B. Hayes"@de , "Rutherford B. Hayes"@fr , "Rutherford B. Hayes"@en , "Rutherford Hayes"@de .
+
+<http://dbpedia.org/resource/Rutherford_B._Hayes__1>
+        dbo:author  <http://dbpedia.org/resource/Gary,_Indiana> ;
+        dbo:from    "1989"^^xsd:gYear ;
+        dbo:to      "1989"^^xsd:gYear .

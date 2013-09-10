@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Asa_Gray>
+        rdfs:label     "Asa Gray"@en , "Asa Gray"@fr , "Asa Gray"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Asa_Gray__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Asa_Gray> , <http://fr.dbpedia.org/resource/Asa_Gray> ;
+        skos:altLabel  "Gray, Asa"@en , "Gray, Asa"@fr , "Gray, Asa"@de , "A. Gray"@en , "A. Gray"@fr , "A. Gray"@de , "A.Gray"@en , "Gray"@fr , "A.Gray"@fr , "A.Gray"@de , "Asa Gray"@en , "Asa Gray"@de , "Asa Gray"@fr , "Asa Gray Award"@en , "Asa Gray Award"@fr , "Asa Gray Award"@de .
+
+<http://dbpedia.org/resource/Eindhoven>
+        rdfs:label     "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eindhoven> , <http://fr.dbpedia.org/resource/Eindhoven> ;
+        skos:altLabel  "Eindhoven, Netherlands"@fr , "Eindhoven, Netherlands"@de , "Eindhoven, North Brabant"@de , "Eindhoven, North Brabant"@fr , "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de , "LOCODE:NLEIN"@en , "LOCODE:NLEIN"@fr , "LOCODE:NLEIN"@de , "Eindhoven, Noord-Brabant"@en , "Eindhoven, Noord-Brabant"@fr , "Eindhoven, Noord-Brabant"@de , "Eindhoven, Netherlands"@en , "Eindhoven, North Brabant"@en .
+
+<http://dbpedia.org/resource/Asa_Gray__1>
+        dbo:award  <http://dbpedia.org/resource/Eindhoven> ;
+        dbo:from   "2001"^^xsd:gYear ;
+        dbo:to     "2001"^^xsd:gYear .

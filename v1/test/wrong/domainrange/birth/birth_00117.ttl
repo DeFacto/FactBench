@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Christina_Aguilera__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Adelaide> ;
+        dbo:from        "1865"^^xsd:gYear ;
+        dbo:to          "1865"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Adelaide>
+        rdfs:label     "Adelaide"@de , "Adelaide"@fr , "Adelaide"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Adélaïde_(Australie)> , <http://de.dbpedia.org/resource/Adelaide> ;
+        skos:altLabel  "Adélaïde"@fr , "Adelaide"@en , "Adelaide"@de , "Adelaide"@fr , "Adelaidean"@en , "Adelaide, AU"@en , "Capital of South Australia"@en , "Adelaide, AU"@de , "Adelaide, AU"@fr , "Adelaidean"@de , "Capital of South Australia"@de , "Capital of South Australia"@fr , "Adelaidean"@fr , "City of Squares"@en , "City of Squares"@de , "City of Squares"@fr , "Radelaide"@en , "Radelaide"@de , "Radelaide"@fr , "Adelaide Australia"@en , "Adelaide Australia"@de , "Adelaide Australia"@fr , "Adelaide, Australia"@en , "Adelaide, Australia"@de , "Adelaide, Australia"@fr , "Light's City"@en , "Adelaide, AU-SA"@en , "Light's City"@de , "Light's City"@fr , "Adelaide, AU-SA"@de , "Adelaide, AU-SA"@fr , "Adelaide, South Australia"@en , "Adelaide, South Australia"@de , "Adelaide, South Australia"@fr , "Adelaide,South Australia"@en , "Adelaide South Australia"@en , "Adelaide,South Australia"@de , "Adelaide,South Australia"@fr , "Adelaide South Australia"@de , "Adelaide South Australia"@fr , "Adelaide, South Australia, Australia"@en , "Henley Beach South"@en , "Adelaide, South Australia, Australia"@de , "Adelaide, South Australia, Australia"@fr , "Henley Beach South"@de , "Henley Beach South"@fr , "LOCODE:AUADL"@en , "LOCODE:AUADL"@de , "LOCODE:AUADL"@fr , "Adeliade"@en , "Athens of the South"@en , "Adeliade"@de , "Adeliade"@fr , "Athens of the South"@de , "Athens of the South"@fr .
+
+<http://dbpedia.org/resource/Christina_Aguilera>
+        rdfs:label     "Christina Aguilera"@de , "Christina Aguilera"@fr , "Christina Aguilera"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Christina_Aguilera__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Christina_Aguilera> , <http://de.dbpedia.org/resource/Christina_Aguilera> ;
+        skos:altLabel  "Max Bratman"@en , "Max Bratman"@de , "Max Bratman"@fr , "Cristina Aguilera"@en , "Cristina Aguilera"@de , "Cristina Aguilera"@fr , "List of unreleased Christina Aguilera songs"@en , "List of unreleased Christina Aguilera songs"@de , "List of unreleased Christina Aguilera songs"@fr , "Christina Bratman"@en , "Christina Bratman"@fr , "Christina Bratman"@de , "Christina"@en , "Christina"@de , "Christina"@fr , "Christine Aguilera"@en , "Christine Aguilera"@fr , "Christine Aguilera"@de , "Christina Aguilara"@en , "Christina Aguilara"@de , "Christina Aguilara"@fr , "X'tina"@en , "Still Dirty"@en , "The Bionic Tour"@en , "Xtina"@en , "Xtina"@de , "Xtina"@fr , "X'tina"@fr , "Still Dirty"@fr , "The Bionic Tour"@fr , "X'tina"@de , "Still Dirty"@de , "The Bionic Tour"@de , "Christina María Aguilera"@en , "Christina Aguleria"@en , "Christina María Aguilera"@fr , "Christina Aguleria"@fr , "Christina Aguleria"@de , "Christina María Aguilera"@de , "Simply Christina Aguilera"@en , "Simply Christina Aguilera"@fr , "Simply Christina Aguilera"@de , "My Kind Of Christmas"@de , "X-tina"@en , "X-tina"@de , "X-tina"@fr , "Xtina aguilera"@en , "Xtina aguilera"@fr , "Xtina aguilera"@de , "Christina aguilera"@en , "Christina Aguillera"@en , "Christina aguilera"@fr , "Christina aguilera"@de , "Christina Aguillera"@de , "Christina Aguillera"@fr , "Christina Agulera"@en , "Christina Agulera"@fr , "Christina Agulera"@de , "Christina Maria Aguilera"@en , "Christina Maria Aguilera"@de , "Christina Maria Aguilera"@fr , "Max Liron Bratman"@en , "Max Liron Bratman"@de , "Max Liron Bratman"@fr , "Christina Aguilera"@en , "Christina Agulara"@en , "Christina Agulara"@de , "Christina Agulara"@fr , "Christina Aguilera"@fr , "Christina Aguilera"@de , "Aguilera"@fr , "Aguilera"@de .

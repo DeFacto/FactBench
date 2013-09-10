@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027sjy>
+        rdfs:label     "Avast Software a. s."@en , "AVAST Software"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027sjy__1> ;
+        skos:altLabel  "Alwil Software a. s."@en .
+
+<http://rdf.freebase.com/ns/m.05ywg>
+        rdfs:label     "Prag"@de , "Prague"@en , "Prague"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Prague> , <http://de.dbpedia.org/resource/Prag> , <http://fr.dbpedia.org/resource/Prague> ;
+        skos:altLabel  "Greater Prague"@en , "Greater Prague"@fr , "Greater Prague"@de , "Hlavni mesto Praha"@en , "Hlavni mesto Praha"@de , "Hlavni mesto Praha"@fr , "Historic Centre of Prague"@en , "Historic Centre of Prague"@de , "Historic Centre of Prague"@fr , "Capital of Czech Republic"@en , "Capital of Czech Republic"@de , "Capital of Czech Republic"@fr , "LOCODE:CZPRG"@en , "LOCODE:CZPRG"@de , "LOCODE:CZPRG"@fr , "Hlavní město Praha"@en , "Hlavní město Praha"@de , "Hlavní město Praha"@fr , "Prague, Czech Republic"@en , "NUTS Praha"@en , "Prague, Czech Republic"@fr , "NUTS Praha"@de , "Prague, Czech Republic"@de , "NUTS Praha"@fr , "Prague"@en , "Prague"@fr , "Prague"@de , "Prague, Czechoslovakia"@en , "Prague, Czechoslovakia"@de , "Prague, Czechoslovakia"@fr , "Prahy"@en , "Prahy"@de , "Prahy"@fr , "Tourisme en Republique Tcheque"@fr , "Capitale de la République tchèque"@fr , "Praha, hlavni mesto"@fr , "Praha, Czech Republic"@en , "Praha, Czech Republic"@fr , "Praha, Czech Republic"@de , "Prague ,Czech Republic"@en , "Prague ,Czech Republic"@fr , "Prague ,Czech Republic"@de , "Capital of the Czech Republic"@en , "Capital of the Czech Republic"@fr , "Capital of the Czech Republic"@de , "Prahou"@en , "Prahou"@fr , "CZ-PR"@de , "Prahou"@de , "CZPRG"@en , "Praha"@en , "CZPRG"@fr , "Praha"@de , "Praha"@fr , "CZPRG"@de , "Praha, hlavní město"@fr , "NUTS Prague"@en , "NUTS Prague"@fr , "NUTS Prague"@de , "Capitale de la Republique tcheque"@fr , "City of Prague"@en , "City of Prague"@de , "City of Prague"@fr , "Prag"@en , "Prag"@fr , "Prag"@de , "Wards of Prague"@en , "Tourisme en République Tchèque"@fr , "Wards of Prague"@de , "Wards of Prague"@fr .
+
+<http://rdf.freebase.com/ns/m.027sjy__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.05ywg> ;
+        dbo:from        "1991"^^xsd:gYear ;
+        dbo:to          "1991"^^xsd:gYear .

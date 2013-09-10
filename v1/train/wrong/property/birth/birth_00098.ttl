@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Björk>
+        rdfs:label     "Björk"@en , "Björk"@fr , "Björk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Björk__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Björk> , <http://de.dbpedia.org/resource/Björk> ;
+        skos:altLabel  "Björk Gudmundsdottir"@fr , "Björk Gudmundsdottir"@de , "Björk Guðmundsdottir"@fr , "Björk"@fr , "Björk"@de , "Bjork Guðmundsdottir"@fr , "Bjork Guðmundsdottir"@de , "Björk Guðmundsdóttir"@fr , "Björk Guðmundsdóttir"@de , "Bjôrk"@fr , "Bjork Gudmundsdottir"@fr , "Bjork Gudmundsdottir"@de , "Bjork"@fr , "Bjork"@de .
+
+<http://dbpedia.org/resource/Björk__1>
+        dbo:award  <http://dbpedia.org/resource/Reykjavík> ;
+        dbo:from   "1965"^^xsd:gYear ;
+        dbo:to     "1965"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Reykjavík>
+        rdfs:label     "Reykjavík"@en , "Reykjavík"@fr , "Reykjavík"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Reykjavík> , <http://fr.dbpedia.org/resource/Reykjavik> ;
+        skos:altLabel  "Reykjavik"@fr , "Reykjavik"@de , "Reykjavík"@fr , "Capitale de l'Islande"@fr , "Reykjavík"@de , "Rekjavìk"@fr , "Reykjavic"@de , "Rekjavik"@fr , "Rejkjavik"@de .

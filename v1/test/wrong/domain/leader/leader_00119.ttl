@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Greece>
+        rdfs:label     "Greece"@en , "Greece"@de , "Greece"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Grèce> , <http://de.dbpedia.org/resource/Griechenland> ;
+        skos:altLabel  "Elás"@en , "Elás"@fr , "Elás"@de , "Hellène"@fr , "Grcka"@en , "Grcka"@fr , "Etat hellenique"@fr , "Grcka"@de , "Hellene"@fr , "Eleftheria i thanatos"@de , "Political history of Greece"@en , "Political history of Greece"@fr , "Political history of Greece"@de , "The Hellenic Republic"@en , "The Hellenic Republic"@fr , "The Hellenic Republic"@de , "République hellénique"@en , "République hellénique"@fr , "République hellénique"@de , "Temporary Government of National Defence"@en , "Griechische Republik"@de , "Temporary Government of National Defence"@fr , "Temporary Government of National Defence"@de , "Griekenland"@en , "Griekenland"@fr , "Griekenland"@de , "Elad"@en , "Greek Republic"@en , "Elad"@fr , "Greek Republic"@fr , "Greek Republic"@de , "Elad"@de , "Hellénique"@fr , "History of North Greece"@en , "Ellinikí Dimokratía"@de , "History of North Greece"@fr , "History of North Greece"@de , "République Hellénique"@fr , "Eládha"@en , "Grcija"@en , "Grcija"@fr , "Grcija"@de , "Elliniki Dimokratia"@en , "Social issues in Greece"@en , "Yananistan"@en , "Eládha"@fr , "Elliniki Dimokratia"@fr , "État hellénique"@fr , "Social issues in Greece"@fr , "Social issues in Greece"@de , "Yananistan"@fr , "Yananistan"@de , "Eládha"@de , "Elliniki Dimokratia"@de , "Hellenique"@fr , "FTPOY"@en , "Hellenic Republic"@en , "Hellenic Republic"@fr , "Hellenic Republic"@de , "Elláda"@en , "Elláda"@fr , "Elláda"@de , "Griechenland"@en , "FTPOY"@fr , "Griechenland"@fr , "Griechenland"@de , "FTPOY"@de , "Picki u dusa"@en , "Picki u dusa"@fr , "Picki u dusa"@de , "Republique Hellenique"@fr , "Hellás"@en , "Graecia"@en , "Hellada"@en , "Hellás"@fr , "Gréce"@fr , "Graecia"@fr , "Hellada"@fr , "Graecia"@de , "Hellada"@de , "Grazien"@de , "Hellás"@de , "Hellenische Republik"@de , "Elas"@en , "Grèce"@en , "Elas"@fr , "Elas"@de , "Grèce"@fr , "Grèce"@de , "Ellīnikī́ Dīmokratía"@en , "Hellas"@en , "Republique hellenique"@en , "Ellīnikī́ Dīmokratía"@fr , "Ellīnikī́ Dīmokratía"@de , "Republik Griechenland"@de , "Republic of Greece"@en , "Republic of Greece"@fr , "Republic of Greece"@de , "Gräzien"@de , "Grecce"@en , "Greece"@en , "Greece"@fr , "Greece"@de , "Grecce"@fr , "Grecce"@de , "Eladha"@en , "ISO 3166-1:GR"@en , "Eladha"@fr , "ISO 3166-1:GR"@fr , "Eladha"@de , "ISO 3166-1:GR"@de , "Hellenic"@en , "Hellas"@fr , "Republique hellenique"@fr , "Hellas"@de , "Hellenic"@fr , "Hellenic"@de , "Republique hellenique"@de , "Ellada"@en , "Ellada"@fr , "Ellada"@de , "Grece"@en , "Grece"@fr , "Grece"@de , "Former Turkish Province Of Yunanistan"@en , "Elliniki Dimokratía"@en , "Elliniki Dimokratía"@fr , "Elliniki Dimokratía"@de , "Former Turkish Province Of Yunanistan"@fr , "Former Turkish Province Of Yunanistan"@de .
+
+<http://dbpedia.org/resource/Guy_Verhofstadt>
+        rdfs:label     "Guy Verhofstadt"@de , "Guy Verhofstadt"@en , "Guy Verhofstadt"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Guy_Verhofstadt__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Guy_Verhofstadt> , <http://fr.dbpedia.org/resource/Guy_Verhofstadt> ;
+        skos:altLabel  "Guy Verhofstad"@en , "Guy Verhofstad"@fr , "Guy Verhofstad"@de , "Verhofstadt"@en , "Verhofstadt"@de , "Verhofstadt"@fr , "Guy Maurice Marie Louise Verhofstadt"@en , "Guy Maurice Marie Louise Verhofstadt"@fr , "Guy Maurice Marie Louise Verhofstadt"@de , "Verhoefstadt"@fr , "Verhofstadt II"@en , "Guy Verhofstadt"@en , "Verhofstadt II"@fr , "Verhofstadt II"@de , "Guy Verhofstadt"@fr , "Guy Verhofstadt"@de .
+
+<http://dbpedia.org/resource/Guy_Verhofstadt__1>
+        dbo:from    "2009"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Greece> ;
+        dbo:to      "2011"^^xsd:gYear .

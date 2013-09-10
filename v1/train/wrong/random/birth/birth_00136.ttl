@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Saginaw,_Michigan>
+        rdfs:label     "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Saginaw_(Michigan)> , <http://fr.dbpedia.org/resource/Saginaw_(Michigan)> ;
+        skos:altLabel  "Saginaw, MI"@de , "Synergy Medical Education Alliance"@en , "Synergy Medical Education Alliance"@fr , "Synergy Medical Education Alliance"@de , "Synergy Medical Education"@en , "Synergy Medical Education"@fr , "Synergy Medical Education"@de , "Saginaw-Bay City-Saginaw Township North, MI CSA"@en , "Saginaw-Bay City-Saginaw Township North, MI CSA"@fr , "Saginaw-Bay City-Saginaw Township North, MI CSA"@de , "Synergy Medical"@en , "Synergy Medical"@fr , "Synergy Medical"@de , "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de , "Saginaw, mi"@en , "Saginaw, mi"@fr , "Saginaw, mi"@de , "Covenant HealthCare"@en , "Covenant HealthCare"@fr , "Covenant HealthCare"@de , "Covenant Healthcare"@en , "Downtown Saginaw, Michigan"@en , "Saginaw"@en , "Covenant Healthcare"@fr , "Downtown Saginaw, Michigan"@fr , "Downtown Saginaw, Michigan"@de , "Saginaw"@fr , "Saginaw"@de , "Covenant Healthcare"@de , "Saginaw, MI"@en , "Saginaw, MI"@fr .
+
+<http://dbpedia.org/resource/Willie_Nelson>
+        rdfs:label     "Willie Nelson"@en , "Willie Nelson"@fr , "Willie Nelson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Willie_Nelson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Willie_Nelson> , <http://de.dbpedia.org/resource/Willie_Nelson> ;
+        skos:altLabel  "Willie Nelson"@en , "Willie Nelson"@fr , "Willie Nelson"@de , "Willie"@de , "Trigger"@en , "Nelson, Willie"@en , "Nelson, Willie"@fr , "Nelson, Willie"@de , "Willie nelson"@en , "Willie Hugh Nelson"@en , "Trigger"@fr , "Willie nelson"@fr , "Willie Hugh Nelson"@fr , "Trigger"@de , "Willie Hugh Nelson"@de , "Willie nelson"@de , "Family"@en , "Family"@fr , "Family"@de , "Nelson, Willie Hugh"@en , "Nelson, Willie Hugh"@fr , "Nelson, Willie Hugh"@de , "Nelson"@fr , "Willie Nelson's Family"@en , "Willie Nelson's Family"@fr , "Willie Nelson's Family"@de , "TeaPot Party"@en , "TeaPot Party"@fr , "TeaPot Party"@de .
+
+<http://dbpedia.org/resource/Willie_Nelson__1>
+        dbo:from    "1863"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Saginaw,_Michigan> ;
+        dbo:to      "1863"^^xsd:gYear .

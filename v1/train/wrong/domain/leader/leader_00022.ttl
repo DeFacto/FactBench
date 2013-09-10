@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Rolandas_Paksas__1>
+        dbo:from    "1980"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Egypt> ;
+        dbo:to      "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Egypt>
+        rdfs:label     "Egypt"@de , "Egypt"@fr , "Egypt"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ägypten> , <http://fr.dbpedia.org/resource/Égypte> ;
+        skos:altLabel  "Égypte"@en , "Égypte"@fr , "Égypte"@de , "République arabe d’Égypte"@fr , "Name of Egypt"@en , "Name of Egypt"@fr , "Name of Egypt"@de , "Ägypten"@de , "République arabe d'Egypte"@fr , "Arab Republic"@en , "Arab Republic"@fr , "Arab Republic"@de , "Etymology of Egypt"@en , "Etymology of Egypt"@fr , "Etymology of Egypt"@de , "National identity of Egyptians"@en , "National identity of Egyptians"@fr , "National identity of Egyptians"@de , "Republique arabe d’Egypte"@fr , "Arabische Republik Ägypten"@de , "Egyptian Republic"@en , "Egyptian Republic"@fr , "Egyptian Republic"@de , "Donnees Chiffrees Sur L'Egypte"@fr , "ISO 3166-1:EG"@en , "Egipt"@en , "Egipt"@fr , "Egipt"@de , "Misr"@en , "ISO 3166-1:EG"@fr , "Misr"@fr , "ISO 3166-1:EG"@de , "Misr"@de , "République arabe d'Égypte"@fr , "Arabische Republik Agypten"@de , "Égypte, Données chiffrées"@fr , "Gift of the Nile"@en , "Kemmet"@en , "Gift of the Nile"@fr , "Gift of the Nile"@de , "Kemmet"@fr , "Kemmet"@de , "Eytp"@en , "Eytp"@fr , "Eytp"@de , "Arab Republic of Egypt"@en , "Arab Republic Of Egypt"@en , "Arab Republic Of Egypt"@fr , "Arab Republic Of Egypt"@de , "Kimet"@en , "Republik Agypten"@de , "Names of Egypt"@en , "Kimet"@fr , "Names of Egypt"@fr , "Kimet"@de , "Names of Egypt"@de , "Arab Republic of Egypt"@fr , "Arab Republic of Egypt"@de , "Données chiffrées sur l'Égypte"@fr , "Egypt"@en , "Egypt"@fr , "Egypt"@de , "Geschichte Agyptens"@de , "Donnees chiffrees sur l'Egypte"@fr , "Egipto"@en , "Egipto"@fr , "Egipto"@de , "Ejipt"@en , "Ejipt"@fr , "Ejipt"@de , "Données chiffrées sur l'égypte"@fr , "Egypte"@en , "Égyptiens"@fr , "Egypte"@fr , "Egypte"@de , "Republique arabe d'Egypte"@fr , "Eypt"@en , "Eypt"@fr , "Eypt"@de , "Donnees chiffrees sur l'egypte"@fr , "Egypt info"@en , "Egypt info"@fr , "Egypt info"@de , "Miṣr"@en , "Miṣr"@fr , "Miṣr"@de , "Eygpt"@en , "Eygpt"@fr , "Eygpt"@de , "Jumhuriyat Misr al'Arabiyah"@en , "Jumhuriyat Misr al'Arabiyah"@fr , "Jumhuriyat Misr al'Arabiyah"@de , "Geschichte Ägyptens"@de , "Mesir"@en , "Mesir"@fr , "Egyptiens"@fr , "Mesir"@de , "Republic of Egypt"@en , "Agypten"@de , "Republic of Egypt"@fr , "Republic of Egypt"@de , "Masr"@en , "Masr"@fr , "Republik Ägypten"@de , "Masr"@de , "Données Chiffrées Sur L'Égypte"@fr , "Egypte, Donnees chiffrees"@fr .
+
+<http://dbpedia.org/resource/Rolandas_Paksas>
+        rdfs:label     "Rolandas Paksas"@en , "Rolandas Paksas"@fr , "Rolandas Paksas"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Rolandas_Paksas__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rolandas_Paksas> , <http://fr.dbpedia.org/resource/Rolandas_Paksas> ;
+        skos:altLabel  "Rolandas Paksas"@en , "Rolandas Paksas"@fr , "Rolandas Paksas"@de , "Paksas"@de , "Paksagate"@de .

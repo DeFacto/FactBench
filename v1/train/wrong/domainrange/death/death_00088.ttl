@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Elizabethton,_Tennessee>
+        rdfs:label     "Elizabethton, Tennessee"@de , "Elizabethton, Tennessee"@en , "Elizabethton, Tennessee"@fr ;
+        skos:altLabel  "Elizabeth"@en , "Elizabethton, TN"@en , "Elizabethton, Tennessee"@en , "Elizabeth, Tennessee"@en , "Narc"@en , "Elizabethton"@en , "North American Rayon Corporation"@en , "LOCODE:USEZB"@en .
+
+<http://dbpedia.org/resource/Heinrich_Gustav_Reichenbach>
+        rdfs:label     "Heinrich Gustav Reichenbach"@en , "Heinrich Gustav Reichenbach"@fr , "Heinrich Gustav Reichenbach"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Heinrich_Gustav_Reichenbach__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Heinrich_Gustav_Reichenbach> , <http://fr.dbpedia.org/resource/Heinrich_Gustav_Reichenbach> ;
+        skos:altLabel  "Heinrich Gustav Reichenbach"@en , "Heinrich Gustav Reichenbach"@fr , "Heinrich Gustav Reichenbach"@de , "Heinrich Gustav Reichenbach filius"@de , "H.G. Reichenbach"@en , "Reichenbach"@en , "Reichenbach"@fr , "Reichenbach"@de , "Rchb. f."@en , "H.G. Reichenbach"@fr , "Rchb. f."@fr , "H.G. Reichenbach"@de , "Rchb. f."@de , "Rchb.f."@en , "Rchb.f"@en , "Rchb.f."@fr , "Rchb.f"@fr , "Rchb.f."@de , "Rchb.f"@de , "Rchb f"@en , "Rchb f"@fr , "Rchb f"@de .
+
+<http://dbpedia.org/resource/Heinrich_Gustav_Reichenbach__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Elizabethton,_Tennessee> ;
+        dbo:from        "1967"^^xsd:gYear ;
+        dbo:to          "1967"^^xsd:gYear .

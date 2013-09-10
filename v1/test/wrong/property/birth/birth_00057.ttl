@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ai_Sugiyama>
+        rdfs:label     "Ai Sugiyama"@en , "Ai Sugiyama"@fr , "Ai Sugiyama"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ai_Sugiyama__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ai_Sugiyama> , <http://de.dbpedia.org/resource/Ai_Sugiyama> ;
+        skos:altLabel  "Ai Sugiyama"@en , "Ai Sugiyama"@de , "Ai Sugiyama"@fr , "Aï Sugiyama"@fr , "Sugiyama"@en , "Sugiyama"@fr , "Sugiyama"@de , "Sugiyama Ai"@de .
+
+<http://dbpedia.org/resource/Yokohama>
+        rdfs:label     "Yokohama"@en , "Yokohama"@fr , "Yokohama"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Yokohama> , <http://de.dbpedia.org/resource/Yokohama> ;
+        skos:altLabel  "Tsurumi-ku, Kanagawa"@en , "Tsurumi-ku, Kanagawa"@fr , "Tsurumi-ku, Kanagawa"@de , "Yokohama City"@en , "Yokohama City"@fr , "Yokohama City"@de , "History of Yokohama"@en , "Jokohama"@de , "History of Yokohama"@fr , "History of Yokohama"@de , "Yokohama, Kanagawa"@en , "Yokohama, Kanagawa"@fr , "Ramen-Museum"@de , "Yokohama, Kanagawa"@de , "Yokohama"@en , "Yokohama"@fr , "Yokohama"@de , "History of Yokohama, Japan"@en , "History of Yokohama, Japan"@fr , "History of Yokohama, Japan"@de , "Yokohama, Japan"@en , "Yokohama, Japan"@fr , "Yokohama, Japan"@de , "Yokohama Bay"@en , "Yokohama Bay"@fr , "Yokohama Bay"@de .
+
+<http://dbpedia.org/resource/Ai_Sugiyama__1>
+        dbo:author  <http://dbpedia.org/resource/Yokohama> ;
+        dbo:from    "1975"^^xsd:gYear ;
+        dbo:to      "1975"^^xsd:gYear .

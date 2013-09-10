@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/L._Sprague_de_Camp>
+        rdfs:label     "L. Sprague de Camp"@de , "L. Sprague de Camp"@fr , "L. Sprague de Camp"@en ;
+        dbo:death      <http://dbpedia.org/resource/L._Sprague_de_Camp__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lyon_Sprague_de_Camp> , <http://de.dbpedia.org/resource/Lyon_Sprague_de_Camp> ;
+        skos:altLabel  "L. Sprague de Camp"@en , "L. Sprague de Camp"@de , "L. Sprague de Camp"@fr , "L. Sprague DeCamp"@en , "L. Sprague DeCamp"@de , "L. Sprague DeCamp"@fr , "Lyon Sprague de Camp"@en , "Lyon Sprague de Camp"@de , "Lyon Sprague de Camp"@fr , "De Camp, L. Sprague"@en , "De Camp, L. Sprague"@de , "De Camp, L. Sprague"@fr , "Lyon sprague de camp"@fr , "Sprague"@en , "Sprague"@de , "Sprague"@fr , "Sprague de Camp"@fr , "Lyon Sprague De Camp"@en , "Lyon Sprague De Camp"@de , "Lyon Sprague De Camp"@fr , "L Sprague de Camp"@en , "L Sprague de Camp"@de , "L Sprague de Camp"@fr , "Sprague de Camp"@en , "Sprague de Camp"@de , "L. Sprague De Camp"@en , "L. Sprague De Camp"@de , "De Camp"@en , "De Camp"@de , "De Camp"@fr , "L. Sprague De Camp"@fr , "L. Sprague deCamp"@en , "L. Sprague deCamp"@de , "L. Sprague deCamp"@fr , "Camp"@de .
+
+<http://dbpedia.org/resource/L._Sprague_de_Camp__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Plano,_Texas> ;
+        dbo:from        "2000-11-06"^^xsd:date ;
+        dbo:to          "2000-11-06"^^xsd:date .
+
+<http://dbpedia.org/resource/Plano,_Texas>
+        rdfs:label     "Plano, Texas"@en , "Plano, Texas"@fr , "Plano, Texas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Plano_(Texas)> , <http://fr.dbpedia.org/resource/Plano_(Texas)> ;
+        skos:altLabel  "LOCODE:USPLZ"@fr , "LOCODE:USPLZ"@de , "LOCODE:USPLZ"@en , "Chinaville"@fr , "Chinaville"@de , "Chinaville"@en , "Plano"@fr , "Plano"@de , "Plano"@en , "Plano, Texas"@fr , "Plano, Texas"@de , "Plano, Texas"@en , "Plano, TX"@fr , "Plano, TX"@de , "Plano, TX"@en , "Plano, Tex."@fr , "Plano Police Department"@fr , "Plano, Tex."@de , "Plano Police Department"@de , "Plano, Tex."@en , "Plano Police Department"@en .

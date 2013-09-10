@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0fqjhm>
+        rdfs:label     "Penn Badgley"@fr , "Penn Badgley"@de , "Penn Dayton Badgley"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Penn_Badgley> , <http://de.dbpedia.org/resource/Penn_Badgley> , <http://fr.dbpedia.org/resource/Penn_Badgley> ;
+        skos:altLabel  "Badgley"@fr , "Badgley"@de , "Penn Badgley"@en , "Penn Badgley"@fr , "Penn Badgley"@de , "Penn Badgely"@fr , "Penn Badgely"@de , "Penn Dayton Badgley"@de , "Penn"@en , "Penn"@de , "Penn"@fr .
+
+<http://rdf.freebase.com/ns/m.023bwq__1>
+        dbo:from    "1925"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0fqjhm> ;
+        dbo:to      "1925"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.023bwq>
+        rdfs:label     "William Henry Bragg"@en , "William Henry Bragg"@fr , "William Henry Bragg"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.023bwq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_Henry_Bragg> , <http://de.dbpedia.org/resource/William_Henry_Bragg> , <http://dbpedia.org/resource/William_Henry_Bragg> ;
+        skos:altLabel  "William Henry, Sir Bragg"@en , "William Henry, Sir Bragg"@fr , "William Henry, Sir Bragg"@de , "Sir William Henry Bragg"@en , "Sir William Bragg"@en , "Sir William Henry Bragg"@fr , "Sir William Bragg"@fr , "Sir William Henry Bragg"@de , "Sir William Bragg"@de , "Bragg, William Henry, Sir"@en , "Sir Bragg"@en , "Bragg, William Henry, Sir"@fr , "Sir Bragg"@fr , "Bragg, William Henry, Sir"@de , "Sir Bragg"@de , "W. H. Bragg"@en , "W. H. Bragg"@fr , "W. H. Bragg"@de , "William H. Bragg"@en , "Bragg"@fr , "William H. Bragg"@fr , "William H. Bragg"@de , "Sir William H. Bragg"@en , "Sir William H. Bragg"@fr , "Sir William H. Bragg"@de , "William Henry Bragg"@en , "William Henry Bragg"@fr , "William Henry Bragg"@de .

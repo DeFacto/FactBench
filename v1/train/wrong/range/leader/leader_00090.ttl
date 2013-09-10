@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mikhail_Kasyanov__1>
+        dbo:from    "2000"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Guyana> ;
+        dbo:to      "2004"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Guyana>
+        rdfs:label     "Guyana"@de , "Guyana"@fr , "Guyana"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Guyana> , <http://fr.dbpedia.org/resource/Guyana> ;
+        skos:altLabel  "Republique cooperative du Guyana"@fr , "Cooperative Republic of Guyana"@en , "Cooperative Republic of Guyana"@de , "Cooperative Republic of Guyana"@fr , "Sport in Guyana"@en , "Sport in Guyana"@de , "Sport in Guyana"@fr , "ISO 3166-1:GY"@de , "ISO 3166-1:GY"@fr , "Etymology of Guyana"@de , "Etymology of Guyana"@fr , "Etymology of Guyana"@en , "ISO 3166-1:GY"@en , "Subdivisions of Guyana"@de , "Subdivisions of Guyana"@fr , "Subdivisions of Guyana"@en , "Guyana"@en , "Guyana"@de , "Guyana"@fr , "République coopérative du Guyana"@fr , "Republic of Guyana"@en , "Republic of Guyana"@de , "Republic of Guyana"@fr , "Guyanna"@de , "Administrative divisions of Guyana"@de , "Administrative divisions of Guyana"@fr , "Administrative divisions of Guyana"@en , "Guyanna"@fr , "Guyanna"@en , "Co-operative Republic of Guyana"@en , "Co-operative Republic of Guyana"@de , "Co-operative Republic of Guyana"@fr , "Republique cooperative de Guyana"@fr , "République coopérative de Guyana"@fr , "République du Guyana"@fr , "Republique du Guyana"@fr , "Guana"@de , "Guana"@fr , "Guana"@en , "Kooperative Republik Guyana"@de .
+
+<http://dbpedia.org/resource/Mikhail_Kasyanov>
+        rdfs:label     "Mikhail Kasyanov"@en , "Mikhail Kasyanov"@fr , "Mikhail Kasyanov"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mikhail_Kasyanov__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mikhaïl_Kassianov> , <http://de.dbpedia.org/resource/Michail_Michailowitsch_Kassjanow> ;
+        skos:altLabel  "Mikhail Mikhailovich Kasyanov"@en , "Mikhail Mikhailovich Kasyanov"@fr , "Mikhaïl Kassianov"@fr , "Mikhail Kassyanov"@fr , "Michail Kassjanow"@de , "Mikhail Mikhailovich Kasyanov"@de , "Michail Michailowitsch Kassjanow"@de , "Mikhail Kassianov"@fr , "Michail Michailowitsch Kasjanow"@de , "Michail Kasjanow"@de , "Kasyanov"@en , "Kasyanov"@fr , "Kasyanov"@de , "Mikhaïl Kasyanov"@fr , "Mʲɪxɐˈil mʲɪˈxajləvʲɪtɕ kɐˈsʲjanəf"@en , "Mʲɪxɐˈil mʲɪˈxajləvʲɪtɕ kɐˈsʲjanəf"@fr , "Mʲɪxɐˈil mʲɪˈxajləvʲɪtɕ kɐˈsʲjanəf"@de , "Mikhail Kasyanov"@en , "Mikhail Kasyanov"@fr , "Mikhail Kasyanov"@de , "Michael Kasjanow"@de , "Mikhaïl Kassyanov"@fr .

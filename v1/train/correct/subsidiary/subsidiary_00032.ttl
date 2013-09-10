@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04dl6k>
+        rdfs:label       "Emerson Electric Company"@de , "Emerson Electric Company"@en , "Emerson Electric Company"@fr ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.04dl6k__32> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Emerson_Electric_Company> , <http://fr.dbpedia.org/resource/Emerson_Electric_Company> , <http://dbpedia.org/resource/Emerson_Electric_Company> ;
+        skos:altLabel    "Emerson quiet kool"@fr , "Emerson quiet kool"@de , "Emerson Process Management"@fr , "ClosetMaid"@fr , "Emerson Process Management"@de , "ClosetMaid"@de , "Emerson"@fr , "Emerson"@de , "Emerson Motor Technologies"@fr , "Emerson Motor Technologies"@de , "Emerson Storage Solutions"@de , "Emerson Storage Solutions"@fr , "Emerson quiet kool ac"@de , "Emerson quiet kool ac"@fr , "Emerson Electric"@fr , "Emerson Electric"@de , "Emerson Electric Co."@fr , "Emerson Electric Co."@de , "The Emerson Electric Company"@fr , "The Emerson Electric Company"@de , "ASCO Numatics"@fr , "ASCO Numatics"@de , "Emerson Electric, Co."@de , "Emerson Electric, Co."@fr , "Emerson quiet kool ac units"@fr , "Emerson quiet kool ac units"@de , "Emerson Appliance Solutions"@fr , "Emerson Appliance Solutions"@de , "Emerson Climate Technologies"@fr , "Emerson Industrial Automation"@de , "Fisher Controls"@de , "Fisher Controls"@fr , "Emerson Industrial Automation"@fr , "Emerson Climate Technologies"@de , "EMERSON QUIET KOOL AIR CONDITIONING"@fr , "EMERSON QUIET KOOL AIR CONDITIONING"@de , "Emerson Professional Tools"@fr , "Emerson Professional Tools"@de , "Emerson–Fisher Rosemount Systems, Inc."@fr , "Emerson–Fisher Rosemount Systems, Inc."@de , "Rosemount"@fr , "Rosemount"@de , "Emerson quiet kool air conditioners"@de , "Emerson quiet kool air conditioners"@fr , "Emerson Electrical Co."@fr , "Emerson Electrical Co."@de , "Asco"@de , "Asco"@fr , "Emerson Electric Company"@de , "Emerson Electric Company"@fr .
+
+<http://rdf.freebase.com/ns/m.04dl6k__32>
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_9ygw> ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02_9ygw>
+        rdfs:label  "Cooligy"@en .

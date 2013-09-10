@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_pzx>
+        rdfs:label  "A Calculus of Angels"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/A_Calculus_of_Angels> .
+
+<http://dbpedia.org/resource/Lester_B._Pearson>
+        rdfs:label     "Lester B. Pearson"@en , "Lester B. Pearson"@fr , "Lester B. Pearson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Lester_B._Pearson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lester_Bowles_Pearson> , <http://de.dbpedia.org/resource/Lester_Pearson> ;
+        skos:altLabel  "Lester Pearson"@fr , "Lester Pearson"@de , "Lester"@en , "Lester b pearson"@en , "Lester"@fr , "Lester b pearson"@fr , "Lester"@de , "Lester b pearson"@de , "Pearson"@en , "Lester B Pearson"@en , "Pearson"@fr , "Lester B Pearson"@fr , "Lester B Pearson"@de , "Pearson"@de , "Mike Pearson"@fr , "Lester B. Pearson"@en , "Mike"@fr , "Lester B. Pearson"@fr , "Lester B. Pearson"@de , "Lester Bowles Pearson"@en , "Lester Bowles Pearson"@fr , "Lester Bowles Pearson"@de , "Lester pearson"@en , "Lester pearson"@fr , "Lester pearson"@de , "Lester Pearson"@en .
+
+<http://dbpedia.org/resource/Lester_B._Pearson__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.02_pzx> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .

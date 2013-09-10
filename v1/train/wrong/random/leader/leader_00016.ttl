@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/New_Haven,_Connecticut>
+        rdfs:label     "New Haven, Connecticut"@en , "New Haven, Connecticut"@fr , "New Haven, Connecticut"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/New_Haven> , <http://de.dbpedia.org/resource/New_Haven_(Connecticut)> ;
+        skos:altLabel  "New Haven, New Haven County, Connecticut"@en , "New Haven, New Haven County, Connecticut"@fr , "New Haven, New Haven County, Connecticut"@de , "New haven, ct"@en , "New Haven, Conn."@en , "New Haven, Connecticut"@en , "New haven, ct"@fr , "New Haven, Conn."@fr , "New haven, ct"@de , "New Haven, Connecticut"@fr , "New Haven, Connecticut"@de , "New Haven, Conn."@de , "Newhaven"@fr , "New Haven"@en , "New Haven"@fr , "New Haven"@de , "Roodenburg"@en , "Roodenburg"@fr , "Roodenburg"@de , "New Haven, CT"@en , "New Haven, CT"@fr , "New Haven, CT"@de , "New Haven, USA"@en , "New Haven, USA"@fr , "New Haven, USA"@de , "LOCODE:USHVN"@en , "LOCODE:USHVN"@fr , "LOCODE:USHVN"@de , "New Haven,CT"@en , "New Haven,CT"@fr , "New Haven,CT"@de , "Neuer Zufluchtsort"@de .
+
+<http://rdf.freebase.com/ns/m.02tt1k__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/New_Haven,_Connecticut> ;
+        dbo:from        "1896"^^xsd:gYear ;
+        dbo:to          "1911"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02tt1k>
+        rdfs:label     "Eva Green"@en , "Eva Green"@fr , "Eva Green"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02tt1k__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Eva_Green> , <http://dbpedia.org/resource/Eva_Green> , <http://de.dbpedia.org/resource/Eva_Green> ;
+        skos:altLabel  "Eva Gaëlle Green"@en , "Eva Gaëlle Green"@fr , "Èva Green"@en , "Èva Green"@fr , "Èva Green"@de , "Eva Greene"@en , "Eva Greene"@fr , "Eva Greene"@de , "Éva Green"@fr , "Èva Gaëlle Green"@de , "Eva Green"@en , "Eva Gaelle Green"@en , "Green"@fr , "Eva Gaelle Green"@de , "Eva Green"@fr , "Eva Green"@de .

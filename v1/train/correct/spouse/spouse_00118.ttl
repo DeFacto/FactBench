@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j8krcg>
+        rdfs:label    "Adjowa Hayes"@en ;
+        dbo:marriage  <http://rdf.freebase.com/ns/m.0j8krcg__118> .
+
+<http://rdf.freebase.com/ns/m.0163r3>
+        rdfs:label     "Isaac Hayes"@en , "Isaac Hayes"@de , "Isaac Hayes"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Isaac_Hayes> , <http://dbpedia.org/resource/Isaac_Hayes> , <http://de.dbpedia.org/resource/Isaac_Hayes> ;
+        skos:altLabel  "Chef"@en , "Isaac Lee Hayes"@fr , "Isaac Hayes"@fr , "Isaac Lee Hayes"@de , "The Black Moses"@en , "Isaac Hayes"@de , "Isaac Hayes"@en , "Isaac Lee Hayes"@en , "Isaac Hays"@en , "Issac Hayes"@fr , "Issac Hayes"@de , "Issac Hayes"@en , "Hayes, Isaac"@en , "Isaac Hayes Jr."@en , "Isacc hayes"@fr , "Isacc hayes"@de , "Isacc hayes"@en , "Isaac hayes"@fr , "Black Moses"@de , "Isaac hayes"@de , "Isaac hayes"@en , "Isac Heyes"@en , "Isaak Hayes"@en , "Isaac Lee Hayes Jr."@en , "Isaac"@fr , "Hayes"@fr , "Isaac Hayes, Jr."@en , "Isaac, Jr."@en , "Isaac Lee Hayes, Jr."@en , "Ike"@en , "Chef"@fr .
+
+<http://rdf.freebase.com/ns/m.0j8krcg__118>
+        dbo:from    "2005-05"^^xsd:gYearMonth ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0163r3> ;
+        dbo:to      "2008-08-10"^^xsd:date .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05kr_>
+        rdfs:label     "Ontario"@de , "Ontario"@fr , "Ontario"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Ontario> , <http://fr.dbpedia.org/resource/Ontario> , <http://de.dbpedia.org/resource/Ontario> ;
+        skos:altLabel  "Ontairo"@de , "Ontairo"@fr , "Ontairo"@en , "Canada Ontario"@de , "Canada Ontario"@fr , "Canada Ontario"@en , "Ontario"@fr , "Ontario"@en , "Ontario"@de , "Green Energy and Green Economy Act"@de , "Green Energy and Green Economy Act"@fr , "Green Energy and Green Economy Act"@en , "Ontario Canada"@de , "Ontario Canada"@fr , "Ontario Canada"@en , "Province D’ Ontario"@en , "Ontarian"@de , "Ontarian"@fr , "Ontarian"@en , "Ontariens anglais"@fr , "Ontario, Canada"@de , "Ontario, Canada"@fr , "Ontario, Canada"@en , "Ontarien anglophone"@fr , "Ontarien"@fr , "ON"@en , "Province Of Ontario"@en , "Ontarien anglais"@fr , "Ontariens"@fr , "Province of Ontario"@de , "Province of Ontario"@fr , "Province D' Ontario"@en , "Province of Ontario"@en , "CA-ON"@de , "CA-ON"@fr , "CA-ON"@en , "Ontarienne"@fr .
+
+<http://dbpedia.org/resource/Humphrey_Bogart__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.05kr_> ;
+        dbo:from   "2008"^^xsd:gYear ;
+        dbo:to     "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Humphrey_Bogart>
+        rdfs:label     "Humphrey Bogart"@de , "Humphrey Bogart"@fr , "Humphrey Bogart"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Humphrey_Bogart__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Humphrey_Bogart> , <http://fr.dbpedia.org/resource/Humphrey_Bogart> ;
+        skos:altLabel  "Humphrey"@de , "Humphrey"@fr , "Humphrey"@en , "Bogart"@de , "Bogart"@fr , "Bogart"@en , "Humphry Bogart"@en , "Humphry Bogart"@de , "Humphry Bogart"@fr , "Humhprey Bogart"@fr , "Bogey"@fr , "Humphrey Bogart"@en , "Santana Productions"@de , "Santana Productions"@fr , "Santana Productions"@en , "Humphrey Bogart"@de , "Humphrey Bogart"@fr , "Humphrey boggart"@de , "Humphrey boggart"@fr , "Humphrey boggart"@en , "Humprey Bogart"@de , "Humprey Bogart"@fr , "Humprey Bogart"@en , "DeForest"@en , "DeForest"@de , "DeForest"@fr , "Santana"@de , "Santana"@fr , "Santana"@en , "Stephen Bogart"@de , "Stephen Bogart"@fr , "Stephen Bogart"@en , "Humphrey DeForest Bogart"@en , "Humphrey DeForest Bogart"@de , "Humphrey DeForest Bogart"@fr , "Humphrey bogart"@de , "Humphrey bogart"@fr , "Humphrey bogart"@en , "Tennis anyone"@en , "Tennis anyone"@de , "Tennis anyone"@fr .

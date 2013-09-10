@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Makati>
+        rdfs:label     "Makati"@fr , "Makati"@en , "Makati"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Makati> , <http://de.dbpedia.org/resource/Makati_City> ;
+        skos:altLabel  "Comembo"@de , "Comembo"@fr , "Comembo"@en , "Makati"@de , "Makati"@fr , "Makati"@en , "The Wall Street of the Philippines"@de , "The Wall Street of the Philippines"@fr , "The Wall Street of the Philippines"@en , "Makati City, Philippines"@de , "Makati City, Philippines"@fr , "Makati City, Philippines"@en , "Magallanes village"@de , "Magallanes village"@fr , "Magallanes village"@en , "Magallanes Village"@de , "Magallanes Village"@fr , "Magallanes Village"@en , "Metro Manila's Central Business District"@de , "Metro Manila's Central Business District"@fr , "Metro Manila's Central Business District"@en , "Magallanes"@en , "Magallanes"@de , "Magallanes"@fr , "The Financial Capital of the Philippines"@de , "The Financial Capital of the Philippines"@fr , "The Financial Capital of the Philippines"@en , "Makati, Metro Manila"@en , "Makati, Metro Manila"@de , "Makati, Metro Manila"@fr , "City of Makati"@de , "City of Makati"@fr , "City of Makati"@en , "Makati city"@de , "Makati city"@fr , "Makati city"@en , "Makati City"@de , "Makati City"@fr , "Makati City"@en .
+
+<http://rdf.freebase.com/ns/m.0bbf1f__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Makati> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0bbf1f>
+        rdfs:label     "Katie Holmes"@de , "Katie Holmes"@fr , "Katie Holmes"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bbf1f__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Katie_Holmes> , <http://fr.dbpedia.org/resource/Katie_Holmes> , <http://dbpedia.org/resource/Katie_Holmes> ;
+        skos:altLabel  "Kate Noelle \"Katie\" Holmes"@en , "Holmes"@fr , "Holmes"@en , "Katy Holmes"@en , "Jessica Feschbach"@de , "Jessica Feschbach"@fr , "Jessica Feschbach"@en , "Katy Holmes"@de , "Katy Holmes"@fr , "Katherine N. Holmes"@de , "Katherine N. Holmes"@fr , "Katherine N. Holmes"@en , "Katherine N Holmes"@de , "Katherine N Holmes"@fr , "Katherine N Holmes"@en , "Katie Cruise"@en , "Kate Noelle Holmes"@fr , "Kate Noelle Holmes"@en , "Katie holmes"@en , "Katie holmes"@de , "Katie holmes"@fr , "Catie Holmes"@en , "Kaite holmes"@en , "Catie Holmes"@de , "Katie"@en , "Catie Holmes"@fr , "Kaite holmes"@de , "Kaite holmes"@fr , "Suri"@de , "Suri"@fr , "Suri"@en , "Katherine Noelle Holmes"@en , "Katherine Noelle Holmes"@de , "Katherine Noelle Holmes"@fr , "Suri Cruise"@de , "Suri Cruise"@fr , "Suri Cruise"@en , "Katherine Holmes"@en , "Katherine Holmes"@de , "Katherine Holmes"@fr , "Katie Holmes"@de , "Katie Holmes"@fr , "Katie Holmes"@en .

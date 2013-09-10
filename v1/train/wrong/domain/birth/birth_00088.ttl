@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chempu>
+        rdfs:label  "Chempu"@en , "Chempu"@fr , "Chempu"@de .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Chempu> ;
+        dbo:from        "1951"^^xsd:gYear ;
+        dbo:to          "1951"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles>
+        rdfs:label     "Beyoncé Knowles"@en , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Beyoncé_Knowles__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beyoncé_Knowles> , <http://de.dbpedia.org/resource/Beyoncé_Knowles> ;
+        skos:altLabel  "House of Dereon"@fr , "Beyoncé Giselle Knowles"@fr , "Why don't you love me"@fr , "Beyoncé Giselle Knowles"@de , "Knowles"@de , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de , "Beyoncé"@fr , "Beyoncé"@de , "Sasha Fierce"@fr , "Sasha Fierce"@de , "House of Deréon"@fr , "Beyonce Giselle Knowles"@fr , "Beyonce Giselle Knowles"@de , "Beyonce"@fr , "Beyonce"@de , "Beyonce Knowles"@fr , "Beyonce Knowles"@de .

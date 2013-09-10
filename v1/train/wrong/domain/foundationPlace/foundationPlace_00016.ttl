@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0l0mk>
+        rdfs:label     "Santa Cruz"@de , "Santa Cruz"@fr , "Santa Cruz"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Santa_Cruz,_California> , <http://de.dbpedia.org/resource/Santa_Cruz_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Cruz_(Californie)> ;
+        skos:altLabel  "Santa Cruz, California"@en , "Santa Cruz, California"@de , "Santa Cruz, California"@fr , "Santa Cruz, Ca"@en , "Santa Cruz, Ca"@de , "Santa Cruz, Ca"@fr , "Archive1"@en , "Archive1"@de , "Archive1"@fr , "Santa cruise"@en , "Santa cruise"@de , "Santa cruise"@fr , "Pacific Garden Mall"@en , "Pacific Garden Mall"@fr , "Pacific Garden Mall"@de , "LOCODE:USSRU"@en , "LOCODE:USSRU"@de , "LOCODE:USSRU"@fr , "Gateway School"@en , "Santa Cruz County / Santa Cruz city"@en , "Gateway School"@fr , "Gateway School"@de , "Santa Cruz Pacific Avenue"@en , "Santa Cruz Pacific Avenue"@de , "Santa Cruz Pacific Avenue"@fr , "Archive 1"@en , "Archive 1"@de , "Archive 1"@fr , "Villa Branciforte"@en , "Villa Branciforte"@de , "Villa Branciforte"@fr , "Surf City USA"@en , "Empire Academy"@en , "Empire Academy"@de , "Empire Academy"@fr , "Santa cruz ca"@en , "Santa cruz ca"@de , "Santa cruz ca"@fr , "Pogonip"@en , "Pogonip"@de , "Pogonip"@fr , "Santa cruise, ca"@en , "Santa cruise, ca"@de , "Santa cruise, ca"@fr , "Santa cruize"@en , "Santa cruize"@de , "Santa cruize"@fr , "Santa Cruz, CA"@en , "Santa Cruz, CA"@de , "Santa Cruz, CA"@fr , "Santa cruz, ca"@en , "Santa cruz, ca"@de , "Santa cruz, ca"@fr , "Pacific Avenue, Santa Cruz"@en , "Pacific Avenue, Santa Cruz"@fr , "Pacific Avenue, Santa Cruz"@de , "Santa Cruz, California."@en , "Santa Cruz"@en , "Santa Cruz, California."@de , "Santa Cruz, California."@fr , "Santa Cruz"@de , "Santa Cruz"@fr .
+
+<http://rdf.freebase.com/ns/m.0fyp9>
+        rdfs:label     "Fujitsu"@de , "Fujitsu"@fr , "Fujitsu"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fyp9__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Fujitsu> , <http://de.dbpedia.org/resource/Fujitsu> , <http://fr.dbpedia.org/resource/Fujitsu> ;
+        skos:altLabel  "Fujitsu Network Communications Inc."@en , "Fujitsu Network Communications Inc."@de , "Fujitsu Network Communications Inc."@fr , "Fujitsū"@de , "Fujitsū Kabushiki-gaisha"@de , "Fuji"@en , "Fujitsu Limited"@en , "Fuji"@fr , "Fujitsu Limited"@de , "Fujitsu Limited"@fr , "Fuji"@de , "Fujitsu Consulting"@en , "Fujitsu Consulting"@de , "Fujitsu Consulting"@fr , "Fujitsu Services"@en , "Fujitsu Services"@de , "Fujitsu Services"@fr , "Fujitsu Semiconductor Europe GmbH"@en , "Fujitsu Semiconductor Europe GmbH"@de , "Fujitsu Semiconductor Europe GmbH"@fr , "FUJITSU"@en , "FUJITSU"@de , "FUJITSU"@fr , "Fujitsuu"@en , "Fujitsuu"@de , "Fujitsuu"@fr , "Fujitsu Microelectronics Europe GmbH"@en , "Fujitsu Microelectronics Europe GmbH"@de , "Fujitsu Microelectronics Europe GmbH"@fr , "Fujitsu Ltd"@en , "Fujitsu Ltd. - 富士通株式会社"@en , "Fujitsu Ltd. - 富士通株式会社"@de , "Fujitsu Ltd. - 富士通株式会社"@fr , "Fujitsu Laboratories Ltd."@en , "Fujitsu"@en , "Fujitsu Laboratories Ltd."@de , "Fujitsu Laboratories Ltd."@fr , "Fujitsu"@de , "Fujitsu"@fr , "Fujitsu Laboratories Ltd"@en , "Fujitsu Laboratories Ltd"@de , "Fujitsu Laboratories Ltd"@fr , "ETERNUS"@en , "ETERNUS"@de , "ETERNUS"@fr , "Fujitsu Philippines, Inc."@en , "Fujitsu Philippines, Inc."@de , "Fujitsu Philippines, Inc."@fr , "Fujitsu Ltd."@en , "Huzitu"@en , "Fujitsu Ltd."@de , "Fujitsu Ltd."@fr , "Huzitu"@de , "Huzitu"@fr .
+
+<http://rdf.freebase.com/ns/m.0fyp9__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0l0mk> ;
+        dbo:from             "1994"^^xsd:gYear ;
+        dbo:to               "1994"^^xsd:gYear .

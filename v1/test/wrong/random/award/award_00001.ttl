@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01h90j__1>
+        dbo:from      "1901"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Peru,_Indiana> ;
+        dbo:to        "1901"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01h90j>
+        rdfs:label     "Rudolf Christoph Eucken"@en , "Rudolf Christoph Eucken"@fr , "Rudolf Eucken"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01h90j__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rudolf_Christoph_Eucken> , <http://de.dbpedia.org/resource/Rudolf_Eucken> , <http://dbpedia.org/resource/Rudolf_Christoph_Eucken> ;
+        skos:altLabel  "Eucken"@de , "Rudolf Christoph Eucken"@en , "Rudolf Christoph Eucken"@fr , "Rudolf Christoph Eucken"@de , "Rudolf Eucken"@en , "Rudolf Eucken"@de , "Rudolf Eucken"@fr , "Rudolph Eucken"@fr , "Rudolf C. Eucken"@en , "Rudolf C. Eucken"@fr , "Rudolf C. Eucken"@de , "Eucken"@en , "Eucken"@fr .
+
+<http://dbpedia.org/resource/Peru,_Indiana>
+        rdfs:label     "Peru, Indiana"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Peru_(Indiana)> , <http://de.dbpedia.org/resource/Peru_(Indiana)> ;
+        skos:altLabel  "LOCODE:USGUS"@en , "LOCODE:USGUS"@fr , "LOCODE:USGUS"@de , "Peru, Indiana"@en , "Peru, Indiana"@fr , "Peru, Indiana"@de , "Peru, IN"@en , "Peru, IN"@de , "Peru, IN"@fr , "Miamisport, Indiana"@en , "Miamisport, Indiana"@fr , "Miamisport, Indiana"@de , "Peru"@en , "Peru"@fr , "Peru"@de , "Peru, IN µSA"@en , "Peru, IN µSA"@fr , "Peru, IN µSA"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0261x8t__70>
+        dbo:from    "2011-08-20"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0730b4> ;
+        dbo:to      "2013-06-03"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0730b4>
+        rdfs:label     "Kris Humphries"@fr , "Kris Humphries"@de , "Kris Humphries"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kris_Humphries> , <http://dbpedia.org/resource/Kris_Humphries> , <http://de.dbpedia.org/resource/Kris_Humphries> ;
+        skos:altLabel  "Humphries"@fr , "Humphries"@de , "Humphries"@en , "Kris Humphries"@fr , "Kris Humphries"@en , "Kris Humphries"@de , "Kris humphries"@fr , "Kris Nathan Humphries"@en .
+
+<http://rdf.freebase.com/ns/m.0261x8t>
+        rdfs:label     "Kim Kardashian"@de , "Kim Kardashian"@fr , "Kim Kardashian"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0261x8t__70> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kim_Kardashian> , <http://dbpedia.org/resource/Kim_Kardashian> , <http://de.dbpedia.org/resource/Kim_Kardashian> ;
+        skos:altLabel  "Kimmie"@en , "Kim Kardashain"@fr , "Kim Kardashain"@en , "Kim Kardashain"@de , "Kardashian"@fr , "Kardashian"@en , "Kardashian"@de , "Kimberly Kardashian"@fr , "Kim"@en , "Kimberly Kardashian"@en , "Kimberly Kardashian"@de , "Kim Kardashian-Humphries"@fr , "Kim Kardashian-Humphries"@en , "Kim Kardashian-Humphries"@de , "Kim K"@fr , "Kim K"@en , "Kim K"@de , "Kim Kardashian Humphries"@fr , "Kim Kardashian Humphries"@en , "Kim Kardashian Humphries"@de , "Kimberly Noel Kardashian"@fr , "Kimberly Noel Kardashian"@en , "Kimberly Noel Kardashian"@de , "Kim Kardishian"@fr , "Kim Kardishian"@en , "Kim Kardishian"@de , "Kim Kardashan"@fr , "Kim Kardashan"@en , "Kim Kardashan"@de , "Kim kardashian"@fr , "Kim kardashian"@en , "Kim kardashian"@de , "Kim Humphries"@fr , "Kim Humphries"@en , "Kim Humphries"@de , "Kim K."@fr , "Kim K."@en , "Kim K."@de , "Jonathan Cheban"@en , "Jonathan Cheban"@de , "Jonathan Cheban"@fr , "Kim Kardashian"@fr , "Kim Kardashian"@en , "Kim Kardashian"@de , "Kim Kardeshian"@fr , "Kim Kardeshian"@en , "Kim Kardeshian"@de .

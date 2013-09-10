@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03hpr__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027vqtl> ;
+        dbo:from    "1992"^^xsd:gYear ;
+        dbo:to      "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.027vqtl>
+        rdfs:label  "Dreams of Dark and Light: The Great Short Fiction of Tanith Lee"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Dreams_of_Dark_and_Light:_The_Great_Short_Fiction_of_Tanith_Lee> .
+
+<http://rdf.freebase.com/ns/m.03hpr>
+        rdfs:label     "Harlan Ellison"@en , "Harlan Ellison"@fr , "Harlan Ellison"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03hpr__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Harlan_Ellison> , <http://de.dbpedia.org/resource/Harlan_Ellison> , <http://fr.dbpedia.org/resource/Harlan_Ellison> ;
+        skos:altLabel  "Harlan"@en , "Cordwainer Bird"@en , "Harlan Ellison ®"@en , "Harlan"@fr , "Cordwainer Bird"@fr , "Cordwainer Bird"@de , "Harlan"@de , "Harlan Ellison ®"@fr , "Harlan Ellison ®"@de , "Ellison"@en , "Ellison"@fr , "Ellison"@de , "Harlan Jay Ellison"@en , "Harlan Jay Ellison"@fr , "Harlan Jay Ellison"@de , "Harlan Ellison"@en , "Harlan Ellison"@fr , "Harlan Ellison"@de , "Harlan J. Ellison"@en , "Harlan J. Ellison"@fr , "Harlan J. Ellison"@de , "Harold Ellison"@en , "Harold Ellison"@fr , "Harold Ellison"@de , "Cord Wainer Bird"@en , "Sley Harson"@en , "Nalrah Nosille"@en , "Harlan ellison"@en , "Harlan ellison"@fr , "Harlan ellison"@de , "Paul Merchant"@en .

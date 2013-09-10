@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pau_Gasol__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.03g3p7l> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03g3p7l>
+        rdfs:label  "Context Media"@en .
+
+<http://dbpedia.org/resource/Pau_Gasol>
+        rdfs:label     "Pau Gasol"@de , "Pau Gasol"@en , "Pau Gasol"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Pau_Gasol__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pau_Gasol> , <http://de.dbpedia.org/resource/Pau_Gasol> ;
+        skos:altLabel  "Pau Gasol"@en , "Gasol"@en , "Pao Gasol"@en , "Pau Gasol"@fr , "Gasol"@de , "Gasol"@fr , "Pau Gasol"@de , "Pao Gasol"@fr , "Pao Gasol"@de , "Paul Gasol"@en , "Paul Gasol"@fr , "Paul Gasol"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mississauga>
+        rdfs:label     "Mississauga"@de , "Mississauga"@fr , "Mississauga"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mississauga> , <http://de.dbpedia.org/resource/Mississauga> ;
+        skos:altLabel  "Missisauga"@en , "Missisauga"@de , "Missisauga"@fr , "Mississauga, Ontario"@de , "Mississauga, Ontario"@fr , "Mississauga, Ontario"@en , "Mississauga"@de , "Mississauga"@fr , "Mississauga"@en , "Mississaugua, Ontario"@de , "Mississaugua, Ontario"@fr , "Neighbourhoods of Churchill, Mississauga, Ontario"@de , "Neighbourhoods of Churchill, Mississauga, Ontario"@fr , "Neighbourhoods of Churchill, Mississauga, Ontario"@en , "Mississaugua, Ontario"@en , "Applewood Acres"@en , "Mississagua"@en , "Applewood Acres"@de , "Applewood Acres"@fr , "Mississagua"@de , "Mississagua"@fr , "Missisauga, Ontario"@de , "Missisauga, Ontario"@fr , "Missisauga, Ontario"@en , "City of Mississauga"@de , "City of Mississauga"@fr , "City of Mississauga"@en , "Toronto Township"@fr , "Mississauga, Canada"@de , "Mississauga, Canada"@fr , "Mississauga, Canada"@en , "Mississauga, ON"@de , "Mississauga, ON"@fr , "Mississauga, ON"@en , "Mississagua, Ontario"@de , "Mississagua, Ontario"@fr , "Mississagua, Ontario"@en , "Mississaugan"@de , "Mississaugan"@fr , "Mississaugan"@en .
+
+<http://dbpedia.org/resource/John_Adams>
+        rdfs:label     "John Adams"@fr , "John Adams"@en , "John Adams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Adams> , <http://fr.dbpedia.org/resource/John_Adams_(homme_politique)> ;
+        skos:altLabel  "Inaugural Speech"@en , "Inaugural Speech"@de , "Inaugural Speech"@fr , "John Adams Administration"@en , "John Adams Administration"@fr , "John Adams Administration"@de , "John Adams, Jr."@de , "John Adams, Jr."@fr , "John Adams, Jr."@en , "Novanglus"@en , "Novanglus"@de , "Novanglus"@fr , "The second us president"@en , "The second us president"@de , "The second us president"@fr , "Jon Adams"@en , "Jon Adams"@de , "Jon Adams"@fr , "John adams"@en , "John adams"@de , "John adams"@fr , "John Adam's Administration"@en , "John Adam's Administration"@de , "John Adam's Administration"@fr , "Second President of the United States"@en , "Second President of the United States"@de , "Second President of the United States"@fr , "John Adams"@en , "John Adams"@fr , "John Adams"@de , "Presidency of John Adams"@de , "Presidency of John Adams"@fr , "Presidency of John Adams"@en , "Inaugural Speeech"@en , "Inaugural Speeech"@de , "Inaugural Speeech"@fr , "2nd President of the United States"@en , "2nd President of the United States"@de , "2nd President of the United States"@fr , "Adams"@fr , "John Adams, Jr"@en , "John Adams Inaugural Speech"@en , "John Adams Inaugural Speech"@de , "John Adams Inaugural Speech"@fr , "John Adams, Jr"@fr , "John Adams, Jr"@de , "Adams, John"@en , "Adams, John"@de , "Adams, John"@fr .
+
+<http://dbpedia.org/resource/John_Adams__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Mississauga> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .

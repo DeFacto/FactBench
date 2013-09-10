@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08524>
+        rdfs:label     "Le Vagabond"@fr , "The Wanderer"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Le_Vagabond_(roman)> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Wanderer_(Fritz_Leiber_novel)> ;
+        skos:altLabel  "Le vagabond"@fr , "Wanderer"@fr , "Le Vagabond"@fr , "The Wanderer"@fr .
+
+<http://rdf.freebase.com/ns/m.08524__62>
+        dbo:author  <http://rdf.freebase.com/ns/m.08524> ;
+        dbo:from    "1964"^^xsd:gYear ;
+        dbo:to      "1964"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02y49>
+        rdfs:label       "Fritz Leiber"@fr , "Fritz Leiber"@de , "Fritz Leiber"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.08524__62> ;
+        owl:sameAs       <http://dbpedia.org/resource/Fritz_Leiber> , <http://de.dbpedia.org/resource/Fritz_Leiber> , <http://fr.dbpedia.org/resource/Fritz_Leiber_(écrivain)> ;
+        skos:altLabel    "Fritz leiber"@fr , "Leiber"@fr , "Leiber"@de , "Leiber"@en , "Fritz"@fr , "Fritz"@de , "Fritz"@en , "Fritz Leiber, Jr."@en , "Fritz Reuter Leiber, Jr."@fr , "Fritz Reuter Leiber, Jr."@de , "Fritz Reuter Leiber, Jr."@en , "Fritz Leiber"@fr , "Fritz Leiber Jr."@fr , "Fritz Leiber"@de , "Fritz Leiber"@en , "Fritz Leiber Jr."@de , "Fritz Leiber Jr."@en , "Fritz Lieber"@fr , "Fritz Lieber"@de , "Fritz Lieber"@en , "Fritz Reuter Leiber Jr."@en .

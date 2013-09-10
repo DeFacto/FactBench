@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/James_Buchanan>
+        rdfs:label     "James Buchanan"@en , "James Buchanan"@de , "James Buchanan"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/James_Buchanan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/James_Buchanan> , <http://fr.dbpedia.org/resource/James_Buchanan> ;
+        skos:altLabel  "Jimmy Buchanan"@en , "Jimmy Buchanan"@de , "Jimmy Buchanan"@fr , "President Buchanan"@en , "President Buchanan"@de , "President Buchanan"@fr , "James Buchannan"@en , "James Buchannan"@de , "James Buchannan"@fr , "President James Buchanan"@en , "President James Buchanan"@de , "President James Buchanan"@fr , "Presidency of James Buchanan"@en , "Presidency of James Buchanan"@de , "Presidency of James Buchanan"@fr , "Buchanan Administration"@de , "Buchanan Administration"@fr , "Buchanan Administration"@en , "Sexuality of James Buchanan"@en , "Sexuality of James Buchanan"@de , "Sexuality of James Buchanan"@fr , "15th President of the United States"@de , "15th President of the United States"@fr , "15th President of the United States"@en , "First gay president"@en , "First gay president"@de , "First gay president"@fr , "Buchanan, James"@en , "Buchanan, James"@de , "Buchanan, James"@fr , "James Buchanan judicial appointments"@de , "James Buchanan judicial appointments"@fr , "James Buchanan judicial appointments"@en , "James Buchanon"@fr , "James Buchanon"@en , "James Buchanon"@de , "James Buchanan"@de , "James Buchanan"@fr , "James Buchanan"@en , "Buchanan"@de , "Buchanan"@fr , "Buchanan"@en , "James Buchanan, Jr."@en , "James Buchanan, Jr."@de , "James Buchanan, Jr."@fr .
+
+<http://dbpedia.org/resource/James_Buchanan__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rancho_Mirage,_California> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rancho_Mirage,_California>
+        rdfs:label     "Rancho Mirage, California"@fr , "Rancho Mirage, California"@de , "Rancho Mirage, California"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rancho_Mirage> , <http://fr.dbpedia.org/resource/Rancho_Mirage> ;
+        skos:altLabel  "Rancho Mirage, Ca"@en , "Rancho Mirage, Ca"@fr , "Rancho Mirage, Ca"@de , "Rancho Mirage"@en , "Rancho Mirage"@fr , "Rancho Mirage"@de , "Rancho Mirage, CA"@en , "Rancho Mirage, CA"@fr , "Rancho Mirage, CA"@de , "Rancho Mirage, California"@en , "Rancho Mirage, California"@de , "Rancho Mirage, California"@fr .

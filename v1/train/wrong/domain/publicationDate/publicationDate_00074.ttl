@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09dt7>
+        rdfs:label     "Roger Zelazny"@en , "Roger Zelazny"@fr , "Roger Zelazny"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09dt7__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Roger_Zelazny> , <http://dbpedia.org/resource/Roger_Zelazny> , <http://de.dbpedia.org/resource/Roger_Zelazny> ;
+        skos:altLabel  "Zelazny"@en , "Zelazny"@fr , "Zelazny"@de , "Roger"@en , "Roger Zelany"@en , "Roger Zelany"@fr , "Roger Zelany"@de , "Roger"@fr , "Roger"@de , "Roger Joseph Zelazny"@en , "Roger Joseph Zelazny"@fr , "Roger Joseph Zelazny"@de , "Roger zelazny"@en , "Zelazney"@en , "Roger zelazny"@fr , "Roger zelazny"@de , "Zelazney"@fr , "Zelazney"@de , "R. Zelazny"@en , "Harrison Denmark"@en , "R. Zelazny"@fr , "Harrison Denmark"@de , "R. Zelazny"@de , "R Zelazny"@en , "R Zelazny"@fr , "R Zelazny"@de , "Roger Zelazny"@en , "Roger Zelazny"@fr , "Roger Zelazny"@de .
+
+<http://rdf.freebase.com/ns/m.09dt7__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0pj6q> ;
+        dbo:from    "1959"^^xsd:gYear ;
+        dbo:to      "1959"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0pj6q>
+        rdfs:label     "Level 7"@en , "Niveau 7"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Level_7> , <http://fr.dbpedia.org/resource/Niveau_7> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Niveau 7"@fr , "Level 7"@fr .

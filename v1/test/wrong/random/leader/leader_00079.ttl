@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0719hb>
+        rdfs:label     "Christel Khalil"@en , "Christel Khalil"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Christel_Khalil> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Christel_Khalil> ;
+        skos:altLabel  "Christel Adnana Khalil"@en , "Christel"@fr , "Christel Khalil"@fr .
+
+<http://dbpedia.org/resource/Kanye_West>
+        rdfs:label     "Kanye West"@de , "Kanye West"@fr , "Kanye West"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kanye_West__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kanye_West> , <http://de.dbpedia.org/resource/Kanye_West> ;
+        skos:altLabel  "Donda West"@fr , "Donda West"@de , "Kanye West biography"@en , "Pastelle Clothing"@en , "Kanye West biography"@fr , "Pastelle Clothing"@fr , "Kanye West biography"@de , "Pastelle Clothing"@de , "Kanye"@en , "Kanye"@de , "Kanye"@fr , "Kayne West"@en , "LVs & Autotune"@en , "LVs & Autotune"@fr , "LVs & Autotune"@de , "Kayne West"@fr , "Kayne West"@de , "Kanye West"@en , "Kanye West"@de , "Kanye West"@fr , "Kanie West"@en , "Yeezy"@en , "Lil' Kanye West"@en , "Kanye Omari"@en , "Kanie West"@fr , "Lil' Kanye West"@de , "Lil' Kanye West"@fr , "Kanye Omari"@de , "Kanye Omari"@fr , "Yeezy"@de , "Yeezy"@fr , "Kanie West"@de , "West"@fr , "KanYe West"@en , "KanYe West"@de , "KanYe West"@fr , "Past Tell Clothing"@en , "Past Tell Clothing"@de , "Past Tell Clothing"@fr , "Dropout Bear"@en , "Dropout Bear"@de , "Dropout Bear"@fr , "Kanje West"@en , "Kanje West"@de , "Kanje West"@fr , "Kanye west"@en , "Kanye west"@fr , "Kanye west"@de , "Universecity"@en , "Universecity"@de , "Universecity"@fr , "Kanyeezy"@en , "Kanyeezy"@de , "Kanyeezy"@fr , "Kanyewest"@en , "Kanyewest"@fr , "Kanyewest"@de , "Pastel Clothing"@en , "Pastel Clothing"@de , "Pastel Clothing"@fr , "Kanye west sounds"@en , "Kanye Omari West"@en , "Kanye Omari West"@fr , "Kanye Omari West"@de , "Kanye west sounds"@fr , "Kanye west sounds"@de , "KanYeWest"@en , "KanYeWest"@fr , "KanYeWest"@de , "Donda West"@en .
+
+<http://dbpedia.org/resource/Kanye_West__1>
+        dbo:from        "1961"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0719hb> ;
+        dbo:to          "1962"^^xsd:gYear .

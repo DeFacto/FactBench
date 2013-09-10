@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Count_Basie>
+        rdfs:label     "Count Basie"@de , "Count Basie"@fr , "Count Basie"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Count_Basie__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Count_Basie> , <http://de.dbpedia.org/resource/Count_Basie> ;
+        skos:altLabel  "Count Bassie"@de , "Count Bassie"@fr , "Count Bassie"@en , "Count basie"@de , "Count basie"@fr , "Count basie"@en , "Basie"@de , "Basie"@fr , "Basie"@en , "William Basie"@de , "William Basie"@fr , "William Basie"@en , "William 'Count' Basie"@de , "William 'Count' Basie"@fr , "William 'Count' Basie"@en , "Bill Basie"@de , "Bill Basie"@fr , "Bill Basie"@en , "William „Count“ Basie"@de , "William \"Count\" Basie"@de , "William \"Count\" Basie"@fr , "William \"Count\" Basie"@en , "William Count Basie"@de , "William Count Basie"@fr , "William Count Basie"@en , "Count Basie"@de , "Count Basie"@fr , "Count Basie"@en , "Count bassie"@de , "Count bassie"@fr , "Count bassie"@en , "Count"@de , "Count"@fr , "Count"@en .
+
+<http://dbpedia.org/resource/Count_Basie__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hollywood,_Florida> ;
+        dbo:from        "1981"^^xsd:gYear ;
+        dbo:to          "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hollywood,_Florida>
+        rdfs:label     "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hollywood_(Florida)> , <http://fr.dbpedia.org/resource/Hollywood_(Floride)> ;
+        skos:altLabel  "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de , "Hollywood"@en , "Hollywood"@fr , "Hollywood"@de , "Hollywood, fl"@en , "Hollywood, fl"@fr , "Hollywood, fl"@de , "Hollywood, Fl"@en , "Hollywood, Fl"@fr , "Hollywood, Fl"@de , "Hollywood Beach, Florida"@en , "Hollywood Beach, Florida"@fr , "Hollywood Beach, Florida"@de , "LOCODE:USHWO"@en , "LOCODE:USHWO"@fr , "LOCODE:USHWO"@de , "Hollywood, FL"@en , "Hollywood, FL"@fr , "Hollywood, FL"@de , "Hollywood FL"@en , "Hollywood FL"@fr , "Hollywood FL"@de .

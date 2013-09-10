@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Fort_Lauderdale,_Florida>
+        rdfs:label     "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fort_Lauderdale> , <http://de.dbpedia.org/resource/Fort_Lauderdale> ;
+        skos:altLabel  "Venedig Amerikas"@de , "Ft. Lauderdale, Fla."@en , "Ft. Lauderdale, Fla."@de , "Ft. Lauderdale, Fla."@fr , "Fort Laderdale, Florida"@en , "Fort Laderdale, Florida"@fr , "Fort Laderdale, Florida"@de , "Ft. Lauderdale"@en , "Ft. Lauderdale"@de , "Ft. Lauderdale"@fr , "Ft. Lauderdale, FL"@en , "Ft. Lauderdale, FL"@de , "Ft. Lauderdale, FL"@fr , "Ft. Lauderdale, Fl."@en , "Downtown Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Fl."@de , "Ft. Lauderdale, Fl."@fr , "Downtown Fort Lauderdale, Florida"@de , "Downtown Fort Lauderdale, Florida"@fr , "Ft Lauderdale, Florida"@en , "Ft Lauderdale, Florida"@de , "Ft Lauderdale, Florida"@fr , "Fort Lauderdale, FL"@en , "Fort Lauderdale, FL"@de , "Fort Lauderdale, FL"@fr , "Ft Lauderdale"@en , "Ft Lauderdale"@de , "Ft Lauderdale"@fr , "Ft lauderdale, fl"@en , "Ft lauderdale, fl"@fr , "Ft lauderdale, fl"@de , "Ft. Lauderdale, Florida"@en , "Fort Lauderdale, Florida"@en , "Ft. Lauderdale, Florida"@fr , "Fort Lauderdale, Florida"@de , "Fort Lauderdale, Florida"@fr , "Ft. Lauderdale, Florida"@de , "Ft. lauderdale, fl"@en , "Ft. lauderdale, fl"@fr , "Ft. lauderdale, fl"@de , "L-City"@en , "L-City"@de , "L-City"@fr , "Fort lauderdale, fl"@en , "Fort lauderdale, fl"@de , "Fort lauderdale, fl"@fr , "Fort loderdale"@fr , "Lauderdale"@en , "Lauderdale"@de , "Lauderdale"@fr , "Das Venedig Amerikas"@de , "Fort Lauderdale"@en , "Fort Lauderdale"@de , "Fort Lauderdale"@fr , "Ft.Lauderdale"@en , "Ft.Lauderdale"@de , "Ft.Lauderdale"@fr , "Ft Lauderdale, FL"@en , "Ft Lauderdale, FL"@de , "Ft Lauderdale, FL"@fr .
+
+<http://dbpedia.org/resource/Woodrow_Wilson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Fort_Lauderdale,_Florida> ;
+        dbo:from        "1940"^^xsd:gYear ;
+        dbo:to          "1940"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Woodrow_Wilson>
+        rdfs:label     "Woodrow Wilson"@de , "Woodrow Wilson"@fr , "Woodrow Wilson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Woodrow_Wilson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Woodrow_Wilson> , <http://de.dbpedia.org/resource/Woodrow_Wilson> ;
+        skos:altLabel  "T Woodrow Wilson"@en , "T Woodrow Wilson"@de , "T Woodrow Wilson"@fr , "President Wilson"@en , "President Wilson"@de , "President Wilson"@fr , "Wilson, Woodrow"@en , "Wilson, Woodrow"@de , "Wilson, Woodrow"@fr , "Woodrow"@en , "Woodrow"@de , "Woodrow"@fr , "President Wilson's"@en , "W. Wilson"@en , "President Wilson's"@de , "President Wilson's"@fr , "W. Wilson"@de , "W. Wilson"@fr , "Thomas Woodrow Wilson"@de , "Thomas Woodrow Wilson"@fr , "Thomas Woodrow Wilson"@en , "28th President of the United States"@en , "28th President of the United States"@fr , "28th President of the United States"@de , "President Woodrow Wilson"@en , "President Woodrow Wilson"@de , "President Woodrow Wilson"@fr , "Thomas W. Wilson"@en , "Thomas W. Wilson"@fr , "Thomas W. Wilson"@de , "President wilson"@en , "President wilson"@de , "President wilson"@fr , "Woodrow wilson"@en , "Woodrow wilson"@de , "Woodrow wilson"@fr , "Wildrow Woodson"@en , "Wildrow Woodson"@de , "Wildrow Woodson"@fr , "Wilson"@en , "Wilson"@de , "Wilson"@fr , "Woodrow Wilson"@en , "Woodrow Wilson"@de , "Woodrow Wilson"@fr , "Presidency of Woodrow Wilson"@en , "Presidency of Woodrow Wilson"@de , "Presidency of Woodrow Wilson"@fr , "Président Wilson"@fr , "T. Woodrow Wilson"@en , "T. Woodrow Wilson"@de , "T. Woodrow Wilson"@fr .

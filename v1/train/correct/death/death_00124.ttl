@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Roswell,_Georgia>
+        rdfs:label     "Roswell, Georgia"@en , "Roswell, Georgia"@fr , "Roswell, Georgia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Roswell_(Georgia)> ;
+        skos:altLabel  "LOCODE:USRWE"@de , "LOCODE:USRWE"@en , "Roswell"@de , "Roswell"@en , "Roswell, Georgia"@de , "Roswell, Georgia"@en , "Roswell, GA"@en , "Roswell, GA"@de .
+
+<http://dbpedia.org/resource/Curtis_Mayfield>
+        rdfs:label     "Curtis Mayfield"@en , "Curtis Mayfield"@fr , "Curtis Mayfield"@de ;
+        dbo:death      <http://dbpedia.org/resource/Curtis_Mayfield__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Curtis_Mayfield> , <http://fr.dbpedia.org/resource/Curtis_Mayfield> ;
+        skos:altLabel  "Curtis Mayfield & The Impressions"@fr , "Curtis Mayfield & The Impressions"@de , "Curtis Mayfield & The Impressions"@en , "Curtis"@fr , "Curtis"@de , "Curtis"@en , "Mayfield"@fr , "Mayfield"@de , "Mayfield"@en , "Curtis Mayfield"@fr , "Curtis Mayfield"@de , "Curtis Mayfield"@en .
+
+<http://dbpedia.org/resource/Curtis_Mayfield__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Roswell,_Georgia> ;
+        dbo:from        "1999-12-26"^^xsd:date ;
+        dbo:to          "1999-12-26"^^xsd:date .

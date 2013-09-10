@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0244fy>
+        rdfs:label     "Orhan Pamuk"@de , "Orhan Pamuk"@en , "Orhan Pamuk"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0244fy__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Orhan_Pamuk> , <http://dbpedia.org/resource/Orhan_Pamuk> , <http://fr.dbpedia.org/resource/Orhan_Pamuk> ;
+        skos:altLabel  "Orhan Pamuk"@fr , "Orhan Parmuk"@fr , "Orhan Parmuk"@de , "Orhan Pamuk"@de , "Pamuk"@de , "Ferit Orhan Pamuk"@en , "Ferit Orhan Pamuk"@fr , "Ferit Orhan Pamuk"@de , "Pamuk, Orhan"@en , "Pamuk, Orhan"@fr , "Pamuk, Orhan"@de , "Orhan"@en , "Orhan"@fr , "Orhan"@de , "Orhan Parmuk and Turkish Human Rights"@en , "Orhan Parmuk and Turkish Human Rights"@fr , "Orhan Parmuk and Turkish Human Rights"@de , "Pamuk"@en , "Orhan Pamuk"@en , "Orhan Parmuk"@en , "Pamuk"@fr .
+
+<http://rdf.freebase.com/ns/m.0bd7l0>
+        rdfs:label     "Leo Burmester"@en , "Leo Burmester"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Leo_Burmester> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Burmester"@en , "Leo Burmester"@en , "Leo Burmeister"@en .
+
+<http://rdf.freebase.com/ns/m.0244fy__1>
+        dbo:from        "1871"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0bd7l0> ;
+        dbo:to          "1871"^^xsd:gYear .

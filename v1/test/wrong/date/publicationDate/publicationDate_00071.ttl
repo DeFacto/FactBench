@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gd_s__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.055cfr> ;
+        dbo:from    "1963"^^xsd:gYear ;
+        dbo:to      "1963"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.055cfr>
+        rdfs:label     "Nova"@en , "Nova"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nova_(roman)> , <http://dbpedia.org/resource/Nova_(novel)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Nova"@fr .
+
+<http://rdf.freebase.com/ns/m.0gd_s>
+        rdfs:label     "Samuel R. Delany"@de , "Samuel R. Delany"@en , "Samuel Delany"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0gd_s__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Samuel_R._Delany> , <http://dbpedia.org/resource/Samuel_R._Delany> , <http://de.dbpedia.org/resource/Samuel_R._Delany> ;
+        skos:altLabel  "Samuel R Delany"@de , "Samuel R Delany"@fr , "Samuel R Delany"@en , "S. L. Kermit"@en , "Samuel Ray Delany"@en , "Samuel Ray Delany"@de , "Samuel R Delaney"@de , "Samuel R Delaney"@fr , "Samuel R Delaney"@en , "Samuel Delaney"@de , "Samuel Delaney"@fr , "Samuel Delaney"@en , "Delany"@de , "Delany"@fr , "Delany"@en , "Samuel Ray Delaney, Jr."@en , "K. Leslie Steiner"@de , "K. Leslie Steiner"@fr , "K. Leslie Steiner"@en , "Samuel R. Delany"@de , "Samuel R. Delany"@fr , "Samuel R. Delany"@en , "Sam Delany"@de , "Sam Delany"@fr , "Sam Delany"@en , "Samuel Ray Delany Jr."@de , "Samuel Ray Delany Jr."@fr , "Samuel Ray Delany Jr."@en , "Samuel Delany"@de , "Samuel Delany"@fr , "Samuel Delany"@en , "Samuel Ray Delany, Jr."@de , "Samuel Ray Delany, Jr."@fr , "Samuel Ray Delany, Jr."@en , "Samuel R. Delaney"@en , "Samuel R. Delaney"@de , "Samuel R. Delaney"@fr , "Chip Delany"@de , "Chip Delany"@fr , "Chip Delany"@en .

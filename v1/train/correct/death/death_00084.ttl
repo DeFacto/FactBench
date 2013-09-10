@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bo_Diddley>
+        rdfs:label     "Bo Diddley"@de , "Bo Diddley"@fr , "Bo Diddley"@en ;
+        dbo:death      <http://dbpedia.org/resource/Bo_Diddley__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bo_Diddley> , <http://de.dbpedia.org/resource/Bo_Diddley> ;
+        skos:altLabel  "Ellas Otha Bates"@de , "Ellas Otha Bates"@fr , "Bo Diddley"@fr , "Bo Diddley"@en , "Bo Diddley"@de , "Bo Didley"@fr , "Bo Didley"@en , "Bo Didley"@de , "Ellas Bates"@fr , "Ellas Bates"@en , "Ellas Bates"@de , "Bo Diddley Beat"@en , "Bo Diddley Beat"@de , "Bo Diddley Beat"@fr , "Ellas Otha Bates McDaniel"@fr , "Bo Didly"@fr , "Bo Didly"@en , "Bo Didly"@de , "Bo diddely"@fr , "Bo Diddely"@fr , "Bo diddely"@en , "Bo diddely"@de , "Bo Diddly"@fr , "Bo Diddly"@en , "Bo Diddly"@de , "Bo Diddely"@en , "Bo Diddely"@de , "Ellas O. B. McDaniel"@de , "McDaniel"@fr , "Bo Diddley beat"@fr , "Bo Diddley beat"@en , "Bo Diddley beat"@de , "Diddley"@de , "Otha Ellas Bates"@de , "Bo-Diddley beat"@fr , "Bo-Diddley beat"@en , "Bo-Diddley beat"@de , "Diddley beat"@fr , "Diddley beat"@en , "Diddley beat"@de , "Ellas McDaniel"@fr , "Elias B. McDaniel"@en , "Ellas McDaniel"@en , "Elias B. McDaniel"@de , "Ellas McDaniel"@de , "Elias B. McDaniel"@fr , "Ellas Otha Bates"@en .
+
+<http://dbpedia.org/resource/Bo_Diddley__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Archer,_Florida> ;
+        dbo:from        "2008-06-02"^^xsd:date ;
+        dbo:to          "2008-06-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Archer,_Florida>
+        rdfs:label     "Archer, Florida"@en , "Archer, Florida"@fr , "Archer, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Archer_(Florida)> ;
+        skos:altLabel  "Archer, FL"@en , "Archer, FL"@de , "Archer"@de , "Archer"@en , "Archer, Fl"@en , "Archer, Fl"@de , "Archer, Florida"@de , "Archer, Florida"@en .

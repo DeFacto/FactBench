@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014ps4>
+        rdfs:label     "Gene Wolfe"@en , "Gene Wolfe"@fr , "Gene Wolfe"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.014ps4__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Gene_Wolfe> , <http://de.dbpedia.org/resource/Gene_Wolfe> , <http://fr.dbpedia.org/resource/Gene_Wolfe> ;
+        skos:altLabel  "Gene wlfe"@en , "Gene wlfe"@fr , "Gene wlfe"@de , "Gene Rodman Wolfe"@en , "Wolfe"@de , "Wolfe"@fr , "Gene wolfe"@en , "Gene wolfe"@fr , "Gene wolfe"@de , "Gene wolf"@en , "Gene wolf"@fr , "Gene wolf"@de , "Gene Wolfe"@en , "Gene Wolfe"@fr , "Gene Wolfe"@de , "Gene Wolf"@fr .
+
+<http://rdf.freebase.com/ns/m.014ps4__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03s2zv> ;
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:to      "1987"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03s2zv>
+        rdfs:label     "Diabolus"@de , "Forteresse digitale"@fr , "Digital Fortress"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Forteresse_digitale> , <http://dbpedia.org/resource/Digital_Fortress> , <http://de.dbpedia.org/resource/Diabolus> ;
+        skos:altLabel  "Fortăreața digitală"@en , "Fortăreața digitală"@de , "Fortăreața digitală"@fr , "Digital Fortress"@en , "Digital Fortress"@de , "Digital Fortress"@fr , "Fortaleza Digital"@en , "Fortaleza Digital"@de , "Fortaleza Digital"@fr , "Caesar Box"@en , "Greg Hale"@en , "Greg Hale"@de , "Caesar Box"@de , "Caesar Box"@fr , "Greg Hale"@fr , "Het Juvenalis Dilemma"@en , "Het Juvenalis Dilemma"@de , "Het Juvenalis Dilemma"@fr , "Forteresse Digitale"@fr , "Fortareata digitala"@en , "Fortareata digitala"@de , "Fortareata digitala"@fr , "Cyfrowa twierdza"@en , "Cyfrowa twierdza"@de , "Cyfrowa twierdza"@fr , "Diabolus"@de , "La fortaleza digital"@en , "La fortaleza digital"@fr , "La fortaleza digital"@de , "Forteresse digitale"@fr , "Ensei Tankado"@en , "Ensei Tankado"@de , "Ensei Tankado"@fr , "TRANSLTR"@en , "TRANSLTR"@de , "TRANSLTR"@fr , "Bod klamu"@en , "Bod klamu"@de , "Bod klamu"@fr , "Caesar square"@en , "Caesar square"@de , "Caesar square"@fr , "Tsifrova krepost"@en , "Fortăreaţa digitală"@en , "Tsifrova krepost"@de , "Tsifrova krepost"@fr , "Fortăreaţa digitală"@de , "Fortăreaţa digitală"@fr , "Digitalna Trdnjava"@en , "Digitalna Trdnjava"@fr , "Digitalna Trdnjava"@de , "Caesar box"@en , "Caesar box"@de , "Caesar box"@fr , "NDAKOTA"@en , "NDAKOTA"@de , "NDAKOTA"@fr .

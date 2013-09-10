@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01trhmt>
+        rdfs:label     "Usher"@de , "Usher"@fr , "Usher"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Usher> , <http://dbpedia.org/resource/Usher_(entertainer)> , <http://de.dbpedia.org/resource/Usher> ;
+        skos:altLabel  "Usher Jamie Raymond"@en , "Usher Jamie Raymond"@de , "Usher Jamie Raymond"@fr , "Raymond IV Usher"@en , "Mr. Entertainment"@en , "USH Records"@de , "USH Records"@fr , "USH Records"@en , "U. Raymond"@en , "Usher Raymond IV"@de , "Usher Raymond IV"@fr , "Usher Raymond IV"@en , "Usher Raymond"@de , "Usher Raymond"@fr , "Usher Raymond"@en , "Usher Terry Raymond IV"@en , "R. Usher"@en , "Usher -"@en , "Best of Usher"@en , "Raymond Usher"@en , "US Records"@de , "US Records"@fr , "US Records"@en , "U. Raymond IV"@en , "Big Ush"@en , "Us-Her"@en , "Usher (Caesar of The South)"@en , "Usher 'Mr. Entertainment'"@en , "Usher"@de , "Usher"@fr , "Usher"@en , "Big Tyme"@en , "Ush Records"@en , "Ush Records"@de , "Ush Records"@fr , "Usher Terrence Raymond IV"@en , "Usher Raymond IV "@en , "Usher Jamie Raymond IV"@de , "Usher Jamie Raymond IV"@fr , "Usher Jamie Raymond IV"@en , "Usher Raymond IV."@de .
+
+<http://rdf.freebase.com/ns/m.01hr26>
+        rdfs:label     "Leon Lai"@en , "Leon Lai"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01hr26__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Leon_Lai> , <http://dbpedia.org/resource/Leon_Lai> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Lai Ming"@en , "Lai Ming"@fr , "黎明"@en , "Leon Lai Ming"@en , "Leon Lai Ming"@fr , "Leon Lai"@en , "Leon Lai"@fr , "Lai, Leon"@en , "Alexander Lai Chit"@en , "¾¤©ú"@en , "Li Ming"@en , "Leon Lai Ming, BBS, MH"@en .
+
+<http://rdf.freebase.com/ns/m.01hr26__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.01trhmt> ;
+        dbo:from        "1980"^^xsd:gYear ;
+        dbo:to          "1980"^^xsd:gYear .

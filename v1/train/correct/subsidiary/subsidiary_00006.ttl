@@ -1,0 +1,26 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03svg3__6>
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.05s2zz> ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ascend_Communications>
+        skos:altLabel  "Ascend Communications"@en .
+
+<http://rdf.freebase.com/ns/m.03svg3>
+        rdfs:label       "Ascend Communications"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.03svg3__6> ;
+        owl:sameAs       <http://dbpedia.org/resource/Ascend_Communications> .
+
+<http://dbpedia.org/resource/Cascade_Communications>
+        skos:altLabel  "Cascade Communications"@en , "Cascade"@en .
+
+<http://rdf.freebase.com/ns/m.05s2zz>
+        rdfs:label  "Cascade Communications"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Cascade_Communications> .

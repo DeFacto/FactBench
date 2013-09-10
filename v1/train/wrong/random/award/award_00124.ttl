@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026m56t>
+        rdfs:label     "Gaile Lok"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Gaile_Lok> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Jier Le"@en , "Kei-yi Lok"@en , "Gaile Lai"@en , "Gaile Lok"@en .
+
+<http://rdf.freebase.com/ns/m.06znsfw>
+        rdfs:label     "SNP Schneider-Neureither & Partner AG"@en , "SNP Schneider-Neureither & Partner"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06znsfw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/SNP_Schneider-Neureither_&_Partner_AG> , <http://dbpedia.org/resource/SNP_Schneider-Neureither_&_Partner_AG> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "SNP AG"@de , "SNP Schneider-Neureither & Partner AG"@de .
+
+<http://rdf.freebase.com/ns/m.06znsfw__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.026m56t> ;
+        dbo:from    "1973"^^xsd:gYear ;
+        dbo:to      "1973"^^xsd:gYear .

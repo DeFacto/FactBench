@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Santa_Barbara,_California>
+        rdfs:label     "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Barbara_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Barbara_(Californie)> ;
+        skos:altLabel  "Westside Projects Barrio"@fr , "Downtown Santa Barbara, California"@de , "Downtown Santa Barbara, California"@en , "Westside Projects Barrio"@de , "Westside Projects Barrio"@en , "American Riviera"@fr , "Santa Barbara, Ca"@fr , "American Riviera"@de , "Santa Barbara, Ca"@de , "American Riviera"@en , "Santa Barbara, Ca"@en , "LOCODE:USSBA"@fr , "Santa barbara, ca"@fr , "Barbara"@fr , "LOCODE:USSBA"@de , "Santa barbara, ca"@de , "Barbara"@de , "LOCODE:USSBA"@en , "Barbara"@en , "Santa barbara, ca"@en , "Santa Barbara"@fr , "Santa Barbara"@de , "Santa Barbara"@en , "Santa Barbara, CA"@fr , "Santa Barbara, CA"@de , "Santa Barbara, CA"@en , "Santa Barbara, Calif."@fr , "Santa Barbara, Calif."@de , "Santa Barbara, Calif."@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de , "Santa Barbara, California"@en , "Downtown Santa Barbara, California"@fr .
+
+<http://dbpedia.org/resource/Robert_Mitchum__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Barbara,_California> ;
+        dbo:from        "1997-07-01"^^xsd:date ;
+        dbo:to          "1997-07-01"^^xsd:date .
+
+<http://dbpedia.org/resource/Robert_Mitchum>
+        rdfs:label     "Robert Mitchum"@en , "Robert Mitchum"@fr , "Robert Mitchum"@de ;
+        dbo:death      <http://dbpedia.org/resource/Robert_Mitchum__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Mitchum> , <http://fr.dbpedia.org/resource/Robert_Mitchum> ;
+        skos:altLabel  "Robet mitchum"@fr , "Robet mitchum"@de , "Robet mitchum"@en , "Robert Mitchum"@fr , "Robert Mitchum"@de , "Robert Mitchum"@en , "Mitchum"@de , "Bob Mitchum"@fr , "Bob Mitchum"@de , "Bob Mitchum"@en , "Robert Charles Durman Mitchum"@fr , "Robert Charles Durman Mitchum"@de , "Robert Charles Durman Mitchum"@en .

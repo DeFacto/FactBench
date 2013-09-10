@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014635__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.02m6hs> ;
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:to          "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.014635>
+        rdfs:label     "Mark Twain"@de , "Mark Twain"@fr , "Mark Twain"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.014635__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mark_Twain> , <http://dbpedia.org/resource/Mark_Twain> , <http://fr.dbpedia.org/resource/Mark_Twain> ;
+        skos:altLabel  "Samuel Clements"@en , "Samuel Clements"@de , "Samuel Clements"@fr , "Marc Twain"@en , "Marc Twain"@de , "Marc Twain"@fr , "Samuel Longhorn Clemens"@en , "Samuel Longhorn Clemens"@de , "Samuel Longhorn Clemens"@fr , "Mark Twain"@en , "Mark Twain"@de , "Mark Twain"@fr , "Reports of my death are greatly exaggerated"@en , "Reports of my death are greatly exaggerated"@de , "Reports of my death are greatly exaggerated"@fr , "Twain, Mark"@en , "Twain, Mark"@de , "Twain, Mark"@fr , "Twain"@en , "Twain"@de , "Twain"@fr , "Twain Mark"@en , "Samuel Langhorne Clemens"@en , "Samuel Langhorne Clemens"@de , "Samuel Langhorne Clemens"@fr , "Sergeant Fathom"@en , "Sergeant Fathom"@fr , "Sergeant Fathom"@de , "Josh"@en , "Clemens L."@en , "SL Clemens"@en , "Quintus Curtius Snodgrass"@en , "Mark twain"@en , "Mark twain"@de , "Mark twain"@fr , "SL Clemens"@de , "SL Clemens"@fr , "Samuel Langhorn Clemens"@en , "Samuel Langhorn Clemens"@de , "Samuel Langhorn Clemens"@fr , "Samuel L. Clemens"@en , "Samuel L. Clemens"@de , "Samuel L. Clemens"@fr , "Thomas Jefferson Snodgrass"@en , "Thomas Jefferson Snodgrass"@de , "Thomas Jefferson Snodgrass"@fr , "Sam Clemens"@en , "Sam Clemens"@de , "Sam Clemens"@fr , "Louis de Conte"@en , "Samuel Clemens"@en , "Samuel Clemens"@de , "Samuel Clemens"@fr , "Sam Langhorne Clemens"@en , "Sam Langhorne Clemens"@de , "Sam Langhorne Clemens"@fr , "Sieur Louis de Conte"@en , "Soleather"@en , "Soleather"@de , "Soleather"@fr .
+
+<http://rdf.freebase.com/ns/m.02m6hs>
+        rdfs:label  "Riddley Walker"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Riddley_Walker> .

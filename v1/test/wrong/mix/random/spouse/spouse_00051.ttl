@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Prague>
+        rdfs:label     "Prague"@de , "Prague"@fr , "Prague"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Prag> , <http://fr.dbpedia.org/resource/Prague> ;
+        skos:altLabel  "Tourisme en République Tchèque"@fr , "Capital of Czech Republic"@en , "Capital of Czech Republic"@de , "Capital of Czech Republic"@fr , "Praha, Czech Republic"@en , "Praha, Czech Republic"@fr , "Praha, Czech Republic"@de , "Prag"@en , "Prahou"@en , "Capital of the Czech Republic"@en , "Prag"@fr , "Prahou"@fr , "Capital of the Czech Republic"@fr , "Prag"@de , "Prahou"@de , "Capital of the Czech Republic"@de , "Historic Centre of Prague"@en , "Historic Centre of Prague"@de , "Historic Centre of Prague"@fr , "CZPRG"@en , "LOCODE:CZPRG"@en , "Praha, hlavni mesto"@fr , "CZPRG"@fr , "CZPRG"@de , "LOCODE:CZPRG"@de , "LOCODE:CZPRG"@fr , "Prague"@en , "Prague"@fr , "Prague"@de , "Hlavní město Praha"@en , "Hlavní město Praha"@de , "Hlavní město Praha"@fr , "Prahy"@en , "Prahy"@de , "Prahy"@fr , "CZ-PR"@de , "Prague ,Czech Republic"@en , "Prague ,Czech Republic"@fr , "Prague ,Czech Republic"@de , "Tourisme en Republique Tcheque"@fr , "Prague, Czechoslovakia"@en , "Prague, Czechoslovakia"@de , "Prague, Czechoslovakia"@fr , "Prague, Czech Republic"@en , "Prague, Czech Republic"@fr , "Prague, Czech Republic"@de , "NUTS Praha"@en , "NUTS Praha"@de , "NUTS Praha"@fr , "Greater Prague"@en , "Greater Prague"@fr , "Greater Prague"@de , "Hlavni mesto Praha"@en , "Hlavni mesto Praha"@de , "Hlavni mesto Praha"@fr , "Praha, hlavní město"@fr , "Praha"@en , "Capitale de la République tchèque"@fr , "Praha"@de , "Praha"@fr , "City of Prague"@en , "City of Prague"@de , "City of Prague"@fr , "Capitale de la Republique tcheque"@fr , "NUTS Prague"@en , "NUTS Prague"@fr , "NUTS Prague"@de , "Wards of Prague"@en , "Wards of Prague"@de , "Wards of Prague"@fr .
+
+<http://dbpedia.org/resource/Hal_Roach__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Prague> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hal_Roach>
+        rdfs:label     "Hal Roach"@en , "Hal Roach"@fr , "Hal Roach"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hal_Roach__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hal_Roach> , <http://de.dbpedia.org/resource/Hal_Roach> ;
+        skos:altLabel  "Roach, Hal"@en , "Roach, Hal"@fr , "Roach, Hal"@de , "Hal Roach"@en , "Hal Roach Studios"@en , "Hal Roach"@de , "Hal Roach"@fr , "Hal Roach Studios"@fr , "Hal Roach Studios"@de , "Roach"@de .

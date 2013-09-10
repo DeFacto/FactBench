@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cuernavaca>
+        rdfs:label     "Cuernavaca"@en , "Cuernavaca"@fr , "Cuernavaca"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cuernavaca> , <http://de.dbpedia.org/resource/Cuernavaca> ;
+        skos:altLabel  "Cuauhnahuac"@en , "Cuauhnahuac"@fr , "Cuauhnahuac"@de , "Quauhnahuac"@en , "Quauhnahuac"@fr , "Quauhnahuac"@de , "Cuauhnáhuac"@de , "Cuernavaca, Morelos"@en , "Cuernavaca"@en , "Cuernavaca"@fr , "Cuernavaca"@de , "Cuernavaca, Mexico"@en , "Cuernavaca, Morelos"@fr , "Cuernavaca, Mexico"@fr , "Cuernavaca, Morelos"@de , "Cuernavaca, Mexico"@de , "Cuernavacas"@en , "Cuernavacas"@fr , "Cuernavacas"@de , "Cuernavacca"@de .
+
+<http://dbpedia.org/resource/John_Ford>
+        rdfs:label     "John Ford"@en , "John Ford"@fr , "John Ford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Ford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Ford> , <http://fr.dbpedia.org/resource/John_Ford> ;
+        skos:altLabel  "Ford, John"@en , "John Ford"@en , "John Ford statue"@en , "John Ford"@fr , "John Ford"@de , "John Ford statue"@fr , "John Ford statue"@de , "Ford, John"@fr , "Ford, John"@de , "Cavalry trilogy"@en , "Cavalry trilogy"@fr , "Cavalry trilogy"@de , "John ford"@fr , "Ford"@fr , "John Martin Feeney"@fr .
+
+<http://dbpedia.org/resource/John_Ford__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Cuernavaca> ;
+        dbo:from        "1967"^^xsd:gYear ;
+        dbo:to          "1967"^^xsd:gYear .

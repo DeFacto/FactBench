@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01xln>
+        rdfs:label     "Czesław Miłosz"@en , "Czesław Miłosz"@fr , "Czesław Miłosz"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01xln__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Czes%C5%82aw_Mi%C5%82osz> ;
+        skos:altLabel  "Czeslaw Milosz"@en , "Miłosz, Czesław"@en , "John Syruć"@en .
+
+<http://rdf.freebase.com/ns/m.05v_gz>
+        rdfs:label     "Michael Welch"@fr , "Michael Welch"@de , "Michael Welch"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Michael_Welch_(acteur)> , <http://de.dbpedia.org/resource/Michael_Welch> , <http://dbpedia.org/resource/Michael_Welch_(actor)> ;
+        skos:altLabel  "Michael Welch"@en , "Michael Welch"@fr , "Michael Welch"@de , "Welch"@fr , "Welch"@de , "Michael Alan Welch"@en , "Michael Alan Welch"@de , "Mike Welch"@de , "Mike Welch"@en , "Mike"@en .
+
+<http://rdf.freebase.com/ns/m.01xln__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.05v_gz> ;
+        dbo:from             "1975"^^xsd:gYear ;
+        dbo:to               "1975"^^xsd:gYear .

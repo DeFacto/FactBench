@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Albany,_Georgia>
+        rdfs:label     "Albany, Georgia"@de , "Albany, Georgia"@en , "Albany, Georgia"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Albany_(Géorgie)> , <http://de.dbpedia.org/resource/Albany_(Georgia)> ;
+        skos:altLabel  "Albany georgia"@en , "Albany georgia"@fr , "Aeroport regional d'Albany"@fr , "Albany georgia"@de , "Albany, ga"@en , "Albany, ga"@fr , "Albany, ga"@de , "Albany Regional Airport"@fr , "The intersection of Lonesome & Hardup"@en , "Albany, GA"@en , "Aéroport régional d'Albany"@fr , "Albany, GA"@fr , "Albany, GA"@de , "LOCODE:USABY"@en , "LOCODE:USABY"@fr , "LOCODE:USABY"@de , "The intersection of Lonesome & Hardup"@fr , "The intersection of Lonesome & Hardup"@de , "Albany"@en , "Albany"@fr , "Albany"@de , "Albany, Georgia"@en , "Albany, Georgia"@fr , "Albany, Georgia"@de .
+
+<http://rdf.freebase.com/ns/m.0h7bj3v>
+        rdfs:label  "Grihalakshmi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h7bj3v__1> .
+
+<http://rdf.freebase.com/ns/m.0h7bj3v__1>
+        dbo:from      "1937"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Albany,_Georgia> ;
+        dbo:to        "1937"^^xsd:gYear .

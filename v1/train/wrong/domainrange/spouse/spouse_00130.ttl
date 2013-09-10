@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01r2q_>
+        rdfs:label     "Kelly McGillis"@de , "Kelly McGillis"@en , "Kelly McGillis"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kelly_McGillis> , <http://fr.dbpedia.org/resource/Kelly_McGillis> , <http://dbpedia.org/resource/Kelly_McGillis> ;
+        skos:altLabel  "McGillis"@en , "Kelly"@fr , "Gillis"@fr , "McGillis"@fr , "McGillis"@de , "Kelly Ann McGillis"@en , "Kelly McGillis"@en , "Kelly McGillis"@fr , "Kelly McGillis"@de , "Kelly Mcgillis"@en , "Kelly mcgillis"@en , "Kelly Mcgillis"@fr , "Kelly Mcgillis"@de , "Kelly mcgillis"@de , "Kelly mcgillis"@fr .
+
+<http://rdf.freebase.com/ns/m.07zq7gz>
+        rdfs:label  "Casey Aldridge"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07zq7gz__1> .
+
+<http://rdf.freebase.com/ns/m.07zq7gz__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01r2q_> ;
+        dbo:to      "2012"^^xsd:gYear .

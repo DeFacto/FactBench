@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0gcpsj>
+        rdfs:label  "Summon the Thunder"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Summon_the_Thunder> .
+
+<http://rdf.freebase.com/ns/m.0404lkx>
+        rdfs:label     "Kevin Dilmore"@en , "Kevin Dilmore"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0404lkx__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kevin_Dilmore> , <http://de.dbpedia.org/resource/Kevin_Dilmore> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Kevin Dilmore"@de , "Dilmore"@de .
+
+<http://rdf.freebase.com/ns/m.0404lkx__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0gcpsj> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .

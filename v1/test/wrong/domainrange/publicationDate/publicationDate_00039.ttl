@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09y3hn>
+        rdfs:label  "Wizard"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Wizard_(novel)> .
+
+<http://rdf.freebase.com/ns/m.01_3ds>
+        rdfs:label     "David Gerrold"@en , "David Gerrold"@fr , "David Gerrold"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01_3ds__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Gerrold> , <http://fr.dbpedia.org/resource/David_Gerrold> , <http://dbpedia.org/resource/David_Gerrold> ;
+        skos:altLabel  "Jerrold David Friedman"@en , "Jerrold Friedman"@en , "Gerrold"@en , "Gerrold"@fr , "Gerrold"@de , "N. Ward"@en , "David Gerrold"@en , "David Gerrold"@fr , "David Gerrold"@de .
+
+<http://rdf.freebase.com/ns/m.01_3ds__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.09y3hn> ;
+        dbo:from    "1970"^^xsd:gYear ;
+        dbo:to      "1970"^^xsd:gYear .

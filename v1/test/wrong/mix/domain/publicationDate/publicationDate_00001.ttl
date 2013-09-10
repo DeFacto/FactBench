@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01qqfy__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.071s3y> ;
+        dbo:from    "1966"^^xsd:gYear ;
+        dbo:to      "1966"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01qqfy>
+        rdfs:label     "Garth Nix"@en , "Garth Nix"@fr , "Garth Nix"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01qqfy__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Garth_Nix> , <http://de.dbpedia.org/resource/Garth_Nix> , <http://fr.dbpedia.org/resource/Garth_Nix> ;
+        skos:altLabel  "Nix, Garth"@en , "Clariel: The Lost Abhorsen"@en , "Clariel: The Lost Abhorsen"@de , "Clariel: The Lost Abhorsen"@fr , "Garth"@en , "Garth"@fr , "Garth"@de , "Garth Nix"@en , "Garth Nix"@fr , "Garth Nix"@de .
+
+<http://rdf.freebase.com/ns/m.071s3y>
+        rdfs:label  "Skylark DuQuesne"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Skylark_DuQuesne> .

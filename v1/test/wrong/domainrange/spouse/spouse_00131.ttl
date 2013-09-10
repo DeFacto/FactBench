@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0688bj2__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01x_d8> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0688bj2>
+        rdfs:label     "David W. Donoho"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0688bj2__1> ;
+        skos:altLabel  "David William Donoho"@en .
+
+<http://rdf.freebase.com/ns/m.01x_d8>
+        rdfs:label     "Mena Suvari"@en , "Mena Suvari"@fr , "Mena Suvari"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mena_Suvari> , <http://de.dbpedia.org/resource/Mena_Suvari> , <http://dbpedia.org/resource/Mena_Suvari> ;
+        skos:altLabel  "Suvari"@de , "Mena A. Suvari"@en , "Meena Suvari"@en , "Meena Suvari"@fr , "Meena Suvari"@de , "Mena Suvari"@en , "Mena"@en , "Mena Suvari"@fr , "Mena"@fr , "Mena"@de , "Mena Suvari"@de , "Mena Alexandra Suvari"@en , "Mena Alexandra Suvari"@de , "Mena Alexandra Suvari"@fr , "Mina Suvari"@en , "Mina Suvari"@fr , "Mina Suvari"@de , "Suvari"@en , "Suvari"@fr .

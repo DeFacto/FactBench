@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Fremont,_Ohio>
+        rdfs:label     "Fremont, Ohio"@en , "Fremont, Ohio"@fr , "Fremont, Ohio"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fremont_(Ohio)> , <http://de.dbpedia.org/resource/Fremont_(Ohio)> ;
+        skos:altLabel  "Fremont, OH"@en , "Lower Sandusky"@fr , "Lower Sandusky"@de , "Lower Sandusky"@en , "Croghanville, Ohio"@fr , "Croghanville, Ohio"@de , "Croghanville, Ohio"@en , "Fremont, Ohio"@fr , "Fremont, oh"@fr , "Fremont, oh"@de , "Fremont, oh"@en , "Fremont, Ohio"@de , "Fremont, Ohio"@en , "LOCODE:USXFK"@fr , "LOCODE:USXFK"@de , "LOCODE:USXFK"@en , "Fremont, Oh"@fr , "Fremont, Oh"@de , "Fremont, Oh"@en , "Lower Sandusky, Ohio"@fr , "Lower Sandusky, Ohio"@de , "Lower Sandusky, Ohio"@en , "Fremont"@fr , "Fremont"@de , "Fremont"@en , "Fremont, OH"@fr , "Fremont, OH"@de .
+
+<http://dbpedia.org/resource/Rutherford_B._Hayes>
+        rdfs:label     "Rutherford B. Hayes"@de , "Rutherford B. Hayes"@fr , "Rutherford B. Hayes"@en ;
+        dbo:death      <http://dbpedia.org/resource/Rutherford_B._Hayes__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rutherford_Birchard_Hayes> , <http://de.dbpedia.org/resource/Rutherford_B._Hayes> ;
+        skos:altLabel  "Rutherford Hayes"@de , "Rutherford Hayes"@fr , "Hayes Administration"@en , "Hayes Administration"@de , "Hayes Administration"@fr , "Inaugural Address"@en , "Inaugural Address"@de , "Inaugural Address"@fr , "19th President of the United States"@fr , "19th President of the United States"@en , "19th President of the United States"@de , "Hayes, Rutherford B."@en , "Hayes, Rutherford B."@de , "Hayes, Rutherford B."@fr , "Presidency of Rutherford B. Hayes"@fr , "Presidency of Rutherford B. Hayes"@en , "Presidency of Rutherford B. Hayes"@de , "Rutherford B Hayes"@fr , "Rutherford B Hayes"@en , "Rutherford B Hayes"@de , "Rutherford"@fr , "Rutherford"@en , "Rutherford"@de , "Rutherford Birchard Hayes"@en , "Rutherford Birchard Hayes"@de , "Rutherford Birchard Hayes"@fr , "Hayes"@fr , "Hayes"@de , "Rutherfraud Hayes"@fr , "Rutherfraud Hayes"@en , "Rutherfraud Hayes"@de , "Hayes, Rutherford Birchard"@fr , "Hayes, Rutherford Birchard"@en , "Hayes, Rutherford Birchard"@de , "President Hayes"@en , "President Hayes"@de , "President Hayes"@fr , "Rutherford B. Hayes"@en , "Rutherford B. Hayes"@de , "Rutherford B. Hayes"@fr , "Rutherford Hayes"@en .
+
+<http://dbpedia.org/resource/Rutherford_B._Hayes__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Fremont,_Ohio> ;
+        dbo:from        "1893-01-17"^^xsd:date ;
+        dbo:to          "1893-01-17"^^xsd:date .

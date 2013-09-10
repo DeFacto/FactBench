@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027w8q1>
+        rdfs:label  "Voyages by Starlight"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Voyages_by_Starlight> .
+
+<http://rdf.freebase.com/ns/m.01nc47>
+        rdfs:label       "Ian R. MacLeod"@de , "Ian R. MacLeod"@en , "Ian R. MacLeod"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.027w8q1__20> ;
+        owl:sameAs       <http://dbpedia.org/resource/Ian_R._MacLeod> , <http://de.dbpedia.org/resource/Ian_R._MacLeod> , <http://fr.dbpedia.org/resource/Ian_R._MacLeod> ;
+        skos:altLabel    "Ian R. MacLeod"@fr , "Ian R. MacLeod"@de , "Ian R. MacLeod"@en , "MacLeod"@fr , "MacLeod"@de , "MacLeod"@en , "Macleod"@de , "Ian MacLeod"@fr , "Ian MacLeod"@de , "Ian MacLeod"@en .
+
+<http://rdf.freebase.com/ns/m.027w8q1__20>
+        dbo:author  <http://rdf.freebase.com/ns/m.027w8q1> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Voyages_by_Starlight>
+        skos:altLabel  "Voyages by Starlight"@en .

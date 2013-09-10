@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Thomas_Jefferson>
+        rdfs:label     "Thomas Jefferson"@en , "Thomas Jefferson"@de , "Thomas Jefferson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Thomas_Jefferson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Thomas_Jefferson> , <http://de.dbpedia.org/resource/Thomas_Jefferson> ;
+        skos:altLabel  "Third President of the United States"@en , "Third President of the United States"@de , "Third President of the United States"@fr , "Sage of Monticello"@en , "Sage of Monticello"@de , "Sage of Monticello"@fr , "T. Jefferson"@en , "T. Jefferson"@de , "T. Jefferson"@fr , "Thomas Jefferson"@en , "Thomas Jefferson"@de , "Thomas Jefferson"@fr , "Thomas jefferson"@en , "Thomas jefferson"@de , "Thomas jefferson"@fr , "President Thomas Jefferson"@en , "Jefferson"@en , "President Thomas Jefferson"@de , "President Thomas Jefferson"@fr , "Jefferson"@de , "Jefferson"@fr , "3rd President of the United States"@en , "Tomas jefferson"@en , "Tomas jefferson"@de , "Tomas jefferson"@fr , "3rd President of the United States"@fr , "3rd President of the United States"@de , "Tom Jefferson"@en , "Tom Jefferson"@fr , "Tom Jefferson"@de , "Jefferson Administration"@en , "Jefferson Administration"@fr , "Jefferson Administration"@de , "Jefferson, Thomas"@en , "Jefferson, Thomas"@de , "Jefferson, Thomas"@fr , "Thomas Jeffersson"@en , "Thomas Jeffersson"@de , "Thomas Jeffersson"@fr , "President Jefferson"@en , "President Jefferson"@de , "President Jefferson"@fr , "Second Inaugural Address"@en , "Second Inaugural Address"@de , "Second Inaugural Address"@fr , "ThomasJefferson"@en , "ThomasJefferson"@fr , "ThomasJefferson"@de , "Tomas Jefferson"@en , "Tomas Jefferson"@de , "Tomas Jefferson"@fr , "Thomas Jefferson's presidency"@en , "Thomas Jefferson's presidency"@de , "Thomas Jefferson's presidency"@fr , "T jefferson"@en , "First Inaugural Address"@en , "T jefferson"@fr , "First Inaugural Address"@fr , "T jefferson"@de , "First Inaugural Address"@de , "Thomas Jefforson"@en , "Thomas Jefforson"@de , "Thomas Jefforson"@fr .
+
+<http://dbpedia.org/resource/Thomas_Jefferson__1>
+        dbo:author  <http://dbpedia.org/resource/Charlottesville,_Virginia> ;
+        dbo:from    "1826"^^xsd:gYear ;
+        dbo:to      "1826"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Charlottesville,_Virginia>
+        rdfs:label     "Charlottesville, Virginia"@en , "Charlottesville, Virginia"@fr , "Charlottesville, Virginia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charlottesville> , <http://de.dbpedia.org/resource/Charlottesville> ;
+        skos:altLabel  "Charlottesville Tomorrow"@en , "Charlottesville Tomorrow"@fr , "Charlottesville Tomorrow"@de , "Charlotte"@en , "Charlotte"@fr , "Charlotte"@de , "Charlottesville"@en , "Charlottesville"@fr , "Charlottesville"@de , "Charlottesville, Virginia"@en , "Charlottesville, Virginia"@fr , "Charlottesville, Virginia"@de , "LOCODE:USCHO"@en , "LOCODE:USCHO"@fr , "LOCODE:USCHO"@de , "Charlotteville, Virginia"@en , "Charlotteville, Virginia"@fr , "Charlotteville, Virginia"@de , "C-Ville Weekly"@en , "C-Ville Weekly"@fr , "C-Ville Weekly"@de , "City of Charlottesville, Virginia"@en , "City of Charlottesville, Virginia"@fr , "City of Charlottesville, Virginia"@de , "Charlottesville, VA"@en , "Charlottesville, VA"@fr , "Charlottesville, VA"@de .

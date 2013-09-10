@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07k0k0>
+        rdfs:label     "Andrés Calamaro"@de , "Andrés Calamaro"@fr , "Andrés Calamaro"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.07k0k0__36> ;
+        owl:sameAs     <http://dbpedia.org/resource/Andr%C3%A9s_Calamaro> ;
+        skos:altLabel  "Andrés Calamaro Masel"@en , "Calamaro, Andrés"@en , "Andres Calamaro"@en .
+
+<http://rdf.freebase.com/ns/m.07k0k0__36>
+        dbo:from    "2010-07-23"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03m794z> ;
+        dbo:to      "2010-12"^^xsd:gYearMonth .
+
+<http://dbpedia.org/resource/Andr%C3%A9s_Calamaro>
+        skos:altLabel  "Andrés Calamaro"@en , "Andres Calamaro"@en .
+
+<http://rdf.freebase.com/ns/m.03m794z>
+        rdfs:label     "Julieta Cardinali"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Julieta_Cardinali> ;
+        skos:altLabel  "Cardinali"@en , "Julieta Cardinali"@en , "Julieta Cardinalli"@en , "Destiny Dukes"@en .

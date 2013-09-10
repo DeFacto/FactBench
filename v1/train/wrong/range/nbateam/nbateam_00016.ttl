@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Emeka_Okafor>
+        rdfs:label     "Emeka Okafor"@fr , "Emeka Okafor"@de , "Emeka Okafor"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Emeka_Okafor__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Emeka_Okafor> , <http://de.dbpedia.org/resource/Emeka_Okafor> ;
+        skos:altLabel  "Chukwuemeka Noubuisi \"Emeka\" Okafor"@en , "Emeka Okafor"@en , "Emeka Okafor"@fr , "Emeka Okafor"@de , "Okafor"@en , "Chukwuemeka Noubuisi \"Emeka\" Okafor"@fr , "Okafor"@fr , "Okafor"@de , "Chukwuemeka Noubuisi \"Emeka\" Okafor"@de , "Chukwuemeka Noubuisi Okafor"@en , "Chukwuemeka Okafor"@en , "Chukwuemeka Noubuisi Okafor"@fr , "Chukwuemeka Okafor"@fr , "Chukwuemeka Noubuisi Okafor"@de , "Chukwuemeka Okafor"@de , "Chukwuemeka Ndubuisi Okafor"@en , "Chukwuemeka Ndubuisi Okafor"@fr , "Chukwuemeka Ndubuisi Okafor"@de .
+
+<http://dbpedia.org/resource/Emeka_Okafor__1>
+        dbo:from  "2004"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Houston_Rockets> ;
+        dbo:to    "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Houston_Rockets>
+        rdfs:label     "Houston Rockets"@en , "Houston Rockets"@fr , "Houston Rockets"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rockets_de_Houston> , <http://de.dbpedia.org/resource/Houston_Rockets> ;
+        skos:altLabel  "Rockets de houston"@fr , "Rockets de San Diego"@fr , "San Diego Rockets"@en , "San Diego Rockets"@fr , "San Diego Rockets"@de , "Houston Rockets"@en , "Houston"@en , "Houston Rockets"@fr , "Houston"@fr , "Houston Rockets"@de , "Houston"@de , "Rocket"@en , "Rocket"@fr , "Rocket"@de , "Twin Towers"@en , "Twin Towers"@fr , "Rockets de Houston"@fr , "Twin Towers"@de .

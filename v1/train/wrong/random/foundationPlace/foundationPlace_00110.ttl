@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01pf4l__1>
+        dbo:from    "1992"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01v40wd> ;
+        dbo:to      "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01pf4l>
+        rdfs:label     "SAP"@fr , "SAP"@de , "SAP AG"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01pf4l__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/SAP> , <http://dbpedia.org/resource/SAP_AG> , <http://fr.dbpedia.org/resource/SAP_(entreprise)> ;
+        skos:altLabel  "SAP Business One"@de , "SAP Aktiengesellschaft"@en , "SAP Aktiengesellschaft"@de , "SAP Aktiengesellschaft"@fr , "SAP"@en , "SAP consultancy"@en , "SAP consultancy"@de , "SAP consultancy"@fr , "SAP TECHED"@en , "SAP TECHED"@de , "SAP TECHED"@fr , "SAP APJ"@en , "SAP APJ"@fr , "SAP Business ByDesign"@de , "SAP APJ"@de , "SAP TechEd"@en , "SAP User-Group Executive Network"@en , "SAP Labs India"@en , "SAP TechEd"@fr , "SAP TechEd"@de , "Systemanalyse und Programmentwicklung"@de , "SAP User-Group Executive Network"@fr , "SAP User-Group Executive Network"@de , "SAP Labs India"@de , "SAP Labs India"@fr , "Www.sap.com"@en , "Www.sap.com"@fr , "Www.sap.com"@de , "Sap Aktiengesellschaft"@en , "Sap Aktiengesellschaft"@de , "Sap Aktiengesellschaft"@fr , "SAP User Group Executive Network"@en , "SAP User Group Executive Network"@de , "SAP User Group Executive Network"@fr , "SAP Enterprise Learning"@en , "SAP Enterprise Learning"@de , "SAP Enterprise Learning"@fr , "SAP Labs"@en , "SAP Labs"@de , "SAP Labs"@fr , "SAP America"@en , "Sap ventures"@en , "Sap ventures"@de , "Sap ventures"@fr , "SAP America"@de , "SAP America"@fr , "Online Service System"@de , "Basis Team"@en , "Basis Team"@fr , "Basis Team"@de , "SAP Budget Control System"@en , "SAP Budget Control System"@de , "SAP Budget Control System"@fr , "SAP AG"@en , "SAP AG"@de , "SAP AG"@fr , "SAP Human Resource Management Systems"@en , "SAP Human Resource Management Systems"@de , "SAP Human Resource Management Systems"@fr , "Business One"@de .
+
+<http://rdf.freebase.com/ns/m.01v40wd>
+        rdfs:label     "Nas"@de , "Nas"@fr , "Nas"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nas_(Rapper)> , <http://fr.dbpedia.org/resource/Nas_(rappeur)> , <http://dbpedia.org/resource/Nas> ;
+        skos:altLabel  "Nas Escobar"@de , "Nas Escobar"@fr , "Nas Escobar"@en , "Nasir Jones"@de , "Nasir Jones"@fr , "Nasir Jones"@en , "Nas, will.i.am"@en , "The Jones Experience"@de , "The Jones Experience"@fr , "The Jones Experience"@en , "Nas Jones"@de , "Nas Jones"@fr , "Nas Jones"@en , "Nastradamus"@en , "Nasir bin Olu Dara"@de , "Nasir bin Olu Dara"@fr , "Nasir bin Olu Dara"@en , "Nasir bin Olu Dara Jones"@de , "Nasir bin Olu Dara Jones"@en , "Nasir"@de , "Nasir"@fr , "Nasir"@en , "Nasir Bin Olu Dara"@de , "Nasir Bin Olu Dara"@fr , "Nasir Bin Olu Dara"@en , "Nas & will.i.am"@en , "Nasty Nas"@de , "Nasty Nas"@fr , "Nasty Nas"@en , "Nas (Rapper)"@de , "Nas (rappeur)"@fr , "Scarlett"@en , "Nasir Bin Olu Dara Jones"@de , "Nasir Bin Olu Dara Jones"@fr , "Nasir Bin Olu Dara Jones"@en .

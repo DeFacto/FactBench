@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Vallejo,_California> ;
+        dbo:from        "1971"^^xsd:gYear ;
+        dbo:to          "1971"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Vallejo,_California>
+        rdfs:label     "Vallejo, California"@de , "Vallejo, California"@fr , "Vallejo, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Vallejo_(ville)> , <http://de.dbpedia.org/resource/Vallejo_(Kalifornien)> ;
+        skos:altLabel  "Central Vallejo, California"@de , "Central Vallejo, California"@fr , "Central Vallejo, California"@en , "Vallejo, ca"@de , "Vallejo, ca"@fr , "Vallejo, ca"@en , "Downtown Vallejo, California"@de , "Downtown Vallejo, California"@fr , "Downtown Vallejo, California"@en , "South Vallejo, Vallejo, California"@de , "South Vallejo, Vallejo, California"@fr , "South Vallejo, Vallejo, California"@en , "Vallejo, Ca"@de , "Vallejo, Ca"@fr , "Vallejo, Ca"@en , "Vallejo"@de , "Vallejo"@fr , "Vallejo"@en , "Vallejo, California"@en , "Vallejo, California"@de , "Vallejo, California"@fr , "LOCODE:USVLO"@de , "LOCODE:USVLO"@fr , "LOCODE:USVLO"@en , "Blue Rock Springs"@de , "Blue Rock Springs"@fr , "Blue Rock Springs"@en , "North Vallejo, Vallejo, California"@en , "North Vallejo, Vallejo, California"@de , "North Vallejo, Vallejo, California"@fr , "Vallejo, CA"@de , "Vallejo, CA"@fr , "Vallejo, CA"@en , "Vallejo, Calif."@de , "Vallejo, Calif."@fr , "Vallejo, Calif."@en , "Vallejo ca"@de , "Vallejo ca"@fr , "Vallejo ca"@en .
+
+<http://dbpedia.org/resource/Beyoncé_Knowles>
+        rdfs:label     "Beyoncé Knowles"@en , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Beyoncé_Knowles__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beyoncé_Knowles> , <http://de.dbpedia.org/resource/Beyoncé_Knowles> ;
+        skos:altLabel  "House of Dereon"@fr , "Beyoncé Giselle Knowles"@fr , "Why don't you love me"@fr , "Beyoncé Giselle Knowles"@de , "Knowles"@de , "Beyoncé Knowles"@fr , "Beyoncé Knowles"@de , "Beyoncé"@fr , "Beyoncé"@de , "Sasha Fierce"@fr , "Sasha Fierce"@de , "House of Deréon"@fr , "Beyonce Giselle Knowles"@fr , "Beyonce Giselle Knowles"@de , "Beyonce"@fr , "Beyonce"@de , "Beyonce Knowles"@fr , "Beyonce Knowles"@de .

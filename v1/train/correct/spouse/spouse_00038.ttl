@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05vn8q>
+        rdfs:label     "Emilia Fox"@de , "Emilia Fox"@fr , "Emilia Fox"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.05vn8q__38> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Emilia_Fox> , <http://dbpedia.org/resource/Emilia_Fox> , <http://fr.dbpedia.org/resource/Emilia_Fox> ;
+        skos:altLabel  "Emilia Lydia Rose Fox"@en , "Emilia Fox"@fr , "Emilia Fox"@de , "Emilia Fox"@en , "Emilia Rose Elizabeth Fox"@en , "Emilia Harris"@en .
+
+<http://rdf.freebase.com/ns/m.044lyq>
+        rdfs:label     "Jared Harris"@de , "Jared Harris"@fr , "Jared Harris"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jared_Harris> , <http://dbpedia.org/resource/Jared_Harris> , <http://de.dbpedia.org/resource/Jared_Harris> ;
+        skos:altLabel  "Jared Harris"@fr , "Jared"@de , "Jared Harris"@de , "Jared Harris"@en , "Jared Francis Harris"@de , "Jared Francis Harris"@en , "Hot Buns"@en .
+
+<http://rdf.freebase.com/ns/m.05vn8q__38>
+        dbo:from    "2005-07-16"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.044lyq> ;
+        dbo:to      "2010-06"^^xsd:gYearMonth .

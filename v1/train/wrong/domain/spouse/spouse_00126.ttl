@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0202l6>
+        rdfs:label     "Tony Parker"@en , "Tony Parker"@fr , "Tony Parker"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0202l6__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tony_Parker> , <http://de.dbpedia.org/resource/Tony_Parker> , <http://dbpedia.org/resource/Tony_Parker> ;
+        skos:altLabel  "Tony Parker"@fr , "Tony parker"@fr , "Tony"@de , "Parker, Tony"@en , "T. P."@en , "Alexandra paressant"@en , "Alexandra paressant"@fr , "Alexandra paressant"@de , "Alexandra Paressant"@en , "William Anthony Parker"@en , "Alexandra Paressant"@fr , "Alexandra Paressant"@de , "William Anthony \"Tony\" Parker Jr."@en , "Tony P"@en , "Parker"@en , "Parker"@fr , "Parker"@de , "Tony Parker"@en , "Tony Parker"@de .
+
+<http://rdf.freebase.com/ns/m.0202l6__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03k8_c> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03k8_c>
+        rdfs:label     "Marton Csokas"@en , "Marton Csokas"@fr , "Marton Csokas"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Marton_Csokas> , <http://fr.dbpedia.org/resource/Marton_Csokas> , <http://de.dbpedia.org/resource/Marton_Csokas> ;
+        skos:altLabel  "Márton Csókás"@en , "Csokas"@de , "Márton Csókás"@fr , "Márton Csókás"@de , "Marton"@en , "Marton"@fr , "Marton"@de , "Marton Csokas"@en , "Marton Csokas"@de , "Marton Csokas"@fr , "Csókás Márton"@en , "Marton Paul Csokas"@en .

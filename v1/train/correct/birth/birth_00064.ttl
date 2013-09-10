@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cher>
+        rdfs:label     "Cher"@de , "Cher"@fr , "Cher"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Cher__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cher_(artiste)> , <http://de.dbpedia.org/resource/Cher_(Künstlerin)> ;
+        skos:altLabel  "Bagel Boy"@en , "Bagel Boy"@de , "Bagel Boy"@fr , "Bonnie Jo Mason"@fr , "Bonnie Jo Mason"@en , "Bonnie Jo Mason"@de , "Cherilyn Sarkisian"@fr , "Cherilyn Sarkisian"@en , "Cherilyn Sarkisian"@de , "Cher"@en , "Cher"@de , "Cher"@fr , "Chér"@fr , "Cherylin Sarkisian LaPiere"@en , "Cherylin Sarkisian LaPiere"@de , "Cherylin Sarkisian LaPiere"@fr , "Chér"@en , "Chér"@de , "Cher Allman"@en , "Cher Allman"@de , "Cher Allman"@fr , "Cher Bono"@en , "Cher Bono"@de , "Cher Bono"@fr , "Cheryl Sarkisian LaPiere"@fr , "Cheryl Sarkisian LaPiere"@en , "Cheryl Sarkisian LaPiere"@de , "The Greatest Thing"@en , "The Greatest Thing"@de , "The Greatest Thing"@fr , "Cherilyn LaPierre"@en , "Cherilyn LaPierre"@de , "Cherilyn LaPierre"@fr , "Cherilyn LaPiere Sarkesian Bono Allman"@de , "Chèr"@fr , "Chèr"@en , "Chèr"@de , "CHER"@fr , "CHER"@en , "CHER"@de .
+
+<http://dbpedia.org/resource/El_Centro,_California>
+        rdfs:label     "El Centro, California"@en , "El Centro, California"@fr , "El Centro, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/El_Centro> , <http://de.dbpedia.org/resource/El_Centro_(Kalifornien)> ;
+        skos:altLabel  "El Centro, California"@en , "Cabarker"@fr , "Cabarker"@de , "Cabarker"@en , "Cabarker, California"@fr , "El Centro"@fr , "Cabarker, California"@de , "Cabarker, California"@en , "El Centro"@de , "El Centro"@en , "Centro"@fr , "El Centro, Ca"@fr , "El Centro, Ca"@de , "El Centro, Ca"@en , "LOCODE:USECO"@fr , "LOCODE:USECO"@de , "LOCODE:USECO"@en , "El Centro, CA"@fr , "McCabe school"@fr , "El Centro, CA"@de , "McCabe school"@de , "El Centro, CA"@en , "McCabe school"@en , "McCabe"@fr , "McCabe"@de , "McCabe"@en , "El Centro, California"@fr , "El Centro, California"@de .
+
+<http://dbpedia.org/resource/Cher__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/El_Centro,_California> ;
+        dbo:from        "1946-05-20"^^xsd:date ;
+        dbo:to          "1946-05-20"^^xsd:date .

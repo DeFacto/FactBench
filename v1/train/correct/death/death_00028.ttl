@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Donna_Summer>
+        rdfs:label     "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de ;
+        dbo:death      <http://dbpedia.org/resource/Donna_Summer__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Donna_Summer> , <http://de.dbpedia.org/resource/Donna_Summer> ;
+        skos:altLabel  "Queen of disco"@fr , "Queen of disco"@de , "Queen of disco"@en , "LaDonna Andrea Gaines"@fr , "Queen of Disco"@fr , "Queen of Disco"@de , "Queen of Disco"@en , "Summer"@fr , "Donna summer"@fr , "Donna Summers"@fr , "Donna Summers"@de , "Donna Summers"@en , "Donna summer"@de , "Donna summer"@en , "Summer"@de , "Summer"@en , "Love To Love You Baby"@fr , "Dona summer"@fr , "Dona summer"@de , "Dona summer"@en , "Bad Girls"@fr , "Donna Summer"@fr , "Donna Summer"@de , "Donna Summer"@en .
+
+<http://dbpedia.org/resource/Donna_Summer__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Naples,_Florida> ;
+        dbo:from        "2012-05-17"^^xsd:date ;
+        dbo:to          "2012-05-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Naples,_Florida>
+        rdfs:label     "Naples, Florida"@en , "Naples, Florida"@fr , "Naples, Florida"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Naples_(Floride)> , <http://de.dbpedia.org/resource/Naples_(Florida)> ;
+        skos:altLabel  "Aeroport municipal de Naples"@fr , "Naples, Fl"@fr , "Paradise coast"@fr , "LOCODE:USAPF"@fr , "Naples, Fl"@de , "Paradise coast"@de , "Naples, Fl"@en , "Paradise coast"@en , "LOCODE:USAPF"@de , "LOCODE:USAPF"@en , "Naples"@fr , "Naples"@de , "Naples"@en , "Naples, Florida"@fr , "Aéroport municipal de Naples"@fr , "Naples, Florida"@de , "Naples, Florida"@en , "Paradise Coast"@fr , "Naples florida"@fr , "Naples Municipal Airport"@fr , "Paradise Coast"@de , "Naples florida"@de , "Paradise Coast"@en , "Naples florida"@en , "Naples, fl"@fr , "Naples, FL"@fr , "Naples, fl"@de , "Naples, FL"@de , "Naples, fl"@en , "Naples, FL"@en .

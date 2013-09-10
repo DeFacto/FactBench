@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Frank_Lloyd_Wright>
+        rdfs:label     "Frank Lloyd Wright"@fr , "Frank Lloyd Wright"@en , "Frank Lloyd Wright"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Frank_Lloyd_Wright__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frank_Lloyd_Wright> , <http://fr.dbpedia.org/resource/Frank_Lloyd_Wright> ;
+        skos:altLabel  "Wright, Frank Lloyd"@de , "Wright, Frank Lloyd"@fr , "Wright, Frank Lloyd"@en , "Frank lyold wright"@de , "Frank lyold wright"@fr , "Frank lyold wright"@en , "Lloyd Wright"@fr , "Taliesin West"@fr , "Usonien"@de , "Wright"@de , "Wright"@fr , "Wright"@en , "Frank lloyd wright"@de , "Frank lloyd wright"@fr , "Frank lloyd wright"@en , "Franklin Lloyd wright"@en , "Franklin Lloyd wright"@de , "Franklin Lloyd wright"@fr , "Frank Lloyd"@de , "Frank Lloyd"@fr , "Frank Lloyd"@en , "F.L. Wright"@de , "F.L. Wright"@fr , "F.L. Wright"@en , "Frank L. Wright"@en , "Frank L. Wright"@de , "Frank L. Wright"@fr , "Lloyd"@fr , "Franck Lloyd Wright"@fr , "Frank Lloyd Wright"@en , "Frank Lloyd Wright"@de , "Frank Lloyd Wright"@fr , "Wright,Frank Lloyd"@en , "Wright,Frank Lloyd"@de , "Wright,Frank Lloyd"@fr , "FL Wright"@de , "FL Wright"@fr , "FL Wright"@en , "F. L. Wright"@en , "F. L. Wright"@de , "F. L. Wright"@fr .
+
+<http://dbpedia.org/resource/Frank_Lloyd_Wright__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Richland_Center,_Wisconsin> ;
+        dbo:from        "1859"^^xsd:gYear ;
+        dbo:to          "1859"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Richland_Center,_Wisconsin>
+        rdfs:label     "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland Center, Wisconsin"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Richland_Center_(Wisconsin)> ;
+        skos:altLabel  "Richland Center"@en , "Richland Center"@fr , "Richland Center, WI"@en , "Richland Center, WI"@fr , "LOCODE:USRLC"@fr , "LOCODE:USRLC"@en , "Richland Center, Wi"@en , "Richland Center, Wi"@fr , "Richland Center, Wisconsin"@en , "Richland Center, Wisconsin"@fr , "Richland"@en , "Richland"@fr .

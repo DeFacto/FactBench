@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jana_Novotná>
+        rdfs:label     "Jana Novotná"@en , "Jana Novotná"@fr , "Jana Novotná"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Jana_Novotná__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jana_Novotná> , <http://fr.dbpedia.org/resource/Jana_Novotná> ;
+        skos:altLabel  "Jana Novotna"@fr , "Jana Novotna"@de , "Novotna"@fr , "Jana Novotná"@fr , "Novotna"@de , "Jana Novotná"@de , "Novotná"@fr , "Novotná"@de .
+
+<http://dbpedia.org/resource/Brno>
+        rdfs:label     "Brno"@de , "Brno"@fr , "Brno"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brno> , <http://de.dbpedia.org/resource/Brünn> ;
+        skos:altLabel  "LOCODE:CZBRQ"@fr , "LOCODE:CZBRQ"@en , "LOCODE:CZBRQ"@de , "Brno, Czech"@fr , "Brno, Czech"@en , "Brno, Czech"@de , "Brno City"@fr , "Brno City"@en , "Brno City"@de , "Brně"@en , "Brně"@de , "Brně"@fr , "Deutsche Technische Hochschule Brünn"@fr , "Deutsche Technische Hochschule Brunn"@en , "Deutsche Technische Hochschule Brunn"@de , "Deutsche Technische Hochschule Brünn"@en , "Deutsche Technische Hochschule Brünn"@de , "Deutsche Technische Hochschule Brunn"@fr , "Brno-Tuřany"@fr , "Brno, Czech Republic"@fr , "Brno, Czech Republic"@en , "Brno, Czech Republic"@de , "Exhibition Centre Brno"@fr , "Exhibition Centre Brno"@en , "Exhibition Centre Brno"@de , "Brünn"@fr , "Brunn"@fr , "Brünn"@en , "Brunn"@en , "Brunn"@de , "Brünn"@de , "Aeroport de Brno-Turany"@fr , "AUTOSALON Brno"@fr , "AUTOSALON Brno"@en , "AUTOSALON Brno"@de , "Brno"@en , "Brno"@de , "Brno"@fr , "Brne"@fr , "Brne"@en , "Brne"@de , "Bruenn"@fr , "Bruenn"@en , "Bruenn"@de , "Aéroport de Brno-Tuřany"@fr , "Brno-Turany"@fr , "Brno-Centre"@en , "Brno-Centre"@de , "Brno-Centre"@fr .
+
+<http://dbpedia.org/resource/Jana_Novotná__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Brno> ;
+        dbo:from        "1968-10-02"^^xsd:date ;
+        dbo:to          "1968-10-02"^^xsd:date .

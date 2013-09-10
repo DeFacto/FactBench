@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Louis_IX_of_France__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Tunis> ;
+        dbo:from        "1274"^^xsd:gYear ;
+        dbo:to          "1274"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tunis>
+        rdfs:label     "Tunis"@de , "Tunis"@fr , "Tunis"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tunis> , <http://de.dbpedia.org/resource/Tunis> ;
+        skos:altLabel  "Tunisois"@fr , "Tunis"@en , "Tunis"@de , "Tunis"@fr , "Portes de Tunis"@fr , "Emirate of Tunis"@en , "Emirate of Tunis"@de , "Emirate of Tunis"@fr , "Tunes, Tunisia"@en , "Tunes, Tunisia"@de , "Tunes, Tunisia"@fr , "Borjsedria, Tunisia"@en , "Borjsedria, Tunisia"@de , "Borjsedria, Tunisia"@fr , "Capital of Tunisia"@de , "Capital of Tunisia"@fr , "Capital of Tunisia"@en , "Tunis, Tunisia"@en , "Tunis, Tunisia"@de , "Tunis, Tunisia"@fr , "Tūnis, Tunisia"@de , "Tūnis, Tunisia"@fr , "Tūnis, Tunisia"@en , "Tunis, TS"@de , "Tunis, TS"@fr , "Tunis, TS"@en , "Borj Cédria, Tunisia"@en , "Borj Cédria, Tunisia"@de , "Borj Cédria, Tunisia"@fr , "Tunes"@en , "Tunes"@de , "Tunes"@fr , "Tūnis"@en , "Medina of Tunis"@de , "Tūnis"@de , "Tūnis"@fr , "Medina of Tunis"@fr , "Medina of Tunis"@en , "Etymology of Tunis"@de , "Etymology of Tunis"@fr , "Etymology of Tunis"@en , "Capitale de la Tunisie"@fr , "Borj Cedria, Tunisia"@de , "Borj Cedria, Tunisia"@fr , "Borj Cedria, Tunisia"@en .
+
+<http://dbpedia.org/resource/Louis_IX_of_France>
+        rdfs:label     "Louis IX of France"@de , "Louis IX of France"@fr , "Louis IX of France"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Louis_IX_of_France__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Louis_IX_de_France> , <http://de.dbpedia.org/resource/Ludwig_IX._(Frankreich)> ;
+        skos:altLabel  "Saint Louis IX"@en , "Saint Louis IX"@fr , "Saint Louis IX"@de , "St. Louis IX"@en , "St. Louis IX"@fr , "St. Louis IX"@de , "King St. Louis"@en , "King St. Louis"@fr , "King St. Louis"@de , "Louis IX de France"@fr , "Louis IX"@en , "Louis IX"@de , "Louis IX"@fr , "Solomon of France"@en , "Solomon of France"@de , "Solomon of France"@fr , "Louis IX, Saint"@en , "Saint Louis IX of France"@en , "Louis IX, Saint"@fr , "Saint Louis de France"@fr , "Saint Louis IX of France"@de , "Louis IX, Saint"@de , "Saint Louis IX of France"@fr , "Louis ix"@en , "Louis ix"@fr , "Louis ix"@de , "King Louis IX"@en , "King Louis IX"@de , "King Louis IX"@fr , "Louis of France"@en , "St. Louis of France"@en , "St. Louis of France"@fr , "St. Louis of France"@de , "Louis of France"@de , "Louis of France"@fr , "St. Louis, King of France"@en , "St. Louis IX of France"@en , "St. Louis, King of France"@fr , "St. Louis IX of France"@de , "St. Louis IX of France"@fr , "St. Louis, King of France"@de , "Louis de Poissy"@fr , "Louis IX De France"@fr , "Solomon"@en , "King Saint Louis"@en , "King Saint Louis"@de , "King Saint Louis"@fr , "Solomon"@de , "Solomon"@fr , "Louix Ix"@en , "Louix Ix"@fr , "Louix Ix"@de , "Louis the saint"@en , "Louis the saint"@fr , "Louis the saint"@de , "King Louis Ix"@en , "King Louis Ix"@fr , "King Louis Ix"@de , "Louis Ix. of France"@en , "Louis Ix. of France"@fr , "Louis Ix. of France"@de , "Saint Louis of France"@en , "Saint Louis of France"@fr , "Saint Louis of France"@de , "Louis IX the Saint"@en , "Louis IX the Saint"@fr , "Louis IX the Saint"@de , "Ludwig der Heilige"@de , "Ludwig IX."@de , "Louis ix de france"@fr , "Louis IX of France"@en , "Louis IX of France"@de , "Louis IX of France"@fr , "Louis IX."@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/William_S._Burroughs>
+        rdfs:label     "William S. Burroughs"@fr , "William S. Burroughs"@en , "William S. Burroughs"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_S._Burroughs__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/William_S._Burroughs> , <http://fr.dbpedia.org/resource/William_S._Burroughs> ;
+        skos:altLabel  "William S Burroughs"@de , "William S Burroughs"@fr , "Williams Burroughs"@fr , "W. S. Burroughs"@en , "W. S. Burroughs"@de , "W. S. Burroughs"@fr , "William Seward Burroughs II"@en , "William Burroughs"@de , "William Burroughs"@fr , "William Burroughs"@en , "William Seward Burroughs II"@de , "William Seward Burroughs II"@fr , "William Seward Burroughs, II"@de , "William Seward Burroughs, II"@fr , "William Seward Burroughs, II"@en , "Burroughs, William S."@en , "Burroughs, William S."@de , "Burroughs, William S."@fr , "William S. Burroughs"@de , "William S. Burroughs"@fr , "William S. Burroughs"@en , "William S. Burroughs, Sr."@de , "William S. Burroughs, Sr."@fr , "William S. Burroughs, Sr."@en , "William"@fr , "William burrough"@en , "William burrough"@de , "William burrough"@fr , "William Seward Burroughs"@fr , "Wiliam s burroughs"@en , "Wiliam s burroughs"@de , "Wiliam s burroughs"@fr , "W.S. Burroughs"@en , "W.S. Burroughs"@de , "W.S. Burroughs"@fr , "Bill Burroughs"@de , "Bill Burroughs"@fr , "Bill Burroughs"@en , "Burroughs"@en , "Burroughs"@de , "Burroughs"@fr , "Ilse Klapper"@en , "Ilse Klapper"@de , "Ilse Klapper"@fr , "William S Burroughs"@en .
+
+<http://dbpedia.org/resource/Dayton,_Tennessee>
+        rdfs:label     "Dayton, Tennessee"@en , "Dayton, Tennessee"@fr , "Dayton, Tennessee"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dayton_(Tennessee)> , <http://de.dbpedia.org/resource/Dayton_(Tennessee)> ;
+        skos:altLabel  "Dayton, TN"@en , "LOCODE:USDAT"@en , "Dayton, TN"@fr , "LOCODE:USDAT"@fr , "Dayton, TN"@de , "LOCODE:USDAT"@de , "Dayton"@en , "Dayton"@fr , "Dayton"@de , "Dayton, Tennessee"@en , "Dayton, Tennessee"@de , "Dayton, Tennessee"@fr , "Crystal Springs Community"@en , "Crystal Springs Community"@fr , "Crystal Springs Community"@de .
+
+<http://dbpedia.org/resource/William_S._Burroughs__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Dayton,_Tennessee> ;
+        dbo:from        "1925"^^xsd:gYear ;
+        dbo:to          "1925"^^xsd:gYear .

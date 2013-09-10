@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Amanda_Seyfried>
+        rdfs:label     "Amanda Seyfried"@en , "Amanda Seyfried"@fr , "Amanda Seyfried"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Amanda_Seyfried> , <http://de.dbpedia.org/resource/Amanda_Seyfried> ;
+        skos:altLabel  "Amanda Michelle Seyfried"@en , "Amanda M. Seyfried"@en , "Amanda Michelle Seyfried"@fr , "Amanda Michelle Seyfried"@de , "Amanda M. Seyfried"@fr , "Amanda M. Seyfried"@de , "Amanda M Seyfried"@en , "Amanda M Seyfried"@fr , "Amanda M Seyfried"@de , "Amanda seyfreid"@en , "Amanda seyfreid"@de , "Amanda seyfreid"@fr , "Amanda Seyfried"@en , "Amanda Seyfried"@fr , "Amanda Seyfried"@de , "Seyfried"@en , "Seyfried"@fr , "Seyfried"@de .
+
+<http://dbpedia.org/resource/Kevin_Garnett>
+        rdfs:label     "Kevin Garnett"@fr , "Kevin Garnett"@de , "Kevin Garnett"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kevin_Garnett__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kevin_Garnett> , <http://fr.dbpedia.org/resource/Kevin_Garnett> ;
+        skos:altLabel  "Garnett"@en , "Kevin garnet"@en , "Garnett"@fr , "Garnett"@de , "Kevin garnet"@fr , "Kevin garnet"@de , "Kevin garnett"@en , "Kevin garnett"@fr , "Kevin garnett"@de , "Kevin Garnett"@en , "Kevin Garnett"@fr , "Kevin Garnett"@de .
+
+<http://dbpedia.org/resource/Kevin_Garnett__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Amanda_Seyfried> ;
+        dbo:from             "1989"^^xsd:gYear ;
+        dbo:to               "1989"^^xsd:gYear .

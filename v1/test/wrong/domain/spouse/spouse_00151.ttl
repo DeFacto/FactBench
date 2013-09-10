@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.031sqf__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.04c1dp> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.031sqf>
+        rdfs:label     "Ali Landry"@en , "Ali Landry"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.031sqf__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Ali_Landry> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "ali_landry"@en , "Ali Germaine Landry"@en , "The Doritos Girl"@en , "Ali Landry"@en , "Landry"@en .
+
+<http://rdf.freebase.com/ns/m.04c1dp>
+        rdfs:label  "Jill Halfpenny"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jill_Halfpenny> .

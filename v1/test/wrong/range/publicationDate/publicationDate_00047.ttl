@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0125zf>
+        rdfs:label     "This Perfect Day"@en , "Un bonheur insoutenable"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Un_bonheur_insoutenable> , <http://dbpedia.org/resource/This_Perfect_Day> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Li RM35M4419"@en , "Li RM35M4419"@fr , "This Perfect Day"@en , "This Perfect Day"@fr , "Un bonheur insoutenable"@fr , "Perfect Day"@en , "Perfect Day"@fr .
+
+<http://rdf.freebase.com/ns/m.03wbpjs__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0125zf> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03wbpjs>
+        rdfs:label  "Dayton Ward"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03wbpjs__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Dayton_Ward> .

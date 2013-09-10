@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mitt_Romney>
+        rdfs:label     "Mitt Romney"@de , "Mitt Romney"@fr , "Mitt Romney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mitt_Romney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mitt_Romney> , <http://fr.dbpedia.org/resource/Mitt_Romney> ;
+        skos:altLabel  "Willard mitt romney"@de , "Willard mitt romney"@fr , "Willard mitt romney"@en , "Gov. Mitt Romney"@en , "Gov. Mitt Romney"@de , "Gov. Mitt Romney"@fr , "Willard"@en , "Willard"@de , "Willard"@fr , "Mitt romney"@en , "Mitt Rommey"@fr , "Mitt romney"@de , "Mitt romney"@fr , "Mitt Romney"@de , "Mitt Romney"@fr , "Mitt Romney"@en , "Willard Romney"@en , "Willard Romney"@de , "Willard Romney"@fr , "W. Mitt Romney"@en , "W. Mitt Romney"@de , "W. Mitt Romney"@fr , "Mitt Romny"@de , "Mitt Romny"@fr , "Mitt Romny"@en , "Romney"@en , "Romney"@de , "Romney"@fr , "W.M. Romney"@en , "W.M. Romney"@de , "W.M. Romney"@fr , "Mit Romney"@en , "Mit Romney"@de , "Mit Romney"@fr , "Willard Mitt Romney"@en , "Willard Mitt Romney"@de , "Willard Mitt Romney"@fr , "Willard M. Romney"@en , "Willard M. Romney"@de , "Willard M. Romney"@fr , "Governor Mitt Romney"@en , "Governor Mitt Romney"@de , "Governor Mitt Romney"@fr , "Willard Mitt"@en , "Willard Mitt"@de , "Willard Mitt"@fr , "Mitt"@en , "Mitt"@de , "Mitt"@fr .
+
+<http://dbpedia.org/resource/Mitt_Romney__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Manchester> ;
+        dbo:from        "1947"^^xsd:gYear ;
+        dbo:to          "1947"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Manchester>
+        rdfs:label     "Manchester"@de , "Manchester"@fr , "Manchester"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Manchester> , <http://de.dbpedia.org/resource/Manchester> ;
+        skos:altLabel  "The weather in Manchester"@en , "The weather in Manchester"@de , "The weather in Manchester"@fr , "GB-MAN"@de , "England Manchester"@en , "England Manchester"@de , "England Manchester"@fr , "Manchester"@en , "Manc"@en , "Drizzlechester"@en , "Manchester, UK"@de , "Manchester, UK"@fr , "Manchester, UK"@en , "Manchester"@de , "Manchester"@fr , "Manc"@de , "Manc"@fr , "Drizzlechester"@de , "Drizzlechester"@fr , "LOCODE:GBMNC"@de , "LOCODE:GBMNC"@fr , "LOCODE:GBMNC"@en , "Manchester, England"@en , "Manchester, England"@de , "Manchester, England"@fr , "Manchester, United Kingdom"@en , "Manchester, United Kingdom"@de , "Manchester, United Kingdom"@fr , "B of the Bang"@de , "City of Manchester"@en , "City of Manchester"@de , "City of Manchester"@fr , "Metropolitan Borough of Manchester"@en , "Metropolitan Borough of Manchester"@de , "Metropolitan Borough of Manchester"@fr , "Mancunian"@de , "Manchester, Greater Manchester"@en , "Manchester, Greater Manchester"@de , "Manchester, Greater Manchester"@fr , "County Borough of Manchester"@en , "County Borough of Manchester"@de , "County Borough of Manchester"@fr , "Manchester, U.K."@en , "Manchester, U.K."@de , "Manchester, U.K."@fr , "Manchester developments"@en , "Mancunians"@en , "Manchester developments"@de , "Manchester developments"@fr , "Mancunians"@de , "Mancunians"@fr .

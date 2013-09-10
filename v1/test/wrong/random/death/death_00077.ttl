@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Robbie_Williams__1>
+        dbo:from  "1987"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Syracuse,_New_York> ;
+        dbo:to    "1987"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Syracuse,_New_York>
+        rdfs:label     "Syracuse, New York"@de , "Syracuse, New York"@fr , "Syracuse, New York"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Syracuse_(New_York)> , <http://de.dbpedia.org/resource/Syracuse_(New_York)> ;
+        skos:altLabel  "Syracuse, NY"@en , "Syracuse, NY"@de , "Syracuse, NY"@fr , "Red House Arts Center"@en , "Red House Arts Center"@de , "Red House Arts Center"@fr , "Syracuse, New York"@de , "Syracuse, New York"@fr , "Syracuse, New York"@en , "Red House"@de , "Red House"@fr , "Red House"@en , "Syracruse"@en , "Syracruse"@de , "Syracruse"@fr , "Syracuse, Ny"@en , "Syracuse, Ny"@de , "Syracuse, Ny"@fr , "Syracuse NY"@en , "Syracuse, ny"@de , "Syracuse, ny"@fr , "Syracuse, ny"@en , "Syracuse NY"@de , "Syracuse NY"@fr , "Syracuse, N.Y."@en , "Syracuse, N.Y."@de , "Syracuse, N.Y."@fr , "NY Syracuse"@en , "NY Syracuse"@de , "NY Syracuse"@fr , "Gerrycuse"@de , "Gerrycuse"@fr , "Gerrycuse"@en , "Syracuse New York"@en , "Syracuse New York"@de , "Syracuse New York"@fr , "Syracuse. New York"@en , "Syracuse. New York"@de , "Syracuse. New York"@fr , "Syracuse"@de , "Syracuse"@fr , "Syracuse"@en , "The weather in Syracuse"@en , "The weather in Syracuse"@de , "The weather in Syracuse"@fr , "LOCODE:USSYR"@en , "LOCODE:USSYR"@de , "LOCODE:USSYR"@fr .
+
+<http://dbpedia.org/resource/Robbie_Williams>
+        rdfs:label     "Robbie Williams"@fr , "Robbie Williams"@de , "Robbie Williams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robbie_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robbie_Williams> , <http://de.dbpedia.org/resource/Robbie_Williams> ;
+        skos:altLabel  "Robbie williams"@en , "Robbie williams"@fr , "Robbie williams"@de , "Pure Frances"@en , "Farrell"@en , "Rabi viliams"@en , "Pure Frances"@fr , "Rabi viliams"@fr , "Pure Frances"@de , "Rabi viliams"@de , "Robbie"@fr , "Farrell"@fr , "Farrell"@de , "Råbi viliams"@en , "Robbie Williams"@en , "Robert Peter Williams"@en , "Williams, Robbie"@en , "Robbie William"@fr , "Råbi viliams"@fr , "Robbie Williams"@fr , "Williams"@fr , "Robert Peter Williams"@fr , "Robbie Williams"@de , "Robert Peter Maximilian Williams"@de , "Robby Williams"@de , "Williams, Robbie"@fr , "Råbi viliams"@de , "Robert Peter Williams"@de , "Williams, Robbie"@de .

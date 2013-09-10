@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.014r93>
+        rdfs:label     "Samuel West"@de , "Samuel West"@en , "Samuel West"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Samuel_West> , <http://de.dbpedia.org/resource/Samuel_West> , <http://dbpedia.org/resource/Samuel_West> ;
+        skos:altLabel  "Sam West"@en , "Sam"@en , "Samuel West"@de , "West"@fr , "Samuel West"@fr , "Sammy"@en , "Samuel Alexander Joseph West"@en .
+
+<http://dbpedia.org/resource/Radek_Štěpánek>
+        rdfs:label     "Radek Štěpánek"@en , "Radek Štěpánek"@fr , "Radek Štěpánek"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Radek_Štěpánek__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Radek_Štěpánek> , <http://fr.dbpedia.org/resource/Radek_Štěpánek> ;
+        skos:altLabel  "Radek Štěpanek"@fr , "Radek"@fr , "Radek"@de , "Radek Stepanek"@fr , "Radek Stepanek"@de , "Radek Štěpánek"@de , "Radek Štěpánek"@fr , "Radek Stěpanek"@fr , "Radek Štepánek"@de .
+
+<http://dbpedia.org/resource/Radek_Štěpánek__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.014r93> ;
+        dbo:to    "2008"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0688bj2__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.030hbp> ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0688bj2>
+        rdfs:label     "David W. Donoho"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0688bj2__1> ;
+        skos:altLabel  "David William Donoho"@en .
+
+<http://rdf.freebase.com/ns/m.030hbp>
+        rdfs:label     "Mary-Louise Parker"@en , "Mary-Louise Parker"@fr , "Mary-Louise Parker"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mary-Louise_Parker> , <http://de.dbpedia.org/resource/Mary-Louise_Parker> , <http://dbpedia.org/resource/Mary-Louise_Parker> ;
+        skos:altLabel  "Moore and Parker"@en , "Mary-louise parker"@fr , "Mary louise-parker"@en , "MaryLoise Parker"@en , "MaryLoise Parker"@fr , "MaryLoise Parker"@de , "Mary louise-parker"@fr , "Mary louise-parker"@de , "Parker"@fr , "Mary Louise Parker"@en , "Mary Louise Parker"@fr , "Mary Louise Parker"@de , "Mary-Louise Parker"@en , "Mary-Louise Parker"@de , "Mary-Louise Parker"@fr .

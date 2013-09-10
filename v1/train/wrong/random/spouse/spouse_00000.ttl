@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Minsk>
+        rdfs:label     "Minsk"@de , "Minsk"@fr , "Minsk"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minsk> , <http://fr.dbpedia.org/resource/Minsk> ;
+        skos:altLabel  "Miensk"@de , "Miensk"@fr , "Miensk"@en , "Gorod Minsk"@de , "Gorod Minsk"@fr , "Gorod Minsk"@en , "Provice of Minsk"@fr , "Provice of Minsk"@en , "Provice of Minsk"@de , "Minskaya"@en , "Minskaya"@de , "Minskaya"@fr , "Minsku"@de , "Minsku"@fr , "Minsku"@en , "LOCODE:BYMSQ"@de , "LOCODE:BYMSQ"@fr , "LOCODE:BYMSQ"@en , "Capital of Belarus"@de , "Capital of Belarus"@fr , "Capital of Belarus"@en , "Horad Minsk"@de , "Horad Minsk"@fr , "Horad Minsk"@en , "Minskas"@de , "Minskas"@fr , "Minskas"@en , "Minsk, Belarus"@de , "Minsk, Belarus"@fr , "Minsk, Belarus"@en , "Mensk"@de , "Mensk"@fr , "Mensk"@en , "Minsk"@en , "Minsk, USSR"@de , "Minsk, USSR"@fr , "Minsk, USSR"@en , "Minsk"@de , "Minsk"@fr .
+
+<http://dbpedia.org/resource/Elizabeth_Taylor__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Minsk> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Elizabeth_Taylor>
+        rdfs:label     "Elizabeth Taylor"@en , "Elizabeth Taylor"@fr , "Elizabeth Taylor"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Elizabeth_Taylor__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Elizabeth_Taylor> , <http://fr.dbpedia.org/resource/Elizabeth_Taylor> ;
+        skos:altLabel  "Liz Taylor"@de , "Dame Elizbeth Taylor"@en , "Dame Elizbeth Taylor"@fr , "Dame Elizbeth Taylor"@de , "Elizabeth Taylor"@en , "Elizabeth Taylor"@fr , "Elizabeth Taylor"@de , "Taylor, Dame Elizabeth Rosemond"@en , "Taylor, Dame Elizabeth Rosemond"@fr , "Taylor, Dame Elizabeth Rosemond"@de , "Elisabeth Taylor"@en , "Elisabeth Taylor"@fr , "Elisabeth Taylor"@de , "Elizabeth"@en , "Elizabeth"@fr , "Elizabeth"@de , "Elizabeth Rosemond Taylor"@en , "Dame Elizabeth Rosemond Taylor"@en , "Dame Elizabeth Rosemond Taylor, DBE"@en , "Elizabeth Rosemond Taylor"@fr , "Dame Elizabeth Rosemond Taylor"@fr , "Elizabeth Rosemond Taylor"@de , "Dame Elizabeth Rosemond Taylor, DBE"@fr , "Dame Elizabeth Rosemond Taylor"@de , "Dame Elizabeth Rosemond Taylor, DBE"@de , "Maria Carson"@en , "Liz Taylor"@en , "Maria Carson"@fr , "Liz Taylor"@fr , "Maria Carson"@de .

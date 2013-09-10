@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pittsburgh>
+        rdfs:label     "Pittsburgh"@de , "Pittsburgh"@fr , "Pittsburgh"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pittsburgh> , <http://de.dbpedia.org/resource/Pittsburgh> ;
+        skos:altLabel  "Pittsburgh, Pa."@de , "Pittsburgh, Pennsylvania, U.S."@en , "Pittsburgh, Pennsylvania, U.S."@fr , "Pittsburgh, Pennsylvania, U.S."@de , "Pittsburgh, PA."@en , "Pittsburgh, PA."@fr , "Pittsburgh, PA."@de , "Pittsburgh, Pa"@en , "Pittsburgh, Pa"@fr , "Pittsburgh, Pa"@de , "Pittsburg, PA"@en , "Pittsburg, PA"@fr , "Pittsburg, PA"@de , "Pittsburgh, Pennsylvania, USA"@en , "Pittsburgh, Pennsylvania, USA"@fr , "Pittsburgh, Pennsylvania, USA"@de , "Glenwood, Pennsylvania"@en , "Pittsburgh"@en , "Glenwood, Pennsylvania"@fr , "Glenwood, Pennsylvania"@de , "Pittsburgh"@fr , "Pittsburgh"@de , "City of Pittsburgh"@en , "City of Pittsburgh"@fr , "City of Pittsburgh"@de , "Pittsburg, Pennsylvania"@en , "Pittsburg, Pennsylvania"@fr , "Pittsburg, Pennsylvania"@de , "Pittsburgh, Pennsylvania, US"@en , "Pittsburgh, Pennsylvania, US"@fr , "Pittsburgh, Pennsylvania, US"@de , "Pittsburgh, Pennsylvania."@en , "Pitts"@en , "Pittsburgh, Pennsylvania."@fr , "Pittsburgh, Pennsylvania."@de , "Pitts"@fr , "Pitts"@de , "Climate of Pittsburgh, Pennsylvania"@en , "Climate of Pittsburgh, Pennsylvania"@fr , "Climate of Pittsburgh, Pennsylvania"@de , "The Pittsburgh Style of Literature"@en , "Da burgh"@en , "The Pittsburgh Style of Literature"@fr , "Da burgh"@fr , "The Pittsburgh Style of Literature"@de , "Da burgh"@de , "The Burgh"@en , "City of Bridges"@en , "The Burgh"@fr , "City of Bridges"@fr , "The Burgh"@de , "City of Bridges"@de , "Pittsburg"@en , "Pittsburg"@fr , "Pittsburg"@de , "Education in pittsburgh"@en , "Education in pittsburgh"@fr , "Education in pittsburgh"@de , "Fort du Quesne"@en , "Pittsburgh, United States of America"@en , "Fort du Quesne"@fr , "Pittsburgh, United States of America"@fr , "Pittsburgh, United States of America"@de , "Fort du Quesne"@de , "Smoky City"@en , "Smoky City"@fr , "Smoky City"@de , "Pittsburgh, PA"@en , "Pittsburgh, PA"@fr , "Pittsburgh, PA"@de , "Pittsburgh, Pennsylvania, U.S.A."@en , "Pittsburgh, Pennsylvania, U.S.A."@fr , "Pittsburgh, Pennsylvania, U.S.A."@de , "Pittsburgh Pennsyvania"@en , "Education in Pittsburgh"@en , "Pittsburgh, Pennsylvania"@en , "Education in Pittsburgh"@fr , "Education in Pittsburgh"@de , "Pittsburgh Pennsyvania"@fr , "Pittsburgh, Pennsylvania"@fr , "Pittsburgh Pennsyvania"@de , "Pittsburgh, Pennsylvania"@de , "LOCODE:USPIT"@en , "LOCODE:USPIT"@fr , "LOCODE:USPIT"@de , "Pitt"@en , "Pitt"@fr , "Pitt"@de , "Pittsburgh Style"@en , "Pittsbrugh"@en , "Pittsbrugh"@fr , "Pittsbrugh"@de , "Pittsburgh Style"@fr , "Pittsburgh Style"@de , "Shittsburgh"@en , "Shittsburgh"@fr , "Shittsburgh"@de , "The Steel City"@en , "The Steel City"@fr , "The Steel City"@de , "The City of Bridges"@en , "The City of Bridges"@de , "The City of Bridges"@fr , "Pittsburgh, USA"@en , "Pittsburgh, USA"@fr , "Pittsburgh, USA"@de , "Pittsburgh, Pa."@en , "Pittsburgh, Pa."@fr .
+
+<http://dbpedia.org/resource/Nas>
+        rdfs:label     "Nas"@en , "Nas"@fr , "Nas"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nas__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nas_(Rapper)> , <http://fr.dbpedia.org/resource/Nas_(rappeur)> ;
+        skos:altLabel  "Nasir Jones"@en , "Nas Jones"@en , "Nasir Bin Olu Dara"@fr , "Nasir Jones"@fr , "Nasir Jones"@de , "Nas Jones"@fr , "Nas Jones"@de , "Nasir Bin Olu Dara"@de , "Nasty Nas"@en , "Nasty Nas"@fr , "Nasty Nas"@de , "The Jones Experience"@en , "The Jones Experience"@fr , "The Jones Experience"@de , "Nasir Bin Olu Dara Jones"@en , "Nasir Bin Olu Dara Jones"@fr , "Nasir Bin Olu Dara Jones"@de , "Nasir bin Olu Dara Jones"@de , "Nasir"@en , "Nas Escobar"@en , "Nasir bin Olu Dara"@en , "Nasir"@fr , "Nas Escobar"@fr , "Nasir"@de , "Nas Escobar"@de , "Nasir bin Olu Dara"@fr , "Nasir bin Olu Dara"@de , "Nasir Bin Olu Dara"@en .
+
+<http://dbpedia.org/resource/Nas__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Pittsburgh> ;
+        dbo:from        "1973"^^xsd:gYear ;
+        dbo:to          "1973"^^xsd:gYear .

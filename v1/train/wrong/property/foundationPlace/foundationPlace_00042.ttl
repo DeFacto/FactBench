@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09l2lh>
+        rdfs:label     "Franz Inc"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09l2lh__1> ;
+        skos:altLabel  "Franz"@en .
+
+<http://rdf.freebase.com/ns/m.01jr6>
+        rdfs:label     "Berkeley"@de , "Berkeley"@fr , "Berkeley"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Berkeley> , <http://dbpedia.org/resource/Berkeley,_California> , <http://fr.dbpedia.org/resource/Berkeley_(Californie)> ;
+        skos:altLabel  "Berkeley Daily Gazette"@en , "Berkeley Daily Gazette"@de , "Berkeley Daily Gazette"@fr , "Berkeley, California"@en , "Berkeley, California"@de , "Berkeley, California"@fr , "Berkeley"@de , "Berkeley"@fr , "Berkeley"@en , "People's Republic of Berkeley"@en , "People's Republic of Berkeley"@de , "People's Republic of Berkeley"@fr , "Berkeley, CA"@en , "Berkeley, CA"@de , "Berkeley, CA"@fr , "Berkely, California"@en , "Berkeley, Calif."@en , "Berkely, California"@de , "Berkely, California"@fr , "The People's Republic of Berkeley"@en , "Berkley, CA"@en , "Berkeley Gazette"@en , "Berkeley Gazette"@de , "Berkeley Gazette"@fr , "Berkley, CA"@de , "Berkley, CA"@fr , "Berkley, California"@en , "Berkley, California"@de , "Berkley, California"@fr , "Alameda County / Berkeley city"@en , "Berkeley, Ca"@en , "Berkeley, Ca"@de , "Berkeley, Ca"@fr , "Stockyards, California"@de , "Stockyards, California"@fr , "Stockyards, California"@en , "Berkely, CA"@en , "Berkely, CA"@de , "Berkely, CA"@fr , "LOCODE:USJBK"@en , "LOCODE:USJBK"@de , "LOCODE:USJBK"@fr , "Peoples republic of berkeley"@en , "Peoples republic of berkeley"@de , "Peoples republic of berkeley"@fr , "Berkeley California"@en , "Berkeley California"@de , "Berkeley California"@fr , "Stockyard"@en , "Stockyard"@de , "Stockyard"@fr , "Berserkley"@en , "Berserkley"@de , "Berserkley"@fr , "Berzerkely"@en .
+
+<http://rdf.freebase.com/ns/m.09l2lh__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.01jr6> ;
+        dbo:from        "1984"^^xsd:gYear ;
+        dbo:to          "1984"^^xsd:gYear .

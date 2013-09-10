@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0g1bcq__1>
+        dbo:from        "1918"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0fytp2> ;
+        dbo:to          "1918"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0fytp2>
+        rdfs:label  "Footprints on Sand"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Footprints_on_Sand> .
+
+<http://rdf.freebase.com/ns/m.0g1bcq>
+        rdfs:label     "Rogue Wave Software"@en , "Rogue Wave"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0g1bcq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rogue_Wave_(société)> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Rogue_Wave_Software> ;
+        skos:altLabel  "Rogue Wave Software"@fr , "Rogue Wave"@fr , "RogueWave"@fr , "Rogue wave"@fr .

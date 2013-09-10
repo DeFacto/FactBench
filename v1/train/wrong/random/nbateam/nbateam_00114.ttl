@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01jbrt__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04shbh> ;
+        dbo:from    "2012"^^xsd:gYear ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04shbh>
+        rdfs:label     "Daniel Craig"@en , "Daniel Craig"@fr , "Daniel Craig"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Daniel_Craig> , <http://fr.dbpedia.org/resource/Daniel_Craig> , <http://de.dbpedia.org/resource/Daniel_Craig> ;
+        skos:altLabel  "Daniel Craig"@fr , "Daniel Craig"@de , "Daniel Craig"@en , "Dan Craig"@en , "Dan Craig"@fr , "Dan Craig"@de , "Craig"@fr , "Daniel Wroughton Craig"@en , "Daniel Wroughton Craig"@de .
+
+<http://rdf.freebase.com/ns/m.01jbrt>
+        rdfs:label     "Romain Rolland"@fr , "Romain Rolland"@de , "Romain Rolland"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01jbrt__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Romain_Rolland> , <http://de.dbpedia.org/resource/Romain_Rolland> , <http://fr.dbpedia.org/resource/Romain_Rolland> ;
+        skos:altLabel  "Romain Roland"@de , "Colas Breugnon"@fr , "Colas Breugnon"@de , "Romaine Rolland"@en , "Romaine Rolland"@fr , "Romaine Rolland"@de , "Orsino"@en , "Rolland"@en , "Rolland"@fr , "Rolland"@de , "Romain Rolland"@en , "Romain Rolland"@fr , "Romain Rolland"@de , "Orsino"@fr , "Orsino"@de , "Romain"@en , "Romain"@fr , "Romain"@de , "Romain Roland"@en , "Colas Breugnon"@en , "Romain Roland"@fr .

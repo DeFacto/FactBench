@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Simeon_Saxe-Coburg-Gotha__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Bulgaria> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Simeon_Saxe-Coburg-Gotha>
+        rdfs:label     "Simeon Saxe-Coburg-Gotha"@fr , "Simeon Saxe-Coburg-Gotha"@en , "Simeon Saxe-Coburg-Gotha"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Simeon_Saxe-Coburg-Gotha__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Siméon_II_de_Bulgarie> , <http://de.dbpedia.org/resource/Simeon_Sakskoburggotski> ;
+        skos:altLabel  "Simeon II. von Bulgarien"@de , "Simeon, Prince of Kohary"@en , "Simeon, Prince of Kohary"@fr , "Simeon, Prince of Kohary"@de , "Simeon"@en , "Simeon"@de , "Simeon"@fr , "Simeon ii de bulgarie"@fr , "Simeon Borisov Sakskoburggotski"@en , "Simeon Borisov Sakskoburggotski"@de , "Siméon de Saxe-Cobourg-Gotha"@fr , "Simeon Borisov Sakskoburggotski"@fr , "Simon, Prince of Kohary"@en , "Simon, Prince of Kohary"@fr , "Simon, Prince of Kohary"@de , "Simeon Saxcoburggotski"@de , "Simon II of Bulgaria"@en , "Simon II of Bulgaria"@fr , "Simon II of Bulgaria"@de , "King Simeon"@en , "King Simeon"@de , "King Simeon"@fr , "Siméon de Saxe-Coubourg-Gotha"@fr , "Siméon"@fr , "Simeon de Saxe-Cobourg-Gotha"@en , "Simeon Saxe-Coburg-Gotha"@en , "Simeon de Saxe-Cobourg-Gotha"@fr , "Simeon de Saxe-Cobourg-Gotha"@de , "Simeon Saxe-Coburg-Gotha"@fr , "Simeon Saxe-Coburg-Gotha"@de , "Siméon ii de bulgarie"@fr , "Simeon Sakskoburggotski"@en , "Simeon Sakskoburggotski"@fr , "Simeon Sakskoburggotski"@de , "Simeon von Sachsen-Coburg-Gotha"@de , "Simeon Borisov"@en , "Simeon Borisov"@de , "Simeon Borisov"@fr , "Simeon Saxe-Coburg Gotha"@en , "Simeon Saxe-Coburg Gotha"@fr , "Simeon Saxe-Coburg Gotha"@de , "Sakskoburggotski"@de , "Simeon Sakskoburgotski"@en , "Simeon Sakskoburgotski"@fr , "Simeon Sakskoburgotski"@de , "Saxecoburggotski"@en , "Saxecoburggotski"@fr , "Saxecoburggotski"@de , "Tsar Simeon II"@en , "Tsar Simeon II"@fr , "Tsar Simeon II"@de , "Siméon II de Bulgarie"@fr , "Tsaz Simeon II"@en , "Tsaz Simeon II"@fr , "Tsaz Simeon II"@de , "Simeon Saxe-Coburg"@en , "Simeon Saxe-Coburg"@fr , "Simeon Saxe-Coburg"@de , "Siméon II"@fr , "Simeon II of Bulgaria"@en , "Simeon II of Bulgaria"@de , "Simeon II of Bulgaria"@fr , "Simeon Saxecobourgotski"@fr , "Simeon II de Bulgarie"@fr , "Simeon Saxe-Couburg-Gotha"@en , "Simeon Saxe-Couburg-Gotha"@fr , "Simeon Saxe-Couburg-Gotha"@de , "Simeon Borisov Sakskobourggotski"@fr , "Simeon de Saxe-Coubourg-Gotha"@fr , "Siméon Saxecobourgotski"@fr , "Simeon II."@de , "Simeon II"@en , "Simeon II"@fr , "Simeon II"@de , "Simeon Sachsen-Coburg-Gotha"@de .
+
+<http://dbpedia.org/resource/Bulgaria>
+        rdfs:label     "Bulgaria"@fr , "Bulgaria"@de , "Bulgaria"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bulgarien> , <http://fr.dbpedia.org/resource/Bulgarie> ;
+        skos:altLabel  "ISO 3166-1:BG"@fr , "ISO 3166-1:BG"@de , "Balgariya"@de , "Bulgar"@en , "Balgaria"@en , "Balgaria"@fr , "Balgaria"@de , "Bulgarie"@en , "Bulgar"@fr , "Bulgarie"@fr , "Bulgarie"@de , "Bulgar"@de , "Bulgariya"@en , "Bulgariya"@fr , "Bulgariya"@de , "Bulgaria"@en , "Bulgaria"@fr , "Bulgaria"@de , "Republique de Bulgarie"@fr , "Balkan bulgars"@en , "Balkan bulgars"@fr , "Balkan bulgars"@de , "Republic of Bulgaria"@en , "Republic of Bulgaria"@fr , "Republic of Bulgaria"@de , "Republik Bulgarien"@de , "Kultur in Bulgarien"@de , "République de Bulgarie"@fr , "Bulgarien"@de , "Balgariya"@en , "ISO 3166-1:BG"@en , "Balgariya"@fr .

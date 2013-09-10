@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_7cp9>
+        rdfs:label  "Strangeberry"@en .
+
+<http://rdf.freebase.com/ns/m.04mzg2t>
+        rdfs:label  "TiVo, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04mzg2t__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/TiVo,_Inc.> .
+
+<http://rdf.freebase.com/ns/m.04mzg2t__1>
+        dbo:from      "2004"^^xsd:gYear ;
+        dbo:starring  <http://rdf.freebase.com/ns/m.02_7cp9> ;
+        dbo:to        "2004"^^xsd:gYear .

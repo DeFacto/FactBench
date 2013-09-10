@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01zc_3>
+        rdfs:label     "New York, New Haven and Hartford Railroad"@en , "New York, New Haven and Hartford Railroad"@fr , "New York, New Haven and Hartford Railroad"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/New_York,_New_Haven_and_Hartford_Railroad> , <http://fr.dbpedia.org/resource/New_York,_New_Haven_and_Hartford_Railroad> , <http://dbpedia.org/resource/New_York,_New_Haven_and_Hartford_Railroad> ;
+        skos:altLabel  "Boston and New York Air-Line Railroad"@de , "New York, New Haven & Hartford"@fr , "New Haven System"@fr , "New York, New Haven, and Hartford Railroad"@fr , "New York, New Haven & Hartford"@de , "New York, New Haven and Hartford"@de , "New York, New Haven, and Hartford Railroad"@de , "New Haven System"@de , "New York, New Haven and Hartford Railroad"@fr , "New York, New Haven and Hartford Railroad"@de , "NYNH&H"@fr , "NYNH&H"@de , "New York, New Haven and Hartford Railroad Company"@fr , "New York, New Haven and Hartford Railroad Company"@de , "New Haven Railroad"@fr , "New Haven Railroad"@de , "New York, New Haven, & Hartford"@fr , "New York, New Haven, & Hartford"@de , "New Haven and Hartford Railroad Company New York"@fr , "New Haven and Hartford Railroad Company New York"@de , "New York and Boston Air Line Railroad"@fr , "New York and Boston Air Line Railroad"@de , "New Haven, Middletown and Willimantic Railroad"@fr , "New Haven"@fr , "New York, New Haven & Hartford Railroad"@fr , "New Haven, Middletown and Willimantic Railroad"@de , "New York, New Haven & Hartford Railroad"@de , "New Haven"@de , "Boston and New York Air-Line Railroad"@fr , "New York, New Haven and Hartford"@fr .
+
+<http://rdf.freebase.com/ns/m.05njw__1>
+        dbo:from        "1969"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01zc_3> ;
+        dbo:to          "1969"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05njw>
+        rdfs:label     "Oracle"@de , "Oracle Corporation"@fr , "Oracle Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05njw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Oracle> , <http://dbpedia.org/resource/Oracle_Corporation> , <http://fr.dbpedia.org/resource/Oracle_Corporation> ;
+        skos:altLabel  "Oracle"@en , "Oracle"@de , "Oracle"@fr , "ORACLE CORP"@en , "Oracle Corporation"@de , "Oracle Corporation"@fr , "Oracle Corporation"@en , "The Oracle Corporation"@de , "The Oracle Corporation"@fr , "The Oracle Corporation"@en , "Oracle.com"@en , "Oracle.com"@de , "Oracle.com"@fr , "Oracle Corp"@en , "Oracle corporation"@en , "Oracle corporation"@de , "Oracle corporation"@fr , "Oracle Corp"@de , "Oracle Corp"@fr , "Oracle Corp."@de , "Oracle Corp."@fr , "Oracle Corp."@en , "ORACLE Corporation"@en , "Oracle corp."@de , "Oracle corp."@fr , "Oracle corp."@en , "ORACLE Corporation"@de , "ORACLE Corporation"@fr , "ORCL"@de , "ORCL"@fr , "ORCL"@en , "Oracle corp"@de , "Oracle corp"@fr , "Oracle corp"@en , "Siebel Systems"@fr , "Oracle France"@fr , "SCOracle"@en , "SCOracle"@de , "SCOracle"@fr , "InQuira"@en , "InQuira"@de , "InQuira"@fr , "Ozark Holding Inc"@en .

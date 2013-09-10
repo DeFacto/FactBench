@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Santa_Barbara,_California>
+        rdfs:label     "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Barbara_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Barbara_(Californie)> ;
+        skos:altLabel  "Westside Projects Barrio"@en , "Downtown Santa Barbara, California"@fr , "Downtown Santa Barbara, California"@de , "Westside Projects Barrio"@fr , "Westside Projects Barrio"@de , "American Riviera"@en , "Santa Barbara, Ca"@en , "American Riviera"@fr , "Santa Barbara, Ca"@fr , "American Riviera"@de , "Santa Barbara, Ca"@de , "LOCODE:USSBA"@en , "Santa barbara, ca"@en , "Barbara"@en , "LOCODE:USSBA"@fr , "Santa barbara, ca"@fr , "Barbara"@fr , "LOCODE:USSBA"@de , "Barbara"@de , "Santa barbara, ca"@de , "Santa Barbara"@en , "Santa Barbara"@fr , "Santa Barbara"@de , "Santa Barbara, CA"@en , "Santa Barbara, CA"@fr , "Santa Barbara, CA"@de , "Santa Barbara, Calif."@en , "Santa Barbara, Calif."@fr , "Santa Barbara, Calif."@de , "Santa Barbara, California"@en , "Santa Barbara, California"@fr , "Santa Barbara, California"@de , "Downtown Santa Barbara, California"@en .
+
+<http://dbpedia.org/resource/Mammootty__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Santa_Barbara,_California> ;
+        dbo:from        "1951"^^xsd:gYear ;
+        dbo:to          "1951"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Mammootty>
+        rdfs:label     "Mammootty"@en , "Mammootty"@fr , "Mammootty"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mammootty__1> ;
+        skos:altLabel  "Mammukka"@en , "Mammotty"@en , "Mammookka"@en , "Megastar Mammootty"@en , "Muhammad Kutty"@en , "Sajin"@en , "Mammootty"@en , "Mammooty"@en .

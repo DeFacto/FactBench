@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03bn31z__1>
+        dbo:from        "1994"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.026_770> ;
+        dbo:to          "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03bn31z>
+        rdfs:label  "IFM Renewable Energy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03bn31z__1> .
+
+<http://rdf.freebase.com/ns/m.026_770>
+        rdfs:label     "Magellan Navigation"@en , "Magellan Navigation"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Magellan_Navigation> , <http://dbpedia.org/resource/Magellan_Navigation> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Magellan"@de , "Magellan Corporation"@de , "Magellan Navigation"@de , "Magellan Navigation Inc."@de .

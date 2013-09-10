@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0853ng__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027w18d> ;
+        dbo:from    "1992"^^xsd:gYear ;
+        dbo:to      "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0853ng>
+        rdfs:label     "Gentry Lee"@fr , "Gentry Lee"@de , "Gentry Lee"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0853ng__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Gentry_Lee> , <http://de.dbpedia.org/resource/Gentry_Lee> , <http://dbpedia.org/resource/Gentry_Lee> ;
+        skos:altLabel  "Bert Gentry Lee"@en , "Gentry Lee"@fr , "Gentry Lee"@de .
+
+<http://rdf.freebase.com/ns/m.027w18d>
+        rdfs:label  "Meeting in Infinity"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Meeting_in_Infinity> .

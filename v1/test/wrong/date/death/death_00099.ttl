@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Waverly,_Minnesota>
+        rdfs:label     "Waverly, Minnesota"@en , "Waverly, Minnesota"@fr , "Waverly, Minnesota"@de ;
+        skos:altLabel  "Waverly"@en , "Waverly, Minnesota"@en , "Waverly, MN"@en .
+
+<http://dbpedia.org/resource/Hubert_Humphrey__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Waverly,_Minnesota> ;
+        dbo:from        "1984"^^xsd:gYear ;
+        dbo:to          "1984"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hubert_Humphrey>
+        rdfs:label     "Hubert Humphrey"@de , "Hubert Humphrey"@fr , "Hubert Humphrey"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hubert_Humphrey__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hubert_Humphrey> , <http://de.dbpedia.org/resource/Hubert_H._Humphrey> ;
+        skos:altLabel  "Humphrey"@en , "Humphrey"@de , "Humphrey"@fr , "Hubert Humphrey"@en , "Hubert Humphrey"@de , "Hubert Humphrey"@fr , "Hubert Horatio Humphrey"@en , "Hubert Horatio Humphrey"@de , "Hubert Horatio Humphrey"@fr , "Hubet Humphrey"@en , "Hubet Humphrey"@de , "Hubet Humphrey"@fr , "Hubert Horatio Humphrey, Jr."@en , "Hubert Horatio Humphrey, Jr."@de , "Hubert Horatio Humphrey, Jr."@fr , "Hubert H. Humphrey"@en , "Hubert H. Humphrey"@de , "Hubert H. Humphrey"@fr , "Hubert Horatio Humphrey, II"@en , "Hubert Horatio Humphrey, II"@de , "Hubert Horatio Humphrey, II"@fr , "Hubert Humphrey, Jr."@en , "Hubert H. Humphrey II"@en , "Vice President Humphrey"@en , "Hubert Humphrey, Jr."@fr , "Vice President Humphrey"@de , "Hubert Humphrey, Jr."@de , "Vice President Humphrey"@fr , "Hubert H. Humphrey II"@de , "Hubert H. Humphrey II"@fr , "Hubert H. Humphrey, II"@en , "Hubert H. Humphrey, II"@de , "Hubert H. Humphrey, II"@fr , "Hubert H. Humphrey, Jr."@en , "Hubert H. Humphrey, Jr."@de , "Hubert H. Humphrey, Jr."@fr , "Hubert"@en , "Hubert"@de , "Hubert"@fr , "Humbert Humphrey"@en , "Humbert Humphrey"@de , "Humbert Humphrey"@fr , "Humphrey Fellowship"@en , "Humphrey Fellowship"@de , "Humphrey Fellowship"@fr , "Hubert Horatio Humphrey Jr."@de , "Hubert humphry"@en , "Hubert humphry"@de , "Hubert humphry"@fr , "Hubert Humphrey, II"@en , "Hubert Humphrey, II"@de , "Hubert Humphrey, II"@fr , "Hubert H Humphrey"@en , "Hubert H Humphrey"@de , "Hubert H Humphrey"@fr .

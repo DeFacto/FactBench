@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Beverly_Hills,_California>
+        rdfs:label     "Beverly Hills, California"@de , "Beverly Hills, California"@fr , "Beverly Hills, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Beverly_Hills> , <http://de.dbpedia.org/resource/Beverly_Hills> ;
+        skos:altLabel  "Beverley Hills"@en , "Beverley Hills"@de , "Beverley Hills"@fr , "Hills"@en , "Hills"@de , "Hills"@fr , "LOCODE:USBVH"@de , "Bev Hills"@de , "Bev Hills"@fr , "Bev Hills"@en , "LOCODE:USBVH"@fr , "LOCODE:USBVH"@en , "Beverly Hill, California"@en , "Beverly Hill, California"@de , "Beverly Hill, California"@fr , "Beverly Hills"@en , "Beverly Hills"@de , "Beverly Hills"@fr , "Beverly Hills, Ca"@en , "Beverly Hills, Ca"@de , "Beverly Hills, Ca"@fr , "Zip code 90210"@de , "Zip code 90210"@fr , "Zip code 90210"@en , "Beverly hills california"@en , "Beverly hills california"@de , "Beverly hills california"@fr , "Beverley Hills, California"@de , "Beverley Hills, California"@fr , "Beverley Hills, California"@en , "Beverly Hills, Calif."@de , "Beverly Hills, Calif."@fr , "Beverly Hills, Calif."@en , "Beverly Hills, California"@fr , "Beverly Hills, California"@en , "Beverly Hills, California"@de , "Beverly Hills, CA"@de , "Beverly Hills, CA"@fr , "Beverly Hills, CA"@en , "Beverly"@de , "Beverly"@fr .
+
+<http://dbpedia.org/resource/Ozzy_Osbourne>
+        rdfs:label     "Ozzy Osbourne"@de , "Ozzy Osbourne"@fr , "Ozzy Osbourne"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ozzy_Osbourne__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ozzy_Osbourne> , <http://fr.dbpedia.org/resource/Ozzy_Osbourne> ;
+        skos:altLabel  "John Osbourne"@en , "John Osbourne"@fr , "John Osbourne"@de , "John Michael Osbourne"@en , "John Michael Osbourne"@fr , "John Michael Osbourne"@de , "Essential: Ozzy Osbourne"@en , "Essential: Ozzy Osbourne"@fr , "Essential: Ozzy Osbourne"@de , "John Michael Osborne"@en , "John Michael Osborne"@fr , "John Michael Osborne"@de , "Osbourne"@en , "Ozzy Ozbourne"@en , "Osbourne"@fr , "Ozzy Ozbourne"@de , "Osbourne"@de , "Ozzy Ozbourne"@fr , "Ossie Osborne"@en , "Ossie Osborne"@de , "Ossie Osborne"@fr , "Thelma Riley"@en , "Thelma Riley"@fr , "Thelma Riley"@de , "Waller v. Osbourne"@en , "Waller v. Osbourne"@fr , "Waller v. Osbourne"@de , "Ozzy Osbourn"@en , "Ozzy Osbourn"@fr , "Ozzy Osbourn"@de , "Ozzy Osborne"@en , "Ozzy Osborne"@fr , "Ozzy Osborne"@de , "Ozzy osbourne"@en , "Ozzie Ozborne"@en , "Ozzy osbourne"@fr , "Ozzy osbourne"@de , "Ozzie Ozborne"@fr , "Ozzie Ozborne"@de , "The Osbourne Kids"@en , "The Osbourne Kids"@fr , "The Osbourne Kids"@de , "Louis Osbourne"@en , "Louis Osbourne"@de , "Louis Osbourne"@fr , "Ozzy Osbourne's"@en , "Ozzy Osbourne's"@fr , "Ozzy Osbourne's"@de , "OzzyOsbourne"@en , "OzzyOsbourne"@fr , "OzzyOsbourne"@de , "OZzy"@en , "OZzy"@fr , "OZzy"@de , "Ozzie Osbourne"@en , "Ozzie Osbourne"@fr , "Ozzie Osbourne"@de , "Ozzy Osborn"@en , "Ozzy Osborn"@fr , "Ozzy Osborn"@de , "Ozzy ozzbourne"@en , "Ozzy ozzbourne"@fr , "Ozzy ozzbourne"@de , "Ozzy Ozborne"@en , "Ozzy Osbourne Band"@en , "Ozzy Ozborne"@fr , "Ozzy Ozborne"@de , "Ozzy Osbourne Band"@de , "Ozzy Osbourne Band"@fr , "Ozzie Osborne"@en , "Ozzie Osborne"@de , "Ozzie Osborne"@fr , "Ozzy Osbourne"@en , "Ozzy Osbourne"@fr , "Ozzy Osbourne"@de , "John Michael \"Ozzy\" Osbourne"@en , "Ozzy"@en , "Ozzy"@fr , "Ozzy"@de , "John Michael \"Ozzy\" Osbourne"@fr , "John Michael \"Ozzy\" Osbourne"@de .
+
+<http://dbpedia.org/resource/Ozzy_Osbourne__1>
+        dbo:from    "1994"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        dbo:to      "1994"^^xsd:gYear .

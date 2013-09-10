@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02rgz6v>
+        rdfs:label      "Kineticsware, Inc."@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.02rgz6v__56> .
+
+<http://rdf.freebase.com/ns/m.02rgz6v__56>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.081yw> ;
+        dbo:from             "2006"^^xsd:gYear ;
+        dbo:to               "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.081yw>
+        rdfs:label     "Washington"@en , "Washington"@de , "État de Washington"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/État_de_Washington> , <http://dbpedia.org/resource/Washington_(state)> , <http://de.dbpedia.org/resource/Washington_(Bundesstaat)> ;
+        skos:altLabel  "Washington State"@de , "Sports in Washington"@en , "The 42nd state"@fr , "The 42nd state"@en , "The 42nd state"@de , "State Washington"@fr , "State Washington"@de , "State Washington"@en , "Transport in Washington"@fr , "Transport in Washington"@en , "Transport in Washington"@de , "Etat de Washington"@fr , "Washington state"@fr , "Washington state"@en , "Washington state"@de , "State of Washington"@fr , "State of Washington"@de , "State of Washington"@en , "Transportation in Washington"@fr , "Transportation in Washington"@de , "Transportation in Washington"@en , "Washington"@fr , "Washington"@de , "Washington"@en , "US-WA"@fr , "US-WA"@de , "US-WA"@en , "Huashengdun"@fr , "Huashengdun"@en , "Huashengdun"@de , "Geography of Washington"@fr , "Geography of Washington"@de , "Geography of Washington"@en , "Climate of Washington"@fr , "Government of Washington"@fr , "Climate of Washington"@de , "Government of Washington"@de , "Climate of Washington"@en , "Government of Washington"@en , "Religion in Washington"@fr , "Economy of Washington"@fr , "Politics of Washington"@fr , "Education in Washington"@fr , "42nd State"@fr , "Estado de Washington"@fr , "Estado de Washington"@de , "Estado de Washington"@en , "Washignton"@fr , "Religion in Washington"@de , "Education in Washington"@de , "Religion in Washington"@en , "42nd State"@de , "Washignton"@en , "Education in Washington"@en , "Washignton"@de , "42nd State"@en , "Economy of Washington"@de , "Politics of Washington"@de , "Politics of Washington"@en , "Economy of Washington"@en , "Demographics of Washington"@fr , "Washington Sports"@fr , "Demographics of Washington"@de , "Demographics of Washington"@en , "Washington Sports"@de , "Washington Sports"@en , "Emerald state"@fr , "Emerald state"@de , "Emerald state"@en , "The emerald state"@fr , "The emerald state"@en , "The emerald state"@de , "Wash"@en , "The Evergreen State"@fr , "The Evergreen State"@de , "The Evergreen State"@en , "État de Washington"@fr , "Washington, Madras"@en , "WA"@en , "Sports in Washington"@fr , "Sports in Washington"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Inglewood,_California>
+        rdfs:label     "Inglewood, California"@de , "Inglewood, California"@fr , "Inglewood, California"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Inglewood> , <http://de.dbpedia.org/resource/Inglewood> ;
+        skos:altLabel  "Inglewood, California"@de , "Inglewood, California"@fr , "Inglewood, California"@en , "Morningside Park"@de , "Morningside Park"@fr , "Morningside Park"@en , "Morningside Park, Inglewood"@de , "Morningside Park, Inglewood"@fr , "Morningside Park, Inglewood"@en , "Crenshaw-Imperial"@de , "Crenshaw-Imperial"@fr , "Crenshaw-Imperial"@en , "Inglewood california"@de , "Inglewood california"@fr , "Inglewood california"@en , "Morningside Park, Los Angeles, California"@de , "Morningside Park, Los Angeles, California"@fr , "Morningside Park, Los Angeles, California"@en , "Inglewood, Ca"@en , "Morningside Park, Inglewood, California"@de , "Morningside Park, Inglewood, California"@fr , "Morningside Park, Inglewood, California"@en , "Inglewood, Ca"@de , "Inglewood, Ca"@fr , "Inglewood, CA"@de , "Inglewood, CA"@fr , "North Inglewood"@de , "North Inglewood"@fr , "North Inglewood"@en , "Inglewood"@de , "Inglewood"@fr , "Inglewood"@en , "Inglewood, CA"@en , "LOCODE:USING"@en , "LOCODE:USING"@de , "LOCODE:USING"@fr .
+
+<http://dbpedia.org/resource/Paul_Haarhuis__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Inglewood,_California> ;
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Paul_Haarhuis>
+        rdfs:label     "Paul Haarhuis"@en , "Paul Haarhuis"@fr , "Paul Haarhuis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Paul_Haarhuis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Paul_Haarhuis> , <http://de.dbpedia.org/resource/Paul_Haarhuis> ;
+        skos:altLabel  "Paul Haarhuis"@de , "Paul Haarhuis"@fr , "Haarhuis"@fr , "Haarhuis"@de .

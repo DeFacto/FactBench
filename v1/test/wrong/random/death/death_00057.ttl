@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quentin_Tarantino>
+        rdfs:label     "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quentin Tarantino"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Quentin_Tarantino__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quentin_Tarantino> , <http://de.dbpedia.org/resource/Quentin_Tarantino> ;
+        skos:altLabel  "Q. Tarantino"@fr , "Quinton Tarantino"@en , "Quinton Tarantino"@de , "Quinton Tarantino"@fr , "Quentin Tarrantino"@en , "Quentin Tarrantino"@fr , "Quentin Tarrantino"@de , "Tarrantino"@fr , "Tarantino"@en , "Tarantino"@de , "Tarantino"@fr , "Quentin Jerome Tarantino"@en , "Quentin Jerome Tarantino"@de , "Quentin Jerome Tarantino"@fr , "Quintin Terantino"@en , "Quintin Terantino"@de , "Quintin Terantino"@fr , "Quentin Tarantino"@en , "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quinton Terrantino"@en , "Quinton Terrantino"@de , "Quinton Terrantino"@fr , "Q. Tarentino"@en , "Q. Tarentino"@de , "Q. Tarentino"@fr , "Tarentino"@fr , "The Vega Brothers"@en , "The Vega Brothers"@de , "The Vega Brothers"@fr , "Quinten Tarantino"@en , "Quinten Tarantino"@fr , "Quinten Tarantino"@de , "Quentin tarantino"@en , "Quentin tarantino"@de , "Quentin tarantino"@fr , "Quentin"@en , "Quentin"@de , "Quentin"@fr , "Quinten Tarintino"@en , "Red Apple Cigarettes"@en , "QuentinTarrantino"@en , "Quinten Tarintino"@de , "Quinten Tarintino"@fr , "Quentin Tarintino"@en , "Quentin Tarintino"@de , "Quentin Tarintino"@fr , "Quentin Tarentino"@en , "QuentinTarrantino"@de , "QuentinTarrantino"@fr , "Quentin Tarentino"@de , "Quentin Tarentino"@fr , "Red Apple Cigarettes"@de , "Red Apple Cigarettes"@fr , "Q. Tarantino"@en , "Q. Tarantino"@de .
+
+<http://dbpedia.org/resource/Quentin_Tarantino__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Fort_Worth,_Texas> ;
+        dbo:from        "1955"^^xsd:gYear ;
+        dbo:to          "1955"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Fort_Worth,_Texas>
+        rdfs:label     "Fort Worth, Texas"@de , "Fort Worth, Texas"@fr , "Fort Worth, Texas"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Fort_Worth> , <http://fr.dbpedia.org/resource/Fort_Worth> ;
+        skos:altLabel  "Fort Worth Alliance Airport"@fr , "Ft Worth, TX"@en , "Ft Worth, TX"@fr , "Ft Worth, TX"@de , "Panther city"@en , "Panther city"@fr , "Panther city"@de , "Fort Worth, TX"@en , "Fort Worth, TX"@de , "Fort Worth, TX"@fr , "Fort Worth, United States"@en , "Fort Worth, United States"@de , "Fort Worth, United States"@fr , "Ft Worth, Texas"@en , "Ft Worth, Texas"@fr , "Ft.Worth"@fr , "Ft Worth, Texas"@de , "LOCODE:USFWT"@en , "LOCODE:USFWT"@fr , "LOCODE:USFWT"@de , "Fortworth"@en , "Fortworth"@de , "Fortworth"@fr , "Fort Worth, Texas, USA"@en , "Fort Worth, Texas, USA"@de , "Fort Worth, Texas, USA"@fr , "Ft. Worth, Texas"@en , "Ft. Worth, Texas"@fr , "Ft. Worth, Texas"@de , "Forth Worth, Texas"@en , "Forth Worth, Texas"@de , "Forth Worth, Texas"@fr , "Forthworth"@en , "Fort Worth, Tx."@en , "Fort Worth TX"@en , "Fort Worth TX"@de , "Fort Worth TX"@fr , "Fort Worth, Tx."@fr , "Fort Worth, Tx."@de , "Fort Worth, Texas"@en , "Forthworth"@fr , "Forthworth"@de , "Fort Worth, Texas"@fr , "Fort Worth, Texas"@de , "Fort worth, tx"@en , "Fort worth, tx"@de , "Fort worth, tx"@fr , "Fort Worth Press"@en , "Fort Worth Press"@fr , "Fort Worth Press"@de , "Ft worth, tx"@en , "Ft worth, tx"@fr , "Ft worth, tx"@de , "Forth Worth, TX"@en , "Forth Worth, TX"@fr , "Forth Worth, TX"@de , "Fort Worth"@en , "Fort Worth"@fr , "Fort Worth"@de , "Ft. worth, tx"@en , "Fort worth, Texas"@en , "Fort worth, Texas"@fr , "Fort worth, Texas"@de , "Ft. Worth"@en , "Ft. worth, tx"@fr , "Ft. worth, tx"@de , "Ft. Worth"@de , "Ft. Worth"@fr , "Fort worth, TX"@en , "Fort worth, TX"@de , "Fort worth, TX"@fr , "Ft Worth"@en , "Worth"@fr , "City of Fort Worth"@en , "Ft Worth"@fr , "City of Fort Worth"@fr , "Ft Worth"@de , "City of Fort Worth"@de , "Ft. Worth, TX"@en , "Ft. Worth, TX"@de , "Ft. Worth, TX"@fr .

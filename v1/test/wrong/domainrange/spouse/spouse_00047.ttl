@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.038ncy>
+        rdfs:label     "Charlene Choi"@fr , "Charlene Choi"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Charlene_Choi> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Charlene_Choi> ;
+        skos:altLabel  "Charlene Choi Cheuk-Yin"@en , "Charlene Choi Cheuk-Yin"@fr , "Choi Charlene Cheuk-Yi"@en , "Ah Sa"@en , "Ah Sa"@fr , "Cai Zhuoyan"@en , "蔡卓妍"@en , "Cai Zhuoyan"@fr , "Cheuk-yin Choi"@en , "Charlene Choi"@en , "Charlene Choi"@fr , "Cheuk Yin Choi"@en , "Coi3 Coek3-jin4"@en , "Charlene Choi Cheuk Yin"@en , "Sasa"@en , "Choi Cheuk Yin"@en , "Cài Zhuóyán"@en .
+
+<http://rdf.freebase.com/ns/m.0261x8t__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.038ncy> ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0261x8t>
+        rdfs:label     "Kim Kardashian"@fr , "Kim Kardashian"@en , "Kim Kardashian"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0261x8t__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kim_Kardashian> , <http://dbpedia.org/resource/Kim_Kardashian> , <http://de.dbpedia.org/resource/Kim_Kardashian> ;
+        skos:altLabel  "Kimmie"@en , "Kim Kardashain"@en , "Kim Kardashain"@de , "Kim Kardashain"@fr , "Kardashian"@de , "Kardashian"@fr , "Kardashian"@en , "Kim"@en , "Kimberly Kardashian"@de , "Kimberly Kardashian"@fr , "Kimberly Kardashian"@en , "Kim Kardashian-Humphries"@en , "Kim Kardashian-Humphries"@de , "Kim Kardashian-Humphries"@fr , "Kim K"@de , "Kim K"@fr , "Kim K"@en , "Kim Kardashian Humphries"@en , "Kim Kardashian Humphries"@de , "Kim Kardashian Humphries"@fr , "Kimberly Noel Kardashian"@en , "Kimberly Noel Kardashian"@de , "Kimberly Noel Kardashian"@fr , "Kim Kardishian"@en , "Kim Kardishian"@de , "Kim Kardishian"@fr , "Kim Kardashan"@en , "Kim Kardashan"@de , "Kim Kardashan"@fr , "Kim kardashian"@en , "Kim kardashian"@de , "Kim kardashian"@fr , "Kim Humphries"@de , "Kim Humphries"@fr , "Kim Humphries"@en , "Kim K."@en , "Kim K."@de , "Kim K."@fr , "Jonathan Cheban"@de , "Jonathan Cheban"@fr , "Jonathan Cheban"@en , "Kim Kardashian"@en , "Kim Kardashian"@de , "Kim Kardashian"@fr , "Kim Kardeshian"@de , "Kim Kardeshian"@fr , "Kim Kardeshian"@en .

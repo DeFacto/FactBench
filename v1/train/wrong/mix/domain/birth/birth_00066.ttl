@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Bob_Dylan>
+        rdfs:label     "Bob Dylan"@de , "Bob Dylan"@fr , "Bob Dylan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bob_Dylan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bob_Dylan> , <http://de.dbpedia.org/resource/Bob_Dylan> ;
+        skos:altLabel  "Lucky Wilbury"@en , "Lucky Wilbury"@fr , "Lucky Wilbury"@de , "Robert Allen Zimmermann"@fr , "Robert Allen Zimmermann"@de , "Bobby Zimmerman"@en , "Bobby Zimmerman"@fr , "Bobby Zimmerman"@de , "Bob Dylan"@en , "Elston gunn"@en , "List of people compared to Bob Dylan"@en , "List of people compared to Bob Dylan"@fr , "List of people compared to Bob Dylan"@de , "Elston gunn"@fr , "Elston gunn"@de , "Bob Dylan"@fr , "Bob Dylan"@de , "Robert Allen Zimmerman"@en , "Robert Allen Zimmerman"@fr , "Robert Allen Zimmerman"@de , "Bobby Dylan"@en , "Bobby Dylan"@fr , "Bobby Dylan"@de , "Robert Zimmerman"@fr , "Robert Zimmerman"@de , "Shabtai Zisel ben Avraham"@en , "Shabtai Zisel ben Avraham"@fr , "Shabtai Zisel ben Avraham"@de , "Elston Gunnn"@en , "Elston Gunnn"@fr , "Elston Gunnn"@de , "Bob Allen Zimmerman"@en , "List of people likened to Bob Dylan"@en , "List of people likened to Bob Dylan"@fr , "List of people likened to Bob Dylan"@de , "Tedham Porterhouse"@en , "Tedham Porterhouse"@fr , "Tedham Porterhouse"@de , "Bob Allen Zimmerman"@fr , "Bob Allen Zimmerman"@de , "Boo wilbury"@en , "Boo wilbury"@fr , "Boo wilbury"@de , "Bob Dillan"@en , "Bob Zimmerman"@en , "Bob Dillan"@fr , "Bob Zimmerman"@fr , "Bob Zimmerman"@de , "Bob Dillan"@de , "Bob dylan on film"@en , "Bob dylan on film"@fr , "Bob dylan on film"@de , "Dylan"@en , "Dylan"@fr , "Dylan"@de , "Bobby Zimmermann"@de , "Dylan, Bob"@en , "Dylan, Bob"@fr , "Dylan, Bob"@de , "Bob dylcheval"@fr , "Bobby D"@en , "Bobby D"@fr , "Bobby D"@de , "Zimmy"@en , "Zimmy"@fr , "Zimmy"@de , "Shabtai"@en , "Shabtai"@fr , "Shabtai"@de , "Bob Dylans Debut"@en , "Bob Dylans Debut"@fr , "Bob Dylans Debut"@de , "Bob dylan"@en , "Bob dylan"@fr , "Bob dylan"@de , "Bob dylan in film"@en , "Bob dylan in film"@fr , "Bob dylan in film"@de , "Dyanology"@en , "Dyanology"@fr , "Dyanology"@de , "Bob Dylon"@en , "Bob Dylon"@de , "Bob Dylon"@fr , "Elston Gunn"@en , "Elston Gunn"@fr , "Elston Gunn"@de , "Dylanesque"@en , "Dylanesque"@fr , "Dylanesque"@de , "Boo Wilbury"@en , "Bob Dylan in film"@en , "Boo Wilbury"@fr , "Bob Dylan in film"@fr , "Bob Dylan in film"@de , "Boo Wilbury"@de , "Blind Boy Grunt"@en , "Blind Boy Grunt"@fr , "Blind Boy Grunt"@de , "Bob Dillon"@en , "Bob Dillon"@fr , "Bob Dillon"@de .
+
+<http://dbpedia.org/resource/Bob_Dylan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Fenghua> ;
+        dbo:from        "1887"^^xsd:gYear ;
+        dbo:to          "1887"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Fenghua>
+        rdfs:label     "Fenghua"@en , "Fenghua"@fr , "Fenghua"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fenghua> , <http://de.dbpedia.org/resource/Fenghua> ;
+        skos:altLabel  "Fenghua"@de , "Fenghua"@fr , "Fenghua City"@fr , "Fenghua City"@de , "Feng-Hua"@fr , "Feng-Hua"@de .

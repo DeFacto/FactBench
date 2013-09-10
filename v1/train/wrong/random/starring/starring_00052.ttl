@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Belleville,_Ontario>
+        rdfs:label     "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belleville_(Ontario)> , <http://fr.dbpedia.org/resource/Belleville_(Ontario)> ;
+        skos:altLabel  "Belleville, ON"@en , "Belleville, ON"@fr , "Belleville, ON"@de , "Thrasher's Corners, Ontario"@en , "Thrasher's Corners, Ontario"@de , "Thrasher's Corners, Ontario"@fr , "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de , "Belleville"@en , "Belleville"@fr , "Belleville"@de .
+
+<http://rdf.freebase.com/ns/m.01xds1__1>
+        dbo:from        "1964"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Belleville,_Ontario> ;
+        dbo:to          "1964"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01xds1>
+        rdfs:label     "Nelly Sachs"@en , "Nelly Sachs"@fr , "Nelly Sachs"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01xds1__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nelly_Sachs> , <http://dbpedia.org/resource/Nelly_Sachs> , <http://de.dbpedia.org/resource/Nelly_Sachs> ;
+        skos:altLabel  "Nellie Sachs"@fr , "Nellie Sachs"@de , "Nelly Sachs"@en , "Nelly Sachs"@fr , "Nelly Sachs"@de , "Nelly Leonie Sachs"@en , "Nelly Leonie Sachs"@de , "Nelly Leonie Sachs"@fr , "Sachs"@en , "Sachs"@fr , "Sachs"@de , "Nelly"@fr , "Nellie Sachs"@en .

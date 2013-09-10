@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dick_Cheney__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Chennai> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dick_Cheney>
+        rdfs:label     "Dick Cheney"@de , "Dick Cheney"@fr , "Dick Cheney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dick_Cheney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dick_Cheney> , <http://fr.dbpedia.org/resource/Dick_Cheney> ;
+        skos:altLabel  "Dick Cheyney"@en , "Dick Cheyney"@de , "Dick Cheyney"@fr , "Dicky Chaney"@en , "Dicky Chaney"@de , "Dicky Chaney"@fr , "Richard B. Cheney"@en , "Richard B. Cheney"@de , "Richard B. Cheney"@fr , "Richard Bruce Cheney"@en , "Dick Cheney"@en , "Dick Cheney"@de , "Dick Cheney"@fr , "Richard Bruce Cheney"@fr , "Richard Bruce Cheney"@de , "Vice President Cheney"@en , "Vice President Cheney"@fr , "Vice President Cheney"@de , "Richard (Dick) Cheney"@en , "Bush cheney"@en , "Richard (Dick) Cheney"@de , "Richard (Dick) Cheney"@fr , "Bush cheney"@de , "Bush cheney"@fr , "Dick"@fr , "Vice President Richard Bruce Cheney"@en , "Vice President Richard Bruce Cheney"@de , "Vice President Richard Bruce Cheney"@fr , "Dick Cheny"@en , "Dick Cheny"@de , "Dick Cheny"@fr , "Dick chenny"@en , "Vice President Dick Cheney"@en , "Dick chenny"@fr , "Dick chenny"@de , "Vice President Dick Cheney"@de , "Vice President Dick Cheney"@fr , "Dick cheney"@en , "Dick cheney"@fr , "Dick cheney"@de , "Dick Chaney"@en , "Dick Chaney"@de , "Dick Chaney"@fr , "Robert B. Cheney"@en , "Robert B. Cheney"@de , "Robert B. Cheney"@fr , "Dick Chenney"@en , "Dick Chenney"@de , "Dick Chenney"@fr , "Cheney"@en , "Cheney"@de , "Cheney"@fr , "Richard \"Dick\" Cheney"@en , "Richard \"Dick\" Cheney"@fr , "Richard \"Dick\" Cheney"@de , "Richard Cheney"@en , "Richard Cheney"@fr , "Richard Cheney"@de , "Vice-President Cheney"@en , "Vice-President Cheney"@fr , "Vice-President Cheney"@de , "Richard Bruce \"Dick\" Cheney"@en , "Richard Bruce \"Dick\" Cheney"@fr , "Richard Bruce \"Dick\" Cheney"@de , "Dick cheyney"@en , "Dick cheyney"@fr , "Dick cheyney"@de .
+
+<http://dbpedia.org/resource/Chennai>
+        rdfs:label     "Chennai"@de , "Chennai"@fr , "Chennai"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chennai> , <http://fr.dbpedia.org/resource/Chennai> ;
+        skos:altLabel  "Cennai"@de , "Madras, India"@en , "Madras, India"@de , "Madras, India"@fr , "City of Chennai"@en , "City of Chennai"@de , "City of Chennai"@fr , "Banking Capital of India"@en , "Banking Capital of India"@fr , "Banking Capital of India"@de , "Chennapatnam"@en , "Chennapatnam"@de , "Chennapatnam"@fr , "Venkatapathy Nayakudu"@en , "Venkatapathy Nayakudu"@de , "Venkatapathy Nayakudu"@fr , "Madras"@en , "Madras"@de , "Madras"@fr , "Chennai City"@en , "Chennai City"@de , "Chennai City"@fr , "Chennai, India"@en , "Chennai, India"@de , "Chennai, India"@fr , "Chennai Schools"@en , "Chennai Schools"@de , "Chennai Schools"@fr , "Chennappattanam"@de , "Gate way of South India"@en , "Chennai"@en , "Gate way of South India"@de , "Gate way of South India"@fr , "Channai"@en , "Channai"@fr , "Chennai"@de , "Chennai"@fr , "Channai"@de , "City of Madras"@en , "City of Madras"@de , "City of Madras"@fr , "Chennapuri"@en , "Chennapuri"@de , "Chennapuri"@fr , "Chennai, Tamil Nadu"@en , "Chenai"@en , "LOCODE:INMAA"@en , "Chennai, Tamil Nadu"@de , "Chennai, Tamil Nadu"@fr , "LOCODE:INMAA"@de , "LOCODE:INMAA"@fr , "Chenai"@de , "Chenai"@fr , "Health Capital of India"@en , "Health Capital of India"@de , "Health Capital of India"@fr .

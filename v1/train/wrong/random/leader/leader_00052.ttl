@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dean_Martin__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.07b_l> ;
+        dbo:from   "1986"^^xsd:gYear ;
+        dbo:to     "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07b_l>
+        rdfs:label     "Texas"@de , "Texas"@fr , "Texas"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Texas> , <http://de.dbpedia.org/resource/Texas> , <http://dbpedia.org/resource/Texas> ;
+        skos:altLabel  "Texas, United States"@en , "Texas, United States"@de , "Texas, United States"@fr , "Nuevas Filipinas"@en , "Nuevas Filipinas"@de , "Nuevas Filipinas"@fr , "Religion in Texas"@en , "Religion in Texas"@de , "Religion in Texas"@fr , "TX"@en , "The Lone Star State"@en , "The Lone Star State"@de , "The Lone Star State"@fr , "Christianity in Texas"@en , "Christianity in Texas"@de , "Christianity in Texas"@fr , "Tex"@en , "Texanisch"@de , "Texas"@en , "Texas"@de , "Texas"@fr , "28th state"@en , "28th state"@de , "28th state"@fr , "Lake Ozark, Texas"@de , "Lake Ozark, Texas"@fr , "Lake Ozark, Texas"@en , "US-TX"@en , "US-TX"@de , "US-TX"@fr , "Texos"@de , "Texos"@fr , "Texos"@en , "Lone Star State"@en , "The State of Texas"@en , "Lone Star State"@de , "Lone Star State"@fr , "The State of Texas"@de , "The State of Texas"@fr , "Texass"@de , "Texass"@fr , "Texass"@en , "State of Texas"@en , "28th State"@en , "State of Texas"@de , "State of Texas"@fr , "28th State"@de , "28th State"@fr , "Texan"@fr .
+
+<http://dbpedia.org/resource/Dean_Martin>
+        rdfs:label     "Dean Martin"@en , "Dean Martin"@fr , "Dean Martin"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dean_Martin__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dean_Martin> , <http://de.dbpedia.org/resource/Dean_Martin> ;
+        skos:altLabel  "Dean"@fr , "Dino Crocetti"@en , "Dino Crocetti"@fr , "Dino Crocetti"@de , "Martin"@fr , "Dean Martin"@en , "Dino Martini"@en , "Dean Martin"@fr , "Dean Martin"@de , "Dino Martini"@fr , "Dino Martini"@de , "Dino Martin"@en , "Dino Paul Crocetti"@en , "Dino Paul Crocetti"@fr , "Dino Paul Crocetti"@de , "Dino Martin"@fr , "Dino Martin"@de , "Martin, Dean"@en , "Martin, Dean"@fr , "Martin, Dean"@de .

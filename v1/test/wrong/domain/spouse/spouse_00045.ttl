@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0v_ntct>
+        rdfs:label  "Fahd Mohamed Al-Shalabi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0v_ntct__1> .
+
+<http://rdf.freebase.com/ns/m.0bmcjc>
+        rdfs:label     "Natalie Mendoza"@en , "Natalie Mendoza"@fr , "Natalie Jackson Mendoza"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Natalie_Mendoza> , <http://dbpedia.org/resource/Natalie_Mendoza> , <http://de.dbpedia.org/resource/Natalie_Jackson_Mendoza> ;
+        skos:altLabel  "Natalie Mendoza"@fr , "Natalie Mendoza"@de , "Natalie Jackson Mendoza"@fr , "Natalie Jackson Mendoza"@de , "Natalie Jackson Mendoza"@en , "Natalie mendoza"@de , "Natalie mendoza"@fr .
+
+<http://rdf.freebase.com/ns/m.0v_ntct__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0bmcjc> ;
+        dbo:to      "2010"^^xsd:gYear .

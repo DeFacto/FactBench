@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0q48svj>
+        rdfs:label  "Stephen Hensley"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0q48svj__1> .
+
+<http://dbpedia.org/resource/Hollywood,_Florida>
+        rdfs:label     "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hollywood_(Florida)> , <http://fr.dbpedia.org/resource/Hollywood_(Floride)> ;
+        skos:altLabel  "Hollywood, Florida"@en , "Hollywood, Florida"@fr , "Hollywood, Florida"@de , "Hollywood"@en , "Hollywood"@fr , "Hollywood"@de , "Hollywood, fl"@en , "Hollywood, fl"@fr , "Hollywood, fl"@de , "Hollywood, Fl"@en , "Hollywood, Fl"@fr , "Hollywood, Fl"@de , "Hollywood Beach, Florida"@en , "Hollywood Beach, Florida"@fr , "Hollywood Beach, Florida"@de , "LOCODE:USHWO"@en , "LOCODE:USHWO"@fr , "LOCODE:USHWO"@de , "Hollywood, FL"@en , "Hollywood, FL"@fr , "Hollywood, FL"@de , "Hollywood FL"@en , "Hollywood FL"@fr , "Hollywood FL"@de .
+
+<http://rdf.freebase.com/ns/m.0q48svj__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hollywood,_Florida> ;
+        dbo:from        "1968"^^xsd:gYear ;
+        dbo:to          "1973"^^xsd:gYear .

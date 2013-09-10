@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Venus_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Lynwood,_California> ;
+        dbo:from        "1980-06-17"^^xsd:date ;
+        dbo:to          "1980-06-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Venus_Williams>
+        rdfs:label     "Venus Williams"@en , "Venus Williams"@fr , "Venus Williams"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Venus_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Venus_Williams> , <http://de.dbpedia.org/resource/Venus_Williams> ;
+        skos:altLabel  "Vénus Williams"@fr , "Venus Williams"@fr , "Williams"@fr , "Venus Williams"@de , "Venus Williams"@en , "Venus"@fr , "Venus"@de , "Venus"@en , "Venus Ebone Starr Williams"@fr , "Venus Ebone Starr Williams"@de , "Venus Ebone Starr Williams"@en .
+
+<http://dbpedia.org/resource/Lynwood,_California>
+        rdfs:label     "Lynwood, California"@en , "Lynwood, California"@fr , "Lynwood, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lynwood_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lynwood> ;
+        skos:altLabel  "Lynwood, CA"@fr , "Lynwood, CA"@de , "Lynwood, CA"@en , "Lynwood, Ca"@fr , "Lynwood, Ca"@de , "Lynwood, Ca"@en , "Lynwood california"@fr , "Lynwood california"@de , "Lynwood california"@en , "LOCODE:USLYJ"@fr , "Lynwood, California"@fr , "LOCODE:USLYJ"@de , "Lynwood, California"@de , "Lynwood, California"@en , "LOCODE:USLYJ"@en , "Lynwood"@fr , "Lynwood"@de , "Lynwood"@en .

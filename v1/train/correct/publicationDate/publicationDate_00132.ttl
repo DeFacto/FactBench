@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03t91s>
+        rdfs:label     "Le Temps des changements"@fr , "A Time of Changes"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Le_Temps_des_changements> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/A_Time_of_Changes> ;
+        skos:altLabel  "Le temps des changements"@fr , "Le Temps Des Changements"@fr , "Le Temps des changements"@fr , "A Time of Changes"@fr .
+
+<http://rdf.freebase.com/ns/m.03t91s__132>
+        dbo:author  <http://rdf.freebase.com/ns/m.03t91s> ;
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:to      "1971"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01k56k>
+        rdfs:label       "Robert Silverberg"@fr , "Robert Silverberg"@en , "Robert Silverberg"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.03t91s__132> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Robert_Silverberg> , <http://dbpedia.org/resource/Robert_Silverberg> , <http://fr.dbpedia.org/resource/Robert_Silverberg> ;
+        skos:altLabel    "Calvin m knox"@fr , "Calvin m knox"@en , "Calvin m knox"@de , "Ivar Jorgenson"@fr , "Ivar Jorgenson"@en , "Charles D. Hammer"@en , "Calvin M. Knox"@fr , "Calvin M. Knox"@en , "Calvin M. Knox"@de , "Calvin knox"@fr , "Calvin knox"@en , "Calvin knox"@de , "Calvin M.Nox"@fr , "George Osborne"@en , "Richard Greer"@en , "David Osborne"@fr , "Robert Silverberg"@fr , "Robert Randall"@en , "Warren Kastel"@en , "Robert Randall"@fr , "Robert Silverberg"@en , "David Osborne"@en , "Robert Silverberg"@de , "Gordon Aghill"@en , "E. K. Jarvis"@en , "S. M. Tenneshaw"@en , "Robert Arnette"@en , "Webber Martin"@en , "Silverberg"@fr , "David Challon"@en , "Silverberg"@en , "Silverberg"@de , "Calvin Knox"@en , "Leonard G. Spencer"@en , "Hall Thornton"@en , "Clyde Mitchell"@en , "Robert Randalf"@fr , "Ivar Jorgensen"@en , "T. D. Bethlen"@en , "Ralph Burke"@en , "Bob Silverberg"@en .

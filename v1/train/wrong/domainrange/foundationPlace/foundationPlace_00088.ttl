@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01j944__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0k_q_> ;
+        dbo:from             "2004"^^xsd:gYear ;
+        dbo:to               "2004"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0k_q_>
+        rdfs:label     "Glendale"@en , "Glendale"@fr , "Glendale"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Glendale,_California> , <http://fr.dbpedia.org/resource/Glendale_(Californie)> , <http://de.dbpedia.org/resource/Glendale_(Kalifornien)> ;
+        skos:altLabel  "Chamlian Armenian School"@en , "Chamlian Armenian School"@fr , "Chamlian Armenian School"@de , "Los Angeles County / Glendale city"@en , "Los Angeles Township, California"@en , "Los Angeles Township, California"@fr , "Los Angeles Township, California"@de , "Glendale, CA"@en , "Glendale, CA"@fr , "Glendale, CA"@de , "Verdugo City, California"@en , "Verdugo City, California"@fr , "Verdugo City, California"@de , "Glendale california"@en , "Glendale, California"@en , "Glendale, California"@fr , "Glendale, California"@de , "Glendale california"@fr , "Glendale california"@de , "North Glendale, California"@en , "North Glendale, California"@fr , "North Glendale, California"@de , "Glendale, ca"@en , "Glendale, ca"@fr , "Glendale, ca"@de , "LOCODE:USJGX"@en , "LOCODE:USJGX"@fr , "LOCODE:USJGX"@de , "Glendale"@en , "Glendale, Californie"@fr , "Glendale"@fr , "Glendale"@de .
+
+<http://rdf.freebase.com/ns/m.01j944>
+        rdfs:label     "SCO Group"@de , "SCO Group"@fr , "SCO Group"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01j944__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/SCO_Group> , <http://fr.dbpedia.org/resource/SCO_Group> , <http://dbpedia.org/resource/SCO_Group> ;
+        skos:altLabel  "Caldera International Inc."@en , "Caldera International Inc."@fr , "Caldera International Inc."@de , "Caldera Holdings"@en , "Caldera Holdings"@de , "Caldera Holdings"@fr , "SCO"@en , "Santacruz Operations"@fr , "Caldera International, Inc."@en , "Caldera International, Inc."@fr , "Caldera International, Inc."@de , "SCO group"@en , "SCO group"@de , "SCO group"@fr , "SCOXQ"@en , "SCOXQ"@fr , "SCOXQ"@de , "SCO Group"@en , "SCO Group"@fr , "SCO Group"@de , "SCO-Group"@de , "TSCOG"@en , "TSCOG"@de , "TSCOG"@fr , "Caldera Systems, Inc."@en , "Caldera Systems, Inc."@de , "Caldera Systems, Inc."@fr , "Caldera Systems Inc."@en , "Caldera Systems Inc."@de , "Caldera Systems Inc."@fr , "CALDERA INTERNATIONAL INC"@en , "TSG Group"@en , "TSG Group"@de , "TSG Group"@fr , "The SCO Group"@en , "The SCO Group"@de , "The SCO Group"@fr , "Caldera"@en , "Caldera"@de , "Caldera"@fr , "SCOXQ.pk"@en , "SCOXQ.pk"@de , "SCOXQ.pk"@fr , "SCO GROUP INC"@en , "Caldera K.K."@en , "CALDERA SYSTEMS INC"@en , "Caldera K.K."@de , "Caldera K.K."@fr , "Caldera Holdings, Inc."@en , "Caldera Holdings, Inc."@de , "Caldera Holdings, Inc."@fr , "Caldera Systems"@en , "Caldera Systems"@fr , "Caldera Systems"@de , "SCOX"@en , "SCOX"@fr , "SCOX"@de , "Caldera International"@en , "Caldera International"@de , "Caldera International"@fr , "Caldera Holdings Inc."@en , "Caldera Holdings Inc."@fr , "Caldera Holdings Inc."@de , "SCOXQ.PK"@en , "SCOXQ.PK"@fr , "SCOXQ.PK"@de , "Sco group"@en , "Sco group"@de , "Sco group"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02988h__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0c80ss> ;
+        dbo:from    "1983"^^xsd:gYear ;
+        dbo:to      "1983"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0c80ss>
+        rdfs:label     "1634: The Ram Rebellion"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/1634:_The_Ram_Rebellion> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "1634: The Ram Rebellion"@en .
+
+<http://rdf.freebase.com/ns/m.02988h>
+        rdfs:label     "Dan Brown"@en , "Dan Brown"@fr , "Dan Brown"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02988h__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dan_Brown> , <http://fr.dbpedia.org/resource/Dan_Brown> , <http://dbpedia.org/resource/Dan_Brown> ;
+        skos:altLabel  "Blythe Brown"@en , "Dan brown"@en , "Blythe Brown"@fr , "Dan brown"@de , "Blythe Brown"@de , "Dan brown"@fr , "Dan Brown"@en , "Dan Brown"@fr , "Dan Brown"@de , "Blythe Newlon"@en , "Blythe Newlon"@fr , "Blythe Newlon"@de , "Brown"@fr , "Musica Animalia"@en , "Musica Animalia"@fr , "Musica Animalia"@de .

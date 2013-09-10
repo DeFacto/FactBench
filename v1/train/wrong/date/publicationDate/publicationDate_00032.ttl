@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01963w>
+        rdfs:label     "C. J. Cherryh"@de , "C. J. Cherryh"@fr , "C. J. Cherryh"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01963w__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/C._J._Cherryh> , <http://dbpedia.org/resource/C._J._Cherryh> , <http://fr.dbpedia.org/resource/C._J._Cherryh> ;
+        skos:altLabel  "C. J. Cherre"@en , "C. J. Cherre"@de , "C. J. Cherre"@fr , "Carolyn Janice Cherry"@en , "Carolyn Janice Cherry"@de , "Carolyn Janice Cherry"@fr , "Caroline Janice Cherryh"@de , "C.J. Cherre"@en , "C.J. Cherre"@de , "C.J. Cherre"@fr , "C.J. Cherryh"@en , "C.J. Cherryh"@de , "C.J. Cherryh"@fr , "Caroline Janice Cherry"@en , "C. J. Cheeryh"@en , "C. J. Cheeryh"@de , "C. J. Cheeryh"@fr , "Caroline Janice Cherry"@de , "Caroline Janice Cherry"@fr , "C. J. Cherryh"@en , "Cherry"@en , "CJ Cherryh"@en , "CJ Cherryh"@de , "CJ Cherryh"@fr , "Carolyn J. Cherryh"@fr , "Cherry"@de , "C. J. Cherryh"@de , "C. J. Cherryh"@fr , "Cherry"@fr , "CJ Cherre"@en , "CJ Cherre"@de , "CJ Cherre"@fr , "C J Cherryh"@en , "C J Cherryh"@de , "C J Cherryh"@fr , "C. J. Cherry"@de , "C. J. Cherry"@fr , "C. J. Cherry"@en , "Cherryh, CJ"@en , "Cherryh, CJ"@de , "Cherryh, CJ"@fr , "Cherryh"@de , "Cherryh"@fr , "Cherryh"@en , "C J Cherre"@en , "C J Cherre"@de , "C J Cherre"@fr , "Carolyn Cherry"@en , "Carolyn Cherry"@de , "Carolyn Cherry"@fr .
+
+<http://rdf.freebase.com/ns/m.01963w__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.08hstg> ;
+        dbo:from    "2000"^^xsd:gYear ;
+        dbo:to      "2000"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08hstg>
+        rdfs:label  "The Collected Short Fiction of C. J. Cherryh"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Collected_Short_Fiction_of_C._J._Cherryh> .

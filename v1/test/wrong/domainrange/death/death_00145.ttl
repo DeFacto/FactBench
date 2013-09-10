@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Madison,_Wisconsin>
+        rdfs:label     "Madison, Wisconsin"@de , "Madison, Wisconsin"@fr , "Madison, Wisconsin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Madison_(Wisconsin)> , <http://fr.dbpedia.org/resource/Madison_(Wisconsin)> ;
+        skos:altLabel  "LOCODE:USMSN"@fr , "Madison, Wisconsin"@en , "Madison, Wisconsin"@de , "Madison, Wisconsin"@fr , "Madison wisconsin"@en , "Madison wisconsin"@de , "Madison wisconsin"@fr , "Madison (city), Dane County, Wisconsin"@de , "Madison (city), Dane County, Wisconsin"@fr , "Madison (city), Dane County, Wisconsin"@en , "Madison (city), Dane County, WI"@de , "Madison (city), Dane County, WI"@fr , "Madison (city), Dane County, WI"@en , "Madison, Wi"@en , "Madison, Wi"@de , "Madison, Wi"@fr , "Madison Wisconsin"@en , "Madison Wisconsin"@de , "Madison Wisconsin"@fr , "Madison (city), WI"@en , "Madison (city), WI"@de , "Madison (city), WI"@fr , "Madison, WI"@en , "Madison, WI"@de , "Madison, WI"@fr , "Madison, wi"@en , "Madison, wi"@de , "Madison, wi"@fr , "Madison"@de , "Madison"@fr , "Madison"@en , "Madison WI"@en , "Madison WI"@de , "Madison WI"@fr , "Madison,Wisconsin"@en , "Madison,Wisconsin"@fr , "Madison,Wisconsin"@de , "Madison (city), Wisconsin"@en , "Madison (city), Wisconsin"@de , "Madison (city), Wisconsin"@fr , "Capital of Wisconsin"@en , "Capital of Wisconsin"@de , "Capital of Wisconsin"@fr , "Madison Area Music Awards"@de , "Madison Area Music Awards"@fr , "Madison Area Music Awards"@en , "LOCODE:USMSN"@en , "LOCODE:USMSN"@de .
+
+<http://dbpedia.org/resource/Douglas_Adams>
+        rdfs:label     "Douglas Adams"@de , "Douglas Adams"@fr , "Douglas Adams"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Douglas_Adams__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Douglas_Adams> , <http://fr.dbpedia.org/resource/Douglas_Adams> ;
+        skos:altLabel  "Adams"@fr , "Adams, Douglas Noel"@de , "Adams, Douglas Noel"@fr , "Adams, Douglas Noel"@en , "Douglas Adams"@de , "Douglas Adams"@fr , "Douglas Adams"@en , "Douglas Adams Biography"@de , "Douglas Adams Biography"@fr , "Douglas Adams Biography"@en , "Adams, Douglas Noël"@de , "Adams, Douglas Noël"@fr , "Adams, Douglas Noël"@en , "Jane Belson"@de , "Jane Belson"@fr , "Jane Belson"@en , "Douglas Noël Adams"@en , "Douglas Noël Adams"@de , "Douglas Noël Adams"@fr , "Douglass adams"@de , "Douglass adams"@fr , "Douglass adams"@en , "Douglas adams"@de , "Douglas adams"@fr , "Douglas adams"@en , "Adams, Douglas"@de , "Adams, Douglas"@fr , "Adams, Douglas"@en , "Dirk Gently"@de , "Douglas Noel Adams"@en , "Douglas Noel Adams"@de , "Douglas Noel Adams"@fr , "Douglas"@fr , "Bop Ad"@de , "Bop Ad"@fr , "Bop Ad"@en , "Douglas Adams bibliography"@en , "Douglas Adams bibliography"@de , "Douglas Adams bibliography"@fr .
+
+<http://dbpedia.org/resource/Douglas_Adams__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Madison,_Wisconsin> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .

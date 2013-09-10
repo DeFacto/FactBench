@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h0zx_y>
+        rdfs:label     "Harmoni Everett"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h0zx_y__1> ;
+        skos:altLabel  "Harmonie Everett"@en .
+
+<http://rdf.freebase.com/ns/m.03z1j_>
+        rdfs:label     "Kerr Smith"@fr , "Kerr Smith"@de , "Kerr Smith"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Kerr_Smith> , <http://fr.dbpedia.org/resource/Kerr_Smith> , <http://de.dbpedia.org/resource/Kerr_Smith> ;
+        skos:altLabel  "Kerr Van Cleve Smith"@en , "Kerr Smith"@en , "Kerr Smith"@fr , "Kerr Smith"@de .
+
+<http://rdf.freebase.com/ns/m.0h0zx_y__1>
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03z1j_> ;
+        dbo:to      "2007"^^xsd:gYear .

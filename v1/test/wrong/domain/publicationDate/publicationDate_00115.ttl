@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05_qg>
+        rdfs:label     "Peter F. Hamilton"@en , "Peter F. Hamilton"@fr , "Peter F. Hamilton"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05_qg__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Peter_F._Hamilton> , <http://de.dbpedia.org/resource/Peter_F._Hamilton> , <http://fr.dbpedia.org/resource/Peter_F._Hamilton> ;
+        skos:altLabel  "Peter F. Hamilton"@en , "Peter F. Hamilton"@fr , "Peter F. Hamilton"@de , "Peter f hamilton"@en , "Peter f hamilton"@fr , "Peter f hamilton"@de , "Peter F Hamilton"@en , "Peter F Hamilton"@fr , "Peter F Hamilton"@de , "Peter Hamilton"@en , "Armageddon-Zyklus"@de , "Peter f. hamilton"@en , "Peter f. hamilton"@fr , "Hamilton"@fr , "Peter f. hamilton"@de , "Peter Hamilton"@de .
+
+<http://rdf.freebase.com/ns/m.05_qg__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0bh2z2> ;
+        dbo:from    "1994"^^xsd:gYear ;
+        dbo:to      "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0bh2z2>
+        rdfs:label     "Le Mariage de la Princesse Leia"@fr , "The Courtship of Princess Leia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Le_Mariage_de_la_Princesse_Leia> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Courtship_of_Princess_Leia> ;
+        skos:altLabel  "Misty River Clan"@fr , "Great Canyon Clan"@fr , "Red Hills Clan"@fr , "Nightsisters"@fr , "Nightsister"@fr , "Dreaming River Clan"@fr , "Courtship of princess leia"@fr , "Le Mariage De La Princesse Leia"@fr , "Le mariage de la princesse leia"@fr , "Singing Mountain Clan"@fr , "Gethzerion"@fr , "Nightsisters of Dathomir"@fr , "Courtship of Princess Leia"@fr , "Witches of Dathomir"@fr , "Le Mariage de la princesse Leia"@fr , "Dathomirians"@fr , "Frenzied River Clan"@fr , "Le Mariage de la Princesse Leia"@fr , "The Courtship of Princess Leia"@fr , "Singing Mountian Clan"@fr .

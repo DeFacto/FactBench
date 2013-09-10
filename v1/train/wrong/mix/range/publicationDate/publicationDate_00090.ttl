@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02fdym>
+        rdfs:label     "The Hitchhiker's Guide to the Galaxy"@en , "Per Anhalter durch die Galaxis"@de , "Le Guide du voyageur galactique"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Hitchhiker's_Guide_to_the_Galaxy_(novel)> , <http://de.dbpedia.org/resource/Per_Anhalter_durch_die_Galaxis> , <http://fr.dbpedia.org/resource/Le_Guide_du_voyageur_galactique> ;
+        skos:altLabel  "Vierteilige Trilogie"@de , "Le Guide du voyageur galactique"@fr , "Zaphod Beeblebrox"@de , "Guide du routard galactique"@fr , "Fiet Vujagig"@de , "Le Guide du Routard galactique"@fr , "The Hitchhiker’s Guide to the Galaxy"@en , "The Hitchhiker’s Guide to the Galaxy"@de , "The Hitchhiker’s Guide to the Galaxy"@fr , "Per Anhalter durch die Galaxis"@de , "Le Guide galactique"@fr , "Vogone"@de , "The Illustrated Hitchhiker's Guide to the Galaxy"@en , "The Illustrated Hitchhiker's Guide to the Galaxy"@de , "The Illustrated Hitchhiker's Guide to the Galaxy"@fr , "The Hitch Hiker's Guide to the Galaxy"@en , "Dent"@de , "Guide"@fr , "The More Than Complete Hitchhiker's Guide"@en , "La vie, l'univers et tout le reste"@fr , "Hitchhiker's Guide to the Galaxy"@de , "The Hitchhiker's Guide to the Galaxy"@en , "Le guide du voyageur galactique"@fr , "The Hitchhiker's Guide to the Galaxy"@de , "The Hitchhiker's Guide to the Galaxy"@fr , "Arthur Dent"@de , "The HitchHiker's Guide to the Galaxy"@fr , "Anhalter"@de , "HHGTTG"@de , "PADDG"@de , "Guide galactique"@fr , "Guide du voyageur galactique"@fr , "A Hitchhiker's Guide to the Galaxy"@en , "Le Guide Du Voyageur Galactique"@fr , "A Hitchhiker's Guide to the Galaxy"@de , "A Hitchhiker's Guide to the Galaxy"@fr , "The Illustrated Hitch Hiker's Guide to the Galaxy"@en , "Tricia McMillan"@de , "The Universe of Douglas Adams"@en , "Vogonen"@de , "Le Guide du Voyageur Galactique"@fr , "THHGTTG"@de , "Le Guide du routard galactique"@fr , "Per Anhalter ins All"@de , "The Hitchhiker's Quartet"@en .
+
+<http://rdf.freebase.com/ns/m.07d3x__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02fdym> ;
+        dbo:from    "1990"^^xsd:gYear ;
+        dbo:to      "1990"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.07d3x>
+        rdfs:label     "Terry Pratchett"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07d3x__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Terry_Pratchett> , <http://dbpedia.org/resource/Terry_Pratchett> , <http://de.dbpedia.org/resource/Terry_Pratchett> ;
+        skos:altLabel  "Terry Pratchet"@en , "Terry Pratchet"@de , "Terry Pratchet"@fr , "Terry Prattchet"@en , "Terry Prattchet"@de , "Terry Prattchet"@fr , "Prattchett"@en , "Prattchett"@de , "Prattchett"@fr , "Terence Pratchett"@en , "Terence Pratchett"@de , "Terence Pratchett"@fr , "Terry"@en , "Terry"@de , "Terry"@fr , "Sir Terry Pratchett"@en , "Sir Terry Pratchett"@de , "Sir Terry Pratchett"@fr , "Terry pratchett"@en , "Terry pratchett"@de , "Terry pratchett"@fr , "Terry Prattchett"@en , "Terry Prattchett"@de , "Terry Prattchett"@fr , "Sir Terence David John Pratchett"@de , "Sir Terence David John \"Terry\" Pratchett, OBE"@en , "Pterry"@en , "Pterry"@de , "Pterry"@fr , "Terry prachet"@en , "Terence David John Pratchett"@en , "Terry Prachett"@en , "Terence David John Pratchett"@de , "Terry Prachett"@de , "Terry Prachett"@fr , "Terence David John Pratchett"@fr , "Terry prachet"@de , "Terry prachet"@fr , "Bissonomy"@en , "Bissonomy"@de , "Bissonomy"@fr , "Sir Terry Pratchett, OBE"@en , "Terry Prattcher"@en , "Terry Prattcher"@de , "Terry Prattcher"@fr , "Terry Pratchett"@en , "Terry Pratchett"@de , "Terry Pratchett"@fr , "PTerry"@en , "Pterry Pratchett"@fr , "PTerry"@de , "PTerry"@fr , "Pratchett"@en , "Pratchett"@de , "Pratchett"@fr .

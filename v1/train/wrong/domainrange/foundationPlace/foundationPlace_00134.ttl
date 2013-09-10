@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04swd>
+        rdfs:label     "Moscou"@fr , "Moscow"@en , "Moskau"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Muscovites> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Moscow> , <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Moskau> , <http://fr.dbpedia.org/resource/Moscou> ;
+        skos:altLabel  "Moscva"@en , "City of Moscow"@en , "City of Moscow"@de , "City of Moscow"@fr , "Moscva"@fr , "Moscva"@de , "Moskau"@de , "Moscow, USSR"@en , "Moscow, USSR"@fr , "Moscow, USSR"@de , "Москва, Россия"@en , "Moscow"@en , "Moscow"@de , "Moscow"@fr , "Gorod Moskva"@en , "Moskow"@en , "Capital of Russia"@en , "Capital of Russia"@fr , "Capital of Russia"@de , "Moscow, Soviet Union"@en , "Moskow"@fr , "Moskow"@de , "LOCODE:RUMOW"@en , "Moscow, Soviet Union"@fr , "LOCODE:RUMOW"@de , "LOCODE:RUMOW"@fr , "Moscow, Soviet Union"@de , "Moscow, Russian Federation"@en , "Moscow, Russian Federation"@de , "Moscow, Russian Federation"@fr , "Moskva Federal City, Russia"@en , "Moskva Federal City, Russia"@fr , "Moskva Federal City, Russia"@de , "Mockba"@en , "Mockba"@fr , "Mockba"@de , "Gorodgeroymoskva"@en , "Capitale de la Russie"@fr , "Moskvá"@en , "MOCKBA"@en , "Moskvá"@fr , "MOCKBA"@de , "Moskvá"@de , "MOCKBA"@fr , "Muscovites"@en , "Moskva, Russia"@en , "Moskva, Russia"@de , "Moskva, Russia"@fr , "Gorod-Geroy Moskva"@en , "Москва"@en , "Moskva"@en , "Moscou"@en , "Moskva"@fr , "Moscou"@fr , "Moskva"@de , "Moscou"@de , "Moscovite"@en , "Moscovite"@fr , "Moscovite"@de , "Moskou"@en , "RU-MOW"@en , "RU-MOW"@fr , "RU-MOW"@de , "Moscova"@en , "Moscova"@fr , "Mokba"@fr , "Moscova"@de , "Moskou"@fr , "Moskou"@de , "Mosukuba"@en , "Architecture of Moscow"@en , "Architecture of Moscow"@fr , "Architecture of Moscow"@de , "Mosukuba"@de , "Mosukuba"@fr , "Moseukeuba"@en , "Moseukeuba"@de , "Moseukeuba"@fr , "Western Moscow"@en , "Western Moscow"@fr , "Western Moscow"@de , "Moscow, U. S. S. R."@en , "Moscow, Russia"@en , "Moscow, Russia"@fr , "Moscow, Russia"@de .
+
+<http://rdf.freebase.com/ns/m.08tdfn__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.04swd> ;
+        dbo:from             "1980"^^xsd:gYear ;
+        dbo:to               "1980"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08tdfn>
+        rdfs:label     "RightNow Technologies"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.08tdfn__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/RightNow_Technologies> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "RightNow Technologies"@en , "RNT"@en , "RightNow"@en .

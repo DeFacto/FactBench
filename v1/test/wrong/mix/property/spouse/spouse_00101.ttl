@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0n4csx7__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.027_d4h> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.027_d4h>
+        rdfs:label     "John Enos III"@fr , "John Enos III"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/John_Enos_III> , <http://fr.dbpedia.org/resource/John_Enos_III> ;
+        skos:altLabel  "John Enos"@en , "John Enos"@fr , "Enos"@fr , "John Enos III"@fr , "Mr. Too Big"@en .
+
+<http://rdf.freebase.com/ns/m.0n4csx7>
+        rdfs:label     "Jennie Lee"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0n4csx7__1> ;
+        skos:altLabel  "Jennie Lee Enos"@en .

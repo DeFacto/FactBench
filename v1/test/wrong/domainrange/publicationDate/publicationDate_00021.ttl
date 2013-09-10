@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03hvqt>
+        rdfs:label     "Société du Vril"@fr , "Vril-Gesellschaft"@de , "Vril"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Confrérie_du_Vril> , <http://de.dbpedia.org/resource/Vril-Gesellschaft> , <http://dbpedia.org/resource/Vril> ;
+        skos:altLabel  "Vril: The Power of the Coming Race"@fr , "The Coming Race"@de , "The Coming Race"@fr , "The Coming Race"@en , "Confrerie Du Vril"@fr , "Confrérie du vril"@fr , "Vrill"@de , "Vrill"@fr , "Vrill"@en , "Confrerie du vril"@fr , "Vril-Gesellschaft"@de , "Confrérie Du Vril"@fr , "Luminous Lodge"@de , "Luminous Lodge"@fr , "Luminous Lodge"@en , "Maria Orschitsch"@de , "Vrilgesellschaft"@de , "Confrérie du Vril"@fr , "Confrerie du Vril"@fr , "Vril Society"@de , "Vril Society"@fr , "Vril Society"@en , "Vril-ya"@de , "Vril-ya"@fr , "Vril-ya"@en , "Vril"@de , "Vril"@fr , "Vril"@en , "Aldebaraner"@de , "Vril generator"@de , "Vril generator"@fr , "Vril generator"@en , "Vril magic eye"@de , "Vril magic eye"@fr , "Vril magic eye"@en , "VRIL"@fr , "Vril: The Power of the Coming Race"@en , "Vril: The Power of the Coming Race"@de .
+
+<http://rdf.freebase.com/ns/m.01zmb8>
+        rdfs:label     "Angela Carter"@en , "Angela Carter"@fr , "Angela Carter"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zmb8__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Angela_Carter> , <http://dbpedia.org/resource/Angela_Carter> , <http://de.dbpedia.org/resource/Angela_Carter> ;
+        skos:altLabel  "Angela Olive Stalker Carter"@en , "Angela Carter"@en , "Angela Carter"@fr , "Angela Carter"@de , "Angela Olive Stalker"@en .
+
+<http://rdf.freebase.com/ns/m.01zmb8__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03hvqt> ;
+        dbo:from    "1986"^^xsd:gYear ;
+        dbo:to      "1986"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Northampton,_Massachusetts>
+        rdfs:label     "Northampton, Massachusetts"@en , "Northampton, Massachusetts"@fr , "Northampton, Massachusetts"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Northampton_(Massachusetts)> , <http://fr.dbpedia.org/resource/Northampton_(Massachusetts)> ;
+        skos:altLabel  "Northampton"@fr , "Northampton"@de , "Northampton, MA"@en , "Northampton, MA"@fr , "Northampton, MA"@de , "Lesbianville"@en , "Lesbianville"@fr , "Lesbianville"@de , "Northhampton, Massachusetts"@en , "Northhampton, Massachusetts"@fr , "Northhampton, Massachusetts"@de , "LOCODE:USNHM"@en , "LOCODE:USNHM"@fr , "LOCODE:USNHM"@de , "Northhampton, MA"@en , "Northhampton, MA"@fr , "Northhampton, MA"@de , "Northampton massachusetts"@en , "Northampton, ma"@en , "Northampton, ma"@fr , "Northampton, ma"@de , "Northampton, Massachusetts"@en , "Northampton massachusetts"@fr , "Northampton, Massachusetts"@fr , "Northampton massachusetts"@de , "Northampton, Massachusetts"@de , "North Hampton, Massachusetts"@en , "North Hampton, Massachusetts"@fr , "North Hampton, Massachusetts"@de , "Northampton"@en .
+
+<http://dbpedia.org/resource/Jeff_Gordon>
+        rdfs:label     "Jeff Gordon"@en , "Jeff Gordon"@fr , "Jeff Gordon"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jeff_Gordon__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jeff_Gordon> , <http://de.dbpedia.org/resource/Jeff_Gordon> ;
+        skos:altLabel  "Jeffery Gordon"@en , "Jeffery Gordon"@fr , "Jeffery Gordon"@de , "Jeff Michael Gordon"@en , "Jeff Gordon"@en , "Jeff Michael Gordon"@fr , "Jeff Gordon"@fr , "Jeff Michael Gordon"@de , "Jeff Gordon"@de , "Jeffrey Michael Gordon"@en , "Jeffrey Michael Gordon"@fr , "Jeffrey Michael Gordon"@de , "Jeffery Michael Gordon"@en , "Jeffery Michael Gordon"@de , "Jeffery Michael Gordon"@fr .
+
+<http://dbpedia.org/resource/Jeff_Gordon__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Northampton,_Massachusetts> ;
+        dbo:from             "1994"^^xsd:gYear ;
+        dbo:to               "1994"^^xsd:gYear .

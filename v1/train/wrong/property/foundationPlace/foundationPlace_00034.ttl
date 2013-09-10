@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0mcxl>
+        rdfs:label     "Alcalá de Henares"@en , "Alcalá de Henares"@fr , "Alcalá de Henares"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Alcal%C3%A1_de_Henares> ;
+        skos:altLabel  "Alcala de Henares"@en .
+
+<http://rdf.freebase.com/ns/m.0832h2>
+        rdfs:label  "Hazent"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0832h2__1> .
+
+<http://rdf.freebase.com/ns/m.0832h2__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.0mcxl> ;
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:to          "2005"^^xsd:gYear .

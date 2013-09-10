@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0kmw__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02m6hs> ;
+        dbo:from    "1969"^^xsd:gYear ;
+        dbo:to      "1969"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02m6hs>
+        rdfs:label  "Riddley Walker"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Riddley_Walker> .
+
+<http://rdf.freebase.com/ns/m.0kmw>
+        rdfs:label     "Alfred Elton van Vogt"@de , "A. E. van Vogt"@fr , "A. E. van Vogt"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0kmw__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Alfred_Elton_van_Vogt> , <http://fr.dbpedia.org/resource/A._E._van_Vogt> , <http://dbpedia.org/resource/A._E._van_Vogt> ;
+        skos:altLabel  "Alfred Elton Van Vogt"@fr , "A.E. Van Vogt"@en , "A.E. Van Vogt"@de , "A.E. Van Vogt"@fr , "A.E. Vogt"@en , "A.E. Vogt"@de , "The Hypnotism Handbook"@fr , "A.E. Vogt"@fr , "Alfred E. Van Vogt"@fr , "A. E. van Vogt"@de , "A. E. van Vogt"@fr , "A. E. van Vogt"@en , "A. E. van Voigt"@en , "AE van Vogt"@en , "AE van Vogt"@de , "AE van Vogt"@fr , "Elton"@de , "Van Vogt"@de , "Van Vogt"@fr , "Van vogt"@de , "Van vogt"@fr , "Van vogt"@en , "Vogt"@fr , "A E Van Vogt"@en , "A E Van Vogt"@de , "A E Van Vogt"@fr , "A E van Vogt"@en , "A E van Vogt"@de , "A E van Vogt"@fr , "A. E. Van Vogt"@en , "A. E. Van Vogt"@de , "A. E. Van Vogt"@fr , "Van Vogt, A. E."@de , "Van Vogt, A. E."@fr , "Van Vogt, A. E."@en , "A.E. van Vogt"@en , "A.E. van Vogt"@de , "A.E. van Vogt"@fr , "Alfred E. van Vogt"@de , "Alfred E. van Vogt"@fr , "Alfred E. van Vogt"@en , "Alfred Elton van Vogt"@en , "Alfred Elton van Vogt"@de , "Alfred Elton van Vogt"@fr .

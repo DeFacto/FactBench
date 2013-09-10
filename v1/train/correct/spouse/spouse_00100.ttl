@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0cz5jr>
+        rdfs:label     "Jeffrey Dean Morgan"@fr , "Jeffrey Dean Morgan"@de , "Jeffrey Dean Morgan"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0cz5jr__100> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jeffrey_Dean_Morgan> , <http://dbpedia.org/resource/Jeffrey_Dean_Morgan> , <http://de.dbpedia.org/resource/Jeffrey_Dean_Morgan> ;
+        skos:altLabel  "Jeffrey Dean Morgan"@fr , "Jeffrey Dean Morgan"@de , "Jeffrey Dean Morgan"@en , "Morgan"@fr , "Jeff"@en , "McNaughty"@en .
+
+<http://rdf.freebase.com/ns/m.0cz5jr__100>
+        dbo:from    "2006-08"^^xsd:gYearMonth ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.030hbp> ;
+        dbo:to      "2008-04"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.030hbp>
+        rdfs:label     "Mary-Louise Parker"@fr , "Mary-Louise Parker"@en , "Mary-Louise Parker"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mary-Louise_Parker> , <http://de.dbpedia.org/resource/Mary-Louise_Parker> , <http://dbpedia.org/resource/Mary-Louise_Parker> ;
+        skos:altLabel  "Moore and Parker"@en , "Mary-louise parker"@fr , "Mary louise-parker"@fr , "MaryLoise Parker"@fr , "MaryLoise Parker"@de , "MaryLoise Parker"@en , "Mary louise-parker"@de , "Mary louise-parker"@en , "Parker"@fr , "Mary Louise Parker"@fr , "Mary Louise Parker"@de , "Mary Louise Parker"@en , "Mary-Louise Parker"@fr , "Mary-Louise Parker"@de , "Mary-Louise Parker"@en .

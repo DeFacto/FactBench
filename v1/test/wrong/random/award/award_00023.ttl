@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04pjlt>
+        rdfs:label     "Acronis"@en , "Acronis"@fr , "Acronis Germany"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04pjlt__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Acronis> , <http://de.dbpedia.org/resource/Acronis_Germany> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Acronis Disk Director Suite"@de , "Disk director suite"@de , "Acronis Rescue Media builder"@de , "Acronis Boot-time Restore"@de , "Acronis Germany"@de , "Acronis OS Selector"@de , "Acronis Snap Deploy"@de , "Acronis® Boot-time Restore"@de , "Acronis Drive Cleanser"@de , "Acronis Recovery Manager"@de , "Acronis International GmbH"@en , "Acronis"@de , "Acronis Inc."@de , "Acronis® Recovery Manager"@de .
+
+<http://dbpedia.org/resource/Memphis,_Tennessee>
+        rdfs:label     "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennessee"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Memphis_(Tennessee)> , <http://de.dbpedia.org/resource/Memphis_(Tennessee)> ;
+        skos:altLabel  "Memphis TN"@de , "Memphis TN"@fr , "Memphis TN"@en , "Memphis, Tennesse"@de , "Memphis, Tennesse"@fr , "Memphis, Tennesse"@en , "LOCODE:USMEM"@en , "LOCODE:USMEM"@de , "LOCODE:USMEM"@fr , "TN Memphis"@en , "TN Memphis"@de , "TN Memphis"@fr , "Memphis"@en , "Memphis"@de , "Memphis"@fr , "Memphis Tennessee"@de , "Memphis Tennessee"@fr , "Memphis Tennessee"@en , "Memphis, tn"@en , "Memphis,TN"@en , "Memphis,TN"@de , "Memphis,TN"@fr , "Memphis, tn"@de , "Memphis, tn"@fr , "Memphrica"@de , "Memphrica"@fr , "Memphrica"@en , "Menphis"@en , "Menphis"@de , "Menphis"@fr , "Memphis, USA"@en , "Memphis, TN"@de , "Memphis, TN"@fr , "Memphis, TN"@en , "Memphis, USA"@fr , "Memphis, USA"@de , "Memfrica"@de , "Memfrica"@fr , "Memfrica"@en , "Memphis, Tennessee"@en , "Memphis, Tennessee"@de , "Memphis, Tennessee"@fr , "Memphis, Tennesee"@de , "Memphis, Tennesee"@fr , "Memphis, Tennesee"@en .
+
+<http://rdf.freebase.com/ns/m.04pjlt__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Memphis,_Tennessee> ;
+        dbo:from             "1920"^^xsd:gYear ;
+        dbo:to               "1920"^^xsd:gYear .

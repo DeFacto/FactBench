@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Corixa>
+        skos:altLabel  "Corixa"@en .
+
+<http://rdf.freebase.com/ns/m.037275>
+        rdfs:label  "Corixa"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Corixa> .
+
+<http://rdf.freebase.com/ns/m.01bbm7__46>
+        dbo:from        "2005"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.037275> ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01bbm7>
+        rdfs:label       "GlaxoSmithKline"@fr , "GlaxoSmithKline"@de , "GlaxoSmithKline"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.01bbm7__46> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/GlaxoSmithKline> , <http://fr.dbpedia.org/resource/GlaxoSmithKline> , <http://dbpedia.org/resource/GlaxoSmithKline> ;
+        skos:altLabel    "GlaxoSmith Kline"@en , "Glaxo Smith Kline"@en , "GlaxoSmithKline plc"@fr , "GlaxoSmithKline plc"@de , "GlaxoSmithKline plc"@en , "Glaxo Laboratories"@fr , "Glaxo Laboratories"@de , "Glaxo Laboratories"@en , "Glaxo Smithkline"@fr , "Setlers"@fr , "Glaxo Smithkline"@de , "Glaxo Smithkline"@en , "Glaxo Group"@fr , "Setlers"@de , "Glaxo Group"@de , "Setlers"@en , "Glaxo Group"@en , "GlaxoSmithCline"@fr , "Burroughs Wellcome"@fr , "GlaxoSmithCline"@de , "GlaxoSmithCline"@en , "Burroughs Wellcome"@de , "Burroughs Wellcome"@en , "GlaxoSmithKlyne"@fr , "GlaxoSmithKlyne"@de , "GlaxoSmithKlyne"@en , "Glaxosmithkline"@fr , "Burroughs Wellcome & Company"@fr , "Glaxo"@fr , "Burroughs Wellcome & Company"@de , "Burroughs Wellcome & Company"@en , "Glaxosmithkline"@de , "Glaxo"@de , "Glaxosmithkline"@en , "Glaxo"@en , "GSKB"@fr , "GSKB"@de , "GSKB"@en , "GlaxoSmithKline plc."@de , "SmithKlineBeecham"@fr , "Glaxo SmithKlein"@fr , "SmithKlineBeecham"@de , "SmithKlineBeecham"@en , "Burroughs Wellcome Co."@fr , "Glaxo SmithKlein"@de , "Burroughs Wellcome Co."@de , "Glaxo SmithKlein"@en , "Burroughs Wellcome Co."@en , "GSK Pharma"@fr , "GSK Pharma"@de , "GSK Pharma"@en , "Glaxo Smithkline Pharma"@fr , "Glaxo Smithkline Pharma"@de , "Glaxo Smithkline Pharma"@en , "G.S.K"@fr , "Glaxo Wellcome"@fr , "G.S.K"@de , "Glaxo Wellcome"@de , "G.S.K"@en , "Glaxo Wellcome"@en , "SmithKline Beecham"@fr , "SmithKline Beecham"@de , "SmithKline Beecham"@en , "Macleans"@fr , "Macleans"@de , "Macleans"@en , "Glaxo Welcome"@fr , "Glaxo Welcome"@de , "Glaxo Welcome"@en , "Bourroughs Wellcome"@fr , "Bourroughs Wellcome"@de , "Bourroughs Wellcome"@en , "Smithkline"@fr , "Smithkline"@de , "Smithkline"@en , "Glaxo Inc."@fr , "Glaxo Inc."@de , "Glaxo Inc."@en , "GlaxoSmithKline"@fr , "GlaxoSmithKline"@de , "GlaxoSmithKline"@en , "Glaxo Holdings"@fr , "Glaxo Holdings"@de , "Glaxo Holdings"@en , "Joseph Nathan"@fr , "Maclean's"@fr , "Maclean's"@de , "Maclean's"@en , "Joseph Nathan"@de , "Joseph Nathan"@en , "Maclean Toothpaste"@fr , "Maclean Toothpaste"@de , "Maclean Toothpaste"@en , "GlaxoSmithKlein"@fr , "Smith-Kline & French"@fr , "GlaxoSmithKlein"@de , "Smith-Kline & French"@de , "GlaxoSmithKlein"@en , "Smith-Kline & French"@en , "Glaxo Smith Klein"@fr , "Maclean's Toothpaste"@fr , "Glaxo Smith Klein"@de , "Maclean's Toothpaste"@de , "Maclean's Toothpaste"@en , "Glaxo Smith Klein"@en , "Smith Kline Beecham"@fr , "Smith Kline Beecham"@de , "Smith Kline Beecham"@en , "GlaxoWellcome Inc."@fr , "GlaxoWellcome Inc."@de , "GlaxoWellcome Inc."@en , "Glaxo Smith Kline"@fr , "GlaxoSmith Kline"@fr , "Glaxo Smith Kline"@de , "GlaxoSmith Kline"@de .

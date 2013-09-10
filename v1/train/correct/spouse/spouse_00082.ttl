@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01pctb>
+        rdfs:label     "Heidi Klum"@de , "Heidi Klum"@en , "Heidi Klum"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.01pctb__82> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Heidi_Klum> , <http://dbpedia.org/resource/Heidi_Klum> , <http://fr.dbpedia.org/resource/Heidi_Klum> ;
+        skos:altLabel  "Klum"@fr , "Klum"@de , "Klum"@en , "Heidi Klüm"@fr , "Hiedi Klum"@fr , "Heidi Klüm"@de , "Hiedi Klum"@de , "Hiedi Klum"@en , "Heidi Klüm"@en , "Heidi Klum Samuel"@fr , "The Body"@en , "Heidi Klum Samuel"@de , "Heidi Klum Samuel"@en , "Heidi Cloom"@fr , "Heidi Samuel"@fr , "Heidi Klum"@fr , "Klum, Heidi"@en , "Heidi Cloom"@de , "Heidi Samuel"@de , "Heidi Klum"@de , "Heidi Cloom"@en , "Heidi Klum"@en , "Heidi Samuel"@en , "Heidi Klug"@fr , "Heidi Klug"@de , "Heidi Klug"@en .
+
+<http://rdf.freebase.com/ns/m.01vsykc>
+        rdfs:label     "Seal"@en , "Seal"@de , "Seal"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Seal> , <http://dbpedia.org/resource/Seal_(musician)> , <http://de.dbpedia.org/resource/Seal> ;
+        skos:altLabel  "Henry Olusegun Olumide Samuel"@en , "Henry Olusegun Olumide Samuel"@de , "Henry Olusegun Olumide Samuel"@fr , "Seal"@fr , "Seal"@en , "Seal"@de , "Henry Olusegun Samuel"@en , "Henry Olusegun Samuel"@de , "Henry Olusegun Samuel"@fr , "Adamski"@en , "Henry Samuel"@en , "Henry Samuel"@de , "Henry Samuel"@fr , "Seal Samuel"@en , "Seal Samuel"@de , "Seal Samuel"@fr , "Henry Olusegun Adeola Samuel"@fr , "Henry Olusegun Adeola Samuel"@en , "Henry Olusegun Adeola Samuel"@de , "Henry Olusegun Olumide Adelo Samuel"@en , "Henry Olusegun Olumide Adelo Samuel"@de , "Henry Olusegun Olumide Adelo Samuel"@fr , "Henry Olusegun Olumide Adeola Samuel"@en , "Henry Olusegun Olumide Adeola Samuel"@de , "Henry Olusegun Olumide Adeola Samuel"@fr , "Seal Henry Olusegun Olumide Adelo Samuel"@en , "Seal Henry Olusegun Olumide Adelo Samuel"@de , "Seal Henry Olusegun Olumide Adelo Samuel"@fr , "Seal Henry Olusegun Olumide Adeola Samuel"@fr , "Seal Henry Olusegun Olumide Adeola Samuel"@en , "Seal Henry Olusegun Olumide Adeola Samuel"@de , "Sean Henry Samuel"@en , "Sean Henry Samuel"@de , "Sean Henry Samuel"@fr , "Henry Olumide Adeola Samuel"@en , "Henry Olumide Adeola Samuel"@de , "Henry Olumide Adeola Samuel"@fr .
+
+<http://rdf.freebase.com/ns/m.01pctb__82>
+        dbo:from    "2005-05-10"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01vsykc> ;
+        dbo:to      "2012-04-06"^^xsd:date .

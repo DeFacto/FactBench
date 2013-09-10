@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.016xh5>
+        rdfs:label     "Hugh Grant"@fr , "Hugh Grant"@de , "Hugh Grant"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hugh_Grant> , <http://de.dbpedia.org/resource/Hugh_Grant> , <http://dbpedia.org/resource/Hugh_Grant> ;
+        skos:altLabel  "Hughie Grant"@en , "Hugh John Mungo Grant"@en , "Hugh John Mungo Grant"@de , "Hugh John Mungo Grant"@fr , "Hugh Grant"@en , "Hugh Grant"@fr , "Hugh Grant"@de , "Grant"@fr .
+
+<http://rdf.freebase.com/ns/m.03z85w>
+        rdfs:label     "Brian McFadden"@en , "Brian McFadden"@fr , "Brian McFadden"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03z85w__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Brian_McFadden> , <http://de.dbpedia.org/resource/Brian_McFadden> , <http://dbpedia.org/resource/Brian_McFadden> ;
+        skos:altLabel  "McFadden, Brian"@en , "Brian Nicholas McFadden"@en , "Brain McFadden"@en , "brian_mcfadden"@en , "Bryan McFadden"@en , "Brian mcfadden"@en , "Bryan McFadden"@fr , "Brian mcfadden"@fr , "Brian mcfadden"@de , "Bryan McFadden"@de , "McFadden"@fr , "McFadden"@de , "Brian McFadden"@en , "Brian McFadden"@fr , "Brian McFadden"@de .
+
+<http://rdf.freebase.com/ns/m.03z85w__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.016xh5> ;
+        dbo:to      "2011"^^xsd:gYear .

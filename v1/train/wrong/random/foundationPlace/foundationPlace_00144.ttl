@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Stephen_Harper__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.01q260h> ;
+        dbo:from   "1997"^^xsd:gYear ;
+        dbo:to     "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Stephen_Harper>
+        rdfs:label     "Stephen Harper"@de , "Stephen Harper"@fr , "Stephen Harper"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Stephen_Harper__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Stephen_Harper> , <http://de.dbpedia.org/resource/Stephen_Harper> ;
+        skos:altLabel  "Stephen Joseph Harper"@de , "Stephen Joseph Harper"@fr , "Stephen Joseph Harper"@en , "Prime Minister Stephen Harper"@de , "Prime Minister Stephen Harper"@fr , "Prime Minister Stephen Harper"@en , "Stephan harper"@en , "Stephan harper"@de , "Stephan harper"@fr , "Stephen"@de , "Stephen"@fr , "Stephen"@en , "Stephen Harper out of Parliament"@en , "Haper"@de , "Haper"@fr , "Haper"@en , "Stephen Harper out of Parliament"@de , "Stephen Harper out of Parliament"@fr , "Stephen harper"@de , "Stephen harper"@fr , "Stephen harper"@en , "Stephen J. Harper"@de , "Stephen J. Harper"@fr , "Stephen J. Harper"@en , "Stephen Harper"@de , "Stephen Harper"@fr , "Stephen Harper"@en , "Laureen Teskey"@fr , "Steven harper"@fr , "Harper, Steven"@de , "Harper, Steven"@fr , "Harper, Steven"@en , "Prime Minister Harper"@de , "Prime Minister Harper"@fr , "Prime Minister Harper"@en , "Harper"@de , "Harper"@fr , "Harper"@en .
+
+<http://rdf.freebase.com/ns/m.01q260h>
+        rdfs:label     "Eriko Imai"@en , "Eriko Imai"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Eriko_Imai> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Eriko_Imai> ;
+        skos:altLabel  "Kinoshita Eriko"@en , "Imai Eriko"@en , "Eriko Imai"@fr , "Imai Eriko"@fr , "Tangerine Alien"@en , "Elly"@fr , "エリー"@en , "Imai"@fr , "elly"@en , "Eriko with Crunch"@fr , "いまい えりこ"@en , "きのした えりこ"@en , "Mikan Seijin"@en , "木下絵理子"@en , "Eriko"@fr , "Eriko Kinoshita"@en .

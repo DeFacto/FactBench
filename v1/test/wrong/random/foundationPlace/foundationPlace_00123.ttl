@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quincy,_Massachusetts>
+        rdfs:label     "Quincy, Massachusetts"@en , "Quincy, Massachusetts"@fr , "Quincy, Massachusetts"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quincy_(Massachusetts)> , <http://de.dbpedia.org/resource/Quincy_(Massachusetts)> ;
+        skos:altLabel  "Quincy Massachusetts"@en , "Quincy MA"@en , "Quincy, MA"@en , "Quincy, Massachusetts"@fr , "Quincy"@fr , "Quincy, ma"@fr , "Quincy MA"@fr , "Quincy, Massachusetts"@de , "Quincy MA"@de , "Quincy Massachusetts"@fr , "Quincy, MA"@fr , "Quincy Massachusetts"@de , "Quincy"@de , "Quincy, ma"@de , "Quincy, MA"@de , "LOCODE:USMQI"@en , "LOCODE:USMQI"@fr , "LOCODE:USMQI"@de , "Quincy, mass"@en , "Quincy, mass"@fr , "Quincy, mass"@de , "Fore River Apprentice School"@en , "Fore River Apprentice School"@fr , "Fore River Apprentice School"@de , "Quincy, Mass."@en , "Quincy, Mass."@fr , "Quincy, Mass."@de , "Quincy, Massachusetts"@en , "Quincy"@en , "Quincy, ma"@en .
+
+<http://dbpedia.org/resource/Walt_Whitman__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Quincy,_Massachusetts> ;
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Walt_Whitman>
+        rdfs:label     "Walt Whitman"@en , "Walt Whitman"@fr , "Walt Whitman"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walt_Whitman__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Walt_Whitman> , <http://de.dbpedia.org/resource/Walt_Whitman> ;
+        skos:altLabel  "Walt (Walter) Whitman"@en , "Walt"@en , "Walt (Walter) Whitman"@fr , "Walt (Walter) Whitman"@de , "Uncle Walt"@en , "Walt"@fr , "Uncle Walt"@fr , "Walt"@de , "Uncle Walt"@de , "Whitman"@en , "Whitman"@fr , "Whitman"@de , "Walt Whitman"@en , "Whitman, Walt"@en , "Walt Whitman"@fr , "Whitman, Walt"@fr , "Whitman, Walt"@de , "Walt Whitman"@de , "Walt whitman"@en , "Walter Whitman"@en , "Walt whitman"@fr , "Walter Whitman"@fr , "Walt whitman"@de , "Walter Whitman"@de , "Walter or Walt Whitman"@en , "Walter or Walt Whitman"@fr , "Walter or Walt Whitman"@de .

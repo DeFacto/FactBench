@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paul_Haarhuis__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Cambridge> ;
+        dbo:from        "1948"^^xsd:gYear ;
+        dbo:to          "1948"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Cambridge>
+        rdfs:label     "Cambridge"@de , "Cambridge"@fr , "Cambridge"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cambridge> , <http://de.dbpedia.org/resource/Cambridge> ;
+        skos:altLabel  "Cambridge, UK"@de , "Cambridge, UK"@fr , "Cambridge, UK"@en , "LOCODE:GBCMG"@de , "LOCODE:GBCMG"@fr , "LOCODE:GBCMG"@en , "Aéroport de Cambridge"@fr , "Cambridge, England"@de , "Cambridge, England"@fr , "Cambridge, England"@en , "Cambridge, United Kingdom"@en , "Cambridge, United Kingdom"@de , "Cambridge, United Kingdom"@fr , "Park Street Church of England Primary School"@de , "Park Street Church of England Primary School"@fr , "Park Street Church of England Primary School"@en , "Aeroport de Cambridge"@fr , "England Cambridge"@de , "England Cambridge"@fr , "England Cambridge"@en , "Christ's Piece"@en , "Christ's Piece"@de , "Christ's Piece"@fr , "Cambridge, Cambridgeshire"@en , "Cambridge, Cambridgeshire"@de , "Cambridge, Cambridgeshire"@fr , "Christs Pieces"@de , "Christs Pieces"@fr , "Christs Pieces"@en , "Grantabridge"@en , "Grantabridge"@de , "Grantabridge"@fr , "Cambridge"@en , "Cambridge"@de , "Cambridge"@fr , "The weather in Cambridge"@en , "The weather in Cambridge"@de , "The weather in Cambridge"@fr , "Caergrawnt"@en , "Caergrawnt"@de , "Caergrawnt"@fr .
+
+<http://dbpedia.org/resource/Paul_Haarhuis>
+        rdfs:label     "Paul Haarhuis"@en , "Paul Haarhuis"@fr , "Paul Haarhuis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Paul_Haarhuis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Paul_Haarhuis> , <http://de.dbpedia.org/resource/Paul_Haarhuis> ;
+        skos:altLabel  "Paul Haarhuis"@de , "Paul Haarhuis"@fr , "Haarhuis"@fr , "Haarhuis"@de .

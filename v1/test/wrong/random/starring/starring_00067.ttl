@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ibrahim_al-Jaafari__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Liverpool> ;
+        dbo:from             "2007"^^xsd:gYear ;
+        dbo:to               "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ibrahim_al-Jaafari>
+        rdfs:label     "Ibrahim al-Jaafari"@de , "Ibrahim al-Jaafari"@fr , "Ibrahim al-Jaafari"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ibrahim_al-Jaafari__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ibrahim_al-Jaafari> , <http://de.dbpedia.org/resource/Ibrahim_al-Dschafari> ;
+        skos:altLabel  "Ibrahim al-Dschaafari"@de , "Ibrahim Al Jaafari"@en , "Ibrahim Al Jaafari"@de , "Ibrahim Al Jaafari"@fr , "Ibrahim el Dschafari"@de , "Ibrahim Jaafari"@de , "Ibrahim Jaafari"@fr , "Ibrahim Jaafari"@en , "Ibrahim al-َAshaiqir al-Jaafari"@en , "Ibrahim al-َAshaiqir al-Jaafari"@de , "Ibrahim al-َAshaiqir al-Jaafari"@fr , "Ibrahim al-Jafari"@en , "Ibrahim Al-Jaffari"@en , "Ibrahim al-Jafari"@de , "Ibrahim al-Jafari"@fr , "Ibrahim Al-Jaffari"@de , "Ibrahim Al-Jaffari"@fr , "Dschafari"@de , "Ibrahim al-Jaafari"@en , "Ibrahim al-Jaafari"@fr , "Ibrahim al-Jaafari"@de , "Ibrahim al Jafari"@en , "Ibrahim al Jafari"@de , "Ibrahim al Jafari"@fr , "Ibrahim al-Eshaiker"@en , "Ibrahim al-Eshaiker"@de , "Ibrahim al-Eshaiker"@fr , "Al-Jaafari"@en , "Al-Jaafari"@de , "Al-Jaafari"@fr , "Jaafari"@en , "Jaafari"@de , "Jaafari"@fr , "Al Jaafari"@en , "Al Jaafari"@de , "Al Jaafari"@fr , "Ibrahim al Jaafari"@en , "Ibrahim al Jaafari"@de , "Ibrahim al Jaafari"@fr , "Ibrahim al-jaafari"@fr , "Ibrahim Jafari"@en , "Ibrahim Jafari"@de , "Ibrahim Jafari"@fr , "Ibrahim Al-Jaafari"@en , "Ibrahim Al-Jaafari"@de , "Ibrahim Al-Jaafari"@fr , "Ibrahim al-aAshaiqir al-Jaafari"@en , "Ibrahim al-aAshaiqir al-Jaafari"@de , "Ibrahim al-aAshaiqir al-Jaafari"@fr , "Ibrahim al-Dschafari"@de .
+
+<http://dbpedia.org/resource/Liverpool>
+        rdfs:label     "Liverpool"@de , "Liverpool"@fr , "Liverpool"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Liverpool> , <http://fr.dbpedia.org/resource/Liverpool> ;
+        skos:altLabel  "Palthania"@en , "Palthania"@de , "Palthania"@fr , "Archive 1"@en , "Archive 1"@de , "Archive 1"@fr , "Liverpool, UK"@en , "Liverpool, UK"@de , "Liverpool, UK"@fr , "Liverpool, Britain"@en , "Liverpool, Britain"@de , "Liverpool, Britain"@fr , "Palfania"@en , "Palfania"@de , "Palfania"@fr , "Scouseland"@en , "Scouseland"@de , "Scouseland"@fr , "Palvania"@en , "Palvania"@fr , "Palvania"@de , "County Borough of Liverpool"@en , "County Borough of Liverpool"@de , "County Borough of Liverpool"@fr , "GB-LIV"@de , "Liverpool"@en , "Landmarks in Liverpool"@en , "Landmarks in Liverpool"@de , "Landmarks in Liverpool"@fr , "Liverpool"@de , "Liverpool"@fr , "Liverpool, England"@en , "Liverpool, England"@de , "Liverpool, England"@fr , "Liverpool, Merseyside"@en , "Liverpool, Merseyside"@fr , "Liverpool, Merseyside"@de , "Liverpool – Maritime Mercantile City"@en , "Liverpool – Maritime Mercantile City"@de , "Liverpool – Maritime Mercantile City"@fr , "Metropolitan Borough of Liverpool"@en , "Metropolitan Borough of Liverpool"@de , "Metropolitan Borough of Liverpool"@fr , "The weather in Liverpool"@en , "The weather in Liverpool"@fr , "The weather in Liverpool"@de , "Lerpwl"@en , "Lerpwl"@de , "Lerpwl"@fr , "Liverpudlians"@en , "Liverpudlians"@fr , "Liverpudlians"@de , "Liverpudlian"@en , "Liverpudlian"@de , "Liverpudlian"@fr , "L'POOL"@en , "L'POOL"@de , "L'POOL"@fr .

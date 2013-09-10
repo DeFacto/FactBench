@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Santa_Monica,_California>
+        rdfs:label     "Santa Monica, California"@en , "Santa Monica, California"@fr , "Santa Monica, California"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Santa_Monica> , <http://fr.dbpedia.org/resource/Santa_Monica> ;
+        skos:altLabel  "Santa Monica, California"@en , "Santa Monica"@en , "Santa Monica, California"@fr , "Santa Monica"@fr , "Santa Monica, California"@de , "Santa Monica"@de , "Santa Monica, Californie"@fr , "Santa Monica, Ca"@en , "Santa Monica, Ca"@fr , "Santa Monica, Ca"@de , "LOCODE:USSMO"@en , "LOCODE:USSMO"@fr , "LOCODE:USSMO"@de , "Santa Monica California"@en , "Santa Monica California"@fr , "Santa Monica California"@de , "Santa Monica, CA"@en , "City of Santa Monica"@en , "Santa Monica, CA"@fr , "City of Santa Monica"@fr , "Santa Monica, CA"@de , "City of Santa Monica"@de , "Monica"@en , "Monica"@fr , "Monica"@de .
+
+<http://dbpedia.org/resource/James_Stewart__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Santa_Monica,_California> ;
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/James_Stewart>
+        rdfs:label     "James Stewart"@en , "James Stewart"@fr , "James Stewart"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/James_Stewart__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/James_Stewart> , <http://de.dbpedia.org/resource/James_Stewart> ;
+        skos:altLabel  "Jimmy Stewart"@en , "Jimmy Stuart"@en , "Jimmy Stewart"@fr , "Jimmy Stuart"@fr , "Jimmy Stuart"@de , "Jimmy Stewart"@de , "James stewart"@en , "James stewart"@fr , "James stewart"@de , "Gloria Hatrick McLean"@en , "Gloria Hatrick McLean"@fr , "Gloria Hatrick McLean"@de , "Stewart"@fr , "Stewart, James"@en , "Stewart, James"@fr , "Stewart, James"@de , "James Stewart"@en , "James Stewart"@fr , "James Maitland Stewart"@de , "James Stewart"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/The_Bronx>
+        rdfs:label     "The Bronx"@de , "The Bronx"@fr , "The Bronx"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bronx> , <http://fr.dbpedia.org/resource/Bronx> ;
+        skos:altLabel  "County of Bronx"@de , "Bronx, N.Y."@en , "Comte de Bronx"@fr , "County of The Bronx"@fr , "County of The Bronx"@de , "County of The Bronx"@en , "The Bronx, New York"@fr , "The Bronx, New York"@en , "The Bronx, New York"@de , "Da Bronx"@fr , "Da Bronx"@de , "Da Bronx"@en , "The Boogie-down"@fr , "The Boogie-down"@en , "The Boogie-down"@de , "Bronx County, NY"@fr , "Bronx County, NY"@de , "South Bronx"@de , "Bronx County, NY"@en , "Comté de Bronx"@fr , "The Bronx, NY"@fr , "Bronx County, New York"@fr , "The Bronx, NY"@de , "Bronx County, New York"@en , "The Bronx, NY"@en , "Bronx County, New York"@de , "The bronx"@fr , "The bronx"@en , "The bronx"@de , "Bronxite"@fr , "Bronxite"@en , "Bronxite"@de , "The Bronx, New York City"@fr , "The Bronx, New York City"@en , "The Bronx, New York City"@de , "Bronx, New York"@fr , "Bronx, New York"@en , "Bronx, New York"@de , "The Bronx"@fr , "The Bronx,NY"@fr , "The Bronx"@de , "The Bronx,NY"@en , "The Bronx,NY"@de , "The Bronx"@en , "County of the Bronx"@fr , "Bronx"@fr , "Bronx"@en , "Bronx"@de , "County of the Bronx"@de , "County of the Bronx"@en , "Bronx, NY"@fr , "Bronx, NY"@de , "Bronx, NY"@en , "Le Bronx"@fr , "Bronx County"@fr , "Bronx, New York City"@fr , "Bronx, New York City"@en , "Bronx, New York City"@de , "Bronx County"@en , "Bronx County"@de , "Bronx NY"@fr , "Bronx NY"@en , "Bronx NY"@de , "Bronx, N.Y."@fr , "County of Bronx"@fr , "Bronx, N.Y."@de , "County of Bronx"@en .
+
+<http://dbpedia.org/resource/Mary_J._Blige__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/The_Bronx> ;
+        dbo:from        "1971-01-11"^^xsd:date ;
+        dbo:to          "1971-01-11"^^xsd:date .
+
+<http://dbpedia.org/resource/Mary_J._Blige>
+        rdfs:label     "Mary J. Blige"@de , "Mary J. Blige"@fr , "Mary J. Blige"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Mary_J._Blige__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mary_J._Blige> , <http://de.dbpedia.org/resource/Mary_J._Blige> ;
+        skos:altLabel  "Mary Blige"@fr , "Soul hip hop queen"@fr , "Mary Blige"@de , "Soul hip hop queen"@de , "Mary Blige"@en , "Soul hip hop queen"@en , "Breakthrough Experience Tour"@fr , "Breakthrough Experience Tour"@en , "Breakthrough Experience Tour"@de , "Matriarch Records"@fr , "Matriarch Records"@de , "Matriarch Records"@en , "Mary J Blige"@fr , "Mary J Blige"@en , "Mary J Blige"@de , "Hip hop soul Queen"@fr , "Hip hop soul Queen"@de , "Hip hop soul Queen"@en , "Blige, Mary J."@fr , "Blige, Mary J."@de , "Blige, Mary J."@en , "Mary Jane Blige"@fr , "Mary Jane Blige"@de , "Mary Jane Blige"@en , "Mary J.Blige"@fr , "Hip hop soul queen"@fr , "Mary J.Blige"@de , "Mary J.Blige"@en , "Hip hop soul queen"@de , "Hip hop soul queen"@en , "Maryluvs"@fr , "Hip-Hop Soul Queen"@fr , "Maryluvs"@de , "Hip-Hop Soul Queen"@de , "Maryluvs"@en , "Hip-Hop Soul Queen"@en , "Mary J. Blige's Tours"@fr , "Mary J. Blige's Tours"@de , "Mary J. Blige's Tours"@en , "It's Coming"@fr , "It's Coming"@de , "It's Coming"@en , "The Queen of Hip-Hop Soul"@fr , "The Queen of Hip-Hop Soul"@en , "The Queen of Hip-Hop Soul"@de , "Growing Pains Tour"@fr , "Queen of Hip-Hop Soul"@fr , "Queen of Hip-Hop Soul"@en , "Growing Pains Tour"@en , "Queen of Hip-Hop Soul"@de , "Growing Pains Tour"@de , "The One Ft Drake"@fr , "Martriarch Records"@fr , "The One Ft Drake"@de , "Martriarch Records"@en , "Martriarch Records"@de , "The One Ft Drake"@en , "Queen of soul hip hop"@fr , "Queen of soul hip hop"@de , "Queen of soul hip hop"@en , "Mary J. Blige"@fr , "Matriarch"@fr , "Blige"@fr , "Mary J. Blidge"@fr , "Queen of Hip Hop Soul"@fr , "Mary J. Blige"@de , "Matriarch"@de , "Queen of Hip Hop Soul"@en , "Queen of Hip Hop Soul"@de , "Blige"@de , "Blige"@en , "Mary J. Blige"@en , "Matriarch"@en , "Love Her"@fr , "Love Her"@de , "Love Her"@en , "Queen of soul hip-hop"@fr , "Queen of soul hip-hop"@de , "Queen of soul hip-hop"@en , "No More Drama World Tour"@fr , "No More Drama World Tour"@de , "No More Drama World Tour"@en .

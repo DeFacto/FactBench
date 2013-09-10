@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Rasheed_Wallace__1>
+        dbo:from  "2003"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Cleveland_Cavaliers> ;
+        dbo:to    "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rasheed_Wallace>
+        rdfs:label     "Rasheed Wallace"@en , "Rasheed Wallace"@fr , "Rasheed Wallace"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Rasheed_Wallace__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Rasheed_Wallace> , <http://de.dbpedia.org/resource/Rasheed_Wallace> ;
+        skos:altLabel  "Sheed"@fr , "Sheed"@de , "Sheed"@en , "Rasheed Wallace"@fr , "Rasheed Wallace"@de , "Rasheed Wallace"@en .
+
+<http://dbpedia.org/resource/Cleveland_Cavaliers>
+        rdfs:label     "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cavaliers_de_Cleveland> , <http://de.dbpedia.org/resource/Cleveland_Cavaliers> ;
+        skos:altLabel  "The cleveland cavs"@en , "The cleveland cavs"@fr , "The cleveland cavs"@de , "Moondog"@en , "Moondog"@fr , "Moondog"@de , "Cavalier"@en , "Cavalier"@fr , "Cavalier"@de , "Cleveland Cavs"@en , "Cleveland Cavs"@fr , "Cleveland Cavs"@de , "Cavaliers, Cleveland"@en , "Whammer"@en , "Cavaliers, Cleveland"@fr , "Cavaliers, Cleveland"@de , "Whammer"@fr , "Whammer"@de , "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de , "Cavs"@en , "Moondog - Cavaliers"@en , "Cavaliers De Cleveland"@fr , "Cavs"@fr , "Moondog - Cavaliers"@fr , "Cavaliers de Cleveland"@fr , "Cavs"@de , "Moondog - Cavaliers"@de , "Cavaliers de cleveland"@fr .

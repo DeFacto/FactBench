@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Maria_das_Neves>
+        rdfs:label     "Maria das Neves"@en , "Maria das Neves"@fr , "Maria das Neves"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Maria_das_Neves__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Maria_das_Neves> ;
+        skos:altLabel  "Maria das Neves"@de , "Maria das Neves Ceita Baptista de Sousa"@de , "Neves"@de .
+
+<http://dbpedia.org/resource/Bulgaria>
+        rdfs:label     "Bulgaria"@fr , "Bulgaria"@de , "Bulgaria"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bulgarien> , <http://fr.dbpedia.org/resource/Bulgarie> ;
+        skos:altLabel  "ISO 3166-1:BG"@fr , "ISO 3166-1:BG"@de , "Balgariya"@de , "Bulgar"@en , "Balgaria"@en , "Balgaria"@fr , "Balgaria"@de , "Bulgarie"@en , "Bulgar"@fr , "Bulgarie"@fr , "Bulgarie"@de , "Bulgar"@de , "Bulgariya"@en , "Bulgariya"@fr , "Bulgariya"@de , "Bulgaria"@en , "Bulgaria"@fr , "Bulgaria"@de , "Republique de Bulgarie"@fr , "Balkan bulgars"@en , "Balkan bulgars"@fr , "Balkan bulgars"@de , "Republic of Bulgaria"@en , "Republic of Bulgaria"@fr , "Republic of Bulgaria"@de , "Republik Bulgarien"@de , "Kultur in Bulgarien"@de , "République de Bulgarie"@fr , "Bulgarien"@de , "Balgariya"@en , "ISO 3166-1:BG"@en , "Balgariya"@fr .
+
+<http://dbpedia.org/resource/Maria_das_Neves__1>
+        dbo:from    "1977"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Bulgaria> ;
+        dbo:to      "1983"^^xsd:gYear .

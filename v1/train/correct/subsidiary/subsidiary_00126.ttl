@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/INgage_Networks>
+        skos:altLabel  "Ingage networks"@en , "Engage Networks"@en , "Neighborhood America"@en , "In Gauge Networks"@en , "INgage Networks"@en , "In gauge Networks"@en , "Ingage Networks"@en , "Engage networks"@en , "In gauge networks"@en .
+
+<http://rdf.freebase.com/ns/m.03g2d97>
+        rdfs:label  "MOVO Mobile"@en .
+
+<http://rdf.freebase.com/ns/m.02vzsj8__126>
+        dbo:from        "2006-10"^^xsd:gYearMonth ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03g2d97> ;
+        dbo:to          "2006-10"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.02vzsj8>
+        rdfs:label       "Neighborhood America"@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.02vzsj8__126> ;
+        owl:sameAs       <http://dbpedia.org/resource/INgage_Networks> .

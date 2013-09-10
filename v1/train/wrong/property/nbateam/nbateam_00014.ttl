@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chicago_Bulls>
+        rdfs:label     "Chicago Bulls"@en , "Chicago Bulls"@fr , "Chicago Bulls"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chicago_Bulls> , <http://fr.dbpedia.org/resource/Bulls_de_Chicago> ;
+        skos:altLabel  "John Ligmanowski"@en , "John Ligmanowski"@fr , "John Ligmanowski"@de , "Bulls De Chicago"@fr , "Chicago Bulls"@en , "Chicago Bulls"@fr , "Chicago Bulls"@de , "Chicago"@en , "Chicago"@fr , "Chicago"@de , "Bulls"@en , "Bulls"@fr , "Bulls"@de , "Chicago bulls"@en , "Chicago bulls"@fr , "Chicago bulls"@de , "Bulls de Chicago"@fr , "Bulls de chicago"@fr .
+
+<http://dbpedia.org/resource/Ben_Gordon>
+        rdfs:label  "Ben Gordon"@en , "Ben Gordon"@fr , "Ben Gordon"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ben_Gordon__1> .
+
+<http://dbpedia.org/resource/Ben_Gordon__1>
+        dbo:author  <http://dbpedia.org/resource/Chicago_Bulls> ;
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:to      "2008"^^xsd:gYear .

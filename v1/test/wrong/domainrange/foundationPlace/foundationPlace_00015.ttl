@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.046qpy__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0x1y7> ;
+        dbo:from             "1981"^^xsd:gYear ;
+        dbo:to               "1981"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.046qpy>
+        rdfs:label     "Codemasters"@en , "Codemasters"@fr , "Codemasters"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.046qpy__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Codemasters> , <http://fr.dbpedia.org/resource/Codemasters> , <http://dbpedia.org/resource/Codemasters> ;
+        skos:altLabel  "Supersonic Software"@fr , "Supersonic Software"@de , "The Codemasters Software Company Limited"@en , "The Codemasters Software Company Limited"@fr , "The Codemasters Software Company Limited"@de , "Indy Cars Series 2005"@en , "Code masters"@en , "Indy Cars Series 2005"@fr , "Code masters"@fr , "Indy Cars Series 2005"@de , "Code masters"@de , "Supersonic Software Ltd"@en , "Supersonic Software Ltd"@fr , "Supersonic Software Ltd"@de , "Code Masters"@en , "Stuart Black"@en , "IGI 2"@de , "Codemasters Software Company Limited"@en , "Codemasters"@en , "CodeMasters"@en , "Codemasters"@fr , "CodeMasters"@fr , "CodeMasters"@de , "Codemasters"@de , "Code Masters"@fr , "Code Masters"@de , "Stuart Black"@fr , "Codemasters Software Company Limited"@fr , "The Codemasters Software Company"@de , "Codemasters Software Company Limited"@de , "Stuart Black"@de , "Supersonic Software"@en .
+
+<http://rdf.freebase.com/ns/m.0x1y7>
+        rdfs:label     "Bozeman"@de , "Bozeman"@fr , "Bozeman"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Bozeman,_Montana> , <http://fr.dbpedia.org/resource/Bozeman> , <http://de.dbpedia.org/resource/Bozeman> ;
+        skos:altLabel  "Bozeman, mt"@de , "Bozeman, mt"@fr , "Bozeman, mt"@en , "Bozeman"@en , "Bozeman"@de , "Bozeman"@fr , "Gallatin Field"@fr , "Gallatin"@fr , "Bozeman, MT"@de , "Bozeman, MT"@fr , "Bozeman, MT"@en , "LOCODE:USBZN"@de , "LOCODE:USBZN"@fr , "LOCODE:USBZN"@en , "Bozeman, Montana"@de , "Bozeman, Montana"@fr , "Bozeman, Montana"@en , "Gallatin County / Bozeman city"@en , "Aéroport régional de Gallatin"@fr , "KBZN"@fr , "Gallatin Gateway, Montana"@de , "Gallatin Gateway, Montana"@fr , "Gallatin Gateway, Montana"@en , "Bozeman, Mont."@de , "Bozeman, Mont."@fr , "Bozeman, Mont."@en , "Aeroport regional de Gallatin"@fr , "The Bozone"@en , "Bozeman montana"@de , "Bozeman montana"@fr , "Bozeman montana"@en , "Boseman, Mont."@en , "Boseman, Mont."@de , "Boseman, Mont."@fr , "Emily Dickinson Elementary School"@en , "Emily Dickinson Elementary School"@de , "Emily Dickinson Elementary School"@fr , "Bozman"@de , "Bozman"@fr , "Bozman"@en .

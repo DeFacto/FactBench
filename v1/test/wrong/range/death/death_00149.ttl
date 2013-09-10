@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Baruch_Spinoza__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rancho_Mirage,_California> ;
+        dbo:from        "1677"^^xsd:gYear ;
+        dbo:to          "1677"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Baruch_Spinoza>
+        rdfs:label     "Baruch Spinoza"@de , "Baruch Spinoza"@fr , "Baruch Spinoza"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Baruch_Spinoza__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Baruch_de_Spinoza> , <http://fr.dbpedia.org/resource/Baruch_Spinoza> ;
+        skos:altLabel  "Benedictus Spinoza"@fr , "Benedictus Spinoza"@de , "Benedict Spinoza"@en , "Benedictus de Spinoza"@en , "Benedict Spinoza"@fr , "Benedictus de Spinoza"@de , "Benedict Spinoza"@de , "Benedictus de Spinoza"@fr , "Baruch Spinoza"@en , "Banarch Spinoza"@en , "BaruchSpinoza"@en , "Caute"@fr , "Baruch Spinoza"@fr , "Banarch Spinoza"@fr , "BaruchSpinoza"@de , "BaruchSpinoza"@fr , "Banarch Spinoza"@de , "Baruch Spinoza"@de , "Bento de Espinoza"@en , "Bento de Espinoza"@de , "Bento de Espinoza"@fr , "Benedict De Spinoza"@en , "Benedict De Spinoza"@de , "Benedict De Spinoza"@fr , "Baruch Spinoza's"@en , "Spinozist"@en , "Baruch Spinoza's"@fr , "Spinozist"@de , "Spinozist"@fr , "Baruch Spinoza's"@de , "B. de Spinoza"@en , "Benedict Baruch de Spinoza"@en , "B. de Spinoza"@fr , "B. de Spinoza"@de , "Benedict Baruch de Spinoza"@de , "Benedict Baruch de Spinoza"@fr , "Benedict de Spinoza"@en , "Benedict de Spinoza"@de , "Benedict de Spinoza"@fr , "Baruch de Spinoza"@en , "Baruch de Spinoza"@fr , "Baruch de Spinoza"@de , "Spinoza"@en , "Spinoza"@de , "Spinoza"@fr , "Bento d'Espiñoza"@en , "Bento d'Espiñoza"@de , "Bento d'Espiñoza"@fr , "Bento d'Espinoza"@en , "Bento d'Espinoza"@de , "Bento d'Espinoza"@fr , "Spinoziste"@fr , "Benedikt von Spinoza"@de , "Baruch"@en , "Baruch"@de , "Baruch"@fr , "Spinozisme"@fr , "B. Spinoza"@en , "B. Spinoza"@fr , "B. Spinoza"@de , "Bento de Espinosa"@en , "Bento de Espinosa"@fr , "Bento de Espinosa"@de , "Benedikt Spinoza"@de , "Bendictus De Spinoza"@en , "Bendictus De Spinoza"@de , "Bendictus De Spinoza"@fr , "Benedictus Spinoza"@en .
+
+<http://dbpedia.org/resource/Rancho_Mirage,_California>
+        rdfs:label     "Rancho Mirage, California"@fr , "Rancho Mirage, California"@de , "Rancho Mirage, California"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rancho_Mirage> , <http://fr.dbpedia.org/resource/Rancho_Mirage> ;
+        skos:altLabel  "Rancho Mirage, Ca"@en , "Rancho Mirage, Ca"@fr , "Rancho Mirage, Ca"@de , "Rancho Mirage"@en , "Rancho Mirage"@fr , "Rancho Mirage"@de , "Rancho Mirage, CA"@en , "Rancho Mirage, CA"@fr , "Rancho Mirage, CA"@de , "Rancho Mirage, California"@en , "Rancho Mirage, California"@de , "Rancho Mirage, California"@fr .

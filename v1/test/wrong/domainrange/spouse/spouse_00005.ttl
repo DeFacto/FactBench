@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.072d_w>
+        rdfs:label     "Lee Ryan"@en , "Lee Ryan"@fr , "Lee Ryan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.072d_w__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lee_Ryan> , <http://de.dbpedia.org/resource/Lee_Ryan> , <http://dbpedia.org/resource/Lee_Ryan> ;
+        skos:altLabel  "Lee Ryan"@fr , "Lee Ryan"@de , "Lee Ryan"@en , "Ryan, Lee"@en , "Ryan"@fr , "Ryan Coseboom"@en .
+
+<http://rdf.freebase.com/ns/m.016k6x>
+        rdfs:label     "Ben Kingsley"@en , "Ben Kingsley"@fr , "Ben Kingsley"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Ben_Kingsley> , <http://de.dbpedia.org/resource/Ben_Kingsley> , <http://fr.dbpedia.org/resource/Ben_Kingsley> ;
+        skos:altLabel  "Kingsley"@en , "Kingsley"@fr , "Kingsley"@de , "Krishna Bhanji"@en , "Krishna Bhanji"@fr , "Krishna Bhanji"@de , "Ben kingsley"@en , "Ben kingsley"@fr , "Ben kingsley"@de , "Ben Kingsly"@en , "Ben Kingsly"@fr , "Ben Kingsly"@de , "Sir Ben Kingsley, CBE"@en , "Sir Ben Kingsley"@en , "Krishna Pandit Bhanji"@en , "Krishna Pandit Bhanji"@fr , "Krishna Pandit Bhanji"@de , "કૃષ્ણા પંડિત ભાનજી"@en , "Sir Ben Kingsley"@fr , "Sir Ben Kingsley"@de , "Ben Kingsley"@en , "Ben Kingsley"@fr , "Ben Kingsley"@de .
+
+<http://rdf.freebase.com/ns/m.072d_w__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.016k6x> ;
+        dbo:to      "2009"^^xsd:gYear .

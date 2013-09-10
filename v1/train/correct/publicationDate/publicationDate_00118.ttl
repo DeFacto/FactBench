@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0210g6>
+        rdfs:label       "Russell Hoban"@fr , "Russell Hoban"@en , "Russell Hoban"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02m6hs__118> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Russell_Hoban> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Russell_Hoban> ;
+        skos:altLabel    "Hoban"@de , "Bread and Jam for Frances"@de , "Russell Hoban"@de , "Russell Conwell Hoban"@en .
+
+<http://rdf.freebase.com/ns/m.02m6hs__118>
+        dbo:author  <http://rdf.freebase.com/ns/m.02m6hs> ;
+        dbo:from    "1980"^^xsd:gYear ;
+        dbo:to      "1980"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02m6hs>
+        rdfs:label  "Riddley Walker"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Riddley_Walker> .
+
+<http://dbpedia.org/resource/Riddley_Walker>
+        skos:altLabel  "Riddley Walker"@en , "Ridley Walker"@en .

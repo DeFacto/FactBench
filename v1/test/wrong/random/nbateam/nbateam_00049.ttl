@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Andre_Agassi__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Phoenix_Suns> ;
+        dbo:from             "2008"^^xsd:gYear ;
+        dbo:to               "2008"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Phoenix_Suns>
+        rdfs:label     "Phoenix Suns"@en , "Phoenix Suns"@fr , "Phoenix Suns"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Suns_de_Phoenix> , <http://de.dbpedia.org/resource/Phoenix_Suns> ;
+        skos:altLabel  "Phx suns"@en , "Phx suns"@fr , "Phx suns"@de , "Suns de Phoenix"@fr , "Phoenix suns"@en , "Phoenix Suns"@en , "Phoenix suns"@fr , "Phoenix suns"@de , "Phoenix Suns"@de , "Phoenix Suns"@fr , "Phoenix"@fr , "Suns"@en , "Suns"@fr , "Suns"@de , "Phoenix Suns roster"@en , "Phoenix Suns roster"@fr , "Phoenix Suns roster"@de , "Arizona suns"@en , "Arizona suns"@fr , "Arizona suns"@de , "Suns de phoenix"@fr .
+
+<http://dbpedia.org/resource/Andre_Agassi>
+        rdfs:label     "Andre Agassi"@de , "Andre Agassi"@fr , "Andre Agassi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Andre_Agassi__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Andre_Agassi> , <http://fr.dbpedia.org/resource/Andre_Agassi> ;
+        skos:altLabel  "Agassi"@de , "Agassi"@fr , "Agassi"@en , "Andre Agassy"@de , "Andre Agassy"@fr , "Andre Agassy"@en , "Andre"@de , "Andre"@fr , "Andre"@en , "AndreAgassi"@de , "AndreAgassi"@fr , "AndreAgassi"@en , "Agassi, Andre"@de , "Agassi, Andre"@fr , "Agassi, Andre"@en , "Andre Agasi"@de , "Andre Agasi"@fr , "Andre Agasi"@en , "André Agassi"@de , "André Agassi"@fr , "André Agassi"@en , "Andrei Agassi"@en , "Andrei Agassi"@de , "Andrei Agassi"@fr , "Gaden Gil Agassi"@de , "Gaden Gil Agassi"@fr , "Gaden Gil Agassi"@en , "Jaden Gil Agassi"@de , "Jaden Gil Agassi"@fr , "Jaden Gil Agassi"@en , "Andre Agassi"@de , "Andre Agassi"@fr , "Andre Agassi"@en , "Kid de Las Vegas"@fr , "Andre Kirk Agassi"@de , "Andre Kirk Agassi"@fr , "Andre Kirk Agassi"@en .

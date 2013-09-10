@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02cft>
+        rdfs:label     "Dublin"@de , "Dublin"@fr , "Dublin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dublin> , <http://dbpedia.org/resource/Dublin> , <http://fr.dbpedia.org/resource/Dublin> ;
+        skos:altLabel  "Baile Átha Cliath"@en , "Baile Átha Cliath"@fr , "Baile Átha Cliath"@de , "Visitor Information for Dublin, Ireland"@en , "Visitor Information for Dublin, Ireland"@fr , "Visitor Information for Dublin, Ireland"@de , "Dublin City, Ireland"@en , "Dublin City, Ireland"@de , "Dublin City, Ireland"@fr , "West Dublin"@en , "West Dublin"@fr , "West Dublin"@de , "Dublín"@en , "The weather in Dublin"@en , "Dublinn"@fr , "The weather in Dublin"@de , "Dublín"@de , "Dublín"@fr , "The weather in Dublin"@fr , "Capital of Ireland"@en , "Capital of Ireland"@fr , "Capital of Ireland"@de , "LOCODE:IEDUB"@en , "City Center, Dublin"@en , "LOCODE:IEDUB"@fr , "City Center, Dublin"@de , "City Center, Dublin"@fr , "LOCODE:IEDUB"@de , "Dubh Linn"@en , "Dubh Linn"@fr , "Dubh Linn"@de , "Capital of Republic of Ireland"@en , "Dublin, County Dublin"@en , "Dublin, County Dublin"@fr , "Dublin, County Dublin"@de , "Capital of Republic of Ireland"@fr , "Capital of Republic of Ireland"@de , "Capital of the Republic of Ireland"@en , "Capital of the Republic of Ireland"@fr , "Capital of the Republic of Ireland"@de , "Baile Atha Cliath"@en , "Baile Atha Cliath"@fr , "Baile Atha Cliath"@de , "Central Dublin"@en , "Central Dublin"@fr , "Central Dublin"@de , "Dubhlinn"@de , "Dublin"@en , "Dublin"@fr , "Dublin"@de , "Baile átha Cliath"@en , "Baile átha Cliath"@fr , "Baile átha Cliath"@de , "Dublin Culture"@en , "Dublin Culture"@fr , "Dublin Culture"@de , "Dublin City Center"@en , "Dublin City Center"@fr , "Dublin City Center"@de , "Dyflin"@en , "Dyflin"@de , "Dyflin"@fr , "Dublin, Republic of Ireland"@en , "Baile atha Cliath"@en , "City Centre, Dublin"@en , "Dublin, Ireland"@en , "City Centre, Dublin"@fr , "City Centre, Dublin"@de , "Dublin, Ireland"@fr , "Dublin, Ireland"@de , "Dublin City Centre"@en , "Baile atha Cliath"@fr , "Baile atha Cliath"@de , "Dublin, Republic of Ireland"@fr , "Dublin, Republic of Ireland"@de , "Dublin City Centre"@de , "Dublin City Centre"@fr , "Dublin city center"@en , "Dublin city center"@de , "Dublin city center"@fr , "Dublin city centre"@en , "Dublin city centre"@de , "Dublin city centre"@fr , "City of Dublin"@en , "City of Dublin"@fr , "City of Dublin"@de .
+
+<http://dbpedia.org/resource/Mean_Girls>
+        rdfs:label     "Mean Girls"@de , "Mean Girls"@fr , "Mean Girls"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mean_Girls__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Girls_Club_–_Vorsicht_bissig!> , <http://fr.dbpedia.org/resource/Lolita_malgré_moi> ;
+        skos:altLabel  "Burn book"@de , "Burn book"@fr , "Burn book"@en , "Girl"@de , "Mean Girls"@en , "Mean Girls"@de , "Mean Girls"@fr , "Girls Club – Vorsicht bissig"@de , "Plastic's"@de , "Plastic's"@fr , "Plastic's"@en , "Girls Club"@de , "Regina george"@de , "Regina george"@fr , "Regina george"@en , "Lolita malgré moi"@fr , "Lolita Malgré moi"@fr , "Méchantes ados"@fr , "Cady Heron"@en , "Cady Heron"@fr , "Cady Heron"@de , "Lolita Malgre moi"@fr , "Lolita Malgre Moi"@fr , "Janis Ian"@de , "Janis Ian"@fr , "Janis Ian"@en , "Girls Club – Vorsicht bissig!"@de , "Regina George"@de , "Regina George"@fr , "Lolita malgre moi"@fr , "Mean girls"@de , "Mean girls"@fr , "Mean girls"@en , "Regina George"@en , "Mechantes ados"@fr , "Lolita Malgré Moi"@fr , "Girls Club - Vorsicht bissig!"@de .
+
+<http://dbpedia.org/resource/Mean_Girls__1>
+        dbo:birthPlace  <http://rdf.freebase.com/ns/m.02cft> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2008"^^xsd:gYear .

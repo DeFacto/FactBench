@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0l0mk>
+        rdfs:label     "Santa Cruz"@de , "Santa Cruz"@fr , "Santa Cruz"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Santa_Cruz,_California> , <http://de.dbpedia.org/resource/Santa_Cruz_(Kalifornien)> , <http://fr.dbpedia.org/resource/Santa_Cruz_(Californie)> ;
+        skos:altLabel  "Santa Cruz, California"@en , "Santa Cruz, California"@de , "Santa Cruz, California"@fr , "Santa Cruz, Ca"@en , "Santa Cruz, Ca"@de , "Santa Cruz, Ca"@fr , "Archive1"@en , "Archive1"@de , "Archive1"@fr , "Santa cruise"@en , "Santa cruise"@de , "Santa cruise"@fr , "Pacific Garden Mall"@en , "Pacific Garden Mall"@fr , "Pacific Garden Mall"@de , "LOCODE:USSRU"@en , "LOCODE:USSRU"@de , "LOCODE:USSRU"@fr , "Gateway School"@en , "Santa Cruz County / Santa Cruz city"@en , "Gateway School"@fr , "Gateway School"@de , "Santa Cruz Pacific Avenue"@en , "Santa Cruz Pacific Avenue"@de , "Santa Cruz Pacific Avenue"@fr , "Archive 1"@en , "Archive 1"@de , "Archive 1"@fr , "Villa Branciforte"@en , "Villa Branciforte"@de , "Villa Branciforte"@fr , "Surf City USA"@en , "Empire Academy"@en , "Empire Academy"@de , "Empire Academy"@fr , "Santa cruz ca"@en , "Santa cruz ca"@de , "Santa cruz ca"@fr , "Pogonip"@en , "Pogonip"@de , "Pogonip"@fr , "Santa cruise, ca"@en , "Santa cruise, ca"@de , "Santa cruise, ca"@fr , "Santa cruize"@en , "Santa cruize"@de , "Santa cruize"@fr , "Santa Cruz, CA"@en , "Santa Cruz, CA"@de , "Santa Cruz, CA"@fr , "Santa cruz, ca"@en , "Santa cruz, ca"@de , "Santa cruz, ca"@fr , "Pacific Avenue, Santa Cruz"@en , "Pacific Avenue, Santa Cruz"@fr , "Pacific Avenue, Santa Cruz"@de , "Santa Cruz, California."@en , "Santa Cruz"@en , "Santa Cruz, California."@de , "Santa Cruz, California."@fr , "Santa Cruz"@de , "Santa Cruz"@fr .
+
+<http://rdf.freebase.com/ns/m.0500wf__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0l0mk> ;
+        dbo:from             "1998"^^xsd:gYear ;
+        dbo:to               "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0500wf>
+        rdfs:label     "Pandemic Studios"@en , "Pandemic Studios"@fr , "Pandemic Studios"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0500wf__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pandemic_Studios> , <http://de.dbpedia.org/resource/Pandemic_Studios> , <http://dbpedia.org/resource/Pandemic_Studios> ;
+        skos:altLabel  "Pandemic Studios"@fr , "Pandemic Studios"@de , "Pandemic"@de , "Pandemic"@fr , "Pandemic studios"@de , "Pandemic studios"@fr .

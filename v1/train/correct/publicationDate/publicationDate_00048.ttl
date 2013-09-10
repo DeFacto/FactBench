@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03lvx>
+        rdfs:label     "Heretics of Dune"@en , "Les Hérétiques de Dune"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Heretics_of_Dune> , <http://fr.dbpedia.org/resource/Les_Hérétiques_de_Dune> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Les Heretiques De Dune"@fr , "Stiros"@fr , "Stiros"@en , "Tuek"@fr , "Tuek"@en , "Heretics Of Dune"@fr , "Heretics Of Dune"@en , "Burzmali"@fr , "Burzmali"@en , "Les Heretiques de Dune"@fr , "Les Hérétiques de Dune"@fr , "Les heretiques de dune"@fr , "Heretics of Dune"@fr , "Heretics of Dune"@en , "Les hérétiques de dune"@fr , "Heretics of dune"@fr , "Heretics of dune"@en , "Les Hérétiques De Dune"@fr .
+
+<http://rdf.freebase.com/ns/m.03lvx__48>
+        dbo:author  <http://rdf.freebase.com/ns/m.03lvx> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02xyl>
+        rdfs:label       "Frank Herbert"@de , "Frank Herbert"@en , "Frank Herbert"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.03lvx__48> ;
+        owl:sameAs       <http://dbpedia.org/resource/Frank_Herbert> , <http://de.dbpedia.org/resource/Frank_Herbert> , <http://fr.dbpedia.org/resource/Frank_Herbert> ;
+        skos:altLabel    "Frank"@fr , "Frank Patrick Herbert"@fr , "Herbert"@fr , "Frank Patrick Herbert"@de , "Frank Patrick Herbert"@en , "Franck Herbert"@fr , "Herbert, Frank Patrick"@fr , "Frank Herbert"@fr , "Herbert, Frank Patrick"@de , "Franklin Patrick Herbert, Jr."@en , "Frank Herbert"@de , "Herbert, Frank Patrick"@en , "Frank Herbert"@en , "Frank herbert"@fr , "Frank herbert"@de , "Frank herbert"@en .

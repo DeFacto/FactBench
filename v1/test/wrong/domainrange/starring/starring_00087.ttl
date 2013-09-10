@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Harrison>
+        rdfs:label     "George Harrison"@de , "George Harrison"@fr , "George Harrison"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/George_Harrison> , <http://de.dbpedia.org/resource/George_Harrison> ;
+        skos:altLabel  "Goerge Harrison"@en , "Goerge Harrison"@de , "Goerge Harrison"@fr , "George Harrison MBE"@en , "George Harrison MBE"@fr , "George Harrison MBE"@de , "Hari Georgeson"@en , "Harrison"@fr , "Carl Harrison"@en , "Hari Georgeson"@fr , "Carl Harrison"@fr , "Carl Harrison"@de , "Hari Georgeson"@de , "The silent Beatle"@en , "Bette Y El Mysterioso"@en , "Bette Y El Mysterioso"@fr , "Bette Y El Mysterioso"@de , "George Harrisson"@en , "Beatle George"@en , "Michael Abram"@en , "The silent Beatle"@fr , "George Harrisson"@fr , "Beatle George"@fr , "Michael Abram"@fr , "The silent Beatle"@de , "George Harrisson"@de , "Beatle George"@de , "Michael Abram"@de , "George O'Hara"@en , "George O'Hara"@de , "George O'Hara"@fr , "George"@en , "George"@fr , "George"@de , "Georges Harrison"@fr , "P. Roducer"@en , "P. Roducer"@de , "P. Roducer"@fr , "Jai Raj Harisein"@en , "Jai Raj Harisein"@de , "Jai Raj Harisein"@fr , "George Harison"@en , "George Harison"@de , "George Harison"@fr , "Harrison, George"@en , "Harrison, George"@fr , "Harrison, George"@de , "George Harrison"@en , "George Harrison"@fr , "George Harrison"@de , "Nelson Wilbury"@en , "George H."@en , "Nelson Wilbury"@fr , "George H."@de , "George H."@fr , "Nelson Wilbury"@de , "George harrison"@en , "The George O'Hara-Smith Singers"@en , "Spike Wilbury"@en , "Spike Wilbury"@de , "Spike Wilbury"@fr , "George harrison"@fr , "The George O'Hara-Smith Singers"@fr , "George harrison"@de , "The George O'Hara-Smith Singers"@de , "George O'Hara-Smith"@en , "George O'Hara-Smith"@fr , "George O'Hara-Smith"@de , "Dark Horse Years 1976-1992"@fr , "L'Angelo Misterioso"@en , "L'Angelo Misterioso"@fr , "L'Angelo Misterioso"@de , "The quiet Beatle"@en , "The quiet Beatle"@de , "The quiet Beatle"@fr , "The dark horse"@en , "The dark horse"@fr , "The dark horse"@de , "Arthur Wax"@en , "Arthur Wax"@fr , "Arthur Wax"@de , "George Harrysong"@en , "George Harrysong"@fr , "George Harrysong"@de .
+
+<http://dbpedia.org/resource/Ed_Wood_(film)>
+        rdfs:label     "Ed Wood (film)"@fr , "Ed Wood (film)"@de , "Ed Wood (film)"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ed_Wood_(film)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ed_Wood_(Film)> , <http://fr.dbpedia.org/resource/Ed_Wood_(film)> ;
+        skos:altLabel  "Ed wood"@fr , "Ed Wood"@en , "Ed Wood"@fr , "Ed Wood"@de .
+
+<http://dbpedia.org/resource/Ed_Wood_(film)__1>
+        dbo:from      "1989"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/George_Harrison> ;
+        dbo:to        "1989"^^xsd:gYear .

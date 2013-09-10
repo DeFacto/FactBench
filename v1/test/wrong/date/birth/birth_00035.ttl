@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Andre_Agassi__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Las_Vegas> ;
+        dbo:from        "1965"^^xsd:gYear ;
+        dbo:to          "1965"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Las_Vegas>
+        rdfs:label     "Las Vegas"@en , "Las Vegas"@fr , "Las Vegas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Las_Vegas> , <http://fr.dbpedia.org/resource/Las_Vegas> ;
+        skos:altLabel  "Las Vegas City Council"@en , "Las Vegas City Council"@fr , "Las Vegas, Nevada"@en , "The City of Las Vegas"@en , "Vegas"@en , "Las Vegas, Nevada"@fr , "Las Vegas"@en , "The City of Las Vegas"@fr , "Las Vegas"@fr , "Las Vegas"@de , "Vegas"@fr , "Vegas"@de , "Las vegas, nv"@en , "Las vegas, nv"@fr , "Los Vegas"@en , "Los Vegas"@fr , "Las vagas"@en , "Las vagas"@fr , "Las vegas"@en , "Las vegas"@fr , "LOCODE:USLAS"@en , "LasVegas"@en , "LOCODE:USLAS"@fr , "LasVegas"@fr , "Las Vegas NV"@en , "Las Vegas NV"@fr , "Citizens Area Transit"@de , "Wedding chapel"@de .
+
+<http://dbpedia.org/resource/Andre_Agassi>
+        rdfs:label     "Andre Agassi"@de , "Andre Agassi"@fr , "Andre Agassi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Andre_Agassi__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Andre_Agassi> , <http://fr.dbpedia.org/resource/Andre_Agassi> ;
+        skos:altLabel  "Agassi"@de , "Agassi"@fr , "Agassi"@en , "Andre Agassy"@de , "Andre Agassy"@fr , "Andre Agassy"@en , "Andre"@de , "Andre"@fr , "Andre"@en , "AndreAgassi"@de , "AndreAgassi"@fr , "AndreAgassi"@en , "Agassi, Andre"@de , "Agassi, Andre"@fr , "Agassi, Andre"@en , "Andre Agasi"@de , "Andre Agasi"@fr , "Andre Agasi"@en , "André Agassi"@de , "André Agassi"@fr , "André Agassi"@en , "Andrei Agassi"@en , "Andrei Agassi"@de , "Andrei Agassi"@fr , "Gaden Gil Agassi"@de , "Gaden Gil Agassi"@fr , "Gaden Gil Agassi"@en , "Jaden Gil Agassi"@de , "Jaden Gil Agassi"@fr , "Jaden Gil Agassi"@en , "Andre Agassi"@de , "Andre Agassi"@fr , "Andre Agassi"@en , "Kid de Las Vegas"@fr , "Andre Kirk Agassi"@de , "Andre Kirk Agassi"@fr , "Andre Kirk Agassi"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/George_Orwell__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Hoboken,_New_Jersey> ;
+        dbo:from        "1903"^^xsd:gYear ;
+        dbo:to          "1903"^^xsd:gYear .
+
+<http://dbpedia.org/resource/George_Orwell>
+        rdfs:label     "George Orwell"@fr , "George Orwell"@en , "George Orwell"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/George_Orwell__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/George_Orwell> , <http://fr.dbpedia.org/resource/George_Orwell> ;
+        skos:altLabel  "H. Lewis Always"@de , "Orwellien"@fr , "Eric Arthur Blair"@de , "Eric Arthur Blair"@fr , "Eric Arthur Blair"@en , "Orwell"@de , "Orwell"@fr , "Orwell"@en , "Blair"@de , "Blair"@fr , "Blair"@en , "Eric A. Blair"@en , "Eric A. Blair"@de , "Eric A. Blair"@fr , "George Orwell"@en , "George Orwell"@de , "George Orwell"@fr , "George orwell"@de , "George orwell"@fr , "George orwell"@en , "Geoge orwell"@de , "Geoge orwell"@fr , "Geoge orwell"@en , "Eric Blair"@de , "Eric Blair"@fr , "Eric Blair"@en , "George (Eric Blair) Orwell"@en , "George (Eric Blair) Orwell"@de , "George (Eric Blair) Orwell"@fr , "G. Orwell"@de , "G. Orwell"@fr , "G. Orwell"@en , "Orwell, George"@de , "Orwell, George"@fr , "Orwell, George"@en , "Georges Orwell"@fr , "Arthur Blair"@en , "Arthur Blair"@de , "Arthur Blair"@fr .
+
+<http://dbpedia.org/resource/Hoboken,_New_Jersey>
+        rdfs:label     "Hoboken, New Jersey"@en , "Hoboken, New Jersey"@fr , "Hoboken, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hoboken_(New_Jersey)> , <http://fr.dbpedia.org/resource/Hoboken_(New_Jersey)> ;
+        skos:altLabel  "Hoboken City, Hudson County, New Jersey"@en , "Hoboken City, Hudson County, New Jersey"@fr , "Hoboken City, Hudson County, New Jersey"@de , "Hoboken NJ"@en , "Hoboken NJ"@fr , "Hoboken NJ"@de , "LOCODE:USHBK"@en , "Hoboken, NJ"@en , "LOCODE:USHBK"@fr , "LOCODE:USHBK"@de , "Hoboken, nj"@en , "Hoboken, NJ"@fr , "Hoboken, nj"@fr , "Hoboken, NJ"@de , "Hoboken, nj"@de , "Hoboken, N.J."@en , "Hoboken, N.J."@fr , "Hoboken, N.J."@de , "Hoboken Township, Hudson County, New Jersey"@en , "Hoboken Township, Hudson County, New Jersey"@fr , "Hoboken Township, Hudson County, New Jersey"@de , "Hoboken"@en , "Hoboken"@fr , "Hoboken"@de , "Hoboken Township, New Jersey"@en , "Hoboken Township, New Jersey"@fr , "Hoboken Township, New Jersey"@de , "Hoboken, New Jersey"@en , "Hoboken, New Jersey"@fr , "Hoboken, New Jersey"@de , "Hoboken City, New Jersey"@en , "Hoboken City, New Jersey"@fr , "Hoboken City, New Jersey"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02khrk>
+        rdfs:label     "EMC Corporation"@en , "EMC Corporation"@fr , "EMC Corporation"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02khrk__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/EMC_Corporation> , <http://dbpedia.org/resource/EMC_Corporation> , <http://de.dbpedia.org/resource/EMC_Corporation> ;
+        skos:altLabel  "Legato Software"@en , "Legato Software"@fr , "Legato Software"@de , "Emc2"@de , "Legato"@en , "EMC Autostart"@en , "Legato"@fr , "Legato"@de , "Legato Systems"@en , "EMC Corporation"@en , "EMC Autostart"@fr , "Legato Systems"@fr , "EMC Corporation"@fr , "EMC Autostart"@de , "Legato Systems"@de , "EMC Corporation"@de , "EMC²"@fr , "EMC²"@de , "EMC"@en , "EMC Corp."@en , "EMC Corp."@fr , "EMC Corp."@de , "Avamar"@en , "Avamar"@fr , "Avamar"@de .
+
+<http://rdf.freebase.com/ns/m.01c6n6>
+        rdfs:label     "IBM Internet Security Systems"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/IBM_Internet_Security_Systems> ;
+        skos:altLabel  "Internet Security Systems Inc"@en .
+
+<http://rdf.freebase.com/ns/m.02khrk__1>
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.01c6n6> ;
+        dbo:to          "2007"^^xsd:gYear .

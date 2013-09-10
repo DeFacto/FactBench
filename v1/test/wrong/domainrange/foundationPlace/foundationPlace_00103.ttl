@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02dyk3__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02h6_6p> ;
+        dbo:from             "1992"^^xsd:gYear ;
+        dbo:to               "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02dyk3>
+        rdfs:label     "IWin.com"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02dyk3__1> ;
+        skos:altLabel  "IWin, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.02h6_6p>
+        rdfs:label     "Munich"@en , "Munich"@fr , "München"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Munich> , <http://dbpedia.org/resource/Munich> , <http://de.dbpedia.org/resource/München> ;
+        skos:altLabel  "Isar-Athen"@de , "Münich"@en , "Münich"@fr , "Münich"@de , "Munchen"@en , "Munchen"@fr , "Munchen"@de , "Munich, Germany"@en , "Munich West Germany"@en , "Munchen IRO displaced persons camp"@en , "Munich West Germany"@fr , "Munich West Germany"@de , "Munchen IRO displaced persons camp"@de , "Munchen IRO displaced persons camp"@fr , "Verkehr in München"@de , "Munich, Germany"@fr , "Munich, Germany"@de , "Landeshauptstadt Munchen"@de , "DEMUC"@en , "Monaco di Baviera"@en , "Munichen"@en , "DEMUC"@fr , "Monaco di Baviera"@fr , "Munichen"@fr , "Monaco di Baviera"@de , "Munichen"@de , "DEMUC"@de , "Monachum"@en , "Muenchen"@en , "Monachum"@fr , "Muenchen"@fr , "Monachum"@de , "Muenchen"@de , "Monachij"@fr , "München IRO displaced persons camp"@en , "München IRO displaced persons camp"@fr , "München IRO displaced persons camp"@de , "Muenchen IRO displaced persons camp"@en , "Muenchen IRO displaced persons camp"@fr , "Muenchen IRO displaced persons camp"@de , "München"@en , "München"@de , "München"@fr , "LOCODE:DEMUC"@en , "LOCODE:DEMUC"@fr , "LOCODE:DEMUC"@de , "München, Germany"@en , "München, Germany"@fr , "München, Germany"@de , "Muenich"@en , "Muenchen, Germany"@en , "Muenich"@fr , "Muenchen, Germany"@fr , "Muenich"@de , "Muenchen, Germany"@de , "Obermenzing"@en , "Obermenzing"@de , "Obermenzing"@fr , "Munich, Bavaria"@en , "City of Munich"@en , "Munchen, Germany"@en , "Munchen, Germany"@de , "Munchen, Germany"@fr , "Munich, Bavaria"@fr , "City of Munich"@fr , "Munich, Bavaria"@de , "City of Munich"@de , "Monachium"@en , "Monachium"@fr , "Landeshauptstadt München"@de , "Monachium"@de , "Munch"@en , "Munch"@fr , "Munch"@de , "Munich"@en , "Munich"@fr , "Munich"@de , "Education in Munich"@en , "Education in Munich"@de , "Education in Munich"@fr , "Múnich"@en , "Minga"@en , "Múnich"@fr , "Verkehr in Munchen"@de , "Múnich"@de .

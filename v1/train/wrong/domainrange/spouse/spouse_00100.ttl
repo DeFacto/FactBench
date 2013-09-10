@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02vz3s1>
+        rdfs:label     "Alki David"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Alki_David> ;
+        skos:altLabel  "Alkiviades David"@en , "Alkiviades \"Alki\" David"@en .
+
+<http://rdf.freebase.com/ns/m.0c7sj1>
+        rdfs:label     "Sara Maldonado"@en , "Sara Maldonado"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c7sj1__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Sara_Maldonado> , <http://dbpedia.org/resource/Sara_Maldonado> ;
+        skos:altLabel  "Sara Maldonado Fuentes"@en , "Sara Maldonado Fuentes"@fr , "Sarita"@en , "Sari"@en , "Sara Maldonado"@en , "Sara Maldonado"@fr .
+
+<http://rdf.freebase.com/ns/m.0c7sj1__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.02vz3s1> ;
+        dbo:to      "2008"^^xsd:gYear .

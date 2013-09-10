@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.094505__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.0rgvf> ;
+        dbo:from   "2010"^^xsd:gYear ;
+        dbo:to     "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.094505>
+        rdfs:label  "MailChannels"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.094505__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/MailChannels> .
+
+<http://rdf.freebase.com/ns/m.0rgvf>
+        rdfs:label     "Newark"@en , "Newark"@fr , "Newark"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Newark,_Delaware> , <http://fr.dbpedia.org/resource/Newark_(Delaware)> , <http://de.dbpedia.org/resource/Newark_(Delaware)> ;
+        skos:altLabel  "South Newark, Delaware"@en , "South Newark, Delaware"@fr , "South Newark, Delaware"@de , "New Castle County / Newark city"@en , "Newark, DE"@en , "Newark, DE"@fr , "Newark, DE"@de , "Newark"@en , "Newark de"@en , "Newark"@fr , "Newark"@de , "Newark de"@fr , "Newark de"@de , "LOCODE:USNWK"@en , "LOCODE:USNWK"@fr , "LOCODE:USNWK"@de , "Newark, Delaware"@en , "Newark, Delaware"@fr , "Newark, Delaware"@de , "New Worke"@de .

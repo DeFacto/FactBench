@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Englewood,_New_Jersey>
+        rdfs:label     "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Englewood_(New_Jersey)> , <http://fr.dbpedia.org/resource/Englewood_(New_Jersey)> ;
+        skos:altLabel  "LOCODE:USEWD"@en , "LOCODE:USEWD"@fr , "LOCODE:USEWD"@de , "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de , "Englewood, NJ"@en , "Englewood City, Bergen County, New Jersey"@en , "Englewood, N. J."@en , "Englewood"@en , "Englewood, NJ"@fr , "Englewood City, Bergen County, New Jersey"@fr , "Englewood, N. J."@fr , "Englewood"@fr , "Englewood City, Bergen County, New Jersey"@de , "Englewood"@de , "Englewood, NJ"@de , "Englewood, N. J."@de , "Englewood City, New Jersey"@en , "Englewood City, New Jersey"@fr , "Englewood City, New Jersey"@de .
+
+<http://dbpedia.org/resource/Howard_Hughes>
+        rdfs:label     "Howard Hughes"@de , "Howard Hughes"@en , "Howard Hughes"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Howard_Hughes__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Howard_Hughes> , <http://fr.dbpedia.org/resource/Howard_Hughes> ;
+        skos:altLabel  "Howard Hughes"@en , "Howard Hughes"@fr , "Howard Hughes"@de , "Hughes"@fr , "Howard Hugues"@fr , "Howard Hughs"@en , "Howard Hughs"@fr , "Howard Hughs"@de , "Howard Robard Hughes, Jr."@en , "Howard Robard Hughes, Jr."@fr , "Howard Robard Hughes, Jr."@de , "Howard hughes"@en , "Howard hughes"@fr , "Howard hughes"@de , "Howard Robard Hughes"@en , "Howard Robard Hughes"@fr , "Howard Robard Hughes"@de , "Howard"@en , "Howard"@fr , "Howard"@de , "Howard R. Hughes"@en , "Howard R. Hughes"@fr , "Howard R. Hughes"@de .
+
+<http://dbpedia.org/resource/Howard_Hughes__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Englewood,_New_Jersey> ;
+        dbo:from        "1976"^^xsd:gYear ;
+        dbo:to          "1976"^^xsd:gYear .

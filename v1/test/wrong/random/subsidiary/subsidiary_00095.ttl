@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paramakudi>
+        rdfs:label     "Paramakudi"@en , "Paramakudi"@fr , "Paramakudi"@de ;
+        skos:altLabel  "Paramakudi"@en , "Paramakkudi"@en .
+
+<http://rdf.freebase.com/ns/m.03j43>
+        rdfs:label     "Henri Bergson"@de , "Henri Bergson"@fr , "Henri Bergson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03j43__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Henri_Bergson> , <http://dbpedia.org/resource/Henri_Bergson> , <http://de.dbpedia.org/resource/Henri_Bergson> ;
+        skos:altLabel  "Bergson"@fr , "Bergson"@en , "Bergson"@de , "Henri Louis Bergson"@de , "Henri Louis Bergson"@fr , "Henri Louis Bergson"@en , "Henri"@de , "Henri"@fr , "Henri"@en , "Henri L. Bergson"@de , "Henri L. Bergson"@fr , "Henri L. Bergson"@en , "H. Bergson"@de , "H. Bergson"@fr , "H. Bergson"@en , "Henri-Louis Bergson"@de , "Henri-Louis Bergson"@fr , "Henri-Louis Bergson"@en , "The Two Sources of Morality and Religion"@de , "The Two Sources of Morality and Religion"@fr , "The Two Sources of Morality and Religion"@en , "Bergsonism"@de , "Bergsonism"@fr , "Bergsonism"@en , "Henri Bergson"@de , "Henri Bergson"@fr , "Henri Bergson"@en , "Henry Bergson"@de , "Henry Bergson"@fr , "Henry Bergson"@en , "Bergsonian"@de , "Bergsonian"@fr , "Bergsonian"@en .
+
+<http://rdf.freebase.com/ns/m.03j43__1>
+        dbo:from    "1998"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Paramakudi> ;
+        dbo:to      "1998"^^xsd:gYear .

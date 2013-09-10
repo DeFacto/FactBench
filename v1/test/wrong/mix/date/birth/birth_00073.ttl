@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Minsk>
+        rdfs:label     "Minsk"@de , "Minsk"@fr , "Minsk"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minsk> , <http://fr.dbpedia.org/resource/Minsk> ;
+        skos:altLabel  "Miensk"@de , "Miensk"@fr , "Miensk"@en , "Gorod Minsk"@de , "Gorod Minsk"@fr , "Gorod Minsk"@en , "Provice of Minsk"@fr , "Provice of Minsk"@en , "Provice of Minsk"@de , "Minskaya"@en , "Minskaya"@de , "Minskaya"@fr , "Minsku"@de , "Minsku"@fr , "Minsku"@en , "LOCODE:BYMSQ"@de , "LOCODE:BYMSQ"@fr , "LOCODE:BYMSQ"@en , "Capital of Belarus"@de , "Capital of Belarus"@fr , "Capital of Belarus"@en , "Horad Minsk"@de , "Horad Minsk"@fr , "Horad Minsk"@en , "Minskas"@de , "Minskas"@fr , "Minskas"@en , "Minsk, Belarus"@de , "Minsk, Belarus"@fr , "Minsk, Belarus"@en , "Mensk"@de , "Mensk"@fr , "Mensk"@en , "Minsk"@en , "Minsk, USSR"@de , "Minsk, USSR"@fr , "Minsk, USSR"@en , "Minsk"@de , "Minsk"@fr .
+
+<http://dbpedia.org/resource/Natasha_Zvereva>
+        rdfs:label     "Natasha Zvereva"@en , "Natasha Zvereva"@fr , "Natasha Zvereva"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Natasha_Zvereva__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Natallja_Swerawa> , <http://fr.dbpedia.org/resource/Natasha_Zvereva> ;
+        skos:altLabel  "Natasha"@en , "Natasha"@fr , "Natasha"@de , "Natasha Zvereva"@en , "Natasha Zvereva"@fr , "Natasha Zvereva"@de , "Swerawa"@de , "Natascha Swerewa"@de , "Natalia Zvereva"@en , "Natalia Zvereva"@fr , "Natalia Zvereva"@de , "Natallja Swerawa"@de , "Natalya Zvereva"@fr , "Natascha Swerawa"@de .
+
+<http://dbpedia.org/resource/Natasha_Zvereva__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Minsk> ;
+        dbo:from        "1972"^^xsd:gYear ;
+        dbo:to          "1972"^^xsd:gYear .

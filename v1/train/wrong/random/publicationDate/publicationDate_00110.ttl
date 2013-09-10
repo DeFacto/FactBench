@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ljubljana>
+        rdfs:label     "Ljubljana"@fr , "Ljubljana"@en , "Ljubljana"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ljubljana> , <http://fr.dbpedia.org/resource/Ljubljana> ;
+        skos:altLabel  "Liubliana"@en , "Liubliana"@de , "Liubliana"@fr , "Luwigana"@en , "Luwigana"@de , "Luwigana"@fr , "Ljublijana"@en , "Ljublijana"@fr , "Ljublijana"@de , "SILJU"@en , "SILJU"@fr , "SILJU"@de , "LOCODE:SILJU"@en , "LOCODE:SILJU"@de , "LOCODE:SILJU"@fr , "Laybach"@en , "Ljubljana, Yugoslavia"@en , "Ljubljana, Yugoslavia"@fr , "Laybach"@fr , "Laybach"@de , "Ljubljana, Yugoslavia"@de , "Capitale de la Slovénie"@fr , "Ljubljana, Slovenia"@en , "Ljubljana, Slovenia"@de , "Ljubljana, Slovenia"@fr , "Ljubljana, SR Slovenia"@en , "Ljubljana, SR Slovenia"@fr , "Ljubljana, SR Slovenia"@de , "Sostro"@de , "Capital of Slovenia"@en , "Capital of Slovenia"@de , "Capital of Slovenia"@fr , "Lublijana"@en , "Ljubljana"@en , "Ljubljana"@de , "Ljubljana"@fr , "Lublijana"@fr , "Lublijana"@de , "Lubliana"@en , "Lubliana"@de , "Lubliana"@fr , "Ljubljana, Ljubljana"@en , "Ljubljana, Ljubljana"@fr , "Ljubljana, Ljubljana"@de , "Laibach, Slovenia"@en , "Laibach, Slovenia"@de , "Laibach, Slovenia"@fr , "Ljubljana, Slovenija"@en , "Lubiana"@fr , "Ljubljana, Slovenija"@fr , "Ljubljana, Slovenija"@de , "Ljubliana"@en , "Ljubliana"@fr , "Ljubliana"@de , "SI-061"@de , "Ljubjana"@en , "Ljubjana"@de , "Ljubjana"@fr , "Tacen"@en , "Tacen"@fr , "Tacen"@de , "The weather in Ljubljana"@en , "The weather in Ljubljana"@fr , "The weather in Ljubljana"@de , "Lubljana"@en , "Lubljana"@de , "Lubljana"@fr , "History of Ljubljana"@en , "History of Ljubljana"@de , "History of Ljubljana"@fr , "Capitale de la Slovenie"@fr , "Laibach"@de .
+
+<http://dbpedia.org/resource/Kishore_Kumar>
+        rdfs:label     "Kishore Kumar"@en , "Kishore Kumar"@fr , "Kishore Kumar"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kishore_Kumar__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kishore_Kumar> , <http://de.dbpedia.org/resource/Kishore_Kumar> ;
+        skos:altLabel  "Kishore da"@en , "Kishore Kumar Ganguly"@en , "Kishore da"@fr , "Kishore Kumar Ganguly"@fr , "Kishore da"@de , "Kishore Kumar Ganguly"@de , "Kishor Kumar"@en , "Phoolon ki zubaan"@en , "Kishor Kumar"@fr , "Phoolon ki zubaan"@fr , "Kishor Kumar"@de , "Phoolon ki zubaan"@de , "Abhas Ganguly"@en , "Kishore Kumar's songs"@en , "Kumar"@en , "Abhas Ganguly"@fr , "Abhas Ganguly"@de , "Kumar"@fr , "Kumar"@de , "Abhas Kumar Ganguly"@en , "Kishore Kumar"@en , "Kishore Kumar"@fr , "Kishore Kumar"@de , "Kishore Kumar's songs"@fr , "Abhas Kumar Ganguly"@fr , "Kishore Kumar's songs"@de , "Abhas Kumar Ganguly"@de , "Kishore"@en , "Kishore"@fr , "Kishore"@de .
+
+<http://dbpedia.org/resource/Kishore_Kumar__1>
+        dbo:from      "1989"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Ljubljana> ;
+        dbo:to        "1989"^^xsd:gYear .

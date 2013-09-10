@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03h0ypn__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01m4yn> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03h0ypn>
+        rdfs:label     "Anna Torv"@en , "Anna Torv"@fr , "Anna Torv"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03h0ypn__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Anna_Torv> , <http://fr.dbpedia.org/resource/Anna_Torv> , <http://dbpedia.org/resource/Anna_Torv> ;
+        skos:altLabel  "Anna Charmichael Torv"@en , "Anna Torv"@en , "Anna Torv"@fr , "Anna Torv"@de , "Torv"@de , "Anna Tõrv"@en .
+
+<http://rdf.freebase.com/ns/m.01m4yn>
+        rdfs:label     "Rose McGowan"@en , "Rose McGowan"@fr , "Rose McGowan"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Rose_McGowan> , <http://de.dbpedia.org/resource/Rose_McGowan> , <http://fr.dbpedia.org/resource/Rose_McGowan> ;
+        skos:altLabel  "Rose Arianna McGowan"@en , "McGowan"@en , "McGowan"@de , "McGowan"@fr , "Rose Mcgowan"@en , "Rose Mcgowan"@fr , "Rose Mcgowan"@de , "Rose McGowan"@en , "Actress Rose McGowan"@en , "Rose McGowan"@fr , "Actress Rose McGowan"@fr , "Rose McGowan"@de , "Actress Rose McGowan"@de , "Rose mcgowan"@en , "Rose mcgowan"@fr , "Rose mcgowan"@de , "McGowan, Rose"@en , "Rose mcgowen"@en , "Rose mcgowen"@fr , "Rose mcgowen"@de , "Rose McGowen"@en .

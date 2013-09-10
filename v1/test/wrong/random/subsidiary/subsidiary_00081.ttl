@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Setagaya,_Tokyo>
+        rdfs:label     "Setagaya, Tokyo"@en , "Setagaya, Tokyo"@fr , "Setagaya, Tokyo"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Setagaya> , <http://fr.dbpedia.org/resource/Setagaya> ;
+        skos:altLabel  "Setagaya"@en , "Setagaya, Tokyo"@en , "Setagaya"@fr , "Setagaya"@de , "Setagaya, Tokyo"@de , "Setagaya, Tokyo"@fr , "Setagaya-ku"@en , "Setagaya-ku"@fr , "Setagaya-ku"@de , "Setagaya-ku, Tokyo"@en , "Setagaya-ku, Tokyo"@fr , "Setagaya-ku, Tokyo"@de , "Setagaya Ward"@en , "Setagaya Ward"@fr , "Setagaya Ward"@de .
+
+<http://rdf.freebase.com/ns/m.04dhbf__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Setagaya,_Tokyo> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04dhbf>
+        rdfs:label     "Saul Williams"@en , "Saul Williams"@fr , "Saul Williams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04dhbf__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Saul_Williams> , <http://de.dbpedia.org/resource/Saul_Williams> , <http://fr.dbpedia.org/resource/Saul_Williams> ;
+        skos:altLabel  "Williams"@fr , "Saul williams"@en , "Saul Stacey Williams"@en , "Saul williams"@fr , "Saul williams"@de , "Saul"@en , "Saul"@fr , "Saul"@de , "Saul Williams"@en , "Saul Williams"@de , "Saul Williams"@fr , "Saül Williams"@fr .

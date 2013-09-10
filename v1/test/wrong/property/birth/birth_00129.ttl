@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Paul_Haarhuis__1>
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Eindhoven> ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Eindhoven>
+        rdfs:label     "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Eindhoven> , <http://fr.dbpedia.org/resource/Eindhoven> ;
+        skos:altLabel  "Eindhoven, Netherlands"@fr , "Eindhoven, Netherlands"@de , "Eindhoven, North Brabant"@de , "Eindhoven, North Brabant"@fr , "Eindhoven"@en , "Eindhoven"@fr , "Eindhoven"@de , "LOCODE:NLEIN"@en , "LOCODE:NLEIN"@fr , "LOCODE:NLEIN"@de , "Eindhoven, Noord-Brabant"@en , "Eindhoven, Noord-Brabant"@fr , "Eindhoven, Noord-Brabant"@de , "Eindhoven, Netherlands"@en , "Eindhoven, North Brabant"@en .
+
+<http://dbpedia.org/resource/Paul_Haarhuis>
+        rdfs:label     "Paul Haarhuis"@en , "Paul Haarhuis"@fr , "Paul Haarhuis"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Paul_Haarhuis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Paul_Haarhuis> , <http://de.dbpedia.org/resource/Paul_Haarhuis> ;
+        skos:altLabel  "Paul Haarhuis"@de , "Paul Haarhuis"@fr , "Haarhuis"@fr , "Haarhuis"@de .

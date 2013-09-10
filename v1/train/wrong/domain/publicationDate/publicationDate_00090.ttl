@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0cgvf>
+        rdfs:label     "Alfred Bester"@fr , "Alfred Bester"@de , "Alfred Bester"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0cgvf__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Alfred_Bester> , <http://de.dbpedia.org/resource/Alfred_Bester> , <http://fr.dbpedia.org/resource/Alfred_Bester> ;
+        skos:altLabel  "Sonny Powell"@en , "Bester"@en , "Bester"@de , "Bester"@fr , "Bester, Alfred"@en , "Bester, Alfred"@fr , "Bester, Alfred"@de , "Alfred Bestor"@en , "Alfred Bester"@en , "Alfred Bester"@fr , "Alfred Bester"@de , "Bester alfred"@en , "Bester alfred"@fr , "Bester alfred"@de .
+
+<http://rdf.freebase.com/ns/m.0kjjm>
+        rdfs:label     "De bons présages"@fr , "Ein gutes Omen"@de , "Good Omens"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ein_gutes_Omen> , <http://fr.dbpedia.org/resource/De_bons_présages> , <http://dbpedia.org/resource/Good_Omens> ;
+        skos:altLabel  "De bons présages"@fr , "Good omens"@fr , "De Bons Présages"@fr , "Aziraphale"@en , "Aziraphale"@fr , "Aziraphale"@de , "Good Omens"@en , "Good Omens"@fr , "Good Omens"@de , "Anthony Crowley"@en , "De Bons Presages"@fr , "Anthony Crowley"@fr , "Anthony Crowley"@de , "Ein gutes Omen"@de , "Agnes Nutter"@en , "Agnes Nutter"@fr , "Agnes Nutter"@de , "Anathema Device"@en , "Anathema Device"@fr , "Anathema Device"@de , "De bons presages"@fr .
+
+<http://rdf.freebase.com/ns/m.0cgvf__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0kjjm> ;
+        dbo:from    "1990"^^xsd:gYear ;
+        dbo:to      "1990"^^xsd:gYear .

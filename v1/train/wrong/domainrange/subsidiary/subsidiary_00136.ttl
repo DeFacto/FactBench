@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01n073__1>
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.03jzfv> ;
+        dbo:to          "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03jzfv>
+        rdfs:label     "eGroups"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/EGroups> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "EGroups"@en , "Egroup"@en , "Egroups"@en , "eGroups, Inc"@en , "EGroups.com"@en .
+
+<http://rdf.freebase.com/ns/m.01n073>
+        rdfs:label     "Electronic Arts"@de , "Electronic Arts"@fr , "Electronic Arts"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01n073__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Electronic_Arts> , <http://fr.dbpedia.org/resource/Electronic_Arts> , <http://dbpedia.org/resource/Electronic_Arts> ;
+        skos:altLabel  "Manley and Associates"@en , "Manley and Associates"@fr , "Manley and Associates"@de , "EA Partners"@en , "EA Distribution"@en , "EA Partners"@fr , "EA Distribution"@fr , "EA Distribution"@de , "EA Partners"@de , "Electrontic Arts"@en , "Electrontic Arts"@fr , "Electrontic Arts"@de , "Electronic Arts Inc."@en , "Electronic Arts Inc."@fr , "Electronic Arts Inc."@de , "Electronic Arts Victor"@de , "Arts electroniques"@fr , "EA Bright Light Studios"@en , "EA Bright Light Studios"@fr , "EA Bright Light Studios"@de , "Origin"@de , "EA Chicago"@en , "Electronic arts"@en , "EA Chicago"@fr , "Electronic arts"@fr , "EA Chicago"@de , "Electronic arts"@de , "EA Games"@en , "EA Games"@fr , "EA Games"@de , "EA-Classics"@de , "EA Bright Light Studio"@en , "EA Redwood Studios"@en , "EA Bright Light Studio"@fr , "EA Redwood Studios"@fr , "EA Redwood Studios"@de , "EA Bright Light Studio"@de , "EA Best Hits"@en , "EA Best Hits"@fr , "EA Best Hits"@de , "Electronic Arts Inc"@en , "Electronic Arts Inc"@fr , "Electronic Arts Inc"@de , "EA Bright Light"@en , "EA Bright Light"@fr , "EA Bright Light"@de , "ELECTRONIC ARTS INC"@en , "EA Korea"@en , "EA Korea"@fr , "EA Korea"@de , "Electronic"@en , "EA UK"@en , "Electronic"@fr , "Electronic"@de , "EA UK"@fr , "EA UK"@de , "EA Seattle"@en , "EA Seattle"@fr , "EA Seattle"@de , "Elecrtonic Arts"@en , "Elecrtonic Arts"@fr , "Elecrtonic Arts"@de , "Electronic Arts, Inc"@en , "Electronic Arts Square"@en , "AnimationToolkit"@en , "Electronic Arts Square"@fr , "Electronic Arts Square"@de , "Electronic Arts, Inc"@fr , "Electronic Arts, Inc"@de , "AnimationToolkit"@fr , "AnimationToolkit"@de , "Bright Light"@en , "Bright Light"@fr , "Bright Light"@de , "Electronic Arts logo"@en , "Electronic Arts logo"@fr , "Electronic Arts logo"@de , "EA Singapore"@en , "EA Singapore"@fr , "EA Singapore"@de , "Chillingo"@en , "Chillingo"@fr , "Chillingo"@de , "Electronic Arts Square, K.K."@en , "Electronic Arts Square, K.K."@fr , "Electronic Arts Square, K.K."@de , "Ea games"@en , "Ea games"@fr , "Ea games"@de , "EA"@en , "EA.com"@en , "Authoritarian"@fr , "EA Sports Big"@de , "EA.com"@fr , "EA.com"@de , "EA GAMES"@fr , "EA GAMES"@de , "Electronic Arts Tiburon"@en , "Electronic Arts Tiburon"@fr , "Electronic Arts Tiburon"@de , "ELECTRONIC ARTS INC."@en , "Arts électroniques"@fr , "Eagames"@en , "E.A."@en , "Electronics Arts"@en , "Electronics Arts"@fr , "Electronics Arts"@de , "E.a."@en , "SoftArt"@en , "E.a."@fr , "E.a."@de , "Electronic Arts"@en , "Ea sports"@fr , "E.A."@fr , "SoftArt"@fr , "Electronic Arts"@fr , "E.A."@de , "Electronic Arts"@de , "SoftArt"@de , "Eagames"@fr , "EA Sports"@fr , "Eagames"@de , "EA Sports"@de , "EA Japan"@en , "EA Japan"@fr , "EA Japan"@de , "Electronic Arts, Inc."@en , "Electronic Arts, Inc."@fr , "Electronic Arts, Inc."@de , "EA Baltimore"@en , "EA Baltimore"@fr , "EA Baltimore"@de .

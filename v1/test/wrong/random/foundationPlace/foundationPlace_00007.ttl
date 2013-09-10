@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Staten_Island>
+        rdfs:label     "Staten Island"@de , "Staten Island"@fr , "Staten Island"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Staten_Island> , <http://fr.dbpedia.org/resource/Staten_Island> ;
+        skos:altLabel  "Staton island"@en , "Staton island"@de , "Staton island"@fr , "Staten Island Community Charter School"@en , "Staten Island Community Charter School"@de , "Staten Island Community Charter School"@fr , "Staten Is."@en , "Staten Is."@de , "Staten Is."@fr , "Richmond County, New York"@en , "Richmond County, New York"@de , "Richmond County, New York"@fr , "Staten Island Bridges"@en , "S.I.N.Y."@en , "S.I.N.Y."@de , "S.I.N.Y."@fr , "Staten Island Bridges"@de , "Staten Island Bridges"@fr , "Comté de Richmond"@fr , "Richmond"@en , "Richmond"@de , "Richmond"@fr , "Richmond County"@de , "Comte de Richmond"@fr , "Staten Island, NY"@en , "Staten Island, NY"@de , "Staten Island, NY"@fr , "Staten island"@en , "Staten island"@de , "Staten island"@fr , "Staten island community charter school"@en , "Staten island community charter school"@de , "Staten island community charter school"@fr , "Staten Island, New York City"@en , "Staten Islander"@en , "Richmond, New York City"@en , "Richmond, New York City"@de , "Richmond, New York City"@fr , "Staten Island, New York City"@de , "Staten Island, New York City"@fr , "Staten Islander"@de , "Staten Islander"@fr , "Staten Island"@en , "Staten Island"@de , "Staten Island"@fr , "Staten Island, N.Y."@en , "Staten Island, N.Y."@de , "Staten Island, N.Y."@fr , "Staten"@en , "Staten"@de , "Staten"@fr , "Staten Island, New York"@en , "Staten Island, New York"@de , "Staten Island, New York"@fr .
+
+<http://dbpedia.org/resource/Walter_Scott>
+        rdfs:label     "Walter Scott"@fr , "Walter Scott"@en , "Walter Scott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walter_Scott__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walter_Scott> , <http://fr.dbpedia.org/resource/Walter_Scott> ;
+        skos:altLabel  "Sir Walter Scotts's"@de , "Sir Walter Scotts's"@fr , "Sir Walter Scotts's"@en , "Scott, Sir Walter"@en , "Walter, 1st Baronet Scott"@de , "Walter, 1st Baronet Scott"@fr , "Scott, Sir Walter"@de , "Scott, Sir Walter"@fr , "Sir Walter Scott, 1st Baronet"@de , "Sir Walter Scott, 1st Baronet"@fr , "Sir Walter Scott, 1st Baronet"@en , "Walter, 1st Baronet Scott"@en , "Border Minstrel"@de , "Border Minstrel"@fr , "Border Minstrel"@en , "Scott"@fr , "Wizard of the North"@fr , "Wizard of the North"@en , "Wizard of the North"@de , "Sir Walter Scott"@de , "Sir Walter Scott"@fr , "Sir Walter Scott"@en , "Walter Scott, 1st Baronet"@de , "Walter Scott, 1st Baronet"@fr , "Walter Scott, 1st Baronet"@en , "Scott, Walter"@de , "Scott, Walter"@fr , "Scott, Walter"@en , "Sir W. Scott"@en , "Sir W. Scott"@de , "Sir W. Scott"@fr , "Walter Scott"@en , "Walter Scott"@de , "Walter Scott"@fr , "Great Magician"@de , "Great Magician"@fr , "Great Magician"@en .
+
+<http://dbpedia.org/resource/Walter_Scott__1>
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Staten_Island> ;
+        dbo:to          "2006"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Utah_Jazz>
+        rdfs:label     "Utah Jazz"@de , "Utah Jazz"@en , "Utah Jazz"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jazz_de_l'Utah> , <http://de.dbpedia.org/resource/Utah_Jazz> ;
+        skos:altLabel  "Jazz De L'Utah"@fr , "Jazz"@en , "Jazz"@fr , "Jazz"@de , "Utah Jazz"@en , "Utah Jazz"@fr , "Utah Jazz"@de , "New Orleans Jazz"@en , "New Orleans Jazz"@de , "New Orleans Jazz"@fr , "Jazz de l'Utah"@fr , "Utah jazz"@en , "Utah jazz"@fr , "Utah jazz"@de , "Jazz de l'utah"@fr .
+
+<http://dbpedia.org/resource/Steve_Nash>
+        rdfs:label     "Steve Nash"@fr , "Steve Nash"@de , "Steve Nash"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Steve_Nash__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Steve_Nash> , <http://de.dbpedia.org/resource/Steve_Nash> ;
+        skos:altLabel  "Steve Nash"@en , "Steve Nash"@fr , "Steve Nash"@de , "Nash"@fr , "Steve Nash Foundation"@en , "Steve Nash Foundation"@fr , "Steve Nash Foundation"@de , "Steven John Nash"@en , "Steven John Nash"@fr , "Steven John Nash"@de , "Stephen John Nash"@en , "Stephen John Nash"@fr , "Stephen John Nash"@de .
+
+<http://dbpedia.org/resource/Steve_Nash__1>
+        dbo:author  <http://dbpedia.org/resource/Utah_Jazz> ;
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:to      "2008"^^xsd:gYear .

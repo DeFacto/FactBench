@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.045t30>
+        rdfs:label     "JetBrains s.r.o."@de , "JetBrains"@en , "JetBrains"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.045t30__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/JetBrains> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/JetBrains> ;
+        skos:altLabel  "Jetbrains"@de , "Kotlin"@de , "JetBrains"@de .
+
+<http://rdf.freebase.com/ns/m.045t30__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0159fw> ;
+        dbo:from             "2000"^^xsd:gYear ;
+        dbo:to               "2000"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0159fw>
+        rdfs:label     "Mogilev"@en , "Moguilev"@fr , "Mahiljou"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Moguilev> , <http://de.dbpedia.org/resource/Mahiljou> , <http://dbpedia.org/resource/Mogilev> ;
+        skos:altLabel  "Mahiliou"@de , "Mahilyow"@de , "Mahilyow"@fr , "Mogilev, Belarus"@en , "Moghilev"@fr , "Mogilyev"@en , "Moguilev"@fr , "Mogilyev"@fr , "Mogilyev"@de , "Mohylow"@en , "Mohylow"@de , "Mohylow"@fr , "Mohilev"@en , "Mohilev"@fr , "Mohilev"@de , "Mogilev"@en , "Mogilev"@de , "Mogilev"@fr , "Mogilëv"@en , "Mahileu"@en , "Mahileu"@de , "Mahileu"@fr , "Mahilyov"@en , "Mahilyov"@fr , "Mahilyov"@de , "Mogilëv"@fr , "Mogilëv"@de , "Mohileff"@en , "Mohileff"@de , "Mohileff"@fr , "Mogilyov"@en , "Mogilyov"@de , "Mogilyov"@fr , "Mogilev on the Dniester"@en , "Mogilev on the Dniester"@fr , "Mogilev on the Dniester"@de , "Mogilov"@en , "Mogilov"@fr , "Mogilov"@de , "Moghilef"@en , "Mahilyow, Belarus"@en , "Mohylew"@en , "Moghilef"@fr , "Mohylew"@fr , "Mohylew"@de , "Mahilyow, Belarus"@fr , "Mahilyow, Belarus"@de , "Moghilef"@de , "Mahilëu"@en , "Mahilëu"@fr , "Mahilëu"@de , "Mahilou"@en , "Mogiljow"@de , "Mahilou"@fr , "Mahilou"@de , "Mohyłów"@en , "Mohyłów"@de , "Mohyłów"@fr , "Mogilev on the Dnieper"@en , "Mahilioŭ"@en , "Mahiljou"@de , "Mogilev on the Dnieper"@fr , "Mogilev on the Dnieper"@de , "Mahilioŭ"@de , "Mahilioŭ"@fr , "Mahiloŭ"@en , "Mahileǔ"@de , "Mahiloŭ"@de , "Mahiloŭ"@fr , "Mahiliow"@fr , "Mohyłow"@en , "Mahiliou"@en , "Mogilew"@en , "Mogilew"@de , "Mogilew"@fr , "Mohyłow"@fr , "Mohyłow"@de , "Mahilyow"@en , "Mahiliou"@fr .

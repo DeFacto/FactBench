@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.025_4yn>
+        rdfs:label     "Raza Jaffrey"@en , "Raza Jaffrey"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.025_4yn__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Raza_Jaffrey> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Raza Jaffrey"@en .
+
+<http://rdf.freebase.com/ns/m.025_4yn__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0gl0cs> ;
+        dbo:to      "2013"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0gl0cs>
+        rdfs:label     "Miranda Raison"@en , "Miranda Raison"@fr , "Miranda Raison"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Miranda_Raison> ;
+        skos:altLabel  "Miranda Caroline Raison"@en , "Miranda Raison"@en , "Raison"@en .

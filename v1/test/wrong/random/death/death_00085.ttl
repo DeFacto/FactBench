@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kingston,_Ontario>
+        rdfs:label     "Kingston, Ontario"@de , "Kingston, Ontario"@fr , "Kingston, Ontario"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kingston_(Ontario)> , <http://de.dbpedia.org/resource/Kingston_(Ontario)> ;
+        skos:altLabel  "Kingston on"@en , "Kingston on"@de , "Kingston on"@fr , "Mile Square"@de , "Mile Square"@fr , "Mile Square"@en , "Kingston"@en , "Kingston"@de , "Kingston"@fr , "Kingston, Canada"@de , "Kingston, Canada"@fr , "Kingston, Canada"@en , "Henderson, Kingston, Ontario"@en , "Henderson, Kingston, Ontario"@de , "Henderson, Kingston, Ontario"@fr , "Kingston, ON"@en , "Kingston, ON"@de , "Kingston, ON"@fr , "Henderson, Ontario"@en , "Henderson, Ontario"@de , "Henderson, Ontario"@fr , "Kingston Ontario"@en , "Kingston Ontario"@de , "Kingston Ontario"@fr , "King's Town"@en , "King's Town"@de , "King's Town"@fr , "East Baybridge, Kingston"@en , "East Baybridge, Kingston"@de , "East Baybridge, Kingston"@fr , "Woodbine, Ontario"@de , "Woodbine, Ontario"@fr , "Woodbine, Ontario"@en , "Kingston, Ontario"@en , "Kingston, Ontario"@de , "Kingston, Ontario"@fr , "East Baybridge, Ontario"@de , "East Baybridge, Ontario"@fr , "East Baybridge, Ontario"@en , "Ontario Kingston"@en , "Ontario Kingston"@de , "Ontario Kingston"@fr , "Auden Park, Ontario"@en , "Auden Park, Ontario"@de , "Auden Park, Ontario"@fr , "Barriefield, Ontario"@de , "Barriefield, Ontario"@fr , "Barriefield, Ontario"@en .
+
+<http://dbpedia.org/resource/Katy_Perry__1>
+        dbo:from      "1896"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Kingston,_Ontario> ;
+        dbo:to        "1896"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Katy_Perry>
+        rdfs:label     "Katy Perry"@en , "Katy Perry"@de , "Katy Perry"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Katy_Perry__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Katy_Perry> , <http://de.dbpedia.org/resource/Katy_Perry> ;
+        skos:altLabel  "Ageega"@en , "Ageega"@de , "Ageega"@fr , "Katherine perry"@fr , "Katie Perry"@fr , "Kathy Perry"@fr , "Kathryn Hudson"@en , "Kathryn Hudson"@de , "Kathryn Hudson"@fr , "Katy Hudson"@en , "Katy Perrie"@en , "Katy Perrie"@de , "Katy Perrie"@fr , "Katy Hudson"@de , "Katy Hudson"@fr , "Katy pery"@en , "Katy pery"@de , "Katy pery"@fr , "Katy Elizabeth Hudson"@de , "Perry"@fr , "Katheryn Elizabeth Hudson"@en , "(A) Katy Perry"@en , "(A) Katy Perry"@de , "(A) Katy Perry"@fr , "Kate Perry"@en , "Kate Perry"@de , "Kate Perry"@fr , "Katheryn Elizabeth Hudson"@de , "Katheryn Elizabeth Hudson"@fr , "Katherine Perry"@fr , "Katie Perrie"@en , "Katy perry"@en , "Katie Perrie"@de , "Katy perry"@de , "Katy perry"@fr , "Katie Perrie"@fr , "Katty Perry"@en , "Katty Perry"@de , "Katty Perry"@fr , "Kathryn Elizabeth Hudson"@en , "Kathryn Elizabeth Hudson"@de , "Kathryn Elizabeth Hudson"@fr , "Katheryn Hudson"@en , "Katheryn Hudson"@de , "Katheryn Hudson"@fr , "List of songs recorded by Katy Perry"@en , "List of songs recorded by Katy Perry"@de , "List of songs recorded by Katy Perry"@fr , "Katy Perry"@en , "Katy Perry"@de , "Katy Perry"@fr .

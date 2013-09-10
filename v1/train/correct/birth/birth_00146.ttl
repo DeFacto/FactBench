@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Birmingham,_Alabama>
+        rdfs:label     "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Birmingham, Alabama"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Birmingham_(Alabama)> , <http://fr.dbpedia.org/resource/Birmingham_(Alabama)> ;
+        skos:altLabel  "Birmingham alabama"@fr , "Birmingham alabama"@en , "Birmingham alabama"@de , "Tragic city"@fr , "Tragic city"@en , "Tragic city"@de , "Burmingham, AL"@fr , "Burmingham, AL"@en , "Burmingham, AL"@de , "Birmingham, Alabama"@fr , "Birmingham, Alabama"@en , "Birmingham, Alabama"@de , "Tragic City"@fr , "Tragic City"@en , "Tragic City"@de , "Birmingham, USA"@fr , "Birmingham, USA"@en , "Birmingham, USA"@de , "Bombingham"@fr , "Bombingham"@en , "Bombingham"@de , "Aeroport international de Birmingham"@fr , "Birmingham, AL"@en , "Birmingham, AL"@de , "Birmingham, AL"@fr , "Birmingham"@fr , "Birmingham"@en , "Birmingham"@de , "Pratt City, Alabama"@fr , "Pratt City, Alabama"@en , "Pratt City, Alabama"@de , "Birmingham, Al"@fr , "Birmingham, Al"@en , "Birmingham, Al"@de , "Birmingham, Ala."@fr , "Burmingham, Alabama"@fr , "Birmingham, Ala."@en , "Birmingham, Ala."@de , "Burmingham, Alabama"@en , "Burmingham, Alabama"@de , "Aéroport international de Birmingham"@fr , "The Magic City"@fr , "The Magic City"@en , "The Magic City"@de , "Downtown Birmingham, Alabama"@fr , "Downtown Birmingham, Alabama"@en , "Downtown Birmingham, Alabama"@de , "LOCODE:USBHM"@fr , "LOCODE:USBHM"@en , "LOCODE:USBHM"@de , "Schaeffer Eye Center Crawfish Boil"@fr , "Schaeffer Eye Center Crawfish Boil"@en , "Schaeffer Eye Center Crawfish Boil"@de .
+
+<http://dbpedia.org/resource/Emmylou_Harris__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Birmingham,_Alabama> ;
+        dbo:from        "1947-04-02"^^xsd:date ;
+        dbo:to          "1947-04-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Emmylou_Harris>
+        rdfs:label     "Emmylou Harris"@en , "Emmylou Harris"@fr , "Emmylou Harris"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Emmylou_Harris__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Emmylou_Harris> , <http://de.dbpedia.org/resource/Emmylou_Harris> ;
+        skos:altLabel  "Harris"@fr , "Emylou Harris"@fr , "Emylou Harris"@en , "Emylou Harris"@de , "Emmy Lou Harris"@fr , "Emmy Lou Harris"@de , "Emmy Lou Harris"@en , "Emmylou Harris"@fr , "Emmylou Harris"@de , "Emmylou Harris"@en .

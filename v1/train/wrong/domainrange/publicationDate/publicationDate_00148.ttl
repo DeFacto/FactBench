@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h9g6>
+        rdfs:label  "The Big U"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Big_U> .
+
+<http://rdf.freebase.com/ns/m.01zkwq>
+        rdfs:label     "John C. Wright"@fr , "John C. Wright"@de , "John C. Wright"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zkwq__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_C._Wright> , <http://dbpedia.org/resource/John_C._Wright_(author)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Fugitives of Chaos"@fr , "John Wright"@en , "John C. Wright, Esq."@en , "John Charles Wright"@en , "John C. Wright"@fr , "Titans of Chaos"@fr , "Wright"@fr .
+
+<http://rdf.freebase.com/ns/m.01zkwq__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0h9g6> ;
+        dbo:from    "2001"^^xsd:gYear ;
+        dbo:to      "2001"^^xsd:gYear .

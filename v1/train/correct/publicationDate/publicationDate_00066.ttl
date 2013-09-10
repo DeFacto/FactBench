@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02zlm__66>
+        dbo:author  <http://rdf.freebase.com/ns/m.02zlm> ;
+        dbo:from    "1818"^^xsd:gYear ;
+        dbo:to      "1818"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04_by>
+        rdfs:label       "Mary Shelley"@fr , "Mary Shelley"@de , "Mary Shelley"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.02zlm__66> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Mary_Shelley> , <http://dbpedia.org/resource/Mary_Shelley> , <http://fr.dbpedia.org/resource/Mary_Shelley> ;
+        skos:altLabel    "Mary W Shelley"@fr , "Mary W Shelley"@en , "Mary W Shelley"@de , "Mary Shelly"@fr , "Mary Shelly"@en , "Mary Shelly"@de , "Shelley"@fr , "Shelley"@en , "Shelley"@de , "Mary Wollstonecraft-Shelley"@de , "Mary Shelley"@en , "Mary Shelley"@de , "Mary Shelley"@fr , "Mrs. Mary Wollstonecraft (Godwin) Shelley"@fr , "Mrs. Mary Wollstonecraft (Godwin) Shelley"@en , "Mrs. Mary Wollstonecraft (Godwin) Shelley"@de , "Mary Wollstonecraft Godwin Shelley"@en , "Mary Wollstonecraft Godwin Shelley"@de , "Mary Wollstonecraft Godwin Shelley"@fr , "Mary"@fr , "Mary Wollstonecraft Shelley"@fr , "Mary Wollstonecraft Shelley"@en , "Mary Wollstonecraft Shelley"@de , "Mary Wollstonecraft Shelly"@en , "Shelley, Mary W."@en , "Mrs. Percy B. Shelley"@en , "Mary W. Shelley"@en , "Mary W. Shelley"@de , "Mary W. Shelley"@fr , "Mary Woolstonecraft Godwin"@fr , "Mary Woolstonecraft Godwin"@en , "Mary Woolstonecraft Godwin"@de , "Mary Wollenscraft Shelly"@en , "Mary Wollstonecraft (Godwin) Shelley"@en , "Wollstonecraft Godwin"@en , "Wollstonecraft Godwin"@de , "Wollstonecraft Godwin"@fr , "Mary Wollstonecraft Godwin"@fr , "Mary Wollstonecraft Godwin"@en , "Mary Wollstonecraft Godwin"@de .
+
+<http://rdf.freebase.com/ns/m.02zlm>
+        rdfs:label     "Frankenstein ou le Prométhée moderne"@fr , "Frankenstein"@en , "Frankenstein"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frankenstein_(Roman)> , <http://fr.dbpedia.org/resource/Frankenstein_ou_le_Prométhée_moderne> , <http://dbpedia.org/resource/Frankenstein> ;
+        skos:altLabel  "Frankenstein"@fr , "Frankenstein"@en , "Frankenstein"@de , "Frankenstein: The Modern Prometheus"@fr , "Frankenstein: The Modern Prometheus"@en , "Frankenstein: The Modern Prometheus"@de , "Frankenstein, or the Modern Prometheus"@fr , "Frankenstein, or the Modern Prometheus"@en , "Frankenstein, or the Modern Prometheus"@de , "Frankestein"@fr , "Frankestein"@en , "Frankestein"@de , "Prométhée"@fr , "Frankenstein; or, The Modern Prometheus"@fr , "The Essential Frankenstein"@en , "Frankenstein; or, The Modern Prometheus"@en , "Frankenstein; or, The Modern Prometheus"@de , "Frankenstein; or, the Modern Prometheus"@fr , "Frankenstein; or, the Modern Prometheus"@en , "Frankenstein; or, the Modern Prometheus"@de , "Frankenstien"@en , "Frankenstien"@de , "Frankenstien"@fr , "Henry Clerval"@fr , "Frankenstein Ou Le Promethee Moderne"@fr , "Henry Clerval"@en , "Henry Clerval"@de , "Doctor Frankenstein"@fr , "Doctor Frankenstein"@en , "Doctor Frankenstein"@de , "Frankenstein oder Der moderne Prometheus"@de , "Robert Walton"@fr , "Robert Walton"@en , "Robert Walton"@de , "Frankenstein ou le Prométhé moderne"@fr , "Modern Prometheus"@fr , "Modern Prometheus"@en , "Modern Prometheus"@de , "Frankenstein Ou Le Prométhée Moderne"@fr , "Frankenstein ou le Prométhée moderne"@fr , "The Modern Prometheus"@fr , "The Modern Prometheus"@en , "The Modern Prometheus"@de , "Frankenstein; or, The Modern Prometheu"@fr , "Frankenstein; or, The Modern Prometheu"@en , "Frankenstein; or, The Modern Prometheu"@de , "Promethee"@fr , "Frankenstein ou le Promethee moderne"@fr , "Frankenstein ou le prométhée moderne"@fr , "Frankinsteine"@fr , "Shelley's Frankenstein"@en , "Frankinsteine"@en , "Frankinsteine"@de , "Frankenstein ou le Promethe moderne"@fr , "Frankenstein ou le promethee moderne"@fr , "Frankenstein or The Modern Prometheus"@de .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02h6_6p>
+        rdfs:label     "Munich"@en , "Munich"@fr , "München"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Munich> , <http://dbpedia.org/resource/Munich> , <http://de.dbpedia.org/resource/München> ;
+        skos:altLabel  "Isar-Athen"@de , "Münich"@fr , "Münich"@de , "Münich"@en , "Munchen"@fr , "Munchen"@de , "Munchen"@en , "Munich, Germany"@fr , "Munich West Germany"@fr , "Munchen IRO displaced persons camp"@fr , "Munich West Germany"@de , "Munich West Germany"@en , "Munchen IRO displaced persons camp"@en , "Munchen IRO displaced persons camp"@de , "Verkehr in München"@de , "Munich, Germany"@de , "Munich, Germany"@en , "Landeshauptstadt Munchen"@de , "DEMUC"@fr , "Monaco di Baviera"@fr , "Munichen"@fr , "DEMUC"@de , "Monaco di Baviera"@de , "Munichen"@de , "Monaco di Baviera"@en , "Munichen"@en , "DEMUC"@en , "Monachum"@fr , "Muenchen"@fr , "Monachum"@de , "Muenchen"@de , "Monachum"@en , "Muenchen"@en , "Monachij"@fr , "München IRO displaced persons camp"@fr , "München IRO displaced persons camp"@de , "München IRO displaced persons camp"@en , "Muenchen IRO displaced persons camp"@fr , "Muenchen IRO displaced persons camp"@de , "Muenchen IRO displaced persons camp"@en , "München"@fr , "München"@en , "München"@de , "LOCODE:DEMUC"@fr , "LOCODE:DEMUC"@de , "LOCODE:DEMUC"@en , "München, Germany"@fr , "München, Germany"@de , "München, Germany"@en , "Muenich"@fr , "Muenchen, Germany"@fr , "Muenich"@de , "Muenchen, Germany"@de , "Muenich"@en , "Muenchen, Germany"@en , "Obermenzing"@fr , "Obermenzing"@en , "Obermenzing"@de , "City of Munich"@fr , "Munich, Bavaria"@fr , "Munchen, Germany"@fr , "Munchen, Germany"@en , "Munchen, Germany"@de , "City of Munich"@de , "Munich, Bavaria"@de , "Munich, Bavaria"@en , "City of Munich"@en , "Monachium"@fr , "Landeshauptstadt München"@de , "Monachium"@de , "Monachium"@en , "Munch"@fr , "Munch"@de , "Munch"@en , "Munich"@fr , "Munich"@de , "Munich"@en , "Education in Munich"@fr , "Education in Munich"@en , "Education in Munich"@de , "Múnich"@fr , "Múnich"@de , "Minga"@en , "Verkehr in Munchen"@de , "Múnich"@en .
+
+<http://rdf.freebase.com/ns/m.02vn7r__22>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02h6_6p> ;
+        dbo:from             "1963"^^xsd:gYear ;
+        dbo:to               "1963"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02vn7r>
+        rdfs:label      "Nemetschek"@fr , "Nemetschek"@de , "Nemetschek"@en ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.02vn7r__22> ;
+        owl:sameAs      <http://de.dbpedia.org/resource/Nemetschek_AG> , <http://fr.dbpedia.org/resource/Nemetschek> , <http://dbpedia.org/resource/Nemetschek> ;
+        skos:altLabel   "Graphisoft"@de , "Nemetschek AG"@de , "Nemetschek"@fr , "Nemetschek"@de , "Nemetschek"@en , "Nemetscheck"@fr , "Nemetscheck"@de , "Nemetscheck"@en .

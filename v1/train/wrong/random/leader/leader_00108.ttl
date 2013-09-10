@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jason_Richardson>
+        rdfs:label     "Jason Richardson"@de , "Jason Richardson"@en , "Jason Richardson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jason_Richardson__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Jason_Richardson> , <http://fr.dbpedia.org/resource/Jason_Richardson> ;
+        skos:altLabel  "J Rich"@en , "Jason Anthoney (J-Rich) Richardson"@en , "J Rich"@fr , "Jason Anthoney (J-Rich) Richardson"@fr , "J Rich"@de , "Jason Anthoney (J-Rich) Richardson"@de , "J-Rich"@en , "Jason Richardson"@en , "J-Rich"@fr , "Jason Richardson"@fr , "Jason Richardson"@de , "J-Rich"@de , "Richardson"@fr , "Jason Anthoney \"J-Rich\" Richardson"@en , "Jason Anthoney \"J-Rich\" Richardson"@fr , "Jason Anthoney \"J-Rich\" Richardson"@de , "Jason Anthoney Richardson"@en , "Jason Anthoney Richardson"@fr , "Jason Anthoney Richardson"@de .
+
+<http://dbpedia.org/resource/Jason_Richardson__1>
+        dbo:from  "1999"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Norway> ;
+        dbo:to    "1999"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Norway>
+        rdfs:label     "Norway"@en , "Norway"@de , "Norway"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Norwegen> , <http://fr.dbpedia.org/resource/Norvège> ;
+        skos:altLabel  "Noregur"@en , "Noregur"@de , "Noregur"@fr , "Norwegian kingdom"@en , "Norvegienne"@fr , "Norwegian kingdom"@de , "Norwegian kingdom"@fr , "Norvégienne"@fr , "Royaume de Norvege"@fr , "Norwegen"@en , "Norwegen"@fr , "Norwegen"@de , "Norwegia"@en , "Norge"@de , "Norge"@fr , "Royal Kingdom of Norway"@en , "Norwegia"@fr , "Royal Kingdom of Norway"@de , "Royal Kingdom of Norway"@fr , "Norwegia"@de , "Norvége"@fr , "Norwegische Literatur"@de , "Kongeriket Norge"@en , "NORWAY"@en , "NORWAY"@de , "Kongeriket Norge"@de , "Kongeriket Norge"@fr , "NORWAY"@fr , "Etymology of Norway"@en , "Etymology of Norway"@de , "Etymology of Norway"@fr , "Norvege"@en , "Norvege"@de , "Norvege"@fr , "Royaume de Norvège"@fr , "Noreg"@fr , "Nore"@fr , "Noorwegen"@en , "Noorwegen"@de , "Noorwegen"@fr , "Norwegian state"@en , "Norwegian state"@de , "Norwegian state"@fr , "Konigreich Norwegen"@de , "ISO 3166-1:NO"@en , "ISO 3166-1:NO"@de , "ISO 3166-1:NO"@fr , "Noruega"@en , "Noruega"@de , "Noruega"@fr , "Norway"@en , "Norway"@fr , "Norway"@de , "Königreich Norwegen"@de , "Kongeriket Noreg"@en , "Kongeriket Noreg"@fr , "Kongeriket Noreg"@de , "Norvège"@en , "Norvège"@de , "Norvège"@fr .

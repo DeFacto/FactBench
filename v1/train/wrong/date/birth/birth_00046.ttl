@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Albany,_Georgia>
+        rdfs:label     "Albany, Georgia"@de , "Albany, Georgia"@en , "Albany, Georgia"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Albany_(Géorgie)> , <http://de.dbpedia.org/resource/Albany_(Georgia)> ;
+        skos:altLabel  "Albany georgia"@en , "Albany georgia"@fr , "Aeroport regional d'Albany"@fr , "Albany georgia"@de , "Albany, ga"@en , "Albany, ga"@fr , "Albany, ga"@de , "Albany Regional Airport"@fr , "The intersection of Lonesome & Hardup"@en , "Albany, GA"@en , "Aéroport régional d'Albany"@fr , "Albany, GA"@fr , "Albany, GA"@de , "LOCODE:USABY"@en , "LOCODE:USABY"@fr , "LOCODE:USABY"@de , "The intersection of Lonesome & Hardup"@fr , "The intersection of Lonesome & Hardup"@de , "Albany"@en , "Albany"@fr , "Albany"@de , "Albany, Georgia"@en , "Albany, Georgia"@fr , "Albany, Georgia"@de .
+
+<http://dbpedia.org/resource/Ray_Charles>
+        rdfs:label     "Ray Charles"@en , "Ray Charles"@fr , "Ray Charles"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ray_Charles__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ray_Charles> , <http://fr.dbpedia.org/resource/Ray_Charles> ;
+        skos:altLabel  "Ray charles"@fr , "The Pages of My Mind"@de , "Ray charles"@de , "The Pages Of My Mind"@en , "Charles"@fr , "The Pages Of My Mind"@fr , "The Pages Of My Mind"@de , "Raymond Charles Robinson"@de , "Ray Charles"@en , "Ray Charles"@fr , "Ray Charles"@de , "I Believe to My Soul"@en , "I Believe to My Soul"@fr , "I Believe to My Soul"@de , "Ray Charles Band"@en , "Ray Charles Band"@fr , "Ray Charles Band"@de , "The Pages of My Mind"@en , "Ray Charles Robinson"@en , "Ray charles"@en , "Ray Charles Robinson"@fr , "Ray Charles Robinson"@de , "The Pages of My Mind"@fr .
+
+<http://dbpedia.org/resource/Ray_Charles__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Albany,_Georgia> ;
+        dbo:from        "1937"^^xsd:gYear ;
+        dbo:to          "1937"^^xsd:gYear .

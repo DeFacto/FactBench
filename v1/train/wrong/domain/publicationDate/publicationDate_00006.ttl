@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02rds__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05g5q> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02rds>
+        rdfs:label     "Edwin Abbott Abbott"@en , "Edwin Abbott Abbott"@fr , "Edwin Abbott Abbott"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02rds__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://fr.dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://de.dbpedia.org/resource/Edwin_Abbott_Abbott> ;
+        skos:altLabel  "Edwin Abbott"@fr , "Edwin Abbott"@de , "E. A. Abbott"@fr , "E. A. Abbott"@de , "Abbott, Edwin Abbott"@fr , "Abbott, Edwin Abbott"@de , "Edwin A. Abbott"@en , "A Square"@en , "Edwin A. Abbott"@fr , "Edwin Abbott Abbott"@fr , "Edwin Abbott Abbott"@de , "Edwin A. Abbott"@de , "Edwin abbott abbot"@fr , "Edwin abbott abbot"@de , "Abbott"@fr .
+
+<http://rdf.freebase.com/ns/m.05g5q>
+        rdfs:label     "Neuromancer"@en , "Neuromancer"@de , "Neuromancien"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Neuromancer> , <http://dbpedia.org/resource/Neuromancer> , <http://fr.dbpedia.org/resource/Neuromancien> ;
+        skos:altLabel  "Neuromancer-Trilogie"@de , "Hosaka"@de , "Hosaka"@fr , "Hosaka"@en , "Willis Corto"@en , "Panther Moderns"@en , "Panther Moderns"@de , "Panther Moderns"@fr , "Willis Corto"@de , "Willis Corto"@fr , "Screaming Fist"@de , "Screaming Fist"@fr , "Screaming Fist"@en , "Purple Octogon"@en , "Purple Octogon"@de , "Purple Octogon"@fr , "Henry Dorsett Case"@en , "Panther moderns"@en , "Henry Dorsett Case"@de , "Henry Dorsett Case"@fr , "Turing Police"@de , "Turing Police"@fr , "Count Zero"@de , "Panther moderns"@de , "Panther moderns"@fr , "Turing Police"@en , "Biochips"@de , "Sprawl"@de , "Neuromancien"@fr , "Panther modern"@en , "Panther modern"@de , "Panther modern"@fr , "Case"@en , "Case"@de , "Case"@fr , "Neuromancer"@fr , "Neuromancer"@en , "Neuromancer"@de , "Wintermute"@en , "Jive"@de , "Wintermute"@de , "Wintermute"@fr , "Jive"@fr , "Jive"@en , "Mona Lisa Overdrive"@de .

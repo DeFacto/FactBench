@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04093__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0dk8yc> ;
+        dbo:from    "1877"^^xsd:gYear ;
+        dbo:to      "1877"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04093>
+        rdfs:label     "Jules Verne"@de , "Jules Verne"@fr , "Jules Verne"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04093__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Jules_Verne> , <http://de.dbpedia.org/resource/Jules_Verne> , <http://fr.dbpedia.org/resource/Jules_Verne> ;
+        skos:altLabel  "Jules vernes"@fr , "J. Verne"@en , "Julius verne"@de , "Julius verne"@fr , "Julius verne"@en , "Honorine Verne"@de , "Honorine Verne"@fr , "Honorine Verne"@en , "JulesVerne"@en , "JulesVerne"@de , "JulesVerne"@fr , "Honorine de Viane Morel"@de , "Honorine de Viane Morel"@fr , "Honorine de Viane Morel"@en , "Jules Gabriel Verne"@en , "Júlio Verne"@en , "Jules Gabriel Verne"@de , "Jules Gabriel Verne"@fr , "Verne gyula"@de , "Verne gyula"@fr , "Verne gyula"@en , "Les Œuvres de jules verne"@fr , "Jules Verne"@en , "Jules Verne"@de , "Jules Verne"@fr , "The Father of Science Fiction"@en , "Julio Verne"@en , "Jules verne"@en , "Jules"@de , "Jules"@fr , "Jules"@en , "Jules verne"@de , "Jules verne"@fr , "Verne"@de , "Verne"@fr , "Verne"@en , "Verne, Jules"@de , "Verne, Jules"@fr , "Verne, Jules"@en .
+
+<http://rdf.freebase.com/ns/m.0dk8yc>
+        rdfs:label     "Les Cinq Cents Millions de la Bégum"@fr , "Die 500 Millionen der Begum"@de , "The Begum's Fortune"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Begum's_Fortune> , <http://de.dbpedia.org/resource/Die_500_Millionen_der_Begum> , <http://fr.dbpedia.org/resource/Les_Cinq_Cents_Millions_de_la_Bégum> ;
+        skos:altLabel  "Les Cinq Cents Millions De La Bégum"@fr , "Les 500 millions de la Begum"@fr , "Les cinq cents millions de la bégum"@fr , "Die 500 Millionen der Begum"@de , "Les cinq cents millions de la Bégum"@fr , "Les Cinq Cents Millions de la Bégum"@fr , "Begum's fortune"@en , "Begum's fortune"@fr , "Begum's fortune"@de , "Les Cinq Cents Millions De La Begum"@fr , "Les Cinq Cents Millions de la Begum"@fr , "Les cinq cents millions de la Begum"@fr , "The 500 Millions of the Begum"@en , "The Begum's Millions"@en , "The Begum's Millions"@fr , "The Begum's Millions"@de , "Begum's millions"@en , "The Begum's Fortune"@en , "Begum's millions"@fr , "The Begum's Fortune"@fr , "The Begum's Fortune"@de , "Les 500 millions de la Bégum"@fr , "Begum's millions"@de , "Les cinq cents millions de la begum"@fr .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03c1446>
+        rdfs:label  "Jamie Yeo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jamie_Yeo> .
+
+<http://dbpedia.org/resource/Lou_Reed__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.03c1446> ;
+        dbo:from        "2008"^^xsd:gYear ;
+        dbo:to          "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Lou_Reed>
+        rdfs:label     "Lou Reed"@fr , "Lou Reed"@de , "Lou Reed"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Lou_Reed__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lou_Reed> , <http://fr.dbpedia.org/resource/Lou_Reed> ;
+        skos:altLabel  "Reed"@fr , "Lou Reed"@en , "Lou Reed"@fr , "Lou Reed"@de .

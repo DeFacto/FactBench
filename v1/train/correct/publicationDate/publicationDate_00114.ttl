@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c7ypj>
+        rdfs:label  "Castle"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Castle_(novel)> .
+
+<http://rdf.freebase.com/ns/m.01qqfy>
+        rdfs:label       "Garth Nix"@fr , "Garth Nix"@en , "Garth Nix"@de ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0c7ypj__114> ;
+        owl:sameAs       <http://dbpedia.org/resource/Garth_Nix> , <http://de.dbpedia.org/resource/Garth_Nix> , <http://fr.dbpedia.org/resource/Garth_Nix> ;
+        skos:altLabel    "Nix, Garth"@en , "Clariel: The Lost Abhorsen"@fr , "Clariel: The Lost Abhorsen"@de , "Clariel: The Lost Abhorsen"@en , "Garth"@fr , "Garth"@de , "Garth"@en , "Garth Nix"@fr , "Garth Nix"@de , "Garth Nix"@en .
+
+<http://dbpedia.org/resource/Castle_(novel)>
+        skos:altLabel  "Castle"@en .
+
+<http://rdf.freebase.com/ns/m.0c7ypj__114>
+        dbo:author  <http://rdf.freebase.com/ns/m.0c7ypj> ;
+        dbo:from    "2000"^^xsd:gYear ;
+        dbo:to      "2000"^^xsd:gYear .

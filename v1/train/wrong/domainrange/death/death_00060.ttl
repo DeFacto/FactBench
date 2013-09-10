@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Agra>
+        rdfs:label     "Agra"@en , "Agra"@fr , "Agra"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Agra> , <http://fr.dbpedia.org/resource/Āgrā> ;
+        skos:altLabel  "Āgrā"@fr , "Eklavya Sports Stadium"@en , "Eklavya Sports Stadium"@fr , "Eklavya Sports Stadium"@de , "Āgra"@en , "Āgra"@fr , "Āgra"@de , "Agra"@en , "Agra newspapers"@en , "Agra"@fr , "Agra newspapers"@fr , "Agra newspapers"@de , "Agra"@de , "Agra, Uttar Pradesh"@en , "Agra, Uttar Pradesh"@fr , "Agra, Uttar Pradesh"@de , "Agra, India"@en , "LOCODE:INAGR"@en , "Agra, India"@fr , "LOCODE:INAGR"@fr , "Agra, India"@de , "LOCODE:INAGR"@de , "Âgrâ"@fr .
+
+<http://dbpedia.org/resource/John_Ford>
+        rdfs:label     "John Ford"@en , "John Ford"@fr , "John Ford"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/John_Ford__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/John_Ford> , <http://fr.dbpedia.org/resource/John_Ford> ;
+        skos:altLabel  "Ford, John"@en , "John Ford"@en , "John Ford statue"@en , "John Ford"@fr , "John Ford"@de , "John Ford statue"@fr , "John Ford statue"@de , "Ford, John"@fr , "Ford, John"@de , "Cavalry trilogy"@en , "Cavalry trilogy"@fr , "Cavalry trilogy"@de , "John ford"@fr , "Ford"@fr , "John Martin Feeney"@fr .
+
+<http://dbpedia.org/resource/John_Ford__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Agra> ;
+        dbo:from        "1982"^^xsd:gYear ;
+        dbo:to          "1982"^^xsd:gYear .

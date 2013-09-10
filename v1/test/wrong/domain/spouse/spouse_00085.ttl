@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027083b>
+        rdfs:label     "Alexondra Lee"@en , "Alexondra Lee"@fr , "Alexondra Lee"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Alexondra_Lee> , <http://fr.dbpedia.org/resource/Alexondra_Lee> , <http://de.dbpedia.org/resource/Alexondra_Lee> ;
+        skos:altLabel  "Alexondra Lee"@fr , "Alexondra Lee"@de .
+
+<http://rdf.freebase.com/ns/m.0h7bj3v>
+        rdfs:label  "Grihalakshmi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h7bj3v__1> .
+
+<http://rdf.freebase.com/ns/m.0h7bj3v__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.027083b> ;
+        dbo:to      "2012"^^xsd:gYear .

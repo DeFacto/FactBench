@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hidden_Hills,_California>
+        rdfs:label     "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hidden_Hills> , <http://de.dbpedia.org/resource/Hidden_Hills> ;
+        skos:altLabel  "Hidden Hills, California"@en , "Hidden Hills, California"@fr , "Hidden Hills, California"@de , "Hidden hills california"@en , "Hidden hills california"@fr , "Hidden hills california"@de , "Hidden Hills, CA"@en , "Hidden Hills, CA"@de , "Hidden Hills, CA"@fr , "Hidden Hills"@fr , "Hidden Hills"@de .
+
+<http://dbpedia.org/resource/Walt_Disney__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hidden_Hills,_California> ;
+        dbo:from        "1966"^^xsd:gYear ;
+        dbo:to          "1966"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Walt_Disney>
+        rdfs:label     "Walt Disney"@de , "Walt Disney"@fr , "Walt Disney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Walt_Disney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Walt_Disney> , <http://fr.dbpedia.org/resource/Walt_Disney> ;
+        skos:altLabel  "Walter Disney"@en , "Walter Disney"@de , "Walter Disney"@fr , "Walt"@de , "Walt"@fr , "Walter Elias Disney"@en , "Walter Elias Disney"@de , "Walter Elias Disney"@fr , "Walter E. Disney"@en , "Walter E. Disney"@de , "Walter E. Disney"@fr , "Walt Disney"@de , "Walt Disney"@fr , "Walt Disney"@en , "Walt disney"@en , "Walt disney"@de , "Walt disney"@fr , "Walt disney School"@en , "Walt disney School"@fr , "Walt disney School"@de , "Walt E. Disney"@en , "Walt E. Disney"@de , "Walt E. Disney"@fr , "Walt Elias Disney"@en , "Walt Elias Disney"@de , "Walt Elias Disney"@fr , "Walt Disney School"@en , "Walt Disney School"@de , "Walt Disney School"@fr , "Elias"@fr , "Waltdisney"@en , "Waltdisney"@de , "Waltdisney"@fr , "1900s walt timeline"@en , "1900s walt timeline"@de , "1900s walt timeline"@fr , "Walter E Disney"@en , "Walter E Disney"@de , "Walter E Disney"@fr , "Walt DisneyY"@en , "Walt DisneyY"@de , "Walt DisneyY"@fr , "Disney"@en , "Disney"@de , "Disney"@fr , "Walter Elias \"Walt\" Disney"@en , "Walter Elias \"Walt\" Disney"@de , "Walter Elias \"Walt\" Disney"@fr , "W. Disney"@en , "W. Disney"@de , "W. Disney"@fr , "Walt"@en .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07zl1>
+        rdfs:label     "Vernor Vinge"@en , "Vernor Vinge"@fr , "Vernor Vinge"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.07zl1__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Vernor_Vinge> , <http://de.dbpedia.org/resource/Vernor_Vinge> , <http://dbpedia.org/resource/Vernor_Vinge> ;
+        skos:altLabel  "Vernor Steffen Vinge"@en , "Vernor vinge"@en , "Across Realtime"@en , "Vernor vinge"@fr , "Across Realtime"@fr , "Vernor vinge"@de , "Across Realtime"@de , "Vernor"@en , "Vernor"@fr , "Vernor"@de , "Vinge"@en , "Vinge"@fr , "Vinge"@de , "Vernor Vinge"@en , "Vernor Vinge"@fr , "Vernor Vinge"@de , "Vernon Vinge"@en , "Vernon Vinge"@fr , "Vernon Vinge"@de .
+
+<http://rdf.freebase.com/ns/m.0dr0_b>
+        rdfs:label  "Back in the USSA"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Back_in_the_USSA> .
+
+<http://rdf.freebase.com/ns/m.07zl1__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0dr0_b> ;
+        dbo:from    "1997"^^xsd:gYear ;
+        dbo:to      "1997"^^xsd:gYear .

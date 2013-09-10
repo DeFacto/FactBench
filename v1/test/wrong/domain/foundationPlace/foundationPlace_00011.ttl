@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04yx44__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.06pwq> ;
+        dbo:from             "1994"^^xsd:gYear ;
+        dbo:to               "1994"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04yx44>
+        rdfs:label     "Applied Minds"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.04yx44__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Applied_Minds> ;
+        skos:altLabel  "Applied Minds, Inc."@en , "AMI"@en .
+
+<http://rdf.freebase.com/ns/m.06pwq>
+        rdfs:label     "Stanford University"@de , "Stanford University"@en , "Université Stanford"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Stanford_University> , <http://fr.dbpedia.org/resource/Université_Stanford> , <http://dbpedia.org/resource/Stanford_University> ;
+        skos:altLabel  "Stanford"@en , "Stanford"@de , "Stanford"@fr , "Stanford.edu"@en , "Stanford University"@en , "Stanford uni"@en , "Stanford.edu"@fr , "Stanford University"@fr , "Stanford.edu"@de , "Stanford uni"@de , "Stanford University"@de , "Stanford uni"@fr , "Stanford university"@en , "Stanford university"@fr , "Stanford university"@de , "Leland Stanford, Jr. University"@en , "Stanford Hymn"@en , "Arrillaga Alumni Center"@en , "Stanford Univ."@en , "Stanford Univ."@de , "Stanford Univ."@fr , "Leland Stanford, Jr. University"@fr , "Universite de Stanford"@fr , "Stanford-University"@de , "Arrillaga Alumni Center"@de , "Arrillaga Alumni Center"@fr , "Leland Stanford, Jr. University"@de , "Stanford Hymn"@fr , "Stanford Hymn"@de , "Stanford Univeristy"@en , "Stanford Univeristy"@fr , "Stanford Univeristy"@de , "The Farm"@en , "Stanford Roble Gym"@en , "Stanford Roble Gym"@de , "Stanford Roble Gym"@fr , "LSJU"@en , "LSJU"@de , "LSJU"@fr , "Leland Stanford Jr. University"@en , "Leland Stanford Jr. University"@fr , "Leland Stanford Jr. University"@de , "Leland Stanford Junior University"@en , "Leland Stanford Junior University"@fr , "Leland Stanford Junior University"@de , "Stanford-Universität"@de , "Leland Stanford Jr University"@en , "Leland Stanford Jr University"@fr , "Leland Stanford Jr University"@de , "Stanfurd"@en , "Stanfurd"@de , "Stanfurd"@fr , "SU"@en , "Stanford-Universitat"@de , "Universitat Stanford"@de , "University of Stanford"@en , "University of Stanford"@fr , "University of Stanford"@de , "Universite Stanford"@fr , "Université Stanford"@fr , "Stanford School of Medicine"@de , "Université de Stanford"@fr , "Stanford U."@en , "Stanford U."@fr , "Stanford U."@de , "Stanford University Medical School"@de , "Sanford"@en , "Sanford"@de , "Sanford"@fr , "Universität Stanford"@de .

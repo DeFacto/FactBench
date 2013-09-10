@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.021y1s>
+        rdfs:label     "Warwickshire"@en , "Warwickshire"@fr , "Warwickshire"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Warwickshire> , <http://dbpedia.org/resource/Warwickshire> , <http://fr.dbpedia.org/resource/Warwickshire> ;
+        skos:altLabel  "Great wolford"@en , "Great wolford"@fr , "Comte de Warwickshire"@fr , "Great wolford"@de , "Warwick"@en , "Warks"@en , "Warwick"@fr , "Warks"@fr , "Warks"@de , "Warwick"@de , "Warwickshire"@en , "County Of Warwickshire"@en , "Warwickshire, England"@en , "Warwickshire"@fr , "Warwickshire, England"@fr , "Warwickshire"@de , "Warwickshire, England"@de , "Comté de Warwickshire"@fr , "Great Wolford"@en , "Warwickshire County Council"@en , "Great Wolford"@fr , "Warwickshire County Council"@fr , "Great Wolford"@de , "GB-WAR"@de , "Warwickshire County Council"@de , "Yew Green"@en , "Yew Green"@fr , "Yew Green"@de , "County of Warwick"@en , "County of Warwick"@fr , "County of Warwick"@de .
+
+<http://rdf.freebase.com/ns/m.030r7mq__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.021y1s> ;
+        dbo:from             "1993"^^xsd:gYear ;
+        dbo:to               "1993"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.030r7mq>
+        rdfs:label     "Day Software Inc"@en , "Day Software"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.030r7mq__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Day_Software> , <http://de.dbpedia.org/resource/Day_Software> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Day Software"@en , "Day Software"@de , "Day Software Holding AG"@de .

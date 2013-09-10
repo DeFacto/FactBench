@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Melbourne>
+        rdfs:label     "Melbourne"@de , "Melbourne"@fr , "Melbourne"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Melbourne> , <http://de.dbpedia.org/resource/Melbourne> ;
+        skos:altLabel  "Geography of Melbourne"@en , "Geography of Melbourne"@fr , "Geography of Melbourne"@de , "Melbourne, Victoria"@en , "Melbourne, Victoria"@fr , "Melbourne, Victoria"@de , "Melbournian"@en , "Essendon"@fr , "LOCODE:AUMEL"@en , "Melbournian"@fr , "Melbournian"@de , "LOCODE:AUMEL"@fr , "LOCODE:AUMEL"@de , "Bearbrass"@en , "Bearbrass"@fr , "Bearbrass"@de , "Melborne"@en , "Melborne"@fr , "Melborne"@de , "Melbouren"@en , "Melbouren"@de , "Melbouren"@fr , "Aeroport d'Essendon"@fr , "Economy of Melbourne"@en , "Economy of Melbourne"@de , "Economy of Melbourne"@fr , "Melbourne"@en , "Melbourne"@de , "Melbourne"@fr , "Melben"@en , "Melben"@fr , "Melben"@de , "Kensington Community High School"@en , "Mlbourne"@en , "Kensington Community High School"@fr , "Kensington Community High School"@de , "Mlbourne"@de , "Mlbourne"@fr , "Melb"@en , "Melb"@fr , "Melb"@de , "Melbourne (Vic.), Australia"@en , "Melbourne (Vic.), Australia"@fr , "Melbourne (Vic.), Australia"@de , "Melbourne, Australia."@en , "Melbourne, Victoria, Australia"@en , "Melbourne, Victoria, Australia"@de , "Melbourne, Victoria, Australia"@fr , "Melbourne city"@en , "Melbourne, Australia."@fr , "Melbourne, Australia."@de , "Melbourne city"@fr , "Melbourne city"@de , "Mlebourne"@en , "Mlebourne"@fr , "Mlebourne"@de , "Melbourne, VIC"@en , "Marvellous melbourne"@en , "Marvellous melbourne"@de , "Marvellous melbourne"@fr , "Melbourne, VIC"@de , "Melbourne, VIC"@fr , "Melbourne australia"@en , "Melbourne australia"@de , "Melbourne australia"@fr , "Melbourne, AU-VIC"@en , "Melbourne, AU-VIC"@fr , "Melbourne, AU-VIC"@de , "Melbourne, Australia"@en , "Melbourne, Australia"@fr , "Melbourne, Australia"@de , "Greater Melbourne"@en , "Greater Melbourne"@fr , "Greater Melbourne"@de , "Melbourne Australia"@en , "Melbourne Australia"@de , "Melbourne Australia"@fr , "Essendon Airport"@fr , "Aéroport d'Essendon"@fr .
+
+<http://dbpedia.org/resource/David_Lloyd_George>
+        rdfs:label     "David Lloyd George"@de , "David Lloyd George"@fr , "David Lloyd George"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Lloyd_George__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Lloyd_George> , <http://fr.dbpedia.org/resource/David_Lloyd_George> ;
+        skos:altLabel  "Lloyd George, David, 1st Earl of Dwyfor"@de , "Lloyd George, David, 1st Earl of Dwyfor"@fr , "Lloyd George, David, 1st Earl of Dwyfor"@en , "The Welsh Wizard"@de , "The Welsh Wizard"@fr , "The Welsh Wizard"@en , "David Lloyd"@en , "David Lloyd"@de , "David Lloyd"@fr , "Lloyd George, David"@de , "Lloyd George, David"@fr , "Lloyd George, David"@en , "David Lloyd-George"@de , "David Lloyd-George"@fr , "David Lloyd-George"@en , "Lloyd George"@de , "Lloyd George"@fr , "Lloyd George"@en , "Lloyd Georges"@fr , "Llyod George"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@de , "David, 1st Earl Lloyd-George of Dwyfor"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@en , "D Lloyd-George"@de , "D Lloyd-George"@fr , "D Lloyd-George"@en , "Lloyd"@fr , "David Lloyd George, 1. Earl Lloyd George of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@fr , "David Lloyd George, 1st Earl of Dwyfor"@en , "David Lloyd George"@en , "David Lloyd George"@de , "David Lloyd George"@fr , "Lloyd-George"@en , "Richard Lloyd"@en , "Richard Lloyd"@de , "Richard Lloyd"@fr , "Lloyd-George"@de , "Lloyd-George"@fr .
+
+<http://dbpedia.org/resource/David_Lloyd_George__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Melbourne> ;
+        dbo:from        "1854"^^xsd:gYear ;
+        dbo:to          "1854"^^xsd:gYear .

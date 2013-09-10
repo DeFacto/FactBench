@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j0pf>
+        rdfs:label     "Alastair Reynolds"@en , "Alastair Reynolds"@fr , "Alastair Reynolds"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j0pf__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Alastair_Reynolds> , <http://fr.dbpedia.org/resource/Alastair_Reynolds> , <http://de.dbpedia.org/resource/Alastair_Reynolds> ;
+        skos:altLabel  "Reynolds"@fr , "Alastair Reynolds"@en , "Alastair Reynolds"@fr , "Alastair Reynolds"@de .
+
+<http://rdf.freebase.com/ns/m.0j0pf__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02f92_> ;
+        dbo:from    "1943"^^xsd:gYear ;
+        dbo:to      "1943"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02f92_>
+        rdfs:label     "Le Jeu des perles de verre"@fr , "The Glass Bead Game"@en , "Das Glasperlenspiel"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Glass_Bead_Game> , <http://de.dbpedia.org/resource/Das_Glasperlenspiel> , <http://fr.dbpedia.org/resource/Le_Jeu_des_perles_de_verre> ;
+        skos:altLabel  "The Glass Bead Game - Magister Ludi"@en , "Magister"@en , "Magister"@de , "Magister"@fr , "Le jeu des perles de verre"@fr , "Le Jeu Des Perles De Verre"@fr , "Joseph Knecht"@de , "Joseph Knecht"@fr , "Joseph Knecht"@en , "Glass Bead Game"@en , "Das Glasperlenspiel"@en , "Magister Ludi"@fr , "Das Glasperlenspiel"@de , "Glass Bead Game"@de , "Glass Bead Game"@fr , "Das Glasperlenspiel"@fr , "Magister Ludi"@en , "Magister Ludi"@de , "Digital bead game"@en , "Digital bead game"@de , "The Glass Bead Game"@de , "The Glass Bead Game"@fr , "The Glass Bead Game"@en , "Digital bead game"@fr , "Le Jeu des perles de verre"@fr , "The Glass-Bead game"@en , "The Glass-Bead game"@de , "The Glass-Bead game"@fr , "Efforts to Create A Glass Bead Game"@de , "Efforts to Create A Glass Bead Game"@fr , "Efforts to Create A Glass Bead Game"@en , "Glass bead game"@de , "Glass bead game"@fr , "Glass bead game"@en , "Glasperlenspiel"@de , "Glasperlenspiel"@fr , "Glasperlenspiel"@en , "Das glasperlenspiel"@de , "Das glasperlenspiel"@fr , "Das glasperlenspiel"@en , "Kastalien"@de , "Bead game"@en , "Bead game"@de , "Bead game"@fr .

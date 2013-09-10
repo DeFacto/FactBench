@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h75m53>
+        rdfs:label  "Samrat Dahal"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0h75m53__1> .
+
+<http://rdf.freebase.com/ns/m.01v40wd>
+        rdfs:label     "Nas"@de , "Nas"@fr , "Nas"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nas_(Rapper)> , <http://fr.dbpedia.org/resource/Nas_(rappeur)> , <http://dbpedia.org/resource/Nas> ;
+        skos:altLabel  "Nas Escobar"@de , "Nas Escobar"@fr , "Nas Escobar"@en , "Nasir Jones"@de , "Nasir Jones"@fr , "Nasir Jones"@en , "Nas, will.i.am"@en , "The Jones Experience"@de , "The Jones Experience"@fr , "The Jones Experience"@en , "Nas Jones"@de , "Nas Jones"@fr , "Nas Jones"@en , "Nastradamus"@en , "Nasir bin Olu Dara"@de , "Nasir bin Olu Dara"@fr , "Nasir bin Olu Dara"@en , "Nasir bin Olu Dara Jones"@de , "Nasir bin Olu Dara Jones"@en , "Nasir"@de , "Nasir"@fr , "Nasir"@en , "Nasir Bin Olu Dara"@de , "Nasir Bin Olu Dara"@fr , "Nasir Bin Olu Dara"@en , "Nas & will.i.am"@en , "Nasty Nas"@de , "Nasty Nas"@fr , "Nasty Nas"@en , "Nas (Rapper)"@de , "Nas (rappeur)"@fr , "Scarlett"@en , "Nasir Bin Olu Dara Jones"@de , "Nasir Bin Olu Dara Jones"@fr , "Nasir Bin Olu Dara Jones"@en .
+
+<http://rdf.freebase.com/ns/m.0h75m53__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01v40wd> ;
+        dbo:to      "2011"^^xsd:gYear .

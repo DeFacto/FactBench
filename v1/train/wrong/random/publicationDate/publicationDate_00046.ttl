@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08433__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.05d0hs> ;
+        dbo:to    "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08433>
+        rdfs:label     "William S. Burroughs"@de , "William S. Burroughs"@fr , "William S. Burroughs"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.08433__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/William_S._Burroughs> , <http://fr.dbpedia.org/resource/William_S._Burroughs> , <http://dbpedia.org/resource/William_S._Burroughs> ;
+        skos:altLabel  "Williams Burroughs"@fr , "William Seward Burroughs II"@en , "William Seward Burroughs II"@de , "William Seward Burroughs II"@fr , "William Seward Burroughs, II"@en , "William Seward Burroughs, II"@de , "William Seward Burroughs, II"@fr , "W. S. Burroughs"@en , "W. S. Burroughs"@de , "W. S. Burroughs"@fr , "William"@fr , "William S. Burroughs"@de , "William S. Burroughs"@fr , "William S. Burroughs"@en , "Ilse Klapper"@en , "Ilse Klapper"@de , "Ilse Klapper"@fr , "Burroughs, William S."@en , "Burroughs, William S."@de , "Burroughs, William S."@fr , "William Seward Burroughs"@en , "William Seward Burroughs"@fr , "Wiliam s burroughs"@en , "Wiliam s burroughs"@de , "Wiliam s burroughs"@fr , "Bill Burroughs"@de , "Bill Burroughs"@fr , "Bill Burroughs"@en , "William S Burroughs"@en , "William S Burroughs"@de , "William S Burroughs"@fr , "Bill"@en , "William burrough"@en , "William burrough"@de , "William burrough"@fr , "William S. Burroughs, Sr."@de , "William S. Burroughs, Sr."@fr , "William S. Burroughs, Sr."@en , "William Burroughs"@en , "William Burroughs"@de , "William Burroughs"@fr , "William Lee"@en , "Burroughs"@en , "Burroughs"@de , "Burroughs"@fr , "William S. Bourroughs"@de , "William S. Bourroughs"@en , "The Invisible Man"@en , "Il hombre invisible"@en , "W.S. Burroughs"@en , "W.S. Burroughs"@de , "W.S. Burroughs"@fr .
+
+<http://rdf.freebase.com/ns/m.05d0hs>
+        rdfs:label     "Again, Dangerous Visions"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Again,_Dangerous_Visions> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Again Dangerous Visions"@en , "Again, Dangerous Visions"@en .

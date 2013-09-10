@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Indiana_Pacers>
+        rdfs:label     "Indiana Pacers"@en , "Indiana Pacers"@fr , "Indiana Pacers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pacers_de_l'Indiana> , <http://de.dbpedia.org/resource/Indiana_Pacers> ;
+        skos:altLabel  "Pacers d'Indiana"@fr , "Pacer"@en , "Pacer"@fr , "Pacer"@de , "Pacers de l'Indiana"@fr , "Indiana Pacers"@en , "Indiana Pacers"@fr , "Indiana Pacers"@de , "Indianapolis Pacers"@en , "Indianapolis Pacers"@fr , "Indianapolis Pacers"@de , "The Pacers"@en , "The Pacers"@fr , "The Pacers"@de , "Pacers de l'indiana"@fr .
+
+<http://dbpedia.org/resource/Tyler_Hansbrough__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Indiana_Pacers> ;
+        dbo:from        "2009"^^xsd:gYear ;
+        dbo:to          "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tyler_Hansbrough>
+        rdfs:label     "Tyler Hansbrough"@en , "Tyler Hansbrough"@fr , "Tyler Hansbrough"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tyler_Hansbrough__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tyler_Hansbrough> , <http://fr.dbpedia.org/resource/Tyler_Hansbrough> ;
+        skos:altLabel  "Tyler Hansbrough"@fr , "Tyler Hansbrough"@de , "Tyler Hansborough"@fr , "Tyler Hansborough"@de , "Hansbrough"@fr , "Hansbrough"@de , "Andrew Tyler Hansbrough"@fr , "Andrew Tyler Hansbrough"@de , "Tyler Andrew Hansbrough"@fr , "Tyler Andrew Hansbrough"@de , "Psycho T"@fr , "Psycho T"@de .

@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01rh0w>
+        rdfs:label     "Liv Tyler"@de , "Liv Tyler"@en , "Liv Tyler"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Liv_Tyler> , <http://de.dbpedia.org/resource/Liv_Tyler> , <http://dbpedia.org/resource/Liv_Tyler> ;
+        skos:altLabel  "Liver"@en , "Liv taylor"@fr , "Liv Rundgren"@de , "Liv Rundgren"@en , "Liv taylor"@de , "Liv taylor"@en , "Liv Rundgren Tyler"@fr , "Liv Rundgren Tyler"@de , "Liv Rundgren Tyler"@en , "Tyler"@fr , "Liv Tyler"@fr , "Liv Tyler"@de , "Liv Tyler"@en , "Livy"@en , "Liv tylor"@fr , "Liv tylor"@de , "Liv tylor"@en .
+
+<http://rdf.freebase.com/ns/m.044_mx9__98>
+        dbo:from    "2003-03-25"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01rh0w> ;
+        dbo:to      "2008-06"^^xsd:gYearMonth .
+
+<http://rdf.freebase.com/ns/m.044_mx9>
+        rdfs:label     "Royston Langdon"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.044_mx9__98> ;
+        skos:altLabel  "Royston William Langdon"@en , "Ray Sprinkles"@en .

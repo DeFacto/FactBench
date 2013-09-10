@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Mammootty__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/El_Centro,_California> ;
+        dbo:from        "1903"^^xsd:gYear ;
+        dbo:to          "1903"^^xsd:gYear .
+
+<http://dbpedia.org/resource/El_Centro,_California>
+        rdfs:label     "El Centro, California"@en , "El Centro, California"@fr , "El Centro, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/El_Centro> , <http://de.dbpedia.org/resource/El_Centro_(Kalifornien)> ;
+        skos:altLabel  "El Centro, California"@de , "Cabarker"@en , "Cabarker"@fr , "Cabarker"@de , "Cabarker, California"@en , "El Centro"@en , "Cabarker, California"@fr , "Cabarker, California"@de , "El Centro"@fr , "El Centro"@de , "Centro"@fr , "El Centro, Ca"@en , "El Centro, Ca"@fr , "El Centro, Ca"@de , "LOCODE:USECO"@en , "LOCODE:USECO"@fr , "LOCODE:USECO"@de , "El Centro, CA"@en , "McCabe school"@en , "El Centro, CA"@fr , "McCabe school"@fr , "El Centro, CA"@de , "McCabe school"@de , "McCabe"@en , "McCabe"@fr , "McCabe"@de , "El Centro, California"@en , "El Centro, California"@fr .
+
+<http://dbpedia.org/resource/Mammootty>
+        rdfs:label     "Mammootty"@en , "Mammootty"@fr , "Mammootty"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mammootty__1> ;
+        skos:altLabel  "Mammukka"@en , "Mammotty"@en , "Mammookka"@en , "Megastar Mammootty"@en , "Muhammad Kutty"@en , "Sajin"@en , "Mammootty"@en , "Mammooty"@en .

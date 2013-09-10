@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05n5qxc__1>
+        dbo:award  <http://dbpedia.org/resource/Plains,_Georgia> ;
+        dbo:from   "1907"^^xsd:gYear ;
+        dbo:to     "1907"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05n5qxc>
+        rdfs:label     "Lil' John Roberts"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05n5qxc__1> ;
+        skos:altLabel  "Lil John"@en , "Lil' John"@en .
+
+<http://dbpedia.org/resource/Plains,_Georgia>
+        rdfs:label     "Plains, Georgia"@fr , "Plains, Georgia"@de , "Plains, Georgia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Plains_(Géorgie)> , <http://de.dbpedia.org/resource/Plains_(Georgia)> ;
+        skos:altLabel  "Plains City"@de , "Plains City"@fr , "Plains, Georgia"@en , "Plains, Georgia"@de , "Plains, Georgia"@fr , "LOCODE:USPLS"@en , "LOCODE:USPLS"@fr , "LOCODE:USPLS"@de , "Plains"@en , "Plains"@fr , "Plains"@de , "Plains, GA"@en , "Plains, GA"@fr , "Plains, GA"@de , "Plains City"@en .

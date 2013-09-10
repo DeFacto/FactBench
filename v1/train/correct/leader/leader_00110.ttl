@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dominion_of_Newfoundland>
+        rdfs:label     "Dominion of Newfoundland"@en , "Dominion of Newfoundland"@fr , "Dominion of Newfoundland"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dominion_de_Terre-Neuve> , <http://de.dbpedia.org/resource/Neufundland_(Dominion)> ;
+        skos:altLabel  "Dominion of newfoundland"@fr , "Dominion of newfoundland"@de , "Dominion of newfoundland"@en , "Neufundland"@de , "Newfoundland"@fr , "Newfoundland"@de , "Newfoundland"@en , "Dominion of Newfoundland"@fr , "Dominion of Newfoundland"@en , "Dominion of Newfoundland"@de , "Dominion de Terre-Neuve"@fr .
+
+<http://dbpedia.org/resource/Robert_Bond__1>
+        dbo:from    "1907-09-26"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Dominion_of_Newfoundland> ;
+        dbo:to      "1909-03-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Robert_Bond>
+        rdfs:label     "Robert Bond"@en , "Robert Bond"@fr , "Robert Bond"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Robert_Bond__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Bond> ;
+        skos:altLabel  "Sir Robert Bond"@de , "Bond"@de , "Robert Bond"@de .

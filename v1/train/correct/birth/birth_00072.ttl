@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cara_Black>
+        rdfs:label     "Cara Black"@en , "Cara Black"@fr , "Cara Black"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Cara_Black__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Cara_Black> , <http://fr.dbpedia.org/resource/Cara_Black> ;
+        skos:altLabel  "Cara black"@fr , "Cara black"@en , "Cara black"@de , "Black"@fr , "Cara Black"@fr , "Cara Black"@de , "Cara Black"@en .
+
+<http://dbpedia.org/resource/Cara_Black__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Harare> ;
+        dbo:from        "1979-02-17"^^xsd:date ;
+        dbo:to          "1979-02-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Harare>
+        rdfs:label     "Harare"@de , "Harare"@en , "Harare"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Harare> , <http://de.dbpedia.org/resource/Harare> ;
+        skos:altLabel  "Salisbury, Rhodesia"@fr , "Salisbury, Rhodesia"@de , "Salisbury, Rhodesia"@en , "Harare, Zimbabwe"@fr , "Harare Metropolitan Province"@fr , "Harare, Zimbabwe"@de , "Harare, Zimbabwe"@en , "Harare Metropolitan Province"@de , "Harare Metropolitan Province"@en , "Salisbury Rhodesia"@fr , "Salisbury Rhodesia"@de , "Salisbury Rhodesia"@en , "ZW-HA"@de , "Salisbury"@fr , "Salisbury, Zimbabwe"@fr , "Harare Province"@fr , "Salisbury"@de , "Salisbury, Zimbabwe"@de , "Harare Province"@de , "Harare Province"@en , "Salisbury"@en , "Salisbury, Zimbabwe"@en , "Harare"@fr , "Capital of Zimbabwe"@fr , "Harare"@de , "Capital of Zimbabwe"@de , "Capital of Zimbabwe"@en , "Harare"@en .

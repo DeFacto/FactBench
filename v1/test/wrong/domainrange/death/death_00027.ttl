@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Melbourne>
+        rdfs:label     "Melbourne"@de , "Melbourne"@fr , "Melbourne"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Melbourne> , <http://de.dbpedia.org/resource/Melbourne> ;
+        skos:altLabel  "Geography of Melbourne"@en , "Geography of Melbourne"@fr , "Geography of Melbourne"@de , "Melbourne, Victoria"@en , "Melbourne, Victoria"@fr , "Melbourne, Victoria"@de , "Melbournian"@en , "Essendon"@fr , "LOCODE:AUMEL"@en , "Melbournian"@fr , "Melbournian"@de , "LOCODE:AUMEL"@fr , "LOCODE:AUMEL"@de , "Bearbrass"@en , "Bearbrass"@fr , "Bearbrass"@de , "Melborne"@en , "Melborne"@fr , "Melborne"@de , "Melbouren"@en , "Melbouren"@de , "Melbouren"@fr , "Aeroport d'Essendon"@fr , "Economy of Melbourne"@en , "Economy of Melbourne"@de , "Economy of Melbourne"@fr , "Melbourne"@en , "Melbourne"@de , "Melbourne"@fr , "Melben"@en , "Melben"@fr , "Melben"@de , "Kensington Community High School"@en , "Mlbourne"@en , "Kensington Community High School"@fr , "Kensington Community High School"@de , "Mlbourne"@de , "Mlbourne"@fr , "Melb"@en , "Melb"@fr , "Melb"@de , "Melbourne (Vic.), Australia"@en , "Melbourne (Vic.), Australia"@fr , "Melbourne (Vic.), Australia"@de , "Melbourne, Australia."@en , "Melbourne, Victoria, Australia"@en , "Melbourne, Victoria, Australia"@de , "Melbourne, Victoria, Australia"@fr , "Melbourne city"@en , "Melbourne, Australia."@fr , "Melbourne, Australia."@de , "Melbourne city"@fr , "Melbourne city"@de , "Mlebourne"@en , "Mlebourne"@fr , "Mlebourne"@de , "Melbourne, VIC"@en , "Marvellous melbourne"@en , "Marvellous melbourne"@de , "Marvellous melbourne"@fr , "Melbourne, VIC"@de , "Melbourne, VIC"@fr , "Melbourne australia"@en , "Melbourne australia"@de , "Melbourne australia"@fr , "Melbourne, AU-VIC"@en , "Melbourne, AU-VIC"@fr , "Melbourne, AU-VIC"@de , "Melbourne, Australia"@en , "Melbourne, Australia"@fr , "Melbourne, Australia"@de , "Greater Melbourne"@en , "Greater Melbourne"@fr , "Greater Melbourne"@de , "Melbourne Australia"@en , "Melbourne Australia"@de , "Melbourne Australia"@fr , "Essendon Airport"@fr , "Aéroport d'Essendon"@fr .
+
+<http://dbpedia.org/resource/Hal_Roach__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Melbourne> ;
+        dbo:from        "1981"^^xsd:gYear ;
+        dbo:to          "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Hal_Roach>
+        rdfs:label     "Hal Roach"@en , "Hal Roach"@fr , "Hal Roach"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Hal_Roach__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hal_Roach> , <http://de.dbpedia.org/resource/Hal_Roach> ;
+        skos:altLabel  "Roach, Hal"@en , "Roach, Hal"@fr , "Roach, Hal"@de , "Hal Roach"@en , "Hal Roach Studios"@en , "Hal Roach"@de , "Hal Roach"@fr , "Hal Roach Studios"@fr , "Hal Roach Studios"@de , "Roach"@de .

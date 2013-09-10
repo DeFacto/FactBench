@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01xndx>
+        rdfs:label     "Out of the Silent Planet"@en , "Jenseits des schweigenden Sterns"@de , "Au-delà de la planète silencieuse"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Au-delà_de_la_planète_silencieuse> , <http://de.dbpedia.org/resource/Jenseits_des_schweigenden_Sterns> , <http://dbpedia.org/resource/Out_of_the_Silent_Planet> ;
+        skos:altLabel  "Hross"@fr , "Hrossa"@fr , "Out of the silent planet"@fr , "Hross"@de , "Hrossa"@de , "Out of the silent planet"@de , "Hross"@en , "Hrossa"@en , "Out of the silent planet"@en , "Thulcandra"@fr , "Thulcandra"@de , "Thulcandra"@en , "Jenseits des schweigenden Sterns"@de , "Au-delà de la planète silencieuse"@fr , "Séroni"@fr , "Pfifltriggi"@fr , "Seroni"@fr , "Pfifltriggi"@de , "Seroni"@de , "Seroni"@en , "Pfifltriggi"@en , "Séroni"@de , "Séroni"@en , "Au-dela de la planete silencieuse"@fr , "Out of the Silent Planet"@fr , "Le Silence de la Terre"@fr , "Pfifltrig"@fr , "Out of the Silent Planet"@de , "Pfifltrig"@de , "Out of the Silent Planet"@en , "Pfifltrig"@en .
+
+<http://rdf.freebase.com/ns/m.01wd02c>
+        rdfs:label       "C. S. Lewis"@en , "C. S. Lewis"@de , "C. S. Lewis"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.01xndx__84> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/C._S._Lewis> , <http://de.dbpedia.org/resource/C._S._Lewis> , <http://dbpedia.org/resource/C._S._Lewis> ;
+        skos:altLabel    "Clives Staples Lewis"@fr , "Clives Staples Lewis"@de , "Clives Staples Lewis"@en , "Clive Staple Lewis"@de , "Jack"@en , "C.S. Lewis"@fr , "C.S. Lewis"@de , "C.S. Lewis"@en , "Lewis, C.S."@en , "N.W. Clark"@fr , "C. S Lewis"@fr , "C. S Lewis"@de , "C. S Lewis"@en , "N.W. Clark"@de , "N.W. Clark"@en , "C Lewis"@fr , "C Lewis"@de , "C Lewis"@en , "C s lewis"@fr , "The Inner Ring"@fr , "C s lewis"@de , "C s lewis"@en , "Clive Staples Lewis"@fr , "Clive Staples Lewis"@de , "Clive Staples Lewis"@en , "The Inner Ring"@de , "The Inner Ring"@en , "Clive S. Lewis"@fr , "N. W. Clerk"@fr , "Clive S. Lewis"@de , "N. W. Clerk"@de , "Clive S. Lewis"@en , "N. W. Clerk"@en , "N.W. Clerk"@fr , "N.W. Clerk"@de , "N.W. Clerk"@en , "C S Lewis"@fr , "C S Lewis"@de , "C S Lewis"@en , "Clive"@fr , "C.S Lewis"@fr , "C.s. louis"@fr , "C.s. louis"@de , "C.s. louis"@en , "Clive S Lewis"@fr , "Clive S Lewis"@en , "Clive S Lewis"@de , "C.S Lewis"@de , "C.S Lewis"@en , "Inner ring"@fr , "Inner ring"@de , "Inner ring"@en , "LEWIS C.S."@en , "Saint Clive"@fr , "Saint Clive"@de , "Saint Clive"@en , "Clive staples lewis"@fr , "Clive staples lewis"@de , "Clive staples lewis"@en , "Lewis"@fr , "C. S. Lewis"@fr , "C.s. lewis"@fr , "C. S. Lewis"@de , "C.s. lewis"@de , "C.s. lewis"@en , "C. S. Lewis"@en , "Jacksie"@en , "Cs lewis"@fr , "Cs lewis"@de , "Cs lewis"@en , "St. Clive"@fr , "St. Clive"@de , "St. Clive"@en , "St Clive"@fr , "St Clive"@de , "St Clive"@en , "CS Lewis"@fr , "CS Lewis"@de , "CS Lewis"@en , "Clive Lewis"@fr , "Clive Lewis"@de , "Clive Lewis"@en , "C.S.Lewis"@fr , "C.S.Lewis"@de , "C.S.Lewis"@en .
+
+<http://rdf.freebase.com/ns/m.01xndx__84>
+        dbo:author  <http://rdf.freebase.com/ns/m.01xndx> ;
+        dbo:from    "1938"^^xsd:gYear ;
+        dbo:to      "1938"^^xsd:gYear .

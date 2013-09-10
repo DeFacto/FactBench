@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Chennai>
+        rdfs:label     "Chennai"@de , "Chennai"@fr , "Chennai"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chennai> , <http://fr.dbpedia.org/resource/Chennai> ;
+        skos:altLabel  "Cennai"@de , "Madras, India"@en , "Madras, India"@de , "Madras, India"@fr , "City of Chennai"@en , "City of Chennai"@de , "City of Chennai"@fr , "Banking Capital of India"@en , "Banking Capital of India"@fr , "Banking Capital of India"@de , "Chennapatnam"@en , "Chennapatnam"@de , "Chennapatnam"@fr , "Venkatapathy Nayakudu"@en , "Venkatapathy Nayakudu"@de , "Venkatapathy Nayakudu"@fr , "Madras"@en , "Madras"@de , "Madras"@fr , "Chennai City"@en , "Chennai City"@de , "Chennai City"@fr , "Chennai, India"@en , "Chennai, India"@de , "Chennai, India"@fr , "Chennai Schools"@en , "Chennai Schools"@de , "Chennai Schools"@fr , "Chennappattanam"@de , "Gate way of South India"@en , "Chennai"@en , "Gate way of South India"@de , "Gate way of South India"@fr , "Channai"@en , "Channai"@fr , "Chennai"@de , "Chennai"@fr , "Channai"@de , "City of Madras"@en , "City of Madras"@de , "City of Madras"@fr , "Chennapuri"@en , "Chennapuri"@de , "Chennapuri"@fr , "Chennai, Tamil Nadu"@en , "Chenai"@en , "LOCODE:INMAA"@en , "Chennai, Tamil Nadu"@de , "Chennai, Tamil Nadu"@fr , "LOCODE:INMAA"@de , "LOCODE:INMAA"@fr , "Chenai"@de , "Chenai"@fr , "Health Capital of India"@en , "Health Capital of India"@de , "Health Capital of India"@fr .
+
+<http://dbpedia.org/resource/Robert_Mitchum__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Chennai> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Robert_Mitchum>
+        rdfs:label     "Robert Mitchum"@en , "Robert Mitchum"@fr , "Robert Mitchum"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Robert_Mitchum__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Mitchum> , <http://fr.dbpedia.org/resource/Robert_Mitchum> ;
+        skos:altLabel  "Robet mitchum"@en , "Robet mitchum"@fr , "Robet mitchum"@de , "Robert Mitchum"@en , "Robert Mitchum"@fr , "Robert Mitchum"@de , "Mitchum"@de , "Bob Mitchum"@en , "Bob Mitchum"@fr , "Bob Mitchum"@de , "Robert Charles Durman Mitchum"@en , "Robert Charles Durman Mitchum"@de , "Robert Charles Durman Mitchum"@fr .

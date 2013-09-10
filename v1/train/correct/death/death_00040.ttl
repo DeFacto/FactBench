@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Andrew_Johnson>
+        rdfs:label     "Andrew Johnson"@en , "Andrew Johnson"@de , "Andrew Johnson"@fr ;
+        dbo:death      <http://dbpedia.org/resource/Andrew_Johnson__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Andrew_Johnson> , <http://fr.dbpedia.org/resource/Andrew_Johnson> ;
+        skos:altLabel  "Johnson, Andrew"@en , "Johnson, Andrew"@de , "Johnson, Andrew"@fr , "Presidency of Andrew Johnson"@en , "Presidency of Andrew Johnson"@de , "Andrew"@en , "Andrew"@de , "Andrew"@fr , "Andrew Johnson Administration"@en , "Andrew Johnson Administration"@de , "Andrew Johnson Administration"@fr , "Presidency of Andrew Johnson"@fr , "Andrew Johnson judicial appointments"@en , "Andrew Johnson judicial appointments"@de , "Andrew Johnson judicial appointments"@fr , "Movement to impeach Andrew Johnson"@en , "Movement to impeach Andrew Johnson"@de , "Movement to impeach Andrew Johnson"@fr , "17th President of the United States"@en , "17th President of the United States"@de , "17th President of the United States"@fr , "President Andrew Johnson"@en , "President Andrew Johnson"@de , "President Andrew Johnson"@fr , "Johnson"@fr , "Johnson Administration"@en , "Johnson Administration"@de , "Johnson Administration"@fr , "A. Johnson Administration"@en , "A. Johnson Administration"@de , "A. Johnson Administration"@fr , "Andrew Johnson"@en , "Andrew Johnson"@de , "Andrew Johnson"@fr .
+
+<http://dbpedia.org/resource/Andrew_Johnson__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Elizabethton,_Tennessee> ;
+        dbo:from        "1875-07-31"^^xsd:date ;
+        dbo:to          "1875-07-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Elizabethton,_Tennessee>
+        rdfs:label     "Elizabethton, Tennessee"@de , "Elizabethton, Tennessee"@en , "Elizabethton, Tennessee"@fr ;
+        skos:altLabel  "Elizabeth"@en , "Elizabethton, TN"@en , "Elizabethton, Tennessee"@en , "Elizabeth, Tennessee"@en , "Narc"@en , "Elizabethton"@en , "North American Rayon Corporation"@en , "LOCODE:USEZB"@en .

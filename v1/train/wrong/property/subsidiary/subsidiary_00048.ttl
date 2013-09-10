@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02h6mfb>
+        rdfs:label  "Shiva"@en .
+
+<http://rdf.freebase.com/ns/m.03s7h>
+        rdfs:label     "Intel"@de , "Intel"@fr , "Intel Corporation"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03s7h__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Intel> , <http://dbpedia.org/resource/Intel> , <http://de.dbpedia.org/resource/Intel> ;
+        skos:altLabel  "Integrated Electronics Corp."@en , "Intel SSD"@en , "Integrated Electronics Corp."@fr , "Intel SSD"@de , "Intel SSD"@fr , "Integrated Electronics Corp."@de , "Intel Corp"@en , "Intel MPI"@en , "Intel MPI"@fr , "Intel MPI"@de , "INTC"@en , "Intel Corp"@fr , "Intel Corp"@de , "INTC"@de , "INTC"@fr , "Open Source Technology Center"@en , "Open Source Technology Center"@fr , "Open Source Technology Center"@de , "Intel motherboard"@en , "Intel motherboard"@fr , "Intel motherboard"@de , "Intel corporation"@en , "Intel-based system"@en , "Intel corporation"@de , "Intel-based system"@de , "Intel-based system"@fr , "Intel corporation"@fr , "GenuineIntel"@de , "Intel Corp."@en , "Intel Corp."@fr , "Intel Corp."@de , "Intel.com"@en , "Intel.com"@de , "Intel.com"@fr , "Xircom"@de , "Leap ahead"@en , "Leap ahead"@de , "Leap ahead"@fr , "Intel inside"@en , "Intc"@en , "Intc"@de , "Intel inside"@de , "Intel inside"@fr , "Intc"@fr , "Intel Capital"@en , "Intel Capital"@fr , "Intel Capital"@de , "Staff Intel"@en , "Intel chips"@en , "Corp Intel"@en , "Intel chips"@fr , "Intel chips"@de , "Intel Corporation"@en , "Intel Corporation"@fr , "Intel Corporation"@de , "Intel Corpoartion"@en , "Intel Corpoartion"@fr , "Intel Corpoartion"@de , "Chipzilla"@en , "Chipzilla"@fr , "Chipzilla"@de , "Intel Inside"@en , "Intel Inside"@de , "Intel Inside"@fr , "Intel based"@en , "Intel based"@de , "Intel based"@fr , "Intel E7205"@fr , "Intel"@en , "Intel"@de , "Intel"@fr .
+
+<http://rdf.freebase.com/ns/m.03s7h__1>
+        dbo:from  "1998"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.02h6mfb> ;
+        dbo:to    "1998"^^xsd:gYear .

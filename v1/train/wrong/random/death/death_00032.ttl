@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ted_Kennedy__1>
+        dbo:from  "1968"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Oxford> ;
+        dbo:to    "1968"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ted_Kennedy>
+        rdfs:label     "Ted Kennedy"@de , "Ted Kennedy"@fr , "Ted Kennedy"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ted_Kennedy__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edward_Moore_Kennedy> , <http://de.dbpedia.org/resource/Edward_Kennedy> ;
+        skos:altLabel  "Edward kennedy"@en , "Edward kennedy"@fr , "Edward kennedy"@de , "Kennedy"@en , "Kennedy"@de , "Kennedy"@fr , "The Lion of the Senate"@de , "The Lion of the Senate"@fr , "The Lion of the Senate"@en , "Edward Moore Kennedy"@en , "Edward Moore Kennedy"@de , "Edward Moore Kennedy"@fr , "Edward M Kennedy"@en , "Edward M Kennedy"@de , "Edward M Kennedy"@fr , "Teddy Kennedy"@de , "Teddy Kennedy"@fr , "Teddy Kennedy"@en , "Senator Ted Kennedy"@en , "Senator Ted Kennedy"@de , "Senator Ted Kennedy"@fr , "Edward M. Kennedy"@en , "Edward M. Kennedy"@de , "Edward M. Kennedy"@fr , "Draft 1"@en , "Draft 1"@de , "Draft 1"@fr , "Edward Moore"@en , "Edward Moore"@de , "Edward Moore"@fr , "Edward Moore \"Ted\" Kennedy"@de , "Edward Moore \"Ted\" Kennedy"@fr , "Edward Moore \"Ted\" Kennedy"@en , "Ted Kennedy"@de , "Ted Kennedy"@fr , "Ted Kennedy"@en , "Edward Kennedy"@de , "Edward Kennedy"@fr , "Edward Kennedy"@en , "Ted kennedy"@en , "Sir Edward Kennedy"@en , "Ted kennedy"@de , "Ted kennedy"@fr , "Sir Edward Kennedy"@de , "Sir Edward Kennedy"@fr .
+
+<http://dbpedia.org/resource/Oxford>
+        rdfs:label     "Oxford"@fr , "Oxford"@en , "Oxford"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Oxford> , <http://de.dbpedia.org/resource/Oxford> ;
+        skos:altLabel  "Oxford, United Kingdom"@en , "Oxford, United Kingdom"@de , "Oxford, United Kingdom"@fr , "The city of dreaming spires"@en , "The city of dreaming spires"@de , "The city of dreaming spires"@fr , "County Borough of Oxford"@en , "County Borough of Oxford"@de , "County Borough of Oxford"@fr , "OXFORD"@en , "OXFORD"@de , "OXFORD"@fr , "City of Dreaming Spires"@en , "City of Dreaming Spires"@fr , "City of Dreaming Spires"@de , "Oxford"@en , "Oxford"@de , "Oxford"@fr , "Oxford, england"@en , "Oxford, england"@fr , "Oxford, england"@de , "Lion Brewery"@en , "Lion Brewery"@fr , "Lion Brewery"@de , "Oxford, England"@en , "The weather in Oxford"@en , "Oxford, England"@de , "Oxford, England"@fr , "The weather in Oxford"@de , "The weather in Oxford"@fr , "The Dreaming Spires"@en , "The Dreaming Spires"@de , "The Dreaming Spires"@fr , "Morrells brewery"@en , "Morrells brewery"@de , "Morrells brewery"@fr , "Oxford, UK"@en , "Oxford, UK"@de , "Oxford, UK"@fr , "LOCODE:GBOXF"@en , "LOCODE:GBOXF"@de , "LOCODE:GBOXF"@fr , "Oxford astrophysics"@en , "City of Oxford"@en , "City of Oxford"@de , "City of Oxford"@fr , "Oxford astrophysics"@de , "Oxford astrophysics"@fr , "Oxenaforda"@en , "Oxenaforda"@fr , "Oxenaforda"@de , "Dreaming Spires"@en , "Dreaming Spires"@de , "Dreaming Spires"@fr , "City of dreaming spires"@en , "City of dreaming spires"@de , "City of dreaming spires"@fr , "Oxford, Oxfordshire"@en , "Oxford, Oxfordshire"@fr , "Oxford, Oxfordshire"@de .

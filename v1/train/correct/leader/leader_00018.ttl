@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jacques_Chirac>
+        rdfs:label     "Jacques Chirac"@de , "Jacques Chirac"@fr , "Jacques Chirac"@en ;
+        dbo:inOffice   <http://dbpedia.org/resource/Jacques_Chirac__3> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jacques_Chirac> , <http://de.dbpedia.org/resource/Jacques_Chirac> ;
+        skos:altLabel  "Laurence Chirac"@fr , "Laurence Chirac"@en , "Laurence Chirac"@de , "Jock Sharock"@fr , "Jock Sharock"@en , "Jock Sharock"@de , "Chirac, Jacques René"@fr , "Chirac, Jacques René"@en , "Chirac, Jacques René"@de , "Jock Sherock"@fr , "Jock Sherock"@en , "Jock Sherock"@de , "Chirac, Jacques Rene"@fr , "Jacques Rene Chirac"@fr , "Chirac, Jacques Rene"@en , "Chirac, Jacques Rene"@de , "Jacques Rene Chirac"@en , "Jacques Rene Chirac"@de , "Jaque sharaque"@fr , "Jaque sharaque"@en , "Jaque sharaque"@de , "Jacques René Chirac"@fr , "Jacques René Chirac"@en , "Jacques René Chirac"@de , "Jacques-Rene Chirac"@fr , "Jacques Chirac"@fr , "Jacques Chirac"@en , "Jacques Chirac"@de , "Chiraquie"@fr , "Chiraquisme"@fr , "Chirac Jacques"@fr , "Chiraquienne"@fr , "Jaques Chirac"@fr , "Jaques Chirac"@en , "Jaques Chirac"@de , "Jacques"@fr , "Jacques"@en , "Jacques"@de , "Chiraquien"@fr , "Jacques-René Chirac"@fr , "President Chirac"@fr , "President Chirac"@en , "President Chirac"@de , "Jacque Chirac"@en , "Jacque Chirac"@de , "Jacque Chirac"@fr , "Jacques chirac"@fr , "Chirac"@fr , "Chirac"@en , "Chirac"@de , "Jack Chirac"@fr , "Jack Chirac"@en , "Jack Chirac"@de , "Jac Chirac"@fr , "Jac Chirac"@en , "Jac Chirac"@de , "Louis Chirac"@fr .
+
+<http://dbpedia.org/resource/Jacques_Chirac__3>
+        dbo:from    "1986-03-20"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/France> ;
+        dbo:to      "1988-05-10"^^xsd:date .
+
+<http://dbpedia.org/resource/France>
+        rdfs:label     "France"@de , "France"@fr , "France"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frankreich> , <http://fr.dbpedia.org/resource/France> ;
+        skos:altLabel  "Purangsu"@en , "FrancE"@de , "FrancE"@en , "Republique francaise"@fr , "Republic of France"@fr , "Rance"@fr , "Française"@fr , "Republique francaise"@de , "Republic of France"@de , "Republique francaise"@en , "Republic of France"@en , "Hexagone"@fr , "Hexagone"@en , "Hexagone"@de , "Franţa"@fr , "Franta"@fr , "Franţa"@de , "Franţa"@en , "Franta"@en , "Franta"@de , "Franse"@fr , "Franse"@de , "Franse"@en , "FRANCE"@fr , "FRANCE"@de , "FRANCE"@en , "République française"@fr , "République française"@de , "République française"@en , "Franc3"@fr , "Franc3"@de , "Franc3"@en , "Frakkland"@fr , "Frakkland"@de , "Frakkland"@en , "Frankreich"@fr , "Frankreich"@en , "Frankreich"@de , "Franciaorszag"@fr , "Franciaorszag"@de , "Franciaorszag"@en , "ISO 3166-1:FR"@fr , "ISO 3166-1:FR"@de , "ISO 3166-1:FR"@en , "Ranska"@fr , "Ranska"@de , "Ranska"@en , "Francaises"@fr , "List of Lands of the Carolingian Empire"@fr , "List of Lands of the Carolingian Empire"@de , "List of Lands of the Carolingian Empire"@en , "Peurangseu"@fr , "Collapse of Charlemagne's empire"@fr , "Peurangseu"@de , "Collapse of Charlemagne's empire"@de , "Collapse of Charlemagne's empire"@en , "Peurangseu"@en , "Francaise"@fr , "Franc"@fr , "FRance"@fr , "Franc"@de , "FRance"@en , "FRance"@de , "Franc"@en , "Franciaország"@fr , "Franciaország"@en , "Franciaország"@de , "Franța"@fr , "Franța"@de , "Franța"@en , "Etymology of France"@fr , "Etymology of France"@de , "Etymology of France"@en , "Belle France"@fr , "Belle France"@de , "Belle France"@en , "Françaises"@fr , "Republic of france"@fr , "Republic of france"@de , "Republic of france"@en , "Hexagône"@fr , "Fracne"@fr , "France"@fr , "Hexagône"@de , "France"@de , "Hexagône"@en , "France"@en , "Fracne"@de , "Fracne"@en , "French Republic"@fr , "French Republic"@de , "French Republic"@en , "Ance"@fr , "Purangsu"@fr , "FrancE"@fr , "La France"@fr , "Purangsu"@de .

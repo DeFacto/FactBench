@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0331mr>
+        rdfs:label     "Vanessa Marcil"@fr , "Vanessa Marcil"@de , "Vanessa Marcil"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Vanessa_Marcil> , <http://de.dbpedia.org/resource/Vanessa_Marcil> , <http://fr.dbpedia.org/resource/Vanessa_Marcil> ;
+        skos:altLabel  "Vanessa Sally Ortiz"@en , "Marcil"@fr , "Marcil"@de , "Vanessa"@en , "Vanessa"@fr , "Vanessa"@de , "Vanessa Marcil Giovinazzo"@en , "Vanessa Marcil"@en , "Vanessa Marcil"@fr , "Vanessa Marcil"@de , "Vanessa Marcil Giovinazzo"@fr , "Vanessa Marcil Giovinazzo"@de , "Sally Vanessa Ortiz"@en , "Sally Vanessa Ortiz"@de , "Sally Vanessa Ortiz"@fr .
+
+<http://rdf.freebase.com/ns/m.030xfx>
+        rdfs:label     "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.030xfx__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carmine_Giovinazzo> , <http://dbpedia.org/resource/Carmine_Giovinazzo> , <http://fr.dbpedia.org/resource/Carmine_Giovinazzo> ;
+        skos:altLabel  "Carmine"@fr , "Carmine"@de , "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de , "Carmine D. Giovinazzo"@en , "Carmine Dominick Giovinazzo"@en , "Carmine"@en , "Giovinazzo"@de , "Giovinazzo"@fr .
+
+<http://rdf.freebase.com/ns/m.030xfx__1>
+        dbo:from        "2010"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0331mr> ;
+        dbo:to          "2013"^^xsd:gYear .

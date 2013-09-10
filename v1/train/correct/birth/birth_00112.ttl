@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Avril_Lavigne>
+        rdfs:label     "Avril Lavigne"@de , "Avril Lavigne"@fr , "Avril Lavigne"@en ;
+        dbo:birth      <http://dbpedia.org/resource/Avril_Lavigne__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Avril_Lavigne> , <http://fr.dbpedia.org/resource/Avril_Lavigne> ;
+        skos:altLabel  "Avril lavigne"@en , "Avril lavigne"@de , "Avril lavine"@de , "Avril lavine"@en , "Lavigne"@fr , "Lavigne"@en , "Lavigne"@de , "Awards and Nominations earned by Avril Lavigne"@fr , "Awards and Nominations earned by Avril Lavigne"@de , "Awards and Nominations earned by Avril Lavigne"@en , "Avril Ramona Lavigne Whibley"@fr , "Avril Ramona Lavigne Whibley"@de , "Avril Ramona Lavigne Whibley"@en , "Avril Whibley"@fr , "Avril Whibley"@de , "Avril Whibley"@en , "Avril Lavigne-Whibley"@fr , "Avril Lavigne-Whibley"@de , "Avril Lavigne-Whibley"@en , "Averil Lavigne"@fr , "Averil Lavigne"@de , "Averil Lavigne"@en , "Black Star"@fr , "Black Star"@en , "Black Star"@de , "Avril"@fr , "Avril"@de , "Avril"@en , "List of Avril Lavigne's Concert Tours"@fr , "List of Avril Lavigne's Concert Tours"@de , "List of Avril Lavigne's Concert Tours"@en , "Arvil lavigne"@fr , "April Lavigne"@fr , "Arvil lavigne"@en , "Arvil lavigne"@de , "April Lavigne"@en , "April Lavigne"@de , "Avril Lavigne Whibley"@fr , "Avril Lavigne Whibley"@de , "Avril Lavigne Whibley"@en , "Showtime"@fr , "Showtime"@de , "Showtime"@en , "Skater girl"@fr , "Skater girl"@de , "Skater girl"@en , "Avrillavigne.com"@fr , "Avrillavigne.com"@de , "Avrillavigne.com"@en , "Avril Lavigne"@fr , "Avril Lavigne"@de , "Avril Lavigne"@en , "Avril lagvine"@fr , "Avril lagvine"@en , "Avril lagvine"@de , "Avril Lavgine"@fr , "Avril Lavinge"@fr , "Avril Lavgine"@de , "Avril Lavinge"@de , "Avril Lavgine"@en , "Avril Lavinge"@en , "Whibley"@fr , "Whibley"@en , "Whibley"@de , "Pink Crust"@fr , "Avril Lavene"@fr , "Avril Lavene"@en , "Avril Lavene"@de , "Lavigne, Avril"@fr , "Lavigne, Avril"@de , "Lavigne, Avril"@en , "Avril Lavine"@fr , "Avril Lavine"@de , "Avril Lavine"@en , "Avril lavine"@fr , "Avril Ramona Lavigne"@fr , "Avril Ramona Lavigne"@de , "Avril Ramona Lavigne"@en , "Avril lavigne"@fr .
+
+<http://dbpedia.org/resource/Avril_Lavigne__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Belleville,_Ontario> ;
+        dbo:from        "1984-09-27"^^xsd:date ;
+        dbo:to          "1984-09-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Belleville,_Ontario>
+        rdfs:label     "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belleville_(Ontario)> , <http://fr.dbpedia.org/resource/Belleville_(Ontario)> ;
+        skos:altLabel  "Belleville, ON"@fr , "Belleville, ON"@de , "Belleville, ON"@en , "Thrasher's Corners, Ontario"@fr , "Thrasher's Corners, Ontario"@de , "Thrasher's Corners, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@en , "Belleville, Ontario"@de , "Belleville"@fr , "Belleville"@de , "Belleville"@en .

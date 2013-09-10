@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/C._S._Lewis>
+        rdfs:label     "C. S. Lewis"@de , "C. S. Lewis"@fr , "C. S. Lewis"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/C._S._Lewis__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/C._S._Lewis> , <http://de.dbpedia.org/resource/C._S._Lewis> ;
+        skos:altLabel  "Clive staples lewis"@en , "C.S.Lewis"@en , "Clive staples lewis"@fr , "C.S.Lewis"@fr , "C.S.Lewis"@de , "Clive staples lewis"@de , "N.W. Clark"@en , "N.W. Clark"@fr , "N.W. Clark"@de , "Saint Clive"@en , "Saint Clive"@fr , "Saint Clive"@de , "C.S Lewis"@en , "The Inner Ring"@en , "C S Lewis"@en , "C S Lewis"@fr , "The Inner Ring"@de , "C.S Lewis"@de , "The Inner Ring"@fr , "C S Lewis"@de , "C.S Lewis"@fr , "C.s. lewis"@en , "C.s. lewis"@fr , "C.s. lewis"@de , "N.W. Clerk"@en , "N.W. Clerk"@fr , "N.W. Clerk"@de , "Clives Staples Lewis"@en , "C. S Lewis"@en , "Clives Staples Lewis"@fr , "C. S Lewis"@fr , "C. S Lewis"@de , "Clives Staples Lewis"@de , "C.S. Lewis"@en , "C.S. Lewis"@fr , "C.S. Lewis"@de , "C Lewis"@en , "C Lewis"@de , "C Lewis"@fr , "Inner ring"@en , "Inner ring"@de , "Inner ring"@fr , "N. W. Clerk"@en , "St. Clive"@en , "N. W. Clerk"@de , "N. W. Clerk"@fr , "St. Clive"@de , "St. Clive"@fr , "Lewis"@fr , "Clive S Lewis"@en , "Clive S Lewis"@de , "Clive S Lewis"@fr , "Clive S. Lewis"@en , "Clive S. Lewis"@fr , "Clive S. Lewis"@de , "C. S. Lewis"@en , "C. S. Lewis"@fr , "C. S. Lewis"@de , "Clive"@fr , "C s lewis"@en , "C s lewis"@fr , "C s lewis"@de , "Clive Staples Lewis"@en , "Clive Staples Lewis"@fr , "Clive Staples Lewis"@de , "St Clive"@en , "St Clive"@fr , "St Clive"@de , "CS Lewis"@en , "CS Lewis"@fr , "CS Lewis"@de , "Cs lewis"@en , "Clive Lewis"@en , "C.s. louis"@en , "Cs lewis"@fr , "Clive Lewis"@fr , "Clive Lewis"@de , "Clive Staple Lewis"@de , "C.s. louis"@de , "C.s. louis"@fr , "Cs lewis"@de .
+
+<http://dbpedia.org/resource/Rawalpindi>
+        rdfs:label     "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rawalpindi> , <http://fr.dbpedia.org/resource/Rawalpindi> ;
+        skos:altLabel  "Rāwalpindi"@en , "Rāwalpindi"@fr , "Rāwalpindi"@de , "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de , "Rawal Pindee"@en , "Rawal Pindee"@fr , "Rawal Pindee"@de , "Râwalpindî"@fr , "Rawalpindi, Pakistan"@en , "Rawalpindi, Pakistan"@fr , "Rawalpindi, Pakistan"@de , "Rāwalpindi, Pakistan"@en , "Rawal Pindi"@en , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@en , "RawalPindi"@en , "Rawal Pindi"@fr , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@fr , "Rawal Pindi"@de , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@de , "Rāwalpindi, Pakistan"@fr , "RawalPindi"@fr , "Rāwalpindi, Pakistan"@de , "RawalPindi"@de , "Pindi"@en , "Pindi"@fr , "Pindi"@de , "Rawlpindini"@en , "Rawlpindini"@fr , "Rawlpindini"@de , "'Pindi"@en , "'Pindi"@fr , "'Pindi"@de .
+
+<http://dbpedia.org/resource/C._S._Lewis__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Rawalpindi> ;
+        dbo:from        "1991"^^xsd:gYear ;
+        dbo:to          "1991"^^xsd:gYear .

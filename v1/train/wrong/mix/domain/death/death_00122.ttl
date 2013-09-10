@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Fayetteville,_Georgia>
+        rdfs:label     "Fayetteville, Georgia"@en , "Fayetteville, Georgia"@fr , "Fayetteville, Georgia"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fayetteville_(Géorgie)> , <http://de.dbpedia.org/resource/Fayetteville_(Georgia)> ;
+        skos:altLabel  "Fayetteville, Georgia"@fr , "Fayetteville, Georgia"@de , "Fayetteville, GA"@de , "Fayetteville, GA"@fr , "Fayetteville"@fr , "Fayetteville"@de , "LOCODE:USFYE"@fr , "LOCODE:USFYE"@de .
+
+<http://dbpedia.org/resource/Ludwig_Wittgenstein__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Fayetteville,_Georgia> ;
+        dbo:from        "2007"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Ludwig_Wittgenstein>
+        rdfs:label     "Ludwig Wittgenstein"@en , "Ludwig Wittgenstein"@fr , "Ludwig Wittgenstein"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ludwig_Wittgenstein__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ludwig_Wittgenstein> , <http://de.dbpedia.org/resource/Ludwig_Wittgenstein> ;
+        skos:altLabel  "Ludwig Joseph Johann Wittgenstein"@en , "Moses Maier"@en , "Moses Maier"@fr , "Moses Maier"@de , "Wittgentstein"@en , "Ludwig Joseph Johann Wittgenstein"@fr , "Ludwig Joseph Johann Wittgenstein"@de , "Wittgentstein"@fr , "Wittgentstein"@de , "Witgenstein"@en , "Witgenstein"@fr , "Witgenstein"@de , "Ludwig Wittgenstein"@en , "Ludwig Wittgenstein"@fr , "Ludwig Wittgenstein"@de , "Ludwig wittgenstein"@en , "Ludwig wittgenstein"@fr , "Ludwig wittgenstein"@de , "Wittgenstein"@en , "Yorick Smythies"@en , "Yorick Smythies"@fr , "Yorick Smythies"@de , "Ludwig Josef Johann Wittgenstein"@en , "Wittgenstein"@fr , "Ludwig Josef Johann Wittgenstein"@fr , "Wittgenstein"@de , "Ludwig Josef Johann Wittgenstein"@de .

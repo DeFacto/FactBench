@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.047gwd>
+        rdfs:label     "Emmy Rossum"@fr , "Emmy Rossum"@de , "Emmy Rossum"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Emmy_Rossum> , <http://fr.dbpedia.org/resource/Emmy_Rossum> , <http://de.dbpedia.org/resource/Emmy_Rossum> ;
+        skos:altLabel  "Emmanuelle Grey Rossum"@en , "Emmanuelle Grey Rossum"@fr , "Emmanuelle Grey Rossum"@de , "Em"@en , "Emmy Rossum"@en , "emmy_rossum"@en , "Emmy Rossum"@fr , "Emmy Rossum"@de , "Emmanuelle Rossum"@en , "Emmanuelle Grey \"Emmy\" Rossum"@en , "Emmanuelle Rossum"@fr , "Emmanuelle Grey \"Emmy\" Rossum"@de , "Emmanuelle Rossum"@de , "Emmanuelle Grey \"Emmy\" Rossum"@fr , "Emmy"@en , "Emmy Grey"@en , "Emmy Rossum discography"@en , "Emmy Rossum discography"@fr , "Emmy Rossum discography"@de , "Rossum"@en , "Rossum"@fr , "Rossum"@de .
+
+<http://dbpedia.org/resource/Dwight_D._Eisenhower__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.047gwd> ;
+        dbo:from             "1964"^^xsd:gYear ;
+        dbo:to               "1964"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dwight_D._Eisenhower>
+        rdfs:label     "Dwight D. Eisenhower"@de , "Dwight D. Eisenhower"@fr , "Dwight D. Eisenhower"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dwight_D._Eisenhower__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dwight_D._Eisenhower> , <http://fr.dbpedia.org/resource/Dwight_David_Eisenhower> ;
+        skos:altLabel  "Dwight Eisenhour"@en , "Dwight Eisenhour"@fr , "Dwight Eisenhour"@de , "David Jacob Eisenhower"@en , "David Jacob Eisenhower"@fr , "David Jacob Eisenhower"@de , "President Dwight Eisenhower"@en , "President Dwight Eisenhower"@fr , "President Dwight Eisenhower"@de , "Dwight"@de , "Ike Eisenhower"@en , "Ike Eisenhower"@de , "Ike Eisenhower"@fr , "General Dwight David Eisenhower"@en , "D. D. Eisenhower"@en , "General Dwight David Eisenhower"@fr , "General Dwight David Eisenhower"@de , "D. D. Eisenhower"@fr , "D. D. Eisenhower"@de , "Eisenhower"@en , "Eisenhower"@fr , "Eisenhower"@de , "Dwight D Eisenhower"@en , "David D. Eisenhower"@en , "David D. Eisenhower"@de , "David D. Eisenhower"@fr , "Dwight D Eisenhower"@fr , "Dwight D Eisenhower"@de , "General Dwight Eisenhower"@en , "General Dwight Eisenhower"@fr , "General Dwight Eisenhower"@de , "Dwight D. Eisenhower"@en , "Dwight D. Eisenhower"@fr , "Dwight D. Eisenhower"@de , "Dynamic Conservatism"@en , "D. Eisenhower"@en , "D. Eisenhower"@fr , "D. Eisenhower"@de , "Dynamic Conservatism"@fr , "Dynamic Conservatism"@de , "Dwight Eisenhauer"@en , "Dwight Eisenhauer"@de , "Dwight Eisenhauer"@fr , "Eishenhower"@en , "Eishenhower"@de , "Eishenhower"@fr , "David Dwight Eisenhower"@en , "Dwight E Eisenhower"@en , "34th President of the United States"@en , "Citizens for Eisenhower"@en , "David Dwight Eisenhower"@fr , "David Dwight Eisenhower"@de , "Dwight E Eisenhower"@fr , "34th President of the United States"@fr , "Dwight E Eisenhower"@de , "34th President of the United States"@de , "Citizens for Eisenhower"@de , "Citizens for Eisenhower"@fr , "Dwight eisenhower"@en , "Dwight eisenhower"@fr , "Dwight eisenhower"@de , "Dwight Eisenhower"@en , "Dwight Eisenhower"@fr , "Dwight Eisenhower"@de , "Eisenhower Dwight"@en , "Eisenhower Dwight"@fr , "Eisenhower Dwight"@de , "Président Eisenhower"@fr , "Général Eisenhower"@fr , "Eisehower"@en , "General Eisenhower"@en , "Eisehower"@fr , "Eisehower"@de , "General Eisenhower"@fr , "General Eisenhower"@de , "Dwight David Eisenhower"@en , "General of the Army Dwight Eisenhower"@en , "Dwight David Eisenhower"@fr , "Dwight David Eisenhower"@de , "General of the Army Dwight Eisenhower"@fr , "General of the Army Dwight Eisenhower"@de , "President Dwight D. Eisenhower"@en , "President Dwight D. Eisenhower"@fr , "President Dwight D. Eisenhower"@de , "Dweight Eisenhower"@en , "Dweight Eisenhower"@fr , "Dweight Eisenhower"@de , "President Eisenhower"@en , "Health issues of Dwight D. Eisenhower"@en , "President Eisenhower"@fr , "Health issues of Dwight D. Eisenhower"@fr , "Health issues of Dwight D. Eisenhower"@de , "President Eisenhower"@de .

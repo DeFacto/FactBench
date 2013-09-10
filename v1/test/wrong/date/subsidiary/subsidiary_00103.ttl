@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02_9ty9>
+        rdfs:label  "Guardent, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.01vbkb__1>
+        dbo:from        "2011"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_9ty9> ;
+        dbo:to          "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01vbkb>
+        rdfs:label     "Verisign"@en , "Verisign"@fr , "Verisign"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01vbkb__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/VeriSign> , <http://fr.dbpedia.org/resource/VeriSign> , <http://dbpedia.org/resource/Verisign> ;
+        skos:altLabel  "VeriSign Inc."@en , "VeriSign Inc."@fr , "VeriSign Inc."@de , "VeriSign"@en , "Verisign"@en , "Verisign Inc."@en , "Verisign Inc."@fr , "Verisign Inc."@de , "VeriSign"@fr , "Verisign"@fr , "VeriSign"@de , "Verisign"@de , "VeriSign, Inc."@en , "VERISIGN INC/CA"@en , "VeriSign, Inc."@fr , "VeriSign, Inc."@de , "VERISIGN INC"@en , "VeriSign, Incorporated"@en , "VeriSign, Incorporated"@fr , "VeriSign, Incorporated"@de , "Ringtoneking"@en , "Ringtoneking"@fr , "Ringtoneking"@de , "VeriSign Communications Services"@en , "VRSN"@en , "VeriSign Communications Services"@fr , "VRSN"@fr , "VeriSign Communications Services"@de , "VRSN"@de .

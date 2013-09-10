@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0ccd6p>
+        rdfs:label     "Return from the Stars"@en , "Transfer"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Transfer_(Stanisław_Lem)> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Return_from_the_Stars> ;
+        skos:altLabel  "Transfer"@de , "Powrót z gwiazd"@en , "Powrót z gwiazd"@de , "Ruckkehr von den Sternen"@de , "Betrization"@en , "Betrization"@de , "Powrot z gwiazd"@en , "Rückkehr von den Sternen"@de , "Powrot z gwiazd"@de , "Return from the stars"@en , "Return from the Stars"@en , "Return from the Stars"@de , "Return from the stars"@de .
+
+<http://dbpedia.org/resource/Chauncey_Billups__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0ccd6p> ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chauncey_Billups>
+        rdfs:label     "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chauncey_Billups__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chauncey_Billups> , <http://fr.dbpedia.org/resource/Chauncey_Billups> ;
+        skos:altLabel  "Billups"@en , "Billups"@fr , "Billups"@de , "Mr. Big Shot"@en , "Mr. Big Shot"@fr , "Mr. Big Shot"@de , "Chauncy Billups"@en , "Chauncy Billups"@fr , "Chauncy Billups"@de , "Chauncey"@en , "Chauncey"@fr , "Chauncey"@de , "Chauncey Ray Billups"@en , "Chauncey Ray Billups"@fr , "Chauncey Ray Billups"@de , "Mr Big Shot"@en , "Chauncey Billups"@en , "Chauncey Billups"@fr , "Chauncey Billups"@de , "Mr Big Shot"@fr , "Mr Big Shot"@de .

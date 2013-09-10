@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02qbpd>
+        rdfs:label     "Donezk"@de , "Donetsk"@en , "Donetsk"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Donetsk> , <http://fr.dbpedia.org/resource/Donetsk> , <http://de.dbpedia.org/resource/Donezk> ;
+        skos:altLabel  "Donesk"@en , "Donesk"@de , "Donesk"@fr , "Yuzovaka"@en , "Yuzovaka"@de , "Yuzovaka"@fr , "Jusowka"@de , "Yuzovo"@en , "Yuzovo"@de , "Yuzovo"@fr , "Donetsk, Ukraine"@en , "Donetsk, Ukraine"@de , "Donetsk, Ukraine"@fr , "Donetsk, USSR"@en , "Donetsk, USSR"@de , "Donetsk, USSR"@fr , "Donetz'k"@en , "Donetz'k"@de , "Donetz'k"@fr , "Yuzovka"@en , "Yuzovka"@de , "Yuzovka"@fr , "Donezk"@en , "Donezk"@de , "Donezk"@fr , "Donetsk"@en , "Donets'k"@en , "Donetsk Special Economic Zone"@de , "Donetsk Special Economic Zone"@fr , "Donets'k"@de , "Donets'k"@fr , "Donetsk Special Economic Zone"@en , "Donetsk"@de , "Donetsk"@fr , "Donets’k"@en , "Donets’k"@de , "Donets’k"@fr , "Donetsk SEZ"@de , "Donetsk SEZ"@fr , "Donetsk SEZ"@en , "Iouzovka"@fr , "Stalino"@en , "Stalino"@de , "Stalino"@fr , "Doneck"@de , "Doneck"@fr , "Doneck"@en , "Donetsk, Donestskaya oblast"@en , "Donetsk, Donestskaya oblast"@de , "Donetsk, Donestskaya oblast"@fr .
+
+<http://rdf.freebase.com/ns/m.01c6q7__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02qbpd> ;
+        dbo:from             "1982"^^xsd:gYear ;
+        dbo:to               "1982"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01c6q7>
+        rdfs:label     "Sybase"@fr , "Sybase"@de , "Sybase"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01c6q7__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Sybase> , <http://de.dbpedia.org/resource/Sybase> , <http://dbpedia.org/resource/Sybase> ;
+        skos:altLabel  "SYBASE"@en , "SYBASE"@fr , "SYBASE"@de , "Sybase Inc."@en , "Sybase Inc."@fr , "Sybase Inc."@de , "Sybase, Inc."@en , "Sybase, Inc"@en , "Sybase, Inc."@fr , "Sybase, Inc"@fr , "Sybase, Inc"@de , "Sybase, Inc."@de , "Replication Server"@en , "Replication Server"@fr , "Replication Server"@de , "Sybase"@en , "Sybase"@fr , "Sybase"@de .

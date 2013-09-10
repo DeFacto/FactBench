@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tony_Allen_(basketball)__1>
+        dbo:from  "2002"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Boston_Celtics> ;
+        dbo:to    "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Boston_Celtics>
+        rdfs:label     "Boston Celtics"@de , "Boston Celtics"@en , "Boston Celtics"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Boston_Celtics> , <http://fr.dbpedia.org/resource/Celtics_de_Boston> ;
+        skos:altLabel  "Boston Celts"@en , "Boston Celts"@fr , "Boston Celts"@de , "Boston Celtic"@en , "Celtics de boston"@fr , "Boston Celtics"@en , "Boston Celtic"@fr , "Boston Celtics"@fr , "Boston Celtic"@de , "Boston Celtics"@de , "Celtics de Boston"@fr , "The C's"@en , "The C's"@fr , "Celtics De Boston"@fr , "The C's"@de , "Celtic"@en , "Celtic"@fr , "Celtic"@de .
+
+<http://dbpedia.org/resource/Tony_Allen_(basketball)>
+        rdfs:label     "Tony Allen (basketball)"@en , "Tony Allen (basketball)"@fr , "Tony Allen (basketball)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tony_Allen_(basketball)__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tony_Allen_(Basketballspieler)> , <http://fr.dbpedia.org/resource/Tony_Allen_(basket-ball)> ;
+        skos:altLabel  "Tony Allen"@en , "Tony Allen"@fr , "Tony Allen"@de .

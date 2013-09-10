@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Rawalpindi>
+        rdfs:label     "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rawalpindi> , <http://fr.dbpedia.org/resource/Rawalpindi> ;
+        skos:altLabel  "Rāwalpindi"@en , "Rāwalpindi"@fr , "Rāwalpindi"@de , "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de , "Rawal Pindee"@en , "Rawal Pindee"@fr , "Rawal Pindee"@de , "Râwalpindî"@fr , "Rawalpindi, Pakistan"@en , "Rawalpindi, Pakistan"@fr , "Rawalpindi, Pakistan"@de , "Rāwalpindi, Pakistan"@en , "Rawal Pindi"@en , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@en , "RawalPindi"@en , "Rawal Pindi"@fr , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@fr , "Rawal Pindi"@de , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@de , "Rāwalpindi, Pakistan"@fr , "RawalPindi"@fr , "Rāwalpindi, Pakistan"@de , "RawalPindi"@de , "Pindi"@en , "Pindi"@fr , "Pindi"@de , "Rawlpindini"@en , "Rawlpindini"@fr , "Rawlpindini"@de , "'Pindi"@en , "'Pindi"@fr , "'Pindi"@de .
+
+<http://dbpedia.org/resource/William_Jennings_Bryan__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rawalpindi> ;
+        dbo:from        "1925"^^xsd:gYear ;
+        dbo:to          "1925"^^xsd:gYear .
+
+<http://dbpedia.org/resource/William_Jennings_Bryan>
+        rdfs:label     "William Jennings Bryan"@fr , "William Jennings Bryan"@de , "William Jennings Bryan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/William_Jennings_Bryan__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/William_Jennings_Bryan> , <http://de.dbpedia.org/resource/William_Jennings_Bryan> ;
+        skos:altLabel  "Jennings bryan"@de , "William jennings bryan"@en , "William jennings bryan"@fr , "William jennings bryan"@de , "Bryan"@fr , "William Jennings Bryan"@en , "William Jennings Bryan"@fr , "William Jennings Bryan"@de , "William Jennings Bryant"@en , "William Jennings Bryant"@fr , "William Jennings Bryant"@de , "William J. Bryan"@en , "William J. Bryan"@fr , "William J. Bryan"@de , "William Jennings"@en , "William Jennings"@fr , "William Jennings"@de , "Jennings bryan"@en , "Jennings bryan"@fr .

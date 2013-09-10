@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02jjm9>
+        rdfs:label       "Kate Wilhelm"@en , "Kate Wilhelm"@de , "Kate Wilhelm"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.034n52__134> ;
+        owl:sameAs       <http://dbpedia.org/resource/Kate_Wilhelm> , <http://fr.dbpedia.org/resource/Kate_Wilhelm> , <http://de.dbpedia.org/resource/Kate_Wilhelm> ;
+        skos:altLabel    "Katie Gertrude Wilhelm"@en , "Kate"@fr , "Kate Wilhelm"@fr , "Kate Wilhelm"@de , "Wilhelm"@fr , "Wilhelm"@de .
+
+<http://rdf.freebase.com/ns/m.034n52>
+        rdfs:label     "Hier, les oiseaux"@fr , "Where Late the Sweet Birds Sang"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hier,_les_oiseaux> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Where_Late_the_Sweet_Birds_Sang> ;
+        skos:altLabel  "Hier, les oiseaux"@fr , "Hier, Les Oiseaux"@fr , "Where Late the Sweet Birds Sang"@fr .
+
+<http://rdf.freebase.com/ns/m.034n52__134>
+        dbo:author  <http://rdf.freebase.com/ns/m.034n52> ;
+        dbo:from    "1976"^^xsd:gYear ;
+        dbo:to      "1976"^^xsd:gYear .

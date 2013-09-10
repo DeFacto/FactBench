@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.04n1hk>
+        rdfs:label     "Darius McCrary"@en , "Darius McCrary"@fr , "Darius McCrary"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Darius_McCrary> , <http://dbpedia.org/resource/Darius_McCrary> , <http://de.dbpedia.org/resource/Darius_McCrary> ;
+        skos:altLabel  "Darius"@en , "Darius"@fr , "Darius"@de , "McCrary"@de , "Darius McCrary"@en , "Darius McCrary"@fr , "Darius McCrary"@de , "Darius Creston McCrary"@en , "Daruis McCrary"@en , "Darius McCreary"@en .
+
+<http://dbpedia.org/resource/Josip_Broz_Tito>
+        rdfs:label     "Josip Broz Tito"@de , "Josip Broz Tito"@fr , "Josip Broz Tito"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Josip_Broz_Tito__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Josip_Broz_Tito> , <http://de.dbpedia.org/resource/Josip_Broz_Tito> ;
+        skos:altLabel  "Joseph Tito"@en , "Joseph Tito"@de , "Joseph Tito"@fr , "Marshal Josip Broz Tito"@en , "Marshal Josip Broz Tito"@de , "Marshal Josip Broz Tito"@fr , "J.B.Tito"@fr , "Marechal Tito"@fr , "Titiste"@fr , "Josip Brozović"@en , "Josip Brozović"@fr , "Josip Brozović"@de , "Josip Broz Tito"@en , "Josip Broz Tito"@de , "Josip Broz Tito"@fr , "Broz Tito"@en , "Broz Tito"@fr , "Broz Tito"@de , "Josip Broz"@en , "Josip Broz"@fr , "Josip Broz"@de , "Josip"@en , "Josip"@fr , "Josip"@de , "Josip Brozovich"@en , "Marshall Josip Broz Tito"@en , "Josip Broj Tito"@fr , "Josep Tito"@en , "Marshall Tito"@en , "Marshall Tito"@de , "Marshall Tito"@fr , "Marsal Tito"@en , "Marshall Josip Broz Tito"@fr , "Marshall Josip Broz Tito"@de , "Joseph Broz Tito"@en , "Drug Tito"@en , "Josip Brozovich"@fr , "Josip Broz dit Tito"@fr , "Josep Tito"@fr , "Josep Tito"@de , "Marsal Tito"@fr , "Marsal Tito"@de , "Drug Tito"@fr , "Drug Tito"@de , "Josip Brozovich"@de , "Joseph Broz Tito"@fr , "Joseph Broz Tito"@de , "Tito"@en , "Joseph brozovic"@en , "Tito"@fr , "Joseph brozovic"@fr , "Joseph brozovic"@de , "Tito"@de , "Maršal Tito"@en , "Maršal Tito"@de , "Maršal Tito"@fr , "Broz"@en , "Marshal Tito"@en , "Josip Tito"@en , "Broz"@fr , "Marshal Tito"@fr , "Josip Tito"@de , "Josip Tito"@fr , "Broz"@de , "Marshal Tito"@de , "Marschall Tito"@de , "Josep Broz Tito"@en , "Josep Broz Tito"@fr , "Josep Broz Tito"@de , "Maréchal Tito"@fr , "Josef Broz Tito"@en , "Josef Broz Tito"@fr , "Josef Broz Tito"@de , "Josip Broz, Marshal Tito"@en , "Josip Broz, Marshal Tito"@de , "Josip Broz, Marshal Tito"@fr , "Josip Brozovic"@en , "Josip Brozovic"@fr , "Josip Brozovic"@de , "Josip Broz-Tito"@en , "Maršal Josip Broz Tito"@en , "Josip Broz-Tito"@fr , "Maršal Josip Broz Tito"@fr , "Maršal Josip Broz Tito"@de , "Josip Broz-Tito"@de , "Marsal Josip Broz Tito"@en , "Marsal Josip Broz Tito"@fr , "Marsal Josip Broz Tito"@de .
+
+<http://dbpedia.org/resource/Josip_Broz_Tito__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.04n1hk> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2010"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.056_y>
+        rdfs:label     "Madrid"@de , "Madrid"@fr , "Madrid"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Madrid> , <http://de.dbpedia.org/resource/Madrid> , <http://dbpedia.org/resource/Madrid> ;
+        skos:altLabel  "Madrileno"@en , "LOCODE:ESMAD"@en , "LOCODE:ESMAD"@de , "LOCODE:ESMAD"@fr , "Madrileno"@de , "Madrileno"@fr , "Mayrit"@en , "Mayrit"@de , "Mayrit"@fr , "Madrid, Madrid"@en , "Madrid, Madrid"@de , "Madrid, Madrid"@fr , "Madrilenian"@en , "Madrilenian"@de , "Madrilenian"@fr , "Madrileña"@en , "Madrileña"@de , "Madrileña"@fr , "Capitale de l'Espagne"@fr , "Madrilena"@en , "Madrilena"@de , "Madrilena"@fr , "Capital of Spain"@en , "Capital of Spain"@de , "Capital of Spain"@fr , "Madrilène"@fr , "Lavapiés"@de , "Lavapies"@de , "Madrid"@en , "Madrid"@de , "Madrid"@fr , "Madeurideu"@en , "Madeurideu"@fr , "Madeurideu"@de , "Maduridu"@en , "Madrileño"@en , "Madrileño"@de , "Madrileño"@fr , "Maduridu"@de , "Maduridu"@fr , "Madrilene"@en , "Madrilene"@de , "Madrilene"@fr , "Villa de Madrid"@en , "Madrid, Spain"@en , "Madrid, Spain"@de , "Madrid, Spain"@fr , "The weather in Madrid"@en , "The weather in Madrid"@de , "The weather in Madrid"@fr , "Madrid- Spain"@en , "Madrid- Spain"@de , "Madrid- Spain"@fr , "Madrid City"@en , "Madrid City"@de , "Madrid City"@fr .
+
+<http://rdf.freebase.com/ns/m.0fb8x6>
+        rdfs:label  "Danger"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fb8x6__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Danger_(company)> .
+
+<http://rdf.freebase.com/ns/m.0fb8x6__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.056_y> ;
+        dbo:from             "1996"^^xsd:gYear ;
+        dbo:to               "1996"^^xsd:gYear .

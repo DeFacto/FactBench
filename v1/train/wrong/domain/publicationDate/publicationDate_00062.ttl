@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08524>
+        rdfs:label     "The Wanderer"@en , "Le Vagabond"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Wanderer_(Fritz_Leiber_novel)> , <http://fr.dbpedia.org/resource/Le_Vagabond_(roman)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Le vagabond"@fr , "Wanderer"@fr , "Le Vagabond"@fr , "The Wanderer"@fr .
+
+<http://rdf.freebase.com/ns/m.02gfjl>
+        rdfs:label     "Marge Piercy"@en , "Marge Piercy"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02gfjl__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Marge_Piercy> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Marge_Piercy> ;
+        skos:altLabel  "Piercy, Marge"@en , "Marge"@de , "Piercy"@de , "M Piercy"@en , "Marge Piercy"@de .
+
+<http://rdf.freebase.com/ns/m.02gfjl__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.08524> ;
+        dbo:from    "1964"^^xsd:gYear ;
+        dbo:to      "1964"^^xsd:gYear .

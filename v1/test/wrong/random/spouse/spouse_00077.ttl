@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Jim_Henson__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Grand_Rapids,_Minnesota> ;
+        dbo:from        "2006"^^xsd:gYear ;
+        dbo:to          "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Grand_Rapids,_Minnesota>
+        rdfs:label     "Grand Rapids, Minnesota"@en , "Grand Rapids, Minnesota"@fr , "Grand Rapids, Minnesota"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Grand_Rapids_(Minnesota)> ;
+        skos:altLabel  "Grand Rapids"@de , "Grand Rapids"@en , "Grand Rapids, MN"@de , "Grand Rapids, MN"@en , "Grand Rapids, Minnesota"@en , "Grand Rapids, Minnesota"@de .
+
+<http://dbpedia.org/resource/Jim_Henson>
+        rdfs:label     "Jim Henson"@en , "Jim Henson"@fr , "Jim Henson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jim_Henson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jim_Henson> , <http://de.dbpedia.org/resource/Jim_Henson> ;
+        skos:altLabel  "Henson"@en , "Henson"@fr , "Henson"@de , "The Jim Henson"@en , "James M. Henson"@en , "The Jim Henson"@fr , "James M. Henson"@fr , "James M. Henson"@de , "The Jim Henson"@de , "Jim Henson"@en , "Jim Henson"@fr , "Jim Henson"@de , "James Henson"@en , "James Henson"@fr , "Jim henson"@fr , "James Henson"@de , "Jim Hensen"@en , "Jim Hensen"@fr , "Jim Hensen"@de , "James M Henson"@en , "James M Henson"@fr , "James M Henson"@de , "James Maury Henson"@en , "James Maury Henson"@fr , "James Maury Henson"@de , "Henson, Jim"@en , "Henson, Jim"@fr , "Henson, Jim"@de .

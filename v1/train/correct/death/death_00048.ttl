@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hermann_Göring__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Nuremberg> ;
+        dbo:from        "1946-10-15"^^xsd:date ;
+        dbo:to          "1946-10-15"^^xsd:date .
+
+<http://dbpedia.org/resource/Nuremberg>
+        rdfs:label     "Nuremberg"@de , "Nuremberg"@fr , "Nuremberg"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Nuremberg> , <http://de.dbpedia.org/resource/Nürnberg> ;
+        skos:altLabel  "Nurnburg"@fr , "Nurnburg"@en , "Nurnburg"@de , "Nürnburg"@fr , "Nürnburg"@de , "Nürnburg"@en , "Nuremburg"@fr , "Nuremburg"@de , "Nuremburg"@en , "Nämberch"@de , "Nurnberg"@fr , "Steinbühl"@de , "Nurnberg"@de , "Nurnberg"@en , "Norimberga"@de , "Nürnberg, Germany"@fr , "Nuremburg, Germany"@fr , "Nurnberg displaced persons camp"@fr , "Nürnberg, Germany"@de , "Nuremburg, Germany"@de , "Nürnberg, Germany"@en , "Nurnberg displaced persons camp"@en , "Nurnberg displaced persons camp"@de , "Nuremburg, Germany"@en , "Nuremberg, Germany"@fr , "Nuernberg, Germany"@fr , "Nuernberg, Germany"@de , "Nuernberg, Germany"@en , "Nurnberg, Germany"@fr , "Nüremberg"@fr , "Nuremberg, Germany"@de , "Nurnberg, Germany"@de , "Nüremberg"@en , "Nuremberg, Germany"@en , "Nurnberg, Germany"@en , "Nüremberg"@de , "Nürnberg displaced persons camp"@fr , "Nürnberg displaced persons camp"@de , "Nürnberg displaced persons camp"@en , "Nuernberg"@fr , "Nuernberg"@de , "Nuernberg"@en , "Steinbuhl"@de , "Nuremberg"@fr , "Nuremberg"@en , "Nuremberg"@de , "Nuernberg displaced persons camp"@fr , "Nuernberg displaced persons camp"@en , "Nuernberg displaced persons camp"@de , "Nürnberg"@fr , "Nürnberg"@de , "Nürnberg"@en , "Nurenburg"@fr , "Nurenburg"@de , "Nurenburg"@en , "Namberch"@de , "Nueremberg"@fr , "Nueremberg"@de , "Nueremberg"@en , "Neuremburg"@fr , "Neuremburg"@de , "Neuremburg"@en , "LOCODE:DENUE"@fr , "Nurenberg"@fr , "Nurenberg"@de , "LOCODE:DENUE"@en , "LOCODE:DENUE"@de , "Nurenberg"@en , "Fischbach UNRRA displaced persons camp"@fr , "Fischbach UNRRA displaced persons camp"@en , "Fischbach UNRRA displaced persons camp"@de , "Neurenberg"@fr , "Neurenberg"@en , "Neurenberg"@de , "Nuernburg"@fr , "Nuernburg"@en , "Nuernburg"@de .
+
+<http://dbpedia.org/resource/Hermann_Göring>
+        rdfs:label     "Hermann Göring"@en , "Hermann Göring"@fr , "Hermann Göring"@de ;
+        dbo:death      <http://dbpedia.org/resource/Hermann_Göring__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hermann_Göring> , <http://de.dbpedia.org/resource/Hermann_Göring> ;
+        skos:altLabel  "Goering"@fr , "Reichsjägermeister"@de , "Göring"@fr , "Göring"@de , "Hermann Wilhelm Göring"@fr , "Hermann Wilhelm Göring"@de , "Herman Göring"@fr , "Hermann Wilhelm Goring"@fr , "Hermann Wilhelm Goring"@de , "Goring"@fr , "Hermann Goring"@fr , "Hermann Goring"@de , "Goring"@de , "Hermann Göring"@fr , "Hermann Göring"@de , "Hermann Goering"@fr , "Reichsjagermeister"@de , "Herman Goring"@fr .

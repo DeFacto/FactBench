@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01dzz7>
+        rdfs:label     "Michael Swanwick"@en , "Michael Swanwick"@fr , "Michael Swanwick"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01dzz7__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Michael_Swanwick> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Michael_Swanwick> ;
+        skos:altLabel  "Swanwick"@en , "Swanwick"@fr , "Michael Jurgen Swanwick"@en , "Michael Swanwick"@fr , "Michael Swanwick"@en .
+
+<http://rdf.freebase.com/ns/m.01dzz7__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05y1q9> ;
+        dbo:from    "1993"^^xsd:gYear ;
+        dbo:to      "1993"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05y1q9>
+        rdfs:label     "Jack Faust"@en , "Jack Faust"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Jack_Faust_(novel)> , <http://fr.dbpedia.org/resource/Jack_Faust> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Jack Faust"@fr , "Faust"@fr .

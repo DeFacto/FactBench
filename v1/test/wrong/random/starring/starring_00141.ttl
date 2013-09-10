@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0g195>
+        rdfs:label     "Heike Kamerlingh Onnes"@en , "Heike Kamerlingh Onnes"@fr , "Heike Kamerlingh Onnes"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0g195__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Heike_Kamerlingh_Onnes> , <http://de.dbpedia.org/resource/Heike_Kamerlingh_Onnes> , <http://fr.dbpedia.org/resource/Heike_Kamerlingh_Onnes> ;
+        skos:altLabel  "Heike Kamerlingh Onnes"@en , "Heike Kamerlingh-Onnes"@fr , "Heike Kammerlingh Onnes"@fr , "Heike Kamerlingh-Onnes"@de , "Heike Kamerlingh Onnes"@fr , "Heike Kamerlingh Onnes"@de , "Heike Kammerlingh Onnes"@de , "H K Onnes"@en , "H K Onnes"@fr , "H K Onnes"@de , "Heike Onnes"@en , "Heike Onnes"@fr , "Heike Onnes"@de , "Kamerlingh Onnes"@en , "Kamerlingh Onnes"@fr , "Kamerlingh Onnes"@de , "Kamerlingh"@en , "Kamerlingh"@fr , "Kamerlingh"@de , "Onnes"@de , "H. Kamerlingh Onnes"@en , "Kammerlingh Onnes"@en , "H. Kamerlingh Onnes"@fr , "H. Kamerlingh Onnes"@de , "Kammerlingh Onnes"@fr , "Kammerlingh Onnes"@de , "Heike Kamerlingh-Onnes"@en , "Heike Kammerlingh Onnes"@en .
+
+<http://rdf.freebase.com/ns/m.0g195__1>
+        dbo:award  <http://dbpedia.org/resource/Alan_Arkin> ;
+        dbo:from   "1994"^^xsd:gYear ;
+        dbo:to     "1994"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Alan_Arkin>
+        rdfs:label     "Alan Arkin"@en , "Alan Arkin"@fr , "Alan Arkin"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Alan_Arkin> , <http://fr.dbpedia.org/resource/Alan_Arkin> ;
+        skos:altLabel  "Alan Arkin"@en , "Alan Arkin"@fr , "Alan Arkin"@de , "Alan Wolf Arkin"@de , "Arkin"@de .

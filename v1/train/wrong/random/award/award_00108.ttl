@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03w28__1>
+        dbo:from      "1993"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Newport_News,_Virginia> ;
+        dbo:to        "1993"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03w28>
+        rdfs:label     "International Atomic Energy Agency"@en , "Agence internationale de l'énergie atomique"@fr , "Internationale Atomenergie-Organisation"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03w28__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/International_Atomic_Energy_Agency> , <http://de.dbpedia.org/resource/Internationale_Atomenergie-Organisation> , <http://fr.dbpedia.org/resource/Agence_internationale_de_l'énergie_atomique> ;
+        skos:altLabel  "Internationale Atomenergie-Agentur"@de , "Agence Internationale de l'Énergie Atomique"@fr , "Agence internationale de l’energie atomique"@de , "Agence internationale de l’energie atomique"@fr , "Agence Internationale pour l'Énergie Atomique"@fr , "Agence internationale de l'Energie atomique"@de , "Agence internationale à l'énergie atomique"@fr , "Iaea"@en , "Iaea"@fr , "Iaea"@de , "I.A.E.A."@en , "I.A.E.A."@fr , "I.A.E.A."@de , "Agence internationale de l'energie atomique"@de , "Agence internationale de l'energie atomique"@fr , "International Atomic Energy Agency"@en , "International Atomic Energy Agency"@de , "International Atomic Energy Agency"@fr , "UN-Atombehörde"@de , "Agence Internationale de l'Energie Atomique"@fr , "Agency"@en , "Agency"@fr , "Agency"@de , "Agence Internationale De L'énergie Atomique"@fr , "Agence internationale de l'énergie atomique"@de , "Agence internationale de l'énergie atomique"@fr , "Atomenergieorganisation"@de , "Agence Internationale pour l'Energie Atomique"@fr , "Agence internationale pour l'Énergie atomique"@fr , "Internationale Atomenergiebehörde"@de , "Agence Internationale De L'energie Atomique"@fr , "Commission on Safety Standards"@fr , "A.I.E.A"@fr , "AEIA"@fr , "Agence internationale a l'energie atomique"@fr , "International Atomic Energy Authority"@en , "International Atomic Energy Authority"@de , "International Atomic Energy Authority"@fr , "Agence internationale de l’énergie atomique"@de , "Agence internationale de l’énergie atomique"@fr , "IAEA"@en , "IAEA"@de , "IAEA"@fr , "Internationale Atomenergiebehorde"@de , "Agence Internationale pour l’Énergie Atomique"@fr , "IAEO"@de , "Internationale Atomenergie-Organisation"@de , "International Atomic Energy Agency."@en , "AIEA"@en , "Internationale Atomenergieorganisation"@de , "AIEA"@de , "AIEA"@fr , "UN-Atombehorde"@de , "Agence internationale pour l'Energie atomique"@fr , "Agence Internationale pour l’Energie Atomique"@fr .
+
+<http://dbpedia.org/resource/Newport_News,_Virginia>
+        rdfs:label     "Newport News, Virginia"@de , "Newport News, Virginia"@fr , "Newport News, Virginia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Newport_News_(Virginie)> , <http://de.dbpedia.org/resource/Newport_News> ;
+        skos:altLabel  "Newport News Waterworks"@de , "Newport News Waterworks"@fr , "Newport News Waterworks"@en , "Newport news, va"@de , "Newport news, va"@fr , "Newport news, va"@en , "Downtown Newport News, Virginia"@de , "Downtown Newport News, Virginia"@fr , "Downtown Newport News, Virginia"@en , "Bad News, VA"@de , "Bad News, VA"@fr , "Bad News, VA"@en , "Newport News, VA"@de , "Newport News, VA"@fr , "Newport News, VA"@en , "LOCODE:USNNS"@de , "Newport News, Va."@de , "Newport News, Va."@fr , "Newport News, Va."@en , "LOCODE:USNNS"@fr , "LOCODE:USNNS"@en , "City of Newport News, Virginia"@de , "City of Newport News, Virginia"@fr , "City of Newport News, Virginia"@en , "Newport News, Virginia"@en , "Newport News, Virginia"@de , "Newport News, Virginia"@fr , "Bad News, Virginia"@de , "Bad News, Virginia"@fr , "Bad News, Virginia"@en , "Newport News"@en , "Newport News"@de , "Newport News"@fr , "Newportnews"@de , "Newportnews"@fr , "Newportnews"@en , "Newport"@de , "Newport"@fr , "Newport"@en .

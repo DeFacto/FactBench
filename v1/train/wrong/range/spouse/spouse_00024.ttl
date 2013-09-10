@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05lh1j>
+        rdfs:label     "Jessica Paré"@en , "Jessica Paré"@fr , "Jessica Paré"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Jessica_Par%C3%A9> ;
+        skos:altLabel  "Jessica Pare"@en .
+
+<http://rdf.freebase.com/ns/m.0n47_wb>
+        rdfs:label  "Karina Poszar"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0n47_wb__1> .
+
+<http://rdf.freebase.com/ns/m.0n47_wb__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05lh1j> ;
+        dbo:to      "2009"^^xsd:gYear .

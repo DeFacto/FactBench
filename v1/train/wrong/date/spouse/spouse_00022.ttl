@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0hl2dwj__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0c00lh> ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0hl2dwj>
+        rdfs:label     "Michele Lee"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0hl2dwj__1> ;
+        skos:altLabel  "Michelle Reitman"@en , "Michele Reitman"@en .
+
+<http://rdf.freebase.com/ns/m.0c00lh>
+        rdfs:label     "Jason Reitman"@en , "Jason Reitman"@fr , "Jason Reitman"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Jason_Reitman> , <http://de.dbpedia.org/resource/Jason_Reitman> , <http://fr.dbpedia.org/resource/Jason_Reitman> ;
+        skos:altLabel  "Reitman"@en , "Reitman"@fr , "Reitman"@de , "Jason Reitman"@en , "Jason Reitman"@fr , "Jason Reitman"@de .

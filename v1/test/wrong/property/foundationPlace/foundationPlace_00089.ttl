@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02dyk3__1>
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.026mj> ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02dyk3>
+        rdfs:label     "IWin.com"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02dyk3__1> ;
+        skos:altLabel  "IWin, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.026mj>
+        rdfs:label     "Delaware"@de , "Delaware"@fr , "Delaware"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Delaware> , <http://de.dbpedia.org/resource/Delaware> , <http://dbpedia.org/resource/Delaware> ;
+        skos:altLabel  "The Small Wonder"@en , "Delaware trivia"@en , "The Small Wonder"@fr , "The Small Wonder"@de , "Delaware trivia"@de , "Delaware trivia"@fr , "1st State"@en , "1st State"@fr , "1st State"@de , "Culture of Delaware"@en , "Culture of Delaware"@de , "Culture of Delaware"@fr , "Delaware"@en , "Delaware"@fr , "Delaware"@de , "Government of Delaware"@en , "Government of Delaware"@de , "Government of Delaware"@fr , "Alcohol laws of Delaware"@en , "Alcohol laws of Delaware"@fr , "Alcohol laws of Delaware"@de , "Education in Delaware"@en , "US-DE"@en , "US-DE"@de , "US-DE"@fr , "Religion in Delaware"@en , "Education in Delaware"@fr , "Religion in Delaware"@fr , "Religion in Delaware"@de , "Education in Delaware"@de , "Dela"@en , "Economy of Delaware"@en , "Economy of Delaware"@fr , "Economy of Delaware"@de , "Demographics of Delaware"@en , "Delaware, United States"@en , "Three lower counties"@en , "Delaware, United States"@fr , "Three lower counties"@de , "Three lower counties"@fr , "Delaware, United States"@de , "Demographics of Delaware"@fr , "Demographics of Delaware"@de , "Del"@en , "Deleware"@en , "Deleware"@de , "Deleware"@fr , "The Blue Hen State"@en , "The Blue Hen State"@de , "The Blue Hen State"@fr , "State of Delaware"@en , "State of Delaware"@fr , "State of Delaware"@de , "Climate of Delaware"@en , "Climate of Delaware"@de , "Climate of Delaware"@fr , "Geography of Delaware"@en , "Geography of Delaware"@fr , "Geography of Delaware"@de , "Sports in Delaware"@en , "Sports in Delaware"@fr , "Sports in Delaware"@de , "DE"@en , "The First State"@en , "The First State"@de , "The First State"@fr , "List of municipalities in Delaware"@en , "List of municipalities in Delaware"@de , "List of municipalities in Delaware"@fr , "Delawarean"@en , "Delawarean"@de , "Delawarean"@fr , "Del."@en , "Del."@fr , "Del."@de , "Transportation in Delaware"@en , "Transportation in Delaware"@fr , "Transportation in Delaware"@de , "Transport in Delaware"@en , "Transport in Delaware"@fr , "Transport in Delaware"@de .

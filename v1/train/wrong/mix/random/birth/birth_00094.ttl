@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Quentin_Tarantino>
+        rdfs:label     "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quentin Tarantino"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Quentin_Tarantino__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Quentin_Tarantino> , <http://de.dbpedia.org/resource/Quentin_Tarantino> ;
+        skos:altLabel  "Q. Tarantino"@fr , "Quinton Tarantino"@en , "Quinton Tarantino"@de , "Quinton Tarantino"@fr , "Quentin Tarrantino"@en , "Quentin Tarrantino"@fr , "Quentin Tarrantino"@de , "Tarrantino"@fr , "Tarantino"@en , "Tarantino"@de , "Tarantino"@fr , "Quentin Jerome Tarantino"@en , "Quentin Jerome Tarantino"@de , "Quentin Jerome Tarantino"@fr , "Quintin Terantino"@en , "Quintin Terantino"@de , "Quintin Terantino"@fr , "Quentin Tarantino"@en , "Quentin Tarantino"@de , "Quentin Tarantino"@fr , "Quinton Terrantino"@en , "Quinton Terrantino"@de , "Quinton Terrantino"@fr , "Q. Tarentino"@en , "Q. Tarentino"@de , "Q. Tarentino"@fr , "Tarentino"@fr , "The Vega Brothers"@en , "The Vega Brothers"@de , "The Vega Brothers"@fr , "Quinten Tarantino"@en , "Quinten Tarantino"@fr , "Quinten Tarantino"@de , "Quentin tarantino"@en , "Quentin tarantino"@de , "Quentin tarantino"@fr , "Quentin"@en , "Quentin"@de , "Quentin"@fr , "Quinten Tarintino"@en , "Red Apple Cigarettes"@en , "QuentinTarrantino"@en , "Quinten Tarintino"@de , "Quinten Tarintino"@fr , "Quentin Tarintino"@en , "Quentin Tarintino"@de , "Quentin Tarintino"@fr , "Quentin Tarentino"@en , "QuentinTarrantino"@de , "QuentinTarrantino"@fr , "Quentin Tarentino"@de , "Quentin Tarentino"@fr , "Red Apple Cigarettes"@de , "Red Apple Cigarettes"@fr , "Q. Tarantino"@en , "Q. Tarantino"@de .
+
+<http://dbpedia.org/resource/Quentin_Tarantino__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Belgrade> ;
+        dbo:from        "1856"^^xsd:gYear ;
+        dbo:to          "1856"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Belgrade>
+        rdfs:label     "Belgrade"@de , "Belgrade"@fr , "Belgrade"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belgrad> , <http://fr.dbpedia.org/resource/Belgrade> ;
+        skos:altLabel  "Prinzeugenstadt"@en , "Belgrad"@en , "Belgrad"@de , "Belgrad"@fr , "Prinzeugenstadt"@de , "Prinzeugenstadt"@fr , "Belgrade, Serbia"@en , "Belgrade, Serbia"@de , "Belgrade, Serbia"@fr , "Capital of Serbia and Montenegro"@en , "Capital of Serbia and Montenegro"@fr , "Capital of Serbia and Montenegro"@de , "Nándorfehérvár"@en , "Nándorfehérvár"@de , "Nándorfehérvár"@fr , "Belgrade"@en , "Belgrade"@de , "Belgrade"@fr , "Belgrade Region"@en , "Belgrade Region"@fr , "Belgrade Region"@de , "Belgrade, Yugoslavia"@en , "Belgrade, Yugoslavia"@fr , "Belgrade, Yugoslavia"@de , "Prinz-Eugenstadt"@en , "Prinz-Eugenstadt"@de , "Prinz-Eugenstadt"@fr , "Batajnia Air Base"@fr , "Beograd"@en , "Beograd"@de , "Beograd"@fr , "LOCODE:RSBEG"@en , "Belgrád"@en , "LOCODE:RSBEG"@fr , "Belgrád"@de , "Belgrád"@fr , "LOCODE:RSBEG"@de , "Nandorfehervar"@en , "Nandorfehervar"@fr , "Nandorfehervar"@de , "Belograd"@en , "Capital of Yugoslavia"@en , "Belograd"@de , "Belograd"@fr , "Capital of Yugoslavia"@de , "Capital of Yugoslavia"@fr , "City of Belgrade"@en , "City of Belgrade"@fr , "City of Belgrade"@de , "LOCODE:CSBEG"@en , "LOCODE:CSBEG"@de , "LOCODE:CSBEG"@fr , "RS-00"@de , "Belgrade District"@en , "Belgrade District"@fr , "Belgrade District"@de , "Region of Belgrade"@en , "Region of Belgrade"@de , "Region of Belgrade"@fr , "Grad"@en , "Grad"@de , "Grad"@fr , "Capital of Serbia"@en , "Capital of Serbia"@de , "Capital of Serbia"@fr .

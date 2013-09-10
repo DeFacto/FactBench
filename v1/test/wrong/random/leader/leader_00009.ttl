@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Miguel_Primo_de_Rivera>
+        rdfs:label  "Miguel Primo de Rivera"@en , "Miguel Primo de Rivera"@fr , "Miguel Primo de Rivera"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Miguel_Primo_de_Rivera__1> .
+
+<http://dbpedia.org/resource/Miguel_Primo_de_Rivera__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.01gnt0> ;
+        dbo:from             "1979"^^xsd:gYear ;
+        dbo:to               "1990"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01gnt0>
+        rdfs:label     "Nokia"@en , "Nokia"@fr , "Nokia"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nokia_(Stadt)> , <http://fr.dbpedia.org/resource/Nokia_(ville)> , <http://dbpedia.org/resource/Nokia,_Finland> ;
+        skos:altLabel  "Nokia, Finland"@en , "Nokia, Finland"@fr , "Nokia, Finland"@de , "Pohjois-Pirkkala"@fr , "Pohjois-Pirkkala"@de , "Pohjois-Pirkkala"@en , "Nokia"@en , "Nokia"@fr , "Nokia"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Woodrow_Wilson__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Edina,_Minnesota> ;
+        dbo:from             "1976"^^xsd:gYear ;
+        dbo:to               "1976"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Edina,_Minnesota>
+        rdfs:label     "Edina, Minnesota"@en , "Edina, Minnesota"@fr , "Edina, Minnesota"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Edina> , <http://de.dbpedia.org/resource/Edina_(Minnesota)> ;
+        skos:altLabel  "Edina, mn"@en , "Edina, mn"@de , "Edina, mn"@fr , "Edina"@en , "Edina"@fr , "Edina"@de , "Edina, MN"@en , "Edina, MN"@fr , "Edina, MN"@de , "Our Lady of Grace"@en , "Our Lady of Grace"@fr , "Our Lady of Grace"@de , "Bredesen Park"@en , "Edina, Minnesota"@en , "Edina, Minnesota"@fr , "Edina, Minnesota"@de , "Bredesen Park"@fr , "Bredesen Park"@de .
+
+<http://dbpedia.org/resource/Woodrow_Wilson>
+        rdfs:label     "Woodrow Wilson"@de , "Woodrow Wilson"@fr , "Woodrow Wilson"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Woodrow_Wilson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Woodrow_Wilson> , <http://de.dbpedia.org/resource/Woodrow_Wilson> ;
+        skos:altLabel  "T Woodrow Wilson"@en , "T Woodrow Wilson"@de , "T Woodrow Wilson"@fr , "President Wilson"@en , "President Wilson"@de , "President Wilson"@fr , "Wilson, Woodrow"@en , "Wilson, Woodrow"@de , "Wilson, Woodrow"@fr , "Woodrow"@en , "Woodrow"@de , "Woodrow"@fr , "President Wilson's"@en , "W. Wilson"@en , "President Wilson's"@de , "President Wilson's"@fr , "W. Wilson"@de , "W. Wilson"@fr , "Thomas Woodrow Wilson"@de , "Thomas Woodrow Wilson"@fr , "Thomas Woodrow Wilson"@en , "28th President of the United States"@en , "28th President of the United States"@fr , "28th President of the United States"@de , "President Woodrow Wilson"@en , "President Woodrow Wilson"@de , "President Woodrow Wilson"@fr , "Thomas W. Wilson"@en , "Thomas W. Wilson"@fr , "Thomas W. Wilson"@de , "President wilson"@en , "President wilson"@de , "President wilson"@fr , "Woodrow wilson"@en , "Woodrow wilson"@de , "Woodrow wilson"@fr , "Wildrow Woodson"@en , "Wildrow Woodson"@de , "Wildrow Woodson"@fr , "Wilson"@en , "Wilson"@de , "Wilson"@fr , "Woodrow Wilson"@en , "Woodrow Wilson"@de , "Woodrow Wilson"@fr , "Presidency of Woodrow Wilson"@en , "Presidency of Woodrow Wilson"@de , "Presidency of Woodrow Wilson"@fr , "Président Wilson"@fr , "T. Woodrow Wilson"@en , "T. Woodrow Wilson"@de , "T. Woodrow Wilson"@fr .

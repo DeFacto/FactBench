@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/The_Bronx>
+        rdfs:label     "The Bronx"@de , "The Bronx"@fr , "The Bronx"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Bronx> , <http://fr.dbpedia.org/resource/Bronx> ;
+        skos:altLabel  "County of Bronx"@de , "Bronx, N.Y."@en , "Comte de Bronx"@fr , "County of The Bronx"@fr , "County of The Bronx"@de , "County of The Bronx"@en , "The Bronx, New York"@fr , "The Bronx, New York"@en , "The Bronx, New York"@de , "Da Bronx"@fr , "Da Bronx"@de , "Da Bronx"@en , "The Boogie-down"@fr , "The Boogie-down"@en , "The Boogie-down"@de , "Bronx County, NY"@fr , "Bronx County, NY"@de , "South Bronx"@de , "Bronx County, NY"@en , "Comté de Bronx"@fr , "The Bronx, NY"@fr , "Bronx County, New York"@fr , "The Bronx, NY"@de , "Bronx County, New York"@en , "The Bronx, NY"@en , "Bronx County, New York"@de , "The bronx"@fr , "The bronx"@en , "The bronx"@de , "Bronxite"@fr , "Bronxite"@en , "Bronxite"@de , "The Bronx, New York City"@fr , "The Bronx, New York City"@en , "The Bronx, New York City"@de , "Bronx, New York"@fr , "Bronx, New York"@en , "Bronx, New York"@de , "The Bronx"@fr , "The Bronx,NY"@fr , "The Bronx"@de , "The Bronx,NY"@en , "The Bronx,NY"@de , "The Bronx"@en , "County of the Bronx"@fr , "Bronx"@fr , "Bronx"@en , "Bronx"@de , "County of the Bronx"@de , "County of the Bronx"@en , "Bronx, NY"@fr , "Bronx, NY"@de , "Bronx, NY"@en , "Le Bronx"@fr , "Bronx County"@fr , "Bronx, New York City"@fr , "Bronx, New York City"@en , "Bronx, New York City"@de , "Bronx County"@en , "Bronx County"@de , "Bronx NY"@fr , "Bronx NY"@en , "Bronx NY"@de , "Bronx, N.Y."@fr , "County of Bronx"@fr , "Bronx, N.Y."@de , "County of Bronx"@en .
+
+<http://dbpedia.org/resource/Woody_Allen__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/The_Bronx> ;
+        dbo:from        "1935-12-01"^^xsd:date ;
+        dbo:to          "1935-12-01"^^xsd:date .
+
+<http://dbpedia.org/resource/Woody_Allen>
+        rdfs:label     "Woody Allen"@en , "Woody Allen"@fr , "Woody Allen"@de ;
+        dbo:birth      <http://dbpedia.org/resource/Woody_Allen__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Woody_Allen> , <http://de.dbpedia.org/resource/Woody_Allen> ;
+        skos:altLabel  "Woddy Allen"@fr , "Woddy Allen"@de , "Woddy Allen"@en , "Woody"@fr , "Woodie allen"@fr , "Allan Stewart Königsberg"@fr , "Allen Stewart Konigsberg"@fr , "Allen Konigsberg"@fr , "Allen Stewart Konigsberg"@de , "Allen Konigsberg"@de , "Allen Konigsberg"@en , "Allen Stewart Konigsberg"@en , "Allen"@fr , "Allen, Woody"@fr , "Allen, Woody"@de , "Allen, Woody"@en , "Heywood Allen"@fr , "Heywood Allen"@de , "Heywood Allen"@en , "Allan Stewart Konigsberg"@fr , "Allan Konigsberg"@fr , "Allan Konigsberg"@de , "Allan Stewart Konigsberg"@de , "Allan Konigsberg"@en , "Allan Stewart Konigsberg"@en , "Woody Allen"@fr , "Allen Stewart Königsberg"@fr , "Woody allen"@fr , "Woody Allen"@de , "Woody allen"@de , "Woody allen"@en , "Woody Allen"@en .

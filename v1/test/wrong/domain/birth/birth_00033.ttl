@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Nelly_Furtado>
+        rdfs:label     "Nelly Furtado"@de , "Nelly Furtado"@fr , "Nelly Furtado"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Nelly_Furtado__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nelly_Furtado> , <http://fr.dbpedia.org/resource/Nelly_Furtado> ;
+        skos:altLabel  "Conozcame"@fr , "Nelstar"@de , "Nelstar"@fr , "Nelstar"@en , "Nelly Furtodo"@de , "Nelly Furtodo"@fr , "Nelly Furtodo"@en , "Nelstar*"@de , "Nelstar*"@fr , "Nelstar*"@en , "Nellie Furtado"@de , "Nellie Furtado"@fr , "Nellie Furtado"@en , "Nelly Kim Furtado"@de , "Nelly Kim Furtado"@fr , "Nelly Kim Furtado"@en , "Nelly Furtado's first Spanish language album"@de , "Nelly Furtado"@de , "Nelly Furtado"@fr , "Nelly Furtado"@en , "Nelly Furtado's first Spanish language album"@fr , "Nelly Furtado's first Spanish language album"@en , "Furtado, Nelly"@en , "Nelly"@en , "Nelly"@de , "Nelly"@fr , "Furtado, Nelly"@de , "Furtado, Nelly"@fr , "Furtado"@de , "Furtado"@fr , "Furtado"@en , "Nelly furtado"@de , "Nelly furtado"@fr , "Nelly furtado"@en , "Nelly Furtado's First Spanish Album"@de , "Nelly Furtado's First Spanish Album"@fr , "Nelly Furtado's First Spanish Album"@en .
+
+<http://dbpedia.org/resource/Nelly_Furtado__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Omaha,_Nebraska> ;
+        dbo:from        "1913"^^xsd:gYear ;
+        dbo:to          "1913"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Omaha,_Nebraska>
+        rdfs:label     "Omaha, Nebraska"@en , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Omaha> , <http://fr.dbpedia.org/resource/Omaha_(Nebraska)> ;
+        skos:altLabel  "Omaha, ne"@en , "Omaha Nebraska"@en , "City of Omaha"@en , "Omaha City"@en , "Omaha Nebraska"@fr , "Omaha Nebraska"@de , "Omaha, ne"@fr , "City of Omaha"@fr , "Omaha, ne"@de , "Omaha City"@fr , "Omaha City"@de , "City of Omaha"@de , "Omaha, NE"@en , "Omaha, NE"@fr , "Omaha, NE"@de , "Omaha"@en , "Omaha"@fr , "Omaha"@de , "LOCODE:USOMA"@en , "Omaha, Neb."@en , "LOCODE:USOMA"@fr , "Omaha, Neb."@fr , "LOCODE:USOMA"@de , "Omaha, Neb."@de , "Songs about Omaha"@en , "Songs about Omaha"@fr , "Songs about Omaha"@de , "Omaha,Nebraska"@en , "Omaha, Nebraska"@en , "Omaha,Nebraska"@fr , "Omaha, Nebraska"@fr , "Omaha, Nebraska"@de , "Omaha,Nebraska"@de .

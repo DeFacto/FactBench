@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05m63c>
+        rdfs:label     "Krista Allen"@fr , "Krista Allen"@en , "Krista Allen"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Krista_Allen> , <http://fr.dbpedia.org/resource/Krista_Allen> , <http://dbpedia.org/resource/Krista_Allen> ;
+        skos:altLabel  "Krista Moritt"@en , "Krista Allen-Moritt"@fr , "Krista Allen-Moritt"@en , "Krista Allen-Moritt"@de , "Krista J. Allen"@en , "Krista Allen"@fr , "Krista Allen"@de .
+
+<http://rdf.freebase.com/ns/m.0h12zjq>
+        rdfs:label     "Mams Taylor"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0h12zjq__14> ;
+        skos:altLabel  "Mams taylor"@en .
+
+<http://rdf.freebase.com/ns/m.0h12zjq__14>
+        dbo:from    "2010-10-10"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.05m63c> ;
+        dbo:to      "2012-02-12"^^xsd:date .

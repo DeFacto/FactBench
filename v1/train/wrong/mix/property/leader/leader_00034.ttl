@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Netherlands>
+        rdfs:label     "Netherlands"@de , "Netherlands"@fr , "Netherlands"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pays-Bas> , <http://de.dbpedia.org/resource/Niederlande> ;
+        skos:altLabel  "Hol)"@en , "Hol)"@fr , "Hol)"@de , "Nederlandia"@en , "Nederlandia"@fr , "Nederlandia"@de , "The Netherlands"@en , "The Netherlands"@fr , "The Netherlands"@de , "Netherlands"@en , "Netherlands"@fr , "Netherlands"@de , "Paises Bajos"@en , "Paises Bajos"@fr , "Paises Bajos"@de , "Olanda"@en , "Olanda"@fr , "Olanda"@de , "Capitals of Holland"@en , "Nederland"@de , "Capitals of Holland"@fr , "Capitals of Holland"@de , "Metropolitan Netherlands"@en , "Metropolitan Netherlands"@fr , "Metropolitan Netherlands"@de , "Koninkrijk der Nederlanden"@fr , "Administrative divisions of the netherlands"@en , "Administrative divisions of the netherlands"@fr , "Administrative divisions of the netherlands"@de , "Subdivisions of the Netherlands"@en , "Subdivisions of the Netherlands"@fr , "Subdivisions of the Netherlands"@de , "Holland"@en , "Holland"@fr , "Holland"@de , "Nehterlands"@en , "Nehterlands"@fr , "Nehterlands"@de , "Neerlande"@fr , "PAYS-BAS"@fr , "Pays-Bas"@en , "Pays-bas"@fr , "Contraversies about the Netherlands"@en , "Administrative divisions of the Netherlands"@en , "Pays-Bas"@fr , "Contraversies about the Netherlands"@fr , "Administrative divisions of the Netherlands"@fr , "Contraversies about the Netherlands"@de , "Administrative divisions of the Netherlands"@de , "Pays-Bas"@de , "ISO 3166-1:NL"@en , "ISO 3166-1:NL"@fr , "ISO 3166-1:NL"@de , "Royaume des Pays bas"@fr , "Pays Bas"@fr , "The netherlands"@en , "The netherlands"@fr , "The netherlands"@de , "Climate of the Netherlands"@en , "Climate of the Netherlands"@de , "Climate of the Netherlands"@fr , "Néerlandaise"@fr , "Neatherlands"@en , "Neatherlands"@fr , "Neatherlands"@de , "Nyderlandai"@en , "Nyderlandai"@fr , "Nyderlandai"@de , "Capitals of the Netherlands"@en , "Capitals of the Netherlands"@fr , "Capitals of the Netherlands"@de , "Northern Netherlands"@en , "Northern Netherlands"@fr , "Northern Netherlands"@de , "Netherlands, The"@en , "NETHERLANDS"@en , "NETHERLANDS"@fr , "NETHERLANDS"@de , "Netherlands, The"@fr , "Netherlands, The"@de , "The netherland"@en , "The netherland"@fr , "The netherland"@de , "HistoryTalk"@en , "HistoryTalk"@fr , "Pays bas"@fr , "HistoryTalk"@de , "Niederland"@de , "Pays-Bass"@fr , "Royaume des Pays-Bas"@fr , "Néerlande"@fr , "Nederlan"@de , "Capital of Holland"@en , "Capital of Holland"@fr , "Capital of Holland"@de , "Niederlande"@de , "Royaume des pays-bas"@fr , "Counties of the Netherlands"@en , "Neerlandaise"@fr , "Dutch inhabitants"@en , "Dutch inhabitants"@de , "Dutch inhabitants"@fr , "Counties of the Netherlands"@fr , "Counties of the Netherlands"@de , "Les Pays-Bas"@fr , "The Netheralands"@en , "The Netheralands"@fr , "The Netheralands"@de , "Nederlân"@de .
+
+<http://dbpedia.org/resource/Ruud_Lubbers>
+        rdfs:label     "Ruud Lubbers"@en , "Ruud Lubbers"@fr , "Ruud Lubbers"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ruud_Lubbers__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ruud_Lubbers> , <http://de.dbpedia.org/resource/Ruud_Lubbers> ;
+        skos:altLabel  "Ruud Lübbers"@fr , "Ruud F.M. Lubbers"@fr , "Ruud Lubbers"@en , "Ruud Lubbers"@fr , "Ruud Lubbers"@de , "Rudolph Franz Marie Lubbers"@en , "Rudolph Franz Marie Lubbers"@fr , "Rudolph Franz Marie Lubbers"@de , "Ruud F. M. Lubbers"@en , "Ruud F. M. Lubbers"@fr , "Ruud F. M. Lubbers"@de , "Rudolphus Franciscus Marie Lubbers"@en , "Ruud"@en , "Ruud Frans Marie Lubbers"@en , "Lubbers"@en , "Rudolphus Franciscus Marie Lubbers"@fr , "Ruud"@fr , "Ruud Frans Marie Lubbers"@fr , "Lubbers"@fr , "Rudolphus Franciscus Marie Lubbers"@de , "Ruud"@de , "Ruud Frans Marie Lubbers"@de , "Lubbers"@de .
+
+<http://dbpedia.org/resource/Ruud_Lubbers__1>
+        dbo:from  "1982"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Netherlands> ;
+        dbo:to    "1994"^^xsd:gYear .

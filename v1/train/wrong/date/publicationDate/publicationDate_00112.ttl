@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01d4ls>
+        rdfs:label     "Walter Jon Williams"@en , "Walter Jon Williams"@fr , "Walter Jon Williams"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01d4ls__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Walter_Jon_Williams> , <http://de.dbpedia.org/resource/Walter_Jon_Williams> , <http://fr.dbpedia.org/resource/Walter_Jon_Williams> ;
+        skos:altLabel  "Walter Jon Williams"@en , "Walter Jon Williams"@fr , "Walter Jon Williams"@de , "Williams, Walter Jon"@en , "Williams, Walter Jon"@de , "Williams, Walter Jon"@fr , "Jon Williams"@en , "Walter John Williams"@en , "Walter John Williams"@fr , "Walter John Williams"@de , "Williams"@fr , "Walter J. Williams"@en .
+
+<http://rdf.freebase.com/ns/m.054flp>
+        rdfs:label     "Aristoi"@en , "Aristoï"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Aristoi_(novel)> , <http://fr.dbpedia.org/resource/Aristoï> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Aristoï"@fr , "Aristoi"@fr .
+
+<http://rdf.freebase.com/ns/m.01d4ls__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.054flp> ;
+        dbo:from    "1991"^^xsd:gYear ;
+        dbo:to      "1991"^^xsd:gYear .

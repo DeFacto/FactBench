@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027w3_s>
+        rdfs:label  "The Breath of Suspension"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Breath_of_Suspension> .
+
+<http://rdf.freebase.com/ns/m.03bfv__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027w3_s> ;
+        dbo:from    "1944"^^xsd:gYear ;
+        dbo:to      "1944"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03bfv>
+        rdfs:label     "Greg Egan"@en , "Greg Egan"@fr , "Greg Egan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03bfv__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Greg_Egan> , <http://de.dbpedia.org/resource/Greg_Egan> , <http://fr.dbpedia.org/resource/Greg_Egan> ;
+        skos:altLabel  "Greg Egan"@en , "Greg Egan"@fr , "Greg Egan"@de , "Egan"@en , "Egan"@fr , "Egan"@de , "Gregory Mark Egan"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Long_Branch,_New_Jersey>
+        rdfs:label     "Long Branch, New Jersey"@en , "Long Branch, New Jersey"@fr , "Long Branch, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Long_Branch_(New_Jersey)> , <http://fr.dbpedia.org/resource/Long_Branch_(New_Jersey)> ;
+        skos:altLabel  "Long Branch, NJ"@en , "Long Branch, NJ"@fr , "Long Branch, NJ"@de , "Long Branch City, New Jersey"@en , "Long Branch City, NJ"@en , "Elberon, Monmouth County, New Jersey"@en , "Long Branch City, New Jersey"@fr , "Long Branch City, NJ"@fr , "Elberon, Monmouth County, New Jersey"@fr , "Long Branch City, New Jersey"@de , "Elberon, Monmouth County, New Jersey"@de , "Long Branch City, NJ"@de , "Elberon, Monmouth Co., New Jersey"@en , "Elberon, Monmouth Co., New Jersey"@fr , "Elberon, Monmouth Co., New Jersey"@de , "Long Branch, New Jersey"@en , "Long Branch"@en , "Long Branch, New Jersey"@fr , "Long Branch, New Jersey"@de , "Long Branch"@fr , "Long Branch"@de .
+
+<http://dbpedia.org/resource/Steve_Nash>
+        rdfs:label     "Steve Nash"@fr , "Steve Nash"@de , "Steve Nash"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Steve_Nash__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Steve_Nash> , <http://de.dbpedia.org/resource/Steve_Nash> ;
+        skos:altLabel  "Steve Nash"@en , "Steve Nash"@fr , "Steve Nash"@de , "Nash"@fr , "Steve Nash Foundation"@en , "Steve Nash Foundation"@fr , "Steve Nash Foundation"@de , "Steven John Nash"@en , "Steven John Nash"@fr , "Steven John Nash"@de , "Stephen John Nash"@en , "Stephen John Nash"@fr , "Stephen John Nash"@de .
+
+<http://dbpedia.org/resource/Steve_Nash__1>
+        dbo:from        "1892"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Long_Branch,_New_Jersey> ;
+        dbo:to          "1892"^^xsd:gYear .

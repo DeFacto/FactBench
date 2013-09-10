@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0382m4>
+        rdfs:label     "Michael C. Hall"@en , "Michael C. Hall"@fr , "Michael C. Hall"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Michael_C._Hall> , <http://de.dbpedia.org/resource/Michael_C._Hall> , <http://dbpedia.org/resource/Michael_C._Hall> ;
+        skos:altLabel  "Michael Carlyle Hall"@en , "Michael Carlyle Hall"@fr , "Michael Carlyle Hall"@de , "Michael C Hall"@en , "Michael C Hall"@fr , "Michael C Hall"@de , "Michael Carlisle Hall"@en , "Michael C. Hall"@en , "Michael C. Hall"@de , "Michael C. Hall"@fr , "Michael Hall"@en , "Hall"@fr .
+
+<http://rdf.freebase.com/ns/m.09qcp5>
+        rdfs:label     "Nick Zano"@en , "Nick Zano"@fr , "Nick Zano"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09qcp5__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nick_Zano> , <http://fr.dbpedia.org/resource/Nick_Zano> , <http://dbpedia.org/resource/Nick_Zano> ;
+        skos:altLabel  "Zano"@de , "Nick Zano"@fr , "Nick Zano"@de , "Nicholas Zano"@en .
+
+<http://rdf.freebase.com/ns/m.09qcp5__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0382m4> ;
+        dbo:to      "2011"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kobe_Bryant__1>
+        dbo:from    "2004"^^xsd:gYear ;
+        dbo:spouse  <http://dbpedia.org/resource/Dublin> ;
+        dbo:to      "2006"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dublin>
+        rdfs:label     "Dublin"@de , "Dublin"@fr , "Dublin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dublin> , <http://fr.dbpedia.org/resource/Dublin> ;
+        skos:altLabel  "Dublín"@en , "Dublín"@de , "Dublín"@fr , "Dublinn"@fr , "Dublin, Republic of Ireland"@en , "Dublin, Republic of Ireland"@fr , "Dublin, Republic of Ireland"@de , "Capital of Republic of Ireland"@en , "Dublin"@en , "Dublin"@fr , "Dublin"@de , "Capital of Republic of Ireland"@fr , "Capital of Republic of Ireland"@de , "Dublin City, Ireland"@en , "Dyflin"@en , "Dyflin"@de , "Dublin City, Ireland"@de , "Dublin City, Ireland"@fr , "Dyflin"@fr , "Capital of the Republic of Ireland"@en , "Capital of the Republic of Ireland"@fr , "Capital of the Republic of Ireland"@de , "Dublin City Centre"@en , "Dublin City Centre"@de , "Dublin City Centre"@fr , "City Center, Dublin"@en , "City Center, Dublin"@de , "City Center, Dublin"@fr , "Baile Atha Cliath"@en , "Baile Atha Cliath"@fr , "Baile Atha Cliath"@de , "Dubhlinn"@de , "Dubh Linn"@en , "Dubh Linn"@fr , "Dubh Linn"@de , "Dublin, County Dublin"@en , "Dublin, County Dublin"@fr , "Dublin, County Dublin"@de , "City of Dublin"@en , "City of Dublin"@fr , "City of Dublin"@de , "Capital of Ireland"@en , "Capital of Ireland"@fr , "Capital of Ireland"@de , "West Dublin"@en , "West Dublin"@fr , "West Dublin"@de , "Dublin, Ireland"@en , "Dublin, Ireland"@fr , "Dublin, Ireland"@de , "Baile átha Cliath"@en , "City Centre, Dublin"@en , "The weather in Dublin"@en , "The weather in Dublin"@de , "The weather in Dublin"@fr , "Dublin city center"@en , "Baile átha Cliath"@fr , "Baile átha Cliath"@de , "Dublin city center"@de , "Dublin city center"@fr , "Dublin city centre"@en , "City Centre, Dublin"@fr , "City Centre, Dublin"@de , "Dublin city centre"@de , "Dublin city centre"@fr , "Dublin City Center"@en , "Dublin Culture"@en , "Central Dublin"@en , "Dublin City Center"@fr , "Dublin Culture"@fr , "Central Dublin"@fr , "Dublin City Center"@de , "Dublin Culture"@de , "Central Dublin"@de , "Visitor Information for Dublin, Ireland"@en , "Baile Átha Cliath"@en , "Visitor Information for Dublin, Ireland"@fr , "Baile Átha Cliath"@fr , "Visitor Information for Dublin, Ireland"@de , "Baile Átha Cliath"@de , "LOCODE:IEDUB"@en , "LOCODE:IEDUB"@fr , "LOCODE:IEDUB"@de , "Baile atha Cliath"@en , "Baile atha Cliath"@fr , "Baile atha Cliath"@de .
+
+<http://dbpedia.org/resource/Kobe_Bryant>
+        rdfs:label     "Kobe Bryant"@de , "Kobe Bryant"@fr , "Kobe Bryant"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kobe_Bryant__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kobe_Bryant> , <http://fr.dbpedia.org/resource/Kobe_Bryant> ;
+        skos:altLabel  "Kobe time"@en , "Kobe time"@de , "Kobe time"@fr , "Kobe Bryant's 81 point game"@en , "Kobe Bryant's 81 point game"@de , "Kobe Bryant's 81 point game"@fr , "KB24"@en , "KB24"@de , "KB24"@fr , "Kobe Byrant"@en , "Kobe Byrant"@de , "Kobe Byrant"@fr , "Kobe Bryant's 81-point game"@en , "Kobe Bryant's 81-point game"@de , "Kobe Bryant's 81-point game"@fr , "Coby Bryant"@en , "Coby Bryant"@de , "Coby Bryant"@fr , "Kobe"@en , "Chi Sah"@en , "Chi Sah"@de , "Chi Sah"@fr , "Kobe"@de , "Kobe"@fr , "Nba allstar 2007 mvp"@en , "Nba allstar 2007 mvp"@de , "Nba allstar 2007 mvp"@fr , "Kobe b"@en , "Kobe b"@fr , "Kobe b"@de , "Kobe Bean Bryant"@en , "Kobe Bean Bryant"@de , "Kobe Bean Bryant"@fr , "Vanessa Laine Bryant"@en , "Vanessa Laine Bryant"@de , "Vanessa Laine Bryant"@fr , "Vanessa Laine"@en , "Vanessa Laine"@de , "Vanessa Laine"@fr , "Career achievements of Kobe Bryant"@en , "Career achievements of Kobe Bryant"@de , "Career achievements of Kobe Bryant"@fr , "Gianna Bryant"@en , "Gianna Bryant"@fr , "Gianna Bryant"@de , "Kobe Bryant"@en , "Kobe Bryant"@de , "Kobe Bryant"@fr , "Kode bryant"@en , "Kode bryant"@de , "Kode bryant"@fr , "Bryant"@de , "Bryant"@fr , "Kobe bryant"@en , "Kobe bryant"@de , "Kobe bryant"@fr .

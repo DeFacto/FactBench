@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.048_p__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.09437h> ;
+        dbo:from    "1998"^^xsd:gYear ;
+        dbo:to      "1998"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.048_p>
+        rdfs:label     "Kim Stanley Robinson"@en , "Kim Stanley Robinson"@fr , "Kim Stanley Robinson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.048_p__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kim_Stanley_Robinson> , <http://dbpedia.org/resource/Kim_Stanley_Robinson> , <http://fr.dbpedia.org/resource/Kim_Stanley_Robinson> ;
+        skos:altLabel  "Science In The Capitol"@en , "Science In The Capitol"@fr , "Science In The Capitol"@de , "Kim Stanley Robinson"@en , "Kim Stanley Robinson"@de , "Kim Stanley Robinson"@fr , "Kim Robinson"@en , "Robinson"@fr , "Robinson, Kim Stanley"@en , "Robinson, Kim Stanley"@fr , "Robinson, Kim Stanley"@de , "Kim Robinson"@fr , "Kim Robinson"@de .
+
+<http://rdf.freebase.com/ns/m.09437h>
+        rdfs:label  "Fifty Degrees Below"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Fifty_Degrees_Below> .

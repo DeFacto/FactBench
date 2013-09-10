@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05qfw3s__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.05qph1> ;
+        dbo:from    "1984"^^xsd:gYear ;
+        dbo:to      "1984"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05qph1>
+        rdfs:label     "L'Homme démoli"@fr , "The Demolished Man"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Demolished_Man> , <http://fr.dbpedia.org/resource/L'Homme_démoli> ;
+        skos:altLabel  "L'homme demoli"@fr , "L'Homme Démoli"@fr , "The Demolished Man"@en , "The Demolished Man"@fr , "L'Homme démoli"@fr , "L'Homme demoli"@fr , "Demolished Man"@en , "Demolished Man"@fr , "L'homme démoli"@fr , "L'Homme Demoli"@fr .
+
+<http://rdf.freebase.com/ns/m.05qfw3s>
+        rdfs:label  "William Rollo"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05qfw3s__1> .

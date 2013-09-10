@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0n41fmh__1>
+        dbo:author  <http://dbpedia.org/resource/Las_Vegas> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Las_Vegas>
+        rdfs:label     "Las Vegas"@en , "Las Vegas"@fr , "Las Vegas"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Las_Vegas> , <http://fr.dbpedia.org/resource/Las_Vegas> ;
+        skos:altLabel  "Las Vegas City Council"@en , "Las Vegas City Council"@fr , "Las Vegas, Nevada"@en , "The City of Las Vegas"@en , "Vegas"@en , "Las Vegas, Nevada"@fr , "Las Vegas"@en , "The City of Las Vegas"@fr , "Las Vegas"@fr , "Las Vegas"@de , "Vegas"@fr , "Vegas"@de , "Las vegas, nv"@en , "Las vegas, nv"@fr , "Los Vegas"@en , "Los Vegas"@fr , "Las vagas"@en , "Las vagas"@fr , "Las vegas"@en , "Las vegas"@fr , "LOCODE:USLAS"@en , "LasVegas"@en , "LOCODE:USLAS"@fr , "LasVegas"@fr , "Las Vegas NV"@en , "Las Vegas NV"@fr , "Citizens Area Transit"@de , "Wedding chapel"@de .
+
+<http://rdf.freebase.com/ns/m.0n41fmh>
+        rdfs:label  "Manuel Schwarz"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0n41fmh__1> .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dominion_of_Newfoundland>
+        rdfs:label     "Dominion of Newfoundland"@en , "Dominion of Newfoundland"@fr , "Dominion of Newfoundland"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Dominion_de_Terre-Neuve> , <http://de.dbpedia.org/resource/Neufundland_(Dominion)> ;
+        skos:altLabel  "Dominion of newfoundland"@en , "Dominion of newfoundland"@fr , "Dominion of newfoundland"@de , "Neufundland"@de , "Newfoundland"@en , "Newfoundland"@fr , "Newfoundland"@de , "Dominion of Newfoundland"@en , "Dominion of Newfoundland"@fr , "Dominion of Newfoundland"@de , "Dominion de Terre-Neuve"@fr .
+
+<http://dbpedia.org/resource/Martti_Miettunen>
+        rdfs:label     "Martti Miettunen"@en , "Martti Miettunen"@fr , "Martti Miettunen"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Martti_Miettunen__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Martti_Miettunen> ;
+        skos:altLabel  "Miettunen"@de , "Martti Miettunen"@de .
+
+<http://dbpedia.org/resource/Martti_Miettunen__1>
+        dbo:from    "1975"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Dominion_of_Newfoundland> ;
+        dbo:to      "1982"^^xsd:gYear .

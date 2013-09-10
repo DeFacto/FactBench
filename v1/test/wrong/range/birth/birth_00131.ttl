@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tom_Hanks__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Staten_Island> ;
+        dbo:from        "1956"^^xsd:gYear ;
+        dbo:to          "1956"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Staten_Island>
+        rdfs:label     "Staten Island"@de , "Staten Island"@fr , "Staten Island"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Staten_Island> , <http://fr.dbpedia.org/resource/Staten_Island> ;
+        skos:altLabel  "Staton island"@en , "Staton island"@de , "Staton island"@fr , "Staten Island Community Charter School"@en , "Staten Island Community Charter School"@de , "Staten Island Community Charter School"@fr , "Staten Is."@en , "Staten Is."@de , "Staten Is."@fr , "Richmond County, New York"@en , "Richmond County, New York"@de , "Richmond County, New York"@fr , "Staten Island Bridges"@en , "S.I.N.Y."@en , "S.I.N.Y."@de , "S.I.N.Y."@fr , "Staten Island Bridges"@de , "Staten Island Bridges"@fr , "Comté de Richmond"@fr , "Richmond"@en , "Richmond"@de , "Richmond"@fr , "Richmond County"@de , "Comte de Richmond"@fr , "Staten Island, NY"@en , "Staten Island, NY"@de , "Staten Island, NY"@fr , "Staten island"@en , "Staten island"@de , "Staten island"@fr , "Staten island community charter school"@en , "Staten island community charter school"@de , "Staten island community charter school"@fr , "Staten Island, New York City"@en , "Staten Islander"@en , "Richmond, New York City"@en , "Richmond, New York City"@de , "Richmond, New York City"@fr , "Staten Island, New York City"@de , "Staten Island, New York City"@fr , "Staten Islander"@de , "Staten Islander"@fr , "Staten Island"@en , "Staten Island"@de , "Staten Island"@fr , "Staten Island, N.Y."@en , "Staten Island, N.Y."@de , "Staten Island, N.Y."@fr , "Staten"@en , "Staten"@de , "Staten"@fr , "Staten Island, New York"@en , "Staten Island, New York"@de , "Staten Island, New York"@fr .
+
+<http://dbpedia.org/resource/Tom_Hanks>
+        rdfs:label     "Tom Hanks"@de , "Tom Hanks"@fr , "Tom Hanks"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tom_Hanks__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tom_Hanks> , <http://de.dbpedia.org/resource/Tom_Hanks> ;
+        skos:altLabel  "Hanks"@de , "Hanks"@fr , "Hanks"@en , "Samantha Lewes"@en , "Tom hanks"@de , "Tom hanks"@fr , "Tom hanks"@en , "Samantha Lewes"@de , "Samantha Lewes"@fr , "Sandra Hanks Benoiton"@de , "Sandra Hanks Benoiton"@fr , "Sandra Hanks Benoiton"@en , "Hanks, Tom"@de , "Hanks, Tom"@fr , "Hanks, Tom"@en , "Thomas Jeffrey Hanks"@de , "Thomas Jeffrey Hanks"@fr , "Thomas Jeffrey Hanks"@en , "Samantha"@de , "Samantha"@fr , "Samantha"@en , "Tom Hanks filmography"@en , "Tom Hanks filmography"@de , "Tom Hanks filmography"@fr , "Tom Hank"@de , "Tom Hank"@fr , "Tom Hank"@en , "Thomas Hanks"@en , "Thomas Hanks"@de , "Thomas Hanks"@fr , "Chet Hanks"@de , "Chet Hanks"@fr , "Chet Hanks"@en , "Chet Haze"@en , "Chet Haze"@de , "Chet Haze"@fr , "Tom Hanks"@de , "Tom Hanks"@fr , "Tom Hanks"@en .

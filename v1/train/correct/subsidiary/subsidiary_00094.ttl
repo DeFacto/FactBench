@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03mnk>
+        rdfs:label       "Hewlett-Packard"@fr , "Hewlett-Packard"@en , "Hewlett-Packard"@de ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.03mnk__94> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/Hewlett-Packard> , <http://de.dbpedia.org/resource/Hewlett-Packard> , <http://dbpedia.org/resource/Hewlett-Packard> ;
+        skos:altLabel    "Officejet"@de , "Officejet"@en , "The Computer is Personal Again"@fr , "The Computer is Personal Again"@de , "HP"@en , "The Computer is Personal Again"@en , "Hp.com"@fr , "Hp.com"@de , "Hp.com"@en , "HP Pavilion dv8000"@fr , "Smart"@fr , "Hp smartimage"@fr , "HP Pavilion dv8000"@de , "Hp smartimage"@de , "Hp smartimage"@en , "Smart"@de , "HP Pavilion dv8000"@en , "Smart"@en , "Hewlett-Packard-Support"@fr , "Hewlett-Packard-Support"@de , "Hewlett-Packard-Support"@en , "HP SmartImage EcoSystem"@fr , "HP SmartImage EcoSystem"@de , "HP SmartImage EcoSystem"@en , "Hewlett-Packard Co"@fr , "SmartImage EcoSystem"@fr , "HPshopping.com"@fr , "Hewlett-Packard Co"@de , "SmartImage EcoSystem"@de , "HPshopping.com"@de , "HPshopping.com"@en , "SmartImage EcoSystem"@en , "Hewlett-Packard Co"@en , "HP psc2100"@fr , "HP psc2100"@de , "HP psc2100"@en , "Hewlett–Packard"@fr , "Hewlett–Packard"@de , "Hewlett–Packard"@en , "AppIQ"@fr , "AppIQ"@de , "AppIQ"@en , "Hewlett Packard Company"@fr , "Compaq Proliant"@fr , "The Hewlett-Packard Company"@fr , "Hewlett"@fr , "Hewlett Packard Company"@de , "The Hewlett-Packard Company"@de , "The Hewlett-Packard Company"@en , "Compaq Proliant"@de , "Hewlett"@de , "Hewlett"@en , "Hewlett Packard Company"@en , "Compaq Proliant"@en , "Hewlett-Packard Company"@fr , "Hewlett-Packard Company"@de , "Hewlett-Packard Company"@en , "HP oj5600"@fr , "HP Compaq"@fr , "HP oj5600"@de , "HP Compaq"@de , "HP Compaq"@en , "HP oj5600"@en , "Procurve"@de , "HP oj6200"@fr , "HP oj6200"@de , "HP oj6200"@en , "Appiq"@fr , "Hewlet-Packard"@fr , "IOAME"@fr , "Hewlet-Packard"@de , "Hewlet-Packard"@en , "IOAME"@de , "IOAME"@en , "Appiq"@de , "Appiq"@en , "Hewlett-Packard GmbH"@fr , "HP Invent"@fr , "Hewlett Packard Co."@fr , "Hewlett Packard de Mexico"@de , "HP Invent"@de , "HP Invent"@en , "Hewlett-Packard GmbH"@de , "Hewlett Packard Co."@de , "Hewlett-Packard GmbH"@en , "Hewlett Packard Co."@en , "Packard"@fr , "Packard"@de , "Hp printers"@fr , "H.P."@fr , "H.P."@de , "H.P."@en , "Hp printers"@de , "Hp printers"@en , "Hewlett Packard de México"@de , "HP-compatible printer"@fr , "HP-compatible printer"@de , "HP-compatible printer"@en , "OfficeJet"@fr , "OfficeJet"@de , "OfficeJet"@en , "Hewlett-Packard"@fr , "Hewlett-Packard"@de , "Hewlett-Packard"@en , "Hewlett-packard"@fr , "Hewlett-packard"@de , "Hewlett-packard"@en , "HP Certified Professional"@fr , "HP Certified Professional"@de , "HP Certified Professional"@en , "Smartimage"@fr , "Smartimage"@de , "Smartimage"@en , "Hewlett-Packard Co."@fr , "Hewlett Packard"@fr , "Hewlett-Packard Co."@de , "Hewlett Packard"@de , "Hewlett Packard"@en , "Hewlett-Packard Co."@en , "Officejet"@fr .
+
+<http://rdf.freebase.com/ns/m.03mnk__94>
+        dbo:from        "2005-03-21"^^xsd:date ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.08f0xv> ;
+        dbo:to          "2005-03-21"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.08f0xv>
+        rdfs:label     "Snapfish"@fr , "Snapfish"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Snapfish> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Snapfish> ;
+        skos:altLabel  "Snapfish"@fr .

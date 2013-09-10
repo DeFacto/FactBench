@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01nc47__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01j2f2> ;
+        dbo:from    "1996"^^xsd:gYear ;
+        dbo:to      "1996"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01nc47>
+        rdfs:label     "Ian R. MacLeod"@en , "Ian R. MacLeod"@fr , "Ian R. MacLeod"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01nc47__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Ian_R._MacLeod> , <http://de.dbpedia.org/resource/Ian_R._MacLeod> , <http://fr.dbpedia.org/resource/Ian_R._MacLeod> ;
+        skos:altLabel  "Ian R. MacLeod"@en , "Ian R. MacLeod"@de , "Ian R. MacLeod"@fr , "MacLeod"@en , "MacLeod"@de , "MacLeod"@fr , "Macleod"@de , "Ian MacLeod"@en , "Ian MacLeod"@fr , "Ian MacLeod"@de .
+
+<http://rdf.freebase.com/ns/m.01j2f2>
+        rdfs:label     "Anthem"@en , "Hymne"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Anthem_(novella)> , <http://fr.dbpedia.org/resource/Hymne_(livre)> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Anthem"@en , "Anthem"@fr , "Hymne"@fr .

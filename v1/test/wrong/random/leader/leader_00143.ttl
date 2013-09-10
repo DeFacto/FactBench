@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kumasi>
+        rdfs:label     "Kumasi"@en , "Kumasi"@fr , "Kumasi"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kumasi> , <http://de.dbpedia.org/resource/Kumasi> ;
+        skos:altLabel  "Kumase"@en , "Kumase"@fr , "Kumase"@de , "Kumasi"@en , "Kumasi"@de , "Kumasi"@fr , "Kumassi"@en , "Kumassi"@fr , "Kumassi"@de , "Kumasi, Ghana"@en , "Kumasi, Ghana"@fr , "Kumasi, Ghana"@de .
+
+<http://dbpedia.org/resource/H._H._Asquith>
+        rdfs:label     "H. H. Asquith"@de , "H. H. Asquith"@fr , "H. H. Asquith"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/H._H._Asquith__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Herbert_Henry_Asquith> , <http://de.dbpedia.org/resource/Herbert_Henry_Asquith> ;
+        skos:altLabel  "Henry Asquith, 1st Earl of Oxford and Asquith"@en , "Henry Asquith, 1st Earl of Oxford and Asquith"@de , "Henry Asquith, 1st Earl of Oxford and Asquith"@fr , "Asquith"@en , "Asquith"@fr , "Asquith"@de , "Henry Asquith"@en , "Henry Asquith"@de , "Henry Asquith"@fr , "H. H. Asquith QC"@en , "H. H. Asquith QC"@de , "H. H. Asquith QC"@fr , "Squiff"@en , "Squiff"@de , "Squiff"@fr , "Herbert Henry Asquith QC"@en , "Herbert Henry Asquith QC"@de , "Herbert Henry Asquith QC"@fr , "Herbert Henry Asquith"@en , "Herbert Henry Asquith"@de , "Herbert Henry Asquith"@fr , "H H Asquith"@en , "H H Asquith"@de , "H H Asquith"@fr , "Herbert H. Asquith"@en , "Herbert H. Asquith"@de , "Herbert H. Asquith"@fr , "H.H. Asquith, 1st Earl of Oxford & Asquith"@en , "H.H. Asquith, 1st Earl of Oxford & Asquith"@de , "H.H. Asquith, 1st Earl of Oxford & Asquith"@fr , "Henry Herbert Asquith"@fr , "H. H. Asquith"@en , "H. H. Asquith"@de , "H. H. Asquith"@fr , "H.H. Asquith, 1st Earl of Oxford and Asquith"@en , "H.H. Asquith, 1st Earl of Oxford and Asquith"@de , "H.H. Asquith, 1st Earl of Oxford and Asquith"@fr , "Herbert Asquith, 1st Earl of Oxford and Asquith"@en , "Herbert Asquith, 1st Earl of Oxford and Asquith"@de , "Herbert Asquith, 1st Earl of Oxford and Asquith"@fr , "H.H. Asquith"@en , "Prime Minister Asquith"@en , "H.H. Asquith"@de , "H.H. Asquith"@fr , "Prime Minister Asquith"@de , "Prime Minister Asquith"@fr , "Herbert Asquith"@en , "Herbert Asquith"@de , "Herbert Asquith"@fr , "HH Asquith"@de , "HH Asquith"@fr , "HH Asquith"@en .
+
+<http://dbpedia.org/resource/H._H._Asquith__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Kumasi> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2007"^^xsd:gYear .

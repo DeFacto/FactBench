@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06crt6>
+        rdfs:label     "Matthew Settle"@en , "Matthew Settle"@fr , "Matthew Settle"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Matthew_Settle> , <http://dbpedia.org/resource/Matthew_Settle> , <http://fr.dbpedia.org/resource/Matthew_Settle> ;
+        skos:altLabel  "Matthew Settle"@fr , "Matthew Settle"@de , "Jeffrey Matthew Settle"@en , "Mattie Boy"@en , "Settle"@fr , "Settle"@de .
+
+<http://rdf.freebase.com/ns/m.09qcp5>
+        rdfs:label     "Nick Zano"@en , "Nick Zano"@fr , "Nick Zano"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09qcp5__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Nick_Zano> , <http://fr.dbpedia.org/resource/Nick_Zano> , <http://dbpedia.org/resource/Nick_Zano> ;
+        skos:altLabel  "Zano"@de , "Nick Zano"@fr , "Nick Zano"@de , "Nicholas Zano"@en .
+
+<http://rdf.freebase.com/ns/m.09qcp5__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.06crt6> ;
+        dbo:to      "2011"^^xsd:gYear .

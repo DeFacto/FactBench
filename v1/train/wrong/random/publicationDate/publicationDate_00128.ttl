@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kylie_Minogue__1>
+        dbo:from      "1997"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/St_Albans> ;
+        dbo:to        "1997"^^xsd:gYear .
+
+<http://dbpedia.org/resource/St_Albans>
+        rdfs:label     "St Albans"@de , "St Albans"@fr , "St Albans"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/St_Albans> , <http://de.dbpedia.org/resource/St_Albans> ;
+        skos:altLabel  "Alban"@de , "Saint Alban's"@en , "St. Alban's, Hertfordshire"@en , "St. Alban's, Hertfordshire"@fr , "St. Alban's, Hertfordshire"@de , "Saint Alban's"@de , "Saint Alban's"@fr , "Waeclingacaester"@en , "Waeclingacaester"@fr , "Waeclingacaester"@de , "The weather in St. Albans"@en , "The weather in St. Albans"@de , "The weather in St. Albans"@fr , "Saint-Albans"@de , "St Alban's, Hertfordshire"@en , "St Alban's, Hertfordshire"@fr , "St Alban's, Hertfordshire"@de , "St. Albans"@en , "St. Albans"@de , "St. Albans"@fr , "St Alban's"@en , "St Alban's"@fr , "St Alban's"@de , "St. Alban's"@en , "St. Alban's"@de , "St. Alban's"@fr , "Watlingchester"@en , "Watlingchester"@de , "Watlingchester"@fr , "Saint Albans"@en , "Saint Albans"@fr , "Saint Albans"@de , "St. Albans, Hertfordshire"@en , "St. Albans, Hertfordshire"@fr , "St. Albans, Hertfordshire"@de , "St albans"@en , "St albans"@fr , "St albans"@de , "St Albans"@en , "St Albans"@de , "St Albans"@fr , "Cite et District de St Albans"@fr , "The weather in Saint Albans"@en , "The weather in Saint Albans"@de , "The weather in Saint Albans"@fr , "St Albans, Herts"@en , "St Albans, Herts"@fr , "St Albans, Herts"@de , "Cité et District de St Albans"@fr , "Verlamchester"@en , "Verlamchester"@de , "Verlamchester"@fr , "Saint Albans, United Kingdom"@en , "Saint Albans, United Kingdom"@fr , "Saint Albans, United Kingdom"@de , "The weather in St Albans"@en , "The weather in St Albans"@de , "The weather in St Albans"@fr , "St Albans, England"@en , "St Albans, England"@fr , "St Albans, England"@de , "Romeland"@en , "St. Albans, United Kingdom"@en , "Romeland"@fr , "St. Albans, United Kingdom"@fr , "St. Albans, United Kingdom"@de , "Romeland"@de , "St Albans, Hertfordshire"@en , "St Albans, Hertfordshire"@de , "St Albans, Hertfordshire"@fr , "Wæclingacaester"@en , "Wæclingacaester"@de , "Wæclingacaester"@fr , "Alban"@en , "Alban"@fr .
+
+<http://dbpedia.org/resource/Kylie_Minogue>
+        rdfs:label     "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie Minogue"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kylie_Minogue__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kylie_Minogue> , <http://de.dbpedia.org/resource/Kylie_Minogue> ;
+        skos:altLabel  "Kylie Minogue OBE"@en , "Kylie Minogue OBE"@de , "Kylie Minogue OBE"@fr , "Darling"@de , "Darling"@fr , "Darling"@en , "New Age"@en , "New Age"@de , "New Age"@fr , "Minogue"@de , "Minogue, Kylie"@en , "Minogue, Kylie"@de , "Minogue, Kylie"@fr , "Kyly"@en , "Kyly"@de , "Kyly"@fr , "Kylie Ann Minogue OBE"@en , "Kylie Ann Minogue OBE"@de , "Kylie Ann Minogue OBE"@fr , "Kylie Minogue"@de , "Kylie Minogue"@fr , "Kylie Minogue"@en , "Kylie"@en , "Kylie"@de , "Kylie"@fr , "Kylie Ann Minogue"@de , "Kylie Ann Minogue"@fr , "Kylie Ann Minogue"@en , "Kylie Monogue"@en , "Kylie Monogue"@de , "Kylie Monogue"@fr , "Kylie minogue"@en , "Kylie minogue"@de , "Kylie minogue"@fr , "White Diamond"@en , "White Diamond"@de , "White Diamond"@fr , "Kylie minoge"@en , "Love Kylie"@en , "Love Kylie"@de , "Love Kylie"@fr , "The Best of Kylie Minogue"@en , "Kylie minouge"@en , "Kylie minouge"@de , "Kylie minouge"@fr , "Kylie minoge"@de , "The Best of Kylie Minogue"@de , "The Best of Kylie Minogue"@fr , "Kylie minoge"@fr .

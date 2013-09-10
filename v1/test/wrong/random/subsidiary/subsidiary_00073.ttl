@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Japan>
+        rdfs:label     "Japan"@de , "Japan"@fr , "Japan"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Japon> , <http://de.dbpedia.org/resource/Japan> ;
+        skos:altLabel  "Nippon"@fr , "Japao"@en , "Japan"@en , "Japan"@fr , "État du Japon"@fr , "Japan"@de , "Japao"@fr , "Japao"@de , "Japonaise"@fr , "Iapam"@en , "Empire du Soleil levant"@fr , "Iapam"@fr , "Iapam"@de , "Giappone"@en , "Ilbon"@en , "State of Japan"@en , "Ilbon"@fr , "State of Japan"@fr , "Ilbon"@de , "State of Japan"@de , "Giappone"@fr , "Giappone"@de , "Japanese Home Islands"@en , "Administrative divisions of Japan"@en , "Japanese Home Islands"@fr , "Das Land der aufgehenden Sonne"@de , "Administrative divisions of Japan"@fr , "Administrative divisions of Japan"@de , "Japanese Home Islands"@de , "Jpan"@en , "Archipelago of Japan"@en , "Archipelago of Japan"@fr , "Archipelago of Japan"@de , "Jpan"@fr , "Jpan"@de , "Moonland"@en , "Japanio"@en , "Moonland"@fr , "Japanio"@fr , "Japanio"@de , "Moonland"@de , "Republic of Japan"@en , "Republic of Japan"@fr , "Republic of Japan"@de , "ISO 3166-1:JP"@en , "ISO 3166-1:JP"@fr , "ISO 3166-1:JP"@de , "JAPAN"@en , "JAPAN"@fr , "JAPAN"@de , "Yilbon"@en , "Yilbon"@fr , "Yilbon"@de , "Japon"@en , "Japon"@fr , "Japon"@de , "Nihon"@en , "Nihon"@fr , "Nihon"@de , "Land der aufgehenden Sonne"@de , "Nihon-koku"@en , "Riben"@en , "Riben"@fr , "Riben"@de , "Nippon-koku"@en , "Nihon-koku"@fr , "Etat du Japon"@fr , "Nippon-koku"@fr , "Nippon-koku"@de , "Nihon-koku"@de , "Etymology of Japan"@en , "Etymology of Japan"@fr , "Etymology of Japan"@de , "Japanese territory"@en , "Jepun"@en , "Jepun"@fr , "Jepun"@de , "Japanese financial sector"@en , "Japanese territory"@fr , "Japanese financial sector"@fr , "Japanese financial sector"@de , "Japanese territory"@de , "Japang"@en , "Japang"@fr , "Japang"@de , "Rìběn"@en , "Japanese lifestyle"@en , "Rìběn"@fr , "Japanese lifestyle"@fr , "Japanese lifestyle"@de , "Rìběn"@de , "Nihonkoku"@fr , "Le japon"@fr , "Subdivisions of Japan"@en , "Subdivisions of Japan"@fr , "Subdivisions of Japan"@de , "The State of Japan"@en , "The State of Japan"@fr , "The State of Japan"@de , "Japoa"@en , "Japoa"@fr , "Japoa"@de , "Giapan"@en , "JapaN"@en , "Ja-pan"@en , "Giapan"@fr , "Giapan"@de , "JapaN"@fr , "JapaN"@de , "The Land of the Rising Sun"@en , "Ja-pan"@fr , "The Land of the Rising Sun"@fr , "Zipango"@de , "Ja-pan"@de , "The Land of the Rising Sun"@de , "Nipponkoku"@fr .
+
+<http://rdf.freebase.com/ns/m.035pm__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Japan> ;
+        dbo:to      "2005"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.035pm>
+        rdfs:label     "Guglielmo Marconi"@de , "Guglielmo Marconi"@fr , "Guglielmo Marconi"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.035pm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Guglielmo_Marconi> , <http://dbpedia.org/resource/Guglielmo_Marconi> , <http://de.dbpedia.org/resource/Guglielmo_Marconi> ;
+        skos:altLabel  "Marchese Marconi, Guglielmo"@en , "Marchese Marconi, Guglielmo"@de , "Marchese Marconi, Guglielmo"@fr , "G Marconi"@de , "G Marconi"@fr , "G Marconi"@en , "Marconigram"@en , "Marchese Guglielmo Marconi"@de , "Marchese Guglielmo Marconi"@fr , "Marchese Guglielmo Marconi"@en , "Marconigram"@de , "Marconigram"@fr , "Guglielmo"@de , "Guglielmo"@fr , "Guglielmo"@en , "Guglielmo Marchese Marconi"@de , "Guglielmo Marchese Marconi"@fr , "Guglielmo Marchese Marconi"@en , "Marconi"@de , "Marconi"@fr , "Marconi"@en , "Marconi Wireless Stations"@en , "Marconi Wireless Stations"@de , "Marconi Wireless Stations"@fr , "Marchese Marconi Guglielmo"@de , "Marchese Marconi Guglielmo"@fr , "Marchese Marconi Guglielmo"@en , "American Marconi Wireless Corporation"@de , "American Marconi Wireless Corporation"@fr , "American Marconi Wireless Corporation"@en , "Marchese Gugliemo Marconi"@de , "Marconi Wireless"@de , "Marconi Wireless"@fr , "Marconi Wireless"@en , "Marchese Gugliemo Marconi"@fr , "Marchese Gugliemo Marconi"@en , "Guglielmo Marconi"@de , "Guglielmo Marconi"@fr , "Guglielmo Marconi"@en .

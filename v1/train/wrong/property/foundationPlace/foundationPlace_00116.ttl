@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0qyrs>
+        rdfs:label     "Lafayette"@de , "Lafayette"@fr , "Lafayette"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Lafayette,_California> , <http://de.dbpedia.org/resource/Lafayette_(Kalifornien)> , <http://fr.dbpedia.org/resource/Lafayette_(Californie)> ;
+        skos:altLabel  "Burton Valley"@de , "Burton Valley"@fr , "Burton Valley"@en , "Lafayette"@de , "Lafayette"@fr , "Lafayette"@en , "Burton Valley Elementary"@de , "Burton Valley Elementary"@fr , "Burton Valley Elementary"@en , "LOCODE:USLZX"@de , "LOCODE:USLZX"@fr , "LOCODE:USLZX"@en , "Lafayette park theater"@de , "Lafayette park theater"@fr , "Lafayette park theater"@en , "Contra Costa County / Lafayette city"@en , "Lafayette ca"@de , "Lafayette ca"@fr , "Lafayette ca"@en , "Lafayette, California"@de , "Lafayette, California"@fr , "Lafayette, California"@en , "Lafayette, ca"@de , "Lafayette, ca"@fr , "Lafayette, ca"@en , "Lafayette, CA"@de , "Lafayette, CA"@fr , "Lafayette, CA"@en , "La Fayette, California"@de , "La Fayette, California"@fr , "La Fayette, California"@en , "Stanley Middle School"@de , "Stanley Middle School"@fr , "Stanley Middle School"@en , "Central Lafayette, California"@de , "Central Lafayette, California"@fr , "Central Lafayette, California"@en .
+
+<http://rdf.freebase.com/ns/m.03y7mdb__1>
+        dbo:from        "1995"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.0qyrs> ;
+        dbo:to          "1995"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03y7mdb>
+        rdfs:label  "Techexcel"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03y7mdb__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Techexcel> .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0c1j_c>
+        rdfs:label     "Art Technology Group"@en , "Art Technology Group"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0c1j_c__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Art_Technology_Group> , <http://de.dbpedia.org/resource/Art_Technology_Group> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "ATG"@en , "Art Technology Group"@de , "Joseph Chung"@de .
+
+<http://rdf.freebase.com/ns/m.0c1j_c__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0h7h6> ;
+        dbo:from             "1992"^^xsd:gYear ;
+        dbo:to               "1992"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0h7h6>
+        rdfs:label     "Toronto"@de , "Toronto"@fr , "Toronto"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Toronto> , <http://dbpedia.org/resource/Toronto> , <http://de.dbpedia.org/resource/Toronto> ;
+        skos:altLabel  "Toronto, Canada"@en , "Toronto, Canada"@fr , "Toronto, Canada"@de , "Toronto, CA"@en , "LOCODE:CATOR"@en , "Toronto, CA"@fr , "Toronto, CA"@de , "Edifice du gouvernement du Canada a North York"@fr , "LOCODE:CATOR"@fr , "LOCODE:CATOR"@de , "t.dot"@en , "Édifice du gouvernement du Canada à North York"@fr , "Toronto, Ontario Part 2"@en , "Toronto, Ontario Part 2"@fr , "Toronto, Ontario Part 2"@de , "Torontonian"@en , "Torontonian"@fr , "Torontonian"@de , "City of Toronto"@en , "City of Toronto"@fr , "Toronto Police Service"@fr , "City of Toronto"@de , "Toronto Municipality, Ontario"@en , "The big tee oh"@en , "Toronto Municipality, Ontario"@fr , "Toronto Municipality, Ontario"@de , "The big tee oh"@fr , "The big tee oh"@de , "Toronto, Ontario"@en , "York"@fr , "Toronto, Ontario"@fr , "Toronto, Ontario"@de , "Tdot"@en , "Tdot"@de , "Tdot"@fr , "The big to"@en , "The big to"@fr , "The big to"@de , "Service de police de Toronto"@fr , "Trawna"@en , "Issues in Toronto, Ontario"@en , "Toronto Ontario"@en , "Issues in Toronto, Ontario"@fr , "Issues in Toronto, Ontario"@de , "Trawna"@fr , "Trawna"@de , "Toronto, Canada."@en , "Toronto Ontario"@fr , "Toronto, Canada."@fr , "Toronto Ontario"@de , "Toronto, Canada."@de , "Toronto, Ontario, Canada"@en , "Toronto, Ontario, Canada"@fr , "Toronto, Ontario, Canada"@de , "Toronto, ON"@en , "Torontonians"@en , "Accordion City"@en , "Toronto, ON"@fr , "Accordion City"@fr , "Accordion City"@de , "Torontonians"@fr , "Toronto, ON"@de , "Torontonians"@de , "Toronto List of MPs and MPPs"@en , "Toronto List of MPs and MPPs"@fr , "Toronto List of MPs and MPPs"@de , "tranna"@en , "Torotno"@en , "Torotno"@fr , "Torotno"@de , "Highways within Greater Toronto Area"@en , "Highways within Greater Toronto Area"@fr , "Highways within Greater Toronto Area"@de , "T Dot"@en , "T-Dot"@en , "T-Dot"@fr , "T-Dot"@de , "List of City of Toronto Issues"@en , "List of City of Toronto Issues"@fr , "List of City of Toronto Issues"@de , "Torontorian"@en , "History of crime in Toronto"@en , "History of crime in Toronto"@fr , "History of crime in Toronto"@de , "Torontorian"@fr , "Torontorian"@de , "Toronto, ontario Part 2"@en , "Toronto, ontario Part 2"@fr , "Toronto, ontario Part 2"@de , "Toronto"@en , "Toronto"@fr , "Toronto"@de , "Public Transportation in Toronto"@en , "Tornonto, Ont."@en , "The weather in Toronto"@en , "Public Transportation in Toronto"@fr , "Tornonto, Ont."@fr , "The weather in Toronto"@fr , "Public Transportation in Toronto"@de , "The weather in Toronto"@de , "Tornonto, Ont."@de , "Issues of Toronto"@en , "Issues of Toronto"@fr , "Issues of Toronto"@de , "Toronto, Ontario."@en , "Toronto, Ontario."@fr , "Toronto, Ontario."@de , "Service de Police de Toronto"@fr , "T.O."@en , "List of Toronto MPs and MPPs"@en , "Toronto Division"@en , "List of Toronto MPs and MPPs"@fr , "Toronto Division"@fr , "Toronto Division"@de , "List of Toronto MPs and MPPs"@de .

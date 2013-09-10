@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tayshaun_Prince>
+        rdfs:label     "Tayshaun Prince"@en , "Tayshaun Prince"@fr , "Tayshaun Prince"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tayshaun_Prince__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tayshaun_Prince> , <http://de.dbpedia.org/resource/Tayshaun_Prince> ;
+        skos:altLabel  "Tayshaun Prince"@en , "Tayshaun Durell Prince"@en , "Tayshaun Prince"@fr , "Tayshaun Durell Prince"@fr , "Tayshaun Prince"@de , "Tayshaun Durell Prince"@de , "Prince"@de , "Tayshaun"@en , "Tayshaun"@de , "Tayshaun"@fr , "Tayshawn Prince"@en , "Tayshawn Prince"@fr , "Tayshawn Prince"@de .
+
+<http://dbpedia.org/resource/Tayshaun_Prince__1>
+        dbo:from  "2000"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Detroit_Pistons> ;
+        dbo:to    "2009"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Detroit_Pistons>
+        rdfs:label     "Detroit Pistons"@en , "Detroit Pistons"@fr , "Detroit Pistons"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pistons_de_Détroit> , <http://de.dbpedia.org/resource/Detroit_Pistons> ;
+        skos:altLabel  "Ft. Wayne Pistons"@en , "Detroit Pistons"@en , "Detroit Pistons"@fr , "Detroit Pistons"@de , "Ft. Wayne Pistons"@fr , "Ft. Wayne Pistons"@de , "Sir Slam A Lot"@en , "Pistons de Détroit"@fr , "Sir Slam A Lot"@fr , "Sir Slam A Lot"@de , "Wayne"@de , "Fort Wayne Zollner Pistons"@en , "Pistons de detroit"@fr , "Fort Wayne Zollner Pistons"@fr , "Fort Wayne Zollner Pistons"@de , "Ft. Wayne Zollner Pistons"@en , "Detroit Piston"@en , "Ft. Wayne Zollner Pistons"@fr , "Detroit Piston"@fr , "Detroit Piston"@de , "Ft. Wayne Zollner Pistons"@de , "Fort Wayne Pistons"@en , "Fort Wayne Pistons"@fr , "Fort Wayne Pistons"@de , "Pistons de Detroit"@fr , "Bad Boys"@en , "Pistons de Fort Wayne"@fr , "Bad Boys"@fr , "Bad Boys"@de , "Piston"@en , "Piston"@fr , "Piston"@de .

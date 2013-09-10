@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02dyk3__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0c1d0> ;
+        dbo:from             "2001"^^xsd:gYear ;
+        dbo:to               "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02dyk3>
+        rdfs:label     "IWin.com"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02dyk3__1> ;
+        skos:altLabel  "IWin, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.0c1d0>
+        rdfs:label     "Providence"@de , "Providence"@fr , "Providence"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Providence> , <http://fr.dbpedia.org/resource/Providence_(Rhode_Island)> , <http://dbpedia.org/resource/Providence,_Rhode_Island> ;
+        skos:altLabel  "LOCODE:USPVD"@de , "LOCODE:USPVD"@fr , "LOCODE:USPVD"@en , "Providence, Rhode island"@en , "Capital of Rhode Island"@de , "Capital of Rhode Island"@fr , "Capital of Rhode Island"@en , "Nathanael Greene school"@de , "Nathanael Greene school"@fr , "Nathanael Greene school"@en , "Providence, R.I."@de , "Providence, Rhode island"@de , "Providence Rhode Island"@de , "Providence Rhode Island"@fr , "Providence Rhode Island"@en , "Providence, Rhode island"@fr , "Providence, R.I."@fr , "Providence, R.I."@en , "Providence, RI"@de , "Providence, RI"@fr , "Providence, RI"@en , "Providence County / Providence city"@en , "Providence, USA"@en , "Providence, USA"@de , "Providence, USA"@fr , "Providence, Rhode Island"@de , "Providence, Rhode Island"@fr , "Providence, Rhode Island"@en , "Providence"@en , "Providence"@de , "Providence"@fr , "Providence rhode island"@de , "Providence rhode island"@fr , "Providence rhode island"@en , "Providnece"@en , "Providnece"@de , "Providnece"@fr , "Providence RI"@en , "Providence RI"@de , "Providence RI"@fr , "Providence, ri"@de , "Providence, ri"@fr , "Providence, ri"@en .

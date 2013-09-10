@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Janet_Jackson__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.04shbh> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2008"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.04shbh>
+        rdfs:label     "Daniel Craig"@en , "Daniel Craig"@fr , "Daniel Craig"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Daniel_Craig> , <http://fr.dbpedia.org/resource/Daniel_Craig> , <http://de.dbpedia.org/resource/Daniel_Craig> ;
+        skos:altLabel  "Daniel Craig"@fr , "Daniel Craig"@de , "Daniel Craig"@en , "Dan Craig"@en , "Dan Craig"@fr , "Dan Craig"@de , "Craig"@fr , "Daniel Wroughton Craig"@en , "Daniel Wroughton Craig"@de .
+
+<http://dbpedia.org/resource/Janet_Jackson>
+        rdfs:label     "Janet Jackson"@en , "Janet Jackson"@fr , "Janet Jackson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Janet_Jackson__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Janet_Jackson> , <http://fr.dbpedia.org/resource/Janet_Jackson> ;
+        skos:altLabel  "Janet Damita Jo Jackson"@en , "Janet Damita Jo Jackson"@fr , "Janet Damita Jo Jackson"@de , "Janet jackson"@en , "Janet"@en , "Janet jackson"@fr , "Janet"@fr , "Janet"@de , "Janet jackson"@de , "Janet Jackson"@en , "Janet Jackson"@fr , "Janet Jackson"@de , "Jackson"@fr , "Janet Damita Jackson"@en , "Janet Damita Jackson"@fr , "Janet Damita Jackson"@de , "Janet Jackson's New Album"@en , "Janet Jackson's New Album"@fr , "Janet Jackson's New Album"@de .

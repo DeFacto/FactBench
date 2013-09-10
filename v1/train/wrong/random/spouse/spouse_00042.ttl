@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Novi_Sad>
+        rdfs:label     "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Novi_Sad> , <http://de.dbpedia.org/resource/Novi_Sad> ;
+        skos:altLabel  "Capital of Vojvodina"@de , "Capital of Vojvodina"@fr , "Capital of Vojvodina"@en , "Ujvidek"@de , "Ujvidek"@fr , "Ujvidek"@en , "Újvidék"@de , "Újvidék"@fr , "Újvidék"@en , "Serbian Athens"@de , "Serbian Athens"@fr , "Serbian Athens"@en , "Ujvidék"@de , "Ujvidék"@fr , "Ujvidék"@en , "Novi Sad, Serbia"@en , "Novi Sad, Serbia"@de , "Novi Sad, Serbia"@fr , "Ratzenstadt"@de , "Neusatz"@de , "Neusatz"@fr , "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en , "Novi"@de , "Novi"@fr , "Novi"@en , "City of Novi Sad"@de , "City of Novi Sad"@fr , "City of Novi Sad"@en , "Novi Sad City"@de , "Novi Sad City"@fr , "Novi Sad City"@en , "Neusatz an der Donau"@de , "Serb Athens"@de , "Serb Athens"@fr , "Serb Athens"@en , "Nowi Sad"@de .
+
+<http://rdf.freebase.com/ns/m.030xfx>
+        rdfs:label     "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.030xfx__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carmine_Giovinazzo> , <http://dbpedia.org/resource/Carmine_Giovinazzo> , <http://fr.dbpedia.org/resource/Carmine_Giovinazzo> ;
+        skos:altLabel  "Carmine"@fr , "Carmine"@de , "Carmine Giovinazzo"@en , "Carmine Giovinazzo"@fr , "Carmine Giovinazzo"@de , "Carmine D. Giovinazzo"@en , "Carmine Dominick Giovinazzo"@en , "Carmine"@en , "Giovinazzo"@de , "Giovinazzo"@fr .
+
+<http://rdf.freebase.com/ns/m.030xfx__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Novi_Sad> ;
+        dbo:to      "2009"^^xsd:gYear .

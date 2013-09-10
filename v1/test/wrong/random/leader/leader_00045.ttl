@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026760k>
+        rdfs:label     "Frédéric Mistral"@en , "Frédéric Mistral"@fr , "Frédéric Mistral"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.026760k__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Fr%C3%A9d%C3%A9ric_Mistral> ;
+        skos:altLabel  "Frederic Mistral"@en .
+
+<http://dbpedia.org/resource/Englewood,_New_Jersey>
+        rdfs:label     "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Englewood_(New_Jersey)> , <http://fr.dbpedia.org/resource/Englewood_(New_Jersey)> ;
+        skos:altLabel  "LOCODE:USEWD"@en , "LOCODE:USEWD"@fr , "LOCODE:USEWD"@de , "Englewood, New Jersey"@en , "Englewood, New Jersey"@fr , "Englewood, New Jersey"@de , "Englewood, NJ"@en , "Englewood City, Bergen County, New Jersey"@en , "Englewood, N. J."@en , "Englewood"@en , "Englewood, NJ"@fr , "Englewood City, Bergen County, New Jersey"@fr , "Englewood, N. J."@fr , "Englewood"@fr , "Englewood City, Bergen County, New Jersey"@de , "Englewood"@de , "Englewood, NJ"@de , "Englewood, N. J."@de , "Englewood City, New Jersey"@en , "Englewood City, New Jersey"@fr , "Englewood City, New Jersey"@de .
+
+<http://rdf.freebase.com/ns/m.026760k__1>
+        dbo:author  <http://dbpedia.org/resource/Englewood,_New_Jersey> ;
+        dbo:from    "1937"^^xsd:gYear ;
+        dbo:to      "1938"^^xsd:gYear .

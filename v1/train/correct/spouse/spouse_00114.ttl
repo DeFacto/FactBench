@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0p17j__114>
+        dbo:from    "2004-07-03"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.064j4zy> ;
+        dbo:to      "2006-04-20"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.064j4zy>
+        rdfs:label     "Charlie Shanian"@en ;
+        skos:altLabel  "Charlie Shahnaian"@en .
+
+<http://rdf.freebase.com/ns/m.0p17j>
+        rdfs:label     "Tori Spelling"@de , "Tori Spelling"@fr , "Tori Spelling"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0p17j__114> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Tori_Spelling> , <http://dbpedia.org/resource/Tori_Spelling> , <http://de.dbpedia.org/resource/Tori_Spelling> ;
+        skos:altLabel  "Tori Spelling"@fr , "Tori Spelling"@de , "Tori Spelling"@en , "Victoria Davey Spelling"@fr , "Spelling"@fr , "Victoria Davey Spelling"@de , "Spelling"@de , "Spelling"@en , "T"@en , "Victoria Davey Spelling"@en , "Victoria Spelling"@fr , "Victoria Spelling"@de , "Victoria Spelling"@en , "The TV Movie Queen"@en , "Tori Spelling-McDermott"@en , "Spelling, Tori"@en , "Tori"@fr , "Tori"@de , "Victoria Davey \"Tori\" Spelling"@en , "Tori"@en .

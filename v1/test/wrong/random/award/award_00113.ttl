@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.016xh5>
+        rdfs:label     "Hugh Grant"@fr , "Hugh Grant"@de , "Hugh Grant"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Hugh_Grant> , <http://de.dbpedia.org/resource/Hugh_Grant> , <http://dbpedia.org/resource/Hugh_Grant> ;
+        skos:altLabel  "Hughie Grant"@en , "Hugh John Mungo Grant"@en , "Hugh John Mungo Grant"@de , "Hugh John Mungo Grant"@fr , "Hugh Grant"@en , "Hugh Grant"@fr , "Hugh Grant"@de , "Grant"@fr .
+
+<http://rdf.freebase.com/ns/m.03kb7b__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.016xh5> ;
+        dbo:from        "1951"^^xsd:gYear ;
+        dbo:to          "1951"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.03kb7b>
+        rdfs:label     "Lawson Software"@en , "Lawson Software"@fr , "Lawson Software"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03kb7b__1> ;
+        skos:altLabel  "Lawson Software Americas, Inc"@en , "Lawson Software Americas Inc"@en , "Lawson Software, Inc."@en , "LAWSON HOLDINGS INC"@en , "LAWSON SOFTWARE INC"@en .

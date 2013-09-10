@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.08623t__1>
+        dbo:from    "2003"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0c00lh> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08623t>
+        rdfs:label     "Ness Wadia"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.08623t__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Ness_Wadia> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "Ness Wadia"@en , "Ness"@en .
+
+<http://rdf.freebase.com/ns/m.0c00lh>
+        rdfs:label     "Jason Reitman"@en , "Jason Reitman"@fr , "Jason Reitman"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Jason_Reitman> , <http://de.dbpedia.org/resource/Jason_Reitman> , <http://fr.dbpedia.org/resource/Jason_Reitman> ;
+        skos:altLabel  "Reitman"@en , "Reitman"@fr , "Reitman"@de , "Jason Reitman"@en , "Jason Reitman"@fr , "Jason Reitman"@de .

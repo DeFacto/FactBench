@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Unquillo>
+        rdfs:label     "Unquillo"@en , "Unquillo"@fr , "Unquillo"@de ;
+        skos:altLabel  "Unquillo"@en .
+
+<http://dbpedia.org/resource/David_Nalbandian>
+        rdfs:label     "David Nalbandian"@en , "David Nalbandian"@fr , "David Nalbandian"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Nalbandian__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/David_Nalbandian> , <http://de.dbpedia.org/resource/David_Nalbandian> ;
+        skos:altLabel  "David nalbanian"@en , "David nalbanian"@fr , "David nalbanian"@de , "Nalbandian"@en , "David Ezequiel Nalbandian"@en , "Rignall Ninja"@en , "Nalbandian"@fr , "David Ezequiel Nalbandian"@fr , "Rignall Ninja"@fr , "David Ezequiel Nalbandian"@de , "Nalbandian"@de , "Rignall Ninja"@de , "David Nalbandián"@en , "David Nalbandián"@fr , "David Nalbandián"@de , "David Nalbandian"@en , "David Nalbandian"@fr , "David Nalbandian"@de .
+
+<http://dbpedia.org/resource/David_Nalbandian__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Unquillo> ;
+        dbo:from        "1982"^^xsd:gYear ;
+        dbo:to          "1982"^^xsd:gYear .

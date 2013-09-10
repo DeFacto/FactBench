@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Barend_Biesheuvel>
+        rdfs:label     "Barend Biesheuvel"@fr , "Barend Biesheuvel"@de , "Barend Biesheuvel"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Barend_Biesheuvel__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Barend_Biesheuvel> , <http://de.dbpedia.org/resource/Barend_Biesheuvel> ;
+        skos:altLabel  "Barend Biesheuvel"@en , "Barend Biesheuvel"@fr , "Barend Biesheuvel"@de , "Biesheuvel"@en , "Barend Willem Biesheuvel"@en , "Barend Willem Biesheuvel"@fr , "Biesheuvel"@de , "Biesheuvel"@fr , "Barend Willem Biesheuvel"@de .
+
+<http://dbpedia.org/resource/Ukraine>
+        rdfs:label     "Ukraine"@de , "Ukraine"@fr , "Ukraine"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ukraine> , <http://de.dbpedia.org/resource/Ukraine> ;
+        skos:altLabel  "Russia"@en , "Russia"@fr , "Russia"@de , "Ukraine"@en , "Ukraine"@de , "Ukraine"@fr , "Republic of Ukraine"@en , "Republic of Ukraine"@fr , "Republic of Ukraine"@de , "République d'Ukraine"@fr , "The ukrane"@en , "Ukrainia"@en , "Ukrainia"@de , "Ukrainia"@fr , "The ukrane"@de , "The ukrane"@fr , "Ukraine during World War II"@en , "Ukraine during World War II"@fr , "Ukraine during World War II"@de , "Ukraine in World War II"@en , "Ukraine in World War II"@fr , "Ukraine in World War II"@de , "Ukraina"@en , "ISO 3166-1:UA"@en , "Ukraˈjina"@en , "ISO 3166-1:UA"@de , "ISO 3166-1:UA"@fr , "Ukraˈjina"@de , "Ukraˈjina"@fr , "Ukraina"@de , "Ukraina"@fr , "Kiev compromise"@en , "Kiev compromise"@fr , "Kiev compromise"@de , "Ukraien"@en , "Ukraien"@fr , "Ukraien"@de , "Ukrayina"@en , "Ukrayina"@de , "Ukrayina"@fr , "Ukra'jina"@en , "Ukra'jina"@fr , "Ukra'jina"@de , "Ukrainische Kultur"@de , "Ukrania"@en , "Ukrania"@fr , "Ukrania"@de , "The Ukraine"@en , "The Ukraine"@fr , "The Ukraine"@de , "Ukraine map"@en , "Ukraine map"@fr , "Ukraine map"@de , "Republique d'Ukraine"@fr , "Ukarine"@en , "Ukarine"@fr , "Ukarine"@de , "Ucraine"@en , "Ucraine"@fr , "Ucraine"@de , "Ukrainienne"@fr , "Ukrajina"@en , "Ukrajina"@de , "Ukrajina"@fr , "Ukrane"@en , "Ykpaiha"@en , "Ukraninian"@en , "Ukriane"@en , "Ukraninian"@fr , "Ukrane"@de , "Ykpaiha"@de , "Ykpaiha"@fr , "Ukraninian"@de , "Ukrane"@fr , "Ukriane"@de , "Ukriane"@fr .
+
+<http://dbpedia.org/resource/Barend_Biesheuvel__1>
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Ukraine> ;
+        dbo:to      "1973"^^xsd:gYear .

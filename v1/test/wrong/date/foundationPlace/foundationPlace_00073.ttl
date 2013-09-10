@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.018nm3__1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.0r1gl> ;
+        dbo:from             "1980"^^xsd:gYear ;
+        dbo:to               "1980"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.018nm3>
+        rdfs:label     "Autodesk"@en , "Autodesk"@fr , "Autodesk"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.018nm3__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Autodesk> , <http://fr.dbpedia.org/resource/Autodesk> , <http://dbpedia.org/resource/Autodesk> ;
+        skos:altLabel  "Autodesk Inc. Staff"@en , "Autodesk"@en , "Autodesk"@fr , "Autodesk"@de , "AutoDesk"@en , "AutoDesk"@fr , "AutoDesk"@de , "Inc. Autodesk"@en , "Architectural Desktop"@de , "C-Plan"@de , "Autodesk, Inc."@en , "Autodesk, Inc."@fr , "Autodesk, Inc."@de , "Autodesk Autodesk"@en , "C-Plan AG"@de , "Autodesk Inc."@en , "Autodesk Inc."@fr , "Autodesk Inc."@de , "ADSK"@en , "Autodesk Inc"@en , "ADSK"@fr , "ADSK"@de , "Autodesk Inc"@fr , "Autodesk Inc"@de , "Autodesk building systems"@en , "Autodesk building systems"@fr , "Autodesk building systems"@de .
+
+<http://rdf.freebase.com/ns/m.0r1gl>
+        rdfs:label     "Mill Valley"@en , "Mill Valley"@fr , "Mill Valley"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Mill_Valley> , <http://de.dbpedia.org/resource/Mill_Valley> , <http://dbpedia.org/resource/Mill_Valley,_California> ;
+        skos:altLabel  "Locust, California"@en , "Locust, California"@fr , "Locust, California"@de , "Mill Valley, Calif."@en , "Marin Horizon School"@en , "Mill Valley, Calif."@fr , "Marin Horizon School"@fr , "Mill Valley, Calif."@de , "Marin Horizon School"@de , "Mill Valley"@en , "Mill Valley"@fr , "Mill Valley"@de , "Mill"@de , "Marin County / Mill Valley city"@en , "Mill Valley, California"@en , "Mill Valley, CA"@en , "Mill Valley, California"@fr , "Mill Valley, CA"@fr , "Mill Valley, CA"@de , "Mill Valley, California"@de .

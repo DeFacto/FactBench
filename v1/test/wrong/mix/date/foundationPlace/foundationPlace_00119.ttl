@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03d3c7___1>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.02cft> ;
+        dbo:from             "1988"^^xsd:gYear ;
+        dbo:to               "1988"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02cft>
+        rdfs:label     "Dublin"@de , "Dublin"@fr , "Dublin"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dublin> , <http://dbpedia.org/resource/Dublin> , <http://fr.dbpedia.org/resource/Dublin> ;
+        skos:altLabel  "Baile Átha Cliath"@en , "Baile Átha Cliath"@fr , "Baile Átha Cliath"@de , "Visitor Information for Dublin, Ireland"@en , "Visitor Information for Dublin, Ireland"@fr , "Visitor Information for Dublin, Ireland"@de , "Dublin City, Ireland"@en , "Dublin City, Ireland"@de , "Dublin City, Ireland"@fr , "West Dublin"@en , "West Dublin"@fr , "West Dublin"@de , "Dublín"@en , "The weather in Dublin"@en , "Dublinn"@fr , "The weather in Dublin"@de , "Dublín"@de , "Dublín"@fr , "The weather in Dublin"@fr , "Capital of Ireland"@en , "Capital of Ireland"@fr , "Capital of Ireland"@de , "LOCODE:IEDUB"@en , "City Center, Dublin"@en , "LOCODE:IEDUB"@fr , "City Center, Dublin"@de , "City Center, Dublin"@fr , "LOCODE:IEDUB"@de , "Dubh Linn"@en , "Dubh Linn"@fr , "Dubh Linn"@de , "Capital of Republic of Ireland"@en , "Dublin, County Dublin"@en , "Dublin, County Dublin"@fr , "Dublin, County Dublin"@de , "Capital of Republic of Ireland"@fr , "Capital of Republic of Ireland"@de , "Capital of the Republic of Ireland"@en , "Capital of the Republic of Ireland"@fr , "Capital of the Republic of Ireland"@de , "Baile Atha Cliath"@en , "Baile Atha Cliath"@fr , "Baile Atha Cliath"@de , "Central Dublin"@en , "Central Dublin"@fr , "Central Dublin"@de , "Dubhlinn"@de , "Dublin"@en , "Dublin"@fr , "Dublin"@de , "Baile átha Cliath"@en , "Baile átha Cliath"@fr , "Baile átha Cliath"@de , "Dublin Culture"@en , "Dublin Culture"@fr , "Dublin Culture"@de , "Dublin City Center"@en , "Dublin City Center"@fr , "Dublin City Center"@de , "Dyflin"@en , "Dyflin"@de , "Dyflin"@fr , "Dublin, Republic of Ireland"@en , "Baile atha Cliath"@en , "City Centre, Dublin"@en , "Dublin, Ireland"@en , "City Centre, Dublin"@fr , "City Centre, Dublin"@de , "Dublin, Ireland"@fr , "Dublin, Ireland"@de , "Dublin City Centre"@en , "Baile atha Cliath"@fr , "Baile atha Cliath"@de , "Dublin, Republic of Ireland"@fr , "Dublin, Republic of Ireland"@de , "Dublin City Centre"@de , "Dublin City Centre"@fr , "Dublin city center"@en , "Dublin city center"@de , "Dublin city center"@fr , "Dublin city centre"@en , "Dublin city centre"@de , "Dublin city centre"@fr , "City of Dublin"@en , "City of Dublin"@fr , "City of Dublin"@de .
+
+<http://rdf.freebase.com/ns/m.03d3c7_>
+        rdfs:label     "S3 Group"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03d3c7___1> ;
+        owl:sameAs     <http://dbpedia.org/resource/S3_Group> ;
+        skos:altLabel  "S3"@en .

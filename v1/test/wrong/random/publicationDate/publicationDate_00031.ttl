@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/El_Centro,_California>
+        rdfs:label     "El Centro, California"@en , "El Centro, California"@fr , "El Centro, California"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/El_Centro> , <http://de.dbpedia.org/resource/El_Centro_(Kalifornien)> ;
+        skos:altLabel  "El Centro, California"@de , "Cabarker"@en , "Cabarker"@fr , "Cabarker"@de , "Cabarker, California"@en , "El Centro"@en , "Cabarker, California"@fr , "Cabarker, California"@de , "El Centro"@fr , "El Centro"@de , "Centro"@fr , "El Centro, Ca"@en , "El Centro, Ca"@fr , "El Centro, Ca"@de , "LOCODE:USECO"@en , "LOCODE:USECO"@fr , "LOCODE:USECO"@de , "El Centro, CA"@en , "McCabe school"@en , "El Centro, CA"@fr , "McCabe school"@fr , "El Centro, CA"@de , "McCabe school"@de , "McCabe"@en , "McCabe"@fr , "McCabe"@de , "El Centro, California"@en , "El Centro, California"@fr .
+
+<http://rdf.freebase.com/ns/m.0317zz__1>
+        dbo:from        "1959"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/El_Centro,_California> ;
+        dbo:to          "1959"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0317zz>
+        rdfs:label     "Mindscape"@de , "Mindscape Group"@en , "Mindscape France"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0317zz__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Mindscape> , <http://de.dbpedia.org/resource/Mindscape> , <http://fr.dbpedia.org/resource/Mindscape> ;
+        skos:altLabel  "Mindscape, Inc."@en , "Mindscape, Inc."@de , "Mindscape"@en , "Mindscape"@fr , "The Software Toolworks"@de , "Mindscape"@de , "Mindscape Inc."@de , "Mindscape International"@de , "Mindscape Group"@de , "MindScape"@de , "Mindscape Software"@de , "Software Toolworks"@de , "Logotron, Mindscape, Inc."@de .

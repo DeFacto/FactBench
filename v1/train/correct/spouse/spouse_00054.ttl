@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0h3ffn__54>
+        dbo:from    "2006-09-26"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0hwfl> ;
+        dbo:to      "2007-02-08"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.0hwfl>
+        rdfs:label     "Anna Nicole Smith"@fr , "Anna Nicole Smith"@en , "Anna Nicole Smith"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anna_Nicole_Smith> , <http://dbpedia.org/resource/Anna_Nicole_Smith> , <http://de.dbpedia.org/resource/Anna_Nicole_Smith> ;
+        skos:altLabel  "Anna Nicole Smith"@de , "Nikki   Hart"@en , "Anna Nicole Smith"@en , "Vickie Hogan"@fr , "Victoria Marshall"@fr , "Smith"@fr , "Vickie Hogan"@de , "Victoria Marshall"@de , "Victoria Marshall"@en , "Vickie Hogan"@en , "Vicki Smith"@en , "Hogan"@fr , "Anna nichole"@fr , "Anna nichole"@de , "Anna nichole"@en , "Vickie Marshall"@fr , "Vickie Marshall"@de , "Vickie Marshall"@en , "Victoria Hogan"@fr , "Victoria Hogan"@de , "Victoria Hogan"@en , "Anna Nichole Smith"@fr , "Anna Nichole Smith"@de , "Anna Nichole Smith"@en , "Vickie Lynn Marshall"@fr , "Vickie Lynn Marshall"@de , "Vickie Lynn Marshall"@en , "Virgie Arthur"@fr , "Virgie Arthur"@de , "Virgie Arthur"@en , "Anna-Nicole Smith"@fr , "Anna-Nicole Smith"@de , "Anna-Nicole Smith"@en , "Vicki Lynn Hogan"@fr , "Vicki Lynn Hogan"@de , "Vicki Lynn Hogan"@en , "Anna Nicole-Smith"@fr , "Anna Nicole-Smith"@de , "Anna Nicole-Smith"@en , "Lynn Marshall"@fr , "Lynn Marshall"@de , "Lynn Marshall"@en , "Anne Nicole Smith"@fr , "Anne Nicole Smith"@de , "Anne Nicole Smith"@en , "Death of Anna Nicole Smith"@fr , "Ana Nicole Smith"@fr , "Vickie Lynn"@fr , "Vickie Lynn"@en , "Vickie Lynn"@de , "Death of Anna Nicole Smith"@de , "Death of Anna Nicole Smith"@en , "Ana Nicole Smith"@en , "Ana Nicole Smith"@de , "Vicky Marshall"@fr , "Anna nicole Smith"@fr , "Anna nicole Smith"@de , "Anna nicole Smith"@en , "Anna-Nicole-Smith"@fr , "Ana Nicole"@fr , "Vicky Hogan"@fr , "Vicky Marshall"@de , "Anna-Nicole-Smith"@de , "Ana Nicole"@de , "Vicky Hogan"@de , "Vicky Marshall"@en , "Ana Nicole"@en , "Vicky Hogan"@en , "Anna-Nicole-Smith"@en , "Dannielynn Hope Marshall Stern"@fr , "Dannielynn Hope Marshall Stern"@de , "Dannielynn Hope Marshall Stern"@en , "Vickie Lynn Hogan"@fr , "Anna nicole smith"@fr , "Vickie Lynn Hogan"@de , "Anna nicole smith"@de , "Anna nicole smith"@en , "Vickie Lynn Hogan"@en , "Vicky Lynn Hogan"@fr , "Vicky Lynn Hogan"@de , "Vicky Lynn Hogan"@en , "Vickie Smith"@fr , "Anna Nicole"@en , "Vickie Smith"@de , "Vickie Smith"@en , "G. Ben Thompson"@fr , "Anna nichole smith"@fr , "Anna nichole smith"@de , "Anna nichole smith"@en , "G. Ben Thompson"@de , "G. Ben Thompson"@en , "Anna Nicole Smith"@fr .
+
+<http://rdf.freebase.com/ns/m.0h3ffn>
+        rdfs:label     "Howard K. Stern"@fr , "Howard K. Stern"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.0h3ffn__54> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Howard_K._Stern> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Howard K Stern"@en , "Howard Kevin Stern"@en , "Howard K. Stern"@en , "Howard Stern"@en , "Howard"@en .

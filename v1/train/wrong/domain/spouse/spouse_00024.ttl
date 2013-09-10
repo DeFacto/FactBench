@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0cq2nq>
+        rdfs:label     "Thom Mathews"@en , "Thom Matthews"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/Thom_Matthews> , <http://dbpedia.org/resource/Thom_Mathews> ;
+        skos:altLabel  "Thomas Mathews"@en , "Thom Matthews"@en , "Thom Matthews"@fr , "Thom Mathews"@en , "Thom Mathews"@fr , "Thomas Ian Matthews"@en , "Tiger"@en .
+
+<http://rdf.freebase.com/ns/m.0jwsnkx__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0cq2nq> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0jwsnkx>
+        rdfs:label  "Tamara Brooks"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0jwsnkx__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Tamara_Brooks> .

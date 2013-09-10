@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.027w8q1>
+        rdfs:label  "Voyages by Starlight"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Voyages_by_Starlight> .
+
+<http://rdf.freebase.com/ns/m.01k56k>
+        rdfs:label     "Robert Silverberg"@en , "Robert Silverberg"@de , "Robert Silverberg"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01k56k__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Robert_Silverberg> , <http://dbpedia.org/resource/Robert_Silverberg> , <http://fr.dbpedia.org/resource/Robert_Silverberg> ;
+        skos:altLabel  "Calvin m knox"@de , "Calvin m knox"@fr , "Calvin m knox"@en , "Ivar Jorgenson"@fr , "Ivar Jorgenson"@en , "Charles D. Hammer"@en , "Calvin M. Knox"@en , "Calvin M. Knox"@de , "Calvin M. Knox"@fr , "Calvin knox"@de , "Calvin knox"@fr , "Calvin knox"@en , "Calvin M.Nox"@fr , "George Osborne"@en , "Richard Greer"@en , "Robert Randall"@fr , "Robert Randall"@en , "Robert Silverberg"@de , "Warren Kastel"@en , "Robert Silverberg"@fr , "David Osborne"@fr , "David Osborne"@en , "Robert Silverberg"@en , "Gordon Aghill"@en , "E. K. Jarvis"@en , "S. M. Tenneshaw"@en , "Robert Arnette"@en , "Webber Martin"@en , "David Challon"@en , "Silverberg"@de , "Silverberg"@fr , "Silverberg"@en , "Calvin Knox"@en , "Leonard G. Spencer"@en , "Hall Thornton"@en , "Clyde Mitchell"@en , "Robert Randalf"@fr , "Ivar Jorgensen"@en , "T. D. Bethlen"@en , "Ralph Burke"@en , "Bob Silverberg"@en .
+
+<http://rdf.freebase.com/ns/m.01k56k__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027w8q1> ;
+        dbo:from    "1971"^^xsd:gYear ;
+        dbo:to      "1971"^^xsd:gYear .

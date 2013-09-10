@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Grettell_Vald%C3%A9z>
+        skos:altLabel  "Grettell Valdéz"@en , "Grettell Valdez"@en .
+
+<http://rdf.freebase.com/ns/m.0d5125>
+        rdfs:label     "Grettell Valdéz"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Grettell_Vald%C3%A9z> ;
+        skos:altLabel  "Grettell Valeria Valdez Jiménez"@en , "Grettell Valdez"@en .
+
+<http://rdf.freebase.com/ns/m.09pyvy>
+        rdfs:label     "Patricio Borghetti"@en ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.09pyvy__86> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Patricio_Borghetti> ;
+        skos:altLabel  "Patricio Borghetti"@en , "Juan Patricio Borghetti Imerito"@en , "Juan Patricio Borghetti Imérito"@en .
+
+<http://rdf.freebase.com/ns/m.09pyvy__86>
+        dbo:from    "2004-07-10"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0d5125> ;
+        dbo:to      "2010-12"^^xsd:gYearMonth .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Belarus>
+        rdfs:label     "Belarus"@de , "Belarus"@fr , "Belarus"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Weißrussland> , <http://fr.dbpedia.org/resource/Biélorussie> ;
+        skos:altLabel  "Belorussland"@de , "Weissruthenien"@de , "Byelarus"@en , "Belarus'"@en , "Beloruss"@en , "Last European dictatorship"@en , "Byelarus"@fr , "Belarus'"@fr , "Beloruss"@fr , "Belarus'"@de , "Byelarus"@de , "Beloruss"@de , "Last European dictatorship"@fr , "Last European dictatorship"@de , "Belarussi"@en , "Belarussi"@fr , "Belarussi"@de , "République du Belarus"@fr , "Name of Belarus"@en , "Name of Belarus"@fr , "Name of Belarus"@de , "Etymology of Belarus"@en , "Republic of Belarus"@en , "Etymology of Belarus"@fr , "Etymology of Belarus"@de , "Russe"@fr , "Biełarus"@en , "Bielorussia"@en , "Weißruthenien"@de , "Bellarus"@en , "Belarus"@en , "Belarus"@fr , "Belarus"@de , "Biełarus"@fr , "Biełarus"@de , "Bellarus"@fr , "Bellarus"@de , "Republic of Belarus"@fr , "Bielorussia"@fr , "Bielorussia"@de , "Republic of Belarus"@de , "République de Bélarus"@fr , "Byelarossia"@en , "Byelarossia"@fr , "Byelarossia"@de , "Belorussia"@en , "Belorussia"@fr , "Belorussia"@de , "Belorus"@en , "Belorus"@fr , "Belorus"@de , "Bélarus"@fr , "Belaruss"@en , "Vitryssland"@en , "Belaruss"@fr , "Biélo-Russie"@fr , "Vitryssland"@fr , "Republik Weißrussland"@de , "Vitryssland"@de , "Republique de Belarus"@fr , "Belaruss"@de , "Republik Belarus"@de , "Republique du Belarus"@fr , "Weißrußland"@de , "Belarus’"@en , "Belarus’"@fr , "République de Biélorussie"@fr , "Belarus’"@de , "Republic of Beloruss"@en , "Republic of Beloruss"@fr , "Republic of Beloruss"@de , "Respublika Belarus"@en , "Respublika Belarus"@fr , "Respublika Belarus"@de , "Republique de Bielorussie"@fr , "Bielo-Russie"@fr , "Biełaruś"@en , "Byelorussia"@en , "Biełaruś"@fr , "Byelorussia"@fr , "Biełaruś"@de , "Byelorussia"@de , "Weissrussland"@en , "Weissrussland"@fr , "Belorußland"@de , "Weissrussland"@de , "ISO 3166-1:BY"@en , "ISO 3166-1:BY"@fr , "ISO 3166-1:BY"@de , "Russia"@en , "Belarussia"@en , "Republic of Belorus"@en , "Republic of Belorus"@fr , "Republic of Belorus"@de , "Belorusi"@en , "Russia"@fr , "Belarussia"@fr , "Belorusi"@fr , "Belorusi"@de , "Russia"@de , "Biélorussie"@fr , "Belarussia"@de , "Buelorussia"@en , "Belorusia"@en , "Buelorussia"@fr , "Belorusland"@de , "Buelorussia"@de , "Belorusia"@fr , "Belorusia"@de , "Bielorussie"@fr , "Bielo-russie"@fr , "République du Bélarus"@fr , "Weißrussland"@de .
+
+<http://dbpedia.org/resource/Sergei_Sidorsky__1>
+        dbo:from  "2003"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Belarus> ;
+        dbo:to    "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Sergei_Sidorsky>
+        rdfs:label     "Sergei Sidorsky"@en , "Sergei Sidorsky"@fr , "Sergei Sidorsky"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Sergei_Sidorsky__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sjarhej_Sidorski> , <http://fr.dbpedia.org/resource/Siarhieï_Sidorski> ;
+        skos:altLabel  "Siarhieï Sidorski"@fr , "Sergei Sidorsky"@en , "Sidorski"@de , "Sergei Sidorsky"@fr , "Sergei Sidorsky"@de , "Sergeï Sidorski"@fr , "Sergey Sidorsky"@en , "Syarhey Sidorski"@en , "Sergey Sidorsky"@fr , "Sergey Sidorsky"@de , "Syarhey Sidorski"@fr , "Syarhey Sidorski"@de , "Sjarhej Sidorski"@de , "Siarhiej Sidorski"@en , "Siarhiej Sidorski"@fr , "Siarhiej Sidorski"@de , "Sergey Sergeyevich Sidorsky"@en , "Sergey Sergeyevich Sidorsky"@fr , "Sergey Sergeyevich Sidorsky"@de , "Sergey Sidorski"@en , "Sergey Sidorski"@fr , "Sergey Sidorski"@de , "Sergej Sidorski"@de , "Siarhiei Sidorski"@fr , "Sergei Sidorski"@fr , "Sergei Sidorski"@de .

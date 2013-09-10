@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Noam_Chomsky__1>
+        dbo:from      "1950"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/New_Haven,_Connecticut> ;
+        dbo:to        "1950"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Noam_Chomsky>
+        rdfs:label     "Noam Chomsky"@de , "Noam Chomsky"@fr , "Noam Chomsky"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Noam_Chomsky__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Noam_Chomsky> , <http://de.dbpedia.org/resource/Noam_Chomsky> ;
+        skos:altLabel  "America's most useful citizen"@en , "Noam Chomskey"@en , "America's most useful citizen"@fr , "Affaire Faurisson"@fr , "Noam Chomskey"@fr , "Noam Chomskey"@de , "America's most useful citizen"@de , "Noam Avram Chomsky"@de , "Chomskians"@en , "Chomskians"@fr , "Chomskians"@de , "Noam chamsky"@en , "Noam chamsky"@fr , "Noam chamsky"@de , "Nome chomsky"@en , "Nome chomsky"@fr , "Nome chomsky"@de , "Chomskyite"@en , "Chomskyite"@fr , "Chomskyite"@de , "Noam chomski"@en , "Chomskyist"@en , "Noam chomski"@fr , "Chomskyist"@fr , "Noam chomski"@de , "Chomskyist"@de , "N. Chomsky"@en , "N. Chomsky"@fr , "N. Chomsky"@de , "Avram Noam Chomski"@fr , "Comments from Chomsky"@en , "Comments from Chomsky"@fr , "Comments from Chomsky"@de , "Chomskyan"@en , "Chomsky"@en , "Criticisms of Noam Chomsky"@en , "Criticisms of Noam Chomsky"@fr , "Criticisms of Noam Chomsky"@de , "Chomskyan"@fr , "Chomsky"@fr , "Chomskyan"@de , "Chomsky"@de , "Chomsky, Noam"@en , "Chomsky, Noam"@fr , "Chomsky, Noam"@de , "Dr. Noam Chomsky"@en , "Dr. Noam Chomsky"@fr , "Dr. Noam Chomsky"@de , "Power and terror in our times"@en , "to do"@en , "to do"@fr , "to do"@de , "A. Noam Chomsky"@en , "Noam Chomski"@en , "Power and terror in our times"@fr , "Noam Chomski"@fr , "Noam Chomski"@de , "A. Noam Chomsky"@fr , "A. Noam Chomsky"@de , "Power and terror in our times"@de , "Cartesische Linguistik"@de , "Professor Noam Chomsky"@en , "Chomsky and anti-semitism"@en , "Professor Noam Chomsky"@fr , "Chomsky and anti-semitism"@fr , "Professor Noam Chomsky"@de , "Chomsky and anti-semitism"@de , "Avram Chomsky"@en , "Avram Chomsky"@fr , "Avram Chomsky"@de , "Noam"@fr , "Naom Chomsky"@en , "Naom Chomsky"@fr , "Naom Chomsky"@de , "Nohm chompsky"@en , "Chompsky"@en , "Avram Noam Chomsky"@en , "Criticism of Chomsky"@en , "Nohm chompsky"@fr , "Chompsky"@fr , "Avram Noam Chomsky"@fr , "Criticism of Chomsky"@fr , "Criticism of Chomsky"@de , "Avram Noam Chomsky"@de , "Nohm chompsky"@de , "Chompsky"@de , "Noam chomsky"@en , "Noam chomsky"@fr , "Noam chomsky"@de , "Chomskian"@en , "Chompski"@en , "Chomskian"@fr , "Chompski"@fr , "Chomskian"@de , "Chompski"@de , "Chomskyans"@en , "Chomsky and alleged anti-semitism"@en , "Chomskyans"@fr , "Chomsky and alleged anti-semitism"@fr , "Chomskyans"@de , "Chomsky and alleged anti-semitism"@de , "Noam Chompsky"@en , "Noam Chomsky"@en , "Noam Chomsky"@fr , "Noam Chomsky"@de , "Noam Chompsky"@fr , "Noam Chompsky"@de , "Power and terror"@en , "Power and terror"@fr , "Power and terror"@de , "Noam champsky"@en , "Noam champsky"@fr , "Noam champsky"@de , "Naom Chompsky"@fr .
+
+<http://dbpedia.org/resource/New_Haven,_Connecticut>
+        rdfs:label     "New Haven, Connecticut"@en , "New Haven, Connecticut"@fr , "New Haven, Connecticut"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/New_Haven> , <http://de.dbpedia.org/resource/New_Haven_(Connecticut)> ;
+        skos:altLabel  "New Haven, New Haven County, Connecticut"@en , "New Haven, New Haven County, Connecticut"@fr , "New Haven, New Haven County, Connecticut"@de , "New haven, ct"@en , "New Haven, Conn."@en , "New Haven, Connecticut"@en , "New haven, ct"@fr , "New Haven, Conn."@fr , "New haven, ct"@de , "New Haven, Connecticut"@fr , "New Haven, Connecticut"@de , "New Haven, Conn."@de , "Newhaven"@fr , "New Haven"@en , "New Haven"@fr , "New Haven"@de , "Roodenburg"@en , "Roodenburg"@fr , "Roodenburg"@de , "New Haven, CT"@en , "New Haven, CT"@fr , "New Haven, CT"@de , "New Haven, USA"@en , "New Haven, USA"@fr , "New Haven, USA"@de , "LOCODE:USHVN"@en , "LOCODE:USHVN"@fr , "LOCODE:USHVN"@de , "New Haven,CT"@en , "New Haven,CT"@fr , "New Haven,CT"@de , "Neuer Zufluchtsort"@de .

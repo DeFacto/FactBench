@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03v36>
+        rdfs:label     "Iain Banks"@en , "Iain Banks"@fr , "Iain Banks"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03v36__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Iain_M._Banks> , <http://dbpedia.org/resource/Iain_Banks> , <http://fr.dbpedia.org/resource/Iain_Banks> ;
+        skos:altLabel  "Iain M. Banks"@fr , "Iain M. Banks"@de , "Iain M Banks"@en , "Iain M Banks"@fr , "Iain M Banks"@de , "Iain Menzies Banks"@en , "Iain Menzies Banks"@fr , "Banks, Iain"@en , "Banks, Iain"@fr , "Banks, Iain"@de , "Iain Banks"@en , "Iain Banks"@fr , "Iain Banks"@de , "Ian M Banks"@en , "Ian M Banks"@fr , "Ian M Banks"@de , "Ian M. Banks"@en , "Banks"@fr , "Ian M. Banks"@fr , "Ian M. Banks"@de , "Iain M. Banks"@en .
+
+<http://rdf.freebase.com/ns/m.03lvx>
+        rdfs:label     "Heretics of Dune"@en , "Les Hérétiques de Dune"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Heretics_of_Dune> , <http://fr.dbpedia.org/resource/Les_Hérétiques_de_Dune> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Les Heretiques De Dune"@fr , "Stiros"@en , "Stiros"@fr , "Tuek"@en , "Tuek"@fr , "Heretics Of Dune"@en , "Heretics Of Dune"@fr , "Burzmali"@en , "Burzmali"@fr , "Les Heretiques de Dune"@fr , "Les Hérétiques de Dune"@fr , "Les heretiques de dune"@fr , "Heretics of Dune"@en , "Heretics of Dune"@fr , "Les hérétiques de dune"@fr , "Heretics of dune"@en , "Heretics of dune"@fr , "Les Hérétiques De Dune"@fr .
+
+<http://rdf.freebase.com/ns/m.03v36__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.03lvx> ;
+        dbo:from    "1964"^^xsd:gYear ;
+        dbo:to      "1964"^^xsd:gYear .

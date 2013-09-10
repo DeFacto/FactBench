@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09rpsc>
+        rdfs:label  "Tivoli Systems, Inc."@en , "Tivoli (IBM)"@fr , "Tivoli"@de .
+
+<http://rdf.freebase.com/ns/m.027y0jr>
+        rdfs:label     "Salvatore Quasimodo"@en , "Salvatore Quasimodo"@fr , "Salvatore Quasimodo"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.027y0jr__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Salvatore_Quasimodo> , <http://fr.dbpedia.org/resource/Salvatore_Quasimodo> , <http://dbpedia.org/resource/Salvatore_Quasimodo> ;
+        skos:altLabel  "Quasimodo"@en , "Quasimodo"@fr , "Quasimodo"@de , "Salvatore"@en , "Salvatore"@fr , "Salvatore"@de , "Salvatore Quasimodo"@en , "Salvatore Quasimodo"@de , "Salvatore Quasimodo"@fr .
+
+<http://rdf.freebase.com/ns/m.027y0jr__1>
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.09rpsc> ;
+        dbo:to      "1995"^^xsd:gYear .

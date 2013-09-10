@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Zulfikar_Ali_Bhutto__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Rawalpindi> ;
+        dbo:from        "1981"^^xsd:gYear ;
+        dbo:to          "1981"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Rawalpindi>
+        rdfs:label     "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Rawalpindi> , <http://fr.dbpedia.org/resource/Rawalpindi> ;
+        skos:altLabel  "Rāwalpindi"@en , "Rāwalpindi"@fr , "Rāwalpindi"@de , "Rawalpindi"@en , "Rawalpindi"@fr , "Rawalpindi"@de , "Rawal Pindee"@en , "Rawal Pindee"@fr , "Rawal Pindee"@de , "Râwalpindî"@fr , "Rawalpindi, Pakistan"@en , "Rawalpindi, Pakistan"@fr , "Rawalpindi, Pakistan"@de , "Rāwalpindi, Pakistan"@en , "Rawal Pindi"@en , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@en , "RawalPindi"@en , "Rawal Pindi"@fr , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@fr , "Rawal Pindi"@de , "F.G. Sir Syed Boys Sec. School, Rawalpindi"@de , "Rāwalpindi, Pakistan"@fr , "RawalPindi"@fr , "Rāwalpindi, Pakistan"@de , "RawalPindi"@de , "Pindi"@en , "Pindi"@fr , "Pindi"@de , "Rawlpindini"@en , "Rawlpindini"@fr , "Rawlpindini"@de , "'Pindi"@en , "'Pindi"@fr , "'Pindi"@de .
+
+<http://dbpedia.org/resource/Zulfikar_Ali_Bhutto>
+        rdfs:label     "Zulfikar Ali Bhutto"@de , "Zulfikar Ali Bhutto"@fr , "Zulfikar Ali Bhutto"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Zulfikar_Ali_Bhutto__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Zulfikar_Ali_Bhutto> , <http://fr.dbpedia.org/resource/Zulfikar_Alî_Bhutto> ;
+        skos:altLabel  "Z. A. Bhutto"@en , "Z. A. Bhutto"@de , "Z. A. Bhutto"@fr , "Zulfikar Ali Bhutto"@en , "Zulfikar Ali Bhutto"@de , "Zulfikar Ali Bhutto"@fr , "Bhutto, Zulfikar Ali"@en , "Bhutto, Zulfikar Ali"@de , "Bhutto, Zulfikar Ali"@fr , "Zulfi Bhutto"@de , "Zulfi Bhutto"@fr , "Zulfi Bhutto"@en , "Quaid-e-Awam"@en , "Quaid-e-Awam"@de , "Quaid-e-Awam"@fr , "Zulfiqar 'Ali Bhutto"@en , "Zulfiqar 'Ali Bhutto"@de , "Zulfiqar 'Ali Bhutto"@fr , "Zulfiqar Bhutto"@de , "Zulfiqar Bhutto"@fr , "Zulfiqar Bhutto"@en , "Zalfikar Ali Bhutto"@en , "Zalfikar Ali Bhutto"@de , "Zalfikar Ali Bhutto"@fr , "Bhutto"@de , "Bhutto"@fr , "Bhutto, Zulfiqar Ali"@en , "Zulifiqar Ali Bhutto"@de , "Bhutto, Zulfiqar Ali"@de , "Bhutto, Zulfiqar Ali"@fr , "Zulifiqar Ali Bhutto"@fr , "Zulifiqar Ali Bhutto"@en , "Zulfikar Bhutto"@en , "Zulfikar Bhutto"@de , "Zulfikar Bhutto"@fr , "Ali Bhutto"@en , "Ali Bhutto"@de , "Ali Bhutto"@fr , "Zulfiqqar Ali Bhuttoo"@en , "Zulifikar Bhutto"@en , "Zulfiqqar Ali Bhuttoo"@de , "Zulfiqqar Ali Bhuttoo"@fr , "Zulifikar Bhutto"@de , "Zulifikar Bhutto"@fr , "Zulfikar Alî Bhutto"@fr , "Zulfiqar Ali Bhutto"@en , "Zulfiqar Ali Bhutto"@de , "Zulfiqar Ali Bhutto"@fr .

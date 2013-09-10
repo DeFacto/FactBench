@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.043ns__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.027l10x> ;
+        dbo:from    "2002"^^xsd:gYear ;
+        dbo:to      "2002"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.027l10x>
+        rdfs:label  "The Throne of Saturn"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_Throne_of_Saturn_(short_story_collection)> .
+
+<http://rdf.freebase.com/ns/m.043ns>
+        rdfs:label     "John Brunner"@en , "John Brunner"@fr , "John Brunner"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.043ns__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/John_Brunner> , <http://de.dbpedia.org/resource/John_Brunner> , <http://dbpedia.org/resource/John_Brunner_(novelist)> ;
+        skos:altLabel  "John Brunner"@de , "John Brunner"@fr , "Gill Hunt"@en , "Keith Woodcott"@en , "Brunner"@en , "Brunner"@fr , "Brunner"@de , "John Kilian Houston Brunner"@en , "A. P. H*rb*rt"@en , "John Loxmith"@en , "Kilian Houston Brunner"@en , "K. Houston Brunner"@en , "Trevor Staines"@en , "John Brunner"@en .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Dick_Cheney__1>
+        dbo:from  "1974"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Prague> ;
+        dbo:to    "1974"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Dick_Cheney>
+        rdfs:label     "Dick Cheney"@de , "Dick Cheney"@fr , "Dick Cheney"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Dick_Cheney__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Dick_Cheney> , <http://fr.dbpedia.org/resource/Dick_Cheney> ;
+        skos:altLabel  "Dick Cheyney"@en , "Dick Cheyney"@de , "Dick Cheyney"@fr , "Dicky Chaney"@en , "Dicky Chaney"@de , "Dicky Chaney"@fr , "Richard B. Cheney"@en , "Richard B. Cheney"@de , "Richard B. Cheney"@fr , "Richard Bruce Cheney"@en , "Dick Cheney"@en , "Dick Cheney"@de , "Dick Cheney"@fr , "Richard Bruce Cheney"@fr , "Richard Bruce Cheney"@de , "Vice President Cheney"@en , "Vice President Cheney"@fr , "Vice President Cheney"@de , "Richard (Dick) Cheney"@en , "Bush cheney"@en , "Richard (Dick) Cheney"@de , "Richard (Dick) Cheney"@fr , "Bush cheney"@de , "Bush cheney"@fr , "Dick"@fr , "Vice President Richard Bruce Cheney"@en , "Vice President Richard Bruce Cheney"@de , "Vice President Richard Bruce Cheney"@fr , "Dick Cheny"@en , "Dick Cheny"@de , "Dick Cheny"@fr , "Dick chenny"@en , "Vice President Dick Cheney"@en , "Dick chenny"@fr , "Dick chenny"@de , "Vice President Dick Cheney"@de , "Vice President Dick Cheney"@fr , "Dick cheney"@en , "Dick cheney"@fr , "Dick cheney"@de , "Dick Chaney"@en , "Dick Chaney"@de , "Dick Chaney"@fr , "Robert B. Cheney"@en , "Robert B. Cheney"@de , "Robert B. Cheney"@fr , "Dick Chenney"@en , "Dick Chenney"@de , "Dick Chenney"@fr , "Cheney"@en , "Cheney"@de , "Cheney"@fr , "Richard \"Dick\" Cheney"@en , "Richard \"Dick\" Cheney"@fr , "Richard \"Dick\" Cheney"@de , "Richard Cheney"@en , "Richard Cheney"@fr , "Richard Cheney"@de , "Vice-President Cheney"@en , "Vice-President Cheney"@fr , "Vice-President Cheney"@de , "Richard Bruce \"Dick\" Cheney"@en , "Richard Bruce \"Dick\" Cheney"@fr , "Richard Bruce \"Dick\" Cheney"@de , "Dick cheyney"@en , "Dick cheyney"@fr , "Dick cheyney"@de .
+
+<http://dbpedia.org/resource/Prague>
+        rdfs:label     "Prague"@de , "Prague"@fr , "Prague"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Prag> , <http://fr.dbpedia.org/resource/Prague> ;
+        skos:altLabel  "Tourisme en République Tchèque"@fr , "Capital of Czech Republic"@en , "Capital of Czech Republic"@de , "Capital of Czech Republic"@fr , "Praha, Czech Republic"@en , "Praha, Czech Republic"@fr , "Praha, Czech Republic"@de , "Prag"@en , "Prahou"@en , "Capital of the Czech Republic"@en , "Prag"@fr , "Prahou"@fr , "Capital of the Czech Republic"@fr , "Prag"@de , "Prahou"@de , "Capital of the Czech Republic"@de , "Historic Centre of Prague"@en , "Historic Centre of Prague"@de , "Historic Centre of Prague"@fr , "CZPRG"@en , "LOCODE:CZPRG"@en , "Praha, hlavni mesto"@fr , "CZPRG"@fr , "CZPRG"@de , "LOCODE:CZPRG"@de , "LOCODE:CZPRG"@fr , "Prague"@en , "Prague"@fr , "Prague"@de , "Hlavní město Praha"@en , "Hlavní město Praha"@de , "Hlavní město Praha"@fr , "Prahy"@en , "Prahy"@de , "Prahy"@fr , "CZ-PR"@de , "Prague ,Czech Republic"@en , "Prague ,Czech Republic"@fr , "Prague ,Czech Republic"@de , "Tourisme en Republique Tcheque"@fr , "Prague, Czechoslovakia"@en , "Prague, Czechoslovakia"@de , "Prague, Czechoslovakia"@fr , "Prague, Czech Republic"@en , "Prague, Czech Republic"@fr , "Prague, Czech Republic"@de , "NUTS Praha"@en , "NUTS Praha"@de , "NUTS Praha"@fr , "Greater Prague"@en , "Greater Prague"@fr , "Greater Prague"@de , "Hlavni mesto Praha"@en , "Hlavni mesto Praha"@de , "Hlavni mesto Praha"@fr , "Praha, hlavní město"@fr , "Praha"@en , "Capitale de la République tchèque"@fr , "Praha"@de , "Praha"@fr , "City of Prague"@en , "City of Prague"@de , "City of Prague"@fr , "Capitale de la Republique tcheque"@fr , "NUTS Prague"@en , "NUTS Prague"@fr , "NUTS Prague"@de , "Wards of Prague"@en , "Wards of Prague"@de , "Wards of Prague"@fr .

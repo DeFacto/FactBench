@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03n_z_>
+        rdfs:label     "Karen Elson"@en , "Karen Elson"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Karen_Elson> , <http://fr.dbpedia.org/resource/Karen_Elson> ;
+        skos:altLabel  "Elson"@fr , "Elson"@en , "Le Freak"@en , "Elson, Karen"@en , "Karen Elson"@en , "Karen Elson"@fr .
+
+<http://rdf.freebase.com/ns/m.038cwy__1>
+        dbo:from    "2005"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.03n_z_> ;
+        dbo:to      "2011"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.038cwy>
+        rdfs:label     "Kevin Federline"@en , "Kevin Federline"@fr , "Kevin Federline"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.038cwy__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Kevin_Federline> , <http://de.dbpedia.org/resource/Kevin_Federline> , <http://fr.dbpedia.org/resource/Kevin_Federline> ;
+        skos:altLabel  "Kevin Earl Federline"@de , "Kevin Ferderline"@en , "Kevin Spears"@en , "Kevin Spears"@fr , "Kevin Spears"@de , "K Fed"@en , "K Fed"@fr , "K Fed"@de , "K fed"@en , "K fed"@fr , "K fed"@de , "Federline"@en , "Federline"@fr , "Federline"@de , "Cletus"@en , "K-Fed"@en , "K-feds"@en , "K-Fed"@fr , "K-Fed"@de , "K-feds"@fr , "K-feds"@de , "Kevin Federline"@en , "Kevin Federline"@fr , "Kevin Federline"@de , "Kfed"@en , "Kfed"@fr , "Kfed"@de , "Kevin Earl Federline"@en , "Kevin Earl Federline"@fr .

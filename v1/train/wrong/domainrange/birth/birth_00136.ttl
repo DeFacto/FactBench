@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Charles_Dickens__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Minsk> ;
+        dbo:from        "1863"^^xsd:gYear ;
+        dbo:to          "1863"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Minsk>
+        rdfs:label     "Minsk"@de , "Minsk"@fr , "Minsk"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Minsk> , <http://fr.dbpedia.org/resource/Minsk> ;
+        skos:altLabel  "Miensk"@de , "Miensk"@fr , "Miensk"@en , "Gorod Minsk"@de , "Gorod Minsk"@fr , "Gorod Minsk"@en , "Provice of Minsk"@fr , "Provice of Minsk"@en , "Provice of Minsk"@de , "Minskaya"@en , "Minskaya"@de , "Minskaya"@fr , "Minsku"@de , "Minsku"@fr , "Minsku"@en , "LOCODE:BYMSQ"@de , "LOCODE:BYMSQ"@fr , "LOCODE:BYMSQ"@en , "Capital of Belarus"@de , "Capital of Belarus"@fr , "Capital of Belarus"@en , "Horad Minsk"@de , "Horad Minsk"@fr , "Horad Minsk"@en , "Minskas"@de , "Minskas"@fr , "Minskas"@en , "Minsk, Belarus"@de , "Minsk, Belarus"@fr , "Minsk, Belarus"@en , "Mensk"@de , "Mensk"@fr , "Mensk"@en , "Minsk"@en , "Minsk, USSR"@de , "Minsk, USSR"@fr , "Minsk, USSR"@en , "Minsk"@de , "Minsk"@fr .
+
+<http://dbpedia.org/resource/Charles_Dickens>
+        rdfs:label     "Charles Dickens"@de , "Charles Dickens"@fr , "Charles Dickens"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Charles_Dickens__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Charles_Dickens> , <http://de.dbpedia.org/resource/Charles_Dickens> ;
+        skos:altLabel  "CJH Dickens"@de , "CJH Dickens"@fr , "CJH Dickens"@en , "Dickens"@en , "Dickens"@de , "Dickens"@fr , "Charles John Huffam Dickens, FRSA"@en , "Charles John Huffam Dickens, FRSA"@de , "Charles John Huffam Dickens, FRSA"@fr , "Charles John Huffam Dickens"@en , "Charles John Huffam Dickens"@de , "Charles John Huffam Dickens"@fr , "Dickensien"@fr , "Charles Dickons"@de , "Charles Dickons"@fr , "Charles Dickons"@en , "Dickens charles"@de , "Dickens charles"@fr , "Dickens charles"@en , "Charles Dickens"@en , "Charles Dickens"@de , "Charles Dickens"@fr , "Charles"@en , "Charles"@de , "Charles"@fr , "Charles John Huffam Dickens FRSA"@en , "Charles John Huffam Dickens FRSA"@de , "Charles John Huffam Dickens FRSA"@fr , "Dickensian"@en , "Dickensian"@de , "Dickensian"@fr , "Dickensian character"@en , "Dickensian character"@de , "Dickensian character"@fr , "C Dickens"@en , "Charels Dickens"@de , "C Dickens"@de , "C Dickens"@fr , "Charels Dickens"@fr , "Charels Dickens"@en , "Charles Dickins"@de , "Charles Dickins"@fr , "Charles Dickins"@en , "Charles dickens"@en , "Charles dickens"@de , "Charles dickens"@fr .

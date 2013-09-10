@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01k4f>
+        rdfs:label     "Basel"@en , "Basel"@de , "Bâle"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Basel> , <http://dbpedia.org/resource/Basel> , <http://fr.dbpedia.org/resource/Bâle> ;
+        skos:altLabel  "Greater Basel"@en , "Greater Basel"@fr , "Greater Basel"@de , "Basel BS"@de , "Basel BS"@fr , "Basel BS"@en , "History of Basel"@de , "History of Basel"@fr , "History of Basel"@en , "Bâle"@en , "Bâle"@de , "Bâle"@fr , "Bale"@de , "Bale"@fr , "Bale"@en , "Theodorskirche"@en , "Theodorskirche"@de , "Theodorskirche"@fr , "Basel-Gasfabrik"@de , "Bâle, Suisse"@en , "Basileae"@fr , "Basle, Switzerland"@en , "Basle, Switzerland"@de , "Basle, Switzerland"@fr , "Basel, Switzerland"@en , "Basel, Switzerland"@de , "Basel, Switzerland"@fr , "Basilea"@en , "Basilea"@de , "Basilea"@fr , "Basel, Schwitzerland"@en , "Republic of Basel"@de , "Republic of Basel"@fr , "Basel, Schwitzerland"@de , "Basel, Schwitzerland"@fr , "Republic of Basel"@en , "LOCODE:CHBSL"@en , "LOCODE:CHBSL"@de , "LOCODE:CHBSL"@fr , "Basle"@en , "Basle"@de , "Basle"@fr , "Basel"@en , "Basel"@de , "Basel"@fr .
+
+<http://rdf.freebase.com/ns/m.0fb7w>
+        rdfs:label     "Ivo Andrić"@en , "Ivo Andrić"@fr , "Ivo Andrić"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0fb7w__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Ivo_Andri%C4%87> ;
+        skos:altLabel  "Ivan Andric"@en , "Ivo Andric"@en , "Иво Андрић"@en .
+
+<http://rdf.freebase.com/ns/m.0fb7w__1>
+        dbo:award  <http://rdf.freebase.com/ns/m.01k4f> ;
+        dbo:from   "1959"^^xsd:gYear ;
+        dbo:to     "1959"^^xsd:gYear .

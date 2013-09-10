@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Orlando_Magic>
+        rdfs:label     "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Magic_d'Orlando> , <http://de.dbpedia.org/resource/Orlando_Magic> ;
+        skos:altLabel  "Magic, Orlando"@en , "Magic, Orlando"@fr , "Magic, Orlando"@de , "Magic d'Orlando"@fr , "Orlando"@fr , "Magic"@en , "Magic"@fr , "Magic"@de , "Orlando Magic"@en , "Orlando Magic"@fr , "Orlando Magic"@de .
+
+<http://dbpedia.org/resource/Chris_Bosh__1>
+        dbo:from  "2010"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Orlando_Magic> ;
+        dbo:to    "2011"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chris_Bosh>
+        rdfs:label     "Chris Bosh"@en , "Chris Bosh"@fr , "Chris Bosh"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chris_Bosh__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chris_Bosh> , <http://fr.dbpedia.org/resource/Chris_Bosh> ;
+        skos:altLabel  "Christopher Bosh"@en , "Christopher Bosh"@fr , "Christopher Bosh"@de , "Christopher Wesson Bosh"@en , "Christopher Wesson Bosh"@fr , "Christopher Wesson Bosh"@de , "Bosh"@en , "Bosh"@fr , "Bosh"@de , "Chris Bosh"@en , "Chris Bosh"@fr , "Chris Bosh"@de .

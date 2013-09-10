@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j_mj>
+        rdfs:label     "Flatland: A Romance of Many Dimensions"@en , "Flatland"@fr , "Flatland"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Flatland> , <http://fr.dbpedia.org/resource/Flatland> , <http://de.dbpedia.org/resource/Flatland> ;
+        skos:altLabel  "Flatland: a Romance of Many Dimensions"@en , "Flatland: a Romance of Many Dimensions"@fr , "Flatland: a Romance of Many Dimensions"@de , "Flat Land"@en , "Flat Land"@de , "Flat Land"@fr , "Flatland"@en , "Flatland"@fr , "Flatland"@de , "Flatland: A Romance of Many Dimensions"@en , "Flatland - A Romance of Many Dimensions"@en , "Flatland: A Romance of Many Dimensions"@fr , "Flatland: A Romance of Many Dimensions"@de , "Flatland - A Romance of Many Dimensions"@fr , "Flatland - A Romance of Many Dimensions"@de , "The Annotated Flatland: A Romance of Many Dimensions"@en .
+
+<http://rdf.freebase.com/ns/m.08b8jm>
+        rdfs:label     "John Boyd"@en , "John Boyd"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.08b8jm__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/John_Boyd_(author)> ;
+        skos:altLabel  "Boyd Upchurch"@en , "Boyd Bradfield Upchurch"@en .
+
+<http://rdf.freebase.com/ns/m.08b8jm__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0j_mj> ;
+        dbo:from    "1968"^^xsd:gYear ;
+        dbo:to      "1968"^^xsd:gYear .

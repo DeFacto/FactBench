@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01zwy__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.01lktc> ;
+        dbo:from    "1987"^^xsd:gYear ;
+        dbo:to      "1987"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.01lktc>
+        rdfs:label     "The Scar"@en , "Les Scarifiés"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Les_Scarifiés> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/The_Scar> ;
+        skos:altLabel  "Les Scarifies"@fr , "Les Scarifiés"@fr , "Scar"@fr , "The Scar"@fr .
+
+<http://rdf.freebase.com/ns/m.01zwy>
+        rdfs:label     "Carl Sagan"@en , "Carl Sagan"@fr , "Carl Sagan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01zwy__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Carl_Sagan> , <http://de.dbpedia.org/resource/Carl_Sagan> , <http://dbpedia.org/resource/Carl_Sagan> ;
+        skos:altLabel  "Carl sagan"@de , "William H. Mount"@en , "William H. Mount"@fr , "William H. Mount"@de , "Sagan"@en , "Sagan"@fr , "Sagan"@de , "Sagan, Carl Edward"@en , "Sagan, Carl Edward"@fr , "Sagan, Carl Edward"@de , "Karl Sagan"@en , "Karl Sagan"@fr , "Karl Sagan"@de , "Carl Sagan"@en , "Dr. Carl Sagan"@en , "Carl Sagan"@fr , "Dr. Carl Sagan"@fr , "Carl Sagan"@de , "Dr. Carl Sagan"@de , "Carl Edward Sagan"@en , "Carl Edward Sagan"@fr , "Carl Edward Sagan"@de , "Carl E. Sagan"@en , "Carl E. Sagan"@fr , "Carl E. Sagan"@de , "carl_sagan"@en , "Sagan, Carl"@en , "Sagan, Carl"@fr , "Sagan, Carl"@de , "Carl sagan"@en , "Carl sagan"@fr .

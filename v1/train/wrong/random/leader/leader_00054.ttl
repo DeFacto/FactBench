@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Sarah_Vaughan>
+        rdfs:label     "Sarah Vaughan"@en , "Sarah Vaughan"@fr , "Sarah Vaughan"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Sarah_Vaughan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sarah_Vaughan> , <http://fr.dbpedia.org/resource/Sarah_Vaughan> ;
+        skos:altLabel  "Vaughan"@fr , "Vaughan"@de , "Sarah"@fr , "Sarah Vaughan"@en , "Sarah Vaughan"@fr , "Sarah Vaughan"@de , "Sara Vaughn"@en , "Sara Vaughn"@fr , "Sara Vaughn"@de , "Sarah Vaughn"@en , "Sarah Vaughn"@de , "Sarah Vaughn"@fr .
+
+<http://dbpedia.org/resource/Sarah_Vaughan__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.044gyq> ;
+        dbo:from        "1931"^^xsd:gYear ;
+        dbo:to          "1931"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.044gyq>
+        rdfs:label     "Jill Scott"@en , "Jill Scott"@fr , "Jill Scott"@de ;
+        skos:altLabel  "The Lady Jill Scott"@en .

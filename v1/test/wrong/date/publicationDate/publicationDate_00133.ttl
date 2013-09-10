@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j0pf>
+        rdfs:label     "Alastair Reynolds"@en , "Alastair Reynolds"@fr , "Alastair Reynolds"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0j0pf__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Alastair_Reynolds> , <http://fr.dbpedia.org/resource/Alastair_Reynolds> , <http://de.dbpedia.org/resource/Alastair_Reynolds> ;
+        skos:altLabel  "Reynolds"@fr , "Alastair Reynolds"@en , "Alastair Reynolds"@fr , "Alastair Reynolds"@de .
+
+<http://rdf.freebase.com/ns/m.0j0pf__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.08yrzh> ;
+        dbo:from    "2012"^^xsd:gYear ;
+        dbo:to      "2012"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.08yrzh>
+        rdfs:label     "Pushing Ice"@en , "Janus"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Janus_(roman)> , <http://dbpedia.org/resource/Pushing_Ice> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Pushing Ice"@en , "Janus"@fr , "Pushing Ice"@fr .

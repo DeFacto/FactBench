@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Tunku_Abdul_Rahman__1>
+        dbo:from      "1957"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Malaysia> ;
+        dbo:to        "1970"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Malaysia>
+        rdfs:label     "Malaysia"@de , "Malaysia"@fr , "Malaysia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Malaysia> , <http://fr.dbpedia.org/resource/Malaisie> ;
+        skos:altLabel  "Name of Malaysia"@en , "Name of Malaysia"@de , "Name of Malaysia"@fr , "ISO 3166-1:MY"@en , "ISO 3166-1:MY"@fr , "ISO 3166-1:MY"@de , "Malaysia sports"@en , "Malaysia sports"@fr , "Malaysia sports"@de , "Republic of Malaysia"@en , "Republic of Malaysia"@fr , "Republic of Malaysia"@de , "MSIA"@en , "MSIA"@de , "MSIA"@fr , "Subdivisions of Malaysia"@en , "Subdivisions of Malaysia"@de , "Subdivisions of Malaysia"@fr , "Malaya"@en , "Malaya"@fr , "Malaya"@de , "Maylasia"@en , "Maylasia"@de , "Maylasia"@fr , "Fédération de Malaysia"@fr , "MALAYSIA"@en , "Federation state of Malaysia"@en , "Islam in Malaysia"@de , "MALAYSIA"@fr , "Federation state of Malaysia"@de , "Federation state of Malaysia"@fr , "MALAYSIA"@de , "M'sia"@en , "Federation de Malaysia"@fr , "M'sia"@de , "M'sia"@fr , "Malaysian Federation"@en , "Malaysian Federation"@fr , "Malaysian Federation"@de , "Malaysians"@en , "Malaysians"@fr , "Malaysians"@de , "Malayasia"@en , "Malayasia"@fr , "Malayasia"@de , "Maylaysia"@en , "Maylaysia"@fr , "Maylaysia"@de , "Malaixiya"@en , "Malaixiya"@fr , "Malaixiya"@de , "Malais"@fr , "Embassy of Malaysia"@en , "Embassy of Malaysia"@fr , "Embassy of Malaysia"@de , "Malyasia"@en , "Malasia"@en , "Malyasia"@fr , "Malasia"@de , "Malasia"@fr , "Malaysie"@fr , "Malyasia"@de , "Malaisia"@en , "Malaisie"@en , "Malaisia"@fr , "Malaisia"@de , "Malaisie"@fr , "Malaisie"@de , "Malaise"@fr , "Malaysien"@de , "Persekutuan Malaysia"@en , "Malay"@en , "Malay"@fr , "Malay"@de , "Persekutuan Malaysia"@fr , "Persekutuan Malaysia"@de , "Federation of Malaysia"@en , "Federation of Malaysia"@fr , "Federation of Malaysia"@de , "Etymology of Malaysia"@en , "Etymology of Malaysia"@de , "Etymology of Malaysia"@fr , "Malaysia"@en , "Malaysia"@fr , "Malaysia"@de .
+
+<http://dbpedia.org/resource/Tunku_Abdul_Rahman>
+        rdfs:label     "Tunku Abdul Rahman"@fr , "Tunku Abdul Rahman"@de , "Tunku Abdul Rahman"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Tunku_Abdul_Rahman__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Abdul_Rahman_(Premierminister)> , <http://fr.dbpedia.org/resource/Tunku_Abdul_Rahman> ;
+        skos:altLabel  "Abdul Rahman Putra Alhaj"@en , "Abdul Rahman"@de , "Tunku Abdul Rahman Putra Alhaj"@en , "Tunku Abdul Rahman Putra Alhaj"@fr , "Tunku Abdul Rahman Putra Alhaj"@de , "Tunku Rahman"@en , "Tunku Abdul Rahman Putra Al-Haj"@en , "Abdul Rahman, Tunku"@en , "Abdul Rahman Putra Alhaj"@fr , "Tunku Rahman"@fr , "Tunku Rahman"@de , "Abdul Rahman Putra Alhaj"@de , "Tunku Abdul Rahman Putra Al-Haj"@fr , "Abdul Rahman, Tunku"@fr , "Abdul Rahman, Tunku"@de , "Tunku Abdul Rahman Putra Al-Haj"@de , "Tunku Abdul Rahman"@en , "Tunku Abdul Rahman"@fr , "Tunku Abdul Rahman"@de , "Tunku Abdul Rahman Putra al-Haj"@en , "Tunku Abdul Rahman Putra al-Haj"@fr , "Tunku Abdul Rahman Putra al-Haj"@de , "Putra al-Haj"@en , "Putra al-Haj"@fr , "Putra al-Haj"@de , "Tunku Abdul Rahman Putra"@en , "Tunku Abdul Rahman Putra"@fr , "Tunku Abdul Rahman Putra"@de .

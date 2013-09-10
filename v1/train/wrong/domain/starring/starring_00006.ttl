@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Uma_Thurman>
+        rdfs:label     "Uma Thurman"@en , "Uma Thurman"@fr , "Uma Thurman"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Uma_Thurman> , <http://de.dbpedia.org/resource/Uma_Thurman> ;
+        skos:altLabel  "Uma therman"@en , "Uma therman"@fr , "Uma therman"@de , "Thurman"@en , "Thurman"@fr , "Thurman"@de , "Uma Karuna Thurman"@fr , "Uma Therman"@en , "Uma Thurman"@en , "Uma Therman"@fr , "Uma Thurman"@fr , "Uma Therman"@de , "Uma Thurman"@de , "Uma Thurmond"@en , "Uma Thurmond"@fr , "Uma Thurmond"@de .
+
+<http://dbpedia.org/resource/Om_Shanti_Om__1>
+        dbo:from      "2003"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Uma_Thurman> ;
+        dbo:to        "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Om_Shanti_Om>
+        rdfs:label     "Om Shanti Om"@en , "Om Shanti Om"@fr , "Om Shanti Om"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Om_Shanti_Om__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Om_Shanti_Om> , <http://de.dbpedia.org/resource/Om_Shanti_Om> ;
+        skos:altLabel  "Main Agar Kahoon"@de , "Om Shanti Om"@en , "Om Shanti Om"@de , "Om Shanti Om"@fr , "Om shanti om"@fr , "Om Shanti Om(film)"@en , "Om Shanti Om(film)"@fr , "Om Shanti Om(film)"@de , "Main Agar Kahoon"@en , "Main Agar Kahoon"@fr .

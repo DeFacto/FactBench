@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Reykjavík>
+        rdfs:label     "Reykjavík"@en , "Reykjavík"@fr , "Reykjavík"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Reykjavík> , <http://fr.dbpedia.org/resource/Reykjavik> ;
+        skos:altLabel  "Reykjavik"@fr , "Reykjavik"@de , "Reykjavík"@fr , "Capitale de l'Islande"@fr , "Reykjavík"@de , "Rekjavìk"@fr , "Reykjavic"@de , "Rekjavik"@fr , "Rejkjavik"@de .
+
+<http://dbpedia.org/resource/Jeff_Gordon>
+        rdfs:label     "Jeff Gordon"@en , "Jeff Gordon"@fr , "Jeff Gordon"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Jeff_Gordon__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Jeff_Gordon> , <http://de.dbpedia.org/resource/Jeff_Gordon> ;
+        skos:altLabel  "Jeffery Gordon"@en , "Jeffery Gordon"@fr , "Jeffery Gordon"@de , "Jeff Michael Gordon"@en , "Jeff Gordon"@en , "Jeff Michael Gordon"@fr , "Jeff Gordon"@fr , "Jeff Michael Gordon"@de , "Jeff Gordon"@de , "Jeffrey Michael Gordon"@en , "Jeffrey Michael Gordon"@fr , "Jeffrey Michael Gordon"@de , "Jeffery Michael Gordon"@en , "Jeffery Michael Gordon"@de , "Jeffery Michael Gordon"@fr .
+
+<http://dbpedia.org/resource/Jeff_Gordon__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Reykjavík> ;
+        dbo:from        "1971"^^xsd:gYear ;
+        dbo:to          "1971"^^xsd:gYear .

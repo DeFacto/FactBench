@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.07ss8_>
+        rdfs:label     "Chris Brown"@de , "Chris Brown"@fr , "Chris Brown"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chris_Brown_(Sänger)> , <http://dbpedia.org/resource/Chris_Brown_(American_entertainer)> , <http://fr.dbpedia.org/resource/Chris_Brown> ;
+        skos:altLabel  "In the Zone"@en , "In the Zone"@de , "In the Zone"@fr , "Big Booty Judy"@de , "Big Booty Judy"@fr , "Big Booty Judy"@en , "Yeah 3x"@fr , "In My Zone"@de , "In My Zone"@fr , "In My Zone"@en , "Chris maurice brown"@de , "Chris maurice brown"@fr , "Chris maurice brown"@en , "Chris"@en , "Chris Brown"@de , "Chris Brown"@fr , "Chris Brown"@en , "Chris Breezy"@de , "Chris Breezy"@fr , "Chris Breezy"@en , "CB"@en , "Christopher Maurice Brown"@de , "Christopher Maurice Brown"@fr , "Christopher Maurice Brown"@en , "Christopher Maurice \"Chris\" Brown"@de , "Christopher Maurice \"Chris\" Brown"@fr , "Christopher Maurice \"Chris\" Brown"@en , "Brown"@fr , "C Breezy"@de , "C Breezy"@fr , "C Breezy"@en , "Changed Man"@de , "Changed Man"@fr , "Changed Man"@en .
+
+<http://dbpedia.org/resource/Chet_Atkins__1>
+        dbo:from  "2006"^^xsd:gYear ;
+        dbo:team  <http://rdf.freebase.com/ns/m.07ss8_> ;
+        dbo:to    "2010"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Chet_Atkins>
+        rdfs:label     "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Chet_Atkins__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Chet_Atkins> , <http://fr.dbpedia.org/resource/Chet_Atkins> ;
+        skos:altLabel  "Chester Burton Atkins"@fr , "Chester Burton Atkins"@de , "Atkins"@fr , "Atkins"@de , "Chet Atkins"@en , "Chet Atkins"@fr , "Chet Atkins"@de , "Chester B. Atkins"@en , "Chester B. Atkins"@fr , "Chester B. Atkins"@de , "Chet atkins"@fr , "Mr. Guitar"@en , "Mr. Guitar"@fr , "Mr. Guitar"@de , "Chester Atkins"@en , "Chester Atkins"@fr , "Chester Atkins"@de , "Chester Burton Atkins"@en .

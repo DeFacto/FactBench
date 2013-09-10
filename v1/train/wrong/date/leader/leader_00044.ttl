@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ásgeir_Ásgeirsson>
+        rdfs:label     "Ásgeir Ásgeirsson"@en , "Ásgeir Ásgeirsson"@fr , "Ásgeir Ásgeirsson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ásgeir_Ásgeirsson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ásgeir_Ásgeirsson> , <http://de.dbpedia.org/resource/Ásgeir_Ásgeirsson> ;
+        skos:altLabel  "Ásgeir Ásgeirsson"@fr , "Ásgeir Ásgeirsson"@de , "Asgeir Asgeirsson"@fr , "Asgeir Asgeirsson"@de .
+
+<http://dbpedia.org/resource/Ásgeir_Ásgeirsson__1>
+        dbo:from    "1931"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Iceland> ;
+        dbo:to      "1938"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Iceland>
+        rdfs:label     "Iceland"@de , "Iceland"@fr , "Iceland"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Island> , <http://fr.dbpedia.org/resource/Islande> ;
+        skos:altLabel  "République islandaise"@fr , "Island of Iceland"@en , "Island of Iceland"@de , "Island of Iceland"@fr , "Republik Island"@de , "Islande"@fr , "Icedland"@en , "Lýðveldið Ísland"@de , "Lýðveldið Ísland"@fr , "Icedland"@de , "Icedland"@fr , "Lyðveldið Island"@fr , "Lyðveldið Island"@de , "The Republic of Iceland"@en , "The Republic of Iceland"@de , "The Republic of Iceland"@fr , "Iceland"@en , "Iceland"@fr , "Iceland"@de , "Gardarsholm"@de , "Ice land"@en , "Ice land"@de , "Ice land"@fr , "Republique islandaise"@fr , "Ísland"@en , "Ísland"@fr , "Ísland"@de , "Lydveldid island"@en , "Icelandic isles"@en , "Icelandic isles"@fr , "Lydveldid island"@fr , "Icelandic isles"@de , "Lydveldid island"@de , "Icealnd"@en , "Icealnd"@fr , "Icealnd"@de , "Lýðveldið ísland"@en , "Lýðveldið ísland"@fr , "Lýðveldið ísland"@de , "Lyðveldið island"@en , "Lyðveldið island"@de , "Lyðveldið island"@fr , "ICELAND"@en , "Island"@en , "ICELAND"@de , "ICELAND"@fr , "Island"@de , "Island"@fr , "Ice-land"@en , "Ice-land"@de , "Ice-land"@fr , "ISO 3166-1:IS"@en , "ISO 3166-1:IS"@de , "ISO 3166-1:IS"@fr , "Republic of Iceland"@en , "Republic of Iceland"@de , "Republic of Iceland"@fr , "IJsland"@en , "République d'Islande"@fr , "IJsland"@de , "IJsland"@fr , "The land of ice and snow"@en , "The land of ice and snow"@fr , "The land of ice and snow"@de , "Terre de glace"@fr , "Garðarsholmur"@de , "Republique d'Islande"@fr .

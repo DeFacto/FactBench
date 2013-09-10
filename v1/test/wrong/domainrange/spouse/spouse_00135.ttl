@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0mzdz>
+        rdfs:label     "Paul McGann"@en , "Paul McGann"@fr , "Paul McGann"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Paul_McGann> , <http://fr.dbpedia.org/resource/Paul_McGann> , <http://de.dbpedia.org/resource/Paul_McGann> ;
+        skos:altLabel  "McGann, Paul"@en , "McGann, Paul"@de , "McGann, Paul"@fr , "McGann"@en , "McGann"@de , "McGann"@fr , "Paul mcgann"@en , "Paul McGann"@en , "Paul mcgann"@fr , "Paul mcgann"@de , "Paul McGann"@fr , "Paul McGann"@de .
+
+<http://rdf.freebase.com/ns/m.0bs69sw>
+        rdfs:label  "Tameka Foster"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0bs69sw__1> ;
+        owl:sameAs  <http://dbpedia.org/resource/Tameka_Foster> .
+
+<http://rdf.freebase.com/ns/m.0bs69sw__1>
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.0mzdz> ;
+        dbo:to      "2007"^^xsd:gYear .

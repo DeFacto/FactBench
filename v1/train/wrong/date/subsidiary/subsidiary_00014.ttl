@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03p34zh>
+        rdfs:label     "Silicon Graphics"@de , "Silicon Graphics"@fr , "Silicon Graphics, Inc."@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.03p34zh__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Silicon_Graphics> , <http://fr.dbpedia.org/resource/Silicon_Graphics> , <http://dbpedia.org/resource/Silicon_Graphics> ;
+        skos:altLabel  "SGI"@en , "GRAPHICS PROPERTIES HOLDINGS INC"@en , "Silicon Graphics Inc."@de , "SGICQ"@de , "SGICQ"@fr , "SGICQ"@en , "Silicon Graphics Inc."@fr , "Silicon Graphics Inc."@en , "Silicon Graphics workstation"@de , "Silicon Graphics workstation"@fr , "Silicon Graphics workstation"@en , "Silicon Graphics, Inc."@de , "Silicon Graphics, Inc."@fr , "Silicon Graphics, Inc."@en , "SGCS"@en , "Silicon Graphics Computer Systems"@en , "SGID"@de , "SGID"@fr , "SGID"@en , "Silicon Graphics Incorporated"@de , "Silicon Graphics Incorporated"@fr , "Silicon Graphics Incorporated"@en , "Inc. Silicon Graphics"@de , "Inc. Silicon Graphics"@fr , "Inc. Silicon Graphics"@en , "SILICON GRAPHICS INC"@en , "Silicon"@fr , "Silicon Graphics"@en , "Silicon Graphics"@de , "Silicon Graphics"@fr , "Silicon Graphics, Incorporated"@de , "Silicon Graphics, Incorporated"@fr , "Silicon Graphics, Incorporated"@en , "Silicon Graphics workstations"@de , "Silicon Graphics workstations"@fr , "Silicon Graphics workstations"@en .
+
+<http://rdf.freebase.com/ns/m.03p34zh__1>
+        dbo:from        "1997"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_82ns> ;
+        dbo:to          "1997"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02_82ns>
+        rdfs:label  "Cray Research, Inc."@en .

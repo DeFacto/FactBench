@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03v36>
+        rdfs:label       "Iain Banks"@de , "Iain Banks"@en , "Iain Banks"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0gdfn__24> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Iain_M._Banks> , <http://dbpedia.org/resource/Iain_Banks> , <http://fr.dbpedia.org/resource/Iain_Banks> ;
+        skos:altLabel    "Iain M. Banks"@de , "Iain M. Banks"@en , "Iain M Banks"@fr , "Iain M Banks"@de , "Iain M Banks"@en , "Iain Menzies Banks"@fr , "Iain Menzies Banks"@en , "Banks, Iain"@fr , "Banks, Iain"@de , "Banks, Iain"@en , "Iain Banks"@fr , "Iain Banks"@de , "Iain Banks"@en , "Ian M Banks"@fr , "Ian M Banks"@de , "Ian M Banks"@en , "Ian M. Banks"@fr , "Banks"@fr , "Ian M. Banks"@de , "Ian M. Banks"@en , "Iain M. Banks"@fr .
+
+<http://rdf.freebase.com/ns/m.0gdfn>
+        rdfs:label     "Whit"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Whit> ;
+        skos:altLabel  "Whit, or Isis amongst the unsaved"@en .
+
+<http://dbpedia.org/resource/Whit>
+        skos:altLabel  "Whit"@en .
+
+<http://rdf.freebase.com/ns/m.0gdfn__24>
+        dbo:author  <http://rdf.freebase.com/ns/m.0gdfn> ;
+        dbo:from    "1995"^^xsd:gYear ;
+        dbo:to      "1995"^^xsd:gYear .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1>
+        dbo:from      "1964"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Zac_Efron> ;
+        dbo:to        "1964"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Zac_Efron>
+        rdfs:label     "Zac Efron"@de , "Zac Efron"@fr , "Zac Efron"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Zac_Efron> , <http://fr.dbpedia.org/resource/Zac_Efron> ;
+        skos:altLabel  "Zachary David Alexander Efron"@en , "Zachary David Alexander Efron"@de , "Zachary David Alexander Efron"@fr , "Zach Efron"@en , "Zach Efron"@de , "Zach Efron"@fr , "Zac efron"@de , "Zac efron"@fr , "Zac efron"@en , "Zefron"@en , "Template:Zac Efron"@en , "Template:Zac Efron"@de , "Template:Zac Efron"@fr , "Zachary efron"@de , "Zefron"@de , "Zefron"@fr , "Zachary efron"@fr , "Zachary efron"@en , "Efron"@en , "Efron"@de , "Efron"@fr , "Zac Efron"@en , "Zac Efron"@de , "Zac Efron"@fr , "Bet On It"@de , "Bet On It"@fr , "Bet On It"@en , "Zac effron"@fr , "Zack efron"@de , "Zack efron"@fr , "Zack efron"@en , "Zac Effron"@en , "Zac Effron"@de , "Zac Effron"@fr , "Zack Efron"@en , "Zack Efron"@de , "Zack Efron"@fr , "Zac Efrom"@en , "Zac Efrom"@de , "Zac Efrom"@fr , "Zachary David alexander Thomas Efron"@fr , "Bet on It"@de , "Bet on It"@fr , "Bet on It"@en , "Zachary Efron"@en , "Zachary Efron"@de , "Zachary Efron"@fr .
+
+<http://dbpedia.org/resource/A_Hard_Day's_Night_(film)>
+        rdfs:label     "A Hard Day's Night (film)"@en , "A Hard Day's Night (film)"@fr , "A Hard Day's Night (film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/A_Hard_Day's_Night_(film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/A_Hard_Day's_Night_(film)> , <http://de.dbpedia.org/resource/Yeah_Yeah_Yeah> ;
+        skos:altLabel  "Quatre garcons dans le vent"@fr , "A Hard Days Night"@en , "A Hard Days Night"@fr , "A Hard Days Night"@de , "Quatre Garçons dans le vent"@fr , "Quatre Garcons dans le vent"@fr , "A Hard Day's Night"@en , "A Hard Day's Night"@fr , "A Hard Day's Night"@de , "4 garcons dans le vent"@fr , "Yeah Yeah Yeah"@de , "Quatre garçons dans le vent"@fr , "Hard day's night"@en , "Hard day's night"@fr , "Hard day's night"@de , "4 garçons dans le vent"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Serena_Williams>
+        rdfs:label     "Serena Williams"@de , "Serena Williams"@en , "Serena Williams"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Serena_Williams__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Serena_Williams> , <http://de.dbpedia.org/resource/Serena_Williams> ;
+        skos:altLabel  "Serena"@de , "Williams"@fr , "Serena Jameka Williams"@en , "Serena Jameka Williams"@fr , "Serena Jameka Williams"@de , "Senera Williams"@en , "Senera Williams"@fr , "Senera Williams"@de , "Serena Williams"@en , "Serena williams"@en , "Serena Williams"@fr , "Serena williams"@de , "Serena Williams"@de , "Serena williams"@fr , "Serena"@en , "Serena"@fr .
+
+<http://dbpedia.org/resource/Saginaw,_Michigan>
+        rdfs:label     "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Saginaw_(Michigan)> , <http://fr.dbpedia.org/resource/Saginaw_(Michigan)> ;
+        skos:altLabel  "Saginaw, MI"@de , "Synergy Medical Education Alliance"@en , "Synergy Medical Education Alliance"@fr , "Synergy Medical Education Alliance"@de , "Synergy Medical Education"@en , "Synergy Medical Education"@fr , "Synergy Medical Education"@de , "Saginaw-Bay City-Saginaw Township North, MI CSA"@en , "Saginaw-Bay City-Saginaw Township North, MI CSA"@fr , "Saginaw-Bay City-Saginaw Township North, MI CSA"@de , "Synergy Medical"@en , "Synergy Medical"@fr , "Synergy Medical"@de , "Saginaw, Michigan"@en , "Saginaw, Michigan"@fr , "Saginaw, Michigan"@de , "Saginaw, mi"@en , "Saginaw, mi"@fr , "Saginaw, mi"@de , "Covenant HealthCare"@en , "Covenant HealthCare"@fr , "Covenant HealthCare"@de , "Covenant Healthcare"@en , "Downtown Saginaw, Michigan"@en , "Saginaw"@en , "Covenant Healthcare"@fr , "Downtown Saginaw, Michigan"@fr , "Downtown Saginaw, Michigan"@de , "Saginaw"@fr , "Saginaw"@de , "Covenant Healthcare"@de , "Saginaw, MI"@en , "Saginaw, MI"@fr .
+
+<http://dbpedia.org/resource/Serena_Williams__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Saginaw,_Michigan> ;
+        dbo:from        "1988"^^xsd:gYear ;
+        dbo:to          "1988"^^xsd:gYear .

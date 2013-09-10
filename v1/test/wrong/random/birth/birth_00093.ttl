@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Kelly_Clarkson>
+        rdfs:label     "Kelly Clarkson"@en , "Kelly Clarkson"@de , "Kelly Clarkson"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kelly_Clarkson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Kelly_Clarkson> , <http://de.dbpedia.org/resource/Kelly_Clarkson> ;
+        skos:altLabel  "Awards and Nominations for Kelly Clarkson"@de , "Awards and Nominations for Kelly Clarkson"@fr , "Kelly"@fr , "Kelly clarckson"@de , "Kelly clarckson"@fr , "Kelly clarckson"@en , "Clarkson"@de , "Clarkson"@fr , "Kellly clarkson"@de , "Kellly clarkson"@fr , "Kellly clarkson"@en , "I Wish"@de , "I Wish"@fr , "I Wish"@en , "Jekky"@de , "Jekky"@fr , "Jekky"@en , "Kelly clarkson"@fr , "Kelly clarkson"@en , "Kelly clarkson"@de , "True You"@de , "True You"@fr , "True You"@en , "Kelly Brianne Clarkson"@de , "Kelly Brianne Clarkson"@fr , "Kelly Brianne Clarkson"@en , "Clarkson, Kelly"@en , "Clarkson, Kelly"@de , "Clarkson, Kelly"@fr , "The Way I Like It"@en , "The Way I Like It"@de , "The Way I Like It"@fr , "Kelly Clarkson"@de , "Kelly Clarkson"@fr , "Kelly Clarkson"@en , "Kelly Clarkston"@de , "Kelly Clarkston"@fr , "Kelly Clarkston"@en , "Awards and Nominations for Kelly Clarkson"@en .
+
+<http://dbpedia.org/resource/Kelly_Clarkson__1>
+        dbo:from        "1965"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/Queens> ;
+        dbo:to          "1965"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Queens>
+        rdfs:label     "Queens"@de , "Queens"@fr , "Queens"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Queens> , <http://de.dbpedia.org/resource/Queens> ;
+        skos:altLabel  "Borough of Queens"@en , "Borough of Queens"@de , "Borough of Queens"@fr , "Queens, New York, New York"@en , "Queens, New York City, New York"@de , "Queens, New York City, New York"@fr , "Queens, New York City, New York"@en , "Queens, New York, New York"@de , "Queens, New York, New York"@fr , "Borough of Queens, New York"@de , "Borough of Queens, New York"@fr , "Borough of Queens, New York"@en , "Queens NY"@de , "Queens NY"@fr , "Queens NY"@en , "Comte de Queens"@fr , "Queens, New York"@de , "Queens, New York"@fr , "Queens, New York"@en , "Comté de Queens"@fr , "Queens County, New York"@en , "Queens County, New York"@de , "Queens County, New York"@fr , "Queens, NYC"@de , "Queens, NYC"@fr , "Queens, NYC"@en , "Queens, New York City"@en , "Queens, New York City"@de , "Queens, New York City"@fr , "Queens County"@de , "Queens , New York"@en , "Queens , New York"@de , "Queens , New York"@fr , "Queens, NY"@en , "Queens, NY"@de , "Queens, NY"@fr , "Queens County, NY"@en , "Queens County, NY"@de , "Queens County, NY"@fr , "Queens"@en , "Queen"@de , "Queens"@de , "Queens"@fr .

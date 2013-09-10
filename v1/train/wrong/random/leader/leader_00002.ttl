@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01hkx5__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02343f> ;
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:to      "2010"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.02343f>
+        rdfs:label  "The World Is Round"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/The_World_Is_Round> .
+
+<http://rdf.freebase.com/ns/m.01hkx5>
+        rdfs:label     "Gerhart Hauptmann"@en , "Gerhart Hauptmann"@fr , "Gerhart Hauptmann"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01hkx5__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Gerhart_Hauptmann> , <http://fr.dbpedia.org/resource/Gerhart_Hauptmann> , <http://dbpedia.org/resource/Gerhart_Hauptmann> ;
+        skos:altLabel  "Gerhardt Hauptmann"@en , "Gerhart-Hauptmann"@en , "Gerhart Hauptmann"@en , "Gerhardt Hauptmann"@fr , "Gerhart-Hauptmann"@fr , "Gerhart-Hauptmann"@de , "Gerhart Hauptmann"@fr , "Gerhardt Hauptmann"@de , "Gerhart Hauptmann"@de , "G. Hauptmann"@en , "G. Hauptmann"@fr , "G. Hauptmann"@de , "Gerhart Johann Robert Hauptmann"@en , "Gerhart Johann Robert Hauptmann"@fr , "Gerhart Johann Hauptmann"@en , "Hauptmann"@en , "Gerhart Johann Hauptmann"@fr , "Gerhart Johann Hauptmann"@de , "Gerhard Hauptmann"@en , "Hauptmann"@fr , "Gerhard Hauptmann"@fr , "Hauptmann"@de , "Gerhard Hauptmann"@de .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Belleville,_Ontario>
+        rdfs:label     "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belleville_(Ontario)> , <http://fr.dbpedia.org/resource/Belleville_(Ontario)> ;
+        skos:altLabel  "Belleville, ON"@en , "Belleville, ON"@fr , "Belleville, ON"@de , "Thrasher's Corners, Ontario"@en , "Thrasher's Corners, Ontario"@de , "Thrasher's Corners, Ontario"@fr , "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de , "Belleville"@en , "Belleville"@fr , "Belleville"@de .
+
+<http://dbpedia.org/resource/Frank_Zappa__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Belleville,_Ontario> ;
+        dbo:from        "1986"^^xsd:gYear ;
+        dbo:to          "1986"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Frank_Zappa>
+        rdfs:label     "Frank Zappa"@de , "Frank Zappa"@fr , "Frank Zappa"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Frank_Zappa__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Frank_Zappa> , <http://fr.dbpedia.org/resource/Frank_Zappa> ;
+        skos:altLabel  "Frank Vincent Zappa"@de , "Frank Vincent Zappa"@fr , "Frank Vincent Zappa"@en , "Frank Zappa and the Mothers of Invention"@fr , "Frank Zappa & The Mothers of Invention"@en , "Zappadan"@de , "Frank Zappa & The Mothers of Invention"@de , "Frank Zappa & The Mothers of Invention"@fr , "Zappadan"@fr , "Frank"@fr , "Zappadan"@en , "Frank Zappa"@en , "Vaulternative Records"@de , "Vaulternative Records"@fr , "Vaulternative Records"@en , "Zappa"@en , "Frank Zappa & the Mothers of Invention"@de , "Frank Zappa & the Mothers of Invention"@fr , "Zappa"@de , "Zappa"@fr , "Frank Zappa & the Mothers of Invention"@en , "Frank Zappa"@de , "Frank Zappa"@fr , "Zappa:References"@de , "Zappa:References"@fr , "Zappa:References"@en , "Francis Vincent Jr. Zappa"@en , "Francis Vincent Jr. Zappa"@de , "Francis Vincent Jr. Zappa"@fr , "Frank zappa"@en , "Frank zappa"@de , "Frank zappa"@fr , "Francesco zapato"@de , "Francesco zapato"@fr , "Francesco zapato"@en , "Zappa, Frank"@de , "Zappa, Frank"@fr , "Zappa, Frank"@en , "Frank Zappa and the Mothers"@de , "Frank Zappa and the Mothers"@fr , "Frank Zappa and the Mothers"@en .

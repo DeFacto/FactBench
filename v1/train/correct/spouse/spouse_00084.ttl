@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.043mfw6>
+        rdfs:label     "Sthefany Brito"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> , <http://dbpedia.org/resource/Sthefany_Brito> ;
+        skos:altLabel  "Sthephany de Brito"@en , "Sthefany de Brito"@en , "Sthefany brito"@en , "Stephany Brito"@en , "Sthefany Brito"@en , "Sthefany Fernandes de Brito"@en .
+
+<http://rdf.freebase.com/ns/m.026nv0c__84>
+        dbo:from    "2009-07-07"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.043mfw6> ;
+        dbo:to      "2010-04-21"^^xsd:date .
+
+<http://rdf.freebase.com/ns/m.026nv0c>
+        rdfs:label     "Alexandre Pato"@en , "Alexandre Pato"@de , "Alexandre Rodrigues da Silva"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.026nv0c__84> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Alexandre_Rodrigues_da_Silva> , <http://dbpedia.org/resource/Alexandre_Pato> , <http://de.dbpedia.org/resource/Alexandre_Pato> ;
+        skos:altLabel  "Rodrigues"@fr , "Alexandre Rodrigues da Silva"@fr , "Alexandre Rodrigues da Silva"@de , "Alexandre Rodrigues da Silva"@en , "Alexander Pato"@fr , "Alexander Pato"@de , "Alexander Pato"@en , "Pa7o"@en , "The Duck"@en , "Alex Pato"@fr , "Alexandre Pato"@fr , "Alex Pato"@de , "Alexandre Pato"@de , "Alex Pato"@en , "Pato Maravilha"@en , "Alexandre Pato"@en , "Silva"@fr , "Silva"@de , "Silva"@en , "Pato"@fr , "Pato"@de , "Pato"@en .

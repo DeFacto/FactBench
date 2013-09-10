@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Birmingham,_Alabama>
+        rdfs:label     "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Birmingham, Alabama"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Birmingham_(Alabama)> , <http://fr.dbpedia.org/resource/Birmingham_(Alabama)> ;
+        skos:altLabel  "Birmingham alabama"@en , "Birmingham alabama"@de , "Birmingham alabama"@fr , "Tragic city"@en , "Tragic city"@de , "Tragic city"@fr , "Burmingham, AL"@en , "Burmingham, AL"@de , "Burmingham, AL"@fr , "Birmingham, Alabama"@en , "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Tragic City"@en , "Tragic City"@de , "Tragic City"@fr , "Birmingham, USA"@en , "Birmingham, USA"@de , "Birmingham, USA"@fr , "Bombingham"@en , "Bombingham"@de , "Bombingham"@fr , "Aeroport international de Birmingham"@fr , "Birmingham, AL"@de , "Birmingham, AL"@fr , "Birmingham, AL"@en , "Birmingham"@en , "Birmingham"@de , "Birmingham"@fr , "Pratt City, Alabama"@en , "Pratt City, Alabama"@de , "Pratt City, Alabama"@fr , "Birmingham, Al"@en , "Birmingham, Al"@de , "Birmingham, Al"@fr , "Birmingham, Ala."@en , "Burmingham, Alabama"@en , "Birmingham, Ala."@de , "Birmingham, Ala."@fr , "Burmingham, Alabama"@de , "Burmingham, Alabama"@fr , "Aéroport international de Birmingham"@fr , "The Magic City"@en , "The Magic City"@de , "The Magic City"@fr , "Downtown Birmingham, Alabama"@en , "Downtown Birmingham, Alabama"@de , "Downtown Birmingham, Alabama"@fr , "LOCODE:USBHM"@en , "LOCODE:USBHM"@de , "LOCODE:USBHM"@fr , "Schaeffer Eye Center Crawfish Boil"@en , "Schaeffer Eye Center Crawfish Boil"@de , "Schaeffer Eye Center Crawfish Boil"@fr .
+
+<http://dbpedia.org/resource/Kamal_Haasan>
+        rdfs:label     "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kamal Haasan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Kamal_Haasan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Kamal_Haasan> , <http://fr.dbpedia.org/resource/Kamal_Haasan> ;
+        skos:altLabel  "Kamala hasan"@de , "Kamala hasan"@fr , "Kamala hasan"@en , "Kamalahasan"@en , "Kamalahasan"@de , "Kamalahasan"@fr , "Kamalahaasan"@en , "Kamalahaasan"@de , "Kamalahaasan"@fr , "Kmal haasan"@en , "Kmal haasan"@de , "Kmal haasan"@fr , "Kamalhasan"@de , "Kamalhassan"@en , "Kamalhassan"@de , "Kamalhassan"@fr , "Kamal Hassan"@en , "Kamal Hassan"@de , "Kamal Hassan"@fr , "Kamala haasan"@en , "Kamala haasan"@de , "Kamala haasan"@fr , "Kamalahassan"@en , "Kamalahassan"@de , "Kamalahassan"@fr , "Kamal Hasan"@en , "Kamal Hasan"@de , "Kamal Hasan"@fr , "Marmayogi"@de , "Marmayogi"@fr , "Marmayogi"@en , "Kamal Haasan"@en , "Kamal Haasan"@de , "Kamal Haasan"@fr , "Kaml"@en , "Kaml"@de , "Kaml"@fr , "Thalaivan Irukkiraan"@de , "Thalaivan Irukkiraan"@fr , "Thalaivan Irukkiraan"@en , "Kamal haasna"@de , "Kamal haasna"@fr , "Kamal haasna"@en , "Kamal"@de , "Kamal"@fr , "Kamal"@en .
+
+<http://dbpedia.org/resource/Kamal_Haasan__1>
+        dbo:award  <http://dbpedia.org/resource/Birmingham,_Alabama> ;
+        dbo:from   "1913"^^xsd:gYear ;
+        dbo:to     "1913"^^xsd:gYear .

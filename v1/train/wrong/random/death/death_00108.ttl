@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Königsberg>
+        rdfs:label     "Königsberg"@en , "Königsberg"@fr , "Königsberg"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Königsberg_(Preußen)> ;
+        skos:altLabel  "Konigsberg"@de , "Konigsberg in Preußen"@de , "Königsberg"@de , "Stadtkreis Königsberg"@de , "Konigsberg i. Pr."@de , "Stadtkreis Konigsberg"@de , "Konigsbarg"@de , "Königsberg i. Pr."@de , "Königsbarg"@de , "Königsberg in Preußen"@de .
+
+<http://dbpedia.org/resource/Donna_Summer>
+        rdfs:label     "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Donna_Summer__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Donna_Summer> , <http://de.dbpedia.org/resource/Donna_Summer> ;
+        skos:altLabel  "Queen of disco"@en , "Queen of disco"@fr , "Queen of disco"@de , "LaDonna Andrea Gaines"@fr , "Queen of Disco"@en , "Queen of Disco"@fr , "Queen of Disco"@de , "Summer"@en , "Donna summer"@en , "Donna Summers"@en , "Donna Summers"@fr , "Donna Summers"@de , "Donna summer"@fr , "Donna summer"@de , "Summer"@fr , "Summer"@de , "Dona summer"@en , "Love To Love You Baby"@fr , "Dona summer"@fr , "Dona summer"@de , "Bad Girls"@fr , "Donna Summer"@en , "Donna Summer"@fr , "Donna Summer"@de .
+
+<http://dbpedia.org/resource/Donna_Summer__1>
+        dbo:author  <http://dbpedia.org/resource/Königsberg> ;
+        dbo:from    "2007"^^xsd:gYear ;
+        dbo:to      "2007"^^xsd:gYear .

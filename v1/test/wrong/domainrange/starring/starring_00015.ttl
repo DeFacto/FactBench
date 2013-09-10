@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Godzilla_(1998_film)>
+        rdfs:label     "Godzilla (1998 film)"@en , "Godzilla (1998 film)"@fr , "Godzilla (1998 film)"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Godzilla_(1998_film)__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Godzilla_(film,_1998)> , <http://de.dbpedia.org/resource/Godzilla_(1998)> ;
+        skos:altLabel  "The American Godzilla"@en , "The American Godzilla"@fr , "The American Godzilla"@de , "Nick Tatopoulos"@en , "Nick Tatopoulos"@de , "Nick Tatopoulos"@fr , "Godzilla"@en , "Zilla"@fr , "Godzilla"@fr , "Godzilla"@de , "Zilla(1998 film)"@en , "Zilla(1998 film)"@fr , "Zilla(1998 film)"@de .
+
+<http://dbpedia.org/resource/Godzilla_(1998_film)__1>
+        dbo:from      "2003"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Johnny_Depp> ;
+        dbo:to        "2003"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Johnny_Depp>
+        rdfs:label     "Johnny Depp"@fr , "Johnny Depp"@en , "Johnny Depp"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Johnny_Depp> , <http://fr.dbpedia.org/resource/Johnny_Depp> ;
+        skos:altLabel  "Johnny deep"@de , "Johnny deep"@fr , "Johnny deep"@en , "John Depp"@de , "John Depp"@fr , "John Depp"@en , "John Christopher Depp II"@en , "John Christopher Depp II"@de , "John Christopher Depp II"@fr , "Johnny Deep"@en , "Johnny Deep"@de , "Johnny Deep"@fr , "Johny Depp"@en , "Johny Depp"@de , "Johny Depp"@fr , "Depp"@de , "Depp"@fr , "Depp"@en , "Johnny depp"@en , "Johnny depp"@de , "Johnny depp"@fr , "John Christopher \"Johnny\" Depp II"@de , "John Christopher \"Johnny\" Depp II"@fr , "John Christopher \"Johnny\" Depp II"@en , "Jonny Depp"@en , "Jonny Depp"@de , "Jonny Depp"@fr , "Lori Anne Allison"@de , "Lori Anne Allison"@fr , "Lori Anne Allison"@en , "John Christopher Depp"@en , "Johhny Depp"@de , "Johhny Depp"@fr , "Johhny Depp"@en , "John Christopher Depp"@de , "John Christopher Depp"@fr , "Oprah Noodlemantra"@de , "Oprah Noodlemantra"@fr , "Oprah Noodlemantra"@en , "Johnny Depp"@de , "Johnny Depp"@fr , "Johnny Depp"@en .

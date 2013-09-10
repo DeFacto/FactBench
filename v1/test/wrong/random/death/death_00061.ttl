@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Fenghua>
+        rdfs:label     "Fenghua"@en , "Fenghua"@fr , "Fenghua"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Fenghua> , <http://de.dbpedia.org/resource/Fenghua> ;
+        skos:altLabel  "Fenghua"@de , "Fenghua"@fr , "Fenghua City"@fr , "Fenghua City"@de , "Feng-Hua"@fr , "Feng-Hua"@de .
+
+<http://dbpedia.org/resource/Benazir_Bhutto__1>
+        dbo:from      "1808"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Fenghua> ;
+        dbo:to        "1808"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Benazir_Bhutto>
+        rdfs:label     "Benazir Bhutto"@de , "Benazir Bhutto"@fr , "Benazir Bhutto"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Benazir_Bhutto__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Benazir_Bhutto> , <http://de.dbpedia.org/resource/Benazir_Bhutto> ;
+        skos:altLabel  "Bainazir Bhuttoo"@en , "Bainazir Bhuttoo"@de , "Bainazir Bhuttoo"@fr , "Benezir Bhutto"@en , "Benezir Bhutto"@de , "Benezir Bhutto"@fr , "Benazir bhutto"@en , "Benazir bhutto"@de , "Benazir bhutto"@fr , "Binazir Butto"@en , "Binazir Butto"@de , "Binazir Butto"@fr , "Benazir Bhutto"@en , "Benazir Bhutto"@fr , "Benazir Bhutto"@de , "Asifa bhutto zardari"@en , "Asifa bhutto zardari"@de , "Asifa bhutto zardari"@fr , "Binazir Bhutto"@en , "Binazir Bhutto"@de , "Binazir Bhutto"@fr , "Bainazir Bhuttoo Government"@en , "Bainazir Bhuttoo Government"@de , "Bainazir Bhuttoo Government"@fr , "Bhutto, Benazir"@en , "Bhutto, Benazir"@de , "Bhutto, Benazir"@fr , "Bhutto"@de , "Bhutto"@fr , "Benazhir Bhutto"@en , "Benazhir Bhutto"@de , "Benazhir Bhutto"@fr , "Benazeer Bhutto"@en , "Benazeer Bhutto"@fr , "Benazeer Bhutto"@de , "Benizir Bhutto"@en , "Benazir Bhuto"@en , "Benizir Bhutto"@de , "Benazir Bhuto"@de , "Benazir Bhuto"@fr , "Benizir Bhutto"@fr , "Benazir"@en , "Benazir"@de , "Benazir"@fr , "Benazeer Butto"@en , "Benazeer Butto"@de , "Benazeer Butto"@fr , "Benazir Butto"@en , "Mohtarma Benazir Bhutto"@en , "Benazir Butto"@de , "Mohtarma Benazir Bhutto"@de , "Mohtarma Benazir Bhutto"@fr , "Benazir Butto"@fr .

@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06jcc__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.0d5r50> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2006"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0d5r50>
+        rdfs:label     "1635: The Cannon Law"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/1635:_The_Cannon_Law> , <http://de.dbpedia.org/resource/> , <http://fr.dbpedia.org/resource/> ;
+        skos:altLabel  "1635: The Cannon Law"@en , "1635: The Canon Law"@en .
+
+<http://rdf.freebase.com/ns/m.06jcc>
+        rdfs:label     "Ray Bradbury"@de , "Ray Bradbury"@fr , "Ray Bradbury"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.06jcc__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ray_Bradbury> , <http://de.dbpedia.org/resource/Ray_Bradbury> , <http://dbpedia.org/resource/Ray_Bradbury> ;
+        skos:altLabel  "Bradbury, Raymond Douglas"@de , "Bradbury, Raymond Douglas"@fr , "Bradbury, Raymond Douglas"@en , "Raymond Douglas Bradbury"@de , "Raymond Douglas Bradbury"@fr , "Raymond Douglas Bradbury"@en , "Ray Bradbury"@de , "Ray Bradbury"@fr , "Ray Bradbury"@en , "Ray bradbury"@de , "Ray bradbury"@fr , "Ray bradbury"@en , "Bradbury"@en , "Bradbury"@de , "Bradbury"@fr , "Ray Bradbury's The Gift"@de , "Ray Bradbury's The Gift"@fr , "Ray Bradbury's The Gift"@en , "Douglas Spaulding"@de , "Douglas Spaulding"@fr , "Douglas Spaulding"@en , "Bradbury, Ray"@de , "Bradbury, Ray"@fr , "Bradbury, Ray"@en , "Raymond Bradbury"@de , "Raymond Bradbury"@fr , "Raymond Bradbury"@en , "Ray Douglas Bradbury"@de , "Ray Douglas Bradbury"@fr , "Ray Douglas Bradbury"@en , "Spaulding"@de , "Spaulding"@fr , "Spaulding"@en .

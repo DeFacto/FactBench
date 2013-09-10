@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/J._R._Smith>
+        rdfs:label     "J. R. Smith"@fr , "J. R. Smith"@de , "J. R. Smith"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/J._R._Smith__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/J._R._Smith> , <http://fr.dbpedia.org/resource/J._R._Smith> ;
+        skos:altLabel  "Earl Smith, III"@fr , "Earl Smith, III"@de , "J. R. Smith"@fr , "J. R. Smith"@de , "Earl Smith III."@de , "J R Smith"@fr , "J R Smith"@de , "JR Smith"@fr , "JR Smith"@de , "J.R. Smith"@fr , "J.R. Smith"@de , "Earl Smith III"@fr , "Earl Smith III"@de .
+
+<http://dbpedia.org/resource/J._R._Smith__1>
+        dbo:from        "2004"^^xsd:gYear ;
+        dbo:subsidiary  <http://dbpedia.org/resource/New_Orleans_Hornets> ;
+        dbo:to          "2005"^^xsd:gYear .
+
+<http://dbpedia.org/resource/New_Orleans_Hornets>
+        rdfs:label     "New Orleans Hornets"@en , "New Orleans Hornets"@fr , "New Orleans Hornets"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/New_Orleans_Hornets> , <http://fr.dbpedia.org/resource/Hornets_de_la_Nouvelle-Orléans> ;
+        skos:altLabel  "Hornets De La Nouvelle-Orléans"@fr , "Hornets de la nouvelle-orléans"@fr , "Hornets De La Nouvelle-Orleans"@fr , "Hornets de la nouvelle-orleans"@fr , "Hornets"@de , "Oklahoma City Hornets"@en , "Oklahoma City Hornets"@fr , "Oklahoma City Hornets"@de , "Hornets, New Orleans"@en , "Hornets, New Orleans"@fr , "Hornets de la Nouvelle Orleans"@fr , "Hornets de la Nouvelle Orléans"@fr , "Charlotte Hornets"@fr , "Hornets, New Orleans"@de , "Charlotte Hornets"@de , "Hornets de la Nouvelle-Orléans"@fr , "Hornets de la Nouvelle-Orleans"@fr , "New Orleans Hornets"@en , "New Orleans Hornets"@fr , "New Orleans Hornets"@de , "Oklahoma City"@fr , "Hornet"@en , "Hornet"@fr , "Hornet"@de .

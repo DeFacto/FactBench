@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Belleville,_Ontario>
+        rdfs:label     "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Belleville_(Ontario)> , <http://fr.dbpedia.org/resource/Belleville_(Ontario)> ;
+        skos:altLabel  "Belleville, ON"@en , "Belleville, ON"@fr , "Belleville, ON"@de , "Thrasher's Corners, Ontario"@en , "Thrasher's Corners, Ontario"@de , "Thrasher's Corners, Ontario"@fr , "Belleville, Ontario"@en , "Belleville, Ontario"@fr , "Belleville, Ontario"@de , "Belleville"@en , "Belleville"@fr , "Belleville"@de .
+
+<http://dbpedia.org/resource/Michael_Jordan__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Belleville,_Ontario> ;
+        dbo:from        "1984"^^xsd:gYear ;
+        dbo:to          "1984"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Michael_Jordan>
+        rdfs:label     "Michael Jordan"@de , "Michael Jordan"@fr , "Michael Jordan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Michael_Jordan__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Michael_Jordan> , <http://fr.dbpedia.org/resource/Michael_Jordan> ;
+        skos:altLabel  "Yvette Prieto"@en , "Yvette Prieto"@de , "Yvette Prieto"@fr , "His Airness"@en , "His Airness"@de , "His Airness"@fr , "Michael J. Jordan"@en , "Michael J. Jordan"@de , "Michael J. Jordan"@fr , "MJ23"@en , "MJ23"@de , "MJ23"@fr , "Jordan, Michael"@en , "Jordan, Michael"@de , "Jordan, Michael"@fr , "Michael Jeffrey Jordan"@de , "Michael Jeffrey Jordan"@fr , "Michael Jeffrey Jordan"@en , "Michael Jordan"@en , "Michael Jordan"@fr , "Michael Jordan"@de , "James R. Jordan, Jr."@en , "James R. Jordan, Jr."@fr , "James R. Jordan, Jr."@de , "Micheal Jordan"@en , "Micheal Jordan"@de , "Micheal Jordan"@fr , "Jordan,Michael"@de , "Jordan,Michael"@fr , "Jordan,Michael"@en , "Micheal Jordon"@en , "Michael jordan"@de , "Michael jordan"@fr , "Michael jordan"@en , "Micheal Jordon"@de , "Micheal Jordon"@fr , "Michaël Jordan"@fr , "Jordan"@fr , "Mickael Jordan"@fr , "Michael Jeffery Jordan"@de , "Michael Jeffery Jordan"@fr , "Michael Jeffery Jordan"@en , "Air Jordan"@de , "Michael Jordon"@en , "Michael Jordon"@de , "Michael Jordon"@fr .

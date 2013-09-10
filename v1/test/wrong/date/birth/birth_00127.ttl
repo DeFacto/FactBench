@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Novi_Sad>
+        rdfs:label     "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Novi_Sad> , <http://de.dbpedia.org/resource/Novi_Sad> ;
+        skos:altLabel  "Capital of Vojvodina"@de , "Capital of Vojvodina"@fr , "Capital of Vojvodina"@en , "Ujvidek"@de , "Ujvidek"@fr , "Ujvidek"@en , "Újvidék"@de , "Újvidék"@fr , "Újvidék"@en , "Serbian Athens"@de , "Serbian Athens"@fr , "Serbian Athens"@en , "Ujvidék"@de , "Ujvidék"@fr , "Ujvidék"@en , "Novi Sad, Serbia"@en , "Novi Sad, Serbia"@de , "Novi Sad, Serbia"@fr , "Ratzenstadt"@de , "Neusatz"@de , "Neusatz"@fr , "Novi Sad"@de , "Novi Sad"@fr , "Novi Sad"@en , "Novi"@de , "Novi"@fr , "Novi"@en , "City of Novi Sad"@de , "City of Novi Sad"@fr , "City of Novi Sad"@en , "Novi Sad City"@de , "Novi Sad City"@fr , "Novi Sad City"@en , "Neusatz an der Donau"@de , "Serb Athens"@de , "Serb Athens"@fr , "Serb Athens"@en , "Nowi Sad"@de .
+
+<http://dbpedia.org/resource/Monica_Seles__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Novi_Sad> ;
+        dbo:from        "1969"^^xsd:gYear ;
+        dbo:to          "1969"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Monica_Seles>
+        rdfs:label     "Monica Seles"@de , "Monica Seles"@fr , "Monica Seles"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Monica_Seles__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Monica_Seles> , <http://de.dbpedia.org/resource/Monica_Seles> ;
+        skos:altLabel  "Monika Szeles"@de , "Monika Szeles"@fr , "Monika Szeles"@en , "Monika seles"@de , "Monika seles"@fr , "Monika seles"@en , "Parche"@de , "Gunter Parche"@en , "Gunter Parche"@de , "Gunter Parche"@fr , "Karoly Seles"@fr , "Guenter Parche"@en , "Guenter Parche"@de , "Guenter Parche"@fr , "Szeles Mónika"@de , "Szeles Mónika"@fr , "Szeles Mónika"@en , "Károly Seles"@fr , "Monica"@fr , "Monika Seleš"@de , "Monika Seleš"@fr , "Monika Seleš"@en , "Monica Seleš"@en , "Monica Seleš"@de , "Monica Seleš"@fr , "Monika Seles"@en , "Monika Seles"@de , "Monika Seles"@fr , "Seles"@en , "Monica Seles"@en , "Seles"@de , "Monica Seles"@de , "Monica Seles"@fr , "Seles"@fr , "Mónika Szeles"@en , "Mónika Szeles"@de , "Mónika Szeles"@fr , "Günter Parche"@en , "Günter Parche"@de , "Günter Parche"@fr , "Szeles Monika"@en , "Szeles Monika"@de , "Szeles Monika"@fr , "Karolj Seles"@fr .

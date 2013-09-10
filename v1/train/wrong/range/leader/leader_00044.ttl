@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Ásgeir_Ásgeirsson>
+        rdfs:label     "Ásgeir Ásgeirsson"@en , "Ásgeir Ásgeirsson"@fr , "Ásgeir Ásgeirsson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Ásgeir_Ásgeirsson__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Ásgeir_Ásgeirsson> , <http://de.dbpedia.org/resource/Ásgeir_Ásgeirsson> ;
+        skos:altLabel  "Ásgeir Ásgeirsson"@fr , "Ásgeir Ásgeirsson"@de , "Asgeir Asgeirsson"@fr , "Asgeir Asgeirsson"@de .
+
+<http://dbpedia.org/resource/Ásgeir_Ásgeirsson__1>
+        dbo:from    "1932"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Estonia> ;
+        dbo:to      "1934"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Estonia>
+        rdfs:label     "Estonia"@de , "Estonia"@fr , "Estonia"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Estland> , <http://fr.dbpedia.org/resource/Estonie> ;
+        skos:altLabel  "République d'Estonie"@fr , "ISO 3166-1:EE"@en , "ISO 3166-1:EE"@de , "ISO 3166-1:EE"@fr , "Eesti Vabariik"@en , "Eesti Vabariik"@de , "Eesti Vabariik"@fr , "Estland"@de , "Republik Estland"@de , "Subdivisions of Estonia"@en , "Subdivisions of Estonia"@de , "Subdivisions of Estonia"@fr , "Eestimaa"@en , "Eestimaa"@fr , "Eestimaa"@de , "République d’Estonie"@fr , "Estonie"@en , "Estonie"@de , "Estonie"@fr , "Estonian Cabinet of Ministers"@en , "Estonian Cabinet of Ministers"@de , "Estonian Cabinet of Ministers"@fr , "Igaunija"@en , "Igaunija"@de , "Igaunija"@fr , "Administrative divisions of Estonia"@en , "Administrative divisions of Estonia"@de , "Administrative divisions of Estonia"@fr , "Estonya"@en , "L'Estonie"@fr , "Estonija"@en , "Estonya"@de , "Estonya"@fr , "Estonija"@de , "Estonija"@fr , "Estonia"@en , "Estonia"@de , "Estonia"@fr , "Republic of Estonia"@en , "Republic of Estonia"@de , "Republic of Estonia"@fr , "Republique d’Estonie"@fr , "Republique d'Estonie"@fr , "Estija"@en , "Estija"@de , "Estija"@fr , "Esthonia"@en , "Esthonia"@fr , "Esthonia"@de , "Etymology of Estonia"@en , "Etymology of Estonia"@de , "Etymology of Estonia"@fr , "Eesti"@de , "Eesti"@fr .

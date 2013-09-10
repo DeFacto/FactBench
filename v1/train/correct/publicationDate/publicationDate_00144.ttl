@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03kwyl__144>
+        dbo:author  <http://rdf.freebase.com/ns/m.03kwyl> ;
+        dbo:from    "1933"^^xsd:gYear ;
+        dbo:to      "1933"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.078b2d>
+        rdfs:label       "Edwin Balmer"@en ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.03kwyl__144> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/> , <http://dbpedia.org/resource/Edwin_Balmer> ;
+        skos:altLabel    "Balmer"@en , "Edwin Balmer"@en .
+
+<http://rdf.freebase.com/ns/m.03kwyl>
+        rdfs:label     "When Worlds Collide"@en , "Le Choc des mondes"@fr , "Der jüngste Tag (Film)"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/When_Worlds_Collide> , <http://de.dbpedia.org/resource/Der_jüngste_Tag_(Film)> , <http://fr.dbpedia.org/resource/Le_Choc_des_mondes> ;
+        skos:altLabel  "Der jungste Tag"@de , "Zyra"@de , "Le Choc Des Mondes"@fr , "Le Choc des mondes"@fr , "When Worlds Collide"@fr , "When Worlds Collide"@de , "Le choc des mondes"@fr , "Der jüngste Tag"@de , "Le Choc des Mondes"@fr .

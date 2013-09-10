@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02xn216__1>
+        dbo:deathPlace  <http://rdf.freebase.com/ns/m.033wx9> ;
+        dbo:from        "2001"^^xsd:gYear ;
+        dbo:to          "2001"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.033wx9>
+        rdfs:label     "Ashlee Simpson-Wentz"@en , "Ashlee Simpson"@de , "Ashlee Simpson Wentz"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Ashlee_Simpson> , <http://fr.dbpedia.org/resource/Ashlee_Simpson_Wentz> , <http://dbpedia.org/resource/Ashlee_Simpson> ;
+        skos:altLabel  "Asslee Simpson"@en , "Asslee Simpson"@de , "Asslee Simpson"@fr , "Bronx Mowgli Wentz"@en , "Bronx Mowgli Wentz"@de , "Bronx Mowgli Wentz"@fr , "Simpson"@en , "Simpson"@de , "Simpson"@fr , "Ashlee Nicole Simpson"@en , "Ashlee Nicole Simpson"@de , "Ashlee Nicole Simpson"@fr , "Ashlee Simpson"@de , "Ashlee Simpson"@fr , "Ashlee Simpson"@en , "Ashlee Nicole Simpson-Wentz"@de , "Ashlee Nicole Simpson-Wentz"@fr , "Ashlee Nicole Simpson-Wentz"@en , "Ashlee"@de , "Ashlee simpson"@en , "Ashlee simpson"@de , "Ashlee simpson"@fr , "Ashley Nicolle Simpson"@en , "Simpson, Ashlee"@en , "Ashley Simpson"@en , "Ashley Simpson"@de , "Ashley Simpson"@fr , "Ashleigh simpson"@en , "Ashleigh simpson"@de , "Ashleigh simpson"@fr , "Ashlee Simpson-Wentz"@en , "Ashlee Simpson-Wentz"@de , "Ashlee Simpson-Wentz"@fr , "Ashlee Simpson on SNL"@en , "Ashlee Simpson on SNL"@de , "Ashlee Simpson on SNL"@fr , "Ash"@en , "Ashlie Simpson"@en , "Ashlie Simpson"@de , "Ashlie Simpson"@fr , "Ashleegate"@de , "Ashleegate"@fr , "Ashleegate"@en , "Ashlee Wentz"@en , "Ashlee Wentz"@de , "Ashlee Wentz"@fr , "Ashley Wentz-Simpson"@en , "Ashlee Simpson Wentz"@fr , "Ashley Wentz-Simpson"@de , "Ashley Wentz-Simpson"@fr , "Wentz"@fr .
+
+<http://rdf.freebase.com/ns/m.02xn216>
+        rdfs:label     "Cloudspace"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.02xn216__1> ;
+        skos:altLabel  "Unity Marketing, Inc."@en .

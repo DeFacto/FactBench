@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Lindsay_Lohan>
+        rdfs:label     "Lindsay Lohan"@de , "Lindsay Lohan"@fr , "Lindsay Lohan"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Lindsay_Lohan> , <http://fr.dbpedia.org/resource/Lindsay_Lohan> ;
+        skos:altLabel  "Lindsi Lohan"@en , "Lindsi Lohan"@de , "Lindsi Lohan"@fr , "Linsey Lohan"@en , "Linsey Lohan"@de , "Linsey Lohan"@fr , "Spirit In the dark"@en , "Spirit In the dark"@fr , "Spirit In the dark"@de , "Lezzlo"@en , "Lezlo"@en , "Lindsay Lohan's Forthcoming Studio Album"@en , "Linsday Lohan"@en , "Lezzlo"@fr , "Lindsay Lohan's Forthcoming Studio Album"@de , "Lindsay Lohan's Forthcoming Studio Album"@fr , "Linsday Lohan"@de , "Linsday Lohan"@fr , "Lezlo"@fr , "Lezzlo"@de , "Lezlo"@de , "Lndsay Lohan"@en , "Lndsay Lohan"@fr , "Lndsay Lohan"@de , "Lindsy Lohan"@en , "Lindsy Lohan"@de , "Lindsy Lohan"@fr , "Lohan"@en , "Lohan"@fr , "Lohan"@de , "Lindsay Dee Joanne Lohan"@en , "Lindsay Dee Joanne Lohan"@de , "Lindsay Dee Joanne Lohan"@fr , "Lyndsay Lohan"@en , "Lyndsay Lohan"@fr , "Lyndsay Lohan"@de , "Lindsay Dee Lohan"@en , "La Lohan"@en , "Lindsay Lohen"@en , "La Lohan"@de , "La Lohan"@fr , "Lindsay Dee Lohan"@fr , "Lindsay Dee Lohan"@de , "Lindsay Lohen"@de , "Lindsay Lohen"@fr , "Linsay Lohan"@en , "Linsay Lohan"@fr , "Linsay Lohan"@de , "Lindsay Lohan"@en , "Lindsey Lowhan"@en , "Lindsay Lohan Remixes"@en , "Lindsay Lohan"@fr , "Lindsey Lowhan"@fr , "Lindsay Lohan"@de , "Lindsey Lowhan"@de , "Lindsay Lohan Remixes"@de , "Lindsay Lohan Remixes"@fr , "LiLo"@en , "LiLo"@fr , "LiLo"@de , "Lindsay Loahn"@en , "Lindsay Loahn"@fr , "Lindsay Loahn"@de , "Lindsay lohan"@en , "Lindsay lohan"@fr , "Lindsay lohan"@de , "Lindsay Dee Morgan Jade Lohan"@de , "Lindsay"@de , "Lindsey Lohan"@en , "Lindsey Lohan"@fr , "Lindsey Lohan"@de , "Spirit in the Dark"@en , "Spirit in the Dark"@fr , "Spirit in the Dark"@de , "Playground"@en , "Lindsay Morgan Lohan"@en , "Playground"@fr , "Playground"@de , "Lindsay Morgan Lohan"@fr , "Lindsay Morgan Lohan"@de .
+
+<http://dbpedia.org/resource/Clerks>
+        rdfs:label     "Clerks"@de , "Clerks"@fr , "Clerks"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Clerks__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Clerks_:_Les_Employés_modèles> , <http://de.dbpedia.org/resource/Clerks_–_Die_Ladenhüter> ;
+        skos:altLabel  "Clerks movie"@de , "Clerks movie"@fr , "Clerks movie"@en , "Clerks, Les Employes Modeles"@fr , "I'm 37!!"@de , "I'm 37!!"@fr , "I'm 37!!"@en , "Dante And Randall"@de , "Dante And Randall"@fr , "Dante And Randall"@en , "Clerks - Die Ladenhüter"@de , "Clerks"@de , "Clerks"@fr , "Clerks"@en , "Clerks, les employes modeles"@fr , "Clerks, les employés modèles"@fr , "Commis en folie"@fr , "Clerks : Les Employés modèles"@fr , "Clerks – Die Ladenhuter"@de , "Clerks : Les Employes modeles"@fr , "Clerks - Die Ladenhuter"@de , "Clerks, Les Employés Modèles"@fr , "Clerks – Die Ladenhüter"@de , "Big Choice Video"@en , "Clerks."@de , "Clerks."@fr , "Big Choice Video"@de , "Big Choice Video"@fr , "Clerks."@en , "Clerk"@de , "Clerk"@fr , "Clerk"@en , "Quick Stop"@de , "Quick Stop"@fr , "Quick Stop"@en , "Clerks X"@en , "Clerks X"@de , "Clerks X"@fr .
+
+<http://dbpedia.org/resource/Clerks__1>
+        dbo:from      "1994"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Lindsay_Lohan> ;
+        dbo:to        "1994"^^xsd:gYear .

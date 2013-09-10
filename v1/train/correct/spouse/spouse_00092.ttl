@@ -1,0 +1,25 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06945g__92>
+        dbo:from    "2009-08-29"^^xsd:date ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01804k> ;
+        dbo:to      "2012-11"^^xsd:gYearMonth .
+
+<http://dbpedia.org/resource/Aar%C3%B3n_D%C3%ADaz>
+        skos:altLabel  "Aarón Díaz"@en , "Aaron Diaz"@en .
+
+<http://rdf.freebase.com/ns/m.01804k>
+        rdfs:label     "Kate del Castillo"@de , "Kate del Castillo"@fr , "Kate del Castillo"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/> , <http://de.dbpedia.org/resource/Kate_del_Castillo> , <http://dbpedia.org/resource/Kate_del_Castillo> ;
+        skos:altLabel  "Kate del Castillo"@de , "Kate Del Castillo"@de , "Kate del Castillo Negrete Trillo"@en .
+
+<http://rdf.freebase.com/ns/m.06945g>
+        rdfs:label     "Aarón Díaz"@en , "Aarón Díaz"@fr ;
+        dbo:marriage   <http://rdf.freebase.com/ns/m.06945g__92> ;
+        owl:sameAs     <http://dbpedia.org/resource/Aar%C3%B3n_D%C3%ADaz> ;
+        skos:altLabel  "Gilberto Aaron Diaz Spencer"@en , "Aaron Diaz Spencer"@en , "Aaron Diaz"@en .

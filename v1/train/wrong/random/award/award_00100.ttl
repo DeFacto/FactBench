@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.05n5qxc__1>
+        dbo:from    "1902"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.0rhp6> ;
+        dbo:to      "1902"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.05n5qxc>
+        rdfs:label     "Lil' John Roberts"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.05n5qxc__1> ;
+        skos:altLabel  "Lil John"@en , "Lil' John"@en .
+
+<http://rdf.freebase.com/ns/m.0rhp6>
+        rdfs:label     "Melbourne"@fr , "Melbourne"@de , "Melbourne"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Melbourne,_Florida> , <http://de.dbpedia.org/resource/Melbourne_(Florida)> , <http://fr.dbpedia.org/resource/Melbourne_(Floride)> ;
+        skos:altLabel  "Melbourne"@en , "Melbourne"@fr , "Melbourne"@de , "Melbourne fl"@en , "Melbourne fl"@fr , "Melbourne fl"@de , "Melbourne, fl"@en , "Melbourne, fl"@fr , "Melbourne, fl"@de , "LOCODE:USMLB"@en , "LOCODE:USMLB"@fr , "LOCODE:USMLB"@de , "Brevard County / Melbourne city"@en , "Melbourne, FL"@en , "Melbourne, FL"@fr , "Melbourne, FL"@de , "Melbourne, Florida"@en , "Melbourne, Florida"@fr , "Melbourne, Florida"@de , "Stone Middle School"@en , "Melbourne, Fl"@en , "Stone Middle School"@fr , "Stone Middle School"@de , "Melbourne, Fl"@fr , "Melbourne, Fl"@de .

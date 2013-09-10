@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/David_Lloyd_George>
+        rdfs:label     "David Lloyd George"@de , "David Lloyd George"@fr , "David Lloyd George"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/David_Lloyd_George__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/David_Lloyd_George> , <http://fr.dbpedia.org/resource/David_Lloyd_George> ;
+        skos:altLabel  "Lloyd George, David, 1st Earl of Dwyfor"@de , "Lloyd George, David, 1st Earl of Dwyfor"@fr , "Lloyd George, David, 1st Earl of Dwyfor"@en , "The Welsh Wizard"@de , "The Welsh Wizard"@fr , "The Welsh Wizard"@en , "David Lloyd"@en , "David Lloyd"@de , "David Lloyd"@fr , "Lloyd George, David"@de , "Lloyd George, David"@fr , "Lloyd George, David"@en , "David Lloyd-George"@de , "David Lloyd-George"@fr , "David Lloyd-George"@en , "Lloyd George"@de , "Lloyd George"@fr , "Lloyd George"@en , "Lloyd Georges"@fr , "Llyod George"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@de , "David, 1st Earl Lloyd-George of Dwyfor"@fr , "David, 1st Earl Lloyd-George of Dwyfor"@en , "D Lloyd-George"@de , "D Lloyd-George"@fr , "D Lloyd-George"@en , "Lloyd"@fr , "David Lloyd George, 1. Earl Lloyd George of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@de , "David Lloyd George, 1st Earl of Dwyfor"@fr , "David Lloyd George, 1st Earl of Dwyfor"@en , "David Lloyd George"@en , "David Lloyd George"@de , "David Lloyd George"@fr , "Lloyd-George"@en , "Richard Lloyd"@en , "Richard Lloyd"@de , "Richard Lloyd"@fr , "Lloyd-George"@de , "Lloyd-George"@fr .
+
+<http://dbpedia.org/resource/Sydney>
+        rdfs:label     "Sydney"@fr , "Sydney"@en , "Sydney"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Sydney> , <http://fr.dbpedia.org/resource/Sydney> ;
+        skos:altLabel  "Sydney Australia"@en , "Sydney Australia"@fr , "Sydney Australia"@de , "Greater Sydney"@en , "Greater Sydney"@fr , "Greater Sydney"@de , "LOCODE:AUSYD"@en , "LOCODE:AUSYD"@de , "LOCODE:AUSYD"@fr , "Sydney, NSW"@en , "Sydney, NSW"@de , "Sydney, NSW"@fr , "Sydneians"@en , "Sydney, AU-NSW"@en , "Sydney, AU-NSW"@de , "Sydney, AU-NSW"@fr , "Sydneians"@de , "Sydneians"@fr , "Sydney, New South Wales, Australia"@en , "Sydney, New South Wales, Australia"@de , "Sydney, New South Wales, Australia"@fr , "Fort Denison"@de , "Sydney"@en , "Sydney"@fr , "Sydney"@de , "Capital of New South Wales"@en , "Capital of New South Wales"@de , "Capital of New South Wales"@fr , "Xedni"@en , "Sydney (N.S.W.), Australia"@en , "Sydney (N.S.W.), Australia"@fr , "Xedni"@de , "Xedni"@fr , "Sydney (N.S.W.), Australia"@de , "Sydney, Australia"@en , "Sydney, Australia"@de , "Sydney, Australia"@fr , "Sydney, NSW, Australia"@en , "Sydney, NSW, Australia"@de , "Sydney, NSW, Australia"@fr , "Sidney, Australia"@en , "Sidney, Australia"@de , "Sidney, Australia"@fr , "Syndey"@en , "Syndey"@de , "Syndey"@fr , "Sydneysider"@en , "Sydney, New South Wales"@en , "Sydney, New South Wales"@de , "Sydney, New South Wales"@fr , "Sydneian"@en , "Sydneian"@de , "Sydneian"@fr , "Sydneysider"@de , "Sydneysider"@fr , "Sydneysiders"@en , "Sydneysiders"@de , "Sydneysiders"@fr .
+
+<http://dbpedia.org/resource/David_Lloyd_George__1>
+        dbo:from      "1887"^^xsd:gYear ;
+        dbo:starring  <http://dbpedia.org/resource/Sydney> ;
+        dbo:to        "1887"^^xsd:gYear .

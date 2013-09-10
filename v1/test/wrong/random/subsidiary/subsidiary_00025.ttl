@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01_t_w>
+        rdfs:label     "Richard Morgan"@fr , "Richard Morgan"@de , "Richard K. Morgan"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01_t_w__1> ;
+        owl:sameAs     <http://dbpedia.org/resource/Richard_K._Morgan> , <http://de.dbpedia.org/resource/Richard_Morgan_(Schriftsteller)> , <http://fr.dbpedia.org/resource/Richard_Morgan> ;
+        skos:altLabel  "Richard Morgan"@en , "Richard Morgan"@fr , "Richard Morgan"@de , "Morgan"@fr , "Richard Kingsley Morgan"@en , "Richard K. Morgan"@en , "Richard K. Morgan"@fr , "Richard K. Morgan"@de , "Richard K Morgan"@en , "Richard K Morgan"@de , "Richard K Morgan"@fr .
+
+<http://dbpedia.org/resource/Luxembourg>
+        rdfs:label     "Luxembourg"@de , "Luxembourg"@fr , "Luxembourg"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Luxemburg> , <http://fr.dbpedia.org/resource/Luxembourg_(pays)> ;
+        skos:altLabel  "Lexenburg"@en , "Grand-Duchy of Luxembourg"@en , "Letzeburg"@fr , "Grand-Duchy of Luxembourg"@de , "Grand-Duchy of Luxembourg"@fr , "Lexenburg"@fr , "Lexenburg"@de , "Luxembourgh"@en , "Grand Duché du Luxembourg"@fr , "Luxembourgh"@fr , "Luxembourgh"@de , "Luxemberg"@en , "Luxemberg"@fr , "Luxemberg"@de , "Groussherzogtum Lëtzebuerg"@en , "Grand-duché de Luxembourg"@fr , "Groussherzogtum Lëtzebuerg"@fr , "Groussherzogtum Lëtzebuerg"@de , "Luxembourg"@en , "Luxembourg"@fr , "Luxembourg"@de , "LUXEMBOURG"@en , "LUXEMBOURG"@fr , "LUXEMBOURG"@de , "Letzebuerg"@en , "Grossherzogtum Luxemburg"@en , "ISO 3166-1:LU"@en , "Grossherzogtum Luxemburg"@fr , "Grossherzogtum Luxemburg"@de , "Grand Duchy of Luxemburg"@en , "Health in Luxembourg"@en , "ISO 3166-1:LU"@fr , "ISO 3166-1:LU"@de , "Letzebuerg"@fr , "Grand Duchy of Luxemburg"@de , "Letzebuerg"@de , "Health in Luxembourg"@de , "Health in Luxembourg"@fr , "Grand Duchy of Luxemburg"@fr , "Grand-Duché du Luxembourg"@fr , "Country Luxembourg"@en , "Country Luxembourg"@fr , "Country Luxembourg"@de , "Grand-Duche de Luxembourg"@en , "Lëtzebuerg"@en , "Grand-Duche de Luxembourg"@fr , "Grand-Duche de Luxembourg"@de , "Lëtzebuerg"@fr , "Lëtzebuerg"@de , "Grand-duche du Luxembourg"@fr , "Groussherzogtum Letzebuerg"@en , "Groussherzogtum Letzebuerg"@de , "Groussherzogtum Letzebuerg"@fr , "Lëtzebürg"@fr , "Herzogtum Luxemburg"@de , "Luxemburg"@en , "Luxemburg"@fr , "Luxemburg"@de , "Luxemborg"@en , "Luxemborg"@fr , "Luxemborg"@de , "Großherzogtum Luxemburg"@en , "Großherzogtum Luxemburg"@fr , "Großherzogtum Luxemburg"@de , "Lexumbourg"@en , "Lexumbourg"@fr , "Lexumbourg"@de , "Grand-duche de Luxembourg"@fr , "Groussherzogdem Lëtzebuerg"@fr , "State of Luxembourg"@en , "State of Luxembourg"@fr , "State of Luxembourg"@de , "Grand-Duché de Luxembourg"@en , "Grand-Duché de Luxembourg"@fr , "Grand-Duché de Luxembourg"@de , "Lussemburgo"@en , "Lussemburgo"@fr , "Lussemburgo"@de , "LuxemburG"@en , "LuxemburG"@fr , "LuxemburG"@de , "Grand-duché du Luxembourg"@fr , "Luxemburger"@en , "Luxemburger"@fr , "Luxemburger"@de , "Grand Duchy of Luxembourg"@en , "Grand Duchy of Luxembourg"@fr , "Grand Duchy of Luxembourg"@de , "Grand-Duche du Luxembourg"@fr , "Grand Duche du Luxembourg"@fr , "Groussherzogdem Letzebuerg"@fr .
+
+<http://rdf.freebase.com/ns/m.01_t_w__1>
+        dbo:from  "1997"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Luxembourg> ;
+        dbo:to    "1997"^^xsd:gYear .

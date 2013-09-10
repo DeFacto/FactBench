@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Cleveland_Cavaliers>
+        rdfs:label     "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cavaliers_de_Cleveland> , <http://de.dbpedia.org/resource/Cleveland_Cavaliers> ;
+        skos:altLabel  "The cleveland cavs"@en , "The cleveland cavs"@fr , "The cleveland cavs"@de , "Moondog"@en , "Moondog"@fr , "Moondog"@de , "Cavalier"@en , "Cavalier"@fr , "Cavalier"@de , "Cleveland Cavs"@en , "Cleveland Cavs"@fr , "Cleveland Cavs"@de , "Cavaliers, Cleveland"@en , "Whammer"@en , "Cavaliers, Cleveland"@fr , "Cavaliers, Cleveland"@de , "Whammer"@fr , "Whammer"@de , "Cleveland Cavaliers"@en , "Cleveland Cavaliers"@fr , "Cleveland Cavaliers"@de , "Cavs"@en , "Moondog - Cavaliers"@en , "Cavaliers De Cleveland"@fr , "Cavs"@fr , "Moondog - Cavaliers"@fr , "Cavaliers de Cleveland"@fr , "Cavs"@de , "Moondog - Cavaliers"@de , "Cavaliers de cleveland"@fr .
+
+<http://dbpedia.org/resource/Carlos_Boozer>
+        rdfs:label     "Carlos Boozer"@en , "Carlos Boozer"@fr , "Carlos Boozer"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Carlos_Boozer__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Carlos_Boozer> , <http://fr.dbpedia.org/resource/Carlos_Boozer> ;
+        skos:altLabel  "Carlos Austin Boozer, Jr."@en , "Carlos Austin Boozer, Jr."@fr , "Carlos Austin Boozer, Jr."@de , "Boozer"@en , "Carlos Boozer"@en , "Carlos Boozer"@fr , "Carlos Boozer"@de , "Boozer"@fr , "Boozer"@de , "Carlos Boozer free agency controversy"@en , "Carlos Boozer free agency controversy"@de , "Carlos Boozer free agency controversy"@fr .
+
+<http://dbpedia.org/resource/Carlos_Boozer__1>
+        dbo:foundationPlace  <http://dbpedia.org/resource/Cleveland_Cavaliers> ;
+        dbo:from             "2002"^^xsd:gYear ;
+        dbo:to               "2004"^^xsd:gYear .

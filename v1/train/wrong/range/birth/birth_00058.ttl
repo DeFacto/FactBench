@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Birmingham,_Alabama>
+        rdfs:label     "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Birmingham, Alabama"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Birmingham_(Alabama)> , <http://fr.dbpedia.org/resource/Birmingham_(Alabama)> ;
+        skos:altLabel  "Birmingham alabama"@en , "Birmingham alabama"@de , "Birmingham alabama"@fr , "Tragic city"@en , "Tragic city"@de , "Tragic city"@fr , "Burmingham, AL"@en , "Burmingham, AL"@de , "Burmingham, AL"@fr , "Birmingham, Alabama"@en , "Birmingham, Alabama"@de , "Birmingham, Alabama"@fr , "Tragic City"@en , "Tragic City"@de , "Tragic City"@fr , "Birmingham, USA"@en , "Birmingham, USA"@de , "Birmingham, USA"@fr , "Bombingham"@en , "Bombingham"@de , "Bombingham"@fr , "Aeroport international de Birmingham"@fr , "Birmingham, AL"@de , "Birmingham, AL"@fr , "Birmingham, AL"@en , "Birmingham"@en , "Birmingham"@de , "Birmingham"@fr , "Pratt City, Alabama"@en , "Pratt City, Alabama"@de , "Pratt City, Alabama"@fr , "Birmingham, Al"@en , "Birmingham, Al"@de , "Birmingham, Al"@fr , "Birmingham, Ala."@en , "Burmingham, Alabama"@en , "Birmingham, Ala."@de , "Birmingham, Ala."@fr , "Burmingham, Alabama"@de , "Burmingham, Alabama"@fr , "Aéroport international de Birmingham"@fr , "The Magic City"@en , "The Magic City"@de , "The Magic City"@fr , "Downtown Birmingham, Alabama"@en , "Downtown Birmingham, Alabama"@de , "Downtown Birmingham, Alabama"@fr , "LOCODE:USBHM"@en , "LOCODE:USBHM"@de , "LOCODE:USBHM"@fr , "Schaeffer Eye Center Crawfish Boil"@en , "Schaeffer Eye Center Crawfish Boil"@de , "Schaeffer Eye Center Crawfish Boil"@fr .
+
+<http://dbpedia.org/resource/Clint_Eastwood>
+        rdfs:label     "Clint Eastwood"@de , "Clint Eastwood"@fr , "Clint Eastwood"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Clint_Eastwood__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Clint_Eastwood> , <http://fr.dbpedia.org/resource/Clint_Eastwood> ;
+        skos:altLabel  "Francesca Fisher-Eastwood"@en , "Francesca Fisher-Eastwood"@de , "Francesca Fisher-Eastwood"@fr , "Don Runner"@en , "Don Runner"@de , "Don Runner"@fr , "Eastwood, Clinton Jr."@en , "Clint Eastwood characters"@en , "Eastwood, Clinton Jr."@de , "Eastwood, Clinton Jr."@fr , "Clint Eastwood characters"@de , "Clint Eastwood characters"@fr , "Clinton \"Clint\" Eastwood, Jr."@en , "Clinton \"Clint\" Eastwood, Jr."@de , "Clinton \"Clint\" Eastwood, Jr."@fr , "Clinton Eastwood"@en , "Clinton Eastwood Jr."@en , "Clinton Eastwood"@de , "Clinton Eastwood"@fr , "Clinton Eastwood Jr."@de , "Clinton Eastwood Jr."@fr , "Francesca Ruth Eastwood"@en , "Francesca Ruth Eastwood"@de , "Francesca Ruth Eastwood"@fr , "Francesca Eastwood"@en , "Francesca Eastwood"@de , "Francesca Eastwood"@fr , "Clint"@en , "Clint"@de , "Clint"@fr , "Back9Network"@en , "Back9Network"@de , "Back9Network"@fr , "Clint motherfucking eastwood"@en , "Morgan Eastwood"@en , "Morgan Eastwood"@de , "Clint motherfucking eastwood"@de , "Clint motherfucking eastwood"@fr , "Morgan Eastwood"@fr , "Crint Eastwood"@en , "Crint Eastwood"@de , "Crint Eastwood"@fr , "Clinton Eastwood, Jr."@en , "Clinton Eastwood, Jr."@fr , "Clinton Eastwood, Jr."@de , "Clint Eastwood"@en , "Clint Eastwood"@de , "Clint Eastwood"@fr , "Clint eastwood"@en , "Eastwood"@en , "Clint eastwood"@de , "Clint eastwood"@fr , "Eastwood"@de , "Eastwood"@fr , "Rawhide's Clint Eastwood Sings Cowboy Favorites"@en , "Rawhide's Clint Eastwood Sings Cowboy Favorites"@fr , "Rawhide's Clint Eastwood Sings Cowboy Favorites"@de .
+
+<http://dbpedia.org/resource/Clint_Eastwood__1>
+        dbo:birthPlace  <http://dbpedia.org/resource/Birmingham,_Alabama> ;
+        dbo:from        "1930"^^xsd:gYear ;
+        dbo:to          "1930"^^xsd:gYear .

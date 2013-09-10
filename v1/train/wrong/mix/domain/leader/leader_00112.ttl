@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Croatia>
+        rdfs:label     "Croatia"@de , "Croatia"@fr , "Croatia"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Croatie> , <http://de.dbpedia.org/resource/Kroatien> ;
+        skos:altLabel  "Crotaia"@de , "Crotaia"@fr , "Crotaia"@en , "Croácia"@en , "Croácia"@de , "Croácia"@fr , "Republique de Croatie"@fr , "ISO 3166-1:HR"@de , "ISO 3166-1:HR"@fr , "ISO 3166-1:HR"@en , "Republik Kroatien"@de , "Socijalisticka Republika Hrvatska"@de , "Croatie"@en , "Croatie"@de , "Croatie"@fr , "Croazia"@en , "Croazia"@de , "Croazia"@fr , "République de Croatie"@fr , "Kroatia"@en , "Kroatia"@de , "Kroatia"@fr , "Hrvatska"@de , "Hrvatska"@fr , "Hrvatska"@en , "Kroatien"@en , "Kroatien"@de , "Kroatien"@fr , "Hirvatistan"@en , "Croacia"@en , "Hirvatistan"@de , "Hirvatistan"@fr , "Croacia"@de , "Croacia"@fr , "République croate"@fr , "Republika Hrvatska"@en , "Republika Hrvatska"@de , "Republika Hrvatska"@fr , "Republique croate"@fr , "Republic of Croatia"@en , "Republic of Croatia"@de , "Republic of Croatia"@fr , "Hravatska"@en , "Hravatska"@de , "Hravatska"@fr , "Croatia"@en , "Croatia"@de , "Croatia"@fr .
+
+<http://dbpedia.org/resource/Anwar_Sadat__1>
+        dbo:from    "1990"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Croatia> ;
+        dbo:to      "1990"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Anwar_Sadat>
+        rdfs:label     "Anwar Sadat"@de , "Anwar Sadat"@fr , "Anwar Sadat"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Anwar_Sadat__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Anouar_el-Sadate> , <http://de.dbpedia.org/resource/Anwar_as-Sadat> ;
+        skos:altLabel  "Anwar as-Sadat"@en , "Muhammed Anwar al-Sadat"@en , "Anwar as-Sadat"@fr , "Muhammed Anwar al-Sadat"@fr , "Anwar as-Sadat"@de , "Muhammed Anwar al-Sadat"@de , "Muhammad Anwar al-Sadat"@en , "Anwar El Sadat"@en , "Mohamed Anwar Al-Sadat"@en , "Anwar El Sadat"@fr , "Anwar El Sadat"@de , "Muḥammad Anwar as-Sādāt"@en , "Mohamed Anwar Al-Sadat"@de , "Muḥammad Anwar as-Sādāt"@de , "Muḥammad Anwar as-Sādāt"@fr , "Mohamed Anwar Al-Sadat"@fr , "Muhammad Anwar al-Sadat"@fr , "Muhammad Anwar al-Sadat"@de , "Anouar el Sadate"@fr , "Saddat"@en , "Saddat"@fr , "Saddat"@de , "Anwar al-Sadat"@en , "Anwar Sadat"@en , "Anwar al-Sadat"@fr , "Anwar Sadat"@de , "Anwar Sadat"@fr , "Anwar el Sadat"@de , "Anwar al-Sadat"@de , "Mohammed Anwar as-Sadat"@de , "Muhammad Anwar as-Sadat"@en , "Muhammad Anwar as-Sadat"@fr , "Muhammad Anwar as-Sadat"@de , "Anwar Sedat"@en , "Anwar Sedat"@fr , "Anwar Sedat"@de , "Mohammed Sadat"@en , "Mohammed Sadat"@fr , "Mohammed Sadat"@de , "Mohammed el-Sadat"@en , "Mohammed el-Sadat"@fr , "Mohammed el-Sadat"@de , "Anwar al- Sadat"@en , "Anwar al- Sadat"@fr , "Anwar al- Sadat"@de , "Anwar Al Sadat"@en , "Anwar Al Sadat"@de , "Anwar Al Sadat"@fr , "Anwar Sādāt"@en , "Anwar Sādāt"@fr , "Anwar Sādāt"@de , "Anwar sadat"@en , "Anwar sadat"@de , "Anwar sadat"@fr , "Sadate"@fr , "Anouar el-Sadate"@fr , "Muhammad Anwar El-Sadat"@en , "Muhammad Anwar El-Sadat"@fr , "Muhammad Anwar El-Sadat"@de , "Anouar as-Sadat"@fr , "Sadat"@en , "Sadat"@fr , "Sadat"@de , "Anouar El-Sadate"@fr , "Anwar el-Sadat"@en , "Anwar el-Sadat"@de , "Anwar el-Sadat"@fr , "Anwar"@en , "Anouar as-Sâdât"@fr , "Anwar El-Sadat"@en , "Anwar"@fr , "Anwar El-Sadat"@fr , "Anwar El-Sadat"@de , "Anwar"@de , "Mohammed al-Sadat"@en , "Mohammed al-Sadat"@fr , "Mohammed al-Sadat"@de , "Anwar as-Sādāt"@en , "Anwar as-Sādāt"@fr , "Anwar as-Sādāt"@de , "Anwar Al-Sadat"@en , "Anwar Al-Sadat"@fr , "Anwar Al-Sadat"@de , "Anvar Sadat"@en , "Anouar El Sadate"@fr , "Anvar Sadat"@fr , "Anvar Sadat"@de .

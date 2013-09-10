@@ -1,0 +1,21 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03c1446>
+        rdfs:label  "Jamie Yeo"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Jamie_Yeo> .
+
+<http://rdf.freebase.com/ns/m.0688bj2__1>
+        dbo:from    "2008"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.03c1446> ;
+        dbo:to      "2009"^^xsd:gYear .
+
+<http://rdf.freebase.com/ns/m.0688bj2>
+        rdfs:label     "David W. Donoho"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.0688bj2__1> ;
+        skos:altLabel  "David William Donoho"@en .

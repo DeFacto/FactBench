@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.09d9xf>
+        rdfs:label     "Lina Romay"@en , "Lina Romay"@fr , "Lina Romay"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.09d9xf__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Lina_Romay> , <http://de.dbpedia.org/resource/Lina_Romay_(Schauspielerin)> , <http://dbpedia.org/resource/Lina_Romay> ;
+        skos:altLabel  "Candice Coster"@en , "Jane Morgan"@en , "Rosa M. Almirall"@en , "Candy Coster"@en , "Rosa M-a Almirall"@en , "Candy Coster"@de , "Rosa Almirall"@en , "Rosa María Almirall"@en , "Roas Almirall"@en , "R.M. Almirall"@en , "Rosa Almirail"@en , "Lulú Laverne"@en , "Linan Romay"@en , "Rosa Maria Almirall"@fr , "Lina Romay"@en , "Lina Romay"@fr , "Lina Romay"@de , "Jean Collins"@en , "Lennie Hayden"@en , "Rosa Mª Almirall"@en , "Lola Falana"@en , "Lulu Laverne"@en , "Lulu Laverne"@de , "Betty Carter"@en , "Rosa María Almirall Martínez"@en , "Rosa Maria Almiral"@en .
+
+<http://rdf.freebase.com/ns/m.06kh6q>
+        rdfs:label     "Milind Soman"@en , "Milind Soman"@fr ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Milind_Soman> , <http://dbpedia.org/resource/Milind_Soman> , <http://de.dbpedia.org/resource/> ;
+        skos:altLabel  "Milind Soman"@fr , "Milind soman"@fr , "Soman"@fr .
+
+<http://rdf.freebase.com/ns/m.09d9xf__1>
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.06kh6q> ;
+        dbo:to      "2009"^^xsd:gYear .

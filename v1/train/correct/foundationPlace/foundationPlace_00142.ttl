@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.06_kh>
+        rdfs:label     "Santa Monica"@en , "Santa Monica"@de , "Santa Monica"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/Santa_Monica,_California> , <http://fr.dbpedia.org/resource/Santa_Monica> , <http://de.dbpedia.org/resource/Santa_Monica> ;
+        skos:altLabel  "Santa Monica California"@de , "Santa Monica California"@en , "People's Republic of Santa Monica"@en , "Santa Monica, California"@fr , "Santa Monica, California"@de , "Santa Monica, California"@en , "Santa Monica, Californie"@fr , "Santa Monica, CA"@fr , "Santa Monica, CA"@de , "Los Angeles County / Santa Monica city"@en , "Santa Monica, CA"@en , "Santa Monica, Ca"@fr , "City of Santa Monica"@fr , "Santa Monica, Ca"@de , "City of Santa Monica"@de , "City of Santa Monica"@en , "Santa Monica, Ca"@en , "SaMo"@en , "LOCODE:USSMO"@fr , "LOCODE:USSMO"@de , "LOCODE:USSMO"@en , "Santa Monica City"@en , "Soviet Monica"@en , "Monica"@fr , "Monica"@de , "Monica"@en , "Santa Monica"@fr , "Santa Monica"@de , "Santa Monica"@en , "Santa Monica California"@fr .
+
+<http://rdf.freebase.com/ns/m.0500wf>
+        rdfs:label      "Pandemic Studios"@fr , "Pandemic Studios"@en , "Pandemic Studios"@de ;
+        dbo:foundation  <http://rdf.freebase.com/ns/m.0500wf__142> ;
+        owl:sameAs      <http://fr.dbpedia.org/resource/Pandemic_Studios> , <http://de.dbpedia.org/resource/Pandemic_Studios> , <http://dbpedia.org/resource/Pandemic_Studios> ;
+        skos:altLabel   "Pandemic Studios"@fr , "Pandemic Studios"@de , "Pandemic"@fr , "Pandemic"@de , "Pandemic studios"@fr , "Pandemic studios"@de .
+
+<http://rdf.freebase.com/ns/m.0500wf__142>
+        dbo:foundationPlace  <http://rdf.freebase.com/ns/m.06_kh> ;
+        dbo:from             "1998"^^xsd:gYear ;
+        dbo:to               "1998"^^xsd:gYear .

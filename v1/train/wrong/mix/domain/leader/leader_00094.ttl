@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Aimo_Cajander>
+        rdfs:label     "Aimo Cajander"@en , "Aimo Cajander"@fr , "Aimo Cajander"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Aimo_Cajander__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Aimo_Kaarlo_Cajander> , <http://fr.dbpedia.org/resource/Aimo_Kaarlo_Cajander> ;
+        skos:altLabel  "Aimo Kaarlo Cajander"@en , "Aimo Kaarlo Cajander"@fr , "Aimo Kaarlo Cajander"@de , "Aimo Cajander"@en , "Aimo Cajander"@de , "Aimo Cajander"@fr , "Cajander"@en , "Cajander"@fr , "Cajander"@de .
+
+<http://dbpedia.org/resource/Aimo_Cajander__1>
+        dbo:from    "1999"^^xsd:gYear ;
+        dbo:office  <http://dbpedia.org/resource/Tuvalu> ;
+        dbo:to      "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Tuvalu>
+        rdfs:label     "Tuvalu"@de , "Tuvalu"@fr , "Tuvalu"@en ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Tuvalu> , <http://fr.dbpedia.org/resource/Tuvalu> ;
+        skos:altLabel  "Toovaloo"@en , "Toovaloo"@de , "Toovaloo"@fr , "Tepuka Savilivili"@en , "Tepuka Savilivili"@de , "Tepuka Savilivili"@fr , "Education in Tuvalu"@en , "Education in Tuvalu"@fr , "Education in Tuvalu"@de , "Tuvaluer"@de , "Fakavae Aliki-Malo i Tuvalu"@de , "Nivalakita"@en , "Nivalakita"@de , "Nivalakita"@fr , "Elliceinseln"@de , "Tuvalu islands"@en , "Tuvalu islands"@de , "Tuvalu islands"@fr , "Transportation in Tuvalu"@en , "Transportation in Tuvalu"@de , "Tuiva"@de , "Transportation in Tuvalu"@fr , "Transport in Tuvalu"@en , "Transport in Tuvalu"@de , "Transport in Tuvalu"@fr , "Sport in Tuvalu"@en , "Sport in Tuvalu"@de , "Sport in Tuvalu"@fr , "Ellice Islands"@en , "Ellice Islands"@fr , "Ellice Islands"@de , "Tuvalu"@en , "Tuvalu"@de , "Tuvalu"@fr , "Îles Tuvalu"@fr , "Ellis Islands"@en , "ISO 3166-1:TV"@en , "Ellis Islands"@fr , "ISO 3166-1:TV"@fr , "ISO 3166-1:TV"@de , "Ellis Islands"@de , "Tuvalu Islands"@en , "Tuvalu Islands"@de , "Tuvalu Islands"@fr , "Ellice-Inseln"@de , "Tuvalo"@en , "Ellice Island"@en , "Lagoon Islands"@en , "Transnational issues"@en , "Tuvalo"@fr , "Ellice Island"@fr , "Transnational issues"@de , "Transnational issues"@fr , "Ellice Island"@de , "Lagoon Islands"@de , "Lagoon Islands"@fr , "Tuvalo"@de , "Iles Tuvalu"@fr , "Transportation"@en , "Transportation"@de , "Transportation"@fr .

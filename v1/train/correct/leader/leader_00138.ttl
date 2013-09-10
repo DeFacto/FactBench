@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pedro_Pires__2>
+        dbo:from    "1975-07-08"^^xsd:date ;
+        dbo:office  <http://dbpedia.org/resource/Cape_Verde> ;
+        dbo:to      "1991-04-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Cape_Verde>
+        rdfs:label     "Cape Verde"@de , "Cape Verde"@fr , "Cape Verde"@en ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Cap-Vert> , <http://de.dbpedia.org/resource/Kap_Verde> ;
+        skos:altLabel  "Cape de Verde"@fr , "Cape de Verde Islands"@fr , "Cape de Verde Islands"@en , "Cape de Verde Islands"@de , "Cape de Verde"@de , "Cape de Verde"@en , "Republic of Cabo Verde"@fr , "Republic of Cabo Verde"@de , "Republic of Cabo Verde"@en , "Ile du Cap Vert"@fr , "Cape verde islands"@fr , "Capverdien"@fr , "Cape verde islands"@de , "Kap Verden"@de , "Cape verde islands"@en , "Cape Verde islands"@fr , "Cape Verde islands"@en , "Cape Verde islands"@de , "Republik Kap Verde"@de , "Republic of Cape Verde"@fr , "Republic of Cape Verde"@de , "Republic of Cape Verde"@en , "Cap Verde"@fr , "Cap Verde"@de , "Cap Verde"@en , "Cap vert"@fr , "Cape Verde"@fr , "Cape Verde"@de , "Cape Verde"@en , "Iles du Cap-Vert"@fr , "Cap-vert"@fr , "Cap-Vert"@fr , "Cape Verdian"@fr , "Cape Verdian"@en , "Cape Verdian"@de , "ISO 3166-1:CV"@fr , "Cape Verde Archipelago"@fr , "Îles du Cap-Vert"@fr , "ISO 3166-1:CV"@de , "Cape Verde Archipelago"@de , "ISO 3166-1:CV"@en , "Cape Verde Archipelago"@en , "Cabo"@fr , "Cabo"@de , "Cabo"@en , "Kabu Verdi"@fr , "Kabu Verdi"@de , "Kabu Verdi"@en , "République du Cap-Vert"@fr , "Cabo Verde"@fr , "Cabo Verde"@en , "Cabo Verde"@de , "Kapverdisch"@de , "Cape Verdes"@fr , "Cape Verde Islands"@fr , "Kap Verde"@fr , "Kap Verde"@de , "Kap Verde"@en , "Cape verde"@fr , "Cape de Verd Islands"@fr , "Cape Verdes"@de , "Cape Verde Islands"@de , "Cape Verdes"@en , "Cape Verde Islands"@en , "Cape de Verd Islands"@en , "Cape de Verd Islands"@de , "Cape verde"@en , "Cape verde"@de , "Republica de Cabo Verde"@fr , "Republica de Cabo Verde"@en , "Republica de Cabo Verde"@de , "Capo Verde"@fr , "Capo Verde"@de , "Capo Verde"@en , "Kabu verdi"@fr , "Kabu verdi"@de , "Kabu verdi"@en , "Republique du Cap-Vert"@fr , "Kapverden"@fr , "Cape de Verde Isles"@fr , "Cape de Verde Isles"@de , "Cape de Verde Isles"@en , "Kapverden"@de , "Kapverden"@en , "Verde"@fr , "Cape-Verde"@fr , "Name of Cape Verde"@fr , "Île du Cap Vert"@fr , "Cape-Verde"@de , "Cape-Verde"@en , "Verde"@de , "Name of Cape Verde"@de , "Verde"@en , "Name of Cape Verde"@en , "República de Cabo Verde"@fr , "República de Cabo Verde"@de , "República de Cabo Verde"@en , "Cap Vert"@fr .
+
+<http://dbpedia.org/resource/Pedro_Pires>
+        rdfs:label     "Pedro Pires"@en , "Pedro Pires"@fr , "Pedro Pires"@de ;
+        dbo:inOffice   <http://dbpedia.org/resource/Pedro_Pires__2> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pedro_Pires> , <http://de.dbpedia.org/resource/Pedro_Pires> ;
+        skos:altLabel  "Pedro Verona Rodrigues Pires"@fr , "Pedro Verona Rodrigues Pires"@de , "Pedro Verona Rodrigues Pires"@en , "Pires"@fr , "Pires"@de , "Pires"@en , "Pedro Pires"@fr , "Pedro Pires"@en , "Pedro Pires"@de .

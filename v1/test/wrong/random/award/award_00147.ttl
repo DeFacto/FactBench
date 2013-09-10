@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Henry_Fonda>
+        rdfs:label     "Henry Fonda"@en , "Henry Fonda"@fr , "Henry Fonda"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Henry_Fonda__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Henry_Fonda> , <http://fr.dbpedia.org/resource/Henry_Fonda> ;
+        skos:altLabel  "Fonda"@en , "Henry Jaynes Fonda"@en , "Fonda"@de , "Fonda"@fr , "Henry Jaynes Fonda"@fr , "Henry Jaynes Fonda"@de , "Henry Fonda"@en , "Henry Fonda"@fr , "Henry Fonda"@de , "Henry fonda"@en , "Henry fonda"@fr , "Henry fonda"@de .
+
+<http://rdf.freebase.com/ns/m.018dk_>
+        rdfs:label     "Burlington"@de , "Burlington"@fr , "Burlington"@en ;
+        owl:sameAs     <http://dbpedia.org/resource/Burlington,_Ontario> , <http://de.dbpedia.org/resource/Burlington_(Ontario)> , <http://fr.dbpedia.org/resource/Burlington_(Ontario)> ;
+        skos:altLabel  "Holy Rosary Elementary School"@en , "Holy Rosary Elementary School"@fr , "Holy Rosary Elementary School"@de , "Shoreacres, Ontario"@en , "Shoreacres, Ontario"@fr , "Shoreacres, Ontario"@de , "St. Mark Elementary School"@en , "Palmer"@en , "St. Mark Elementary School"@fr , "St. Mark Elementary School"@de , "Palmer"@fr , "Palmer"@de , "Headon Forest"@en , "Kilbride, Ontario"@en , "Kilbride, Ontario"@fr , "Kilbride, Ontario"@de , "Headon Forest"@fr , "Headon Forest"@de , "Mountainside, ON"@en , "Mountainside, ON"@fr , "Mountainside, ON"@de , "Pineland Public School"@en , "Pineland Public School"@fr , "Pineland Public School"@de , "Longmoor, Ontario"@en , "LaSalle, Burlington"@en , "LaSalle, Burlington"@fr , "LaSalle, Burlington"@de , "Strathcona Gardens"@en , "Headon Forest, Ontario"@en , "Strathcona Gardens"@fr , "Strathcona Gardens"@de , "Headon Forest, Ontario"@fr , "Headon Forest, Ontario"@de , "Burlington, Ontario"@en , "Tansley, Ontario"@en , "Zimmerman, Ontario"@en , "Headon Forest, ON"@en , "Longmoor, Ontario"@fr , "Burlington, Ontario"@fr , "Zimmerman, Ontario"@fr , "Zimmerman, Ontario"@de , "Tansley, Ontario"@fr , "Headon Forest, ON"@fr , "Longmoor, Ontario"@de , "Tansley, Ontario"@de , "Headon Forest, ON"@de , "Burlington, Ontario"@de , "Downtown Burlington, Ontario"@en , "Downtown Burlington, Ontario"@fr , "Downtown Burlington, Ontario"@de , "Tyandaga, Ontario"@en , "Tyandaga, Ontario"@fr , "Tyandaga, Ontario"@de , "Mountainside, Ontario"@en , "Mountainside, Ontario"@fr , "Mountainside, Ontario"@de , "Orchard, Ontario"@en , "Orchard, Ontario"@fr , "Orchard, Ontario"@de , "Freeman, Ontario"@en , "Freeman, Ontario"@fr , "Freeman, Ontario"@de , "Longmoor"@en , "Longmoor"@fr , "Longmoor"@de , "Burlington ontario"@en , "Brant Hills"@en , "Burlington ontario"@fr , "Brant Hills"@fr , "Brant Hills"@de , "Burlington ontario"@de , "Kilbride"@en , "Kilbride"@fr , "Kilbride"@de , "Alton Vilage, Ontario"@en , "Pinedale, Ontario"@en , "Pinedale, Ontario"@fr , "Pinedale, Ontario"@de , "Alton Vilage, Ontario"@fr , "Alton Vilage, Ontario"@de , "Burlington, Canada"@en , "Appleby, Ontario"@en , "Appleby, Ontario"@fr , "Appleby, Ontario"@de , "Dynes, Ontario"@en , "Dynes, Ontario"@fr , "Dynes, Ontario"@de , "Nelson, Ontario"@en , "Nelson, Ontario"@fr , "Nelson, Ontario"@de , "Appleby"@en , "Palmer, ON"@en , "Palmer, Ontario"@en , "Millcroft, ON"@en , "Elizabeth Gardens"@en , "Millcroft, Ontario"@en , "Appleby"@fr , "Appleby"@de , "Millcroft, ON"@fr , "Millcroft, ON"@de , "Palmer, ON"@fr , "Palmer, Ontario"@fr , "Palmer, Ontario"@de , "Elizabeth Gardens"@fr , "Millcroft, Ontario"@fr , "Millcroft, Ontario"@de , "Palmer, ON"@de , "Elizabeth Gardens"@de , "Mountainside"@en , "Mountainside"@fr , "Mountainside"@de , "Burlington"@en , "Appleby, ON"@en , "Burlington"@fr , "Appleby, ON"@fr , "Appleby, ON"@de , "Burlington"@de , "Maple, Burlington"@en , "Maple, Burlington"@fr , "Maple, Burlington"@de , "Burlington, ON"@en , "Burlington, ON"@fr , "Burlington, ON"@de .
+
+<http://dbpedia.org/resource/Henry_Fonda__1>
+        dbo:from    "1990"^^xsd:gYear ;
+        dbo:office  <http://rdf.freebase.com/ns/m.018dk_> ;
+        dbo:to      "1990"^^xsd:gYear .

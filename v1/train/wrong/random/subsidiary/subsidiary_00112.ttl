@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.02fdym>
+        rdfs:label     "The Hitchhiker's Guide to the Galaxy"@en , "Per Anhalter durch die Galaxis"@de , "Le Guide du voyageur galactique"@fr ;
+        owl:sameAs     <http://dbpedia.org/resource/The_Hitchhiker's_Guide_to_the_Galaxy_(novel)> , <http://de.dbpedia.org/resource/Per_Anhalter_durch_die_Galaxis> , <http://fr.dbpedia.org/resource/Le_Guide_du_voyageur_galactique> ;
+        skos:altLabel  "Vierteilige Trilogie"@de , "Le Guide du voyageur galactique"@fr , "Zaphod Beeblebrox"@de , "Guide du routard galactique"@fr , "Fiet Vujagig"@de , "Le Guide du Routard galactique"@fr , "The Hitchhiker’s Guide to the Galaxy"@en , "The Hitchhiker’s Guide to the Galaxy"@de , "The Hitchhiker’s Guide to the Galaxy"@fr , "Per Anhalter durch die Galaxis"@de , "Le Guide galactique"@fr , "Vogone"@de , "The Illustrated Hitchhiker's Guide to the Galaxy"@en , "The Illustrated Hitchhiker's Guide to the Galaxy"@de , "The Illustrated Hitchhiker's Guide to the Galaxy"@fr , "The Hitch Hiker's Guide to the Galaxy"@en , "Dent"@de , "Guide"@fr , "The More Than Complete Hitchhiker's Guide"@en , "La vie, l'univers et tout le reste"@fr , "Hitchhiker's Guide to the Galaxy"@de , "The Hitchhiker's Guide to the Galaxy"@en , "Le guide du voyageur galactique"@fr , "The Hitchhiker's Guide to the Galaxy"@de , "The Hitchhiker's Guide to the Galaxy"@fr , "Arthur Dent"@de , "The HitchHiker's Guide to the Galaxy"@fr , "Anhalter"@de , "HHGTTG"@de , "PADDG"@de , "Guide galactique"@fr , "Guide du voyageur galactique"@fr , "A Hitchhiker's Guide to the Galaxy"@en , "Le Guide Du Voyageur Galactique"@fr , "A Hitchhiker's Guide to the Galaxy"@de , "A Hitchhiker's Guide to the Galaxy"@fr , "The Illustrated Hitch Hiker's Guide to the Galaxy"@en , "Tricia McMillan"@de , "The Universe of Douglas Adams"@en , "Vogonen"@de , "Le Guide du Voyageur Galactique"@fr , "THHGTTG"@de , "Le Guide du routard galactique"@fr , "Per Anhalter ins All"@de , "The Hitchhiker's Quartet"@en .
+
+<http://dbpedia.org/resource/Mardy_Fish>
+        rdfs:label     "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy Fish"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Mardy_Fish__1> ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Mardy_Fish> , <http://fr.dbpedia.org/resource/Mardy_Fish> ;
+        skos:altLabel  "Mardy Fish"@en , "Marty Fish"@en , "Marty Fish"@fr , "Marty Fish"@de , "Mardy Fish"@fr , "Mardy Fish"@de , "Mardy"@en , "Mardy"@de , "Mardy"@fr , "Fish"@en , "Fish"@fr , "Fish"@de .
+
+<http://dbpedia.org/resource/Mardy_Fish__1>
+        dbo:author  <http://rdf.freebase.com/ns/m.02fdym> ;
+        dbo:from    "1998"^^xsd:gYear ;
+        dbo:to      "1998"^^xsd:gYear .

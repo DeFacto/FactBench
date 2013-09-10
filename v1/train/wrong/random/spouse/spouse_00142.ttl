@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Long_Branch,_New_Jersey>
+        rdfs:label     "Long Branch, New Jersey"@en , "Long Branch, New Jersey"@fr , "Long Branch, New Jersey"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Long_Branch_(New_Jersey)> , <http://fr.dbpedia.org/resource/Long_Branch_(New_Jersey)> ;
+        skos:altLabel  "Long Branch, NJ"@en , "Long Branch, NJ"@fr , "Long Branch, NJ"@de , "Long Branch City, New Jersey"@en , "Long Branch City, NJ"@en , "Elberon, Monmouth County, New Jersey"@en , "Long Branch City, New Jersey"@fr , "Long Branch City, NJ"@fr , "Elberon, Monmouth County, New Jersey"@fr , "Long Branch City, New Jersey"@de , "Elberon, Monmouth County, New Jersey"@de , "Long Branch City, NJ"@de , "Elberon, Monmouth Co., New Jersey"@en , "Elberon, Monmouth Co., New Jersey"@fr , "Elberon, Monmouth Co., New Jersey"@de , "Long Branch, New Jersey"@en , "Long Branch"@en , "Long Branch, New Jersey"@fr , "Long Branch, New Jersey"@de , "Long Branch"@fr , "Long Branch"@de .
+
+<http://dbpedia.org/resource/Bruce_Springsteen__1>
+        dbo:author  <http://dbpedia.org/resource/Long_Branch,_New_Jersey> ;
+        dbo:from    "2006"^^xsd:gYear ;
+        dbo:to      "2007"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Bruce_Springsteen>
+        rdfs:label     "Bruce Springsteen"@de , "Bruce Springsteen"@fr , "Bruce Springsteen"@en ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Bruce_Springsteen__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Bruce_Springsteen> , <http://de.dbpedia.org/resource/Bruce_Springsteen> ;
+        skos:altLabel  "Bruce Springsteen's awards and honors"@en , "Bruce Springsteen's awards and honors"@de , "Bruce Springsteen's awards and honors"@fr , "Bruce Springsteen and the E-Street Band"@en , "Bruce Springsteen and the E-Street Band"@de , "Bruce Springsteen and the E-Street Band"@fr , "Springsteen, Bruce"@en , "Bruce Springsteen"@en , "Bruce Springsteen"@de , "Bruce Springsteen"@fr , "Springsteen, Bruce"@de , "Springsteen, Bruce"@fr , "Bruce \"The Boss\" Springsteen"@en , "Bruce \"The Boss\" Springsteen"@de , "Bruce \"The Boss\" Springsteen"@fr , "Bruce Springsteen and the E Street Band"@en , "Bruce Springsteen and the E Street Band"@de , "Bruce Springsteen and the E Street Band"@fr , "Bruce Springstein and The E Street Band"@en , "Bruce Springstein and The E Street Band"@de , "Bruce Springstein and The E Street Band"@fr , "E Street Band"@fr , "Bruce Springsteen & The E-Street Band"@en , "Bruce Springsteen & The E-Street Band"@de , "Bruce Springsteen & The E-Street Band"@fr , "Bruce Springsteen & The E Street Band"@en , "Bruce Springsteen & The E Street Band"@fr , "Bruce Springsteen & The E Street Band"@de , "Bruce Springstien"@en , "Bruce Springsteen & the E-Street Band"@en , "Bruce Springsteen & the E-Street Band"@de , "Bruce Springsteen & the E-Street Band"@fr , "Bruce Springstien"@fr , "Bruce Springstien"@de , "Bruce Frederick Joseph Springsteen"@en , "Bruce Frederick Joseph Springsteen"@de , "Bruce Frederick Joseph Springsteen"@fr , "Bruce springsteen"@en , "Bruce springsteen"@de , "Bruce springsteen"@fr , "Bruce Springstein"@en , "Bruce Springstein"@de , "Bruce Springstein"@fr , "Springstein"@en , "Springstein"@de , "Springstein"@fr , "Springsteen"@en , "Springsteen"@fr , "Springsteen"@de , "Bruce Frederick Springsteen"@en , "Bruce Frederick Springsteen"@de , "Bruce Frederick Springsteen"@fr , "Bruce Springsteen and The E Street Band"@en , "Bruce Springsteen and The E Street Band"@de , "Bruce Springsteen and The E Street Band"@fr , "Bruce Springsteen & the E Street Band"@en , "Bruce Springsteen & the E Street Band"@de , "Bruce Springsteen & the E Street Band"@fr .

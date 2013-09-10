@@ -1,0 +1,23 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Pau_Gasol__1>
+        dbo:from  "1999"^^xsd:gYear ;
+        dbo:team  <http://dbpedia.org/resource/Memphis_Grizzlies> ;
+        dbo:to    "2012"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Memphis_Grizzlies>
+        rdfs:label     "Memphis Grizzlies"@en , "Memphis Grizzlies"@fr , "Memphis Grizzlies"@de ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Memphis_Grizzlies> , <http://fr.dbpedia.org/resource/Grizzlies_de_Memphis> ;
+        skos:altLabel  "Memphis Grizzlies"@en , "Memphis Grizzlies"@fr , "Memphis Grizzlies"@de , "Grizzlies de Vancouver"@fr , "Vancouver Grizzlies"@fr , "Vancouver Grizzlies"@de , "Grizzlies de Memphis"@fr , "Memphis grizzles"@en , "Grizzlies"@en , "Memphis grizzles"@fr , "Grizzlies"@fr , "Grizzlies"@de , "Memphis grizzles"@de , "Grizzlies de memphis"@fr , "Grizzlies De Memphis"@fr .
+
+<http://dbpedia.org/resource/Pau_Gasol>
+        rdfs:label     "Pau Gasol"@de , "Pau Gasol"@en , "Pau Gasol"@fr ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://dbpedia.org/resource/Pau_Gasol__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Pau_Gasol> , <http://de.dbpedia.org/resource/Pau_Gasol> ;
+        skos:altLabel  "Pau Gasol"@en , "Gasol"@en , "Pao Gasol"@en , "Pau Gasol"@fr , "Gasol"@de , "Gasol"@fr , "Pau Gasol"@de , "Pao Gasol"@fr , "Pao Gasol"@de , "Paul Gasol"@en , "Paul Gasol"@fr , "Paul Gasol"@de .

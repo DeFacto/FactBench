@@ -1,0 +1,24 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.026n9q>
+        rdfs:label       "CA Inc."@en , "CA Technologies"@de , "CA, Inc."@fr ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.026n9q__10> ;
+        owl:sameAs       <http://fr.dbpedia.org/resource/CA_Technologies> , <http://dbpedia.org/resource/CA_Technologies> , <http://de.dbpedia.org/resource/CA_Technologies> ;
+        skos:altLabel    "CA INC"@en , "Computer Associates Intl."@fr , "Computer Associates, Inc."@fr , "Computer Associates Intl."@en , "Computer Associates Intl."@de , "Computer Associates, Inc."@en , "Computer Associates, Inc."@de , "Computer Associates International, Inc"@fr , "Computer Associates International, Inc"@en , "Computer Associates International, Inc"@de , "CA Inc."@fr , "CA Inc."@en , "CA Inc."@de , "CA, Inc."@fr , "CA, Inc."@en , "CA, Inc."@de , "Computer associates"@fr , "Computer associates"@en , "Computer associates"@de , "Computer Associates International, Inc."@fr , "Computer Associates International, Inc."@en , "Computer Associates International, Inc."@de , "CA Unicenter"@fr , "CA Unicenter"@en , "CA Unicenter"@de , "COMPUTER ASSOCIATES INTERNATIONAL INC"@en , "CA Services"@fr , "CA Services"@en , "CA Services"@de , "CA Personal Firewall"@fr , "Unicenter"@fr , "CA Personal Firewall"@en , "CA Personal Firewall"@de , "Unicenter"@en , "Unicenter"@de , "Computer Associates International"@fr , "Computer Associates International"@en , "Computer Associates International"@de , "CA, Inc"@fr , "CA, Inc"@en , "CA, Inc"@de , "CA International"@de , "Computer Associates"@fr , "Computer Associates"@en , "Computer Associates"@de , "CA Technologies"@fr , "CA Technologies"@en , "CA Technologies"@de .
+
+<http://rdf.freebase.com/ns/m.05q9l6>
+        rdfs:label  "Interlink Computer Sciences"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/Interlink_Computer_Sciences> .
+
+<http://rdf.freebase.com/ns/m.026n9q__10>
+        dbo:from        "2000"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.05q9l6> ;
+        dbo:to          "2000"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Interlink_Computer_Sciences>
+        skos:altLabel  "Interlink Computer Sciences"@en .

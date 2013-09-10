@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.0j_mj>
+        rdfs:label     "Flatland: A Romance of Many Dimensions"@en , "Flatland"@fr , "Flatland"@de ;
+        owl:sameAs     <http://dbpedia.org/resource/Flatland> , <http://fr.dbpedia.org/resource/Flatland> , <http://de.dbpedia.org/resource/Flatland> ;
+        skos:altLabel  "Flatland: a Romance of Many Dimensions"@fr , "Flatland: a Romance of Many Dimensions"@de , "Flatland: a Romance of Many Dimensions"@en , "Flat Land"@fr , "Flat Land"@de , "Flat Land"@en , "Flatland"@fr , "Flatland"@de , "Flatland"@en , "Flatland: A Romance of Many Dimensions"@fr , "Flatland - A Romance of Many Dimensions"@fr , "Flatland: A Romance of Many Dimensions"@de , "Flatland: A Romance of Many Dimensions"@en , "Flatland - A Romance of Many Dimensions"@de , "Flatland - A Romance of Many Dimensions"@en , "The Annotated Flatland: A Romance of Many Dimensions"@en .
+
+<http://rdf.freebase.com/ns/m.02rds>
+        rdfs:label       "Edwin Abbott Abbott"@en , "Edwin Abbott Abbott"@de , "Edwin Abbott Abbott"@fr ;
+        dbo:publication  <http://rdf.freebase.com/ns/m.0j_mj__70> ;
+        owl:sameAs       <http://dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://fr.dbpedia.org/resource/Edwin_Abbott_Abbott> , <http://de.dbpedia.org/resource/Edwin_Abbott_Abbott> ;
+        skos:altLabel    "Edwin Abbott"@fr , "Edwin Abbott"@de , "E. A. Abbott"@fr , "E. A. Abbott"@de , "Abbott, Edwin Abbott"@fr , "Abbott, Edwin Abbott"@de , "Edwin A. Abbott"@fr , "Edwin Abbott Abbott"@fr , "Edwin A. Abbott"@de , "Edwin Abbott Abbott"@de , "Edwin A. Abbott"@en , "A Square"@en , "Edwin abbott abbot"@fr , "Edwin abbott abbot"@de , "Abbott"@fr .
+
+<http://rdf.freebase.com/ns/m.0j_mj__70>
+        dbo:author  <http://rdf.freebase.com/ns/m.0j_mj> ;
+        dbo:from    "1884"^^xsd:gYear ;
+        dbo:to      "1884"^^xsd:gYear .

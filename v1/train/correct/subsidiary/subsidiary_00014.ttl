@@ -1,0 +1,20 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.03p34zh>
+        rdfs:label       "Silicon Graphics"@fr , "Silicon Graphics"@de , "Silicon Graphics, Inc."@en ;
+        dbo:acquisition  <http://rdf.freebase.com/ns/m.03p34zh__14> ;
+        owl:sameAs       <http://de.dbpedia.org/resource/Silicon_Graphics> , <http://fr.dbpedia.org/resource/Silicon_Graphics> , <http://dbpedia.org/resource/Silicon_Graphics> ;
+        skos:altLabel    "SGI"@en , "GRAPHICS PROPERTIES HOLDINGS INC"@en , "Silicon Graphics Inc."@en , "SGICQ"@en , "SGICQ"@de , "SGICQ"@fr , "Silicon Graphics Inc."@de , "Silicon Graphics Inc."@fr , "Silicon Graphics workstation"@en , "Silicon Graphics workstation"@de , "Silicon Graphics workstation"@fr , "Silicon Graphics, Inc."@en , "Silicon Graphics, Inc."@de , "Silicon Graphics, Inc."@fr , "SGCS"@en , "Silicon Graphics Computer Systems"@en , "SGID"@en , "SGID"@de , "SGID"@fr , "Silicon Graphics Incorporated"@fr , "Silicon Graphics Incorporated"@en , "Silicon Graphics Incorporated"@de , "Inc. Silicon Graphics"@en , "Inc. Silicon Graphics"@de , "Inc. Silicon Graphics"@fr , "SILICON GRAPHICS INC"@en , "Silicon"@fr , "Silicon Graphics"@fr , "Silicon Graphics"@en , "Silicon Graphics"@de , "Silicon Graphics, Incorporated"@fr , "Silicon Graphics, Incorporated"@en , "Silicon Graphics, Incorporated"@de , "Silicon Graphics workstations"@en , "Silicon Graphics workstations"@de , "Silicon Graphics workstations"@fr .
+
+<http://rdf.freebase.com/ns/m.02_82ns>
+        rdfs:label  "Cray Research, Inc."@en .
+
+<http://rdf.freebase.com/ns/m.03p34zh__14>
+        dbo:from        "1996"^^xsd:gYear ;
+        dbo:subsidiary  <http://rdf.freebase.com/ns/m.02_82ns> ;
+        dbo:to          "1996"^^xsd:gYear .

@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf.freebase.com/ns/m.01yh8h>
+        rdfs:label  "A Door into Ocean"@en ;
+        owl:sameAs  <http://dbpedia.org/resource/A_Door_into_Ocean> .
+
+<http://rdf.freebase.com/ns/m.01dhxm>
+        rdfs:label     "Robert Charles Wilson"@en , "Robert Charles Wilson"@fr , "Robert Charles Wilson"@de ;
+        <http://defacto.aksw.org/bnode/property>
+                <http://rdf.freebase.com/ns/m.01dhxm__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Robert_Charles_Wilson> , <http://dbpedia.org/resource/Robert_Charles_Wilson> , <http://de.dbpedia.org/resource/Robert_Charles_Wilson> ;
+        skos:altLabel  "Wilson"@fr , "Bob Chuck Wilson"@en , "Robert C. Wilson"@fr , "Robert Charles Wilson"@fr , "Robert Charles Wilson"@de , "Robert Charles Wilson"@en , "Robert-Charles Wilson"@fr .
+
+<http://rdf.freebase.com/ns/m.01dhxm__1>
+        dbo:from    "1993"^^xsd:gYear ;
+        dbo:spouse  <http://rdf.freebase.com/ns/m.01yh8h> ;
+        dbo:to      "1993"^^xsd:gYear .

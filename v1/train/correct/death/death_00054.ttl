@@ -1,0 +1,22 @@
+@prefix fbase: <http://rdf.freebase.com/ns> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://dbpedia.org/resource/Hendersonville,_Tennessee>
+        rdfs:label     "Hendersonville, Tennessee"@de , "Hendersonville, Tennessee"@en , "Hendersonville, Tennessee"@fr ;
+        owl:sameAs     <http://de.dbpedia.org/resource/Hendersonville_(Tennessee)> , <http://fr.dbpedia.org/resource/Hendersonville_(Tennessee)> ;
+        skos:altLabel  "Hendersonville"@fr , "Hendersonville"@de , "Hendersonville"@en , "LOCODE:USHDV"@fr , "LOCODE:USHDV"@de , "LOCODE:USHDV"@en , "Hendersonville, Tennessee"@fr , "Hendersonville, Tennessee"@de , "Hendersonville, Tennessee"@en , "Hendersonville, TN"@fr , "Hendersonville, TN"@de , "Hendersonville, TN"@en .
+
+<http://dbpedia.org/resource/Roy_Orbison>
+        rdfs:label     "Roy Orbison"@en , "Roy Orbison"@fr , "Roy Orbison"@de ;
+        dbo:death      <http://dbpedia.org/resource/Roy_Orbison__1> ;
+        owl:sameAs     <http://fr.dbpedia.org/resource/Roy_Orbison> , <http://de.dbpedia.org/resource/Roy_Orbison> ;
+        skos:altLabel  "Orbison"@fr , "Orbison"@de , "Orbison"@en , "Roy Orbison"@fr , "Roy orbison"@fr , "Roy orbison"@de , "Roy orbison"@en , "Roy Orbison"@de , "Roy Orbison"@en , "Kelton"@fr , "Lefty Wilbury"@fr , "Kelton"@de , "Lefty Wilbury"@de , "Kelton"@en , "Lefty Wilbury"@en , "Roy Kelton Orbison"@fr , "Roy Kelton Orbison"@de , "Roy Kelton Orbison"@en , "Roy K. Orbison"@fr , "Roy K. Orbison"@de , "Roy K. Orbison"@en .
+
+<http://dbpedia.org/resource/Roy_Orbison__1>
+        dbo:deathPlace  <http://dbpedia.org/resource/Hendersonville,_Tennessee> ;
+        dbo:from        "1988-12-06"^^xsd:date ;
+        dbo:to          "1988-12-06"^^xsd:date .
