@@ -2,6 +2,7 @@ FactBench
 =====
 
 *FactBench* is a multilingual benchmark for the evaluation of fact validation algorithms. All facts in *FactBench* are scoped with a timespan in which they were true, enableing the validation of temporal relation extraction algorithms. *FactBench* currently supports english, german and french.
+You can get the current release [here](https://github.com/AKSW/FactBench/releases/tag/1.0).
 
 *FactBench* is a set of [RDF](http://www.w3.org/TR/rdf-primer/) models. Each model contains a singular fact and the timespan in which it holds true. *FactBench* consists of a **train set**, a **test set** and a set of auxilliary files which were needed to create the benchmark.
 
