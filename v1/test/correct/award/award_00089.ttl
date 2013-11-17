@@ -10,14 +10,11 @@
         dbo:from   "1961"^^xsd:gYear ;
         dbo:to     "1961"^^xsd:gYear .
 
-<http://dbpedia.org/resource/Ivo_Andri%C4%87>
-        skos:altLabel  "Ivo Andric"@en , "Ivo Andrić"@en .
-
 <http://rdf.freebase.com/ns/m.0fb7w>
         rdfs:label         "Ivo Andrić"@de , "Ivo Andrić"@en , "Ivo Andrić"@fr ;
         dbo:recievedAward  <http://rdf.freebase.com/ns/m.0fb7w__89> ;
         owl:sameAs         <http://dbpedia.org/resource/Ivo_Andri%C4%87> ;
-        skos:altLabel      "Иво Андрић"@en , "Ivan Andric"@en , "Ivo Andric"@en .
+        skos:altLabel      "Иво Андрић"@en , "Ivan Andric"@en , "Ivo Andric"@en , "Ivo Andric"@en , "Ivo Andrić"@en .
 
 <http://rdf.freebase.com/ns/m.0ddd9>
         rdfs:label     "Prix Nobel de littérature"@fr , "Nobelpreis für Literatur"@de , "Nobel Prize in Literature"@en ;

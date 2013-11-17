@@ -9,10 +9,7 @@
         rdfs:label         "Bjørnstjerne Bjørnson"@en , "Bjørnstjerne Bjørnson"@de , "Bjørnstjerne Bjørnson"@fr ;
         dbo:recievedAward  <http://rdf.freebase.com/ns/m.018y_m__139> ;
         owl:sameAs         <http://dbpedia.org/resource/Bj%C3%B8rnstjerne_Bj%C3%B8rnson> ;
-        skos:altLabel      "Bjørnstjerne Martinius Bjørnson"@en , "Bjørnson, Bjørnstjerne"@en , "Björnstjerne Björnson"@en , "Bjornstjerne Bjornson"@en .
-
-<http://dbpedia.org/resource/Bj%C3%B8rnstjerne_Bj%C3%B8rnson>
-        skos:altLabel  "Bjørnstjerne Bjørnson"@en .
+        skos:altLabel      "Bjørnstjerne Martinius Bjørnson"@en , "Bjørnson, Bjørnstjerne"@en , "Björnstjerne Björnson"@en , "Bjornstjerne Bjornson"@en , "Bjørnstjerne Bjørnson"@en .
 
 <http://rdf.freebase.com/ns/m.018y_m__139>
         dbo:award  <http://rdf.freebase.com/ns/m.0ddd9> ;

@@ -9,10 +9,7 @@
         rdfs:label         "Pär Lagerkvist"@en , "Pär Lagerkvist"@de , "Pär Lagerkvist"@fr ;
         dbo:recievedAward  <http://rdf.freebase.com/ns/m.0qkrj__113> ;
         owl:sameAs         <http://dbpedia.org/resource/P%C3%A4r_Lagerkvist> ;
-        skos:altLabel      "Pär Lagerkvist"@en , "Pär Fabian Lagerkvist"@en , "Lagerkvist, Pär"@en , "Par Lagerkvist"@en .
-
-<http://dbpedia.org/resource/P%C3%A4r_Lagerkvist>
-        skos:altLabel  "Pär Lagerkvist"@en , "Par Lagerkvist"@en .
+        skos:altLabel      "Pär Lagerkvist"@en , "Pär Fabian Lagerkvist"@en , "Lagerkvist, Pär"@en , "Par Lagerkvist"@en , "Pär Lagerkvist"@en , "Par Lagerkvist"@en .
 
 <http://rdf.freebase.com/ns/m.0ddd9>
         rdfs:label     "Prix Nobel de littérature"@fr , "Nobelpreis für Literatur"@de , "Nobel Prize in Literature"@en ;

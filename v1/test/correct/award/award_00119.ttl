@@ -5,14 +5,11 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 
-<http://dbpedia.org/resource/Camilo_Jos%C3%A9_Cela>
-        skos:altLabel  "Camilo Jose Cela"@en , "Camilo José Cela"@en .
-
 <http://rdf.freebase.com/ns/m.0k0pms>
         rdfs:label         "Camilo José Cela"@de , "Camilo José Cela"@fr , "Camilo José Cela"@en ;
         dbo:recievedAward  <http://rdf.freebase.com/ns/m.0k0pms__119> ;
         owl:sameAs         <http://dbpedia.org/resource/Camilo_Jos%C3%A9_Cela> ;
-        skos:altLabel      "Camilo Cela"@en , "Camilo Jose Cela"@en .
+        skos:altLabel      "Camilo Cela"@en , "Camilo Jose Cela"@en , "Camilo Jose Cela"@en , "Camilo José Cela"@en .
 
 <http://rdf.freebase.com/ns/m.0k0pms__119>
         dbo:award  <http://rdf.freebase.com/ns/m.0ddd9> ;

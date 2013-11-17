@@ -5,14 +5,11 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 
-<http://dbpedia.org/resource/Jos%C3%A9_Echegaray>
-        skos:altLabel  "Jose Echegaray"@en , "José Echegaray"@en .
-
 <http://rdf.freebase.com/ns/m.01jbqm>
         rdfs:label         "José de Echegaray"@fr , "José Echegaray"@en , "José Echegaray"@de ;
         dbo:recievedAward  <http://rdf.freebase.com/ns/m.01jbqm__121> ;
         owl:sameAs         <http://dbpedia.org/resource/Jos%C3%A9_Echegaray> ;
-        skos:altLabel      "José Echegaray y Eizaguirre"@en , "Jose Echegaray"@en .
+        skos:altLabel      "José Echegaray y Eizaguirre"@en , "Jose Echegaray"@en , "Jose Echegaray"@en , "José Echegaray"@en .
 
 <http://rdf.freebase.com/ns/m.0ddd9>
         rdfs:label     "Prix Nobel de littérature"@fr , "Nobelpreis für Literatur"@de , "Nobel Prize in Literature"@en ;
