@@ -97,7 +97,3 @@ We used the following methods to generate the negative example sets dubbed *subj
     <tr><td>|_____</td><td>rdf</td><td></td><td></td><td></td><td>surface forms and in/outbound links for wikipedia concepts</td></tr>
     <tr><td>|_____</td><td>freebase</td><td></td><td></td><td></td><td>results of freebase queries (json)</td></tr>
 </table>
-
-##How to use FactBench?
-
-##How can I contribute?
