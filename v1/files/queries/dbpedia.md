@@ -1,4 +1,4 @@
-Prime Minister of Countries:
+1 - Prime Minister of Countries:
 
 	PREFIX dbo: <http://dbpedia.org/ontology/>
 	PREFIX dbr: <http://dbpedia.org/resource/>
@@ -17,7 +17,7 @@ Prime Minister of Countries:
 		FILTER (regex(?office, "^Prime Minister of.*"))
 	}
 	
-Births of persons:
+2 - Births of persons:
 	
 	PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -27,12 +27,9 @@ Births of persons:
 	    ?person dbpedia-owl:birthPlace ?place .   
 	    ?place rdf:type dbpedia-owl:City  .   
 	    ?person dbpedia-owl:birthDate ?date .  
-	    ?person dbpedia-owl:numberOfInboundLinks ?personInbound . 
-	    ?place dbpedia-owl:numberOfInboundLinks ?placeInbound . 
 	}   
-	ORDER BY DESC(?personInbound) DESC(?placeInbound)
 
-Actors starring in a movie:
+3 - Actors starring in a movie:
 	
 	PREFIX dbo: <http://dbpedia.org/ontology/>
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -42,11 +39,9 @@ Actors starring in a movie:
 	    ?film dbo:starring ?actor .   
 	    ?film rdf:type dbo:Film .  
 	    ?film dbo:releaseDate ?date .
-	    ?film dbo:numberOfInboundLinks ?filmInbound . 
 	}   
-	ORDER BY DESC(?filmInbound) ASC(?date)
 
-Deaths of persons:
+4 - Deaths of persons:
 		
 	PREFIX dbpedia-owl: <http://dbpedia.org/ontology/> 
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -57,12 +52,9 @@ Deaths of persons:
 	    ?person dbpedia-owl:deathPlace ?place .  
 	    ?place rdf:type dbpedia-owl:City  .  
 	    ?person dbpedia-owl:deathDate ?date . 
-	    ?person dbpedia-owl:numberOfInboundLinks ?personInbound .
-	    ?place dbpedia-owl:numberOfInboundLinks ?placeInbound .
 	} 
-	ORDER BY DESC(?personInbound) DESC(?placeInbound)
 	
-NBA team associations of basketball players:
+5 - NBA team associations of basketball players:
 	
 	PREFIX dbo: <http://dbpedia.org/ontology/>
 	PREFIX dbr: <http://dbpedia.org/resource/>
