@@ -9,26 +9,21 @@ You can get the current release [here](https://github.com/AKSW/FactBench/release
 ##Which relations does *FactBench* contain?
 *FactBench* provides data for 10 relations. The data was automatically extracted from Wikipedia (DBpedia respectivly) and Freebase. 
 
- * *award* 
-   * persons who received a nobel prize (timepoint, freebase)
- * *birth*
-   * birth place and date of a person (timepoint, dbpedia)
- * *death*
-   * death place and date of a person (timepoint, dbpedia)
- * *foundationPlace*
-   * place and date of a company's foundation (timepoint, freebase)
- * *leader*
- 	* presidents of countries (timespan, dbpedia)
- * *nbateam*
- 	* team associations of NBA players (timespan, dbpedia)
- * *publicationDate*
- 	* author of a book and it's publication date (timepoint, freebase)
- * *spouse*
- 	* marriage of two persons (timespan, freebase)
- * *starring*
- 	* actors who starred in films (timepoint, dbpedia)
- * *subsidiary*
-   * companies and their subsidiaries (timepoint, freebase)
+<table>
+    <tr>
+      <td>#</td><td>property</td><td>description</td><td>type</td><td>KB</td>
+    </tr>
+    <tr><td>1</td><td>award</td><td>persons who received a nobel prize</td><td>timepoint</td><td>Freebase</td></tr>
+    <tr><td>2</td><td>birth</td><td>birth place and date of a person</td><td>timepoint</td><td>DBPedia</td></tr>
+    <tr><td>3</td><td>death</td><td>death place and date of a person</td><td>timepoint</td><td>DBPedia</td></tr>
+    <tr><td>4</td><td>foundationPlace</td><td>place and date of a company's foundation</td><td>timepoint</td><td>Freebase</td></tr>
+    <tr><td>5</td><td>leader</td><td>presidents of countries</td><td>timespan</td><td>DBPedia</td></tr>
+    <tr><td>6</td><td>nbateam</td><td>team associations of NBA players</td><td>timespan</td><td>DBPedia</td></tr>
+    <tr><td>7</td><td>publicationDate</td><td>author of a book and it's publication date</td><td>timepoint</td><td>Freebase</td></tr>
+    <tr><td>8</td><td>spouse</td><td>marriage of two persons </td><td>timespan</td><td>Freebase</td></tr>
+    <tr><td>9</td><td>starring</td><td>actors who starred in films</td><td>timepoint</td><td>DBPedia</td></tr>
+    <tr><td>10</td><td>subsidiary</td><td>companies and their subsidiaries</td><td>timepoint</td><td>Freebase</td></tr>
+</table>
    
 The granularity of *FactBench*'s time information is year. This means that a timespan is an interval of two years, e.g. 2008 - 2012. A timepoint is considered as a timespan with the same start and end year, e.g. 2008 - 2008.
 
