@@ -69,17 +69,17 @@ NBA team associations of basketball players:
 	PREFIX yago: <http://dbpedia.org/class/yago/>
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 	PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-	SELECT ?player ?timePeriod ?team ?from ?to 
+	SELECT ?player ?timePeriod ?team ?from ?to
 	FROM <http://dbpedia.org> 
 	WHERE {
-		 ?player dbo:league	dbr:NBA  .
-		 ?player dbo:termPeriod ?timePeriod .
-		 ?timePeriod dbo:team ?team .
-	    ?team rdf:type yago:NationalBasketballAssociationTeams .
-		 ?timePeriod dbo:team ?team .
-		 ?timePeriod dbo:activeYearsStartYear ?from . 
-		 ?timePeriod dbo:activeYearsEndYear ?to .
-		 FILTER( xsd:gYear(?from) > "2000"^^xsd:gYear )
+	     ?player dbo:league dbr:National_Basketball_Association .
+	     ?player dbo:termPeriod ?timePeriod .
+	     ?timePeriod dbo:team ?team .
+	     ?timePeriod dbo:activeYearsStartYear ?from . 
+	     ?timePeriod dbo:activeYearsEndYear ?to .
+	     ?team rdf:type yago:WikicatNationalBasketballAssociationTeams .
+	     FILTER( xsd:gYear(?from) > "2000"^^xsd:gYear )
 	}
 		
