@@ -32,22 +32,28 @@ public class DBTrends {
      * @throws Exception
      */
     public List<Entity> getDbins(File f) throws Exception {
+        System.out.print(f);
         List<String[]> infos = this.csvreader(f.getPath());
         List<String> entries = new ArrayList<String>();
         int counter = 0;
         int empty = 0;
         for (String[] info : infos) {
             if(counter > 0){
-                URL url= new URL(info[0]);
-                URI uri = new URI(url.getProtocol(), url.getUserInfo(), url.getHost(), url.getPort(), url.getPath(), url.getQuery(), url.getRef());
-                //System.out.println("Resource: " + uri.toASCIIString());
-                Entity e = Knowledgebase.DBpedia39.getEntity(uri.toASCIIString());
-                if(e != null){
-                    trends.add(e);
-                    entries.add(info[0]+","+info[1]+","+info[2]+","+e.getResourceInDegree()+","+e.getResourceOutDegree());
-                }else{
-                    entries.add(info[0]+","+info[1]+","+info[2]+",-1,-1");
-                    empty++;
+                try{
+                    URL url= new URL(info[0]);
+                    URI uri = new URI(url.getProtocol(), url.getUserInfo(), url.getHost(), url.getPort(), url.getPath(), url.getQuery(), url.getRef());
+                    System.out.println("Resource: " + uri.toASCIIString());
+                    Entity e = Knowledgebase.DBpedia39.getEntity(uri.toASCIIString());
+                    if(e != null){
+                        trends.add(e);
+                        entries.add(info[0]+","+info[1]+","+info[2]+","+e.getResourceInDegree()+","+e.getResourceOutDegree());
+                    }else{
+                        entries.add(info[0]+","+info[1]+","+info[2]+",-1,-1");
+                        empty++;
+                    }
+                }
+                catch (Exception e){
+                    System.out.print(e.toString());
                 }
             }else{
                 // First line of CSV still need for new CSV
@@ -56,7 +62,7 @@ public class DBTrends {
             counter++;
         }
         System.out.println("Counts of Emptiness: "+empty);
-        this.writecsv(f.getPath() + "out_" + f.getName(), entries);
+        this.writecsv("out_" + f.getName(), entries);
         return trends;
     }
 
