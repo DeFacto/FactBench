@@ -46,3 +46,8 @@ fabric.properties
 /factbench/factbench.iml
 factbench/factbench.iml
 factbench/src/main/
+core/core.iml
+core/src/test/
+core/target/
+target/
+core/src/main/resources/

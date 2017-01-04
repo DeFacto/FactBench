@@ -1,31 +1,26 @@
-package main.java;
-
 import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.CSVWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.WildcardFileFilter;
+import org.dbtrends.Entity;
+import org.dbtrends.Knowledgebase;
+
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
-import org.dbtrends.Entity;
-import org.dbtrends.Knowledgebase;
 
 /**
- * Created by johnyscrazy on 04/01/17.
+ * Created by esteves on 04.01.17.
  */
-public class DBTrendsSupport {
+public class DBTrends {
 
-    private List<Entity> trends = new ArrayList<>();
-    private static final String dbpedia1 = "/Users/media/NetBeansProjects/factbench_defacto/src/main/webapp/dbpedia/dbpedia_001.csv";
-    private static final String dbpedia2 = "/Users/media/NetBeansProjects/factbench_defacto/src/main/webapp/dbpedia/dbpedia_002.csv";
-    private static final String dbpedia3 = "/Users/media/NetBeansProjects/factbench_defacto/src/main/webapp/dbpedia/dbpedia_003.csv";
-    private static final String dbpedia4 = "/Users/media/NetBeansProjects/factbench_defacto/src/main/webapp/dbpedia/dbpedia_004.csv";
-    private static final String dbpedia5 = "/Users/media/NetBeansProjects/factbench_defacto/src/main/webapp/dbpedia/dbpedia_005.csv";
+    private List<Entity> trends = new ArrayList<Entity>();
+    private static final String dbpediafiles = "/home/esteves/github/FactBench/files/dbpedia/";
     private CSVReader reader;
 
     /**
@@ -36,9 +31,9 @@ public class DBTrendsSupport {
      * @throws URISyntaxException
      * @throws Exception
      */
-    public List<Entity> getDbins() throws UnsupportedEncodingException, MalformedURLException, URISyntaxException, Exception {
-        List<String[]> infos = this.csvreader(dbpedia5);
-        List<String> entries = new ArrayList<>();
+    public List<Entity> getDbins(File f) throws Exception {
+        List<String[]> infos = this.csvreader(f.getPath());
+        List<String> entries = new ArrayList<String>();
         int counter = 0;
         int empty = 0;
         for (String[] info : infos) {
@@ -61,12 +56,12 @@ public class DBTrendsSupport {
             counter++;
         }
         System.out.println("Counts of Emptiness: "+empty);
-        this.writecsv("dbpedia_005_dbtrends.csv", entries);
+        this.writecsv(f.getPath() + "out_" + f.getName(), entries);
         return trends;
     }
 
     public List<String[]> csvreader(String csv){
-        List<String[]> lines = new ArrayList<>();
+        List<String[]> lines = new ArrayList<String[]>();
         try{
             reader = new CSVReader(new FileReader(csv));
             lines = reader.readAll();
@@ -78,9 +73,9 @@ public class DBTrendsSupport {
     public void writecsv(String csv, List<String> entries) throws IOException{
         try {
             CSVWriter writer = new CSVWriter(new FileWriter(
-                    "/Users/media/NetBeansProjects/factbench_defacto/src/main/webapp/dbpedia/"+csv), ',');
+                    "/home/esteves/github/FactBench/files/dbpedia/output/"+csv), ',');
 
-            List<String[]> toWrite = new ArrayList<>();
+            List<String[]> toWrite = new ArrayList<String[]>();
             //String[] array = new String[entries.size()];
             //writer.writeNext(entries.toArray(array));
 
@@ -106,9 +101,20 @@ public class DBTrendsSupport {
         this.trends = trends;
     }
 
-    /**
-     * Creates a new instance of DBTrends
-     */
-    public DBTrendsSupport() {
+    public DBTrends(){
+
     }
+
+    public static void main(String[] args) throws Exception{
+        File directory = new File(dbpediafiles);
+        Collection<File> files =
+                FileUtils.listFiles(directory, new WildcardFileFilter("*.csv"), null);
+        DBTrends db = new DBTrends();
+        for (File f: files){
+            db.getDbins(f);
+        }
+        System.out.println("done");
+
+    }
+
 }
