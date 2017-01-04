@@ -21,6 +21,7 @@ public class DBTrends {
 
     private List<Entity> trends = new ArrayList<Entity>();
     private static final String dbpediafiles = "/home/esteves/github/FactBench/files/dbpedia/";
+    private static final String dbpediafiles_output = dbpediafiles + "output/";
     private CSVReader reader;
 
     /**
@@ -79,7 +80,7 @@ public class DBTrends {
     public void writecsv(String csv, List<String> entries) throws IOException{
         try {
             CSVWriter writer = new CSVWriter(new FileWriter(
-                    "/home/esteves/github/FactBench/files/dbpedia/output/"+csv), ',');
+                    dbpediafiles_output+csv), ',');
 
             List<String[]> toWrite = new ArrayList<String[]>();
             //String[] array = new String[entries.size()];
