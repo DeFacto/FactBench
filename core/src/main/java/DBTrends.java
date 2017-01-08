@@ -21,7 +21,7 @@ public class DBTrends {
 
     private List<Entity> trends = new ArrayList<Entity>();
     private static final String dbpediafiles = "/home/esteves/github/FactBench/files/dbpedia/";
-    private static final String dbpediafiles_output = dbpediafiles + "output/";
+    private static final String dbpediafiles_output = dbpediafiles + "complete/";
     private CSVReader reader;
 
     /**
