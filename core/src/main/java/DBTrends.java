@@ -39,6 +39,10 @@ public class DBTrends {
         int counter = 0;
         int empty = 0;
         for (String[] info : infos) {
+            String temp = "";
+            for (int i=0; i<info.length; i++){
+                temp += info[i] + ",";
+            }
             if(counter > 0){
                 try{
                     URL url= new URL(info[0]);
@@ -47,9 +51,9 @@ public class DBTrends {
                     Entity e = Knowledgebase.DBpedia39.getEntity(uri.toASCIIString());
                     if(e != null){
                         trends.add(e);
-                        entries.add(info[0]+","+info[1]+","+info[2]+","+e.getResourceInDegree()+","+e.getResourceOutDegree());
+                        entries.add(temp + e.getResourceInDegree() + "," + e.getResourceOutDegree());
                     }else{
-                        entries.add(info[0]+","+info[1]+","+info[2]+",-1,-1");
+                        entries.add(temp + "-1,-1");
                         empty++;
                     }
                 }
@@ -58,7 +62,7 @@ public class DBTrends {
                 }
             }else{
                 // First line of CSV still need for new CSV
-                entries.add(info[0]+","+info[1]+","+info[2]+",dbin,dbout");
+                entries.add(temp + "dbin,dbout");
             }
             counter++;
         }
